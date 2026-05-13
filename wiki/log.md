@@ -4,6 +4,41 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-05-13] deep-dive sweep | mined OSINT/Cybersec/SEO/3D-printing/Image-gen for Claude Code material
+
+Cross-wiki inventory pass dispatched two parallel Explore agents to scan the four sibling wikis (OSINT was the largest pool; SEO + Cybersec produced the densest finds). 48 OSINT entries + ~20 sibling entries surfaced. Decisions:
+
+**16 NEW pages added**:
+- `entities/tools/`: lazy-tool, claude-code-router, spec-kit, ttok, tech-debt-skill, cua, claude-code-ultimate-guide
+- `entities/mcp-servers/`: (none new this round)
+- `entities/skills/` (new subdir): tech-debt-audit, claude-seo-agrici, marketingskills, geo-seo-claude
+- `entities/commands/` (new subdir): plugin
+- `entities/patterns/`: tier1-tier2-agent-model
+- `concepts/`: claude-desktop-vs-claude-code, three-cache-architecture, mcp-context-optimization
+
+**8 existing pages deepened** (added Relations + new sections):
+- claude-code (now hub-flagged), claude-mem, anthropic-skills, token-economics-and-prompt-caching, subagent-orchestration, hooks-for-automation, ralph-loop, context-engineering
+
+**Cross-wiki backlinks added** (10 sibling pages):
+- SEO: claude-code-tool-stack, claude-platforms, claude-seo-agrici, geo-seo-claude, marketingskills, github-repo-audit-2026-05-07
+- Cybersec: llm-pentest-automation, pentest-ai-agents, cua, claude-code-ultimate-guide
+- Plus `ccc-wiki` row added to SEO and Cybersec wikis' `Related Wikis` tables (the OSINT row was added at bootstrap)
+
+**Lint**: clean. 32 pages indexed (up from 16), 179 outbound edges (up from 58), 36/36 cross-wiki refs resolve (up from 8/8). 0 orphans, 0 bidirectional gaps, 0 dangling refs, 0 frontmatter issues.
+
+**Source-wiki page-count by category** (post-sweep):
+- entities/tools: 13 (up from 6)
+- entities/mcp-servers: 3
+- entities/skills: 4 (new)
+- entities/commands: 1 (new)
+- entities/patterns: 3 (up from 2)
+- concepts: 8 (up from 5)
+- TOTAL seed pages: 32 (up from 16)
+
+Backlogged in ROADMAP for follow-up depth: structured-findings-schema pattern, cpr-context-compression pattern, agent-vm-sandboxing concept, skill-vetting concept, twelve-rule-claude-md-template concept, plus per-skill audit pages for any future skill adoption.
+
+---
+
 ## [2026-05-13] bootstrap | CCC meta-wiki seeded from sibling-wiki schemas
 
 Fifth sibling wiki in the Cemini federation initialized. Topic: meta — how Cemini operates Claude Code.

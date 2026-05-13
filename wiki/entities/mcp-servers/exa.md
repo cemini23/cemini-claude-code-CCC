@@ -6,6 +6,8 @@ keywords: [exa, exa.ai, exa-mcp-server, web_search_exa, deep_researcher, embeddi
 related:
   - entities/tools/exa-mcp.md
   - concepts/cross-wiki-routing.md
+  - concepts/claude-desktop-vs-claude-code.md
+  - entities/tools/lazy-tool.md
 maturity: core
 created: 2026-05-13
 updated: 2026-05-13

@@ -7,6 +7,7 @@ related:
   - entities/tools/claude-code.md
   - entities/patterns/ralph-loop.md
   - entities/patterns/full-prompt-goal-template.md
+  - entities/tools/spec-kit.md
 maturity: draft
 created: 2026-05-13
 updated: 2026-05-13

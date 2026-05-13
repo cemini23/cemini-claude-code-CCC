@@ -5,6 +5,14 @@ tags: [mcp-server, anthropic, skills, marketplace, skill-md, plugin]
 keywords: [anthropic skills, agent skills, skill marketplace, SKILL.md, instructa agent-skills, claude-plugins-official]
 related:
   - entities/tools/claude-code.md
+  - entities/commands/plugin.md
+  - entities/skills/tech-debt-audit.md
+  - entities/skills/claude-seo-agrici.md
+  - entities/skills/marketingskills.md
+  - entities/skills/geo-seo-claude.md
+  - entities/tools/claude-code-ultimate-guide.md
+  - concepts/claude-desktop-vs-claude-code.md
+  - entities/tools/tech-debt-skill.md
 maturity: draft
 created: 2026-05-13
 updated: 2026-05-13
@@ -13,6 +21,10 @@ updated: 2026-05-13
 ## Relations
 
 - `@entities/tools/claude-code.md` — host harness that loads skills
+- `@entities/commands/plugin.md` — install path: `/plugin marketplace add <repo>` + `/plugin install <name>`
+- `@entities/skills/tech-debt-audit.md`, `@entities/skills/claude-seo-agrici.md`, `@entities/skills/marketingskills.md`, `@entities/skills/geo-seo-claude.md` — Cemini-installed skills that exemplify the spec
+- `@entities/tools/claude-code-ultimate-guide.md` — reference catalog of 28 CVEs + 655 malicious-skill patterns relevant to Phase-0 skill audits
+- `@concepts/claude-desktop-vs-claude-code.md` — skills are Claude Code-only
 
 ## Raw Concept
 
@@ -62,7 +74,28 @@ After the frontmatter, the body is the **skill protocol** — markdown instructi
 
 Cemini's adoption is selective. The trigger for adoption is: a skill solves a problem Cemini has hit ≥3 times. Catalog browsing is not a Cemini workflow.
 
+### Cemini's installed skills (reference set)
+
+| Skill | Role | Page |
+|-------|------|------|
+| `tech-debt-audit` | Whole-repo audit, file:line citations + "looks bad but fine" section | `@entities/skills/tech-debt-audit.md` |
+| `seo` (claude-seo) | Local SEO: GBP, NAP, geo-grid, competitors | `@entities/skills/claude-seo-agrici.md` |
+| `marketing-skills` | PAS / brand-voice / localized copy frameworks | `@entities/skills/marketingskills.md` |
+| `geo-seo` | Generative-engine SEO: citability, AI-crawler analysis | `@entities/skills/geo-seo-claude.md` |
+
+### Phase-0 skill audit checklist
+
+When evaluating a candidate skill from a marketplace:
+
+1. **License via API** — `gh api repos/<owner>/<repo> --jq '.license.spdx_id'`. README claims aren't enough.
+2. **Maintenance signal** — last commit, open-issue responsiveness, recent issue resolutions
+3. **Permission footprint** — what Bash patterns does the skill require? Match against `permissions.allow|deny` policy
+4. **Malicious-pattern check** — cross-check against `@entities/tools/claude-code-ultimate-guide.md`'s 655 patterns
+5. **Spec compliance** — frontmatter has `name`, `description`, `license`, `metadata.author`, `metadata.version`?
+6. **Catalog churn risk** — pin to a known-good commit if the skill matters operationally
+
 ## Dead Ends
 
 - **Mirroring the marketplace catalog** — high cost, high churn, low durability. See LESSONS 2026-05-13.
 - **Treating `description:` as documentation** — it's a *matcher*. The LLM uses it to decide whether to invoke; flowery descriptions delay invocation or mis-trigger.
+- **Installing skills without Phase-0 audit** — see `@entities/tools/claude-code-ultimate-guide.md`'s 655 malicious-skill patterns; supply-chain attacks on skill libraries are documented and growing.

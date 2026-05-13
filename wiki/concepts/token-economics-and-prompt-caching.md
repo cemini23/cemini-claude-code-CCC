@@ -8,6 +8,11 @@ related:
   - entities/patterns/ralph-loop.md
   - concepts/context-engineering.md
   - concepts/subagent-orchestration.md
+  - concepts/three-cache-architecture.md
+  - concepts/mcp-context-optimization.md
+  - entities/tools/lazy-tool.md
+  - entities/tools/claude-code-router.md
+  - entities/tools/ttok.md
 maturity: validated
 created: 2026-05-13
 updated: 2026-05-13
@@ -19,6 +24,11 @@ updated: 2026-05-13
 - `@entities/patterns/ralph-loop.md` — Ralph's many-fresh-contexts profile interacts with cache TTL
 - `@concepts/context-engineering.md` — context-engineering decisions are funded out of the same budget
 - `@concepts/subagent-orchestration.md` — subagent dispatch trades parent-context tokens for subagent setup tokens
+- `@concepts/three-cache-architecture.md` — the three independent caches that this discipline pages reasons about (mechanism)
+- `@concepts/mcp-context-optimization.md` — the four-layer optimization stack
+- `@entities/tools/lazy-tool.md` — Layer 1 of the optimization stack (46% input-token reduction per source claim)
+- `@entities/tools/claude-code-router.md` — Layer 2 (cost-class routing + cache headers)
+- `@entities/tools/ttok.md` — preview-counting before paste
 
 ## Raw Concept
 
@@ -68,8 +78,39 @@ Ralph's fresh-context-per-iteration trade is: N small contexts vs 1 large contex
 
 `/fast` toggles fast-mode on Opus 4.7 — same model, faster output, no quality downgrade. Cost profile is comparable; the win is wall-clock time, not tokens. Cemini uses `/fast` for interactive sessions where the model needs to feel responsive, slower mode for autonomous loops where output speed doesn't matter.
 
+### MCP overhead — the silent budget killer
+
+Every MCP server connected to the harness injects its full tool catalog into every prompt envelope: `name + description + JSON schema` per tool. The numbers (per `@osint-wiki/concepts/mcp-context-optimization.md` and `@seo-wiki/entities/tools/claude-code-tool-stack.md`):
+
+- 5-10 MCP servers × ~300 tokens per tool × 30-50 tools = **30,000-75,000 tokens per turn before the user types**
+- Every tool connect/disconnect mutates the prefix → **busts the KV cache** → next turn re-bills full price
+- Compounds across multi-turn sessions
+
+Mitigation:
+
+1. **`@entities/tools/lazy-tool.md`** — replaces the catalog with 5 meta-tools. Source claim: 46% input-token reduction, 32% latency reduction. Break-even at ~5 MCP servers.
+2. **Static-at-start, volatile-at-end** — keep system prompt + tool definitions at the start, let stack traces / file content / user prompts pile up at the end. Anthropic KV cache stays warm.
+3. **`cache_control: ephemeral` markers** — for direct API users; the harness applies these automatically.
+
+### Three caches — quick reference (full detail in `@concepts/three-cache-architecture.md`)
+
+| Cache | Saves | TTL / scope |
+|-------|-------|-------------|
+| Anthropic KV (load-bearing) | Cached input at ~10% of normal rate | 5-min TTL; busts on any prefix change |
+| OpenRouter Response | 100% (zero-cost hit) | Per-prompt key; busts on any byte change |
+| OpenRouter Edge | Latency only | Provider-stickiness |
+
+### Cost asymmetry that justifies cache discipline
+
+A typical Cemini session (~60K tokens carried forward turn-to-turn):
+- Cold: 60K × $3/MTok input ≈ $0.18/turn
+- Cached: 60K × $0.30/MTok cached-input ≈ $0.018/turn
+- **10× difference** — pace turns to keep the cache warm and the same session costs an order of magnitude less.
+
 ## Dead Ends
 
 - **Sleeping 5 minutes (300s)** — worst case. Either ≤270s or ≥1200s.
 - **Subagent dispatch for trivial lookups** — pays setup, saves nothing. Direct `Read`/`Grep` is fewer tokens.
 - **Manual cache management** — there isn't any. The harness manages it; pace your turns to stay within or commit beyond the TTL.
+- **Loading the full MCP tool surface up front** — burns 30-75K tokens/turn. Use `ToolSearch` deferred-tools (built-in) or `@entities/tools/lazy-tool.md` (for MCP).
+- **Putting a fresh timestamp anywhere in the system prompt** — busts the KV cache for every turn forever.

@@ -6,6 +6,10 @@ keywords: [hooks, .claude/settings.json, SessionStart hook, Stop hook, UserPromp
 related:
   - entities/tools/claude-code.md
   - concepts/context-engineering.md
+  - entities/tools/cua.md
+  - entities/tools/claude-mem.md
+  - entities/patterns/tier1-tier2-agent-model.md
+  - entities/tools/claude-code-ultimate-guide.md
 maturity: draft
 created: 2026-05-13
 updated: 2026-05-13
@@ -15,6 +19,9 @@ updated: 2026-05-13
 
 - `@entities/tools/claude-code.md` — host harness whose lifecycle the hooks tap into
 - `@concepts/context-engineering.md` — hooks are one way to inject durable state into the session
+- `@entities/tools/cua.md` — natural pairing for PreToolUse hooks that gate sandbox-required commands
+- `@entities/tools/claude-mem.md` — canonical SessionStart hook example
+- `@entities/patterns/tier1-tier2-agent-model.md` — hooks are the imperative-side enforcement layer (declarative side = settings.permissions)
 
 ## Raw Concept
 

@@ -16,7 +16,19 @@ related:
   - entities/mcp-servers/anthropic-skills.md
   - entities/patterns/ralph-loop.md
   - entities/patterns/full-prompt-goal-template.md
+  - entities/tools/lazy-tool.md
+  - entities/tools/claude-code-router.md
+  - entities/tools/spec-kit.md
+  - entities/tools/ttok.md
+  - entities/tools/tech-debt-skill.md
+  - entities/tools/cua.md
+  - entities/tools/claude-code-ultimate-guide.md
+  - entities/commands/plugin.md
+  - concepts/claude-desktop-vs-claude-code.md
+  - concepts/three-cache-architecture.md
+  - concepts/mcp-context-optimization.md
 maturity: core
+hub: true
 created: 2026-05-13
 updated: 2026-05-13
 ---
@@ -35,6 +47,11 @@ updated: 2026-05-13
 - `@entities/mcp-servers/anthropic-skills.md` — official Anthropic skills marketplace surface
 - `@entities/patterns/ralph-loop.md` — loop-based execution pattern
 - `@entities/patterns/full-prompt-goal-template.md` — single-shot meta-prompt template
+- `@entities/tools/lazy-tool.md`, `@entities/tools/claude-code-router.md`, `@entities/tools/ttok.md`, `@entities/tools/tech-debt-skill.md`, `@entities/tools/cua.md`, `@entities/tools/spec-kit.md`, `@entities/tools/claude-code-ultimate-guide.md` — surrounding tool stack
+- `@entities/commands/plugin.md` — `/plugin marketplace add` + `/plugin install`
+- `@concepts/claude-desktop-vs-claude-code.md` — surface distinction
+- `@concepts/three-cache-architecture.md` — the cost mechanism behind every Cemini session
+- `@concepts/mcp-context-optimization.md` — the four-layer optimization stack
 
 ## Raw Concept
 
@@ -74,7 +91,31 @@ The harness is built around **session-scoped context windows**. The model has a 
 }
 ```
 
+### Surrounding tool stack (Cemini's adopted + documented)
+
+| Tool | Role | Cemini posture |
+|------|------|----------------|
+| `@entities/tools/lazy-tool.md` | MCP-catalog lazy-loading proxy | CONDITIONAL-GO (≥5 MCP) |
+| `@entities/tools/claude-code-router.md` | Multi-provider routing + caching headers | Documented, not adopted |
+| `@entities/tools/ttok.md` | Token-counter CLI for cost preview | Adopted (cheap) |
+| `@entities/tools/tech-debt-skill.md` | Whole-repo tech-debt audit skill | Adopted (`@entities/skills/tech-debt-audit.md`) |
+| `@entities/tools/spec-kit.md` | GitHub spec-driven dev CLI | Documented, not adopted |
+| `@entities/tools/cua.md` | M-series Mac VM sandbox | Documented, candidate for Tier-2 isolation |
+| `@entities/tools/claude-code-ultimate-guide.md` | 24k-line CC reference + 28-CVE catalog + 655 malicious-skill patterns | Reference-only (CC-BY-SA caveat) |
+
+### Two surfaces — Desktop vs Code
+
+See `@concepts/claude-desktop-vs-claude-code.md` for the full distinction. Short version:
+- **Claude Desktop** — graphical app; MCP only; config in `claude_desktop_config.json`
+- **Claude Code** — CLI/IDE; MCP + Agent Skills + slash commands + hooks; config in `.claude/`
+- Skills (SKILL.md) are Claude Code-only. Marketplaces are added via `/plugin marketplace add`; skills installed via `/plugin install`. See `@entities/commands/plugin.md`.
+
+### Cost discipline (load-bearing)
+
+The cost model lives in `@concepts/three-cache-architecture.md` (mechanism) + `@concepts/token-economics-and-prompt-caching.md` (the rules) + `@concepts/mcp-context-optimization.md` (the four-layer stack). Cemini's defaults: static-at-start prompts; 60-270s active polls; 1200-1800s idle waits; never 300s.
+
 ## Dead Ends
 
 - **Long single-context sessions past ~400K tokens** — context degrades; switch to the Ralph loop pattern (`@entities/patterns/ralph-loop.md`) for multi-iteration work
-- **Per-prompt MCP-server enumeration** — listing every MCP tool in the prompt envelope wastes tokens; let the harness discover via `ToolSearch` (deferred-tool pattern)
+- **Per-prompt MCP-server enumeration** — listing every MCP tool in the prompt envelope wastes tokens; let the harness discover via `ToolSearch` (deferred-tool pattern), and consider `@entities/tools/lazy-tool.md` if MCP-server count exceeds 5
+- **Treating Claude Desktop and Claude Code as interchangeable** — see `@concepts/claude-desktop-vs-claude-code.md`

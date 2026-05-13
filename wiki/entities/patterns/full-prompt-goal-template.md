@@ -8,6 +8,8 @@ related:
   - entities/tools/openspec.md
   - entities/patterns/ralph-loop.md
   - concepts/context-engineering.md
+  - entities/patterns/tier1-tier2-agent-model.md
+  - entities/tools/spec-kit.md
 maturity: validated
 created: 2026-05-13
 updated: 2026-05-13

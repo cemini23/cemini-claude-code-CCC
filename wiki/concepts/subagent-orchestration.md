@@ -8,6 +8,8 @@ related:
   - concepts/context-engineering.md
   - concepts/token-economics-and-prompt-caching.md
   - concepts/cross-wiki-routing.md
+  - entities/patterns/tier1-tier2-agent-model.md
+  - entities/tools/cua.md
 maturity: validated
 created: 2026-05-13
 updated: 2026-05-13
@@ -19,6 +21,8 @@ updated: 2026-05-13
 - `@concepts/context-engineering.md` — subagent dispatch is one of the four levers
 - `@concepts/token-economics-and-prompt-caching.md` — the cost trade-off behind subagent dispatch
 - `@concepts/cross-wiki-routing.md` — multi-wiki queries are a canonical multi-subagent fan-out
+- `@entities/patterns/tier1-tier2-agent-model.md` — scope-enforcement pattern for execution-capable subagents
+- `@entities/tools/cua.md` — VM isolation chamber for Tier 2 subagents that need actual containment
 
 Cross-wiki: `@osint-wiki/concepts/conductor-orchestrator.md` carries the OSINT-side conductor history (parallel subagent dispatch for cross-wiki queries).
 
@@ -78,8 +82,29 @@ The `conductor` MCP server (`@entities/tools/conductor-mcp.md`) is a subagent-or
 - **Per-session state writes.** Subagents don't share the parent's `hot.md` view. The parent updates `hot.md` after merging subagent results.
 - **Anything requiring authorization the subagent doesn't have.** Subagents inherit permission allowlists; locked-down subagents can't run the tools the work needs.
 
+### Tier 1 vs Tier 2 — when subagents need scope gates
+
+Adapted from `@entities/patterns/tier1-tier2-agent-model.md` (full pattern there). Short version:
+
+- **Tier 1 subagents** = advisory-only. Cemini's `Plan`, `Explore`, `code-reviewer`, `claude-code-guide` agents are all Tier 1 — they read, reason, recommend. No external state changes.
+- **Tier 2 subagents** = execution-capable. Anything that runs commands with effects, writes outside the working directory, or makes API calls with state. Requires declared scope before invocation.
+
+The split is the safety contract for subagent dispatch. Cemini currently runs no Tier 2 subagents in production; the pattern is documented because future skill adoptions may require it (and because cybersec sibling pages already implement it operationally — see `@cybersecurity-wiki/concepts/llm-pentest-automation.md`).
+
+When a future Cemini Tier 2 subagent earns its slot:
+
+1. YAML declares `requires_scope: true` and `allowed_targets: ["{{ ... }}"]`
+2. The harness's permission UX confirms scope before invocation
+3. `cua` (`@entities/tools/cua.md`) provides VM isolation as the actual containment layer (policy alone isn't enough)
+4. Findings emit as structured JSON for downstream ingestion
+
+### Subagent agent-permission inheritance
+
+Subagents inherit the parent session's permission allowlist unless explicitly restricted. A subagent dispatched from a parent session with `Bash(rm -rf *)` denied still has that deny rule. Permission policy travels — but the subagent's prompt envelope does not see the parent conversation. Brief discipline matters: the subagent has Cemini's permissions but none of Cemini's intent; the prompt must carry that intent.
+
 ## Dead Ends
 
 - **Subagent for a 1-file read** — pays setup, saves nothing. Direct `Read`.
 - **Serial subagent calls when they could be parallel** — wastes wall-clock time.
 - **Trusting the subagent's summary as a description of what it did** — verify by checking the actual changes / outputs. The harness tracks file state separately.
+- **Skipping the Tier 2 scope gate "because it's annoying"** — see `@entities/patterns/tier1-tier2-agent-model.md` § Dead Ends.

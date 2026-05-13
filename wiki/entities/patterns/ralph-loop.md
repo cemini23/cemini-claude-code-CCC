@@ -9,6 +9,7 @@ related:
   - entities/patterns/full-prompt-goal-template.md
   - concepts/context-engineering.md
   - concepts/token-economics-and-prompt-caching.md
+  - entities/tools/spec-kit.md
 maturity: draft
 created: 2026-05-13
 updated: 2026-05-13
@@ -21,6 +22,7 @@ updated: 2026-05-13
 - `@entities/patterns/full-prompt-goal-template.md` — sibling pattern; single-shot vs loop
 - `@concepts/context-engineering.md` — Ralph's fresh-context-per-iteration is the core context-engineering trick
 - `@concepts/token-economics-and-prompt-caching.md` — Ralph's many fresh contexts trade prompt-cache amortization against context-degradation avoidance
+- `@entities/tools/spec-kit.md`, `@entities/tools/openspec.md` — sibling spec-driven workflow tools (different execution model)
 
 Cross-wiki: `@osint-wiki/concepts/ralph-autonomous-agent-pattern.md` carries the original audit + Steal-from verdict; this page is the CCC-side adoption brief.
 

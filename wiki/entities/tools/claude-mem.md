@@ -6,6 +6,8 @@ keywords: [claude-mem, observation memory, sessionstart hook, semantic recall, b
 related:
   - entities/tools/claude-code.md
   - concepts/context-engineering.md
+  - concepts/hooks-for-automation.md
+  - concepts/mcp-context-optimization.md
 maturity: validated
 created: 2026-05-13
 updated: 2026-05-13
@@ -15,6 +17,8 @@ updated: 2026-05-13
 
 - `@entities/tools/claude-code.md` — host harness; claude-mem hooks on `SessionStart`
 - `@concepts/context-engineering.md` — second layer of memory on top of `hot.md` curation
+- `@concepts/hooks-for-automation.md` — claude-mem ships a canonical `SessionStart` hook
+- `@concepts/mcp-context-optimization.md` — claude-mem's injection cap interacts with the four-layer cost stack
 
 ## Raw Concept
 

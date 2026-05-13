@@ -11,6 +11,10 @@ related:
   - concepts/token-economics-and-prompt-caching.md
   - concepts/subagent-orchestration.md
   - concepts/hooks-for-automation.md
+  - concepts/mcp-context-optimization.md
+  - concepts/three-cache-architecture.md
+  - entities/tools/lazy-tool.md
+  - entities/tools/ttok.md
 maturity: validated
 created: 2026-05-13
 updated: 2026-05-13
@@ -25,6 +29,9 @@ updated: 2026-05-13
 - `@concepts/token-economics-and-prompt-caching.md` — context-engineering decisions are governed by cache + window economics
 - `@concepts/subagent-orchestration.md` — subagents are how Cemini offloads context that doesn't need to land in the parent session
 - `@concepts/hooks-for-automation.md` — hooks inject durable state into the session lifecycle
+- `@concepts/mcp-context-optimization.md` — the four-layer stack Cemini uses to keep MCP-heavy sessions affordable
+- `@concepts/three-cache-architecture.md` — the cache mechanism behind the discipline
+- `@entities/tools/lazy-tool.md`, `@entities/tools/ttok.md` — concrete tools that make the discipline cheap
 
 ## Raw Concept
 
