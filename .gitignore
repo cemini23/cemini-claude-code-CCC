@@ -1,0 +1,22 @@
+# Transient state — never commit
+hot.md
+.claude/
+.env
+.env.local
+
+# Local-only data
+briefs/
+raw-sources/
+research to be indexed/
+
+# Python / tooling
+__pycache__/
+*.pyc
+.venv/
+node_modules/
+
+# OS junk
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
