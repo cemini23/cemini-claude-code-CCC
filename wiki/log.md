@@ -57,3 +57,8 @@ Fifth sibling wiki in the Cemini federation initialized. Topic: meta — how Cem
 - Lint result: clean (exit code 0). All `@path` body mentions resolve; all `related:` paths resolve; no orphans; no bidirectional gaps; no missing frontmatter.
 
 Pages created: 16 + index.md + log.md. Outbound cross-wiki links: 7. Inbound backlinks added to OSINT: matches outbound count.
+
+## [2026-05-13] cross-wiki route | Nested Learning (Behrouz et al, NeurIPS 2025)
+
+Cross-wiki stub routed from `@osint-wiki/sources/nl-nested-learning-behrouz-neurips2025.md`.
+- Created wiki/concepts/nested-learning.md (stub)
