@@ -103,3 +103,10 @@ Currently empty / placeholder. As Cemini ingests Claude Code release notes, conf
 ## Concepts
 
 - [Nested Learning (Behrouz et al, NeurIPS 2025)](concepts/nested-learning.md) — cross-wiki stub routed from ingest — `cross-wiki`
+
+## Entities
+
+- [visual-explainer — Agent Skill for Rich HTML Diagram Generation](entities/visual-explainer.md) — cross-wiki stub routed from ingest — `cross-wiki`
+- [openusage — Local Token Economics Dashboard](entities/openusage.md) — cross-wiki stub routed from ingest — `cross-wiki`
+- [claude_code_agent_farm — Parallel Claude Code Orchestration via tmux](entities/claude-code-agent-farm.md) — cross-wiki stub routed from ingest — `cross-wiki`
+- [Fusion — Multi-Node Agent Orchestrator with Worktree Isolation](entities/fusion.md) — cross-wiki stub routed from ingest — `cross-wiki`

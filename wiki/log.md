@@ -62,3 +62,23 @@ Pages created: 16 + index.md + log.md. Outbound cross-wiki links: 7. Inbound bac
 
 Cross-wiki stub routed from `@osint-wiki/sources/nl-nested-learning-behrouz-neurips2025.md`.
 - Created wiki/concepts/nested-learning.md (stub)
+
+## [2026-05-14] cross-wiki route | visual-explainer — Agent Skill for Rich HTML Diagram Generation
+
+Cross-wiki stub routed from `@osint-wiki/entities/tools/visual-explainer.md`.
+- Created wiki/entities/visual-explainer.md (stub)
+
+## [2026-05-14] cross-wiki route | openusage — Local Token Economics Dashboard
+
+Cross-wiki stub routed from `@osint-wiki/entities/tools/openusage.md`.
+- Created wiki/entities/openusage.md (stub)
+
+## [2026-05-14] cross-wiki route | claude_code_agent_farm — Parallel Claude Code Orchestration via tmux
+
+Cross-wiki stub routed from `@osint-wiki/entities/tools/claude-code-agent-farm.md`.
+- Created wiki/entities/claude-code-agent-farm.md (stub)
+
+## [2026-05-14] cross-wiki route | Fusion — Multi-Node Agent Orchestrator with Worktree Isolation
+
+Cross-wiki stub routed from `@osint-wiki/entities/tools/fusion.md`.
+- Created wiki/entities/fusion.md (stub)
