@@ -109,3 +109,10 @@ Cross-wiki stub routed from `@osint-wiki/sources/eval-github-repos-2026-05-13.md
 
 Cross-wiki stub routed from `@osint-wiki/sources/eval-github-repos-2026-05-13.md`.
 - Created wiki/concepts/2026-05-13_tolaria-steal-from-patterns.md (stub)
+
+## [2026-05-16] phase-0 | K49 tool audits (SkillKit, claude-for-legal)
+
+Phase-0 clone audits of the 2 CCC-wiki K49 tools. Verdicts in each entity page's `## Phase-0 Audit` section.
+
+- **SkillKit → CONDITIONAL-GO** (downgraded from the eval's ADOPT). Apache-2.0 confirmed; deps clean. Domain-fit mismatch: SkillKit's headline value is cross-agent skill translation (Cursor/Devin) + a multi-machine P2P mesh — Cemini's CCC is Claude-Code-only with no multi-machine deployment, so those features solve problems Cemini doesn't have. The "400k-skill marketplace" claim is inflated ~26× (actual catalog: 15,120). Adopt only the `npx @skillkit/mcp` runtime-discovery server; skip the translation layer + mesh. Single-maintainer (personal account) — bus-factor risk.
+- **claude-for-legal → STEAL-FROM-CONFIRMED.** Apache-2.0 confirmed; genuine `anthropics` org repo (Anthropic-staff commits). Pattern extraction into IP-sale surfaces is cleared. Extractable patterns confirmed present: managed-agent cookbooks (5 templates), cold-start interview SKILL.md, and the Trust Layer — actually a two-part guardrail (read-only-subagent injection check + admin allowlist), richer than the eval's "license gate" framing. Do not adopt the suite; extract the patterns for `subagent-orchestration`.

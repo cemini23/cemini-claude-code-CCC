@@ -11,6 +11,7 @@ related:
 maturity: draft
 created: 2026-05-16
 updated: 2026-05-16
+phase_0_verdict: STEAL-FROM-CONFIRMED
 cross-wiki-source: "@osint-wiki/sources/tool-eval-wiki-fit-v3-iteration-2026-05-16.md"
 ---
 
@@ -48,7 +49,32 @@ STEAL-FROM. Do **not** adopt the suite — the legal payload, practice-area plug
 
 ### Open questions
 
-- `[NEEDS VERIFICATION 2026-05-16]` — exact mechanism of the Trust Layer's "license gates": how the legal-builder-hub Trust Layer enforces licensing constraints on hidden-content detection is not documented in the eval. Resolve via repo README / source before relying on the gate as a transferable pattern.
+- Trust Layer enforcement mechanism — **resolved by Phase-0.** The eval's "license gates" framing was imprecise: there is no licensing-constraint gate. The actual mechanism is a two-part *trust* gate (see Phase-0 below). Question closed.
+
+## Phase-0 Audit (2026-05-16)
+
+Clone: `git clone --depth 50 https://github.com/anthropics/claude-for-legal /tmp/claude-for-legal-audit/`. INSPECT-only — Steal-from tier, lighter audit.
+
+**License — CONFIRMED Apache-2.0.** Root `LICENSE` is the verbatim Apache License 2.0 text; GitHub `licenseInfo.key` = `apache-2.0`. Apache-2.0 explicitly permits extracting and adapting patterns/code into other works (including commercial / IP-sale surfaces), with attribution and NOTICE preservation. Pattern extraction into Cemini's CCC workflow is therefore cleanly licensed.
+
+**Provenance — CONFIRMED official Anthropic repo.** Owner is the GitHub organization `anthropics` (`isInOrganization: true`, org id `MDEyOk9yZ2FuaXphdGlvbjc2MjYzMDI4`) — the genuine Anthropic org, not a look-alike personal account. Commit authors are Anthropic staff (Matt Piccolella, Tobin South, Mark Pike). This is the real `anthropics/claude-for-legal`.
+
+**Maturity — observed vs claimed:**
+- Stars: **6,361** (eval claimed ~6,100 — accurate, slightly grown).
+- Open issues: **6** (eval claimed ~6 — accurate; signals an actively curated repo).
+- Repo created **2026-04-21**, last push **2026-05-16** — young (~1 month) but actively maintained; 21 commits in the shallow window, all from a small Anthropic team (14 Matt Piccolella, 3+2 Tobin South, 2 Mark Pike).
+- Stack: Python + Shell (GitHub `languages`), plus Markdown/YAML/JSON plugin payloads and MCP connectors — matches "Python/Shell/MCP".
+
+**Patterns worth extracting — all CONFIRMED present in the tree:**
+1. **Managed-agent cookbooks** — `managed-agent-cookbooks/` ships five concrete cadence-job templates: `reg-monitor`, `docket-watcher`, `launch-radar`, `renewal-watcher`, `diligence-grid`. Each is a parameterized `agent.yaml` + `steering-examples.json` + a `subagents/` set of role-scoped `*.yaml` (e.g. `feed-reader.yaml` + `digest-writer.yaml`). This is exactly the template-per-monitor-class shape the eval flagged — directly transferable to Cemini's Tier-2 sweep / inbox cadence jobs.
+2. **Cold-start interview** — `legal-builder-hub/skills/cold-start-interview/SKILL.md`: a profile-interview skill that front-loads context acquisition (role + 5 questions) before recommending/installing a starter pack. Confirms the eval's `/goal`-shaped pattern.
+3. **Trust Layer (injection-detection guardrail)** — present, and *more concrete than the eval implied*. It is **not** a "license gate"; it is a two-part trust mechanism in `legal-builder-hub/skills/skill-installer/SKILL.md` + `references/allowlist.md`:
+   - **AI-side structural trust check** — the installer runs fetch/analysis inside a *read-only subagent* (Read + WebFetch + Glob only — no Write/Bash), shows the RAW SKILL.md in full, and flags injection patterns (ignore/override/system-prompt/authority claims, external URLs, hidden unicode, out-of-scope writes) before any privileged tool is available.
+   - **Admin-side allowlist gate** — an administrator-controlled `allowlist.yaml` (`mode: permissive|restrictive`, trusted registries, permitted MCP connectors) that Claude reads *before any analysis runs*, so enforcement does not depend on Claude correctly analyzing a possibly-injected skill.
+   - This separation — defense-in-depth where the structural gate does not trust the AI analysis — is the genuinely valuable steal-from for `@concepts/subagent-orchestration.md`. The SKILL.md itself candidly notes the limits of AI-mediated trust, which makes the pattern more, not less, worth extracting.
+4. **MCP-connector reference architecture** — `CONNECTORS.md` + `external_plugins/` document the MCP-server-bridges-to-system-of-record pattern (legal connectors Ironclad/DocuSign/Everlaw are out of Cemini scope, but the connector shape is the reference).
+
+**Decision — STEAL-FROM-CONFIRMED.** Pattern extraction is cleared: Apache-2.0 permits it, provenance is the genuine Anthropic org, and all four target patterns concretely exist in the tree (with the Trust Layer being richer than the eval described). Do **not** adopt the suite — the legal payload, practice-area plugins, and legal connectors remain out of Cemini scope. Extract: the cookbook template structure for cadence jobs, the cold-start interview for skill bootstrapping, and especially the read-only-subagent + admin-allowlist Trust Layer for subagent orchestration. Preserve Apache-2.0 attribution/NOTICE when porting code verbatim.
 
 ## Snippets
 
