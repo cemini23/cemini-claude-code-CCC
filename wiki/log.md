@@ -4,6 +4,23 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-05-16] cross-wiki ingest | Claude-Code/agent-orchestration tools from OSINT tool-eval (v3 iteration)
+
+Five pages cross-routed into CCC from the OSINT-side tool-eval ingest `@osint-wiki/sources/tool-eval-wiki-fit-v3-iteration-2026-05-16.md`.
+
+**2 primary tool pages** (CCC primary fit):
+- `entities/tools/claude-for-legal.md` — Anthropic's official legal-vertical Claude Code/MCP plugin suite (Apache-2.0, 6,100★/6 issues). Verdict STEAL-FROM: extract managed-agent cookbooks (cadence jobs), cold-start interviews (skill bootstrapping), the Trust Layer injection guardrail (subagent orchestration), and the MCP-connector reference architecture. `[NEEDS VERIFICATION 2026-05-16]` on the Trust Layer "license gates" mechanism.
+- `entities/tools/skillkit.md` — universal cross-agent skill translation/management bridge (Apache-2.0, 1,100★, last commit 2026-04-21). Verdict ADOPT: the `npx @skillkit/mcp` runtime-discovery server + SKILL.md↔.mdc translation. Marketplace (400k+ skills) treated as discovery-only. `[NEEDS VERIFICATION 2026-05-16]` on P2P-mesh security in zero-trust subnets.
+
+**3 cross-wiki pattern stubs** (primary home is a sibling wiki; CCC-relevant patterns only):
+- `entities/mcp-servers/pmxt-mcp-pattern.md` — MCP-exposes-trading-execution pattern (`@pmxt/mcp`); primary `@osint-wiki/entities/tools/pmxt.md`
+- `entities/tools/polyterm-tui-pattern.md` — terminal-native UI-design reference; primary `@osint-wiki/entities/tools/polyterm.md`
+- `entities/tools/osmedeus-acp-orchestration.md` — ACP subprocess-agent orchestration pattern for the conductor; primary `@cybersecurity-wiki/entities/tools/osmedeus.md`
+
+**Bidirectional backlinks added** to 11 existing CCC pages: subagent-orchestration, full-prompt-goal-template, anthropic-skills, plugin, claude-mem, claude-desktop-vs-claude-code, context-engineering, conductor-mcp, tier1-tier2-agent-model, claude-code, exa. `index.md` updated (4 tool rows, 1 mcp-server row, 6 cross-wiki-link rows). No pre-existing near-equivalent pages found — all 5 are new.
+
+---
+
 ## [2026-05-13] deep-dive sweep | mined OSINT/Cybersec/SEO/3D-printing/Image-gen for Claude Code material
 
 Cross-wiki inventory pass dispatched two parallel Explore agents to scan the four sibling wikis (OSINT was the largest pool; SEO + Cybersec produced the densest finds). 48 OSINT entries + ~20 sibling entries surfaced. Decisions:

@@ -16,9 +16,10 @@ related:
   - entities/tools/lazy-tool.md
   - entities/tools/ttok.md
   - concepts/nested-learning.md
+  - entities/tools/polyterm-tui-pattern.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-15
+updated: 2026-05-16
 ---
 
 ## Relations
@@ -34,6 +35,7 @@ updated: 2026-05-15
 - `@concepts/three-cache-architecture.md` — the cache mechanism behind the discipline
 - `@entities/tools/lazy-tool.md`, `@entities/tools/ttok.md` — concrete tools that make the discipline cheap
 - `@concepts/nested-learning.md` — literature anchor: multi-timescale memory framing (Update Frequency) for the "context at different update rates" pattern
+- `@entities/tools/polyterm-tui-pattern.md` — text-native (ASCII) visualization keeps tool output inside the model's context window
 
 ## Raw Concept
 

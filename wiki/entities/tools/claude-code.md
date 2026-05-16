@@ -28,10 +28,11 @@ related:
   - concepts/three-cache-architecture.md
   - concepts/mcp-context-optimization.md
   - entities/tools/alumnium.md
+  - entities/tools/polyterm-tui-pattern.md
 maturity: core
 hub: true
 created: 2026-05-13
-updated: 2026-05-15
+updated: 2026-05-16
 ---
 
 ## Relations
@@ -54,6 +55,7 @@ updated: 2026-05-15
 - `@concepts/three-cache-architecture.md` — the cost mechanism behind every Cemini session
 - `@concepts/mcp-context-optimization.md` — the four-layer optimization stack
 - `@entities/tools/alumnium.md` — AI-native E2E testing wrapper that installs as a Claude Code MCP server
+- `@entities/tools/polyterm-tui-pattern.md` — terminal-native UI-design reference for tools built alongside the CLI harness
 
 ## Raw Concept
 

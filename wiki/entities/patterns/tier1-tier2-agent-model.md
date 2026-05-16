@@ -9,9 +9,10 @@ related:
   - entities/patterns/full-prompt-goal-template.md
   - concepts/subagent-orchestration.md
   - concepts/hooks-for-automation.md
+  - entities/tools/osmedeus-acp-orchestration.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 ## Relations
@@ -21,6 +22,7 @@ updated: 2026-05-13
 - `@entities/patterns/full-prompt-goal-template.md` — Tier 2 invocations need declared scope; goal-condition is one place scope can live
 - `@concepts/subagent-orchestration.md` — Tier 2 dispatch is a special case of subagent dispatch with stricter gating
 - `@concepts/hooks-for-automation.md` — PreToolUse hooks are the natural enforcement layer for Tier 2 commands
+- `@entities/tools/osmedeus-acp-orchestration.md` — security-orchestration engine; canonical home of execution-capable Tier-2 agents
 
 Cross-wiki: `@cybersecurity-wiki/concepts/llm-pentest-automation.md` is the canonical write-up of this pattern (originally from `pentest-ai-agents` v3.2). `@cybersecurity-wiki/entities/tools/pentest-ai-agents.md` is the reference implementation.
 

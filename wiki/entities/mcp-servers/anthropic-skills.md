@@ -16,9 +16,11 @@ related:
   - entities/tools/adamsreview.md
   - entities/tools/gtm-agents.md
   - entities/visual-explainer.md
+  - entities/tools/claude-for-legal.md
+  - entities/tools/skillkit.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-05-15
+updated: 2026-05-16
 ---
 
 ## Relations
@@ -31,6 +33,8 @@ updated: 2026-05-15
 - `@entities/tools/adamsreview.md` — async code-review CC plugin; PEP 723 inline-script + artifact.json architecture
 - `@entities/tools/gtm-agents.md` — 244-skill GTM pack; reference example of skill-pack distribution structure
 - `@entities/visual-explainer.md` — zero-dependency CC skill generating rich HTML diagrams (Mermaid + Chart.js)
+- `@entities/tools/claude-for-legal.md` — Anthropic-official vertical plugin pack; practice-area plugins are a SKILL.md-style packaged distribution
+- `@entities/tools/skillkit.md` — management/translation layer atop the SKILL.md spec; governs the same `.claude/skills/` surface
 
 ## Raw Concept
 

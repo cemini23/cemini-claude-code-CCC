@@ -19,6 +19,10 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`tech-debt-skill`](entities/tools/tech-debt-skill.md) | validated | Whole-repo audit skill (Cemini's first installed third-party skill) |
 | [`cua`](entities/tools/cua.md) | draft | M-series Mac VM sandbox for Tier-2 isolation |
 | [`claude-code-ultimate-guide`](entities/tools/claude-code-ultimate-guide.md) | draft | 24k-line CC reference + 28-CVE catalog + 655 malicious-skill patterns |
+| [`claude-for-legal`](entities/tools/claude-for-legal.md) | draft | Anthropic-official legal-vertical plugin suite; STEAL-FROM 4 patterns (managed-agent cookbooks, cold-start interviews, Trust Layer, MCP connectors) |
+| [`skillkit`](entities/tools/skillkit.md) | draft | Cross-agent skill translation/management bridge; ships `@skillkit/mcp` runtime-discovery server — ADOPT |
+| [`polyterm-tui-pattern`](entities/tools/polyterm-tui-pattern.md) | draft | Cross-wiki stub — terminal-native UI-design reference (ASCII charts, keyboard chords) |
+| [`osmedeus-acp-orchestration`](entities/tools/osmedeus-acp-orchestration.md) | draft | Cross-wiki stub — YAML-workflow engine orchestrating ACP subprocess agents; conductor-architecture reference |
 
 ## entities/mcp-servers/
 
@@ -27,6 +31,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`anthropic-skills`](entities/mcp-servers/anthropic-skills.md) | draft | SKILL.md spec, Phase-0 skill audit checklist, Cemini's installed skills |
 | [`exa`](entities/mcp-servers/exa.md) | core | Exa neural search MCP server (paid API) |
 | [`librarian-kb-server`](entities/mcp-servers/librarian-kb-server.md) | validated | Hetzner-hosted REST API serving the OSINT wiki |
+| [`pmxt-mcp-pattern`](entities/mcp-servers/pmxt-mcp-pattern.md) | draft | Cross-wiki stub — MCP-exposes-trading-execution pattern (`@pmxt/mcp`); Tier-2-gated MCP class |
 
 ## entities/skills/
 
@@ -99,6 +104,11 @@ Currently empty / placeholder. As Cemini ingests Claude Code release notes, conf
 | `entities/tools/claude-code-ultimate-guide.md` | `@osint-wiki/sources/evaluating-github-repos-trading-stack-2026-05-12.md` | Eval origin (URL 17) |
 | `entities/patterns/tier1-tier2-agent-model.md` | `@cybersecurity-wiki/concepts/llm-pentest-automation.md` | Canonical pattern write-up |
 | `entities/patterns/tier1-tier2-agent-model.md` | `@cybersecurity-wiki/entities/tools/pentest-ai-agents.md` | Reference implementation |
+| `entities/tools/claude-for-legal.md` | `@osint-wiki/sources/tool-eval-wiki-fit-v3-iteration-2026-05-16.md` | Cross-wiki tool-eval source |
+| `entities/tools/skillkit.md` | `@osint-wiki/sources/tool-eval-wiki-fit-v3-iteration-2026-05-16.md` | Cross-wiki tool-eval source |
+| `entities/mcp-servers/pmxt-mcp-pattern.md` | `@osint-wiki/entities/tools/pmxt.md` | Primary page (prediction-market tool detail) |
+| `entities/tools/polyterm-tui-pattern.md` | `@osint-wiki/entities/tools/polyterm.md` | Primary page (Polymarket analytics tool detail) |
+| `entities/tools/osmedeus-acp-orchestration.md` | `@cybersecurity-wiki/entities/tools/osmedeus.md` | Primary page (security-orchestration engine detail) |
 
 ## Concepts
 

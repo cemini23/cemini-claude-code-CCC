@@ -7,9 +7,10 @@ related:
   - entities/tools/claude-code.md
   - entities/mcp-servers/librarian-kb-server.md
   - concepts/cross-wiki-routing.md
+  - entities/tools/osmedeus-acp-orchestration.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 ## Relations
@@ -17,6 +18,7 @@ updated: 2026-05-13
 - `@entities/tools/claude-code.md` — host harness; conductor is consumed as an MCP server
 - `@entities/mcp-servers/librarian-kb-server.md` — backend it routes to
 - `@concepts/cross-wiki-routing.md` — the workflow concept this tool implements
+- `@entities/tools/osmedeus-acp-orchestration.md` — adjacent orchestration architecture: a YAML engine orchestrating ACP subprocess agents
 
 Cross-wiki: `@osint-wiki/concepts/conductor-orchestrator.md` covers the design history and the FastMCP-based implementation.
 

@@ -10,9 +10,10 @@ related:
   - concepts/mcp-context-optimization.md
   - entities/tools/thuki.md
   - concepts/nested-learning.md
+  - entities/tools/skillkit.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-15
+updated: 2026-05-16
 ---
 
 ## Relations
@@ -23,6 +24,7 @@ updated: 2026-05-15
 - `@concepts/mcp-context-optimization.md` — claude-mem's injection cap interacts with the four-layer cost stack
 - `@entities/tools/thuki.md` — local-SQLite conversation-history overlay; K44 mis-framed it as a CC persistence layer (SKIP verdict) — contrast with claude-mem, which actually is one
 - `@concepts/nested-learning.md` — literature frame: claude-mem (per-session observations) is one update-frequency layer in Cemini's multi-timescale memory stack
+- `@entities/tools/skillkit.md` — skillkit's session memory captures transient architectural insights, conceptually adjacent to claude-mem's passive observation layer
 
 ## Raw Concept
 

@@ -8,15 +8,17 @@ related:
   - concepts/cross-wiki-routing.md
   - concepts/claude-desktop-vs-claude-code.md
   - entities/tools/lazy-tool.md
+  - entities/mcp-servers/pmxt-mcp-pattern.md
 maturity: core
 created: 2026-05-13
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 ## Relations
 
 - `@entities/tools/exa-mcp.md` — Claude-Code-side wiring and per-tool guidance
 - `@concepts/cross-wiki-routing.md` — Exa's `deep_researcher` is one fan-out alternative to conductor
+- `@entities/mcp-servers/pmxt-mcp-pattern.md` — contrasting MCP class: execution-side (write side effects) vs Exa's research-side (read-only)
 
 ## Raw Concept
 

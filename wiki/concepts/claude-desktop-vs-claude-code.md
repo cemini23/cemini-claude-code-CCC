@@ -9,9 +9,10 @@ related:
   - entities/mcp-servers/exa.md
   - entities/commands/plugin.md
   - concepts/mcp-context-optimization.md
+  - entities/tools/skillkit.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 ## Relations
@@ -21,6 +22,7 @@ updated: 2026-05-13
 - `@entities/mcp-servers/exa.md` — example MCP server that runs in both surfaces
 - `@entities/commands/plugin.md` — `/plugin marketplace add` and `/plugin install` are Claude Code-only
 - `@concepts/mcp-context-optimization.md` — applies to both surfaces but settings differ
+- `@entities/tools/skillkit.md` — translates skill formats across the Claude-Code vs other-agent surface split (SKILL.md ↔ .mdc)
 
 Cross-wiki: `@seo-wiki/concepts/claude-platforms.md` is the original write-up of this distinction (built for non-coder operators choosing where to install local-SEO tools).
 

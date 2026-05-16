@@ -12,9 +12,11 @@ related:
   - entities/skills/tech-debt-audit.md
   - concepts/claude-desktop-vs-claude-code.md
   - entities/tools/tech-debt-skill.md
+  - entities/tools/claude-for-legal.md
+  - entities/tools/skillkit.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-13
+updated: 2026-05-16
 ---
 
 ## Relations
@@ -23,6 +25,8 @@ updated: 2026-05-13
 - `@entities/mcp-servers/anthropic-skills.md` — the broader skills/marketplace canvas
 - `@entities/skills/claude-seo-agrici.md`, `@entities/skills/marketingskills.md`, `@entities/skills/geo-seo-claude.md`, `@entities/skills/tech-debt-audit.md` — examples installed via this command
 - `@concepts/claude-desktop-vs-claude-code.md` — `/plugin` is Claude Code-only
+- `@entities/tools/claude-for-legal.md` — practice-area plugins install via the `/plugin` marketplace path
+- `@entities/tools/skillkit.md` — alternative skill-acquisition path: runtime MCP fetch vs `/plugin` install-time registration
 
 Cross-wiki: `@seo-wiki/concepts/claude-platforms.md` (operator-facing install instructions for the SEO tool stack).
 

@@ -15,6 +15,9 @@ related:
   - entities/tools/jcode.md
   - entities/tools/red-run.md
   - concepts/2026-05-13_multi-codex-codex-home-isolation.md
+  - entities/tools/claude-for-legal.md
+  - entities/mcp-servers/pmxt-mcp-pattern.md
+  - entities/tools/osmedeus-acp-orchestration.md
 maturity: validated
 created: 2026-05-13
 updated: 2026-05-15
@@ -33,6 +36,9 @@ updated: 2026-05-15
 - `@entities/tools/jcode.md` — Rust CC competitor; swarm-coordinator / worktree-manager architecture is the extractable pattern
 - `@entities/tools/red-run.md` — agent-team orchestrator; lead-router + single-writer state-mgr patterns are clean-room extractable
 - `@concepts/2026-05-13_multi-codex-codex-home-isolation.md` — per-instance `CODEX_HOME` isolation, generalizable to per-subagent home dirs
+- `@entities/tools/claude-for-legal.md` — Trust Layer injection-detection guardrail + managed-agent cookbooks for cadence jobs (STEAL-FROM)
+- `@entities/mcp-servers/pmxt-mcp-pattern.md` — execution-capable MCP server; the Tier-2-gated tool class
+- `@entities/tools/osmedeus-acp-orchestration.md` — YAML-workflow engine orchestrating ACP subprocess agents; conductor-architecture reference
 
 Cross-wiki: `@osint-wiki/concepts/conductor-orchestrator.md` carries the OSINT-side conductor history (parallel subagent dispatch for cross-wiki queries).
 
