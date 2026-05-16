@@ -4,15 +4,17 @@ type: entity
 category: tool
 tags: [entity, tool, claude-code-skill-pack, gtm-automation, sales-marketing, k44, skip-phase-0-2026-05-14, single-author-risk, enterprise-scale-mismatch]
 keywords: [gtm-agents, go-to-market-automation, sales-workflows, marketing-workflows, customer-success, apache-2-license, 244-skills, 99-percent-single-author, 98-open-issues]
-related: []
+related:
+  - entities/mcp-servers/anthropic-skills.md
 maturity: validated
 created: 2026-05-14
-updated: 2026-05-14
+updated: 2026-05-15
 cross-wiki-source: "@osint-wiki/sources/eval-tool-evaluation-cemini-multi-wiki-v3-2026-05-14.md"
 ---
 
 ## Relations
 
+- @entities/mcp-servers/anthropic-skills.md — 244-skill GTM pack; reference example of skill-pack distribution structure
 - @osint-wiki/sources/eval-tool-evaluation-cemini-multi-wiki-v3-2026-05-14.md — K44 source (doc-level verdict)
 
 ## Raw Concept

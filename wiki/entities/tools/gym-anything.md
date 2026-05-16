@@ -4,15 +4,17 @@ type: entity
 category: tool
 tags: [entity, tool, visual-observation, reference-agent, academic-framework, k44, defer]
 keywords: [gym-anything, cmu-l3, visual-ui-manipulation, coordinate-mouse-keyboard, uv-package-manager, mit-license, low-maturity]
-related: []
+related:
+  - entities/tools/cua.md
 maturity: defer-doc-level
 created: 2026-05-14
-updated: 2026-05-14
+updated: 2026-05-15
 cross-wiki-source: "@osint-wiki/sources/eval-tool-evaluation-cemini-multi-wiki-v3-2026-05-14.md"
 ---
 
 ## Relations
 
+- @entities/tools/cua.md — same VM-driven visual-observation agent class; cua is the GO-verdict counterpart to this DEFER
 - @osint-wiki/sources/eval-tool-evaluation-cemini-multi-wiki-v3-2026-05-14.md — K44 source (DEFER verdict)
 
 ## Raw Concept

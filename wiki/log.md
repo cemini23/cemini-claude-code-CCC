@@ -82,3 +82,13 @@ Cross-wiki stub routed from `@osint-wiki/entities/tools/claude-code-agent-farm.m
 
 Cross-wiki stub routed from `@osint-wiki/entities/tools/fusion.md`.
 - Created wiki/entities/fusion.md (stub)
+
+## [2026-05-15] cross-wiki route | multi-codex — CODEX_HOME env-var isolation pattern
+
+Cross-wiki stub routed from `@osint-wiki/sources/eval-github-repos-2026-05-13.md`.
+- Created wiki/concepts/2026-05-13_multi-codex-codex-home-isolation.md (stub)
+
+## [2026-05-15] cross-wiki route | tolaria — refactoring-workflow patterns (STEAL-FROM, AGPL-3.0)
+
+Cross-wiki stub routed from `@osint-wiki/sources/eval-github-repos-2026-05-13.md`.
+- Created wiki/concepts/2026-05-13_tolaria-steal-from-patterns.md (stub)

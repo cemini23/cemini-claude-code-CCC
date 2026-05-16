@@ -3,10 +3,12 @@ title: Nested Learning (Behrouz et al, NeurIPS 2025)
 type: concept
 tags: []
 keywords: []
-related: []
+related:
+  - concepts/context-engineering.md
+  - entities/tools/claude-mem.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-05-13
+updated: 2026-05-15
 cross-wiki-source: @osint-wiki/sources/nl-nested-learning-behrouz-neurips2025.md
 ---
 
@@ -14,6 +16,8 @@ cross-wiki-source: @osint-wiki/sources/nl-nested-learning-behrouz-neurips2025.md
 
 ## Relations
 
+- @concepts/context-engineering.md — the "context at different update rates" discipline this paper provides the literature frame for
+- @entities/tools/claude-mem.md — per-session observation memory is one update-frequency layer in Cemini's multi-timescale memory stack
 - @osint-wiki/sources/nl-nested-learning-behrouz-neurips2025.md  (cross-wiki source)
 
 ## Raw Concept

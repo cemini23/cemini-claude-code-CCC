@@ -3,10 +3,11 @@ title: openusage — Local Token Economics Dashboard
 type: entity
 tags: []
 keywords: []
-related: []
+related:
+  - concepts/token-economics-and-prompt-caching.md
 maturity: draft
 created: 2026-05-14
-updated: 2026-05-14
+updated: 2026-05-15
 cross-wiki-source: @osint-wiki/entities/tools/openusage.md
 ---
 
@@ -14,6 +15,7 @@ cross-wiki-source: @osint-wiki/entities/tools/openusage.md
 
 ## Relations
 
+- @concepts/token-economics-and-prompt-caching.md — the cost-discipline concept openusage instruments by tracking per-environment token spend
 - @osint-wiki/entities/tools/openusage.md  (cross-wiki source)
 
 ## Raw Concept

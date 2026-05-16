@@ -3,10 +3,11 @@ title: Fusion — Multi-Node Agent Orchestrator with Worktree Isolation
 type: entity
 tags: []
 keywords: []
-related: []
+related:
+  - concepts/subagent-orchestration.md
 maturity: draft
 created: 2026-05-14
-updated: 2026-05-14
+updated: 2026-05-15
 cross-wiki-source: @osint-wiki/entities/tools/fusion.md
 ---
 
@@ -14,6 +15,7 @@ cross-wiki-source: @osint-wiki/entities/tools/fusion.md
 
 ## Relations
 
+- @concepts/subagent-orchestration.md — worktree-isolation + Plan/Review/Execute gate patterns map onto the subagent dispatch model
 - @osint-wiki/entities/tools/fusion.md  (cross-wiki source)
 
 ## Raw Concept

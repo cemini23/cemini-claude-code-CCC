@@ -15,9 +15,10 @@ related:
   - concepts/three-cache-architecture.md
   - entities/tools/lazy-tool.md
   - entities/tools/ttok.md
+  - concepts/nested-learning.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-13
+updated: 2026-05-15
 ---
 
 ## Relations
@@ -32,6 +33,7 @@ updated: 2026-05-13
 - `@concepts/mcp-context-optimization.md` — the four-layer stack Cemini uses to keep MCP-heavy sessions affordable
 - `@concepts/three-cache-architecture.md` — the cache mechanism behind the discipline
 - `@entities/tools/lazy-tool.md`, `@entities/tools/ttok.md` — concrete tools that make the discipline cheap
+- `@concepts/nested-learning.md` — literature anchor: multi-timescale memory framing (Update Frequency) for the "context at different update rates" pattern
 
 ## Raw Concept
 

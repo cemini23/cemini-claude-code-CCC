@@ -8,9 +8,10 @@ related:
   - entities/patterns/ralph-loop.md
   - entities/patterns/full-prompt-goal-template.md
   - entities/tools/spec-kit.md
+  - concepts/2026-05-13_tolaria-steal-from-patterns.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-05-13
+updated: 2026-05-15
 ---
 
 ## Relations
@@ -18,6 +19,7 @@ updated: 2026-05-13
 - `@entities/tools/claude-code.md` — primary consumer of OpenSpec specs
 - `@entities/patterns/ralph-loop.md` — Ralph's `prd.json` is structurally similar to an OpenSpec spec
 - `@entities/patterns/full-prompt-goal-template.md` — both are ways of pinning "what done looks like"
+- `@concepts/2026-05-13_tolaria-steal-from-patterns.md` — refactoring-workflow patterns (incremental migrations, workflow design language); spec-driven-workflow neighbour
 
 Cross-wiki: `@osint-wiki/entities/tools/openspec.md` is the OSINT-side entity (where Cemini first audited it).
 

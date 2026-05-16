@@ -13,9 +13,10 @@ related:
   - entities/tools/lazy-tool.md
   - entities/tools/claude-code-router.md
   - entities/tools/ttok.md
+  - entities/openusage.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-13
+updated: 2026-05-15
 ---
 
 ## Relations
@@ -29,6 +30,7 @@ updated: 2026-05-13
 - `@entities/tools/lazy-tool.md` — Layer 1 of the optimization stack (46% input-token reduction per source claim)
 - `@entities/tools/claude-code-router.md` — Layer 2 (cost-class routing + cache headers)
 - `@entities/tools/ttok.md` — preview-counting before paste
+- `@entities/openusage.md` — background telemetry daemon tracking API token consumption + spend across local dev environments
 
 ## Raw Concept
 

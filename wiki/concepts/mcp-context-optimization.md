@@ -13,9 +13,11 @@ related:
   - concepts/context-engineering.md
   - concepts/claude-desktop-vs-claude-code.md
   - entities/tools/claude-mem.md
+  - entities/tools/optillm.md
+  - entities/tools/lap-platform.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-13
+updated: 2026-05-15
 ---
 
 ## Relations
@@ -27,6 +29,8 @@ updated: 2026-05-13
 - `@concepts/three-cache-architecture.md` — Layer 3 detail
 - `@concepts/token-economics-and-prompt-caching.md` — sibling cost-discipline page
 - `@concepts/context-engineering.md` — context-side companion
+- `@entities/tools/optillm.md` — OpenAI-API-compatible multi-provider LLM proxy + MCP client (a routing-layer option adjacent to Layer 2)
+- `@entities/tools/lap-platform.md` — compiles API specs into agent-native MCP scaffolding; reduces hand-coded tool-definition surface
 
 Cross-wiki: `@osint-wiki/concepts/mcp-context-optimization.md` is the original 4-layer methodology source (K34 ingest, OSINT side).
 

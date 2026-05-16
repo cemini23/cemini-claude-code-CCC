@@ -4,15 +4,17 @@ type: entity
 category: tool
 tags: [entity, tool, rust, claude-code-competitor, swarm-architecture, multi-session, agent-coordination, k44, steal-from-conditional-phase-0-2026-05-14, k44-framing-corrected, solo-maintainer-organic-stars]
 keywords: [jcode, 1jehuang, swarm-architecture, worktree-manager, ambient-memory, multi-session-client, daemon-snapshot, mit-license, NOT-claude-code-skill-pack]
-related: []
+related:
+  - concepts/subagent-orchestration.md
 maturity: validated
 created: 2026-05-14
-updated: 2026-05-14
+updated: 2026-05-15
 cross-wiki-source: "@osint-wiki/sources/eval-tool-evaluation-cemini-multi-wiki-v3-2026-05-14.md"
 ---
 
 ## Relations
 
+- @concepts/subagent-orchestration.md — swarm-coordinator / worktree-manager / multi-session architecture is the extractable pattern (steal-from, not adopt)
 - @osint-wiki/sources/eval-tool-evaluation-cemini-multi-wiki-v3-2026-05-14.md — K44 source (doc-level verdict)
 
 ## Raw Concept

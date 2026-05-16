@@ -4,15 +4,17 @@ type: entity
 category: tool
 tags: [entity, tool, e2e-testing, mcp-server, browser-automation, ai-native, k44, go-phase-0-2026-05-14, changeanalysis-cost-unverified]
 keywords: [alumnium, accessibility-tree, mcp-server, claude-mcp-add, playwright, selenium, appium, mit-license, ui-validation, stdio-transport, 13-llm-providers, change-analysis]
-related: []
+related:
+  - entities/tools/claude-code.md
 maturity: validated
 created: 2026-05-14
-updated: 2026-05-14
+updated: 2026-05-15
 cross-wiki-source: "@osint-wiki/sources/eval-tool-evaluation-cemini-multi-wiki-v3-2026-05-14.md"
 ---
 
 ## Relations
 
+- @entities/tools/claude-code.md — installs as a Claude Code MCP server (`claude mcp add alumnium`); AI-native E2E testing surface
 - @osint-wiki/sources/eval-tool-evaluation-cemini-multi-wiki-v3-2026-05-14.md — K44 source (doc-level verdict)
 
 ## Raw Concept

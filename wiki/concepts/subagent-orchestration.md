@@ -10,9 +10,14 @@ related:
   - concepts/cross-wiki-routing.md
   - entities/patterns/tier1-tier2-agent-model.md
   - entities/tools/cua.md
+  - entities/claude-code-agent-farm.md
+  - entities/fusion.md
+  - entities/tools/jcode.md
+  - entities/tools/red-run.md
+  - concepts/2026-05-13_multi-codex-codex-home-isolation.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-13
+updated: 2026-05-15
 ---
 
 ## Relations
@@ -23,6 +28,11 @@ updated: 2026-05-13
 - `@concepts/cross-wiki-routing.md` — multi-wiki queries are a canonical multi-subagent fan-out
 - `@entities/patterns/tier1-tier2-agent-model.md` — scope-enforcement pattern for execution-capable subagents
 - `@entities/tools/cua.md` — VM isolation chamber for Tier 2 subagents that need actual containment
+- `@entities/claude-code-agent-farm.md` — tmux-pane parallel-agent orchestrator (steal-from: heartbeat + lock patterns)
+- `@entities/fusion.md` — multi-node orchestrator with git-worktree isolation per task
+- `@entities/tools/jcode.md` — Rust CC competitor; swarm-coordinator / worktree-manager architecture is the extractable pattern
+- `@entities/tools/red-run.md` — agent-team orchestrator; lead-router + single-writer state-mgr patterns are clean-room extractable
+- `@concepts/2026-05-13_multi-codex-codex-home-isolation.md` — per-instance `CODEX_HOME` isolation, generalizable to per-subagent home dirs
 
 Cross-wiki: `@osint-wiki/concepts/conductor-orchestrator.md` carries the OSINT-side conductor history (parallel subagent dispatch for cross-wiki queries).
 

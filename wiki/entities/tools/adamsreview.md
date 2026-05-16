@@ -4,15 +4,17 @@ type: entity
 category: tool
 tags: [entity, tool, claude-code-plugin, async-code-review, pep-723, artifact-json-state, k44, k37-orthogonal-not-convergent, conditional-go-phase-0-2026-05-14]
 keywords: [adamsreview, artifact-patch-py, artifact-json-schema, pep-723-inline-script, persistent-state-tracking, gh-cli, mit-license, multi-lens-l1-l7-pipeline, opus-sonnet-codex-orchestration, bash-primary-runtime]
-related: []
+related:
+  - entities/mcp-servers/anthropic-skills.md
 maturity: validated
 created: 2026-05-14
-updated: 2026-05-14
+updated: 2026-05-15
 cross-wiki-source: "@osint-wiki/sources/eval-tool-evaluation-cemini-multi-wiki-v3-2026-05-14.md"
 ---
 
 ## Relations
 
+- @entities/mcp-servers/anthropic-skills.md — Claude Code plugin installed via the marketplace; async code-review surface
 - @osint-wiki/sources/eval-tool-evaluation-cemini-multi-wiki-v3-2026-05-14.md — K44 source (doc-level verdict)
 
 ## Raw Concept

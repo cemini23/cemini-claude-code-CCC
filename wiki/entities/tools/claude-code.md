@@ -27,10 +27,11 @@ related:
   - concepts/claude-desktop-vs-claude-code.md
   - concepts/three-cache-architecture.md
   - concepts/mcp-context-optimization.md
+  - entities/tools/alumnium.md
 maturity: core
 hub: true
 created: 2026-05-13
-updated: 2026-05-13
+updated: 2026-05-15
 ---
 
 ## Relations
@@ -52,6 +53,7 @@ updated: 2026-05-13
 - `@concepts/claude-desktop-vs-claude-code.md` — surface distinction
 - `@concepts/three-cache-architecture.md` — the cost mechanism behind every Cemini session
 - `@concepts/mcp-context-optimization.md` — the four-layer optimization stack
+- `@entities/tools/alumnium.md` — AI-native E2E testing wrapper that installs as a Claude Code MCP server
 
 ## Raw Concept
 

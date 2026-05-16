@@ -8,9 +8,10 @@ related:
   - entities/patterns/tier1-tier2-agent-model.md
   - concepts/subagent-orchestration.md
   - concepts/hooks-for-automation.md
+  - entities/tools/gym-anything.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-05-13
+updated: 2026-05-15
 ---
 
 ## Relations
@@ -19,6 +20,7 @@ updated: 2026-05-13
 - `@entities/patterns/tier1-tier2-agent-model.md` — cua provides the isolation chamber Tier 2 agents need
 - `@concepts/subagent-orchestration.md` — cua is the isolation primitive for execution-capable subagents
 - `@concepts/hooks-for-automation.md` — companion to PreToolUse hooks for execution-gating
+- `@entities/tools/gym-anything.md` — CMU visual-observation reference agents (coordinate mouse/keyboard); same VM-driven agent class, DEFER verdict
 
 Cross-wiki: `@cybersecurity-wiki/entities/tools/cua.md` carries the canonical Phase-0 audit (GO verdict, 2026-05-13). `@osint-wiki/entities/tools/cua.md` carries the OSINT-side cross-route notes.
 

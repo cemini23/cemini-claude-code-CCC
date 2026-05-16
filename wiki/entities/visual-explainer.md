@@ -3,10 +3,11 @@ title: visual-explainer — Agent Skill for Rich HTML Diagram Generation
 type: entity
 tags: []
 keywords: []
-related: []
+related:
+  - entities/mcp-servers/anthropic-skills.md
 maturity: draft
 created: 2026-05-14
-updated: 2026-05-14
+updated: 2026-05-15
 cross-wiki-source: @osint-wiki/entities/tools/visual-explainer.md
 ---
 
@@ -14,6 +15,7 @@ cross-wiki-source: @osint-wiki/entities/tools/visual-explainer.md
 
 ## Relations
 
+- @entities/mcp-servers/anthropic-skills.md — Claude Code skill installed via the marketplace surface; example of the SKILL.md spec
 - @osint-wiki/entities/tools/visual-explainer.md  (cross-wiki source)
 
 ## Raw Concept

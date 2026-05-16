@@ -103,6 +103,8 @@ Currently empty / placeholder. As Cemini ingests Claude Code release notes, conf
 ## Concepts
 
 - [Nested Learning (Behrouz et al, NeurIPS 2025)](concepts/nested-learning.md) — cross-wiki stub routed from ingest — `cross-wiki`
+- [multi-codex — CODEX_HOME env-var isolation pattern](concepts/2026-05-13_multi-codex-codex-home-isolation.md) — cross-wiki stub routed from ingest — `cross-wiki`
+- [tolaria — refactoring-workflow patterns (STEAL-FROM, AGPL-3.0)](concepts/2026-05-13_tolaria-steal-from-patterns.md) — cross-wiki stub routed from ingest — `cross-wiki`
 
 ## Entities
 

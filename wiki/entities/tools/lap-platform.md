@@ -4,15 +4,17 @@ type: entity
 category: tool
 tags: [entity, tool, api-compilation, mcp-server-generation, openapi, graphql, k44, steal-from-doc-level-pending-phase-0]
 keywords: [lap-platform, openapi-3-x, graphql-sdl, asyncapi, agent-native-format, langchain, apache-2-license]
-related: []
+related:
+  - concepts/mcp-context-optimization.md
 maturity: steal-from-doc-level-pending-phase-0
 created: 2026-05-14
-updated: 2026-05-14
+updated: 2026-05-15
 cross-wiki-source: "@osint-wiki/sources/eval-tool-evaluation-cemini-multi-wiki-v3-2026-05-14.md"
 ---
 
 ## Relations
 
+- @concepts/mcp-context-optimization.md — compiling API specs into agent-native MCP scaffolding cuts hand-coded tool-definition surface
 - @osint-wiki/sources/eval-tool-evaluation-cemini-multi-wiki-v3-2026-05-14.md — K44 source (doc-level verdict)
 - @osint-wiki/entities/tools/lap-platform.md — OSINT-side cross-route page (kb-server REST→MCP compilation use case)
 

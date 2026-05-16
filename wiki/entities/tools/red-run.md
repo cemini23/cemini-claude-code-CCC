@@ -4,15 +4,17 @@ type: entity
 category: tool
 tags: [entity, tool, claude-code-agent-teams, sliver-c2-wrapper, sqlite-state, chromadb-rag, k44, steal-from-orchestration-patterns-only-phase-0-2026-05-14, gpl-3-poison-pill, evasion-features-auto-reject-signal]
 keywords: [red-run, blacklanternsecurity, kevinoriley-solo, agent-team-coordination, lead-router-pattern, single-writer-state-mgr, enum-ops-pair, semantic-skill-router, gpl-3-poison-pill, AMSI-bypass-do-not-extract]
-related: []
+related:
+  - concepts/subagent-orchestration.md
 maturity: validated
 created: 2026-05-14
-updated: 2026-05-14
+updated: 2026-05-15
 cross-wiki-source: "@osint-wiki/sources/eval-tool-evaluation-cemini-multi-wiki-v3-2026-05-14.md"
 ---
 
 ## Relations
 
+- @concepts/subagent-orchestration.md — lead-router + single-writer state-mgr + enum/ops-pair patterns are clean-room extractable orchestration designs
 - @osint-wiki/sources/eval-tool-evaluation-cemini-multi-wiki-v3-2026-05-14.md — K44 source (doc-level verdict)
 
 ## Raw Concept

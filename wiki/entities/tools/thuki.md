@@ -4,15 +4,17 @@ type: entity
 category: tool
 tags: [entity, tool, tauri-app, rust, sqlite, ollama, local-first, macos-desktop, k44, skip-phase-0-2026-05-14, k44-purpose-misstated, single-author-74-percent]
 keywords: [thuki, quiet-node-thuki, tauri-v2, rust-backend, react-19, sqlite-conversation-history, ollama-local-inference, NOT-claude-code-state, apache-2-license, no-notice-file]
-related: []
+related:
+  - entities/tools/claude-mem.md
 maturity: validated
 created: 2026-05-14
-updated: 2026-05-14
+updated: 2026-05-15
 cross-wiki-source: "@osint-wiki/sources/eval-tool-evaluation-cemini-multi-wiki-v3-2026-05-14.md"
 ---
 
 ## Relations
 
+- @entities/tools/claude-mem.md — K44 mis-framed thuki as a CC persistence layer; claude-mem is the genuine local-memory tool that contrast clarifies
 - @osint-wiki/sources/eval-tool-evaluation-cemini-multi-wiki-v3-2026-05-14.md — K44 source (doc-level verdict)
 
 ## Raw Concept

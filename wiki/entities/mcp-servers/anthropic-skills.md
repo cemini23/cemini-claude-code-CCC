@@ -13,9 +13,12 @@ related:
   - entities/tools/claude-code-ultimate-guide.md
   - concepts/claude-desktop-vs-claude-code.md
   - entities/tools/tech-debt-skill.md
+  - entities/tools/adamsreview.md
+  - entities/tools/gtm-agents.md
+  - entities/visual-explainer.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-05-13
+updated: 2026-05-15
 ---
 
 ## Relations
@@ -25,6 +28,9 @@ updated: 2026-05-13
 - `@entities/skills/tech-debt-audit.md`, `@entities/skills/claude-seo-agrici.md`, `@entities/skills/marketingskills.md`, `@entities/skills/geo-seo-claude.md` — Cemini-installed skills that exemplify the spec
 - `@entities/tools/claude-code-ultimate-guide.md` — reference catalog of 28 CVEs + 655 malicious-skill patterns relevant to Phase-0 skill audits
 - `@concepts/claude-desktop-vs-claude-code.md` — skills are Claude Code-only
+- `@entities/tools/adamsreview.md` — async code-review CC plugin; PEP 723 inline-script + artifact.json architecture
+- `@entities/tools/gtm-agents.md` — 244-skill GTM pack; reference example of skill-pack distribution structure
+- `@entities/visual-explainer.md` — zero-dependency CC skill generating rich HTML diagrams (Mermaid + Chart.js)
 
 ## Raw Concept
 

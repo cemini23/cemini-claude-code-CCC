@@ -8,9 +8,11 @@ related:
   - concepts/context-engineering.md
   - concepts/hooks-for-automation.md
   - concepts/mcp-context-optimization.md
+  - entities/tools/thuki.md
+  - concepts/nested-learning.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-13
+updated: 2026-05-15
 ---
 
 ## Relations
@@ -19,6 +21,8 @@ updated: 2026-05-13
 - `@concepts/context-engineering.md` — second layer of memory on top of `hot.md` curation
 - `@concepts/hooks-for-automation.md` — claude-mem ships a canonical `SessionStart` hook
 - `@concepts/mcp-context-optimization.md` — claude-mem's injection cap interacts with the four-layer cost stack
+- `@entities/tools/thuki.md` — local-SQLite conversation-history overlay; K44 mis-framed it as a CC persistence layer (SKIP verdict) — contrast with claude-mem, which actually is one
+- `@concepts/nested-learning.md` — literature frame: claude-mem (per-session observations) is one update-frequency layer in Cemini's multi-timescale memory stack
 
 ## Raw Concept
 

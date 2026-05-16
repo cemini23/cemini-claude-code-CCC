@@ -4,15 +4,17 @@ type: entity
 category: tool
 tags: [entity, tool, llm-proxy, litellm, mcp-client, z3-theorem-prover, spacy-offline, lora-adapter, k44, go-phase-0-2026-05-14]
 keywords: [optillm, litellm-gateway, openai-api-compatible, z3-solver-real, mcp-client-not-host, hf-lora-adapter, apache-2-license, multi-provider-routing, codelion-asankhaya-sharma, cerebras-contributors]
-related: []
+related:
+  - concepts/mcp-context-optimization.md
 maturity: validated
 created: 2026-05-14
-updated: 2026-05-14
+updated: 2026-05-15
 cross-wiki-source: "@osint-wiki/sources/eval-tool-evaluation-cemini-multi-wiki-v3-2026-05-14.md"
 ---
 
 ## Relations
 
+- @concepts/mcp-context-optimization.md — multi-provider LLM proxy + MCP client; a routing-layer option adjacent to the four-layer stack
 - @osint-wiki/sources/eval-tool-evaluation-cemini-multi-wiki-v3-2026-05-14.md — K44 source (doc-level verdict)
 
 ## Raw Concept
