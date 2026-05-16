@@ -38,7 +38,16 @@ Full ingest workflow in `CLAUDE.md` § Operations.
 
 ## Cross-wiki
 
-Use `@<wiki-alias>/path/to/page.md` to link into a sibling wiki. The lint script resolves cross-wiki paths against the `Related Wikis` table in `CLAUDE.md`. Bidirectional — every outbound cross-wiki link needs a backlink on the target side.
+This is one of **six** interconnected Cemini wikis. Use `@<wiki-alias>/path/to/page.md` to link into a sibling wiki; the lint script resolves cross-wiki paths against the `Related Wikis` table in `CLAUDE.md`. Bidirectional — every outbound cross-wiki link needs a backlink on the target side.
+
+- `osint-wiki` — financial / quant / prediction-market research · **private (not publicly available)**
+- `image-gen-wiki` — uncensored image / video / voice generation
+- `seo-wiki` — local SEO, GBP, GEO/AEO, creator marketing
+- `3d-printing-wiki` — FDM/FFF printing, Bambu, slicers, print farms
+- `cybersecurity-wiki` — offensive / defensive security research
+- `ccc-wiki` — this wiki (Cemini Claude Code meta-wiki) · **private (not publicly available)**
+
+The OSINT and CCC wikis are private repositories — not publicly available.
 
 ## License
 
