@@ -18,6 +18,11 @@ related:
   - entities/tools/claude-for-legal.md
   - entities/mcp-servers/pmxt-mcp-pattern.md
   - entities/tools/osmedeus-acp-orchestration.md
+  - concepts/agent-vm-sandboxing.md
+  - concepts/twelve-rule-claude-md-template.md
+  - entities/patterns/scatter-gather.md
+  - entities/patterns/autoresearch-loop.md
+  - entities/mcp-servers/polymarket-mcp-server.md
 maturity: validated
 created: 2026-05-13
 updated: 2026-05-15

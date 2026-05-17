@@ -10,6 +10,7 @@ related:
   - entities/tools/claude-mem.md
   - entities/patterns/tier1-tier2-agent-model.md
   - entities/tools/claude-code-ultimate-guide.md
+  - entities/tools/claude-obsidian.md
 maturity: draft
 created: 2026-05-13
 updated: 2026-05-13
@@ -22,6 +23,7 @@ updated: 2026-05-13
 - `@entities/tools/cua.md` — natural pairing for PreToolUse hooks that gate sandbox-required commands
 - `@entities/tools/claude-mem.md` — canonical SessionStart hook example
 - `@entities/patterns/tier1-tier2-agent-model.md` — hooks are the imperative-side enforcement layer (declarative side = settings.permissions)
+- `@entities/tools/claude-obsidian.md` — case study of SessionStart-hook collision (claude-obsidian vs claude-mem)
 
 ## Raw Concept
 

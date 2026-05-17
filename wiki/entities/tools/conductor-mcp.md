@@ -8,6 +8,7 @@ related:
   - entities/mcp-servers/librarian-kb-server.md
   - concepts/cross-wiki-routing.md
   - entities/tools/osmedeus-acp-orchestration.md
+  - entities/patterns/scatter-gather.md
 maturity: validated
 created: 2026-05-13
 updated: 2026-05-16
@@ -19,6 +20,7 @@ updated: 2026-05-16
 - `@entities/mcp-servers/librarian-kb-server.md` — backend it routes to
 - `@concepts/cross-wiki-routing.md` — the workflow concept this tool implements
 - `@entities/tools/osmedeus-acp-orchestration.md` — adjacent orchestration architecture: a YAML engine orchestrating ACP subprocess agents
+- `@entities/patterns/scatter-gather.md` — the conductor's cross-wiki query routing is a scatter-gather application
 
 Cross-wiki: `@osint-wiki/concepts/conductor-orchestrator.md` covers the design history and the FastMCP-based implementation.
 

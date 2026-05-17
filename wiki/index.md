@@ -23,6 +23,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`skillkit`](entities/tools/skillkit.md) | draft | Cross-agent skill translation/management bridge; ships `@skillkit/mcp` runtime-discovery server — ADOPT |
 | [`polyterm-tui-pattern`](entities/tools/polyterm-tui-pattern.md) | draft | Cross-wiki stub — terminal-native UI-design reference (ASCII charts, keyboard chords) |
 | [`osmedeus-acp-orchestration`](entities/tools/osmedeus-acp-orchestration.md) | draft | Cross-wiki stub — YAML-workflow engine orchestrating ACP subprocess agents; conductor-architecture reference |
+| [`claude-obsidian`](entities/tools/claude-obsidian.md) | draft | Cross-wiki stub — DO NOT ADOPT (parallel-impl with claude-mem; SessionStart hook collision) |
 
 ## entities/mcp-servers/
 
@@ -32,6 +33,9 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`exa`](entities/mcp-servers/exa.md) | core | Exa neural search MCP server (paid API) |
 | [`librarian-kb-server`](entities/mcp-servers/librarian-kb-server.md) | validated | Hetzner-hosted REST API serving the OSINT wiki |
 | [`pmxt-mcp-pattern`](entities/mcp-servers/pmxt-mcp-pattern.md) | draft | Cross-wiki stub — MCP-exposes-trading-execution pattern (`@pmxt/mcp`); Tier-2-gated MCP class |
+| [`stash`](entities/mcp-servers/stash.md) | draft | Cross-wiki stub — persistent episodic-memory MCP (Go, Apache-2.0, Wave 5A Adopt-but-fork) |
+| [`llm-wiki-compiler`](entities/mcp-servers/llm-wiki-compiler.md) | draft | Cross-wiki stub — Karpathy-pattern wiki compiler + MCP server (npm, Wave 4B Adopt) |
+| [`polymarket-mcp-server`](entities/mcp-servers/polymarket-mcp-server.md) | draft | Cross-wiki stub — 45-tool autonomous-trading MCP; execution-MCP class exemplar |
 
 ## entities/skills/
 
@@ -55,6 +59,9 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`ralph-loop`](entities/patterns/ralph-loop.md) | draft | File-based memory for autonomous loop iterations |
 | [`full-prompt-goal-template`](entities/patterns/full-prompt-goal-template.md) | validated | `/goal` single-shot meta-template (5 sections + 10 ops rules) |
 | [`tier1-tier2-agent-model`](entities/patterns/tier1-tier2-agent-model.md) | validated | Scope-enforcement pattern for execution-capable agents |
+| [`cpr-context-compression`](entities/patterns/cpr-context-compression.md) | draft | Cross-wiki stub — Compress/Preserve/Resume pattern; `hot.md` + claude-mem manifestation |
+| [`autoresearch-loop`](entities/patterns/autoresearch-loop.md) | draft | Cross-wiki stub — proposal × objective × mutation loop; 5 documented instantiations |
+| [`scatter-gather`](entities/patterns/scatter-gather.md) | draft | Cross-wiki stub — LangGraph parallel fan-out topology; parallel Agent tool calls |
 
 ## concepts/
 
@@ -68,6 +75,9 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`claude-desktop-vs-claude-code`](concepts/claude-desktop-vs-claude-code.md) | validated | Two surfaces, two extension formats, two config files |
 | [`three-cache-architecture`](concepts/three-cache-architecture.md) | validated | OpenRouter Response + OpenRouter Edge + Anthropic KV |
 | [`mcp-context-optimization`](concepts/mcp-context-optimization.md) | validated | Four-layer optimization stack for MCP-heavy sessions |
+| [`agent-vm-sandboxing`](concepts/agent-vm-sandboxing.md) | draft | Cross-wiki stub — disposable-VM isolation for Tier-2 / unvetted-skill execution |
+| [`skill-vetting`](concepts/skill-vetting.md) | draft | Phase-0 audit checklist for third-party Claude Code skills (5 steps) |
+| [`twelve-rule-claude-md-template`](concepts/twelve-rule-claude-md-template.md) | draft | Cross-wiki stub — Karpathy → Forrest Chang → Mnilax 12-rule template |
 
 ## entities/sources/hooks/people
 
@@ -109,6 +119,15 @@ Currently empty / placeholder. As Cemini ingests Claude Code release notes, conf
 | `entities/mcp-servers/pmxt-mcp-pattern.md` | `@osint-wiki/entities/tools/pmxt.md` | Primary page (prediction-market tool detail) |
 | `entities/tools/polyterm-tui-pattern.md` | `@osint-wiki/entities/tools/polyterm.md` | Primary page (Polymarket analytics tool detail) |
 | `entities/tools/osmedeus-acp-orchestration.md` | `@cybersecurity-wiki/entities/tools/osmedeus.md` | Primary page (security-orchestration engine detail) |
+| `concepts/agent-vm-sandboxing.md` | `@cybersecurity-wiki/concepts/agent-vm-sandboxing.md` | Primary methodology + threat model |
+| `concepts/twelve-rule-claude-md-template.md` | `@osint-wiki/concepts/claude-md-12-rule-template.md` | Primary lineage + empirical claims |
+| `entities/tools/claude-obsidian.md` | `@osint-wiki/entities/tools/claude-obsidian.md` | Primary Phase-0 audit + Dead Ends |
+| `entities/patterns/cpr-context-compression.md` | `@osint-wiki/concepts/context-compression-resume-pattern.md` | Primary architectural detail |
+| `entities/patterns/autoresearch-loop.md` | `@osint-wiki/concepts/autoresearch-loop-pattern.md` | Primary definition + 5 instantiations |
+| `entities/patterns/scatter-gather.md` | `@osint-wiki/concepts/scatter-gather-topology.md` | Primary LangGraph + conductor write-up |
+| `entities/mcp-servers/stash.md` | `@osint-wiki/sources/alash3al-stash.md` | Primary source (Phase-0 audit) |
+| `entities/mcp-servers/llm-wiki-compiler.md` | `@osint-wiki/sources/atomicmemory-llm-wiki-compiler.md` | Primary source (Karpathy pattern coverage) |
+| `entities/mcp-servers/polymarket-mcp-server.md` | `@osint-wiki/sources/caiovicentino-polymarket-mcp-server.md` | Primary source (45-tool inventory) |
 
 ## Concepts
 

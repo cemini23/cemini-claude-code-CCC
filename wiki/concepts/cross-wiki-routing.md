@@ -8,6 +8,7 @@ related:
   - entities/mcp-servers/exa.md
   - entities/mcp-servers/librarian-kb-server.md
   - concepts/subagent-orchestration.md
+  - entities/mcp-servers/llm-wiki-compiler.md
 maturity: validated
 created: 2026-05-13
 updated: 2026-05-13
@@ -19,6 +20,7 @@ updated: 2026-05-13
 - `@entities/mcp-servers/exa.md` — alternative fan-out via Exa for external sources
 - `@entities/mcp-servers/librarian-kb-server.md` — backend the conductor reads from
 - `@concepts/subagent-orchestration.md` — cross-wiki routing is a canonical multi-subagent dispatch
+- `@entities/mcp-servers/llm-wiki-compiler.md` — candidate compiler whose raw→wiki→schema pipeline mirrors the routing decision
 
 Cross-wiki: `@osint-wiki/concepts/librarian-server-architecture.md` carries the federation's serving-layer design history.
 

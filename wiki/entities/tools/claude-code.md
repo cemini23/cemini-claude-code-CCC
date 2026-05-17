@@ -29,6 +29,7 @@ related:
   - concepts/mcp-context-optimization.md
   - entities/tools/alumnium.md
   - entities/tools/polyterm-tui-pattern.md
+  - concepts/twelve-rule-claude-md-template.md
 maturity: core
 hub: true
 created: 2026-05-13

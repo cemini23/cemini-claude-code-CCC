@@ -6,6 +6,7 @@ keywords: [pmxt, pmxt-mcp, ccxt-for-prediction-markets, create-order, fetch-bala
 related:
   - entities/mcp-servers/exa.md
   - concepts/subagent-orchestration.md
+  - entities/mcp-servers/polymarket-mcp-server.md
 maturity: draft
 created: 2026-05-16
 updated: 2026-05-16
@@ -17,6 +18,7 @@ cross-wiki-source: "@osint-wiki/entities/tools/pmxt.md"
 - @entities/mcp-servers/exa.md — sibling MCP-server page; pmxt is a contrasting MCP class (execution-side, not research-side)
 - @concepts/subagent-orchestration.md — an execution-capable MCP server is exactly the kind of high-blast-radius tool a Tier-2 subagent gates access to
 - @osint-wiki/entities/tools/pmxt.md — cross-wiki primary page (full tool write-up + audit lives in OSINT)
+- @entities/mcp-servers/polymarket-mcp-server.md — sibling execution-MCP page (45-tool Polymarket surface); same blast-radius class
 
 ## Raw Concept
 

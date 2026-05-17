@@ -18,6 +18,9 @@ related:
   - entities/visual-explainer.md
   - entities/tools/claude-for-legal.md
   - entities/tools/skillkit.md
+  - concepts/skill-vetting.md
+  - entities/mcp-servers/stash.md
+  - entities/mcp-servers/llm-wiki-compiler.md
 maturity: draft
 created: 2026-05-13
 updated: 2026-05-16
@@ -35,6 +38,9 @@ updated: 2026-05-16
 - `@entities/visual-explainer.md` — zero-dependency CC skill generating rich HTML diagrams (Mermaid + Chart.js)
 - `@entities/tools/claude-for-legal.md` — Anthropic-official vertical plugin pack; practice-area plugins are a SKILL.md-style packaged distribution
 - `@entities/tools/skillkit.md` — management/translation layer atop the SKILL.md spec; governs the same `.claude/skills/` surface
+- `@concepts/skill-vetting.md` — Phase-0 audit checklist for skills installed via this marketplace
+- `@entities/mcp-servers/stash.md` — MCP server discoverable via the same protocol surface
+- `@entities/mcp-servers/llm-wiki-compiler.md` — MCP server discoverable via the same protocol surface
 
 ## Raw Concept
 

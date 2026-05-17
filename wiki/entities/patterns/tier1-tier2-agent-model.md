@@ -10,6 +10,9 @@ related:
   - concepts/subagent-orchestration.md
   - concepts/hooks-for-automation.md
   - entities/tools/osmedeus-acp-orchestration.md
+  - concepts/agent-vm-sandboxing.md
+  - entities/patterns/scatter-gather.md
+  - entities/mcp-servers/polymarket-mcp-server.md
 maturity: validated
 created: 2026-05-13
 updated: 2026-05-16
@@ -23,6 +26,9 @@ updated: 2026-05-16
 - `@concepts/subagent-orchestration.md` — Tier 2 dispatch is a special case of subagent dispatch with stricter gating
 - `@concepts/hooks-for-automation.md` — PreToolUse hooks are the natural enforcement layer for Tier 2 commands
 - `@entities/tools/osmedeus-acp-orchestration.md` — security-orchestration engine; canonical home of execution-capable Tier-2 agents
+- `@concepts/agent-vm-sandboxing.md` — Tier-2 subagents naturally run inside the agent-VM sandbox
+- `@entities/patterns/scatter-gather.md` — Tier-2 subagents are typical scatter-leg workers
+- `@entities/mcp-servers/polymarket-mcp-server.md` — execution-MCP class exemplar that the Tier-2 gate must constrain
 
 Cross-wiki: `@cybersecurity-wiki/concepts/llm-pentest-automation.md` is the canonical write-up of this pattern (originally from `pentest-ai-agents` v3.2). `@cybersecurity-wiki/entities/tools/pentest-ai-agents.md` is the reference implementation.
 

@@ -14,6 +14,7 @@ related:
   - entities/tools/tech-debt-skill.md
   - entities/tools/claude-for-legal.md
   - entities/tools/skillkit.md
+  - concepts/skill-vetting.md
 maturity: validated
 created: 2026-05-13
 updated: 2026-05-16

@@ -11,6 +11,9 @@ related:
   - entities/tools/thuki.md
   - concepts/nested-learning.md
   - entities/tools/skillkit.md
+  - entities/tools/claude-obsidian.md
+  - entities/patterns/cpr-context-compression.md
+  - entities/mcp-servers/stash.md
 maturity: validated
 created: 2026-05-13
 updated: 2026-05-16
@@ -23,6 +26,9 @@ updated: 2026-05-16
 - `@concepts/hooks-for-automation.md` — claude-mem ships a canonical `SessionStart` hook
 - `@concepts/mcp-context-optimization.md` — claude-mem's injection cap interacts with the four-layer cost stack
 - `@entities/tools/thuki.md` — local-SQLite conversation-history overlay; K44 mis-framed it as a CC persistence layer (SKIP verdict) — contrast with claude-mem, which actually is one
+- `@entities/tools/claude-obsidian.md` — competing tool rejected for SessionStart-hook collision with claude-mem
+- `@entities/patterns/cpr-context-compression.md` — preserve/resume legs claude-mem operationalises
+- `@entities/mcp-servers/stash.md` — durable-storage MCP layer complementing claude-mem's session-bridge memory
 - `@concepts/nested-learning.md` — literature frame: claude-mem (per-session observations) is one update-frequency layer in Cemini's multi-timescale memory stack
 - `@entities/tools/skillkit.md` — skillkit's session memory captures transient architectural insights, conceptually adjacent to claude-mem's passive observation layer
 

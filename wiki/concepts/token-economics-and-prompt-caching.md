@@ -14,6 +14,7 @@ related:
   - entities/tools/claude-code-router.md
   - entities/tools/ttok.md
   - entities/openusage.md
+  - entities/patterns/cpr-context-compression.md
 maturity: validated
 created: 2026-05-13
 updated: 2026-05-15

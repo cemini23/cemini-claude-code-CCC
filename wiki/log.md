@@ -4,6 +4,32 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-05-17] parked-followup batch | 10 ROADMAP follow-ups stubbed from sibling-wiki primaries
+
+Cleared 10 of the 11 parked follow-ups from `ROADMAP.md` § Follow-ups from the deep-dive. Each new page is a Claude-Code-side stub pointing at an existing OSINT or Cybersec primary; bodies focus on the CCC slice (Tier-2 gates, hook collisions, harness configuration, memory-stack composition).
+
+**New pages (10)**:
+- `concepts/agent-vm-sandboxing.md` — cross-wiki stub → `@cybersecurity-wiki/concepts/agent-vm-sandboxing.md`
+- `concepts/skill-vetting.md` — internal extraction from `entities/mcp-servers/anthropic-skills.md` (5-step Phase-0 checklist; OSINT-side namesake is `[RETRACTED]`, intentionally different concept)
+- `concepts/twelve-rule-claude-md-template.md` — cross-wiki stub → `@osint-wiki/concepts/claude-md-12-rule-template.md`
+- `entities/tools/claude-obsidian.md` — cross-wiki stub → `@osint-wiki/entities/tools/claude-obsidian.md` (DO NOT ADOPT, recorded for the hook-collision case study)
+- `entities/patterns/cpr-context-compression.md` — cross-wiki stub → `@osint-wiki/concepts/context-compression-resume-pattern.md`
+- `entities/patterns/autoresearch-loop.md` — cross-wiki stub → `@osint-wiki/concepts/autoresearch-loop-pattern.md`
+- `entities/patterns/scatter-gather.md` — cross-wiki stub → `@osint-wiki/concepts/scatter-gather-topology.md`
+- `entities/mcp-servers/stash.md` — cross-wiki stub → `@osint-wiki/sources/alash3al-stash.md`
+- `entities/mcp-servers/llm-wiki-compiler.md` — cross-wiki stub → `@osint-wiki/sources/atomicmemory-llm-wiki-compiler.md`
+- `entities/mcp-servers/polymarket-mcp-server.md` — cross-wiki stub → `@osint-wiki/sources/caiovicentino-polymarket-mcp-server.md`
+
+**Bidirectional backlinks added** to 17 existing CCC pages: cua, claude-mem, claude-code, claude-code-ultimate-guide, conductor-mcp, pmxt-mcp-pattern, plugin, full-prompt-goal-template, ralph-loop, tier1-tier2-agent-model, anthropic-skills, librarian-kb-server, context-engineering, token-economics-and-prompt-caching, subagent-orchestration, hooks-for-automation, cross-wiki-routing.
+
+**`index.md` updated**: 1 tool row, 3 mcp-server rows, 3 pattern rows, 3 concept rows, 10 cross-wiki-link rows.
+
+**Deferred from this batch**:
+- `entities/patterns/structured-findings-schema.md` — no primary page found in OSINT/Cybersec; defer until either a primary surfaces or Cemini ships its own structured-findings shape.
+- `entities/mcp-servers/kb-server.md` — covered by existing `entities/mcp-servers/librarian-kb-server.md`; would be duplicate. Closed from the parked list.
+
+---
+
 ## [2026-05-16] cross-wiki ingest | Claude-Code/agent-orchestration tools from OSINT tool-eval (v3 iteration)
 
 Five pages cross-routed into CCC from the OSINT-side tool-eval ingest `@osint-wiki/sources/tool-eval-wiki-fit-v3-iteration-2026-05-16.md`.

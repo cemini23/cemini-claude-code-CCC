@@ -11,6 +11,8 @@ related:
   - entities/patterns/tier1-tier2-agent-model.md
   - entities/tools/spec-kit.md
   - entities/tools/claude-for-legal.md
+  - concepts/twelve-rule-claude-md-template.md
+  - entities/patterns/autoresearch-loop.md
 maturity: validated
 created: 2026-05-13
 updated: 2026-05-16
@@ -23,6 +25,8 @@ updated: 2026-05-16
 - `@entities/patterns/ralph-loop.md` — sibling pattern; loop-based vs this single-shot
 - `@concepts/context-engineering.md` — `/goal` is one of Cemini's primary context-engineering tools
 - `@entities/tools/claude-for-legal.md` — "cold-start interviews" pattern: learn the institutional playbook before executing, same shape as `/goal`
+- `@concepts/twelve-rule-claude-md-template.md` — the persistent-context analog; `/goal` is single-shot, 12-rule template is durable CLAUDE.md
+- `@entities/patterns/autoresearch-loop.md` — `/goal` is a single-shot version of autoresearch's proposal stage
 
 Cross-wiki: `@osint-wiki/sources/autonomous-agent-meta-prompt-2026-05.md` is the original source page with the verbatim template.
 

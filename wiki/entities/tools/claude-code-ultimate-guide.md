@@ -7,6 +7,7 @@ related:
   - entities/tools/claude-code.md
   - entities/mcp-servers/anthropic-skills.md
   - concepts/hooks-for-automation.md
+  - concepts/skill-vetting.md
 maturity: draft
 created: 2026-05-13
 updated: 2026-05-13
@@ -17,6 +18,7 @@ updated: 2026-05-13
 - `@entities/tools/claude-code.md` — host harness this guide documents
 - `@entities/mcp-servers/anthropic-skills.md` — the malicious-skill patterns vet skills before install
 - `@concepts/hooks-for-automation.md` — the CVE catalog informs PreToolUse hook design
+- `@concepts/skill-vetting.md` — the 655 malicious-skill patterns feed step 4 of the Phase-0 audit checklist
 
 Cross-wiki: `@cybersecurity-wiki/entities/tools/claude-code-ultimate-guide.md` carries the cross-routed cybersec adoption notes. `@osint-wiki/sources/evaluating-github-repos-trading-stack-2026-05-12.md` is the eval origin (URL 17 in that batch).
 

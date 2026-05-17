@@ -6,6 +6,8 @@ keywords: [librarian, kb-server, cemini-librarian, hetzner, kb ingest, wiki serv
 related:
   - entities/tools/conductor-mcp.md
   - concepts/cross-wiki-routing.md
+  - entities/mcp-servers/stash.md
+  - entities/mcp-servers/llm-wiki-compiler.md
 maturity: validated
 created: 2026-05-13
 updated: 2026-05-13
@@ -15,6 +17,8 @@ updated: 2026-05-13
 
 - `@entities/tools/conductor-mcp.md` — the conductor's primary retrieval backend
 - `@concepts/cross-wiki-routing.md` — librarian's role in the cross-wiki query pipeline
+- `@entities/mcp-servers/stash.md` — durable-storage MCP layer sharing the librarian deployment surface
+- `@entities/mcp-servers/llm-wiki-compiler.md` — candidate upstream compiler that would feed the librarian's index
 
 Cross-wiki: `@osint-wiki/concepts/librarian-server-architecture.md` carries the canonical architecture write-up.
 

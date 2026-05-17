@@ -17,6 +17,8 @@ related:
   - entities/tools/ttok.md
   - concepts/nested-learning.md
   - entities/tools/polyterm-tui-pattern.md
+  - concepts/twelve-rule-claude-md-template.md
+  - entities/patterns/cpr-context-compression.md
 maturity: validated
 created: 2026-05-13
 updated: 2026-05-16
