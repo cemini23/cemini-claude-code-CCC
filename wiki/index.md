@@ -24,6 +24,10 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`polyterm-tui-pattern`](entities/tools/polyterm-tui-pattern.md) | draft | Cross-wiki stub — terminal-native UI-design reference (ASCII charts, keyboard chords) |
 | [`osmedeus-acp-orchestration`](entities/tools/osmedeus-acp-orchestration.md) | draft | Cross-wiki stub — YAML-workflow engine orchestrating ACP subprocess agents; conductor-architecture reference |
 | [`claude-obsidian`](entities/tools/claude-obsidian.md) | draft | Cross-wiki stub — DO NOT ADOPT (parallel-impl with claude-mem; SessionStart hook collision) |
+| [`ai-token-monitor`](entities/tools/ai-token-monitor.md) | draft | Cross-platform Tauri desktop app monitoring Claude Code + Codex token usage (offline-first); MIT, Adopt |
+| [`codexbar`](entities/tools/codexbar.md) | draft | macOS menu-bar app — live API stats, daily/weekly limit tracking + overrun notifications; MIT, Adopt |
+| [`superclaude-framework`](entities/tools/superclaude-framework.md) | draft | Claude Code config/automation framework — slash commands, cognitive personas, KNOWLEDGE.md; ~22.8k★, MIT, Adopt |
+| [`roo-code`](entities/tools/roo-code.md) | draft | Autonomous AI agent team in the code editor; ~24.1k★, Apache-2.0 — repo ARCHIVED, adopt only as fork-and-maintain blueprint |
 
 ## entities/mcp-servers/
 
@@ -128,6 +132,10 @@ Currently empty / placeholder. As Cemini ingests Claude Code release notes, conf
 | `entities/mcp-servers/stash.md` | `@osint-wiki/sources/alash3al-stash.md` | Primary source (Phase-0 audit) |
 | `entities/mcp-servers/llm-wiki-compiler.md` | `@osint-wiki/sources/atomicmemory-llm-wiki-compiler.md` | Primary source (Karpathy pattern coverage) |
 | `entities/mcp-servers/polymarket-mcp-server.md` | `@osint-wiki/sources/caiovicentino-polymarket-mcp-server.md` | Primary source (45-tool inventory) |
+| `entities/tools/ai-token-monitor.md` | `@osint-wiki/sources/multi-wiki-tool-eval-ipsale-risk-2026-05-17.md` | Cross-wiki tool-eval source (56-repo eval) |
+| `entities/tools/codexbar.md` | `@osint-wiki/sources/multi-wiki-tool-eval-ipsale-risk-2026-05-17.md` | Cross-wiki tool-eval source (56-repo eval) |
+| `entities/tools/superclaude-framework.md` | `@osint-wiki/sources/multi-wiki-tool-eval-ipsale-risk-2026-05-17.md` | Cross-wiki tool-eval source (56-repo eval) |
+| `entities/tools/roo-code.md` | `@osint-wiki/sources/multi-wiki-tool-eval-ipsale-risk-2026-05-17.md` | Cross-wiki tool-eval source (56-repo eval) |
 
 ## Concepts
 

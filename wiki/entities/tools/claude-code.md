@@ -29,11 +29,12 @@ related:
   - concepts/mcp-context-optimization.md
   - entities/tools/alumnium.md
   - entities/tools/polyterm-tui-pattern.md
+  - entities/tools/superclaude-framework.md
   - concepts/twelve-rule-claude-md-template.md
 maturity: core
 hub: true
 created: 2026-05-13
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 ## Relations
@@ -52,6 +53,7 @@ updated: 2026-05-16
 - `@entities/patterns/full-prompt-goal-template.md` — single-shot meta-prompt template
 - `@entities/tools/lazy-tool.md`, `@entities/tools/claude-code-router.md`, `@entities/tools/ttok.md`, `@entities/tools/tech-debt-skill.md`, `@entities/tools/cua.md`, `@entities/tools/spec-kit.md`, `@entities/tools/claude-code-ultimate-guide.md` — surrounding tool stack
 - `@entities/commands/plugin.md` — `/plugin marketplace add` + `/plugin install`
+- `@entities/tools/superclaude-framework.md` — third-party Claude Code config/automation framework (slash commands + cognitive personas + KNOWLEDGE.md)
 - `@concepts/claude-desktop-vs-claude-code.md` — surface distinction
 - `@concepts/three-cache-architecture.md` — the cost mechanism behind every Cemini session
 - `@concepts/mcp-context-optimization.md` — the four-layer optimization stack

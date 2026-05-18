@@ -4,6 +4,22 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-05-17] cross-wiki route | ai-token-monitor + CodexBar + SuperClaude_Framework + Roo-Code (OSINT 56-repo tool eval)
+
+Four entity pages cross-routed into CCC from the OSINT-side 56-repo multi-wiki tool eval `@osint-wiki/sources/multi-wiki-tool-eval-ipsale-risk-2026-05-17.md`. All four are CCC-primary-fit, all tier **Adopt** in the eval.
+
+**New pages (4, all `entities/tools/`)**:
+- `entities/tools/ai-token-monitor.md` — cross-platform Tauri desktop app monitoring Claude Code + Codex token usage; offline-first except opt-in leaderboards. MIT. Token telemetry for the laptop-side fleet.
+- `entities/tools/codexbar.md` — lightweight macOS menu-bar app; live API stats, daily/weekly limit tracking, desktop overrun notifications for Claude Code + Codex. MIT. The enforcement/alerting layer for token-economic policy.
+- `entities/tools/superclaude-framework.md` — Claude Code configuration/automation framework (slash commands + cognitive personas + KNOWLEDGE.md integrations). ~22.8k★. MIT. Maps to CCC's document/extend/standardize mandate.
+- `entities/tools/roo-code.md` — autonomous AI agent team embedded in the code editor; ~24.1k★. Apache-2.0. **Repo ARCHIVED by owner** — recorded as adoptable only as a fork-and-maintain blueprint, not a live dependency; Apache-2.0 permits the fork. Archived-repo caveat called out in Narrative + Dead Ends.
+
+**Bidirectional backlinks added** to 4 existing CCC pages: `entities/openusage.md` (sibling token tool — linked from both monitors), `concepts/token-economics-and-prompt-caching.md` (concept link for both monitors), `concepts/subagent-orchestration.md` (concept link for SuperClaude_Framework persona model + Roo-Code agent team), `entities/tools/claude-code.md` (harness link for SuperClaude_Framework), `entities/claude-code-agent-farm.md` (sibling multi-agent tool — linked from Roo-Code). `updated:` bumped on all five.
+
+**`index.md` updated**: 4 tool rows + 4 cross-wiki-link rows. No pre-existing near-equivalent pages — `openusage` is the closest sibling (token telemetry) but is a distinct tool (Go daemon vs Tauri app vs Swift menu-bar); linked, not merged. Do NOT git commit — left staged.
+
+---
+
 ## [2026-05-17] parked-followup batch | 10 ROADMAP follow-ups stubbed from sibling-wiki primaries
 
 Cleared 10 of the 11 parked follow-ups from `ROADMAP.md` § Follow-ups from the deep-dive. Each new page is a Claude-Code-side stub pointing at an existing OSINT or Cybersec primary; bodies focus on the CCC slice (Tier-2 gates, hook collisions, harness configuration, memory-stack composition).

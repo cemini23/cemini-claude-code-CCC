@@ -5,9 +5,10 @@ tags: []
 keywords: []
 related:
   - concepts/subagent-orchestration.md
+  - entities/tools/roo-code.md
 maturity: draft
 created: 2026-05-14
-updated: 2026-05-15
+updated: 2026-05-17
 cross-wiki-source: @osint-wiki/entities/tools/claude-code-agent-farm.md
 ---
 
@@ -16,6 +17,7 @@ cross-wiki-source: @osint-wiki/entities/tools/claude-code-agent-farm.md
 ## Relations
 
 - @concepts/subagent-orchestration.md — parallel-agent orchestration cluster; heartbeat + file-lock patterns are the steal-from value
+- @entities/tools/roo-code.md — sibling multi-agent-team tool; Roo-Code is the IDE-plugin form of the same many-agents idea
 - @osint-wiki/entities/tools/claude-code-agent-farm.md  (cross-wiki source)
 
 ## Raw Concept

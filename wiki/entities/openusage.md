@@ -5,9 +5,11 @@ tags: []
 keywords: []
 related:
   - concepts/token-economics-and-prompt-caching.md
+  - entities/tools/ai-token-monitor.md
+  - entities/tools/codexbar.md
 maturity: draft
 created: 2026-05-14
-updated: 2026-05-15
+updated: 2026-05-17
 cross-wiki-source: @osint-wiki/entities/tools/openusage.md
 ---
 
@@ -16,6 +18,8 @@ cross-wiki-source: @osint-wiki/entities/tools/openusage.md
 ## Relations
 
 - @concepts/token-economics-and-prompt-caching.md — the cost-discipline concept openusage instruments by tracking per-environment token spend
+- @entities/tools/ai-token-monitor.md — sibling token-telemetry tool; the cross-platform Tauri desktop-app form of the same job
+- @entities/tools/codexbar.md — sibling token-telemetry tool; the glanceable macOS menu-bar form of the same job
 - @osint-wiki/entities/tools/openusage.md  (cross-wiki source)
 
 ## Raw Concept

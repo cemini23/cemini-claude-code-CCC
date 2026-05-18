@@ -14,10 +14,12 @@ related:
   - entities/tools/claude-code-router.md
   - entities/tools/ttok.md
   - entities/openusage.md
+  - entities/tools/ai-token-monitor.md
+  - entities/tools/codexbar.md
   - entities/patterns/cpr-context-compression.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-15
+updated: 2026-05-17
 ---
 
 ## Relations
@@ -32,6 +34,8 @@ updated: 2026-05-15
 - `@entities/tools/claude-code-router.md` — Layer 2 (cost-class routing + cache headers)
 - `@entities/tools/ttok.md` — preview-counting before paste
 - `@entities/openusage.md` — background telemetry daemon tracking API token consumption + spend across local dev environments
+- `@entities/tools/ai-token-monitor.md` — cross-platform Tauri desktop app monitoring Claude Code + Codex token usage (offline-first)
+- `@entities/tools/codexbar.md` — macOS menu-bar app with daily/weekly limit tracking + overrun notifications
 
 ## Raw Concept
 

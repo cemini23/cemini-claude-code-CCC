@@ -23,9 +23,11 @@ related:
   - entities/patterns/scatter-gather.md
   - entities/patterns/autoresearch-loop.md
   - entities/mcp-servers/polymarket-mcp-server.md
+  - entities/tools/superclaude-framework.md
+  - entities/tools/roo-code.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-15
+updated: 2026-05-17
 ---
 
 ## Relations
@@ -44,6 +46,8 @@ updated: 2026-05-15
 - `@entities/tools/claude-for-legal.md` — Trust Layer injection-detection guardrail + managed-agent cookbooks for cadence jobs (STEAL-FROM)
 - `@entities/mcp-servers/pmxt-mcp-pattern.md` — execution-capable MCP server; the Tier-2-gated tool class
 - `@entities/tools/osmedeus-acp-orchestration.md` — YAML-workflow engine orchestrating ACP subprocess agents; conductor-architecture reference
+- `@entities/tools/superclaude-framework.md` — Claude Code config framework; its cognitive-persona model is a structured-persona pattern adjacent to subagent dispatch
+- `@entities/tools/roo-code.md` — autonomous AI agent team embedded in the code editor; gold-standard IDE-integration exemplar of multi-agent orchestration
 
 Cross-wiki: `@osint-wiki/concepts/conductor-orchestrator.md` carries the OSINT-side conductor history (parallel subagent dispatch for cross-wiki queries).
 
