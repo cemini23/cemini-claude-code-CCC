@@ -136,14 +136,16 @@ When a query needs data from another wiki, reference it using the `@wiki-alias/p
 
 Paths below are relative to this CLAUDE.md file's directory. Resolve `../` against this file's location to get the absolute path.
 
-| Alias | Path | Description |
-|-------|------|-------------|
-| `ccc-wiki` | `wiki/` | Cemini Claude Code meta-wiki — workflow, agents, MCP, hooks, skills, slash commands, /goal·Ralph·OpenSpec patterns |
-| `osint-wiki` | `../../OSINT WORKSPACE/wiki/` | Financial research, quant finance, prediction markets, CeminiSuite, RL for trading. Shared territory: agent orchestration, conductor/librarian architecture, skill audits |
-| `cybersecurity-wiki` | `../Cybersecurity wiki/wiki/` | Cybersecurity research — offensive security, defensive operations, certifications, threat actors. Shared territory: hooks for automated permission scoping, security-review skill |
-| `image-gen-wiki` | `../Image gen/wiki/` | Uncensored image generation, model cataloging, ComfyUI, LoRA, persona/character ops. Shared territory: skill-creation patterns |
-| `seo-wiki` | `../SEO:GEO B&M Business/wiki/` | Local SEO, GBP optimization, GEO/AEO, web design, social media. Shared territory: creator/marketing-skill catalogs |
-| `3d-printing-wiki` | `../3D printing/wiki/` | FDM/FFF printing, Bambu, materials, slicers, print farms, store ops. Shared territory: laptop-only schema reference |
+| Alias | Path | Visibility | Description |
+|-------|------|------------|-------------|
+| `ccc-wiki` | `wiki/` | **Public** | Cursor + Claude Code meta-wiki — workflow, agents, MCP, hooks, skills, slash commands, /goal·Ralph·OpenSpec |
+| `osint-wiki` | `../../OSINT WORKSPACE/wiki/` | **Private** | Financial research, quant finance, prediction markets, CeminiSuite. Shared: conductor/librarian, skill audits |
+| `cybersecurity-wiki` | `../Cybersecurity wiki/wiki/` | Public | Cybersecurity research — offensive/defensive, certifications. Shared: permission-scoping hooks |
+| `image-gen-wiki` | `../Image gen/wiki/` | Public | Uncensored image generation, ComfyUI, LoRA, persona ops |
+| `seo-wiki` | `../SEO:GEO B&M Business/wiki/` | Public | Local SEO, GBP, GEO/AEO, creator marketing skills |
+| `3d-printing-wiki` | `../3D printing/wiki/` | Public | FDM/FFF, Bambu, slicers, print farms |
+
+**Private:** `osint-wiki`, Cemini Financial Suite (`../CeminiSuite`). **Public:** this wiki (`ccc-wiki`) + four domain wikis. Federation table: `README.md`.
 
 ### Cross-wiki link syntax
 

@@ -1,8 +1,13 @@
 # CCC — Cemini Claude Code Wiki
 
-Local-only knowledge hub on **how Cemini operates Claude Code** — agent orchestration, context/token economics, MCP servers, hooks, skills, slash commands, and the `/goal` · Ralph · OpenSpec prompting patterns.
+Public knowledge hub on **how Cemini operates Cursor and Claude Code** — agent orchestration, context/token economics, MCP servers, hooks, skills, slash commands, and the `/goal` · Ralph · OpenSpec prompting patterns.
 
-Fifth sibling of the Cemini wiki federation alongside `osint-wiki`, `cybersecurity-wiki`, `image-gen-wiki`, `seo-wiki`, `3d-printing-wiki`.
+```bash
+git clone https://github.com/cemini23/cemini-claude-code-CCC.git
+cd "cemini-claude-code-CCC"
+```
+
+Sixth wiki in the Cemini federation alongside `osint-wiki`, `cybersecurity-wiki`, `image-gen-wiki`, `seo-wiki`, and `3d-printing-wiki`.
 
 ## Quickstart
 
@@ -36,19 +41,24 @@ Read `CLAUDE.md` for the full schema (LLM-facing). Active workstreams live in `R
 
 Full ingest workflow in `CLAUDE.md` § Operations.
 
-## Cross-wiki
+## Cemini wiki federation
 
-This is one of **six** interconnected Cemini wikis. Use `@<wiki-alias>/path/to/page.md` to link into a sibling wiki; the lint script resolves cross-wiki paths against the `Related Wikis` table in `CLAUDE.md`. Bidirectional — every outbound cross-wiki link needs a backlink on the target side.
+**Six** wikis + **Cemini Financial Suite** (private trading stack). Cross-links: `@<alias>/path/to/page.md` (`CLAUDE.md` → Related Wikis). Lint resolves paths on a maintainer machine with all repos checked out.
 
-- `osint-wiki` — financial / quant / prediction-market research · **private (not publicly available)**
-- `image-gen-wiki` — uncensored image / video / voice generation
-- `seo-wiki` — local SEO, GBP, GEO/AEO, creator marketing
-- `3d-printing-wiki` — FDM/FFF printing, Bambu, slicers, print farms
-- `cybersecurity-wiki` — offensive / defensive security research
-- `ccc-wiki` — this wiki (Cemini Claude Code meta-wiki) · **private (not publicly available)**
+| Alias | Repository | Visibility | Focus |
+|-------|------------|------------|--------|
+| **`ccc-wiki`** | **This repo** | **Public** | Cursor / Claude Code workflow, MCP, skills, multi-wiki eval prompts (`prompts/`) |
+| `osint-wiki` | `llm-wiki-by-cemini` *(private)* | **Private** | Financial research; conductor / librarian architecture canon |
+| `image-gen-wiki` | [uncensored-image-gen-wiki](https://github.com/cemini23/uncensored-image-gen-wiki) | Public | Image / video / voice generation |
+| `seo-wiki` | [SEO-GEO-B-M-Wiki](https://github.com/cemini23/SEO-GEO-B-M-Wiki) | Public | Local SEO, GEO/AEO, creator marketing |
+| `3d-printing-wiki` | [3D-Printing-Wiki](https://github.com/cemini23/3D-Printing-Wiki) | Public | FDM/FFF, Bambu, slicers |
+| `cybersecurity-wiki` | [Cybersecurity-wiki](https://github.com/cemini23/Cybersecurity-wiki) | Public | Pentest, SOC, certifications |
+| *Cemini Financial Suite* | `Cemini-Financial-Suite` *(private)* | **Private** | Production trading stack (not a wiki) |
 
-The OSINT and CCC wikis are private repositories — not publicly available.
+**Privacy:** **`ccc-wiki` is public** (this repository). **`osint-wiki`** and **Cemini Financial Suite** are private — cross-wiki links to them appear in prose but those repos are not public deliverables.
+
+**Canonical prompt:** [prompts/deep-research-multi-wiki-eval-v4-2026-05-21.md](prompts/deep-research-multi-wiki-eval-v4-2026-05-21.md) — seven-surface URL evaluation (Gemini Deep Research + Cursor spot-check).
 
 ## License
 
-Personal workspace. No license — not for distribution.
+MIT — see [LICENSE](LICENSE).
