@@ -34,7 +34,7 @@ Cross-wiki: `@osint-wiki/concepts/conductor-orchestrator.md` covers the design h
 
 ## Narrative
 
-`conductor` is a FastMCP server living at `/Users/claudiobarone/Desktop/OSINT WORKSPACE/conductor/mcp_server.py` (canonical location; the federation reuses one conductor across all five wikis). It exposes a single high-value tool — `conductor_query` — that fans a query out across one or more wikis (resolved by `wiki-alias`) and returns a synthesized answer with citation-tracked source page paths.
+`conductor` is a FastMCP server in the **private** `osint-wiki` workspace at `conductor/mcp_server.py` (canonical location; the federation reuses one conductor across all wikis). It exposes a single high-value tool — `conductor_query` — that fans a query out across one or more wikis (resolved by `wiki-alias`) and returns a synthesized answer with citation-tracked source page paths.
 
 **Why it exists**: the federation has five wikis, each with its own `index.md` and entity tree. A naive cross-wiki query forces Claude Code to round-robin-read every `index.md`, then every matched page — burning context and tokens. The conductor offloads that fan-out into a **single subagent invocation** (`@concepts/subagent-orchestration.md`) backed by the librarian's kb-server, returning a synthesized brief to the parent session.
 

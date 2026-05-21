@@ -21,7 +21,7 @@ Evaluate every URL against all 7. Each surface gets ✅ (clear fit) / ⚠️ (pa
 
 1. **Cemini financial suite** — algorithmic trading stack at `/opt/cemini` on `cemini-prod` (Python + FastAPI + LangGraph `agents/orchestrator.py` + PostgreSQL/Timescale + Redis Streams + Polymarket/Kalshi/CCXT). Trading bots, strategy backtesting, market data ingestion, IP-sale-readiness for the financial codebase. Reject ANY tool with AGPL / SSPL / EUPL / PolyForm-Noncommercial / CC-BY-NC / BSL — poison-pill licenses for the IP sale.
 
-2. **OSINT wiki** — financial research wiki at `~/Desktop/OSINT WORKSPACE/wiki/`, served from `cemini-librarian:/opt/cemini-wiki/osint-wiki/wiki/` via kb-server REST + MCP. Quant finance + prediction markets + threat-actor financial profiling + market microstructure. Source-side workflow: `scripts/wiki_lint.py`, `preingest_check.py`, `skill_audit.py`, `wiki_gap_detect.py`, Exa MCP for external verification.
+2. **OSINT wiki** — financial research wiki (private `osint-wiki` repo), served from `cemini-librarian:/opt/cemini-wiki/wiki/` via kb-server REST + MCP. Quant finance + prediction markets + threat-actor financial profiling + market microstructure. Source-side workflow: `scripts/wiki_lint.py`, `preingest_check.py`, `skill_audit.py`, `wiki_gap_detect.py`, Exa MCP for external verification.
 
 3. **Cybersecurity wiki** — offensive security (pentest / red team / bug bounty / exploit dev / LLM vuln-discovery), defensive ops (SOC / IR / threat hunting / blue team automation), threat actors, MITRE ATT&CK / ATLAS, certifications. **Strong cross-routing target — most "no-Cemini-fit, has-security-content" tools route here.**
 

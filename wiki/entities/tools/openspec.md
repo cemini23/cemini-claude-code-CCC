@@ -29,7 +29,7 @@ Cross-wiki: `@osint-wiki/entities/tools/openspec.md` is the OSINT-side entity (w
 
 OpenSpec is a **spec-driven workflow tool** for AI coding agents. It encodes a project's requirements as a versioned spec document (markdown + structured frontmatter), then drives an agent (typically Claude Code or Codex) to implement against that spec iteration by iteration. The spec is the contract; the agent's job is to close every acceptance criterion.
 
-The OSINT workspace cloned the OpenSpec repository at `/Users/claudiobarone/Desktop/OSINT WORKSPACE/openspec/` during a K-cycle audit. Cemini has not yet adopted OpenSpec for daily Cemini workflows — it remains a Tier-2 candidate in the workflow-tool field, alongside Ralph's `prd.json` pattern and the `/goal` single-shot template. The three are structurally similar (all encode "what done looks like") but differ in execution model:
+The private `osint-wiki` workspace cloned the OpenSpec repository at `openspec/` during a K-cycle audit. Cemini has not yet adopted OpenSpec for daily Cemini workflows — it remains a Tier-2 candidate in the workflow-tool field, alongside Ralph's `prd.json` pattern and the `/goal` single-shot template. The three are structurally similar (all encode "what done looks like") but differ in execution model:
 
 | Tool | Execution model | State location | Best for |
 |------|-----------------|----------------|----------|

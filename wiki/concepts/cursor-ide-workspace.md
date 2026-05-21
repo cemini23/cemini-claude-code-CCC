@@ -75,7 +75,7 @@ Tunnels: LaunchAgents `com.cemini.stash-tunnel`, `com.cemini.prod-mcp-tunnel`. V
 
 ```bash
 # GitHub MCP setup (OSINT)
-cd "/Users/claudiobarone/Desktop/OSINT WORKSPACE"
+cd "<osint-wiki-workspace>"   # private clone; path varies per maintainer
 ./scripts/setup_cursor_github_mcp.sh
 ```
 
