@@ -4,6 +4,18 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-05-21] brief ingest | K48 code-as-harness + self-healing (OSINT arXiv)
+
+Ingested `briefs/2026-05-21_k48-code-as-harness-and-self-healing-from-osint.md` (post-batch; arrived after 15-brief sweep).
+
+**Pages created (2):**
+- `concepts/code-as-agent-harness.md` — three-layer survey model → Claude Code / conductor / MCP / hooks mapping
+- `concepts/self-healing-agent-sessions.md` — failure taxonomy + retry budget for long sessions
+
+**Backlinks updated (12):** `claude-code`, `conductor-mcp`, `subagent-orchestration`, `hooks-for-automation`, `glasswing-deliberate-disagreement`, `openspec`, `skill-vetting`, `stash`, `lazy-tool`, `claude-mem`, `full-prompt-goal-template` (+ mutual link between the two new concepts).
+
+**OSINT backlink:** `@ccc-wiki/concepts/code-as-agent-harness.md` added to `@osint-wiki/concepts/code-as-agent-harness.md`.
+
 ## [2026-05-21] batch ingest | 15 cross-wiki briefs triaged and ingested
 
 Bulk triage of all unprocessed briefs in `briefs/` (15 total). Two were already-ingested (concept stubs existed); 13 were unprocessed.

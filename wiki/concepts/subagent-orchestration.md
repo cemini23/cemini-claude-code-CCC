@@ -29,9 +29,11 @@ related:
   - entities/patterns/glasswing-deliberate-disagreement.md
   - entities/tools/cc-wf-studio.md
   - concepts/cross-wiki-tool-eval-inventory.md
+  - concepts/code-as-agent-harness.md
+  - concepts/self-healing-agent-sessions.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-17
+updated: 2026-05-21
 ---
 
 ## Relations
@@ -55,6 +57,8 @@ updated: 2026-05-17
 - `@entities/patterns/citadel-agent-orchestration.md` — apex agent-orchestration OS layer; 4-tier /do routing, campaign persistence, lifecycle hooks, circuit breaker
 - `@entities/patterns/glasswing-deliberate-disagreement.md` — evilsocket/audit's adversarial-verification pattern; multi-agent disagreement as a safety primitive
 - `@entities/tools/cc-wf-studio.md` — visual workflow editor for Claude Code agent pipelines; conditional-branching export format
+- `@concepts/code-as-agent-harness.md` — scaling the harness via isolated subagent contexts
+- `@concepts/self-healing-agent-sessions.md` — subagent error/empty-return retry budget
 
 Cross-wiki: `@osint-wiki/concepts/conductor-orchestrator.md` carries the OSINT-side conductor history (parallel subagent dispatch for cross-wiki queries).
 

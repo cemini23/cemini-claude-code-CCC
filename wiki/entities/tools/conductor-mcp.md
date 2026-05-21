@@ -12,9 +12,11 @@ related:
   - entities/tools/cc-wf-studio.md
   - entities/patterns/citadel-agent-orchestration.md
   - concepts/cross-wiki-tool-eval-inventory.md
+  - concepts/code-as-agent-harness.md
+  - concepts/self-healing-agent-sessions.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-16
+updated: 2026-05-21
 ---
 
 ## Relations
@@ -24,6 +26,8 @@ updated: 2026-05-16
 - `@concepts/cross-wiki-routing.md` — the workflow concept this tool implements
 - `@entities/tools/osmedeus-acp-orchestration.md` — adjacent orchestration architecture: a YAML engine orchestrating ACP subprocess agents
 - `@entities/patterns/scatter-gather.md` — the conductor's cross-wiki query routing is a scatter-gather application
+- `@concepts/code-as-agent-harness.md` — conductor as harness-interface routing layer
+- `@concepts/self-healing-agent-sessions.md` — conductor fan-out failures and fallback policy
 
 Cross-wiki: `@osint-wiki/concepts/conductor-orchestrator.md` covers the design history and the FastMCP-based implementation.
 

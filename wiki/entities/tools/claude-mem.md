@@ -15,9 +15,11 @@ related:
   - entities/patterns/cpr-context-compression.md
   - entities/tools/everos.md
   - entities/mcp-servers/stash.md
+  - concepts/code-as-agent-harness.md
+  - concepts/self-healing-agent-sessions.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-16
+updated: 2026-05-21
 ---
 
 ## Relations
@@ -32,6 +34,8 @@ updated: 2026-05-16
 - `@entities/mcp-servers/stash.md` — durable-storage MCP layer complementing claude-mem's session-bridge memory
 - `@concepts/nested-learning.md` — literature frame: claude-mem (per-session observations) is one update-frequency layer in Cemini's multi-timescale memory stack
 - `@entities/tools/skillkit.md` — skillkit's session memory captures transient architectural insights, conceptually adjacent to claude-mem's passive observation layer
+- `@concepts/code-as-agent-harness.md` — passive observation memory in harness mechanisms layer
+- `@concepts/self-healing-agent-sessions.md` — cross-session failure-pattern recall
 
 ## Raw Concept
 

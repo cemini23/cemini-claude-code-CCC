@@ -11,9 +11,10 @@ related:
   - concepts/token-economics-and-prompt-caching.md
   - concepts/context-engineering.md
   - entities/tools/claude-code-router.md
+  - concepts/code-as-agent-harness.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-13
+updated: 2026-05-21
 ---
 
 ## Relations
@@ -24,6 +25,7 @@ updated: 2026-05-13
 - `@concepts/mcp-context-optimization.md` — Layer 1 of the four-layer optimization stack
 - `@concepts/token-economics-and-prompt-caching.md` — the cost model lazy-tool moves
 - `@concepts/context-engineering.md` — same trick as the harness's built-in `ToolSearch` deferred-tool surface
+- `@concepts/code-as-agent-harness.md` — deferred MCP tool surface in harness mechanisms layer
 
 Cross-wiki: `@osint-wiki/concepts/mcp-context-optimization.md` carries the K34 4-layer methodology source. `@seo-wiki/entities/tools/claude-code-tool-stack.md` is the SEO-side adoption brief.
 

@@ -31,10 +31,12 @@ related:
   - entities/tools/polyterm-tui-pattern.md
   - entities/tools/superclaude-framework.md
   - concepts/twelve-rule-claude-md-template.md
+  - concepts/code-as-agent-harness.md
+  - concepts/self-healing-agent-sessions.md
 maturity: core
 hub: true
 created: 2026-05-13
-updated: 2026-05-17
+updated: 2026-05-21
 ---
 
 ## Relations
@@ -59,6 +61,8 @@ updated: 2026-05-17
 - `@concepts/mcp-context-optimization.md` — the four-layer optimization stack
 - `@entities/tools/alumnium.md` — AI-native E2E testing wrapper that installs as a Claude Code MCP server
 - `@entities/tools/polyterm-tui-pattern.md` — terminal-native UI-design reference for tools built alongside the CLI harness
+- `@concepts/code-as-agent-harness.md` — three-layer harness model mapped to Claude Code + MCP
+- `@concepts/self-healing-agent-sessions.md` — failure taxonomy and retry budget for long sessions
 
 ## Raw Concept
 

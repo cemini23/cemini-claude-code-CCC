@@ -8,6 +8,8 @@ related:
   - entities/patterns/scatter-gather.md
   - entities/patterns/tier1-tier2-agent-model.md
   - entities/patterns/citadel-agent-orchestration.md
+  - concepts/code-as-agent-harness.md
+  - concepts/self-healing-agent-sessions.md
 maturity: draft
 created: 2026-05-21
 updated: 2026-05-21
@@ -20,6 +22,8 @@ cross-wiki-source: "@osint-wiki/sources/analyzing-github-projects-agentic-infra-
 - @entities/patterns/scatter-gather.md — Glasswing's multi-agent fan-out is scatter-gather with adversarial gating
 - @entities/patterns/tier1-tier2-agent-model.md — each narrow Glasswing agent is Tier 1 (advisory); the gating logic is Tier 2 (execution)
 - @entities/patterns/citadel-agent-orchestration.md — Citadel's circuit breaker + Glasswing's disagreement gating are complementary safety primitives
+- @concepts/code-as-agent-harness.md — adversarial verification lens paired with 2605.18747 taxonomy
+- @concepts/self-healing-agent-sessions.md — preferred recovery path vs blind corrective re-prompt
 - @osint-wiki/sources/analyzing-github-projects-agentic-infra-2026-05-21.md (cross-wiki source)
 
 ## Raw Concept

@@ -10,9 +10,11 @@ related:
   - entities/patterns/cpr-context-compression.md
   - entities/mcp-servers/llm-wiki-compiler.md
   - entities/tools/everos.md
+  - concepts/code-as-agent-harness.md
+  - concepts/self-healing-agent-sessions.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-05-17
+updated: 2026-05-21
 cross-wiki-source: "@osint-wiki/sources/alash3al-stash.md"
 ---
 
@@ -23,6 +25,8 @@ cross-wiki-source: "@osint-wiki/sources/alash3al-stash.md"
 - @entities/mcp-servers/anthropic-skills.md — stash is an MCP server, surfaces via the SKILL.md / MCP protocol the marketplace catalogues
 - @entities/patterns/cpr-context-compression.md — stash's 8-stage consolidation is a reference implementation of the CPR "compress" leg at the durable-storage layer
 - @entities/mcp-servers/llm-wiki-compiler.md — sibling MCP server on the same Karpathy-pattern compiler / durable-store lineage; both candidates for the librarian-adjacent surface
+- @concepts/code-as-agent-harness.md — episodic memory in harness mechanisms layer
+- @concepts/self-healing-agent-sessions.md — execution traces + outcomes for integrated monitoring
 - @osint-wiki/sources/alash3al-stash.md — cross-wiki primary source page; full Phase-0 audit, 8-stage consolidation detail, and Hetzner deployment notes live there
 
 ## Raw Concept

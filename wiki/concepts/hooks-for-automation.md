@@ -12,9 +12,11 @@ related:
   - entities/tools/claude-code-ultimate-guide.md
   - entities/tools/claude-obsidian.md
   - entities/tools/delive.md
+  - concepts/code-as-agent-harness.md
+  - concepts/self-healing-agent-sessions.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-05-13
+updated: 2026-05-21
 ---
 
 ## Relations
@@ -25,6 +27,8 @@ updated: 2026-05-13
 - `@entities/tools/claude-mem.md` — canonical SessionStart hook example
 - `@entities/patterns/tier1-tier2-agent-model.md` — hooks are the imperative-side enforcement layer (declarative side = settings.permissions)
 - `@entities/tools/claude-obsidian.md` — case study of SessionStart-hook collision (claude-obsidian vs claude-mem)
+- `@concepts/code-as-agent-harness.md` — hooks as harness feedback control
+- `@concepts/self-healing-agent-sessions.md` — Stop-hook infinite-loop risk under `/goal` healing
 
 ## Raw Concept
 
