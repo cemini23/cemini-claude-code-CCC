@@ -4,6 +4,18 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-05-21] docs | Multi-wiki eval prompt v3 restore + v4 (Cursor-primary)
+
+**Canonical prompts (repo root `prompts/`):**
+- `deep-research-multi-wiki-eval-v3-2026-05-21.md` — frozen verbatim (7 surfaces, CCC = surface 7); reproduces K53/K54/K55
+- `deep-research-multi-wiki-eval-v4-2026-05-21.md` — current default: same 7 surfaces, CCC surface expanded for **Cursor primary** + Claude Code secondary + post-run spot-check
+
+**Wiki pages (2):**
+- `concepts/deep-research-evaluation-prompt.md` — version lineage + ingest workflow
+- `concepts/cursor-ide-workspace.md` — Open Folder / MCP / rules / vs Claude Code
+
+**Note:** An earlier draft mistakenly split into 8 surfaces (Cursor #7 + Claude Code #8); discarded in favor of user's v3 structure.
+
 ## [2026-05-21] brief ingest | K48 code-as-harness + self-healing (OSINT arXiv)
 
 Ingested `briefs/2026-05-21_k48-code-as-harness-and-self-healing-from-osint.md` (post-batch; arrived after 15-brief sweep).

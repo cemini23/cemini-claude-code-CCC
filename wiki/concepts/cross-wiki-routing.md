@@ -10,9 +10,11 @@ related:
   - concepts/subagent-orchestration.md
   - entities/mcp-servers/llm-wiki-compiler.md
   - concepts/cross-wiki-tool-eval-inventory.md
+  - concepts/deep-research-evaluation-prompt.md
+  - concepts/cursor-ide-workspace.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-13
+updated: 2026-05-21
 ---
 
 ## Relations
@@ -23,6 +25,8 @@ updated: 2026-05-13
 - `@concepts/subagent-orchestration.md` — cross-wiki routing is a canonical multi-subagent dispatch
 - `@entities/mcp-servers/llm-wiki-compiler.md` — candidate compiler whose raw→wiki→schema pipeline mirrors the routing decision
 - `@concepts/cross-wiki-tool-eval-inventory.md` — the consolidated receipt of all CCC-routed tool-eval items; this page describes the routing pattern; that page is the output
+- `@concepts/deep-research-evaluation-prompt.md` — bulk eval prompt (v4) drives tier + cross-routing fields
+- `@concepts/cursor-ide-workspace.md` — Cursor-primary ingest spot-check path
 
 Cross-wiki: `@osint-wiki/concepts/librarian-server-architecture.md` carries the federation's serving-layer design history.
 
