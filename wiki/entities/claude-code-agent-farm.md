@@ -9,7 +9,7 @@ related:
 maturity: draft
 created: 2026-05-14
 updated: 2026-05-17
-cross-wiki-source: @osint-wiki/entities/tools/claude-code-agent-farm.md
+cross-wiki-source: "@osint-wiki/entities/tools/claude-code-agent-farm.md"
 ---
 
 # claude_code_agent_farm — Parallel Claude Code Orchestration via tmux

@@ -9,7 +9,7 @@ related:
 maturity: draft
 created: 2026-05-13
 updated: 2026-05-15
-cross-wiki-source: @osint-wiki/sources/nl-nested-learning-behrouz-neurips2025.md
+cross-wiki-source: "@osint-wiki/sources/nl-nested-learning-behrouz-neurips2025.md"
 ---
 
 # Nested Learning (Behrouz et al, NeurIPS 2025)

@@ -10,8 +10,6 @@ related:
   - entities/tools/conductor-mcp.md
   - entities/mcp-servers/librarian-kb-server.md
   - entities/tools/claude-code.md
-  - @osint-wiki/concepts/tool-evaluation-framework.md
-  - @osint-wiki/sources/multi-wiki-gemini-eval-prompt-2026-05-12.md
 maturity: validated
 created: 2026-05-21
 updated: 2026-05-21

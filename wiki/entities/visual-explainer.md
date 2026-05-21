@@ -8,7 +8,7 @@ related:
 maturity: draft
 created: 2026-05-14
 updated: 2026-05-15
-cross-wiki-source: @osint-wiki/entities/tools/visual-explainer.md
+cross-wiki-source: "@osint-wiki/entities/tools/visual-explainer.md"
 ---
 
 # visual-explainer — Agent Skill for Rich HTML Diagram Generation

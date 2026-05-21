@@ -10,7 +10,7 @@ related:
 maturity: draft
 created: 2026-05-14
 updated: 2026-05-17
-cross-wiki-source: @osint-wiki/entities/tools/openusage.md
+cross-wiki-source: "@osint-wiki/entities/tools/openusage.md"
 ---
 
 # openusage — Local Token Economics Dashboard

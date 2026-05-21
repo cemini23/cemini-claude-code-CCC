@@ -8,7 +8,7 @@ related:
 maturity: draft
 created: 2026-05-14
 updated: 2026-05-15
-cross-wiki-source: @osint-wiki/entities/tools/fusion.md
+cross-wiki-source: "@osint-wiki/entities/tools/fusion.md"
 ---
 
 # Fusion — Multi-Node Agent Orchestrator with Worktree Isolation

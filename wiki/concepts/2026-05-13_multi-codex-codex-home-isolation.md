@@ -8,7 +8,7 @@ related:
 maturity: draft
 created: 2026-05-15
 updated: 2026-05-15
-cross-wiki-source: @osint-wiki/sources/eval-github-repos-2026-05-13.md
+cross-wiki-source: "@osint-wiki/sources/eval-github-repos-2026-05-13.md"
 ---
 
 # multi-codex — CODEX_HOME env-var isolation pattern
