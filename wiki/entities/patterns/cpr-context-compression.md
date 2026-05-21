@@ -10,6 +10,7 @@ related:
   - entities/patterns/ralph-loop.md
   - entities/mcp-servers/stash.md
   - entities/patterns/scatter-gather.md
+  - entities/tools/everos.md
 maturity: draft
 created: 2026-05-17
 updated: 2026-05-17

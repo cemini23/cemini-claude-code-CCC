@@ -28,6 +28,10 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`codexbar`](entities/tools/codexbar.md) | draft | macOS menu-bar app — live API stats, daily/weekly limit tracking + overrun notifications; MIT, Adopt |
 | [`superclaude-framework`](entities/tools/superclaude-framework.md) | draft | Claude Code config/automation framework — slash commands, cognitive personas, KNOWLEDGE.md; ~22.8k★, MIT, Adopt |
 | [`roo-code`](entities/tools/roo-code.md) | draft | Autonomous AI agent team in the code editor; ~24.1k★, Apache-2.0 — repo ARCHIVED, adopt only as fork-and-maintain blueprint |
+| [`defenseclaw`](entities/tools/defenseclaw.md) | draft | Cisco security governance for agentic AI — MCP scanner, skill scanner, admission control, CodeGuard (Apache-2.0) |
+| [`cc-wf-studio`](entities/tools/cc-wf-studio.md) | draft | VS Code visual workflow editor for Claude Code agent pipelines; conditional branching (license unverified) |
+| [`delive`](entities/tools/delive.md) | draft | System-audio capture + MCP server + agent skill bridge pattern (Apache-2.0) |
+| [`everos`](entities/tools/everos.md) | draft | Long-term-memory OS — context-offload-to-disk pattern for token savings (Apache-2.0) |
 
 ## entities/mcp-servers/
 
@@ -49,6 +53,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`claude-seo-agrici`](entities/skills/claude-seo-agrici.md) | validated | Local-SEO Claude Code skill (GBP, NAP, geo-grid) |
 | [`marketingskills`](entities/skills/marketingskills.md) | draft | Marketing-framework skill bundle (PAS, brand voice, localized copy) |
 | [`geo-seo-claude`](entities/skills/geo-seo-claude.md) | validated | Generative-engine SEO skill (citability, AI crawlers, schema) |
+| [`src-hunter-skill`](entities/skills/src-hunter-skill.md) | draft | 305-payload, 19-playbook SKILL.md — largest single CC skill in the wild (MIT); design exemplar |
 
 ## entities/commands/
 
@@ -66,6 +71,8 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`cpr-context-compression`](entities/patterns/cpr-context-compression.md) | draft | Cross-wiki stub — Compress/Preserve/Resume pattern; `hot.md` + claude-mem manifestation |
 | [`autoresearch-loop`](entities/patterns/autoresearch-loop.md) | draft | Cross-wiki stub — proposal × objective × mutation loop; 5 documented instantiations |
 | [`scatter-gather`](entities/patterns/scatter-gather.md) | draft | Cross-wiki stub — LangGraph parallel fan-out topology; parallel Agent tool calls |
+| [`citadel-agent-orchestration`](entities/patterns/citadel-agent-orchestration.md) | draft | Apex agent-orchestration OS layer — 4-tier /do routing, campaign persistence, lifecycle hooks, circuit breaker |
+| [`glasswing-deliberate-disagreement`](entities/patterns/glasswing-deliberate-disagreement.md) | draft | evilsocket/audit adversarial-verification pattern — multi-agent disagreement as safety primitive (MIT) |
 
 ## concepts/
 
@@ -82,6 +89,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`agent-vm-sandboxing`](concepts/agent-vm-sandboxing.md) | draft | Cross-wiki stub — disposable-VM isolation for Tier-2 / unvetted-skill execution |
 | [`skill-vetting`](concepts/skill-vetting.md) | draft | Phase-0 audit checklist for third-party Claude Code skills (5 steps) |
 | [`twelve-rule-claude-md-template`](concepts/twelve-rule-claude-md-template.md) | draft | Cross-wiki stub — Karpathy → Forrest Chang → Mnilax 12-rule template |
+| [`cross-wiki-tool-eval-inventory`](concepts/cross-wiki-tool-eval-inventory.md) | draft | Consolidated receipt — all CCC-routed items from OSINT tool evaluations K45–K56 |
 
 ## entities/sources/hooks/people
 
@@ -132,6 +140,14 @@ Currently empty / placeholder. As Cemini ingests Claude Code release notes, conf
 | `entities/mcp-servers/stash.md` | `@osint-wiki/sources/alash3al-stash.md` | Primary source (Phase-0 audit) |
 | `entities/mcp-servers/llm-wiki-compiler.md` | `@osint-wiki/sources/atomicmemory-llm-wiki-compiler.md` | Primary source (Karpathy pattern coverage) |
 | `entities/mcp-servers/polymarket-mcp-server.md` | `@osint-wiki/sources/caiovicentino-polymarket-mcp-server.md` | Primary source (45-tool inventory) |
+| `entities/patterns/citadel-agent-orchestration.md` | `@osint-wiki/sources/multi-wiki-tool-eval-prompt-2026-05-18.md` | K51 cross-wiki source (36-repo eval) |
+| `entities/patterns/glasswing-deliberate-disagreement.md` | `@osint-wiki/sources/analyzing-github-projects-agentic-infra-2026-05-21.md` | K56 cross-wiki source (agentic-infra ingest) |
+| `entities/tools/defenseclaw.md` | `@osint-wiki/sources/tool-evaluation-wiki-fit-2026-05-15.md` | K45 cross-wiki source (52-URL eval) |
+| `entities/tools/cc-wf-studio.md` | `@osint-wiki/sources/multi-wiki-link-eval-41url-2026-05-18.md` | K53 cross-wiki source (41-URL eval) |
+| `entities/tools/delive.md` | `@osint-wiki/sources/multi-wiki-tool-eval-26url-2026-05-19.md` | K54 cross-wiki source (26-URL eval) |
+| `entities/tools/everos.md` | `@osint-wiki/sources/multi-wiki-tool-eval-26url-2026-05-19.md` | K54 cross-wiki source (26-URL eval) |
+| `entities/skills/src-hunter-skill.md` | `@osint-wiki/sources/multi-wiki-tool-eval-19url-2026-05-20.md` | K55 cross-wiki source (19-URL eval) |
+| `concepts/cross-wiki-tool-eval-inventory.md` | `@osint-wiki/sources/tool-evaluation-wiki-fit-2026-05-15.md` | Cross-wiki routing pattern (K45–K56) |
 | `entities/tools/ai-token-monitor.md` | `@osint-wiki/sources/multi-wiki-tool-eval-ipsale-risk-2026-05-17.md` | Cross-wiki tool-eval source (56-repo eval) |
 | `entities/tools/codexbar.md` | `@osint-wiki/sources/multi-wiki-tool-eval-ipsale-risk-2026-05-17.md` | Cross-wiki tool-eval source (56-repo eval) |
 | `entities/tools/superclaude-framework.md` | `@osint-wiki/sources/multi-wiki-tool-eval-ipsale-risk-2026-05-17.md` | Cross-wiki tool-eval source (56-repo eval) |
@@ -149,3 +165,4 @@ Currently empty / placeholder. As Cemini ingests Claude Code release notes, conf
 - [openusage — Local Token Economics Dashboard](entities/openusage.md) — cross-wiki stub routed from ingest — `cross-wiki`
 - [claude_code_agent_farm — Parallel Claude Code Orchestration via tmux](entities/claude-code-agent-farm.md) — cross-wiki stub routed from ingest — `cross-wiki`
 - [Fusion — Multi-Node Agent Orchestrator with Worktree Isolation](entities/fusion.md) — cross-wiki stub routed from ingest — `cross-wiki`
+- [cross-wiki-tool-eval-inventory — CCC-routed items from OSINT tool evaluations](concepts/cross-wiki-tool-eval-inventory.md) — consolidated catalog K45–K56 — `cross-wiki`

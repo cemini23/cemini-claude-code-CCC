@@ -8,6 +8,8 @@ related:
   - entities/tools/claude-code-ultimate-guide.md
   - entities/commands/plugin.md
   - concepts/agent-vm-sandboxing.md
+  - entities/tools/defenseclaw.md
+  - entities/skills/src-hunter-skill.md
 maturity: draft
 created: 2026-05-17
 updated: 2026-05-17
@@ -19,6 +21,8 @@ updated: 2026-05-17
 - @entities/tools/claude-code-ultimate-guide.md — source of the 28-CVE catalog + 655 malicious-skill patterns referenced in step 4
 - @entities/commands/plugin.md — install path; vetting happens before `/plugin install <name>`
 - @concepts/agent-vm-sandboxing.md — first-run isolation surface for unvetted skills
+- @entities/tools/defenseclaw.md — automated realisation of this checklist as infrastructure (MCP scanner, skill scanner, CodeGuard static checks)
+- @entities/skills/src-hunter-skill.md — 305-payload SKILL.md that stress-tests this checklist's scalability assumptions
 
 ## Raw Concept
 

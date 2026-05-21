@@ -9,6 +9,7 @@ related:
   - entities/patterns/tier1-tier2-agent-model.md
   - concepts/skill-vetting.md
   - entities/mcp-servers/polymarket-mcp-server.md
+  - entities/tools/defenseclaw.md
 maturity: draft
 created: 2026-05-17
 updated: 2026-05-17
@@ -22,6 +23,7 @@ cross-wiki-source: "@cybersecurity-wiki/concepts/agent-vm-sandboxing.md"
 - @entities/patterns/tier1-tier2-agent-model.md — the pattern that prescribes which agent class gets sandboxed and which doesn't
 - @concepts/skill-vetting.md — first-run sandbox is step 5 of the Phase-0 skill-vetting checklist
 - @entities/mcp-servers/polymarket-mcp-server.md — execution-class MCP server (45-tool exemplar) that should run inside an agent-VM until trust is established
+- @entities/tools/defenseclaw.md — Cisco's security governance sidecar; admission control (defenseclaw gates) + sandboxing (agent-VM contains) are complementary primitives
 - @cybersecurity-wiki/concepts/agent-vm-sandboxing.md — cross-wiki canonical concept (Cybersec is the primary home; full methodology lives there)
 
 ## Raw Concept

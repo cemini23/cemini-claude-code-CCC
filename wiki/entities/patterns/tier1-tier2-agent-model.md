@@ -13,6 +13,9 @@ related:
   - concepts/agent-vm-sandboxing.md
   - entities/patterns/scatter-gather.md
   - entities/mcp-servers/polymarket-mcp-server.md
+  - entities/patterns/citadel-agent-orchestration.md
+  - entities/patterns/glasswing-deliberate-disagreement.md
+  - entities/tools/defenseclaw.md
 maturity: validated
 created: 2026-05-13
 updated: 2026-05-16

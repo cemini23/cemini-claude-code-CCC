@@ -13,6 +13,7 @@ related:
   - entities/tools/skillkit.md
   - entities/tools/claude-obsidian.md
   - entities/patterns/cpr-context-compression.md
+  - entities/tools/everos.md
   - entities/mcp-servers/stash.md
 maturity: validated
 created: 2026-05-13

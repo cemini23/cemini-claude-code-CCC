@@ -13,6 +13,7 @@ related:
   - concepts/hooks-for-automation.md
   - concepts/mcp-context-optimization.md
   - concepts/three-cache-architecture.md
+  - entities/tools/everos.md
   - entities/tools/lazy-tool.md
   - entities/tools/ttok.md
   - concepts/nested-learning.md

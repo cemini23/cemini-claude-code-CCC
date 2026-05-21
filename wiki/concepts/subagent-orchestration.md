@@ -25,6 +25,10 @@ related:
   - entities/mcp-servers/polymarket-mcp-server.md
   - entities/tools/superclaude-framework.md
   - entities/tools/roo-code.md
+  - entities/patterns/citadel-agent-orchestration.md
+  - entities/patterns/glasswing-deliberate-disagreement.md
+  - entities/tools/cc-wf-studio.md
+  - concepts/cross-wiki-tool-eval-inventory.md
 maturity: validated
 created: 2026-05-13
 updated: 2026-05-17
@@ -48,6 +52,9 @@ updated: 2026-05-17
 - `@entities/tools/osmedeus-acp-orchestration.md` — YAML-workflow engine orchestrating ACP subprocess agents; conductor-architecture reference
 - `@entities/tools/superclaude-framework.md` — Claude Code config framework; its cognitive-persona model is a structured-persona pattern adjacent to subagent dispatch
 - `@entities/tools/roo-code.md` — autonomous AI agent team embedded in the code editor; gold-standard IDE-integration exemplar of multi-agent orchestration
+- `@entities/patterns/citadel-agent-orchestration.md` — apex agent-orchestration OS layer; 4-tier /do routing, campaign persistence, lifecycle hooks, circuit breaker
+- `@entities/patterns/glasswing-deliberate-disagreement.md` — evilsocket/audit's adversarial-verification pattern; multi-agent disagreement as a safety primitive
+- `@entities/tools/cc-wf-studio.md` — visual workflow editor for Claude Code agent pipelines; conditional-branching export format
 
 Cross-wiki: `@osint-wiki/concepts/conductor-orchestrator.md` carries the OSINT-side conductor history (parallel subagent dispatch for cross-wiki queries).
 

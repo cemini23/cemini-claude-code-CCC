@@ -8,6 +8,7 @@ related:
   - entities/patterns/full-prompt-goal-template.md
   - concepts/context-engineering.md
   - concepts/subagent-orchestration.md
+  - concepts/cross-wiki-tool-eval-inventory.md
 maturity: draft
 created: 2026-05-17
 updated: 2026-05-17
@@ -20,6 +21,7 @@ cross-wiki-source: "@osint-wiki/concepts/claude-md-12-rule-template.md"
 - @entities/patterns/full-prompt-goal-template.md — `/goal` template is the single-shot analog; the 12-rule template is the persistent-context analog
 - @concepts/context-engineering.md — the 12 rules are concrete operationalisations of the four context-engineering levers
 - @concepts/subagent-orchestration.md — rule 11 (One In-Progress at a Time) is the concurrency-discipline foundation for subagent fan-out
+- @concepts/cross-wiki-tool-eval-inventory.md — Karpathy's CLAUDE.md hit #1 on GitHub with 82k stars (K56 Posts.docx); the 12-rule template's lineage continues to evolve
 - @osint-wiki/concepts/claude-md-12-rule-template.md — cross-wiki primary page (full lineage, empirical claims, and per-rule sourcing live there)
 
 ## Raw Concept

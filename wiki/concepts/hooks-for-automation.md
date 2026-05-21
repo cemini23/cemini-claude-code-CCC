@@ -11,6 +11,7 @@ related:
   - entities/patterns/tier1-tier2-agent-model.md
   - entities/tools/claude-code-ultimate-guide.md
   - entities/tools/claude-obsidian.md
+  - entities/tools/delive.md
 maturity: draft
 created: 2026-05-13
 updated: 2026-05-13

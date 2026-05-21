@@ -9,6 +9,7 @@ related:
   - entities/mcp-servers/anthropic-skills.md
   - entities/patterns/cpr-context-compression.md
   - entities/mcp-servers/llm-wiki-compiler.md
+  - entities/tools/everos.md
 maturity: draft
 created: 2026-05-17
 updated: 2026-05-17

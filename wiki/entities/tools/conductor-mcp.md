@@ -9,6 +9,9 @@ related:
   - concepts/cross-wiki-routing.md
   - entities/tools/osmedeus-acp-orchestration.md
   - entities/patterns/scatter-gather.md
+  - entities/tools/cc-wf-studio.md
+  - entities/patterns/citadel-agent-orchestration.md
+  - concepts/cross-wiki-tool-eval-inventory.md
 maturity: validated
 created: 2026-05-13
 updated: 2026-05-16

@@ -8,6 +8,9 @@ related:
   - entities/tools/conductor-mcp.md
   - entities/patterns/tier1-tier2-agent-model.md
   - entities/patterns/cpr-context-compression.md
+  - entities/patterns/citadel-agent-orchestration.md
+  - entities/patterns/glasswing-deliberate-disagreement.md
+  - entities/tools/cc-wf-studio.md
 maturity: draft
 created: 2026-05-17
 updated: 2026-05-17

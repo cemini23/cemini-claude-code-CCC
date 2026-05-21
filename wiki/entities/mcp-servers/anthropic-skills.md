@@ -13,6 +13,9 @@ related:
   - entities/tools/claude-code-ultimate-guide.md
   - concepts/claude-desktop-vs-claude-code.md
   - entities/tools/tech-debt-skill.md
+  - entities/tools/defenseclaw.md
+  - entities/tools/delive.md
+  - entities/skills/src-hunter-skill.md
   - entities/tools/adamsreview.md
   - entities/tools/gtm-agents.md
   - entities/visual-explainer.md

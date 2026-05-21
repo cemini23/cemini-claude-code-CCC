@@ -4,6 +4,35 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-05-21] batch ingest | 15 cross-wiki briefs triaged and ingested
+
+Bulk triage of all unprocessed briefs in `briefs/` (15 total). Two were already-ingested (concept stubs existed); 13 were unprocessed.
+
+**Pages created (8):**
+- `entities/patterns/citadel-agent-orchestration.md` — apex agent-orchestration OS layer (K51)
+- `entities/patterns/glasswing-deliberate-disagreement.md` — evilsocket/audit adversarial-verification pattern (K56)
+- `entities/tools/defenseclaw.md` — Cisco security governance for agentic AI (K45)
+- `entities/tools/cc-wf-studio.md` — VS Code visual workflow editor for CC pipelines (K53)
+- `entities/tools/delive.md` — system-audio capture + MCP + agent skill bridge (K54/K55)
+- `entities/tools/everos.md` — context-offload-to-disk memory OS (K54)
+- `entities/skills/src-hunter-skill.md` — 305-payload SKILL.md design exemplar (K55)
+- `concepts/cross-wiki-tool-eval-inventory.md` — consolidated catalog of all ~35 CCC-routed items from K45–K56
+
+**Already-ingested (2, added processed marker):**
+- `2026-05-13_multi-codex-codex-home-isolation.md` → concept stub existed at `concepts/2026-05-13_multi-codex-codex-home-isolation.md`
+- `2026-05-13_tolaria-steal-from-patterns.md` → concept stub existed at `concepts/2026-05-13_tolaria-steal-from-patterns.md`
+
+**Backlinks updated (5 existing pages):**
+- `concepts/subagent-orchestration.md` — added citadel, glasswing, cc-wf-studio
+- `concepts/agent-vm-sandboxing.md` — added defenseclaw
+- `concepts/skill-vetting.md` — added defenseclaw, src-hunter-skill
+- `concepts/twelve-rule-claude-md-template.md` — added Karpathy 82k★ reference
+- `concepts/cross-wiki-routing.md` — added cross-wiki-tool-eval-inventory
+
+**Remaining items cataloged** in `concepts/cross-wiki-tool-eval-inventory.md` (one-line per item, ~35 items across K45–K56).
+
+All 15 briefs marked `processed: 2026-05-21`. Briefs retained for provenance trail.
+
 ## [2026-05-17] cross-wiki route | ai-token-monitor + CodexBar + SuperClaude_Framework + Roo-Code (OSINT 56-repo tool eval)
 
 Four entity pages cross-routed into CCC from the OSINT-side 56-repo multi-wiki tool eval `@osint-wiki/sources/multi-wiki-tool-eval-ipsale-risk-2026-05-17.md`. All four are CCC-primary-fit, all tier **Adopt** in the eval.

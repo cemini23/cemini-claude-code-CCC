@@ -13,6 +13,7 @@ related:
   - entities/tools/lazy-tool.md
   - entities/tools/claude-code-router.md
   - entities/tools/ttok.md
+  - entities/tools/everos.md
   - entities/openusage.md
   - entities/tools/ai-token-monitor.md
   - entities/tools/codexbar.md
