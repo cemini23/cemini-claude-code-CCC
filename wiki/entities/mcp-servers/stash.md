@@ -12,6 +12,7 @@ related:
   - entities/tools/everos.md
   - concepts/code-as-agent-harness.md
   - concepts/self-healing-agent-sessions.md
+  - concepts/cursor-ide-workspace.md
 maturity: draft
 created: 2026-05-17
 updated: 2026-05-21

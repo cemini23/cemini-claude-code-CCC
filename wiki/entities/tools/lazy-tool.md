@@ -12,6 +12,8 @@ related:
   - concepts/context-engineering.md
   - entities/tools/claude-code-router.md
   - concepts/code-as-agent-harness.md
+  - concepts/cursor-ide-workspace.md
+  - concepts/deep-research-evaluation-prompt.md
 maturity: validated
 created: 2026-05-13
 updated: 2026-05-21

@@ -6,7 +6,6 @@ keywords: [superclaude, superclaude-framework, claude code configuration, slash 
 related:
   - entities/tools/claude-code.md
   - concepts/subagent-orchestration.md
-  - "@osint-wiki/sources/multi-wiki-tool-eval-ipsale-risk-2026-05-17.md"
 maturity: draft
 created: 2026-05-17
 updated: 2026-05-17

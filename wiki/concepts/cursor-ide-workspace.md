@@ -5,6 +5,7 @@ tags: [concept, cursor, mcp, workspace, osint, rules, canvas, browser]
 keywords: [open folder, lazy-tool, project mcp, global mcp, osint workspace, cemini-projects, visual deliverables, github mcp]
 related:
   - concepts/deep-research-evaluation-prompt.md
+  - concepts/cross-wiki-routing.md
   - concepts/claude-desktop-vs-claude-code.md
   - entities/tools/lazy-tool.md
   - entities/tools/claude-code.md

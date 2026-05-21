@@ -6,7 +6,6 @@ keywords: [roo-code, roocodeinc, ide plugin, vscode extension, autonomous agents
 related:
   - concepts/subagent-orchestration.md
   - entities/claude-code-agent-farm.md
-  - "@osint-wiki/sources/multi-wiki-tool-eval-ipsale-risk-2026-05-17.md"
 maturity: draft
 created: 2026-05-17
 updated: 2026-05-17

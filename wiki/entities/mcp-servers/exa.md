@@ -9,9 +9,10 @@ related:
   - concepts/claude-desktop-vs-claude-code.md
   - entities/tools/lazy-tool.md
   - entities/mcp-servers/pmxt-mcp-pattern.md
+  - concepts/cursor-ide-workspace.md
 maturity: core
 created: 2026-05-13
-updated: 2026-05-16
+updated: 2026-05-21
 ---
 
 ## Relations

@@ -10,9 +10,10 @@ related:
   - entities/commands/plugin.md
   - concepts/mcp-context-optimization.md
   - entities/tools/skillkit.md
+  - concepts/cursor-ide-workspace.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-16
+updated: 2026-05-21
 ---
 
 ## Relations
