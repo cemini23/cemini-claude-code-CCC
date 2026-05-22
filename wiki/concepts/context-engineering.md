@@ -20,9 +20,14 @@ related:
   - entities/tools/polyterm-tui-pattern.md
   - concepts/twelve-rule-claude-md-template.md
   - entities/patterns/cpr-context-compression.md
+  - entities/tools/repomix.md
+  - entities/tools/anything-llm.md
+  - concepts/html-as-claude-code-output-format.md
+  - concepts/local-llm-mechanics-primer.md
+  - entities/tools/open-design.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-16
+updated: 2026-05-22
 ---
 
 ## Relations
@@ -39,6 +44,8 @@ updated: 2026-05-16
 - `@entities/tools/lazy-tool.md`, `@entities/tools/ttok.md` — concrete tools that make the discipline cheap
 - `@concepts/nested-learning.md` — literature anchor: multi-timescale memory framing (Update Frequency) for the "context at different update rates" pattern
 - `@entities/tools/polyterm-tui-pattern.md` — text-native (ASCII) visualization keeps tool output inside the model's context window
+- `@entities/tools/repomix.md` — one-shot repo pack for LLM context (stale after edits)
+- `@entities/tools/anything-llm.md` — reference local document-RAG workspace (not Claude Code harness)
 
 ## Raw Concept
 

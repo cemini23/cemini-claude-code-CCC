@@ -94,6 +94,14 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`self-healing-agent-sessions`](concepts/self-healing-agent-sessions.md) | draft | Failure taxonomy + retry budget for long Claude Code sessions (K48 arXiv) |
 | [`deep-research-evaluation-prompt`](concepts/deep-research-evaluation-prompt.md) | validated | v1→v4 lineage; canonical copy-paste at `prompts/deep-research-multi-wiki-eval-v4-2026-05-21.md` |
 | [`cursor-ide-workspace`](concepts/cursor-ide-workspace.md) | validated | Cursor as primary laptop harness; MCP map, rules, canvas, deployment boundary |
+| [`local-llm-mechanics-primer`](concepts/local-llm-mechanics-primer.md) | draft | KV cache / prefill-decode primer for local inference (K57 Post 1) |
+| [`tools-we-dont-use`](concepts/tools-we-dont-use.md) | draft | Institutional reject register (ToS bypass, ridark list discipline) |
+| [`open-design`](entities/tools/open-design.md) | draft | Modular skill Markdown + BYOK wiring — steal-from (K57, Apache-2.0) |
+| [`the-architect`](entities/tools/the-architect.md) | draft | Claude Code meta-agent blueprint generator (K57, MIT) |
+| [`repomix`](entities/tools/repomix.md) | draft | Pack repo → single LLM file (K55-2, MIT) |
+| [`n8n-mcp`](entities/tools/n8n-mcp.md) | draft | n8n workflows via MCP (K55-2, MIT, CONDITIONAL-GO) |
+| [`anything-llm`](entities/tools/anything-llm.md) | draft | Private local document AI — reference (K55-2, MIT) |
+| [`claude-code-tips`](entities/tools/claude-code-tips.md) | draft | Community tips — license NOASSERTION, defer (K55-2) |
 
 ## entities/sources/hooks/people
 

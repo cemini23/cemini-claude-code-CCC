@@ -4,6 +4,22 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-05-22] brief ingest | K57 local-LLM + agent infra + K55-2 ridark CCC subset
+
+**K57** (`briefs/2026-05-22_k57-local-llm-and-agent-infra-from-osint.md`):
+- `concepts/local-llm-mechanics-primer.md` — @TheAhmadOsman LLMs 101 stub
+- `entities/tools/open-design.md`, `entities/tools/the-architect.md` — MIT/Apache-2.0 CONFIRMED via `gh api`
+- AI OS essay (Post 5) — reference note on `conductor-mcp` only (no new page)
+- `rag-from-scratch` — catalog row in `cross-wiki-tool-eval-inventory.md` only
+
+**K55-2 ridark** (`briefs/2026-05-21_k55-2-ridark-eth-ccc-relevant-repos.md`):
+- `concepts/tools-we-dont-use.md` — reject register (#1, #5, #18, #30 + skepticism tier)
+- `entities/tools/repomix.md`, `n8n-mcp.md`, `anything-llm.md` — MIT verified 2026-05-22
+- `entities/tools/claude-code-tips.md` — NOASSERTION license, defer
+- OpenHands / ida-pro-mcp / rtk / ClawRouter — inventory catalog only (no stub farm)
+
+**Backlinks:** `claude-code`, `context-engineering`, `token-economics`, `cross-wiki-routing`, `skill-vetting`, `twelve-rule-claude-md-template`, `cross-wiki-tool-eval-inventory`, `conductor-mcp` (+ lint `--fix-bidirectional --apply`).
+
 ## [2026-05-21] docs | Multi-wiki eval prompt v3 restore + v4 (Cursor-primary)
 
 **Canonical prompts (repo root `prompts/`):**

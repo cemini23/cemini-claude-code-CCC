@@ -24,9 +24,10 @@ related:
   - concepts/skill-vetting.md
   - entities/mcp-servers/stash.md
   - entities/mcp-servers/llm-wiki-compiler.md
+  - entities/tools/open-design.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-05-16
+updated: 2026-05-22
 ---
 
 ## Relations

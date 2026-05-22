@@ -15,9 +15,10 @@ related:
   - concepts/code-as-agent-harness.md
   - concepts/self-healing-agent-sessions.md
   - concepts/deep-research-evaluation-prompt.md
+  - entities/tools/n8n-mcp.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-21
+updated: 2026-05-22
 ---
 
 ## Relations
@@ -41,6 +42,8 @@ Cross-wiki: `@osint-wiki/concepts/conductor-orchestrator.md` covers the design h
 **Backend**: the conductor delegates retrieval to `librarian-kb-server` (`@entities/mcp-servers/librarian-kb-server.md`) — a REST API on `cemini-librarian:8080` (Hetzner) serving the wikis. CCC, like Cybersecurity / 3D-printing / Image-gen / SEO, is **laptop-only**; if the conductor needs to query CCC content it reads CCC's local `wiki/` directory directly rather than via the server. Mixed-deployment routing is handled per-wiki-alias.
 
 **Cost vs benefit**: each conductor_query call costs one subagent's startup tokens (~1-3K). Worth it when the query genuinely needs ≥3 wikis or ≥10 pages; not worth it for a single-page lookup.
+
+**AI Operating Systems essay** (@Suryanshti777, K57 Post 5): six-layer orchestration essay overlaps conductor + librarian + stash — **no new page**; treat as external framing only [Source: @osint-wiki/sources/trading-posts-llm-gustafsson-retail-weather-copy-2026-05-22.md].
 
 **Adoption status** (2026-05-13): conductor is *available* and *occasionally used*. It is not part of every session because most Cemini work is single-wiki. When a query is genuinely cross-domain ("which of our wikis covers OSINT-overlap pentest tradecraft?"), conductor is the right primitive.
 

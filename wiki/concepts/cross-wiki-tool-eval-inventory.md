@@ -8,9 +8,15 @@ related:
   - concepts/subagent-orchestration.md
   - entities/tools/conductor-mcp.md
   - concepts/twelve-rule-claude-md-template.md
+  - concepts/tools-we-dont-use.md
+  - entities/tools/open-design.md
+  - entities/tools/the-architect.md
+  - entities/tools/repomix.md
+  - entities/tools/n8n-mcp.md
+  - entities/tools/anything-llm.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-05-21
+updated: 2026-05-22
 ---
 
 ## Relations
@@ -18,6 +24,8 @@ updated: 2026-05-21
 - @concepts/cross-wiki-routing.md — the routing discipline that produced this inventory; every item below arrived via cross-wiki brief
 - @concepts/subagent-orchestration.md — many items below are agent-orchestration tools/patterns
 - @entities/tools/conductor-mcp.md — the conductor is the cross-wiki query router that fans to the wikis these tools were evaluated from
+- @concepts/tools-we-dont-use.md — reject policy layer beneath this inventory
+- @entities/tools/open-design.md — K57 promoted steal-from page
 
 ## Raw Concept
 
@@ -109,6 +117,17 @@ OSINT-wiki runs a multi-wiki tool evaluation → CCC-relevant items (Claude Code
 | Tool | License | Eval Verdict | CCC Disposition | Primary Wiki |
 |------|---------|-------------|-----------------|-------------|
 | src-hunter-skill | MIT | Adopt | **Promoted to page** | ccc-wiki |
+| open-design | Apache-2.0 | Adopt (steal-from) | **Promoted to page** | ccc-wiki |
+| the-architect | MIT | Adopt | **Promoted to page** (Phase-0 pending) | ccc-wiki |
+| rag-from-scratch | MIT | Steal-from | Catalog — tutorial RAG patterns for kb-server docs | ccc-wiki |
+| repomix | MIT | Reference | **Promoted to page** | ccc-wiki |
+| n8n-mcp | MIT | Defer | **Promoted to page** (CONDITIONAL-GO) | ccc-wiki |
+| anything-llm | MIT | Reference | **Promoted to page** | ccc-wiki |
+| claude-code-tips | NOASSERTION | Defer | **Promoted to page** (license blocked) | ccc-wiki |
+| OpenHands | NOASSERTION | Defer | Catalog — agentic IDE; license file present, SPDX unverified | ccc-wiki |
+| ida-pro-mcp | MIT | Reference | Catalog — IDA MCP pattern; cybersec-primary | cybersec-wiki |
+| rtk-ai/rtk | unverified | Skeptic | Catalog — see @concepts/tools-we-dont-use.md | ccc-wiki |
+| ClawRouter | unverified | Skeptic | Catalog — see @concepts/tools-we-dont-use.md | ccc-wiki |
 | OpenHuman v0.54 | GPL-3.0 | Steal-from (patterns) | Catalog — agentmemory bridge, Memory Tree, TokenJuice; codebase quarantined | osint-wiki |
 | ai-polymarket-agent | MIT | Adopt | Catalog — Polymarket MCP server; Phase-0 pending on cemini-prod side | osint-wiki |
 | awesome-claude | UNVERIFIED | Reference | Catalog — curated Claude-ecosystem registry; automated intake schema | ccc-wiki |
@@ -136,3 +155,22 @@ OSINT-wiki runs a multi-wiki tool evaluation → CCC-relevant items (Claude Code
 | "How top AI labs are building RL agents in 2026" | @_avichawla | Catalog — system-prompt-mutation as RL primitive; reference |
 | "Karpathy's CLAUDE.md hit #1 with 82k stars" | @0xDepressionn | **Backlink** → extend @concepts/twelve-rule-claude-md-template.md |
 | "Turn Obsidian Into a Personal OS" | @cyrilXBT | Catalog — PKM workflow; cross-reference to OSINT curator/librarian model |
+
+#### From K57 (2026-05-22) — Posts.docx + 35-URL eval
+
+| Item | License | CCC disposition |
+|------|---------|-----------------|
+| @TheAhmadOsman LLMs 101 | n/a (post) | **Page** → @concepts/local-llm-mechanics-primer.md |
+| @Suryanshti777 AI OS essay | n/a (post) | Reference only — overlaps conductor/librarian; no new page |
+| open-design | Apache-2.0 CONFIRMED | **Page** → @entities/tools/open-design.md |
+| the-architect | MIT CONFIRMED | **Page** → @entities/tools/the-architect.md |
+| rag-from-scratch | MIT | Catalog (steal-from) |
+
+#### From K55-2 ridark list (2026-05-21) — unaudited curation
+
+| Item | CCC disposition |
+|------|-----------------|
+| Reject tier (#1, #5, #18, #30) | **Page** → @concepts/tools-we-dont-use.md |
+| repomix, n8n-mcp, anything-llm | **Pages** (MIT verified 2026-05-22) |
+| claude-code-tips | **Page** (license NOASSERTION — defer) |
+| OpenHands, ida-pro-mcp, rtk, ClawRouter | Catalog only — no stub farm |

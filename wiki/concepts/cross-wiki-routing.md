@@ -12,9 +12,10 @@ related:
   - concepts/cross-wiki-tool-eval-inventory.md
   - concepts/deep-research-evaluation-prompt.md
   - concepts/cursor-ide-workspace.md
+  - concepts/tools-we-dont-use.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-21
+updated: 2026-05-22
 ---
 
 ## Relations
@@ -27,6 +28,7 @@ updated: 2026-05-21
 - `@concepts/cross-wiki-tool-eval-inventory.md` — the consolidated receipt of all CCC-routed tool-eval items; this page describes the routing pattern; that page is the output
 - `@concepts/deep-research-evaluation-prompt.md` — bulk eval prompt (v4) drives tier + cross-routing fields
 - `@concepts/cursor-ide-workspace.md` — Cursor-primary ingest spot-check path
+- `@concepts/tools-we-dont-use.md` — reject register for routed-but-toxic tools (ridark lists, ToS bypass)
 
 Cross-wiki: `@osint-wiki/concepts/librarian-server-architecture.md` carries the federation's serving-layer design history.
 

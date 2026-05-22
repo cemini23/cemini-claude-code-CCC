@@ -15,9 +15,10 @@ related:
   - entities/tools/claude-mem.md
   - entities/tools/optillm.md
   - entities/tools/lap-platform.md
+  - entities/tools/n8n-mcp.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-15
+updated: 2026-05-22
 ---
 
 ## Relations

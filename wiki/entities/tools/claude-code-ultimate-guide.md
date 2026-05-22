@@ -8,9 +8,10 @@ related:
   - entities/mcp-servers/anthropic-skills.md
   - concepts/hooks-for-automation.md
   - concepts/skill-vetting.md
+  - concepts/tools-we-dont-use.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-05-13
+updated: 2026-05-22
 ---
 
 ## Relations

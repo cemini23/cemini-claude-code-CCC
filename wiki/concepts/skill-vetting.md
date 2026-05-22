@@ -11,9 +11,12 @@ related:
   - entities/tools/defenseclaw.md
   - entities/skills/src-hunter-skill.md
   - concepts/code-as-agent-harness.md
+  - entities/tools/open-design.md
+  - concepts/tools-we-dont-use.md
+  - concepts/html-as-claude-code-output-format.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-05-21
+updated: 2026-05-22
 ---
 
 ## Relations
@@ -25,6 +28,8 @@ updated: 2026-05-21
 - @entities/tools/defenseclaw.md — automated realisation of this checklist as infrastructure (MCP scanner, skill scanner, CodeGuard static checks)
 - @entities/skills/src-hunter-skill.md — 305-payload SKILL.md that stress-tests this checklist's scalability assumptions
 - @concepts/code-as-agent-harness.md — verifiable harness changes gate through Phase-0 before adoption
+- @entities/tools/open-design.md — modular skill Markdown patterns still require full vetting before install
+- @concepts/tools-we-dont-use.md — permanent skips (ToS bypass, archived spam tools)
 
 ## Raw Concept
 

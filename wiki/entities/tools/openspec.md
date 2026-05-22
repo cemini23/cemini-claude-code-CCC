@@ -10,9 +10,10 @@ related:
   - entities/tools/spec-kit.md
   - concepts/2026-05-13_tolaria-steal-from-patterns.md
   - concepts/code-as-agent-harness.md
+  - entities/tools/the-architect.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-05-21
+updated: 2026-05-22
 ---
 
 ## Relations

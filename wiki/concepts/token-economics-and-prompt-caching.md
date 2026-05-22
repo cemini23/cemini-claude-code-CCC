@@ -18,9 +18,12 @@ related:
   - entities/tools/ai-token-monitor.md
   - entities/tools/codexbar.md
   - entities/patterns/cpr-context-compression.md
+  - entities/tools/repomix.md
+  - concepts/local-llm-mechanics-primer.md
+  - concepts/tools-we-dont-use.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-17
+updated: 2026-05-22
 ---
 
 ## Relations

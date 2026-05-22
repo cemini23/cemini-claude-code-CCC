@@ -33,10 +33,17 @@ related:
   - concepts/twelve-rule-claude-md-template.md
   - concepts/code-as-agent-harness.md
   - concepts/self-healing-agent-sessions.md
+  - entities/tools/open-design.md
+  - entities/tools/the-architect.md
+  - entities/tools/repomix.md
+  - entities/tools/n8n-mcp.md
+  - entities/tools/claude-code-tips.md
+  - concepts/tools-we-dont-use.md
+  - concepts/local-llm-mechanics-primer.md
 maturity: core
 hub: true
 created: 2026-05-13
-updated: 2026-05-21
+updated: 2026-05-22
 ---
 
 ## Relations
@@ -63,6 +70,10 @@ updated: 2026-05-21
 - `@entities/tools/polyterm-tui-pattern.md` — terminal-native UI-design reference for tools built alongside the CLI harness
 - `@concepts/code-as-agent-harness.md` — three-layer harness model mapped to Claude Code + MCP
 - `@concepts/self-healing-agent-sessions.md` — failure taxonomy and retry budget for long sessions
+- `@entities/tools/open-design.md`, `@entities/tools/the-architect.md` — K57 Adopt candidates (steal-from / meta-agent blueprints)
+- `@entities/tools/repomix.md`, `@entities/tools/n8n-mcp.md`, `@entities/tools/claude-code-tips.md` — K55-2 ridark high-priority candidates
+- `@concepts/tools-we-dont-use.md` — institutional reject register
+- `@concepts/local-llm-mechanics-primer.md` — local inference mechanics (K57 Post 1)
 
 ## Raw Concept
 

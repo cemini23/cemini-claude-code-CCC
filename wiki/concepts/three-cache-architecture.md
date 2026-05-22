@@ -10,9 +10,12 @@ related:
   - concepts/token-economics-and-prompt-caching.md
   - concepts/mcp-context-optimization.md
   - concepts/context-engineering.md
+  - concepts/html-as-claude-code-output-format.md
+  - concepts/local-llm-mechanics-primer.md
+  - entities/tools/repomix.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-13
+updated: 2026-05-22
 ---
 
 ## Relations

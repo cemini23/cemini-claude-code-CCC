@@ -6,9 +6,10 @@ tags: [entity, tool, tauri-app, rust, sqlite, ollama, local-first, macos-desktop
 keywords: [thuki, quiet-node-thuki, tauri-v2, rust-backend, react-19, sqlite-conversation-history, ollama-local-inference, NOT-claude-code-state, apache-2-license, no-notice-file]
 related:
   - entities/tools/claude-mem.md
+  - concepts/local-llm-mechanics-primer.md
 maturity: validated
 created: 2026-05-14
-updated: 2026-05-15
+updated: 2026-05-22
 cross-wiki-source: "@osint-wiki/sources/eval-tool-evaluation-cemini-multi-wiki-v3-2026-05-14.md"
 ---
 

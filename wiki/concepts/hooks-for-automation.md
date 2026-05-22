@@ -14,9 +14,10 @@ related:
   - entities/tools/delive.md
   - concepts/code-as-agent-harness.md
   - concepts/self-healing-agent-sessions.md
+  - entities/tools/claude-code-tips.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-05-21
+updated: 2026-05-22
 ---
 
 ## Relations

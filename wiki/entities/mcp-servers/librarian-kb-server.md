@@ -9,6 +9,7 @@ related:
   - entities/mcp-servers/stash.md
   - entities/mcp-servers/llm-wiki-compiler.md
   - concepts/deep-research-evaluation-prompt.md
+  - entities/tools/anything-llm.md
 maturity: validated
 created: 2026-05-13
 updated: 2026-05-22

@@ -9,9 +9,11 @@ related:
   - concepts/context-engineering.md
   - concepts/subagent-orchestration.md
   - concepts/cross-wiki-tool-eval-inventory.md
+  - entities/tools/open-design.md
+  - entities/tools/claude-code-tips.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-05-17
+updated: 2026-05-22
 cross-wiki-source: "@osint-wiki/concepts/claude-md-12-rule-template.md"
 ---
 
@@ -23,6 +25,8 @@ cross-wiki-source: "@osint-wiki/concepts/claude-md-12-rule-template.md"
 - @concepts/subagent-orchestration.md — rule 11 (One In-Progress at a Time) is the concurrency-discipline foundation for subagent fan-out
 - @concepts/cross-wiki-tool-eval-inventory.md — Karpathy's CLAUDE.md hit #1 on GitHub with 82k stars (K56 Posts.docx); the 12-rule template's lineage continues to evolve
 - @osint-wiki/concepts/claude-md-12-rule-template.md — cross-wiki primary page (full lineage, empirical claims, and per-rule sourcing live there)
+- @entities/tools/open-design.md — modular skill Markdown patterns applicable to CLAUDE.md sections
+- @entities/tools/claude-code-tips.md — community tips (license unverified) — cherry-pick only after manual LICENSE read
 
 ## Raw Concept
 

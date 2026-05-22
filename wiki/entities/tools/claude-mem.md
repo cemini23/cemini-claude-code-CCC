@@ -17,9 +17,10 @@ related:
   - entities/mcp-servers/stash.md
   - concepts/code-as-agent-harness.md
   - concepts/self-healing-agent-sessions.md
+  - entities/tools/anything-llm.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-21
+updated: 2026-05-22
 ---
 
 ## Relations
