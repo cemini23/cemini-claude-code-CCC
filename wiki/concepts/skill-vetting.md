@@ -14,9 +14,10 @@ related:
   - entities/tools/open-design.md
   - concepts/tools-we-dont-use.md
   - concepts/html-as-claude-code-output-format.md
+  - concepts/skillrae-retrieval-augmented-execution.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-05-22
+updated: 2026-05-23
 ---
 
 ## Relations
@@ -30,6 +31,7 @@ updated: 2026-05-22
 - @concepts/code-as-agent-harness.md — verifiable harness changes gate through Phase-0 before adoption
 - @entities/tools/open-design.md — modular skill Markdown patterns still require full vetting before install
 - @concepts/tools-we-dont-use.md — permanent skips (ToS bypass, archived spam tools)
+- @concepts/skillrae-retrieval-augmented-execution.md — skill-graph compilation assumes vetted skills only
 
 ## Raw Concept
 

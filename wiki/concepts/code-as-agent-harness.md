@@ -16,9 +16,13 @@ related:
   - entities/patterns/full-prompt-goal-template.md
   - entities/tools/openspec.md
   - concepts/skill-vetting.md
+  - concepts/skillrae-retrieval-augmented-execution.md
+  - concepts/graphflow-verifiable-agent-workflows.md
+  - sources/arxiv-graphflow-2605.14968.md
+  - sources/arxiv-skillrae-2605.10114.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-05-21
+updated: 2026-05-23
 cross-wiki-source: "@osint-wiki/sources/arxiv-code-as-agent-harness-survey-2605.18747.md"
 ---
 
@@ -36,6 +40,8 @@ cross-wiki-source: "@osint-wiki/sources/arxiv-code-as-agent-harness-survey-2605.
 - `@entities/patterns/full-prompt-goal-template.md` — durable goal pinning + Stop-hook gating
 - `@entities/tools/openspec.md` — spec-as-contract for regression-aware iteration
 - `@concepts/skill-vetting.md` — Phase-0 gate before harness surface changes
+- `@concepts/skillrae-retrieval-augmented-execution.md` — post-retrieval skill-graph compilation (K59)
+- `@concepts/graphflow-verifiable-agent-workflows.md` — proof-carrying workflows vs empirical harness (K59)
 
 Cross-wiki: `@osint-wiki/concepts/code-as-agent-harness.md` holds finance-adjacent synthesis; `@osint-wiki/sources/arxiv-code-as-agent-harness-survey-2605.18747.md` is the 102pp primary; `@osint-wiki/sources/agentic-harness-engineering.md` (AHE) covers observability-driven harness *evolution*.
 

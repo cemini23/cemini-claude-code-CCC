@@ -16,9 +16,11 @@ related:
   - concepts/self-healing-agent-sessions.md
   - concepts/deep-research-evaluation-prompt.md
   - entities/tools/n8n-mcp.md
+  - concepts/skillrae-retrieval-augmented-execution.md
+  - concepts/graphflow-verifiable-agent-workflows.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-22
+updated: 2026-05-23
 ---
 
 ## Relations

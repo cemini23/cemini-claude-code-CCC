@@ -4,6 +4,20 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-05-23] brief ingest | K59 SkillRAE + GraphFlow (OSINT Tier-B harness papers)
+
+Ingested `briefs/2026-05-23_k59-skillrae-graphflow-from-osint.md`.
+
+**Pages created (4):**
+- `concepts/skillrae-retrieval-augmented-execution.md` + `sources/arxiv-skillrae-2605.10114.md`
+- `concepts/graphflow-verifiable-agent-workflows.md` + `sources/arxiv-graphflow-2605.14968.md`
+
+**Backlinks:** `code-as-agent-harness`, `lazy-tool`, `mcp-context-optimization`, `context-engineering`, `skill-vetting`, `openspec`, `conductor-mcp`, `cc-wf-studio`, `scatter-gather`, `glasswing`, `anthropic-skills`, `the-architect`, `cross-wiki-tool-eval-inventory`.
+
+**Deferred:** SkillsVote (2605.18401) — not downloaded.
+
+**OSINT backlink:** `@ccc-wiki/...` on both OSINT concept stubs.
+
 ## [2026-05-22] brief ingest | K57 local-LLM + agent infra + K55-2 ridark CCC subset
 
 **K57** (`briefs/2026-05-22_k57-local-llm-and-agent-infra-from-osint.md`):

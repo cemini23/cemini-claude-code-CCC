@@ -102,10 +102,19 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`n8n-mcp`](entities/tools/n8n-mcp.md) | draft | n8n workflows via MCP (K55-2, MIT, CONDITIONAL-GO) |
 | [`anything-llm`](entities/tools/anything-llm.md) | draft | Private local document AI — reference (K55-2, MIT) |
 | [`claude-code-tips`](entities/tools/claude-code-tips.md) | draft | Community tips — license NOASSERTION, defer (K55-2) |
+| [`skillrae-retrieval-augmented-execution`](concepts/skillrae-retrieval-augmented-execution.md) | draft | Skill-graph RAE — post-retrieval context compilation (K59 arXiv) |
+| [`graphflow-verifiable-agent-workflows`](concepts/graphflow-verifiable-agent-workflows.md) | draft | Proof-carrying visual workflows + durable runtime (K59 arXiv) |
+
+## sources/
+
+| Page | Maturity | Summary |
+|------|----------|---------|
+| [`arxiv-skillrae-2605.10114`](sources/arxiv-skillrae-2605.10114.md) | draft | SkillRAE paper provenance (K59) |
+| [`arxiv-graphflow-2605.14968`](sources/arxiv-graphflow-2605.14968.md) | draft | GraphFlow paper provenance (K59) |
 
 ## entities/sources/hooks/people
 
-Currently empty / placeholder. As Cemini ingests Claude Code release notes, conference talks, and hook recipes, those subdirectories will populate. See `ROADMAP.md` for the deepening backlog.
+Hooks/people subdirs still placeholder beyond `sources/` arXiv stubs above. As Cemini ingests Claude Code release notes, conference talks, and hook recipes, those subdirectories will populate. See `ROADMAP.md` for the deepening backlog.
 
 ## Cross-wiki links from this wiki
 

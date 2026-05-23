@@ -14,9 +14,10 @@ related:
   - concepts/code-as-agent-harness.md
   - concepts/cursor-ide-workspace.md
   - concepts/deep-research-evaluation-prompt.md
+  - concepts/skillrae-retrieval-augmented-execution.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-21
+updated: 2026-05-23
 ---
 
 ## Relations
@@ -28,6 +29,7 @@ updated: 2026-05-21
 - `@concepts/token-economics-and-prompt-caching.md` — the cost model lazy-tool moves
 - `@concepts/context-engineering.md` — same trick as the harness's built-in `ToolSearch` deferred-tool surface
 - `@concepts/code-as-agent-harness.md` — deferred MCP tool surface in harness mechanisms layer
+- `@concepts/skillrae-retrieval-augmented-execution.md` — compiles skill context after tool/skill selection (complementary layer)
 
 Cross-wiki: `@osint-wiki/concepts/mcp-context-optimization.md` carries the K34 4-layer methodology source. `@seo-wiki/entities/tools/claude-code-tool-stack.md` is the SEO-side adoption brief.
 

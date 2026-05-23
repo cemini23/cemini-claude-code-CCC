@@ -11,9 +11,11 @@ related:
   - concepts/2026-05-13_tolaria-steal-from-patterns.md
   - concepts/code-as-agent-harness.md
   - entities/tools/the-architect.md
+  - concepts/graphflow-verifiable-agent-workflows.md
+  - concepts/skillrae-retrieval-augmented-execution.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-05-22
+updated: 2026-05-23
 ---
 
 ## Relations
@@ -23,6 +25,8 @@ updated: 2026-05-22
 - `@entities/patterns/full-prompt-goal-template.md` — both are ways of pinning "what done looks like"
 - `@concepts/2026-05-13_tolaria-steal-from-patterns.md` — refactoring-workflow patterns (incremental migrations, workflow design language); spec-driven-workflow neighbour
 - `@concepts/code-as-agent-harness.md` — OpenSpec as regression-free harness-improvement workflow
+- `@concepts/graphflow-verifiable-agent-workflows.md` — spec contracts without compile-time proof (contrast)
+- `@concepts/skillrae-retrieval-augmented-execution.md` — compiled skill context vs static spec documents
 
 Cross-wiki: `@osint-wiki/entities/tools/openspec.md` is the OSINT-side entity (where Cemini first audited it).
 

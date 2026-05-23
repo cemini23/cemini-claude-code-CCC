@@ -25,9 +25,10 @@ related:
   - concepts/html-as-claude-code-output-format.md
   - concepts/local-llm-mechanics-primer.md
   - entities/tools/open-design.md
+  - concepts/skillrae-retrieval-augmented-execution.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-22
+updated: 2026-05-23
 ---
 
 ## Relations

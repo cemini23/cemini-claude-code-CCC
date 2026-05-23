@@ -10,9 +10,10 @@ related:
   - entities/patterns/citadel-agent-orchestration.md
   - concepts/code-as-agent-harness.md
   - concepts/self-healing-agent-sessions.md
+  - concepts/graphflow-verifiable-agent-workflows.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-05-21
+updated: 2026-05-23
 cross-wiki-source: "@osint-wiki/sources/analyzing-github-projects-agentic-infra-2026-05-21.md"
 ---
 

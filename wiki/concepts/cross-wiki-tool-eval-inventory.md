@@ -16,7 +16,7 @@ related:
   - entities/tools/anything-llm.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-05-22
+updated: 2026-05-23
 ---
 
 ## Relations
@@ -174,3 +174,11 @@ OSINT-wiki runs a multi-wiki tool evaluation → CCC-relevant items (Claude Code
 | repomix, n8n-mcp, anything-llm | **Pages** (MIT verified 2026-05-22) |
 | claude-code-tips | **Page** (license NOASSERTION — defer) |
 | OpenHands, ida-pro-mcp, rtk, ClawRouter | Catalog only — no stub farm |
+
+#### From K59 (2026-05-23) — Tier-B agent-harness papers (same sweep as ForesightFlow)
+
+| Item | CCC disposition |
+|------|-----------------|
+| SkillRAE (2605.10114) | **Pages** → `@concepts/skillrae-retrieval-augmented-execution.md`, `@sources/arxiv-skillrae-2605.10114.md` |
+| GraphFlow (2605.14968) | **Pages** → `@concepts/graphflow-verifiable-agent-workflows.md`, `@sources/arxiv-graphflow-2605.14968.md` |
+| SkillsVote (2605.18401) | Deferred — not downloaded |

@@ -25,6 +25,7 @@ related:
   - entities/mcp-servers/stash.md
   - entities/mcp-servers/llm-wiki-compiler.md
   - entities/tools/open-design.md
+  - concepts/skillrae-retrieval-augmented-execution.md
 maturity: draft
 created: 2026-05-13
 updated: 2026-05-22

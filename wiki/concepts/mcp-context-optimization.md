@@ -16,9 +16,10 @@ related:
   - entities/tools/optillm.md
   - entities/tools/lap-platform.md
   - entities/tools/n8n-mcp.md
+  - concepts/skillrae-retrieval-augmented-execution.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-22
+updated: 2026-05-23
 ---
 
 ## Relations
