@@ -12,9 +12,10 @@ related:
   - entities/patterns/glasswing-deliberate-disagreement.md
   - entities/tools/cc-wf-studio.md
   - concepts/graphflow-verifiable-agent-workflows.md
+  - entities/tools/claude-code-game-studios.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-05-23
+updated: 2026-05-24
 cross-wiki-source: "@osint-wiki/concepts/scatter-gather-topology.md"
 ---
 

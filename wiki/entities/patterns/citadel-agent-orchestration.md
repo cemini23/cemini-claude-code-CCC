@@ -9,9 +9,10 @@ related:
   - entities/patterns/scatter-gather.md
   - entities/patterns/tier1-tier2-agent-model.md
   - entities/patterns/glasswing-deliberate-disagreement.md
+  - entities/tools/claude-code-game-studios.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-05-21
+updated: 2026-05-24
 cross-wiki-source: "@osint-wiki/sources/multi-wiki-tool-eval-prompt-2026-05-18.md"
 ---
 

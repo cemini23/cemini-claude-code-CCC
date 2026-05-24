@@ -20,9 +20,10 @@ related:
   - concepts/graphflow-verifiable-agent-workflows.md
   - sources/arxiv-graphflow-2605.14968.md
   - sources/arxiv-skillrae-2605.10114.md
+  - entities/tools/openevolve.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-05-23
+updated: 2026-05-24
 cross-wiki-source: "@osint-wiki/sources/arxiv-code-as-agent-harness-survey-2605.18747.md"
 ---
 

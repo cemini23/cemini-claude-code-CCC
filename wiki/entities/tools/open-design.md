@@ -11,9 +11,10 @@ related:
   - entities/tools/claude-code.md
   - concepts/cross-wiki-tool-eval-inventory.md
   - entities/tools/the-architect.md
+  - entities/tools/awesome-cursorrules.md
 maturity: draft
 created: 2026-05-22
-updated: 2026-05-22
+updated: 2026-05-24
 cross-wiki-source: "@osint-wiki/sources/tool-eval-70urls-k57-2026-05-22.md"
 ---
 

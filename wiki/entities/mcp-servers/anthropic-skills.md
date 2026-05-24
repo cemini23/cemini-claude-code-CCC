@@ -27,9 +27,10 @@ related:
   - entities/tools/open-design.md
   - concepts/skillrae-retrieval-augmented-execution.md
   - entities/tools/ai-engineering-roadmap.md
+  - entities/tools/everything-claude-code.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-05-23
+updated: 2026-05-24
 ---
 
 ## Relations

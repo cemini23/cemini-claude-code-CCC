@@ -11,9 +11,12 @@ related:
   - entities/tools/claude-code.md
   - entities/mcp-servers/stash.md
   - entities/mcp-servers/exa.md
+  - entities/tools/awesome-cursorrules.md
+  - entities/tools/cursor-community-plugins.md
+  - entities/tools/openevolve.md
 maturity: validated
 created: 2026-05-21
-updated: 2026-05-21
+updated: 2026-05-24
 ---
 
 ## Relations
@@ -25,6 +28,9 @@ updated: 2026-05-21
 - `@entities/mcp-servers/stash.md` — global episodic memory
 - `@entities/mcp-servers/exa.md` — external research
 - `@osint-wiki/.cursor/README.md` — operational MCP README (live config)
+- `@entities/tools/awesome-cursorrules.md` — CC0 rules catalog; cherry-pick into `.cursor/rules/` (K63)
+- `@entities/tools/cursor-community-plugins.md` — discovery index only (no LICENSE file)
+- `@entities/tools/openevolve.md` — harness optimization experiments (Docker-isolated)
 
 ## Raw Concept
 

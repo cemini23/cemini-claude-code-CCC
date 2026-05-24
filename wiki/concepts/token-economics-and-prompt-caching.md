@@ -21,9 +21,10 @@ related:
   - entities/tools/repomix.md
   - concepts/local-llm-mechanics-primer.md
   - concepts/tools-we-dont-use.md
+  - entities/tools/openevolve.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-22
+updated: 2026-05-24
 ---
 
 ## Relations

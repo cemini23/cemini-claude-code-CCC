@@ -15,9 +15,15 @@ related:
   - entities/tools/n8n-mcp.md
   - entities/tools/anything-llm.md
   - entities/tools/ai-engineering-roadmap.md
+  - entities/tools/openevolve.md
+  - entities/tools/awesome-cursorrules.md
+  - entities/tools/claude-code-game-studios.md
+  - entities/tools/agents-best-practices.md
+  - entities/tools/everything-claude-code.md
+  - entities/tools/cursor-community-plugins.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-05-23
+updated: 2026-05-24
 ---
 
 ## Relations
@@ -190,3 +196,15 @@ OSINT-wiki runs a multi-wiki tool evaluation → CCC-relevant items (Claude Code
 |------|---------|-----------------|
 | Ai-Engineering-Roadmap | MIT CONFIRMED | **Page** → @entities/tools/ai-engineering-roadmap.md (reference-only) |
 | grace-marketplace, COG-second-brain | MIT (eval) | Reject scope — no CCC pages |
+
+#### From K63 (2026-05-24) — 36-URL eval (CCC slice)
+
+| Tool | License | CCC disposition |
+|------|---------|-----------------|
+| openevolve | Apache-2.0 CONFIRMED | **Page** → @entities/tools/openevolve.md (Adopt, Docker Phase-0) |
+| awesome-cursorrules | CC0-1.0 CONFIRMED | **Page** → @entities/tools/awesome-cursorrules.md (curated rules import) |
+| Claude-Code-Game-Studios | MIT CONFIRMED | **Page** → @entities/tools/claude-code-game-studios.md (steal-from) |
+| agents-best-practices | MIT | **Page** → defer stub |
+| everything-claude-code (ECC) | MIT | **Page** → defer; canon @osint-wiki |
+| cursor/community-plugins | NO LICENSE | **Page** → CONDITIONAL-GO discovery only |
+| cursor-vip, go-cursor-help, cursor2api, cursor-auto-free | mixed | Reject → @concepts/tools-we-dont-use.md |

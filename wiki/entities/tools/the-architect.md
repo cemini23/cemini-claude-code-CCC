@@ -12,9 +12,10 @@ related:
   - concepts/cross-wiki-tool-eval-inventory.md
   - concepts/graphflow-verifiable-agent-workflows.md
   - concepts/skillrae-retrieval-augmented-execution.md
+  - entities/tools/claude-code-game-studios.md
 maturity: draft
 created: 2026-05-22
-updated: 2026-05-23
+updated: 2026-05-24
 cross-wiki-source: "@osint-wiki/sources/tool-eval-70urls-k57-2026-05-22.md"
 ---
 

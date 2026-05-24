@@ -34,9 +34,10 @@ related:
   - entities/tools/n8n-mcp.md
   - entities/tools/the-architect.md
   - entities/tools/ai-engineering-roadmap.md
+  - entities/tools/claude-code-game-studios.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-23
+updated: 2026-05-24
 ---
 
 ## Relations

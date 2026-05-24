@@ -15,9 +15,10 @@ related:
   - entities/tools/claude-for-legal.md
   - entities/tools/skillkit.md
   - concepts/skill-vetting.md
+  - entities/tools/cursor-community-plugins.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-16
+updated: 2026-05-24
 ---
 
 ## Relations

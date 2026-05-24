@@ -8,9 +8,10 @@ related:
   - entities/tools/conductor-mcp.md
   - entities/patterns/scatter-gather.md
   - concepts/graphflow-verifiable-agent-workflows.md
+  - entities/tools/claude-code-game-studios.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-05-23
+updated: 2026-05-24
 cross-wiki-source: "@osint-wiki/sources/multi-wiki-link-eval-41url-2026-05-18.md"
 ---
 

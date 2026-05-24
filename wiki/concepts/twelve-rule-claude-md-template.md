@@ -11,9 +11,10 @@ related:
   - concepts/cross-wiki-tool-eval-inventory.md
   - entities/tools/open-design.md
   - entities/tools/claude-code-tips.md
+  - entities/tools/awesome-cursorrules.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-05-22
+updated: 2026-05-24
 cross-wiki-source: "@osint-wiki/concepts/claude-md-12-rule-template.md"
 ---
 

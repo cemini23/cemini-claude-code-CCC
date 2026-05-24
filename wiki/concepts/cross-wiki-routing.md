@@ -14,9 +14,10 @@ related:
   - concepts/cursor-ide-workspace.md
   - concepts/tools-we-dont-use.md
   - entities/tools/ai-engineering-roadmap.md
+  - entities/tools/awesome-cursorrules.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-23
+updated: 2026-05-24
 ---
 
 ## Relations

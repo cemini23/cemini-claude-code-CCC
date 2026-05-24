@@ -13,7 +13,7 @@ related:
   - entities/tools/claude-code.md
 maturity: draft
 created: 2026-05-22
-updated: 2026-05-22
+updated: 2026-05-24
 cross-wiki-source: "@osint-wiki/sources/trading-posts-oil-polymarket-html-dex-sniping-2026-05-21.md"
 ---
 
@@ -62,6 +62,17 @@ Routed from `briefs/2026-05-21_k55-2-ridark-eth-ccc-relevant-repos.md`. Question
 |------|----------|------|
 | `rtk-ai/rtk` | 16 | Claims 60–90% token reduction — require Phase-0 + benchmark; likely quality tradeoff |
 | `BlockRunAI/ClawRouter` | 17 | Routing pattern sound; implementation unverified |
+
+### K63 cursor abuse / piracy cluster (2026-05-24)
+
+Reject **even when MIT** — ToS circumvention and operational risk per `@osint-wiki/sources/multi-wiki-tool-eval-36url-wiki-ingestion-2026-05-24.md`.
+
+| Repo | Why permanent skip |
+|------|-------------------|
+| `kingparks/cursor-vip` | Piracy / VIP bypass |
+| `yuaotian/go-cursor-help` | ToS circumvention |
+| `chengazhen/cursor-auto-free` | NC license / abuse |
+| `7836246/cursor2api` | Proxy abuse (eval wrongly claimed NO LICENSE) |
 
 ### Process
 

@@ -4,6 +4,16 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-05-24] brief ingest | K63 Cursor/agent tooling (36-URL eval CCC slice)
+
+Ingested `briefs/2026-05-24_k63-ccc-cursor-agent-tooling-from-osint.md`.
+
+**Pages created (6):** `openevolve`, `awesome-cursorrules`, `claude-code-game-studios`, `agents-best-practices` (defer), `everything-claude-code` (ECC defer stub), `cursor-community-plugins` (CONDITIONAL-GO).
+
+**Policy:** cursor piracy cluster added to `@concepts/tools-we-dont-use.md`.
+
+**Backlinks:** `cursor-ide-workspace`, `subagent-orchestration`, `cross-wiki-tool-eval-inventory`, `tools-we-dont-use`.
+
 ## [2026-05-23] brief ingest | K60 Ai-Engineering-Roadmap (reference-only)
 
 Ingested `briefs/2026-05-23_k60-ai-engineering-roadmap-from-osint.md`.
