@@ -12,7 +12,7 @@ related:
   - concepts/cross-wiki-tool-eval-inventory.md
 maturity: draft
 created: 2026-05-24
-updated: 2026-05-24
+updated: 2026-05-21
 cross-wiki-source: "@osint-wiki/sources/multi-wiki-tool-eval-36url-wiki-ingestion-2026-05-24.md"
 ---
 
@@ -41,8 +41,8 @@ Evolves code/prompt configurations via search — eval positions it for **optimi
 | Check | Status |
 |-------|--------|
 | License | Apache-2.0 [CONFIRMED] |
-| Phase-0 | **Required** — README, Docker blast radius, what it writes to disk |
-| Verdict | **CONDITIONAL-GO (Adopt intent)** — no prod wiring until Phase-0 + sandboxed trial |
+| Phase-0 | **Smoke script** — `scripts/openevolve-phase0-smoke.sh` (isolated temp venv; no wiki/`~/.claude/` writes) [CONFIRMED 2026-05-21] |
+| Verdict | **CONDITIONAL-GO** — smoke only; no prod harness wiring until dedicated Docker eval |
 
 ### Explicit non-actions
 

@@ -1,0 +1,17 @@
+---
+description: Never recommend cursor piracy / ToS-bypass tools (K63 reject register)
+alwaysApply: true
+---
+
+# Rejected Cursor tooling (K63 — do not suggest)
+
+Never recommend installing, configuring, or linking these (see `@wiki/concepts/tools-we-dont-use.md`):
+
+- `cursor-vip`, `go-cursor-help`, `cursor-auto-free`, `cursor2api` — account/ToS bypass cluster
+- Any tool whose purpose is evading Cursor billing or quota limits
+
+**Allowed instead:** official Cursor subscription, project rules (`.cursor/rules/`), curated patterns from `awesome-cursorrules` (CC0), `openevolve` only via `./scripts/openevolve-phase0-smoke.sh` in an isolated temp venv — not against prod `~/.claude/` or live `wiki/`.
+
+**Defer (read-only pointers):** `everything-claude-code`, `agents-best-practices` — canon elsewhere or later deepen.
+
+**CONDITIONAL:** `cursor/community-plugins` — discovery only; no LICENSE file; do not treat as vetted deps.

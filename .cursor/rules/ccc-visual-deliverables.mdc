@@ -1,0 +1,26 @@
+---
+description: Canvas for complex wiki deliverables; built-in browser for docs verification
+alwaysApply: true
+---
+
+# Visual deliverables — CCC workspace
+
+## Built-in browser (preferred over Playwright)
+
+For **Anthropic docs**, release notes, or verifying a public URL:
+
+1. Use **cursor-ide-browser** (`browser_navigate`, `browser_snapshot`, …).
+2. Workflow: `browser_tabs` → `browser_navigate` → `browser_lock` → interact → `browser_unlock`.
+3. Do not default to global **playwright** MCP unless built-in browser fails or user asks for Playwright.
+
+## Canvas (`.canvas.tsx`)
+
+| Use canvas | Skip canvas |
+|------------|-------------|
+| Lint summaries, multi-page ingest matrices, architecture diagrams, 4+ row tables | Single wiki page edit, one-line answers, git-only work |
+
+Read `~/.cursor/skills-cursor/canvas/SKILL.md` before authoring. Import only from `cursor/canvas`; embed data inline.
+
+## GitHub
+
+PR/issue ops: global **github** MCP (`~/.cursor/mcp.json`). Token in `~/.cemini/github-pat` — never commit.

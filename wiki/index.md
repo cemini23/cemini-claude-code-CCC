@@ -104,7 +104,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`claude-code-tips`](entities/tools/claude-code-tips.md) | draft | Community tips — license NOASSERTION, defer (K55-2) |
 | [`ai-engineering-roadmap`](entities/tools/ai-engineering-roadmap.md) | draft | OSSU-style agent-engineering curriculum — reference-only (K60, MIT) |
 | [`openevolve`](entities/tools/openevolve.md) | draft | Evolutionary harness optimizer — Adopt after Docker Phase-0 (K63) |
-| [`awesome-cursorrules`](entities/tools/awesome-cursorrules.md) | draft | CC0 Cursor rules catalog — curated import (K63) |
+| [`awesome-cursorrules`](entities/tools/awesome-cursorrules.md) | validated | CC0 Cursor rules catalog — `.cursor/rules/ccc-*.mdc` adopted |
 | [`claude-code-game-studios`](entities/tools/claude-code-game-studios.md) | draft | Multi-agent role graphs — steal-from (K63, MIT) |
 | [`agents-best-practices`](entities/tools/agents-best-practices.md) | draft | Agent practices collection — defer (K63) |
 | [`everything-claude-code`](entities/tools/everything-claude-code.md) | draft | ECC harness bundle — defer; canon on osint-wiki (K63) |

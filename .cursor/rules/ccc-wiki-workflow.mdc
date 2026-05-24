@@ -1,0 +1,40 @@
+---
+description: CCC wiki session workflow — schema, ingest, lint, git discipline
+alwaysApply: true
+---
+
+# CCC (Cemini Claude Code meta-wiki) — agent workflow
+
+## Session start (every chat)
+
+1. Read `CLAUDE.md` (schema) and `hot.md` if present — one-line resume for the user.
+2. Inbox: `ls "research to be indexed/"` — mention count if non-empty and user did not ask to ignore.
+3. Active workstreams: skim `ROADMAP.md` only when relevant to the task.
+
+## Research order
+
+1. `wiki/index.md` → target pages → follow `@relations`
+2. `raw-sources/` (gitignored) when wiki cites them
+3. **exa** / **fetch** (project MCP) or global **brave-search** for OOD gaps — cite before ingesting
+
+**No lazy-tool in this folder** — that is OSINT WORKSPACE only. Cross-wiki: read files at paths in `CLAUDE.md` Related Wikis table or open the sibling folder.
+
+## Ingest discipline
+
+When adding sources from `research to be indexed/`:
+
+1. `python3 scripts/preingest_check.py`
+2. Discuss takeaways with user before writing (unless user said "ingest as-is")
+3. Cross-wiki routing check — brief over stub when off-topic
+4. Touch 3–15 wiki pages; update `wiki/index.md`, `wiki/log.md`; move raw file to `raw-sources/`
+5. `python3 scripts/wiki_lint.py` — fix bidirectional gaps (`--fix-bidirectional --apply` when needed)
+
+## Git
+
+- Commit/push **only when the user asks**
+- Never commit secrets (`.env`, API keys, `~/.claude/settings.json` content)
+
+## Global context
+
+- `~/.cursor/rules/cemini-projects.mdc` — SSH hosts, sibling wiki paths, global MCP map
+- Claude Code hooks/skills live in `~/.claude/` — document in wiki; do not auto-edit without explicit ask

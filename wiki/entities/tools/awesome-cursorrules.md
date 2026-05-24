@@ -9,9 +9,9 @@ related:
   - concepts/cross-wiki-routing.md
   - entities/tools/open-design.md
   - concepts/cross-wiki-tool-eval-inventory.md
-maturity: draft
+maturity: validated
 created: 2026-05-24
-updated: 2026-05-24
+updated: 2026-05-21
 cross-wiki-source: "@osint-wiki/sources/multi-wiki-tool-eval-36url-wiki-ingestion-2026-05-24.md"
 ---
 
@@ -32,9 +32,9 @@ Cross-wiki: `@osint-wiki/entities/tools/awesome-cursorrules.md`; K63 URL #11.
 
 ### CCC use
 
-1. **Cherry-pick** vetted rules into `~/Desktop/projects/Cemini claude code CCC/.cursor/rules/` (and sibling wikis) after human review.
+1. **Curated import landed** (2026-05-21): `.cursor/rules/ccc-*.mdc` + `.cursor/curated-rules/README.md` — patterns from catalog, not bulk copy.
 2. **Do not** mirror the full catalog — churn + irrelevant domains (per LESSONS.md spec-only posture).
-3. Pair with `@cemini-projects.mdc` global rule for SSH/MCP map.
+3. Pair with `~/.cursor/rules/cemini-projects.mdc` global rule for SSH/MCP map.
 
 ### Adoption posture
 
@@ -42,7 +42,7 @@ Cross-wiki: `@osint-wiki/entities/tools/awesome-cursorrules.md`; K63 URL #11.
 |-------|--------|
 | License | CC0-1.0 [CONFIRMED] — public domain dedication |
 | Phase-0 | Light — review each rule file before import |
-| Verdict | **GO (curated import)** |
+| Verdict | **GO — adopted** [CONFIRMED 2026-05-21] |
 
 ## Snippets
 

@@ -16,7 +16,7 @@ related:
   - entities/tools/openevolve.md
 maturity: validated
 created: 2026-05-21
-updated: 2026-05-24
+updated: 2026-05-21
 ---
 
 ## Relations
@@ -60,9 +60,20 @@ Tunnels: LaunchAgents `com.cemini.stash-tunnel`, `com.cemini.prod-mcp-tunnel`. V
 
 ### Rules and deliverables
 
+**OSINT WORKSPACE**
+
 - `.cursor/rules/osint-mcp-defaults.mdc` — lazy-tool routing
 - `.cursor/rules/osint-visual-deliverables.mdc` — prefer built-in `browser_*` over Playwright; canvas for heavy tables
-- `~/.cursor/rules/cemini-projects.mdc` — SSH hosts (`cemini-prod`, `cemini-librarian`)
+
+**CCC meta-wiki** (`~/Desktop/projects/Cemini claude code CCC`)
+
+- `.cursor/mcp.json` — project **exa** (`scripts/mcp_exa.sh`) + **fetch**; no lazy-tool
+- `.cursor/rules/ccc-wiki-workflow.mdc`, `ccc-wiki-pages.mdc`, `ccc-visual-deliverables.mdc`, `ccc-rejected-cursor-tools.mdc`
+- `.cursor/README.md` — MCP reload + global vs project scope
+
+**Global**
+
+- `~/.cursor/rules/cemini-projects.mdc` — SSH hosts (`cemini-prod`, `cemini-librarian`), sibling wiki paths
 
 **Deployment boundary:** OSINT workspace stages `briefs/` and edits wiki git; it does **not** modify `/opt/cemini` application code.
 

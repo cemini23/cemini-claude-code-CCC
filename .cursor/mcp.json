@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "exa": {
+      "type": "stdio",
+      "disabled": false,
+      "command": "${workspaceFolder}/scripts/mcp_exa.sh",
+      "args": [],
+      "env": {}
+    },
+    "fetch": {
+      "type": "stdio",
+      "disabled": false,
+      "command": "npx",
+      "args": ["-y", "mcp-fetch-server"],
+      "env": {}
+    }
+  }
+}

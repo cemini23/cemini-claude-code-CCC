@@ -4,6 +4,17 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-05-21] hands-on | K63 Cursor adoption (CCC project)
+
+Implemented K63 **Adopt** slice for this repo (not OSINT lazy-tool):
+
+- `.cursor/mcp.json` — **exa** (`scripts/mcp_exa.sh`) + **fetch**
+- `.cursor/rules/ccc-*.mdc` (4) — wiki workflow, page format, visual deliverables, rejected piracy tools
+- `.cursor/curated-rules/README.md` — awesome-cursorrules mapping
+- `scripts/openevolve-phase0-smoke.sh` — Phase-0 PASS (isolated venv)
+
+**Wiki:** `cursor-ide-workspace`, `awesome-cursorrules` → validated; `openevolve` smoke noted.
+
 ## [2026-05-24] brief ingest | K63 Cursor/agent tooling (36-URL eval CCC slice)
 
 Ingested `briefs/2026-05-24_k63-ccc-cursor-agent-tooling-from-osint.md`.

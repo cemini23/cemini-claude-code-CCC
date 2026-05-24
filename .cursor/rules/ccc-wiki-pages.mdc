@@ -1,0 +1,34 @@
+---
+description: CCC wiki page format — frontmatter, bidirectional links, citations
+globs: wiki/**/*.md
+alwaysApply: false
+---
+
+# Wiki page edits (CCC)
+
+Follow `CLAUDE.md` wiki page format on every create/update.
+
+## Frontmatter (required)
+
+- `type`: source | entity | concept | brief
+- `maturity`: draft | validated | core
+- `related:` — **bidirectional**: if A lists B, B must list A
+- Bump `updated:` on meaningful body changes
+
+## Body section order
+
+`## Relations` → `## Raw Concept` → `## Narrative` → `## Snippets` → optional `## Dead Ends`
+
+## Links
+
+- Inline: `@path/to/page.md` (relative to `wiki/`, no leading slash)
+- Cross-wiki: `@osint-wiki/...`, `@cybersecurity-wiki/...`, etc.
+- Claims: `[CONFIRMED]`, `[TENTATIVE]`, `[NEEDS VERIFICATION YYYY-MM-DD]`, `[RETRACTED]`
+
+## After edits
+
+```bash
+python3 scripts/wiki_lint.py
+```
+
+Fix orphans, dangling `related:`, and bidirectional gaps before considering the edit done.
