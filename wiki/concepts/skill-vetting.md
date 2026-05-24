@@ -15,6 +15,7 @@ related:
   - concepts/tools-we-dont-use.md
   - concepts/html-as-claude-code-output-format.md
   - concepts/skillrae-retrieval-augmented-execution.md
+  - entities/tools/ai-engineering-roadmap.md
 maturity: draft
 created: 2026-05-17
 updated: 2026-05-23

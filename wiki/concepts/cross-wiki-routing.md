@@ -13,9 +13,10 @@ related:
   - concepts/deep-research-evaluation-prompt.md
   - concepts/cursor-ide-workspace.md
   - concepts/tools-we-dont-use.md
+  - entities/tools/ai-engineering-roadmap.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-22
+updated: 2026-05-23
 ---
 
 ## Relations

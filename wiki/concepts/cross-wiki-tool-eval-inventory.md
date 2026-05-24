@@ -14,6 +14,7 @@ related:
   - entities/tools/repomix.md
   - entities/tools/n8n-mcp.md
   - entities/tools/anything-llm.md
+  - entities/tools/ai-engineering-roadmap.md
 maturity: draft
 created: 2026-05-21
 updated: 2026-05-23
@@ -94,7 +95,7 @@ OSINT-wiki runs a multi-wiki tool evaluation → CCC-relevant items (Claude Code
 | picoclaw | MIT | Adopt | Catalog — Go local-gateway; MCP-server architecture mirror; 29k★ | ccc-wiki |
 | git-truck | MIT | Adopt | Catalog — local-first git viz via `npx -y git-truck`; 710★ | ccc-wiki |
 | hermes-desktop | MIT | Adopt | Catalog — Tauri/React desktop GUI for Hermes Agent; 5.8k★ | osint-wiki |
-| ai-engineer-roadmap | unverified | Reference | Catalog — non-executable Markdown roadmap; training reference | ccc-wiki |
+| ai-engineer-roadmap / Ai-Engineering-Roadmap | MIT (K60) | Reference | **Promoted** → @entities/tools/ai-engineering-roadmap.md | ccc-wiki |
 | grex | Apache-2.0 | Reference | Catalog — regex-from-examples CLI; MCP-server wrapping exemplar | cybersec-wiki |
 | gridex | Apache-2.0 | Reference | Catalog — native DB IDE; architecture template for unbloated dev tools | osint-wiki |
 
@@ -182,3 +183,10 @@ OSINT-wiki runs a multi-wiki tool evaluation → CCC-relevant items (Claude Code
 | SkillRAE (2605.10114) | **Pages** → `@concepts/skillrae-retrieval-augmented-execution.md`, `@sources/arxiv-skillrae-2605.10114.md` |
 | GraphFlow (2605.14968) | **Pages** → `@concepts/graphflow-verifiable-agent-workflows.md`, `@sources/arxiv-graphflow-2605.14968.md` |
 | SkillsVote (2605.18401) | Deferred — not downloaded |
+
+#### From K60 (2026-05-23) — v4 20-URL eval (CCC slice)
+
+| Item | License | CCC disposition |
+|------|---------|-----------------|
+| Ai-Engineering-Roadmap | MIT CONFIRMED | **Page** → @entities/tools/ai-engineering-roadmap.md (reference-only) |
+| grace-marketplace, COG-second-brain | MIT (eval) | Reject scope — no CCC pages |

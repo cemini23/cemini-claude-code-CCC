@@ -33,9 +33,10 @@ related:
   - concepts/self-healing-agent-sessions.md
   - entities/tools/n8n-mcp.md
   - entities/tools/the-architect.md
+  - entities/tools/ai-engineering-roadmap.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-22
+updated: 2026-05-23
 ---
 
 ## Relations

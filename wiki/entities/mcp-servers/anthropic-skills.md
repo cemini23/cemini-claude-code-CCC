@@ -26,9 +26,10 @@ related:
   - entities/mcp-servers/llm-wiki-compiler.md
   - entities/tools/open-design.md
   - concepts/skillrae-retrieval-augmented-execution.md
+  - entities/tools/ai-engineering-roadmap.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-05-22
+updated: 2026-05-23
 ---
 
 ## Relations

@@ -15,6 +15,7 @@ related:
   - concepts/cursor-ide-workspace.md
   - concepts/deep-research-evaluation-prompt.md
   - concepts/skillrae-retrieval-augmented-execution.md
+  - entities/tools/ai-engineering-roadmap.md
 maturity: validated
 created: 2026-05-13
 updated: 2026-05-23

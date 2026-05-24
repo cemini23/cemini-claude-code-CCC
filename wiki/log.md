@@ -4,6 +4,16 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-05-23] brief ingest | K60 Ai-Engineering-Roadmap (reference-only)
+
+Ingested `briefs/2026-05-23_k60-ai-engineering-roadmap-from-osint.md`.
+
+**Page created:** `entities/tools/ai-engineering-roadmap.md` — MIT CONFIRMED (~552★); curriculum gap-check vs existing conductor/skills/MCP docs; no install.
+
+**Inventory:** upgraded K53 `ai-engineer-roadmap` catalog row; added K60 section.
+
+**Also marked processed:** `briefs/2026-05-23_k59-skillrae-graphflow-from-osint.md` (ingested prior commit; marker was missing).
+
 ## [2026-05-23] brief ingest | K59 SkillRAE + GraphFlow (OSINT Tier-B harness papers)
 
 Ingested `briefs/2026-05-23_k59-skillrae-graphflow-from-osint.md`.
