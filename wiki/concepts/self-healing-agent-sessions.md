@@ -13,9 +13,10 @@ related:
   - entities/tools/claude-mem.md
   - entities/patterns/glasswing-deliberate-disagreement.md
   - entities/patterns/full-prompt-goal-template.md
+  - entities/tools/hermes-agent.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-05-21
+updated: 2026-05-24
 cross-wiki-source: "@osint-wiki/sources/arxiv-self-healing-llm-agents-2605.06737.md"
 ---
 

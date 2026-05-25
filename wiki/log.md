@@ -4,6 +4,22 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-05-21] brief ingest | K65 Kimi Agent Swarm vs Claude Agent Teams
+
+Ingested `briefs/2026-05-24_k65-kimi-agent-swarm-vs-claude-teams.md` (was in correct `briefs/` folder; missed on prior pass).
+
+**Pages created (2):** `concepts/kimi-agent-swarm-vs-claude-agent-teams.md`, `entities/tools/kimi-agent-swarm.md`.
+
+**Backlinks:** `subagent-orchestration`, `scatter-gather`, `cross-wiki-tool-eval-inventory`, `index.md`.
+
+Cross-wiki: OSINT K65 canon (`@osint-wiki/concepts/kimi-agent-swarm-vs-claude-agent-teams.md`).
+
+## [2026-05-21] query | Brief inbox check + K64 Hermes routing stub
+
+**Briefs:** 22 files in `briefs/` — all have `processed:` markers; no new drops in `research to be indexed/`.
+
+**Action:** K64 exists on OSINT only (CeminiSuite target); CCC slice = Hermes catalog → conductor reference. Created `entities/tools/hermes-agent.md`; backlinks on `conductor-mcp`, `cross-wiki-tool-eval-inventory`, `index.md`.
+
 ## [2026-05-21] hands-on | K63 Cursor adoption (CCC project)
 
 Implemented K63 **Adopt** slice for this repo (not OSINT lazy-tool):

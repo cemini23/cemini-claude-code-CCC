@@ -19,9 +19,12 @@ related:
   - concepts/skillrae-retrieval-augmented-execution.md
   - concepts/graphflow-verifiable-agent-workflows.md
   - entities/tools/ai-engineering-roadmap.md
+  - entities/tools/hermes-agent.md
+  - concepts/kimi-agent-swarm-vs-claude-agent-teams.md
+  - entities/tools/kimi-agent-swarm.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-23
+updated: 2026-05-24
 ---
 
 ## Relations
@@ -33,6 +36,7 @@ updated: 2026-05-23
 - `@entities/patterns/scatter-gather.md` — the conductor's cross-wiki query routing is a scatter-gather application
 - `@concepts/code-as-agent-harness.md` — conductor as harness-interface routing layer
 - `@concepts/self-healing-agent-sessions.md` — conductor fan-out failures and fallback policy
+- `@entities/tools/hermes-agent.md` — parallel personal-agent runtime (reference only; K64 routing)
 
 Cross-wiki: `@osint-wiki/concepts/conductor-orchestrator.md` covers the design history and the FastMCP-based implementation.
 

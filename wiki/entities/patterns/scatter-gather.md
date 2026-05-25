@@ -13,6 +13,8 @@ related:
   - entities/tools/cc-wf-studio.md
   - concepts/graphflow-verifiable-agent-workflows.md
   - entities/tools/claude-code-game-studios.md
+  - concepts/kimi-agent-swarm-vs-claude-agent-teams.md
+  - entities/tools/kimi-agent-swarm.md
 maturity: draft
 created: 2026-05-17
 updated: 2026-05-24
@@ -26,6 +28,7 @@ cross-wiki-source: "@osint-wiki/concepts/scatter-gather-topology.md"
 - @entities/patterns/tier1-tier2-agent-model.md — Tier-2 subagents are the natural scatter-leg workers; the Tier-1 caller is the gather node
 - @entities/patterns/cpr-context-compression.md — scatter-gather state serialisation is a CPR concern when the gather step needs to persist intermediate scatter results
 - @osint-wiki/concepts/scatter-gather-topology.md — cross-wiki primary; full LangGraph topology, conductor architecture history, and ~30 cross-references live there
+- @concepts/kimi-agent-swarm-vs-claude-agent-teams.md — Kimi Swarm is unbounded hub fan-out; scatter-gather stays cost-bounded on CCC
 
 ## Raw Concept
 

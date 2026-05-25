@@ -35,6 +35,8 @@ related:
   - entities/tools/the-architect.md
   - entities/tools/ai-engineering-roadmap.md
   - entities/tools/claude-code-game-studios.md
+  - concepts/kimi-agent-swarm-vs-claude-agent-teams.md
+  - entities/tools/kimi-agent-swarm.md
 maturity: validated
 created: 2026-05-13
 updated: 2026-05-24
@@ -63,6 +65,8 @@ updated: 2026-05-24
 - `@entities/tools/cc-wf-studio.md` — visual workflow editor for Claude Code agent pipelines; conditional-branching export format
 - `@concepts/code-as-agent-harness.md` — scaling the harness via isolated subagent contexts
 - `@concepts/self-healing-agent-sessions.md` — subagent error/empty-return retry budget
+- `@concepts/kimi-agent-swarm-vs-claude-agent-teams.md` — external hub-and-spoke swarm vs Claude Teams / `Agent` tool (K65)
+- `@entities/tools/kimi-agent-swarm.md` — Moonshot product reference only; not a CCC harness
 
 Cross-wiki: `@osint-wiki/concepts/conductor-orchestrator.md` carries the OSINT-side conductor history (parallel subagent dispatch for cross-wiki queries).
 

@@ -21,6 +21,7 @@ related:
   - sources/arxiv-graphflow-2605.14968.md
   - sources/arxiv-skillrae-2605.10114.md
   - entities/tools/openevolve.md
+  - concepts/kimi-agent-swarm-vs-claude-agent-teams.md
 maturity: draft
 created: 2026-05-21
 updated: 2026-05-24

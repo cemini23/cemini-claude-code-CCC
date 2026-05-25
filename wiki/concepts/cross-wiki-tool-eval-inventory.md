@@ -21,6 +21,9 @@ related:
   - entities/tools/agents-best-practices.md
   - entities/tools/everything-claude-code.md
   - entities/tools/cursor-community-plugins.md
+  - entities/tools/hermes-agent.md
+  - concepts/kimi-agent-swarm-vs-claude-agent-teams.md
+  - entities/tools/kimi-agent-swarm.md
 maturity: draft
 created: 2026-05-21
 updated: 2026-05-24
@@ -100,6 +103,7 @@ OSINT-wiki runs a multi-wiki tool evaluation → CCC-relevant items (Claude Code
 | cc-wf-studio | AGPL-3.0-or-later (claimed) | Adopt (with AGPL caveat) | **Promoted to page** | ccc-wiki |
 | picoclaw | MIT | Adopt | Catalog — Go local-gateway; MCP-server architecture mirror; 29k★ | ccc-wiki |
 | git-truck | MIT | Adopt | Catalog — local-first git viz via `npx -y git-truck`; 710★ | ccc-wiki |
+| hermes-agent | MIT | Reference | `@entities/tools/hermes-agent.md` — Nous runtime; conductor peer, not adopt (K52/K64) | ccc-wiki + osint-wiki |
 | hermes-desktop | MIT | Adopt | Catalog — Tauri/React desktop GUI for Hermes Agent; 5.8k★ | osint-wiki |
 | ai-engineer-roadmap / Ai-Engineering-Roadmap | MIT (K60) | Reference | **Promoted** → @entities/tools/ai-engineering-roadmap.md | ccc-wiki |
 | grex | Apache-2.0 | Reference | Catalog — regex-from-examples CLI; MCP-server wrapping exemplar | cybersec-wiki |
@@ -208,3 +212,10 @@ OSINT-wiki runs a multi-wiki tool evaluation → CCC-relevant items (Claude Code
 | everything-claude-code (ECC) | MIT | **Page** → defer; canon @osint-wiki |
 | cursor/community-plugins | NO LICENSE | **Page** → CONDITIONAL-GO discovery only |
 | cursor-vip, go-cursor-help, cursor2api, cursor-auto-free | mixed | Reject → @concepts/tools-we-dont-use.md |
+
+#### From K65 (2026-05-24) — Kimi Agent Swarm vs Claude Agent Teams
+
+| Tool | License | CCC disposition |
+|------|---------|-----------------|
+| Kimi Agent Swarm (Moonshot) | Vendor SaaS | **Pages** → `@concepts/kimi-agent-swarm-vs-claude-agent-teams.md`, `@entities/tools/kimi-agent-swarm.md` (REFERENCE; no MCP) |
+| Claude Agent Teams | Anthropic | **In use** — aligns with `@concepts/subagent-orchestration.md` |

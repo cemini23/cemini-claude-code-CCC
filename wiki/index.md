@@ -109,6 +109,9 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`agents-best-practices`](entities/tools/agents-best-practices.md) | draft | Agent practices collection — defer (K63) |
 | [`everything-claude-code`](entities/tools/everything-claude-code.md) | draft | ECC harness bundle — defer; canon on osint-wiki (K63) |
 | [`cursor-community-plugins`](entities/tools/cursor-community-plugins.md) | draft | Cursor plugin index — no LICENSE (K63 CONDITIONAL-GO) |
+| [`hermes-agent`](entities/tools/hermes-agent.md) | draft | Nous Hermes runtime — reference vs conductor (K64 OSINT routing) |
+| [`kimi-agent-swarm-vs-claude-agent-teams`](concepts/kimi-agent-swarm-vs-claude-agent-teams.md) | draft | Kimi Swarm hub vs Claude Teams mesh — CCC decision matrix (K65) |
+| [`kimi-agent-swarm`](entities/tools/kimi-agent-swarm.md) | draft | Moonshot swarm product — reference only (K65) |
 | [`skillrae-retrieval-augmented-execution`](concepts/skillrae-retrieval-augmented-execution.md) | draft | Skill-graph RAE — post-retrieval context compilation (K59 arXiv) |
 | [`graphflow-verifiable-agent-workflows`](concepts/graphflow-verifiable-agent-workflows.md) | draft | Proof-carrying visual workflows + durable runtime (K59 arXiv) |
 
