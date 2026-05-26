@@ -16,9 +16,12 @@ related:
   - entities/tools/ai-engineering-roadmap.md
   - entities/tools/awesome-cursorrules.md
   - entities/tools/hermes-agent.md
+  - concepts/claude-code-personal-os-scope.md
+  - concepts/obsidian-agent-maintenance-workflow.md
+  - concepts/obsidian-trading-journal-workflow.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-24
+updated: 2026-05-26
 ---
 
 ## Relations

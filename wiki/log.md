@@ -4,6 +4,16 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-05-26] brief ingest | K67 Claude/Obsidian workflows (Posts.docx CCC slice)
+
+Ingested `briefs/2026-05-26_k67-claude-obsidian-workflows-from-osint.md`.
+
+**Pages created (6):** `claude-premortem-skill`, `obsidian-agent-maintenance-workflow`, `obsidian-trading-journal-workflow`, `claude-code-software-factory`, `claude-code-personal-os-scope`, `sources/k67-explorax-100-repos-reference` (unread-stub).
+
+**Updated:** `claude-obsidian` (K67 pattern-only note), `skill-vetting`, `subagent-orchestration`, `openspec`, `cross-wiki-tool-eval-inventory`, `index.md`.
+
+Cross-wiki: `@osint-wiki/sources/trading-posts-compilation-38-2026-05-26.md`.
+
 ## [2026-05-21] brief ingest | K65 Kimi Agent Swarm vs Claude Agent Teams
 
 Ingested `briefs/2026-05-24_k65-kimi-agent-swarm-vs-claude-teams.md` (was in correct `briefs/` folder; missed on prior pass).

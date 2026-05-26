@@ -13,9 +13,11 @@ related:
   - entities/tools/the-architect.md
   - concepts/graphflow-verifiable-agent-workflows.md
   - concepts/skillrae-retrieval-augmented-execution.md
+  - concepts/claude-code-software-factory.md
+  - concepts/claude-premortem-skill.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-05-23
+updated: 2026-05-26
 ---
 
 ## Relations
@@ -27,6 +29,8 @@ updated: 2026-05-23
 - `@concepts/code-as-agent-harness.md` — OpenSpec as regression-free harness-improvement workflow
 - `@concepts/graphflow-verifiable-agent-workflows.md` — spec contracts without compile-time proof (contrast)
 - `@concepts/skillrae-retrieval-augmented-execution.md` — compiled skill context vs static spec documents
+- `@concepts/claude-code-software-factory.md` — spec gate before multi-repo factory fan-out (K67)
+- `@concepts/claude-premortem-skill.md` — failure-mode review before large spec-driven harness changes
 
 Cross-wiki: `@osint-wiki/entities/tools/openspec.md` is the OSINT-side entity (where Cemini first audited it).
 

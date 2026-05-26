@@ -112,6 +112,11 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`hermes-agent`](entities/tools/hermes-agent.md) | draft | Nous Hermes runtime — reference vs conductor (K64 OSINT routing) |
 | [`kimi-agent-swarm-vs-claude-agent-teams`](concepts/kimi-agent-swarm-vs-claude-agent-teams.md) | draft | Kimi Swarm hub vs Claude Teams mesh — CCC decision matrix (K65) |
 | [`kimi-agent-swarm`](entities/tools/kimi-agent-swarm.md) | draft | Moonshot swarm product — reference only (K65) |
+| [`claude-premortem-skill`](concepts/claude-premortem-skill.md) | draft | Pre-mortem SKILL pattern before harness changes (K67) |
+| [`obsidian-agent-maintenance-workflow`](concepts/obsidian-agent-maintenance-workflow.md) | draft | Vault hygiene agent — pattern not claude-obsidian install (K67) |
+| [`obsidian-trading-journal-workflow`](concepts/obsidian-trading-journal-workflow.md) | draft | Morning research + trading journal in Obsidian (K67) |
+| [`claude-code-software-factory`](concepts/claude-code-software-factory.md) | draft | Multi-repo codegen orchestration metaphor (K67) |
+| [`claude-code-personal-os-scope`](concepts/claude-code-personal-os-scope.md) | draft | Personal-OS scope discipline — narrow Cemini prod (K67) |
 | [`skillrae-retrieval-augmented-execution`](concepts/skillrae-retrieval-augmented-execution.md) | draft | Skill-graph RAE — post-retrieval context compilation (K59 arXiv) |
 | [`graphflow-verifiable-agent-workflows`](concepts/graphflow-verifiable-agent-workflows.md) | draft | Proof-carrying visual workflows + durable runtime (K59 arXiv) |
 
@@ -121,6 +126,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 |------|----------|---------|
 | [`arxiv-skillrae-2605.10114`](sources/arxiv-skillrae-2605.10114.md) | draft | SkillRAE paper provenance (K59) |
 | [`arxiv-graphflow-2605.14968`](sources/arxiv-graphflow-2605.14968.md) | draft | GraphFlow paper provenance (K59) |
+| [`k67-explorax-100-repos-reference`](sources/k67-explorax-100-repos-reference.md) | draft | @exploraX_ OSS list — audit queue stub (K67) |
 
 ## entities/sources/hooks/people
 

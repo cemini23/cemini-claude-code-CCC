@@ -7,9 +7,11 @@ related:
   - entities/tools/claude-mem.md
   - entities/patterns/autoresearch-loop.md
   - concepts/hooks-for-automation.md
+  - concepts/obsidian-agent-maintenance-workflow.md
+  - concepts/obsidian-trading-journal-workflow.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-05-17
+updated: 2026-05-26
 cross-wiki-source: "@osint-wiki/entities/tools/claude-obsidian.md"
 ---
 
@@ -18,6 +20,8 @@ cross-wiki-source: "@osint-wiki/entities/tools/claude-obsidian.md"
 - @entities/tools/claude-mem.md — the adopted tool that claude-obsidian collides with; SessionStart-hook owner
 - @entities/patterns/autoresearch-loop.md — the architectural pattern claude-obsidian implements (3-round autoresearch); the pattern is interesting even when this specific tool isn't
 - @concepts/hooks-for-automation.md — hook-collision is the operational rejection reason, documented here
+- @concepts/obsidian-agent-maintenance-workflow.md — K67 vault-hygiene pattern (do not install this tool to get it)
+- @concepts/obsidian-trading-journal-workflow.md — K67 morning research + journal pattern (pattern-only)
 - @osint-wiki/entities/tools/claude-obsidian.md — cross-wiki primary page; full Phase-0 audit table + Dead Ends lives there
 
 ## Raw Concept

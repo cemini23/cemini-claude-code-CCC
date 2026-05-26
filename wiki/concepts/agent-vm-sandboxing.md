@@ -11,9 +11,10 @@ related:
   - entities/mcp-servers/polymarket-mcp-server.md
   - entities/tools/defenseclaw.md
   - entities/tools/openevolve.md
+  - concepts/claude-premortem-skill.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-05-24
+updated: 2026-05-26
 cross-wiki-source: "@cybersecurity-wiki/concepts/agent-vm-sandboxing.md"
 ---
 

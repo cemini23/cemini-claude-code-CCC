@@ -22,9 +22,11 @@ related:
   - entities/tools/hermes-agent.md
   - concepts/kimi-agent-swarm-vs-claude-agent-teams.md
   - entities/tools/kimi-agent-swarm.md
+  - concepts/claude-code-personal-os-scope.md
+  - concepts/obsidian-trading-journal-workflow.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-24
+updated: 2026-05-26
 ---
 
 ## Relations

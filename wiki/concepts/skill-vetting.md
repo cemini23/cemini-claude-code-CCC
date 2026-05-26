@@ -19,9 +19,11 @@ related:
   - entities/tools/agents-best-practices.md
   - entities/tools/cursor-community-plugins.md
   - entities/tools/everything-claude-code.md
+  - concepts/claude-premortem-skill.md
+  - sources/k67-explorax-100-repos-reference.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-05-24
+updated: 2026-05-26
 ---
 
 ## Relations
@@ -36,6 +38,7 @@ updated: 2026-05-24
 - @entities/tools/open-design.md — modular skill Markdown patterns still require full vetting before install
 - @concepts/tools-we-dont-use.md — permanent skips (ToS bypass, archived spam tools)
 - @concepts/skillrae-retrieval-augmented-execution.md — skill-graph compilation assumes vetted skills only
+- @concepts/claude-premortem-skill.md — internal harness/skill **authoring** gate before Phase-0 on third-party installs
 
 ## Raw Concept
 

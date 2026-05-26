@@ -15,9 +15,10 @@ related:
   - entities/tools/claude-code-game-studios.md
   - concepts/kimi-agent-swarm-vs-claude-agent-teams.md
   - entities/tools/kimi-agent-swarm.md
+  - concepts/claude-code-software-factory.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-05-24
+updated: 2026-05-26
 cross-wiki-source: "@osint-wiki/concepts/scatter-gather-topology.md"
 ---
 

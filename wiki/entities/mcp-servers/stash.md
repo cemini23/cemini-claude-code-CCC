@@ -15,9 +15,11 @@ related:
   - concepts/cursor-ide-workspace.md
   - concepts/local-llm-mechanics-primer.md
   - entities/tools/anything-llm.md
+  - concepts/obsidian-agent-maintenance-workflow.md
+  - concepts/obsidian-trading-journal-workflow.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-05-22
+updated: 2026-05-26
 cross-wiki-source: "@osint-wiki/sources/alash3al-stash.md"
 ---
 

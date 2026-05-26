@@ -24,9 +24,10 @@ related:
   - entities/tools/hermes-agent.md
   - concepts/kimi-agent-swarm-vs-claude-agent-teams.md
   - entities/tools/kimi-agent-swarm.md
+  - sources/k67-explorax-100-repos-reference.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-05-24
+updated: 2026-05-26
 ---
 
 ## Relations
@@ -219,3 +220,15 @@ OSINT-wiki runs a multi-wiki tool evaluation → CCC-relevant items (Claude Code
 |------|---------|-----------------|
 | Kimi Agent Swarm (Moonshot) | Vendor SaaS | **Pages** → `@concepts/kimi-agent-swarm-vs-claude-agent-teams.md`, `@entities/tools/kimi-agent-swarm.md` (REFERENCE; no MCP) |
 | Claude Agent Teams | Anthropic | **In use** — aligns with `@concepts/subagent-orchestration.md` |
+
+#### From K67 (2026-05-26) — Claude/Obsidian workflows (Posts.docx CCC slice)
+
+| Item | CCC disposition |
+|------|-----------------|
+| Pre-mortem skill (Post 29) | **Page** → `@concepts/claude-premortem-skill.md` |
+| Obsidian maintenance (21, 33) | **Page** → `@concepts/obsidian-agent-maintenance-workflow.md` |
+| Obsidian trading journal (20, 30) | **Page** → `@concepts/obsidian-trading-journal-workflow.md` |
+| Software factory (24) | **Page** → `@concepts/claude-code-software-factory.md` |
+| Personal OS (25) | **Page** → `@concepts/claude-code-personal-os-scope.md` (scope warning) |
+| @exploraX_ 100-repo list (36) | **Stub** → `@sources/k67-explorax-100-repos-reference.md` (audit queue) |
+| claude-obsidian tool install | **Unchanged** — `@entities/tools/claude-obsidian.md` DO NOT ADOPT |

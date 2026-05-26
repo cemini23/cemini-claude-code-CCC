@@ -7,9 +7,10 @@ keywords: [thuki, quiet-node-thuki, tauri-v2, rust-backend, react-19, sqlite-con
 related:
   - entities/tools/claude-mem.md
   - concepts/local-llm-mechanics-primer.md
+  - concepts/obsidian-agent-maintenance-workflow.md
 maturity: validated
 created: 2026-05-14
-updated: 2026-05-22
+updated: 2026-05-26
 cross-wiki-source: "@osint-wiki/sources/eval-tool-evaluation-cemini-multi-wiki-v3-2026-05-14.md"
 ---
 

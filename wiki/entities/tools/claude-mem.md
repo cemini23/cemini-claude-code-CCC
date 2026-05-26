@@ -18,9 +18,10 @@ related:
   - concepts/code-as-agent-harness.md
   - concepts/self-healing-agent-sessions.md
   - entities/tools/anything-llm.md
+  - concepts/obsidian-agent-maintenance-workflow.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-22
+updated: 2026-05-26
 ---
 
 ## Relations

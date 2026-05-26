@@ -16,9 +16,10 @@ related:
   - concepts/self-healing-agent-sessions.md
   - entities/tools/claude-code-tips.md
   - entities/tools/everything-claude-code.md
+  - concepts/claude-premortem-skill.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-05-24
+updated: 2026-05-26
 ---
 
 ## Relations
