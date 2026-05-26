@@ -117,6 +117,11 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`obsidian-trading-journal-workflow`](concepts/obsidian-trading-journal-workflow.md) | draft | Morning research + trading journal in Obsidian (K67) |
 | [`claude-code-software-factory`](concepts/claude-code-software-factory.md) | draft | Multi-repo codegen orchestration metaphor (K67) |
 | [`claude-code-personal-os-scope`](concepts/claude-code-personal-os-scope.md) | draft | Personal-OS scope discipline — narrow Cemini prod (K67) |
+| [`google-eng-practices`](entities/tools/google-eng-practices.md) | draft | Google code review heuristics — REFERENCE (K68, CC-BY-3.0) |
+| [`ml-intern`](entities/tools/ml-intern.md) | draft | HF research-agent workflows — REFERENCE (K68) |
+| [`rowboat`](entities/tools/rowboat.md) | draft | Multi-agent orchestration — STEAL-FROM (K68, Apache-2.0) |
+| [`centaur`](entities/tools/centaur.md) | draft | Paradigm agent architecture — steal patterns only (K68, NOASSERTION) |
+| [`purple-cli`](entities/tools/purple-cli.md) | draft | Lightweight CLI utility — CONDITIONAL-GO doc-level (K68, MIT) |
 | [`skillrae-retrieval-augmented-execution`](concepts/skillrae-retrieval-augmented-execution.md) | draft | Skill-graph RAE — post-retrieval context compilation (K59 arXiv) |
 | [`graphflow-verifiable-agent-workflows`](concepts/graphflow-verifiable-agent-workflows.md) | draft | Proof-carrying visual workflows + durable runtime (K59 arXiv) |
 

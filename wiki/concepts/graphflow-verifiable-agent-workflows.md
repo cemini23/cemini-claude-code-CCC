@@ -12,9 +12,11 @@ related:
   - entities/tools/the-architect.md
   - entities/patterns/glasswing-deliberate-disagreement.md
   - entities/tools/conductor-mcp.md
+  - "@osint-wiki/concepts/graphflow-verifiable-agent-workflows.md"
+  - "@osint-wiki/sources/arxiv-graphflow-verifiable-workflows-2605.14968.md"
 maturity: draft
 created: 2026-05-23
-updated: 2026-05-23
+updated: 2026-05-26
 cross-wiki-source: "@osint-wiki/sources/arxiv-graphflow-verifiable-workflows-2605.14968.md"
 ---
 

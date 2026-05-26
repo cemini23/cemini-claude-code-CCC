@@ -7,9 +7,10 @@ related:
   - concepts/subagent-orchestration.md
   - entities/tools/conductor-mcp.md
   - entities/patterns/tier1-tier2-agent-model.md
+  - entities/tools/rowboat.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-05-16
+updated: 2026-05-26
 cross-wiki-source: "@cybersecurity-wiki/entities/tools/osmedeus.md"
 ---
 

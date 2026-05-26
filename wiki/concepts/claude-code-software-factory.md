@@ -11,6 +11,7 @@ related:
   - entities/tools/claude-code-game-studios.md
   - concepts/claude-code-personal-os-scope.md
   - sources/k67-explorax-100-repos-reference.md
+  - entities/tools/purple-cli.md
 maturity: draft
 created: 2026-05-26
 updated: 2026-05-26

@@ -24,6 +24,7 @@ related:
   - entities/tools/kimi-agent-swarm.md
   - concepts/claude-code-personal-os-scope.md
   - concepts/obsidian-trading-journal-workflow.md
+  - entities/tools/rowboat.md
 maturity: validated
 created: 2026-05-13
 updated: 2026-05-26

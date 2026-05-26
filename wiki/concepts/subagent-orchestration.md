@@ -39,6 +39,9 @@ related:
   - entities/tools/kimi-agent-swarm.md
   - concepts/claude-code-software-factory.md
   - concepts/claude-code-personal-os-scope.md
+  - entities/tools/centaur.md
+  - entities/tools/ml-intern.md
+  - entities/tools/rowboat.md
 maturity: validated
 created: 2026-05-13
 updated: 2026-05-26

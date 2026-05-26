@@ -9,9 +9,10 @@ related:
   - entities/patterns/scatter-gather.md
   - entities/tools/conductor-mcp.md
   - concepts/cross-wiki-tool-eval-inventory.md
+  - "@osint-wiki/entities/tools/kimi-agent-swarm.md"
 maturity: draft
 created: 2026-05-24
-updated: 2026-05-24
+updated: 2026-05-26
 cross-wiki-source: "@osint-wiki/entities/tools/kimi-agent-swarm.md"
 ---
 

@@ -8,9 +8,10 @@ related:
   - entities/patterns/full-prompt-goal-template.md
   - concepts/subagent-orchestration.md
   - entities/tools/claude-obsidian.md
+  - entities/tools/ml-intern.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-05-17
+updated: 2026-05-26
 cross-wiki-source: "@osint-wiki/concepts/autoresearch-loop-pattern.md"
 ---
 

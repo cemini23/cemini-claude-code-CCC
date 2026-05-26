@@ -21,6 +21,9 @@ related:
   - entities/tools/everything-claude-code.md
   - concepts/claude-premortem-skill.md
   - sources/k67-explorax-100-repos-reference.md
+  - entities/tools/centaur.md
+  - entities/tools/google-eng-practices.md
+  - entities/tools/purple-cli.md
 maturity: draft
 created: 2026-05-17
 updated: 2026-05-26

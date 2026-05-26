@@ -24,6 +24,7 @@ related:
   - concepts/kimi-agent-swarm-vs-claude-agent-teams.md
   - concepts/claude-code-software-factory.md
   - concepts/claude-premortem-skill.md
+  - entities/tools/ml-intern.md
 maturity: draft
 created: 2026-05-21
 updated: 2026-05-26

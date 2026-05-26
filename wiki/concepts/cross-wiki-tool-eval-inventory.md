@@ -22,6 +22,11 @@ related:
   - entities/tools/everything-claude-code.md
   - entities/tools/cursor-community-plugins.md
   - entities/tools/hermes-agent.md
+  - entities/tools/google-eng-practices.md
+  - entities/tools/ml-intern.md
+  - entities/tools/rowboat.md
+  - entities/tools/centaur.md
+  - entities/tools/purple-cli.md
   - concepts/kimi-agent-swarm-vs-claude-agent-teams.md
   - entities/tools/kimi-agent-swarm.md
   - sources/k67-explorax-100-repos-reference.md
@@ -232,3 +237,14 @@ OSINT-wiki runs a multi-wiki tool evaluation → CCC-relevant items (Claude Code
 | Personal OS (25) | **Page** → `@concepts/claude-code-personal-os-scope.md` (scope warning) |
 | @exploraX_ 100-repo list (36) | **Stub** → `@sources/k67-explorax-100-repos-reference.md` (audit queue) |
 | claude-obsidian tool install | **Unchanged** — `@entities/tools/claude-obsidian.md` DO NOT ADOPT |
+
+#### From K68 (2026-05-26) — 22-URL eval (CCC slice)
+
+| Tool | License | CCC disposition |
+|------|---------|-----------------|
+| google/eng-practices | CC-BY-3.0 | **Page** → `@entities/tools/google-eng-practices.md` (REFERENCE) |
+| huggingface/ml-intern | Apache-2.0 | **Page** → `@entities/tools/ml-intern.md` (REFERENCE) |
+| rowboatlabs/rowboat | Apache-2.0 | **Page** → `@entities/tools/rowboat.md` (STEAL-FROM) |
+| paradigmxyz/centaur | NOASSERTION | **Page** → `@entities/tools/centaur.md` (architecture only) |
+| erickochen/purple | MIT | **Page** → `@entities/tools/purple-cli.md` (CONDITIONAL-GO doc-level) |
+| MadAppGang/claudish | **no LICENSE** | Reject → `@concepts/tools-we-dont-use.md` (eval overturn) |

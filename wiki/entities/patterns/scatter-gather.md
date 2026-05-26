@@ -16,6 +16,7 @@ related:
   - concepts/kimi-agent-swarm-vs-claude-agent-teams.md
   - entities/tools/kimi-agent-swarm.md
   - concepts/claude-code-software-factory.md
+  - entities/tools/rowboat.md
 maturity: draft
 created: 2026-05-17
 updated: 2026-05-26

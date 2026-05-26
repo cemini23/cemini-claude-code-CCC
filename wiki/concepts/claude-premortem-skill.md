@@ -11,6 +11,7 @@ related:
   - entities/tools/openspec.md
   - concepts/agent-vm-sandboxing.md
   - concepts/claude-code-personal-os-scope.md
+  - entities/tools/google-eng-practices.md
 maturity: draft
 created: 2026-05-26
 updated: 2026-05-26

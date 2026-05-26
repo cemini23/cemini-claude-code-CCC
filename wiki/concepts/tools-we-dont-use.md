@@ -11,9 +11,10 @@ related:
   - concepts/token-economics-and-prompt-caching.md
   - entities/tools/claude-code-tips.md
   - entities/tools/claude-code.md
+  - entities/tools/centaur.md
 maturity: draft
 created: 2026-05-22
-updated: 2026-05-24
+updated: 2026-05-26
 cross-wiki-source: "@osint-wiki/sources/trading-posts-oil-polymarket-html-dex-sniping-2026-05-21.md"
 ---
 
@@ -73,6 +74,14 @@ Reject **even when MIT** — ToS circumvention and operational risk per `@osint-
 | `yuaotian/go-cursor-help` | ToS circumvention |
 | `chengazhen/cursor-auto-free` | NC license / abuse |
 | `7836246/cursor2api` | Proxy abuse (eval wrongly claimed NO LICENSE) |
+
+### K68 license overturn (2026-05-26)
+
+Eval claimed MIT; **`gh api` verification** returned no LICENSE file — permanent skip per `@osint-wiki/entities/tools/claudish.md`.
+
+| Repo | Why permanent skip |
+|------|-------------------|
+| `MadAppGang/claudish` | Eval Adopt **overturned** — `license: null`, no LICENSE file |
 
 ### Process
 

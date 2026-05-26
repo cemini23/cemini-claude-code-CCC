@@ -12,6 +12,7 @@ related:
   - entities/tools/defenseclaw.md
   - entities/tools/openevolve.md
   - concepts/claude-premortem-skill.md
+  - entities/tools/centaur.md
 maturity: draft
 created: 2026-05-17
 updated: 2026-05-26

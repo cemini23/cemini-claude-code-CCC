@@ -4,6 +4,18 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-05-26] brief ingest | K68 22-URL eval (CCC tooling slice)
+
+Ingested `briefs/2026-05-26_k68-ccc-tooling-from-osint.md`.
+
+**Pages created (5):** `google-eng-practices`, `ml-intern`, `rowboat`, `centaur`, `purple-cli`.
+
+**Policy:** `MadAppGang/claudish` eval Adopt overturned → `@concepts/tools-we-dont-use.md` K68 section.
+
+**Backlinks:** `cross-wiki-tool-eval-inventory`, `index.md`, orchestration/skill pages via lint.
+
+Cross-wiki: `@osint-wiki/sources/multi-wiki-tool-eval-22url-2026-05-26.md`.
+
 ## [2026-05-26] brief ingest | K67 Claude/Obsidian workflows (Posts.docx CCC slice)
 
 Ingested `briefs/2026-05-26_k67-claude-obsidian-workflows-from-osint.md`.

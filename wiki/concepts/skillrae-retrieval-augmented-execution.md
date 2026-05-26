@@ -14,9 +14,11 @@ related:
   - entities/mcp-servers/anthropic-skills.md
   - entities/tools/openspec.md
   - entities/tools/the-architect.md
+  - "@osint-wiki/concepts/skillrae-retrieval-augmented-execution.md"
+  - "@osint-wiki/sources/arxiv-skillrae-agent-skills-2605.10114.md"
 maturity: draft
 created: 2026-05-23
-updated: 2026-05-23
+updated: 2026-05-26
 cross-wiki-source: "@osint-wiki/sources/arxiv-skillrae-agent-skills-2605.10114.md"
 ---
 
