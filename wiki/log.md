@@ -4,11 +4,18 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-05-27] wire | notebooklm-py laptop + agent skills
+
+- **CLI:** `notebooklm-py` 0.5.0, Playwright chromium, `notebooklm login`, `auth check --test --json` ok
+- **Skills:** `notebooklm skill install` (user + OSINT project) → `.claude/skills/notebooklm`, `.agents/skills/notebooklm`
+- **OSINT:** `.cursor/skills/notebooklm-osint-bridge` (Cemini redaction + workflow)
+- **Wiki:** `notebooklm-py` + `claude-obsidian-notebooklm-bridge` → validated
+
 ## [2026-05-27] brief ingest | K69 Claude/Obsidian/LLM workflows (Posts.docx CCC slice)
 
 Ingested `briefs/2026-05-27_k69-claude-obsidian-llm-workflows-from-osint.md`.
 
-**Pages created (8):** `llm-engineering-stack-curriculum`, `agent-sandbox-unikraft`, `rag-binary-quantization`, `claude-code-large-codebase-workflow`, `agent-token-discipline-openclaw-hermes`, `claude-obsidian-notebooklm-bridge`, `entities/tools/notebooklm-py`, `sources/trading-posts-compilation-20-2026-05-27`.
+**Pages created (8):** `llm-engineering-stack-curriculum`, `agent-sandbox-unikraft`, `rag-binary-quantization`, `claude-code-large-codebase-workflow`, `agent-token-discipline-openclaw-hermes`, `claude-obsidian-notebooklm-bridge`, `entities/tools/notebooklm-py`, `sources/trading-posts-compilation-20-2026-05-27.md`.
 
 **Updated:** `local-llm-mechanics-primer`, `context-engineering`, `token-economics-and-prompt-caching`, `claude-code`, `hermes-agent`, `tier1-tier2-agent-model`, `obsidian-agent-maintenance-workflow`, `cross-wiki-tool-eval-inventory`, `index.md`.
 

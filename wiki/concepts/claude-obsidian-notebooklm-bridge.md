@@ -12,7 +12,7 @@ related:
   - entities/tools/claude-mem.md
   - concepts/cross-wiki-routing.md
   - sources/trading-posts-compilation-20-2026-05-27.md
-maturity: draft
+maturity: validated
 created: 2026-05-27
 updated: 2026-05-27
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-20-2026-05-27.md"
@@ -42,10 +42,11 @@ K69 Posts 17–18 (@DamiDefi): use **Claude Code + Obsidian vault** as a thinkin
 - Emphasis on **iterative note refinement** and cross-links — not full autonomous vault rewrite.
 - **CCC guardrail:** same as K67 — no `@entities/tools/claude-obsidian.md` install (SessionStart collision with claude-mem).
 
-### Post 18 — NotebookLM CLI bridge [TENTATIVE]
+### Post 18 — NotebookLM CLI bridge [CONFIRMED 2026-05-27]
 
 - Export/select vault corpus → NotebookLM via `@entities/tools/notebooklm-py.md` for audio overview / Q&A surface.
-- **Separation:** NotebookLM is Google-hosted; do not treat as private infra — redact secrets before export.
+- **Wired (laptop):** `notebooklm-py` 0.5.0, auth ok, skills installed (`notebooklm` + OSINT `notebooklm-osint-bridge`).
+- **Separation:** NotebookLM is Google-hosted; do not treat as private infra — redact secrets before export (see OSINT bridge skill).
 
 ### Stack mapping
 
