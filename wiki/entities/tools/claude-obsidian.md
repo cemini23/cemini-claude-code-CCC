@@ -10,9 +10,10 @@ related:
   - concepts/obsidian-agent-maintenance-workflow.md
   - concepts/obsidian-trading-journal-workflow.md
   - concepts/claude-obsidian-notebooklm-bridge.md
+  - concepts/obsidian-vellum-second-brain-stack.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-05-26
+updated: 2026-05-27
 cross-wiki-source: "@osint-wiki/entities/tools/claude-obsidian.md"
 ---
 

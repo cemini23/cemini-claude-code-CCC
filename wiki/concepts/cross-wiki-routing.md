@@ -21,6 +21,7 @@ related:
   - concepts/obsidian-trading-journal-workflow.md
   - concepts/agent-sandbox-unikraft.md
   - concepts/claude-obsidian-notebooklm-bridge.md
+  - concepts/claude-code-finance-research-setup.md
 maturity: validated
 created: 2026-05-13
 updated: 2026-05-27

@@ -16,6 +16,7 @@ related:
   - concepts/claude-code-software-factory.md
   - concepts/claude-premortem-skill.md
   - entities/tools/bmad-creative-intelligence-suite.md
+  - concepts/agent-completion-verification-gates.md
 maturity: draft
 created: 2026-05-13
 updated: 2026-05-27

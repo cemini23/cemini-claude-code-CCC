@@ -12,6 +12,7 @@ related:
   - entities/mcp-servers/librarian-kb-server.md
   - concepts/cross-wiki-routing.md
   - concepts/claude-obsidian-notebooklm-bridge.md
+  - concepts/obsidian-vellum-second-brain-stack.md
 maturity: draft
 created: 2026-05-26
 updated: 2026-05-27

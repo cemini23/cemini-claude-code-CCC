@@ -140,6 +140,17 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`ai-infra-engineer-learning`](entities/tools/ai-infra-engineer-learning.md) | draft | AI infra curriculum — REFERENCE (K71) |
 | [`andrej-karpathy-skills-multica`](entities/tools/andrej-karpathy-skills-multica.md) | draft | Karpathy skills — no LICENSE, reference only (K71 demote) |
 | [`bmad-creative-intelligence-suite`](entities/tools/bmad-creative-intelligence-suite.md) | draft | BMAD creative module — DEFER (K71) |
+| [`agent-completion-verification-gates`](concepts/agent-completion-verification-gates.md) | draft | Completion proof / done criteria (K72 Post 0) |
+| [`agent-memory-stack-comparison`](concepts/agent-memory-stack-comparison.md) | draft | mem0 vs OpenClaw vs Hermes vs claude-mem (K72) |
+| [`claude-plugins-catalog-patterns`](concepts/claude-plugins-catalog-patterns.md) | draft | Marketplace plugin discovery (K72 Post 4) |
+| [`claude-prompt-engineering-techniques`](concepts/claude-prompt-engineering-techniques.md) | draft | 10-technique prompt catalog (K72 Post 5) |
+| [`claude-code-finance-research-setup`](concepts/claude-code-finance-research-setup.md) | draft | Investment analyst harness (K72 Post 10) |
+| [`obsidian-vellum-second-brain-stack`](concepts/obsidian-vellum-second-brain-stack.md) | draft | Obsidian + Claude/Vellum 24/7 brain (K72) |
+| [`karpathy-token-efficiency-patterns`](concepts/karpathy-token-efficiency-patterns.md) | draft | Token savings checklist (K72 Post 15) |
+| [`full-stack-ai-engineer-agent-path`](concepts/full-stack-ai-engineer-agent-path.md) | draft | Prompt engineer → builder path (K72 Posts 17–18) |
+| [`train-llm-agents-2026-curriculum`](concepts/train-llm-agents-2026-curriculum.md) | draft | Train agents curriculum pointer (K72 Post 20) |
+| [`agentic-programming-full-stack-thesis`](concepts/agentic-programming-full-stack-thesis.md) | draft | Agentic programming = full-stack (K72 Post 23) |
+| [`continual-harness-online-self-improvement`](concepts/continual-harness-online-self-improvement.md) | draft | Reset-free harness refinement — arXiv 2605.09998 (K72) |
 | [`skillrae-retrieval-augmented-execution`](concepts/skillrae-retrieval-augmented-execution.md) | draft | Skill-graph RAE — post-retrieval context compilation (K59 arXiv) |
 | [`graphflow-verifiable-agent-workflows`](concepts/graphflow-verifiable-agent-workflows.md) | draft | Proof-carrying visual workflows + durable runtime (K59 arXiv) |
 
@@ -151,6 +162,8 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-graphflow-2605.14968`](sources/arxiv-graphflow-2605.14968.md) | draft | GraphFlow paper provenance (K59) |
 | [`k67-explorax-100-repos-reference`](sources/k67-explorax-100-repos-reference.md) | draft | @exploraX_ OSS list — audit queue stub (K67) |
 | [`trading-posts-compilation-20-2026-05-27`](sources/trading-posts-compilation-20-2026-05-27.md) | draft | K69 Posts.docx CCC slice — provenance stub (OSINT canon) |
+| [`trading-posts-compilation-25-2026-05-27`](sources/trading-posts-compilation-25-2026-05-27.md) | draft | K72 Posts.docx — provenance stub (OSINT canon) |
+| [`arxiv-continual-harness-self-improving-agents-2605.09998`](sources/arxiv-continual-harness-self-improving-agents-2605.09998.md) | draft | Continual Harness paper — unread-stub (K72) |
 
 ## entities/sources/hooks/people
 

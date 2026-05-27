@@ -38,6 +38,19 @@ related:
   - entities/tools/ai-infra-engineer-learning.md
   - entities/tools/andrej-karpathy-skills-multica.md
   - entities/tools/bmad-creative-intelligence-suite.md
+  - concepts/agent-completion-verification-gates.md
+  - concepts/agent-memory-stack-comparison.md
+  - concepts/claude-plugins-catalog-patterns.md
+  - concepts/claude-prompt-engineering-techniques.md
+  - concepts/claude-code-finance-research-setup.md
+  - concepts/obsidian-vellum-second-brain-stack.md
+  - concepts/karpathy-token-efficiency-patterns.md
+  - concepts/full-stack-ai-engineer-agent-path.md
+  - concepts/train-llm-agents-2026-curriculum.md
+  - concepts/agentic-programming-full-stack-thesis.md
+  - concepts/continual-harness-online-self-improvement.md
+  - sources/trading-posts-compilation-25-2026-05-27.md
+  - sources/arxiv-continual-harness-self-improving-agents-2605.09998.md
   - concepts/kimi-agent-swarm-vs-claude-agent-teams.md
   - entities/tools/kimi-agent-swarm.md
   - sources/k67-explorax-100-repos-reference.md
@@ -288,3 +301,20 @@ OSINT-wiki runs a multi-wiki tool evaluation → CCC-relevant items (Claude Code
 | ai-infra-engineer-learning | — | **Page** → `@entities/tools/ai-infra-engineer-learning.md` (REFERENCE) |
 | multica-ai/andrej-karpathy-skills | **no LICENSE** | **Page** → `@entities/tools/andrej-karpathy-skills-multica.md` (REFERENCE only) |
 | bmad creative-intelligence-suite | — | **Page** → `@entities/tools/bmad-creative-intelligence-suite.md` (DEFER) |
+
+#### From K72 (2026-05-27) — Posts-25 + Continual Harness arXiv
+
+| Item | CCC disposition |
+|------|-----------------|
+| Agent completion gates (Post 0) | **Page** → `@concepts/agent-completion-verification-gates.md` |
+| mem0/OpenClaw/Hermes memory (Post 1) | **Page** → `@concepts/agent-memory-stack-comparison.md` |
+| Claude plugins guide (Post 4) | **Page** → `@concepts/claude-plugins-catalog-patterns.md` |
+| Prompt engineering 10 techniques (Post 5) | **Page** → `@concepts/claude-prompt-engineering-techniques.md` |
+| Finance research harness (Post 10) | **Page** → `@concepts/claude-code-finance-research-setup.md` |
+| Obsidian+Vellum stacks (Posts 13–14, 7, 21) | **Page** → `@concepts/obsidian-vellum-second-brain-stack.md` |
+| Karpathy token savings (Post 15) | **Page** → `@concepts/karpathy-token-efficiency-patterns.md` |
+| Full-stack AI path / Hermes (Posts 17–18) | **Page** → `@concepts/full-stack-ai-engineer-agent-path.md` |
+| Train agents 2026 (Post 20) | **Page** → `@concepts/train-llm-agents-2026-curriculum.md` |
+| Agentic programming thesis (Post 23) | **Page** → `@concepts/agentic-programming-full-stack-thesis.md` |
+| Continual Harness arXiv 2605.09998 | **Pages** → `@concepts/continual-harness-online-self-improvement.md`, `@sources/arxiv-continual-harness-self-improving-agents-2605.09998.md` |
+| Posts.docx provenance | **Stub** → `@sources/trading-posts-compilation-25-2026-05-27.md` |

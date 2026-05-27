@@ -11,9 +11,11 @@ related:
   - entities/mcp-servers/stash.md
   - concepts/claude-code-personal-os-scope.md
   - concepts/claude-obsidian-notebooklm-bridge.md
+  - concepts/claude-code-finance-research-setup.md
+  - concepts/obsidian-vellum-second-brain-stack.md
 maturity: draft
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-05-27
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-38-2026-05-26.md"
 ---
 

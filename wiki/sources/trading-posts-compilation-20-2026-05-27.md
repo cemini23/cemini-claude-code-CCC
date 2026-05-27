@@ -11,6 +11,7 @@ related:
   - concepts/agent-token-discipline-openclaw-hermes.md
   - concepts/claude-obsidian-notebooklm-bridge.md
   - entities/tools/notebooklm-py.md
+  - sources/trading-posts-compilation-25-2026-05-27.md
 maturity: draft
 read_status: skimmed
 created: 2026-05-27

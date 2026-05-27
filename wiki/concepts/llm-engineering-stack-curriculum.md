@@ -10,6 +10,8 @@ related:
   - entities/tools/claude-code.md
   - sources/trading-posts-compilation-20-2026-05-27.md
   - entities/tools/ai-infra-engineer-learning.md
+  - concepts/full-stack-ai-engineer-agent-path.md
+  - concepts/train-llm-agents-2026-curriculum.md
 maturity: draft
 created: 2026-05-27
 updated: 2026-05-27

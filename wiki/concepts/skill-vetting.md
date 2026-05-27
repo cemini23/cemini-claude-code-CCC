@@ -30,6 +30,7 @@ related:
   - entities/tools/solo-founder-superpowers.md
   - entities/tools/andrej-karpathy-skills-multica.md
   - entities/tools/bmad-creative-intelligence-suite.md
+  - concepts/claude-plugins-catalog-patterns.md
 maturity: draft
 created: 2026-05-17
 updated: 2026-05-27

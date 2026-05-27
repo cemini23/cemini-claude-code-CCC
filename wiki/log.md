@@ -4,6 +4,14 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-05-27] brief ingest | K72 Posts-25 workflows + Continual Harness
+
+Ingested `briefs/2026-05-27_k72-ccc-workflows-from-osint.md`.
+
+**Pages created (12):** `agent-completion-verification-gates`, `agent-memory-stack-comparison`, `claude-plugins-catalog-patterns`, `claude-prompt-engineering-techniques`, `claude-code-finance-research-setup`, `obsidian-vellum-second-brain-stack`, `karpathy-token-efficiency-patterns`, `full-stack-ai-engineer-agent-path`, `train-llm-agents-2026-curriculum`, `agentic-programming-full-stack-thesis`, `continual-harness-online-self-improvement`, `sources/arxiv-continual-harness-self-improving-agents-2605.09998`, `sources/trading-posts-compilation-25-2026-05-27`.
+
+Cross-wiki: `@osint-wiki/sources/trading-posts-compilation-25-2026-05-27.md`, `@osint-wiki/concepts/continual-harness-online-self-improvement.md`.
+
 ## [2026-05-27] brief ingest | K71 27-URL eval (CCC tooling slice)
 
 Ingested `briefs/2026-05-27_k71-ccc-tooling-from-osint.md`.

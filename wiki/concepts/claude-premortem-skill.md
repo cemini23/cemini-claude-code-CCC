@@ -12,9 +12,11 @@ related:
   - concepts/agent-vm-sandboxing.md
   - concepts/claude-code-personal-os-scope.md
   - entities/tools/google-eng-practices.md
+  - concepts/agent-completion-verification-gates.md
+  - concepts/claude-prompt-engineering-techniques.md
 maturity: draft
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-05-27
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-38-2026-05-26.md"
 ---
 

@@ -23,9 +23,10 @@ related:
   - concepts/tools-we-dont-use.md
   - entities/tools/openevolve.md
   - concepts/agent-token-discipline-openclaw-hermes.md
+  - concepts/karpathy-token-efficiency-patterns.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-24
+updated: 2026-05-27
 ---
 
 ## Relations

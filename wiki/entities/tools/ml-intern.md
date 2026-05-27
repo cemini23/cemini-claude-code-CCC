@@ -10,6 +10,7 @@ related:
   - entities/tools/claude-code.md
   - concepts/cross-wiki-tool-eval-inventory.md
   - entities/tools/ai-infra-engineer-learning.md
+  - concepts/train-llm-agents-2026-curriculum.md
 maturity: draft
 created: 2026-05-26
 updated: 2026-05-27

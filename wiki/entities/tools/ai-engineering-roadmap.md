@@ -14,6 +14,8 @@ related:
   - concepts/cross-wiki-routing.md
   - entities/tools/agents-best-practices.md
   - entities/tools/ai-infra-engineer-learning.md
+  - concepts/full-stack-ai-engineer-agent-path.md
+  - concepts/train-llm-agents-2026-curriculum.md
 maturity: draft
 created: 2026-05-23
 updated: 2026-05-27

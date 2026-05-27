@@ -31,6 +31,8 @@ related:
   - concepts/claude-code-large-codebase-workflow.md
   - concepts/agent-token-discipline-openclaw-hermes.md
   - entities/tools/claude-subconscious.md
+  - concepts/claude-prompt-engineering-techniques.md
+  - concepts/karpathy-token-efficiency-patterns.md
 maturity: validated
 created: 2026-05-13
 updated: 2026-05-27

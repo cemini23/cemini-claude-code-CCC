@@ -16,9 +16,10 @@ related:
   - entities/tools/skillkit.md
   - concepts/skill-vetting.md
   - entities/tools/cursor-community-plugins.md
+  - concepts/claude-plugins-catalog-patterns.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-24
+updated: 2026-05-27
 ---
 
 ## Relations

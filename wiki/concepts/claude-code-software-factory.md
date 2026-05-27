@@ -13,6 +13,7 @@ related:
   - sources/k67-explorax-100-repos-reference.md
   - entities/tools/purple-cli.md
   - entities/tools/solo-founder-superpowers.md
+  - concepts/full-stack-ai-engineer-agent-path.md
 maturity: draft
 created: 2026-05-26
 updated: 2026-05-27

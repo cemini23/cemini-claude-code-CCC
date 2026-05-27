@@ -12,6 +12,7 @@ related:
   - entities/tools/claude-mem.md
   - concepts/cross-wiki-routing.md
   - sources/trading-posts-compilation-20-2026-05-27.md
+  - concepts/obsidian-vellum-second-brain-stack.md
 maturity: validated
 created: 2026-05-27
 updated: 2026-05-27

@@ -26,6 +26,8 @@ related:
   - concepts/obsidian-trading-journal-workflow.md
   - entities/tools/rowboat.md
   - entities/tools/council-of-high-intelligence.md
+  - concepts/agentic-programming-full-stack-thesis.md
+  - concepts/claude-code-finance-research-setup.md
 maturity: validated
 created: 2026-05-13
 updated: 2026-05-27

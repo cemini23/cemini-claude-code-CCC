@@ -16,9 +16,11 @@ related:
   - concepts/code-as-agent-harness.md
   - concepts/self-healing-agent-sessions.md
   - entities/tools/the-architect.md
+  - concepts/agent-completion-verification-gates.md
+  - concepts/claude-prompt-engineering-techniques.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-22
+updated: 2026-05-27
 ---
 
 ## Relations

@@ -15,6 +15,8 @@ related:
   - entities/tools/google-eng-practices.md
   - entities/tools/andrej-karpathy-skills-multica.md
   - entities/tools/three-man-team.md
+  - concepts/claude-prompt-engineering-techniques.md
+  - concepts/karpathy-token-efficiency-patterns.md
 maturity: draft
 created: 2026-05-17
 updated: 2026-05-27

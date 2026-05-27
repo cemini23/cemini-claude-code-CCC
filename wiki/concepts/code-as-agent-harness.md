@@ -5,6 +5,7 @@ tags: [concept, agent-harness, claude-code, conductor, mcp, verification, cross-
 keywords: [code-as-agent-harness, harness-interface, harness-mechanisms, executable-agents, verifiable-agents, stateful-agents, regression-free-harness]
 related:
   - concepts/self-healing-agent-sessions.md
+  - concepts/continual-harness-online-self-improvement.md
   - entities/tools/claude-code.md
   - entities/tools/conductor-mcp.md
   - concepts/subagent-orchestration.md
@@ -26,6 +27,9 @@ related:
   - concepts/claude-premortem-skill.md
   - entities/tools/ml-intern.md
   - entities/tools/open-claude-code.md
+  - concepts/agentic-programming-full-stack-thesis.md
+  - concepts/train-llm-agents-2026-curriculum.md
+  - sources/arxiv-continual-harness-self-improving-agents-2605.09998.md
 maturity: draft
 created: 2026-05-21
 updated: 2026-05-27

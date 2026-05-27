@@ -45,6 +45,8 @@ related:
   - concepts/claude-code-large-codebase-workflow.md
   - entities/tools/council-of-high-intelligence.md
   - entities/tools/three-man-team.md
+  - concepts/agent-completion-verification-gates.md
+  - concepts/agentic-programming-full-stack-thesis.md
 maturity: validated
 created: 2026-05-13
 updated: 2026-05-27

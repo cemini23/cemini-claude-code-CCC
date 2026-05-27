@@ -11,6 +11,7 @@ related:
   - concepts/claude-premortem-skill.md
   - concepts/subagent-orchestration.md
   - entities/tools/solo-founder-superpowers.md
+  - concepts/agentic-programming-full-stack-thesis.md
 maturity: draft
 created: 2026-05-26
 updated: 2026-05-27
