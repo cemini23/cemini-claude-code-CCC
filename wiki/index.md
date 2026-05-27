@@ -32,6 +32,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`cc-wf-studio`](entities/tools/cc-wf-studio.md) | draft | VS Code visual workflow editor for Claude Code agent pipelines; conditional branching (license unverified) |
 | [`delive`](entities/tools/delive.md) | draft | System-audio capture + MCP server + agent skill bridge pattern (Apache-2.0) |
 | [`everos`](entities/tools/everos.md) | draft | Long-term-memory OS — context-offload-to-disk pattern for token savings (Apache-2.0) |
+| [`notebooklm-py`](entities/tools/notebooklm-py.md) | draft | NotebookLM SDK/CLI + agents skill dir — Adopt catalog (K69 Post 18) |
 
 ## entities/mcp-servers/
 
@@ -117,6 +118,12 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`obsidian-trading-journal-workflow`](concepts/obsidian-trading-journal-workflow.md) | draft | Morning research + trading journal in Obsidian (K67) |
 | [`claude-code-software-factory`](concepts/claude-code-software-factory.md) | draft | Multi-repo codegen orchestration metaphor (K67) |
 | [`claude-code-personal-os-scope`](concepts/claude-code-personal-os-scope.md) | draft | Personal-OS scope discipline — narrow Cemini prod (K67) |
+| [`llm-engineering-stack-curriculum`](concepts/llm-engineering-stack-curriculum.md) | draft | Hands-on LLM engineering project path (K69 Post 2) |
+| [`agent-sandbox-unikraft`](concepts/agent-sandbox-unikraft.md) | draft | Lambda→Unikraft microVM agent isolation (K69 Post 3) |
+| [`rag-binary-quantization`](concepts/rag-binary-quantization.md) | draft | RAG vector 32× memory reduction pattern (K69 Post 4) |
+| [`claude-code-large-codebase-workflow`](concepts/claude-code-large-codebase-workflow.md) | draft | Monorepo navigation + context discipline (K69 Post 9) |
+| [`agent-token-discipline-openclaw-hermes`](concepts/agent-token-discipline-openclaw-hermes.md) | draft | Always-on agent token waste anti-patterns (K69 Post 13) |
+| [`claude-obsidian-notebooklm-bridge`](concepts/claude-obsidian-notebooklm-bridge.md) | draft | Vault thinking + NotebookLM CLI bridge (K69 Posts 17–18) |
 | [`google-eng-practices`](entities/tools/google-eng-practices.md) | draft | Google code review heuristics — REFERENCE (K68, CC-BY-3.0) |
 | [`ml-intern`](entities/tools/ml-intern.md) | draft | HF research-agent workflows — REFERENCE (K68) |
 | [`rowboat`](entities/tools/rowboat.md) | draft | Multi-agent orchestration — STEAL-FROM (K68, Apache-2.0) |
@@ -132,6 +139,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-skillrae-2605.10114`](sources/arxiv-skillrae-2605.10114.md) | draft | SkillRAE paper provenance (K59) |
 | [`arxiv-graphflow-2605.14968`](sources/arxiv-graphflow-2605.14968.md) | draft | GraphFlow paper provenance (K59) |
 | [`k67-explorax-100-repos-reference`](sources/k67-explorax-100-repos-reference.md) | draft | @exploraX_ OSS list — audit queue stub (K67) |
+| [`trading-posts-compilation-20-2026-05-27`](sources/trading-posts-compilation-20-2026-05-27.md) | draft | K69 Posts.docx CCC slice — provenance stub (OSINT canon) |
 
 ## entities/sources/hooks/people
 

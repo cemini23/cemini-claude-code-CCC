@@ -19,6 +19,8 @@ related:
   - concepts/self-healing-agent-sessions.md
   - entities/tools/anything-llm.md
   - concepts/obsidian-agent-maintenance-workflow.md
+  - concepts/agent-token-discipline-openclaw-hermes.md
+  - concepts/claude-obsidian-notebooklm-bridge.md
 maturity: validated
 created: 2026-05-13
 updated: 2026-05-26

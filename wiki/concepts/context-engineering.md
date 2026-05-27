@@ -26,9 +26,13 @@ related:
   - concepts/local-llm-mechanics-primer.md
   - entities/tools/open-design.md
   - concepts/skillrae-retrieval-augmented-execution.md
+  - concepts/llm-engineering-stack-curriculum.md
+  - concepts/rag-binary-quantization.md
+  - concepts/claude-code-large-codebase-workflow.md
+  - concepts/agent-token-discipline-openclaw-hermes.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-23
+updated: 2026-05-27
 ---
 
 ## Relations
@@ -47,6 +51,9 @@ updated: 2026-05-23
 - `@entities/tools/polyterm-tui-pattern.md` — text-native (ASCII) visualization keeps tool output inside the model's context window
 - `@entities/tools/repomix.md` — one-shot repo pack for LLM context (stale after edits)
 - `@entities/tools/anything-llm.md` — reference local document-RAG workspace (not Claude Code harness)
+- `@concepts/llm-engineering-stack-curriculum.md` — K69 engineering project path
+- `@concepts/rag-binary-quantization.md` — K69 vector memory optimization
+- `@concepts/claude-code-large-codebase-workflow.md` — K69 monorepo discipline
 
 ## Raw Concept
 

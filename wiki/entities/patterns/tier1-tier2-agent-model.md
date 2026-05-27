@@ -16,6 +16,7 @@ related:
   - entities/patterns/citadel-agent-orchestration.md
   - entities/patterns/glasswing-deliberate-disagreement.md
   - entities/tools/defenseclaw.md
+  - concepts/agent-sandbox-unikraft.md
 maturity: validated
 created: 2026-05-13
 updated: 2026-05-16

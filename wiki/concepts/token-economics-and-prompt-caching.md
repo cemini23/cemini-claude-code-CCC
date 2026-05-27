@@ -22,6 +22,7 @@ related:
   - concepts/local-llm-mechanics-primer.md
   - concepts/tools-we-dont-use.md
   - entities/tools/openevolve.md
+  - concepts/agent-token-discipline-openclaw-hermes.md
 maturity: validated
 created: 2026-05-13
 updated: 2026-05-24

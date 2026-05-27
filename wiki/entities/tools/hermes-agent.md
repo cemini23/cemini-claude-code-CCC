@@ -9,9 +9,10 @@ related:
   - concepts/cross-wiki-tool-eval-inventory.md
   - entities/tools/claude-code.md
   - concepts/self-healing-agent-sessions.md
+  - concepts/agent-token-discipline-openclaw-hermes.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-05-21
+updated: 2026-05-27
 cross-wiki-source: "@osint-wiki/entities/tools/hermes-agent.md"
 ---
 
@@ -22,6 +23,7 @@ cross-wiki-source: "@osint-wiki/entities/tools/hermes-agent.md"
 - `@concepts/cross-wiki-tool-eval-inventory.md` — `hermes-desktop` GUI catalog row (OSINT home)
 - `@entities/tools/claude-code.md` — primary Cemini harness; Hermes is reference-only
 - `@concepts/self-healing-agent-sessions.md` — compare self-improving skill loop vs session recovery patterns
+- `@concepts/agent-token-discipline-openclaw-hermes.md` — K69 anti-pattern catalog (Post 13)
 
 Cross-wiki: `@osint-wiki/entities/tools/hermes-agent.md` (canon — K52 deploy post, K64 276-use-case catalog).
 

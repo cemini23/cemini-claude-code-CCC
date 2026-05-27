@@ -19,9 +19,11 @@ related:
   - concepts/claude-code-personal-os-scope.md
   - concepts/obsidian-agent-maintenance-workflow.md
   - concepts/obsidian-trading-journal-workflow.md
+  - concepts/agent-sandbox-unikraft.md
+  - concepts/claude-obsidian-notebooklm-bridge.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-26
+updated: 2026-05-27
 ---
 
 ## Relations

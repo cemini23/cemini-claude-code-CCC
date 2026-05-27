@@ -10,6 +10,7 @@ related:
   - entities/tools/claude-code.md
   - entities/tools/ttok.md
   - concepts/cross-wiki-tool-eval-inventory.md
+  - concepts/claude-code-large-codebase-workflow.md
 maturity: draft
 created: 2026-05-22
 updated: 2026-05-22

@@ -9,6 +9,7 @@ related:
   - concepts/hooks-for-automation.md
   - concepts/obsidian-agent-maintenance-workflow.md
   - concepts/obsidian-trading-journal-workflow.md
+  - concepts/claude-obsidian-notebooklm-bridge.md
 maturity: draft
 created: 2026-05-17
 updated: 2026-05-26

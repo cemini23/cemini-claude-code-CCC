@@ -30,6 +30,7 @@ related:
   - concepts/kimi-agent-swarm-vs-claude-agent-teams.md
   - entities/tools/kimi-agent-swarm.md
   - sources/k67-explorax-100-repos-reference.md
+  - entities/tools/notebooklm-py.md
 maturity: draft
 created: 2026-05-21
 updated: 2026-05-26
@@ -121,7 +122,7 @@ OSINT-wiki runs a multi-wiki tool evaluation → CCC-relevant items (Claude Code
 |------|---------|-------------|-----------------|-------------|
 | DeLive | Apache-2.0 | Adopt | **Promoted to page** | ccc-wiki |
 | EverOS | Apache-2.0 | Re-evaluate (license verified) | **Promoted to page** | ccc-wiki |
-| notebooklm-py | MIT | Adopt | Catalog — reverse-engineered NotebookLM SDK; ships `.agents` skill dir; 13.7k★ | ccc-wiki |
+| notebooklm-py | MIT | Adopt | **Page** → `@entities/tools/notebooklm-py.md` (K69 Post 18); reverse-engineered NotebookLM SDK | ccc-wiki |
 | Windows-Use | MIT | Adopt | Catalog — AI agent driving Windows GUI; subagent-orchestration exemplar | ccc-wiki |
 | LLMFeeder | MIT | Re-evaluate (license verified) | Catalog — browser extension; one-keystroke web→Markdown with token estimation | ccc-wiki |
 | pro-workflow | NO LICENSE | Reject | Reject — self-correcting SQLite-FTS5 memory for CC; genuinely unlicensed | — |
@@ -237,6 +238,18 @@ OSINT-wiki runs a multi-wiki tool evaluation → CCC-relevant items (Claude Code
 | Personal OS (25) | **Page** → `@concepts/claude-code-personal-os-scope.md` (scope warning) |
 | @exploraX_ 100-repo list (36) | **Stub** → `@sources/k67-explorax-100-repos-reference.md` (audit queue) |
 | claude-obsidian tool install | **Unchanged** — `@entities/tools/claude-obsidian.md` DO NOT ADOPT |
+
+#### From K69 (2026-05-27) — Claude/Obsidian/LLM posts (Posts.docx CCC slice)
+
+| Item | CCC disposition |
+|------|-----------------|
+| LLM engineering curriculum (Post 2) | **Page** → `@concepts/llm-engineering-stack-curriculum.md` |
+| Agent sandbox Unikraft (Post 3) | **Page** → `@concepts/agent-sandbox-unikraft.md` |
+| RAG binary quantization (Post 4) | **Page** → `@concepts/rag-binary-quantization.md` |
+| Large codebase Claude Code (Post 9) | **Page** → `@concepts/claude-code-large-codebase-workflow.md` |
+| OpenClaw/Hermes token waste (Post 13) | **Page** → `@concepts/agent-token-discipline-openclaw-hermes.md` |
+| Obsidian + NotebookLM CLI (Posts 17–18) | **Page** → `@concepts/claude-obsidian-notebooklm-bridge.md` + `@entities/tools/notebooklm-py.md` |
+| notebooklm-py (inventory) | **Entity** — link inventory row to `@entities/tools/notebooklm-py.md` |
 
 #### From K68 (2026-05-26) — 22-URL eval (CCC slice)
 

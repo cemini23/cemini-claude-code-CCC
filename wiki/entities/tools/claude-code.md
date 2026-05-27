@@ -41,6 +41,10 @@ related:
   - concepts/tools-we-dont-use.md
   - concepts/local-llm-mechanics-primer.md
   - entities/tools/ai-engineering-roadmap.md
+  - concepts/claude-code-large-codebase-workflow.md
+  - concepts/claude-obsidian-notebooklm-bridge.md
+  - concepts/agent-sandbox-unikraft.md
+  - concepts/agent-token-discipline-openclaw-hermes.md
 maturity: core
 hub: true
 created: 2026-05-13

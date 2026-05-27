@@ -10,6 +10,7 @@ related:
   - concepts/local-llm-mechanics-primer.md
   - concepts/context-engineering.md
   - concepts/cross-wiki-tool-eval-inventory.md
+  - concepts/rag-binary-quantization.md
 maturity: draft
 created: 2026-05-22
 updated: 2026-05-22

@@ -7,6 +7,7 @@ related:
   - concepts/token-economics-and-prompt-caching.md
   - entities/openusage.md
   - entities/tools/codexbar.md
+  - concepts/agent-token-discipline-openclaw-hermes.md
 maturity: draft
 created: 2026-05-17
 updated: 2026-05-17

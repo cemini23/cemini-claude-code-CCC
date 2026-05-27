@@ -11,6 +11,7 @@ related:
   - concepts/deep-research-evaluation-prompt.md
   - entities/tools/anything-llm.md
   - concepts/obsidian-agent-maintenance-workflow.md
+  - concepts/rag-binary-quantization.md
 maturity: validated
 created: 2026-05-13
 updated: 2026-05-26

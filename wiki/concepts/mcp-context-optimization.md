@@ -17,6 +17,7 @@ related:
   - entities/tools/lap-platform.md
   - entities/tools/n8n-mcp.md
   - concepts/skillrae-retrieval-augmented-execution.md
+  - concepts/claude-code-large-codebase-workflow.md
 maturity: validated
 created: 2026-05-13
 updated: 2026-05-23

@@ -4,6 +4,16 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-05-27] brief ingest | K69 Claude/Obsidian/LLM workflows (Posts.docx CCC slice)
+
+Ingested `briefs/2026-05-27_k69-claude-obsidian-llm-workflows-from-osint.md`.
+
+**Pages created (8):** `llm-engineering-stack-curriculum`, `agent-sandbox-unikraft`, `rag-binary-quantization`, `claude-code-large-codebase-workflow`, `agent-token-discipline-openclaw-hermes`, `claude-obsidian-notebooklm-bridge`, `entities/tools/notebooklm-py`, `sources/trading-posts-compilation-20-2026-05-27`.
+
+**Updated:** `local-llm-mechanics-primer`, `context-engineering`, `token-economics-and-prompt-caching`, `claude-code`, `hermes-agent`, `tier1-tier2-agent-model`, `obsidian-agent-maintenance-workflow`, `cross-wiki-tool-eval-inventory`, `index.md`.
+
+Cross-wiki: `@osint-wiki/sources/trading-posts-compilation-20-2026-05-27.md`.
+
 ## [2026-05-26] brief ingest | K68 22-URL eval (CCC tooling slice)
 
 Ingested `briefs/2026-05-26_k68-ccc-tooling-from-osint.md`.

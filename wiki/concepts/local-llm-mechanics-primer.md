@@ -12,9 +12,11 @@ related:
   - entities/mcp-servers/stash.md
   - entities/tools/anything-llm.md
   - entities/tools/claude-code.md
+  - concepts/llm-engineering-stack-curriculum.md
+  - concepts/rag-binary-quantization.md
 maturity: draft
 created: 2026-05-22
-updated: 2026-05-22
+updated: 2026-05-27
 cross-wiki-source: "@osint-wiki/sources/trading-posts-llm-gustafsson-retail-weather-copy-2026-05-22.md"
 ---
 
@@ -26,8 +28,10 @@ cross-wiki-source: "@osint-wiki/sources/trading-posts-llm-gustafsson-retail-weat
 - `@entities/tools/claude-code-router.md` — optional local-model routing via OpenRouter/LiteLLM paths
 - `@entities/tools/thuki.md` — macOS Ollama overlay example (not Claude Code integration)
 - `@entities/mcp-servers/stash.md` — supports OpenRouter/Ollama backends per entity page
+- `@concepts/llm-engineering-stack-curriculum.md` — K69 Post 2 project curriculum
+- `@concepts/rag-binary-quantization.md` — K69 Post 4 RAG memory pattern
 
-Cross-wiki: Post 1 of `@osint-wiki/sources/trading-posts-llm-gustafsson-retail-weather-copy-2026-05-22.md` (@TheAhmadOsman, May 2026).
+Cross-wiki: Post 1 of `@osint-wiki/sources/trading-posts-llm-gustafsson-retail-weather-copy-2026-05-22.md` (@TheAhmadOsman, May 2026). K69 Post 2 curriculum → `@concepts/llm-engineering-stack-curriculum.md`.
 
 ## Raw Concept
 

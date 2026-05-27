@@ -11,9 +11,10 @@ related:
   - entities/tools/thuki.md
   - entities/mcp-servers/librarian-kb-server.md
   - concepts/cross-wiki-routing.md
+  - concepts/claude-obsidian-notebooklm-bridge.md
 maturity: draft
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-05-27
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-38-2026-05-26.md"
 ---
 
