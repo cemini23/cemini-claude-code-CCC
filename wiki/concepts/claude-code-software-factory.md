@@ -12,9 +12,10 @@ related:
   - concepts/claude-code-personal-os-scope.md
   - sources/k67-explorax-100-repos-reference.md
   - entities/tools/purple-cli.md
+  - entities/tools/solo-founder-superpowers.md
 maturity: draft
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-05-27
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-38-2026-05-26.md"
 ---
 

@@ -28,9 +28,10 @@ related:
   - concepts/skillrae-retrieval-augmented-execution.md
   - entities/tools/ai-engineering-roadmap.md
   - entities/tools/everything-claude-code.md
+  - entities/tools/mercury-agent-skills.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-05-24
+updated: 2026-05-27
 ---
 
 ## Relations

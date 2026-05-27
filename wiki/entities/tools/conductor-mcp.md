@@ -25,9 +25,10 @@ related:
   - concepts/claude-code-personal-os-scope.md
   - concepts/obsidian-trading-journal-workflow.md
   - entities/tools/rowboat.md
+  - entities/tools/council-of-high-intelligence.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-26
+updated: 2026-05-27
 ---
 
 ## Relations

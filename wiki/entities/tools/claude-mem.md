@@ -21,9 +21,10 @@ related:
   - concepts/obsidian-agent-maintenance-workflow.md
   - concepts/agent-token-discipline-openclaw-hermes.md
   - concepts/claude-obsidian-notebooklm-bridge.md
+  - entities/tools/claude-subconscious.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-26
+updated: 2026-05-27
 ---
 
 ## Relations

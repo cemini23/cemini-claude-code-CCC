@@ -129,6 +129,17 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`rowboat`](entities/tools/rowboat.md) | draft | Multi-agent orchestration — STEAL-FROM (K68, Apache-2.0) |
 | [`centaur`](entities/tools/centaur.md) | draft | Paradigm agent architecture — steal patterns only (K68, NOASSERTION) |
 | [`purple-cli`](entities/tools/purple-cli.md) | draft | Lightweight CLI utility — CONDITIONAL-GO doc-level (K68, MIT) |
+| [`metatrader-mcp-server`](entities/tools/metatrader-mcp-server.md) | draft | MetaTrader MCP bridge — CONDITIONAL-GO (K71, MIT) |
+| [`three-man-team`](entities/tools/three-man-team.md) | draft | Three-role agent team template (K71, MIT) |
+| [`claude-subconscious`](entities/tools/claude-subconscious.md) | draft | Letta persistent memory — CONDITIONAL-GO (K71; check claude-mem collision) |
+| [`council-of-high-intelligence`](entities/tools/council-of-high-intelligence.md) | draft | Multi-model deliberation harness (K71, MIT) |
+| [`open-claude-code`](entities/tools/open-claude-code.md) | draft | Open Claude Code implementation study (K71, MIT) |
+| [`mercury-agent-skills`](entities/tools/mercury-agent-skills.md) | draft | Agent skills library — STEAL-FROM (K71) |
+| [`solo-founder-superpowers`](entities/tools/solo-founder-superpowers.md) | draft | Founder workflow skills — STEAL-FROM (K71, MIT) |
+| [`build-your-own-openclaw`](entities/tools/build-your-own-openclaw.md) | draft | OpenClaw rebuild tutorial — REFERENCE (K71) |
+| [`ai-infra-engineer-learning`](entities/tools/ai-infra-engineer-learning.md) | draft | AI infra curriculum — REFERENCE (K71) |
+| [`andrej-karpathy-skills-multica`](entities/tools/andrej-karpathy-skills-multica.md) | draft | Karpathy skills — no LICENSE, reference only (K71 demote) |
+| [`bmad-creative-intelligence-suite`](entities/tools/bmad-creative-intelligence-suite.md) | draft | BMAD creative module — DEFER (K71) |
 | [`skillrae-retrieval-augmented-execution`](concepts/skillrae-retrieval-augmented-execution.md) | draft | Skill-graph RAE — post-retrieval context compilation (K59 arXiv) |
 | [`graphflow-verifiable-agent-workflows`](concepts/graphflow-verifiable-agent-workflows.md) | draft | Proof-carrying visual workflows + durable runtime (K59 arXiv) |
 

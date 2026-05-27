@@ -15,9 +15,10 @@ related:
   - concepts/skillrae-retrieval-augmented-execution.md
   - concepts/claude-code-software-factory.md
   - concepts/claude-premortem-skill.md
+  - entities/tools/bmad-creative-intelligence-suite.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-05-26
+updated: 2026-05-27
 ---
 
 ## Relations

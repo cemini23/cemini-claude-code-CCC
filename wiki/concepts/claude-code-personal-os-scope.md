@@ -10,9 +10,10 @@ related:
   - concepts/cross-wiki-routing.md
   - concepts/claude-premortem-skill.md
   - concepts/subagent-orchestration.md
+  - entities/tools/solo-founder-superpowers.md
 maturity: draft
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-05-27
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-38-2026-05-26.md"
 ---
 

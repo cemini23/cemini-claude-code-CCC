@@ -13,9 +13,11 @@ related:
   - entities/tools/claude-code-tips.md
   - entities/tools/awesome-cursorrules.md
   - entities/tools/google-eng-practices.md
+  - entities/tools/andrej-karpathy-skills-multica.md
+  - entities/tools/three-man-team.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-05-26
+updated: 2026-05-27
 cross-wiki-source: "@osint-wiki/concepts/claude-md-12-rule-template.md"
 ---
 

@@ -12,9 +12,10 @@ related:
   - entities/tools/claude-code-tips.md
   - entities/tools/claude-code.md
   - entities/tools/centaur.md
+  - entities/tools/andrej-karpathy-skills-multica.md
 maturity: draft
 created: 2026-05-22
-updated: 2026-05-26
+updated: 2026-05-27
 cross-wiki-source: "@osint-wiki/sources/trading-posts-oil-polymarket-html-dex-sniping-2026-05-21.md"
 ---
 
@@ -82,6 +83,12 @@ Eval claimed MIT; **`gh api` verification** returned no LICENSE file — permane
 | Repo | Why permanent skip |
 |------|-------------------|
 | `MadAppGang/claudish` | Eval Adopt **overturned** — `license: null`, no LICENSE file |
+
+### K71 license demote (2026-05-27)
+
+| Repo | Why not install |
+|------|-----------------|
+| `multica-ai/andrej-karpathy-skills` | Eval Adopt → **`license: null`** — reference markdown only → `@entities/tools/andrej-karpathy-skills-multica.md` |
 
 ### Process
 

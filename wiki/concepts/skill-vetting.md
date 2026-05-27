@@ -24,9 +24,15 @@ related:
   - entities/tools/centaur.md
   - entities/tools/google-eng-practices.md
   - entities/tools/purple-cli.md
+  - entities/tools/metatrader-mcp-server.md
+  - entities/tools/open-claude-code.md
+  - entities/tools/mercury-agent-skills.md
+  - entities/tools/solo-founder-superpowers.md
+  - entities/tools/andrej-karpathy-skills-multica.md
+  - entities/tools/bmad-creative-intelligence-suite.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-05-26
+updated: 2026-05-27
 ---
 
 ## Relations

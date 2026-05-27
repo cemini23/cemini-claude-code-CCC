@@ -43,6 +43,8 @@ related:
   - entities/tools/ml-intern.md
   - entities/tools/rowboat.md
   - concepts/claude-code-large-codebase-workflow.md
+  - entities/tools/council-of-high-intelligence.md
+  - entities/tools/three-man-team.md
 maturity: validated
 created: 2026-05-13
 updated: 2026-05-27

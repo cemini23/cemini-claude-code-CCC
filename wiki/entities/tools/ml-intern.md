@@ -9,9 +9,10 @@ related:
   - entities/patterns/autoresearch-loop.md
   - entities/tools/claude-code.md
   - concepts/cross-wiki-tool-eval-inventory.md
+  - entities/tools/ai-infra-engineer-learning.md
 maturity: draft
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-05-27
 cross-wiki-source: "@osint-wiki/sources/multi-wiki-tool-eval-22url-2026-05-26.md"
 ---
 

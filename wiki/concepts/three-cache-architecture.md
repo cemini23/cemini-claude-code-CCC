@@ -14,9 +14,10 @@ related:
   - concepts/local-llm-mechanics-primer.md
   - entities/tools/repomix.md
   - concepts/agent-token-discipline-openclaw-hermes.md
+  - entities/tools/claude-subconscious.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-22
+updated: 2026-05-27
 ---
 
 ## Relations

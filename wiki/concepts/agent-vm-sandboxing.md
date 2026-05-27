@@ -13,9 +13,10 @@ related:
   - entities/tools/openevolve.md
   - concepts/claude-premortem-skill.md
   - entities/tools/centaur.md
+  - entities/tools/build-your-own-openclaw.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-05-26
+updated: 2026-05-27
 cross-wiki-source: "@cybersecurity-wiki/concepts/agent-vm-sandboxing.md"
 ---
 

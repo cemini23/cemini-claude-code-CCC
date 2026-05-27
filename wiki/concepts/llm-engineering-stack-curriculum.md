@@ -9,6 +9,7 @@ related:
   - concepts/context-engineering.md
   - entities/tools/claude-code.md
   - sources/trading-posts-compilation-20-2026-05-27.md
+  - entities/tools/ai-infra-engineer-learning.md
 maturity: draft
 created: 2026-05-27
 updated: 2026-05-27

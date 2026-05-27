@@ -13,6 +13,7 @@ related:
   - entities/tools/ai-token-monitor.md
   - entities/tools/codexbar.md
   - sources/trading-posts-compilation-20-2026-05-27.md
+  - entities/tools/build-your-own-openclaw.md
 maturity: draft
 created: 2026-05-27
 updated: 2026-05-27

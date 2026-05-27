@@ -12,9 +12,10 @@ related:
   - entities/tools/cc-wf-studio.md
   - concepts/cross-wiki-tool-eval-inventory.md
   - concepts/claude-code-software-factory.md
+  - entities/tools/three-man-team.md
 maturity: draft
 created: 2026-05-24
-updated: 2026-05-26
+updated: 2026-05-27
 cross-wiki-source: "@osint-wiki/sources/multi-wiki-tool-eval-36url-wiki-ingestion-2026-05-24.md"
 ---
 

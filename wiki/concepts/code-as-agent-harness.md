@@ -25,9 +25,10 @@ related:
   - concepts/claude-code-software-factory.md
   - concepts/claude-premortem-skill.md
   - entities/tools/ml-intern.md
+  - entities/tools/open-claude-code.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-05-26
+updated: 2026-05-27
 cross-wiki-source: "@osint-wiki/sources/arxiv-code-as-agent-harness-survey-2605.18747.md"
 ---
 

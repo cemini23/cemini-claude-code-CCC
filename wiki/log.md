@@ -4,6 +4,16 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-05-27] brief ingest | K71 27-URL eval (CCC tooling slice)
+
+Ingested `briefs/2026-05-27_k71-ccc-tooling-from-osint.md`.
+
+**Pages created (11):** `metatrader-mcp-server`, `three-man-team`, `claude-subconscious`, `council-of-high-intelligence`, `open-claude-code`, `mercury-agent-skills`, `solo-founder-superpowers`, `build-your-own-openclaw`, `ai-infra-engineer-learning`, `andrej-karpathy-skills-multica`, `bmad-creative-intelligence-suite`.
+
+**Policy:** `multica-ai/andrej-karpathy-skills` Adopt demoted (no LICENSE).
+
+Cross-wiki: `@osint-wiki/sources/multi-wiki-tool-eval-27url-2026-05-27.md`.
+
 ## [2026-05-27] wire | notebooklm-py laptop + agent skills
 
 - **CLI:** `notebooklm-py` 0.5.0, Playwright chromium, `notebooklm login`, `auth check --test --json` ok

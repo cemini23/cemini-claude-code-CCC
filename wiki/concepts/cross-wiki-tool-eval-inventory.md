@@ -27,13 +27,24 @@ related:
   - entities/tools/rowboat.md
   - entities/tools/centaur.md
   - entities/tools/purple-cli.md
+  - entities/tools/metatrader-mcp-server.md
+  - entities/tools/three-man-team.md
+  - entities/tools/claude-subconscious.md
+  - entities/tools/council-of-high-intelligence.md
+  - entities/tools/open-claude-code.md
+  - entities/tools/mercury-agent-skills.md
+  - entities/tools/solo-founder-superpowers.md
+  - entities/tools/build-your-own-openclaw.md
+  - entities/tools/ai-infra-engineer-learning.md
+  - entities/tools/andrej-karpathy-skills-multica.md
+  - entities/tools/bmad-creative-intelligence-suite.md
   - concepts/kimi-agent-swarm-vs-claude-agent-teams.md
   - entities/tools/kimi-agent-swarm.md
   - sources/k67-explorax-100-repos-reference.md
   - entities/tools/notebooklm-py.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-05-26
+updated: 2026-05-27
 ---
 
 ## Relations
@@ -261,3 +272,19 @@ OSINT-wiki runs a multi-wiki tool evaluation → CCC-relevant items (Claude Code
 | paradigmxyz/centaur | NOASSERTION | **Page** → `@entities/tools/centaur.md` (architecture only) |
 | erickochen/purple | MIT | **Page** → `@entities/tools/purple-cli.md` (CONDITIONAL-GO doc-level) |
 | MadAppGang/claudish | **no LICENSE** | Reject → `@concepts/tools-we-dont-use.md` (eval overturn) |
+
+#### From K71 (2026-05-27) — 27-URL eval (CCC slice)
+
+| Tool | License | CCC disposition |
+|------|---------|-----------------|
+| metatrader-mcp-server | MIT | **Page** → `@entities/tools/metatrader-mcp-server.md` (CONDITIONAL-GO) |
+| three-man-team | MIT | **Page** → `@entities/tools/three-man-team.md` |
+| claude-subconscious | MIT | **Page** → `@entities/tools/claude-subconscious.md` |
+| council-of-high-intelligence | MIT | **Page** → `@entities/tools/council-of-high-intelligence.md` |
+| open-claude-code | MIT | **Page** → `@entities/tools/open-claude-code.md` |
+| mercury-agent-skills | (verify per file) | **Page** → `@entities/tools/mercury-agent-skills.md` (STEAL-FROM) |
+| solo-founder-superpowers | MIT | **Page** → `@entities/tools/solo-founder-superpowers.md` (STEAL-FROM) |
+| build-your-own-openclaw | — | **Page** → `@entities/tools/build-your-own-openclaw.md` (REFERENCE) |
+| ai-infra-engineer-learning | — | **Page** → `@entities/tools/ai-infra-engineer-learning.md` (REFERENCE) |
+| multica-ai/andrej-karpathy-skills | **no LICENSE** | **Page** → `@entities/tools/andrej-karpathy-skills-multica.md` (REFERENCE only) |
+| bmad creative-intelligence-suite | — | **Page** → `@entities/tools/bmad-creative-intelligence-suite.md` (DEFER) |

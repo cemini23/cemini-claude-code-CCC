@@ -13,9 +13,10 @@ related:
   - concepts/cross-wiki-tool-eval-inventory.md
   - concepts/cross-wiki-routing.md
   - entities/tools/agents-best-practices.md
+  - entities/tools/ai-infra-engineer-learning.md
 maturity: draft
 created: 2026-05-23
-updated: 2026-05-24
+updated: 2026-05-27
 cross-wiki-source: "@osint-wiki/sources/github-repo-evaluation-cemini-v4-20url-2026-05-23.md"
 ---
 
