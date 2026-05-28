@@ -60,6 +60,9 @@ related:
   - concepts/harness-de-bloat-4x4-pattern.md
   - concepts/enterprise-auto-mode-telemetry-rollout.md
   - concepts/tool-eval-license-skepticism-patterns.md
+  - entities/tools/tvscreener.md
+  - entities/tools/mermaid-skill.md
+  - concepts/k73-phase0-audit-decisions.md
 maturity: draft
 created: 2026-05-21
 updated: 2026-05-28
@@ -333,3 +336,12 @@ OSINT-wiki runs a multi-wiki tool evaluation → CCC-relevant items (Claude Code
 | Harness de-bloat 4 skills / 4 agents (Post 2) | **Page** → `@concepts/harness-de-bloat-4x4-pattern.md` |
 | K73 posts provenance | **Stub** → `@sources/trading-posts-compilation-38-2026-05-28.md` |
 | K73 tool-eval provenance | **Stub** → `@sources/multi-wiki-tool-eval-25url-2026-05-28.md` |
+
+#### From K73 (2026-05-28) — Phase-0 decisions (CCC local scope)
+
+| Item | CCC disposition |
+|------|-----------------|
+| mermaid-skill (MIT) | **Page** → `@entities/tools/mermaid-skill.md` (**CONDITIONAL-GO local**) |
+| metatrader-mcp-server (MIT) | **Updated page** → `@entities/tools/metatrader-mcp-server.md` (**NO-GO current scope**) |
+| tvscreener (Apache-2.0) | **Page** → `@entities/tools/tvscreener.md` (**REFERENCE / CONDITIONAL local**) |
+| Two-gate policy clarification | **Page** → `@concepts/k73-phase0-audit-decisions.md` |

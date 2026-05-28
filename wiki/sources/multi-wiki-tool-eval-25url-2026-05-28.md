@@ -7,6 +7,7 @@ related:
   - concepts/tool-eval-license-skepticism-patterns.md
   - concepts/cross-wiki-tool-eval-inventory.md
   - concepts/skill-vetting.md
+  - concepts/k73-phase0-audit-decisions.md
 maturity: draft
 created: 2026-05-28
 updated: 2026-05-28

@@ -4,6 +4,16 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-05-28] brief ingest | K73 Phase-0 audit decisions
+
+Ingested `briefs/2026-05-28_k73-phase0-audit-ccc-decisions.md`.
+
+**Pages created (3):** `k73-phase0-audit-decisions`, `entities/tools/mermaid-skill`, `entities/tools/tvscreener`.
+
+**Page updated:** `entities/tools/metatrader-mcp-server` posture changed to NO-GO for current scope.
+
+Cross-wiki: `@osint-wiki/sources/multi-wiki-tool-eval-25url-2026-05-28.md`.
+
 ## [2026-05-28] brief ingest | K73 license skepticism + workflow patterns
 
 Ingested `briefs/2026-05-28_k73-ccc-tool-eval-license-skepticism.md` and `briefs/2026-05-28_k73-ccc-workflows-from-osint.md`.

@@ -129,7 +129,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`rowboat`](entities/tools/rowboat.md) | draft | Multi-agent orchestration — STEAL-FROM (K68, Apache-2.0) |
 | [`centaur`](entities/tools/centaur.md) | draft | Paradigm agent architecture — steal patterns only (K68, NOASSERTION) |
 | [`purple-cli`](entities/tools/purple-cli.md) | draft | Lightweight CLI utility — CONDITIONAL-GO doc-level (K68, MIT) |
-| [`metatrader-mcp-server`](entities/tools/metatrader-mcp-server.md) | draft | MetaTrader MCP bridge — CONDITIONAL-GO (K71, MIT) |
+| [`metatrader-mcp-server`](entities/tools/metatrader-mcp-server.md) | draft | MetaTrader MCP bridge — NO-GO current scope after K73 Phase-0 |
 | [`three-man-team`](entities/tools/three-man-team.md) | draft | Three-role agent team template (K71, MIT) |
 | [`claude-subconscious`](entities/tools/claude-subconscious.md) | draft | Letta persistent memory — CONDITIONAL-GO (K71; check claude-mem collision) |
 | [`council-of-high-intelligence`](entities/tools/council-of-high-intelligence.md) | draft | Multi-model deliberation harness (K71, MIT) |
@@ -154,6 +154,9 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`tool-eval-license-skepticism-patterns`](concepts/tool-eval-license-skepticism-patterns.md) | draft | K73 license-eval anti-patterns (NO-LICENSE false negatives, BSL parsing) |
 | [`enterprise-auto-mode-telemetry-rollout`](concepts/enterprise-auto-mode-telemetry-rollout.md) | draft | Auto Mode policy rollout via telemetry loops (K73 Post 1) |
 | [`harness-de-bloat-4x4-pattern`](concepts/harness-de-bloat-4x4-pattern.md) | draft | 4-skills/4-agents simplification pattern (K73 Post 2) |
+| [`k73-phase0-audit-decisions`](concepts/k73-phase0-audit-decisions.md) | draft | K73 two-gate policy and local scope decisions |
+| [`mermaid-skill`](entities/tools/mermaid-skill.md) | draft | Local diagramming skill pattern — CONDITIONAL-GO (K73) |
+| [`tvscreener`](entities/tools/tvscreener.md) | draft | Market-screening utility — reference/conditional local (K73) |
 | [`skillrae-retrieval-augmented-execution`](concepts/skillrae-retrieval-augmented-execution.md) | draft | Skill-graph RAE — post-retrieval context compilation (K59 arXiv) |
 | [`graphflow-verifiable-agent-workflows`](concepts/graphflow-verifiable-agent-workflows.md) | draft | Proof-carrying visual workflows + durable runtime (K59 arXiv) |
 

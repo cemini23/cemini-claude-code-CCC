@@ -33,6 +33,9 @@ related:
   - concepts/claude-plugins-catalog-patterns.md
   - concepts/tool-eval-license-skepticism-patterns.md
   - sources/multi-wiki-tool-eval-25url-2026-05-28.md
+  - concepts/k73-phase0-audit-decisions.md
+  - entities/tools/mermaid-skill.md
+  - entities/tools/tvscreener.md
 maturity: draft
 created: 2026-05-17
 updated: 2026-05-28
