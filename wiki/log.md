@@ -4,6 +4,14 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-05-28] brief ingest | K73 license skepticism + workflow patterns
+
+Ingested `briefs/2026-05-28_k73-ccc-tool-eval-license-skepticism.md` and `briefs/2026-05-28_k73-ccc-workflows-from-osint.md`.
+
+**Pages created (6):** `tool-eval-license-skepticism-patterns`, `enterprise-auto-mode-telemetry-rollout`, `harness-de-bloat-4x4-pattern`, `sources/multi-wiki-tool-eval-25url-2026-05-28`, `sources/trading-posts-compilation-38-2026-05-28`, `sources/arxiv-continual-harness-self-improving-agents-2605.09998` (backlink refresh).
+
+Cross-wiki: `@osint-wiki/sources/multi-wiki-tool-eval-25url-2026-05-28.md`, `@osint-wiki/sources/trading-posts-compilation-38-2026-05-28.md`.
+
 ## [2026-05-27] brief ingest | K72 Posts-25 workflows + Continual Harness
 
 Ingested `briefs/2026-05-27_k72-ccc-workflows-from-osint.md`.

@@ -33,9 +33,10 @@ related:
   - entities/tools/claude-subconscious.md
   - concepts/claude-prompt-engineering-techniques.md
   - concepts/karpathy-token-efficiency-patterns.md
+  - concepts/harness-de-bloat-4x4-pattern.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-27
+updated: 2026-05-28
 ---
 
 ## Relations

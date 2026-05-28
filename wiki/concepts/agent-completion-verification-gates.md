@@ -10,9 +10,10 @@ related:
   - concepts/subagent-orchestration.md
   - concepts/cross-wiki-tool-eval-inventory.md
   - concepts/continual-harness-online-self-improvement.md
+  - concepts/enterprise-auto-mode-telemetry-rollout.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-05-27
+updated: 2026-05-28
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-25-2026-05-27.md"
 ---
 

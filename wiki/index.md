@@ -151,6 +151,9 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`train-llm-agents-2026-curriculum`](concepts/train-llm-agents-2026-curriculum.md) | draft | Train agents curriculum pointer (K72 Post 20) |
 | [`agentic-programming-full-stack-thesis`](concepts/agentic-programming-full-stack-thesis.md) | draft | Agentic programming = full-stack (K72 Post 23) |
 | [`continual-harness-online-self-improvement`](concepts/continual-harness-online-self-improvement.md) | draft | Reset-free harness refinement — arXiv 2605.09998 (K72) |
+| [`tool-eval-license-skepticism-patterns`](concepts/tool-eval-license-skepticism-patterns.md) | draft | K73 license-eval anti-patterns (NO-LICENSE false negatives, BSL parsing) |
+| [`enterprise-auto-mode-telemetry-rollout`](concepts/enterprise-auto-mode-telemetry-rollout.md) | draft | Auto Mode policy rollout via telemetry loops (K73 Post 1) |
+| [`harness-de-bloat-4x4-pattern`](concepts/harness-de-bloat-4x4-pattern.md) | draft | 4-skills/4-agents simplification pattern (K73 Post 2) |
 | [`skillrae-retrieval-augmented-execution`](concepts/skillrae-retrieval-augmented-execution.md) | draft | Skill-graph RAE — post-retrieval context compilation (K59 arXiv) |
 | [`graphflow-verifiable-agent-workflows`](concepts/graphflow-verifiable-agent-workflows.md) | draft | Proof-carrying visual workflows + durable runtime (K59 arXiv) |
 
@@ -164,6 +167,8 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`trading-posts-compilation-20-2026-05-27`](sources/trading-posts-compilation-20-2026-05-27.md) | draft | K69 Posts.docx CCC slice — provenance stub (OSINT canon) |
 | [`trading-posts-compilation-25-2026-05-27`](sources/trading-posts-compilation-25-2026-05-27.md) | draft | K72 Posts.docx — provenance stub (OSINT canon) |
 | [`arxiv-continual-harness-self-improving-agents-2605.09998`](sources/arxiv-continual-harness-self-improving-agents-2605.09998.md) | draft | Continual Harness paper — unread-stub (K72) |
+| [`trading-posts-compilation-38-2026-05-28`](sources/trading-posts-compilation-38-2026-05-28.md) | draft | K73 Posts.docx — provenance stub (OSINT canon) |
+| [`multi-wiki-tool-eval-25url-2026-05-28`](sources/multi-wiki-tool-eval-25url-2026-05-28.md) | draft | K73 25-URL eval — provenance stub (OSINT canon) |
 
 ## entities/sources/hooks/people
 

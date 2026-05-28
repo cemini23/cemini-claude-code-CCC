@@ -14,9 +14,10 @@ related:
   - entities/tools/purple-cli.md
   - entities/tools/solo-founder-superpowers.md
   - concepts/full-stack-ai-engineer-agent-path.md
+  - concepts/harness-de-bloat-4x4-pattern.md
 maturity: draft
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-05-28
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-38-2026-05-26.md"
 ---
 

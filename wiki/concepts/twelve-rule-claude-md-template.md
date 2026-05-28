@@ -17,9 +17,10 @@ related:
   - entities/tools/three-man-team.md
   - concepts/claude-prompt-engineering-techniques.md
   - concepts/karpathy-token-efficiency-patterns.md
+  - concepts/harness-de-bloat-4x4-pattern.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-05-27
+updated: 2026-05-28
 cross-wiki-source: "@osint-wiki/concepts/claude-md-12-rule-template.md"
 ---
 

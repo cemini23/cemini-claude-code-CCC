@@ -8,9 +8,10 @@ related:
   - concepts/tools-we-dont-use.md
   - concepts/skill-vetting.md
   - concepts/cross-wiki-tool-eval-inventory.md
+  - concepts/tool-eval-license-skepticism-patterns.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-05-27
+updated: 2026-05-28
 cross-wiki-source: "@osint-wiki/sources/multi-wiki-tool-eval-27url-2026-05-27.md"
 ---
 

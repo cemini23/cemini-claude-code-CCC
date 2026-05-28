@@ -55,9 +55,14 @@ related:
   - entities/tools/kimi-agent-swarm.md
   - sources/k67-explorax-100-repos-reference.md
   - entities/tools/notebooklm-py.md
+  - sources/multi-wiki-tool-eval-25url-2026-05-28.md
+  - sources/trading-posts-compilation-38-2026-05-28.md
+  - concepts/harness-de-bloat-4x4-pattern.md
+  - concepts/enterprise-auto-mode-telemetry-rollout.md
+  - concepts/tool-eval-license-skepticism-patterns.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-05-27
+updated: 2026-05-28
 ---
 
 ## Relations
@@ -318,3 +323,13 @@ OSINT-wiki runs a multi-wiki tool evaluation → CCC-relevant items (Claude Code
 | Agentic programming thesis (Post 23) | **Page** → `@concepts/agentic-programming-full-stack-thesis.md` |
 | Continual Harness arXiv 2605.09998 | **Pages** → `@concepts/continual-harness-online-self-improvement.md`, `@sources/arxiv-continual-harness-self-improving-agents-2605.09998.md` |
 | Posts.docx provenance | **Stub** → `@sources/trading-posts-compilation-25-2026-05-27.md` |
+
+#### From K73 (2026-05-28) — Posts-38 + 25-URL eval
+
+| Item | CCC disposition |
+|------|-----------------|
+| License skepticism (NO-LICENSE false negatives, blanket BSL language) | **Page** → `@concepts/tool-eval-license-skepticism-patterns.md` |
+| Enterprise Auto Mode telemetry rollout (Post 1) | **Page** → `@concepts/enterprise-auto-mode-telemetry-rollout.md` |
+| Harness de-bloat 4 skills / 4 agents (Post 2) | **Page** → `@concepts/harness-de-bloat-4x4-pattern.md` |
+| K73 posts provenance | **Stub** → `@sources/trading-posts-compilation-38-2026-05-28.md` |
+| K73 tool-eval provenance | **Stub** → `@sources/multi-wiki-tool-eval-25url-2026-05-28.md` |

@@ -31,9 +31,11 @@ related:
   - entities/tools/andrej-karpathy-skills-multica.md
   - entities/tools/bmad-creative-intelligence-suite.md
   - concepts/claude-plugins-catalog-patterns.md
+  - concepts/tool-eval-license-skepticism-patterns.md
+  - sources/multi-wiki-tool-eval-25url-2026-05-28.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-05-27
+updated: 2026-05-28
 ---
 
 ## Relations
