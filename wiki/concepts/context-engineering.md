@@ -34,6 +34,8 @@ related:
   - concepts/claude-prompt-engineering-techniques.md
   - concepts/karpathy-token-efficiency-patterns.md
   - concepts/harness-de-bloat-4x4-pattern.md
+  - concepts/claude-code-skills-md-institutional-memory.md
+  - concepts/claude-md-five-section-template.md
 maturity: validated
 created: 2026-05-13
 updated: 2026-05-28

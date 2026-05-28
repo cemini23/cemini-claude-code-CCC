@@ -14,9 +14,10 @@ related:
   - entities/tools/google-eng-practices.md
   - concepts/agent-completion-verification-gates.md
   - concepts/claude-prompt-engineering-techniques.md
+  - concepts/claude-md-five-section-template.md
 maturity: draft
 created: 2026-05-26
-updated: 2026-05-27
+updated: 2026-05-28
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-38-2026-05-26.md"
 ---
 

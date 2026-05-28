@@ -4,6 +4,14 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-05-28] brief ingest | K76 Skills.md + CLAUDE.md five-section workflows
+
+Ingested `briefs/2026-05-28_k76-claude-skills-claude-md-workflows-from-osint.md`.
+
+**Pages created (3):** `claude-code-skills-md-institutional-memory`, `claude-md-five-section-template`, `sources/trading-posts-macro-charts-skills-md-2026-05-28`.
+
+Cross-wiki: `@osint-wiki/concepts/claude-code-skills-md-workflow.md`, `@osint-wiki/sources/trading-posts-macro-charts-skills-md-2026-05-28.md`.
+
 ## [2026-05-28] brief ingest | K73 Phase-0 audit decisions
 
 Ingested `briefs/2026-05-28_k73-phase0-audit-ccc-decisions.md`.

@@ -13,9 +13,10 @@ related:
   - entities/tools/build-your-own-openclaw.md
   - concepts/agent-memory-stack-comparison.md
   - concepts/full-stack-ai-engineer-agent-path.md
+  - concepts/claude-code-skills-md-institutional-memory.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-05-27
+updated: 2026-05-28
 cross-wiki-source: "@osint-wiki/entities/tools/hermes-agent.md"
 ---
 

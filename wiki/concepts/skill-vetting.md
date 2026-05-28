@@ -36,6 +36,7 @@ related:
   - concepts/k73-phase0-audit-decisions.md
   - entities/tools/mermaid-skill.md
   - entities/tools/tvscreener.md
+  - concepts/claude-code-skills-md-institutional-memory.md
 maturity: draft
 created: 2026-05-17
 updated: 2026-05-28

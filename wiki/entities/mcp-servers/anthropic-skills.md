@@ -29,9 +29,10 @@ related:
   - entities/tools/ai-engineering-roadmap.md
   - entities/tools/everything-claude-code.md
   - entities/tools/mercury-agent-skills.md
+  - concepts/claude-code-skills-md-institutional-memory.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-05-27
+updated: 2026-05-28
 ---
 
 ## Relations

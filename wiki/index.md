@@ -157,6 +157,8 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`k73-phase0-audit-decisions`](concepts/k73-phase0-audit-decisions.md) | draft | K73 two-gate policy and local scope decisions |
 | [`mermaid-skill`](entities/tools/mermaid-skill.md) | draft | Local diagramming skill pattern — CONDITIONAL-GO (K73) |
 | [`tvscreener`](entities/tools/tvscreener.md) | draft | Market-screening utility — reference/conditional local (K73) |
+| [`claude-code-skills-md-institutional-memory`](concepts/claude-code-skills-md-institutional-memory.md) | draft | Skills.md as persistent behavioral infrastructure (K76 Post 2) |
+| [`claude-md-five-section-template`](concepts/claude-md-five-section-template.md) | draft | Role/Style/Constraints/Workflow/Quality CLAUDE.md scaffold (K76) |
 | [`skillrae-retrieval-augmented-execution`](concepts/skillrae-retrieval-augmented-execution.md) | draft | Skill-graph RAE — post-retrieval context compilation (K59 arXiv) |
 | [`graphflow-verifiable-agent-workflows`](concepts/graphflow-verifiable-agent-workflows.md) | draft | Proof-carrying visual workflows + durable runtime (K59 arXiv) |
 
@@ -172,6 +174,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-continual-harness-self-improving-agents-2605.09998`](sources/arxiv-continual-harness-self-improving-agents-2605.09998.md) | draft | Continual Harness paper — unread-stub (K72) |
 | [`trading-posts-compilation-38-2026-05-28`](sources/trading-posts-compilation-38-2026-05-28.md) | draft | K73 Posts.docx — provenance stub (OSINT canon) |
 | [`multi-wiki-tool-eval-25url-2026-05-28`](sources/multi-wiki-tool-eval-25url-2026-05-28.md) | draft | K73 25-URL eval — provenance stub (OSINT canon) |
+| [`trading-posts-macro-charts-skills-md-2026-05-28`](sources/trading-posts-macro-charts-skills-md-2026-05-28.md) | draft | K76 Posts.docx — provenance stub (OSINT canon) |
 
 ## entities/sources/hooks/people
 
