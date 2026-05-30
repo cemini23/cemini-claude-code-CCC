@@ -18,9 +18,11 @@ related:
   - entities/tools/the-architect.md
   - concepts/agent-completion-verification-gates.md
   - concepts/claude-prompt-engineering-techniques.md
+  - concepts/codex-side-fork-workflow.md
+  - sources/trading-posts-compilation-k84-2026-05-30.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-27
+updated: 2026-05-30
 ---
 
 ## Relations
@@ -34,6 +36,7 @@ updated: 2026-05-27
 - `@entities/patterns/autoresearch-loop.md` — `/goal` is a single-shot version of autoresearch's proposal stage
 - `@concepts/code-as-agent-harness.md` — durable goal pinning via Stop-hook feedback control
 - `@concepts/self-healing-agent-sessions.md` — Stop-hook must not create infinite self-heal loops
+- `@concepts/codex-side-fork-workflow.md` — Codex `/goal` parallel; verify on operator build before adopt
 
 Cross-wiki: `@osint-wiki/sources/autonomous-agent-meta-prompt-2026-05.md` is the original source page with the verbatim template.
 

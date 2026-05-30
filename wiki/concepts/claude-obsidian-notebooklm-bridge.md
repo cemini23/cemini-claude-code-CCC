@@ -6,16 +6,20 @@ keywords: [damidefi, obsidian-vault, notebooklm-cli, second-brain, thinking-part
 related:
   - concepts/obsidian-agent-maintenance-workflow.md
   - concepts/obsidian-trading-journal-workflow.md
+  - concepts/five-layer-operator-stack.md
+  - concepts/obsidian-contribution-rate-workflow.md
   - entities/tools/claude-obsidian.md
   - entities/tools/notebooklm-py.md
   - entities/tools/claude-code.md
   - entities/tools/claude-mem.md
+  - entities/people/damidefi.md
   - concepts/cross-wiki-routing.md
   - sources/trading-posts-compilation-20-2026-05-27.md
+  - sources/trading-posts-compilation-6-2026-05-29.md
   - concepts/obsidian-vellum-second-brain-stack.md
 maturity: validated
 created: 2026-05-27
-updated: 2026-05-27
+updated: 2026-05-30
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-20-2026-05-27.md"
 ---
 
@@ -28,6 +32,10 @@ cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-20-2026-05-27.
 - @entities/tools/claude-code.md — primary harness for vault-adjacent automation
 - @entities/tools/claude-mem.md — session memory; not a substitute for Obsidian graph
 - @sources/trading-posts-compilation-20-2026-05-27.md — Posts 17–18 (@DamiDefi)
+- @concepts/five-layer-operator-stack.md — K78 Post 4 five-tool stack (Obsidian layer)
+- @concepts/obsidian-contribution-rate-workflow.md — K78 Post 6 output-oriented vault flows
+- @entities/people/damidefi.md — author stub
+- @sources/trading-posts-compilation-6-2026-05-29.md — K78 provenance
 
 Cross-wiki: SEO wiki ingested Post 16 offline Obsidian stack separately (`@seo-wiki/concepts/obsidian-integration.md`).
 

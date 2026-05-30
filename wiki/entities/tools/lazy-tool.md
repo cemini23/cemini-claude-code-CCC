@@ -17,9 +17,10 @@ related:
   - concepts/skillrae-retrieval-augmented-execution.md
   - entities/tools/ai-engineering-roadmap.md
   - concepts/claude-code-large-codebase-workflow.md
+  - concepts/codex-side-fork-workflow.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-23
+updated: 2026-05-30
 ---
 
 ## Relations
@@ -32,6 +33,7 @@ updated: 2026-05-23
 - `@concepts/context-engineering.md` — same trick as the harness's built-in `ToolSearch` deferred-tool surface
 - `@concepts/code-as-agent-harness.md` — deferred MCP tool surface in harness mechanisms layer
 - `@concepts/skillrae-retrieval-augmented-execution.md` — compiles skill context after tool/skill selection (complementary layer)
+- `@concepts/codex-side-fork-workflow.md` — Codex as parallel OpenAI harness in same federation
 
 Cross-wiki: `@osint-wiki/concepts/mcp-context-optimization.md` carries the K34 4-layer methodology source. `@seo-wiki/entities/tools/claude-code-tool-stack.md` is the SEO-side adoption brief.
 

@@ -14,9 +14,10 @@ related:
   - entities/tools/centaur.md
   - entities/tools/andrej-karpathy-skills-multica.md
   - concepts/tool-eval-license-skepticism-patterns.md
+  - concepts/deep-research-evaluation-prompt.md
 maturity: draft
 created: 2026-05-22
-updated: 2026-05-28
+updated: 2026-05-30
 cross-wiki-source: "@osint-wiki/sources/trading-posts-oil-polymarket-html-dex-sniping-2026-05-21.md"
 ---
 

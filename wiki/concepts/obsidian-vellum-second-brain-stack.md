@@ -7,12 +7,15 @@ related:
   - concepts/claude-obsidian-notebooklm-bridge.md
   - concepts/obsidian-agent-maintenance-workflow.md
   - concepts/obsidian-trading-journal-workflow.md
+  - concepts/obsidian-contribution-rate-workflow.md
+  - concepts/five-layer-operator-stack.md
   - entities/tools/claude-obsidian.md
   - entities/tools/claude-code.md
   - concepts/cross-wiki-tool-eval-inventory.md
+  - sources/trading-posts-compilation-6-2026-05-29.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-05-27
+updated: 2026-05-30
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-25-2026-05-27.md"
 ---
 
@@ -21,9 +24,12 @@ cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-25-2026-05-27.
 - `@concepts/claude-obsidian-notebooklm-bridge.md` — K69 DamiDefi vault + NotebookLM path
 - `@concepts/obsidian-agent-maintenance-workflow.md` — hygiene vs always-on brain
 - `@concepts/obsidian-trading-journal-workflow.md` — trading-specific vault use
+- `@concepts/obsidian-contribution-rate-workflow.md` — K78 cyrilXBT contribution-rate metric + three-zone vault
+- `@concepts/five-layer-operator-stack.md` — K78 DamiDefi five-tool map (Obsidian = memory layer)
 - `@entities/tools/claude-obsidian.md` — **DO NOT ADOPT** — pattern-only
+- `@sources/trading-posts-compilation-6-2026-05-29.md` — K78 provenance stub
 
-Cross-wiki: K72 Posts 7, 13–14, 21 (@neil_xbt, @cyrilXBT, @JulianGoldieSEO, @zeuuss_01).
+Cross-wiki: K72 Posts 7, 13–14, 21 (@neil_xbt, @cyrilXBT, @JulianGoldieSEO, @zeuuss_01); K78 Post 6 (@cyrilXBT).
 
 ## Raw Concept
 

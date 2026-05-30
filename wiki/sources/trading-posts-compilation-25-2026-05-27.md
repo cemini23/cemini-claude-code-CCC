@@ -9,9 +9,10 @@ related:
   - concepts/claude-code-finance-research-setup.md
   - concepts/continual-harness-online-self-improvement.md
   - concepts/cross-wiki-tool-eval-inventory.md
+  - sources/trading-posts-compilation-6-2026-05-29.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-05-27
+updated: 2026-05-30
 read_status: unread-stub
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-25-2026-05-27.md"
 ---

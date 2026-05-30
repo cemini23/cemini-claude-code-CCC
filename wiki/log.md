@@ -4,6 +4,32 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-05-30] prompt | v5 deep-research multi-wiki eval
+
+Added `prompts/deep-research-multi-wiki-eval-v5-2026-05-30.md` — current default (world-cup-bot inventory, inline `gh` license lookup, NO-GO registry, TIME-VOLATILE sports LP).
+
+**Updated:** `concepts/deep-research-evaluation-prompt`, `index.md`.
+
+## [2026-05-30] brief ingest | K84 Codex /side /fork /goal harness patterns
+
+Ingested `briefs/2026-05-30_k84-codex-harness-from-osint-posts.md`.
+
+**Pages created (2):** `codex-side-fork-workflow`, `sources/trading-posts-compilation-k84-2026-05-30`.
+
+**Pages updated (8):** `2026-05-13_multi-codex-codex-home-isolation`, `full-prompt-goal-template`, `cursor-ide-workspace`, `lazy-tool`, `conductor-mcp`, `claude-code`, `claude-desktop-vs-claude-code`, `code-as-agent-harness`, `index.md`.
+
+Cross-wiki: `@osint-wiki/sources/trading-posts-compilation-k84-2026-05-30.md`.
+
+## [2026-05-30] brief ingest | K78 five-tool stack + Obsidian contribution-rate workflows
+
+Ingested `briefs/2026-05-29_k78-five-tool-obsidian-workflows-from-osint.md`.
+
+**Pages created (4):** `five-layer-operator-stack`, `obsidian-contribution-rate-workflow`, `sources/trading-posts-compilation-6-2026-05-29`, `entities/people/damidefi`.
+
+**Pages updated (9):** `obsidian-vellum-second-brain-stack`, `claude-obsidian-notebooklm-bridge`, `obsidian-agent-maintenance-workflow`, `hermes-agent`, `kimi-agent-swarm`, `cursor-ide-workspace`, `claude-code`, `trading-posts-compilation-20-2026-05-27`, `index.md`.
+
+Cross-wiki: `@osint-wiki/sources/trading-posts-compilation-6-2026-05-29.md`.
+
 ## [2026-05-28] brief ingest | K76 Skills.md + CLAUDE.md five-section workflows
 
 Ingested `briefs/2026-05-28_k76-claude-skills-claude-md-workflows-from-osint.md`.

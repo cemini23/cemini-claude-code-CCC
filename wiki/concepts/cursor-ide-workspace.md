@@ -14,9 +14,11 @@ related:
   - entities/tools/awesome-cursorrules.md
   - entities/tools/cursor-community-plugins.md
   - entities/tools/openevolve.md
+  - concepts/five-layer-operator-stack.md
+  - concepts/codex-side-fork-workflow.md
 maturity: validated
 created: 2026-05-21
-updated: 2026-05-21
+updated: 2026-05-30
 ---
 
 ## Relations
@@ -31,6 +33,8 @@ updated: 2026-05-21
 - `@entities/tools/awesome-cursorrules.md` — CC0 rules catalog; cherry-pick into `.cursor/rules/` (K63)
 - `@entities/tools/cursor-community-plugins.md` — discovery index only (no LICENSE file)
 - `@entities/tools/openevolve.md` — harness optimization experiments (Docker-isolated)
+- `@concepts/five-layer-operator-stack.md` — K78 execution layer (Cursor 3 / Agents Window)
+- `@concepts/codex-side-fork-workflow.md` — Cursor multi-chat as `/side`/`/fork` analog
 
 ## Raw Concept
 

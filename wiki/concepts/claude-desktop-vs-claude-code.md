@@ -11,9 +11,10 @@ related:
   - concepts/mcp-context-optimization.md
   - entities/tools/skillkit.md
   - concepts/cursor-ide-workspace.md
+  - concepts/codex-side-fork-workflow.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-21
+updated: 2026-05-30
 ---
 
 ## Relations

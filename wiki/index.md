@@ -93,7 +93,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`cross-wiki-tool-eval-inventory`](concepts/cross-wiki-tool-eval-inventory.md) | draft | Consolidated receipt — all CCC-routed items from OSINT tool evaluations K45–K56 |
 | [`code-as-agent-harness`](concepts/code-as-agent-harness.md) | draft | Three-layer harness model mapped to Claude Code / conductor / MCP (K48 arXiv) |
 | [`self-healing-agent-sessions`](concepts/self-healing-agent-sessions.md) | draft | Failure taxonomy + retry budget for long Claude Code sessions (K48 arXiv) |
-| [`deep-research-evaluation-prompt`](concepts/deep-research-evaluation-prompt.md) | validated | v1→v4 lineage; canonical copy-paste at `prompts/deep-research-multi-wiki-eval-v4-2026-05-21.md` |
+| [`deep-research-evaluation-prompt`](concepts/deep-research-evaluation-prompt.md) | validated | v1→v5 lineage; canonical copy-paste at `prompts/deep-research-multi-wiki-eval-v5-2026-05-30.md` |
 | [`cursor-ide-workspace`](concepts/cursor-ide-workspace.md) | validated | Cursor as primary laptop harness; MCP map, rules, canvas, deployment boundary |
 | [`local-llm-mechanics-primer`](concepts/local-llm-mechanics-primer.md) | draft | KV cache / prefill-decode primer for local inference (K57 Post 1) |
 | [`tools-we-dont-use`](concepts/tools-we-dont-use.md) | draft | Institutional reject register (ToS bypass, ridark list discipline) |
@@ -159,6 +159,9 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`tvscreener`](entities/tools/tvscreener.md) | draft | Market-screening utility — reference/conditional local (K73) |
 | [`claude-code-skills-md-institutional-memory`](concepts/claude-code-skills-md-institutional-memory.md) | draft | Skills.md as persistent behavioral infrastructure (K76 Post 2) |
 | [`claude-md-five-section-template`](concepts/claude-md-five-section-template.md) | draft | Role/Style/Constraints/Workflow/Quality CLAUDE.md scaffold (K76) |
+| [`five-layer-operator-stack`](concepts/five-layer-operator-stack.md) | draft | DamiDefi five-tool map — Claude/Obsidian/Hermes/Kimi/Cursor roles (K78) |
+| [`obsidian-contribution-rate-workflow`](concepts/obsidian-contribution-rate-workflow.md) | draft | cyrilXBT three-zone vault + contribution-rate metric (K78) |
+| [`codex-side-fork-workflow`](concepts/codex-side-fork-workflow.md) | draft | Codex `/side`/`/fork`/`goal` mapped to Cursor + Claude Code (K84) |
 | [`skillrae-retrieval-augmented-execution`](concepts/skillrae-retrieval-augmented-execution.md) | draft | Skill-graph RAE — post-retrieval context compilation (K59 arXiv) |
 | [`graphflow-verifiable-agent-workflows`](concepts/graphflow-verifiable-agent-workflows.md) | draft | Proof-carrying visual workflows + durable runtime (K59 arXiv) |
 
@@ -175,10 +178,14 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`trading-posts-compilation-38-2026-05-28`](sources/trading-posts-compilation-38-2026-05-28.md) | draft | K73 Posts.docx — provenance stub (OSINT canon) |
 | [`multi-wiki-tool-eval-25url-2026-05-28`](sources/multi-wiki-tool-eval-25url-2026-05-28.md) | draft | K73 25-URL eval — provenance stub (OSINT canon) |
 | [`trading-posts-macro-charts-skills-md-2026-05-28`](sources/trading-posts-macro-charts-skills-md-2026-05-28.md) | draft | K76 Posts.docx — provenance stub (OSINT canon) |
+| [`trading-posts-compilation-6-2026-05-29`](sources/trading-posts-compilation-6-2026-05-29.md) | draft | K78 Posts.docx CCC slice — provenance stub (OSINT canon) |
+| [`trading-posts-compilation-k84-2026-05-30`](sources/trading-posts-compilation-k84-2026-05-30.md) | draft | K84 Posts.docx Codex harness slice — provenance stub (OSINT canon) |
 
-## entities/sources/hooks/people
+## entities/people/
 
-Hooks/people subdirs still placeholder beyond `sources/` arXiv stubs above. As Cemini ingests Claude Code release notes, conference talks, and hook recipes, those subdirectories will populate. See `ROADMAP.md` for the deepening backlog.
+| Page | Maturity | Summary |
+|------|----------|---------|
+| [`damidefi`](entities/people/damidefi.md) | draft | X author — Obsidian + Claude workflow posts (K69, K78) |
 
 ## Cross-wiki links from this wiki
 

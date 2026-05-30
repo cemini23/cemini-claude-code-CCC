@@ -5,9 +5,11 @@ tags: []
 keywords: []
 related:
   - concepts/subagent-orchestration.md
+  - concepts/codex-side-fork-workflow.md
+  - sources/trading-posts-compilation-k84-2026-05-30.md
 maturity: draft
 created: 2026-05-15
-updated: 2026-05-15
+updated: 2026-05-30
 cross-wiki-source: "@osint-wiki/sources/eval-github-repos-2026-05-13.md"
 ---
 
@@ -16,6 +18,8 @@ cross-wiki-source: "@osint-wiki/sources/eval-github-repos-2026-05-13.md"
 ## Relations
 
 - @concepts/subagent-orchestration.md — the multi-agent orchestration cluster this isolation pattern feeds
+- @concepts/codex-side-fork-workflow.md — K84 Codex `/side`/`/fork` thread isolation (OpenAI harness)
+- @sources/trading-posts-compilation-k84-2026-05-30.md — K84 provenance stub
 - @osint-wiki/sources/eval-github-repos-2026-05-13.md  (cross-wiki source)
 
 ## Raw Concept

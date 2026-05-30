@@ -28,9 +28,10 @@ related:
   - entities/tools/council-of-high-intelligence.md
   - concepts/agentic-programming-full-stack-thesis.md
   - concepts/claude-code-finance-research-setup.md
+  - concepts/codex-side-fork-workflow.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-27
+updated: 2026-05-30
 ---
 
 ## Relations

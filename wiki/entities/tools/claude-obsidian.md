@@ -11,9 +11,10 @@ related:
   - concepts/obsidian-trading-journal-workflow.md
   - concepts/claude-obsidian-notebooklm-bridge.md
   - concepts/obsidian-vellum-second-brain-stack.md
+  - concepts/obsidian-contribution-rate-workflow.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-05-27
+updated: 2026-05-30
 cross-wiki-source: "@osint-wiki/entities/tools/claude-obsidian.md"
 ---
 

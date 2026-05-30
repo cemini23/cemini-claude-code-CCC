@@ -45,10 +45,12 @@ related:
   - concepts/claude-obsidian-notebooklm-bridge.md
   - concepts/agent-sandbox-unikraft.md
   - concepts/agent-token-discipline-openclaw-hermes.md
+  - concepts/five-layer-operator-stack.md
+  - concepts/codex-side-fork-workflow.md
 maturity: core
 hub: true
 created: 2026-05-13
-updated: 2026-05-22
+updated: 2026-05-30
 ---
 
 ## Relations

@@ -23,6 +23,7 @@ related:
   - sources/arxiv-skillrae-2605.10114.md
   - entities/tools/openevolve.md
   - concepts/kimi-agent-swarm-vs-claude-agent-teams.md
+  - concepts/codex-side-fork-workflow.md
   - concepts/claude-code-software-factory.md
   - concepts/claude-premortem-skill.md
   - entities/tools/ml-intern.md
@@ -32,7 +33,7 @@ related:
   - sources/arxiv-continual-harness-self-improving-agents-2605.09998.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-05-27
+updated: 2026-05-30
 cross-wiki-source: "@osint-wiki/sources/arxiv-code-as-agent-harness-survey-2605.18747.md"
 ---
 

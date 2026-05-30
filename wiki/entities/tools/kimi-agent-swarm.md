@@ -9,10 +9,12 @@ related:
   - entities/patterns/scatter-gather.md
   - entities/tools/conductor-mcp.md
   - concepts/cross-wiki-tool-eval-inventory.md
+  - concepts/five-layer-operator-stack.md
+  - sources/trading-posts-compilation-6-2026-05-29.md
   - "@osint-wiki/entities/tools/kimi-agent-swarm.md"
 maturity: draft
 created: 2026-05-24
-updated: 2026-05-26
+updated: 2026-05-30
 cross-wiki-source: "@osint-wiki/entities/tools/kimi-agent-swarm.md"
 ---
 
@@ -22,6 +24,8 @@ cross-wiki-source: "@osint-wiki/entities/tools/kimi-agent-swarm.md"
 - `@concepts/subagent-orchestration.md` — CCC harness choice for repo work
 - `@entities/patterns/scatter-gather.md` — bounded Cemini parallel pattern
 - `@entities/tools/conductor-mcp.md` — prod orchestration layer
+- `@concepts/five-layer-operator-stack.md` — K78 long-horizon coding layer (reference only)
+- `@sources/trading-posts-compilation-6-2026-05-29.md` — K78 provenance
 
 Cross-wiki: `@osint-wiki/entities/tools/kimi-agent-swarm.md`, `@osint-wiki/entities/models/kimi-k2-6.md`.
 

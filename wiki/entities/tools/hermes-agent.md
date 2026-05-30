@@ -14,9 +14,11 @@ related:
   - concepts/agent-memory-stack-comparison.md
   - concepts/full-stack-ai-engineer-agent-path.md
   - concepts/claude-code-skills-md-institutional-memory.md
+  - concepts/five-layer-operator-stack.md
+  - sources/trading-posts-compilation-6-2026-05-29.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-05-28
+updated: 2026-05-30
 cross-wiki-source: "@osint-wiki/entities/tools/hermes-agent.md"
 ---
 
@@ -28,6 +30,8 @@ cross-wiki-source: "@osint-wiki/entities/tools/hermes-agent.md"
 - `@entities/tools/claude-code.md` — primary Cemini harness; Hermes is reference-only
 - `@concepts/self-healing-agent-sessions.md` — compare self-improving skill loop vs session recovery patterns
 - `@concepts/agent-token-discipline-openclaw-hermes.md` — K69 anti-pattern catalog (Post 13)
+- `@concepts/five-layer-operator-stack.md` — K78 automation layer in five-tool map (reference only)
+- `@sources/trading-posts-compilation-6-2026-05-29.md` — K78 forensics posts (OSINT-primary)
 
 Cross-wiki: `@osint-wiki/entities/tools/hermes-agent.md` (canon — K52 deploy post, K64 276-use-case catalog).
 
