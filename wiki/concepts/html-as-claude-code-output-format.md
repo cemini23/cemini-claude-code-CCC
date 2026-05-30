@@ -7,8 +7,8 @@ related:
   - concepts/context-engineering.md
   - concepts/three-cache-architecture.md
   - concepts/skill-vetting.md
-  - @osint-wiki/sources/trading-posts-oil-polymarket-html-dex-sniping-2026-05-21.md
-  - @osint-wiki/entities/people/thariq-trq212.md
+  - "@osint-wiki/sources/trading-posts-oil-polymarket-html-dex-sniping-2026-05-21.md"
+  - "@osint-wiki/entities/people/thariq-trq212.md"
 maturity: validated
 created: 2026-05-21
 updated: 2026-05-21
