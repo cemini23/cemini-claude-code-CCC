@@ -62,6 +62,7 @@ Full ingest workflow in `CLAUDE.md` § Operations.
 ## Related
 
 - Methodology newsletter: [Outlier Weekly](https://outlierweekly.substack.com)
+- YouTube: [@Cemini23](https://www.youtube.com/@Cemini23)
 - Agent toolkit: [vet](https://github.com/cemini23/vet) · [wikilint](https://github.com/cemini23/wikilint) · [phase0](https://github.com/cemini23/phase0) · [agent-toolkit-demo](https://github.com/cemini23/agent-toolkit-demo) · [ara-schema](https://github.com/cemini23/ara-schema)
 - Public wikis: [SEO/GEO](https://github.com/cemini23/SEO-GEO-B-M-Wiki) · [Cybersecurity](https://github.com/cemini23/Cybersecurity-wiki) · [3D Printing](https://github.com/cemini23/3D-Printing-Wiki) · [Image Gen](https://github.com/cemini23/uncensored-image-gen-wiki)
 - Trading: [world-cup-bot](https://github.com/cemini23/world-cup-bot)
