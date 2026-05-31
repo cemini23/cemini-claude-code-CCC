@@ -7,7 +7,7 @@ git clone https://github.com/cemini23/cemini-claude-code-CCC.git
 cd "cemini-claude-code-CCC"
 ```
 
-Sixth wiki in the Cemini federation alongside `osint-wiki`, `cybersecurity-wiki`, `image-gen-wiki`, `seo-wiki`, and `3d-printing-wiki`.
+Agent-harness meta-wiki in the Cemini federation alongside `osint-wiki`, `gambling-wiki`, `cybersecurity-wiki`, `image-gen-wiki`, `seo-wiki`, and `3d-printing-wiki`.
 
 ## Quickstart
 
@@ -43,12 +43,13 @@ Full ingest workflow in `CLAUDE.md` § Operations.
 
 ## Cemini wiki federation
 
-**Six** wikis + **Cemini Financial Suite** (private trading stack). Cross-links: `@<alias>/path/to/page.md` (`CLAUDE.md` → Related Wikis). Lint resolves paths on a maintainer machine with all repos checked out.
+**Seven** wikis + **Cemini Financial Suite** (private trading stack). Cross-links: `@<alias>/path/to/page.md` (`CLAUDE.md` → Related Wikis). Lint resolves paths on a maintainer machine with all repos checked out.
 
 | Alias | Repository | Visibility | Focus |
 |-------|------------|------------|--------|
 | **`ccc-wiki`** | **This repo** | **Public** | Cursor / Claude Code workflow, MCP, skills, multi-wiki eval prompts (`prompts/`) |
 | `osint-wiki` | `llm-wiki-by-cemini` *(private)* | **Private** | Financial research; conductor / librarian architecture canon |
+| `gambling-wiki` | [Gambling-wiki](https://github.com/cemini23/Gambling-wiki) | **Public** | Sports betting, casino, poker, DFS, best ball |
 | `image-gen-wiki` | [uncensored-image-gen-wiki](https://github.com/cemini23/uncensored-image-gen-wiki) | Public | Image / video / voice generation |
 | `seo-wiki` | [SEO-GEO-B-M-Wiki](https://github.com/cemini23/SEO-GEO-B-M-Wiki) | Public | Local SEO, GEO/AEO, creator marketing |
 | `3d-printing-wiki` | [3D-Printing-Wiki](https://github.com/cemini23/3D-Printing-Wiki) | Public | FDM/FFF, Bambu, slicers |
@@ -57,14 +58,14 @@ Full ingest workflow in `CLAUDE.md` § Operations.
 
 **Privacy:** **`ccc-wiki` is public** (this repository). **`osint-wiki`** and **Cemini Financial Suite** are private — cross-wiki links to them appear in prose but those repos are not public deliverables.
 
-**Canonical prompt:** [prompts/deep-research-multi-wiki-eval-v4-2026-05-21.md](prompts/deep-research-multi-wiki-eval-v4-2026-05-21.md) — seven-surface URL evaluation (Gemini Deep Research + Cursor spot-check).
+**Canonical prompt:** [prompts/deep-research-multi-wiki-eval-v6-2026-05-31.md](prompts/deep-research-multi-wiki-eval-v6-2026-05-31.md) — eight-surface URL evaluation (includes `gambling-wiki`; Gemini Deep Research + Cursor spot-check).
 
 ## Related
 
 - Methodology newsletter: [Outlier Weekly](https://outlierweekly.substack.com)
 - YouTube: [@Cemini23](https://www.youtube.com/@Cemini23)
 - Agent toolkit: [vet](https://github.com/cemini23/vet) · [wikilint](https://github.com/cemini23/wikilint) · [phase0](https://github.com/cemini23/phase0) · [agent-toolkit-demo](https://github.com/cemini23/agent-toolkit-demo) · [ara-schema](https://github.com/cemini23/ara-schema)
-- Public wikis: [SEO/GEO](https://github.com/cemini23/SEO-GEO-B-M-Wiki) · [Cybersecurity](https://github.com/cemini23/Cybersecurity-wiki) · [3D Printing](https://github.com/cemini23/3D-Printing-Wiki) · [Image Gen](https://github.com/cemini23/uncensored-image-gen-wiki)
+- Public wikis: [Gambling](https://github.com/cemini23/Gambling-wiki) · [SEO/GEO](https://github.com/cemini23/SEO-GEO-B-M-Wiki) · [Cybersecurity](https://github.com/cemini23/Cybersecurity-wiki) · [3D Printing](https://github.com/cemini23/3D-Printing-Wiki) · [Image Gen](https://github.com/cemini23/uncensored-image-gen-wiki)
 - Trading: [world-cup-bot](https://github.com/cemini23/world-cup-bot)
 
 ## License

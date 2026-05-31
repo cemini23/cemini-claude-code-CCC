@@ -140,12 +140,13 @@ Paths below are relative to this CLAUDE.md file's directory. Resolve `../` again
 |-------|------|------------|-------------|
 | `ccc-wiki` | `wiki/` | **Public** | Cursor + Claude Code meta-wiki — workflow, agents, MCP, hooks, skills, slash commands, /goal·Ralph·OpenSpec |
 | `osint-wiki` | `../../OSINT WORKSPACE/wiki/` | **Private** | Financial research, quant finance, prediction markets, CeminiSuite. Shared: conductor/librarian, skill audits |
+| `gambling-wiki` | `../Gambling wiki/wiki/` | **Public** | Sports betting, casino, poker, DFS, best ball. Shared: Kelly/FLB theory; osint owns PM bots |
 | `cybersecurity-wiki` | `../Cybersecurity wiki/wiki/` | Public | Cybersecurity research — offensive/defensive, certifications. Shared: permission-scoping hooks |
 | `image-gen-wiki` | `../Image gen/wiki/` | Public | Uncensored image generation, ComfyUI, LoRA, persona ops |
 | `seo-wiki` | `../SEO:GEO B&M Business/wiki/` | Public | Local SEO, GBP, GEO/AEO, creator marketing skills |
 | `3d-printing-wiki` | `../3D printing/wiki/` | Public | FDM/FFF, Bambu, slicers, print farms |
 
-**Private:** `osint-wiki`, Cemini Financial Suite (`../CeminiSuite`). **Public:** this wiki (`ccc-wiki`) + four domain wikis. Federation table: `README.md`.
+**Private:** `osint-wiki`, Cemini Financial Suite (`../CeminiSuite`). **Public:** this wiki (`ccc-wiki`) + five domain wikis (including `gambling-wiki`). Federation table: `README.md`. Eval prompt: `prompts/deep-research-multi-wiki-eval-v6-2026-05-31.md`.
 
 ### Cross-wiki link syntax
 

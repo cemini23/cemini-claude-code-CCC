@@ -43,22 +43,25 @@ Cross-wiki: `@osint-wiki/concepts/librarian-server-architecture.md` carries the 
 
 ## Raw Concept
 
-Question this page answers: **a new source landed in the inbox — which wiki(s) does it belong in, and how do we keep all five federation members coherent?**
+Question this page answers: **a new source landed in the inbox — which wiki(s) does it belong in, and how do we keep all federation members coherent?**
 
 ## Narrative
 
-The federation has six members (CCC + five domain wikis):
+The federation has **seven wikis** + private Cemini Financial Suite (CCC meta + six specialist wikis):
 
 | Alias | Domain |
 |-------|--------|
-| `ccc-wiki` | Meta — how Cemini operates Claude Code |
-| `osint-wiki` | Financial / quant / OSINT research |
+| `ccc-wiki` | Meta — how Cemini operates Cursor / Claude Code |
+| `osint-wiki` | Financial / quant / PM **automation** (private) |
+| `gambling-wiki` | Sports betting, casino, poker, DFS, PM **retail strategy** (public) |
 | `cybersecurity-wiki` | Offensive + defensive security, certifications |
 | `image-gen-wiki` | Uncensored image generation, model catalogs |
 | `seo-wiki` | Local SEO, GBP, GEO/AEO |
 | `3d-printing-wiki` | FDM/FFF printing, slicers, store ops |
 
-Every wiki's CLAUDE.md has a "Related Wikis" table listing the other five with relative paths. The lint scripts parse this table to resolve `@<alias>/path` references.
+**Bulk eval routing:** `@concepts/deep-research-evaluation-prompt.md` (v6 at `prompts/deep-research-multi-wiki-eval-v6-2026-05-31.md`) — gambling-wiki = surface 3; osint = bots/LP only.
+
+Every wiki's CLAUDE.md has a "Related Wikis" table listing siblings with relative paths. The lint scripts parse this table to resolve `@<alias>/path` references.
 
 ### Decision: where does this source go?
 

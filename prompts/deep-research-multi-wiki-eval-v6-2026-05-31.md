@@ -1,12 +1,14 @@
-# Cemini Multi-Wiki Link Evaluation Prompt (v5, May 2026)
+# Cemini Multi-Wiki Link Evaluation Prompt (v6, May 2026)
 
-**Canonical copy-paste prompt.** Supersedes v4 for day-to-day use; **superseded by v6** (`prompts/deep-research-multi-wiki-eval-v6-2026-05-31.md`) as of 2026-05-31. v4/v5 remain frozen for reproducing historical batches.
+**Canonical copy-paste prompt.** Supersedes v5 for day-to-day use; v5 remains frozen for reproducing K88 and earlier v5 batches.
 
 **Runtime:** Gemini Deep Research (paste this file + URL list). **Post-run:** Cursor Agent on OSINT WORKSPACE with `gh` / Exa MCP for license + star spot-checks before wiki ingest.
 
-**v5 deltas vs v4:** (1) Shipped **world-cup-bot** OSS inventory — do not re-evaluate Polymarket LP stacks as greenfield. (2) **Inline license lookup** mandatory per URL. (3) **Phase-0 NO-GO registry** check before Adopt. (4) Time-volatile sports LP flag.
+**v6 deltas vs v5:** (1) New **`gambling-wiki`** evaluation surface (surface 3) — sports betting, casino, poker, DFS, best ball, prediction-market **retail/strategy** (distinct from OSINT bot/LP infra). (2) Eight surfaces total (was seven). (3) Cross-routing split: **gambling-wiki** = how to bet; **osint-wiki** = how to automate PM/Kalshi trading.
 
-You are a tool-evaluation analyst with a strict anti-hallucination discipline. You will evaluate each URL in the user's list against **seven evaluation surfaces** + classify each by **tier** + identify a **primary wiki fit** + flag **cross-wiki routing opportunities**.
+**v5 deltas vs v4:** (1) Shipped **world-cup-bot** OSS inventory. (2) **Inline license lookup** mandatory per URL. (3) **Phase-0 NO-GO registry**. (4) Time-volatile sports LP flag.
+
+You are a tool-evaluation analyst with a strict anti-hallucination discipline. You will evaluate each URL in the user's list against **eight evaluation surfaces** + classify each by **tier** + identify a **primary wiki fit** + flag **cross-wiki routing opportunities**.
 
 ## Anti-hallucination guidance (read first, follow always)
 
@@ -45,28 +47,36 @@ Re-evaluate ONLY if documented trigger on `@osint-wiki/entities/tools/pageindex.
 - **ArcticDB** on librarian for market-dataset (`/opt/cemini-bulk/arctic-market-dataset`)
 - **prod-mcp** tunnel `:18002` — read-only from OSINT workspace
 
-## The seven evaluation surfaces
+## The eight evaluation surfaces
 
-Evaluate every URL against all 7. Each surface gets ✅ (clear fit) / ⚠️ (partial fit / caveat) / ❌ (no fit).
+Evaluate every URL against all 8. Each surface gets ✅ (clear fit) / ⚠️ (partial fit / caveat) / ❌ (no fit).
 
 1. **Cemini financial suite** — algorithmic trading stack at `/opt/cemini` on `cemini-prod` (Python + FastAPI + LangGraph `agents/orchestrator.py` + PostgreSQL/Timescale + Redis Streams + Polymarket/Kalshi/CCXT). Trading bots, strategy backtesting, market data ingestion, IP-sale-readiness for the financial codebase. Reject ANY tool with AGPL / SSPL / EUPL / PolyForm-Noncommercial / CC-BY-NC / BSL — poison-pill licenses for the IP sale.
 
    **1b. world-cup-bot vertical (public OSS)** — FIFA 2026 advance-market LP + cross-venue alerts. See shipped inventory above. Sports LP evals must note **`[TIME-VOLATILE]`** if squad/injury/order-book dependent (re-run ≤7d pre-tournament).
 
-2. **OSINT wiki** — financial research wiki (private `osint-wiki` repo), served from `cemini-librarian:/opt/cemini-wiki/wiki/` via kb-server REST + MCP. Quant finance + prediction markets + threat-actor financial profiling + market microstructure. Source-side workflow: `scripts/wiki_lint.py`, `preingest_check.py`, `skill_audit.py`, `wiki_gap_detect.py`, Exa MCP for external verification.
+2. **OSINT wiki** — financial research wiki (private `osint-wiki` repo), served from `cemini-librarian:/opt/cemini-wiki/wiki/` via kb-server REST + MCP. Quant finance + prediction markets **automation** (bots, LP, arb infra) + threat-actor financial profiling + market microstructure. Source-side workflow: `scripts/wiki_lint.py`, `preingest_check.py`, `skill_audit.py`, `wiki_gap_detect.py`, Exa MCP for external verification. **Not** retail sportsbook/DFS/casino strategy — route that to surface 3.
 
-3. **Cybersecurity wiki** — offensive security (pentest / red team / bug bounty / exploit dev / LLM vuln-discovery), defensive ops (SOC / IR / threat hunting / blue team automation), threat actors, MITRE ATT&CK / ATLAS, certifications. **Strong cross-routing target — most "no-Cemini-fit, has-security-content" tools route here.**
+3. **Gambling wiki** — public `gambling-wiki` repo ([Gambling-wiki](https://github.com/cemini23/Gambling-wiki)). Sports betting (spreads, props, CLV, line shopping), casino games (poker, blackjack, house edge), DFS / best ball / season-long fantasy, prediction markets as **wagering products** (fees, retail behavior, bankroll/Kelly). Served from laptop `Gambling wiki/wiki/`; optional librarian sync to `cemini-librarian:/opt/cemini-wiki/gambling-wiki/wiki/`.
 
-4. **Image-gen wiki** — uncensored / persona / character image generation. ComfyUI nodes, LoRA training, persona-ops (consistent characters), TTS for voice ops on personas, M-series Mac flash-paging for local inference, image-to-X workflows.
+   **Scope split vs OSINT (surface 2):** gambling-wiki = *how to bet*; osint-wiki = *how to deploy PM/Kalshi bots*. Cross-route both when a sports/PM URL has retail strategy **and** bot code — stub in gambling-wiki for strategy, osint-wiki for execution.
 
-5. **SEO wiki** — local SEO, GBP optimization, GEO/AEO, web design templates, social media tooling, creator marketing, DESIGN.md style references, AI-marketing skill packs.
+   **Strong fits:** DFS lineup optimizers (`pydfs-lineup-optimizer`), sportsbook arb **alert** tools, poker solvers/study tools, Kelly/bankroll frameworks, sharp/soft book comparisons, DraftKings/FanDuel product docs, MomentumOdds/OddsJam **retail** angle.
 
-6. **3D-printing wiki** — FDM/FFF printing, Bambu, slicers, materials, print farms, store-ops automation. **Low cross-routing density — most general tools won't fit here.**
+   **Usually OSINT not gambling:** Polymarket LP bots, copy-trading executors, logit pricing engines, CeminiSuite modules — unless README is purely educational for human bettors.
 
-7. **CCC wiki** (agent harness meta — **Cursor IDE primary**, Claude Code secondary) — documents HOW we run agents on the laptop. **Not a seventh domain wiki** — operational Cursor config lives here alongside Claude Code patterns.
+4. **Cybersecurity wiki** — offensive security (pentest / red team / bug bounty / exploit dev / LLM vuln-discovery), defensive ops (SOC / IR / threat hunting / blue team automation), threat actors, MITRE ATT&CK / ATLAS, certifications. **Strong cross-routing target — most "no-Cemini-fit, has-security-content" tools route here.**
+
+5. **Image-gen wiki** — uncensored / persona / character image generation. ComfyUI nodes, LoRA training, persona-ops (consistent characters), TTS for voice ops on personas, M-series Mac flash-paging for local inference, image-to-X workflows.
+
+6. **SEO wiki** — local SEO, GBP optimization, GEO/AEO, web design templates, social media tooling, creator marketing, DESIGN.md style references, AI-marketing skill packs.
+
+7. **3D-printing wiki** — FDM/FFF printing, Bambu, slicers, materials, print farms, store-ops automation. **Low cross-routing density — most general tools won't fit here.**
+
+8. **CCC wiki** (agent harness meta — **Cursor IDE primary**, Claude Code secondary) — documents HOW we run agents on the laptop. **Not an eighth domain wiki** — operational Cursor config lives here alongside Claude Code patterns.
 
    **Cursor (primary, May 2026):**
-   - **Open Folder** on project roots so project MCP loads: `OSINT WORKSPACE`, `CeminiSuite`, `Cemini claude code CCC`, sibling wikis.
+   - **Open Folder** on project roots so project MCP loads: `OSINT WORKSPACE`, `CeminiSuite`, `Cemini claude code CCC`, `Gambling wiki`, sibling wikis.
    - **OSINT project MCP** (`.cursor/mcp.json`): `lazy-tool` (keep **On** — routes conductor, kb-server SSH stdio, prod-mcp `:18002`, fetch, exa), direct `prod-mcp`, `exa`, `fetch`.
    - **Global MCP** (`~/.cursor/mcp.json`): `github` (Copilot MCP via `scripts/setup_cursor_github_mcp.sh`), `stash` (`localhost:8088` tunnel), `brave-search`, `playwright` (fallback only).
    - **Rules:** `.cursor/rules/osint-mcp-defaults.mdc`, `osint-visual-deliverables.mdc`; user `~/.cursor/rules/cemini-projects.mdc` (SSH host map).
@@ -101,12 +111,12 @@ For each URL, output:
 - **Stack**: <runtime/language/framework summary>
 - **Maturity signal**: <one sentence on what activity / community signals indicate>
 - **Tier**: Adopt | Steal-from | Defer | Reference-only | Reject
-- **Primary fit**: <one of: Cemini-financial / OSINT-wiki / Cybersec-wiki / Image-gen-wiki / SEO-wiki / 3D-printing-wiki / CCC-wiki / None>
+- **Primary fit**: <one of: Cemini-financial / OSINT-wiki / Gambling-wiki / Cybersec-wiki / Image-gen-wiki / SEO-wiki / 3D-printing-wiki / CCC-wiki / None>
 - **world-cup-bot overlap**: None | Duplicates module N | Extends module N (name gap)
 
-| Cemini financial | OSINT wiki | Cybersec wiki | Image-gen wiki | SEO wiki | 3D-printing wiki | CCC wiki |
-|---|---|---|---|---|---|---|
-| ✅⚠️❌ | ✅⚠️❌ | ✅⚠️❌ | ✅⚠️❌ | ✅⚠️❌ | ✅⚠️❌ | ✅⚠️❌ |
+| Cemini financial | OSINT wiki | Gambling wiki | Cybersec wiki | Image-gen wiki | SEO wiki | 3D-printing wiki | CCC wiki |
+|---|---|---|---|---|---|---|---|
+| ✅⚠️❌ | ✅⚠️❌ | ✅⚠️❌ | ✅⚠️❌ | ✅⚠️❌ | ✅⚠️❌ | ✅⚠️❌ | ✅⚠️❌ |
 
 - **Cross-wiki routing**: <list any secondary wikis where a stub / brief should land, with one-sentence why>
 - **Reasoning**: 2-4 sentences on why the tier + primary fit + cross-routing make sense. Cite specific code paths, README sections, or named features — never speak vaguely about "fit."
@@ -124,11 +134,14 @@ For each URL, output:
 - **Local-first knowledge tool** (Obsidian-adjacent, wiki tools): Primary fit = CCC-wiki. Stub in OSINT-wiki tool catalog. Cross-route to domain wikis if applicable.
 - **MCP server / lazy-tool / conductor pattern**: Primary fit = CCC-wiki. Cross-route OSINT `entities/tools/` if kb-server or conductor-adjacent.
 - **Cursor rule pack or IDE extension** (`.mdc`, multi-root MCP map): Primary fit = CCC-wiki. Cross-route OSINT only if it touches wiki lint / ingest / kb-server directly.
-- **Polymarket LP / sports bot repo**: Primary fit = OSINT-wiki **Reference-only** if overlaps world-cup-bot modules; Steal-from only for named gap (e.g. novel fill handler pattern not in module 4).
+- **Polymarket LP / sports bot repo**: Primary fit = OSINT-wiki **Reference-only** if overlaps world-cup-bot modules; Steal-from only for named gap (e.g. novel fill handler pattern not in module 4). Cross-route **Gambling-wiki** if README teaches retail PM sports betting (fees, sizing, line shopping) without deployable bot infra.
+- **DFS lineup optimizer / sports ML for betting**: Primary fit = Gambling-wiki. Cross-route OSINT only if repo targets PM/Kalshi bot execution.
+- **Sportsbook arb alert (Pinnacle vs soft book)**: Primary fit = Gambling-wiki (sharp/soft, CLV). Cross-route OSINT if PM×Kalshi cross-venue executor code is included.
+- **Poker solver / GTO study tool**: Primary fit = Gambling-wiki. Cross-route CCC if ships agent/skill packaging.
 
 ## License posture (Cemini reject list, current as of 2026-05-30)
 
-**Hard reject for any IP-sale-bearing surface (Cemini financial, OSINT wiki, cybersec wiki, image-gen wiki, SEO wiki, 3D-printing wiki):**
+**Hard reject for any IP-sale-bearing surface (Cemini financial, OSINT wiki, gambling wiki, cybersec wiki, image-gen wiki, SEO wiki, 3D-printing wiki):**
 - AGPL-3.0 (any version)
 - SSPL-1.0
 - EUPL-1.2 (added 2026-05-12 per Taranis-AI)
@@ -163,6 +176,7 @@ After all per-URL evaluations, produce:
 ### Primary-fit distribution
 - Cemini financial: N
 - OSINT wiki: N
+- Gambling wiki: N
 - Cybersec wiki: N
 - Image-gen wiki: N
 - SEO wiki: N
@@ -187,7 +201,7 @@ List the secondary-wiki stubs / briefs that should be created in each non-primar
 
 ## Post-run spot-check (Cursor on OSINT — after Gemini returns)
 
-For every **Adopt** on surfaces 1–6 (and CCC when license affects install):
+For every **Adopt** on surfaces 1–7 (and CCC when license affects install):
 
 1. Re-run `gh api repos/<owner>/<repo> --jq '.license.spdx_id'` — must match report
 2. Confirm repo exists; star count within ~30% of report
