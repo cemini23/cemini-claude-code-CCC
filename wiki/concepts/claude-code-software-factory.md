@@ -15,9 +15,11 @@ related:
   - entities/tools/solo-founder-superpowers.md
   - concepts/full-stack-ai-engineer-agent-path.md
   - concepts/harness-de-bloat-4x4-pattern.md
+  - concepts/nine-stage-agent-team-production.md
+  - sources/trading-posts-compilation-16-2026-05-31.md
 maturity: draft
 created: 2026-05-26
-updated: 2026-05-28
+updated: 2026-05-31
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-38-2026-05-26.md"
 ---
 

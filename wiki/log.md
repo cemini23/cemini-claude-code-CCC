@@ -4,6 +4,16 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-05-31] brief ingest | K90 v6 tool eval + Posts-16 agent harness
+
+Ingested `briefs/2026-05-31_k90-ccc-agent-harness-from-osint.md`.
+
+**Pages created (12):** `agent-personality-file-hermes-openclaw`, `nine-stage-agent-team-production`, `remote-hermes-access-pattern`, `ai-agents-learning-roadmap-reference`, `claude-artifacts-app-building`, `npxskillui`, `hermes-desktop`, `librechat`, `skyhook-radar`, `sources/multi-wiki-tool-eval-v6-k90-2026-05-31`, `sources/trading-posts-compilation-16-2026-05-31`.
+
+**Pages updated (8):** `cross-wiki-tool-eval-inventory`, `deep-research-evaluation-prompt`, `everything-claude-code`, `hermes-agent`, `agent-token-discipline-openclaw-hermes`, `claude-code-software-factory`, `index.md`.
+
+Cross-wiki: `@osint-wiki/sources/multi-wiki-tool-eval-v6-k90-2026-05-31.md`, `@osint-wiki/sources/trading-posts-compilation-16-2026-05-31.md`.
+
 ## [2026-05-31] brief ingest | K88 v5 tool eval + Posts-42 harness workflows
 
 Ingested `briefs/2026-05-31_k88-ccc-workflows-and-tool-eval-from-osint.md`.
@@ -409,3 +419,13 @@ Phase-0 clone audits of the 2 CCC-wiki K49 tools. Verdicts in each entity page's
 
 - **SkillKit → CONDITIONAL-GO** (downgraded from the eval's ADOPT). Apache-2.0 confirmed; deps clean. Domain-fit mismatch: SkillKit's headline value is cross-agent skill translation (Cursor/Devin) + a multi-machine P2P mesh — Cemini's CCC is Claude-Code-only with no multi-machine deployment, so those features solve problems Cemini doesn't have. The "400k-skill marketplace" claim is inflated ~26× (actual catalog: 15,120). Adopt only the `npx @skillkit/mcp` runtime-discovery server; skip the translation layer + mesh. Single-maintainer (personal account) — bus-factor risk.
 - **claude-for-legal → STEAL-FROM-CONFIRMED.** Apache-2.0 confirmed; genuine `anthropics` org repo (Anthropic-staff commits). Pattern extraction into IP-sale surfaces is cleared. Extractable patterns confirmed present: managed-agent cookbooks (5 templates), cold-start interview SKILL.md, and the Trust Layer — actually a two-part guardrail (read-only-subagent injection check + admin allowlist), richer than the eval's "license gate" framing. Do not adopt the suite; extract the patterns for `subagent-orchestration`.
+
+## [2026-05-31] cross-wiki route | Trading posts compilation 16 K90
+
+Cross-wiki stub routed from `@osint-wiki/sources/trading-posts-compilation-16-2026-05-31.md`.
+- Filled `wiki/sources/trading-posts-compilation-16-2026-05-31.md` + K90 concept pages (see ingest entry above)
+
+## [2026-05-31] cross-wiki route | Multi-wiki tool eval v6 K90
+
+Cross-wiki stub routed from `@osint-wiki/sources/multi-wiki-tool-eval-v6-k90-2026-05-31.md`.
+- Filled `wiki/sources/multi-wiki-tool-eval-v6-k90-2026-05-31.md` + K90 tool entity pages (see ingest entry above)

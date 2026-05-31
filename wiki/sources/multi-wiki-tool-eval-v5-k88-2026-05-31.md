@@ -18,6 +18,7 @@ related:
   - sources/trading-posts-compilation-k84-2026-05-30.md
   - sources/trading-posts-compilation-42-2026-05-31.md
   - concepts/skill-vetting.md
+  - sources/multi-wiki-tool-eval-v6-k90-2026-05-31.md
 maturity: draft
 read_status: skimmed
 created: 2026-05-31

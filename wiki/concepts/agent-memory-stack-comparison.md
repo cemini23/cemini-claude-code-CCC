@@ -12,9 +12,10 @@ related:
   - entities/mcp-servers/stash.md
   - concepts/cross-wiki-tool-eval-inventory.md
   - sources/trading-posts-compilation-25-2026-05-27.md
+  - concepts/agent-personality-file-hermes-openclaw.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-05-27
+updated: 2026-05-31
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-25-2026-05-27.md"
 ---
 

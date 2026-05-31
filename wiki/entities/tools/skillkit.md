@@ -8,9 +8,10 @@ related:
   - entities/commands/plugin.md
   - entities/tools/claude-mem.md
   - concepts/claude-desktop-vs-claude-code.md
+  - entities/tools/npxskillui.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-05-16
+updated: 2026-05-31
 phase_0_verdict: CONDITIONAL-GO
 cross-wiki-source: "@osint-wiki/sources/tool-eval-wiki-fit-v3-iteration-2026-05-16.md"
 ---

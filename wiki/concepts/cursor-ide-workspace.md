@@ -17,6 +17,7 @@ related:
   - concepts/five-layer-operator-stack.md
   - concepts/codex-side-fork-workflow.md
   - entities/tools/webwright.md
+  - concepts/claude-artifacts-app-building.md
 maturity: validated
 created: 2026-05-21
 updated: 2026-05-31

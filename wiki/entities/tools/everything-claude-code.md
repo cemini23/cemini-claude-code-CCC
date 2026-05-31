@@ -9,9 +9,10 @@ related:
   - concepts/hooks-for-automation.md
   - entities/mcp-servers/anthropic-skills.md
   - concepts/cross-wiki-tool-eval-inventory.md
+  - sources/multi-wiki-tool-eval-v6-k90-2026-05-31.md
 maturity: draft
 created: 2026-05-24
-updated: 2026-05-24
+updated: 2026-05-31
 cross-wiki-source: "@osint-wiki/sources/multi-wiki-tool-eval-36url-wiki-ingestion-2026-05-24.md"
 ---
 
@@ -37,6 +38,10 @@ K63 URL #16 — eval labels **Defer**: scale demands full Phase-0 before any ext
 | Hook collisions | May conflict with `@entities/tools/claude-mem.md` SessionStart |
 | Skill volume | Cannot vet 300+ skills in one ingest |
 | OSINT already Adopt-tier | Primary harness narrative lives in OSINT wiki |
+
+### K90 v6 note [CONFIRMED 2026-05-31]
+
+Gemini v6 batch lists **Adopt** for `affaan-m/everything-claude-code`. CCC posture **unchanged: DEFER** until dedicated Phase-0 — hook collision with claude-mem SessionStart and 300+ skill vetting queue. See `@sources/multi-wiki-tool-eval-v6-k90-2026-05-31.md`.
 
 ### Adoption posture
 

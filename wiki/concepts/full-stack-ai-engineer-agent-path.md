@@ -9,9 +9,10 @@ related:
   - concepts/claude-code-software-factory.md
   - entities/tools/ai-engineering-roadmap.md
   - concepts/cross-wiki-tool-eval-inventory.md
+  - concepts/ai-agents-learning-roadmap-reference.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-05-27
+updated: 2026-05-31
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-25-2026-05-27.md"
 ---
 

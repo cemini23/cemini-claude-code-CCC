@@ -31,6 +31,7 @@ related:
   - concepts/codex-side-fork-workflow.md
   - entities/tools/ruflo.md
   - entities/tools/skillnet.md
+  - concepts/remote-hermes-access-pattern.md
 maturity: validated
 created: 2026-05-13
 updated: 2026-05-31

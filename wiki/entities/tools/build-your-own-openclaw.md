@@ -8,9 +8,10 @@ related:
   - entities/tools/hermes-agent.md
   - concepts/agent-vm-sandboxing.md
   - concepts/cross-wiki-tool-eval-inventory.md
+  - concepts/agent-personality-file-hermes-openclaw.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-05-27
+updated: 2026-05-31
 cross-wiki-source: "@osint-wiki/sources/multi-wiki-tool-eval-27url-2026-05-27.md"
 ---
 

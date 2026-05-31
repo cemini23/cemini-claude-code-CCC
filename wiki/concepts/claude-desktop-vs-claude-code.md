@@ -12,9 +12,11 @@ related:
   - entities/tools/skillkit.md
   - concepts/cursor-ide-workspace.md
   - concepts/codex-side-fork-workflow.md
+  - concepts/claude-artifacts-app-building.md
+  - entities/tools/librechat.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-30
+updated: 2026-05-31
 ---
 
 ## Relations

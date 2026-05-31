@@ -16,9 +16,10 @@ related:
   - entities/tools/ai-infra-engineer-learning.md
   - concepts/full-stack-ai-engineer-agent-path.md
   - concepts/train-llm-agents-2026-curriculum.md
+  - concepts/ai-agents-learning-roadmap-reference.md
 maturity: draft
 created: 2026-05-23
-updated: 2026-05-27
+updated: 2026-05-31
 cross-wiki-source: "@osint-wiki/sources/github-repo-evaluation-cemini-v4-20url-2026-05-23.md"
 ---
 

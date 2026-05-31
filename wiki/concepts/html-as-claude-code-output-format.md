@@ -9,9 +9,10 @@ related:
   - concepts/skill-vetting.md
   - "@osint-wiki/sources/trading-posts-oil-polymarket-html-dex-sniping-2026-05-21.md"
   - "@osint-wiki/entities/people/thariq-trq212.md"
+  - concepts/claude-artifacts-app-building.md
 maturity: validated
 created: 2026-05-21
-updated: 2026-05-21
+updated: 2026-05-31
 ---
 
 ## Relations

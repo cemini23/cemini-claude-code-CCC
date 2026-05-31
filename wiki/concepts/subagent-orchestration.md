@@ -52,6 +52,7 @@ related:
   - concepts/claude-code-subagent-templates.md
   - concepts/karpathy-agent-infrastructure-basics.md
   - entities/tools/ruflo.md
+  - concepts/nine-stage-agent-team-production.md
 maturity: validated
 created: 2026-05-13
 updated: 2026-05-31

@@ -12,6 +12,7 @@ related:
   - concepts/continual-harness-online-self-improvement.md
   - concepts/enterprise-auto-mode-telemetry-rollout.md
   - concepts/claude-code-subagent-templates.md
+  - concepts/nine-stage-agent-team-production.md
 maturity: draft
 created: 2026-05-27
 updated: 2026-05-31

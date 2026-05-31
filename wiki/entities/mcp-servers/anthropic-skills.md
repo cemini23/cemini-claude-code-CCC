@@ -32,6 +32,7 @@ related:
   - concepts/claude-code-skills-md-institutional-memory.md
   - entities/tools/claude-skill-registry.md
   - entities/tools/skill-seekers.md
+  - entities/tools/npxskillui.md
 maturity: draft
 created: 2026-05-13
 updated: 2026-05-31

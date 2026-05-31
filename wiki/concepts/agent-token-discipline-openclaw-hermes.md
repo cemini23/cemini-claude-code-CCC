@@ -17,6 +17,9 @@ related:
   - concepts/agent-memory-stack-comparison.md
   - concepts/karpathy-token-efficiency-patterns.md
   - concepts/claude-harness-dynamic-workflows-k88.md
+  - concepts/agent-personality-file-hermes-openclaw.md
+  - sources/trading-posts-compilation-16-2026-05-31.md
+  - concepts/remote-hermes-access-pattern.md
 maturity: draft
 created: 2026-05-27
 updated: 2026-05-31

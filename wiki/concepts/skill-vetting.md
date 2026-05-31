@@ -46,6 +46,7 @@ related:
   - entities/tools/skillnet.md
   - sources/multi-wiki-tool-eval-v5-k88-2026-05-31.md
   - concepts/claude-code-skills-md-institutional-memory.md
+  - entities/tools/npxskillui.md
 maturity: draft
 created: 2026-05-17
 updated: 2026-05-31

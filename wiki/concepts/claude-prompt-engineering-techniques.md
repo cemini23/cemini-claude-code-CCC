@@ -10,6 +10,7 @@ related:
   - entities/patterns/full-prompt-goal-template.md
   - concepts/cross-wiki-tool-eval-inventory.md
   - entities/tools/cc-thinking-skills.md
+  - concepts/nine-stage-agent-team-production.md
 maturity: draft
 created: 2026-05-27
 updated: 2026-05-31

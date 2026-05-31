@@ -42,6 +42,10 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`alirezarezvani-claude-skills`](entities/tools/alirezarezvani-claude-skills.md) | draft | Curated skills — per-skill Phase-0 (K88) |
 | [`jezweb-claude-skills`](entities/tools/jezweb-claude-skills.md) | draft | Production skill layouts — STEAL-FROM (K88) |
 | [`ruflo`](entities/tools/ruflo.md) | draft | Swarm orchestrator — REFERENCE vs conductor (K88) |
+| [`npxskillui`](entities/tools/npxskillui.md) | draft | Skill UI / marketplace CLI — CONDITIONAL-GO (K90) |
+| [`hermes-desktop`](entities/tools/hermes-desktop.md) | draft | Tauri GUI for Hermes ecosystem — reference-only (K90) |
+| [`librechat`](entities/tools/librechat.md) | draft | Multi-model chat UI — REFERENCE (K90) |
+| [`skyhook-radar`](entities/tools/skyhook-radar.md) | draft | skyhook-io/radar — DEFER (K90) |
 
 ## entities/mcp-servers/
 
@@ -174,6 +178,11 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`karpathy-agent-infrastructure-basics`](concepts/karpathy-agent-infrastructure-basics.md) | draft | Karpathy 7-layer agent infra checklist (K88 Post 0) |
 | [`claude-code-subagent-templates`](concepts/claude-code-subagent-templates.md) | draft | 15-min bounded subagent dispatch template (K88 Post 2) |
 | [`claude-harness-dynamic-workflows-k88`](concepts/claude-harness-dynamic-workflows-k88.md) | draft | AGENTS.md + plugin + token discipline post cluster (K88) |
+| [`agent-personality-file-hermes-openclaw`](concepts/agent-personality-file-hermes-openclaw.md) | draft | Personality file pattern for de-genericizing agents (K90 Post 2) |
+| [`nine-stage-agent-team-production`](concepts/nine-stage-agent-team-production.md) | draft | 0xCodez 9-stage production agent team (K90 Post 10) |
+| [`remote-hermes-access-pattern`](concepts/remote-hermes-access-pattern.md) | draft | Remote Hermes gateway — reference only (K90 Post 11) |
+| [`ai-agents-learning-roadmap-reference`](concepts/ai-agents-learning-roadmap-reference.md) | draft | @amitiitbhu agents curriculum pointer (K90) |
+| [`claude-artifacts-app-building`](concepts/claude-artifacts-app-building.md) | draft | Claude Artifacts lightweight app pattern (K90 Post 13) |
 | [`skillrae-retrieval-augmented-execution`](concepts/skillrae-retrieval-augmented-execution.md) | draft | Skill-graph RAE — post-retrieval context compilation (K59 arXiv) |
 | [`graphflow-verifiable-agent-workflows`](concepts/graphflow-verifiable-agent-workflows.md) | draft | Proof-carrying visual workflows + durable runtime (K59 arXiv) |
 
@@ -194,6 +203,8 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`trading-posts-compilation-k84-2026-05-30`](sources/trading-posts-compilation-k84-2026-05-30.md) | draft | K84 Posts.docx Codex harness slice — provenance stub (OSINT canon) |
 | [`multi-wiki-tool-eval-v5-k88-2026-05-31`](sources/multi-wiki-tool-eval-v5-k88-2026-05-31.md) | draft | K88 v5 eval (29 URLs) — provenance stub (OSINT canon) |
 | [`trading-posts-compilation-42-2026-05-31`](sources/trading-posts-compilation-42-2026-05-31.md) | draft | K88 Posts.docx harness slice — provenance stub (OSINT canon) |
+| [`multi-wiki-tool-eval-v6-k90-2026-05-31`](sources/multi-wiki-tool-eval-v6-k90-2026-05-31.md) | draft | K90 v6 eval (41 URLs) — provenance stub (OSINT canon) |
+| [`trading-posts-compilation-16-2026-05-31`](sources/trading-posts-compilation-16-2026-05-31.md) | draft | K90 Posts.docx harness slice — provenance stub (OSINT canon) |
 
 ## entities/people/
 
@@ -261,17 +272,3 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | `entities/tools/codexbar.md` | `@osint-wiki/sources/multi-wiki-tool-eval-ipsale-risk-2026-05-17.md` | Cross-wiki tool-eval source (56-repo eval) |
 | `entities/tools/superclaude-framework.md` | `@osint-wiki/sources/multi-wiki-tool-eval-ipsale-risk-2026-05-17.md` | Cross-wiki tool-eval source (56-repo eval) |
 | `entities/tools/roo-code.md` | `@osint-wiki/sources/multi-wiki-tool-eval-ipsale-risk-2026-05-17.md` | Cross-wiki tool-eval source (56-repo eval) |
-
-## Concepts
-
-- [Nested Learning (Behrouz et al, NeurIPS 2025)](concepts/nested-learning.md) — cross-wiki stub routed from ingest — `cross-wiki`
-- [multi-codex — CODEX_HOME env-var isolation pattern](concepts/2026-05-13_multi-codex-codex-home-isolation.md) — cross-wiki stub routed from ingest — `cross-wiki`
-- [tolaria — refactoring-workflow patterns (STEAL-FROM, AGPL-3.0)](concepts/2026-05-13_tolaria-steal-from-patterns.md) — cross-wiki stub routed from ingest — `cross-wiki`
-
-## Entities
-
-- [visual-explainer — Agent Skill for Rich HTML Diagram Generation](entities/visual-explainer.md) — cross-wiki stub routed from ingest — `cross-wiki`
-- [openusage — Local Token Economics Dashboard](entities/openusage.md) — cross-wiki stub routed from ingest — `cross-wiki`
-- [claude_code_agent_farm — Parallel Claude Code Orchestration via tmux](entities/claude-code-agent-farm.md) — cross-wiki stub routed from ingest — `cross-wiki`
-- [Fusion — Multi-Node Agent Orchestrator with Worktree Isolation](entities/fusion.md) — cross-wiki stub routed from ingest — `cross-wiki`
-- [cross-wiki-tool-eval-inventory — CCC-routed items from OSINT tool evaluations](concepts/cross-wiki-tool-eval-inventory.md) — consolidated catalog K45–K56 — `cross-wiki`

@@ -12,6 +12,7 @@ related:
   - entities/mcp-servers/librarian-kb-server.md
   - entities/tools/claude-code.md
   - sources/multi-wiki-tool-eval-v5-k88-2026-05-31.md
+  - sources/multi-wiki-tool-eval-v6-k90-2026-05-31.md
 maturity: validated
 created: 2026-05-21
 updated: 2026-05-31
@@ -49,6 +50,8 @@ Bulk tool evaluation uses **eight surfaces** (Cemini financial + six specialist 
 | **v6** | **2026-05-31** | **8 (+ `gambling-wiki` surface 3)** | **`prompts/deep-research-multi-wiki-eval-v6-2026-05-31.md`** | **Current default** — sports betting / casino / DFS / PM retail strategy split from OSINT bots |
 
 **First v5 production batch:** K88 (2026-05-31, 29 URLs) — `@sources/multi-wiki-tool-eval-v5-k88-2026-05-31.md`.
+
+**First v6 production batch:** K90 (2026-05-31, 41 URLs) — `@sources/multi-wiki-tool-eval-v6-k90-2026-05-31.md` (adds gambling-wiki surface).
 
 ### v6 deltas vs v5 [CONFIRMED 2026-05-31]
 

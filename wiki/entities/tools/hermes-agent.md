@@ -16,9 +16,13 @@ related:
   - concepts/claude-code-skills-md-institutional-memory.md
   - concepts/five-layer-operator-stack.md
   - sources/trading-posts-compilation-6-2026-05-29.md
+  - entities/tools/hermes-desktop.md
+  - concepts/remote-hermes-access-pattern.md
+  - concepts/agent-personality-file-hermes-openclaw.md
+  - sources/trading-posts-compilation-16-2026-05-31.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-05-30
+updated: 2026-05-31
 cross-wiki-source: "@osint-wiki/entities/tools/hermes-agent.md"
 ---
 
@@ -26,7 +30,10 @@ cross-wiki-source: "@osint-wiki/entities/tools/hermes-agent.md"
 
 - `@entities/tools/conductor-mcp.md` — Cemini's cross-wiki router; Hermes is parallel personal-agent runtime, not a replacement
 - `@concepts/cross-wiki-routing.md` — federation read path for full Hermes narrative
-- `@concepts/cross-wiki-tool-eval-inventory.md` — `hermes-desktop` GUI catalog row (OSINT home)
+- `@entities/tools/hermes-desktop.md` — Tauri GUI shell (K90 v6 Adopt reaffirm; reference-only)
+- `@concepts/remote-hermes-access-pattern.md` — K90 Post 11 gateway pattern
+- `@concepts/agent-personality-file-hermes-openclaw.md` — K90 Post 2 personality file
+- `@concepts/cross-wiki-tool-eval-inventory.md` — K90 inventory row
 - `@entities/tools/claude-code.md` — primary Cemini harness; Hermes is reference-only
 - `@concepts/self-healing-agent-sessions.md` — compare self-improving skill loop vs session recovery patterns
 - `@concepts/agent-token-discipline-openclaw-hermes.md` — K69 anti-pattern catalog (Post 13)
@@ -56,7 +63,7 @@ K64 OSINT brief (`2026-05-24_k64-polymarket-wallet-pipeline-cemini.md`) flags Po
 
 ### Distinct from `hermes-desktop`
 
-Inventory row `hermes-desktop` (Tauri/React GUI, ~5.8k★) is a **desktop shell** for the agent ecosystem — canon on `@osint-wiki`; do not conflate with this runtime page.
+See `@entities/tools/hermes-desktop.md` — Tauri/React GUI (~5.8k★) is a **desktop shell**, not this runtime page. K90 v6 reaffirms Adopt for GUI reference only.
 
 ## Snippets
 

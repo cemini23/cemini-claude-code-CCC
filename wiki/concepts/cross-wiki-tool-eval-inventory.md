@@ -65,6 +65,10 @@ related:
   - concepts/k73-phase0-audit-decisions.md
   - sources/multi-wiki-tool-eval-v5-k88-2026-05-31.md
   - sources/trading-posts-compilation-42-2026-05-31.md
+  - entities/tools/hermes-desktop.md
+  - entities/tools/librechat.md
+  - entities/tools/skyhook-radar.md
+  - sources/multi-wiki-tool-eval-v6-k90-2026-05-31.md
 maturity: draft
 created: 2026-05-21
 updated: 2026-05-31
@@ -366,3 +370,20 @@ OSINT-wiki runs a multi-wiki tool evaluation → CCC-relevant items (Claude Code
 | Harness/AGENTS.md cluster | **Page** → `@concepts/claude-harness-dynamic-workflows-k88.md` |
 | v5 eval provenance | **Stub** → `@sources/multi-wiki-tool-eval-v5-k88-2026-05-31.md` |
 | Posts-42 provenance | **Stub** → `@sources/trading-posts-compilation-42-2026-05-31.md` |
+
+#### From K90 (2026-05-31) — v6 eval (41 URLs) + Posts-16 harness slice
+
+| Item | CCC disposition |
+|------|-----------------|
+| npxskillui | **Page** → `@entities/tools/npxskillui.md` (CONDITIONAL-GO; Phase-0 pending) |
+| hermes-desktop | **Page** → `@entities/tools/hermes-desktop.md` (CONDITIONAL-GO reference GUI) |
+| affaan-m/ECC | **Update** → `@entities/tools/everything-claude-code.md` (Gemini Adopt; CCC DEFER until hook audit) |
+| LibreChat | **Page** → `@entities/tools/librechat.md` (REFERENCE) |
+| skyhook-io/radar | **Page** → `@entities/tools/skyhook-radar.md` (DEFER) |
+| Personality file (Post 2) | **Page** → `@concepts/agent-personality-file-hermes-openclaw.md` |
+| 9-stage agent team (Post 10) | **Page** → `@concepts/nine-stage-agent-team-production.md` |
+| Remote Hermes (Post 11) | **Page** → `@concepts/remote-hermes-access-pattern.md` |
+| Agents roadmap (@amitiitbhu) | **Page** → `@concepts/ai-agents-learning-roadmap-reference.md` |
+| Claude Artifacts apps (Post 13) | **Page** → `@concepts/claude-artifacts-app-building.md` |
+| v6 eval provenance | **Stub** → `@sources/multi-wiki-tool-eval-v6-k90-2026-05-31.md` |
+| Posts-16 provenance | **Stub** → `@sources/trading-posts-compilation-16-2026-05-31.md` |
