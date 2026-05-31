@@ -8,10 +8,12 @@ related:
   - concepts/2026-05-13_multi-codex-codex-home-isolation.md
   - entities/patterns/full-prompt-goal-template.md
   - sources/trading-posts-compilation-6-2026-05-29.md
+  - sources/multi-wiki-tool-eval-v5-k88-2026-05-31.md
+  - sources/trading-posts-compilation-42-2026-05-31.md
 maturity: draft
 read_status: skimmed
 created: 2026-05-30
-updated: 2026-05-30
+updated: 2026-05-31
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-k84-2026-05-30.md"
 ---
 

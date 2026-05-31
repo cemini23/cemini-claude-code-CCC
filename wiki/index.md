@@ -33,6 +33,15 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`delive`](entities/tools/delive.md) | draft | System-audio capture + MCP server + agent skill bridge pattern (Apache-2.0) |
 | [`everos`](entities/tools/everos.md) | draft | Long-term-memory OS — context-offload-to-disk pattern for token savings (Apache-2.0) |
 | [`notebooklm-py`](entities/tools/notebooklm-py.md) | draft | NotebookLM SDK/CLI + agents skill dir — Adopt catalog (K69 Post 18) |
+| [`webwright`](entities/tools/webwright.md) | draft | Microsoft Webwright browser harness — CONDITIONAL-GO (K88) |
+| [`skill-seekers`](entities/tools/skill-seekers.md) | draft | Doc/PDF→skill converter — CONDITIONAL-GO (K88) |
+| [`book-to-skill`](entities/tools/book-to-skill.md) | draft | Book corpus→skill pipeline — CONDITIONAL-GO (K88) |
+| [`skillnet`](entities/tools/skillnet.md) | draft | SkillNet routing — compare lazy-tool (K88) |
+| [`cc-thinking-skills`](entities/tools/cc-thinking-skills.md) | draft | Thinking-skills bundle — CONDITIONAL-GO (K88) |
+| [`claude-skill-registry`](entities/tools/claude-skill-registry.md) | draft | Registry index pattern — CONDITIONAL-GO (K88) |
+| [`alirezarezvani-claude-skills`](entities/tools/alirezarezvani-claude-skills.md) | draft | Curated skills — per-skill Phase-0 (K88) |
+| [`jezweb-claude-skills`](entities/tools/jezweb-claude-skills.md) | draft | Production skill layouts — STEAL-FROM (K88) |
+| [`ruflo`](entities/tools/ruflo.md) | draft | Swarm orchestrator — REFERENCE vs conductor (K88) |
 
 ## entities/mcp-servers/
 
@@ -162,6 +171,9 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`five-layer-operator-stack`](concepts/five-layer-operator-stack.md) | draft | DamiDefi five-tool map — Claude/Obsidian/Hermes/Kimi/Cursor roles (K78) |
 | [`obsidian-contribution-rate-workflow`](concepts/obsidian-contribution-rate-workflow.md) | draft | cyrilXBT three-zone vault + contribution-rate metric (K78) |
 | [`codex-side-fork-workflow`](concepts/codex-side-fork-workflow.md) | draft | Codex `/side`/`/fork`/`goal` mapped to Cursor + Claude Code (K84) |
+| [`karpathy-agent-infrastructure-basics`](concepts/karpathy-agent-infrastructure-basics.md) | draft | Karpathy 7-layer agent infra checklist (K88 Post 0) |
+| [`claude-code-subagent-templates`](concepts/claude-code-subagent-templates.md) | draft | 15-min bounded subagent dispatch template (K88 Post 2) |
+| [`claude-harness-dynamic-workflows-k88`](concepts/claude-harness-dynamic-workflows-k88.md) | draft | AGENTS.md + plugin + token discipline post cluster (K88) |
 | [`skillrae-retrieval-augmented-execution`](concepts/skillrae-retrieval-augmented-execution.md) | draft | Skill-graph RAE — post-retrieval context compilation (K59 arXiv) |
 | [`graphflow-verifiable-agent-workflows`](concepts/graphflow-verifiable-agent-workflows.md) | draft | Proof-carrying visual workflows + durable runtime (K59 arXiv) |
 
@@ -180,6 +192,8 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`trading-posts-macro-charts-skills-md-2026-05-28`](sources/trading-posts-macro-charts-skills-md-2026-05-28.md) | draft | K76 Posts.docx — provenance stub (OSINT canon) |
 | [`trading-posts-compilation-6-2026-05-29`](sources/trading-posts-compilation-6-2026-05-29.md) | draft | K78 Posts.docx CCC slice — provenance stub (OSINT canon) |
 | [`trading-posts-compilation-k84-2026-05-30`](sources/trading-posts-compilation-k84-2026-05-30.md) | draft | K84 Posts.docx Codex harness slice — provenance stub (OSINT canon) |
+| [`multi-wiki-tool-eval-v5-k88-2026-05-31`](sources/multi-wiki-tool-eval-v5-k88-2026-05-31.md) | draft | K88 v5 eval (29 URLs) — provenance stub (OSINT canon) |
+| [`trading-posts-compilation-42-2026-05-31`](sources/trading-posts-compilation-42-2026-05-31.md) | draft | K88 Posts.docx harness slice — provenance stub (OSINT canon) |
 
 ## entities/people/
 

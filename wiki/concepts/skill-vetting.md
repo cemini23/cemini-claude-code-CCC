@@ -36,10 +36,19 @@ related:
   - concepts/k73-phase0-audit-decisions.md
   - entities/tools/mermaid-skill.md
   - entities/tools/tvscreener.md
+  - entities/tools/webwright.md
+  - entities/tools/skill-seekers.md
+  - entities/tools/book-to-skill.md
+  - entities/tools/cc-thinking-skills.md
+  - entities/tools/claude-skill-registry.md
+  - entities/tools/alirezarezvani-claude-skills.md
+  - entities/tools/jezweb-claude-skills.md
+  - entities/tools/skillnet.md
+  - sources/multi-wiki-tool-eval-v5-k88-2026-05-31.md
   - concepts/claude-code-skills-md-institutional-memory.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-05-28
+updated: 2026-05-31
 ---
 
 ## Relations

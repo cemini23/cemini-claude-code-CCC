@@ -63,9 +63,11 @@ related:
   - entities/tools/tvscreener.md
   - entities/tools/mermaid-skill.md
   - concepts/k73-phase0-audit-decisions.md
+  - sources/multi-wiki-tool-eval-v5-k88-2026-05-31.md
+  - sources/trading-posts-compilation-42-2026-05-31.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-05-28
+updated: 2026-05-31
 ---
 
 ## Relations
@@ -345,3 +347,22 @@ OSINT-wiki runs a multi-wiki tool evaluation → CCC-relevant items (Claude Code
 | metatrader-mcp-server (MIT) | **Updated page** → `@entities/tools/metatrader-mcp-server.md` (**NO-GO current scope**) |
 | tvscreener (Apache-2.0) | **Page** → `@entities/tools/tvscreener.md` (**REFERENCE / CONDITIONAL local**) |
 | Two-gate policy clarification | **Page** → `@concepts/k73-phase0-audit-decisions.md` |
+
+#### From K88 (2026-05-31) — v5 eval (29 URLs) + Posts-42 harness slice
+
+| Item | CCC disposition |
+|------|-----------------|
+| Webwright | **Page** → `@entities/tools/webwright.md` (CONDITIONAL-GO; Phase-0 pending) |
+| Skill_Seekers | **Page** → `@entities/tools/skill-seekers.md` |
+| book-to-skill | **Page** → `@entities/tools/book-to-skill.md` |
+| SkillNet | **Page** → `@entities/tools/skillnet.md` |
+| cc-thinking-skills | **Page** → `@entities/tools/cc-thinking-skills.md` (MIT license correction) |
+| claude-skill-registry | **Page** → `@entities/tools/claude-skill-registry.md` |
+| alirezarezvani/claude-skills | **Page** → `@entities/tools/alirezarezvani-claude-skills.md` |
+| jezweb/claude-skills | **Page** → `@entities/tools/jezweb-claude-skills.md` (STEAL-FROM) |
+| ruflo | **Page** → `@entities/tools/ruflo.md` (REFERENCE; Post 41) |
+| Karpathy 7 basics (Post 0) | **Page** → `@concepts/karpathy-agent-infrastructure-basics.md` |
+| Subagent 15-min template (Post 2) | **Page** → `@concepts/claude-code-subagent-templates.md` |
+| Harness/AGENTS.md cluster | **Page** → `@concepts/claude-harness-dynamic-workflows-k88.md` |
+| v5 eval provenance | **Stub** → `@sources/multi-wiki-tool-eval-v5-k88-2026-05-31.md` |
+| Posts-42 provenance | **Stub** → `@sources/trading-posts-compilation-42-2026-05-31.md` |

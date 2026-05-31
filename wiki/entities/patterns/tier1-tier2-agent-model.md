@@ -17,9 +17,10 @@ related:
   - entities/patterns/glasswing-deliberate-disagreement.md
   - entities/tools/defenseclaw.md
   - concepts/agent-sandbox-unikraft.md
+  - concepts/claude-code-subagent-templates.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-16
+updated: 2026-05-31
 ---
 
 ## Relations

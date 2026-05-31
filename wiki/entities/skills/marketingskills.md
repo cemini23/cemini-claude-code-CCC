@@ -7,9 +7,10 @@ related:
   - entities/tools/claude-code.md
   - entities/mcp-servers/anthropic-skills.md
   - entities/commands/plugin.md
+  - entities/tools/alirezarezvani-claude-skills.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-05-13
+updated: 2026-05-31
 ---
 
 ## Relations

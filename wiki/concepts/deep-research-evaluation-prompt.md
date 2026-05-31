@@ -11,9 +11,10 @@ related:
   - entities/tools/conductor-mcp.md
   - entities/mcp-servers/librarian-kb-server.md
   - entities/tools/claude-code.md
+  - sources/multi-wiki-tool-eval-v5-k88-2026-05-31.md
 maturity: validated
 created: 2026-05-21
-updated: 2026-05-30
+updated: 2026-05-31
 ---
 
 ## Relations
@@ -45,6 +46,8 @@ Bulk tool evaluation uses **seven surfaces** (six domain wikis + **CCC wiki** as
 | v3 | 2026-05-18+ | 7 (**CCC wiki** = surface 7) | `prompts/deep-research-multi-wiki-eval-v3-2026-05-21.md` | Used for K53/K54/K55 batches; frozen for reproducibility |
 | v4 | 2026-05-21 | 7 (CCC = Cursor primary + Claude Code secondary) | `prompts/deep-research-multi-wiki-eval-v4-2026-05-21.md` | Frozen for reproducing K55–K84 batches |
 | **v5** | **2026-05-30** | **7 + world-cup-bot inventory + inline license API** | **`prompts/deep-research-multi-wiki-eval-v5-2026-05-30.md`** | **Current default** — NO-GO registry, `gh` license lookup, sports LP `[TIME-VOLATILE]` |
+
+**First v5 production batch:** K88 (2026-05-31, 29 URLs) — `@sources/multi-wiki-tool-eval-v5-k88-2026-05-31.md`. Residual ~40% Gemini `NO LICENSE` false negatives on `gh api` spot-check.
 
 ### v5 deltas vs v4 [CONFIRMED 2026-05-30]
 

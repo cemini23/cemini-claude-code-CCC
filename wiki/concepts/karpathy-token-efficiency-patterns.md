@@ -8,10 +8,11 @@ related:
   - concepts/twelve-rule-claude-md-template.md
   - concepts/agent-token-discipline-openclaw-hermes.md
   - concepts/context-engineering.md
+  - concepts/karpathy-agent-infrastructure-basics.md
   - concepts/cross-wiki-tool-eval-inventory.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-05-27
+updated: 2026-05-31
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-25-2026-05-27.md"
 ---
 

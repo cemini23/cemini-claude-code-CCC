@@ -4,6 +4,18 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-05-31] brief ingest | K88 v5 tool eval + Posts-42 harness workflows
+
+Ingested `briefs/2026-05-31_k88-ccc-workflows-and-tool-eval-from-osint.md`.
+
+**Pages created (15):** `karpathy-agent-infrastructure-basics`, `claude-code-subagent-templates`, `claude-harness-dynamic-workflows-k88`, `webwright`, `skill-seekers`, `book-to-skill`, `skillnet`, `cc-thinking-skills`, `claude-skill-registry`, `alirezarezvani-claude-skills`, `jezweb-claude-skills`, `ruflo`, `sources/multi-wiki-tool-eval-v5-k88-2026-05-31`, `sources/trading-posts-compilation-42-2026-05-31`.
+
+**Pages updated (7):** `cross-wiki-tool-eval-inventory`, `deep-research-evaluation-prompt`, `karpathy-token-efficiency-patterns`, `claude-plugins-catalog-patterns`, `obsidian-vellum-second-brain-stack`, `index.md`.
+
+**Lint:** `scripts/wiki_lint.py` — cross-wiki alias resolution + citation-safe `@alias/path` boundary check.
+
+Cross-wiki: `@osint-wiki/sources/multi-wiki-tool-eval-v5-k88-2026-05-31.md`, `@osint-wiki/sources/trading-posts-compilation-42-2026-05-31.md`.
+
 ## [2026-05-30] prompt | v5 deep-research multi-wiki eval
 
 Added `prompts/deep-research-multi-wiki-eval-v5-2026-05-30.md` — current default (world-cup-bot inventory, inline `gh` license lookup, NO-GO registry, TIME-VOLATILE sports LP).

@@ -29,9 +29,11 @@ related:
   - concepts/agentic-programming-full-stack-thesis.md
   - concepts/claude-code-finance-research-setup.md
   - concepts/codex-side-fork-workflow.md
+  - entities/tools/ruflo.md
+  - entities/tools/skillnet.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-30
+updated: 2026-05-31
 ---
 
 ## Relations

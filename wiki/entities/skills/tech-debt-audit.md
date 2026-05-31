@@ -8,9 +8,11 @@ related:
   - entities/tools/claude-code.md
   - entities/mcp-servers/anthropic-skills.md
   - entities/commands/plugin.md
+  - entities/tools/cc-thinking-skills.md
+  - entities/tools/jezweb-claude-skills.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-13
+updated: 2026-05-31
 ---
 
 ## Relations

@@ -11,9 +11,10 @@ related:
   - entities/tools/claude-code.md
   - concepts/cross-wiki-tool-eval-inventory.md
   - concepts/code-as-agent-harness.md
+  - entities/tools/ruflo.md
 maturity: draft
 created: 2026-05-24
-updated: 2026-05-24
+updated: 2026-05-31
 cross-wiki-source: "@osint-wiki/concepts/kimi-agent-swarm-vs-claude-agent-teams.md"
 ---
 

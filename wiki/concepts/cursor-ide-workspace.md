@@ -16,9 +16,10 @@ related:
   - entities/tools/openevolve.md
   - concepts/five-layer-operator-stack.md
   - concepts/codex-side-fork-workflow.md
+  - entities/tools/webwright.md
 maturity: validated
 created: 2026-05-21
-updated: 2026-05-30
+updated: 2026-05-31
 ---
 
 ## Relations

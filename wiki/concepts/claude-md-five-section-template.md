@@ -10,9 +10,10 @@ related:
   - concepts/context-engineering.md
   - concepts/claude-premortem-skill.md
   - sources/trading-posts-macro-charts-skills-md-2026-05-28.md
+  - concepts/claude-harness-dynamic-workflows-k88.md
 maturity: draft
 created: 2026-05-28
-updated: 2026-05-28
+updated: 2026-05-31
 cross-wiki-source: "@osint-wiki/concepts/claude-code-skills-md-workflow.md"
 ---
 

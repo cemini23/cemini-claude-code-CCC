@@ -55,9 +55,9 @@ def load_wiki_aliases():
     )
     for m in table_re.finditer(text):
         alias = m.group(1).strip()
-        path_str = m.group(2).strip().rstrip("/")
-        # Path from CLAUDE.md already includes wiki/ — don't append again
-        wiki_path = Path(path_str)
+        path_str = m.group(2).strip().strip("`").rstrip("/")
+        # Paths in the Related Wikis table are relative to *this* CLAUDE.md's directory.
+        wiki_path = (claude_md.parent / path_str).resolve()
         if wiki_path.is_dir():
             aliases[alias] = wiki_path
         elif (wiki_path / "wiki").is_dir():
@@ -130,7 +130,10 @@ def is_cross_wiki_path_exists(normalized_path):
         prefix = f"@{alias}/"
         if normalized_path.startswith(prefix):
             rel = normalized_path[len(prefix):]
-            target = WIKI_ALIASES[alias] / rel
+            if rel.startswith("briefs/"):
+                target = WIKI_ALIASES[alias].parent / rel
+            else:
+                target = WIKI_ALIASES[alias] / rel
             return target.exists()
     return None
 
@@ -245,7 +248,7 @@ for src, fm in pages.items():
 # -- 8: cross-wiki @wiki-alias/path links ---------------------------
 # Check @wiki-alias/path/to/page.md references to other wikis.
 
-CROSS_WIKI_RE = re.compile(r"@([a-z0-9_-]+)/([^\s`)]+)")
+CROSS_WIKI_RE = re.compile(r"""@([a-z0-9_-]+)/([^\s`)\]"']+)""")
 
 cross_wiki_dangling = []  # (src, alias, rel_path, target_path)
 cross_wiki_ok = 0
@@ -260,8 +263,11 @@ if WIKI_ALIASES:
             # Only treat as cross-wiki link if alias is in WIKI_ALIASES
             if alias not in WIKI_ALIASES:
                 continue  # skip local wiki links like @concepts/..., @entities/...
-            rel_path = m.group(2).lstrip("/")
-            target = WIKI_ALIASES[alias] / rel_path
+            rel_path = m.group(2).lstrip("/").rstrip(".,;:)]\"'")
+            if rel_path.startswith("briefs/"):
+                target = WIKI_ALIASES[alias].parent / rel_path
+            else:
+                target = WIKI_ALIASES[alias] / rel_path
             if not target.exists():
                 cross_wiki_dangling.append((src, alias, rel_path, target))
             else:

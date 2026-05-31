@@ -16,9 +16,10 @@ related:
   - entities/tools/the-architect.md
   - "@osint-wiki/concepts/skillrae-retrieval-augmented-execution.md"
   - "@osint-wiki/sources/arxiv-skillrae-agent-skills-2605.10114.md"
+  - entities/tools/skillnet.md
 maturity: draft
 created: 2026-05-23
-updated: 2026-05-26
+updated: 2026-05-31
 cross-wiki-source: "@osint-wiki/sources/arxiv-skillrae-agent-skills-2605.10114.md"
 ---
 

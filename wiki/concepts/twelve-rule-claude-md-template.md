@@ -20,9 +20,10 @@ related:
   - concepts/harness-de-bloat-4x4-pattern.md
   - concepts/claude-md-five-section-template.md
   - concepts/claude-code-skills-md-institutional-memory.md
+  - concepts/karpathy-agent-infrastructure-basics.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-05-28
+updated: 2026-05-31
 cross-wiki-source: "@osint-wiki/concepts/claude-md-12-rule-template.md"
 ---
 

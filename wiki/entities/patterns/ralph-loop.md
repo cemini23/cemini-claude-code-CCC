@@ -12,9 +12,10 @@ related:
   - entities/tools/spec-kit.md
   - entities/patterns/cpr-context-compression.md
   - entities/patterns/autoresearch-loop.md
+  - entities/tools/ruflo.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-05-13
+updated: 2026-05-31
 ---
 
 ## Relations

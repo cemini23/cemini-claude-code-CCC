@@ -17,9 +17,10 @@ related:
   - entities/tools/kimi-agent-swarm.md
   - concepts/claude-code-software-factory.md
   - entities/tools/rowboat.md
+  - concepts/claude-code-subagent-templates.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-05-26
+updated: 2026-05-31
 cross-wiki-source: "@osint-wiki/concepts/scatter-gather-topology.md"
 ---
 

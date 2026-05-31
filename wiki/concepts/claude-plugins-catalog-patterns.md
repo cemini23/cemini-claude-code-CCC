@@ -8,10 +8,13 @@ related:
   - entities/tools/cursor-community-plugins.md
   - concepts/skill-vetting.md
   - entities/tools/claude-code.md
+  - concepts/claude-harness-dynamic-workflows-k88.md
+  - sources/trading-posts-compilation-42-2026-05-31.md
   - concepts/cross-wiki-tool-eval-inventory.md
+  - entities/tools/claude-skill-registry.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-05-27
+updated: 2026-05-31
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-25-2026-05-27.md"
 ---
 
@@ -22,11 +25,13 @@ cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-25-2026-05-27.
 - `@concepts/skill-vetting.md` — every plugin passes Phase-0
 - `@entities/tools/claude-code.md` — host harness
 
-Cross-wiki: K72 Post 4 (@aiedge_).
+Cross-wiki: K72 Post 4 (@aiedge_); K88 Post 4 (@polydao skills ecosystem map — overlaps v5 tool eval).
 
 ## Raw Concept
 
 K72 — **Claude plugins guide** patterns: how to browse community marketplaces, evaluate plugin scope, and install without polluting `~/.claude/` with unaudited skills.
+
+K88 Post 4 (@polydao) — **Claude Skills ecosystem map** with GitHub links; cross-ref `@sources/multi-wiki-tool-eval-v5-k88-2026-05-31.md` Adopt rows and `@concepts/claude-harness-dynamic-workflows-k88.md`.
 
 ## Narrative
 

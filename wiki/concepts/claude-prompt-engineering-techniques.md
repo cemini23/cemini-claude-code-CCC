@@ -9,9 +9,10 @@ related:
   - concepts/claude-premortem-skill.md
   - entities/patterns/full-prompt-goal-template.md
   - concepts/cross-wiki-tool-eval-inventory.md
+  - entities/tools/cc-thinking-skills.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-05-27
+updated: 2026-05-31
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-25-2026-05-27.md"
 ---
 
