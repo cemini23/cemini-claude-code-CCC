@@ -33,9 +33,10 @@ related:
   - entities/tools/claude-skill-registry.md
   - entities/tools/skill-seekers.md
   - entities/tools/npxskillui.md
+  - entities/tools/claude-trading-skills.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-05-31
+updated: 2026-06-01
 ---
 
 ## Relations

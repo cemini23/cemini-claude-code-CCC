@@ -4,6 +4,16 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-06-01] brief ingest | K92 v7 tool eval slice + Posts-12 agent harness
+
+Ingested `briefs/2026-06-01_k92-ccc-agent-harness-from-osint.md`.
+
+**Pages created (8):** `harness-layer-competition-cursor-claude-perplexity`, `deepseek-coding-cost-routing`, `agentic-pm-review-artifacts`, `obsidian-second-brain-eugeniughelbur`, `claude-trading-skills`, `slot-casino-game-developer-skills`, `sources/multi-wiki-tool-eval-v7-k92-2026-06-01`, `sources/trading-posts-compilation-12-2026-06-01` (filled).
+
+**Pages updated (4):** `agent-personality-file-hermes-openclaw`, `obsidian-vellum-second-brain-stack`, `cross-wiki-tool-eval-inventory`, `index.md`.
+
+Cross-wiki: `@osint-wiki/sources/trading-posts-compilation-12-2026-06-01.md`, `@osint-wiki/sources/multi-wiki-tool-eval-v7-k92-2026-06-01.md`.
+
 ## [2026-05-31] brief ingest | K90 v6 tool eval + Posts-16 agent harness
 
 Ingested `briefs/2026-05-31_k90-ccc-agent-harness-from-osint.md`.
@@ -433,4 +443,4 @@ Cross-wiki stub routed from `@osint-wiki/sources/multi-wiki-tool-eval-v6-k90-202
 ## [2026-06-01] cross-wiki route | Trading posts compilation K92 (12 posts)
 
 Cross-wiki stub routed from `@osint-wiki/sources/trading-posts-compilation-12-2026-06-01.md`.
-- Created wiki/sources/trading-posts-compilation-12-2026-06-01.md (stub)
+- Filled source + K92 harness pages (see ingest entry above)

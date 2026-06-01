@@ -69,9 +69,11 @@ related:
   - entities/tools/librechat.md
   - entities/tools/skyhook-radar.md
   - sources/multi-wiki-tool-eval-v6-k90-2026-05-31.md
+  - entities/tools/slot-casino-game-developer-skills.md
+  - sources/multi-wiki-tool-eval-v7-k92-2026-06-01.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-05-31
+updated: 2026-06-01
 ---
 
 ## Relations
@@ -387,3 +389,17 @@ OSINT-wiki runs a multi-wiki tool evaluation → CCC-relevant items (Claude Code
 | Claude Artifacts apps (Post 13) | **Page** → `@concepts/claude-artifacts-app-building.md` |
 | v6 eval provenance | **Stub** → `@sources/multi-wiki-tool-eval-v6-k90-2026-05-31.md` |
 | Posts-16 provenance | **Stub** → `@sources/trading-posts-compilation-16-2026-05-31.md` |
+
+#### From K92 (2026-06-01) — v7 eval (90 URLs, iGaming strip) + Posts-12 harness slice
+
+| Item | CCC disposition |
+|------|-----------------|
+| obsidian-second-brain | **Page** → `@entities/tools/obsidian-second-brain-eugeniughelbur.md` (CONDITIONAL-GO laptop-only) |
+| claude-trading-skills | **Page** → `@entities/tools/claude-trading-skills.md` (CONDITIONAL-GO; repo URL unverified) |
+| Slot-Casino-Game-Developer-Skills | **Page** → `@entities/tools/slot-casino-game-developer-skills.md` (NO-GO prod; catalog only) |
+| Harness competition (Post 9) | **Page** → `@concepts/harness-layer-competition-cursor-claude-perplexity.md` |
+| DeepSeek cost routing (Post 10) | **Page** → `@concepts/deepseek-coding-cost-routing.md` |
+| Agentic PM artifacts (Post 6) | **Page** → `@concepts/agentic-pm-review-artifacts.md` |
+| Personality file (Post 12) | **Update** → `@concepts/agent-personality-file-hermes-openclaw.md` |
+| v7 eval provenance | **Stub** → `@sources/multi-wiki-tool-eval-v7-k92-2026-06-01.md` |
+| Posts-12 provenance | **Stub** → `@sources/trading-posts-compilation-12-2026-06-01.md` |

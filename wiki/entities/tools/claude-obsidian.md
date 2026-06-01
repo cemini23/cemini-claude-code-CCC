@@ -12,9 +12,10 @@ related:
   - concepts/claude-obsidian-notebooklm-bridge.md
   - concepts/obsidian-vellum-second-brain-stack.md
   - concepts/obsidian-contribution-rate-workflow.md
+  - entities/tools/obsidian-second-brain-eugeniughelbur.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-05-30
+updated: 2026-06-01
 cross-wiki-source: "@osint-wiki/entities/tools/claude-obsidian.md"
 ---
 

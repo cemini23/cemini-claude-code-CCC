@@ -13,9 +13,10 @@ related:
   - concepts/enterprise-auto-mode-telemetry-rollout.md
   - concepts/claude-code-subagent-templates.md
   - concepts/nine-stage-agent-team-production.md
+  - concepts/agentic-pm-review-artifacts.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-05-31
+updated: 2026-06-01
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-25-2026-05-27.md"
 ---
 

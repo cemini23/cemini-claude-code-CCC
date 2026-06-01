@@ -10,9 +10,10 @@ related:
   - concepts/context-engineering.md
   - concepts/karpathy-agent-infrastructure-basics.md
   - concepts/cross-wiki-tool-eval-inventory.md
+  - concepts/deepseek-coding-cost-routing.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-05-31
+updated: 2026-06-01
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-25-2026-05-27.md"
 ---
 

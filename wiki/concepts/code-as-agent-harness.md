@@ -32,9 +32,10 @@ related:
   - concepts/train-llm-agents-2026-curriculum.md
   - sources/arxiv-continual-harness-self-improving-agents-2605.09998.md
   - concepts/karpathy-agent-infrastructure-basics.md
+  - concepts/harness-layer-competition-cursor-claude-perplexity.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-05-31
+updated: 2026-06-01
 cross-wiki-source: "@osint-wiki/sources/arxiv-code-as-agent-harness-survey-2605.18747.md"
 ---
 

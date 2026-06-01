@@ -10,9 +10,10 @@ related:
   - concepts/mcp-context-optimization.md
   - entities/tools/repomix.md
   - concepts/claude-code-large-codebase-workflow.md
+  - concepts/deepseek-coding-cost-routing.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-05-22
+updated: 2026-06-01
 ---
 
 ## Relations

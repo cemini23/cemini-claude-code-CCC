@@ -17,9 +17,10 @@ related:
   - entities/tools/claude-code-tips.md
   - entities/tools/everything-claude-code.md
   - concepts/claude-premortem-skill.md
+  - entities/tools/obsidian-second-brain-eugeniughelbur.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-05-26
+updated: 2026-06-01
 ---
 
 ## Relations

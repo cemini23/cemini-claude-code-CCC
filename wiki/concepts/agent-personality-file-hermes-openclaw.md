@@ -9,9 +9,10 @@ related:
   - entities/tools/build-your-own-openclaw.md
   - concepts/agent-memory-stack-comparison.md
   - sources/trading-posts-compilation-16-2026-05-31.md
+  - sources/trading-posts-compilation-12-2026-06-01.md
 maturity: draft
 created: 2026-05-31
-updated: 2026-05-31
+updated: 2026-06-01
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-16-2026-05-31.md"
 ---
 
@@ -21,10 +22,11 @@ cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-16-2026-05-31.
 - `@entities/tools/hermes-agent.md` — reference runtime (not prod)
 - `@entities/tools/build-your-own-openclaw.md` — OpenClaw successor framing
 - `@sources/trading-posts-compilation-16-2026-05-31.md` — K90 Post 2 (@Voxyz_ai)
+- `@sources/trading-posts-compilation-12-2026-06-01.md` — K92 Post 12 (@Voxyz_ai, reaffirm)
 
 ## Raw Concept
 
-K90 Post 2 (@Voxyz_ai): **agent personality file** — structured markdown (voice, boundaries, anti-patterns) so OpenClaw/Hermes agents stop sounding like generic assistants. CCC maps to **Skills.md / CLAUDE.md patterns**, not Hermes install **`[TENTATIVE]`**.
+K90 Post 2 / **K92 Post 12** (@Voxyz_ai): **agent personality file** — structured markdown (voice, boundaries, anti-patterns) so OpenClaw/Hermes agents stop sounding like generic assistants. CCC maps to **Skills.md / CLAUDE.md patterns**, not Hermes install **`[TENTATIVE]`**.
 
 ## Narrative
 

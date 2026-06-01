@@ -19,9 +19,10 @@ related:
   - concepts/claude-code-large-codebase-workflow.md
   - concepts/codex-side-fork-workflow.md
   - entities/tools/skillnet.md
+  - concepts/harness-layer-competition-cursor-claude-perplexity.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-31
+updated: 2026-06-01
 ---
 
 ## Relations

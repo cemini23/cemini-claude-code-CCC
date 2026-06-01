@@ -17,9 +17,10 @@ related:
   - concepts/claude-premortem-skill.md
   - entities/tools/bmad-creative-intelligence-suite.md
   - concepts/agent-completion-verification-gates.md
+  - concepts/agentic-pm-review-artifacts.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-05-27
+updated: 2026-06-01
 ---
 
 ## Relations

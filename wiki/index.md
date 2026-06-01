@@ -46,6 +46,9 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`hermes-desktop`](entities/tools/hermes-desktop.md) | draft | Tauri GUI for Hermes ecosystem — reference-only (K90) |
 | [`librechat`](entities/tools/librechat.md) | draft | Multi-model chat UI — REFERENCE (K90) |
 | [`skyhook-radar`](entities/tools/skyhook-radar.md) | draft | skyhook-io/radar — DEFER (K90) |
+| [`obsidian-second-brain-eugeniughelbur`](entities/tools/obsidian-second-brain-eugeniughelbur.md) | draft | Obsidian vault cron agents — CONDITIONAL-GO laptop-only (K92) |
+| [`claude-trading-skills`](entities/tools/claude-trading-skills.md) | draft | Trading skill pack — CONDITIONAL-GO Phase-0 pending (K92) |
+| [`slot-casino-game-developer-skills`](entities/tools/slot-casino-game-developer-skills.md) | draft | iGaming slot skills — NO-GO prod (K92 catalog) |
 
 ## entities/mcp-servers/
 
@@ -183,6 +186,9 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`remote-hermes-access-pattern`](concepts/remote-hermes-access-pattern.md) | draft | Remote Hermes gateway — reference only (K90 Post 11) |
 | [`ai-agents-learning-roadmap-reference`](concepts/ai-agents-learning-roadmap-reference.md) | draft | @amitiitbhu agents curriculum pointer (K90) |
 | [`claude-artifacts-app-building`](concepts/claude-artifacts-app-building.md) | draft | Claude Artifacts lightweight app pattern (K90 Post 13) |
+| [`harness-layer-competition-cursor-claude-perplexity`](concepts/harness-layer-competition-cursor-claude-perplexity.md) | draft | Harness layer competition post (K92 Post 9) |
+| [`deepseek-coding-cost-routing`](concepts/deepseek-coding-cost-routing.md) | draft | DeepSeek cheap codegen routing (K92 Post 10) |
+| [`agentic-pm-review-artifacts`](concepts/agentic-pm-review-artifacts.md) | draft | Agentic PM review artifacts (K92 Post 6) |
 | [`skillrae-retrieval-augmented-execution`](concepts/skillrae-retrieval-augmented-execution.md) | draft | Skill-graph RAE — post-retrieval context compilation (K59 arXiv) |
 | [`graphflow-verifiable-agent-workflows`](concepts/graphflow-verifiable-agent-workflows.md) | draft | Proof-carrying visual workflows + durable runtime (K59 arXiv) |
 
@@ -205,6 +211,8 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`trading-posts-compilation-42-2026-05-31`](sources/trading-posts-compilation-42-2026-05-31.md) | draft | K88 Posts.docx harness slice — provenance stub (OSINT canon) |
 | [`multi-wiki-tool-eval-v6-k90-2026-05-31`](sources/multi-wiki-tool-eval-v6-k90-2026-05-31.md) | draft | K90 v6 eval (41 URLs) — provenance stub (OSINT canon) |
 | [`trading-posts-compilation-16-2026-05-31`](sources/trading-posts-compilation-16-2026-05-31.md) | draft | K90 Posts.docx harness slice — provenance stub (OSINT canon) |
+| [`multi-wiki-tool-eval-v7-k92-2026-06-01`](sources/multi-wiki-tool-eval-v7-k92-2026-06-01.md) | draft | K92 v7 eval (90 URLs) — provenance stub (OSINT canon) |
+| [`trading-posts-compilation-12-2026-06-01`](sources/trading-posts-compilation-12-2026-06-01.md) | draft | K92 Posts.docx harness slice — provenance stub (OSINT canon) |
 
 ## entities/people/
 
@@ -272,7 +280,3 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | `entities/tools/codexbar.md` | `@osint-wiki/sources/multi-wiki-tool-eval-ipsale-risk-2026-05-17.md` | Cross-wiki tool-eval source (56-repo eval) |
 | `entities/tools/superclaude-framework.md` | `@osint-wiki/sources/multi-wiki-tool-eval-ipsale-risk-2026-05-17.md` | Cross-wiki tool-eval source (56-repo eval) |
 | `entities/tools/roo-code.md` | `@osint-wiki/sources/multi-wiki-tool-eval-ipsale-risk-2026-05-17.md` | Cross-wiki tool-eval source (56-repo eval) |
-
-## Sources
-
-- [Trading posts compilation K92 (12 posts)](sources/trading-posts-compilation-12-2026-06-01.md) — cross-wiki stub routed from ingest — `cross-wiki`

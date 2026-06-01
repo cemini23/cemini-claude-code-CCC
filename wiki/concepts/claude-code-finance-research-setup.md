@@ -10,9 +10,10 @@ related:
   - entities/tools/claude-code.md
   - concepts/cross-wiki-tool-eval-inventory.md
   - sources/trading-posts-compilation-25-2026-05-27.md
+  - entities/tools/claude-trading-skills.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-05-27
+updated: 2026-06-01
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-25-2026-05-27.md"
 ---
 

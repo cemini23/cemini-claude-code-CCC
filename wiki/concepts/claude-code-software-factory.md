@@ -17,9 +17,10 @@ related:
   - concepts/harness-de-bloat-4x4-pattern.md
   - concepts/nine-stage-agent-team-production.md
   - sources/trading-posts-compilation-16-2026-05-31.md
+  - concepts/agentic-pm-review-artifacts.md
 maturity: draft
 created: 2026-05-26
-updated: 2026-05-31
+updated: 2026-06-01
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-38-2026-05-26.md"
 ---
 

@@ -47,9 +47,11 @@ related:
   - sources/multi-wiki-tool-eval-v5-k88-2026-05-31.md
   - concepts/claude-code-skills-md-institutional-memory.md
   - entities/tools/npxskillui.md
+  - entities/tools/claude-trading-skills.md
+  - entities/tools/obsidian-second-brain-eugeniughelbur.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-05-31
+updated: 2026-06-01
 ---
 
 ## Relations

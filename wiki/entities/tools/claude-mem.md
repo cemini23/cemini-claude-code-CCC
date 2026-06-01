@@ -23,9 +23,10 @@ related:
   - concepts/claude-obsidian-notebooklm-bridge.md
   - entities/tools/claude-subconscious.md
   - concepts/agent-memory-stack-comparison.md
+  - entities/tools/obsidian-second-brain-eugeniughelbur.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-27
+updated: 2026-06-01
 ---
 
 ## Relations

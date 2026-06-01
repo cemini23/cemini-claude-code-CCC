@@ -18,9 +18,10 @@ related:
   - concepts/codex-side-fork-workflow.md
   - entities/tools/webwright.md
   - concepts/claude-artifacts-app-building.md
+  - concepts/harness-layer-competition-cursor-claude-perplexity.md
 maturity: validated
 created: 2026-05-21
-updated: 2026-05-31
+updated: 2026-06-01
 ---
 
 ## Relations

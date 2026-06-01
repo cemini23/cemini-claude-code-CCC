@@ -14,9 +14,11 @@ related:
   - concepts/cross-wiki-tool-eval-inventory.md
   - sources/trading-posts-compilation-6-2026-05-29.md
   - sources/trading-posts-compilation-42-2026-05-31.md
+  - entities/tools/obsidian-second-brain-eugeniughelbur.md
+  - sources/trading-posts-compilation-12-2026-06-01.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-05-31
+updated: 2026-06-01
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-25-2026-05-27.md"
 ---
 
@@ -30,7 +32,7 @@ cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-25-2026-05-27.
 - `@entities/tools/claude-obsidian.md` — **DO NOT ADOPT** — pattern-only
 - `@sources/trading-posts-compilation-6-2026-05-29.md` — K78 provenance stub
 
-Cross-wiki: K72 Posts 7, 13–14, 21 (@neil_xbt, @cyrilXBT, @JulianGoldieSEO, @zeuuss_01); K78 Post 6 (@cyrilXBT); **K88** Posts 6–7, 9, 17, 30 (Hermes + Obsidian course cluster — link `@entities/tools/hermes-agent.md`, do not adopt Hermes for prod).
+Cross-wiki: K72 Posts 7, 13–14, 21; K78 Post 6; **K88** Obsidian course cluster; **K92 Post 11** (@eugeniu_ghelbur) → `@entities/tools/obsidian-second-brain-eugeniughelbur.md` (laptop-only CONDITIONAL-GO).
 
 ## Raw Concept
 

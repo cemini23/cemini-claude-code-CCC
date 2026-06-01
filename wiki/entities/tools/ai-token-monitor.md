@@ -8,9 +8,10 @@ related:
   - entities/openusage.md
   - entities/tools/codexbar.md
   - concepts/agent-token-discipline-openclaw-hermes.md
+  - concepts/deepseek-coding-cost-routing.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-05-17
+updated: 2026-06-01
 cross-wiki-source: "@osint-wiki/sources/multi-wiki-tool-eval-ipsale-risk-2026-05-17.md"
 ---
 
