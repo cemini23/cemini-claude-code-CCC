@@ -14,6 +14,7 @@ related:
   - concepts/claude-code-subagent-templates.md
   - concepts/nine-stage-agent-team-production.md
   - concepts/agentic-pm-review-artifacts.md
+  - concepts/system-scaling-harness-agentic-ai.md
 maturity: draft
 created: 2026-05-27
 updated: 2026-06-01

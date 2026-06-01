@@ -10,6 +10,10 @@ related:
   - concepts/continual-harness-online-self-improvement.md
   - entities/tools/revfactory-harness.md
   - concepts/subagent-orchestration.md
+  - concepts/system-scaling-harness-agentic-ai.md
+  - concepts/muse-autoskill-skill-lifecycle.md
+  - "@osint-wiki/sources/sia-self-improving-ai-harness-weight-updates-2026-05-30.md"
+  - sources/arxiv-system-scaling-harness-2605.26112.md
   - sources/trading-posts-compilation-31-2026-06-01.md
 maturity: draft
 created: 2026-06-01
@@ -38,7 +42,9 @@ arXiv:2605.30621 — separate **harness-updating** (writing good deltas) from **
 2. Executor must **activate** skills/rules — weak-tier failure is usage, not edit quality.
 3. Score live task **benefit**, not edit eloquence alone.
 
-**Verdict:** **REFERENCE** — informs harness adoption (revfactory-harness, agents-best-practices cherry-pick).
+**SIA (2605.27276):** harness **and** weight co-update — canon on `@osint-wiki/sources/sia-self-improving-ai-harness-weight-updates-2026-05-30.md` (K84); **not re-ingested** on CCC (dedupe).
+
+**Verdict:** **REFERENCE**
 
 ## Snippets
 

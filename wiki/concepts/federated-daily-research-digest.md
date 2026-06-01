@@ -9,6 +9,10 @@ related:
   - concepts/cross-wiki-routing.md
   - entities/tools/exa-mcp.md
   - sources/monokern-research-pipeline-claude-notebooklm-obsidian-2026-06-01.md
+  - concepts/autosci-memory-centric-research-agents.md
+  - sources/arxiv-system-scaling-harness-2605.26112.md
+  - sources/arxiv-autosci-2605.31468.md
+  - sweeps/2026-06-01-daily.md
 maturity: core
 created: 2026-06-01
 updated: 2026-06-01
@@ -17,7 +21,7 @@ cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 
 ## Relations
 
-- `@wiki/meta/daily-research-digest-cadence.md` — CCC-local cadence stub
+- `@meta/daily-research-digest-cadence.md` — CCC-local cadence stub
 - `@concepts/monokern-compounding-research-pipeline.md` — weekly overlay
 - `@concepts/cross-wiki-routing.md` — federation read paths
 - `@entities/tools/exa-mcp.md` — external research MCP

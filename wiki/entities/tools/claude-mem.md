@@ -24,6 +24,8 @@ related:
   - entities/tools/claude-subconscious.md
   - concepts/agent-memory-stack-comparison.md
   - entities/tools/obsidian-second-brain-eugeniughelbur.md
+  - concepts/autosci-memory-centric-research-agents.md
+  - sources/arxiv-autosci-2605.31468.md
 maturity: validated
 created: 2026-05-13
 updated: 2026-06-01

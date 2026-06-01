@@ -33,6 +33,8 @@ related:
   - sources/arxiv-continual-harness-self-improving-agents-2605.09998.md
   - concepts/karpathy-agent-infrastructure-basics.md
   - concepts/harness-layer-competition-cursor-claude-perplexity.md
+  - concepts/system-scaling-harness-agentic-ai.md
+  - sources/arxiv-system-scaling-harness-2605.26112.md
 maturity: draft
 created: 2026-05-21
 updated: 2026-06-01
@@ -72,7 +74,7 @@ arXiv:2605.18747 frames **code as operational substrate** — not only generated
 |-------|----------------|------------------------------|
 | **Harness interface** | Code linking reasoning ↔ action ↔ environment | MCP tool surface (`Read`/`Edit`/`Bash`), `@entities/tools/conductor-mcp.md` `conductor_query`, file-backed wiki reads |
 | **Harness mechanisms** | Planning, memory, tools, feedback control | `@concepts/subagent-orchestration.md`, `@entities/mcp-servers/stash.md`, `@entities/tools/lazy-tool.md`, `@entities/tools/claude-mem.md`, `@concepts/hooks-for-automation.md`, `/goal` + `@entities/patterns/full-prompt-goal-template.md` |
-| **Scaling the harness** | Multi-agent shared artifacts + review | Parallel `Agent` tool calls; server-Claude on prod vs laptop wiki curator; `@entities/patterns/glasswing-deliberate-disagreement.md` for adversarial gating |
+| **Scaling the harness** | Multi-agent shared artifacts + review | Parallel `Agent` tool calls; server-Claude on prod vs laptop wiki curator; `@entities/patterns/glasswing-deliberate-disagreement.md` for adversarial gating; **system scaling** eval dimensions per `@concepts/system-scaling-harness-agentic-ai.md` (arXiv 2605.26112) |
 
 ### Design imperatives [CONFIRMED against CCC practice]
 

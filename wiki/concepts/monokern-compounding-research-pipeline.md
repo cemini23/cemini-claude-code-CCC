@@ -10,6 +10,8 @@ related:
   - concepts/claude-obsidian-notebooklm-bridge.md
   - sources/monokern-research-pipeline-claude-notebooklm-obsidian-2026-06-01.md
   - meta/daily-research-digest-cadence.md
+  - concepts/autosci-memory-centric-research-agents.md
+  - sources/arxiv-autosci-2605.31468.md
 maturity: draft
 created: 2026-06-01
 updated: 2026-06-01

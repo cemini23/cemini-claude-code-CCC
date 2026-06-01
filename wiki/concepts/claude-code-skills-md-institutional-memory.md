@@ -11,9 +11,10 @@ related:
   - entities/tools/hermes-agent.md
   - concepts/context-engineering.md
   - sources/trading-posts-macro-charts-skills-md-2026-05-28.md
+  - concepts/muse-autoskill-skill-lifecycle.md
 maturity: draft
 created: 2026-05-28
-updated: 2026-05-28
+updated: 2026-06-01
 cross-wiki-source: "@osint-wiki/concepts/claude-code-skills-md-workflow.md"
 ---
 

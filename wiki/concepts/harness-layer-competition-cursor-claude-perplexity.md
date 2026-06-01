@@ -10,6 +10,7 @@ related:
   - entities/tools/claude-code.md
   - entities/tools/lazy-tool.md
   - sources/trading-posts-compilation-12-2026-06-01.md
+  - concepts/system-scaling-harness-agentic-ai.md
 maturity: draft
 created: 2026-06-01
 updated: 2026-06-01

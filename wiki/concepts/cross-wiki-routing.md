@@ -23,6 +23,7 @@ related:
   - concepts/claude-obsidian-notebooklm-bridge.md
   - concepts/claude-code-finance-research-setup.md
   - concepts/federated-daily-research-digest.md
+  - concepts/autosci-memory-centric-research-agents.md
 maturity: validated
 created: 2026-05-13
 updated: 2026-06-01

@@ -4,6 +4,16 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-06-01] ingest | CCC inbox — 3 arXiv harness papers (digest fetch)
+
+Ingested from `research to be indexed/` (daily digest 2026-06-01). **Skipped** arXiv 2605.27276 (SIA) — already on `@osint-wiki` K84.
+
+**Pages created (6):** `system-scaling-harness-agentic-ai`, `muse-autoskill-skill-lifecycle`, `autosci-memory-centric-research-agents`, `sources/arxiv-system-scaling-harness-2605.26112`, `sources/arxiv-muse-autoskill-2605.27366`, `sources/arxiv-autosci-2605.31468`.
+
+**Pages updated (8):** `code-as-agent-harness`, `harness-updating-vs-benefit-nonmonotonic`, `continual-harness-online-self-improvement`, `skillrae-retrieval-augmented-execution`, `skill-vetting`, `monokern-compounding-research-pipeline`, `federated-daily-research-digest`, `index.md`.
+
+**Raw:** 3 PDFs → `raw-sources/`; inbox cleared.
+
 ## [2026-06-01] brief ingest | K93 digest + monokern + harness (structural + wiki)
 
 Ingested `briefs/2026-06-01_k93-ccc-digest-monokern-harness-from-osint.md`.

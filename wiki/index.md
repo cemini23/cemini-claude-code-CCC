@@ -194,6 +194,9 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`harness-updating-vs-benefit-nonmonotonic`](concepts/harness-updating-vs-benefit-nonmonotonic.md) | draft | arXiv 2605.30621 harness-updating vs benefit (K93) |
 | [`monokern-compounding-research-pipeline`](concepts/monokern-compounding-research-pipeline.md) | draft | Weekly NotebookLM deep-research overlay (K93) |
 | [`federated-daily-research-digest`](concepts/federated-daily-research-digest.md) | core | Per-wiki Exa/inbox discovery automation (K93) |
+| [`system-scaling-harness-agentic-ai`](concepts/system-scaling-harness-agentic-ai.md) | draft | System scaling vs model scaling — arXiv 2605.26112 |
+| [`muse-autoskill-skill-lifecycle`](concepts/muse-autoskill-skill-lifecycle.md) | draft | MUSE skill create/eval/refine lifecycle — 2605.27366 |
+| [`autosci-memory-centric-research-agents`](concepts/autosci-memory-centric-research-agents.md) | draft | AutoSci SciMem research lifecycle — 2605.31468 |
 | [`skillrae-retrieval-augmented-execution`](concepts/skillrae-retrieval-augmented-execution.md) | draft | Skill-graph RAE — post-retrieval context compilation (K59 arXiv) |
 | [`graphflow-verifiable-agent-workflows`](concepts/graphflow-verifiable-agent-workflows.md) | draft | Proof-carrying visual workflows + durable runtime (K59 arXiv) |
 
@@ -222,6 +225,9 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`trading-posts-compilation-31-2026-06-01`](sources/trading-posts-compilation-31-2026-06-01.md) | draft | K93 Posts.docx harness slice — provenance stub (OSINT canon) |
 | [`arxiv-harness-updating-not-benefit-2605.30621`](sources/arxiv-harness-updating-not-benefit-2605.30621.md) | draft | arXiv 2605.30621 harness paper (K93) |
 | [`monokern-research-pipeline-claude-notebooklm-obsidian-2026-06-01`](sources/monokern-research-pipeline-claude-notebooklm-obsidian-2026-06-01.md) | draft | Monokern pipeline source (K93) |
+| [`arxiv-system-scaling-harness-2605.26112`](sources/arxiv-system-scaling-harness-2605.26112.md) | draft | System scaling the harness — arXiv 2605.26112 |
+| [`arxiv-muse-autoskill-2605.27366`](sources/arxiv-muse-autoskill-2605.27366.md) | draft | MUSE-Autoskill skill lifecycle — arXiv 2605.27366 |
+| [`arxiv-autosci-2605.31468`](sources/arxiv-autosci-2605.31468.md) | draft | AutoSci memory-centric research — arXiv 2605.31468 |
 
 ## meta/
 

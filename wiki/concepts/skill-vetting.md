@@ -50,6 +50,8 @@ related:
   - entities/tools/claude-trading-skills.md
   - entities/tools/obsidian-second-brain-eugeniughelbur.md
   - concepts/thin-harness-fat-skills-garrytan.md
+  - concepts/muse-autoskill-skill-lifecycle.md
+  - sources/arxiv-muse-autoskill-2605.27366.md
 maturity: draft
 created: 2026-05-17
 updated: 2026-06-01

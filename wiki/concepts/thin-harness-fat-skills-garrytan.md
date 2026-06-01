@@ -11,6 +11,8 @@ related:
   - concepts/skill-vetting.md
   - sources/trading-posts-compilation-31-2026-06-01.md
   - entities/tools/agents-best-practices.md
+  - concepts/system-scaling-harness-agentic-ai.md
+  - sources/arxiv-system-scaling-harness-2605.26112.md
 maturity: draft
 created: 2026-06-01
 updated: 2026-06-01

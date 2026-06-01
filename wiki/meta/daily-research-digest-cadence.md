@@ -6,6 +6,7 @@ keywords: [daily-digest, sweeps, launchagent, ccc]
 related:
   - concepts/federated-daily-research-digest.md
   - concepts/monokern-compounding-research-pipeline.md
+  - sweeps/2026-06-01-daily.md
 maturity: core
 created: 2026-06-01
 updated: 2026-06-01

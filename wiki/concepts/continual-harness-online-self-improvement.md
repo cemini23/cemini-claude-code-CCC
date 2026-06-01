@@ -11,6 +11,8 @@ related:
   - concepts/cross-wiki-tool-eval-inventory.md
   - sources/trading-posts-compilation-25-2026-05-27.md
   - concepts/harness-updating-vs-benefit-nonmonotonic.md
+  - concepts/muse-autoskill-skill-lifecycle.md
+  - sources/arxiv-muse-autoskill-2605.27366.md
 maturity: draft
 created: 2026-05-27
 updated: 2026-06-01

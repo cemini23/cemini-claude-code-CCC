@@ -1,0 +1,47 @@
+---
+title: System scaling the harness — beyond model-centric agent eval
+type: concept
+tags: [concept, agent-harness, system-scaling, arxiv]
+keywords: [2605.26112, system-scaling, auditable-harness, verifiable-orchestration]
+related:
+  - sources/arxiv-system-scaling-harness-2605.26112.md
+  - concepts/code-as-agent-harness.md
+  - concepts/harness-layer-competition-cursor-claude-perplexity.md
+  - concepts/thin-harness-fat-skills-garrytan.md
+  - concepts/harness-updating-vs-benefit-nonmonotonic.md
+  - concepts/agent-completion-verification-gates.md
+  - entities/tools/claude-code.md
+maturity: draft
+created: 2026-06-01
+updated: 2026-06-01
+---
+
+## Relations
+
+- `@sources/arxiv-system-scaling-harness-2605.26112.md` — arXiv 2605.26112
+- `@concepts/code-as-agent-harness.md` — Cemini three-layer stack
+- `@concepts/harness-layer-competition-cursor-claude-perplexity.md` — harness-as-product thesis (K92)
+- `@concepts/thin-harness-fat-skills-garrytan.md` — complementary social framing (K93)
+
+## Raw Concept
+
+arXiv **2605.26112** (Gu) — agent progress requires **system scaling**: treat memory, retrieval, tools, orchestration, verification, and governance as measurable harness subsystems, not implementation footnotes.
+
+## Narrative
+
+### CCC evaluation checklist [TENTATIVE]
+
+| Harness dimension | Cemini artifact |
+|-------------------|-----------------|
+| Auditable | `wiki/log.md`, git history, `@entities/tools/claude-mem.md` |
+| Persistent | wiki git, stash, librarian (OSINT) |
+| Modular | MCP servers, skills, subagents |
+| Verifiable | `@concepts/agent-completion-verification-gates.md`, lint, pytest on prod |
+| Orchestration | conductor, `@concepts/subagent-orchestration.md` |
+
+**Verdict:** **REFERENCE** — use when arguing for harness metrics in eval prompts (v5/v6) vs model-only success rates.
+
+## Snippets
+
+> "Evaluation remains largely model-centric… treating memory, retrieval, tool use, orchestration, verification, and governance as secondary."
+> — [Source: arxiv-2605.26112-from-model-scaling-to-system-scaling-scaling-the.pdf]
