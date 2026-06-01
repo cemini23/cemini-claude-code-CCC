@@ -4,6 +4,11 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-06-01] phase0 | K92 eval repos — license + clone audits
+
+- **tradermonty/claude-trading-skills** — GO (MIT, active)
+- **eugeniughelbur/obsidian-second-brain** — GO laptop-only (canon @osint-wiki/sources/)
+
 ## [2026-06-01] brief ingest | K92 v7 tool eval slice + Posts-12 agent harness
 
 Ingested `briefs/2026-06-01_k92-ccc-agent-harness-from-osint.md`.

@@ -33,13 +33,16 @@ updated: 2026-06-01
 
 ## Narrative
 
-| Check | Verdict |
-|-------|---------|
-| Prod / librarian | **NO-GO** — autonomous vault rewrite; never on `cemini-librarian` |
-| Laptop workflow | **CONDITIONAL-GO** — git-track vault; `/tmp/proposed-changes/` review gate per OSINT canon |
-| vs claude-obsidian | Different repo; still check SessionStart collision with claude-mem |
+### Phase-0 audit (2026-06-01)
 
-**Verdict:** **CONDITIONAL-GO (laptop-only)** — read OSINT source page before install.
+| Check | Result |
+|-------|--------|
+| License | **MIT** (`gh api`) |
+| Maturity | **1657★** / push **2026-05-31** |
+| Prod / librarian | **NO-GO** — autonomous vault rewrite |
+| Laptop | **GO** with OSINT guardrails (git-track; proposals in `/tmp/`) |
+
+**Verdict: GO (laptop workflow)** — canon + risks on `@osint-wiki/sources/obsidian-second-brain-eugeniughelbur.md`.
 
 ## Snippets
 
