@@ -4,6 +4,11 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-06-01] adopt | K92 GO items on laptop
+
+- claude-trading-skills (5 skills, trading-* prefix)
+- obsidian-second-brain (vault wiki/, bg agent off)
+
 ## [2026-06-01] phase0 | K92 eval repos — license + clone audits
 
 - **tradermonty/claude-trading-skills** — GO (MIT, active)

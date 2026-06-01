@@ -12,6 +12,7 @@ related:
 maturity: validated
 created: 2026-06-01
 updated: 2026-06-01
+laptop_install: VERIFIED 2026-06-01 — 5 no-API skills at ~/.claude/skills/trading-* (market-breadth, uptrend, position-sizer, trader-memory-core, signal-postmortem); full catalog via tradermonty/claude-trading-skills
 ---
 
 ## Relations
@@ -40,6 +41,10 @@ Clone: `/tmp/k92-phase0/claude-trading-skills`
 | Risk | Credential patterns in skills — scan before `~/.claude/skills/` copy |
 
 **Verdict: GO (workflow adopt)** — skill-audit each file before install; no prod trading wiring.
+
+### Adoption status [ADOPTED 2026-06-01]
+
+Installed **no-API starter path** (5 skills, `trading-*` prefix in `~/.claude/skills/`). Re-run: `bash scripts/adopt_k92_phase0.sh` from OSINT WORKSPACE repo root. Paid-API skills (FMP, etc.) remain opt-in per `skills-index.yaml`.
 
 ## Snippets
 

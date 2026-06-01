@@ -12,9 +12,10 @@ related:
   - sources/trading-posts-compilation-12-2026-06-01.md
   - sources/multi-wiki-tool-eval-v7-k92-2026-06-01.md
   - "@osint-wiki/sources/obsidian-second-brain-eugeniughelbur.md"
-maturity: draft
+maturity: validated
 created: 2026-06-01
 updated: 2026-06-01
+laptop_install: VERIFIED 2026-06-01 — ~/.claude/skills/obsidian-second-brain + setup.sh on OSINT wiki/ vault; guardrails in OSINT .local/ (gitignored)
 ---
 
 ## Relations
@@ -43,6 +44,13 @@ updated: 2026-06-01
 | Laptop | **GO** with OSINT guardrails (git-track; proposals in `/tmp/`) |
 
 **Verdict: GO (laptop workflow)** — canon + risks on `@osint-wiki/sources/obsidian-second-brain-eugeniughelbur.md`.
+
+### Adoption status [ADOPTED 2026-06-01]
+
+- Skill cloned to `~/.claude/skills/obsidian-second-brain`; **43** slash commands symlinked.
+- `OBSIDIAN_VAULT_PATH` → OSINT `wiki/` in `~/.claude/settings.json`.
+- PostCompact bg agent **off** (default); SessionStart vault context wired.
+- Operator: run `/obsidian-init` once; read Cemini policy file before enabling cron.
 
 ## Snippets
 
