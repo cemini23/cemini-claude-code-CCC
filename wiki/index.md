@@ -272,3 +272,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | `entities/tools/codexbar.md` | `@osint-wiki/sources/multi-wiki-tool-eval-ipsale-risk-2026-05-17.md` | Cross-wiki tool-eval source (56-repo eval) |
 | `entities/tools/superclaude-framework.md` | `@osint-wiki/sources/multi-wiki-tool-eval-ipsale-risk-2026-05-17.md` | Cross-wiki tool-eval source (56-repo eval) |
 | `entities/tools/roo-code.md` | `@osint-wiki/sources/multi-wiki-tool-eval-ipsale-risk-2026-05-17.md` | Cross-wiki tool-eval source (56-repo eval) |
+
+## Sources
+
+- [Trading posts compilation K92 (12 posts)](sources/trading-posts-compilation-12-2026-06-01.md) — cross-wiki stub routed from ingest — `cross-wiki`

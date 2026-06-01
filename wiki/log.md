@@ -429,3 +429,8 @@ Cross-wiki stub routed from `@osint-wiki/sources/trading-posts-compilation-16-20
 
 Cross-wiki stub routed from `@osint-wiki/sources/multi-wiki-tool-eval-v6-k90-2026-05-31.md`.
 - Filled `wiki/sources/multi-wiki-tool-eval-v6-k90-2026-05-31.md` + K90 tool entity pages (see ingest entry above)
+
+## [2026-06-01] cross-wiki route | Trading posts compilation K92 (12 posts)
+
+Cross-wiki stub routed from `@osint-wiki/sources/trading-posts-compilation-12-2026-06-01.md`.
+- Created wiki/sources/trading-posts-compilation-12-2026-06-01.md (stub)
