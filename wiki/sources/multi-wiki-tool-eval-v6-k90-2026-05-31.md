@@ -14,6 +14,7 @@ related:
   - sources/multi-wiki-tool-eval-v5-k88-2026-05-31.md
   - sources/trading-posts-compilation-16-2026-05-31.md
   - sources/multi-wiki-tool-eval-v7-k92-2026-06-01.md
+  - sources/multi-wiki-tool-eval-v5-k93-2026-06-01.md
 maturity: draft
 read_status: skimmed
 created: 2026-05-31

@@ -71,6 +71,7 @@ related:
   - sources/multi-wiki-tool-eval-v6-k90-2026-05-31.md
   - entities/tools/slot-casino-game-developer-skills.md
   - sources/multi-wiki-tool-eval-v7-k92-2026-06-01.md
+  - sources/multi-wiki-tool-eval-v5-k93-2026-06-01.md
 maturity: draft
 created: 2026-05-21
 updated: 2026-06-01
@@ -403,3 +404,19 @@ OSINT-wiki runs a multi-wiki tool evaluation → CCC-relevant items (Claude Code
 | Personality file (Post 12) | **Update** → `@concepts/agent-personality-file-hermes-openclaw.md` |
 | v7 eval provenance | **Stub** → `@sources/multi-wiki-tool-eval-v7-k92-2026-06-01.md` |
 | Posts-12 provenance | **Stub** → `@sources/trading-posts-compilation-12-2026-06-01.md` |
+
+#### From K93 (2026-06-01) — v5 eval (34 URLs) + Posts-31 + structural digest
+
+| Item | CCC disposition |
+|------|-----------------|
+| revfactory/harness | **Page** → `@entities/tools/revfactory-harness.md` (CONDITIONAL-GO) |
+| agents-best-practices | **Update** → `@entities/tools/agents-best-practices.md` (cherry-pick Adopt) |
+| Thin harness / fat skills (@garrytan) | **Page** → `@concepts/thin-harness-fat-skills-garrytan.md` |
+| Harness updating vs benefit (arXiv) | **Page** → `@concepts/harness-updating-vs-benefit-nonmonotonic.md` |
+| Monokern weekly pipeline | **Page** → `@concepts/monokern-compounding-research-pipeline.md` |
+| Federated daily digest | **Page** → `@concepts/federated-daily-research-digest.md` + `scripts/` install |
+| memory-os | **Defer** — no page (eval Defer; verify repo later) |
+| v5 eval provenance | **Stub** → `@sources/multi-wiki-tool-eval-v5-k93-2026-06-01.md` |
+| Posts-31 provenance | **Stub** → `@sources/trading-posts-compilation-31-2026-06-01.md` |
+| arXiv 2605.30621 | **Stub** → `@sources/arxiv-harness-updating-not-benefit-2605.30621.md` |
+| Monokern source | **Stub** → `@sources/monokern-research-pipeline-claude-notebooklm-obsidian-2026-06-01.md` |

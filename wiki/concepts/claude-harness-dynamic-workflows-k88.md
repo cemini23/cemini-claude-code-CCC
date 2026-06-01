@@ -10,9 +10,10 @@ related:
   - concepts/claude-md-five-section-template.md
   - entities/tools/claude-code.md
   - sources/trading-posts-compilation-42-2026-05-31.md
+  - concepts/thin-harness-fat-skills-garrytan.md
 maturity: draft
 created: 2026-05-31
-updated: 2026-05-31
+updated: 2026-06-01
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-42-2026-05-31.md"
 ---
 

@@ -16,6 +16,7 @@ related:
   - sources/trading-posts-compilation-42-2026-05-31.md
   - entities/tools/obsidian-second-brain-eugeniughelbur.md
   - sources/trading-posts-compilation-12-2026-06-01.md
+  - concepts/monokern-compounding-research-pipeline.md
 maturity: draft
 created: 2026-05-27
 updated: 2026-06-01

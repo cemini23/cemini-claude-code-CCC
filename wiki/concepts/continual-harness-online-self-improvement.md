@@ -10,9 +10,10 @@ related:
   - concepts/agent-completion-verification-gates.md
   - concepts/cross-wiki-tool-eval-inventory.md
   - sources/trading-posts-compilation-25-2026-05-27.md
+  - concepts/harness-updating-vs-benefit-nonmonotonic.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-05-27
+updated: 2026-06-01
 cross-wiki-source: "@osint-wiki/concepts/continual-harness-online-self-improvement.md"
 ---
 

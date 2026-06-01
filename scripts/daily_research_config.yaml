@@ -1,0 +1,53 @@
+# CCC wiki — daily research digest (K93 federated install)
+# Canon: @osint-wiki/concepts/federated-daily-research-digest.md
+
+loop:
+  recency_window_days: 7
+  max_results_per_query: 3
+
+fetch:
+  enabled: true
+  max_downloads: 5
+  fetch_likely: false
+  max_results_per_paper_query: 5
+
+active_topics:
+  - "Claude Code skills hooks MCP agent harness"
+  - "Cursor IDE rules subagents conductor"
+  - "Ralph loop OpenSpec spec-driven Claude Code"
+  - "prompt caching context engineering token economics"
+
+paper_queries:
+  - cluster: agent-harness
+    query: "research paper LLM agent harness self-improving tools memory"
+    category: research paper
+  - cluster: mcp-orchestration
+    query: "research paper model context protocol agent orchestration"
+    category: research paper
+
+queries:
+  - cluster: claude-code-release
+    query: "Claude Code Anthropic release hooks skills"
+    category: news
+  - cluster: cursor-agent
+    query: "Cursor agent MCP subagent workflow"
+    category: news
+
+monokern_pipeline:
+  enabled: true
+  cadence: weekly
+  active_topic: "Claude Code harness patterns — thin harness fat skills"
+  default_deliverable: none
+  source_modules:
+    - yt-dlp
+    - inbox_pdf
+    - web_url
+  skill_notes: "Laptop-only NotebookLM auth; output to wiki/ or briefs/; Phase-4 human gate before entity writes."
+
+social:
+  manual_pass:
+    - tool: opencli-reader
+      prompt: "Claude Code agent harness MCP skills discussion last 7 days"
+
+output:
+  path_template: "wiki/sweeps/{date}-daily.md"

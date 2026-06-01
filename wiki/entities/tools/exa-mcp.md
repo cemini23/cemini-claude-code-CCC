@@ -6,9 +6,10 @@ keywords: [exa, exa mcp, web_search_exa, crawling_exa, deep_researcher, get_code
 related:
   - entities/tools/claude-code.md
   - entities/mcp-servers/exa.md
+  - concepts/federated-daily-research-digest.md
 maturity: core
 created: 2026-05-13
-updated: 2026-05-13
+updated: 2026-06-01
 ---
 
 ## Relations

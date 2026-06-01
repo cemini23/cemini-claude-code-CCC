@@ -11,6 +11,7 @@ related:
   - entities/tools/obsidian-second-brain-eugeniughelbur.md
   - sources/multi-wiki-tool-eval-v7-k92-2026-06-01.md
   - concepts/obsidian-vellum-second-brain-stack.md
+  - sources/trading-posts-compilation-31-2026-06-01.md
 maturity: draft
 read_status: skimmed
 created: 2026-06-01

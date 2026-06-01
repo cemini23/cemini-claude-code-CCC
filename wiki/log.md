@@ -4,6 +4,18 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-06-01] brief ingest | K93 digest + monokern + harness (structural + wiki)
+
+Ingested `briefs/2026-06-01_k93-ccc-digest-monokern-harness-from-osint.md`.
+
+**Structural:** federated daily digest install (`scripts/daily_research_digest_run.py`, `daily_research_fetch.py`, `daily_research_config.yaml`, `wiki/sweeps/`, LaunchAgent `com.cemini.daily-research-digest.ccc`).
+
+**Pages created (10):** `revfactory-harness`, `thin-harness-fat-skills-garrytan`, `harness-updating-vs-benefit-nonmonotonic`, `monokern-compounding-research-pipeline`, `federated-daily-research-digest`, `meta/daily-research-digest-cadence`, `sources/multi-wiki-tool-eval-v5-k93-2026-06-01`, `sources/trading-posts-compilation-31-2026-06-01`, `sources/arxiv-harness-updating-not-benefit-2605.30621`, `sources/monokern-research-pipeline-claude-notebooklm-obsidian-2026-06-01`.
+
+**Pages updated (3):** `agents-best-practices`, `cross-wiki-tool-eval-inventory`, `index.md`.
+
+Cross-wiki: `@osint-wiki/sources/multi-wiki-tool-eval-v5-k93-2026-06-01.md`, `@osint-wiki/sources/trading-posts-compilation-31-2026-06-01.md`.
+
 ## [2026-06-01] adopt | K92 GO items on laptop
 
 - claude-trading-skills (5 skills, trading-* prefix)

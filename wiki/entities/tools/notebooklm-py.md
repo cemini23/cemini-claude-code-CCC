@@ -8,9 +8,10 @@ related:
   - concepts/cross-wiki-tool-eval-inventory.md
   - entities/tools/claude-code.md
   - sources/trading-posts-compilation-20-2026-05-27.md
+  - concepts/monokern-compounding-research-pipeline.md
 maturity: validated
 created: 2026-05-27
-updated: 2026-05-27
+updated: 2026-06-01
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-20-2026-05-27.md"
 ---
 

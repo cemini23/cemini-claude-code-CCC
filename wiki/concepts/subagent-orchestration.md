@@ -53,9 +53,11 @@ related:
   - concepts/karpathy-agent-infrastructure-basics.md
   - entities/tools/ruflo.md
   - concepts/nine-stage-agent-team-production.md
+  - concepts/harness-updating-vs-benefit-nonmonotonic.md
+  - entities/tools/revfactory-harness.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-31
+updated: 2026-06-01
 ---
 
 ## Relations

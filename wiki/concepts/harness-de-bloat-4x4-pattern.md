@@ -11,9 +11,10 @@ related:
   - concepts/cross-wiki-tool-eval-inventory.md
   - sources/trading-posts-compilation-38-2026-05-28.md
   - concepts/claude-harness-dynamic-workflows-k88.md
+  - concepts/thin-harness-fat-skills-garrytan.md
 maturity: draft
 created: 2026-05-28
-updated: 2026-05-31
+updated: 2026-06-01
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-38-2026-05-28.md"
 ---
 

@@ -4,6 +4,7 @@ Active workstreams, open decisions, and the done log for the Cemini Claude Code 
 
 ## Active
 
+- **Federated daily digest (K93)** — `scripts/daily_research_config.yaml` + LaunchAgent `com.cemini.daily-research-digest.ccc`; weekly Monokern topic in config. Load agent when ready.
 - **Deepen seed pages** — first 16 pages are bootstrap-grade. Each should be deepened with concrete examples (real `.claude/settings.json` snippets, real hook payloads, real `/goal` invocations from past sessions) as those examples surface.
 - **Ingest pipeline calibration** — `preingest_check.py` matches the OSINT version. Confirm its arXiv/DOI/URL regexes still hit reasonable signals on Claude Code source material (mostly markdown docs + repo READMEs, less paper-shaped than OSINT corpus).
 - **Add per-pattern brief templates** — `briefs/templates/` for: new-hook-recipe, new-mcp-adoption, new-skill-skeleton, new-slash-command-skeleton. Deferred until first 3 real briefs exist.

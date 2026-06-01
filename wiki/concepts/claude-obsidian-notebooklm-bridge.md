@@ -17,9 +17,10 @@ related:
   - sources/trading-posts-compilation-20-2026-05-27.md
   - sources/trading-posts-compilation-6-2026-05-29.md
   - concepts/obsidian-vellum-second-brain-stack.md
+  - concepts/monokern-compounding-research-pipeline.md
 maturity: validated
 created: 2026-05-27
-updated: 2026-05-30
+updated: 2026-06-01
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-20-2026-05-27.md"
 ---
 

@@ -7,9 +7,11 @@ related:
   - concepts/continual-harness-online-self-improvement.md
   - concepts/code-as-agent-harness.md
   - concepts/cross-wiki-tool-eval-inventory.md
+  - concepts/harness-updating-vs-benefit-nonmonotonic.md
+  - sources/arxiv-harness-updating-not-benefit-2605.30621.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-05-27
+updated: 2026-06-01
 read_status: unread-stub
 cross-wiki-source: "@osint-wiki/sources/arxiv-continual-harness-self-improving-agents-2605.09998.md"
 ---

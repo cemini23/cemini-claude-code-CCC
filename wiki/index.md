@@ -49,6 +49,8 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`obsidian-second-brain-eugeniughelbur`](entities/tools/obsidian-second-brain-eugeniughelbur.md) | draft | Obsidian vault cron agents — CONDITIONAL-GO laptop-only (K92) |
 | [`claude-trading-skills`](entities/tools/claude-trading-skills.md) | draft | Trading skill pack — CONDITIONAL-GO Phase-0 pending (K92) |
 | [`slot-casino-game-developer-skills`](entities/tools/slot-casino-game-developer-skills.md) | draft | iGaming slot skills — NO-GO prod (K92 catalog) |
+| [`revfactory-harness`](entities/tools/revfactory-harness.md) | draft | Dynamic agent-team meta-skill — CONDITIONAL-GO (K93) |
+| [`agents-best-practices`](entities/tools/agents-best-practices.md) | draft | DenisSergeevitch patterns — cherry-pick Adopt (K93) |
 
 ## entities/mcp-servers/
 
@@ -123,7 +125,6 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`openevolve`](entities/tools/openevolve.md) | draft | Evolutionary harness optimizer — Adopt after Docker Phase-0 (K63) |
 | [`awesome-cursorrules`](entities/tools/awesome-cursorrules.md) | validated | CC0 Cursor rules catalog — `.cursor/rules/ccc-*.mdc` adopted |
 | [`claude-code-game-studios`](entities/tools/claude-code-game-studios.md) | draft | Multi-agent role graphs — steal-from (K63, MIT) |
-| [`agents-best-practices`](entities/tools/agents-best-practices.md) | draft | Agent practices collection — defer (K63) |
 | [`everything-claude-code`](entities/tools/everything-claude-code.md) | draft | ECC harness bundle — defer; canon on osint-wiki (K63) |
 | [`cursor-community-plugins`](entities/tools/cursor-community-plugins.md) | draft | Cursor plugin index — no LICENSE (K63 CONDITIONAL-GO) |
 | [`hermes-agent`](entities/tools/hermes-agent.md) | draft | Nous Hermes runtime — reference vs conductor (K64 OSINT routing) |
@@ -189,6 +190,10 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`harness-layer-competition-cursor-claude-perplexity`](concepts/harness-layer-competition-cursor-claude-perplexity.md) | draft | Harness layer competition post (K92 Post 9) |
 | [`deepseek-coding-cost-routing`](concepts/deepseek-coding-cost-routing.md) | draft | DeepSeek cheap codegen routing (K92 Post 10) |
 | [`agentic-pm-review-artifacts`](concepts/agentic-pm-review-artifacts.md) | draft | Agentic PM review artifacts (K92 Post 6) |
+| [`thin-harness-fat-skills-garrytan`](concepts/thin-harness-fat-skills-garrytan.md) | draft | Thin harness + fat skills (@garrytan, K93) |
+| [`harness-updating-vs-benefit-nonmonotonic`](concepts/harness-updating-vs-benefit-nonmonotonic.md) | draft | arXiv 2605.30621 harness-updating vs benefit (K93) |
+| [`monokern-compounding-research-pipeline`](concepts/monokern-compounding-research-pipeline.md) | draft | Weekly NotebookLM deep-research overlay (K93) |
+| [`federated-daily-research-digest`](concepts/federated-daily-research-digest.md) | core | Per-wiki Exa/inbox discovery automation (K93) |
 | [`skillrae-retrieval-augmented-execution`](concepts/skillrae-retrieval-augmented-execution.md) | draft | Skill-graph RAE — post-retrieval context compilation (K59 arXiv) |
 | [`graphflow-verifiable-agent-workflows`](concepts/graphflow-verifiable-agent-workflows.md) | draft | Proof-carrying visual workflows + durable runtime (K59 arXiv) |
 
@@ -213,6 +218,16 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`trading-posts-compilation-16-2026-05-31`](sources/trading-posts-compilation-16-2026-05-31.md) | draft | K90 Posts.docx harness slice — provenance stub (OSINT canon) |
 | [`multi-wiki-tool-eval-v7-k92-2026-06-01`](sources/multi-wiki-tool-eval-v7-k92-2026-06-01.md) | draft | K92 v7 eval (90 URLs) — provenance stub (OSINT canon) |
 | [`trading-posts-compilation-12-2026-06-01`](sources/trading-posts-compilation-12-2026-06-01.md) | draft | K92 Posts.docx harness slice — provenance stub (OSINT canon) |
+| [`multi-wiki-tool-eval-v5-k93-2026-06-01`](sources/multi-wiki-tool-eval-v5-k93-2026-06-01.md) | draft | K93 v5 eval (34 URLs) — provenance stub (OSINT canon) |
+| [`trading-posts-compilation-31-2026-06-01`](sources/trading-posts-compilation-31-2026-06-01.md) | draft | K93 Posts.docx harness slice — provenance stub (OSINT canon) |
+| [`arxiv-harness-updating-not-benefit-2605.30621`](sources/arxiv-harness-updating-not-benefit-2605.30621.md) | draft | arXiv 2605.30621 harness paper (K93) |
+| [`monokern-research-pipeline-claude-notebooklm-obsidian-2026-06-01`](sources/monokern-research-pipeline-claude-notebooklm-obsidian-2026-06-01.md) | draft | Monokern pipeline source (K93) |
+
+## meta/
+
+| Page | Maturity | Summary |
+|------|----------|---------|
+| [`daily-research-digest-cadence`](meta/daily-research-digest-cadence.md) | core | CCC LaunchAgent + sweeps cadence (K93) |
 
 ## entities/people/
 
