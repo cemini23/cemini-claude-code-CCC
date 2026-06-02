@@ -13,9 +13,10 @@ related:
   - sources/arxiv-system-scaling-harness-2605.26112.md
   - sources/arxiv-autosci-2605.31468.md
   - sweeps/2026-06-01-daily.md
+  - sweeps/2026-06-02-daily.md
 maturity: core
 created: 2026-06-01
-updated: 2026-06-01
+updated: 2026-06-02
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 

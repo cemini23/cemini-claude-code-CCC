@@ -51,6 +51,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`slot-casino-game-developer-skills`](entities/tools/slot-casino-game-developer-skills.md) | draft | iGaming slot skills — NO-GO prod (K92 catalog) |
 | [`revfactory-harness`](entities/tools/revfactory-harness.md) | draft | Dynamic agent-team meta-skill — CONDITIONAL-GO (K93) |
 | [`agents-best-practices`](entities/tools/agents-best-practices.md) | draft | DenisSergeevitch patterns — cherry-pick Adopt (K93) |
+| [`agyn`](entities/tools/agyn.md) | draft | Agent ops platform — REFERENCE (2605.27575) |
 
 ## entities/mcp-servers/
 
@@ -197,6 +198,9 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`system-scaling-harness-agentic-ai`](concepts/system-scaling-harness-agentic-ai.md) | draft | System scaling vs model scaling — arXiv 2605.26112 |
 | [`muse-autoskill-skill-lifecycle`](concepts/muse-autoskill-skill-lifecycle.md) | draft | MUSE skill create/eval/refine lifecycle — 2605.27366 |
 | [`autosci-memory-centric-research-agents`](concepts/autosci-memory-centric-research-agents.md) | draft | AutoSci SciMem research lifecycle — 2605.31468 |
+| [`maven-agentic-tool-calling-generalization`](concepts/maven-agentic-tool-calling-generalization.md) | draft | MAVEN tool-calling generalization — 2605.30738 |
+| [`worldmemarena-multimodal-agent-memory-eval`](concepts/worldmemarena-multimodal-agent-memory-eval.md) | draft | WorldMemArena memory eval — 2605.29341 |
+| [`decoupled-intelligence-multi-agent-reference`](concepts/decoupled-intelligence-multi-agent-reference.md) | draft | Traffic multi-agent — REFERENCE only (2605.27685) |
 | [`skillrae-retrieval-augmented-execution`](concepts/skillrae-retrieval-augmented-execution.md) | draft | Skill-graph RAE — post-retrieval context compilation (K59 arXiv) |
 | [`graphflow-verifiable-agent-workflows`](concepts/graphflow-verifiable-agent-workflows.md) | draft | Proof-carrying visual workflows + durable runtime (K59 arXiv) |
 
@@ -228,12 +232,24 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-system-scaling-harness-2605.26112`](sources/arxiv-system-scaling-harness-2605.26112.md) | draft | System scaling the harness — arXiv 2605.26112 |
 | [`arxiv-muse-autoskill-2605.27366`](sources/arxiv-muse-autoskill-2605.27366.md) | draft | MUSE-Autoskill skill lifecycle — arXiv 2605.27366 |
 | [`arxiv-autosci-2605.31468`](sources/arxiv-autosci-2605.31468.md) | draft | AutoSci memory-centric research — arXiv 2605.31468 |
+| [`arxiv-sia-harness-weight-updates-2605.27276`](sources/arxiv-sia-harness-weight-updates-2605.27276.md) | draft | SIA — OSINT cross-wiki stub (K84 canon) |
+| [`arxiv-maven-agentic-tool-calling-2605.30738`](sources/arxiv-maven-agentic-tool-calling-2605.30738.md) | draft | MAVEN tool calling — 2605.30738 |
+| [`arxiv-worldmemarena-agent-memory-2605.29341`](sources/arxiv-worldmemarena-agent-memory-2605.29341.md) | draft | WorldMemArena — 2605.29341 |
+| [`arxiv-agyn-agent-platform-2605.27575`](sources/arxiv-agyn-agent-platform-2605.27575.md) | draft | Agyn platform — 2605.27575 |
+| [`arxiv-decoupled-intelligence-multi-agent-2605.27685`](sources/arxiv-decoupled-intelligence-multi-agent-2605.27685.md) | draft | Decoupled Intelligence — 2605.27685 |
 
 ## meta/
 
 | Page | Maturity | Summary |
 |------|----------|---------|
 | [`daily-research-digest-cadence`](meta/daily-research-digest-cadence.md) | core | CCC LaunchAgent + sweeps cadence (K93) |
+
+## sweeps/
+
+| Page | Summary |
+|------|---------|
+| [`2026-06-01-daily`](sweeps/2026-06-01-daily.md) | First digest run — 3 arXiv ingested |
+| [`2026-06-02-daily`](sweeps/2026-06-02-daily.md) | 5 arXiv fetched — full ingest 2026-06-02 |
 
 ## entities/people/
 

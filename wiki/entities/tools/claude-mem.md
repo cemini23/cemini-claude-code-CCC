@@ -26,9 +26,11 @@ related:
   - entities/tools/obsidian-second-brain-eugeniughelbur.md
   - concepts/autosci-memory-centric-research-agents.md
   - sources/arxiv-autosci-2605.31468.md
+  - concepts/worldmemarena-multimodal-agent-memory-eval.md
+  - sources/arxiv-worldmemarena-agent-memory-2605.29341.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-01
+updated: 2026-06-02
 ---
 
 ## Relations

@@ -35,9 +35,11 @@ related:
   - concepts/harness-layer-competition-cursor-claude-perplexity.md
   - concepts/system-scaling-harness-agentic-ai.md
   - sources/arxiv-system-scaling-harness-2605.26112.md
+  - concepts/maven-agentic-tool-calling-generalization.md
+  - sources/arxiv-sia-harness-weight-updates-2605.27276.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-06-01
+updated: 2026-06-02
 cross-wiki-source: "@osint-wiki/sources/arxiv-code-as-agent-harness-survey-2605.18747.md"
 ---
 

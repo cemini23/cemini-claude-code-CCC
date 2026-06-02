@@ -32,9 +32,10 @@ related:
   - entities/tools/ruflo.md
   - entities/tools/skillnet.md
   - concepts/remote-hermes-access-pattern.md
+  - entities/tools/agyn.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-31
+updated: 2026-06-02
 ---
 
 ## Relations

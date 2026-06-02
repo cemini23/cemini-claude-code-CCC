@@ -18,9 +18,11 @@ related:
   - entities/tools/n8n-mcp.md
   - concepts/skillrae-retrieval-augmented-execution.md
   - concepts/claude-code-large-codebase-workflow.md
+  - concepts/maven-agentic-tool-calling-generalization.md
+  - sources/arxiv-maven-agentic-tool-calling-2605.30738.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-23
+updated: 2026-06-02
 ---
 
 ## Relations

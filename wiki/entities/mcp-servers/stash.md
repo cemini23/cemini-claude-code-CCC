@@ -18,9 +18,11 @@ related:
   - concepts/obsidian-agent-maintenance-workflow.md
   - concepts/obsidian-trading-journal-workflow.md
   - concepts/agent-memory-stack-comparison.md
+  - concepts/worldmemarena-multimodal-agent-memory-eval.md
+  - sources/arxiv-worldmemarena-agent-memory-2605.29341.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-05-27
+updated: 2026-06-02
 cross-wiki-source: "@osint-wiki/sources/alash3al-stash.md"
 ---
 

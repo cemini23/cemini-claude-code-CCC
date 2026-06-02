@@ -35,9 +35,10 @@ related:
   - entities/tools/npxskillui.md
   - entities/tools/claude-trading-skills.md
   - concepts/muse-autoskill-skill-lifecycle.md
+  - concepts/maven-agentic-tool-calling-generalization.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-06-01
+updated: 2026-06-02
 ---
 
 ## Relations

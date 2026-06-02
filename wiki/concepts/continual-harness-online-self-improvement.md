@@ -13,9 +13,10 @@ related:
   - concepts/harness-updating-vs-benefit-nonmonotonic.md
   - concepts/muse-autoskill-skill-lifecycle.md
   - sources/arxiv-muse-autoskill-2605.27366.md
+  - sources/arxiv-sia-harness-weight-updates-2605.27276.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-06-01
+updated: 2026-06-02
 cross-wiki-source: "@osint-wiki/concepts/continual-harness-online-self-improvement.md"
 ---
 

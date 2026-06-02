@@ -4,6 +4,18 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-06-02] ingest | CCC inbox — 5 arXiv papers (digest 2026-06-02)
+
+Daily digest fetch (`scripts/daily_research_digest_run.py`). Scheduled LaunchAgent failed (exit 512 — env); manual run succeeded.
+
+**Pages created (9):** `maven-agentic-tool-calling-generalization`, `worldmemarena-multimodal-agent-memory-eval`, `decoupled-intelligence-multi-agent-reference`, `agyn`, `sources/arxiv-sia-harness-weight-updates-2605.27276` (OSINT stub only), `arxiv-maven-agentic-tool-calling-2605.30738`, `arxiv-worldmemarena-agent-memory-2605.29341`, `arxiv-agyn-agent-platform-2605.27575`, `arxiv-decoupled-intelligence-multi-agent-2605.27685`.
+
+**Pages updated (2):** `harness-updating-vs-benefit-nonmonotonic`, `index.md`.
+
+**Skipped duplicate narrative:** SIA 2605.27276 — canon `@osint-wiki` K84.
+
+**Raw:** 5 PDFs → `raw-sources/`; inbox cleared. Sweep: `wiki/sweeps/2026-06-02-daily.md`.
+
 ## [2026-06-01] ingest | CCC inbox — 3 arXiv harness papers (digest fetch)
 
 Ingested from `research to be indexed/` (daily digest 2026-06-01). **Skipped** arXiv 2605.27276 (SIA) — already on `@osint-wiki` K84.

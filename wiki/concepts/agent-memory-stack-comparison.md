@@ -13,9 +13,10 @@ related:
   - concepts/cross-wiki-tool-eval-inventory.md
   - sources/trading-posts-compilation-25-2026-05-27.md
   - concepts/agent-personality-file-hermes-openclaw.md
+  - concepts/worldmemarena-multimodal-agent-memory-eval.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-05-31
+updated: 2026-06-02
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-25-2026-05-27.md"
 ---
 
