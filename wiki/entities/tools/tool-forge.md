@@ -11,7 +11,7 @@ related:
 maturity: draft
 created: 2026-06-02
 updated: 2026-06-02
-phase_0_verdict: CONDITIONAL-GO 2026-06-02 — Apache-2.0 verified; ~2★ immature; steal validation-carrying pattern for skill_audit + MCP catalog
+phase_0_verdict: NO-GO install 2026-06-02 — steal validation-carrying only; Apache-2.0; 187 pytest pass; Alpha + Docker/Postgres stack
 ---
 
 ## Relations
@@ -29,11 +29,12 @@ phase_0_verdict: CONDITIONAL-GO 2026-06-02 — Apache-2.0 verified; ~2★ immatu
 | Check | Result |
 |-------|--------|
 | License | **Apache-2.0** `[CONFIRMED 2026-06-02]` via `gh api` |
-| Stars / maturity | ~2★, pushed 2026-06-02 — **immature** |
-| vs lazy-tool + skill_audit | **Steal pattern** — metadata on tools/skills at definition time |
-| Prod install | **NO-GO** until Phase-0 clone + hook collision audit |
+| Stars / maturity | ~2★, Alpha (`Development Status :: 3`); pushed 2026-06-02 |
+| Tests | **187 passed** (`pip install -e ".[dev]"` + pytest) |
+| vs lazy-tool + conductor | **Collision** — second MCP router + Postgres + webapp |
+| Prod install | **NO-GO** — sandboxed tool generation unsafe on prod VM |
 
-**Verdict:** **CONDITIONAL-GO** — document validation-carrying discipline in `skill-vetting.md`; do not vendor Tool Forge into Cemini prod without dedicated audit.
+**Verdict:** **NO-GO install** — steal validation-carrying + `approve/block` governance into `skill-vetting.md` and prod `docs/mcp-tool-governance.md` (see OSINT prod brief).
 
 ## Snippets
 

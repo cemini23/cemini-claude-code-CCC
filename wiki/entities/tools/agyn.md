@@ -12,6 +12,7 @@ related:
 maturity: draft
 created: 2026-06-02
 updated: 2026-06-02
+phase_0_verdict: NO-GO install 2026-06-02 — AGPL-3.0; REFERENCE governance only
 ---
 
 ## Relations
@@ -29,10 +30,11 @@ updated: 2026-06-02
 
 | Check | Verdict |
 |-------|---------|
-| CCC laptop wiki workflow | **NO-GO** — deploy/ops platform |
+| License (`agynio/platform`) | **AGPL-3.0** — NO-GO prod/laptop install without legal review |
+| CCC laptop wiki workflow | **NO-GO** — full K8s platform |
 | Reference value | **REFERENCE** — isolation + governance checklist vs conductor prod |
 
-**Verdict:** **REFERENCE** — no install on Cemini laptop harness.
+**Verdict:** **REFERENCE** — Phase-0 complete; prod checklist via OSINT brief to `cemini-prod`.
 
 ## Snippets
 
