@@ -9,6 +9,7 @@ related:
   - entities/mcp-servers/stash.md
   - concepts/agent-memory-stack-comparison.md
   - concepts/agent-token-discipline-openclaw-hermes.md
+  - "@osint-wiki/concepts/agent-memory-pipeline-eval-rubric.md"
 maturity: draft
 created: 2026-06-02
 updated: 2026-06-02

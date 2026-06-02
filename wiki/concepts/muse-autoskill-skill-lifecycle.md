@@ -11,9 +11,11 @@ related:
   - entities/mcp-servers/anthropic-skills.md
   - concepts/claude-code-skills-md-institutional-memory.md
   - concepts/harness-updating-vs-benefit-nonmonotonic.md
+  - "@osint-wiki/concepts/curator-skills.md"
+  - concepts/agent-skills-taxonomy.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-01
+updated: 2026-06-02
 ---
 
 ## Relations

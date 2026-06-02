@@ -13,9 +13,11 @@ related:
   - entities/tools/agents-best-practices.md
   - concepts/system-scaling-harness-agentic-ai.md
   - sources/arxiv-system-scaling-harness-2605.26112.md
+  - concepts/agent-skills-taxonomy.md
+  - sources/arxiv-agent-skills-survey-2605-07358-2026-06-02.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-01
+updated: 2026-06-02
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-31-2026-06-01.md"
 ---
 

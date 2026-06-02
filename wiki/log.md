@@ -4,6 +4,18 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-06-02] brief ingest | K94 agent skills + Tool Forge from OSINT
+
+Ingested `briefs/2026-06-02_2026-06-02_k94-ccc-agent-skills-agyn-toolforge-from-osint.md`.
+
+**Pages created (4):** `agent-skills-taxonomy`, `tool-forge`, `sources/arxiv-agent-skills-survey-2605.07358-2026-06-02`, `sources/arxiv-tool-forge-governed-agentic-2605.28000-2026-06-02`.
+
+**Pages updated (8):** `agyn`, `maven-agentic-tool-calling-generalization`, `worldmemarena-multimodal-agent-memory-eval`, `muse-autoskill-skill-lifecycle`, `autosci-memory-centric-research-agents`, `system-scaling-harness-agentic-ai`, `skill-vetting`, `thin-harness-fat-skills-garrytan`, `lazy-tool`, `index.md`.
+
+**Cross-wiki:** `@osint-wiki` steal-from stubs on harness papers (MAVEN, WorldMemArena, MUSE, AutoSci, system-scaling); Agyn → `@osint-wiki/entities/tools/agyn-platform.md`.
+
+**Lint:** `--fix-bidirectional --apply` — 0 gaps post-fix.
+
 ## [2026-06-02] ingest | CCC inbox — 5 arXiv papers (digest 2026-06-02)
 
 Daily digest fetch (`scripts/daily_research_digest_run.py`). Scheduled LaunchAgent failed (exit 512 — env); manual run succeeded.

@@ -52,6 +52,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`revfactory-harness`](entities/tools/revfactory-harness.md) | draft | Dynamic agent-team meta-skill — CONDITIONAL-GO (K93) |
 | [`agents-best-practices`](entities/tools/agents-best-practices.md) | draft | DenisSergeevitch patterns — cherry-pick Adopt (K93) |
 | [`agyn`](entities/tools/agyn.md) | draft | Agent ops platform — REFERENCE (2605.27575) |
+| [`tool-forge`](entities/tools/tool-forge.md) | draft | Validation-carrying toolchain — CONDITIONAL-GO (2605.28000, Apache-2.0) |
 
 ## entities/mcp-servers/
 
@@ -192,6 +193,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`deepseek-coding-cost-routing`](concepts/deepseek-coding-cost-routing.md) | draft | DeepSeek cheap codegen routing (K92 Post 10) |
 | [`agentic-pm-review-artifacts`](concepts/agentic-pm-review-artifacts.md) | draft | Agentic PM review artifacts (K92 Post 6) |
 | [`thin-harness-fat-skills-garrytan`](concepts/thin-harness-fat-skills-garrytan.md) | draft | Thin harness + fat skills (@garrytan, K93) |
+| [`agent-skills-taxonomy`](concepts/agent-skills-taxonomy.md) | draft | Agent skills survey — procedural gap (2605.07358, K94 OSINT) |
 | [`harness-updating-vs-benefit-nonmonotonic`](concepts/harness-updating-vs-benefit-nonmonotonic.md) | draft | arXiv 2605.30621 harness-updating vs benefit (K93) |
 | [`monokern-compounding-research-pipeline`](concepts/monokern-compounding-research-pipeline.md) | draft | Weekly NotebookLM deep-research overlay (K93) |
 | [`federated-daily-research-digest`](concepts/federated-daily-research-digest.md) | core | Per-wiki Exa/inbox discovery automation (K93) |
@@ -236,7 +238,11 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-maven-agentic-tool-calling-2605.30738`](sources/arxiv-maven-agentic-tool-calling-2605.30738.md) | draft | MAVEN tool calling — 2605.30738 |
 | [`arxiv-worldmemarena-agent-memory-2605.29341`](sources/arxiv-worldmemarena-agent-memory-2605.29341.md) | draft | WorldMemArena — 2605.29341 |
 | [`arxiv-agyn-agent-platform-2605.27575`](sources/arxiv-agyn-agent-platform-2605.27575.md) | draft | Agyn platform — 2605.27575 |
+| [`arxiv-agent-skills-survey-2605-07358-2026-06-02`](sources/arxiv-agent-skills-survey-2605-07358-2026-06-02.md) | draft | Agent skills taxonomy survey — K94 OSINT |
+| [`arxiv-tool-forge-governed-agentic-2605-28000-2026-06-02`](sources/arxiv-tool-forge-governed-agentic-2605-28000-2026-06-02.md) | draft | Tool Forge — K94 OSINT |
 | [`arxiv-decoupled-intelligence-multi-agent-2605.27685`](sources/arxiv-decoupled-intelligence-multi-agent-2605.27685.md) | draft | Decoupled Intelligence — 2605.27685 |
+| [`arxiv-agent-skills-survey-2605.07358-2026-06-02`](sources/arxiv-agent-skills-survey-2605.07358-2026-06-02.md) | draft | Agent skills taxonomy survey — K94 OSINT mirror |
+| [`arxiv-tool-forge-governed-agentic-2605.28000-2026-06-02`](sources/arxiv-tool-forge-governed-agentic-2605.28000-2026-06-02.md) | draft | Tool Forge governed toolchain — K94 OSINT mirror |
 
 ## meta/
 

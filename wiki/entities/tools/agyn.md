@@ -8,6 +8,7 @@ related:
   - entities/tools/conductor-mcp.md
   - concepts/agent-vm-sandboxing.md
   - concepts/subagent-orchestration.md
+  - "@osint-wiki/entities/tools/agyn-platform.md"
 maturity: draft
 created: 2026-06-02
 updated: 2026-06-02
@@ -18,6 +19,7 @@ updated: 2026-06-02
 - `@sources/arxiv-agyn-agent-platform-2605.27575.md` — arXiv 2605.27575
 - `@entities/tools/conductor-mcp.md` — Cemini orchestration peer (different scope)
 - `@concepts/agent-vm-sandboxing.md` — isolation patterns
+- `@osint-wiki/entities/tools/agyn-platform.md` — OSINT prod topology comparison (K94)
 
 ## Raw Concept
 

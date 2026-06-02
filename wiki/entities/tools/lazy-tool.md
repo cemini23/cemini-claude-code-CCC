@@ -22,6 +22,7 @@ related:
   - concepts/harness-layer-competition-cursor-claude-perplexity.md
   - concepts/maven-agentic-tool-calling-generalization.md
   - sources/arxiv-maven-agentic-tool-calling-2605.30738.md
+  - entities/tools/tool-forge.md
 maturity: validated
 created: 2026-05-13
 updated: 2026-06-02

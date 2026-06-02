@@ -11,9 +11,10 @@ related:
   - concepts/harness-updating-vs-benefit-nonmonotonic.md
   - concepts/agent-completion-verification-gates.md
   - entities/tools/claude-code.md
+  - "@osint-wiki/concepts/system-scaling-harness-evaluation.md"
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-01
+updated: 2026-06-02
 ---
 
 ## Relations

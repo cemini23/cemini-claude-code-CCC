@@ -10,9 +10,10 @@ related:
   - entities/tools/claude-mem.md
   - entities/tools/openspec.md
   - concepts/cross-wiki-routing.md
+  - "@osint-wiki/concepts/autosci-research-lifecycle-memory.md"
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-01
+updated: 2026-06-02
 ---
 
 ## Relations
