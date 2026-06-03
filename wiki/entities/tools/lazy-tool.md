@@ -19,6 +19,8 @@ related:
   - concepts/claude-code-large-codebase-workflow.md
   - concepts/codex-side-fork-workflow.md
   - entities/tools/skillnet.md
+  - concepts/slm-agent-orchestration-gateway.md
+  - sources/arxiv-slm-orchestration-gateway-2606.03557.md
   - concepts/harness-layer-competition-cursor-claude-perplexity.md
   - concepts/maven-agentic-tool-calling-generalization.md
   - sources/arxiv-maven-agentic-tool-calling-2605.30738.md

@@ -4,6 +4,16 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-06-03] ingest | K95 — 5 arXiv + CLI-Anything brief
+
+**Sources (6):** runtime-harness 22166, AgentXGCore 00417, adaptive-auto-harness 01770, embedded modular 02862, SLM gateway 03557, CLI-Anything 03854 (OSINT brief).
+
+**Concepts (5):** runtime-harness-interface-adaptation, adaptive-auto-harness-open-ended-streams, embedded-agent-modular-edge-architecture, slm-agent-orchestration-gateway, cli-anything-agent-native-computer-use.
+
+**Entities (2):** adaptive-auto-harness, life-harness (stubs).
+
+**Brief:** `2026-06-03_k95-ccc-cli-anything-from-osint` → wiki-ingested.
+
 ## [2026-06-02] brief ingest | K94 agent skills + Tool Forge from OSINT
 
 Ingested `briefs/2026-06-02_2026-06-02_k94-ccc-agent-skills-agyn-toolforge-from-osint.md`.

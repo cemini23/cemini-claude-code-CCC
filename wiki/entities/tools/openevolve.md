@@ -10,8 +10,11 @@ related:
   - entities/tools/claude-code.md
   - concepts/cursor-ide-workspace.md
   - concepts/cross-wiki-tool-eval-inventory.md
+  - entities/tools/adaptive-auto-harness.md
+  - concepts/adaptive-auto-harness-open-ended-streams.md
 maturity: draft
 created: 2026-05-24
+updated: 2026-06-03
 updated: 2026-05-21
 cross-wiki-source: "@osint-wiki/sources/multi-wiki-tool-eval-36url-wiki-ingestion-2026-05-24.md"
 ---

@@ -12,9 +12,11 @@ related:
   - concepts/agent-completion-verification-gates.md
   - entities/tools/claude-code.md
   - "@osint-wiki/concepts/system-scaling-harness-evaluation.md"
+  - concepts/runtime-harness-interface-adaptation.md
+  - sources/arxiv-runtime-harness-adaptation-2605.22166.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-02
+updated: 2026-06-03
 ---
 
 ## Relations

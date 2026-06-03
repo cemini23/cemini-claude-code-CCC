@@ -9,9 +9,11 @@ related:
   - entities/tools/claude-code.md
   - concepts/cross-wiki-routing.md
   - sources/trading-posts-compilation-20-2026-05-27.md
+  - concepts/embedded-agent-modular-edge-architecture.md
+  - sources/arxiv-embedded-agent-modular-edge-2606.02862.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-05-27
+updated: 2026-06-03
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-20-2026-05-27.md"
 ---
 

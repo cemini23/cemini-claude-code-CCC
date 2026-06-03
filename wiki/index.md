@@ -198,6 +198,11 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`monokern-compounding-research-pipeline`](concepts/monokern-compounding-research-pipeline.md) | draft | Weekly NotebookLM deep-research overlay (K93) |
 | [`federated-daily-research-digest`](concepts/federated-daily-research-digest.md) | core | Per-wiki Exa/inbox discovery automation (K93) |
 | [`system-scaling-harness-agentic-ai`](concepts/system-scaling-harness-agentic-ai.md) | draft | System scaling vs model scaling — arXiv 2605.26112 |
+| [`runtime-harness-interface-adaptation`](concepts/runtime-harness-interface-adaptation.md) | draft | Runtime harness adaptation — 2605.22166 (K95) |
+| [`adaptive-auto-harness-open-ended-streams`](concepts/adaptive-auto-harness-open-ended-streams.md) | draft | Adaptive auto-harness — 2606.01770 (K95) |
+| [`embedded-agent-modular-edge-architecture`](concepts/embedded-agent-modular-edge-architecture.md) | draft | Modular embedded agents — 2606.02862 (K95) |
+| [`slm-agent-orchestration-gateway`](concepts/slm-agent-orchestration-gateway.md) | draft | SLM orchestration gateway — 2606.03557 (K95) |
+| [`cli-anything-agent-native-computer-use`](concepts/cli-anything-agent-native-computer-use.md) | draft | CLI-Anything — 2606.03854 (K95 OSINT brief) |
 | [`muse-autoskill-skill-lifecycle`](concepts/muse-autoskill-skill-lifecycle.md) | draft | MUSE skill create/eval/refine lifecycle — 2605.27366 |
 | [`autosci-memory-centric-research-agents`](concepts/autosci-memory-centric-research-agents.md) | draft | AutoSci SciMem research lifecycle — 2605.31468 |
 | [`maven-agentic-tool-calling-generalization`](concepts/maven-agentic-tool-calling-generalization.md) | draft | MAVEN tool-calling generalization — 2605.30738 |
@@ -232,6 +237,12 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-harness-updating-not-benefit-2605.30621`](sources/arxiv-harness-updating-not-benefit-2605.30621.md) | draft | arXiv 2605.30621 harness paper (K93) |
 | [`monokern-research-pipeline-claude-notebooklm-obsidian-2026-06-01`](sources/monokern-research-pipeline-claude-notebooklm-obsidian-2026-06-01.md) | draft | Monokern pipeline source (K93) |
 | [`arxiv-system-scaling-harness-2605.26112`](sources/arxiv-system-scaling-harness-2605.26112.md) | draft | System scaling the harness — arXiv 2605.26112 |
+| [`arxiv-runtime-harness-adaptation-2605.22166`](sources/arxiv-runtime-harness-adaptation-2605.22166.md) | draft | Runtime harness adaptation — K95 |
+| [`arxiv-adaptive-auto-harness-2606.01770`](sources/arxiv-adaptive-auto-harness-2606.01770.md) | draft | Adaptive auto-harness — K95 |
+| [`arxiv-embedded-agent-modular-edge-2606.02862`](sources/arxiv-embedded-agent-modular-edge-2606.02862.md) | draft | Embedded modular agents — K95 |
+| [`arxiv-agentxgcore-mobile-core-2606.00417`](sources/arxiv-agentxgcore-mobile-core-2606.00417.md) | draft | AgentXGCore mobile — K95 |
+| [`arxiv-slm-orchestration-gateway-2606.03557`](sources/arxiv-slm-orchestration-gateway-2606.03557.md) | draft | SLM orchestration gateway — K95 |
+| [`arxiv-cli-anything-2606-03854-2026-06-03`](sources/arxiv-cli-anything-2606-03854-2026-06-03.md) | draft | CLI-Anything — K95 OSINT |
 | [`arxiv-muse-autoskill-2605.27366`](sources/arxiv-muse-autoskill-2605.27366.md) | draft | MUSE-Autoskill skill lifecycle — arXiv 2605.27366 |
 | [`arxiv-autosci-2605.31468`](sources/arxiv-autosci-2605.31468.md) | draft | AutoSci memory-centric research — arXiv 2605.31468 |
 | [`arxiv-sia-harness-weight-updates-2605.27276`](sources/arxiv-sia-harness-weight-updates-2605.27276.md) | draft | SIA — OSINT cross-wiki stub (K84 canon) |

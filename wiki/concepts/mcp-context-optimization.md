@@ -20,9 +20,10 @@ related:
   - concepts/claude-code-large-codebase-workflow.md
   - concepts/maven-agentic-tool-calling-generalization.md
   - sources/arxiv-maven-agentic-tool-calling-2605.30738.md
+  - concepts/slm-agent-orchestration-gateway.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-02
+updated: 2026-06-03
 ---
 
 ## Relations

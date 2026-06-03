@@ -14,9 +14,11 @@ related:
   - concepts/muse-autoskill-skill-lifecycle.md
   - sources/arxiv-muse-autoskill-2605.27366.md
   - sources/arxiv-sia-harness-weight-updates-2605.27276.md
+  - concepts/adaptive-auto-harness-open-ended-streams.md
+  - sources/arxiv-adaptive-auto-harness-2606.01770.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-06-02
+updated: 2026-06-03
 cross-wiki-source: "@osint-wiki/concepts/continual-harness-online-self-improvement.md"
 ---
 

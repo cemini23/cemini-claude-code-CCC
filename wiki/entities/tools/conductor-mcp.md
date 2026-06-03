@@ -33,6 +33,8 @@ related:
   - entities/tools/skillnet.md
   - concepts/remote-hermes-access-pattern.md
   - entities/tools/agyn.md
+  - concepts/slm-agent-orchestration-gateway.md
+  - sources/arxiv-slm-orchestration-gateway-2606.03557.md
 maturity: validated
 created: 2026-05-13
 updated: 2026-06-02

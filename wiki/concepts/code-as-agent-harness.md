@@ -37,9 +37,15 @@ related:
   - sources/arxiv-system-scaling-harness-2605.26112.md
   - concepts/maven-agentic-tool-calling-generalization.md
   - sources/arxiv-sia-harness-weight-updates-2605.27276.md
+  - concepts/runtime-harness-interface-adaptation.md
+  - sources/arxiv-runtime-harness-adaptation-2605.22166.md
+  - concepts/adaptive-auto-harness-open-ended-streams.md
+  - sources/arxiv-adaptive-auto-harness-2606.01770.md
+  - concepts/cli-anything-agent-native-computer-use.md
+  - entities/tools/life-harness.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-06-02
+updated: 2026-06-03
 cross-wiki-source: "@osint-wiki/sources/arxiv-code-as-agent-harness-survey-2605.18747.md"
 ---
 

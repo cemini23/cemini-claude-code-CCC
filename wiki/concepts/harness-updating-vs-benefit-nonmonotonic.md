@@ -16,9 +16,11 @@ related:
   - sources/arxiv-sia-harness-weight-updates-2605.27276.md
   - sources/arxiv-system-scaling-harness-2605.26112.md
   - sources/trading-posts-compilation-31-2026-06-01.md
+  - concepts/adaptive-auto-harness-open-ended-streams.md
+  - sources/arxiv-adaptive-auto-harness-2606.01770.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-02
+updated: 2026-06-03
 cross-wiki-source: "@osint-wiki/concepts/harness-updating-vs-benefit-nonmonotonic.md"
 ---
 
