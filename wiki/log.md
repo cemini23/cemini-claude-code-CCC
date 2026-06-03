@@ -4,15 +4,17 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
-## [2026-06-03] ingest | K95 — 5 arXiv + CLI-Anything brief
+## [2026-06-03] ingest | K95
 
-**Sources (6):** runtime-harness 22166, AgentXGCore 00417, adaptive-auto-harness 01770, embedded modular 02862, SLM gateway 03557, CLI-Anything 03854 (OSINT brief).
+Daily digest fetch (`wiki/sweeps/2026-06-03-daily.md`). Five NEW arXiv harness/agent papers from `research to be indexed/` (+ CLI-Anything brief from OSINT per prior stub).
 
-**Concepts (5):** runtime-harness-interface-adaptation, adaptive-auto-harness-open-ended-streams, embedded-agent-modular-edge-architecture, slm-agent-orchestration-gateway, cli-anything-agent-native-computer-use.
+**Pages created (11):** `runtime-harness-interface-adaptation`, `adaptive-auto-harness-open-ended-streams`, `embedded-agent-modular-edge-architecture`, `slm-agent-orchestration-gateway`, `life-harness`, `adaptive-auto-harness`, `sources/arxiv-runtime-harness-adaptation-2605.22166`, `sources/arxiv-adaptive-auto-harness-2606.01770`, `sources/arxiv-agentxgcore-mobile-core-2606.00417`, `sources/arxiv-embedded-agent-modular-edge-2606.02862`, `sources/arxiv-slm-orchestration-gateway-2606.03557`.
 
-**Entities (2):** adaptive-auto-harness, life-harness (stubs).
+**Pages updated (11):** `code-as-agent-harness`, `continual-harness-online-self-improvement`, `harness-updating-vs-benefit-nonmonotonic`, `system-scaling-harness-agentic-ai`, `subagent-orchestration`, `agent-sandbox-unikraft`, `lazy-tool`, `conductor-mcp`, `openevolve`, `index.md`.
 
-**Brief:** `2026-06-03_k95-ccc-cli-anything-from-osint` → wiki-ingested.
+**Cross-wiki (log only):** Five arXiv papers not yet on `@osint-wiki`. OSINT daily sweep flagged same PDFs — CCC owns harness-interface + lazy-tool/conductor routing synthesis; OSINT may own prediction-market stream eval (2606.01770) and telecom AgentxGCore (2606.00417) if routed. CLI-Anything (2606.03854) brief ingested separately — no duplicate full OSINT pages.
+
+**Raw:** 5 PDFs → `raw-sources/` + `cemini-librarian:/opt/cemini-bulk/research/`; inbox cleared.
 
 ## [2026-06-02] brief ingest | K94 agent skills + Tool Forge from OSINT
 

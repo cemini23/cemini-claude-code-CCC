@@ -6,7 +6,7 @@ keywords: [2606.02862, embedded-agents, governance-layer, on-device, cloud-augme
 related:
   - sources/arxiv-embedded-agent-modular-edge-2606.02862.md
   - concepts/agent-sandbox-unikraft.md
-  - concepts/tier1-tier2-agent-model.md
+  - entities/patterns/tier1-tier2-agent-model.md
 maturity: draft
 created: 2026-06-03
 updated: 2026-06-03

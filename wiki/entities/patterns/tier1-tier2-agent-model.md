@@ -18,9 +18,10 @@ related:
   - entities/tools/defenseclaw.md
   - concepts/agent-sandbox-unikraft.md
   - concepts/claude-code-subagent-templates.md
+  - concepts/embedded-agent-modular-edge-architecture.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-31
+updated: 2026-06-03
 ---
 
 ## Relations

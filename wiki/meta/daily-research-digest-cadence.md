@@ -8,9 +8,10 @@ related:
   - concepts/monokern-compounding-research-pipeline.md
   - sweeps/2026-06-01-daily.md
   - sweeps/2026-06-02-daily.md
+  - sweeps/2026-06-03-daily.md
 maturity: core
 created: 2026-06-01
-updated: 2026-06-02
+updated: 2026-06-03
 ---
 
 ## Relations

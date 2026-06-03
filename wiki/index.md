@@ -53,6 +53,8 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`agents-best-practices`](entities/tools/agents-best-practices.md) | draft | DenisSergeevitch patterns — cherry-pick Adopt (K93) |
 | [`agyn`](entities/tools/agyn.md) | draft | Agent ops platform — REFERENCE (2605.27575) |
 | [`tool-forge`](entities/tools/tool-forge.md) | draft | Validation-carrying toolchain — CONDITIONAL-GO (2605.28000, Apache-2.0) |
+| [`life-harness`](entities/tools/life-harness.md) | draft | LIFE-HARNESS runtime interface adaptation — CONDITIONAL-GO (2605.22166, K95) |
+| [`adaptive-auto-harness`](entities/tools/adaptive-auto-harness.md) | draft | A-EVO-Lab stream harness tree — REFERENCE (2606.01770, K95) |
 
 ## entities/mcp-servers/
 
@@ -210,6 +212,10 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`decoupled-intelligence-multi-agent-reference`](concepts/decoupled-intelligence-multi-agent-reference.md) | draft | Traffic multi-agent — REFERENCE only (2605.27685) |
 | [`skillrae-retrieval-augmented-execution`](concepts/skillrae-retrieval-augmented-execution.md) | draft | Skill-graph RAE — post-retrieval context compilation (K59 arXiv) |
 | [`graphflow-verifiable-agent-workflows`](concepts/graphflow-verifiable-agent-workflows.md) | draft | Proof-carrying visual workflows + durable runtime (K59 arXiv) |
+| [`runtime-harness-interface-adaptation`](concepts/runtime-harness-interface-adaptation.md) | draft | LIFE-HARNESS — adapt interface not model (2605.22166, K95) |
+| [`adaptive-auto-harness-open-ended-streams`](concepts/adaptive-auto-harness-open-ended-streams.md) | draft | Stream harness tree + anti-overfit (2606.01770, K95) |
+| [`embedded-agent-modular-edge-architecture`](concepts/embedded-agent-modular-edge-architecture.md) | draft | Edge agent tiers + governance layer — REFERENCE (2606.02862, K95) |
+| [`slm-agent-orchestration-gateway`](concepts/slm-agent-orchestration-gateway.md) | draft | Intent router + service registry pattern (2606.03557, K95) |
 
 ## sources/
 
@@ -254,6 +260,11 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-decoupled-intelligence-multi-agent-2605.27685`](sources/arxiv-decoupled-intelligence-multi-agent-2605.27685.md) | draft | Decoupled Intelligence — 2605.27685 |
 | [`arxiv-agent-skills-survey-2605.07358-2026-06-02`](sources/arxiv-agent-skills-survey-2605.07358-2026-06-02.md) | draft | Agent skills taxonomy survey — K94 OSINT mirror |
 | [`arxiv-tool-forge-governed-agentic-2605.28000-2026-06-02`](sources/arxiv-tool-forge-governed-agentic-2605.28000-2026-06-02.md) | draft | Tool Forge governed toolchain — K94 OSINT mirror |
+| [`arxiv-runtime-harness-adaptation-2605.22166`](sources/arxiv-runtime-harness-adaptation-2605.22166.md) | draft | LIFE-HARNESS runtime interface adaptation — K95 |
+| [`arxiv-adaptive-auto-harness-2606.01770`](sources/arxiv-adaptive-auto-harness-2606.01770.md) | draft | Adaptive Auto-Harness open-ended streams — K95 |
+| [`arxiv-agentxgcore-mobile-core-2606.00417`](sources/arxiv-agentxgcore-mobile-core-2606.00417.md) | draft | AgentxGCore 6G core — REFERENCE only (K95) |
+| [`arxiv-embedded-agent-modular-edge-2606.02862`](sources/arxiv-embedded-agent-modular-edge-2606.02862.md) | draft | Embedded agent modular edge architecture — K95 |
+| [`arxiv-slm-orchestration-gateway-2606.03557`](sources/arxiv-slm-orchestration-gateway-2606.03557.md) | draft | SLM orchestration gateway — K95 |
 
 ## meta/
 
