@@ -15,9 +15,10 @@ related:
   - concepts/nine-stage-agent-team-production.md
   - concepts/agentic-pm-review-artifacts.md
   - concepts/system-scaling-harness-agentic-ai.md
+  - concepts/agent-rubrics-self-correction.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-06-01
+updated: 2026-06-03
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-25-2026-05-27.md"
 ---
 

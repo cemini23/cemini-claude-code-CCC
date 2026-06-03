@@ -11,9 +11,11 @@ related:
   - entities/tools/claude-code.md
   - sources/trading-posts-compilation-42-2026-05-31.md
   - concepts/thin-harness-fat-skills-garrytan.md
+  - concepts/runtime-context-mcp-file-refs.md
+  - sources/trading-posts-compilation-17-2026-06-03.md
 maturity: draft
 created: 2026-05-31
-updated: 2026-06-01
+updated: 2026-06-03
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-42-2026-05-31.md"
 ---
 
@@ -25,6 +27,7 @@ cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-42-2026-05-31.
 - `@concepts/claude-md-five-section-template.md` — CLAUDE.md vs AGENTS.md split
 - `@entities/tools/claude-code.md` — host harness
 - `@sources/trading-posts-compilation-42-2026-05-31.md` — Posts 8, 15, 27–29, 32–34, 38
+- `@sources/trading-posts-compilation-17-2026-06-03.md` — K97 Post 3 (@0xCodez Anthropic engineer dynamic workflows)
 
 ## Raw Concept
 
@@ -38,6 +41,7 @@ K88 **Claude harness post cluster** (multiple authors): dynamic workflows via **
 | Plugin sprawl | `@concepts/claude-plugins-catalog-patterns.md` + `@concepts/skill-vetting.md` |
 | Token discipline | `@concepts/agent-token-discipline-openclaw-hermes.md` |
 | Dynamic mode switches | Compare to `/loop` and Plan agent — document in brief, don't fork harness |
+| Runtime grounding (K97 Post 3–4) | Pair with `@concepts/runtime-context-mcp-file-refs.md` — MCP + file refs before dynamic routing |
 
 **Verdict:** **REFERENCE** — mine posts for brief-ready snippets; file deltas into existing concept pages.
 

@@ -25,9 +25,10 @@ related:
   - concepts/maven-agentic-tool-calling-generalization.md
   - sources/arxiv-maven-agentic-tool-calling-2605.30738.md
   - entities/tools/tool-forge.md
+  - concepts/runtime-context-mcp-file-refs.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-02
+updated: 2026-06-03
 ---
 
 ## Relations

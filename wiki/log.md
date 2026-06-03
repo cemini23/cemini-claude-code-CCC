@@ -4,6 +4,16 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-06-03] brief ingest | K97 agent-harness cluster from OSINT
+
+Ingested `briefs/2026-06-03_k97-ccc-agent-harness-from-osint.md` — Posts.docx K97 (17 posts, sha `bf5682b3…`), 10 harness posts routed to CCC.
+
+**Pages created (4):** `claude-code-cheat-sheet-shortcuts`, `runtime-context-mcp-file-refs`, `agent-rubrics-self-correction`, `claude-cowork-automation-vs-hooks`.
+
+**Pages updated (11):** `sources/trading-posts-compilation-17-2026-06-03`, `claude-harness-dynamic-workflows-k88`, `agent-token-discipline-openclaw-hermes`, `hermes-agent`, `codex-side-fork-workflow`, `claude-obsidian-notebooklm-bridge`, `monokern-compounding-research-pipeline`, `damidefi`, `kimi-agent-swarm`, `subagent-orchestration`, `claude-code`, `context-engineering`, `index.md`.
+
+**Cross-wiki:** `@osint-wiki/sources/trading-posts-compilation-17-2026-06-03.md` (canon).
+
 ## [2026-06-03] ingest | K95
 
 Daily digest fetch (`wiki/sweeps/2026-06-03-daily.md`). Five NEW arXiv harness/agent papers from `research to be indexed/` (+ CLI-Anything brief from OSINT per prior stub).

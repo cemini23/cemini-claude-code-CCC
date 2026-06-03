@@ -60,9 +60,11 @@ related:
   - entities/tools/agyn.md
   - sources/arxiv-agyn-agent-platform-2605.27575.md
   - sources/arxiv-agentxgcore-mobile-core-2606.00417.md
+  - sources/trading-posts-compilation-17-2026-06-03.md
+  - entities/people/damidefi.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-02
+updated: 2026-06-03
 ---
 
 ## Relations

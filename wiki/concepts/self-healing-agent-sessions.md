@@ -15,9 +15,10 @@ related:
   - entities/patterns/full-prompt-goal-template.md
   - entities/tools/hermes-agent.md
   - concepts/continual-harness-online-self-improvement.md
+  - concepts/agent-rubrics-self-correction.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-05-27
+updated: 2026-06-03
 cross-wiki-source: "@osint-wiki/sources/arxiv-self-healing-llm-agents-2605.06737.md"
 ---
 

@@ -8,9 +8,10 @@ related:
   - concepts/twelve-rule-claude-md-template.md
   - concepts/hooks-for-automation.md
   - concepts/tools-we-dont-use.md
+  - concepts/claude-code-cheat-sheet-shortcuts.md
 maturity: draft
 created: 2026-05-22
-updated: 2026-05-22
+updated: 2026-06-03
 cross-wiki-source: "@osint-wiki/sources/trading-posts-oil-polymarket-html-dex-sniping-2026-05-21.md"
 ---
 

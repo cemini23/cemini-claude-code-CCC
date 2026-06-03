@@ -21,9 +21,10 @@ related:
   - sources/trading-posts-compilation-16-2026-05-31.md
   - concepts/remote-hermes-access-pattern.md
   - concepts/worldmemarena-multimodal-agent-memory-eval.md
+  - sources/trading-posts-compilation-17-2026-06-03.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-06-02
+updated: 2026-06-03
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-20-2026-05-27.md"
 ---
 
@@ -64,6 +65,10 @@ K69 Post 13 (@Voxyz_ai): **token waste** in always-on **OpenClaw / Hermes** setu
 ### Posture
 
 Do **not** add always-on Hermes gateway beside conductor without token budget + kill switch. Post is anti-pattern catalog, not adoption pitch.
+
+### K97 Post 5 — prompt-cost routing [TENTATIVE]
+
+@0xDepressionn cites large monthly spend cut via **model routing + prompt discipline** — steal **routing rules** (Haiku/Sonnet for subagents, static system prompts, avoid re-pasting docs) per `@concepts/three-cache-architecture.md`. **Do not** treat dollar figures as `[CONFIRMED]` without operator billing data.
 
 ## Snippets
 

@@ -8,9 +8,12 @@ related:
   - concepts/claude-obsidian-notebooklm-bridge.md
   - sources/trading-posts-compilation-6-2026-05-29.md
   - sources/trading-posts-compilation-20-2026-05-27.md
+  - sources/trading-posts-compilation-17-2026-06-03.md
+  - entities/tools/kimi-agent-swarm.md
+  - concepts/subagent-orchestration.md
 maturity: draft
 created: 2026-05-30
-updated: 2026-05-30
+updated: 2026-06-03
 cross-wiki-source: "@osint-wiki/entities/people/damidefi.md"
 ---
 
@@ -29,7 +32,7 @@ X author cited in Posts.docx batches for **Claude + Obsidian operator workflows*
 
 ## Narrative
 
-Referenced in K69 (vault thinking, NotebookLM CLI) and K78 (five-tool stack). Workflow ideas are stolen; `@entities/tools/claude-obsidian.md` plugin remains **DO NOT ADOPT**.
+Referenced in K69 (vault thinking, NotebookLM CLI) and K78 (five-tool stack). K97 Post 16: **Opus + Kimi agent swarm** screening 50 YC startups — orchestration exemplar mapped to `@concepts/subagent-orchestration.md` and `@entities/tools/kimi-agent-swarm.md` (reference only). Workflow ideas are stolen; `@entities/tools/claude-obsidian.md` plugin remains **DO NOT ADOPT**.
 
 ## Snippets
 

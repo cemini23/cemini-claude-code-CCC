@@ -54,9 +54,10 @@ related:
   - sources/arxiv-muse-autoskill-2605.27366.md
   - concepts/agent-skills-taxonomy.md
   - entities/tools/tool-forge.md
+  - concepts/agent-rubrics-self-correction.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-06-02
+updated: 2026-06-03
 ---
 
 ## Relations

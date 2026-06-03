@@ -21,6 +21,7 @@ related:
   - concepts/maven-agentic-tool-calling-generalization.md
   - sources/arxiv-maven-agentic-tool-calling-2605.30738.md
   - concepts/slm-agent-orchestration-gateway.md
+  - concepts/runtime-context-mcp-file-refs.md
 maturity: validated
 created: 2026-05-13
 updated: 2026-06-03

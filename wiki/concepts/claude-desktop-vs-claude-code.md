@@ -15,9 +15,10 @@ related:
   - concepts/claude-artifacts-app-building.md
   - entities/tools/librechat.md
   - concepts/harness-layer-competition-cursor-claude-perplexity.md
+  - concepts/claude-cowork-automation-vs-hooks.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-01
+updated: 2026-06-03
 ---
 
 ## Relations

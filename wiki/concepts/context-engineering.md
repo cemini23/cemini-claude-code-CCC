@@ -36,9 +36,11 @@ related:
   - concepts/harness-de-bloat-4x4-pattern.md
   - concepts/claude-code-skills-md-institutional-memory.md
   - concepts/claude-md-five-section-template.md
+  - concepts/runtime-context-mcp-file-refs.md
+  - concepts/claude-code-cheat-sheet-shortcuts.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-28
+updated: 2026-06-03
 ---
 
 ## Relations

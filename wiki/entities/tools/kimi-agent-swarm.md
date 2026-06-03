@@ -11,10 +11,12 @@ related:
   - concepts/cross-wiki-tool-eval-inventory.md
   - concepts/five-layer-operator-stack.md
   - sources/trading-posts-compilation-6-2026-05-29.md
-  - "@osint-wiki/entities/tools/kimi-agent-swarm.md"
+  - sources/trading-posts-compilation-17-2026-06-03.md
+  - entities/people/damidefi.md
+  - concepts/subagent-orchestration.md
 maturity: draft
 created: 2026-05-24
-updated: 2026-05-30
+updated: 2026-06-03
 cross-wiki-source: "@osint-wiki/entities/tools/kimi-agent-swarm.md"
 ---
 
@@ -51,6 +53,10 @@ K2.6 coordinator → decompose prompt → ≤300 parallel sub-agents → ≤4,00
 ### vs CCC stack
 
 Use `@entities/tools/claude-code.md` Agent Teams for codebase and wiki. Use Kimi only when task is **hosted parallel content factory**, not harness or market ops.
+
+### K97 Post 16 — Opus + Kimi YC swarm [TENTATIVE]
+
+@DamiDefi demo: Claude Opus coordinator + Kimi parallel sub-agents screening startup lists. **CCC steal-from:** scatter-gather decomposition + synthesis gate (`@entities/patterns/scatter-gather.md`); **do not** route prod wiki/trading through Kimi web UI.
 
 ## Snippets
 

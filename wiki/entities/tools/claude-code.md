@@ -47,10 +47,14 @@ related:
   - concepts/agent-token-discipline-openclaw-hermes.md
   - concepts/five-layer-operator-stack.md
   - concepts/codex-side-fork-workflow.md
+  - concepts/claude-code-cheat-sheet-shortcuts.md
+  - concepts/runtime-context-mcp-file-refs.md
+  - concepts/agent-rubrics-self-correction.md
+  - sources/trading-posts-compilation-17-2026-06-03.md
 maturity: core
 hub: true
 created: 2026-05-13
-updated: 2026-05-30
+updated: 2026-06-03
 ---
 
 ## Relations
@@ -101,6 +105,7 @@ The harness is built around **session-scoped context windows**. The model has a 
 - **MCP servers** — wired via `~/Library/Application Support/Claude/claude_desktop_config.json` (Desktop app) or per-project `.mcp.json`. Cemini-adopted: Exa, Brave, Playwright, claude-mem, stash-librarian, conductor.
 - **Agents** — `Agent` tool spawns isolated subagent runs. Built-in types: `general-purpose`, `Explore`, `Plan`, `code-reviewer`, `statusline-setup`. Cemini-authored agents inherit the same tool surface unless restricted.
 - **Modes** — `/fast` toggles fast-mode (Opus 4.7 with faster output, not a model downgrade). Plan-mode (`EnterPlanMode`) is read-only with `ExitPlanMode` to approve.
+- **Operator cheat sheet** — Shift+Tab (mode cycle), Escape×2 (rewind turn), Ctrl+S (stash prompt). Full surface map: `@concepts/claude-code-cheat-sheet-shortcuts.md` (K97 Post 2).
 
 **Fast vs Opus pricing model**: at the time of writing Cemini runs on `claude-opus-4-7[1m]` for primary sessions, with Sonnet 4.6 for cheaper subagents and Haiku 4.5 for high-throughput orchestration jobs. Models change rapidly; verify against the current `--model` flag rather than relying on this page.
 

@@ -18,9 +18,10 @@ related:
   - sources/trading-posts-compilation-6-2026-05-29.md
   - concepts/obsidian-vellum-second-brain-stack.md
   - concepts/monokern-compounding-research-pipeline.md
+  - sources/trading-posts-compilation-17-2026-06-03.md
 maturity: validated
 created: 2026-05-27
-updated: 2026-06-01
+updated: 2026-06-03
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-20-2026-05-27.md"
 ---
 
@@ -66,6 +67,10 @@ K69 Posts 17–18 (@DamiDefi): use **Claude Code + Obsidian vault** as a thinkin
 | Cross-wiki facts | conductor + librarian | Re-indexing vault into kb-server |
 | Session continuity | claude-mem + hot.md | Hermes 24/7 gateway |
 | Audio synthesis | notebooklm-py (optional) | Pushing prod secrets into NotebookLM |
+
+### K97 Post 14 — 6-minute pipeline [TENTATIVE]
+
+@zeuuss_01 compresses **Claude + NotebookLM + Obsidian** into a short operator loop — export vault slice → NotebookLM Q&A/audio → markdown back to vault. Same guardrails as Posts 17–18; pairs with `@concepts/monokern-compounding-research-pipeline.md` weekly cadence.
 
 ## Snippets
 

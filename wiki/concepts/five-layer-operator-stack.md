@@ -13,9 +13,10 @@ related:
   - entities/people/damidefi.md
   - sources/trading-posts-compilation-6-2026-05-29.md
   - concepts/obsidian-vellum-second-brain-stack.md
+  - concepts/claude-cowork-automation-vs-hooks.md
 maturity: draft
 created: 2026-05-30
-updated: 2026-05-30
+updated: 2026-06-03
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-6-2026-05-29.md"
 ---
 

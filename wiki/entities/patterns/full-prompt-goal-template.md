@@ -20,9 +20,11 @@ related:
   - concepts/claude-prompt-engineering-techniques.md
   - concepts/codex-side-fork-workflow.md
   - sources/trading-posts-compilation-k84-2026-05-30.md
+  - concepts/agent-rubrics-self-correction.md
+  - entities/tools/hermes-agent.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-30
+updated: 2026-06-03
 ---
 
 ## Relations

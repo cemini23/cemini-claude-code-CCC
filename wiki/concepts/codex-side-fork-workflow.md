@@ -12,10 +12,11 @@ related:
   - entities/tools/lazy-tool.md
   - entities/tools/conductor-mcp.md
   - sources/trading-posts-compilation-k84-2026-05-30.md
+  - sources/trading-posts-compilation-17-2026-06-03.md
   - entities/tools/claude-code.md
 maturity: draft
 created: 2026-05-30
-updated: 2026-05-30
+updated: 2026-06-03
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-k84-2026-05-30.md"
 ---
 
@@ -55,6 +56,10 @@ Codex + Claude Code + Cursor coexist in the federation:
 - **Codex** — OpenAI CLI harness; compare isolation to `@concepts/2026-05-13_multi-codex-codex-home-isolation.md`
 
 **Do not** treat X-thread product claims as `[CONFIRMED]` without local verification on the installed Codex version.
+
+### K97 Post 10 — Codex 30-min course [TENTATIVE]
+
+@0xCodez beginner course on **OpenAI Codex CLI** — onboarding path for parallel IDE. CCC operators already on Claude Code: skim for `/side`, `/fork`, skills parity only; full course is `[NEEDS VERIFICATION 2026-06-03]` against installed Codex build. Cross-link: [OpenAI Codex docs](https://developers.openai.com/codex) (retrieved 2026-06-03).
 
 ### Do not port (K84 brief)
 

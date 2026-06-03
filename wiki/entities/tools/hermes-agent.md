@@ -20,9 +20,11 @@ related:
   - concepts/remote-hermes-access-pattern.md
   - concepts/agent-personality-file-hermes-openclaw.md
   - sources/trading-posts-compilation-16-2026-05-31.md
+  - sources/trading-posts-compilation-17-2026-06-03.md
+  - entities/patterns/full-prompt-goal-template.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-05-31
+updated: 2026-06-03
 cross-wiki-source: "@osint-wiki/entities/tools/hermes-agent.md"
 ---
 
@@ -64,6 +66,10 @@ K64 OSINT brief (`2026-05-24_k64-polymarket-wallet-pipeline-cemini.md`) flags Po
 ### Distinct from `hermes-desktop`
 
 See `@entities/tools/hermes-desktop.md` — Tauri/React GUI (~5.8k★) is a **desktop shell**, not this runtime page. K90 v6 reaffirms Adopt for GUI reference only.
+
+### K97 Post 8 — Hermes `/goal` [TENTATIVE]
+
+@zaimiri full guide on Hermes **`/goal`** long-horizon decomposition. **CCC mapping:** `@entities/patterns/full-prompt-goal-template.md` + Stop-hook goal condition on Claude Code — not Hermes install. Compare Codex `/goal` on `@concepts/codex-side-fork-workflow.md`.
 
 ## Snippets
 
