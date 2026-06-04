@@ -79,6 +79,20 @@ Full trial run 2026-06-04 (`/tmp/ccc-trials-full-20260604/`) for nine Phase-0 ba
 
 SkillNet `search "skill vetting"` returns community skills (e.g. `skill-vetter`) with quality scores — useful as **discovery**, not routing. `@entities/tools/lazy-tool.md` + `@entities/tools/conductor-mcp.md` already cover MCP/tool federation for Cemini. **No SkillNet routing layer** until a documented gap appears.
 
+### Deployment scope — laptop vs prod vs projects [CONFIRMED 2026-06-04]
+
+Adoptions **do not** fan out automatically.
+
+| Surface | Applies | Does not apply |
+|---------|---------|----------------|
+| **Mac user Claude plugins** (`scope: user`) | All Claude Code sessions for that OS user on the Mac | `cemini-prod` (`root`), other OS users |
+| **Project `.claude/skills/`** (CCC repo) | Sessions with CCC as project root | CeminiSuite `/opt/cemini`, sibling wiki folders |
+| **Cursor** (`~/.cursor/`, built-in browser) | Cursor agent sessions | Claude Code CLI on prod |
+| **cemini-prod** | Own plugins, `vet_skill.py`, `approved_skills.json` | Laptop harness/meta tools unless briefed + vetted |
+| **cemini-librarian** | Wiki sync, stash MCP | Claude Code harness adoptions from this batch |
+
+**Prod handoff:** `briefs/2026-06-04_phase0-adoption-scope-cemini-prod.md` → `cemini-prod:/opt/cemini/briefs/` — Phase 1 doc + optional `skill-scanner` trial; **NO-GO** on harness/openevolve/Skill_Seekers install.
+
 ## Snippets
 
 > "Two-gate policy: doc-level eval verdicts are not adoption verdicts."

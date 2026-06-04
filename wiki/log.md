@@ -4,6 +4,14 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-06-04] brief → prod | Phase-0 adoption deployment scope
+
+Answer: laptop adoptions **do not** apply across all projects or prod automatically.
+
+**Updated:** `concepts/cross-wiki-tool-adoption-routing.md` — deployment scope table (Mac user vs project vs prod vs librarian).
+
+**Prod brief scp'd:** `briefs/2026-06-04_phase0-adoption-scope-cemini-prod.md` → `cemini-prod:/opt/cemini/briefs/` (7268 bytes). Prod: Phase 1 governance doc + optional skill-scanner trial vs `vet_skill.py`; NO-GO harness/openevolve/Skill_Seekers.
+
 ## [2026-06-04] adopt | Full Phase-0 trial run + cross-wiki routing
 
 Nine-tool trial batch in `/tmp/ccc-trials-full-20260604/`; CCC-local adoptions applied.
