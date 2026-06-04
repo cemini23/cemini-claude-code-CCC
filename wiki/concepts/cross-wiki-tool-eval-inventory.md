@@ -72,9 +72,10 @@ related:
   - entities/tools/slot-casino-game-developer-skills.md
   - sources/multi-wiki-tool-eval-v7-k92-2026-06-01.md
   - sources/multi-wiki-tool-eval-v5-k93-2026-06-01.md
+  - concepts/mcp-server-catalog-curation.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-06-01
+updated: 2026-06-04
 ---
 
 ## Relations

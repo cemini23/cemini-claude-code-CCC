@@ -18,9 +18,10 @@ related:
   - concepts/claude-code-software-factory.md
   - entities/tools/rowboat.md
   - concepts/claude-code-subagent-templates.md
+  - concepts/agent-five-gate-org-chart.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-05-31
+updated: 2026-06-04
 cross-wiki-source: "@osint-wiki/concepts/scatter-gather-topology.md"
 ---
 

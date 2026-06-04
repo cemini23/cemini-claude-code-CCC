@@ -8,9 +8,10 @@ related:
   - concepts/agent-vm-sandboxing.md
   - entities/patterns/tier1-tier2-agent-model.md
   - entities/mcp-servers/anthropic-skills.md
+  - concepts/seclaw-agent-security-evaluation.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-05-21
+updated: 2026-06-04
 cross-wiki-source: "@osint-wiki/sources/tool-evaluation-wiki-fit-2026-05-15.md"
 ---
 

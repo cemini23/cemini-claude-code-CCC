@@ -62,9 +62,11 @@ related:
   - sources/arxiv-agentxgcore-mobile-core-2606.00417.md
   - sources/trading-posts-compilation-17-2026-06-03.md
   - entities/people/damidefi.md
+  - concepts/agent-five-gate-org-chart.md
+  - sources/trading-posts-compilation-18-2026-06-04.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-03
+updated: 2026-06-04
 ---
 
 ## Relations
@@ -146,6 +148,10 @@ The subagent doesn't see the parent conversation. The prompt must be **self-cont
 ### Cross-wiki orchestration
 
 The `conductor` MCP server (`@entities/tools/conductor-mcp.md`) is a subagent-orchestration primitive for the federation: it fans a query across multiple wikis and returns one synthesis. The same pattern is reusable for any "search across N independent corpora and merge" problem — see `@concepts/cross-wiki-routing.md` for the routing layer that decides which wikis to fan to.
+
+### K98 five-gate org chart [TENTATIVE]
+
+@Voxyz_ai Post 1 reframes subagent dispatch as an **org chart** (Intake → Specialist → Adversary → Lead → Memo) rather than ad-hoc Task calls. See `@concepts/agent-five-gate-org-chart.md` for Cemini gate mapping; `@concepts/claude-code-subagent-templates.md` for Zephyr four-lane weekend templates (K98 Post 4).
 
 ### What not to outsource
 

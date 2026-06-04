@@ -10,9 +10,11 @@ related:
   - concepts/agent-completion-verification-gates.md
   - entities/tools/claude-code.md
   - sources/trading-posts-compilation-42-2026-05-31.md
+  - sources/trading-posts-compilation-18-2026-06-04.md
+  - concepts/agent-five-gate-org-chart.md
 maturity: draft
 created: 2026-05-31
-updated: 2026-05-31
+updated: 2026-06-04
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-42-2026-05-31.md"
 ---
 
@@ -24,8 +26,9 @@ cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-42-2026-05-31.
 - `@concepts/agent-completion-verification-gates.md` — done criteria before merge
 - `@entities/tools/claude-code.md` — host harness
 - `@sources/trading-posts-compilation-42-2026-05-31.md` — K88 Post 2 provenance
+- `@sources/trading-posts-compilation-18-2026-06-04.md` — K98 Post 4 (@Zephyr_hg)
 
-Cross-wiki: K88 Post 2 (@0x_rody).
+Cross-wiki: K88 Post 2 (@0x_rody); K98 Post 4 (@Zephyr_hg).
 
 ## Raw Concept
 
@@ -50,6 +53,19 @@ K88 Post 2 (@0x_rody): **15-minute subagent template** — bounded Task/Agent in
 | Long-horizon | `/goal` + OpenSpec, not 15-min boxes |
 
 **Verdict:** **REFERENCE** — paste template into `briefs/` when delegating repetitive wiki ingest slices.
+
+### K98 Post 4 — Zephyr four weekend workflows [TENTATIVE]
+
+@Zephyr_hg maps **four sub-agent lanes** for solo consultants: **research / code / ops / content**. CCC mapping:
+
+| Lane | Subagent type | Return contract |
+|------|---------------|-----------------|
+| Research | Explore + conductor | Synthesis + `@path` citations |
+| Code | general-purpose + Tier-2 gate | Diff + test/lint evidence |
+| Ops | bounded Bash + hooks | Log excerpt + config patch |
+| Content | brief-ready markdown | SEO-neutral wiki prose only |
+
+Same 15-min time box as K88 template; lanes replace ad-hoc persona switching in one chat.
 
 ## Snippets
 

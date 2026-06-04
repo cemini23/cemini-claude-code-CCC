@@ -7,9 +7,11 @@ related:
   - concepts/cross-wiki-tool-eval-inventory.md
   - concepts/skill-vetting.md
   - concepts/claude-code-software-factory.md
+  - concepts/mcp-server-catalog-curation.md
+  - sources/trading-posts-compilation-18-2026-06-04.md
 maturity: draft
 created: 2026-05-26
-updated: 2026-05-26
+updated: 2026-06-04
 read_status: unread-stub
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-38-2026-05-26.md"
 ---
@@ -19,8 +21,9 @@ cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-38-2026-05-26.
 - `@concepts/cross-wiki-tool-eval-inventory.md` — dedupe against existing catalog rows before any GO
 - `@concepts/skill-vetting.md` — Phase-0 required per repo if promoted
 - `@concepts/claude-code-software-factory.md` — list is input to factory eval, not truth
+- `@concepts/mcp-server-catalog-curation.md` — K98 Post 10 (@exploraX_ 50 MCP) extends same queue discipline
 
-Cross-wiki: K67 Post 36 (@exploraX_); full post text in `@osint-wiki/sources/trading-posts-compilation-38-2026-05-26.md`.
+Cross-wiki: K67 Post 36 (@exploraX_); K98 Post 10 in `@sources/trading-posts-compilation-18-2026-06-04.md`.
 
 ## Raw Concept
 

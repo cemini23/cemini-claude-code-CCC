@@ -16,9 +16,10 @@ related:
   - concepts/agentic-pm-review-artifacts.md
   - concepts/system-scaling-harness-agentic-ai.md
   - concepts/agent-rubrics-self-correction.md
+  - concepts/agent-five-gate-org-chart.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-06-03
+updated: 2026-06-04
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-25-2026-05-27.md"
 ---
 

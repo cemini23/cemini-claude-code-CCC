@@ -4,6 +4,18 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-06-04] brief ingest | K98 agent org chart + MCP from OSINT
+
+Ingested `briefs/2026-06-04_k98-ccc-agent-org-chart-mcp-from-osint.md` — Posts.docx K98 (13 posts, sha `32400c1f…`) harness cluster + SeClaw arXiv.
+
+**Pages created (5):** `agent-five-gate-org-chart`, `mcp-server-catalog-curation`, `seclaw-agent-security-evaluation`, `sources/trading-posts-compilation-18-2026-06-04`, `sources/arxiv-seclaw-spec-driven-agent-security-2606-02302-2026-06-04`.
+
+**Pages updated (9):** `claude-code-subagent-templates`, `subagent-orchestration`, `code-as-agent-harness`, `conductor-mcp`, `lazy-tool`, `skill-vetting`, `k67-explorax-100-repos-reference`, `index.md`.
+
+**Cross-wiki:** `@osint-wiki/sources/trading-posts-compilation-18-2026-06-04.md`, `@osint-wiki/concepts/seclaw-agent-security-evaluation.md`, `@cybersecurity-wiki/briefs/2026-06-04_k98-seclaw-agent-eval-from-osint.md`.
+
+**Explicit non-actions:** Bloome / MiroFish / TradingAgents install without Phase-0; NEMO laptop REFERENCE only.
+
 ## [2026-06-03] brief ingest | K97 agent-harness cluster from OSINT
 
 Ingested `briefs/2026-06-03_k97-ccc-agent-harness-from-osint.md` — Posts.docx K97 (17 posts, sha `bf5682b3…`), 10 harness posts routed to CCC.

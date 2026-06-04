@@ -55,9 +55,11 @@ related:
   - concepts/agent-skills-taxonomy.md
   - entities/tools/tool-forge.md
   - concepts/agent-rubrics-self-correction.md
+  - concepts/mcp-server-catalog-curation.md
+  - concepts/seclaw-agent-security-evaluation.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-06-03
+updated: 2026-06-04
 ---
 
 ## Relations
@@ -95,6 +97,7 @@ A Claude Code "skill" is a plain markdown file with YAML frontmatter that the LL
 4. **Cross-check against the malicious-skill catalog** — @entities/tools/claude-code-ultimate-guide.md's 655 patterns + 28 CVEs cover the known-bad surface. Pattern-match the body against this catalog.
 5. **First-run in isolation** — if maturity ≥ "promising" after steps 1-4, first invocation runs in an agent-VM (see @concepts/agent-vm-sandboxing.md) with action tracing on. If no agent-VM is wired, run only after a manual read-through of the skill body.
 6. **Validation-carrying metadata** [Steal-from @entities/tools/tool-forge.md Phase-0 2026-06-02] — before cataloging a skill or MCP tool, record `validation_status` (draft/approved/blocked), `version_pin`, and `last_reviewed`. Reject skills that instruct bypassing hooks or fetching remote executables without pinned SHA.
+7. **MCP catalog discipline (K98)** — viral MCP lists (@concepts/mcp-server-catalog-curation.md) follow the same checklist; add `@concepts/seclaw-agent-security-evaluation.md` trajectory eval before write-capable MCP GO.
 
 ### Verdict
 

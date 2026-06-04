@@ -35,9 +35,13 @@ related:
   - entities/tools/agyn.md
   - concepts/slm-agent-orchestration-gateway.md
   - sources/arxiv-slm-orchestration-gateway-2606.03557.md
+  - concepts/agent-five-gate-org-chart.md
+  - sources/trading-posts-compilation-18-2026-06-04.md
+  - concepts/mcp-server-catalog-curation.md
+  - concepts/seclaw-agent-security-evaluation.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-02
+updated: 2026-06-04
 ---
 
 ## Relations
@@ -68,6 +72,8 @@ Cross-wiki: `@osint-wiki/concepts/conductor-orchestrator.md` covers the design h
 **Adoption status** (2026-05-13): conductor is *available* and *occasionally used*. It is not part of every session because most Cemini work is single-wiki. When a query is genuinely cross-domain ("which of our wikis covers OSINT-overlap pentest tradecraft?"), conductor is the right primitive.
 
 **Phase-0 caveats from history**: per OSINT's K30 audit log, two competing approaches were rejected — SwarmVault (hardcoded flat layout, broke nested wikis) and PageIndex (single-file API + agentic cost + lost graph/metadata). The conductor's value is precisely the graph-preserving fan-out those alternatives lacked.
+
+**K98 five-gate mapping** (@Voxyz_ai Post 1): conductor implements **Lead + Specialist** gates in `@concepts/agent-five-gate-org-chart.md` — cross-wiki fan-out replaces single-chat persona cosplay. **Intake** and **Memo** remain parent-session responsibilities (`/goal`, `wiki/log.md`).
 
 ## Dead Ends
 

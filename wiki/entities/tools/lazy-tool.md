@@ -26,9 +26,12 @@ related:
   - sources/arxiv-maven-agentic-tool-calling-2605.30738.md
   - entities/tools/tool-forge.md
   - concepts/runtime-context-mcp-file-refs.md
+  - concepts/mcp-server-catalog-curation.md
+  - concepts/seclaw-agent-security-evaluation.md
+  - sources/trading-posts-compilation-18-2026-06-04.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-03
+updated: 2026-06-04
 ---
 
 ## Relations

@@ -43,9 +43,10 @@ related:
   - sources/arxiv-adaptive-auto-harness-2606.01770.md
   - concepts/cli-anything-agent-native-computer-use.md
   - entities/tools/life-harness.md
+  - sources/trading-posts-compilation-18-2026-06-04.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-06-03
+updated: 2026-06-04
 cross-wiki-source: "@osint-wiki/sources/arxiv-code-as-agent-harness-survey-2605.18747.md"
 ---
 
@@ -108,6 +109,10 @@ arXiv:2605.18747 frames **code as operational substrate** — not only generated
 | Human oversight for high-impact actions | Tier 1/Tier 2 model; `/goal` Stop hook |
 
 **Explicit non-action:** no new packages from the survey. Distinct from K56 Karpathy system-prompt-learning — that optimizes prompts; this concept covers runtime harness infrastructure.
+
+### K98 Post 11 — AI integration layer as backend [TENTATIVE]
+
+@saameeey essay: product **backend** becomes an **AI integration layer** (MCP + agents + tool policies) rather than REST-only CRUD. **CCC mapping:** CeminiSuite prod already routes research through conductor/librarian; laptop wikis use Claude Code + MCP federation. Treat as architecture vocabulary for briefs — not a mandate to rewrite prod APIs without EMS/RBAC review.
 
 ## Snippets
 

@@ -209,6 +209,9 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`runtime-context-mcp-file-refs`](concepts/runtime-context-mcp-file-refs.md) | draft | MCP + file refs vs guessing (K97 Post 4) |
 | [`agent-rubrics-self-correction`](concepts/agent-rubrics-self-correction.md) | draft | Rubrics eval harness steal (K97 Post 6) |
 | [`claude-cowork-automation-vs-hooks`](concepts/claude-cowork-automation-vs-hooks.md) | draft | Cowork day automation vs Code hooks (K97 Post 13) |
+| [`agent-five-gate-org-chart`](concepts/agent-five-gate-org-chart.md) | draft | Five-gate org chart — Intake through Memo (K98 Post 1) |
+| [`mcp-server-catalog-curation`](concepts/mcp-server-catalog-curation.md) | draft | MCP catalog curation — exploraX USB-C model (K98 Post 10) |
+| [`seclaw-agent-security-evaluation`](concepts/seclaw-agent-security-evaluation.md) | draft | SeClaw trajectory-aware agent security eval (2606.02302, K98) |
 | [`muse-autoskill-skill-lifecycle`](concepts/muse-autoskill-skill-lifecycle.md) | draft | MUSE skill create/eval/refine lifecycle — 2605.27366 |
 | [`autosci-memory-centric-research-agents`](concepts/autosci-memory-centric-research-agents.md) | draft | AutoSci SciMem research lifecycle — 2605.31468 |
 | [`maven-agentic-tool-calling-generalization`](concepts/maven-agentic-tool-calling-generalization.md) | draft | MAVEN tool-calling generalization — 2605.30738 |
@@ -254,6 +257,8 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-slm-orchestration-gateway-2606.03557`](sources/arxiv-slm-orchestration-gateway-2606.03557.md) | draft | SLM orchestration gateway — K95 |
 | [`arxiv-cli-anything-2606-03854-2026-06-03`](sources/arxiv-cli-anything-2606-03854-2026-06-03.md) | draft | CLI-Anything — K95 OSINT |
 | [`trading-posts-compilation-17-2026-06-03`](sources/trading-posts-compilation-17-2026-06-03.md) | draft | K97 Posts.docx harness slice — provenance (OSINT canon) |
+| [`trading-posts-compilation-18-2026-06-04`](sources/trading-posts-compilation-18-2026-06-04.md) | draft | K98 Posts.docx harness slice — provenance (OSINT canon) |
+| [`arxiv-seclaw-spec-driven-agent-security-2606-02302-2026-06-04`](sources/arxiv-seclaw-spec-driven-agent-security-2606-02302-2026-06-04.md) | draft | SeClaw agent security — K98 OSINT |
 | [`arxiv-muse-autoskill-2605.27366`](sources/arxiv-muse-autoskill-2605.27366.md) | draft | MUSE-Autoskill skill lifecycle — arXiv 2605.27366 |
 | [`arxiv-autosci-2605.31468`](sources/arxiv-autosci-2605.31468.md) | draft | AutoSci memory-centric research — arXiv 2605.31468 |
 | [`arxiv-sia-harness-weight-updates-2605.27276`](sources/arxiv-sia-harness-weight-updates-2605.27276.md) | draft | SIA — OSINT cross-wiki stub (K84 canon) |
