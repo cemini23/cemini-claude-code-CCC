@@ -54,6 +54,17 @@ K88 v5 **Adopt** — `github.com/microsoft/Webwright`. MIT `[CONFIRMED 2026-05-3
 
 **Decision — CONDITIONAL-GO.** Safe to trial in isolated Claude Code profile with network allowlist review. **Do not** install on prod-boundary sessions until egress policy documented. **NO-GO** as replacement for Cursor built-in browser in this workspace.
 
+## Adoption trial (2026-06-04)
+
+| Step | Result |
+|------|--------|
+| `pip install` from `microsoft/Webwright` git clone | **PASS** — CLI `webwright doctor`: 4/6 (Python, Playwright, Chromium, screenshot) |
+| API key | **FAIL** — `OPENAI_API_KEY` unset (Anthropic backend available via env instead) |
+| Claude plugin | **FAIL** — `claude plugin install webwright@webwright` SSH clone error; marketplace registered |
+| Project skill | **PASS** — copied `skills/webwright/` → `.claude/skills/webwright/`; `skill-scanner`: SAFE |
+
+**Posture:** **ADOPTED (project skill + pip CLI)** — use in Claude Code sessions on this repo; Cursor continues built-in browser. Retry plugin install when GitHub HTTPS clone path works.
+
 ## Snippets
 
 > Compare Webwright vs Cursor built-in browser before Adopt.

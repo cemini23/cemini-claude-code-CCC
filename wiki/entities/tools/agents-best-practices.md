@@ -53,6 +53,16 @@ Cherry-pick 3–5 non-duplicative patterns per Phase-0 file audit; link steals o
 
 **Decision — CONDITIONAL-GO (cherry-pick only).** Per `@concepts/tools-we-dont-use.md` defer cluster and `.cursor/rules/ccc-rejected-cursor-tools.mdc`: **do not bulk install**. Audit `SKILL.md` + supporting markdown for 3–5 patterns not already canon on `@concepts/subagent-orchestration.md` / `@concepts/skill-vetting.md`; file steals as concept snippets. **NO-GO** for `-g` global install until dedup checklist complete.
 
+## Adoption trial (2026-06-04)
+
+| Step | Result |
+|------|--------|
+| Project skill | **PASS** — `.claude/skills/agents-best-practices/` (SKILL.md + `references/tools-and-permissions.md`) |
+| `skill-scanner scan` | **OK** — 1 MEDIUM (review before prod sessions) |
+| Wiki steal | **PASS** — harness control plane loop filed on `@concepts/subagent-orchestration.md` |
+
+**Posture:** **ADOPTED (project-scoped cherry-pick)** — not global `-g` install.
+
 ## Snippets
 
 > "Promoted Defer → Adopt (MIT verified)" — K93 v5 eval.

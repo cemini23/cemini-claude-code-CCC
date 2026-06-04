@@ -4,6 +4,24 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-06-04] adopt | Phase-0 GO trials — hands-on installs
+
+Trials run in `/tmp/ccc-adopt-trials-20260604/` + project `.claude/skills/` (gitignored). Verdicts in each entity `## Adoption trial (2026-06-04)`.
+
+| Tool | Trial outcome | Posture |
+|------|---------------|---------|
+| openevolve | smoke PASS (venv) | ADOPTED smoke tier |
+| Webwright | pip + project skill; plugin SSH fail | ADOPTED project skill |
+| Skill_Seekers | wiki/concepts export + package zip | ADOPTED CLI workflow |
+| revfactory/harness | `harness@harness-marketplace` user plugin | ADOPTED Claude Code plugin |
+| agents-best-practices | project skill + wiki steal | ADOPTED cherry-pick |
+| defenseclaw | `make all` + skill-scanner | ADOPTED CLI scanners |
+| SkillNet / scienceaix / SeClaw | no install (REFERENCE / NO-GO) | unchanged |
+
+**Wiki:** `@concepts/subagent-orchestration.md` — harness control plane steal.
+
+**Artifacts (local):** `/tmp/ccc-adopt-trials-20260604/skill-seekers-out-markdown.zip`; `.claude/skills/{webwright,agents-best-practices}/`.
+
 ## [2026-06-04] phase-0 | K88/K93/K98 backlog batch (9 tools)
 
 GitHub API + README skim audits; openevolve smoke via `scripts/openevolve-phase0-smoke.sh`. Verdicts in each page `## Phase-0 Audit (2026-06-04)` section.

@@ -179,6 +179,25 @@ When a future Cemini Tier 2 subagent earns its slot:
 
 Subagents inherit the parent session's permission allowlist unless explicitly restricted. A subagent dispatched from a parent session with `Bash(rm -rf *)` denied still has that deny rule. Permission policy travels — but the subagent's prompt envelope does not see the parent conversation. Brief discipline matters: the subagent has Cemini's permissions but none of Cemini's intent; the prompt must carry that intent.
 
+### Harness control plane (steal-from agents-best-practices) [CONFIRMED 2026-06-04]
+
+Cherry-picked from `@entities/tools/agents-best-practices.md` adoption trial — provider-neutral loop that complements Task-tool dispatch:
+
+```text
+user/task → context builder → model call → tool proposal
+  → schema validation → permission decision → execute or pause
+  → structured observation → context update → repeat within budget
+```
+
+Non-negotiables for CCC subagent design:
+
+- The **model proposes**; the **harness validates, authorizes, executes, records** observations.
+- Every tool call must receive a tool result (denial, timeout, error, or success).
+- Risky side effects require **runtime policy outside the model** — Tier 2 scope gates (`§ Tier 1 vs Tier 2` above).
+- **Draft vs commit** stay separate for external, financial, destructive, or regulated actions.
+
+Project skill copy: `.claude/skills/agents-best-practices/` (not global install).
+
 ## Dead Ends
 
 - **Subagent for a 1-file read** — pays setup, saves nothing. Direct `Read`.

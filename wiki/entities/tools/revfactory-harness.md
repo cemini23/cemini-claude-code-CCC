@@ -51,6 +51,16 @@ updated: 2026-06-04
 
 **Decision — CONDITIONAL-GO.** License clean; real adoption value for greenfield team scaffolding. **Conditions:** (1) trial in throwaway git worktree, not main CCC wiki tree; (2) diff generated agents against existing `@concepts/subagent-orchestration.md` templates before merge; (3) pick **one** meta-harness bundle (Harness vs ECC vs SuperClaude) — do not stack. **NO-GO** for librarian/prod deploy.
 
+## Adoption trial (2026-06-04)
+
+| Step | Result |
+|------|--------|
+| `claude plugin marketplace add revfactory/harness` | **PASS** |
+| `claude plugin install harness@harness-marketplace` | **PASS** — user scope |
+| Agent Teams flag | **Not set** — requires `export CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1` before first harness generation |
+
+**Posture:** **ADOPTED (Claude Code plugin, user scope)** — invoke via Claude Code CLI on this laptop; do not generate into main CCC wiki tree without worktree isolation.
+
 ## Snippets
 
 > "Generates domain-specific agent teams on the fly." — K93 v5 eval URL 3.

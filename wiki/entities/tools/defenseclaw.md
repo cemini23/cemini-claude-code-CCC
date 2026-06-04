@@ -66,4 +66,15 @@ Apache-2.0 license (verified via OSINT eval). Clean for adoption. However, defen
 
 **Decision — CONDITIONAL-GO.** Highest-value extract is **pattern theft** into `@concepts/skill-vetting.md` checklist (automated skill/MCP scan rules). Full sidecar adopt optional after local `make all` smoke in isolated profile — not a prod dependency. Complements `@concepts/seclaw-agent-security-evaluation.md` (benchmark) vs runtime gate.
 
+## Adoption trial (2026-06-04)
+
+| Step | Result |
+|------|--------|
+| `make all` in `/tmp/.../defenseclaw` clone | **PASS** — `defenseclaw` on `~/.local/bin` |
+| `defenseclaw doctor` | **PARTIAL** — config + scanners OK; sidecar port 18970 down; `DEFENSECLAW_LLM_KEY` unset |
+| `skill-scanner scan` on trial skills | **PASS** — webwright SAFE; skill-seekers output SAFE |
+| `defenseclaw agent discover` | **PASS** — sees claudecode, cursor, codex, geminicli |
+
+**Posture:** **ADOPTED (CLI scanners + discovery)** — use `skill-scanner`/`mcp-scanner` in Phase-0 workflow; full sidecar optional after LLM key + hook setup.
+
 ## Snippets

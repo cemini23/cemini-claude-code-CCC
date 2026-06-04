@@ -45,6 +45,17 @@ K88 **Adopt** — `github.com/yusufkaraaslan/Skill_Seekers`. MIT. Converts docum
 
 **Decision — CONDITIONAL-GO.** Mature OSS with real test coverage. **Conditions:** (1) one-shot CLI export of a single CCC wiki chapter into temp dir; (2) run full `@concepts/skill-vetting.md` on output before copying to `~/.claude/skills/`; (3) do **not** enable MCP server in prod until tool list audited. Compare output to manual brief→skill workflow first.
 
+## Adoption trial (2026-06-04)
+
+| Step | Result |
+|------|--------|
+| `pip install skill-seekers` (v3.7.0) | **PASS** |
+| `skill-seekers create ./wiki/concepts --name ccc-skill-vetting` | **PARTIAL** — SKILL.md + references generated; auto-enhance failed (no headless Claude in trial shell) |
+| `skill-seekers package … --target markdown` | **PASS** — `/tmp/ccc-adopt-trials-20260604/skill-seekers-out-markdown.zip` (249 KB) |
+| `skill-scanner scan` on output | **SAFE** (1 LOW) |
+
+**Posture:** **ADOPTED (CLI workflow)** — use for wiki→skill exports with `--skip-enhance` or manual vetting; do not enable 40-tool MCP until audited.
+
 ## Snippets
 
 > doc→skill pipeline; compare output to wiki export workflow.

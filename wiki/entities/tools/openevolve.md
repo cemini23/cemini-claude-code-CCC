@@ -64,6 +64,16 @@ Evolves code/prompt configurations via search — eval positions it for **optimi
 
 **Decision — CONDITIONAL-GO.** Smoke passes in isolated venv. Next gate: Docker eval on a snapshot harness before any token/routing optimization against live `~/.claude/`. Stale push cadence acceptable for research tooling.
 
+## Adoption trial (2026-06-04)
+
+| Step | Result |
+|------|--------|
+| `scripts/openevolve-phase0-smoke.sh` | **PASS** (re-run during adoption batch) |
+| `pip install openevolve` in `/tmp/ccc-adopt-trials-20260604/.venv` | **PASS** — import OK |
+| Prod harness wiring | **Not done** — Docker eval still gated |
+
+**Posture:** **ADOPTED (smoke tier only)** — safe for isolated venv experiments; not wired to live `~/.claude/`.
+
 ## Snippets
 
 > "open-source implementation of AlphaEvolve… optimizing token budgets."
