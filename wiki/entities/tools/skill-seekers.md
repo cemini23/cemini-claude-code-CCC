@@ -9,6 +9,7 @@ related:
   - entities/mcp-servers/anthropic-skills.md
   - sources/multi-wiki-tool-eval-v5-k88-2026-05-31.md
   - "@osint-wiki/entities/tools/skill-seekers.md"
+  - concepts/cross-wiki-tool-adoption-routing.md
 maturity: draft
 created: 2026-05-31
 updated: 2026-06-04

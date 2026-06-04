@@ -10,6 +10,7 @@ related:
   - sources/multi-wiki-tool-eval-v5-k88-2026-05-31.md
   - "@osint-wiki/entities/tools/skillnet.md"
   - concepts/skill-vetting.md
+  - concepts/cross-wiki-tool-adoption-routing.md
 maturity: draft
 created: 2026-05-31
 updated: 2026-06-04
@@ -45,6 +46,17 @@ Compare vs **lazy-tool** `search_tools` + **conductor** before prod adopt. Risk:
 | Failure mode | **Parallel routing layer** duplicates `@entities/tools/lazy-tool.md` + `@entities/tools/conductor-mcp.md` federation map |
 
 **Decision — CONDITIONAL-GO (REFERENCE).** Clean license and active research repo. **No prod adopt** until a documented gap exists that lazy-tool `search_tools` + conductor cannot cover. Acceptable use: discovery URL queue for `@concepts/skill-vetting.md` — never one-line install from community index without Phase-0 per skill.
+
+## Adoption trial (2026-06-04) — full run
+
+| Step | Result |
+|------|--------|
+| `pip install skillnet-ai` | **PASS** |
+| `skillnet search "skill vetting"` | **PASS** — 20 hits (e.g. `skill-vetter`, `fox-skill-vetter`) |
+| vs lazy-tool | **OVERLAP** — discovery/routing redundant with `@entities/tools/lazy-tool.md` + conductor |
+| vs skill-vetting | **COMPLEMENT** — search finds candidates; human Phase-0 still required |
+
+**Posture:** **REFERENCE unchanged** — see `@concepts/cross-wiki-tool-adoption-routing.md`.
 
 ## Snippets
 

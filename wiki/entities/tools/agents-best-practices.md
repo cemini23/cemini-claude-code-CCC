@@ -10,6 +10,7 @@ related:
   - concepts/thin-harness-fat-skills-garrytan.md
   - sources/multi-wiki-tool-eval-v5-k93-2026-06-01.md
   - "@osint-wiki/entities/tools/agents-best-practices.md"
+  - concepts/cross-wiki-tool-adoption-routing.md
 maturity: draft
 created: 2026-05-24
 updated: 2026-06-04
@@ -62,6 +63,14 @@ Cherry-pick 3–5 non-duplicative patterns per Phase-0 file audit; link steals o
 | Wiki steal | **PASS** — harness control plane loop filed on `@concepts/subagent-orchestration.md` |
 
 **Posture:** **ADOPTED (project-scoped cherry-pick)** — not global `-g` install.
+
+## Adoption trial (2026-06-04) — full run
+
+| Step | Result |
+|------|--------|
+| Dedup vs wiki | `prompt-caching` → overlaps `@concepts/token-economics-and-prompt-caching.md`; kept as skill ref |
+| References copied | `agentic-loop.md`, `prompt-caching-and-cost.md`, `security-evals-observability.md`, `tools-and-permissions.md` |
+| `skill-scanner scan` | **SAFE** (1 MEDIUM) |
 
 ## Snippets
 

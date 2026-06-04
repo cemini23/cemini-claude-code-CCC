@@ -9,6 +9,7 @@ related:
   - entities/patterns/tier1-tier2-agent-model.md
   - entities/mcp-servers/anthropic-skills.md
   - concepts/seclaw-agent-security-evaluation.md
+  - concepts/cross-wiki-tool-adoption-routing.md
 maturity: draft
 created: 2026-05-21
 updated: 2026-06-04

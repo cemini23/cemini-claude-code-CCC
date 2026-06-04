@@ -9,6 +9,7 @@ related:
   - concepts/skill-vetting.md
   - entities/mcp-servers/anthropic-skills.md
   - concepts/agent-skills-taxonomy.md
+  - concepts/cross-wiki-tool-adoption-routing.md
 maturity: draft
 created: 2026-06-04
 updated: 2026-06-04
@@ -45,6 +46,17 @@ updated: 2026-06-04
 | Failure mode | **Catalog churn** — third-party skill URLs require per-URL Phase-0 |
 
 **Decision — REFERENCE (unchanged).** License cleared; adoption posture unchanged. Use as ingest queue for `@concepts/skill-vetting.md`, not as installed dependency.
+
+## Adoption trial (2026-06-04) — full run
+
+| Step | Result |
+|------|--------|
+| Clone `scienceaix/agentskills` | **PASS** — 8 top-level files; awesome-list README |
+| Last commit | **2026-02-16** — stale vs 2602.12430 paper |
+| License | **MIT** [CONFIRMED] |
+| Install | **SKIP** — catalog churn; per-URL Phase-0 only |
+
+**Posture:** **REFERENCE** — all domain wikis may cite as discovery queue; no bulk clone.
 
 ## Snippets
 

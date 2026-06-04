@@ -12,6 +12,7 @@ related:
   - concepts/cross-wiki-tool-eval-inventory.md
   - entities/tools/adaptive-auto-harness.md
   - concepts/adaptive-auto-harness-open-ended-streams.md
+  - concepts/cross-wiki-tool-adoption-routing.md
 maturity: draft
 created: 2026-05-24
 updated: 2026-06-04

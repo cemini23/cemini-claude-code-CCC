@@ -4,6 +4,20 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-06-04] adopt | Full Phase-0 trial run + cross-wiki routing
+
+Nine-tool trial batch in `/tmp/ccc-trials-full-20260604/`; CCC-local adoptions applied.
+
+**Created:** `concepts/cross-wiki-tool-adoption-routing.md`
+
+**Updated:** `skill-vetting` (step 3b skill-scanner), `skillnet`, `scienceaix-agentskills`, `seclaw-agent-security-evaluation`, `revfactory-harness`, `agents-best-practices`, `index.md`
+
+**CCC hands-on:** expanded `.claude/skills/agents-best-practices/references/` (4 files); skill-scanner on all project skills.
+
+**Handoff:** `briefs/2026-06-04_cybersecurity-handoff-defenseclaw-seclaw.md` → cybersecurity-wiki.
+
+**Blocked:** harness generation (org API); Webwright plugin (SSH clone); defenseclaw sidecar (LLM key).
+
 ## [2026-06-04] adopt | Phase-0 GO trials — hands-on installs
 
 Trials run in `/tmp/ccc-adopt-trials-20260604/` + project `.claude/skills/` (gitignored). Verdicts in each entity `## Adoption trial (2026-06-04)`.

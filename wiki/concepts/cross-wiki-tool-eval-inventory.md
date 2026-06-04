@@ -73,6 +73,7 @@ related:
   - sources/multi-wiki-tool-eval-v7-k92-2026-06-01.md
   - sources/multi-wiki-tool-eval-v5-k93-2026-06-01.md
   - concepts/mcp-server-catalog-curation.md
+  - concepts/cross-wiki-tool-adoption-routing.md
 maturity: draft
 created: 2026-05-21
 updated: 2026-06-04

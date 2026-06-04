@@ -13,6 +13,8 @@ related:
   - "@osint-wiki/concepts/seclaw-agent-security-evaluation.md"
   - "@cybersecurity-wiki/briefs/2026-06-04_k98-seclaw-agent-eval-from-osint.md"
   - sources/trading-posts-compilation-18-2026-06-04.md
+  - concepts/cross-wiki-tool-adoption-routing.md
+  - "@cybersecurity-wiki/briefs/2026-06-04_k98-seclaw-agent-eval-from-osint.md"
 maturity: draft
 created: 2026-06-04
 updated: 2026-06-04
@@ -65,6 +67,17 @@ arXiv 2606.02302 (K98 inbox): **spec-driven security task synthesis** + docker t
 | Failure mode | **License blocker** + **vapor code** — cannot run eval harness |
 
 **Decision — NO-GO for install.** Keep arXiv source page + this concept as **REFERENCE** for trajectory scoring discipline (feeds skill-vetting + Stop-hook testing). Re-run Phase-0 when repo ships LICENSE + SeClaw-Bench code. Until then, use `@entities/tools/defenseclaw.md` scanner patterns for practical gates.
+
+## Adoption trial (2026-06-04) — full run
+
+| Step | Result |
+|------|--------|
+| GitHub API license | **NONE** (unchanged) |
+| Repo tree | `README.md` + `docs/` only |
+| Runnable benchmark | **NO** |
+| Primary wiki | **cybersecurity-wiki** when code ships |
+
+**Handoff:** `briefs/2026-06-04_cybersecurity-handoff-defenseclaw-seclaw.md`
 
 ## Snippets
 

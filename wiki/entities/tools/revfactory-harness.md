@@ -10,6 +10,7 @@ related:
   - entities/tools/claude-code.md
   - sources/multi-wiki-tool-eval-v5-k93-2026-06-01.md
   - "@osint-wiki/entities/tools/revfactory-harness.md"
+  - concepts/cross-wiki-tool-adoption-routing.md
 maturity: draft
 created: 2026-06-01
 updated: 2026-06-04
@@ -60,6 +61,15 @@ updated: 2026-06-04
 | Agent Teams flag | **Not set** — requires `export CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1` before first harness generation |
 
 **Posture:** **ADOPTED (Claude Code plugin, user scope)** — invoke via Claude Code CLI on this laptop; do not generate into main CCC wiki tree without worktree isolation.
+
+## Adoption trial (2026-06-04) — full run
+
+| Step | Result |
+|------|--------|
+| `claude plugin list` | **PASS** — `harness@harness-marketplace` enabled |
+| Worktree probe | **PASS** — branch `trial/harness-20260604` created then removed |
+| Generation trial | **BLOCKED** — `claude -p` requires Anthropic API key (org subscription disabled for Claude Code) |
+| AGENT_TEAMS flag | Required before generation — `export CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1` |
 
 ## Snippets
 

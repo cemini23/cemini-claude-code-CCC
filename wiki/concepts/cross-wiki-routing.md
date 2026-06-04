@@ -24,9 +24,10 @@ related:
   - concepts/claude-code-finance-research-setup.md
   - concepts/federated-daily-research-digest.md
   - concepts/autosci-memory-centric-research-agents.md
+  - concepts/cross-wiki-tool-adoption-routing.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-01
+updated: 2026-06-04
 ---
 
 ## Relations

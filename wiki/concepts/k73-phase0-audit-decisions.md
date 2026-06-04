@@ -11,9 +11,10 @@ related:
   - entities/tools/tvscreener.md
   - entities/tools/metatrader-mcp-server.md
   - sources/multi-wiki-tool-eval-25url-2026-05-28.md
+  - concepts/cross-wiki-tool-adoption-routing.md
 maturity: draft
 created: 2026-05-28
-updated: 2026-05-28
+updated: 2026-06-04
 cross-wiki-source: "@osint-wiki/sources/multi-wiki-tool-eval-25url-2026-05-28.md"
 ---
 

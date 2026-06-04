@@ -60,6 +60,7 @@ related:
   - concepts/agent-skills-progressive-disclosure.md
   - sources/arxiv-agent-skills-architecture-security-2602.12430.md
   - entities/tools/scienceaix-agentskills.md
+  - concepts/cross-wiki-tool-adoption-routing.md
 maturity: draft
 created: 2026-05-17
 updated: 2026-06-04
@@ -97,6 +98,7 @@ A Claude Code "skill" is a plain markdown file with YAML frontmatter that the LL
 1. **License + provenance** — `gh api repos/<owner>/<repo> --jq '.license.spdx_id'`. README claims are not enough (see the OSINT workspace's `LESSONS.md` 2026-05-11 entry on the no-LICENSE-file pattern — file lives at the OSINT workspace root, outside the `wiki/` alias surface). Reject if no LICENSE file at root.
 2. **SKILL.md frontmatter compliance** — every skill in the repo has `name`, `description`, optional `license`, optional `metadata` block. Frontmatter that diverges from the spec is a signal of churn or pre-spec authorship.
 3. **Read the skill body** — every word of every `.md` file the skill ships. The body is what the LLM executes; do not skim. Flag any: shell-out instructions, network-fetch instructions, credential-read instructions, `Bash` invocations of `curl | sh`-style remote-exec, instructions to disable hooks.
+3b. **Optional automated pre-screen (defenseclaw)** [CONFIRMED 2026-06-04] — `skill-scanner scan <skill-dir>/` from `@entities/tools/defenseclaw.md` before step 4. Trial: project skills `webwright` SAFE (INFO), `agents-best-practices` SAFE (1 MEDIUM). Does **not** replace human read in step 3.
 4. **Cross-check against the malicious-skill catalog** — @entities/tools/claude-code-ultimate-guide.md's 655 patterns + 28 CVEs cover the known-bad surface. Pattern-match the body against this catalog.
 5. **First-run in isolation** — if maturity ≥ "promising" after steps 1-4, first invocation runs in an agent-VM (see @concepts/agent-vm-sandboxing.md) with action tracing on. If no agent-VM is wired, run only after a manual read-through of the skill body.
 6. **Validation-carrying metadata** [Steal-from @entities/tools/tool-forge.md Phase-0 2026-06-02] — before cataloging a skill or MCP tool, record `validation_status` (draft/approved/blocked), `version_pin`, and `last_reviewed`. Reject skills that instruct bypassing hooks or fetching remote executables without pinned SHA.
