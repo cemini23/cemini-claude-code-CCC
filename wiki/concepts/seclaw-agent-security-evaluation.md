@@ -11,10 +11,11 @@ related:
   - entities/tools/conductor-mcp.md
   - concepts/mcp-server-catalog-curation.md
   - "@osint-wiki/concepts/seclaw-agent-security-evaluation.md"
-  - "@cybersecurity-wiki/briefs/2026-06-04_k98-seclaw-agent-eval-from-osint.md"
+  - "@cybersecurity-wiki/concepts/seclaw-agent-security-evaluation.md"
+  - "@cybersecurity-wiki/entities/tools/seclaw-eval.md"
+  - "@cybersecurity-wiki/briefs/2026-06-04_cybersecurity-handoff-defenseclaw-seclaw.md"
   - sources/trading-posts-compilation-18-2026-06-04.md
   - concepts/cross-wiki-tool-adoption-routing.md
-  - "@cybersecurity-wiki/briefs/2026-06-04_k98-seclaw-agent-eval-from-osint.md"
 maturity: draft
 created: 2026-06-04
 updated: 2026-06-04
@@ -29,7 +30,9 @@ cross-wiki-source: "@osint-wiki/concepts/seclaw-agent-security-evaluation.md"
 - `@entities/tools/lazy-tool.md` — harness surface to regression-test
 - `@entities/tools/conductor-mcp.md` — write-tool policy target
 - `@osint-wiki/concepts/seclaw-agent-security-evaluation.md` — OSINT canon
-- `@cybersecurity-wiki/briefs/2026-06-04_k98-seclaw-agent-eval-from-osint.md` — eval methodology depth
+- `@cybersecurity-wiki/concepts/seclaw-agent-security-evaluation.md` — **canonical** eval methodology (this page = CCC pointer)
+- `@cybersecurity-wiki/entities/tools/defenseclaw.md` — runtime gate (cybersec canon)
+- `@cybersecurity-wiki/entities/tools/seclaw-eval.md` — benchmark repo entity
 
 ## Raw Concept
 

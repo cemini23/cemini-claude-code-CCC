@@ -10,6 +10,9 @@ related:
   - entities/mcp-servers/anthropic-skills.md
   - concepts/seclaw-agent-security-evaluation.md
   - concepts/cross-wiki-tool-adoption-routing.md
+  - "@cybersecurity-wiki/entities/tools/defenseclaw.md"
+  - "@cybersecurity-wiki/concepts/seclaw-agent-security-evaluation.md"
+  - "@cybersecurity-wiki/briefs/2026-06-04_cybersecurity-handoff-defenseclaw-seclaw.md"
 maturity: draft
 created: 2026-05-21
 updated: 2026-06-04
@@ -22,6 +25,8 @@ cross-wiki-source: "@osint-wiki/sources/tool-evaluation-wiki-fit-2026-05-15.md"
 - @concepts/agent-vm-sandboxing.md — admission control + sandboxing are complementary; defenseclaw gates, agent-VM contains
 - @entities/patterns/tier1-tier2-agent-model.md — defenseclaw's admission-control model is Tier-2 scope enforcement for external MCP servers
 - @entities/mcp-servers/anthropic-skills.md — defenseclaw's skill scanner directly audits the SKILL.md surface this page covers
+- @cybersecurity-wiki/entities/tools/defenseclaw.md — canonical sidecar install + MCP runbook (this page = CCC trial)
+- @cybersecurity-wiki/concepts/seclaw-agent-security-evaluation.md — SeClaw eval canon
 - @osint-wiki/sources/tool-evaluation-wiki-fit-2026-05-15.md (cross-wiki source)
 
 ## Raw Concept
