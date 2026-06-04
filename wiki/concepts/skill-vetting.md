@@ -57,6 +57,9 @@ related:
   - concepts/agent-rubrics-self-correction.md
   - concepts/mcp-server-catalog-curation.md
   - concepts/seclaw-agent-security-evaluation.md
+  - concepts/agent-skills-progressive-disclosure.md
+  - sources/arxiv-agent-skills-architecture-security-2602.12430.md
+  - entities/tools/scienceaix-agentskills.md
 maturity: draft
 created: 2026-05-17
 updated: 2026-06-04
@@ -98,6 +101,7 @@ A Claude Code "skill" is a plain markdown file with YAML frontmatter that the LL
 5. **First-run in isolation** — if maturity ≥ "promising" after steps 1-4, first invocation runs in an agent-VM (see @concepts/agent-vm-sandboxing.md) with action tracing on. If no agent-VM is wired, run only after a manual read-through of the skill body.
 6. **Validation-carrying metadata** [Steal-from @entities/tools/tool-forge.md Phase-0 2026-06-02] — before cataloging a skill or MCP tool, record `validation_status` (draft/approved/blocked), `version_pin`, and `last_reviewed`. Reject skills that instruct bypassing hooks or fetching remote executables without pinned SHA.
 7. **MCP catalog discipline (K98)** — viral MCP lists (@concepts/mcp-server-catalog-curation.md) follow the same checklist; add `@concepts/seclaw-agent-security-evaluation.md` trajectory eval before write-capable MCP GO.
+8. **Skill Trust tiers (2602.12430)** — four-tier gate-based permission model mapping skill **provenance → graduated deployment** [TENTATIVE]. Aligns with Tier-1/Tier-2 agent model; empirical baseline: **26.1%** of community skills contain vulnerabilities per concurrent studies cited in 2602.12430.
 
 ### Verdict
 

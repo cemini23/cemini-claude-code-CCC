@@ -16,9 +16,10 @@ related:
   - sweeps/2026-06-02-daily.md
   - concepts/adaptive-auto-harness-open-ended-streams.md
   - sweeps/2026-06-03-daily.md
+  - concepts/interaction-native-knowledge-harness.md
 maturity: core
 created: 2026-06-01
-updated: 2026-06-03
+updated: 2026-06-04
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 

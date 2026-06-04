@@ -4,6 +4,18 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-06-04] ingest | Daily digest — 2 arXiv papers (agent skills + InKH)
+
+Ingested from `research to be indexed/` (daily digest 2026-06-04 sweep).
+
+**Pages created (5):** `agent-skills-progressive-disclosure`, `interaction-native-knowledge-harness`, `scienceaix-agentskills`, `sources/arxiv-agent-skills-architecture-security-2602.12430`, `sources/arxiv-interaction-native-knowledge-harness-2606.01886`.
+
+**Pages updated (10):** `agent-skills-taxonomy`, `skill-vetting`, `anthropic-skills`, `mcp-context-optimization`, `thin-harness-fat-skills-garrytan`, `muse-autoskill-skill-lifecycle`, `context-engineering`, `llm-wiki-compiler`, `index.md`.
+
+**Cross-wiki:** InKH financial deployment → `briefs/2026-06-04_inkh-financial-knowledge-harness-osint-handoff.md` (OSINT handoff). 2602.12430 CCC-primary.
+
+**Raw:** 2 PDFs → `raw-sources/`; inbox cleared.
+
 ## [2026-06-04] brief ingest | K98 agent org chart + MCP from OSINT
 
 Ingested `briefs/2026-06-04_k98-ccc-agent-org-chart-mcp-from-osint.md` — Posts.docx K98 (13 posts, sha `32400c1f…`) harness cluster + SeClaw arXiv.

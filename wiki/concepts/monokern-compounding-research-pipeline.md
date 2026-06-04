@@ -14,9 +14,10 @@ related:
   - sources/arxiv-autosci-2605.31468.md
   - sources/trading-posts-compilation-17-2026-06-03.md
   - concepts/claude-obsidian-notebooklm-bridge.md
+  - concepts/interaction-native-knowledge-harness.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-03
+updated: 2026-06-04
 cross-wiki-source: "@osint-wiki/concepts/monokern-compounding-research-pipeline.md"
 ---
 

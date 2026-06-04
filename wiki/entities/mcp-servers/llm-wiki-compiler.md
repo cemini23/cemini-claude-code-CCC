@@ -8,9 +8,11 @@ related:
   - entities/mcp-servers/stash.md
   - entities/mcp-servers/anthropic-skills.md
   - concepts/cross-wiki-routing.md
+  - concepts/interaction-native-knowledge-harness.md
+  - sources/arxiv-interaction-native-knowledge-harness-2606.01886.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-05-17
+updated: 2026-06-04
 cross-wiki-source: "@osint-wiki/sources/atomicmemory-llm-wiki-compiler.md"
 ---
 
@@ -38,6 +40,8 @@ CCC-side stub for the llm-wiki-compiler MCP server. `github.com/atomicmemory/llm
 ### Why catalogued here, not just in OSINT
 
 The compiler is an upstream tool for any of Cemini's wikis, not just OSINT. If Cemini ever needs to recompile CCC's wiki into a different output format (LLM-friendly index, schema-extracted entity graph, candidate-review queue), llm-wiki-compiler is the most evaluated candidate. Even though CCC is laptop-only and not synced to the librarian by default, the compiler runs locally on a markdown tree — no server needed.
+
+**InKH complement (2606.01886):** paper cites Karpathy LLM Wiki as compiled-knowledge layer; adds **passive injection** orchestration + wiki as **audit surface** (see `@concepts/interaction-native-knowledge-harness.md`). Graph retrieval substrate (Graphiti-class) optional underneath — CCC `wiki_lint.py` + ingest discipline is the audit layer today.
 
 ### Phase-0 caveats (from OSINT)
 

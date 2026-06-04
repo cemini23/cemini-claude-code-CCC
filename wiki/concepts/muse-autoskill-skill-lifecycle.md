@@ -13,9 +13,11 @@ related:
   - concepts/harness-updating-vs-benefit-nonmonotonic.md
   - "@osint-wiki/concepts/curator-skills.md"
   - concepts/agent-skills-taxonomy.md
+  - concepts/agent-skills-progressive-disclosure.md
+  - sources/arxiv-agent-skills-architecture-security-2602.12430.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-02
+updated: 2026-06-04
 ---
 
 ## Relations
@@ -24,6 +26,7 @@ updated: 2026-06-02
 - `@concepts/skillrae-retrieval-augmented-execution.md` — RAE compiles skills; MUSE evolves them
 - `@concepts/skill-vetting.md` — Phase-0 before any skill enters lifecycle
 - `@concepts/continual-harness-online-self-improvement.md` — harness refiner peer
+- `@concepts/agent-skills-progressive-disclosure.md` — 2602.12430 three-level loading
 
 ## Raw Concept
 
@@ -39,7 +42,7 @@ arXiv **2605.27366** — **MUSE** skill lifecycle: create → store → manage �
 | Evaluation | Phase-0 audit + real session smoke test |
 | Refinement | ingest passes bump `updated:` + `maturity:` |
 
-**Verdict:** **REFERENCE** — steal **unit-test skills before promotion** pattern; no MUSE framework install without Phase-0.
+**Verdict:** **REFERENCE** — steal **unit-test skills before promotion** pattern; pairs with `@concepts/agent-skills-progressive-disclosure.md` Level-1/2 split; no MUSE framework install without Phase-0.
 
 ## Snippets
 

@@ -29,6 +29,7 @@ related:
   - concepts/mcp-server-catalog-curation.md
   - concepts/seclaw-agent-security-evaluation.md
   - sources/trading-posts-compilation-18-2026-06-04.md
+  - concepts/agent-skills-progressive-disclosure.md
 maturity: validated
 created: 2026-05-13
 updated: 2026-06-04

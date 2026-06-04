@@ -22,6 +22,8 @@ related:
   - sources/arxiv-maven-agentic-tool-calling-2605.30738.md
   - concepts/slm-agent-orchestration-gateway.md
   - concepts/runtime-context-mcp-file-refs.md
+  - concepts/agent-skills-progressive-disclosure.md
+  - sources/arxiv-agent-skills-architecture-security-2602.12430.md
   - concepts/mcp-server-catalog-curation.md
 maturity: validated
 created: 2026-05-13

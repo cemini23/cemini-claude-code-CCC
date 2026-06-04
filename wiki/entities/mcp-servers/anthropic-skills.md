@@ -36,9 +36,12 @@ related:
   - entities/tools/claude-trading-skills.md
   - concepts/muse-autoskill-skill-lifecycle.md
   - concepts/maven-agentic-tool-calling-generalization.md
+  - concepts/agent-skills-progressive-disclosure.md
+  - sources/arxiv-agent-skills-architecture-security-2602.12430.md
+  - entities/tools/scienceaix-agentskills.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-06-02
+updated: 2026-06-04
 ---
 
 ## Relations

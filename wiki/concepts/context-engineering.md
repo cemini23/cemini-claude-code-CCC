@@ -38,9 +38,11 @@ related:
   - concepts/claude-md-five-section-template.md
   - concepts/runtime-context-mcp-file-refs.md
   - concepts/claude-code-cheat-sheet-shortcuts.md
+  - concepts/interaction-native-knowledge-harness.md
+  - sources/arxiv-interaction-native-knowledge-harness-2606.01886.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-03
+updated: 2026-06-04
 ---
 
 ## Relations

@@ -14,11 +14,13 @@ related:
   - concepts/system-scaling-harness-agentic-ai.md
   - sources/arxiv-system-scaling-harness-2605.26112.md
   - concepts/agent-skills-taxonomy.md
-  - sources/arxiv-agent-skills-survey-2605-07358-2026-06-02.md
+  - concepts/agent-skills-progressive-disclosure.md
+  - sources/arxiv-agent-skills-architecture-security-2602.12430.md
   - concepts/runtime-harness-interface-adaptation.md
+  - sources/arxiv-agent-skills-survey-2605-07358-2026-06-02.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-03
+updated: 2026-06-04
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-31-2026-06-01.md"
 ---
 
@@ -43,7 +45,7 @@ K93 Posts (@garrytan): **thin harness + fat skills** — minimal routing/orchest
 | Fat skills | `~/.claude/skills/` + project skills — `@concepts/skill-vetting.md` per install |
 | Resolvers | Task-tool / subagent dispatch tables — `@concepts/subagent-orchestration.md` |
 
-**Verdict:** **REFERENCE** — align with arXiv 2605.30621: invest executor discipline + skill quality over harness churn.
+**Verdict:** **REFERENCE** — aligns with `@concepts/agent-skills-progressive-disclosure.md` (2602.12430): Level-1 metadata always loaded, fat procedural body on trigger. Align with arXiv 2605.30621: invest executor discipline + skill quality over harness churn.
 
 ## Snippets
 

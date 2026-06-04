@@ -53,6 +53,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`agents-best-practices`](entities/tools/agents-best-practices.md) | draft | DenisSergeevitch patterns — cherry-pick Adopt (K93) |
 | [`agyn`](entities/tools/agyn.md) | draft | Agent ops platform — REFERENCE (2605.27575) |
 | [`tool-forge`](entities/tools/tool-forge.md) | draft | Validation-carrying toolchain — CONDITIONAL-GO (2605.28000, Apache-2.0) |
+| [`scienceaix-agentskills`](entities/tools/scienceaix-agentskills.md) | draft | Agent Skills survey resource catalog — REFERENCE (2602.12430) |
 | [`life-harness`](entities/tools/life-harness.md) | draft | LIFE-HARNESS runtime interface adaptation — CONDITIONAL-GO (2605.22166, K95) |
 | [`adaptive-auto-harness`](entities/tools/adaptive-auto-harness.md) | draft | A-EVO-Lab stream harness tree — REFERENCE (2606.01770, K95) |
 
@@ -212,6 +213,8 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`agent-five-gate-org-chart`](concepts/agent-five-gate-org-chart.md) | draft | Five-gate org chart — Intake through Memo (K98 Post 1) |
 | [`mcp-server-catalog-curation`](concepts/mcp-server-catalog-curation.md) | draft | MCP catalog curation — exploraX USB-C model (K98 Post 10) |
 | [`seclaw-agent-security-evaluation`](concepts/seclaw-agent-security-evaluation.md) | draft | SeClaw trajectory-aware agent security eval (2606.02302, K98) |
+| [`agent-skills-progressive-disclosure`](concepts/agent-skills-progressive-disclosure.md) | draft | SKILL.md 3-level loading + skills vs MCP (2602.12430) |
+| [`interaction-native-knowledge-harness`](concepts/interaction-native-knowledge-harness.md) | draft | InKH passive injection + wiki audit (2606.01886, OSINT handoff) |
 | [`muse-autoskill-skill-lifecycle`](concepts/muse-autoskill-skill-lifecycle.md) | draft | MUSE skill create/eval/refine lifecycle — 2605.27366 |
 | [`autosci-memory-centric-research-agents`](concepts/autosci-memory-centric-research-agents.md) | draft | AutoSci SciMem research lifecycle — 2605.31468 |
 | [`maven-agentic-tool-calling-generalization`](concepts/maven-agentic-tool-calling-generalization.md) | draft | MAVEN tool-calling generalization — 2605.30738 |
@@ -259,6 +262,8 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`trading-posts-compilation-17-2026-06-03`](sources/trading-posts-compilation-17-2026-06-03.md) | draft | K97 Posts.docx harness slice — provenance (OSINT canon) |
 | [`trading-posts-compilation-18-2026-06-04`](sources/trading-posts-compilation-18-2026-06-04.md) | draft | K98 Posts.docx harness slice — provenance (OSINT canon) |
 | [`arxiv-seclaw-spec-driven-agent-security-2606-02302-2026-06-04`](sources/arxiv-seclaw-spec-driven-agent-security-2606-02302-2026-06-04.md) | draft | SeClaw agent security — K98 OSINT |
+| [`arxiv-agent-skills-architecture-security-2602.12430`](sources/arxiv-agent-skills-architecture-security-2602.12430.md) | draft | Agent Skills architecture/security survey — 2602.12430 |
+| [`arxiv-interaction-native-knowledge-harness-2606.01886`](sources/arxiv-interaction-native-knowledge-harness-2606.01886.md) | draft | InKH financial knowledge harness — 2606.01886 (OSINT handoff) |
 | [`arxiv-muse-autoskill-2605.27366`](sources/arxiv-muse-autoskill-2605.27366.md) | draft | MUSE-Autoskill skill lifecycle — arXiv 2605.27366 |
 | [`arxiv-autosci-2605.31468`](sources/arxiv-autosci-2605.31468.md) | draft | AutoSci memory-centric research — arXiv 2605.31468 |
 | [`arxiv-sia-harness-weight-updates-2605.27276`](sources/arxiv-sia-harness-weight-updates-2605.27276.md) | draft | SIA — OSINT cross-wiki stub (K84 canon) |
