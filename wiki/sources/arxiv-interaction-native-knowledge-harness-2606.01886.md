@@ -5,6 +5,8 @@ tags: [source, arxiv, knowledge-harness, financial-agents, cross-wiki-route]
 keywords: [2606.01886, inkh, temporal-graph, passive-injection, wiki-audit]
 related:
   - concepts/interaction-native-knowledge-harness.md
+  - osint-wiki/sources/arxiv-interaction-native-knowledge-harness-2606.01886.md
+  - osint-wiki/concepts/interaction-native-knowledge-harness.md
   - entities/mcp-servers/llm-wiki-compiler.md
   - concepts/context-engineering.md
   - concepts/interaction-native-knowledge-harness.md
@@ -36,7 +38,7 @@ updated: 2026-06-04
 
 Proposes **InKH** (interaction-native knowledge harness): event-stream cognition, bounded working-context buffer via **passive knowledge injection**, temporal knowledge graph substrate, **wiki audit surface**, write-time invalidation + maturity governance. Benchmark claims: 82.95% latency reduction vs agent-driven wiki-walk memory; 96.58% stale-knowledge reduction with invalidation.
 
-**Cross-wiki routing:** trading/copy-trading/market-analysis deployment → OSINT wiki (handoff brief on disk). CCC extracts wiki-audit + passive-injection patterns for federation wikis.
+**Cross-wiki routing:** trading/copy-trading/market-analysis deployment → `@osint-wiki` (ingested 2026-06-04). CCC extracts wiki-audit + passive-injection patterns for federation wikis.
 
 ## Snippets
 

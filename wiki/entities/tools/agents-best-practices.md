@@ -12,7 +12,7 @@ related:
   - "@osint-wiki/entities/tools/agents-best-practices.md"
 maturity: draft
 created: 2026-05-24
-updated: 2026-06-01
+updated: 2026-06-04
 cross-wiki-source: "@osint-wiki/sources/multi-wiki-tool-eval-36url-wiki-ingestion-2026-05-24.md"
 ---
 
@@ -39,6 +39,19 @@ cross-wiki-source: "@osint-wiki/sources/multi-wiki-tool-eval-36url-wiki-ingestio
 ### K93 action
 
 Cherry-pick 3–5 non-duplicative patterns per Phase-0 file audit; link steals on target concept pages.
+
+## Phase-0 Audit (2026-06-04)
+
+**Method:** GitHub API + README skim. No `npx skills add`.
+
+| Check | Result |
+|-------|--------|
+| License | **MIT** — API verified [CONFIRMED] |
+| Maturity | **1,774★**; last push **2026-05-30**; single `SKILL.md` meta-skill |
+| Install path | `npx skills add DenisSergeevitch/agents-best-practices -g` — global user skills dir |
+| Failure mode | **Catalog churn + dedup** — overlaps OpenSpec, subagent-orchestration, skill-vetting pages already in CCC wiki |
+
+**Decision — CONDITIONAL-GO (cherry-pick only).** Per `@concepts/tools-we-dont-use.md` defer cluster and `.cursor/rules/ccc-rejected-cursor-tools.mdc`: **do not bulk install**. Audit `SKILL.md` + supporting markdown for 3–5 patterns not already canon on `@concepts/subagent-orchestration.md` / `@concepts/skill-vetting.md`; file steals as concept snippets. **NO-GO** for `-g` global install until dedup checklist complete.
 
 ## Snippets
 

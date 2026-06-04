@@ -12,7 +12,7 @@ related:
   - "@osint-wiki/entities/tools/revfactory-harness.md"
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-01
+updated: 2026-06-04
 ---
 
 ## Relations
@@ -33,10 +33,23 @@ updated: 2026-06-01
 | Check | Verdict |
 |-------|---------|
 | Overlap with `.cursor/rules/` + conductor | Compare before wiring — may duplicate orchestration |
-| Phase-0 | Laptop trial; no librarian/prod deploy |
+| Phase-0 | **DONE** 2026-06-04 — see `## Phase-0 Audit` |
 | vs ECC / SuperClaude | Parallel harness bundles — pick one after hook audit |
 
-**Verdict:** **CONDITIONAL-GO** — Phase-0: install isolated profile; map generated teams to existing `@concepts/claude-code-subagent-templates.md` discipline.
+**Verdict:** **CONDITIONAL-GO** — isolated profile trial only; map output to `@concepts/claude-code-subagent-templates.md`.
+
+## Phase-0 Audit (2026-06-04)
+
+**Method:** GitHub API + README skim. No plugin install.
+
+| Check | Result |
+|-------|--------|
+| License | **Apache-2.0** — API verified [CONFIRMED] |
+| Maturity | **5,843★**; v1.2.0; last push **2026-05-29** |
+| Behavior | Claude Code plugin — domain sentence → `.claude/agents/` + `.claude/skills/` via 6 team-architecture patterns |
+| Failure mode | **Orchestration duplication** vs `.cursor/rules/` + conductor; **write blast radius** to project `.claude/` tree |
+
+**Decision — CONDITIONAL-GO.** License clean; real adoption value for greenfield team scaffolding. **Conditions:** (1) trial in throwaway git worktree, not main CCC wiki tree; (2) diff generated agents against existing `@concepts/subagent-orchestration.md` templates before merge; (3) pick **one** meta-harness bundle (Harness vs ECC vs SuperClaude) — do not stack. **NO-GO** for librarian/prod deploy.
 
 ## Snippets
 

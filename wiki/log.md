@@ -4,6 +4,22 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-06-04] phase-0 | K88/K93/K98 backlog batch (9 tools)
+
+GitHub API + README skim audits; openevolve smoke via `scripts/openevolve-phase0-smoke.sh`. Verdicts in each page `## Phase-0 Audit (2026-06-04)` section.
+
+| Tool | Verdict | Notes |
+|------|---------|-------|
+| openevolve | **CONDITIONAL-GO** | Smoke PASS (isolated venv); Docker eval still gated |
+| Webwright | **CONDITIONAL-GO** | MIT; Claude Code plugin path only — not Cursor browser replacement |
+| Skill_Seekers | **CONDITIONAL-GO** | MIT; one wiki-chapter export trial + vet output before prod skills |
+| SkillNet | **CONDITIONAL-GO (REFERENCE)** | MIT; no routing layer until gap vs lazy-tool proven |
+| revfactory/harness | **CONDITIONAL-GO** | Apache-2.0; isolated worktree trial; pick one meta-harness |
+| agents-best-practices | **CONDITIONAL-GO (cherry-pick)** | MIT; no global install until dedup vs wiki |
+| defenseclaw | **CONDITIONAL-GO** | Apache-2.0; pattern theft > full sidecar for laptop workflow |
+| SeClaw | **NO-GO (install) / REFERENCE** | No LICENSE file; code "coming soon" |
+| scienceaix/agentskills | **REFERENCE** | MIT confirmed; stale catalog — discovery queue only |
+
 ## [2026-06-04] ingest | Daily digest — 2 arXiv papers (agent skills + InKH)
 
 Ingested from `research to be indexed/` (daily digest 2026-06-04 sweep).
@@ -12,7 +28,7 @@ Ingested from `research to be indexed/` (daily digest 2026-06-04 sweep).
 
 **Pages updated (10):** `agent-skills-taxonomy`, `skill-vetting`, `anthropic-skills`, `mcp-context-optimization`, `thin-harness-fat-skills-garrytan`, `muse-autoskill-skill-lifecycle`, `context-engineering`, `llm-wiki-compiler`, `index.md`.
 
-**Cross-wiki:** InKH financial deployment → `briefs/2026-06-04_inkh-financial-knowledge-harness-osint-handoff.md` (OSINT handoff). 2602.12430 CCC-primary.
+**Cross-wiki:** InKH financial deployment → OSINT ingested K99 (`@osint-wiki/concepts/interaction-native-knowledge-harness.md`). 2602.12430 CCC-primary.
 
 **Raw:** 2 PDFs → `raw-sources/`; inbox cleared.
 

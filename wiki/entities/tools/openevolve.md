@@ -14,7 +14,7 @@ related:
   - concepts/adaptive-auto-harness-open-ended-streams.md
 maturity: draft
 created: 2026-05-24
-updated: 2026-06-03
+updated: 2026-06-04
 cross-wiki-source: "@osint-wiki/sources/multi-wiki-tool-eval-36url-wiki-ingestion-2026-05-24.md"
 ---
 
@@ -43,13 +43,26 @@ Evolves code/prompt configurations via search — eval positions it for **optimi
 | Check | Status |
 |-------|--------|
 | License | Apache-2.0 [CONFIRMED] |
-| Phase-0 | **Smoke script** — `scripts/openevolve-phase0-smoke.sh` (isolated temp venv; no wiki/`~/.claude/` writes) [CONFIRMED 2026-05-21] |
+| Phase-0 | **PASS** — `scripts/openevolve-phase0-smoke.sh` 2026-06-04 (isolated temp venv; import ok; no wiki/`~/.claude/` writes) |
 | Verdict | **CONDITIONAL-GO** — smoke only; no prod harness wiring until dedicated Docker eval |
 
 ### Explicit non-actions
 
 - Do not run against production `~/.claude/` or live wiki trees without snapshot restore.
 - Not a substitute for `@concepts/skill-vetting.md` on third-party skills.
+
+## Phase-0 Audit (2026-06-04)
+
+**Method:** GitHub API + `scripts/openevolve-phase0-smoke.sh` (isolated `/tmp/openevolve-smoke.*` venv). No writes to wiki or `~/.claude/`.
+
+| Check | Result |
+|-------|--------|
+| License | **Apache-2.0** — `gh api repos/algorithmicsuperintelligence/openevolve` [CONFIRMED] |
+| Maturity | **6,487★**; last push **2026-03-18** — active but not daily-shipping |
+| Smoke | `pip install openevolve` → `import openevolve` OK; CLI not on PATH (module import path only) |
+| Failure mode | Evolving against prod harness trees — **blast radius** if run outside Docker/snapshot |
+
+**Decision — CONDITIONAL-GO.** Smoke passes in isolated venv. Next gate: Docker eval on a snapshot harness before any token/routing optimization against live `~/.claude/`. Stale push cadence acceptable for research tooling.
 
 ## Snippets
 

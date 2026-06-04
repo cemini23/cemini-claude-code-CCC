@@ -29,9 +29,22 @@ updated: 2026-06-04
 
 | Check | Status |
 |-------|--------|
-| License | **Phase-0 pending** [NEEDS VERIFICATION 2026-06-04] |
+| License | **MIT** — GitHub API + root `LICENSE` [CONFIRMED 2026-06-04] |
 | Overlap | `@entities/mcp-servers/anthropic-skills.md`, `@concepts/cross-wiki-tool-eval-inventory.md` |
 | Verdict | **REFERENCE** — URL queue for skill_audit; no bulk clone into `~/.claude/skills/` |
+
+## Phase-0 Audit (2026-06-04)
+
+**Method:** GitHub API + LICENSE file verify. No clone.
+
+| Check | Result |
+|-------|--------|
+| License | **MIT** — API + `LICENSE` file [CONFIRMED] |
+| Maturity | **71★**; last push **2026-02-16** — stale vs paper (2602.12430) |
+| Purpose | Curated agent-skills resource links from AgentSkills '26 survey — discovery catalog |
+| Failure mode | **Catalog churn** — third-party skill URLs require per-URL Phase-0 |
+
+**Decision — REFERENCE (unchanged).** License cleared; adoption posture unchanged. Use as ingest queue for `@concepts/skill-vetting.md`, not as installed dependency.
 
 ## Snippets
 

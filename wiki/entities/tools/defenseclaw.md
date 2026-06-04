@@ -50,4 +50,20 @@ defenseclaw operationalises CCC's manual Phase-0 skill-vetting checklist (@conce
 
 Apache-2.0 license (verified via OSINT eval). Clean for adoption. However, defenseclaw is Cisco-maintained and may carry Cisco-specific assumptions about infrastructure. Phase-0 audit recommended before installing as a sidecar — but the scanner/CodeGuard patterns are extractable regardless.
 
-[CONFIRMED] — Apache-2.0, 654★, actively maintained (per OSINT eval).
+[CONFIRMED] — Apache-2.0, 712★, actively maintained (last push 2026-06-04).
+
+## Phase-0 Audit (2026-06-04)
+
+**Method:** GitHub API + README skim (`docs/INSTALL.md`, `docs/QUICKSTART.md` referenced). No `make all` run on laptop.
+
+| Check | Result |
+|-------|--------|
+| License | **Apache-2.0** — API + root `LICENSE` [CONFIRMED] |
+| Maturity | **712★**; last commit **2026-06-03**; Cisco `cisco-ai-defense` org |
+| Stack | Go gateway + Python CLI (`uv` recommended); optional Docker for observability/Splunk bundles |
+| Components | MCP scanner, skill scanner, admission control, CodeGuard static checks |
+| Failure mode | **Sidecar deployment complexity** on laptop-only workflow; Cisco infra assumptions (Splunk bundles) |
+
+**Decision — CONDITIONAL-GO.** Highest-value extract is **pattern theft** into `@concepts/skill-vetting.md` checklist (automated skill/MCP scan rules). Full sidecar adopt optional after local `make all` smoke in isolated profile — not a prod dependency. Complements `@concepts/seclaw-agent-security-evaluation.md` (benchmark) vs runtime gate.
+
+## Snippets

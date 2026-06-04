@@ -11,7 +11,7 @@ related:
   - "@osint-wiki/entities/tools/skill-seekers.md"
 maturity: draft
 created: 2026-05-31
-updated: 2026-05-31
+updated: 2026-06-04
 cross-wiki-source: "@osint-wiki/entities/tools/skill-seekers.md"
 ---
 
@@ -30,7 +30,20 @@ K88 **Adopt** — `github.com/yusufkaraaslan/Skill_Seekers`. MIT. Converts docum
 
 **Steal-from use:** accelerate wiki→skill exports (`briefs/` → `.claude/skills/`). **Risk:** license inheritance from source corpora; generated skill quality vs hand-authored `@entities/skills/tech-debt-audit.md`.
 
-**Verdict:** **CONDITIONAL-GO** — isolated Phase-0 on one CCC wiki chapter export before prod skills dir.
+**Verdict:** **CONDITIONAL-GO** — isolated trial on one CCC wiki chapter export before prod skills dir.
+
+## Phase-0 Audit (2026-06-04)
+
+**Method:** GitHub API + README skim. No install / no MCP wire-up.
+
+| Check | Result |
+|-------|--------|
+| License | **MIT** — API verified [CONFIRMED] |
+| Maturity | **13,934★**; v3.7.0; **3,445+** tests; PyPI `skill-seekers`; last push **2026-05-31** |
+| Surface | CLI + optional **40-tool MCP** integration — large blast radius if enabled blindly |
+| Failure mode | **License inheritance** from scraped corpora; generated SKILL.md quality vs hand-authored wiki exports |
+
+**Decision — CONDITIONAL-GO.** Mature OSS with real test coverage. **Conditions:** (1) one-shot CLI export of a single CCC wiki chapter into temp dir; (2) run full `@concepts/skill-vetting.md` on output before copying to `~/.claude/skills/`; (3) do **not** enable MCP server in prod until tool list audited. Compare output to manual brief→skill workflow first.
 
 ## Snippets
 

@@ -46,11 +46,25 @@ arXiv 2606.02302 (K98 inbox): **spec-driven security task synthesis** + docker t
 | Check | Status |
 |-------|--------|
 | Repo | `github.com/seclaw-eval/seclaw-eval` |
-| License | **Phase-0 pending** [NEEDS VERIFICATION 2026-06-04] |
-| Verdict | **CONDITIONAL-GO** — run against conductor + lazy-tool policies before expanding write MCP |
+| License | **NO LICENSE FILE** — GitHub API `license: null`; root `LICENSE` 404 [CONFIRMED 2026-06-04] |
+| Code | README + `docs/` only — README states **"Code: Coming soon"**; 0★ |
+| Verdict | **NO-GO (install)** — **REFERENCE (methodology)** until LICENSE + runnable code ship |
 | vs defenseclaw | SeClaw = benchmark; defenseclaw = runtime gate — complementary |
 
 **Do not** conflate with EMS/trading RBAC audits (OSINT `@concepts/ems-execution-security-gaps.md` scope).
+
+## Phase-0 Audit (2026-06-04)
+
+**Method:** GitHub API + README decode. No clone/run (no executable benchmark yet).
+
+| Check | Result |
+|-------|--------|
+| License | **NONE** — no `LICENSE` file; API returns null SPDX |
+| Maturity | **0★**; org `seclaw-eval`; last push **2026-06-02**; tree = `README.md` + `docs/` |
+| Paper | arXiv 2606.02302 — trajectory-aware docker testbed (methodology valid for CCC wiki) |
+| Failure mode | **License blocker** + **vapor code** — cannot run eval harness |
+
+**Decision — NO-GO for install.** Keep arXiv source page + this concept as **REFERENCE** for trajectory scoring discipline (feeds skill-vetting + Stop-hook testing). Re-run Phase-0 when repo ships LICENSE + SeClaw-Bench code. Until then, use `@entities/tools/defenseclaw.md` scanner patterns for practical gates.
 
 ## Snippets
 

@@ -11,7 +11,7 @@ related:
   - "@osint-wiki/entities/tools/microsoft-webwright.md"
 maturity: draft
 created: 2026-05-31
-updated: 2026-05-31
+updated: 2026-06-04
 cross-wiki-source: "@osint-wiki/entities/tools/microsoft-webwright.md"
 ---
 
@@ -34,9 +34,25 @@ K88 v5 **Adopt** — `github.com/microsoft/Webwright`. MIT `[CONFIRMED 2026-05-3
 | License | MIT — GitHub API verified (K88) |
 | vs Cursor browser | **CONDITIONAL-GO** — prefer built-in `browser_*` for Anthropic docs; Webwright for Claude Code plugin path |
 | vs Playwright MCP | Global fallback only per CCC rules |
-| Phase-0 | **PENDING** — plugin sandbox, egress on prod boundary |
+| Phase-0 | **DONE** 2026-06-04 — see `## Phase-0 Audit` |
 
-**Verdict:** **CONDITIONAL-GO** — Phase-0 audit before `/plugin install`.
+**Verdict:** **CONDITIONAL-GO** — Claude Code plugin path only; Cursor sessions use built-in browser first.
+
+## Phase-0 Audit (2026-06-04)
+
+**Method:** GitHub API + README skim (`gh api repos/microsoft/Webwright/readme`). No install.
+
+| Check | Result |
+|-------|--------|
+| License | **MIT** — API + root `LICENSE` [CONFIRMED] |
+| Maturity | **5,020★**; last push **2026-06-03** — actively maintained |
+| Stack | Python ≥3.10, Playwright chromium, httpx/pydantic/typer; ~1.5k LoC core |
+| Plugin | `.claude-plugin` manifest; install via `/plugin install webwright@webwright` |
+| Failure mode | **Egress + API keys** — OpenAI/Anthropic/OpenRouter backends; browser automation outside CCC sandbox defaults |
+
+**Overlap:** Cursor built-in `browser_*` preferred for Anthropic docs per `@concepts/cursor-ide-workspace.md`; global Playwright MCP is fallback only. Webwright adds Claude Code/Codex/Hermes skill path and Task2UI HTML artifacts — not a Cursor default.
+
+**Decision — CONDITIONAL-GO.** Safe to trial in isolated Claude Code profile with network allowlist review. **Do not** install on prod-boundary sessions until egress policy documented. **NO-GO** as replacement for Cursor built-in browser in this workspace.
 
 ## Snippets
 

@@ -5,6 +5,8 @@ tags: [concept, knowledge-harness, wiki, passive-injection, context-engineering]
 keywords: [2606.01886, inkh, temporal-graph, wiki-audit, financial-cognition-friction]
 related:
   - sources/arxiv-interaction-native-knowledge-harness-2606.01886.md
+  - osint-wiki/concepts/interaction-native-knowledge-harness.md
+  - osint-wiki/sources/arxiv-interaction-native-knowledge-harness-2606.01886.md
   - entities/mcp-servers/llm-wiki-compiler.md
   - concepts/context-engineering.md
   - concepts/federated-daily-research-digest.md
@@ -22,6 +24,8 @@ updated: 2026-06-04
 - `@concepts/context-engineering.md` — passive injection vs agent wiki-walk retrieval
 - `@concepts/federated-daily-research-digest.md` — event-stream ingest cadence
 - `@entities/tools/claude-mem.md` — session observation vs InKH persistent graph
+- `@osint-wiki/concepts/interaction-native-knowledge-harness.md` — financial temporal graph + governance (ingested 2026-06-04)
+- `@osint-wiki/sources/arxiv-interaction-native-knowledge-harness-2606.01886.md` — OSINT source mirror
 - OSINT handoff brief: `briefs/2026-06-04_inkh-financial-knowledge-harness-osint-handoff.md` (financial deployment)
 
 ## Raw Concept
