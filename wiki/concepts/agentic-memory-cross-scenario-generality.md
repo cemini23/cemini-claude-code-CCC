@@ -8,6 +8,8 @@ related:
   - entities/tools/claude-mem.md
   - concepts/agent-skills-progressive-disclosure.md
   - concepts/token-economics-and-prompt-caching.md
+  - concepts/failed-trajectory-harness-repair.md
+  - "@osint-wiki/concepts/agent-memory-cross-scenario-generality.md"
   - "@osint-wiki/concepts/interaction-native-knowledge-harness.md"
   - "@osint-wiki/concepts/agent-memory-critique.md"
 maturity: draft
@@ -20,7 +22,8 @@ cross-wiki-source: "@osint-wiki/concepts/agent-memory-cross-scenario-generality.
 
 - `@sources/arxiv-cross-scenario-agentic-generality-2606.04315-2026-06-05.md` — arXiv provenance
 - `@entities/tools/claude-mem.md` — laptop passive observation memory
-- `@osint-wiki/concepts/interaction-native-knowledge-harness.md` — financial KG harness (OSINT primary)
+- `@osint-wiki/concepts/agent-memory-cross-scenario-generality.md` — OSINT primary synthesis (prod handoff 2026-06-05)
+- `@osint-wiki/concepts/interaction-native-knowledge-harness.md` — financial KG harness
 - `@osint-wiki/concepts/agent-memory-critique.md` — when memory complexity helps
 
 ## Raw Concept
