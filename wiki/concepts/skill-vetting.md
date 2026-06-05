@@ -66,9 +66,10 @@ related:
   - "@cybersecurity-wiki/concepts/mcp-security-posture.md"
   - "@cybersecurity-wiki/sources/arxiv-prompt-injection-persistence-2606.04425-2026-06-05.md"
   - "@cybersecurity-wiki/briefs/2026-05-31_ccc-handoff-k100-spi-skill-vetting-checklist.md"
+  - entities/skills/cursor-audit.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-05-31
+updated: 2026-06-05
 ---
 
 ## Relations
@@ -84,6 +85,7 @@ updated: 2026-05-31
 - @concepts/tools-we-dont-use.md — permanent skips (ToS bypass, archived spam tools)
 - @concepts/skillrae-retrieval-augmented-execution.md — skill-graph compilation assumes vetted skills only
 - @concepts/claude-premortem-skill.md — internal harness/skill **authoring** gate before Phase-0 on third-party installs
+- @entities/skills/cursor-audit.md — **internal** Cursor harness skill (authored in-repo); Phase-0 checklist does not apply — track via git + wiki page instead
 
 ## Raw Concept
 

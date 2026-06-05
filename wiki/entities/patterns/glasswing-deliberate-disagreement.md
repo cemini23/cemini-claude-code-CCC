@@ -12,9 +12,10 @@ related:
   - concepts/self-healing-agent-sessions.md
   - concepts/graphflow-verifiable-agent-workflows.md
   - entities/tools/council-of-high-intelligence.md
+  - entities/skills/cursor-audit.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-05-27
+updated: 2026-06-05
 cross-wiki-source: "@osint-wiki/sources/analyzing-github-projects-agentic-infra-2026-05-21.md"
 ---
 
@@ -26,6 +27,7 @@ cross-wiki-source: "@osint-wiki/sources/analyzing-github-projects-agentic-infra-
 - @entities/patterns/citadel-agent-orchestration.md — Citadel's circuit breaker + Glasswing's disagreement gating are complementary safety primitives
 - @concepts/code-as-agent-harness.md — adversarial verification lens paired with 2605.18747 taxonomy
 - @concepts/self-healing-agent-sessions.md — preferred recovery path vs blind corrective re-prompt
+- @entities/skills/cursor-audit.md — operational Glasswing #2 via three-model conflict table
 - @osint-wiki/sources/analyzing-github-projects-agentic-infra-2026-05-21.md (cross-wiki source)
 
 ## Raw Concept
@@ -54,6 +56,7 @@ The "deliberate disagreement" primitive is the highest-value extractable pattern
 - **Conductor multi-agent reasoning**: Cemini's conductor currently fans out and merges, but doesn't gate on disagreement. Two subagents giving conflicting answers to the same query should trigger a resolution step, not a silent merge.
 - **Phase-0 skill audits**: two independent audit subagents running the same checklist against the same skill → disagreement gates the GO/NO-GO decision. This makes the skill-vetting pipeline self-verifying.
 - **Scatter-gather upgrade path**: Glasswing is scatter-gather with adversarial gating and feedback loops — a natural evolution target for Cemini's current flat scatter-gather pattern.
+- **cursor-audit skill** (`@entities/skills/cursor-audit.md`): ships Glasswing primitive #2 today — three readonly Task auditors, synthesis **Conflicts** table gates SHIP. Lighter than evilsocket/audit's 8-stage pipeline; Cursor-native.
 
 ### Constraint
 

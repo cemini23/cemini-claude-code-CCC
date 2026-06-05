@@ -10,9 +10,10 @@ related:
   - entities/commands/plugin.md
   - entities/tools/cc-thinking-skills.md
   - entities/tools/jezweb-claude-skills.md
+  - entities/skills/cursor-audit.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-31
+updated: 2026-06-05
 ---
 
 ## Relations
@@ -21,6 +22,7 @@ updated: 2026-05-31
 - `@entities/tools/claude-code.md` — host harness
 - `@entities/mcp-servers/anthropic-skills.md` — the SKILL.md spec this skill is 100% compliant with
 - `@entities/commands/plugin.md` — install path
+- `@entities/skills/cursor-audit.md` — targeted multi-model debug/review; run cursor-audit on stuck bugs; tech-debt-audit for whole-repo sweeps
 
 ## Raw Concept
 

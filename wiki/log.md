@@ -625,3 +625,10 @@ Cross-wiki stub routed from `@osint-wiki/sources/multi-wiki-tool-eval-v6-k90-202
 
 Cross-wiki stub routed from `@osint-wiki/sources/trading-posts-compilation-12-2026-06-01.md`.
 - Filled source + K92 harness pages (see ingest entry above)
+
+## [2026-06-05] skill | cursor-audit — multi-model Cursor debug harness
+
+Mirrored from OSINT WORKSPACE `.cursor/skills/cursor-audit/` (origin: codex + opus caught different errors on same bug).
+- Created `.cursor/skills/cursor-audit/` (SKILL.md + reference.md + examples.md) in CCC + OSINT
+- Created `wiki/entities/skills/cursor-audit.md`
+- Backlinks: `@concepts/subagent-orchestration.md`, `@entities/patterns/glasswing-deliberate-disagreement.md`, `@entities/tools/council-of-high-intelligence.md`, `@entities/skills/tech-debt-audit.md`

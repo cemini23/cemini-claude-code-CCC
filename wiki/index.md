@@ -78,6 +78,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`marketingskills`](entities/skills/marketingskills.md) | draft | Marketing-framework skill bundle (PAS, brand voice, localized copy) |
 | [`geo-seo-claude`](entities/skills/geo-seo-claude.md) | validated | Generative-engine SEO skill (citability, AI crawlers, schema) |
 | [`src-hunter-skill`](entities/skills/src-hunter-skill.md) | draft | 305-payload, 19-playbook SKILL.md — largest single CC skill in the wild (MIT); design exemplar |
+| [`cursor-audit`](entities/skills/cursor-audit.md) | validated | Multi-model Cursor audit — 3 parallel readonly Task subagents, consensus/conflict synthesis (2026-06-05) |
 
 ## entities/commands/
 
@@ -359,6 +360,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | `entities/tools/delive.md` | `@osint-wiki/sources/multi-wiki-tool-eval-26url-2026-05-19.md` | K54 cross-wiki source (26-URL eval) |
 | `entities/tools/everos.md` | `@osint-wiki/sources/multi-wiki-tool-eval-26url-2026-05-19.md` | K54 cross-wiki source (26-URL eval) |
 | `entities/skills/src-hunter-skill.md` | `@osint-wiki/sources/multi-wiki-tool-eval-19url-2026-05-20.md` | K55 cross-wiki source (19-URL eval) |
+| `entities/skills/cursor-audit.md` | OSINT `.cursor/skills/cursor-audit/` | Multi-model Cursor audit skill (2026-06-05); mirrored in both repos |
 | `concepts/cross-wiki-tool-eval-inventory.md` | `@osint-wiki/sources/tool-evaluation-wiki-fit-2026-05-15.md` | Cross-wiki routing pattern (K45–K56) |
 | `concepts/code-as-agent-harness.md` | `@osint-wiki/concepts/code-as-agent-harness.md` | K48 arXiv 2605.18747 survey hub |
 | `concepts/code-as-agent-harness.md` | `@osint-wiki/sources/arxiv-code-as-agent-harness-survey-2605.18747.md` | Primary source |

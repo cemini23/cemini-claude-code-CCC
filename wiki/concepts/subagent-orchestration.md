@@ -44,6 +44,7 @@ related:
   - entities/tools/rowboat.md
   - concepts/claude-code-large-codebase-workflow.md
   - entities/tools/council-of-high-intelligence.md
+  - entities/skills/cursor-audit.md
   - entities/tools/three-man-team.md
   - concepts/agent-completion-verification-gates.md
   - concepts/agentic-programming-full-stack-thesis.md
@@ -98,6 +99,7 @@ updated: 2026-06-05
 - `@entities/tools/kimi-agent-swarm.md` — Moonshot product reference only; not a CCC harness
 - `@concepts/claude-code-software-factory.md` — multi-repo subagent fan-out metaphor (K67)
 - `@concepts/claude-code-personal-os-scope.md` — scope warning vs unbounded personal-OS workspace (K67)
+- `@entities/skills/cursor-audit.md` — three parallel Task subagents on different models; readonly Tier 1 audit synthesis
 
 Cross-wiki: `@osint-wiki/concepts/conductor-orchestrator.md` carries the OSINT-side conductor history (parallel subagent dispatch for cross-wiki queries).
 
@@ -125,7 +127,7 @@ User-authored agents inherit a similar surface unless explicitly restricted.
 The dispatch decision reduces to: **does the subagent save the parent more tokens than its own setup costs?**
 
 - **Heavy reads (>10K of raw content)** — yes. The parent ingests the subagent's brief reply; the bulk of the read stays in the subagent's window.
-- **Independent second opinions** — yes. Independence is the deliverable; the parent's context can't provide it.
+- **Independent second opinions** — yes. Independence is the deliverable; the parent's context can't provide it. See `@entities/skills/cursor-audit.md` when the deliverable is **cross-model** disagreement (codex + opus + gemini), not just a second agent of the same family.
 - **Genuinely parallel work** — yes. Multiple subagents in a single message run concurrently. The parent waits for all replies.
 - **Trivial lookups, single file reads** — no. Direct `Read`/`Grep` is cheaper.
 - **Tasks requiring the parent's working state** — no. Subagents don't share the parent's context.

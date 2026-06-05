@@ -8,9 +8,10 @@ related:
   - concepts/subagent-orchestration.md
   - entities/tools/conductor-mcp.md
   - concepts/cross-wiki-tool-eval-inventory.md
+  - entities/skills/cursor-audit.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-05-27
+updated: 2026-06-05
 cross-wiki-source: "@osint-wiki/sources/multi-wiki-tool-eval-27url-2026-05-27.md"
 ---
 
@@ -19,6 +20,7 @@ cross-wiki-source: "@osint-wiki/sources/multi-wiki-tool-eval-27url-2026-05-27.md
 - `@entities/patterns/glasswing-deliberate-disagreement.md` — adversarial multi-agent verification kinship
 - `@concepts/subagent-orchestration.md` — fan-out / merge topology
 - `@entities/tools/conductor-mcp.md` — compare synthesis vs conductor_query
+- `@entities/skills/cursor-audit.md` — Cursor-native three-model audit; lighter deliberation before action
 
 Cross-wiki: K71 URL #25.
 
@@ -28,7 +30,7 @@ Cross-wiki: K71 URL #25.
 
 ## Narrative
 
-Reference for **deliberation-before-action** in harness design — not a replacement for conductor on prod paths.
+Reference for **deliberation-before-action** in harness design — not a replacement for conductor on prod paths. For day-to-day Cursor debugging, use `@entities/skills/cursor-audit.md` (three parallel models, readonly).
 
 | Verdict | **CONDITIONAL-GO (laptop eval)** |
 

@@ -21,6 +21,7 @@ related:
   - concepts/embedded-agent-modular-edge-architecture.md
   - concepts/agent-five-gate-org-chart.md
   - concepts/etclovg-harness-layers.md
+  - entities/skills/cursor-audit.md
 maturity: validated
 created: 2026-05-13
 updated: 2026-06-05
@@ -37,6 +38,7 @@ updated: 2026-06-05
 - `@concepts/agent-vm-sandboxing.md` — Tier-2 subagents naturally run inside the agent-VM sandbox
 - `@entities/patterns/scatter-gather.md` — Tier-2 subagents are typical scatter-leg workers
 - `@entities/mcp-servers/polymarket-mcp-server.md` — execution-MCP class exemplar that the Tier-2 gate must constrain
+- `@entities/skills/cursor-audit.md` — three parallel readonly Task auditors (Cursor); Tier 1 by construction
 
 Cross-wiki: `@cybersecurity-wiki/concepts/llm-pentest-automation.md` is the canonical write-up of this pattern (originally from `pentest-ai-agents` v3.2). `@cybersecurity-wiki/entities/tools/pentest-ai-agents.md` is the reference implementation.
 
@@ -58,6 +60,7 @@ The split is the safety contract:
 - Code review agent (Cemini's `code-reviewer` subagent)
 - Plan agent (Cemini's built-in `Plan` subagent — read-only, plans only)
 - Phase-0 audit drafter (Cemini's modal Phase-0 workflow)
+- **cursor-audit** skill (`@entities/skills/cursor-audit.md`) — three readonly Task subagents on different models; synthesis only
 
 ### Tier 2 examples
 
