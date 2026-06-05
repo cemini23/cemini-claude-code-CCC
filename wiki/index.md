@@ -195,6 +195,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`claude-artifacts-app-building`](concepts/claude-artifacts-app-building.md) | draft | Claude Artifacts lightweight app pattern (K90 Post 13) |
 | [`harness-layer-competition-cursor-claude-perplexity`](concepts/harness-layer-competition-cursor-claude-perplexity.md) | draft | Harness layer competition post (K92 Post 9) |
 | [`deepseek-coding-cost-routing`](concepts/deepseek-coding-cost-routing.md) | draft | DeepSeek cheap codegen routing (K92 Post 10) |
+| [`llm-routing-deepseek-openrouter-failover`](concepts/llm-routing-deepseek-openrouter-failover.md) | draft | Shared `~/.cemini/llm-routing.env` + automatic OpenRouter backup when DeepSeek quota exhausted |
 | [`agentic-pm-review-artifacts`](concepts/agentic-pm-review-artifacts.md) | draft | Agentic PM review artifacts (K92 Post 6) |
 | [`thin-harness-fat-skills-garrytan`](concepts/thin-harness-fat-skills-garrytan.md) | draft | Thin harness + fat skills (@garrytan, K93) |
 | [`agent-skills-taxonomy`](concepts/agent-skills-taxonomy.md) | draft | Agent skills survey — procedural gap (2605.07358, K94 OSINT) |

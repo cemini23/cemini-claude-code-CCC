@@ -4,6 +4,19 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-06-05] ingest | K100 federation morning — MAVEN + harness repair batch
+
+- **Sources (3)** — 2605.30738 MAVEN; 2606.04315 cross-scenario generality; 2606.06324 failed-trajectory harness repair
+- **Concepts (2)** — `agentic-tool-calling-generalization`, `failed-trajectory-harness-repair`
+- **Raw** — PDFs → librarian; inbox cleared
+
+## [2026-06-04] adopt | LLM routing DeepSeek → OpenRouter failover
+
+Cross-project routing shipped in OSINT WORKSPACE (`scripts/llm_routing.py`, `config/llm-routing.env.example`, `source_llm_routing_env.sh`, `install_llm_routing_env.sh`). CeminiSuite `deepseek_client.py` wired; poker `cemini_hl_loop.sh` auto-sources env.
+
+- **CCC page:** `concepts/llm-routing-deepseek-openrouter-failover.md`
+- **One-time:** `~/.cemini/llm-routing.env` created; `DEEPSEEK_API_KEY` merged from OSINT `.env` — operator still adds `OPENROUTER_API_KEY`
+
 ## [2026-06-04] brief → prod | Phase-0 adoption deployment scope
 
 Answer: laptop adoptions **do not** apply across all projects or prod automatically.
