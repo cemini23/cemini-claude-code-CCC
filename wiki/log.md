@@ -4,10 +4,20 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-06-05] deep-read | K100 HarnessFix + memory routing cleanup
+
+- **Deep-read:** arXiv 2606.06324 (HarnessFix) — HTIR, ETCLOVG, repair operators, regression acceptance
+- **Read:** arXiv 2606.04315 (AutoMEM / agentic memory); arXiv 2605.30738 MAVEN canonical source bumped to `read`
+- **Concepts created/expanded:** `failed-trajectory-harness-repair`, `etclovg-harness-layers`, `agentic-memory-cross-scenario-generality`
+- **Dedupe removed:** `agentic-tool-calling-generalization`, duplicate `arxiv-maven-...-2026-06-05` source stub
+- **Routing fix:** 2606.04315 is **memory** (OSINT-primary), not tool-calling; dangling link → `@osint-wiki/concepts/exploration-graph-dead-ends.md`
+- **Pages updated (10):** `code-as-agent-harness`, `skill-vetting`, `subagent-orchestration`, `seclaw-agent-security-evaluation`, `self-healing-agent-sessions`, `lazy-tool`, `maven-agentic-tool-calling-generalization`, three source pages, `index.md`
+- **Brief:** `briefs/2026-06-05_automem-memory-cross-scenario-osint-handoff.md` — OSINT eval handoff for AutoMEM
+
 ## [2026-06-05] ingest | K100 federation morning — MAVEN + harness repair batch
 
 - **Sources (3)** — 2605.30738 MAVEN; 2606.04315 cross-scenario generality; 2606.06324 failed-trajectory harness repair
-- **Concepts (2)** — `agentic-tool-calling-generalization`, `failed-trajectory-harness-repair`
+- **Concepts (2)** — `failed-trajectory-harness-repair` (stub → deep-read in follow-up); MAVEN deduped to canonical page
 - **Raw** — PDFs → librarian; inbox cleared
 
 ## [2026-06-04] adopt | LLM routing DeepSeek → OpenRouter failover

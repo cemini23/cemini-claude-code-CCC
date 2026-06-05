@@ -57,6 +57,8 @@ related:
   - entities/tools/revfactory-harness.md
   - concepts/decoupled-intelligence-multi-agent-reference.md
   - concepts/maven-agentic-tool-calling-generalization.md
+  - concepts/failed-trajectory-harness-repair.md
+  - concepts/etclovg-harness-layers.md
   - entities/tools/agyn.md
   - sources/arxiv-agyn-agent-platform-2605.27575.md
   - sources/arxiv-agentxgcore-mobile-core-2606.00417.md
@@ -66,7 +68,7 @@ related:
   - sources/trading-posts-compilation-18-2026-06-04.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-04
+updated: 2026-06-05
 ---
 
 ## Relations
@@ -197,6 +199,10 @@ Non-negotiables for CCC subagent design:
 - **Draft vs commit** stay separate for external, financial, destructive, or regulated actions.
 
 Project skill copy: `.claude/skills/agents-best-practices/` (not global install).
+
+### Lifecycle layer failures (K100)
+
+Recurring subagent mis-dispatch (wrong `subagent_type`, empty summaries, parallel fan-out that should be serial) implicates **Lifecycle & Orchestration** in `@concepts/etclovg-harness-layers.md`. Log with layer tag; if pattern repeats, follow `@concepts/failed-trajectory-harness-repair.md` flaw-record discipline rather than prompt-only tweaks.
 
 ## Dead Ends
 

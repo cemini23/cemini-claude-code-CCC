@@ -5,12 +5,15 @@ tags: [source, arxiv, tool-calling, mcp]
 keywords: [maven, 2605.30738, tool-calling, symbolic-scaffold]
 related:
   - concepts/maven-agentic-tool-calling-generalization.md
+  - concepts/failed-trajectory-harness-repair.md
+  - concepts/etclovg-harness-layers.md
   - concepts/mcp-context-optimization.md
   - entities/tools/lazy-tool.md
+  - sources/arxiv-failed-trajectory-harness-repair-2606.06324-2026-06-05.md
 maturity: draft
-read_status: skimmed
+read_status: read
 created: 2026-06-02
-updated: 2026-06-02
+updated: 2026-06-05
 ---
 
 ## Relations

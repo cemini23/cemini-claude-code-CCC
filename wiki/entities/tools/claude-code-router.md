@@ -11,9 +11,10 @@ related:
   - concepts/token-economics-and-prompt-caching.md
   - concepts/local-llm-mechanics-primer.md
   - concepts/deepseek-coding-cost-routing.md
+  - concepts/llm-routing-deepseek-openrouter-failover.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-06-01
+updated: 2026-06-05
 ---
 
 ## Relations

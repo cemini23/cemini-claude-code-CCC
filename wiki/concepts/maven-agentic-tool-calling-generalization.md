@@ -13,19 +13,23 @@ related:
   - "@osint-wiki/concepts/mcp-tool-calling-eval-scaffold.md"
 maturity: draft
 created: 2026-06-02
-updated: 2026-06-02
+updated: 2026-06-05
 ---
 
 ## Relations
 
-- `@sources/arxiv-maven-agentic-tool-calling-2605.30738.md` — arXiv 2605.30738
+- `@sources/arxiv-maven-agentic-tool-calling-2605.30738.md` — canonical source page (K94)
 - `@concepts/mcp-context-optimization.md` — tool surface discipline
 - `@entities/tools/lazy-tool.md` — deferred MCP discovery
-- `@entities/mcp-servers/anthropic-skills.md` — SKILL.md tool bundles
+- `@concepts/failed-trajectory-harness-repair.md` — complementary: MAVEN generalizes tool *calling*; HarnessFix repairs harness *flaws*
+- `@concepts/etclovg-harness-layers.md` — shared layer vocabulary
+- `@osint-wiki/sources/arxiv-maven-agentic-tool-calling-2605.30738-2026-06-05.md` — OSINT K100 read
 
 ## Raw Concept
 
 arXiv **2605.30738** — tool-calling agents fail to **compose strategies** and **preserve intermediate state** across benchmark domains. MAVEN adds modular verification + execution scaffolding.
+
+**K100 dedupe:** stub source `arxiv-maven-agentic-tool-calling-2605.30738-2026-06-05.md` removed; OSINT K100 deep-read retained as `read` on canonical source.
 
 ## Narrative
 

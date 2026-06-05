@@ -36,6 +36,9 @@ related:
   - concepts/system-scaling-harness-agentic-ai.md
   - sources/arxiv-system-scaling-harness-2605.26112.md
   - concepts/maven-agentic-tool-calling-generalization.md
+  - concepts/failed-trajectory-harness-repair.md
+  - concepts/etclovg-harness-layers.md
+  - sources/arxiv-failed-trajectory-harness-repair-2606.06324-2026-06-05.md
   - sources/arxiv-sia-harness-weight-updates-2605.27276.md
   - concepts/runtime-harness-interface-adaptation.md
   - sources/arxiv-runtime-harness-adaptation-2605.22166.md
@@ -46,7 +49,7 @@ related:
   - sources/trading-posts-compilation-18-2026-06-04.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-06-04
+updated: 2026-06-05
 cross-wiki-source: "@osint-wiki/sources/arxiv-code-as-agent-harness-survey-2605.18747.md"
 ---
 
@@ -109,6 +112,10 @@ arXiv:2605.18747 frames **code as operational substrate** — not only generated
 | Human oversight for high-impact actions | Tier 1/Tier 2 model; `/goal` Stop hook |
 
 **Explicit non-action:** no new packages from the survey. Distinct from K56 Karpathy system-prompt-learning — that optimizes prompts; this concept covers runtime harness infrastructure.
+
+### ETCLOVG seven-layer taxonomy (K100 HarnessFix)
+
+`@concepts/etclovg-harness-layers.md` refines the three-layer survey into **Execution, Tool Interface, Context, Lifecycle, Observability, Verification, Governance** — use when filing harness failures or `@concepts/failed-trajectory-harness-repair.md` flaw records. Survey "harness mechanisms" spans Context + Lifecycle + Observability; "scaling" adds Lifecycle (multi-agent) + Verification.
 
 ### K98 Post 11 — AI integration layer as backend [TENTATIVE]
 

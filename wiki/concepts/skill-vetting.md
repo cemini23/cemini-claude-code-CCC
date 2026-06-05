@@ -61,9 +61,11 @@ related:
   - sources/arxiv-agent-skills-architecture-security-2602.12430.md
   - entities/tools/scienceaix-agentskills.md
   - concepts/cross-wiki-tool-adoption-routing.md
+  - concepts/failed-trajectory-harness-repair.md
+  - concepts/etclovg-harness-layers.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-06-04
+updated: 2026-06-05
 ---
 
 ## Relations
@@ -104,6 +106,10 @@ A Claude Code "skill" is a plain markdown file with YAML frontmatter that the LL
 6. **Validation-carrying metadata** [Steal-from @entities/tools/tool-forge.md Phase-0 2026-06-02] — before cataloging a skill or MCP tool, record `validation_status` (draft/approved/blocked), `version_pin`, and `last_reviewed`. Reject skills that instruct bypassing hooks or fetching remote executables without pinned SHA.
 7. **MCP catalog discipline (K98)** — viral MCP lists (@concepts/mcp-server-catalog-curation.md) follow the same checklist; add `@concepts/seclaw-agent-security-evaluation.md` trajectory eval before write-capable MCP GO.
 8. **Skill Trust tiers (2602.12430)** — four-tier gate-based permission model mapping skill **provenance → graduated deployment** [TENTATIVE]. Aligns with Tier-1/Tier-2 agent model; empirical baseline: **26.1%** of community skills contain vulnerabilities per concurrent studies cited in 2602.12430.
+
+### HarnessFix steal-from (K100)
+
+When a vetted skill still causes recurring session failures, tag the flaw with an **ETCLOVG layer** (`@concepts/etclovg-harness-layers.md`) before re-audit — e.g. Tool Interface (schema drift), Governance (permission bypass instructions). Full diagnosis/repair loop: `@concepts/failed-trajectory-harness-repair.md` (manual flaw records; no HarnessFix install).
 
 ### Verdict
 

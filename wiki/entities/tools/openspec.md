@@ -20,9 +20,10 @@ related:
   - concepts/agentic-pm-review-artifacts.md
   - concepts/autosci-memory-centric-research-agents.md
   - sources/arxiv-autosci-2605.31468.md
+  - concepts/failed-trajectory-harness-repair.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-06-01
+updated: 2026-06-05
 ---
 
 ## Relations

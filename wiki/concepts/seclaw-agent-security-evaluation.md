@@ -16,9 +16,11 @@ related:
   - "@cybersecurity-wiki/briefs/2026-06-04_cybersecurity-handoff-defenseclaw-seclaw.md"
   - sources/trading-posts-compilation-18-2026-06-04.md
   - concepts/cross-wiki-tool-adoption-routing.md
+  - concepts/failed-trajectory-harness-repair.md
+  - concepts/etclovg-harness-layers.md
 maturity: draft
 created: 2026-06-04
-updated: 2026-06-04
+updated: 2026-06-05
 cross-wiki-source: "@osint-wiki/concepts/seclaw-agent-security-evaluation.md"
 ---
 
@@ -55,6 +57,7 @@ arXiv 2606.02302 (K98 inbox): **spec-driven security task synthesis** + docker t
 | Code | README + `docs/` only — README states **"Code: Coming soon"**; 0★ |
 | Verdict | **NO-GO (install)** — **REFERENCE (methodology)** until LICENSE + runnable code ship |
 | vs defenseclaw | SeClaw = benchmark; defenseclaw = runtime gate — complementary |
+| vs HarnessFix (2606.06324) | SeClaw scores **security** trajectories; HarnessFix repairs **reliability** harness flaws — both reject final-answer-only eval |
 
 **Do not** conflate with EMS/trading RBAC audits (OSINT `@concepts/ems-execution-security-gaps.md` scope).
 

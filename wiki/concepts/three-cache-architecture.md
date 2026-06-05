@@ -16,9 +16,10 @@ related:
   - concepts/agent-token-discipline-openclaw-hermes.md
   - entities/tools/claude-subconscious.md
   - concepts/agent-memory-stack-comparison.md
+  - concepts/llm-routing-deepseek-openrouter-failover.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-27
+updated: 2026-06-05
 ---
 
 ## Relations

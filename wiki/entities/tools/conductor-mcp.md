@@ -39,9 +39,10 @@ related:
   - sources/trading-posts-compilation-18-2026-06-04.md
   - concepts/mcp-server-catalog-curation.md
   - concepts/seclaw-agent-security-evaluation.md
+  - concepts/etclovg-harness-layers.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-04
+updated: 2026-06-05
 ---
 
 ## Relations

@@ -20,9 +20,10 @@ related:
   - concepts/claude-code-subagent-templates.md
   - concepts/embedded-agent-modular-edge-architecture.md
   - concepts/agent-five-gate-org-chart.md
+  - concepts/etclovg-harness-layers.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-04
+updated: 2026-06-05
 ---
 
 ## Relations

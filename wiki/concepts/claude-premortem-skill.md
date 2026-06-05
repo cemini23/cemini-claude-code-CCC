@@ -15,9 +15,10 @@ related:
   - concepts/agent-completion-verification-gates.md
   - concepts/claude-prompt-engineering-techniques.md
   - concepts/claude-md-five-section-template.md
+  - concepts/failed-trajectory-harness-repair.md
 maturity: draft
 created: 2026-05-26
-updated: 2026-05-28
+updated: 2026-06-05
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-38-2026-05-26.md"
 ---
 

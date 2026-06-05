@@ -30,7 +30,7 @@ Active workstreams, open decisions, and the done log for the Cemini Claude Code 
 
 ## Done
 
-- **2026-05-13** — Bootstrap. CLAUDE.md schema, root meta files, scripts ported from OSINT, 16 seed pages, cross-wiki integration with OSINT, git repo initialized.
+- **2026-06-05** — K100 deep-read: HarnessFix/ETCLOVG synthesized; memory paper routed OSINT; flaw-record template + workflow rule adopted.
 - **2026-05-13** — Public repo + CI. `cemini-claude-code-CCC` created, GitHub Actions lint workflow added, lint green on first run, pushed.
 - **2026-05-13** — Cross-wiki deep-dive sweep. Mined OSINT/Cybersec/SEO/3D-printing/Image-gen for Claude Code material. 16 new pages + 8 deepened pages + 10 sibling-wiki backlinks added. ccc-wiki registered in SEO and Cybersec Related Wikis tables. 32 pages total; lint clean.
 - **2026-05-17** — Parked-followup batch. 10 of 11 deep-dive follow-ups cleared as cross-wiki stubs: agent-vm-sandboxing, skill-vetting, twelve-rule-claude-md-template, claude-obsidian, cpr-context-compression, autoresearch-loop, scatter-gather, stash, llm-wiki-compiler, polymarket-mcp-server. Backlinks added on 17 existing CCC pages. structured-findings-schema deferred (no primary); kb-server closed as duplicate of librarian-kb-server.

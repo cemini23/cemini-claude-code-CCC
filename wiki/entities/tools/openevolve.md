@@ -13,9 +13,10 @@ related:
   - entities/tools/adaptive-auto-harness.md
   - concepts/adaptive-auto-harness-open-ended-streams.md
   - concepts/cross-wiki-tool-adoption-routing.md
+  - concepts/failed-trajectory-harness-repair.md
 maturity: draft
 created: 2026-05-24
-updated: 2026-06-04
+updated: 2026-06-05
 cross-wiki-source: "@osint-wiki/sources/multi-wiki-tool-eval-36url-wiki-ingestion-2026-05-24.md"
 ---
 

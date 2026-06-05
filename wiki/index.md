@@ -220,6 +220,9 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`muse-autoskill-skill-lifecycle`](concepts/muse-autoskill-skill-lifecycle.md) | draft | MUSE skill create/eval/refine lifecycle — 2605.27366 |
 | [`autosci-memory-centric-research-agents`](concepts/autosci-memory-centric-research-agents.md) | draft | AutoSci SciMem research lifecycle — 2605.31468 |
 | [`maven-agentic-tool-calling-generalization`](concepts/maven-agentic-tool-calling-generalization.md) | draft | MAVEN tool-calling generalization — 2605.30738 |
+| [`failed-trajectory-harness-repair`](concepts/failed-trajectory-harness-repair.md) | validated | HarnessFix — diagnosis-first harness repair (2606.06324) |
+| [`etclovg-harness-layers`](concepts/etclovg-harness-layers.md) | validated | ETCLOVG seven-layer harness taxonomy (K100) |
+| [`agentic-memory-cross-scenario-generality`](concepts/agentic-memory-cross-scenario-generality.md) | draft | AutoMEM cross-scenario memory — OSINT-primary stub (2606.04315) |
 | [`worldmemarena-multimodal-agent-memory-eval`](concepts/worldmemarena-multimodal-agent-memory-eval.md) | draft | WorldMemArena memory eval — 2605.29341 |
 | [`decoupled-intelligence-multi-agent-reference`](concepts/decoupled-intelligence-multi-agent-reference.md) | draft | Traffic multi-agent — REFERENCE only (2605.27685) |
 | [`skillrae-retrieval-augmented-execution`](concepts/skillrae-retrieval-augmented-execution.md) | draft | Skill-graph RAE — post-retrieval context compilation (K59 arXiv) |
@@ -269,7 +272,9 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-muse-autoskill-2605.27366`](sources/arxiv-muse-autoskill-2605.27366.md) | draft | MUSE-Autoskill skill lifecycle — arXiv 2605.27366 |
 | [`arxiv-autosci-2605.31468`](sources/arxiv-autosci-2605.31468.md) | draft | AutoSci memory-centric research — arXiv 2605.31468 |
 | [`arxiv-sia-harness-weight-updates-2605.27276`](sources/arxiv-sia-harness-weight-updates-2605.27276.md) | draft | SIA — OSINT cross-wiki stub (K84 canon) |
-| [`arxiv-maven-agentic-tool-calling-2605.30738`](sources/arxiv-maven-agentic-tool-calling-2605.30738.md) | draft | MAVEN tool calling — 2605.30738 |
+| [`arxiv-maven-agentic-tool-calling-2605.30738`](sources/arxiv-maven-agentic-tool-calling-2605.30738.md) | draft | MAVEN tool calling — 2605.30738 (read) |
+| [`arxiv-failed-trajectory-harness-repair-2606.06324-2026-06-05`](sources/arxiv-failed-trajectory-harness-repair-2606.06324-2026-06-05.md) | draft | HarnessFix harness repair — 2606.06324 (deep-read) |
+| [`arxiv-cross-scenario-agentic-generality-2606.04315-2026-06-05`](sources/arxiv-cross-scenario-agentic-generality-2606.04315-2026-06-05.md) | draft | Agentic memory cross-scenario — 2606.04315 (read) |
 | [`arxiv-worldmemarena-agent-memory-2605.29341`](sources/arxiv-worldmemarena-agent-memory-2605.29341.md) | draft | WorldMemArena — 2605.29341 |
 | [`arxiv-agyn-agent-platform-2605.27575`](sources/arxiv-agyn-agent-platform-2605.27575.md) | draft | Agyn platform — 2605.27575 |
 | [`arxiv-agent-skills-survey-2605-07358-2026-06-02`](sources/arxiv-agent-skills-survey-2605-07358-2026-06-02.md) | draft | Agent skills taxonomy survey — K94 OSINT |

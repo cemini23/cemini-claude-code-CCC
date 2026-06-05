@@ -16,9 +16,11 @@ related:
   - entities/tools/hermes-agent.md
   - concepts/continual-harness-online-self-improvement.md
   - concepts/agent-rubrics-self-correction.md
+  - concepts/failed-trajectory-harness-repair.md
+  - concepts/etclovg-harness-layers.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-06-03
+updated: 2026-06-05
 cross-wiki-source: "@osint-wiki/sources/arxiv-self-healing-llm-agents-2605.06737.md"
 ---
 
@@ -82,7 +84,16 @@ This is a **design pattern document**, not a library adoption. Cemini already ha
 
 ### Conductor reliability note
 
-When `@entities/tools/conductor-mcp.md` fails, treat as **harness-interface** failure (layer 1 in `@concepts/code-as-agent-harness.md`): do not burn parent context re-trying conductor; switch to direct wiki reads and file a query log entry if the failure is novel.
+When `@entities/tools/conductor-mcp.md` fails, treat as **Tool Interface / Lifecycle** failure per `@concepts/etclovg-harness-layers.md`: do not burn parent context re-trying conductor; switch to direct wiki reads and file a query log entry if the failure is novel.
+
+### vs HarnessFix (2606.06324)
+
+| Pattern | Scope |
+|---------|-------|
+| Self-healing (this page) | **In-session** retry/replan within retry budget |
+| `@concepts/failed-trajectory-harness-repair.md` | **Cross-session** harness code mutation from failed traces |
+
+When the same failure class repeats across sessions, escalate from self-healing to flaw-record + harness edit (OpenSpec, skill re-vet), not more retries.
 
 ## Snippets
 

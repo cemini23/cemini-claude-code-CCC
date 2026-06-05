@@ -4,6 +4,7 @@ type: concept
 tags: [concept, token-economics, deepseek, routing, k92]
 keywords: [peterom, deepseek, cost, routing, 2.5-percent]
 related:
+  - concepts/llm-routing-deepseek-openrouter-failover.md
   - concepts/token-economics-and-prompt-caching.md
   - entities/tools/claude-code-router.md
   - entities/tools/ttok.md
@@ -12,12 +13,13 @@ related:
   - sources/trading-posts-compilation-12-2026-06-01.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-01
+updated: 2026-06-04
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-12-2026-06-01.md"
 ---
 
 ## Relations
 
+- `@concepts/llm-routing-deepseek-openrouter-failover.md` — automatic OpenRouter when DeepSeek balance/quota fails
 - `@concepts/token-economics-and-prompt-caching.md` — API-side economics
 - `@entities/tools/claude-code-router.md` — local proxy routing pattern
 - `@entities/tools/ttok.md` — pre-paste token preview

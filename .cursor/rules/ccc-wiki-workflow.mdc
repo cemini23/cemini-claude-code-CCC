@@ -29,6 +29,14 @@ When adding sources from `research to be indexed/`:
 4. Touch 3–15 wiki pages; update `wiki/index.md`, `wiki/log.md`; move raw file to `raw-sources/`
 5. `python3 scripts/wiki_lint.py` — fix bidirectional gaps (`--fix-bidirectional --apply` when needed)
 
+## Harness flaw records (HarnessFix steal-from)
+
+When a session fails **twice** with the same symptom (Stop-hook loop, subagent empty return, MCP schema drift, skill mis-invocation):
+
+1. Tag the implicated **ETCLOVG layer** in `wiki/log.md` or the page `## Dead Ends` — see `@wiki/concepts/etclovg-harness-layers.md` (Execution / Tool Interface / Context / Lifecycle / Observability / Verification / Governance).
+2. Use `prompts/harness-flaw-record-template.md` for structured log entries before editing harness artifacts.
+3. Harness edits require scoped repair: OpenSpec acceptance criteria + premortem; run `wiki_lint.py` after wiki changes.
+
 ## Git
 
 - Commit/push **only when the user asks**

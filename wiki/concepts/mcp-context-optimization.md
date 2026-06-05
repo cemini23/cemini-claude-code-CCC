@@ -25,9 +25,10 @@ related:
   - concepts/agent-skills-progressive-disclosure.md
   - sources/arxiv-agent-skills-architecture-security-2602.12430.md
   - concepts/mcp-server-catalog-curation.md
+  - concepts/llm-routing-deepseek-openrouter-failover.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-04
+updated: 2026-06-05
 ---
 
 ## Relations

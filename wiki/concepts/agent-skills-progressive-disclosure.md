@@ -13,9 +13,10 @@ related:
   - entities/tools/lazy-tool.md
   - concepts/muse-autoskill-skill-lifecycle.md
   - entities/tools/scienceaix-agentskills.md
+  - concepts/agentic-memory-cross-scenario-generality.md
 maturity: draft
 created: 2026-06-04
-updated: 2026-06-04
+updated: 2026-06-05
 ---
 
 ## Relations
