@@ -632,3 +632,8 @@ Mirrored from OSINT WORKSPACE `.cursor/skills/cursor-audit/` (origin: codex + op
 - Created `.cursor/skills/cursor-audit/` (SKILL.md + reference.md + examples.md) in CCC + OSINT
 - Created `wiki/entities/skills/cursor-audit.md`
 - Backlinks: `@concepts/subagent-orchestration.md`, `@entities/patterns/glasswing-deliberate-disagreement.md`, `@entities/tools/council-of-high-intelligence.md`, `@entities/skills/tech-debt-audit.md`
+
+## [2026-06-06] cross-wiki route | ADK Arena — agent framework benchmark (OSINT handoff)
+
+Cross-wiki stub routed from `@osint-wiki/sources/arxiv-adk-arena-agent-dev-kits-2606.05548-2026-06-06.md`.
+- Created wiki/concepts/adk-arena-agent-framework-benchmark.md (stub)
