@@ -26,9 +26,11 @@ related:
   - sources/arxiv-agent-skills-architecture-security-2602.12430.md
   - concepts/mcp-server-catalog-curation.md
   - concepts/llm-routing-deepseek-openrouter-failover.md
+  - concepts/mcp-server-runtime-fault-taxonomy.md
+  - sources/arxiv-mcp-runtime-fault-taxonomy-2606.05339.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-05
+updated: 2026-06-06
 ---
 
 ## Relations
@@ -109,6 +111,10 @@ With the stack:
 - ~900 input tokens/turn vs ~1,700 (46% reduction per Layer 1)
 - Cache hits at ~10% cost on repeated prompt prefixes (Layer 3)
 - **80-95% per-session cost reduction** for long-running sessions (per source claim; treat as upper bound)
+
+### Reliability complement (2606.05339)
+
+Cost optimization does not prevent **runtime coordination faults**. `@concepts/mcp-server-runtime-fault-taxonomy.md` (837 GitHub threads, 11 categories) is the reliability layer beneath this page — e.g. Tool Result propagation faults look like "MCP worked" while burning tokens on retry loops. Phase-0 MCP GO should pass taxonomy checks before counting servers toward the lazy-tool break-even threshold.
 
 ### What the layers don't do
 

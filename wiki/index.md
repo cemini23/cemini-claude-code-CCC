@@ -219,6 +219,8 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`agent-skills-progressive-disclosure`](concepts/agent-skills-progressive-disclosure.md) | draft | SKILL.md 3-level loading + skills vs MCP (2602.12430) |
 | [`interaction-native-knowledge-harness`](concepts/interaction-native-knowledge-harness.md) | draft | InKH passive injection + wiki audit (2606.01886, OSINT handoff) |
 | [`muse-autoskill-skill-lifecycle`](concepts/muse-autoskill-skill-lifecycle.md) | draft | MUSE skill create/eval/refine lifecycle — 2605.27366 |
+| [`skilladaptor-step-level-skill-adaptation`](concepts/skilladaptor-step-level-skill-adaptation.md) | draft | Step-level skill adaptation from failed trajectories — 2606.01311 |
+| [`mcp-server-runtime-fault-taxonomy`](concepts/mcp-server-runtime-fault-taxonomy.md) | draft | MCP server runtime fault taxonomy — 11 categories, 837 threads — 2606.05339 |
 | [`autosci-memory-centric-research-agents`](concepts/autosci-memory-centric-research-agents.md) | draft | AutoSci SciMem research lifecycle — 2605.31468 |
 | [`maven-agentic-tool-calling-generalization`](concepts/maven-agentic-tool-calling-generalization.md) | draft | MAVEN tool-calling generalization — 2605.30738 |
 | [`failed-trajectory-harness-repair`](concepts/failed-trajectory-harness-repair.md) | validated | HarnessFix — diagnosis-first harness repair (2606.06324) |
@@ -288,6 +290,8 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-agentxgcore-mobile-core-2606.00417`](sources/arxiv-agentxgcore-mobile-core-2606.00417.md) | draft | AgentxGCore 6G core — REFERENCE only (K95) |
 | [`arxiv-embedded-agent-modular-edge-2606.02862`](sources/arxiv-embedded-agent-modular-edge-2606.02862.md) | draft | Embedded agent modular edge architecture — K95 |
 | [`arxiv-slm-orchestration-gateway-2606.03557`](sources/arxiv-slm-orchestration-gateway-2606.03557.md) | draft | SLM orchestration gateway — K95 |
+| [`arxiv-skilladaptor-2606.01311`](sources/arxiv-skilladaptor-2606.01311.md) | draft | SkillAdaptor step-level skill adaptation — 2606.01311 (read) |
+| [`arxiv-mcp-runtime-fault-taxonomy-2606.05339`](sources/arxiv-mcp-runtime-fault-taxonomy-2606.05339.md) | draft | MCP server runtime fault taxonomy — 2606.05339 (read) |
 
 ## meta/
 

@@ -67,9 +67,13 @@ related:
   - "@cybersecurity-wiki/sources/arxiv-prompt-injection-persistence-2606.04425-2026-06-05.md"
   - "@cybersecurity-wiki/briefs/2026-05-31_ccc-handoff-k100-spi-skill-vetting-checklist.md"
   - entities/skills/cursor-audit.md
+  - concepts/skilladaptor-step-level-skill-adaptation.md
+  - sources/arxiv-skilladaptor-2606.01311.md
+  - concepts/mcp-server-runtime-fault-taxonomy.md
+  - sources/arxiv-mcp-runtime-fault-taxonomy-2606.05339.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-06-05
+updated: 2026-06-06
 ---
 
 ## Relations
@@ -109,8 +113,9 @@ A Claude Code "skill" is a plain markdown file with YAML frontmatter that the LL
 4. **Cross-check against the malicious-skill catalog** — @entities/tools/claude-code-ultimate-guide.md's 655 patterns + 28 CVEs cover the known-bad surface. Pattern-match the body against this catalog.
 5. **First-run in isolation** — if maturity ≥ "promising" after steps 1-4, first invocation runs in an agent-VM (see @concepts/agent-vm-sandboxing.md) with action tracing on. If no agent-VM is wired, run only after a manual read-through of the skill body.
 6. **Validation-carrying metadata** [Steal-from @entities/tools/tool-forge.md Phase-0 2026-06-02] — before cataloging a skill or MCP tool, record `validation_status` (draft/approved/blocked), `version_pin`, and `last_reviewed`. Reject skills that instruct bypassing hooks or fetching remote executables without pinned SHA.
-7. **MCP catalog discipline (K98)** — viral MCP lists (@concepts/mcp-server-catalog-curation.md) follow the same checklist; add `@concepts/seclaw-agent-security-evaluation.md` trajectory eval before write-capable MCP GO.
-8. **Skill Trust tiers (2602.12430)** — four-tier gate-based permission model mapping skill **provenance → graduated deployment** [TENTATIVE]. Aligns with Tier-1/Tier-2 agent model; empirical baseline: **26.1%** of community skills contain vulnerabilities per concurrent studies cited in 2602.12430.
+7. **MCP catalog discipline (K98)** — viral MCP lists (@concepts/mcp-server-catalog-curation.md) follow the same checklist; add `@concepts/seclaw-agent-security-evaluation.md` trajectory eval before write-capable MCP GO. Phase-0 failure-mode rows from `@concepts/mcp-server-runtime-fault-taxonomy.md` (2606.05339): stdio-only JSON-RPC on stdout, structured tool errors, session ID stability, schema validation.
+8. **Skill promotion gate (2606.01311)** [REFERENCE] — SkillAdaptor's **Qualifier** rejects unstable skill edits before they enter retrieval; mirrors steps 3b–5 here for **post-session** skill mutations (ingest log + smoke test before bumping `maturity:`).
+9. **Skill Trust tiers (2602.12430)** — four-tier gate-based permission model mapping skill **provenance → graduated deployment** [TENTATIVE]. Aligns with Tier-1/Tier-2 agent model; empirical baseline: **26.1%** of community skills contain vulnerabilities per concurrent studies cited in 2602.12430.
 
 ### K100 — cross-session stored prompt injection (SPI) [2026-05-31]
 

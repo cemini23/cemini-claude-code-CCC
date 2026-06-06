@@ -16,9 +16,11 @@ related:
   - sources/arxiv-sia-harness-weight-updates-2605.27276.md
   - concepts/adaptive-auto-harness-open-ended-streams.md
   - sources/arxiv-adaptive-auto-harness-2606.01770.md
+  - concepts/skilladaptor-step-level-skill-adaptation.md
+  - sources/arxiv-skilladaptor-2606.01311.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-06-03
+updated: 2026-06-06
 cross-wiki-source: "@osint-wiki/concepts/continual-harness-online-self-improvement.md"
 ---
 

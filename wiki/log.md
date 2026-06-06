@@ -4,6 +4,21 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-06-06] phase-0 | SkillAdaptor + MCP fault taxonomy
+
+- **SkillAdaptor** (`zjunlp/SkillAdaptor`): MIT, 6★, README stub only → **NO-GO install**, **REFERENCE** methodology
+- **MCP fault taxonomy** (2606.05339): **ADOPT checklist**; figshare replication cited; no tool install
+- **Lint:** bidirectional gap fixed (`agentic-memory-cross-scenario-generality` ↔ `failed-trajectory-harness-repair`)
+
+## [2026-06-06] ingest | Daily digest batch — SkillAdaptor + MCP fault taxonomy
+
+- **Preingest:** 2 NEW, 0 DUPLICATE (`arxiv-2606.01311`, `arxiv-2606.05339`)
+- **Sources (2):** SkillAdaptor (2606.01311); MCP runtime fault taxonomy (2606.05339)
+- **Concepts (2):** `skilladaptor-step-level-skill-adaptation`, `mcp-server-runtime-fault-taxonomy`
+- **Pages updated (10):** `muse-autoskill-skill-lifecycle`, `skill-vetting`, `failed-trajectory-harness-repair`, `self-healing-agent-sessions`, `mcp-context-optimization`, `mcp-server-catalog-curation`, `continual-harness-online-self-improvement`, `agent-skills-progressive-disclosure`, `thin-harness-fat-skills-garrytan`, `seclaw-agent-security-evaluation`, `index.md`
+- **Cross-wiki:** MCP Security category → `@cybersecurity-wiki/concepts/mcp-security-posture.md` (pointer only)
+- **Raw:** PDFs → `raw-sources/`; inbox cleared
+
 ## [2026-06-05] deep-read | K100 HarnessFix + memory routing cleanup
 
 - **Deep-read:** arXiv 2606.06324 (HarnessFix) — HTIR, ETCLOVG, repair operators, regression acceptance

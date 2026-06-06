@@ -18,9 +18,13 @@ related:
   - concepts/agent-rubrics-self-correction.md
   - concepts/failed-trajectory-harness-repair.md
   - concepts/etclovg-harness-layers.md
+  - concepts/mcp-server-runtime-fault-taxonomy.md
+  - sources/arxiv-mcp-runtime-fault-taxonomy-2606.05339.md
+  - concepts/skilladaptor-step-level-skill-adaptation.md
+  - sources/arxiv-skilladaptor-2606.01311.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-06-05
+updated: 2026-06-06
 cross-wiki-source: "@osint-wiki/sources/arxiv-self-healing-llm-agents-2605.06737.md"
 ---
 
@@ -53,7 +57,7 @@ This is a **design pattern document**, not a library adoption. Cemini already ha
 | Class | Symptom | Typical cause | First response |
 |-------|---------|---------------|----------------|
 | **Tool timeout** | Bash/MCP call hangs or exceeds limit | Network, large repo op, tunnel down | Narrow scope; retry once with smaller command |
-| **MCP disconnect** | Red MCP in UI; tool errors | SSH tunnel stale (`stash`, `prod-mcp`) | Fix tunnel; `Retry` MCP; do not auto-replan in a loop |
+| **MCP disconnect** | Red MCP in UI; tool errors | SSH tunnel stale (`stash`, `prod-mcp`); stale session ID; non-protocol stdout on stdio transport (2606.05339) | Fix tunnel; `Retry` MCP; check session header; verify server logs only on stderr; do not auto-replan in a loop |
 | **Context truncation** | Lost early instructions; repeated mistakes | Window fill; harness compaction | Refresh `hot.md`; re-inject goal; delegate heavy read to subagent |
 | **User interrupt** | Operator cancelled turn | Intentional | Stop retries; update `hot.md` with abort reason |
 | **Hallucinated path** | Edit/Read on non-existent file | Model drift | `Glob`/`Grep` verify; corrective re-prompt with actual paths |
@@ -94,6 +98,20 @@ When `@entities/tools/conductor-mcp.md` fails, treat as **Tool Interface / Lifec
 | `@concepts/failed-trajectory-harness-repair.md` | **Cross-session** harness code mutation from failed traces |
 
 When the same failure class repeats across sessions, escalate from self-healing to flaw-record + harness edit (OpenSpec, skill re-vet), not more retries.
+
+### MCP fault taxonomy overlay (2606.05339)
+
+`@concepts/mcp-server-runtime-fault-taxonomy.md` names the coordination faults behind generic "MCP disconnect" rows:
+
+| Symptom in session | Likely taxonomy class |
+|--------------------|----------------------|
+| Tool ran but agent ignored result | Tool → Result propagation |
+| Malformed args, opaque stack trace | Tool → Execution (schema validation) |
+| Works once, fails after reconnect | State → Session State (stale ID) |
+| Intermittent parse errors on stdio MCP | Transport → Stdio (non-protocol stdout) |
+| "Success" but wrong data returned | Tool → Silent failure / Data & Schema |
+
+Use taxonomy leaf names when filing `wiki/log.md` entries — speeds dedupe across MCP servers.
 
 ## Snippets
 

@@ -18,9 +18,11 @@ related:
   - sources/arxiv-agent-skills-architecture-security-2602.12430.md
   - concepts/runtime-harness-interface-adaptation.md
   - sources/arxiv-agent-skills-survey-2605-07358-2026-06-02.md
+  - concepts/skilladaptor-step-level-skill-adaptation.md
+  - sources/arxiv-skilladaptor-2606.01311.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-04
+updated: 2026-06-06
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-31-2026-06-01.md"
 ---
 
@@ -46,6 +48,8 @@ K93 Posts (@garrytan): **thin harness + fat skills** — minimal routing/orchest
 | Resolvers | Task-tool / subagent dispatch tables — `@concepts/subagent-orchestration.md` |
 
 **Verdict:** **REFERENCE** — aligns with `@concepts/agent-skills-progressive-disclosure.md` (2602.12430): Level-1 metadata always loaded, fat procedural body on trigger. Align with arXiv 2605.30621: invest executor discipline + skill quality over harness churn.
+
+**Maintenance loop (2606.01311):** `@concepts/skilladaptor-step-level-skill-adaptation.md` — fat skills need **step-level failure attribution** + qualifier gate, not whole-trajectory rewrites; plug-in for OpenClaw-class harnesses.
 
 ## Snippets
 

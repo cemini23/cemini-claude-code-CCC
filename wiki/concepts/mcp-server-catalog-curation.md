@@ -13,9 +13,11 @@ related:
   - entities/tools/conductor-mcp.md
   - concepts/seclaw-agent-security-evaluation.md
   - "@osint-wiki/sources/trading-posts-compilation-18-2026-06-04.md"
+  - concepts/mcp-server-runtime-fault-taxonomy.md
+  - sources/arxiv-mcp-runtime-fault-taxonomy-2606.05339.md
 maturity: draft
 created: 2026-06-04
-updated: 2026-06-04
+updated: 2026-06-06
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-18-2026-06-04.md"
 ---
 
@@ -39,7 +41,7 @@ K98 Post 10 (@exploraX_): viral **50 MCP servers** catalog for Claude/Codex/Gemi
 
 1. **Preingest** — `python3 scripts/preingest_check.py` on any new repo URL
 2. **Dedupe** — `@concepts/cross-wiki-tool-eval-inventory.md` + OSINT `entities/tools/*`
-3. **Phase-0** — license API, transport, credentials, rate limits, failure mode per tool class
+3. **Phase-0** — license API, transport, credentials, rate limits, failure mode per tool class; use `@concepts/mcp-server-runtime-fault-taxonomy.md` checklist (stdio purity, schema validation, session ID, structured errors)
 4. **Cost gate** — if ≥5 MCP servers active → `@entities/tools/lazy-tool.md` (OSINT folder)
 5. **Security gate** — SeClaw eval or `@entities/tools/defenseclaw.md` patterns before write-capable MCP
 

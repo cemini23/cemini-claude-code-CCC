@@ -14,9 +14,11 @@ related:
   - concepts/muse-autoskill-skill-lifecycle.md
   - entities/tools/scienceaix-agentskills.md
   - concepts/agentic-memory-cross-scenario-generality.md
+  - concepts/skilladaptor-step-level-skill-adaptation.md
+  - sources/arxiv-skilladaptor-2606.01311.md
 maturity: draft
 created: 2026-06-04
-updated: 2026-06-05
+updated: 2026-06-06
 ---
 
 ## Relations

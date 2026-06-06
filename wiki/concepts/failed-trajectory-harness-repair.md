@@ -17,9 +17,12 @@ related:
   - "@osint-wiki/concepts/exploration-graph-dead-ends.md"
   - entities/tools/lazy-tool.md
   - sources/arxiv-maven-agentic-tool-calling-2605.30738.md
+  - concepts/skilladaptor-step-level-skill-adaptation.md
+  - sources/arxiv-skilladaptor-2606.01311.md
+  - concepts/agentic-memory-cross-scenario-generality.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-06-05
+updated: 2026-06-06
 ---
 
 ## Relations
@@ -29,6 +32,8 @@ updated: 2026-06-05
 - `@concepts/self-healing-agent-sessions.md` — runtime retry vs harness *repair* (different loop)
 - `@concepts/seclaw-agent-security-evaluation.md` — trajectory eval (security); HarnessFix (reliability)
 - `@osint-wiki/concepts/exploration-graph-dead-ends.md` — wiki `## Dead Ends` preserves abandoned paths; HarnessFix automates flaw consolidation from traces
+- `@concepts/skilladaptor-step-level-skill-adaptation.md` — SkillAdaptor repairs **skill cards** at step granularity; HarnessFix repairs **harness artifacts** (prompts, hooks, validators)
+- `@concepts/agentic-memory-cross-scenario-generality.md` — memory eval (2606.04315) vs harness repair; both reject outcome-only optimization
 
 ## Raw Concept
 
@@ -82,6 +87,7 @@ Each `@concepts/etclovg-harness-layers.md` row maps to **typical flaws** and **c
 | `@entities/tools/openevolve.md` | Evolves configs/prompts search-style; HarnessFix is diagnosis-first with operators |
 | SeClaw | Security trajectory eval; HarnessFix targets reliability harness flaws |
 | Outcome-only prompt tuning | No step-level attribution |
+| `@concepts/skilladaptor-step-level-skill-adaptation.md` (2606.01311) | Same step-level attribution idea; edits **skill cards** in K, not harness code/prompts |
 
 ### Adoption posture
 

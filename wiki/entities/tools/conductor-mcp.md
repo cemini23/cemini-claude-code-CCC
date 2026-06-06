@@ -33,6 +33,7 @@ related:
   - entities/tools/skillnet.md
   - concepts/remote-hermes-access-pattern.md
   - entities/tools/agyn.md
+  - concepts/mcp-server-runtime-fault-taxonomy.md
   - concepts/slm-agent-orchestration-gateway.md
   - sources/arxiv-slm-orchestration-gateway-2606.03557.md
   - concepts/agent-five-gate-org-chart.md
@@ -42,7 +43,7 @@ related:
   - concepts/etclovg-harness-layers.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-05
+updated: 2026-06-06
 ---
 
 ## Relations

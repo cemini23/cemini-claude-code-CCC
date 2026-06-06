@@ -33,10 +33,12 @@ related:
   - concepts/seclaw-agent-security-evaluation.md
   - sources/trading-posts-compilation-18-2026-06-04.md
   - concepts/agent-skills-progressive-disclosure.md
+  - concepts/mcp-server-runtime-fault-taxonomy.md
+  - sources/arxiv-mcp-runtime-fault-taxonomy-2606.05339.md
   - concepts/cross-wiki-tool-adoption-routing.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-05
+updated: 2026-06-06
 ---
 
 ## Relations

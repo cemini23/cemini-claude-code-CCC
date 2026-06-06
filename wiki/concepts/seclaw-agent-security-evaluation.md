@@ -18,9 +18,11 @@ related:
   - concepts/cross-wiki-tool-adoption-routing.md
   - concepts/failed-trajectory-harness-repair.md
   - concepts/etclovg-harness-layers.md
+  - concepts/mcp-server-runtime-fault-taxonomy.md
+  - sources/arxiv-mcp-runtime-fault-taxonomy-2606.05339.md
 maturity: draft
 created: 2026-06-04
-updated: 2026-06-05
+updated: 2026-06-06
 cross-wiki-source: "@osint-wiki/concepts/seclaw-agent-security-evaluation.md"
 ---
 
@@ -58,6 +60,7 @@ arXiv 2606.02302 (K98 inbox): **spec-driven security task synthesis** + docker t
 | Verdict | **NO-GO (install)** — **REFERENCE (methodology)** until LICENSE + runnable code ship |
 | vs defenseclaw | SeClaw = benchmark; defenseclaw = runtime gate — complementary |
 | vs HarnessFix (2606.06324) | SeClaw scores **security** trajectories; HarnessFix repairs **reliability** harness flaws — both reject final-answer-only eval |
+| vs MCP fault taxonomy (2606.05339) | Taxonomy's **Security** category (54 threads) + 27 subcategories define fault-injection fixtures; SeClaw scores agent trajectories against injected faults — complementary test design |
 
 **Do not** conflate with EMS/trading RBAC audits (OSINT `@concepts/ems-execution-security-gaps.md` scope).
 
