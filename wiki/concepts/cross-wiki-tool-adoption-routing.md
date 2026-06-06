@@ -19,9 +19,12 @@ related:
   - entities/tools/agents-best-practices.md
   - entities/tools/scienceaix-agentskills.md
   - "@cybersecurity-wiki/entities/tools/defenseclaw.md"
+  - entities/tools/typst.md
+  - entities/tools/flowforge-skill.md
+  - sources/multi-wiki-tool-eval-50url-k102-2026-06-06.md
 maturity: draft
 created: 2026-06-04
-updated: 2026-06-04
+updated: 2026-06-06
 ---
 
 ## Relations
@@ -74,6 +77,14 @@ Full trial run 2026-06-04 (`/tmp/ccc-trials-full-20260604/`) for nine Phase-0 ba
 **Domain wikis (gambling, seo, 3d-printing, image-gen) — defer**
 
 - Skill_Seekers export pipeline when a domain wiki wants `.claude/skills/` from its `wiki/` tree.
+
+### K102 additions (2026-06-06)
+
+| Tool | Primary wiki | Action |
+|------|--------------|--------|
+| typst | **ccc-wiki** | Laptop `brew install typst`; optional brief PDF |
+| flowforge-skill | **ccc-wiki** | Steal MIT skill prompts; `COPY_FLOWFORGE=1` in `scripts/adopt_k102_phase0.sh` |
+| revfactory/harness | **ccc-wiki** | Already adopted 2026-06-04 — K102 confirms CONDITIONAL-GO |
 
 ### SkillNet vs lazy-tool (trial finding)
 

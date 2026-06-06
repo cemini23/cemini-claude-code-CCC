@@ -5,9 +5,10 @@ tags: []
 keywords: []
 related:
   - entities/mcp-servers/anthropic-skills.md
+  - entities/tools/flowforge-skill.md
 maturity: draft
 created: 2026-05-14
-updated: 2026-05-15
+updated: 2026-06-06
 cross-wiki-source: "@osint-wiki/entities/tools/visual-explainer.md"
 ---
 
@@ -16,6 +17,7 @@ cross-wiki-source: "@osint-wiki/entities/tools/visual-explainer.md"
 ## Relations
 
 - @entities/mcp-servers/anthropic-skills.md — Claude Code skill installed via the marketplace surface; example of the SKILL.md spec
+- @entities/tools/flowforge-skill.md — draw.io XML skill peer (K102)
 - @osint-wiki/entities/tools/visual-explainer.md  (cross-wiki source)
 
 ## Raw Concept

@@ -4,6 +4,12 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-06-06] briefs | K102 ingest + backlog processed markers
+
+- **K102** (`briefs/2026-06-06_k102-…`) — wiki: `typst`, `flowforge-skill`, K102 source stub; `scripts/adopt_k102_phase0.sh` (harness plugin PASS; typst not installed)
+- **Processed markers** — 9 briefs tagged (k94, k95, k97, k98, inkh/automem handoffs, phase0 trials/scope/trial-plan)
+- **Handoffs confirmed** — automem + inkh already in `OSINT WORKSPACE/briefs/`; cybersecurity handoff already in cybersec wiki
+
 ## [2026-06-06] phase-0 | SkillAdaptor + MCP fault taxonomy
 
 - **SkillAdaptor** (`zjunlp/SkillAdaptor`): MIT, 6★, README stub only → **NO-GO install**, **REFERENCE** methodology

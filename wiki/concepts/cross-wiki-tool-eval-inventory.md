@@ -74,9 +74,12 @@ related:
   - sources/multi-wiki-tool-eval-v5-k93-2026-06-01.md
   - concepts/mcp-server-catalog-curation.md
   - concepts/cross-wiki-tool-adoption-routing.md
+  - sources/multi-wiki-tool-eval-50url-k102-2026-06-06.md
+  - entities/tools/typst.md
+  - entities/tools/flowforge-skill.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-06-04
+updated: 2026-06-06
 ---
 
 ## Relations
@@ -422,3 +425,15 @@ OSINT-wiki runs a multi-wiki tool evaluation → CCC-relevant items (Claude Code
 | Posts-31 provenance | **Stub** → `@sources/trading-posts-compilation-31-2026-06-01.md` |
 | arXiv 2605.30621 | **Stub** → `@sources/arxiv-harness-updating-not-benefit-2605.30621.md` |
 | Monokern source | **Stub** → `@sources/monokern-research-pipeline-claude-notebooklm-obsidian-2026-06-01.md` |
+
+#### From K102 (2026-06-06) — 50-URL eval (CCC harness slice)
+
+| Item | CCC disposition |
+|------|-----------------|
+| revfactory/harness | **Update** → `@entities/tools/revfactory-harness.md` (CONDITIONAL-GO; K102 confirms) |
+| typst/typst | **Page** → `@entities/tools/typst.md` (CONDITIONAL-GO laptop PDF) |
+| flowforge-skill | **Page** → `@entities/tools/flowforge-skill.md` (CONDITIONAL-GO steal-from) |
+| multiagent-coaching | **Steal-from** — 0–10 process-reward rubric (no page) |
+| gate12 / crocoddyl | **Reject** — GPL/domain mismatch |
+| K102 eval provenance | **Stub** → `@sources/multi-wiki-tool-eval-50url-k102-2026-06-06.md` |
+| Laptop adopt script | **Script** → `scripts/adopt_k102_phase0.sh` |

@@ -49,7 +49,9 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`obsidian-second-brain-eugeniughelbur`](entities/tools/obsidian-second-brain-eugeniughelbur.md) | draft | Obsidian vault cron agents — CONDITIONAL-GO laptop-only (K92) |
 | [`claude-trading-skills`](entities/tools/claude-trading-skills.md) | draft | Trading skill pack — CONDITIONAL-GO Phase-0 pending (K92) |
 | [`slot-casino-game-developer-skills`](entities/tools/slot-casino-game-developer-skills.md) | draft | iGaming slot skills — NO-GO prod (K92 catalog) |
-| [`revfactory-harness`](entities/tools/revfactory-harness.md) | draft | Dynamic agent-team meta-skill — CONDITIONAL-GO (K93) |
+| [`revfactory-harness`](entities/tools/revfactory-harness.md) | draft | Dynamic agent-team meta-skill — CONDITIONAL-GO (K93/K102) |
+| [`typst`](entities/tools/typst.md) | draft | PDF compiler for brief exports — CONDITIONAL-GO (K102) |
+| [`flowforge-skill`](entities/tools/flowforge-skill.md) | draft | draw.io diagram skill — CONDITIONAL-GO steal-from (K102) |
 | [`agents-best-practices`](entities/tools/agents-best-practices.md) | draft | DenisSergeevitch patterns — cherry-pick Adopt (K93) |
 | [`agyn`](entities/tools/agyn.md) | draft | Agent ops platform — REFERENCE (2605.27575) |
 | [`tool-forge`](entities/tools/tool-forge.md) | draft | Validation-carrying toolchain — CONDITIONAL-GO (2605.28000, Apache-2.0) |
@@ -292,6 +294,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-slm-orchestration-gateway-2606.03557`](sources/arxiv-slm-orchestration-gateway-2606.03557.md) | draft | SLM orchestration gateway — K95 |
 | [`arxiv-skilladaptor-2606.01311`](sources/arxiv-skilladaptor-2606.01311.md) | draft | SkillAdaptor step-level skill adaptation — 2606.01311 (read) |
 | [`arxiv-mcp-runtime-fault-taxonomy-2606.05339`](sources/arxiv-mcp-runtime-fault-taxonomy-2606.05339.md) | draft | MCP server runtime fault taxonomy — 2606.05339 (read) |
+| [`multi-wiki-tool-eval-50url-k102-2026-06-06`](sources/multi-wiki-tool-eval-50url-k102-2026-06-06.md) | draft | K102 50-URL eval — CCC harness slice |
 
 ## meta/
 
