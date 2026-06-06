@@ -62,9 +62,9 @@ Map subagent severities to parent action:
 
 ## Integration with static brief audit
 
-For files under OSINT `briefs/`:
+For files under `briefs/`:
 
 1. Run cursor audit (multi-model, qualitative)
-2. Run `python3 scripts/skill_audit.py briefs/<file>.md` in OSINT WORKSPACE (mechanical veto gates)
+2. Run `vet briefs/<file>.md --profile brief` (mechanical veto gates)
 
 Static REJECT overrides multi-model SHIP.

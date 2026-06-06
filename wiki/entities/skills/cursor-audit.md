@@ -14,8 +14,8 @@ related:
   - concepts/agent-rubrics-self-correction.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-06-05
-cross-wiki-source: "OSINT WORKSPACE .cursor/skills/cursor-audit/ (mirrored 2026-06-05)"
+updated: 2026-06-06
+cross-wiki-source: "OSINT WORKSPACE .cursor/skills/cursor-audit/ (mirrored 2026-06-05); public distro agent-toolkit-demo/skills/cursor-audit/ (2026-06-06)"
 ---
 
 ## Relations
@@ -50,14 +50,26 @@ Origin story [CONFIRMED]: OSINT workspace session 2026-06-05; codex + opus indep
 
 ### Install path
 
-| Workspace | Path |
-|-----------|------|
-| OSINT WORKSPACE | `.cursor/skills/cursor-audit/` |
-| CCC (this repo) | `.cursor/skills/cursor-audit/` |
+| Source | Path | Audience |
+|--------|------|----------|
+| [agent-toolkit-demo](https://github.com/cemini23/agent-toolkit-demo/tree/main/skills/cursor-audit) | `skills/cursor-audit/` | **Public** — canonical open-source distro; vet CI |
+| CCC (this repo) | `.cursor/skills/cursor-audit/` | Federation mirror |
+| OSINT WORKSPACE | `.cursor/skills/cursor-audit/` | Private federation mirror |
 
-Files: `SKILL.md`, `reference.md` (model matrix), `examples.md`.
+```bash
+# Public install (recommended)
+git clone https://github.com/cemini23/agent-toolkit-demo.git
+cp -r agent-toolkit-demo/skills/cursor-audit ~/.cursor/skills/
+
+# Or from this repo
+cp -r .cursor/skills/cursor-audit ~/.cursor/skills/
+```
+
+Files: `SKILL.md`, `reference.md` (model matrix), `examples.md`, `README.md` (public distro only).
 
 `disable-model-invocation: true` — loads only when user names `/cursor-audit`, `cursor audit`, `council audit`, or `multi-model audit`.
+
+**Validate:** `vet skills/cursor-audit/SKILL.md --profile skillmd --strict` ([vet](https://github.com/cemini23/vet)).
 
 ### Audit modes
 
@@ -84,7 +96,7 @@ Full slug table: skill `reference.md`.
 |--------|------|
 | Stuck after 2+ fix attempts | Yes |
 | Risky diff (auth, money, prod config) pre-merge | Yes |
-| Brief with engineering-days + cost commitments | Yes (+ OSINT `scripts/skill_audit.py` static pass for briefs) |
+| Brief with engineering-days + cost commitments | Yes (+ [vet](https://github.com/cemini23/vet) `--profile brief`; OSINT also has `scripts/skill_audit.py`) |
 | One-line typo | No |
 
 Cost ≈ **3× subagent** — use `quick-triage` when time-sensitive.
@@ -95,7 +107,7 @@ Cost ≈ **3× subagent** — use `quick-triage` when time-sensitive.
 |---------|-------|
 | **cursor-audit** | Targeted debug/review; multi-model qualitative |
 | **tech-debt-audit** | Whole-repo TECH_DEBT_AUDIT.md; single-model skill |
-| **skill_audit.py** (OSINT) | Static brief veto gates; not multi-model |
+| **vet** / **skill_audit.py** (OSINT) | Static brief veto gates; not multi-model |
 | **code-reviewer** subagent | Single second opinion; same model family unless Task `model` set |
 | **council-of-high-intelligence** | External multi-model harness; heavier than cursor-audit |
 
@@ -114,7 +126,7 @@ name: cursor-audit
 description: Multi-model Cursor audit — three parallel readonly subagents…
 license: MIT
 metadata.author: cemini23
-metadata.version: "1.0.0"
+metadata.version: "1.0.1"
 disable-model-invocation: true
 ---
 ```

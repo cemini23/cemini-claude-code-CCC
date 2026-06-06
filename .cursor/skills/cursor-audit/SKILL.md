@@ -8,7 +8,7 @@ description: >-
   wants independent model reviews before fixing or shipping.
 license: MIT
 metadata.author: cemini23
-metadata.version: "1.0.0"
+metadata.version: "1.0.1"
 disable-model-invocation: true
 ---
 
@@ -124,7 +124,7 @@ Mode-specific extra lens (append one line to Role):
 - `code-debug` — trace execution paths; check edge cases and error handling
 - `security` — assume attacker model; hunt trust-boundary violations
 - `config-infra` — validate wiring, defaults, and failure modes at startup
-- `brief-plan` — pressure-test cost, timeline, and "Cemini already has this" displacement
+- `brief-plan` — pressure-test cost, timeline, and displacement vs existing tooling
 - `architecture` — coupling, duplication, wrong abstraction level
 - `quick-triage` — top 3 issues only; skip deep dives
 
@@ -183,7 +183,7 @@ Merge the three reports using this template:
 
 - Default: report only. User decides whether to fix.
 - If user says "fix it": parent implements; offer **re-audit** after substantive changes.
-- For OSINT briefs: cross-check with `@osint-wiki/scripts/skill_audit.py` static pass — cursor audit is complementary, not a replacement.
+- For briefs: cross-check with [vet](https://github.com/cemini23/vet) (`vet briefs/<file>.md --profile brief`) — cursor audit is complementary, not a replacement.
 
 ## Invocation phrases
 
@@ -210,8 +210,9 @@ Optional args in the same message:
 
 - `@entities/patterns/glasswing-deliberate-disagreement.md` — disagreement gating
 - `@concepts/subagent-orchestration.md` — parallel Task dispatch
-- `@entities/skills/cursor-audit.md` — CCC wiki canonical page
-- `@osint-wiki/scripts/skill_audit.py` — static brief veto gates (OSINT workspace)
+- `@entities/skills/cursor-audit.md` — wiki canonical page
+- [agent-toolkit-demo/skills/cursor-audit](https://github.com/cemini23/agent-toolkit-demo/tree/main/skills/cursor-audit) — public open-source distro
+- [vet](https://github.com/cemini23/vet) — static skill/brief veto gates
 
 ## Additional resources
 

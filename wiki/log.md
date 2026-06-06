@@ -654,6 +654,15 @@ Mirrored from OSINT WORKSPACE `.cursor/skills/cursor-audit/` (origin: codex + op
 - Created `wiki/entities/skills/cursor-audit.md`
 - Backlinks: `@concepts/subagent-orchestration.md`, `@entities/patterns/glasswing-deliberate-disagreement.md`, `@entities/tools/council-of-high-intelligence.md`, `@entities/skills/tech-debt-audit.md`
 
+## [2026-06-06] skill | cursor-audit — open-source distro in agent-toolkit-demo
+
+Public ship of multi-model Cursor audit skill (v1.0.1).
+- Added `skills/cursor-audit/` to [agent-toolkit-demo](https://github.com/cemini23/agent-toolkit-demo) (SKILL.md + reference.md + examples.md + README.md)
+- CI: `vet-cursor-audit` job in agent-toolkit-demo workflow
+- Scrubbed OSINT-private refs → [vet](https://github.com/cemini23/vet) for static brief gates
+- Updated `wiki/entities/skills/cursor-audit.md` install path; CCC + OSINT mirrors bumped to 1.0.1
+- Toolkit README links: agent-toolkit-demo, CCC, vet
+
 ## [2026-06-06] cross-wiki route | ADK Arena — agent framework benchmark (OSINT handoff)
 
 Cross-wiki stub routed from `@osint-wiki/sources/arxiv-adk-arena-agent-dev-kits-2606.05548-2026-06-06.md`.
