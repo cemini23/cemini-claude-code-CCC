@@ -17,9 +17,12 @@ related:
   - concepts/adaptive-auto-harness-open-ended-streams.md
   - sweeps/2026-06-03-daily.md
   - concepts/interaction-native-knowledge-harness.md
+  - entities/tools/deep-scientist.md
+  - entities/tools/autoresearch-claw.md
+  - sources/multi-wiki-tool-eval-v8-k103-2026-06-07.md
 maturity: core
 created: 2026-06-01
-updated: 2026-06-04
+updated: 2026-06-07
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 

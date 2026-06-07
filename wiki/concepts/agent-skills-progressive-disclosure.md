@@ -16,9 +16,11 @@ related:
   - concepts/agentic-memory-cross-scenario-generality.md
   - concepts/skilladaptor-step-level-skill-adaptation.md
   - sources/arxiv-skilladaptor-2606.01311.md
+  - entities/tools/agent-skill-manager.md
+  - sources/multi-wiki-tool-eval-v8-k103-2026-06-07.md
 maturity: draft
 created: 2026-06-04
-updated: 2026-06-06
+updated: 2026-06-07
 ---
 
 ## Relations

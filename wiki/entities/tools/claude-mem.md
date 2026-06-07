@@ -31,6 +31,7 @@ related:
   - sources/arxiv-worldmemarena-agent-memory-2605.29341.md
   - concepts/interaction-native-knowledge-harness.md
   - concepts/agentic-memory-cross-scenario-generality.md
+  - concepts/long-thread-context-decay.md
 maturity: validated
 created: 2026-05-13
 updated: 2026-06-07

@@ -71,9 +71,13 @@ related:
   - sources/arxiv-skilladaptor-2606.01311.md
   - concepts/mcp-server-runtime-fault-taxonomy.md
   - sources/arxiv-mcp-runtime-fault-taxonomy-2606.05339.md
+  - entities/tools/agent-skill-manager.md
+  - entities/tools/application-skills.md
+  - sources/multi-wiki-tool-eval-v8-k103-2026-06-07.md
+  - entities/tools/pydantic-ai.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-06-06
+updated: 2026-06-07
 ---
 
 ## Relations

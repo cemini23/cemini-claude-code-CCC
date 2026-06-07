@@ -10,10 +10,11 @@ related:
   - concepts/cross-wiki-tool-eval-inventory.md
   - concepts/cross-wiki-tool-adoption-routing.md
   - "@osint-wiki/sources/multi-wiki-tool-eval-50url-k102-2026-06-06.md"
+  - sources/multi-wiki-tool-eval-v8-k103-2026-06-07.md
 maturity: draft
 read_status: skimmed
 created: 2026-06-06
-updated: 2026-06-06
+updated: 2026-06-07
 ---
 
 ## Relations

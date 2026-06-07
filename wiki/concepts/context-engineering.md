@@ -40,9 +40,12 @@ related:
   - concepts/claude-code-cheat-sheet-shortcuts.md
   - concepts/interaction-native-knowledge-harness.md
   - sources/arxiv-interaction-native-knowledge-harness-2606.01886.md
+  - concepts/long-thread-context-decay.md
+  - concepts/agent-backpressure-loop.md
+  - sources/trading-posts-compilation-19-2026-06-07.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-04
+updated: 2026-06-07
 ---
 
 ## Relations

@@ -16,9 +16,11 @@ related:
   - concepts/tool-eval-license-skepticism-patterns.md
   - concepts/deep-research-evaluation-prompt.md
   - entities/tools/slot-casino-game-developer-skills.md
+  - entities/tools/application-skills.md
+  - sources/multi-wiki-tool-eval-v8-k103-2026-06-07.md
 maturity: draft
 created: 2026-05-22
-updated: 2026-06-01
+updated: 2026-06-07
 cross-wiki-source: "@osint-wiki/sources/trading-posts-oil-polymarket-html-dex-sniping-2026-05-21.md"
 ---
 
@@ -92,6 +94,12 @@ Eval claimed MIT; **`gh api` verification** returned no LICENSE file — permane
 | Repo | Why not install |
 |------|-----------------|
 | `multica-ai/andrej-karpathy-skills` | Eval Adopt → **`license: null`** — reference markdown only → `@entities/tools/andrej-karpathy-skills-multica.md` |
+
+### K103 license overturn + lock-in (2026-06-07)
+
+| Repo | Why not install |
+|------|-----------------|
+| `membranedev/application-skills` | Eval Adopt overturned — **`license: null`** + Membrane platform lock-in → `@entities/tools/application-skills.md` |
 
 ### Process
 

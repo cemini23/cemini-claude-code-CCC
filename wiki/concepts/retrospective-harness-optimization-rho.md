@@ -18,6 +18,7 @@ related:
   - entities/tools/claude-mem.md
   - entities/patterns/glasswing-deliberate-disagreement.md
   - concepts/etclovg-harness-layers.md
+  - concepts/rl-agent-labs-system-prompt-learning.md
 maturity: draft
 created: 2026-06-07
 updated: 2026-06-07

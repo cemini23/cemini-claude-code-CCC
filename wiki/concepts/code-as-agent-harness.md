@@ -50,6 +50,7 @@ related:
   - concepts/cli-anything-agent-native-computer-use.md
   - entities/tools/life-harness.md
   - sources/trading-posts-compilation-18-2026-06-04.md
+  - entities/tools/pydantic-ai.md
 maturity: draft
 created: 2026-05-21
 updated: 2026-06-07

@@ -12,9 +12,11 @@ related:
   - entities/tools/repomix.md
   - entities/tools/ttok.md
   - sources/trading-posts-compilation-20-2026-05-27.md
+  - concepts/agent-backpressure-loop.md
+  - sources/trading-posts-compilation-19-2026-06-07.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-05-27
+updated: 2026-06-07
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-20-2026-05-27.md"
 ---
 

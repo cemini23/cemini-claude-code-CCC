@@ -10,9 +10,11 @@ related:
   - entities/mcp-servers/librarian-kb-server.md
   - entities/tools/anything-llm.md
   - sources/trading-posts-compilation-20-2026-05-27.md
+  - concepts/rl-agent-labs-system-prompt-learning.md
+  - sources/trading-posts-compilation-19-2026-06-07.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-05-27
+updated: 2026-06-07
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-20-2026-05-27.md"
 ---
 

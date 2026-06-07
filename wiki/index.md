@@ -59,6 +59,11 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`life-harness`](entities/tools/life-harness.md) | draft | LIFE-HARNESS runtime interface adaptation — CONDITIONAL-GO (2605.22166, K95) |
 | [`adaptive-auto-harness`](entities/tools/adaptive-auto-harness.md) | draft | A-EVO-Lab stream harness tree — REFERENCE (2606.01770, K95) |
 | [`retro-harness`](entities/tools/retro-harness.md) | draft | RHO reference implementation — CONDITIONAL-GO (2606.05922) |
+| [`agent-skill-manager`](entities/tools/agent-skill-manager.md) | draft | asm skill registry CLI — CONDITIONAL-GO (K103) |
+| [`pydantic-ai`](entities/tools/pydantic-ai.md) | draft | Typed Python agent framework — GO; reject AGPL gateway (K103) |
+| [`deep-scientist`](entities/tools/deep-scientist.md) | draft | ResearAI hypothesis-loop — steal-from (K103) |
+| [`autoresearch-claw`](entities/tools/autoresearch-claw.md) | draft | Research claw scheduling — steal-from (K103) |
+| [`application-skills`](entities/tools/application-skills.md) | draft | Membrane application-skills — NO-GO (K103) |
 
 ## entities/mcp-servers/
 
@@ -225,6 +230,9 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`skilladaptor-step-level-skill-adaptation`](concepts/skilladaptor-step-level-skill-adaptation.md) | draft | Step-level skill adaptation from failed trajectories — 2606.01311 |
 | [`mcp-server-runtime-fault-taxonomy`](concepts/mcp-server-runtime-fault-taxonomy.md) | draft | MCP server runtime fault taxonomy — 11 categories, 837 threads — 2606.05339 |
 | [`retrospective-harness-optimization-rho`](concepts/retrospective-harness-optimization-rho.md) | draft | RHO — label-free harness evolution via self-preference — 2606.05922 |
+| [`agent-backpressure-loop`](concepts/agent-backpressure-loop.md) | draft | Backpressure flow control for coding agents — @bibryam K103 |
+| [`rl-agent-labs-system-prompt-learning`](concepts/rl-agent-labs-system-prompt-learning.md) | draft | RL agent labs 2026 — system-prompt as trainable artifact — K103 |
+| [`long-thread-context-decay`](concepts/long-thread-context-decay.md) | draft | Long-thread quality degradation mitigations — @hooeem K103 |
 | [`autosci-memory-centric-research-agents`](concepts/autosci-memory-centric-research-agents.md) | draft | AutoSci SciMem research lifecycle — 2605.31468 |
 | [`maven-agentic-tool-calling-generalization`](concepts/maven-agentic-tool-calling-generalization.md) | draft | MAVEN tool-calling generalization — 2605.30738 |
 | [`failed-trajectory-harness-repair`](concepts/failed-trajectory-harness-repair.md) | validated | HarnessFix — diagnosis-first harness repair (2606.06324) |
@@ -298,6 +306,8 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-mcp-runtime-fault-taxonomy-2606.05339`](sources/arxiv-mcp-runtime-fault-taxonomy-2606.05339.md) | draft | MCP server runtime fault taxonomy — 2606.05339 (read) |
 | [`multi-wiki-tool-eval-50url-k102-2026-06-06`](sources/multi-wiki-tool-eval-50url-k102-2026-06-06.md) | draft | K102 50-URL eval — CCC harness slice |
 | [`arxiv-retrospective-harness-optimization-2606.05922`](sources/arxiv-retrospective-harness-optimization-2606.05922.md) | draft | RHO retrospective harness optimization — 2606.05922 (read) |
+| [`multi-wiki-tool-eval-v8-k103-2026-06-07`](sources/multi-wiki-tool-eval-v8-k103-2026-06-07.md) | draft | K103 63-URL eval — CCC harness slice (OSINT canon) |
+| [`trading-posts-compilation-19-2026-06-07`](sources/trading-posts-compilation-19-2026-06-07.md) | draft | K103 Posts.docx harness cluster — provenance stub |
 
 ## meta/
 

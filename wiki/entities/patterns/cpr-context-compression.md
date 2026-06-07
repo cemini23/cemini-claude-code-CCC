@@ -11,9 +11,10 @@ related:
   - entities/mcp-servers/stash.md
   - entities/patterns/scatter-gather.md
   - entities/tools/everos.md
+  - concepts/long-thread-context-decay.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-05-17
+updated: 2026-06-07
 cross-wiki-source: "@osint-wiki/concepts/context-compression-resume-pattern.md"
 ---
 

@@ -14,10 +14,11 @@ related:
   - sources/trading-posts-compilation-25-2026-05-27.md
   - entities/people/damidefi.md
   - sources/trading-posts-compilation-6-2026-05-29.md
+  - concepts/rl-agent-labs-system-prompt-learning.md
 maturity: draft
 read_status: skimmed
 created: 2026-05-27
-updated: 2026-05-30
+updated: 2026-06-07
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-20-2026-05-27.md"
 ---
 

@@ -26,9 +26,10 @@ related:
   - concepts/karpathy-token-efficiency-patterns.md
   - concepts/deepseek-coding-cost-routing.md
   - concepts/agentic-memory-cross-scenario-generality.md
+  - concepts/long-thread-context-decay.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-05
+updated: 2026-06-07
 ---
 
 ## Relations

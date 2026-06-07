@@ -20,6 +20,7 @@ related:
   - sources/arxiv-skilladaptor-2606.01311.md
   - concepts/retrospective-harness-optimization-rho.md
   - sources/arxiv-retrospective-harness-optimization-2606.05922.md
+  - concepts/rl-agent-labs-system-prompt-learning.md
 maturity: draft
 created: 2026-05-27
 updated: 2026-06-07

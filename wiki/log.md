@@ -4,6 +4,18 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-06-07] brief ingest | K103 agent-harness cluster from OSINT
+
+Ingested `briefs/2026-06-07_k103-ccc-agent-harness-from-osint.md` — K103 63-URL eval CCC slice + Posts harness cluster (sha `6ebbacb8…` eval, `78fad654…` posts).
+
+**Pages created (11):** `agent-skill-manager` (expanded), `pydantic-ai`, `deep-scientist`, `autoresearch-claw`, `application-skills` (NO-GO), `agent-backpressure-loop`, `rl-agent-labs-system-prompt-learning`, `long-thread-context-decay`, `sources/multi-wiki-tool-eval-v8-k103-2026-06-07`, `sources/trading-posts-compilation-19-2026-06-07`, `scripts/adopt_k103_phase0.sh`.
+
+**Pages updated (10):** `cross-wiki-tool-eval-inventory`, `skill-vetting`, `context-engineering`, `subagent-orchestration`, `federated-daily-research-digest`, `claude-code-large-codebase-workflow`, `rag-binary-quantization`, `full-stack-ai-engineer-agent-path`, `agent-skills-progressive-disclosure`, `tools-we-dont-use`, `index.md`.
+
+**Phase-0:** pydantic-ai **GO**; asm **CONDITIONAL-GO**; application-skills **NO-GO** (null license + Membrane lock-in).
+
+**Cross-wiki:** `@osint-wiki/sources/multi-wiki-tool-eval-v8-k103-2026-06-07.md`, `@osint-wiki/sources/trading-posts-compilation-19-2026-06-07.md` (canon).
+
 ## [2026-06-07] ingest | RHO — Retrospective Harness Optimization (2606.05922)
 
 - **Preingest:** 1 NEW (`arxiv-2606.05922`)

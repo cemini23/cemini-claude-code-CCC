@@ -57,6 +57,8 @@ related:
   - concepts/harness-updating-vs-benefit-nonmonotonic.md
   - entities/tools/revfactory-harness.md
   - concepts/decoupled-intelligence-multi-agent-reference.md
+  - concepts/agent-backpressure-loop.md
+  - sources/trading-posts-compilation-19-2026-06-07.md
   - concepts/maven-agentic-tool-calling-generalization.md
   - concepts/failed-trajectory-harness-repair.md
   - concepts/etclovg-harness-layers.md
@@ -67,9 +69,10 @@ related:
   - entities/people/damidefi.md
   - concepts/agent-five-gate-org-chart.md
   - sources/trading-posts-compilation-18-2026-06-04.md
+  - concepts/long-thread-context-decay.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-05
+updated: 2026-06-07
 ---
 
 ## Relations

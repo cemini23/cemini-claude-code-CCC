@@ -77,9 +77,18 @@ related:
   - sources/multi-wiki-tool-eval-50url-k102-2026-06-06.md
   - entities/tools/typst.md
   - entities/tools/flowforge-skill.md
+  - sources/multi-wiki-tool-eval-v8-k103-2026-06-07.md
+  - entities/tools/agent-skill-manager.md
+  - entities/tools/pydantic-ai.md
+  - entities/tools/deep-scientist.md
+  - entities/tools/autoresearch-claw.md
+  - entities/tools/application-skills.md
+  - concepts/agent-backpressure-loop.md
+  - concepts/rl-agent-labs-system-prompt-learning.md
+  - concepts/long-thread-context-decay.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-06-06
+updated: 2026-06-07
 ---
 
 ## Relations
@@ -437,3 +446,19 @@ OSINT-wiki runs a multi-wiki tool evaluation → CCC-relevant items (Claude Code
 | gate12 / crocoddyl | **Reject** — GPL/domain mismatch |
 | K102 eval provenance | **Stub** → `@sources/multi-wiki-tool-eval-50url-k102-2026-06-06.md` |
 | Laptop adopt script | **Script** → `scripts/adopt_k102_phase0.sh` |
+
+#### From K103 (2026-06-07) — 63-URL eval + Posts harness cluster
+
+| Item | CCC disposition |
+|------|-----------------|
+| luongnv89/asm | **Page** → `@entities/tools/agent-skill-manager.md` (CONDITIONAL-GO) |
+| pydantic/pydantic-ai | **Page** → `@entities/tools/pydantic-ai.md` (GO; reject AGPL gateway) |
+| ResearAI/DeepScientist | **Page** → `@entities/tools/deep-scientist.md` (steal-from) |
+| aiming-lab/AutoResearchClaw | **Page** → `@entities/tools/autoresearch-claw.md` (steal-from) |
+| membranedev/application-skills | **Page** → `@entities/tools/application-skills.md` (NO-GO) |
+| @bibryam backpressure | **Page** → `@concepts/agent-backpressure-loop.md` |
+| @_avichawla RL labs 2026 | **Page** → `@concepts/rl-agent-labs-system-prompt-learning.md` |
+| @hooeem context decay | **Page** → `@concepts/long-thread-context-decay.md` |
+| K103 eval provenance | **Stub** → `@sources/multi-wiki-tool-eval-v8-k103-2026-06-07.md` |
+| K103 Posts provenance | **Stub** → `@sources/trading-posts-compilation-19-2026-06-07.md` |
+| Laptop adopt script | **Script** → `scripts/adopt_k103_phase0.sh` |
