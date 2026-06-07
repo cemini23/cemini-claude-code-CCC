@@ -43,13 +43,16 @@ related:
   - concepts/runtime-harness-interface-adaptation.md
   - sources/arxiv-runtime-harness-adaptation-2605.22166.md
   - concepts/adaptive-auto-harness-open-ended-streams.md
+  - concepts/retrospective-harness-optimization-rho.md
+  - sources/arxiv-retrospective-harness-optimization-2606.05922.md
+  - entities/tools/retro-harness.md
   - sources/arxiv-adaptive-auto-harness-2606.01770.md
   - concepts/cli-anything-agent-native-computer-use.md
   - entities/tools/life-harness.md
   - sources/trading-posts-compilation-18-2026-06-04.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-06-05
+updated: 2026-06-07
 cross-wiki-source: "@osint-wiki/sources/arxiv-code-as-agent-harness-survey-2605.18747.md"
 ---
 

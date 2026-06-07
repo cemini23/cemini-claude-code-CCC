@@ -14,9 +14,11 @@ related:
   - sources/multi-wiki-tool-eval-50url-k102-2026-06-06.md
   - entities/tools/typst.md
   - entities/tools/flowforge-skill.md
+  - concepts/retrospective-harness-optimization-rho.md
+  - entities/tools/retro-harness.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-06
+updated: 2026-06-07
 ---
 
 ## Relations

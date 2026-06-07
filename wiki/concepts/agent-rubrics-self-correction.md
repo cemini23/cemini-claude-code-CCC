@@ -12,9 +12,11 @@ related:
   - entities/tools/claude-code.md
   - entities/skills/cursor-audit.md
   - sources/trading-posts-compilation-17-2026-06-03.md
+  - concepts/retrospective-harness-optimization-rho.md
+  - sources/arxiv-retrospective-harness-optimization-2606.05922.md
 maturity: draft
 created: 2026-06-03
-updated: 2026-06-05
+updated: 2026-06-07
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-17-2026-06-03.md"
 ---
 
@@ -43,6 +45,8 @@ K97 Post 6 (@sydneyrunkle): **Rubrics** — structured criteria agents use to **
 | Scope | Diff matches `/goal` acceptance bullets only |
 | Provenance | Claims tagged `[CONFIRMED]` / `[TENTATIVE]` / `[NEEDS VERIFICATION]` |
 | Safety | No secrets committed; no `--force` git without explicit ask |
+
+**Peer (2606.05922):** RHO's `rank_val` / `rank_con` are structured self-rubrics over trajectory groups — steal the **accept-only-if-positive** gate (Sj > 0) for harness promotion, not infinite rubric loops.
 | Cost | Subagent used for wide reads; cache-friendly static prompts |
 
 ### Integration points [TENTATIVE]

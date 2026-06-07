@@ -16,9 +16,11 @@ related:
   - sources/arxiv-failed-trajectory-harness-repair-2606.06324-2026-06-05.md
   - concepts/self-healing-agent-sessions.md
   - sources/arxiv-maven-agentic-tool-calling-2605.30738.md
+  - concepts/retrospective-harness-optimization-rho.md
+  - sources/arxiv-retrospective-harness-optimization-2606.05922.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-06-05
+updated: 2026-06-07
 ---
 
 ## Relations

@@ -18,9 +18,11 @@ related:
   - sources/trading-posts-compilation-31-2026-06-01.md
   - concepts/adaptive-auto-harness-open-ended-streams.md
   - sources/arxiv-adaptive-auto-harness-2606.01770.md
+  - concepts/retrospective-harness-optimization-rho.md
+  - sources/arxiv-retrospective-harness-optimization-2606.05922.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-03
+updated: 2026-06-07
 cross-wiki-source: "@osint-wiki/concepts/harness-updating-vs-benefit-nonmonotonic.md"
 ---
 

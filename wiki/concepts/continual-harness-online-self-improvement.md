@@ -18,9 +18,11 @@ related:
   - sources/arxiv-adaptive-auto-harness-2606.01770.md
   - concepts/skilladaptor-step-level-skill-adaptation.md
   - sources/arxiv-skilladaptor-2606.01311.md
+  - concepts/retrospective-harness-optimization-rho.md
+  - sources/arxiv-retrospective-harness-optimization-2606.05922.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-06-06
+updated: 2026-06-07
 cross-wiki-source: "@osint-wiki/concepts/continual-harness-online-self-improvement.md"
 ---
 
@@ -48,6 +50,8 @@ K72 arXiv **2605.09998** — agents improve **prompts, sub-agents, skills, memor
 | Co-learning | **Not deployed** on prod |
 
 | Verdict | **REFERENCE** — pairs with K72 workflow posts on memory/harness |
+
+**Peer (2026-06-07):** `@concepts/retrospective-harness-optimization-rho.md` (2606.05922) — single-round label-free harness update via self-preference; complements continual online refinement without requiring validation sets.
 
 ## Snippets
 

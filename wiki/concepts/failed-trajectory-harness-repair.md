@@ -20,9 +20,12 @@ related:
   - concepts/skilladaptor-step-level-skill-adaptation.md
   - sources/arxiv-skilladaptor-2606.01311.md
   - concepts/agentic-memory-cross-scenario-generality.md
+  - concepts/retrospective-harness-optimization-rho.md
+  - sources/arxiv-retrospective-harness-optimization-2606.05922.md
+  - entities/tools/retro-harness.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-06-06
+updated: 2026-06-07
 ---
 
 ## Relations
@@ -88,6 +91,7 @@ Each `@concepts/etclovg-harness-layers.md` row maps to **typical flaws** and **c
 | SeClaw | Security trajectory eval; HarnessFix targets reliability harness flaws |
 | Outcome-only prompt tuning | No step-level attribution |
 | `@concepts/skilladaptor-step-level-skill-adaptation.md` (2606.01311) | Same step-level attribution idea; edits **skill cards** in K, not harness code/prompts |
+| `@concepts/retrospective-harness-optimization-rho.md` (2606.05922) | Label-free self-preference over rollouts; full harness Skills+Tools; accept iff Sj > 0 |
 
 ### Adoption posture
 

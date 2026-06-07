@@ -22,9 +22,11 @@ related:
   - sources/arxiv-mcp-runtime-fault-taxonomy-2606.05339.md
   - concepts/skilladaptor-step-level-skill-adaptation.md
   - sources/arxiv-skilladaptor-2606.01311.md
+  - concepts/retrospective-harness-optimization-rho.md
+  - sources/arxiv-retrospective-harness-optimization-2606.05922.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-06-06
+updated: 2026-06-07
 cross-wiki-source: "@osint-wiki/sources/arxiv-self-healing-llm-agents-2605.06737.md"
 ---
 
@@ -98,6 +100,10 @@ When `@entities/tools/conductor-mcp.md` fails, treat as **Tool Interface / Lifec
 | `@concepts/failed-trajectory-harness-repair.md` | **Cross-session** harness code mutation from failed traces |
 
 When the same failure class repeats across sessions, escalate from self-healing to flaw-record + harness edit (OpenSpec, skill re-vet), not more retries.
+
+### Cross-session harness evolution (2606.05922)
+
+`@concepts/retrospective-harness-optimization-rho.md` — **RHO** batches past trajectories into a coreset, re-rollouts with self-validation/consistency signals, and promotes harness edits only when pairwise self-preference beats baseline (Sj > 0). Complements in-session retry budget on this page.
 
 ### MCP fault taxonomy overlay (2606.05339)
 

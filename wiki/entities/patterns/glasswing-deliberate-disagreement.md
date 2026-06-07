@@ -13,9 +13,10 @@ related:
   - concepts/graphflow-verifiable-agent-workflows.md
   - entities/tools/council-of-high-intelligence.md
   - entities/skills/cursor-audit.md
+  - concepts/retrospective-harness-optimization-rho.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-06-05
+updated: 2026-06-07
 cross-wiki-source: "@osint-wiki/sources/analyzing-github-projects-agentic-infra-2026-05-21.md"
 ---
 

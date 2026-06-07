@@ -17,6 +17,7 @@ related:
   - entities/mcp-servers/stash.md
   - concepts/code-as-agent-harness.md
   - concepts/self-healing-agent-sessions.md
+  - concepts/retrospective-harness-optimization-rho.md
   - entities/tools/anything-llm.md
   - concepts/obsidian-agent-maintenance-workflow.md
   - concepts/agent-token-discipline-openclaw-hermes.md
@@ -32,7 +33,7 @@ related:
   - concepts/agentic-memory-cross-scenario-generality.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-05
+updated: 2026-06-07
 ---
 
 ## Relations

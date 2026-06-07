@@ -13,9 +13,11 @@ related:
   - concepts/thin-harness-fat-skills-garrytan.md
   - concepts/self-healing-agent-sessions.md
   - entities/mcp-servers/anthropic-skills.md
+  - concepts/retrospective-harness-optimization-rho.md
+  - sources/arxiv-retrospective-harness-optimization-2606.05922.md
 maturity: draft
 created: 2026-06-06
-updated: 2026-06-06
+updated: 2026-06-07
 ---
 
 ## Relations
@@ -75,7 +77,9 @@ failed (q, τ, r=false)
 | Skill injection | Progressive disclosure Level-1/2 | No embedding rerank over skill bank |
 | OpenClaw plug-in | `~/.claude/skills/` + hooks | No post-session skill auto-edit |
 
-**Verdict:** **REFERENCE** — steal **step-level attribution before skill edit** and **qualifier gate before promotion** patterns. Pairs with MUSE unit-test gate and HarnessFix flaw-record discipline.
+**Verdict:** **REFERENCE** — steal **step-level attribution before skill edit** and **qualifier gate before promotion** patterns. Pairs with MUSE unit-test gate, HarnessFix flaw-record discipline, and RHO's accept-only-if-positive harness gate (skill-span vs full-harness scope).
+
+**Peer (2606.05922):** `@concepts/retrospective-harness-optimization-rho.md` optimizes the **full harness** from trajectory groups; SkillAdaptor edits **skill cards** only.
 
 ## Phase-0 Audit (2026-06-06)
 

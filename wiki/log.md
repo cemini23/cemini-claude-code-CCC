@@ -4,6 +4,15 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-06-07] ingest | RHO — Retrospective Harness Optimization (2606.05922)
+
+- **Preingest:** 1 NEW (`arxiv-2606.05922`)
+- **Source:** Retrospective Harness Optimization — MSRA/CityU; MIT `retro-harness` repo
+- **Concept:** `retrospective-harness-optimization-rho` — DPP coreset → group rollout → best-of-N self-preference
+- **Entity:** `retro-harness` — CONDITIONAL-GO laptop trial
+- **Pages updated (9):** `failed-trajectory-harness-repair`, `continual-harness-online-self-improvement`, `harness-updating-vs-benefit-nonmonotonic`, `code-as-agent-harness`, `self-healing-agent-sessions`, `agent-rubrics-self-correction`, `skilladaptor-step-level-skill-adaptation`, `openevolve`, `index.md`
+- **Raw:** PDF → `raw-sources/`; inbox cleared
+
 ## [2026-06-06] briefs | K102 ingest + backlog processed markers
 
 - **K102** (`briefs/2026-06-06_k102-…`) — wiki: `typst`, `flowforge-skill`, K102 source stub; `scripts/adopt_k102_phase0.sh` (harness plugin PASS; typst not installed)
