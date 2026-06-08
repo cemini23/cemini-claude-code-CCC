@@ -18,9 +18,11 @@ related:
   - sources/arxiv-maven-agentic-tool-calling-2605.30738.md
   - concepts/retrospective-harness-optimization-rho.md
   - sources/arxiv-retrospective-harness-optimization-2606.05922.md
+  - concepts/time-series-native-agent-harness.md
+  - sources/arxiv-timeclaw-contextualized-time-series-2606.05404.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-06-07
+updated: 2026-06-08
 ---
 
 ## Relations

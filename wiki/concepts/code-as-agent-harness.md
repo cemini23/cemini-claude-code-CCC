@@ -51,9 +51,12 @@ related:
   - entities/tools/life-harness.md
   - sources/trading-posts-compilation-18-2026-06-04.md
   - entities/tools/pydantic-ai.md
+  - concepts/time-series-native-agent-harness.md
+  - sources/arxiv-timeclaw-contextualized-time-series-2606.05404.md
+  - entities/tools/timeclaw.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-06-07
+updated: 2026-06-08
 cross-wiki-source: "@osint-wiki/sources/arxiv-code-as-agent-harness-survey-2605.18747.md"
 ---
 

@@ -10,9 +10,11 @@ related:
   - entities/tools/lazy-tool.md
   - concepts/claude-harness-dynamic-workflows-k88.md
   - sources/trading-posts-compilation-17-2026-06-03.md
+  - concepts/time-series-native-agent-harness.md
+  - sources/arxiv-timeclaw-contextualized-time-series-2606.05404.md
 maturity: draft
 created: 2026-06-03
-updated: 2026-06-03
+updated: 2026-06-08
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-17-2026-06-03.md"
 ---
 

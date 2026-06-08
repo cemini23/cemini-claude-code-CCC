@@ -17,9 +17,11 @@ related:
   - sources/arxiv-agent-skills-architecture-security-2602.12430.md
   - concepts/skilladaptor-step-level-skill-adaptation.md
   - sources/arxiv-skilladaptor-2606.01311.md
+  - concepts/time-series-native-agent-harness.md
+  - sources/arxiv-timeclaw-contextualized-time-series-2606.05404.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-06
+updated: 2026-06-08
 ---
 
 ## Relations

@@ -4,6 +4,17 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-06-08] ingest | TimeClaw — contextualized time series (2606.05404)
+
+- **Preingest:** 1 NEW (`arxiv-2606.05404`)
+- **Source:** Harnessing Generalist Agents for Contextualized Time Series — UIUC iSAIL; Apache-2.0 `TimeClaw` repo (0★)
+- **Concept:** `time-series-native-agent-harness` — workspace + runtime tools + capability evolution + episodic memory
+- **Entity:** `timeclaw` — CONDITIONAL-GO laptop trial; disambiguate from 2605.10038 homonym
+- **Pages updated (8):** `code-as-agent-harness`, `mcp-context-optimization`, `muse-autoskill-skill-lifecycle`, `etclovg-harness-layers`, `continual-harness-online-self-improvement`, `runtime-context-mcp-file-refs`, `claude-mem`, `stash`, `index.md`
+- **Cross-wiki:** `@osint-wiki/concepts/contextualized-time-series-agent-harness.md` (TSAIA/CiK finance stub)
+- **Raw:** PDF → `raw-sources/`; inbox cleared
+- **Phase-0 (2026-06-08):** clone + venv import PASS; `scripts/adopt_timeclaw_phase0.sh`; benchmarks skipped (no API key)
+
 ## [2026-06-07] brief ingest | K103 agent-harness cluster from OSINT
 
 Ingested `briefs/2026-06-07_k103-ccc-agent-harness-from-osint.md` — K103 63-URL eval CCC slice + Posts harness cluster (sha `6ebbacb8…` eval, `78fad654…` posts).

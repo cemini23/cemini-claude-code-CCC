@@ -21,9 +21,11 @@ related:
   - concepts/retrospective-harness-optimization-rho.md
   - sources/arxiv-retrospective-harness-optimization-2606.05922.md
   - concepts/rl-agent-labs-system-prompt-learning.md
+  - concepts/time-series-native-agent-harness.md
+  - sources/arxiv-timeclaw-contextualized-time-series-2606.05404.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-06-07
+updated: 2026-06-08
 cross-wiki-source: "@osint-wiki/concepts/continual-harness-online-self-improvement.md"
 ---
 

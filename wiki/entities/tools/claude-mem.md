@@ -32,9 +32,11 @@ related:
   - concepts/interaction-native-knowledge-harness.md
   - concepts/agentic-memory-cross-scenario-generality.md
   - concepts/long-thread-context-decay.md
+  - concepts/time-series-native-agent-harness.md
+  - sources/arxiv-timeclaw-contextualized-time-series-2606.05404.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-07
+updated: 2026-06-08
 ---
 
 ## Relations
