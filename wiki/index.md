@@ -88,6 +88,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`geo-seo-claude`](entities/skills/geo-seo-claude.md) | validated | Generative-engine SEO skill (citability, AI crawlers, schema) |
 | [`src-hunter-skill`](entities/skills/src-hunter-skill.md) | draft | 305-payload, 19-playbook SKILL.md — largest single CC skill in the wild (MIT); design exemplar |
 | [`cursor-audit`](entities/skills/cursor-audit.md) | validated | Multi-model Cursor audit — public distro in agent-toolkit-demo; vet CI (2026-06-06) |
+| [`super-audit`](entities/skills/super-audit.md) | validated | Five-model pre-ship council — 3 Cursor + 2 API (OpenRouter/DeepSeek); agent-toolkit-demo (2026-06-09) |
 
 ## entities/commands/
 
@@ -384,6 +385,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | `entities/tools/everos.md` | `@osint-wiki/sources/multi-wiki-tool-eval-26url-2026-05-19.md` | K54 cross-wiki source (26-URL eval) |
 | `entities/skills/src-hunter-skill.md` | `@osint-wiki/sources/multi-wiki-tool-eval-19url-2026-05-20.md` | K55 cross-wiki source (19-URL eval) |
 | `entities/skills/cursor-audit.md` | [agent-toolkit-demo/skills/cursor-audit](https://github.com/cemini23/agent-toolkit-demo/tree/main/skills/cursor-audit) | Multi-model Cursor audit skill; public distro + CCC/OSINT mirrors (2026-06-06) |
+| `entities/skills/super-audit.md` | [agent-toolkit-demo/skills/super-audit](https://github.com/cemini23/agent-toolkit-demo/tree/main/skills/super-audit) | Five-model super audit; public distro + CCC/OSINT mirrors (2026-06-09) |
 | `concepts/cross-wiki-tool-eval-inventory.md` | `@osint-wiki/sources/tool-evaluation-wiki-fit-2026-05-15.md` | Cross-wiki routing pattern (K45–K56) |
 | `concepts/code-as-agent-harness.md` | `@osint-wiki/concepts/code-as-agent-harness.md` | K48 arXiv 2605.18747 survey hub |
 | `concepts/code-as-agent-harness.md` | `@osint-wiki/sources/arxiv-code-as-agent-harness-survey-2605.18747.md` | Primary source |

@@ -11,12 +11,13 @@ related:
   - concepts/worldmemarena-multimodal-agent-memory-eval.md
   - entities/tools/claude-code.md
   - entities/skills/cursor-audit.md
+  - entities/skills/super-audit.md
   - sources/trading-posts-compilation-17-2026-06-03.md
   - concepts/retrospective-harness-optimization-rho.md
   - sources/arxiv-retrospective-harness-optimization-2606.05922.md
 maturity: draft
 created: 2026-06-03
-updated: 2026-06-07
+updated: 2026-06-09
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-17-2026-06-03.md"
 ---
 
@@ -29,6 +30,7 @@ cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-17-2026-06-03.
 - `@concepts/worldmemarena-multimodal-agent-memory-eval.md` — eval rubric steal-from (memory MCP)
 - `@entities/tools/claude-code.md` — Stop hook + subagent reviewer pattern
 - `@entities/skills/cursor-audit.md` — three-model readonly audit synthesis before ship
+- `@entities/skills/super-audit.md` — five-model synthesis for prod GO/NO-GO
 - `@sources/trading-posts-compilation-17-2026-06-03.md` — K97 Post 6 (@sydneyrunkle)
 
 ## Raw Concept
@@ -53,7 +55,7 @@ K97 Post 6 (@sydneyrunkle): **Rubrics** — structured criteria agents use to **
 
 1. **`/goal` template** — section 1 is the rubric (what "done" looks like).
 2. **Stop hook** — re-check rubric before session end (`@concepts/hooks-for-automation.md`).
-3. **Reviewer subagent** — `code-reviewer`, `@entities/skills/cursor-audit.md` (cross-model), or other `@entities/skills/` audit pass on large diffs.
+3. **Reviewer subagent** — `code-reviewer`, `@entities/skills/cursor-audit.md` (cross-model), `@entities/skills/super-audit.md` (pre-ship), or other `@entities/skills/` audit pass on large diffs.
 4. **Phase-0 audits** — rubric rows in `@concepts/skill-vetting.md` for MCP/skill adopt.
 
 **Verdict:** **REFERENCE** — steal eval harness ideas; compare to `@entities/tools/deepeval` brief (K55, deferred) before adding eval framework deps.

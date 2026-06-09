@@ -67,6 +67,7 @@ related:
   - "@cybersecurity-wiki/sources/arxiv-prompt-injection-persistence-2606.04425-2026-06-05.md"
   - "@cybersecurity-wiki/briefs/2026-05-31_ccc-handoff-k100-spi-skill-vetting-checklist.md"
   - entities/skills/cursor-audit.md
+  - entities/skills/super-audit.md
   - concepts/skilladaptor-step-level-skill-adaptation.md
   - sources/arxiv-skilladaptor-2606.01311.md
   - concepts/mcp-server-runtime-fault-taxonomy.md
@@ -94,6 +95,7 @@ updated: 2026-06-07
 - @concepts/skillrae-retrieval-augmented-execution.md — skill-graph compilation assumes vetted skills only
 - @concepts/claude-premortem-skill.md — internal harness/skill **authoring** gate before Phase-0 on third-party installs
 - @entities/skills/cursor-audit.md — **internal** Cursor harness skill (authored in-repo); Phase-0 checklist does not apply — track via git + wiki page instead
+- @entities/skills/super-audit.md — same internal harness class as cursor-audit (five-model + API leg)
 
 ## Raw Concept
 

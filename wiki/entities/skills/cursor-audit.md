@@ -4,6 +4,7 @@ type: entity
 tags: [skill, cursor, multi-model, audit, subagent, glasswing, debugging, SKILL.md, cemini]
 keywords: [cursor-audit, multi-model-audit, council-audit, second-opinion-debug, Task-tool, readonly-subagent, codex-opus, deliberate-disagreement]
 related:
+  - entities/skills/super-audit.md
   - entities/tools/claude-code.md
   - concepts/subagent-orchestration.md
   - entities/patterns/glasswing-deliberate-disagreement.md
@@ -14,12 +15,13 @@ related:
   - concepts/agent-rubrics-self-correction.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-06-06
+updated: 2026-06-09
 cross-wiki-source: "OSINT WORKSPACE .cursor/skills/cursor-audit/ (mirrored 2026-06-05); public distro agent-toolkit-demo/skills/cursor-audit/ (2026-06-06)"
 ---
 
 ## Relations
 
+- `@entities/skills/super-audit.md` — 5-model extension (3 Cursor + 2 API) for pre-ship prod reviews
 - `@entities/tools/claude-code.md` — sibling harness; cursor-audit is **Cursor Task-tool** native (not Claude Code `Agent` tool)
 - `@concepts/subagent-orchestration.md` — parallel readonly fan-out discipline
 - `@entities/patterns/glasswing-deliberate-disagreement.md` — conflict table gates ship decisions
@@ -105,7 +107,8 @@ Cost ≈ **3× subagent** — use `quick-triage` when time-sensitive.
 
 | Surface | Scope |
 |---------|-------|
-| **cursor-audit** | Targeted debug/review; multi-model qualitative |
+| **cursor-audit** | Targeted debug/review; multi-model qualitative (3 auditors) |
+| **super-audit** | Pre-ship council; 5 auditors (3 Cursor + 2 API); tailored packs |
 | **tech-debt-audit** | Whole-repo TECH_DEBT_AUDIT.md; single-model skill |
 | **vet** / **skill_audit.py** (OSINT) | Static brief veto gates; not multi-model |
 | **code-reviewer** subagent | Single second opinion; same model family unless Task `model` set |

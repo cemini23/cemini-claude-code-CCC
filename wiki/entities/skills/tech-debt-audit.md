@@ -11,9 +11,10 @@ related:
   - entities/tools/cc-thinking-skills.md
   - entities/tools/jezweb-claude-skills.md
   - entities/skills/cursor-audit.md
+  - entities/skills/super-audit.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-05
+updated: 2026-06-09
 ---
 
 ## Relations
@@ -23,6 +24,7 @@ updated: 2026-06-05
 - `@entities/mcp-servers/anthropic-skills.md` — the SKILL.md spec this skill is 100% compliant with
 - `@entities/commands/plugin.md` — install path
 - `@entities/skills/cursor-audit.md` — targeted multi-model debug/review; run cursor-audit on stuck bugs; tech-debt-audit for whole-repo sweeps
+- `@entities/skills/super-audit.md` — pre-ship five-model council; complementary to whole-repo tech-debt pass
 
 ## Raw Concept
 

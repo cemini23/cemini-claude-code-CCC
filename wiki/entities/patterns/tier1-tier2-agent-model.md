@@ -22,9 +22,10 @@ related:
   - concepts/agent-five-gate-org-chart.md
   - concepts/etclovg-harness-layers.md
   - entities/skills/cursor-audit.md
+  - entities/skills/super-audit.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-05
+updated: 2026-06-09
 ---
 
 ## Relations
@@ -39,6 +40,7 @@ updated: 2026-06-05
 - `@entities/patterns/scatter-gather.md` — Tier-2 subagents are typical scatter-leg workers
 - `@entities/mcp-servers/polymarket-mcp-server.md` — execution-MCP class exemplar that the Tier-2 gate must constrain
 - `@entities/skills/cursor-audit.md` — three parallel readonly Task auditors (Cursor); Tier 1 by construction
+- `@entities/skills/super-audit.md` — adds readonly HTTP API auditors; still Tier 1 (report only)
 
 Cross-wiki: `@cybersecurity-wiki/concepts/llm-pentest-automation.md` is the canonical write-up of this pattern (originally from `pentest-ai-agents` v3.2). `@cybersecurity-wiki/entities/tools/pentest-ai-agents.md` is the reference implementation.
 
@@ -61,6 +63,7 @@ The split is the safety contract:
 - Plan agent (Cemini's built-in `Plan` subagent — read-only, plans only)
 - Phase-0 audit drafter (Cemini's modal Phase-0 workflow)
 - **cursor-audit** skill (`@entities/skills/cursor-audit.md`) — three readonly Task subagents on different models; synthesis only
+- **super-audit** skill (`@entities/skills/super-audit.md`) — five readonly auditors (3 Task + 2 API); synthesis only
 
 ### Tier 2 examples
 

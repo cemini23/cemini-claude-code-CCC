@@ -45,6 +45,7 @@ related:
   - concepts/claude-code-large-codebase-workflow.md
   - entities/tools/council-of-high-intelligence.md
   - entities/skills/cursor-audit.md
+  - entities/skills/super-audit.md
   - entities/tools/three-man-team.md
   - concepts/agent-completion-verification-gates.md
   - concepts/agentic-programming-full-stack-thesis.md
@@ -72,7 +73,7 @@ related:
   - concepts/long-thread-context-decay.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-07
+updated: 2026-06-09
 ---
 
 ## Relations
@@ -103,6 +104,7 @@ updated: 2026-06-07
 - `@concepts/claude-code-software-factory.md` — multi-repo subagent fan-out metaphor (K67)
 - `@concepts/claude-code-personal-os-scope.md` — scope warning vs unbounded personal-OS workspace (K67)
 - `@entities/skills/cursor-audit.md` — three parallel Task subagents on different models; readonly Tier 1 audit synthesis
+- `@entities/skills/super-audit.md` — five-auditor pre-ship council (3 Task + 2 HTTP API); tailored audit packs on disk
 
 Cross-wiki: `@osint-wiki/concepts/conductor-orchestrator.md` carries the OSINT-side conductor history (parallel subagent dispatch for cross-wiki queries).
 
@@ -130,7 +132,7 @@ User-authored agents inherit a similar surface unless explicitly restricted.
 The dispatch decision reduces to: **does the subagent save the parent more tokens than its own setup costs?**
 
 - **Heavy reads (>10K of raw content)** — yes. The parent ingests the subagent's brief reply; the bulk of the read stays in the subagent's window.
-- **Independent second opinions** — yes. Independence is the deliverable; the parent's context can't provide it. See `@entities/skills/cursor-audit.md` when the deliverable is **cross-model** disagreement (codex + opus + gemini), not just a second agent of the same family.
+- **Independent second opinions** — yes. Independence is the deliverable; the parent's context can't provide it. See `@entities/skills/cursor-audit.md` (3 models) or `@entities/skills/super-audit.md` (5 models + API leg) when the deliverable is **cross-model** disagreement, not just a second agent of the same family.
 - **Genuinely parallel work** — yes. Multiple subagents in a single message run concurrently. The parent waits for all replies.
 - **Trivial lookups, single file reads** — no. Direct `Read`/`Grep` is cheaper.
 - **Tasks requiring the parent's working state** — no. Subagents don't share the parent's context.

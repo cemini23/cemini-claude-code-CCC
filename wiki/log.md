@@ -695,6 +695,15 @@ Public ship of multi-model Cursor audit skill (v1.0.1).
 - Updated `wiki/entities/skills/cursor-audit.md` install path; CCC + OSINT mirrors bumped to 1.0.1
 - Toolkit README links: agent-toolkit-demo, CCC, vet
 
+## [2026-06-09] skill | super-audit — five-model pre-ship council (public distro)
+
+Extends cursor-audit: 3 Cursor Task + 2 HTTP API auditors (OpenRouter/DeepSeek); tailored prompt packs per run.
+- Public: [agent-toolkit-demo/skills/super-audit](https://github.com/cemini23/agent-toolkit-demo/tree/main/skills/super-audit) commit `40b97db`; `vet-super-audit` CI PASS 100/100
+- Mirrored `.cursor/skills/super-audit/` in CCC + OSINT
+- Created `wiki/entities/skills/super-audit.md`
+- Backlinks: `@entities/skills/cursor-audit.md`, `@concepts/subagent-orchestration.md`, `@entities/patterns/glasswing-deliberate-disagreement.md`, `@osint-wiki/concepts/llm-routing-deepseek-openrouter-failover.md`
+- Provenance: poker Tournament S1 + WC bot prod super audits
+
 ## [2026-06-06] cross-wiki route | ADK Arena — agent framework benchmark (OSINT handoff)
 
 Cross-wiki stub routed from `@osint-wiki/sources/arxiv-adk-arena-agent-dev-kits-2606.05548-2026-06-06.md`.
