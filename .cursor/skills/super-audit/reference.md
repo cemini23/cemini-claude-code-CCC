@@ -4,13 +4,13 @@
 
 | Slot | Channel | Model slug | Provider | Env / key |
 |------|---------|------------|----------|-----------|
-| 1 | Cursor Task | `claude-opus-4-8-thinking-high` | Anthropic | (Cursor subscription) |
+| 1 | Cursor Task | `claude-fable-5-thinking-high` | Anthropic | (Cursor subscription) |
 | 2 | Cursor Task | `gpt-5.3-codex` | OpenAI | (Cursor subscription) |
 | 3 | Cursor Task | `gemini-3.1-pro` | Google | (Cursor subscription) |
 | 4 | HTTP API | `x-ai/grok-4.3` | OpenRouter | `OPENROUTER_API_KEY` |
 | 5 | HTTP API | `deepseek-reasoner` | DeepSeek | `DEEPSEEK_API_KEY` |
 
-Substitute unavailable Cursor slugs per [cursor-audit reference](../cursor-audit/reference.md). Never duplicate provider family in slots 1–3.
+Substitute unavailable Cursor slugs per [cursor-audit reference](../cursor-audit/reference.md) (Anthropic fallback: fable → opus → sonnet). Never duplicate provider family in slots 1–3.
 
 ### Quick mode (4 auditors)
 
@@ -52,11 +52,9 @@ source scripts/source_llm_routing_env.sh   # OSINT workspace
 **Discovery script:**
 
 ```bash
-python3 "$SKILL_DIR/scripts/discover_api_keys.py"
-python3 "$SKILL_DIR/scripts/discover_api_keys.py" --json
+python3 .cursor/skills/super-audit/scripts/discover_api_keys.py
+python3 .cursor/skills/super-audit/scripts/discover_api_keys.py --json
 ```
-
-`SKILL_DIR` = `.cursor/skills/super-audit` (per-project) or `~/.cursor/skills/super-audit` (personal).
 
 Output: which keys are present (masked), suggested API slots. Parent tells user what's missing before running API leg.
 
@@ -103,12 +101,12 @@ Same defaults as cursor-audit for slots 1–3:
 
 | Mode | Model 1 | Model 2 | Model 3 |
 |------|---------|---------|---------|
-| **code-debug** | `gpt-5.3-codex` | `claude-opus-4-8-thinking-high` | `gemini-3.1-pro` |
-| **security** | `claude-opus-4-8-thinking-high` | `gpt-5.3-codex` | `grok-4.3` |
+| **code-debug** | `gpt-5.3-codex` | `claude-fable-5-thinking-high` | `gemini-3.1-pro` |
+| **security** | `claude-fable-5-thinking-high` | `gpt-5.3-codex` | `grok-4.3` |
 | **config-infra** | `gemini-3.1-pro` | `gpt-5.5-medium` | `claude-4.6-sonnet-medium-thinking` |
 | **brief-plan** | `claude-opus-4-8-thinking-high` | `gpt-5.3-codex` | `kimi-k2.5` |
-| **architecture** | `claude-opus-4-8-thinking-high` | `gemini-3.1-pro` | `gpt-5.5-medium` |
-| **prod-ship** | `claude-opus-4-8-thinking-high` | `gpt-5.3-codex` | `gemini-3.1-pro` |
+| **architecture** | `claude-fable-5-thinking-high` | `gemini-3.1-pro` | `gpt-5.5-medium` |
+| **prod-ship** | `claude-fable-5-thinking-high` | `gpt-5.3-codex` | `gemini-3.1-pro` |
 
 **prod-ship** — default for bot/config deploy audits (poker S1, WC bot).
 

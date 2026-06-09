@@ -9,7 +9,7 @@ description: >-
   cursor-audit depth with extra API-backed opinions before prod GO/NO-GO.
 license: MIT
 metadata.author: cemini23
-metadata.version: "1.0.0"
+metadata.version: "1.1.0"
 disable-model-invocation: true
 ---
 
@@ -86,7 +86,7 @@ Classify mode (see [reference.md](reference.md)). Default **5-auditor split**:
 
 | Slot | Channel | Default | Role |
 |------|---------|---------|------|
-| 1 | Cursor Task | `claude-opus-4-8-thinking-high` | Strategic / root cause |
+| 1 | Cursor Task | `claude-fable-5-thinking-high` | Agentic reasoning / root cause (`opus` for `brief-plan`) |
 | 2 | Cursor Task | `gpt-5.3-codex` | Implementation / patches |
 | 3 | Cursor Task | `gemini-3.1-pro` | Third family / alt structure |
 | 4 | HTTP API | `x-ai/grok-4.3` @ OpenRouter | Adversarial / exploit paths |
@@ -101,13 +101,11 @@ Override slots 4–5 in `auditors.json` (see reference) when tailoring (e.g. WC 
 From repo root or project subfolder:
 
 ```bash
-# SKILL_DIR = .cursor/skills/super-audit  (per-project)
-#          or ~/.cursor/skills/super-audit (personal install)
-python3 "$SKILL_DIR/scripts/build_audit_pack.py" \
+python3 .cursor/skills/super-audit/scripts/build_audit_pack.py \
   --prompt prompts/{slug}_super_audit.md \
   --out reports/audit/pack-{slug} \
-  --artifact path/to/metrics.jsonl \
-  --artifact path/to/state.json
+  --artifact reports/hl-loop/deploys.jsonl \
+  --artifact reports/hl-loop/state.json
 ```
 
 Outputs:
@@ -141,13 +139,13 @@ prompt: <pointer to pack + role line + output format>
 Discover keys first (parent or script):
 
 ```bash
-python3 "$SKILL_DIR/scripts/discover_api_keys.py"
+python3 .cursor/skills/super-audit/scripts/discover_api_keys.py
 ```
 
 Then run API auditors (after pack exists):
 
 ```bash
-python3 "$SKILL_DIR/scripts/run_api_auditors.py" \
+python3 .cursor/skills/super-audit/scripts/run_api_auditors.py \
   --pack reports/audit/pack-{slug} \
   --out reports/audit/premium-{slug}
 ```
@@ -229,6 +227,8 @@ Write synthesis to the path chosen in Step 1 (briefs/ or reports/).
 - [cursor-audit](../cursor-audit/SKILL.md) — 3-model baseline
 - [reference.md](reference.md) — API key discovery, auditors.json, mode matrix
 - [examples.md](examples.md) — poker Tournament S1, WC bot
-- [Glasswing deliberate disagreement](https://github.com/cemini23/cemini-claude-code-CCC/blob/main/wiki/entities/patterns/glasswing-deliberate-disagreement.md)
-- [vet](https://github.com/cemini23/vet) — static brief veto gates (complements super audit)
-- Install: [README.md](README.md)
+- [agent-toolkit-demo/skills/super-audit](https://github.com/cemini23/agent-toolkit-demo/tree/main/skills/super-audit) — public open-source distro
+- `@ccc-wiki/entities/skills/super-audit.md` — wiki canonical page
+- `@ccc-wiki/entities/patterns/glasswing-deliberate-disagreement.md`
+- `config/llm-routing.env.example` — canonical key locations
+- `agents/devfun-poker-arena/` — reference implementation (domain-specific scripts)

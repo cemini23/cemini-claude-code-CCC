@@ -47,7 +47,7 @@ The **super-audit** skill runs a **5-model council**:
 
 | Slot | Channel | Default |
 |------|---------|---------|
-| 1–3 | Cursor Task (readonly) | opus · codex · gemini |
+| 1–3 | Cursor Task (readonly) | **fable** · codex · gemini (`opus` for `brief-plan`) |
 | 4–5 | HTTP API | grok-4.3 @ OpenRouter · deepseek-reasoner |
 
 Each auditor receives the same **audit pack** on disk (`audit_prompt.md` + `PACK_INDEX.md`). Parent synthesizes:
@@ -136,7 +136,7 @@ name: super-audit
 description: Five-model super audit — three Cursor readonly subagents plus two cheaper API auditors…
 license: MIT
 metadata.author: cemini23
-metadata.version: "1.0.0"
+metadata.version: "1.1.0"
 disable-model-invocation: true
 ---
 ```

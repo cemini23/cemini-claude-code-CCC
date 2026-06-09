@@ -2,7 +2,7 @@
 title: cursor-audit (skill) — multi-model Cursor debug and review harness
 type: entity
 tags: [skill, cursor, multi-model, audit, subagent, glasswing, debugging, SKILL.md, cemini]
-keywords: [cursor-audit, multi-model-audit, council-audit, second-opinion-debug, Task-tool, readonly-subagent, codex-opus, deliberate-disagreement]
+keywords: [cursor-audit, multi-model-audit, council-audit, second-opinion-debug, Task-tool, readonly-subagent, codex-fable, claude-fable-5, deliberate-disagreement]
 related:
   - entities/skills/super-audit.md
   - entities/tools/claude-code.md
@@ -35,7 +35,7 @@ Skill files mirrored in OSINT WORKSPACE and CCC at `.cursor/skills/cursor-audit/
 
 ## Raw Concept
 
-What prompted this page: debugging session where **codex and opus on the same bug surfaced different errors** — evidence that single-model sessions miss blind spots. User requested a repeatable **cursor audit** skill: three parallel models, auto-picked for the audit mode, synthesized into consensus / unique / conflicts.
+What prompted this page: debugging session where **codex and fable/opus on the same bug surfaced different errors** — evidence that single-model sessions miss blind spots. User requested a repeatable **cursor audit** skill: three parallel models, auto-picked for the audit mode, synthesized into consensus / unique / conflicts.
 
 ## Narrative
 
@@ -77,12 +77,14 @@ Files: `SKILL.md`, `reference.md` (model matrix), `examples.md`, `README.md` (pu
 
 | Mode | Default model triple | When |
 |------|---------------------|------|
-| `code-debug` | codex · opus · gemini | Stack traces, failing tests (**default**) |
-| `security` | opus · codex · grok | Auth, injection, secrets |
+| `code-debug` | codex · **fable** · gemini | Stack traces, failing tests (**default**) |
+| `security` | **fable** · codex · grok | Auth, injection, secrets |
 | `config-infra` | gemini · gpt-5.5 · sonnet-thinking | MCP, hooks, YAML, CI |
 | `brief-plan` | opus · codex · kimi | GO/NO-GO briefs, cost claims |
-| `architecture` | opus · gemini · gpt-5.5 | Refactors, module boundaries |
+| `architecture` | **fable** · gemini · gpt-5.5 | Refactors, module boundaries |
 | `quick-triage` | composer · gpt-5.5 · sonnet-thinking | Fast/cheap pass |
+
+Anthropic leg: **`claude-fable-5-thinking-high`** for agentic/coding modes; **`claude-opus-4-8-thinking-high`** for `brief-plan`. Override with `models: codex, fable, gemini` or `models: codex, opus, gemini`.
 
 Full slug table: skill `reference.md`.
 
@@ -90,7 +92,7 @@ Full slug table: skill `reference.md`.
 
 - `/cursor-audit` or `cursor audit on …`
 - `council audit`, `multi-model audit`, `second-opinion debug`
-- Options: `mode: security`, `models: codex, opus, gemini`, `quick`
+- Options: `mode: security`, `models: codex, fable, gemini` (or `opus`), `quick`
 
 ### Cadence (when to run)
 
@@ -129,7 +131,7 @@ name: cursor-audit
 description: Multi-model Cursor audit — three parallel readonly subagents…
 license: MIT
 metadata.author: cemini23
-metadata.version: "1.0.1"
+metadata.version: "1.1.0"
 disable-model-invocation: true
 ---
 ```

@@ -8,13 +8,13 @@ description: >-
   wants independent model reviews before fixing or shipping.
 license: MIT
 metadata.author: cemini23
-metadata.version: "1.0.1"
+metadata.version: "1.1.0"
 disable-model-invocation: true
 ---
 
 # Cursor audit (multi-model)
 
-Independent opinions from **three different models** catch bugs, bad assumptions, and blind spots a single session misses. Pattern: codex + opus on the same bug surfaced different errors — repeat that deliberately.
+Independent opinions from **three different models** catch bugs, bad assumptions, and blind spots a single session misses. Pattern: codex + fable/opus on the same bug surfaced different errors — repeat that deliberately.
 
 **Tier 1 only** — subagents are `readonly: true`; they report, they do not edit.
 
@@ -71,10 +71,11 @@ Classify into one mode, then read [reference.md](reference.md) for the default t
 1. Always **three models from three provider families** when possible (OpenAI / Anthropic / Google or xAI or Moonshot).
 2. Never dispatch three variants of the same base model.
 3. If the user names models, use those (still aim for diversity).
-4. If a slug is unavailable, substitute from the same column in reference.md and note the swap.
-5. Announce the chosen triple to the user before dispatch:
+4. If a slug is unavailable, substitute from the same **family column** in reference.md (Anthropic: fable → opus → sonnet) and note the swap.
+5. **Anthropic default:** `claude-fable-5-thinking-high` for agentic/coding modes; `claude-opus-4-8-thinking-high` for `brief-plan`. User may override with `models: …, opus, …` or `models: …, fable, …`.
+6. Announce the chosen triple to the user before dispatch:
 
-   > Cursor audit — mode: `code-debug` · models: codex, opus, gemini
+   > Cursor audit — mode: `code-debug` · models: codex, fable, gemini
 
 ### Step 3 — Audit pack (shared prompt body)
 
@@ -183,7 +184,7 @@ Merge the three reports using this template:
 
 - Default: report only. User decides whether to fix.
 - If user says "fix it": parent implements; offer **re-audit** after substantive changes.
-- For briefs: cross-check with [vet](https://github.com/cemini23/vet) (`vet briefs/<file>.md --profile brief`) — cursor audit is complementary, not a replacement.
+- For briefs: cross-check with `scripts/skill_audit.py` or [vet](https://github.com/cemini23/vet) (`vet briefs/<file>.md --profile brief`) — cursor audit is complementary, not a replacement.
 
 ## Invocation phrases
 
@@ -197,7 +198,7 @@ User can trigger with any of:
 Optional args in the same message:
 
 - `mode: security`
-- `models: codex, opus, gemini` (override)
+- `models: codex, fable, gemini` or `models: codex, opus, gemini` (override Anthropic leg)
 - `quick` → `quick-triage`
 - `files: path/a, path/b`
 
@@ -208,9 +209,10 @@ Optional args in the same message:
 
 ## Related patterns
 
-- `@entities/patterns/glasswing-deliberate-disagreement.md` — disagreement gating
-- `@concepts/subagent-orchestration.md` — parallel Task dispatch
-- `@entities/skills/cursor-audit.md` — wiki canonical page
+- [super-audit](../super-audit/SKILL.md) — 5-model variant (3 Cursor + 2 API via OpenRouter/DeepSeek) for pre-ship prod reviews
+- `@ccc-wiki/entities/patterns/glasswing-deliberate-disagreement.md` — disagreement gating
+- `@ccc-wiki/concepts/subagent-orchestration.md` — parallel Task dispatch
+- `@ccc-wiki/entities/skills/cursor-audit.md` — wiki canonical page
 - [agent-toolkit-demo/skills/cursor-audit](https://github.com/cemini23/agent-toolkit-demo/tree/main/skills/cursor-audit) — public open-source distro
 - [vet](https://github.com/cemini23/vet) — static skill/brief veto gates
 

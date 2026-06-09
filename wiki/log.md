@@ -716,6 +716,13 @@ Extends cursor-audit: 3 Cursor Task + 2 HTTP API auditors (OpenRouter/DeepSeek);
 - Backlinks: `@entities/skills/cursor-audit.md`, `@concepts/subagent-orchestration.md`, `@entities/patterns/glasswing-deliberate-disagreement.md`, `@osint-wiki/concepts/llm-routing-deepseek-openrouter-failover.md`
 - Provenance: poker Tournament S1 + WC bot prod super audits
 
+## [2026-06-09] skill | cursor-audit + super-audit — Claude Fable 5 Anthropic default
+
+v1.1.0: add `claude-fable-5-thinking-high` as default Anthropic leg for agentic/coding modes; opus retained for `brief-plan`.
+- Updated `.cursor/skills/cursor-audit/` + `.cursor/skills/super-audit/` in OSINT + CCC
+- Updated `wiki/entities/skills/cursor-audit.md` + `super-audit.md`
+- Public distro: agent-toolkit-demo skills sync; vet PASS 100/100
+
 ## [2026-06-06] cross-wiki route | ADK Arena — agent framework benchmark (OSINT handoff)
 
 Cross-wiki stub routed from `@osint-wiki/sources/arxiv-adk-arena-agent-dev-kits-2606.05548-2026-06-06.md`.

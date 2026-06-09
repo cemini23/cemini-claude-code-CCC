@@ -4,26 +4,26 @@
 
 **User:**
 
-> cursor audit — MCP server shows red; tool search returns empty
+> cursor audit — lazy-tool MCP shows red; search_tools returns empty
 
 **Parent:**
 
-1. Scope: `.cursor/mcp.json`, MCP catalog, error = empty search
+1. Scope: `.cursor/mcp.json`, lazy-tool catalog, error = empty search
 2. Mode: `config-infra`
 3. Models: gemini-3.1-pro, gpt-5.5-medium, claude-4.6-sonnet-medium-thinking
 4. Dispatch 3 parallel readonly Tasks with shared audit pack
-5. Synthesize: consensus on stale catalog + disabled UI toggle; unique finding from one model on config path mismatch
+5. Synthesize: consensus on `reindex` + UI toggle; unique finding from one model on allowlist path
 
 **Sample synthesis excerpt:**
 
 ```markdown
 ## Consensus (≥2 auditors agree)
-- MCP catalog stale or server disabled in UI — reindex + enable toggle
+- lazy-tool catalog stale or server disabled in UI — run reindex + enable toggle
 
 ## Unique (single auditor — still investigate)
-- [gemini] config path mismatch vs mcp.json cwd
+- [gemini] `.cursor/lazy-tool.yaml` path mismatch vs mcp.json cwd
 
-## Overall:** SHIP-WITH-FIXES — reindex first; if still empty, fix config path
+## Overall:** SHIP-WITH-FIXES — reindex first; if still empty, fix yaml path
 ```
 
 ---
@@ -32,15 +32,15 @@
 
 **User:**
 
-> /cursor-audit mode brief-plan on briefs/2026-06-01_adoption-brief.md
+> /cursor-audit mode brief-plan on briefs/2026-06-01_polymarket-foo.md
 
 **Parent:**
 
 1. Read brief; paste Summary + Body + cost claims into audit pack
 2. Mode: `brief-plan`
-3. Models: opus, codex, kimi
-4. Lens: displacement vs existing tooling, statistical claims, phase 1 scope
-5. Run `vet briefs/2026-06-01_adoption-brief.md --profile brief` after synthesis
+3. Models: opus, codex, kimi (`brief-plan` keeps opus; code-debug would use fable)
+4. Lens: displacement vs existing wiki tooling, statistical claims, phase 1 scope
+5. Run `scripts/skill_audit.py` or `vet briefs/<file>.md --profile brief` after synthesis
 
 **Conflict example:**
 
@@ -56,12 +56,12 @@ Resolution: parent proposes adding explicit n and regime disclosure before ship.
 
 **User:**
 
-> council audit on the new auth middleware in src/middleware/
+> council audit on the new auth middleware in ui/proxy/
 
 **Parent:**
 
 1. Mode: `security`
-2. Models: opus, codex, grok
+2. Models: fable, codex, grok (or `opus` if user prefers strategic threat modeling)
 3. Audit pack lists all files in scope + threat model (session fixation, header injection)
 
 ---
@@ -70,7 +70,7 @@ Resolution: parent proposes adding explicit n and regime disclosure before ship.
 
 **User:**
 
-> quick cursor audit on scripts/deploy.sh
+> quick cursor audit on scripts/sync_wiki_to_librarian.sh
 
 **Parent:**
 
