@@ -20,9 +20,11 @@ related:
   - entities/tools/obsidian-second-brain-eugeniughelbur.md
   - concepts/claude-cowork-automation-vs-hooks.md
   - concepts/etclovg-harness-layers.md
+  - concepts/the-hive-loop-routines-pattern.md
+  - sources/trading-posts-compilation-8-2026-06-09.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-06-05
+updated: 2026-06-09
 ---
 
 ## Relations

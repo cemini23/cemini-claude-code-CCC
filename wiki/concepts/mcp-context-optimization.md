@@ -30,9 +30,11 @@ related:
   - sources/arxiv-mcp-runtime-fault-taxonomy-2606.05339.md
   - concepts/time-series-native-agent-harness.md
   - sources/arxiv-timeclaw-contextualized-time-series-2606.05404.md
+  - entities/tools/omnifs.md
+  - sources/trading-posts-compilation-8-2026-06-09.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-08
+updated: 2026-06-09
 ---
 
 ## Relations
@@ -46,6 +48,7 @@ updated: 2026-06-08
 - `@concepts/context-engineering.md` — context-side companion
 - `@entities/tools/optillm.md` — OpenAI-API-compatible multi-provider LLM proxy + MCP client (a routing-layer option adjacent to Layer 2)
 - `@entities/tools/lap-platform.md` — compiles API specs into agent-native MCP scaffolding; reduces hand-coded tool-definition surface
+- `@entities/tools/omnifs.md` — projected filesystem for APIs; shell `cat`/`grep` ergonomics vs MCP catalog (K108)
 
 Cross-wiki: `@osint-wiki/concepts/mcp-context-optimization.md` is the original 4-layer methodology source (K34 ingest, OSINT side).
 

@@ -72,6 +72,8 @@ related:
   - sources/trading-posts-compilation-18-2026-06-04.md
   - concepts/long-thread-context-decay.md
   - concepts/dynamic-workflow-orchestrator-off-model.md
+  - concepts/ship-subagent-writer-reviewer-tester.md
+  - sources/trading-posts-compilation-8-2026-06-09.md
 maturity: validated
 created: 2026-05-13
 updated: 2026-06-09

@@ -4,6 +4,18 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-06-09] brief ingest | K108 THE HIVE + /ship + omnifs from OSINT
+
+Ingested `briefs/2026-06-09_k108-ccc-hive-ship-omnifs-from-osint.md` — Posts 1, 2, 4 harness cluster (sha `b7956893…`).
+
+**Pages created (5):** `the-hive-loop-routines-pattern`, `ship-subagent-writer-reviewer-tester`, `omnifs`, `sources/trading-posts-compilation-8-2026-06-09`, `scripts/adopt_k108_phase0.sh`.
+
+**Pages updated (8):** `dynamic-workflow-orchestrator-off-model`, `claude-harness-dynamic-workflows-k88`, `hooks-for-automation`, `subagent-orchestration`, `skill-vetting`, `mcp-context-optimization`, `lazy-tool`, `cross-wiki-tool-eval-inventory`, `index.md`.
+
+**Phase-0:** omnifs **CONDITIONAL-GO** (Apache-2.0, ~57★); THE HIVE + `/ship` pattern-only.
+
+**Cross-wiki:** `@osint-wiki/sources/trading-posts-compilation-8-2026-06-09.md`, `@osint-wiki/entities/tools/omnifs.md`.
+
 ## [2026-06-08] ingest | TimeClaw — contextualized time series (2606.05404)
 
 - **Preingest:** 1 NEW (`arxiv-2606.05404`)

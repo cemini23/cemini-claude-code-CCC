@@ -78,6 +78,9 @@ related:
   - entities/tools/pydantic-ai.md
   - concepts/claude-skills-folder-taxonomy.md
   - concepts/mcp-pre-trade-diligence-boundary.md
+  - concepts/the-hive-loop-routines-pattern.md
+  - entities/tools/omnifs.md
+  - sources/trading-posts-compilation-8-2026-06-09.md
 maturity: draft
 created: 2026-05-17
 updated: 2026-06-09

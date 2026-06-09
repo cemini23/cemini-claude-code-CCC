@@ -86,6 +86,10 @@ related:
   - concepts/agent-backpressure-loop.md
   - concepts/rl-agent-labs-system-prompt-learning.md
   - concepts/long-thread-context-decay.md
+  - concepts/the-hive-loop-routines-pattern.md
+  - concepts/ship-subagent-writer-reviewer-tester.md
+  - entities/tools/omnifs.md
+  - sources/trading-posts-compilation-8-2026-06-09.md
 maturity: draft
 created: 2026-05-21
 updated: 2026-06-09
@@ -481,3 +485,13 @@ OSINT-wiki runs a multi-wiki tool evaluation → CCC-relevant items (Claude Code
 | @0xwhrrari Claude Projects | **Page** → `@concepts/claude-projects-knowledge-discipline.md` |
 | AARRI-bench repo | **Page** → `@entities/tools/aarri-bench.md` (NO-GO) |
 | K107 Posts provenance | **Stub** → `@sources/trading-posts-compilation-7-2026-06-09.md` |
+
+#### From K108 (2026-06-09) — THE HIVE + /ship + omnifs
+
+| Item | CCC disposition |
+|------|-----------------|
+| @Av1dlive THE HIVE | **Page** → `@concepts/the-hive-loop-routines-pattern.md` |
+| @0x_rody `/ship` subagents | **Page** → `@concepts/ship-subagent-writer-reviewer-tester.md` |
+| @raulvk /omnifs | **Page** → `@entities/tools/omnifs.md` (CONDITIONAL-GO) |
+| K108 Posts provenance | **Stub** → `@sources/trading-posts-compilation-8-2026-06-09.md` |
+| Laptop adopt script | **Script** → `scripts/adopt_k108_phase0.sh` |

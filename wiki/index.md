@@ -65,6 +65,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`autoresearch-claw`](entities/tools/autoresearch-claw.md) | draft | Research claw scheduling — steal-from (K103) |
 | [`application-skills`](entities/tools/application-skills.md) | draft | Membrane application-skills — NO-GO (K103) |
 | [`timeclaw`](entities/tools/timeclaw.md) | draft | Time-series-native agent harness — CONDITIONAL-GO (2606.05404) |
+| [`omnifs`](entities/tools/omnifs.md) | draft | Projected API filesystem — CONDITIONAL-GO (K108) |
 
 ## entities/mcp-servers/
 
@@ -236,6 +237,8 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`rl-agent-labs-system-prompt-learning`](concepts/rl-agent-labs-system-prompt-learning.md) | draft | RL agent labs 2026 — system-prompt as trainable artifact — K103 |
 | [`long-thread-context-decay`](concepts/long-thread-context-decay.md) | draft | Long-thread quality degradation mitigations — @hooeem K103 |
 | [`time-series-native-agent-harness`](concepts/time-series-native-agent-harness.md) | draft | Modality workspace harness — TimeClaw 2606.05404 |
+| [`the-hive-loop-routines-pattern`](concepts/the-hive-loop-routines-pattern.md) | draft | Loops + Routines + ant cron — K108 |
+| [`ship-subagent-writer-reviewer-tester`](concepts/ship-subagent-writer-reviewer-tester.md) | draft | /ship writer·reviewer·tester pattern — K108 |
 | [`autosci-memory-centric-research-agents`](concepts/autosci-memory-centric-research-agents.md) | draft | AutoSci SciMem research lifecycle — 2605.31468 |
 | [`maven-agentic-tool-calling-generalization`](concepts/maven-agentic-tool-calling-generalization.md) | draft | MAVEN tool-calling generalization — 2605.30738 |
 | [`failed-trajectory-harness-repair`](concepts/failed-trajectory-harness-repair.md) | validated | HarnessFix — diagnosis-first harness repair (2606.06324) |
@@ -312,6 +315,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`multi-wiki-tool-eval-v8-k103-2026-06-07`](sources/multi-wiki-tool-eval-v8-k103-2026-06-07.md) | draft | K103 63-URL eval — CCC harness slice (OSINT canon) |
 | [`trading-posts-compilation-19-2026-06-07`](sources/trading-posts-compilation-19-2026-06-07.md) | draft | K103 Posts.docx harness cluster — provenance stub |
 | [`arxiv-timeclaw-contextualized-time-series-2606.05404`](sources/arxiv-timeclaw-contextualized-time-series-2606.05404.md) | draft | TimeClaw contextualized time series — 2606.05404 (read) |
+| [`trading-posts-compilation-8-2026-06-09`](sources/trading-posts-compilation-8-2026-06-09.md) | draft | K108 Posts — HIVE / ship / omnifs slice |
 
 ## meta/
 

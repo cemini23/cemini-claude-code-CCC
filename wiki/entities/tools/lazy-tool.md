@@ -36,9 +36,11 @@ related:
   - concepts/mcp-server-runtime-fault-taxonomy.md
   - sources/arxiv-mcp-runtime-fault-taxonomy-2606.05339.md
   - concepts/cross-wiki-tool-adoption-routing.md
+  - entities/tools/omnifs.md
+  - sources/trading-posts-compilation-8-2026-06-09.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-06
+updated: 2026-06-09
 ---
 
 ## Relations
@@ -52,6 +54,7 @@ updated: 2026-06-06
 - `@concepts/code-as-agent-harness.md` — deferred MCP tool surface in harness mechanisms layer
 - `@concepts/skillrae-retrieval-augmented-execution.md` — compiles skill context after tool/skill selection (complementary layer)
 - `@concepts/codex-side-fork-workflow.md` — Codex as parallel OpenAI harness in same federation
+- `@entities/tools/omnifs.md` — path-namespace API projection; partial overlap on fetch ergonomics (K108)
 
 Cross-wiki: `@osint-wiki/concepts/mcp-context-optimization.md` carries the K34 4-layer methodology source. `@seo-wiki/entities/tools/claude-code-tool-stack.md` is the SEO-side adoption brief.
 

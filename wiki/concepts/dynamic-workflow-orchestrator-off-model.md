@@ -11,6 +11,8 @@ related:
   - sources/trading-posts-compilation-7-2026-06-09.md
   - concepts/agent-rubrics-self-correction.md
   - entities/tools/conductor-mcp.md
+  - concepts/the-hive-loop-routines-pattern.md
+  - sources/trading-posts-compilation-8-2026-06-09.md
 maturity: draft
 created: 2026-06-09
 updated: 2026-06-09

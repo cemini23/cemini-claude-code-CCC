@@ -20,6 +20,7 @@ related:
   - concepts/claude-code-subagent-templates.md
   - concepts/agent-five-gate-org-chart.md
   - concepts/dynamic-workflow-orchestrator-off-model.md
+  - concepts/ship-subagent-writer-reviewer-tester.md
 maturity: draft
 created: 2026-05-17
 updated: 2026-06-09

@@ -15,6 +15,9 @@ related:
   - sources/trading-posts-compilation-17-2026-06-03.md
   - concepts/dynamic-workflow-orchestrator-off-model.md
   - sources/trading-posts-compilation-7-2026-06-09.md
+  - concepts/the-hive-loop-routines-pattern.md
+  - concepts/ship-subagent-writer-reviewer-tester.md
+  - sources/trading-posts-compilation-8-2026-06-09.md
 maturity: draft
 created: 2026-05-31
 updated: 2026-06-09

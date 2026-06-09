@@ -14,6 +14,8 @@ related:
   - concepts/claude-harness-dynamic-workflows-k88.md
   - concepts/context-engineering.md
   - concepts/token-economics-and-prompt-caching.md
+  - concepts/the-hive-loop-routines-pattern.md
+  - sources/trading-posts-compilation-8-2026-06-09.md
 maturity: draft
 read_status: skimmed
 created: 2026-06-09
