@@ -18,9 +18,11 @@ related:
   - sources/arxiv-skilladaptor-2606.01311.md
   - entities/tools/agent-skill-manager.md
   - sources/multi-wiki-tool-eval-v8-k103-2026-06-07.md
+  - concepts/claude-skills-folder-taxonomy.md
+  - sources/trading-posts-compilation-7-2026-06-09.md
 maturity: draft
 created: 2026-06-04
-updated: 2026-06-07
+updated: 2026-06-09
 ---
 
 ## Relations

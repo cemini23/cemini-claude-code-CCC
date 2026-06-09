@@ -76,9 +76,11 @@ related:
   - entities/tools/application-skills.md
   - sources/multi-wiki-tool-eval-v8-k103-2026-06-07.md
   - entities/tools/pydantic-ai.md
+  - concepts/claude-skills-folder-taxonomy.md
+  - concepts/mcp-pre-trade-diligence-boundary.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-06-07
+updated: 2026-06-09
 ---
 
 ## Relations

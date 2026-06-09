@@ -43,9 +43,11 @@ related:
   - concepts/long-thread-context-decay.md
   - concepts/agent-backpressure-loop.md
   - sources/trading-posts-compilation-19-2026-06-07.md
+  - concepts/claude-projects-knowledge-discipline.md
+  - sources/trading-posts-compilation-7-2026-06-09.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-07
+updated: 2026-06-09
 ---
 
 ## Relations

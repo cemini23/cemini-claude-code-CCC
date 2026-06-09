@@ -15,6 +15,9 @@ related:
   - sources/trading-posts-compilation-17-2026-06-03.md
   - concepts/retrospective-harness-optimization-rho.md
   - sources/arxiv-retrospective-harness-optimization-2606.05922.md
+  - concepts/dynamic-workflow-orchestrator-off-model.md
+  - entities/tools/aarri-bench.md
+  - sources/arxiv-aarri-research-intern-bench-2606-07462-2026-06-09.md
 maturity: draft
 created: 2026-06-03
 updated: 2026-06-09

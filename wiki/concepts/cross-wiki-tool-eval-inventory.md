@@ -88,7 +88,7 @@ related:
   - concepts/long-thread-context-decay.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-06-07
+updated: 2026-06-09
 ---
 
 ## Relations
@@ -462,3 +462,22 @@ OSINT-wiki runs a multi-wiki tool evaluation → CCC-relevant items (Claude Code
 | K103 eval provenance | **Stub** → `@sources/multi-wiki-tool-eval-v8-k103-2026-06-07.md` |
 | K103 Posts provenance | **Stub** → `@sources/trading-posts-compilation-19-2026-06-07.md` |
 | Laptop adopt script | **Script** → `scripts/adopt_k103_phase0.sh` |
+
+#### From K106 (2026-06-08) — DexScreener MCP post
+
+| Item | CCC disposition |
+|------|-----------------|
+| DexScreener MCP (@AlphaCartell) | **Page** → `@entities/tools/dexscreener-mcp.md` (REFERENCE laptop) |
+| Pre-trade diligence boundary | **Page** → `@concepts/mcp-pre-trade-diligence-boundary.md` |
+| K106 Posts provenance | **Stub** → `@sources/trading-posts-compilation-6-2026-06-08.md` |
+
+#### From K107 (2026-06-09) — dynamic workflows + AARRI
+
+| Item | CCC disposition |
+|------|-----------------|
+| @PawelHuryn dynamic workflows | **Page** → `@concepts/dynamic-workflow-orchestrator-off-model.md` |
+| @cyrilXBT skills taxonomy | **Page** → `@concepts/claude-skills-folder-taxonomy.md` |
+| @TimJayas Codex tokens | **Update** → `@concepts/token-economics-and-prompt-caching.md` |
+| @0xwhrrari Claude Projects | **Page** → `@concepts/claude-projects-knowledge-discipline.md` |
+| AARRI-bench repo | **Page** → `@entities/tools/aarri-bench.md` (NO-GO) |
+| K107 Posts provenance | **Stub** → `@sources/trading-posts-compilation-7-2026-06-09.md` |

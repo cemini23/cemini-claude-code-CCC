@@ -12,12 +12,15 @@ related:
   - sources/trading-posts-compilation-18-2026-06-04.md
   - entities/tools/conductor-mcp.md
   - concepts/seclaw-agent-security-evaluation.md
+  - entities/tools/dexscreener-mcp.md
+  - concepts/mcp-pre-trade-diligence-boundary.md
+  - sources/trading-posts-compilation-6-2026-06-08.md
   - "@osint-wiki/sources/trading-posts-compilation-18-2026-06-04.md"
   - concepts/mcp-server-runtime-fault-taxonomy.md
   - sources/arxiv-mcp-runtime-fault-taxonomy-2606.05339.md
 maturity: draft
 created: 2026-06-04
-updated: 2026-06-06
+updated: 2026-06-09
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-18-2026-06-04.md"
 ---
 

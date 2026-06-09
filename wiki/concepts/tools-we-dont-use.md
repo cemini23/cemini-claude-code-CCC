@@ -18,9 +18,11 @@ related:
   - entities/tools/slot-casino-game-developer-skills.md
   - entities/tools/application-skills.md
   - sources/multi-wiki-tool-eval-v8-k103-2026-06-07.md
+  - entities/tools/aarri-bench.md
+  - sources/arxiv-aarri-research-intern-bench-2606-07462-2026-06-09.md
 maturity: draft
 created: 2026-05-22
-updated: 2026-06-07
+updated: 2026-06-09
 cross-wiki-source: "@osint-wiki/sources/trading-posts-oil-polymarket-html-dex-sniping-2026-05-21.md"
 ---
 
@@ -100,6 +102,12 @@ Eval claimed MIT; **`gh api` verification** returned no LICENSE file — permane
 | Repo | Why not install |
 |------|-----------------|
 | `membranedev/application-skills` | Eval Adopt overturned — **`license: null`** + Membrane platform lock-in → `@entities/tools/application-skills.md` |
+
+### K107 AARRI-bench (2026-06-09)
+
+| Repo | Why not install |
+|------|-----------------|
+| `AARR-bench/AARRI-bench` | **NO-GO** — `license: null` (`gh api` 2026-06-09); rubric steal-only → `@entities/tools/aarri-bench.md` |
 
 ### Process
 

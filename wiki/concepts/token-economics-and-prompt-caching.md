@@ -27,9 +27,11 @@ related:
   - concepts/deepseek-coding-cost-routing.md
   - concepts/agentic-memory-cross-scenario-generality.md
   - concepts/long-thread-context-decay.md
+  - concepts/dynamic-workflow-orchestrator-off-model.md
+  - sources/trading-posts-compilation-7-2026-06-09.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-07
+updated: 2026-06-09
 ---
 
 ## Relations
@@ -116,6 +118,10 @@ Mitigation:
 | Anthropic KV (load-bearing) | Cached input at ~10% of normal rate | 5-min TTL; busts on any prefix change |
 | OpenRouter Response | 100% (zero-cost hit) | Per-prompt key; busts on any byte change |
 | OpenRouter Edge | Latency only | Provider-stickiness |
+
+### K107 Codex discipline (@TimJayas Post 3) [TENTATIVE]
+
+Reported drop **245M → 28M tokens/day** via prompt caching + scope reduction (narrow default tool surface, smaller context envelopes). Pairs with `@concepts/dynamic-workflow-orchestrator-off-model.md` — orchestrator glue in code spends zero model tokens. [Source: Posts.docx K107 Post 3]
 
 ### Cost asymmetry that justifies cache discipline
 

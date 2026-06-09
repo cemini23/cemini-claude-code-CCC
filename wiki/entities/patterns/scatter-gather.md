@@ -19,9 +19,10 @@ related:
   - entities/tools/rowboat.md
   - concepts/claude-code-subagent-templates.md
   - concepts/agent-five-gate-org-chart.md
+  - concepts/dynamic-workflow-orchestrator-off-model.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-06-04
+updated: 2026-06-09
 cross-wiki-source: "@osint-wiki/concepts/scatter-gather-topology.md"
 ---
 

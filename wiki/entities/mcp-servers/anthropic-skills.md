@@ -41,9 +41,10 @@ related:
   - entities/tools/scienceaix-agentskills.md
   - concepts/skilladaptor-step-level-skill-adaptation.md
   - sources/arxiv-skilladaptor-2606.01311.md
+  - concepts/claude-skills-folder-taxonomy.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-06-06
+updated: 2026-06-09
 ---
 
 ## Relations

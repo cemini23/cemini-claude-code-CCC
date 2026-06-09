@@ -7,9 +7,10 @@ related:
   - entities/mcp-servers/exa.md
   - concepts/subagent-orchestration.md
   - entities/mcp-servers/polymarket-mcp-server.md
+  - concepts/mcp-pre-trade-diligence-boundary.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-05-16
+updated: 2026-06-09
 cross-wiki-source: "@osint-wiki/entities/tools/pmxt.md"
 ---
 

@@ -21,9 +21,10 @@ related:
   - concepts/claude-md-five-section-template.md
   - concepts/claude-code-skills-md-institutional-memory.md
   - concepts/karpathy-agent-infrastructure-basics.md
+  - concepts/claude-projects-knowledge-discipline.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-05-31
+updated: 2026-06-09
 cross-wiki-source: "@osint-wiki/concepts/claude-md-12-rule-template.md"
 ---
 

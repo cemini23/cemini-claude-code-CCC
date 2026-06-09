@@ -13,9 +13,11 @@ related:
   - concepts/thin-harness-fat-skills-garrytan.md
   - concepts/runtime-context-mcp-file-refs.md
   - sources/trading-posts-compilation-17-2026-06-03.md
+  - concepts/dynamic-workflow-orchestrator-off-model.md
+  - sources/trading-posts-compilation-7-2026-06-09.md
 maturity: draft
 created: 2026-05-31
-updated: 2026-06-03
+updated: 2026-06-09
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-42-2026-05-31.md"
 ---
 

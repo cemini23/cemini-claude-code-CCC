@@ -20,9 +20,10 @@ related:
   - sources/arxiv-agent-skills-survey-2605-07358-2026-06-02.md
   - concepts/skilladaptor-step-level-skill-adaptation.md
   - sources/arxiv-skilladaptor-2606.01311.md
+  - concepts/claude-skills-folder-taxonomy.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-06
+updated: 2026-06-09
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-31-2026-06-01.md"
 ---
 

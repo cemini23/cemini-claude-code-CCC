@@ -16,9 +16,10 @@ related:
   - entities/tools/librechat.md
   - concepts/harness-layer-competition-cursor-claude-perplexity.md
   - concepts/claude-cowork-automation-vs-hooks.md
+  - concepts/claude-projects-knowledge-discipline.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-03
+updated: 2026-06-09
 ---
 
 ## Relations

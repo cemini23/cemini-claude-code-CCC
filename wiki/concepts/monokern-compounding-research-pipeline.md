@@ -16,9 +16,11 @@ related:
   - concepts/claude-obsidian-notebooklm-bridge.md
   - concepts/interaction-native-knowledge-harness.md
   - entities/tools/deep-scientist.md
+  - sources/trading-posts-compilation-7-2026-06-09.md
+  - concepts/claude-projects-knowledge-discipline.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-07
+updated: 2026-06-09
 cross-wiki-source: "@osint-wiki/concepts/monokern-compounding-research-pipeline.md"
 ---
 
@@ -43,6 +45,8 @@ K93 operator request: weekly **Monokern-style** pipeline on one ROADMAP harness 
 | Ingest | Human-gated wiki writes (no Tier-3 auto-ingest) |
 
 **Verdict:** **REFERENCE** — enabled in CCC config 2026-06-01; laptop-only NotebookLM auth. K97 Post 14 (@zeuuss_01) reinforces the same Claude→NotebookLM→Obsidian loop in a 6-minute operator template.
+
+**K107 Post 13 (@xanaxmontanaonx):** industry research notebook — ~15 sources + custom goal prompt in NotebookLM; same compounding slot as weekly Monokern overlay [TENTATIVE].
 
 ## Snippets
 
