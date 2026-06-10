@@ -23,9 +23,12 @@ related:
   - concepts/rl-agent-labs-system-prompt-learning.md
   - concepts/time-series-native-agent-harness.md
   - sources/arxiv-timeclaw-contextualized-time-series-2606.05404.md
+  - concepts/bayesian-posterior-guided-skill-evolution.md
+  - sources/arxiv-bayesian-agent-posterior-skill-evolution-2606.08348.md
+  - entities/tools/bayesian-agent.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-06-08
+updated: 2026-06-10
 cross-wiki-source: "@osint-wiki/concepts/continual-harness-online-self-improvement.md"
 ---
 

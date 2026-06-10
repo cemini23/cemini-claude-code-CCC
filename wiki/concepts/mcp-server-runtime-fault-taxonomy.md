@@ -14,9 +14,11 @@ related:
   - entities/tools/defenseclaw.md
   - entities/tools/conductor-mcp.md
   - "@cybersecurity-wiki/concepts/mcp-security-posture.md"
+  - concepts/mcp-adaptive-systems-context-survey.md
+  - sources/arxiv-mcp-externalizing-context-survey-2508.19239.md
 maturity: draft
 created: 2026-06-06
-updated: 2026-06-06
+updated: 2026-06-10
 ---
 
 ## Relations

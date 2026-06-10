@@ -74,9 +74,13 @@ related:
   - concepts/dynamic-workflow-orchestrator-off-model.md
   - concepts/ship-subagent-writer-reviewer-tester.md
   - sources/trading-posts-compilation-8-2026-06-09.md
+  - concepts/queen-bee-beespec-enterprise-orchestration.md
+  - sources/arxiv-queen-bee-beespec-enterprise-mcp-2606.06545.md
+  - concepts/progressive-autonomy-incident-resolution.md
+  - sources/arxiv-autonomous-hyperscale-incident-resolution-2606.09122.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-09
+updated: 2026-06-10
 ---
 
 ## Relations

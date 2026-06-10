@@ -18,9 +18,13 @@ related:
   - "@osint-wiki/sources/trading-posts-compilation-18-2026-06-04.md"
   - concepts/mcp-server-runtime-fault-taxonomy.md
   - sources/arxiv-mcp-runtime-fault-taxonomy-2606.05339.md
+  - concepts/openagenet-trusted-agent-discovery.md
+  - sources/arxiv-openagenet-oan-white-paper-2606.03161.md
+  - concepts/queen-bee-beespec-enterprise-orchestration.md
+  - sources/arxiv-queen-bee-beespec-enterprise-mcp-2606.06545.md
 maturity: draft
 created: 2026-06-04
-updated: 2026-06-09
+updated: 2026-06-10
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-18-2026-06-04.md"
 ---
 

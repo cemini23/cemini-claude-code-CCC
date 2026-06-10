@@ -81,9 +81,15 @@ related:
   - concepts/the-hive-loop-routines-pattern.md
   - entities/tools/omnifs.md
   - sources/trading-posts-compilation-8-2026-06-09.md
+  - concepts/bayesian-posterior-guided-skill-evolution.md
+  - entities/tools/bayesian-agent.md
+  - concepts/queen-bee-beespec-enterprise-orchestration.md
+  - concepts/openagenet-trusted-agent-discovery.md
+  - sources/arxiv-openagenet-oan-white-paper-2606.03161.md
+  - sources/arxiv-queen-bee-beespec-enterprise-mcp-2606.06545.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-06-09
+updated: 2026-06-10
 ---
 
 ## Relations

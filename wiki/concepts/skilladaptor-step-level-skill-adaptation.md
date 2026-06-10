@@ -15,9 +15,10 @@ related:
   - entities/mcp-servers/anthropic-skills.md
   - concepts/retrospective-harness-optimization-rho.md
   - sources/arxiv-retrospective-harness-optimization-2606.05922.md
+  - concepts/bayesian-posterior-guided-skill-evolution.md
 maturity: draft
 created: 2026-06-06
-updated: 2026-06-07
+updated: 2026-06-10
 ---
 
 ## Relations

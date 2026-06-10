@@ -19,9 +19,11 @@ related:
   - entities/patterns/glasswing-deliberate-disagreement.md
   - concepts/etclovg-harness-layers.md
   - concepts/rl-agent-labs-system-prompt-learning.md
+  - concepts/bayesian-posterior-guided-skill-evolution.md
+  - sources/arxiv-bayesian-agent-posterior-skill-evolution-2606.08348.md
 maturity: draft
 created: 2026-06-07
-updated: 2026-06-07
+updated: 2026-06-10
 ---
 
 ## Relations

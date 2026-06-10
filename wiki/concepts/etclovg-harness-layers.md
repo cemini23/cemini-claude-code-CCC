@@ -20,9 +20,11 @@ related:
   - sources/arxiv-retrospective-harness-optimization-2606.05922.md
   - concepts/time-series-native-agent-harness.md
   - sources/arxiv-timeclaw-contextualized-time-series-2606.05404.md
+  - concepts/agent-harness-operational-definition.md
+  - sources/arxiv-agent-harness-operational-definition-2606.10106.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-06-08
+updated: 2026-06-10
 ---
 
 ## Relations

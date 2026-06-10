@@ -4,6 +4,39 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-06-10] ingest | K109 arXiv harness cluster (6 papers)
+
+- **Preingest:** 6 NEW (`2508.19239`, `2606.03161`, `2606.06545`, `2606.08348`, `2606.09122`, `2606.10106`)
+- **Sources (6):** harness operational definition; MCP adaptive-systems survey; OpenAgenet OAN; Queen-Bee BeeSpec; Bayesian-Agent; hyperscale incident resolution
+- **Concepts (6):** `agent-harness-operational-definition`, `openagenet-trusted-agent-discovery`, `queen-bee-beespec-enterprise-orchestration`, `bayesian-posterior-guided-skill-evolution`, `progressive-autonomy-incident-resolution`, `mcp-adaptive-systems-context-survey`
+- **Entity:** `bayesian-agent` — CONDITIONAL-GO (MIT, ~27★); `scripts/adopt_k109_phase0.sh`
+- **Pages updated (12):** `etclovg-harness-layers`, `code-as-agent-harness`, `agent-completion-verification-gates`, `continual-harness-online-self-improvement`, `mcp-context-optimization`, `subagent-orchestration`, `skill-vetting`, `claude-code`, `retrospective-harness-optimization-rho`, `muse-autoskill-skill-lifecycle`, `mcp-server-catalog-curation`, `index.md`
+- **Cross-wiki:** `@cybersecurity-wiki/concepts/agentic-aiops-autonomous-incident-resolution.md` (SRE stub)
+- **Phase-0:** OpenAgenet **REFERENCE** (GitHub org not verified); Queen-Bee **pattern-only** (no public repo)
+- **Raw:** 6 PDFs → `raw-sources/`; inbox cleared
+
+## [2026-06-10] phase-0 | K109 + K108 laptop trials
+
+- **K109** (`scripts/adopt_k109_phase0.sh`): clone PASS; MIT license API PASS; `pip install -e` + `import bayesian_agent` + `bayesian-agent --help` PASS (`/tmp/k109-phase0-ccc`)
+- **K108** (`scripts/adopt_k108_phase0.sh`): omnifs Apache-2.0 + clone PASS; **WARN** docker not on PATH (FUSE path blocked)
+- **OpenAgenet:** `OpenAgenet/oan-public-docs` found — license **NOASSERTION**, 0★ — stays REFERENCE
+- **Queen-Bee:** no public repo on GitHub search — pattern-only confirmed
+- **Benchmarks:** skipped (API keys)
+
+## [2026-06-10] trial | Bayesian-Agent live DeepSeek smoke
+
+- **API:** `deepseek-v4-flash` + `deepseek-chat` OK via `api.deepseek.com` (env `DEEPSEEK_API_KEY`)
+- **Native harness:** 1 task — `file_write` + verify loop; 3 API calls, 2833 tokens; `answer.txt` = `forty-two`
+- **Registry CLI:** `evolve` + `summarize` on bundled `artifacts/ga_deepseek_baseline/sop_results.json` — posterior `benchmark/sop_bench` success 0.773, baseline accuracy 0.8 (20 tasks)
+- **Datasets:** cloned `JinyiHan99/GA-Technical-Report` → `/tmp/k109-phase0-ccc/GA-Technical-Report/datasets` (~40MB)
+- **SOP-Bench `--limit 1`:** baseline **PASS** (sop_01, 59,734 tokens, ~41s); `bayesian-full` **FAIL** on same task (empty-registry first run — expected noise at n=1)
+- **SOP-Bench full 20 (2026-06-10):** baseline **20/20** (961,725 tokens, ~9m); `bayesian-full` **20/20** (see results dir); incremental on limit-5 failures **3/5→5/5** (2 repairs, +84k tokens)
+
+## [2026-06-10] brief | K109 prod handoff — Bayesian-Agent harness cluster
+
+- **Brief:** `briefs/2026-06-10_k109-bayesian-agent-harness-cluster-prod.md` — CONDITIONAL-GO laptop; **NO-GO** prod install; GA-Technical-Report dataset note; steal-from BeeSpec + T1–T4 + incremental repair
+- **Prod scp:** `cemini-prod:/opt/cemini/briefs/` (awareness only)
+
 ## [2026-06-09] brief ingest | K108 THE HIVE + /ship + omnifs from OSINT
 
 Ingested `briefs/2026-06-09_k108-ccc-hive-ship-omnifs-from-osint.md` — Posts 1, 2, 4 harness cluster (sha `b7956893…`).

@@ -15,9 +15,11 @@ related:
   - "@cybersecurity-wiki/briefs/2026-06-04_cybersecurity-handoff-defenseclaw-seclaw.md"
   - concepts/mcp-server-runtime-fault-taxonomy.md
   - sources/arxiv-mcp-runtime-fault-taxonomy-2606.05339.md
+  - concepts/queen-bee-beespec-enterprise-orchestration.md
+  - sources/arxiv-queen-bee-beespec-enterprise-mcp-2606.06545.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-06-06
+updated: 2026-06-10
 cross-wiki-source: "@osint-wiki/sources/tool-evaluation-wiki-fit-2026-05-15.md"
 ---
 

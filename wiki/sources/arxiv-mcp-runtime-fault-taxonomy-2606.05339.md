@@ -12,10 +12,12 @@ related:
   - entities/tools/lazy-tool.md
   - entities/tools/defenseclaw.md
   - concepts/skill-vetting.md
+  - concepts/mcp-adaptive-systems-context-survey.md
+  - sources/arxiv-mcp-externalizing-context-survey-2508.19239.md
 maturity: draft
 read_status: read
 created: 2026-06-06
-updated: 2026-06-06
+updated: 2026-06-10
 ---
 
 ## Relations

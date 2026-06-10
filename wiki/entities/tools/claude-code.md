@@ -51,10 +51,13 @@ related:
   - concepts/runtime-context-mcp-file-refs.md
   - concepts/agent-rubrics-self-correction.md
   - sources/trading-posts-compilation-17-2026-06-03.md
+  - concepts/agent-harness-operational-definition.md
+  - sources/arxiv-agent-harness-operational-definition-2606.10106.md
+  - entities/tools/bayesian-agent.md
 maturity: core
 hub: true
 created: 2026-05-13
-updated: 2026-06-03
+updated: 2026-06-10
 ---
 
 ## Relations

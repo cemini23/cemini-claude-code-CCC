@@ -66,6 +66,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`application-skills`](entities/tools/application-skills.md) | draft | Membrane application-skills — NO-GO (K103) |
 | [`timeclaw`](entities/tools/timeclaw.md) | draft | Time-series-native agent harness — CONDITIONAL-GO (2606.05404) |
 | [`omnifs`](entities/tools/omnifs.md) | draft | Projected API filesystem — CONDITIONAL-GO (K108) |
+| [`bayesian-agent`](entities/tools/bayesian-agent.md) | draft | Posterior-guided skill evolution — CONDITIONAL-GO (K109, MIT) |
 
 ## entities/mcp-servers/
 
@@ -186,6 +187,12 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`train-llm-agents-2026-curriculum`](concepts/train-llm-agents-2026-curriculum.md) | draft | Train agents curriculum pointer (K72 Post 20) |
 | [`agentic-programming-full-stack-thesis`](concepts/agentic-programming-full-stack-thesis.md) | draft | Agentic programming = full-stack (K72 Post 23) |
 | [`continual-harness-online-self-improvement`](concepts/continual-harness-online-self-improvement.md) | draft | Reset-free harness refinement — arXiv 2605.09998 (K72) |
+| [`agent-harness-operational-definition`](concepts/agent-harness-operational-definition.md) | draft | T1–T4 membership test for agent harness — 2606.10106 (K109) |
+| [`openagenet-trusted-agent-discovery`](concepts/openagenet-trusted-agent-discovery.md) | draft | OAN pre-connection trust layer — REFERENCE (2606.03161) |
+| [`queen-bee-beespec-enterprise-orchestration`](concepts/queen-bee-beespec-enterprise-orchestration.md) | draft | BeeSpec IR for governed enterprise MCP — 2606.06545 |
+| [`bayesian-posterior-guided-skill-evolution`](concepts/bayesian-posterior-guided-skill-evolution.md) | draft | Posterior-guided skill/SOP evolution — 2606.08348 |
+| [`progressive-autonomy-incident-resolution`](concepts/progressive-autonomy-incident-resolution.md) | draft | Agentic AIOps progressive autonomy — 2606.09122 |
+| [`mcp-adaptive-systems-context-survey`](concepts/mcp-adaptive-systems-context-survey.md) | draft | MCP adaptive-systems survey lens — 2508.19239 |
 | [`tool-eval-license-skepticism-patterns`](concepts/tool-eval-license-skepticism-patterns.md) | draft | K73 license-eval anti-patterns (NO-LICENSE false negatives, BSL parsing) |
 | [`enterprise-auto-mode-telemetry-rollout`](concepts/enterprise-auto-mode-telemetry-rollout.md) | draft | Auto Mode policy rollout via telemetry loops (K73 Post 1) |
 | [`harness-de-bloat-4x4-pattern`](concepts/harness-de-bloat-4x4-pattern.md) | draft | 4-skills/4-agents simplification pattern (K73 Post 2) |
@@ -316,6 +323,12 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`trading-posts-compilation-19-2026-06-07`](sources/trading-posts-compilation-19-2026-06-07.md) | draft | K103 Posts.docx harness cluster — provenance stub |
 | [`arxiv-timeclaw-contextualized-time-series-2606.05404`](sources/arxiv-timeclaw-contextualized-time-series-2606.05404.md) | draft | TimeClaw contextualized time series — 2606.05404 (read) |
 | [`trading-posts-compilation-8-2026-06-09`](sources/trading-posts-compilation-8-2026-06-09.md) | draft | K108 Posts — HIVE / ship / omnifs slice |
+| [`arxiv-agent-harness-operational-definition-2606.10106`](sources/arxiv-agent-harness-operational-definition-2606.10106.md) | draft | Agent harness operational definition — read (K109) |
+| [`arxiv-mcp-externalizing-context-survey-2508.19239`](sources/arxiv-mcp-externalizing-context-survey-2508.19239.md) | draft | MCP adaptive-systems survey — skimmed (K109) |
+| [`arxiv-openagenet-oan-white-paper-2606.03161`](sources/arxiv-openagenet-oan-white-paper-2606.03161.md) | draft | OpenAgenet / OAN white paper — read (K109) |
+| [`arxiv-queen-bee-beespec-enterprise-mcp-2606.06545`](sources/arxiv-queen-bee-beespec-enterprise-mcp-2606.06545.md) | draft | Queen-Bee BeeSpec enterprise MCP — read (K109) |
+| [`arxiv-bayesian-agent-posterior-skill-evolution-2606.08348`](sources/arxiv-bayesian-agent-posterior-skill-evolution-2606.08348.md) | draft | Bayesian-Agent skill evolution — read (K109) |
+| [`arxiv-autonomous-hyperscale-incident-resolution-2606.09122`](sources/arxiv-autonomous-hyperscale-incident-resolution-2606.09122.md) | draft | Autonomous hyperscale incident resolution — read (K109) |
 
 ## meta/
 

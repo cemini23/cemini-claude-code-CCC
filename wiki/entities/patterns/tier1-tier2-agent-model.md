@@ -23,9 +23,10 @@ related:
   - concepts/etclovg-harness-layers.md
   - entities/skills/cursor-audit.md
   - entities/skills/super-audit.md
+  - concepts/queen-bee-beespec-enterprise-orchestration.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-09
+updated: 2026-06-10
 ---
 
 ## Relations

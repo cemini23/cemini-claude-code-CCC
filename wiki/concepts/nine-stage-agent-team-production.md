@@ -9,9 +9,11 @@ related:
   - concepts/agent-completion-verification-gates.md
   - concepts/claude-prompt-engineering-techniques.md
   - sources/trading-posts-compilation-16-2026-05-31.md
+  - concepts/progressive-autonomy-incident-resolution.md
+  - sources/arxiv-autonomous-hyperscale-incident-resolution-2606.09122.md
 maturity: draft
 created: 2026-05-31
-updated: 2026-05-31
+updated: 2026-06-10
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-16-2026-05-31.md"
 ---
 

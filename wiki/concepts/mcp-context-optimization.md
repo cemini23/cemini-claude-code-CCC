@@ -32,9 +32,13 @@ related:
   - sources/arxiv-timeclaw-contextualized-time-series-2606.05404.md
   - entities/tools/omnifs.md
   - sources/trading-posts-compilation-8-2026-06-09.md
+  - concepts/mcp-adaptive-systems-context-survey.md
+  - sources/arxiv-mcp-externalizing-context-survey-2508.19239.md
+  - concepts/openagenet-trusted-agent-discovery.md
+  - concepts/queen-bee-beespec-enterprise-orchestration.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-09
+updated: 2026-06-10
 ---
 
 ## Relations

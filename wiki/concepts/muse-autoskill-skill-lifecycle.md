@@ -19,9 +19,11 @@ related:
   - sources/arxiv-skilladaptor-2606.01311.md
   - concepts/time-series-native-agent-harness.md
   - sources/arxiv-timeclaw-contextualized-time-series-2606.05404.md
+  - concepts/bayesian-posterior-guided-skill-evolution.md
+  - sources/arxiv-bayesian-agent-posterior-skill-evolution-2606.08348.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-08
+updated: 2026-06-10
 ---
 
 ## Relations

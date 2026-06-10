@@ -19,9 +19,10 @@ related:
   - entities/tools/aarri-bench.md
   - sources/arxiv-aarri-research-intern-bench-2606-07462-2026-06-09.md
   - concepts/ship-subagent-writer-reviewer-tester.md
+  - concepts/bayesian-posterior-guided-skill-evolution.md
 maturity: draft
 created: 2026-06-03
-updated: 2026-06-09
+updated: 2026-06-10
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-17-2026-06-03.md"
 ---
 

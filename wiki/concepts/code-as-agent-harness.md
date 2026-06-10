@@ -54,9 +54,11 @@ related:
   - concepts/time-series-native-agent-harness.md
   - sources/arxiv-timeclaw-contextualized-time-series-2606.05404.md
   - entities/tools/timeclaw.md
+  - concepts/agent-harness-operational-definition.md
+  - sources/arxiv-agent-harness-operational-definition-2606.10106.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-06-08
+updated: 2026-06-10
 cross-wiki-source: "@osint-wiki/sources/arxiv-code-as-agent-harness-survey-2605.18747.md"
 ---
 
