@@ -36,9 +36,11 @@ related:
   - sources/arxiv-mcp-externalizing-context-survey-2508.19239.md
   - concepts/openagenet-trusted-agent-discovery.md
   - concepts/queen-bee-beespec-enterprise-orchestration.md
+  - concepts/enterprise-mcp-adoption-practice.md
+  - sources/arxiv-enterprise-mcp-adoption-2606.09182.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-10
+updated: 2026-06-11
 ---
 
 ## Relations

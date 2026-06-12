@@ -12,9 +12,10 @@ related:
   - concepts/skilladaptor-step-level-skill-adaptation.md
   - concepts/agent-rubrics-self-correction.md
   - concepts/skill-vetting.md
+  - concepts/self-harness-model-specific-improvement-loop.md
 maturity: draft
 created: 2026-06-10
-updated: 2026-06-10
+updated: 2026-06-12
 ---
 
 ## Relations

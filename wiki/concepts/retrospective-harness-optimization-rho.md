@@ -21,9 +21,11 @@ related:
   - concepts/rl-agent-labs-system-prompt-learning.md
   - concepts/bayesian-posterior-guided-skill-evolution.md
   - sources/arxiv-bayesian-agent-posterior-skill-evolution-2606.08348.md
+  - concepts/self-harness-model-specific-improvement-loop.md
+  - sources/arxiv-self-harness-improve-themselves-2606.09498.md
 maturity: draft
 created: 2026-06-07
-updated: 2026-06-10
+updated: 2026-06-11
 ---
 
 ## Relations

@@ -4,6 +4,16 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-06-11] ingest | K110 Self-Harness + enterprise MCP interviews
+
+- **Preingest:** 2 NEW (`2606.09498`, `2606.09182`)
+- **Sources (2):** Self-Harness; enterprise MCP adoption (n=20 interviews)
+- **Concepts (2):** `self-harness-model-specific-improvement-loop`, `enterprise-mcp-adoption-practice`
+- **Pages updated (10):** `continual-harness-online-self-improvement`, `retrospective-harness-optimization-rho`, `failed-trajectory-harness-repair`, `agent-completion-verification-gates`, `mcp-server-catalog-curation`, `mcp-server-runtime-fault-taxonomy`, `mcp-context-optimization`, `seclaw-agent-security-evaluation`, `index.md`, `sweeps/2026-06-11-daily.md`
+- **Cross-wiki:** `@cybersecurity-wiki/concepts/enterprise-mcp-adoption-interviews.md`
+- **Phase-0:** Self-Harness **REFERENCE** (no public repo 2026-06-11)
+- **Raw:** 2 PDFs → `raw-sources/`; inbox cleared
+
 ## [2026-06-10] ingest | K109 arXiv harness cluster (6 papers)
 
 - **Preingest:** 6 NEW (`2508.19239`, `2606.03161`, `2606.06545`, `2606.08348`, `2606.09122`, `2606.10106`)

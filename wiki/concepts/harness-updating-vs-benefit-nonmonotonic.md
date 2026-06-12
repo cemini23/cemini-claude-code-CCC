@@ -20,9 +20,10 @@ related:
   - sources/arxiv-adaptive-auto-harness-2606.01770.md
   - concepts/retrospective-harness-optimization-rho.md
   - sources/arxiv-retrospective-harness-optimization-2606.05922.md
+  - concepts/self-harness-model-specific-improvement-loop.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-07
+updated: 2026-06-12
 cross-wiki-source: "@osint-wiki/concepts/harness-updating-vs-benefit-nonmonotonic.md"
 ---
 

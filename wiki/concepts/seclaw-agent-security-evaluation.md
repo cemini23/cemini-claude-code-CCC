@@ -20,9 +20,11 @@ related:
   - concepts/etclovg-harness-layers.md
   - concepts/mcp-server-runtime-fault-taxonomy.md
   - sources/arxiv-mcp-runtime-fault-taxonomy-2606.05339.md
+  - concepts/enterprise-mcp-adoption-practice.md
+  - sources/arxiv-enterprise-mcp-adoption-2606.09182.md
 maturity: draft
 created: 2026-06-04
-updated: 2026-06-06
+updated: 2026-06-11
 cross-wiki-source: "@osint-wiki/concepts/seclaw-agent-security-evaluation.md"
 ---
 

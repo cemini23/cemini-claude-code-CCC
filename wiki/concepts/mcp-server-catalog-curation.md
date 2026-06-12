@@ -22,9 +22,11 @@ related:
   - sources/arxiv-openagenet-oan-white-paper-2606.03161.md
   - concepts/queen-bee-beespec-enterprise-orchestration.md
   - sources/arxiv-queen-bee-beespec-enterprise-mcp-2606.06545.md
+  - concepts/enterprise-mcp-adoption-practice.md
+  - sources/arxiv-enterprise-mcp-adoption-2606.09182.md
 maturity: draft
 created: 2026-06-04
-updated: 2026-06-10
+updated: 2026-06-11
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-18-2026-06-04.md"
 ---
 

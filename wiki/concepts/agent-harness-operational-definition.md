@@ -10,9 +10,11 @@ related:
   - concepts/agent-completion-verification-gates.md
   - entities/tools/claude-code.md
   - concepts/progressive-autonomy-incident-resolution.md
+  - concepts/self-harness-model-specific-improvement-loop.md
+  - sources/arxiv-self-harness-improve-themselves-2606.09498.md
 maturity: draft
 created: 2026-06-10
-updated: 2026-06-10
+updated: 2026-06-12
 ---
 
 ## Relations

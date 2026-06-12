@@ -193,6 +193,8 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`bayesian-posterior-guided-skill-evolution`](concepts/bayesian-posterior-guided-skill-evolution.md) | draft | Posterior-guided skill/SOP evolution — 2606.08348 |
 | [`progressive-autonomy-incident-resolution`](concepts/progressive-autonomy-incident-resolution.md) | draft | Agentic AIOps progressive autonomy — 2606.09122 |
 | [`mcp-adaptive-systems-context-survey`](concepts/mcp-adaptive-systems-context-survey.md) | draft | MCP adaptive-systems survey lens — 2508.19239 |
+| [`self-harness-model-specific-improvement-loop`](concepts/self-harness-model-specific-improvement-loop.md) | draft | Self-Harness weakness→proposal→validation loop — 2606.09498 |
+| [`enterprise-mcp-adoption-practice`](concepts/enterprise-mcp-adoption-practice.md) | draft | Enterprise MCP interviews n=20 — 2606.09182 |
 | [`tool-eval-license-skepticism-patterns`](concepts/tool-eval-license-skepticism-patterns.md) | draft | K73 license-eval anti-patterns (NO-LICENSE false negatives, BSL parsing) |
 | [`enterprise-auto-mode-telemetry-rollout`](concepts/enterprise-auto-mode-telemetry-rollout.md) | draft | Auto Mode policy rollout via telemetry loops (K73 Post 1) |
 | [`harness-de-bloat-4x4-pattern`](concepts/harness-de-bloat-4x4-pattern.md) | draft | 4-skills/4-agents simplification pattern (K73 Post 2) |
@@ -329,6 +331,8 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-queen-bee-beespec-enterprise-mcp-2606.06545`](sources/arxiv-queen-bee-beespec-enterprise-mcp-2606.06545.md) | draft | Queen-Bee BeeSpec enterprise MCP — read (K109) |
 | [`arxiv-bayesian-agent-posterior-skill-evolution-2606.08348`](sources/arxiv-bayesian-agent-posterior-skill-evolution-2606.08348.md) | draft | Bayesian-Agent skill evolution — read (K109) |
 | [`arxiv-autonomous-hyperscale-incident-resolution-2606.09122`](sources/arxiv-autonomous-hyperscale-incident-resolution-2606.09122.md) | draft | Autonomous hyperscale incident resolution — read (K109) |
+| [`arxiv-self-harness-improve-themselves-2606.09498`](sources/arxiv-self-harness-improve-themselves-2606.09498.md) | draft | Self-Harness — read (K110) |
+| [`arxiv-enterprise-mcp-adoption-2606.09182`](sources/arxiv-enterprise-mcp-adoption-2606.09182.md) | draft | Enterprise MCP adoption interviews — read (K110) |
 
 ## meta/
 

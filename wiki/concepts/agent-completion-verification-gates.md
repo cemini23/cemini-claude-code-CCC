@@ -22,9 +22,11 @@ related:
   - concepts/progressive-autonomy-incident-resolution.md
   - sources/arxiv-agent-harness-operational-definition-2606.10106.md
   - sources/arxiv-autonomous-hyperscale-incident-resolution-2606.09122.md
+  - concepts/self-harness-model-specific-improvement-loop.md
+  - sources/arxiv-self-harness-improve-themselves-2606.09498.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-06-10
+updated: 2026-06-11
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-25-2026-05-27.md"
 ---
 

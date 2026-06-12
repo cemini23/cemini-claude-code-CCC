@@ -11,9 +11,10 @@ related:
   - entities/tools/defenseclaw.md
   - concepts/mcp-server-catalog-curation.md
   - concepts/mcp-context-optimization.md
+  - concepts/enterprise-mcp-adoption-practice.md
 maturity: draft
 created: 2026-06-10
-updated: 2026-06-10
+updated: 2026-06-12
 ---
 
 ## Relations

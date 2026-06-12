@@ -5,6 +5,8 @@ tags: [concept, mcp, reliability, fault-taxonomy, arxiv]
 keywords: [2606.05339, mcp-faults, json-rpc, session-lifecycle, tool-execution, fault-injection]
 related:
   - sources/arxiv-mcp-runtime-fault-taxonomy-2606.05339.md
+  - concepts/enterprise-mcp-adoption-practice.md
+  - sources/arxiv-enterprise-mcp-adoption-2606.09182.md
   - concepts/self-healing-agent-sessions.md
   - concepts/mcp-context-optimization.md
   - concepts/mcp-server-catalog-curation.md
@@ -18,7 +20,7 @@ related:
   - sources/arxiv-mcp-externalizing-context-survey-2508.19239.md
 maturity: draft
 created: 2026-06-06
-updated: 2026-06-10
+updated: 2026-06-11
 ---
 
 ## Relations
