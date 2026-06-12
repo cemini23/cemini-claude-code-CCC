@@ -4,6 +4,12 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-06-12] ingest | K113 Hermes tool eval + K112 honesty critic
+
+- **K113** — `sources/multi-wiki-tool-eval-v5-k113-2026-06-12.md`; entities hermes-workspace, skillclaw, wondelai-skills
+- **K112** — `concepts/claude-honesty-critic-agent.md` + `sources/brief-k112-ccc-claude-honesty-critic-2026-06-12.md` from OSINT Posts Post 7
+- **Cross-wiki** — `@osint-wiki/sources/multi-wiki-tool-eval-v5-k113-2026-06-12.md`
+
 ## [2026-06-12] ingest | K111 channel fracture + SkillHone
 
 - **Preingest:** 2 NEW (`2606.04896`, `2606.08671`)
