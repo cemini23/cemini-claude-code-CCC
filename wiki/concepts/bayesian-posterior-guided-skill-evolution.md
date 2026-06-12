@@ -13,6 +13,8 @@ related:
   - concepts/agent-rubrics-self-correction.md
   - concepts/skill-vetting.md
   - concepts/self-harness-model-specific-improvement-loop.md
+  - concepts/skillhone-continual-skill-decision-history.md
+  - sources/arxiv-skillhone-continual-skill-evolution-2606.08671.md
 maturity: draft
 created: 2026-06-10
 updated: 2026-06-12

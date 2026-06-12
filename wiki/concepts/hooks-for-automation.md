@@ -22,9 +22,11 @@ related:
   - concepts/etclovg-harness-layers.md
   - concepts/the-hive-loop-routines-pattern.md
   - sources/trading-posts-compilation-8-2026-06-09.md
+  - concepts/channel-fracture-cross-agent-memory-delivery.md
+  - sources/arxiv-channel-fracture-cross-agent-memory-2606.04896.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-06-09
+updated: 2026-06-12
 ---
 
 ## Relations

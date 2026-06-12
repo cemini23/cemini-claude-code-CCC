@@ -78,9 +78,13 @@ related:
   - sources/arxiv-queen-bee-beespec-enterprise-mcp-2606.06545.md
   - concepts/progressive-autonomy-incident-resolution.md
   - sources/arxiv-autonomous-hyperscale-incident-resolution-2606.09122.md
+  - concepts/channel-fracture-cross-agent-memory-delivery.md
+  - sources/arxiv-channel-fracture-cross-agent-memory-2606.04896.md
+  - concepts/skillhone-continual-skill-decision-history.md
+  - sources/arxiv-skillhone-continual-skill-evolution-2606.08671.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-10
+updated: 2026-06-12
 ---
 
 ## Relations

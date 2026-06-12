@@ -12,9 +12,11 @@ related:
   - concepts/agent-completion-verification-gates.md
   - concepts/agent-harness-operational-definition.md
   - concepts/harness-updating-vs-benefit-nonmonotonic.md
+  - concepts/skillhone-continual-skill-decision-history.md
+  - sources/arxiv-skillhone-continual-skill-evolution-2606.08671.md
 maturity: draft
 created: 2026-06-11
-updated: 2026-06-11
+updated: 2026-06-12
 ---
 
 ## Relations

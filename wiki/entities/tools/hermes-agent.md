@@ -22,9 +22,13 @@ related:
   - sources/trading-posts-compilation-16-2026-05-31.md
   - sources/trading-posts-compilation-17-2026-06-03.md
   - entities/patterns/full-prompt-goal-template.md
+  - concepts/channel-fracture-cross-agent-memory-delivery.md
+  - sources/arxiv-channel-fracture-cross-agent-memory-2606.04896.md
+  - concepts/skillhone-continual-skill-decision-history.md
+  - sources/arxiv-skillhone-continual-skill-evolution-2606.08671.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-06-03
+updated: 2026-06-12
 cross-wiki-source: "@osint-wiki/entities/tools/hermes-agent.md"
 ---
 
@@ -70,6 +74,12 @@ See `@entities/tools/hermes-desktop.md` — Tauri/React GUI (~5.8k★) is a **de
 ### K97 Post 8 — Hermes `/goal` [TENTATIVE]
 
 @zaimiri full guide on Hermes **`/goal`** long-horizon decomposition. **CCC mapping:** `@entities/patterns/full-prompt-goal-template.md` + Stop-hook goal condition on Claude Code — not Hermes install. Compare Codex `/goal` on `@concepts/codex-side-fork-workflow.md`.
+
+### K111 — channel fracture + SkillHone [TENTATIVE]
+
+**2606.04896** documents **channel fracture** on Hermes profiles: cron-delegated cross-agent memory injection fails silently (`skip_memory=True` + memory tools absent in scheduler context). Steal-from: receiver-side verification (`@concepts/channel-fracture-cross-agent-memory-delivery.md`) — applies to conductor/claude-mem/cron hooks on Claude Code too.
+
+**2606.08671 SkillHone** cites Hermes as portable skill-evolution runtime alongside Claude Code/Codex; pairs with Hermes-SE (GEPA) as bounded-run contrast — see `@concepts/skillhone-continual-skill-decision-history.md`. No SkillHone repo — REFERENCE.
 
 ## Snippets
 

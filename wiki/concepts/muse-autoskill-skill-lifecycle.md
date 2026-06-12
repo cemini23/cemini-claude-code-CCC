@@ -21,9 +21,11 @@ related:
   - sources/arxiv-timeclaw-contextualized-time-series-2606.05404.md
   - concepts/bayesian-posterior-guided-skill-evolution.md
   - sources/arxiv-bayesian-agent-posterior-skill-evolution-2606.08348.md
+  - concepts/skillhone-continual-skill-decision-history.md
+  - sources/arxiv-skillhone-continual-skill-evolution-2606.08671.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-10
+updated: 2026-06-12
 ---
 
 ## Relations
@@ -52,6 +54,8 @@ arXiv **2605.27366** — **MUSE** skill lifecycle: create → store → manage �
 **Verdict:** **REFERENCE** — steal **unit-test skills before promotion** pattern; pairs with `@concepts/agent-skills-progressive-disclosure.md` Level-1/2 split; no MUSE framework install without Phase-0.
 
 **Peer (2026-06-06):** `@concepts/skilladaptor-step-level-skill-adaptation.md` (2606.01311) adds **step-level attribution** before refinement — MUSE's evaluation phase answers "is this skill good?"; SkillAdaptor answers "which procedure line caused this failure?"
+
+**Peer (K111):** `@concepts/skillhone-continual-skill-decision-history.md` (2606.08671) adds **persistent decision history** across sessions — MUSE evaluates/refines; SkillHone records diagnosis→revision→evidence→outcome so later sessions do not repeat or regress fixes.
 
 ## Snippets
 

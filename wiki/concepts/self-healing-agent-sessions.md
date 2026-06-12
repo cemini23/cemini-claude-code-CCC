@@ -24,9 +24,10 @@ related:
   - sources/arxiv-skilladaptor-2606.01311.md
   - concepts/retrospective-harness-optimization-rho.md
   - sources/arxiv-retrospective-harness-optimization-2606.05922.md
+  - concepts/channel-fracture-cross-agent-memory-delivery.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-06-07
+updated: 2026-06-12
 cross-wiki-source: "@osint-wiki/sources/arxiv-self-healing-llm-agents-2605.06737.md"
 ---
 

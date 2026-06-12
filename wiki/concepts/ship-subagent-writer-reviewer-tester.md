@@ -12,9 +12,11 @@ related:
   - sources/trading-posts-compilation-8-2026-06-09.md
   - concepts/claude-harness-dynamic-workflows-k88.md
   - concepts/cross-wiki-tool-eval-inventory.md
+  - concepts/skillhone-continual-skill-decision-history.md
+  - sources/arxiv-skillhone-continual-skill-evolution-2606.08671.md
 maturity: draft
 created: 2026-06-09
-updated: 2026-06-09
+updated: 2026-06-12
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-8-2026-06-09.md"
 ---
 
@@ -42,6 +44,8 @@ K108 Post 4 (@0x_rody): **`/ship`** — four files: `writer.md`, `reviewer.md`, 
 **Sweet spot:** multi-file medium tasks. **Skip:** one-liners (overhead > value).
 
 CCC mapping: Task tool scatter-gather + `@concepts/agent-completion-verification-gates.md` + git commit only on explicit operator ask (user rule).
+
+**K111 SkillHone parallel:** eval subagents return **redacted evidence** to optimization subagents — same permission boundary as tester vs writer; see `@concepts/skillhone-continual-skill-decision-history.md`.
 
 **Verdict:** **REFERENCE** — steal file layout for `.claude/agents/` + slash command; no install.
 

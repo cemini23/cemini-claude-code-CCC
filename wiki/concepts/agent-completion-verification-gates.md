@@ -24,9 +24,11 @@ related:
   - sources/arxiv-autonomous-hyperscale-incident-resolution-2606.09122.md
   - concepts/self-harness-model-specific-improvement-loop.md
   - sources/arxiv-self-harness-improve-themselves-2606.09498.md
+  - concepts/channel-fracture-cross-agent-memory-delivery.md
+  - sources/arxiv-channel-fracture-cross-agent-memory-2606.04896.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-06-11
+updated: 2026-06-12
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-25-2026-05-27.md"
 ---
 
@@ -56,6 +58,8 @@ K72 — **agent completion proof**: operators should not babysit every tool call
 ### CCC fit
 
 Pair with `@concepts/claude-premortem-skill.md` (what could fail) and `@entities/patterns/full-prompt-goal-template.md` (what done looks like).
+
+**K111 channel fracture:** cross-agent memory/cron delivery must use **receiver-side proof** (read-back at target store) — writer tool success is insufficient; see `@concepts/channel-fracture-cross-agent-memory-delivery.md` CADVP CC-0 veto.
 
 | Verdict | **REFERENCE (adopt in rules/skills)** |
 

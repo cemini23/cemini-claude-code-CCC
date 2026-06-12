@@ -195,6 +195,8 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`mcp-adaptive-systems-context-survey`](concepts/mcp-adaptive-systems-context-survey.md) | draft | MCP adaptive-systems survey lens — 2508.19239 |
 | [`self-harness-model-specific-improvement-loop`](concepts/self-harness-model-specific-improvement-loop.md) | draft | Self-Harness weakness→proposal→validation loop — 2606.09498 |
 | [`enterprise-mcp-adoption-practice`](concepts/enterprise-mcp-adoption-practice.md) | draft | Enterprise MCP interviews n=20 — 2606.09182 |
+| [`channel-fracture-cross-agent-memory-delivery`](concepts/channel-fracture-cross-agent-memory-delivery.md) | draft | Silent cron cross-agent memory failures — 2606.04896 (K111) |
+| [`skillhone-continual-skill-decision-history`](concepts/skillhone-continual-skill-decision-history.md) | draft | SkillHone decision-history skill evolution — 2606.08671 (K111) |
 | [`tool-eval-license-skepticism-patterns`](concepts/tool-eval-license-skepticism-patterns.md) | draft | K73 license-eval anti-patterns (NO-LICENSE false negatives, BSL parsing) |
 | [`enterprise-auto-mode-telemetry-rollout`](concepts/enterprise-auto-mode-telemetry-rollout.md) | draft | Auto Mode policy rollout via telemetry loops (K73 Post 1) |
 | [`harness-de-bloat-4x4-pattern`](concepts/harness-de-bloat-4x4-pattern.md) | draft | 4-skills/4-agents simplification pattern (K73 Post 2) |
@@ -333,6 +335,8 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-autonomous-hyperscale-incident-resolution-2606.09122`](sources/arxiv-autonomous-hyperscale-incident-resolution-2606.09122.md) | draft | Autonomous hyperscale incident resolution — read (K109) |
 | [`arxiv-self-harness-improve-themselves-2606.09498`](sources/arxiv-self-harness-improve-themselves-2606.09498.md) | draft | Self-Harness — read (K110) |
 | [`arxiv-enterprise-mcp-adoption-2606.09182`](sources/arxiv-enterprise-mcp-adoption-2606.09182.md) | draft | Enterprise MCP adoption interviews — read (K110) |
+| [`arxiv-channel-fracture-cross-agent-memory-2606.04896`](sources/arxiv-channel-fracture-cross-agent-memory-2606.04896.md) | draft | Channel fracture Hermes cron memory — read (K111) |
+| [`arxiv-skillhone-continual-skill-evolution-2606.08671`](sources/arxiv-skillhone-continual-skill-evolution-2606.08671.md) | draft | SkillHone continual skill evolution — read (K111) |
 
 ## meta/
 

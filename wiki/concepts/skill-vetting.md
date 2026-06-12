@@ -89,6 +89,8 @@ related:
   - sources/arxiv-queen-bee-beespec-enterprise-mcp-2606.06545.md
   - concepts/enterprise-mcp-adoption-practice.md
   - sources/arxiv-enterprise-mcp-adoption-2606.09182.md
+  - concepts/skillhone-continual-skill-decision-history.md
+  - sources/arxiv-skillhone-continual-skill-evolution-2606.08671.md
 maturity: draft
 created: 2026-05-17
 updated: 2026-06-12

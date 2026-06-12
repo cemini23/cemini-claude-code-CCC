@@ -20,9 +20,10 @@ related:
   - sources/multi-wiki-tool-eval-v8-k103-2026-06-07.md
   - concepts/claude-skills-folder-taxonomy.md
   - sources/trading-posts-compilation-7-2026-06-09.md
+  - concepts/skillhone-continual-skill-decision-history.md
 maturity: draft
 created: 2026-06-04
-updated: 2026-06-09
+updated: 2026-06-12
 ---
 
 ## Relations

@@ -4,6 +4,15 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-06-12] ingest | K111 channel fracture + SkillHone
+
+- **Preingest:** 2 NEW (`2606.04896`, `2606.08671`)
+- **Sources (2):** Channel Fracture (Hermes cron memory injection); SkillHone (continual skill decision history)
+- **Concepts (2):** `channel-fracture-cross-agent-memory-delivery`, `skillhone-continual-skill-decision-history`
+- **Pages updated (11):** `hermes-agent`, `muse-autoskill-skill-lifecycle`, `bayesian-posterior-guided-skill-evolution`, `self-harness-model-specific-improvement-loop`, `agent-completion-verification-gates`, `subagent-orchestration`, `continual-harness-online-self-improvement`, `skill-vetting`, `ship-subagent-writer-reviewer-tester`, `hooks-for-automation`, `agent-memory-stack-comparison`, `index.md`, `sweeps/2026-06-12-daily.md`
+- **Phase-0:** SkillHone **REFERENCE** (no public repo 2026-06-12); Channel Fracture **pattern-only** (Hermes study, steal receiver-verify)
+- **Raw:** 2 PDFs → `raw-sources/`; inbox cleared
+
 ## [2026-06-11] ingest | K110 Self-Harness + enterprise MCP interviews
 
 - **Preingest:** 2 NEW (`2606.09498`, `2606.09182`)

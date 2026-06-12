@@ -42,9 +42,10 @@ related:
   - concepts/skilladaptor-step-level-skill-adaptation.md
   - sources/arxiv-skilladaptor-2606.01311.md
   - concepts/claude-skills-folder-taxonomy.md
+  - concepts/skillhone-continual-skill-decision-history.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-06-09
+updated: 2026-06-12
 ---
 
 ## Relations
