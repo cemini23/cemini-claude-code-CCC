@@ -2,7 +2,7 @@
 title: Deep research multi-wiki evaluation prompt — version lineage
 type: concept
 tags: [concept, prompt, gemini-deep-research, tool-evaluation, multi-wiki, cursor, claude-code]
-keywords: [v3, v4, v5, v6, eight surfaces, gambling-wiki, CCC wiki, tier classification, anti-hallucination, cross-wiki routing, license posture, world-cup-bot]
+keywords: [v3, v4, v5, v6, v7, nine surfaces, game-dev-wiki, gambling-wiki, CCC wiki, tier classification, anti-hallucination, cross-wiki routing, license posture, world-cup-bot]
 related:
   - concepts/cursor-ide-workspace.md
   - concepts/cross-wiki-routing.md
@@ -13,14 +13,15 @@ related:
   - entities/tools/claude-code.md
   - sources/multi-wiki-tool-eval-v5-k88-2026-05-31.md
   - sources/multi-wiki-tool-eval-v6-k90-2026-05-31.md
+  - @osint-wiki/concepts/game-dev-wiki-federation.md
 maturity: validated
 created: 2026-05-21
-updated: 2026-05-31
+updated: 2026-06-13
 ---
 
 ## Relations
 
-- `@concepts/cursor-ide-workspace.md` — Cursor as primary laptop harness (v4 surface 7)
+- `@concepts/cursor-ide-workspace.md` — Cursor as primary laptop harness (v4 surface 7+)
 - `@concepts/cross-wiki-routing.md` — post-eval stub/brief routing
 - `@concepts/tools-we-dont-use.md` — Phase-0 NO-GO registry cross-check (v5)
 - `@entities/tools/lazy-tool.md` — OSINT project MCP router
@@ -29,14 +30,15 @@ updated: 2026-05-31
 - `@entities/tools/claude-code.md` — secondary harness (v4)
 - `@osint-wiki/sources/multi-wiki-gemini-eval-prompt-2026-05-12.md` — v2 archive on OSINT wiki
 - `@osint-wiki/concepts/tool-evaluation-framework.md` — methodology (bidirectional)
+- `@osint-wiki/concepts/game-dev-wiki-federation.md` — K115 federation + game-dev surface 8
 
 ## Raw Concept
 
-Question: **Where is the canonical copy-paste prompt for bulk URL / repo evaluation across all seven domain/specialist wikis + CCC, and how did it evolve?**
+Question: **Where is the canonical copy-paste prompt for bulk URL / repo evaluation across all eight domain/specialist wikis + CCC, and how did it evolve?**
 
 ## Narrative
 
-Bulk tool evaluation uses **eight surfaces** (Cemini financial + six specialist wikis including **gambling-wiki** + **CCC wiki** as harness meta). There is **no** separate Cursor wiki — Cursor operational detail lives in CCC surface 8 as of v4+.
+Bulk tool evaluation uses **nine surfaces** (Cemini financial + seven specialist wikis including **gambling-wiki** and **game-dev-wiki** + **CCC wiki** as harness meta). There is **no** separate Cursor wiki — Cursor operational detail lives in CCC surface 9 as of v7.
 
 ### Version lineage
 
@@ -47,8 +49,8 @@ Bulk tool evaluation uses **eight surfaces** (Cemini financial + six specialist 
 | v3 | 2026-05-18+ | 7 (**CCC wiki** = surface 7) | `prompts/deep-research-multi-wiki-eval-v3-2026-05-21.md` | Used for K53/K54/K55 batches; frozen |
 | v4 | 2026-05-21 | 7 (CCC = Cursor primary + Claude Code secondary) | `prompts/deep-research-multi-wiki-eval-v4-2026-05-21.md` | Frozen for reproducing K55–K84 batches |
 | v5 | 2026-05-30 | 7 + world-cup-bot inventory + inline license API | `prompts/deep-research-multi-wiki-eval-v5-2026-05-30.md` | Frozen after K88; NO-GO registry, `gh` license lookup |
-| **v6** | **2026-05-31** | **8 (+ `gambling-wiki` surface 3)** | **`prompts/deep-research-multi-wiki-eval-v6-2026-05-31.md`** | Frozen after K114; sports betting / casino / DFS split |
-| **v7** | **2026-06-13** | **9 (+ `game-dev-wiki` surface 9)** | **`prompts/deep-research-multi-wiki-eval-v7-2026-06-13.md`** | **Current default** — hobby game dev, castle/RTS, Godot evals, agent slices |
+| v6 | 2026-05-31 | 8 (+ `gambling-wiki` surface 3) | `prompts/deep-research-multi-wiki-eval-v6-2026-05-31.md` | Frozen after K114; sports betting / casino / DFS split |
+| **v7** | **2026-06-13** | **9 (+ `game-dev-wiki` surface 8)** | **`prompts/deep-research-multi-wiki-eval-v7-2026-06-13.md`** | **Current default** — hobby game dev, castle/RTS, Godot evals, agent slices |
 
 **First v6 production batch:** K90 (2026-05-31, 41 URLs) — `@sources/multi-wiki-tool-eval-v6-k90-2026-05-31.md` (adds gambling-wiki surface).
 
@@ -56,9 +58,10 @@ Bulk tool evaluation uses **eight surfaces** (Cemini financial + six specialist 
 
 ### v7 deltas vs v6 [CONFIRMED 2026-06-13]
 
-1. **`game-dev-wiki` surface 9** — public repo for hobby castle/RTS research, engine Phase-0, vertical slices (`@game-dev-wiki/concepts/game-dev-wiki-scope.md`).
-2. **game-dev vs CCC split** — game-dev-wiki = game design + game-specific harness; ccc-wiki = generic subagent/MCP.
-3. **Nine-column fit matrix** — Game-dev wiki column in per-URL template.
+1. **`game-dev-wiki` surface 8** — public repo for hobby castle/RTS research, engine Phase-0, vertical slices (`@game-dev-wiki/concepts/game-dev-wiki-scope.md`).
+2. **game-dev vs CCC split** — game-dev-wiki = game design + game-specific harness; ccc-wiki (surface 9) = generic subagent/MCP.
+3. **Nine-column fit matrix** — Game-dev wiki column in per-URL template + aggregate summary.
+4. **Cross-routing examples** — Godot RTS kits, engine Phase-0 audits, Claude-Code-Game-Studios steal-from, sprite pipelines → image-gen primary.
 
 ### v6 deltas vs v5 [CONFIRMED 2026-05-31]
 
@@ -76,9 +79,9 @@ Bulk tool evaluation uses **eight surfaces** (Cemini financial + six specialist 
 
 ### Runtime workflow
 
-1. Paste **v6** + URL list into **Gemini Deep Research**.
+1. Paste **v7** + URL list into **Gemini Deep Research**.
 2. On return, open **OSINT WORKSPACE** in Cursor; spot-check Adopt licenses via `gh` / Exa.
-3. Ingest per `@osint-wiki/CLAUDE.md` ingest ops; cross-wiki briefs land in sibling `briefs/` folders; gambling-primary stubs → `@gambling-wiki/`.
+3. Ingest per `@osint-wiki/CLAUDE.md` ingest ops; cross-wiki briefs land in sibling `briefs/` folders; gambling-primary stubs → `@gambling-wiki/`; game-dev-primary stubs → `python3 scripts/cross_wiki_route.py --target-wiki game-dev-wiki` from OSINT.
 
 ### Anti-hallucination lesson (K53/K54)
 
@@ -86,7 +89,8 @@ Gemini's `NO LICENSE FOUND` layer was unreliable on 9–22% of URLs in two v3 ba
 
 ## Snippets
 
-- **v6 canonical:** `../prompts/deep-research-multi-wiki-eval-v6-2026-05-31.md` (relative to this wiki root's parent CCC repo)
+- **v7 canonical:** `../prompts/deep-research-multi-wiki-eval-v7-2026-06-13.md` (relative to this wiki root's parent CCC repo)
+- **v6 frozen:** `../prompts/deep-research-multi-wiki-eval-v6-2026-05-31.md`
 - **v5 frozen:** `../prompts/deep-research-multi-wiki-eval-v5-2026-05-30.md`
 - **v4 frozen:** `../prompts/deep-research-multi-wiki-eval-v4-2026-05-21.md`
 - **v3 frozen:** `../prompts/deep-research-multi-wiki-eval-v3-2026-05-21.md`

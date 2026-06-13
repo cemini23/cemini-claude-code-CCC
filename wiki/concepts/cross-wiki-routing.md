@@ -25,9 +25,12 @@ related:
   - concepts/federated-daily-research-digest.md
   - concepts/autosci-memory-centric-research-agents.md
   - concepts/cross-wiki-tool-adoption-routing.md
+  - concepts/agents-k1-agent-native-knowledge-orchestration.md
+  - concepts/internet-of-agentic-ai-ioai.md
+  - sources/arxiv-agents-k1-knowledge-orchestration-2606.13669.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-04
+updated: 2026-06-13
 ---
 
 ## Relations
@@ -38,9 +41,11 @@ updated: 2026-06-04
 - `@concepts/subagent-orchestration.md` — cross-wiki routing is a canonical multi-subagent dispatch
 - `@entities/mcp-servers/llm-wiki-compiler.md` — candidate compiler whose raw→wiki→schema pipeline mirrors the routing decision
 - `@concepts/cross-wiki-tool-eval-inventory.md` — the consolidated receipt of all CCC-routed tool-eval items; this page describes the routing pattern; that page is the output
-- `@concepts/deep-research-evaluation-prompt.md` — bulk eval prompt (v4) drives tier + cross-routing fields
+- `@concepts/deep-research-evaluation-prompt.md` — bulk eval prompt (v7) drives tier + cross-routing fields
 - `@concepts/cursor-ide-workspace.md` — Cursor-primary ingest spot-check path
 - `@concepts/tools-we-dont-use.md` — reject register for routed-but-toxic tools (ridark lists, ToS bypass)
+- `@concepts/agents-k1-agent-native-knowledge-orchestration.md` — KG-at-scale routing to OSINT librarian track
+- `@concepts/internet-of-agentic-ai-ioai.md` — federation as bounded IoAI operator slice
 
 Cross-wiki: `@osint-wiki/concepts/librarian-server-architecture.md` carries the federation's serving-layer design history.
 
@@ -50,7 +55,7 @@ Question this page answers: **a new source landed in the inbox — which wiki(s)
 
 ## Narrative
 
-The federation has **seven wikis** + private Cemini Financial Suite (CCC meta + six specialist wikis):
+The federation has **eight domain wikis** + private Cemini Financial Suite (CCC meta + seven specialist wikis):
 
 | Alias | Domain |
 |-------|--------|
@@ -61,8 +66,9 @@ The federation has **seven wikis** + private Cemini Financial Suite (CCC meta + 
 | `image-gen-wiki` | Uncensored image generation, model catalogs |
 | `seo-wiki` | Local SEO, GBP, GEO/AEO |
 | `3d-printing-wiki` | FDM/FFF printing, slicers, store ops |
+| `game-dev-wiki` | Hobby game dev — castle/RTS research, Godot/engine evals, vertical slices (public) |
 
-**Bulk eval routing:** `@concepts/deep-research-evaluation-prompt.md` (v6 at `prompts/deep-research-multi-wiki-eval-v6-2026-05-31.md`) — gambling-wiki = surface 3; osint = bots/LP only.
+**Bulk eval routing:** `@concepts/deep-research-evaluation-prompt.md` (v7 at `prompts/deep-research-multi-wiki-eval-v7-2026-06-13.md`) — gambling-wiki = surface 3; game-dev-wiki = surface 8; osint = bots/LP only.
 
 Every wiki's CLAUDE.md has a "Related Wikis" table listing siblings with relative paths. The lint scripts parse this table to resolve `@<alias>/path` references.
 

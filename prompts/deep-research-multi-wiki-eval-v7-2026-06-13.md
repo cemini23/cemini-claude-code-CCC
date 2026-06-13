@@ -1,10 +1,10 @@
 # Cemini Multi-Wiki Link Evaluation Prompt (v7, June 2026)
 
-**Canonical copy-paste prompt.** Supersedes v6 for day-to-day use; v6 remains frozen for K90–K114 batches. for day-to-day use; v5 remains frozen for reproducing K88 and earlier v5 batches.
+**Canonical copy-paste prompt.** Supersedes v6 for day-to-day use; v6 remains frozen for K90–K114 batches.
 
 **Runtime:** Gemini Deep Research (paste this file + URL list). **Post-run:** Cursor Agent on OSINT WORKSPACE with `gh` / Exa MCP for license + star spot-checks before wiki ingest.
 
-**v7 deltas vs v6:** (1) New **`game-dev-wiki`** evaluation surface (surface 9) — hobby game dev, castle/RTS research, Godot/engine evals, agent-assisted vertical slices. (2) Nine surfaces total (was eight). (3) Cross-routing: game-dev-wiki = how to build/design games; ccc-wiki = generic harness; image-gen-wiki = art pipeline.
+**v7 deltas vs v6:** (1) New **`game-dev-wiki`** evaluation surface (surface **8**) — hobby game dev, castle/RTS research, Godot/engine evals, agent-assisted vertical slices. (2) Nine surfaces total (was eight). (3) Cross-routing: game-dev-wiki = how to build/design games; ccc-wiki = generic harness (surface 9); image-gen-wiki = art pipeline.
 
 **v6 deltas vs v5:** (1) New **`gambling-wiki`** evaluation surface (surface 3) — sports betting, casino, poker, DFS, best ball, prediction-market **retail/strategy** (distinct from OSINT bot/LP infra). (2) Eight surfaces total (was seven). (3) Cross-routing split: **gambling-wiki** = how to bet; **osint-wiki** = how to automate PM/Kalshi trading.
 
@@ -75,16 +75,17 @@ Evaluate every URL against all 9. Each surface gets ✅ (clear fit) / ⚠️ (pa
 
 7. **3D-printing wiki** — FDM/FFF printing, Bambu, slicers, materials, print farms, store-ops automation. **Low cross-routing density — most general tools won't fit here.**
 
+8. **Game-dev wiki** — public `game-dev-wiki` repo ([Game-Dev-wiki](https://github.com/cemini23/Game-Dev-wiki)). Hobby game development — castle/RTS design research (Stronghold-inspired), engine Phase-0 evals (Godot, Unity, Bevy), vertical-slice specs, game-specific agent harness (plan → Codex swarm → playtest gate), RTS pathfinding/siege/economy design notes. Served from laptop `Game Dev wiki/wiki/`; librarian sync to `cemini-librarian:/opt/cemini-wiki/game-dev-wiki/wiki/`. Scope canon: `@game-dev-wiki/concepts/game-dev-wiki-scope.md`.
 
-9. **Game-dev wiki** — public `game-dev-wiki` repo ([Game-Dev-wiki](https://github.com/cemini23/Game-Dev-wiki)). Hobby game development — castle/RTS design research (Stronghold-inspired), engine Phase-0 evals (Godot, Unity, Bevy), vertical-slice specs, game-specific agent harness (plan → Codex swarm → playtest gate). Served from laptop `Game Dev wiki/wiki/`; librarian sync to `cemini-librarian:/opt/cemini-wiki/game-dev-wiki/wiki/`.
+   **Scope split:** game-dev-wiki = *how to build/design a game*; **ccc-wiki** = generic subagent/MCP harness; **image-gen-wiki** = sprites/tiles/texture generation; **osint-wiki** = CeminiSuite prod (out of scope).
 
-   **Scope split:** game-dev-wiki = *how to build/design a game*; **ccc-wiki** = generic subagent/MCP harness; **image-gen-wiki** = sprites/tiles generation; **osint-wiki** = CeminiSuite prod (out of scope).
+   **Strong fits:** Godot 4 RTS/grid-building tutorials and addons, Unity/Bevy hobby-RTS evals, lockstep/deterministic multiplayer research (deferred implementation), indie castle-sim / city-builder postmortems, Claude-Code-Game-Studios + agentic game-dev workflow posts (steal orchestration patterns), Stronghold-style economy/siege design articles, open-source building-placement kits.
 
-   **Strong fits:** Godot RTS/building tutorials, grid placement kits, pathfinding for dynamic walls, indie RTS postmortems, Claude-Code-Game-Studios role graphs (steal orchestration only), agent-assisted gamedev workflow posts.
+   **Usually CCC not game-dev:** generic Cursor skills, MCP servers, conductor/lazy-tool — unless README is game-vertical only (e.g. "Godot agent codegen" with no reusable harness primitive).
 
-   **Usually CCC not game-dev:** generic Cursor skills, MCP servers, conductor — unless README is game-vertical only.
+   **Usually image-gen not game-dev:** ComfyUI workflows, LoRA training, persona sprites — stub game-dev only with *import-into-Godot* requirements (`@game-dev-wiki/concepts/art-pipeline-v0-requirements.md` when present).
 
-8. **CCC wiki** (agent harness meta — **Cursor IDE primary**, Claude Code secondary) — documents HOW we run agents on the laptop. **Not an eighth domain wiki** — operational Cursor config lives here alongside Claude Code patterns.
+9. **CCC wiki** (agent harness meta — **Cursor IDE primary**, Claude Code secondary) — documents HOW we run agents on the laptop. **Not a ninth domain wiki** — operational Cursor config lives here alongside Claude Code patterns.
 
    **Cursor (primary, May 2026):**
    - **Open Folder** on project roots so project MCP loads: `OSINT WORKSPACE`, `CeminiSuite`, `Cemini claude code CCC`, `Gambling wiki`, `Game Dev wiki`, sibling wikis.
@@ -149,10 +150,15 @@ For each URL, output:
 - **DFS lineup optimizer / sports ML for betting**: Primary fit = Gambling-wiki. Cross-route OSINT only if repo targets PM/Kalshi bot execution.
 - **Sportsbook arb alert (Pinnacle vs soft book)**: Primary fit = Gambling-wiki (sharp/soft, CLV). Cross-route OSINT if PM×Kalshi cross-venue executor code is included.
 - **Poker solver / GTO study tool**: Primary fit = Gambling-wiki. Cross-route CCC if ships agent/skill packaging.
+- **Godot grid-building / RTS tutorial repo**: Primary fit = Game-dev-wiki. Cross-route CCC if multi-agent harness is the main artifact; cross-route image-gen-wiki if repo is sprite/tile generation only.
+- **Claude-Code-Game-Studios / agentic game-dev studio**: Primary fit = Game-dev-wiki (game harness) + **Steal-from** CCC (role-graph topology). Do not Adopt game assets wholesale.
+- **Unity / Bevy / Godot engine comparison or Phase-0 audit**: Primary fit = Game-dev-wiki. Cross-route CCC only for generic CI/test harness patterns.
+- **Isometric tile / sprite pipeline (ComfyUI, LoRA)**: Primary fit = Image-gen-wiki. Cross-route game-dev-wiki with Godot import notes if asset format matters for castle-sim.
+- **Lockstep / deterministic RTS networking paper or library**: Primary fit = Game-dev-wiki (research lane). Cross-route CCC if lockstep framework is reusable beyond games.
 
 ## License posture (Cemini reject list, current as of 2026-05-30)
 
-**Hard reject for any IP-sale-bearing surface (Cemini financial, OSINT wiki, gambling wiki, cybersec wiki, image-gen wiki, SEO wiki, 3D-printing wiki):**
+**Hard reject for any IP-sale-bearing surface (Cemini financial, OSINT wiki, gambling wiki, game-dev wiki, cybersec wiki, image-gen wiki, SEO wiki, 3D-printing wiki):**
 - AGPL-3.0 (any version)
 - SSPL-1.0
 - EUPL-1.2 (added 2026-05-12 per Taranis-AI)
@@ -188,6 +194,7 @@ After all per-URL evaluations, produce:
 - Cemini financial: N
 - OSINT wiki: N
 - Gambling wiki: N
+- Game-dev wiki: N
 - Cybersec wiki: N
 - Image-gen wiki: N
 - SEO wiki: N
@@ -212,14 +219,14 @@ List the secondary-wiki stubs / briefs that should be created in each non-primar
 
 ## Post-run spot-check (Cursor on OSINT — after Gemini returns)
 
-For every **Adopt** on surfaces 1–7 (and CCC when license affects install):
+For every **Adopt** on surfaces 1–8 (domain wikis) and CCC when license affects install:
 
 1. Re-run `gh api repos/<owner>/<repo> --jq '.license.spdx_id'` — must match report
 2. Confirm repo exists; star count within ~30% of report
 3. Confirm not on Phase-0 NO-GO registry
 4. Log mismatches as `[NEEDS VERIFICATION YYYY-MM-DD]` on ingest — do not silently Adopt
 
-Ingest path: drop report in `research to be indexed/` → `python3 scripts/preingest_check.py --inbox "research to be indexed"` → standard wiki ingest → `scp` raw to `cemini-librarian:/opt/cemini-bulk/research/`.
+Ingest path: drop report in `research to be indexed/` → `python3 scripts/preingest_check.py --inbox "research to be indexed"` → standard wiki ingest → `scp` raw to `cemini-librarian:/opt/cemini-bulk/research/`. Game-dev-primary stubs: `python3 scripts/cross_wiki_route.py --target-wiki game-dev-wiki` from OSINT WORKSPACE.
 
 ## Final reminder
 
