@@ -15,7 +15,7 @@ related:
   - entities/tools/three-man-team.md
 maturity: draft
 created: 2026-05-24
-updated: 2026-05-27
+updated: 2026-06-13
 cross-wiki-source: "@osint-wiki/sources/multi-wiki-tool-eval-36url-wiki-ingestion-2026-05-24.md"
 ---
 
@@ -23,6 +23,7 @@ cross-wiki-source: "@osint-wiki/sources/multi-wiki-tool-eval-36url-wiki-ingestio
 
 - `@concepts/subagent-orchestration.md` — **dedup here** — role-specialized agents map to Explore/Plan/general-purpose dispatch
 - `@entities/patterns/scatter-gather.md` — parallel role fan-out topology
+- `@game-dev-wiki/entities/tools/claude-code-game-studios.md` — game-dev steal-from mirror (K115)
 - `@entities/patterns/citadel-agent-orchestration.md` — apex orchestration comparison
 - `@entities/tools/the-architect.md` — blueprint generator vs game-studio role graphs
 - `@entities/tools/superclaude-framework.md` — cognitive personas overlap

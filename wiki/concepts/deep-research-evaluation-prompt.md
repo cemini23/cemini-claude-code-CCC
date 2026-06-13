@@ -47,11 +47,18 @@ Bulk tool evaluation uses **eight surfaces** (Cemini financial + six specialist 
 | v3 | 2026-05-18+ | 7 (**CCC wiki** = surface 7) | `prompts/deep-research-multi-wiki-eval-v3-2026-05-21.md` | Used for K53/K54/K55 batches; frozen |
 | v4 | 2026-05-21 | 7 (CCC = Cursor primary + Claude Code secondary) | `prompts/deep-research-multi-wiki-eval-v4-2026-05-21.md` | Frozen for reproducing K55–K84 batches |
 | v5 | 2026-05-30 | 7 + world-cup-bot inventory + inline license API | `prompts/deep-research-multi-wiki-eval-v5-2026-05-30.md` | Frozen after K88; NO-GO registry, `gh` license lookup |
-| **v6** | **2026-05-31** | **8 (+ `gambling-wiki` surface 3)** | **`prompts/deep-research-multi-wiki-eval-v6-2026-05-31.md`** | **Current default** — sports betting / casino / DFS / PM retail strategy split from OSINT bots |
-
-**First v5 production batch:** K88 (2026-05-31, 29 URLs) — `@sources/multi-wiki-tool-eval-v5-k88-2026-05-31.md`.
+| **v6** | **2026-05-31** | **8 (+ `gambling-wiki` surface 3)** | **`prompts/deep-research-multi-wiki-eval-v6-2026-05-31.md`** | Frozen after K114; sports betting / casino / DFS split |
+| **v7** | **2026-06-13** | **9 (+ `game-dev-wiki` surface 9)** | **`prompts/deep-research-multi-wiki-eval-v7-2026-06-13.md`** | **Current default** — hobby game dev, castle/RTS, Godot evals, agent slices |
 
 **First v6 production batch:** K90 (2026-05-31, 41 URLs) — `@sources/multi-wiki-tool-eval-v6-k90-2026-05-31.md` (adds gambling-wiki surface).
+
+**First v7 note:** K115 (2026-06-13) — `@game-dev-wiki` bootstrap; no bulk URL batch yet.
+
+### v7 deltas vs v6 [CONFIRMED 2026-06-13]
+
+1. **`game-dev-wiki` surface 9** — public repo for hobby castle/RTS research, engine Phase-0, vertical slices (`@game-dev-wiki/concepts/game-dev-wiki-scope.md`).
+2. **game-dev vs CCC split** — game-dev-wiki = game design + game-specific harness; ccc-wiki = generic subagent/MCP.
+3. **Nine-column fit matrix** — Game-dev wiki column in per-URL template.
 
 ### v6 deltas vs v5 [CONFIRMED 2026-05-31]
 
