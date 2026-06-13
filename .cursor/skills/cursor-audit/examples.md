@@ -38,7 +38,7 @@
 
 1. Read brief; paste Summary + Body + cost claims into audit pack
 2. Mode: `brief-plan`
-3. Models: opus, codex, kimi (`brief-plan` keeps opus; code-debug would use fable)
+3. Models: opus, codex, kimi
 4. Lens: displacement vs existing wiki tooling, statistical claims, phase 1 scope
 5. Run `scripts/skill_audit.py` or `vet briefs/<file>.md --profile brief` after synthesis
 
@@ -61,7 +61,7 @@ Resolution: parent proposes adding explicit n and regime disclosure before ship.
 **Parent:**
 
 1. Mode: `security`
-2. Models: fable, codex, grok (or `opus` if user prefers strategic threat modeling)
+2. Models: opus, codex, grok
 3. Audit pack lists all files in scope + threat model (session fixation, header injection)
 
 ---

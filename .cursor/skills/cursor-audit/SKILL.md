@@ -8,13 +8,13 @@ description: >-
   wants independent model reviews before fixing or shipping.
 license: MIT
 metadata.author: cemini23
-metadata.version: "1.1.0"
+metadata.version: "1.2.0"
 disable-model-invocation: true
 ---
 
 # Cursor audit (multi-model)
 
-Independent opinions from **three different models** catch bugs, bad assumptions, and blind spots a single session misses. Pattern: codex + fable/opus on the same bug surfaced different errors — repeat that deliberately.
+Independent opinions from **three different models** catch bugs, bad assumptions, and blind spots a single session misses. Pattern: codex + opus on the same bug surfaced different errors — repeat that deliberately.
 
 **Tier 1 only** — subagents are `readonly: true`; they report, they do not edit.
 
@@ -71,11 +71,11 @@ Classify into one mode, then read [reference.md](reference.md) for the default t
 1. Always **three models from three provider families** when possible (OpenAI / Anthropic / Google or xAI or Moonshot).
 2. Never dispatch three variants of the same base model.
 3. If the user names models, use those (still aim for diversity).
-4. If a slug is unavailable, substitute from the same **family column** in reference.md (Anthropic: fable → opus → sonnet) and note the swap.
-5. **Anthropic default:** `claude-fable-5-thinking-high` for agentic/coding modes; `claude-opus-4-8-thinking-high` for `brief-plan`. User may override with `models: …, opus, …` or `models: …, fable, …`.
+4. If a slug is unavailable, substitute from the same **family column** in reference.md (Anthropic: opus → sonnet) and note the swap.
+5. **Anthropic default:** `claude-opus-4-8-thinking-high` for all modes. User may override with `models: …, opus, …` or `models: …, sonnet, …`.
 6. Announce the chosen triple to the user before dispatch:
 
-   > Cursor audit — mode: `code-debug` · models: codex, fable, gemini
+   > Cursor audit — mode: `code-debug` · models: codex, opus, gemini
 
 ### Step 3 — Audit pack (shared prompt body)
 
@@ -198,7 +198,7 @@ User can trigger with any of:
 Optional args in the same message:
 
 - `mode: security`
-- `models: codex, fable, gemini` or `models: codex, opus, gemini` (override Anthropic leg)
+- `models: codex, opus, gemini` or `models: codex, sonnet, gemini` (override Anthropic leg)
 - `quick` → `quick-triage`
 - `files: path/a, path/b`
 

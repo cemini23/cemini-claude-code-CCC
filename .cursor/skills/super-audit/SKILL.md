@@ -9,7 +9,7 @@ description: >-
   cursor-audit depth with extra API-backed opinions before prod GO/NO-GO.
 license: MIT
 metadata.author: cemini23
-metadata.version: "1.1.0"
+metadata.version: "1.2.0"
 disable-model-invocation: true
 ---
 
@@ -86,7 +86,7 @@ Classify mode (see [reference.md](reference.md)). Default **5-auditor split**:
 
 | Slot | Channel | Default | Role |
 |------|---------|---------|------|
-| 1 | Cursor Task | `claude-fable-5-thinking-high` | Agentic reasoning / root cause (`opus` for `brief-plan`) |
+| 1 | Cursor Task | `claude-opus-4-8-thinking-high` | Agentic reasoning / root cause |
 | 2 | Cursor Task | `gpt-5.3-codex` | Implementation / patches |
 | 3 | Cursor Task | `gemini-3.1-pro` | Third family / alt structure |
 | 4 | HTTP API | `x-ai/grok-4.3` @ OpenRouter | Adversarial / exploit paths |

@@ -774,6 +774,10 @@ Extends cursor-audit: 3 Cursor Task + 2 HTTP API auditors (OpenRouter/DeepSeek);
 - Backlinks: `@entities/skills/cursor-audit.md`, `@concepts/subagent-orchestration.md`, `@entities/patterns/glasswing-deliberate-disagreement.md`, `@osint-wiki/concepts/llm-routing-deepseek-openrouter-failover.md`
 - Provenance: poker Tournament S1 + WC bot prod super audits
 
+## [2026-06-13] skill | cursor-audit + super-audit — remove Fable 5 defaults
+
+v1.2.0: Anthropic withdrew `claude-fable-5-thinking-high` from Cursor subagents. Opus is now the Anthropic default for all modes; fallback chain is opus → sonnet. Deleted `fable-5-prompting.md`. Mirrored in OSINT + agent-toolkit-demo.
+
 ## [2026-06-09] skill | cursor-audit + super-audit — Claude Fable 5 Anthropic default
 
 v1.1.0: add `claude-fable-5-thinking-high` as default Anthropic leg for agentic/coding modes; opus retained for `brief-plan`.

@@ -10,7 +10,7 @@
 
 1. **Tailor** — `agents/devfun-poker-arena/prompts/tournament_s1_super_audit.md` (S1 win table, S2 struggle, env toggles, VPIP band)
 2. **Pack** — `build_tournament_super_audit_pack.py` (domain-specific) or generic `build_audit_pack.py` with HL artifacts
-3. **Cursor** — fable + codex + gemini, `prod-ship` mode (`opus` if user overrides Anthropic leg)
+3. **Cursor** — opus + codex + gemini, `prod-ship` mode
 4. **API** — `run_tournament_super_audit_api.py` or generic `run_api_auditors.py` (Grok + DeepSeek)
 5. **Synthesize** — `briefs/2026-06-09_tournament-s1-super-audit-synthesis.md`
 
