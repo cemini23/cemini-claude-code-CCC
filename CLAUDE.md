@@ -15,16 +15,16 @@ Local knowledge hub for **how Cemini operates Claude Code** — scoped to:
 
 Audience: **future Cemini sessions reading this back as their reference manual**, plus any LLM librarian asked "how does this human run Claude Code?" Written for LLM consumption — terse, sourced, cross-linked. Not marketing.
 
-This is a **laptop-only** workspace. No remote server sync, no team distribution. Everything lives on this MacBook Pro. The OSINT wiki is the only sibling that syncs to a librarian; CCC, like Cybersecurity / 3D-printing / Image-gen / SEO, stays local.
+This is a **laptop-only** workspace. Raw sources archive to **`cemini-egress-fi:/opt/cemini-bulk/research/ccc/`** via OSINT `archive_raw_to_egress.sh`. No wiki rsync to librarian (decommissioned 2026-06).
 
 ## Architecture — three layers
 
-1. **Raw sources** — immutable. You read them, never modify them. Live locally in `raw-sources/` (gitignored — official Anthropic docs snapshots, blog posts, conference talks, transcripts, repo snapshots, screenshots of Claude Code UI).
+1. **Raw sources** — immutable. Canonical archive: `cemini-egress-fi:/opt/cemini-bulk/research/ccc/` via OSINT `archive_raw_to_egress.sh`.
    - Anthropic docs (`docs.claude.com/en/docs/claude-code/...`) saved as `.md`
    - Repo snapshots of third-party Claude-Code tooling (`claude-mem`, `openspec`, `awesome-ralph`, etc.)
    - Conference / podcast transcripts on Claude Code workflow (`.md`)
    - Screenshots of `.claude/settings.json`, hook configurations, MCP wiring (`.png`)
-   - **Drop pattern**: drop new sources into `research to be indexed/` (transient drop zone). Ingest pipeline reads + synthesizes, then move to `raw-sources/`.
+   - **Drop pattern**: `research to be indexed/` → ingest → archive to egress-fi (local copy removed on success)
 
 2. **The wiki** — LLM-written, human-read. Lives in `wiki/`. Structured pages on tools, MCP servers, hooks, skills, slash commands, patterns, people, and concepts.
 
@@ -170,7 +170,7 @@ Paths below are relative to this CLAUDE.md file's directory. Resolve `../` again
    - If no page: create a stub. Real content accumulates over subsequent ingests
 7. Update `wiki/index.md` — add rows for new pages
 8. Append to `wiki/log.md`: `## [YYYY-MM-DD] ingest | <source title>` with bullets of what changed
-9. **Move raw source to `raw-sources/`**: `mv "research to be indexed/<filename>" raw-sources/`. Verify with `ls raw-sources/<filename>`
+9. **Archive raw to egress-fi**: `bash "../../OSINT WORKSPACE/scripts/archive_raw_to_egress.sh" --wiki-id ccc "research to be indexed/<filename>"` — update source page `Location`
 10. Update `ROADMAP.md` if the ingest opens new follow-ups; stage briefs in `briefs/` if the ingest produced something actionable
 11. A single ingest must touch 3-15 pages. If it touches 0 new pages, ask whether the source is worth ingesting
 
