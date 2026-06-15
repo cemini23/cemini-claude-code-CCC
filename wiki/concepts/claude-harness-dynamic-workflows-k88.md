@@ -18,9 +18,11 @@ related:
   - concepts/the-hive-loop-routines-pattern.md
   - concepts/ship-subagent-writer-reviewer-tester.md
   - sources/trading-posts-compilation-8-2026-06-09.md
+  - concepts/recursive-agent-harness-harness-recursion.md
+  - sources/arxiv-recursive-agent-harnesses-2606.13643.md
 maturity: draft
 created: 2026-05-31
-updated: 2026-06-09
+updated: 2026-06-15
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-42-2026-05-31.md"
 ---
 

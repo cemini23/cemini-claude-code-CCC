@@ -29,9 +29,11 @@ related:
   - concepts/long-thread-context-decay.md
   - concepts/dynamic-workflow-orchestrator-off-model.md
   - sources/trading-posts-compilation-7-2026-06-09.md
+  - concepts/tool-response-context-pruning-summarization.md
+  - sources/arxiv-less-context-better-agents-2606.10209.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-09
+updated: 2026-06-15
 ---
 
 ## Relations

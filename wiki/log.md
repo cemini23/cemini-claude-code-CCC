@@ -4,6 +4,32 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-06-15] ingest | K115 context pruning + memory value + RAH + custom-agent methodology
+
+- **Preingest:** 4 NEW (`2606.10209`, `2606.11869`, `2606.12945`, `2606.13643`)
+- **Sources (4):** Less Context Better Agents; Agents All the Way Down; multi-factor agentic memory; Recursive Agent Harnesses
+- **Concepts (4):** `tool-response-context-pruning-summarization`, `agents-all-the-way-down-custom-methodology`, `multi-factor-agentic-memory-value-model`, `recursive-agent-harness-harness-recursion`
+- **Pages updated (10):** `context-engineering`, `mcp-context-optimization`, `subagent-orchestration`, `code-as-agent-harness`, `agent-memory-stack-comparison`, `claude-mem`, `dynamic-workflow-orchestrator-off-model`, `claude-harness-dynamic-workflows-k88`, `index.md`, `sweeps/2026-06-15-daily.md`
+- **Phase-0:** `scripts/adopt_k115_phase0.sh` — all **REFERENCE**; BorgeAgent 404; RAH npm **NO-GO** (no license)
+- **Brief:** `briefs/2026-06-15_k115-context-memory-recursion-prod.md` → scp `cemini-prod:/opt/cemini/briefs/`
+- **Raw:** 4 PDFs → `raw-sources/`; inbox cleared
+
+## [2026-06-13] ingest | K114 federation — 4 arXiv harness/KG papers
+
+- **Preingest:** 4 NEW (`2606.04602`, `2606.08878`, `2606.12835`, `2606.13669`)
+- **Sources (4):** Parthenon Law (six-layer legal harness); PerspectiveGap (orchestration prompting benchmark); IoAI vision survey; Agents-K1 (agent-native KG)
+- **Concepts (3):** `perspectivegap-orchestration-prompting`, `internet-of-agentic-ai-ioai`, `agents-k1-agent-native-knowledge-orchestration`
+- **Pages updated (9):** `subagent-orchestration`, `conductor-mcp`, `interaction-native-knowledge-harness`, `cross-wiki-routing`, `openagenet-trusted-agent-discovery`, `ship-subagent-writer-reviewer-tester`, `continual-harness-online-self-improvement`, `librarian-kb-server`, `index.md`
+- **Cross-wiki:** `@osint-wiki/concepts/librarian-server-architecture.md` (Agents-K1 serving implications)
+- **Phase-0:** Parthenon **REFERENCE** (`parthenon-skills` on GitHub); Agents-K1 **REFERENCE** (Scholar-KG scale; no Cemini fork); PerspectiveGap **Adopt** benchmark repo for prompt regression; IoAI **REFERENCE** vision only
+- **Raw:** 4 PDFs → `raw-sources/`; inbox cleared
+
+## [2026-06-13] ops | Hermes operator adoption — pre federation ingest
+
+- **Status** — Hermes GO on librarian (gateway + crons) + laptop (SkillClaw + workspace); prod NO-GO unchanged
+- **Pages (6)** — `hermes-agent`, `remote-hermes-access-pattern`, `five-layer-operator-stack`, `agent-memory-stack-comparison`, `agent-personality-file-hermes-openclaw`, `claude-honesty-critic-agent`; stubs `skillclaw`, `hermes-workspace`
+- **Cross-wiki** — `@osint-wiki/concepts/hermes-laptop-operator-playbook.md` canon
+
 ## [2026-06-12] ingest | K113 Hermes tool eval + K112 honesty critic
 
 - **K113** — `sources/multi-wiki-tool-eval-v5-k113-2026-06-12.md`; entities hermes-workspace, skillclaw, wondelai-skills

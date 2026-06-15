@@ -15,9 +15,11 @@ related:
   - entities/skills/cursor-audit.md
   - entities/skills/super-audit.md
   - concepts/retrospective-harness-optimization-rho.md
+  - concepts/perspectivegap-orchestration-prompting.md
+  - sources/arxiv-perspectivegap-multi-agent-orchestration-2606.08878.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-06-09
+updated: 2026-06-15
 cross-wiki-source: "@osint-wiki/sources/analyzing-github-projects-agentic-infra-2026-05-21.md"
 ---
 

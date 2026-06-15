@@ -28,9 +28,10 @@ related:
   - concepts/agents-k1-agent-native-knowledge-orchestration.md
   - concepts/internet-of-agentic-ai-ioai.md
   - sources/arxiv-agents-k1-knowledge-orchestration-2606.13669.md
+  - sources/arxiv-internet-of-agentic-ai-2606.12835.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-13
+updated: 2026-06-15
 ---
 
 ## Relations

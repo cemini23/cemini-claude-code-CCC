@@ -34,9 +34,11 @@ related:
   - concepts/long-thread-context-decay.md
   - concepts/time-series-native-agent-harness.md
   - sources/arxiv-timeclaw-contextualized-time-series-2606.05404.md
+  - concepts/multi-factor-agentic-memory-value-model.md
+  - sources/arxiv-multi-factor-agentic-memory-2606.12945.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-08
+updated: 2026-06-15
 ---
 
 ## Relations

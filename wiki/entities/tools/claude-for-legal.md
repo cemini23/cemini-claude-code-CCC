@@ -8,9 +8,10 @@ related:
   - entities/patterns/full-prompt-goal-template.md
   - entities/mcp-servers/anthropic-skills.md
   - entities/commands/plugin.md
+  - sources/arxiv-parthenon-law-self-evolving-legal-agent-2606.04602.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-05-16
+updated: 2026-06-15
 phase_0_verdict: STEAL-FROM-CONFIRMED
 cross-wiki-source: "@osint-wiki/sources/tool-eval-wiki-fit-v3-iteration-2026-05-16.md"
 ---

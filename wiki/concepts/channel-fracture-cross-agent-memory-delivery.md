@@ -11,9 +11,11 @@ related:
   - concepts/agent-memory-stack-comparison.md
   - concepts/hooks-for-automation.md
   - concepts/self-healing-agent-sessions.md
+  - concepts/multi-factor-agentic-memory-value-model.md
+  - concepts/perspectivegap-orchestration-prompting.md
 maturity: draft
 created: 2026-06-12
-updated: 2026-06-12
+updated: 2026-06-15
 ---
 
 ## Relations

@@ -10,9 +10,11 @@ related:
   - concepts/agent-memory-stack-comparison.md
   - sources/trading-posts-compilation-16-2026-05-31.md
   - sources/trading-posts-compilation-12-2026-06-01.md
+  - "@osint-wiki/concepts/hermes-laptop-operator-playbook.md"
+  - concepts/claude-honesty-critic-agent.md
 maturity: draft
 created: 2026-05-31
-updated: 2026-06-01
+updated: 2026-06-13
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-16-2026-05-31.md"
 ---
 
@@ -35,9 +37,9 @@ K90 Post 2 / **K92 Post 12** (@Voxyz_ai): **agent personality file** — structu
 | Voice + tone | `@concepts/claude-md-five-section-template.md` Style section |
 | Hard boundaries | `.cursor/rules/` + hook allowlists |
 | Anti-patterns | `@concepts/tools-we-dont-use.md` |
-| Session memory | `@entities/tools/claude-mem.md` — not Hermes `MEMORY.md` in prod |
+| Session memory | `@entities/tools/claude-mem.md` in Claude Code; Hermes `MEMORY.md`/`USER.md`/`SOUL.md` on operator path `[CONFIRMED 2026-06-13]` |
 
-**Verdict:** **REFERENCE** — steal file structure into project rules; Hermes/OpenClaw remain reference-only.
+**Verdict:** **PARTIAL ADOPT** — SOUL.md + honesty boundaries deployed on Hermes librarian; file structure also maps to `@concepts/claude-md-five-section-template.md` and `.cursor/rules/`.
 
 ## Snippets
 

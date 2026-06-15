@@ -26,9 +26,11 @@ related:
   - sources/arxiv-self-harness-improve-themselves-2606.09498.md
   - concepts/channel-fracture-cross-agent-memory-delivery.md
   - sources/arxiv-channel-fracture-cross-agent-memory-2606.04896.md
+  - concepts/perspectivegap-orchestration-prompting.md
+  - sources/arxiv-perspectivegap-multi-agent-orchestration-2606.08878.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-06-12
+updated: 2026-06-15
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-25-2026-05-27.md"
 ---
 

@@ -30,9 +30,10 @@ related:
   - sources/arxiv-self-harness-improve-themselves-2606.09498.md
   - concepts/skillhone-continual-skill-decision-history.md
   - sources/arxiv-skillhone-continual-skill-evolution-2606.08671.md
+  - sources/arxiv-parthenon-law-self-evolving-legal-agent-2606.04602.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-06-12
+updated: 2026-06-13
 cross-wiki-source: "@osint-wiki/concepts/continual-harness-online-self-improvement.md"
 ---
 
@@ -62,6 +63,8 @@ K72 arXiv **2605.09998** — agents improve **prompts, sub-agents, skills, memor
 | Verdict | **REFERENCE** — pairs with K72 workflow posts on memory/harness |
 
 **Peer (2026-06-07):** `@concepts/retrospective-harness-optimization-rho.md` (2606.05922) — single-round label-free harness update via self-preference; complements continual online refinement without requiring validation sets.
+
+**Peer (2026-06-13):** `@sources/arxiv-parthenon-law-self-evolving-legal-agent-2606.04602.md` (2606.04602) — anti-leakage solver–evaluator–learner edits to Skills/Tools/Knowledge on scored legal matters; harness-only, no weight updates.
 
 ## Snippets
 

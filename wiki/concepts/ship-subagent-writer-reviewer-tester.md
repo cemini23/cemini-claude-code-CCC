@@ -14,9 +14,15 @@ related:
   - concepts/cross-wiki-tool-eval-inventory.md
   - concepts/skillhone-continual-skill-decision-history.md
   - sources/arxiv-skillhone-continual-skill-evolution-2606.08671.md
+  - concepts/perspectivegap-orchestration-prompting.md
+  - sources/arxiv-perspectivegap-multi-agent-orchestration-2606.08878.md
+  - concepts/agents-all-the-way-down-custom-methodology.md
+  - concepts/claude-honesty-critic-agent.md
+  - sources/arxiv-parthenon-law-self-evolving-legal-agent-2606.04602.md
+  - sources/brief-k112-ccc-claude-honesty-critic-2026-06-12.md
 maturity: draft
 created: 2026-06-09
-updated: 2026-06-12
+updated: 2026-06-15
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-8-2026-06-09.md"
 ---
 
@@ -27,6 +33,7 @@ cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-8-2026-06-09.m
 - `@concepts/agent-rubrics-self-correction.md` — reviewer gate
 - `@concepts/agent-completion-verification-gates.md` — human approve before commit
 - `@sources/trading-posts-compilation-8-2026-06-09.md` — K108 Post 4 (@0x_rody)
+- `@concepts/perspectivegap-orchestration-prompting.md` — need-only boundary failures on generated role prompts
 
 ## Raw Concept
 

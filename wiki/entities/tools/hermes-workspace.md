@@ -9,7 +9,7 @@ related:
   - "@osint-wiki/entities/tools/hermes-workspace.md"
 maturity: draft
 created: 2026-06-12
-updated: 2026-06-12
+updated: 2026-06-13
 ---
 
 ## Relations
@@ -19,4 +19,4 @@ updated: 2026-06-12
 
 ## Narrative
 
-Web GUI for Hermes Agent (chat, terminal, memory, skills, Monaco). Laptop eval only — complements Cursor + lazy-tool. See OSINT entity for stars/license audit.
+Web GUI for Hermes Agent (chat, terminal, memory, skills, Monaco). **GO** on laptop dev profile — complements Cursor + lazy-tool. See `@osint-wiki/entities/tools/hermes-workspace.md` for license + Phase-0.

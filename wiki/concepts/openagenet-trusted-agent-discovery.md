@@ -9,9 +9,11 @@ related:
   - concepts/skill-vetting.md
   - concepts/mcp-context-optimization.md
   - concepts/enterprise-mcp-adoption-practice.md
+  - concepts/internet-of-agentic-ai-ioai.md
+  - sources/arxiv-internet-of-agentic-ai-2606.12835.md
 maturity: draft
 created: 2026-06-10
-updated: 2026-06-12
+updated: 2026-06-13
 ---
 
 ## Relations
@@ -19,6 +21,7 @@ updated: 2026-06-12
 - `@sources/arxiv-openagenet-oan-white-paper-2606.03161.md` — white paper provenance
 - `@concepts/mcp-server-catalog-curation.md` — MCP registry vs resource-first discovery
 - `@concepts/skill-vetting.md` — Phase-0 trust evidence before install
+- `@concepts/internet-of-agentic-ai-ioai.md` — IoAI trust/identity research agenda (K114)
 
 ## Raw Concept
 

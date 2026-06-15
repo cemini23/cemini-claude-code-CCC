@@ -12,9 +12,10 @@ related:
   - entities/tools/claude-mem.md
   - sources/trading-posts-compilation-19-2026-06-07.md
   - concepts/cross-wiki-tool-eval-inventory.md
+  - concepts/tool-response-context-pruning-summarization.md
 maturity: draft
 created: 2026-06-07
-updated: 2026-06-07
+updated: 2026-06-15
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-19-2026-06-07.md"
 ---
 

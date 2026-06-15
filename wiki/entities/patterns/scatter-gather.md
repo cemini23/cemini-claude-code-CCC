@@ -21,9 +21,13 @@ related:
   - concepts/agent-five-gate-org-chart.md
   - concepts/dynamic-workflow-orchestrator-off-model.md
   - concepts/ship-subagent-writer-reviewer-tester.md
+  - concepts/perspectivegap-orchestration-prompting.md
+  - concepts/recursive-agent-harness-harness-recursion.md
+  - sources/arxiv-perspectivegap-multi-agent-orchestration-2606.08878.md
+  - sources/arxiv-recursive-agent-harnesses-2606.13643.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-06-09
+updated: 2026-06-15
 cross-wiki-source: "@osint-wiki/concepts/scatter-gather-topology.md"
 ---
 

@@ -10,9 +10,10 @@ related:
   - concepts/cross-wiki-routing.md
   - concepts/interaction-native-knowledge-harness.md
   - sources/arxiv-interaction-native-knowledge-harness-2606.01886.md
+  - concepts/agents-k1-agent-native-knowledge-orchestration.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-06-04
+updated: 2026-06-15
 cross-wiki-source: "@osint-wiki/sources/atomicmemory-llm-wiki-compiler.md"
 ---
 

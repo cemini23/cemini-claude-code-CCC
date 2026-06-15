@@ -12,9 +12,11 @@ related:
   - concepts/federated-daily-research-digest.md
   - entities/tools/claude-mem.md
   - concepts/monokern-compounding-research-pipeline.md
+  - concepts/agents-k1-agent-native-knowledge-orchestration.md
+  - sources/arxiv-agents-k1-knowledge-orchestration-2606.13669.md
 maturity: draft
 created: 2026-06-04
-updated: 2026-06-04
+updated: 2026-06-13
 ---
 
 ## Relations
@@ -27,6 +29,8 @@ updated: 2026-06-04
 - `@osint-wiki/concepts/interaction-native-knowledge-harness.md` — financial temporal graph + governance (ingested 2026-06-04)
 - `@osint-wiki/sources/arxiv-interaction-native-knowledge-harness-2606.01886.md` — OSINT source mirror
 - OSINT handoff brief: `briefs/2026-06-04_inkh-financial-knowledge-harness-osint-handoff.md` (financial deployment)
+- `@concepts/agents-k1-agent-native-knowledge-orchestration.md` — agent-native multimodal KG pipeline (K114)
+- `@sources/arxiv-agents-k1-knowledge-orchestration-2606.13669.md` — Scholar-KG / GraphAnything provenance
 
 ## Raw Concept
 

@@ -56,9 +56,13 @@ related:
   - entities/tools/timeclaw.md
   - concepts/agent-harness-operational-definition.md
   - sources/arxiv-agent-harness-operational-definition-2606.10106.md
+  - concepts/recursive-agent-harness-harness-recursion.md
+  - sources/arxiv-recursive-agent-harnesses-2606.13643.md
+  - concepts/agents-all-the-way-down-custom-methodology.md
+  - sources/arxiv-agents-all-the-way-down-2606.11869.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-06-10
+updated: 2026-06-15
 cross-wiki-source: "@osint-wiki/sources/arxiv-code-as-agent-harness-survey-2605.18747.md"
 ---
 

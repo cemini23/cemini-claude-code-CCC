@@ -24,7 +24,7 @@ related:
   - sources/arxiv-timeclaw-contextualized-time-series-2606.05404.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-06-08
+updated: 2026-06-14
 cross-wiki-source: "@osint-wiki/sources/alash3al-stash.md"
 ---
 
@@ -41,7 +41,7 @@ cross-wiki-source: "@osint-wiki/sources/alash3al-stash.md"
 
 ## Raw Concept
 
-CCC-side stub for the stash MCP server. `github.com/alash3al/stash` — single-binary Go MCP server backed by PostgreSQL + pgvector, with an 8-stage consolidation pipeline for episodic memory. Apache-2.0. OSINT verdict: Wave 5A **Adopt-but-fork-and-pin** (single contributor, 6 days old at evaluation, bus-factor risk). Deployed on `cemini-librarian` (Hetzner CPX21). This stub catalogues the Claude-Code-side relevance; full audit lives in the OSINT source page.
+CCC-side stub for the stash MCP server. `[OFFLINE 2026-06-14]` Librarian host deleted — stash MCP tunnel (`localhost:8088`) unavailable unless operator restores from snapshot. Full audit: `@osint-wiki/sources/alash3al-stash.md`.
 
 ## Narrative
 

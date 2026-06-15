@@ -26,9 +26,10 @@ related:
   - sources/arxiv-channel-fracture-cross-agent-memory-2606.04896.md
   - concepts/skillhone-continual-skill-decision-history.md
   - sources/arxiv-skillhone-continual-skill-evolution-2606.08671.md
+  - "@osint-wiki/concepts/hermes-laptop-operator-playbook.md"
 maturity: draft
 created: 2026-05-21
-updated: 2026-06-12
+updated: 2026-06-13
 cross-wiki-source: "@osint-wiki/entities/tools/hermes-agent.md"
 ---
 
@@ -54,14 +55,15 @@ K64 OSINT brief (`2026-05-24_k64-polymarket-wallet-pipeline-cemini.md`) flags Po
 
 ## Narrative
 
-### CCC posture [CONFIRMED via OSINT canon 2026-05-24]
+### CCC posture [CONFIRMED via OSINT canon 2026-05-24; deployed 2026-06-13]
 
 | Question | Answer |
 |----------|--------|
-| Adopt for Cemini prod? | **No** — duplicates `@entities/tools/conductor-mcp.md` + librarian stack |
-| CCC value | **Reference** — `MEMORY.md`/`USER.md` snapshot pattern; auto-written skills after multi-step tasks; model-orchestra routing playbooks |
+| Adopt for Cemini prod? | **No** — duplicates `@entities/tools/conductor-mcp.md` + trading stack |
+| Adopt for operator layer? | **Yes (GO)** — librarian gateway + Telegram + cron; laptop SkillClaw + workspace. See `@osint-wiki/concepts/hermes-laptop-operator-playbook.md` |
+| CCC value | **Reference + partial adopt** — `MEMORY.md`/`USER.md`/`SOUL.md` deployed; honesty-critic + librarian-readonly skills; steal auto-skill loop + model-orchestra routing |
 | License | MIT (`NousResearch/hermes-agent`) — verified on OSINT entity page |
-| vs Claude Code | Hermes is a standalone runtime; Cemini uses Claude Code + conductor MCP, not Hermes install |
+| vs Claude Code | Hermes handles phone/cron/always-on; Claude Code + Cursor remain wiki ingest/lint/commit harness |
 
 ### K64 catalog (Post 2) [TENTATIVE]
 

@@ -44,9 +44,13 @@ related:
   - concepts/seclaw-agent-security-evaluation.md
   - concepts/etclovg-harness-layers.md
   - sources/arxiv-aarri-research-intern-bench-2606-07462-2026-06-09.md
+  - concepts/internet-of-agentic-ai-ioai.md
+  - sources/arxiv-internet-of-agentic-ai-2606.12835.md
+  - concepts/agents-k1-agent-native-knowledge-orchestration.md
+  - sources/arxiv-agents-k1-knowledge-orchestration-2606.13669.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-09
+updated: 2026-06-13
 ---
 
 ## Relations
@@ -58,6 +62,8 @@ updated: 2026-06-09
 - `@entities/patterns/scatter-gather.md` — the conductor's cross-wiki query routing is a scatter-gather application
 - `@concepts/code-as-agent-harness.md` — conductor as harness-interface routing layer
 - `@concepts/self-healing-agent-sessions.md` — conductor fan-out failures and fallback policy
+- `@concepts/internet-of-agentic-ai-ioai.md` — bounded private IoAI slice vs open discovery
+- `@concepts/agents-k1-agent-native-knowledge-orchestration.md` — KG substrate complement to conductor queries
 - `@entities/tools/hermes-agent.md` — parallel personal-agent runtime (reference only; K64 routing)
 
 Cross-wiki: `@osint-wiki/concepts/conductor-orchestrator.md` covers the design history and the FastMCP-based implementation.
@@ -68,7 +74,7 @@ Cross-wiki: `@osint-wiki/concepts/conductor-orchestrator.md` covers the design h
 
 **Why it exists**: the federation has five wikis, each with its own `index.md` and entity tree. A naive cross-wiki query forces Claude Code to round-robin-read every `index.md`, then every matched page — burning context and tokens. The conductor offloads that fan-out into a **single subagent invocation** (`@concepts/subagent-orchestration.md`) backed by the librarian's kb-server, returning a synthesized brief to the parent session.
 
-**Backend**: the conductor delegates retrieval to `librarian-kb-server` (`@entities/mcp-servers/librarian-kb-server.md`) — a REST API on `cemini-librarian:8080` (Hetzner) serving the wikis. CCC, like Cybersecurity / 3D-printing / Image-gen / SEO, is **laptop-only**; if the conductor needs to query CCC content it reads CCC's local `wiki/` directory directly rather than via the server. Mixed-deployment routing is handled per-wiki-alias.
+**Backend (2026-06-14):** `cemini-librarian` **deleted** — kb-server offline. Conductor must read local `wiki/` trees per `wiki-alias` (laptop paths). Historical: delegated to `librarian-kb-server` on Hetzner. See `@osint-wiki/meta/librarian-decommission-2026-06-14.md`.
 
 **Cost vs benefit**: each conductor_query call costs one subagent's startup tokens (~1-3K). Worth it when the query genuinely needs ≥3 wikis or ≥10 pages; not worth it for a single-page lookup.
 

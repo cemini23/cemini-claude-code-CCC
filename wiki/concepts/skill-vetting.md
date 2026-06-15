@@ -91,9 +91,12 @@ related:
   - sources/arxiv-enterprise-mcp-adoption-2606.09182.md
   - concepts/skillhone-continual-skill-decision-history.md
   - sources/arxiv-skillhone-continual-skill-evolution-2606.08671.md
+  - concepts/agents-all-the-way-down-custom-methodology.md
+  - concepts/claude-honesty-critic-agent.md
+  - sources/arxiv-agents-all-the-way-down-2606.11869.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-06-12
+updated: 2026-06-15
 ---
 
 ## Relations

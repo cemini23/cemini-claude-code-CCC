@@ -9,9 +9,10 @@ related:
   - concepts/agent-token-discipline-openclaw-hermes.md
   - entities/tools/conductor-mcp.md
   - sources/trading-posts-compilation-16-2026-05-31.md
+  - "@osint-wiki/concepts/hermes-laptop-operator-playbook.md"
 maturity: draft
 created: 2026-05-31
-updated: 2026-05-31
+updated: 2026-06-13
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-16-2026-05-31.md"
 ---
 
@@ -28,9 +29,9 @@ K90 Post 11 (@tonbistudio): **remote Hermes** access — operate a hosted Hermes
 
 ## Narrative
 
-**CCC posture:** messaging-gateway + 24/7 agent = `@concepts/agent-token-discipline-openclaw-hermes.md` anti-pattern for prod. Steal **remote monitoring UX** ideas only; prod stays conductor + Claude Code with explicit session boundaries.
+**CCC posture:** messaging-gateway + 24/7 agent = `@concepts/agent-token-discipline-openclaw-hermes.md` anti-pattern for **prod trading**. **Operator path:** pattern **implemented** on `cemini-librarian` (Telegram inbound + cron alerts) `[CONFIRMED 2026-06-13]`. Prod stays conductor + Claude Code; Hermes gets operator-only secrets (no `/opt/cemini` write).
 
-**Verdict:** **REFERENCE** — do not wire prod credentials into remote Hermes gateways.
+**Verdict:** **ADOPTED (operator)** — reference K90 Post 11; canon deployment in `@osint-wiki/concepts/hermes-laptop-operator-playbook.md`.
 
 ## Snippets
 

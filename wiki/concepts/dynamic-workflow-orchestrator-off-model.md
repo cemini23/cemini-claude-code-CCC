@@ -13,9 +13,11 @@ related:
   - entities/tools/conductor-mcp.md
   - concepts/the-hive-loop-routines-pattern.md
   - sources/trading-posts-compilation-8-2026-06-09.md
+  - concepts/recursive-agent-harness-harness-recursion.md
+  - sources/arxiv-recursive-agent-harnesses-2606.13643.md
 maturity: draft
 created: 2026-06-09
-updated: 2026-06-09
+updated: 2026-06-15
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-7-2026-06-09.md"
 ---
 

@@ -9,9 +9,12 @@ related:
   - concepts/skill-vetting.md
   - sources/brief-k112-ccc-claude-honesty-critic-2026-06-12.md
   - "@osint-wiki/sources/trading-posts-compilation-9-2026-06-12.md"
+  - "@osint-wiki/concepts/hermes-laptop-operator-playbook.md"
+  - concepts/agent-personality-file-hermes-openclaw.md
+  - concepts/agents-all-the-way-down-custom-methodology.md
 maturity: draft
 created: 2026-06-12
-updated: 2026-06-12
+updated: 2026-06-15
 ---
 
 ## Relations
@@ -41,6 +44,10 @@ Pre-decision `@critic` for architectural choices costing >1h. Output: restate â†
 ### Contractor trick
 
 Re-attribute emotionally attached ideas to a third party to unlock harsher review in same session.
+
+### Hermes port `[CONFIRMED]` 2026-06-13
+
+Same protocol ported to Hermes operator stack: `~/.hermes/SOUL.md` (voice, boundaries, anti-patterns, model-routing honesty) + `honesty-critic` skill on librarian. Cursor/Claude Code keep `@critic` subagent; Hermes keeps phone/cron surface honest. See `@osint-wiki/concepts/hermes-laptop-operator-playbook.md`.
 
 ### Mistakes
 

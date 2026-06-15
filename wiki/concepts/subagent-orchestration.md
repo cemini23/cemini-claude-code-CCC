@@ -82,9 +82,21 @@ related:
   - sources/arxiv-channel-fracture-cross-agent-memory-2606.04896.md
   - concepts/skillhone-continual-skill-decision-history.md
   - sources/arxiv-skillhone-continual-skill-evolution-2606.08671.md
+  - concepts/perspectivegap-orchestration-prompting.md
+  - sources/arxiv-perspectivegap-multi-agent-orchestration-2606.08878.md
+  - concepts/internet-of-agentic-ai-ioai.md
+  - sources/arxiv-internet-of-agentic-ai-2606.12835.md
+  - sources/arxiv-parthenon-law-self-evolving-legal-agent-2606.04602.md
+  - concepts/recursive-agent-harness-harness-recursion.md
+  - sources/arxiv-recursive-agent-harnesses-2606.13643.md
+  - concepts/tool-response-context-pruning-summarization.md
+  - sources/arxiv-less-context-better-agents-2606.10209.md
+  - concepts/claude-honesty-critic-agent.md
+  - entities/tools/hermes-workspace.md
+  - sources/brief-k112-ccc-claude-honesty-critic-2026-06-12.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-12
+updated: 2026-06-15
 ---
 
 ## Relations
@@ -116,6 +128,10 @@ updated: 2026-06-12
 - `@concepts/claude-code-personal-os-scope.md` — scope warning vs unbounded personal-OS workspace (K67)
 - `@entities/skills/cursor-audit.md` — three parallel Task subagents on different models; readonly Tier 1 audit synthesis
 - `@entities/skills/super-audit.md` — five-auditor pre-ship council (3 Task + 2 HTTP API); tailored audit packs on disk
+- `@concepts/perspectivegap-orchestration-prompting.md` — K114 need-only failure taxonomy for subagent prompts
+- `@sources/arxiv-perspectivegap-multi-agent-orchestration-2606.08878.md` — orchestration prompting benchmark
+- `@concepts/internet-of-agentic-ai-ioai.md` — Internet-scale MAS vision vs harness-local dispatch
+- `@sources/arxiv-parthenon-law-self-evolving-legal-agent-2606.04602.md` — solver–evaluator–learner role isolation
 
 Cross-wiki: `@osint-wiki/concepts/conductor-orchestrator.md` carries the OSINT-side conductor history (parallel subagent dispatch for cross-wiki queries).
 

@@ -15,9 +15,10 @@ related:
   - entities/mcp-servers/anthropic-skills.md
   - concepts/subagent-orchestration.md
   - entities/tools/hermes-agent.md
+  - sources/arxiv-parthenon-law-self-evolving-legal-agent-2606.04602.md
 maturity: draft
 created: 2026-06-12
-updated: 2026-06-12
+updated: 2026-06-15
 ---
 
 ## Relations

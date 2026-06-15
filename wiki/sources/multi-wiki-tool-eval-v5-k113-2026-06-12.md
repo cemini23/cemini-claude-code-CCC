@@ -8,10 +8,12 @@ related:
   - entities/tools/skillclaw.md
   - entities/tools/wondelai-skills.md
   - "@osint-wiki/sources/multi-wiki-tool-eval-v5-k113-2026-06-12.md"
+  - entities/tools/ai-research-skills.md
+  - entities/tools/all-agentic-architectures.md
 maturity: draft
 read_status: read
 created: 2026-06-12
-updated: 2026-06-12
+updated: 2026-06-15
 ---
 
 ## Relations

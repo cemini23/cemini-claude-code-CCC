@@ -16,7 +16,7 @@ related:
   - concepts/claude-cowork-automation-vs-hooks.md
 maturity: draft
 created: 2026-05-30
-updated: 2026-06-03
+updated: 2026-06-13
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-6-2026-05-29.md"
 ---
 
@@ -43,7 +43,7 @@ K78 Post 4 (@DamiDefi): a **five-layer operator stack** where each tool owns a n
 |-------|----------------|----------------|---------|
 | Reasoning | Claude (200K context) | `@entities/tools/claude-code.md` + Anthropic API | **Adopt** — primary harness |
 | Memory | Obsidian vault | Git-backed markdown wikis + `@entities/tools/claude-mem.md` + `hot.md` | **Adopt pattern** — no `@entities/tools/claude-obsidian.md` plugin |
-| Automation | Hermes scheduled agents | `@entities/tools/conductor-mcp.md` + librarian on prod | **Reference** — Hermes not prod |
+| Automation | Hermes scheduled agents | Hermes on **librarian** (cron + Telegram) + `@entities/tools/conductor-mcp.md` on prod | **Adopt (operator)** — Hermes not prod trading |
 | Long-horizon coding | Kimi K2.6 / Agent Swarm | `@entities/tools/kimi-agent-swarm.md` external UI only | **Reference** — no Moonshot MCP |
 | Execution | Cursor 3 (Agents Window, cloud handoff) | `@concepts/cursor-ide-workspace.md` | **Adopt** — primary IDE |
 
@@ -52,7 +52,7 @@ K78 Post 4 (@DamiDefi): a **five-layer operator stack** where each tool owns a n
 ### CCC guardrails
 
 1. **Do not stack parallel memory systems** — claude-mem + Obsidian graph + Hermes `MEMORY.md` without boundaries → pick owners per layer.
-2. **Hermes ≠ conductor** — steal skill-bundle + cron patterns; do not install Hermes on prod laptop for wiki work.
+2. **Hermes ≠ conductor** — Hermes owns operator cron/phone on librarian; conductor owns prod MCP. Cursor + Claude Code own wiki ingest — not Hermes.
 3. **Kimi for batch research only** — not a substitute for Claude Code Agent Teams on repo edits.
 
 ## Snippets

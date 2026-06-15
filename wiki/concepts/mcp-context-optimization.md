@@ -38,9 +38,11 @@ related:
   - concepts/queen-bee-beespec-enterprise-orchestration.md
   - concepts/enterprise-mcp-adoption-practice.md
   - sources/arxiv-enterprise-mcp-adoption-2606.09182.md
+  - concepts/tool-response-context-pruning-summarization.md
+  - sources/arxiv-less-context-better-agents-2606.10209.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-11
+updated: 2026-06-15
 ---
 
 ## Relations

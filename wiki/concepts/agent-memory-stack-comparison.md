@@ -16,9 +16,11 @@ related:
   - concepts/worldmemarena-multimodal-agent-memory-eval.md
   - concepts/channel-fracture-cross-agent-memory-delivery.md
   - sources/arxiv-channel-fracture-cross-agent-memory-2606.04896.md
+  - concepts/multi-factor-agentic-memory-value-model.md
+  - sources/arxiv-multi-factor-agentic-memory-2606.12945.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-06-12
+updated: 2026-06-15
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-25-2026-05-27.md"
 ---
 
@@ -43,12 +45,12 @@ K72 Post 1 — marketing comparison of **mem0**, **OpenClaw**, and **Hermes** pe
 |-------|---------|-------------|
 | Session + observation index | claude-mem | **In use** |
 | Episodic federation | stash | **Global MCP** |
-| Personal-agent runtime | Hermes / OpenClaw | **Reference** — see token discipline page |
+| Personal-agent runtime | Hermes / OpenClaw | **In use (operator)** — Hermes on librarian + laptop; not prod trading |
 | Vector user memory API | mem0 | **Evaluate** — overlap risk with claude-mem |
 
 **Rule:** one **SessionStart** memory owner — see `@entities/tools/claude-obsidian.md` rejection case study.
 
-| Verdict | **REFERENCE** |
+| Verdict | **REFERENCE** for product selection; **Hermes operator path live** — see `@osint-wiki/concepts/hermes-laptop-operator-playbook.md` |
 
 ## Snippets
 

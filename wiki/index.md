@@ -130,7 +130,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`cross-wiki-tool-eval-inventory`](concepts/cross-wiki-tool-eval-inventory.md) | draft | Consolidated receipt — all CCC-routed items from OSINT tool evaluations K45–K56 |
 | [`code-as-agent-harness`](concepts/code-as-agent-harness.md) | draft | Three-layer harness model mapped to Claude Code / conductor / MCP (K48 arXiv) |
 | [`self-healing-agent-sessions`](concepts/self-healing-agent-sessions.md) | draft | Failure taxonomy + retry budget for long Claude Code sessions (K48 arXiv) |
-| [`deep-research-evaluation-prompt`](concepts/deep-research-evaluation-prompt.md) | validated | v1→v6 lineage; canonical copy-paste at `prompts/deep-research-multi-wiki-eval-v6-2026-05-31.md` |
+| [`deep-research-evaluation-prompt`](concepts/deep-research-evaluation-prompt.md) | validated | v1→v7 lineage; canonical copy-paste at `prompts/deep-research-multi-wiki-eval-v7-2026-06-13.md` |
 | [`cursor-ide-workspace`](concepts/cursor-ide-workspace.md) | validated | Cursor as primary laptop harness; MCP map, rules, canvas, deployment boundary |
 | [`local-llm-mechanics-primer`](concepts/local-llm-mechanics-primer.md) | draft | KV cache / prefill-decode primer for local inference (K57 Post 1) |
 | [`tools-we-dont-use`](concepts/tools-we-dont-use.md) | draft | Institutional reject register (ToS bypass, ridark list discipline) |
@@ -197,6 +197,13 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`enterprise-mcp-adoption-practice`](concepts/enterprise-mcp-adoption-practice.md) | draft | Enterprise MCP interviews n=20 — 2606.09182 |
 | [`channel-fracture-cross-agent-memory-delivery`](concepts/channel-fracture-cross-agent-memory-delivery.md) | draft | Silent cron cross-agent memory failures — 2606.04896 (K111) |
 | [`skillhone-continual-skill-decision-history`](concepts/skillhone-continual-skill-decision-history.md) | draft | SkillHone decision-history skill evolution — 2606.08671 (K111) |
+| [`tool-response-context-pruning-summarization`](concepts/tool-response-context-pruning-summarization.md) | draft | MCP tool-pair pruning N=5/W=3 — 2606.10209 (K115) |
+| [`agents-all-the-way-down-custom-methodology`](concepts/agents-all-the-way-down-custom-methodology.md) | draft | Custom agent P1–P5 methodology — 2606.11869 (K115) |
+| [`multi-factor-agentic-memory-value-model`](concepts/multi-factor-agentic-memory-value-model.md) | draft | Blind vs oracle forgetting — 2606.12945 (K115) |
+| [`recursive-agent-harness-harness-recursion`](concepts/recursive-agent-harness-harness-recursion.md) | draft | RAH harness recursion — 2606.13643 (K115) |
+| [`perspectivegap-orchestration-prompting`](concepts/perspectivegap-orchestration-prompting.md) | draft | Subagent orchestration prompt failure taxonomy — 2606.08878 (K114) |
+| [`internet-of-agentic-ai-ioai`](concepts/internet-of-agentic-ai-ioai.md) | draft | IoAI vision survey — discovery, trust, controlled emergence (K114) |
+| [`agents-k1-agent-native-knowledge-orchestration`](concepts/agents-k1-agent-native-knowledge-orchestration.md) | draft | Agent-native KG pipeline — REFERENCE vs librarian (2606.13669, K114) |
 | [`tool-eval-license-skepticism-patterns`](concepts/tool-eval-license-skepticism-patterns.md) | draft | K73 license-eval anti-patterns (NO-LICENSE false negatives, BSL parsing) |
 | [`enterprise-auto-mode-telemetry-rollout`](concepts/enterprise-auto-mode-telemetry-rollout.md) | draft | Auto Mode policy rollout via telemetry loops (K73 Post 1) |
 | [`harness-de-bloat-4x4-pattern`](concepts/harness-de-bloat-4x4-pattern.md) | draft | 4-skills/4-agents simplification pattern (K73 Post 2) |
@@ -337,6 +344,14 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-enterprise-mcp-adoption-2606.09182`](sources/arxiv-enterprise-mcp-adoption-2606.09182.md) | draft | Enterprise MCP adoption interviews — read (K110) |
 | [`arxiv-channel-fracture-cross-agent-memory-2606.04896`](sources/arxiv-channel-fracture-cross-agent-memory-2606.04896.md) | draft | Channel fracture Hermes cron memory — read (K111) |
 | [`arxiv-skillhone-continual-skill-evolution-2606.08671`](sources/arxiv-skillhone-continual-skill-evolution-2606.08671.md) | draft | SkillHone continual skill evolution — read (K111) |
+| [`arxiv-parthenon-law-self-evolving-legal-agent-2606.04602`](sources/arxiv-parthenon-law-self-evolving-legal-agent-2606.04602.md) | draft | Parthenon six-layer legal harness + self-evolving loop — read (K114) |
+| [`arxiv-perspectivegap-multi-agent-orchestration-2606.08878`](sources/arxiv-perspectivegap-multi-agent-orchestration-2606.08878.md) | draft | PerspectiveGap orchestration prompting benchmark — read (K114) |
+| [`arxiv-internet-of-agentic-ai-2606.12835`](sources/arxiv-internet-of-agentic-ai-2606.12835.md) | draft | Internet of Agentic AI vision survey — skimmed (K114) |
+| [`arxiv-agents-k1-knowledge-orchestration-2606.13669`](sources/arxiv-agents-k1-knowledge-orchestration-2606.13669.md) | draft | Agents-K1 agent-native KG — skimmed (K114) |
+| [`arxiv-less-context-better-agents-2606.10209`](sources/arxiv-less-context-better-agents-2606.10209.md) | draft | Less Context Better Agents MCP study — read (K115) |
+| [`arxiv-agents-all-the-way-down-2606.11869`](sources/arxiv-agents-all-the-way-down-2606.11869.md) | draft | Agents All the Way Down methodology — read (K115) |
+| [`arxiv-multi-factor-agentic-memory-2606.12945`](sources/arxiv-multi-factor-agentic-memory-2606.12945.md) | draft | Multi-factor agentic memory — read (K115) |
+| [`arxiv-recursive-agent-harnesses-2606.13643`](sources/arxiv-recursive-agent-harnesses-2606.13643.md) | draft | Recursive Agent Harnesses — read (K115) |
 
 ## meta/
 
@@ -419,6 +434,8 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | `entities/tools/codexbar.md` | `@osint-wiki/sources/multi-wiki-tool-eval-ipsale-risk-2026-05-17.md` | Cross-wiki tool-eval source (56-repo eval) |
 | `entities/tools/superclaude-framework.md` | `@osint-wiki/sources/multi-wiki-tool-eval-ipsale-risk-2026-05-17.md` | Cross-wiki tool-eval source (56-repo eval) |
 | `entities/tools/roo-code.md` | `@osint-wiki/sources/multi-wiki-tool-eval-ipsale-risk-2026-05-17.md` | Cross-wiki tool-eval source (56-repo eval) |
+| `concepts/agents-k1-agent-native-knowledge-orchestration.md` | `@osint-wiki/concepts/librarian-server-architecture.md` | KG-at-scale serving implications (K114) |
+| `concepts/interaction-native-knowledge-harness.md` | `@osint-wiki/concepts/interaction-native-knowledge-harness.md` | Financial InKH deployment canon |
 
 ## Concepts
 

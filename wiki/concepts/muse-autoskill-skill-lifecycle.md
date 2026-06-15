@@ -23,9 +23,10 @@ related:
   - sources/arxiv-bayesian-agent-posterior-skill-evolution-2606.08348.md
   - concepts/skillhone-continual-skill-decision-history.md
   - sources/arxiv-skillhone-continual-skill-evolution-2606.08671.md
+  - entities/tools/skillclaw.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-12
+updated: 2026-06-15
 ---
 
 ## Relations
