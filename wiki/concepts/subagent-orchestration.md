@@ -94,9 +94,11 @@ related:
   - concepts/claude-honesty-critic-agent.md
   - entities/tools/hermes-workspace.md
   - sources/brief-k112-ccc-claude-honesty-critic-2026-06-12.md
+  - concepts/orchestration-reward-modeling-orch-rm.md
+  - sources/arxiv-orch-rm-multi-agent-orchestration-2606.13598.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-15
+updated: 2026-06-16
 ---
 
 ## Relations

@@ -23,9 +23,10 @@ related:
   - sources/arxiv-bayesian-agent-posterior-skill-evolution-2606.08348.md
   - concepts/self-harness-model-specific-improvement-loop.md
   - sources/arxiv-self-harness-improve-themselves-2606.09498.md
+  - concepts/orchestration-reward-modeling-orch-rm.md
 maturity: draft
 created: 2026-06-07
-updated: 2026-06-11
+updated: 2026-06-16
 ---
 
 ## Relations

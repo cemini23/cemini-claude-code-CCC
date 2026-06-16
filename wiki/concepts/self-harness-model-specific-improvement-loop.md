@@ -14,9 +14,10 @@ related:
   - concepts/harness-updating-vs-benefit-nonmonotonic.md
   - concepts/skillhone-continual-skill-decision-history.md
   - sources/arxiv-skillhone-continual-skill-evolution-2606.08671.md
+  - concepts/harnessx-composable-evolution-foundry.md
 maturity: draft
 created: 2026-06-11
-updated: 2026-06-12
+updated: 2026-06-16
 ---
 
 ## Relations

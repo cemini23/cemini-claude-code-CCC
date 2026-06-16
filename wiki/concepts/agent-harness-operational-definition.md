@@ -13,9 +13,10 @@ related:
   - concepts/self-harness-model-specific-improvement-loop.md
   - sources/arxiv-self-harness-improve-themselves-2606.09498.md
   - sources/arxiv-parthenon-law-self-evolving-legal-agent-2606.04602.md
+  - concepts/harnessx-composable-evolution-foundry.md
 maturity: draft
 created: 2026-06-10
-updated: 2026-06-15
+updated: 2026-06-16
 ---
 
 ## Relations

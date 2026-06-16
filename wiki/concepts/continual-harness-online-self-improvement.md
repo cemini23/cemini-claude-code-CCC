@@ -31,9 +31,11 @@ related:
   - concepts/skillhone-continual-skill-decision-history.md
   - sources/arxiv-skillhone-continual-skill-evolution-2606.08671.md
   - sources/arxiv-parthenon-law-self-evolving-legal-agent-2606.04602.md
+  - concepts/harnessx-composable-evolution-foundry.md
+  - sources/arxiv-harnessx-composable-harness-foundry-2606.14249.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-06-13
+updated: 2026-06-16
 cross-wiki-source: "@osint-wiki/concepts/continual-harness-online-self-improvement.md"
 ---
 

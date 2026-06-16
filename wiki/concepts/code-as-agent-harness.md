@@ -60,9 +60,13 @@ related:
   - sources/arxiv-recursive-agent-harnesses-2606.13643.md
   - concepts/agents-all-the-way-down-custom-methodology.md
   - sources/arxiv-agents-all-the-way-down-2606.11869.md
+  - concepts/harnessx-composable-evolution-foundry.md
+  - sources/arxiv-harnessx-composable-harness-foundry-2606.14249.md
+  - concepts/llm-as-code-agentic-programming.md
+  - sources/arxiv-llm-as-code-agentic-programming-2606.15874.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-06-15
+updated: 2026-06-16
 cross-wiki-source: "@osint-wiki/sources/arxiv-code-as-agent-harness-survey-2605.18747.md"
 ---
 

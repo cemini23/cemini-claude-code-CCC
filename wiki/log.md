@@ -4,6 +4,16 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-06-16] ingest | K116 Orch-RM + HarnessX + LLM-as-Code
+
+- **Preingest:** 3 NEW (`2606.13598`, `2606.14249`, `2606.15874`)
+- **Sources (3):** Orch-RM orchestration reward; HarnessX foundry; LLM-as-Code agentic programming
+- **Concepts (4):** `orchestration-reward-modeling-orch-rm`, `harnessx-composable-evolution-foundry`, `llm-as-code-agentic-programming`, `llm-as-orchestrator-failure-modes`
+- **Pages updated (10):** `subagent-orchestration`, `conductor-mcp`, `code-as-agent-harness`, `continual-harness-online-self-improvement`, `etclovg-harness-layers`, `dynamic-workflow-orchestrator-off-model`, `agentic-programming-full-stack-thesis`, `agent-rubrics-self-correction`, `index.md`, `sweeps/2026-06-16-daily.md`
+- **Phase-0:** `scripts/adopt_k116_phase0.sh` — OrchRM **404**; HarnessX **future release**; LLM-as-Code **REFERENCE**
+- **Brief:** `briefs/2026-06-16_k116-orchrm-harnessx-llm-as-code-prod.md` → scp `cemini-prod:/opt/cemini/briefs/`
+- **Raw:** 3 PDFs → `raw-sources/`; inbox cleared
+
 ## [2026-06-15] ingest | K115 context pruning + memory value + RAH + custom-agent methodology
 
 - **Preingest:** 4 NEW (`2606.10209`, `2606.11869`, `2606.12945`, `2606.13643`)

@@ -28,9 +28,11 @@ related:
   - sources/arxiv-channel-fracture-cross-agent-memory-2606.04896.md
   - concepts/perspectivegap-orchestration-prompting.md
   - sources/arxiv-perspectivegap-multi-agent-orchestration-2606.08878.md
+  - concepts/llm-as-orchestrator-failure-modes.md
+  - concepts/orchestration-reward-modeling-orch-rm.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-06-15
+updated: 2026-06-16
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-25-2026-05-27.md"
 ---
 

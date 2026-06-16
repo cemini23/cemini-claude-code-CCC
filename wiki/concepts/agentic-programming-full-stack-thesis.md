@@ -9,9 +9,11 @@ related:
   - concepts/subagent-orchestration.md
   - entities/tools/conductor-mcp.md
   - concepts/cross-wiki-tool-eval-inventory.md
+  - concepts/llm-as-code-agentic-programming.md
+  - sources/arxiv-llm-as-code-agentic-programming-2606.15874.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-05-27
+updated: 2026-06-16
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-25-2026-05-27.md"
 ---
 

@@ -25,9 +25,10 @@ related:
   - entities/tools/retro-harness.md
   - concepts/self-harness-model-specific-improvement-loop.md
   - sources/arxiv-self-harness-improve-themselves-2606.09498.md
+  - concepts/harnessx-composable-evolution-foundry.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-06-11
+updated: 2026-06-16
 ---
 
 ## Relations

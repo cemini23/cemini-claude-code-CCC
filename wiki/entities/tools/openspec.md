@@ -21,9 +21,10 @@ related:
   - concepts/autosci-memory-centric-research-agents.md
   - sources/arxiv-autosci-2605.31468.md
   - concepts/failed-trajectory-harness-repair.md
+  - concepts/llm-as-code-agentic-programming.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-06-05
+updated: 2026-06-16
 ---
 
 ## Relations

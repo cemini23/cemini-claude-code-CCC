@@ -204,6 +204,10 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`perspectivegap-orchestration-prompting`](concepts/perspectivegap-orchestration-prompting.md) | draft | Subagent orchestration prompt failure taxonomy — 2606.08878 (K114) |
 | [`internet-of-agentic-ai-ioai`](concepts/internet-of-agentic-ai-ioai.md) | draft | IoAI vision survey — discovery, trust, controlled emergence (K114) |
 | [`agents-k1-agent-native-knowledge-orchestration`](concepts/agents-k1-agent-native-knowledge-orchestration.md) | draft | Agent-native KG pipeline — REFERENCE vs librarian (2606.13669, K114) |
+| [`orchestration-reward-modeling-orch-rm`](concepts/orchestration-reward-modeling-orch-rm.md) | draft | Orch-RM orchestration-level reward — 2606.13598 (K116) |
+| [`harnessx-composable-evolution-foundry`](concepts/harnessx-composable-evolution-foundry.md) | draft | HarnessX nine-dim harness evolution — 2606.14249 (K116) |
+| [`llm-as-code-agentic-programming`](concepts/llm-as-code-agentic-programming.md) | draft | Program-owned control flow — 2606.15874 (K116) |
+| [`llm-as-orchestrator-failure-modes`](concepts/llm-as-orchestrator-failure-modes.md) | draft | ReAct loop structural failures — 2606.15874 (K116) |
 | [`tool-eval-license-skepticism-patterns`](concepts/tool-eval-license-skepticism-patterns.md) | draft | K73 license-eval anti-patterns (NO-LICENSE false negatives, BSL parsing) |
 | [`enterprise-auto-mode-telemetry-rollout`](concepts/enterprise-auto-mode-telemetry-rollout.md) | draft | Auto Mode policy rollout via telemetry loops (K73 Post 1) |
 | [`harness-de-bloat-4x4-pattern`](concepts/harness-de-bloat-4x4-pattern.md) | draft | 4-skills/4-agents simplification pattern (K73 Post 2) |
@@ -352,6 +356,9 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-agents-all-the-way-down-2606.11869`](sources/arxiv-agents-all-the-way-down-2606.11869.md) | draft | Agents All the Way Down methodology — read (K115) |
 | [`arxiv-multi-factor-agentic-memory-2606.12945`](sources/arxiv-multi-factor-agentic-memory-2606.12945.md) | draft | Multi-factor agentic memory — read (K115) |
 | [`arxiv-recursive-agent-harnesses-2606.13643`](sources/arxiv-recursive-agent-harnesses-2606.13643.md) | draft | Recursive Agent Harnesses — read (K115) |
+| [`arxiv-orch-rm-multi-agent-orchestration-2606.13598`](sources/arxiv-orch-rm-multi-agent-orchestration-2606.13598.md) | draft | Orch-RM orchestration reward modeling — read (K116) |
+| [`arxiv-harnessx-composable-harness-foundry-2606.14249`](sources/arxiv-harnessx-composable-harness-foundry-2606.14249.md) | draft | HarnessX composable harness foundry — read (K116) |
+| [`arxiv-llm-as-code-agentic-programming-2606.15874`](sources/arxiv-llm-as-code-agentic-programming-2606.15874.md) | draft | LLM-as-Code agentic programming — read (K116) |
 
 ## meta/
 

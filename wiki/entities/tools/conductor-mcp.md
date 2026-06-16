@@ -48,9 +48,11 @@ related:
   - sources/arxiv-internet-of-agentic-ai-2606.12835.md
   - concepts/agents-k1-agent-native-knowledge-orchestration.md
   - sources/arxiv-agents-k1-knowledge-orchestration-2606.13669.md
+  - concepts/orchestration-reward-modeling-orch-rm.md
+  - sources/arxiv-orch-rm-multi-agent-orchestration-2606.13598.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-13
+updated: 2026-06-16
 ---
 
 ## Relations

@@ -15,9 +15,12 @@ related:
   - sources/trading-posts-compilation-8-2026-06-09.md
   - concepts/recursive-agent-harness-harness-recursion.md
   - sources/arxiv-recursive-agent-harnesses-2606.13643.md
+  - concepts/llm-as-code-agentic-programming.md
+  - sources/arxiv-llm-as-code-agentic-programming-2606.15874.md
+  - concepts/llm-as-orchestrator-failure-modes.md
 maturity: draft
 created: 2026-06-09
-updated: 2026-06-15
+updated: 2026-06-16
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-7-2026-06-09.md"
 ---
 

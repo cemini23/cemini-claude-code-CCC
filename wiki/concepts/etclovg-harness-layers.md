@@ -22,9 +22,11 @@ related:
   - sources/arxiv-timeclaw-contextualized-time-series-2606.05404.md
   - concepts/agent-harness-operational-definition.md
   - sources/arxiv-agent-harness-operational-definition-2606.10106.md
+  - concepts/harnessx-composable-evolution-foundry.md
+  - sources/arxiv-harnessx-composable-harness-foundry-2606.14249.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-06-10
+updated: 2026-06-16
 ---
 
 ## Relations
