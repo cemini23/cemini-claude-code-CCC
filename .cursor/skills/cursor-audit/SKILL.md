@@ -8,7 +8,7 @@ description: >-
   wants independent model reviews before fixing or shipping.
 license: MIT
 metadata.author: cemini23
-metadata.version: "1.2.0"
+metadata.version: "1.3.0"
 disable-model-invocation: true
 ---
 
@@ -35,7 +35,7 @@ Copy this checklist and track progress:
 ```
 Cursor audit progress:
 - [ ] 1. Scope — target, question, constraints, files/links
-- [ ] 2. Mode — classify audit type; pick 3 models (see reference.md)
+- [ ] 2. Mode — classify audit type; delegate 3 premium roles → slugs (see reference.md)
 - [ ] 3. Audit pack — one self-contained brief (subagents see ONLY this)
 - [ ] 4. Dispatch — 3× Task in ONE message, parallel, readonly
 - [ ] 5. Synthesize — consensus / unique / conflicts / fix order
@@ -53,9 +53,9 @@ State explicitly:
 
 If scope is vague, ask one clarifying question before dispatch.
 
-### Step 2 — Mode + model pick
+### Step 2 — Mode + premium model delegation
 
-Classify into one mode, then read [reference.md](reference.md) for the default triple.
+Classify into one mode, then **delegate three auditor roles** and resolve each to a **premium-tier** Cursor slug per [reference.md](reference.md). Do not use a fixed triple — pick models by task.
 
 | Mode | Use when |
 |------|----------|
@@ -64,18 +64,19 @@ Classify into one mode, then read [reference.md](reference.md) for the default t
 | `config-infra` | YAML, MCP, hooks, CI, deploy scripts, env wiring |
 | `brief-plan` | Adoption briefs, GO/NO-GO, cost/stat claims |
 | `architecture` | Module boundaries, refactors, multi-file design |
-| `quick-triage` | User asked for fast/cheap pass |
+| `quick-triage` | User asked for fast pass — **same premium tier**, top-3 findings only |
 
-**Selection rules:**
+**Delegation rules:**
 
-1. Always **three models from three provider families** when possible (OpenAI / Anthropic / Google or xAI or Moonshot).
-2. Never dispatch three variants of the same base model.
-3. If the user names models, use those (still aim for diversity).
-4. If a slug is unavailable, substitute from the same **family column** in reference.md (Anthropic: opus → sonnet) and note the swap.
-5. **Anthropic default:** `claude-opus-4-8-thinking-high` for all modes. User may override with `models: …, opus, …` or `models: …, sonnet, …`.
-6. Announce the chosen triple to the user before dispatch:
+1. Look up **three roles** from the mode → role matrix in reference.md (e.g. `code-debug` → code-implementation, agentic-reasoning, third-lens).
+2. For each role, pick the **highest available premium slug** from the premium catalog — flagship reasoning/coding models only.
+3. Enforce **three distinct provider families** when possible.
+4. **Never default** to fast/economy slugs (`composer-2.5-fast`, flash/lite variants).
+5. User override `models: a, b, c` replaces slots 1–3; still prefer three families.
+6. If a slug fails at dispatch, fall back within the same family’s chain; **note mid-tier fallbacks** in synthesis.
+7. Announce mode, roles, and resolved slugs before dispatch:
 
-   > Cursor audit — mode: `code-debug` · models: codex, opus, gemini
+   > Cursor audit — mode: `code-debug` · roles: code-implementation → `gpt-5.3-codex`, agentic-reasoning → `claude-opus-4-8-thinking-high`, third-lens → `gemini-3.1-pro`
 
 ### Step 3 — Audit pack (shared prompt body)
 
@@ -85,7 +86,8 @@ Required sections in each Task `prompt`:
 
 ```markdown
 ## Role
-You are auditor {N}/3 in a multi-model cursor audit. Model: {model}. Be adversarial — try to disprove the current hypothesis.
+You are auditor {N}/3 in a multi-model readonly audit. Model: {model}.
+Stress-test the hypothesis using the target files/pack only. Report outcomes and evidence (file:line).
 
 ## Target
 {paths, error output, or brief excerpt}
@@ -137,7 +139,7 @@ Use the **Task** tool three times in **one message**:
 subagent_type: generalPurpose
 readonly: true
 run_in_background: false
-model: <slug from reference.md>
+model: <premium slug resolved from role in reference.md>
 description: cursor-audit-{1|2|3}-{short-label}
 prompt: <audit pack from step 3>
 ```
@@ -153,7 +155,7 @@ Merge the three reports using this template:
 ```markdown
 # Cursor audit — {target summary}
 
-**Mode:** {mode} · **Models:** {m1}, {m2}, {m3}
+**Mode:** {mode} · **Roles → models:** {role1}→{m1}, {role2}→{m2}, {role3}→{m3}
 
 ## Consensus (≥2 auditors agree)
 - ...
@@ -198,7 +200,7 @@ User can trigger with any of:
 Optional args in the same message:
 
 - `mode: security`
-- `models: codex, opus, gemini` or `models: codex, sonnet, gemini` (override Anthropic leg)
+- `models: a, b, c` (explicit slug override for slots 1–3)
 - `quick` → `quick-triage`
 - `files: path/a, path/b`
 
@@ -218,5 +220,5 @@ Optional args in the same message:
 
 ## Additional resources
 
-- Model matrix + fallbacks: [reference.md](reference.md)
+- Premium catalog + role delegation: [reference.md](reference.md)
 - Worked examples: [examples.md](examples.md)

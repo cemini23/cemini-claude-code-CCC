@@ -1,15 +1,14 @@
 ---
 name: super-audit
 description: >-
-  Five-model super audit — three Cursor readonly subagents plus two cheaper
-  OpenAI-compatible API auditors (OpenRouter, DeepSeek, ADVISOR_*). Tailor a
-  domain prompt and audit pack before each run; synthesize consensus, unique
-  findings, and conflicts. Use when the user says super audit, /super-audit,
-  5-model audit, council super audit, pre-ship multi-opinion review, or wants
+  Five-model super audit — three Cursor readonly subagents plus two premium
+  OpenAI-compatible API auditors (OpenRouter, DeepSeek, ADVISOR_*). Role-based
+  model delegation per audit mode; synthesize consensus, unique findings, and
+  conflicts. Use when the user says super audit, /super-audit, 5-model audit, council super audit, pre-ship multi-opinion review, or wants
   cursor-audit depth with extra API-backed opinions before prod GO/NO-GO.
 license: MIT
 metadata.author: cemini23
-metadata.version: "1.2.0"
+metadata.version: "1.3.0"
 disable-model-invocation: true
 ---
 
@@ -24,7 +23,7 @@ disable-model-invocation: true
 | Signal | Run? |
 |--------|------|
 | GO/NO-GO with engineering + money on the line | Yes |
-| cursor-audit ran but user wants more coverage / cheaper extra opinions | Yes |
+| cursor-audit ran but user wants more coverage / extra API opinions | Yes |
 | Pre-prod deploy (bot, config matrix, conviction.yaml) | Yes |
 | Trivial fix or single-file typo | No — use cursor-audit or direct edit |
 | User says "quick" | Yes — use `quick` tailoring (3 cursor + 1 API only) |
@@ -34,7 +33,7 @@ disable-model-invocation: true
 | | cursor-audit | super-audit |
 |---|-------------|-------------|
 | Auditors | 3 Cursor Task | 3 Cursor Task + 2 HTTP API |
-| Cost | 3× subagent | 3× subagent + ~2 cheap API calls |
+| Cost | 3× subagent | 3× subagent + 2 premium API legs |
 | Prep | Audit pack in chat | Audit pack on disk + domain prompt template |
 | Best for | Bugs, infra, quick triage | Pre-ship council, prod posture, domain strategy |
 
@@ -46,7 +45,7 @@ Read [cursor-audit](../cursor-audit/SKILL.md) for shared synthesis rules and Gla
 Super audit progress:
 - [ ] 0. Tailor — domain prompt, mission, artifact list, output extras
 - [ ] 1. Scope — target, question, constraints, ruled-out hypotheses
-- [ ] 2. Mode — classify; pick 3 Cursor models (reference.md)
+- [ ] 2. Mode — classify; delegate Cursor + API roles → premium slugs (reference.md)
 - [ ] 3. Pack — build_audit_pack.py → audit_prompt.md + PACK_INDEX.md
 - [ ] 4a. Cursor leg — 3× Task in ONE message, readonly
 - [ ] 4b. API leg — discover keys → run_api_auditors.py (parallel slots 4–5)
@@ -56,7 +55,7 @@ Super audit progress:
 
 Announce before dispatch:
 
-> Super audit — mode: `{mode}` · Cursor: `{m1, m2, m3}` · API: `{api1, api2}` · pack: `{path}`
+> Super audit — mode: `{mode}` · Cursor roles: `{r1→m1, r2→m2, r3→m3}` · API roles: `{ar1→api1, ar2→api2}` · pack: `{path}`
 
 ### Step 0 — Tailor (required every run)
 
@@ -80,21 +79,27 @@ Same as cursor-audit: target, question, constraints, ruled-out hypotheses. Add:
 - **Regime boundaries** — what comparisons are invalid (e.g. playground ≠ tournament)
 - **Synthesis output path** — where to write rollup brief (e.g. `briefs/YYYY-MM-DD_{slug}-super-audit-synthesis.md`)
 
-### Step 2 — Mode + model pick
+### Step 2 — Mode + premium role delegation
 
-Classify mode (see [reference.md](reference.md)). Default **5-auditor split**:
+Classify mode (see [reference.md](reference.md)). **Do not hardcode models** — delegate by auditor role, then resolve each role to a premium slug.
 
-| Slot | Channel | Default | Role |
-|------|---------|---------|------|
-| 1 | Cursor Task | `claude-opus-4-8-thinking-high` | Agentic reasoning / root cause |
-| 2 | Cursor Task | `gpt-5.3-codex` | Implementation / patches |
-| 3 | Cursor Task | `gemini-3.1-pro` | Third family / alt structure |
-| 4 | HTTP API | `x-ai/grok-4.3` @ OpenRouter | Adversarial / exploit paths |
-| 5 | HTTP API | `deepseek-reasoner` @ DeepSeek | Cheap deep reasoning |
+**Cursor slots 1–3** — same role delegation as [cursor-audit](../cursor-audit/SKILL.md#step-2--mode--premium-model-delegation). Default super-audit mode is **`prod-ship`** (agentic-reasoning + code-implementation + third-lens).
 
-Override slots 4–5 in `auditors.json` (see reference) when tailoring (e.g. WC bot: `ADVISOR_MODEL` on OpenRouter).
+**API slots 4–5** — resolve from mode → API role matrix:
 
-**Quick mode:** slots 1–3 Cursor + slot 5 API only (skip Grok).
+| Mode | Slot 4 | Slot 5 |
+|------|--------|--------|
+| prod-ship / code-debug / security / architecture | api-adversarial | api-deep-reasoning |
+| config-infra | api-deep-reasoning | api-adversarial |
+| brief-plan | api-strategic | api-deep-reasoning |
+| quick | *(skip)* | api-deep-reasoning |
+
+1. Run `discover_api_keys.py --json` to see which premium API candidates are available.
+2. Map each API role to the **best available premium model** from the API premium catalog (reference.md).
+3. Write or override `auditors.json` with role-based labels; pass `--auditors` to `run_api_auditors.py`.
+4. **Quick mode:** slots 1–3 (premium Cursor roles) + slot 5 API only.
+
+Override API roles when tailoring (e.g. WC bot: api-advisor + api-deep-reasoning). Never default to flash/lite API models for premium audits.
 
 ### Step 3 — Build audit pack
 
@@ -150,7 +155,7 @@ python3 .cursor/skills/super-audit/scripts/run_api_auditors.py \
   --out reports/audit/premium-{slug}
 ```
 
-Optional: `--auditors path/to/auditors.json` to override default Grok + DeepSeek.
+Optional: `--auditors path/to/auditors.json` (role-based; see reference.md). Default file is a prod-ship fallback only — parent should build from mode + discovery when tailoring.
 
 Script writes `{label}_{timestamp}.md` per model + `meta_{timestamp}.json`. On missing keys: report which slots skipped; continue with Cursor-only synthesis if user accepts.
 
@@ -165,13 +170,13 @@ Use this template (extends cursor-audit):
 
 **Mode:** {mode} · **Pack:** `{pack path}` · **Built:** {ts}
 
-| Slot | Channel | Model | Verdict |
-|------|---------|-------|---------|
-| 1 | cursor | {m1} | PASS/WARN/FAIL |
-| 2 | cursor | {m2} | … |
-| 3 | cursor | {m3} | … |
-| 4 | api | {api1} | … |
-| 5 | api | {api2} | … |
+| Slot | Channel | Role | Model | Verdict |
+|------|---------|------|-------|---------|
+| 1 | cursor | {role1} | {m1} | PASS/WARN/FAIL |
+| 2 | cursor | {role2} | {m2} | … |
+| 3 | cursor | {role3} | {m3} | … |
+| 4 | api | {api_role1} | {api1} | … |
+| 5 | api | {api_role2} | {api2} | … |
 
 ## Consensus (≥3 auditors) 
 - ...
@@ -218,14 +223,14 @@ Write synthesis to the path chosen in Step 1 (briefs/ or reports/).
 
 ## Cost discipline
 
-- API legs ≈ fraction of one Cursor subagent when using DeepSeek + OpenRouter.
-- Full super audit ≈ 3× Cursor + 2 API. Use **quick** when time-sensitive.
+- API legs add cross-vendor coverage at lower marginal cost than a 5× Cursor run — still **premium-tier** models only.
+- Full super audit ≈ 3× Cursor premium + 2× API premium. Use **quick** when time-sensitive (narrow scope, not downgraded models).
 - Do not re-run full super audit on every tiny edit.
 
 ## Related
 
 - [cursor-audit](../cursor-audit/SKILL.md) — 3-model baseline
-- [reference.md](reference.md) — API key discovery, auditors.json, mode matrix
+- [reference.md](reference.md) — role delegation, API premium catalog, auditors.json
 - [examples.md](examples.md) — poker Tournament S1, WC bot
 - [agent-toolkit-demo/skills/super-audit](https://github.com/cemini23/agent-toolkit-demo/tree/main/skills/super-audit) — public open-source distro
 - `@ccc-wiki/entities/skills/super-audit.md` — wiki canonical page

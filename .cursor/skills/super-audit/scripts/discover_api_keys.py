@@ -104,13 +104,23 @@ def discover(workspace: Path) -> dict:
 
     urls = {k: merged.get(k) for k in URL_VARS if merged.get(k)}
 
-    # Suggest default API slots
+    # Suggest premium API slots by role (parent picks 2 per mode matrix)
     suggestions: list[dict] = []
     if keys["OPENROUTER_API_KEY"]["present"]:
         suggestions.append(
             {
-                "label": "grok-4.3-openrouter",
+                "role": "api-adversarial",
+                "label": "api-adversarial",
                 "model": "x-ai/grok-4.3",
+                "api_key_env": "OPENROUTER_API_KEY",
+                "base_url_env": "OPENROUTER_BASE_URL",
+            }
+        )
+        suggestions.append(
+            {
+                "role": "api-strategic",
+                "label": "api-strategic",
+                "model": "anthropic/claude-opus-4.6",
                 "api_key_env": "OPENROUTER_API_KEY",
                 "base_url_env": "OPENROUTER_BASE_URL",
             }
@@ -118,10 +128,12 @@ def discover(workspace: Path) -> dict:
     if keys["ADVISOR_API_KEY"]["present"] or (
         keys["OPENROUTER_API_KEY"]["present"] and merged.get("ADVISOR_MODEL")
     ):
+        advisor_model = merged.get("ADVISOR_MODEL", "")
         suggestions.append(
             {
-                "label": "advisor",
-                "model": merged.get("ADVISOR_MODEL", "google/gemini-2.5-flash"),
+                "role": "api-advisor",
+                "label": "api-advisor",
+                "model": advisor_model or "(set ADVISOR_MODEL — prefer pro-tier)",
                 "api_key_env": "ADVISOR_API_KEY"
                 if keys["ADVISOR_API_KEY"]["present"]
                 else "OPENROUTER_API_KEY",
@@ -133,16 +145,9 @@ def discover(workspace: Path) -> dict:
     if keys["DEEPSEEK_API_KEY"]["present"]:
         suggestions.append(
             {
-                "label": "deepseek-reasoner",
+                "role": "api-deep-reasoning",
+                "label": "api-deep-reasoning",
                 "model": "deepseek-reasoner",
-                "api_key_env": "DEEPSEEK_API_KEY",
-                "base_url_env": "DEEPSEEK_BASE_URL",
-            }
-        )
-        suggestions.append(
-            {
-                "label": "deepseek-v4-flash",
-                "model": merged.get("DEEPSEEK_MODEL", "deepseek-v4-flash"),
                 "api_key_env": "DEEPSEEK_API_KEY",
                 "base_url_env": "DEEPSEEK_BASE_URL",
             }
@@ -154,8 +159,9 @@ def discover(workspace: Path) -> dict:
         "sources_loaded": sources,
         "keys": keys,
         "urls": urls,
-        "suggested_api_slots": suggestions[:2],
+        "suggested_api_slots": suggestions,
         "api_leg_ready": ready,
+        "note": "Pick 2 slots by role from super-audit reference mode → API role matrix (premium tier only).",
     }
 
 
@@ -193,9 +199,10 @@ def main() -> int:
         for k, v in result["urls"].items():
             print(f"  {k}: {v}")
 
-    print("\nsuggested API slots (pick 2 in auditors.json):")
+    print("\nsuggested API slots by role (pick 2 per mode matrix — premium tier):")
     for s in result["suggested_api_slots"]:
-        print(f"  - {s['label']}: {s['model']} ({s['api_key_env']})")
+        role = s.get("role", s["label"])
+        print(f"  - {role}: {s['model']} ({s['api_key_env']})")
 
     print(f"\napi_leg_ready: {result['api_leg_ready']}")
     return 0 if result["api_leg_ready"] else 1

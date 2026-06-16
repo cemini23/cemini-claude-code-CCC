@@ -4,6 +4,12 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-06-16] sync | cursor-audit + super-audit v1.3.0 role delegation
+
+- **Skills (CCC mirror):** `.cursor/skills/cursor-audit/`, `.cursor/skills/super-audit/` — premium role-based model delegation (no hardcoded triples)
+- **Wiki:** `entities/skills/cursor-audit.md`, `entities/skills/super-audit.md` — mode → role matrices, premium tier policy, API role catalog
+- **Source:** OSINT WORKSPACE skill v1.3.0 (2026-06-16)
+
 ## [2026-06-16] ingest | K116 Orch-RM + HarnessX + LLM-as-Code
 
 - **Preingest:** 3 NEW (`2606.13598`, `2606.14249`, `2606.15874`)

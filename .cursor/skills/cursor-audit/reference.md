@@ -1,43 +1,75 @@
-# Cursor audit — model matrix
+# Cursor audit — model delegation
 
-Use these defaults unless the user overrides. Slugs must match Cursor Task `model` parameter exactly.
+Audits are **premium**: always pick flagship-tier models matched to **auditor roles**, not a fixed triple. Slugs must match Cursor Task `model` exactly.
 
-## Anthropic slot — Opus default
+## Selection procedure (parent — Step 2)
 
-| Use case | Preferred | Fallback (same family) |
-|----------|-----------|------------------------|
-| Agentic code, bugs, architecture, prod-ship, security (code paths) | `claude-opus-4-8-thinking-high` | `claude-4.6-sonnet-medium-thinking` |
-| Adoption briefs, strategic GO/NO-GO, narrative displacement | `claude-opus-4-8-thinking-high` | `claude-4.6-sonnet-medium-thinking` |
+1. **Classify mode** from scope (table below).
+2. **Resolve three roles** from the mode → role matrix.
+3. For each role, pick the **highest available premium slug** from the catalog (preferred family first, then alternates).
+4. Enforce **three distinct provider families** across the triple.
+5. **User override:** `models: a, b, c` replaces slots 1–3; still require three families when possible.
+6. **Dispatch failure:** substitute from the same family’s fallback chain; note swap in synthesis.
+7. **Announce before dispatch** — mode, roles, chosen slugs, one-line rationale each:
 
-User override `models: opus` or `models: sonnet` swaps only the Anthropic leg; keep three provider families.
+   > Cursor audit — mode: `code-debug` · roles: code-implementation → `gpt-5.3-codex`, agentic-reasoning → `claude-opus-4-8-thinking-high`, third-lens → `gemini-3.1-pro`
 
-> **2026-06-13:** `claude-fable-5-thinking-high` removed — Anthropic withdrew Fable 5 from Cursor subagents. Opus is the Anthropic default for all modes.
+## Premium tier policy
 
-## Default triples by mode
+| Rule | Detail |
+|------|--------|
+| Default tier | **Premium only** — flagship reasoning / coding models per provider |
+| Never default | `composer-2.5-fast`, flash/lite variants, economy or “fast” SKUs |
+| Mid-tier fallback | `gpt-5.5-medium`, `claude-4.6-sonnet-medium-thinking` — only when flagship slug unavailable; **note in synthesis** |
+| `quick-triage` | Same premium tier; **narrow scope** (top 3 issues), not cheaper models |
+| Diversity | Three **different provider families** whenever possible |
 
-| Mode | Model 1 | Model 2 | Model 3 | Why this spread |
-|------|---------|---------|---------|-----------------|
-| **code-debug** | `gpt-5.3-codex` | `claude-opus-4-8-thinking-high` | `gemini-3.1-pro` | Codex: implementation + test failures; Opus: agentic trace + logic; Gemini: third family |
-| **security** | `claude-opus-4-8-thinking-high` | `gpt-5.3-codex` | `grok-4.3` | Agentic reasoning + exploit paths + non-OpenAI/Anthropic lens |
-| **config-infra** | `gemini-3.1-pro` | `gpt-5.5-medium` | `claude-4.6-sonnet-medium-thinking` | Config semantics + practical fixes + structured thinking |
-| **brief-plan** | `claude-opus-4-8-thinking-high` | `gpt-5.3-codex` | `kimi-k2.5` | Strategic holes + technical feasibility + third vendor |
-| **architecture** | `claude-opus-4-8-thinking-high` | `gemini-3.1-pro` | `gpt-5.5-medium` | Agentic design depth + alt structure + engineering pragmatism |
-| **quick-triage** | `composer-2.5-fast` | `gpt-5.5-medium` | `claude-4.6-sonnet-medium-thinking` | Lower latency; still three families |
+## Auditor roles
 
-## Available slugs (Cursor subagents)
+| Role | Optimizes for | Preferred family | Acceptable alternates |
+|------|---------------|------------------|------------------------|
+| **agentic-reasoning** | Root cause, agentic traces, prod judgment, architecture depth | Anthropic | — |
+| **code-implementation** | Patches, test failures, concrete fixes, stack traces | OpenAI | — |
+| **third-lens** | Cross-vendor blind spots, alt structure, fresh eyes | Google | xAI, Moonshot |
+| **adversarial** | Exploit paths, attacker model, trust boundaries | xAI | Anthropic (security mode) |
+| **config-semantics** | YAML/MCP/hooks/deploy wiring, startup failure modes | Google | Anthropic |
+| **strategic** | Brief GO/NO-GO, displacement, cost/timeline claims | Anthropic | Moonshot |
 
-If a slug fails at dispatch, substitute within the same **family column**:
+## Mode → role matrix
 
-| Family | Slugs |
-|--------|-------|
-| OpenAI | `gpt-5.3-codex`, `gpt-5.5-medium` |
-| Anthropic | `claude-opus-4-8-thinking-high`, `claude-4.6-sonnet-medium-thinking` |
-| Google | `gemini-3.1-pro` |
-| xAI | `grok-4.3`, `grok-build-0.1` |
-| Moonshot | `kimi-k2.5` |
-| Cursor | `composer-2.5-fast` |
+| Mode | Slot 1 | Slot 2 | Slot 3 | Use when |
+|------|--------|--------|--------|----------|
+| **code-debug** | code-implementation | agentic-reasoning | third-lens | Stack traces, failing tests, logic bugs (**default**) |
+| **security** | agentic-reasoning | adversarial | code-implementation | Auth, injection, secrets, trust boundaries |
+| **config-infra** | config-semantics | code-implementation | third-lens | MCP, hooks, YAML, CI, deploy scripts |
+| **brief-plan** | strategic | code-implementation | third-lens | Adoption briefs, GO/NO-GO, phase 0 |
+| **architecture** | agentic-reasoning | third-lens | code-implementation | Refactors, module boundaries, API shape |
+| **quick-triage** | agentic-reasoning | code-implementation | third-lens | User asked quick/fast — **premium models, shallow depth** |
 
-**Fallback order when a slug is unavailable:** same-mode row → next row with closest intent → never duplicate family in the triple.
+## Premium catalog (Cursor Task slugs)
+
+Pick **first available** slug in each role’s list. Do not skip to mid-tier if a premium slug works.
+
+| Family | Premium slugs (best → acceptable) | Mid-tier fallback (flag if used) |
+|--------|-----------------------------------|----------------------------------|
+| **Anthropic** | `claude-opus-4-8-thinking-high` | `claude-4.6-sonnet-medium-thinking` |
+| **OpenAI** | `gpt-5.3-codex` | `gpt-5.5-medium` |
+| **Google** | `gemini-3.1-pro` | — (use xAI/Moonshot for third family) |
+| **xAI** | `grok-4.3` | `grok-build-0.1` |
+| **Moonshot** | `kimi-k2.5` | — |
+
+### Role → slug resolution (quick lookup)
+
+| Role | Try in order (first available, unused family) |
+|------|-----------------------------------------------|
+| agentic-reasoning | Anthropic premium |
+| code-implementation | OpenAI premium |
+| third-lens | Google premium → xAI premium → Moonshot premium |
+| adversarial | xAI premium → Anthropic premium |
+| config-semantics | Google premium → Anthropic premium |
+| strategic | Anthropic premium → Moonshot premium |
+
+> **2026-06-13:** `claude-fable-5-thinking-high` removed from Cursor subagents. Opus class is the Anthropic premium default.
 
 ## Mode classification heuristics
 
@@ -50,6 +82,10 @@ If a slug fails at dispatch, substitute within the same **family column**:
 | refactor, design, module split, API shape | `architecture` |
 | quick, fast, triage, skim | `quick-triage` |
 
+## Fresh eyes on re-audit
+
+When re-running after a failed fix, **swap the third-lens family** (e.g. Google → xAI or Moonshot) while keeping agentic-reasoning + code-implementation premium.
+
 ## Audit pack checklist
 
 Before dispatch, verify the pack includes:
@@ -59,6 +95,7 @@ Before dispatch, verify the pack includes:
 - [ ] Ruled-out hypotheses (even if empty)
 - [ ] Required output format block
 - [ ] Readonly constraint stated
+- [ ] Announced roles + slugs recorded in synthesis header
 
 ## Synthesis severity rollup
 

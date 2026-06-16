@@ -2,7 +2,7 @@
 title: cursor-audit (skill) — multi-model Cursor debug and review harness
 type: entity
 tags: [skill, cursor, multi-model, audit, subagent, glasswing, debugging, SKILL.md, cemini]
-keywords: [cursor-audit, multi-model-audit, council-audit, second-opinion-debug, Task-tool, readonly-subagent, codex-opus, claude-opus, deliberate-disagreement]
+keywords: [cursor-audit, multi-model-audit, council-audit, second-opinion-debug, Task-tool, readonly-subagent, role-delegation, premium-models, deliberate-disagreement]
 related:
   - entities/skills/super-audit.md
   - entities/tools/claude-code.md
@@ -15,8 +15,8 @@ related:
   - concepts/agent-rubrics-self-correction.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-06-13
-cross-wiki-source: "OSINT WORKSPACE .cursor/skills/cursor-audit/ (mirrored 2026-06-05); public distro agent-toolkit-demo/skills/cursor-audit/ (2026-06-06)"
+updated: 2026-06-16
+cross-wiki-source: "OSINT WORKSPACE .cursor/skills/cursor-audit/ (mirrored 2026-06-05); public distro agent-toolkit-demo/skills/cursor-audit/ (2026-06-06); v1.3.0 role delegation (2026-06-16)"
 ---
 
 ## Relations
@@ -35,7 +35,7 @@ Skill files mirrored in OSINT WORKSPACE and CCC at `.cursor/skills/cursor-audit/
 
 ## Raw Concept
 
-What prompted this page: debugging session where **codex and opus on the same bug surfaced different errors** — evidence that single-model sessions miss blind spots. User requested a repeatable **cursor audit** skill: three parallel models, auto-picked for the audit mode, synthesized into consensus / unique / conflicts.
+What prompted this page: debugging session where **codex and opus on the same bug surfaced different errors** — evidence that single-model sessions miss blind spots. User requested a repeatable **cursor audit** skill: three parallel models, **delegated by audit mode and auditor role** (not a fixed triple), synthesized into consensus / unique / conflicts.
 
 ## Narrative
 
@@ -49,6 +49,8 @@ The **cursor-audit** skill dispatches **three readonly subagents** on **three di
 - **Fix order** — prioritized remediation
 
 Origin story [CONFIRMED]: OSINT workspace session 2026-06-05; codex + opus independent review caught errors the drafting model missed. Documented in OSINT `CLAUDE.md` / `ROADMAP.md` and `@osint-wiki/log.md` as the codex independent review pattern.
+
+**v1.3.0 (2026-06-16):** Replaced hardcoded model triples with **role-based premium delegation** — classify mode → resolve three auditor roles → pick highest available premium slug per role from catalog.
 
 ### Install path
 
@@ -67,34 +69,47 @@ cp -r agent-toolkit-demo/skills/cursor-audit ~/.cursor/skills/
 cp -r .cursor/skills/cursor-audit ~/.cursor/skills/
 ```
 
-Files: `SKILL.md`, `reference.md` (model matrix), `examples.md`, `README.md` (public distro only).
+Files: `SKILL.md`, `reference.md` (role delegation + premium catalog), `examples.md`, `README.md` (public distro only).
 
 `disable-model-invocation: true` — loads only when user names `/cursor-audit`, `cursor audit`, `council audit`, or `multi-model audit`.
 
 **Validate:** `vet skills/cursor-audit/SKILL.md --profile skillmd --strict` ([vet](https://github.com/cemini23/vet)).
 
-### Audit modes
+### Premium tier + role delegation
 
-| Mode | Default model triple | When |
-|------|---------------------|------|
-| `code-debug` | codex · **opus** · gemini | Stack traces, failing tests (**default**) |
-| `security` | **opus** · codex · grok | Auth, injection, secrets |
-| `config-infra` | gemini · gpt-5.5 · sonnet-thinking | MCP, hooks, YAML, CI |
-| `brief-plan` | opus · codex · kimi | GO/NO-GO briefs, cost claims |
-| `architecture` | **opus** · gemini · gpt-5.5 | Refactors, module boundaries |
-| `quick-triage` | composer · gpt-5.5 · sonnet-thinking | Fast/cheap pass |
+Audits are **premium**: flagship reasoning/coding models only. Never default to `composer-2.5-fast`, flash/lite, or economy SKUs. `quick-triage` uses the same premium tier with **narrow scope** (top 3 issues), not cheaper models.
 
-Anthropic leg: **`claude-opus-4-8-thinking-high`** for all modes (fallback: sonnet-thinking). Override with `models: codex, opus, gemini` or `models: codex, sonnet, gemini`.
+| Auditor role | Optimizes for |
+|--------------|---------------|
+| **agentic-reasoning** | Root cause, agentic traces, prod judgment |
+| **code-implementation** | Patches, test failures, stack traces |
+| **third-lens** | Cross-vendor blind spots (Google / xAI / Moonshot) |
+| **adversarial** | Exploit paths, attacker model |
+| **config-semantics** | YAML/MCP/hooks/deploy wiring |
+| **strategic** | Brief GO/NO-GO, displacement, cost claims |
 
-> **2026-06-13:** Fable 5 removed from defaults — Anthropic withdrew `claude-fable-5-thinking-high` from Cursor subagents (v1.2.0).
+**Procedure:** classify mode → look up three roles in mode → role matrix → resolve each role to premium slug → announce `roles → slugs` before dispatch.
 
-Full slug table: skill `reference.md`.
+### Audit modes → roles
+
+| Mode | Slot 1 | Slot 2 | Slot 3 | When |
+|------|--------|--------|--------|------|
+| `code-debug` | code-implementation | agentic-reasoning | third-lens | Stack traces, failing tests (**default**) |
+| `security` | agentic-reasoning | adversarial | code-implementation | Auth, injection, secrets |
+| `config-infra` | config-semantics | code-implementation | third-lens | MCP, hooks, YAML, CI |
+| `brief-plan` | strategic | code-implementation | third-lens | GO/NO-GO briefs, cost claims |
+| `architecture` | agentic-reasoning | third-lens | code-implementation | Refactors, module boundaries |
+| `quick-triage` | agentic-reasoning | code-implementation | third-lens | Fast pass — premium models, shallow depth |
+
+User override: `models: a, b, c` replaces slots 1–3. Full premium catalog + fallback chains: skill `reference.md`.
+
+> **2026-06-13:** Fable 5 removed — Anthropic withdrew `claude-fable-5-thinking-high` from Cursor subagents.
 
 ### Invocation
 
 - `/cursor-audit` or `cursor audit on …`
 - `council audit`, `multi-model audit`, `second-opinion debug`
-- Options: `mode: security`, `models: codex, opus, gemini` (or `sonnet`), `quick`
+- Options: `mode: security`, `models: a, b, c` (explicit slug override), `quick`
 
 ### Cadence (when to run)
 
@@ -105,7 +120,7 @@ Full slug table: skill `reference.md`.
 | Brief with engineering-days + cost commitments | Yes (+ [vet](https://github.com/cemini23/vet) `--profile brief`; OSINT also has `scripts/skill_audit.py`) |
 | One-line typo | No |
 
-Cost ≈ **3× subagent** — use `quick-triage` when time-sensitive.
+Cost ≈ **3× premium subagent** — use `quick-triage` when time-sensitive (narrow scope, not downgraded models).
 
 ### Relationship to other audit surfaces
 
@@ -133,7 +148,7 @@ name: cursor-audit
 description: Multi-model Cursor audit — three parallel readonly subagents…
 license: MIT
 metadata.author: cemini23
-metadata.version: "1.2.0"
+metadata.version: "1.3.0"
 disable-model-invocation: true
 ---
 ```
