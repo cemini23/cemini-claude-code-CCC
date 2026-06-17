@@ -19,9 +19,10 @@ related:
   - concepts/llm-routing-deepseek-openrouter-failover.md
   - concepts/multi-factor-agentic-memory-value-model.md
   - sources/arxiv-multi-factor-agentic-memory-2606.12945.md
+  - concepts/storage-budgeted-agent-memory-compression.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-15
+updated: 2026-06-17
 ---
 
 ## Relations

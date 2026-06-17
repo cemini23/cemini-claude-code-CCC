@@ -208,6 +208,9 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`harnessx-composable-evolution-foundry`](concepts/harnessx-composable-evolution-foundry.md) | draft | HarnessX nine-dim harness evolution — 2606.14249 (K116) |
 | [`llm-as-code-agentic-programming`](concepts/llm-as-code-agentic-programming.md) | draft | Program-owned control flow — 2606.15874 (K116) |
 | [`llm-as-orchestrator-failure-modes`](concepts/llm-as-orchestrator-failure-modes.md) | draft | ReAct loop structural failures — 2606.15874 (K116) |
+| [`storage-budgeted-agent-memory-compression`](concepts/storage-budgeted-agent-memory-compression.md) | draft | MemRefine delete/merge/preserve — 2606.13177 (K117) |
+| [`seagym-self-evolving-harness-evaluation`](concepts/seagym-self-evolving-harness-evaluation.md) | draft | SEAGym harness evolution eval — 2606.17546 (K117) |
+| [`selective-experience-memory-harness`](concepts/selective-experience-memory-harness.md) | draft | τ-gated experience memory — 2606.17642 (K117) |
 | [`tool-eval-license-skepticism-patterns`](concepts/tool-eval-license-skepticism-patterns.md) | draft | K73 license-eval anti-patterns (NO-LICENSE false negatives, BSL parsing) |
 | [`enterprise-auto-mode-telemetry-rollout`](concepts/enterprise-auto-mode-telemetry-rollout.md) | draft | Auto Mode policy rollout via telemetry loops (K73 Post 1) |
 | [`harness-de-bloat-4x4-pattern`](concepts/harness-de-bloat-4x4-pattern.md) | draft | 4-skills/4-agents simplification pattern (K73 Post 2) |
@@ -359,6 +362,9 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-orch-rm-multi-agent-orchestration-2606.13598`](sources/arxiv-orch-rm-multi-agent-orchestration-2606.13598.md) | draft | Orch-RM orchestration reward modeling — read (K116) |
 | [`arxiv-harnessx-composable-harness-foundry-2606.14249`](sources/arxiv-harnessx-composable-harness-foundry-2606.14249.md) | draft | HarnessX composable harness foundry — read (K116) |
 | [`arxiv-llm-as-code-agentic-programming-2606.15874`](sources/arxiv-llm-as-code-agentic-programming-2606.15874.md) | draft | LLM-as-Code agentic programming — read (K116) |
+| [`arxiv-memrefine-storage-budgeted-memory-2606.13177`](sources/arxiv-memrefine-storage-budgeted-memory-2606.13177.md) | draft | MemRefine storage-budgeted memory — read (K117) |
+| [`arxiv-seagym-self-evolving-harness-eval-2606.17546`](sources/arxiv-seagym-self-evolving-harness-eval-2606.17546.md) | draft | SEAGym harness eval environment — read (K117) |
+| [`arxiv-finacumen-experience-memory-harness-2606.17642`](sources/arxiv-finacumen-experience-memory-harness-2606.17642.md) | draft | FinAcumen experience memory — read (K117, osint route) |
 
 ## meta/
 

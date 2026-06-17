@@ -9,9 +9,11 @@ related:
   - entities/tools/claude-mem.md
   - concepts/three-cache-architecture.md
   - concepts/channel-fracture-cross-agent-memory-delivery.md
+  - concepts/storage-budgeted-agent-memory-compression.md
+  - sources/arxiv-memrefine-storage-budgeted-memory-2606.13177.md
 maturity: draft
 created: 2026-06-15
-updated: 2026-06-15
+updated: 2026-06-17
 ---
 
 ## Relations

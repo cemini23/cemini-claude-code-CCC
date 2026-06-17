@@ -18,9 +18,13 @@ related:
   - sources/arxiv-channel-fracture-cross-agent-memory-2606.04896.md
   - concepts/multi-factor-agentic-memory-value-model.md
   - sources/arxiv-multi-factor-agentic-memory-2606.12945.md
+  - concepts/storage-budgeted-agent-memory-compression.md
+  - sources/arxiv-memrefine-storage-budgeted-memory-2606.13177.md
+  - concepts/selective-experience-memory-harness.md
+  - sources/arxiv-finacumen-experience-memory-harness-2606.17642.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-06-15
+updated: 2026-06-17
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-25-2026-05-27.md"
 ---
 

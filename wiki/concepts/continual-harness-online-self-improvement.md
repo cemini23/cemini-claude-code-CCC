@@ -33,9 +33,11 @@ related:
   - sources/arxiv-parthenon-law-self-evolving-legal-agent-2606.04602.md
   - concepts/harnessx-composable-evolution-foundry.md
   - sources/arxiv-harnessx-composable-harness-foundry-2606.14249.md
+  - concepts/seagym-self-evolving-harness-evaluation.md
+  - sources/arxiv-seagym-self-evolving-harness-eval-2606.17546.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-06-16
+updated: 2026-06-17
 cross-wiki-source: "@osint-wiki/concepts/continual-harness-online-self-improvement.md"
 ---
 

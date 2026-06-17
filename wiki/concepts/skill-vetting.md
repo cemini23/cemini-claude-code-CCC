@@ -94,9 +94,10 @@ related:
   - concepts/agents-all-the-way-down-custom-methodology.md
   - concepts/claude-honesty-critic-agent.md
   - sources/arxiv-agents-all-the-way-down-2606.11869.md
+  - concepts/selective-experience-memory-harness.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-06-15
+updated: 2026-06-17
 ---
 
 ## Relations

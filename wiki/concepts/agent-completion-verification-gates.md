@@ -30,9 +30,11 @@ related:
   - sources/arxiv-perspectivegap-multi-agent-orchestration-2606.08878.md
   - concepts/llm-as-orchestrator-failure-modes.md
   - concepts/orchestration-reward-modeling-orch-rm.md
+  - concepts/seagym-self-evolving-harness-evaluation.md
+  - sources/arxiv-seagym-self-evolving-harness-eval-2606.17546.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-06-16
+updated: 2026-06-17
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-25-2026-05-27.md"
 ---
 

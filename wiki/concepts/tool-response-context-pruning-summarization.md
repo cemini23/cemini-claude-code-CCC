@@ -10,9 +10,11 @@ related:
   - concepts/token-economics-and-prompt-caching.md
   - concepts/subagent-orchestration.md
   - concepts/long-thread-context-decay.md
+  - concepts/storage-budgeted-agent-memory-compression.md
+  - sources/arxiv-memrefine-storage-budgeted-memory-2606.13177.md
 maturity: draft
 created: 2026-06-15
-updated: 2026-06-15
+updated: 2026-06-17
 ---
 
 ## Relations

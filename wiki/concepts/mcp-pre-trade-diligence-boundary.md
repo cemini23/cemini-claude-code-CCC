@@ -9,9 +9,10 @@ related:
   - concepts/mcp-server-catalog-curation.md
   - entities/mcp-servers/pmxt-mcp-pattern.md
   - concepts/skill-vetting.md
+  - concepts/selective-experience-memory-harness.md
 maturity: draft
 created: 2026-06-09
-updated: 2026-06-09
+updated: 2026-06-17
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-6-2026-06-08.md"
 ---
 

@@ -11,9 +11,11 @@ related:
   - concepts/self-harness-model-specific-improvement-loop.md
   - concepts/failed-trajectory-harness-repair.md
   - concepts/agent-harness-operational-definition.md
+  - concepts/seagym-self-evolving-harness-evaluation.md
+  - sources/arxiv-seagym-self-evolving-harness-eval-2606.17546.md
 maturity: draft
 created: 2026-06-16
-updated: 2026-06-16
+updated: 2026-06-17
 ---
 
 ## Relations

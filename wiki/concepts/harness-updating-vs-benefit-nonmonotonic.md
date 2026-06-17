@@ -21,9 +21,11 @@ related:
   - concepts/retrospective-harness-optimization-rho.md
   - sources/arxiv-retrospective-harness-optimization-2606.05922.md
   - concepts/self-harness-model-specific-improvement-loop.md
+  - concepts/seagym-self-evolving-harness-evaluation.md
+  - sources/arxiv-seagym-self-evolving-harness-eval-2606.17546.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-12
+updated: 2026-06-17
 cross-wiki-source: "@osint-wiki/concepts/harness-updating-vs-benefit-nonmonotonic.md"
 ---
 

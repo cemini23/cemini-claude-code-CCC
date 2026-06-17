@@ -15,9 +15,11 @@ related:
   - concepts/skillhone-continual-skill-decision-history.md
   - sources/arxiv-skillhone-continual-skill-evolution-2606.08671.md
   - concepts/harnessx-composable-evolution-foundry.md
+  - concepts/seagym-self-evolving-harness-evaluation.md
+  - sources/arxiv-seagym-self-evolving-harness-eval-2606.17546.md
 maturity: draft
 created: 2026-06-11
-updated: 2026-06-16
+updated: 2026-06-17
 ---
 
 ## Relations

@@ -4,6 +4,17 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-06-17] ingest | K117 MemRefine + SEAGym + FinAcumen routing
+
+- **Preingest:** 3 NEW (`2606.13177`, `2606.17546`, `2606.17642`)
+- **Sources (3):** MemRefine storage-budgeted memory; SEAGym harness eval; FinAcumen experience memory (finance)
+- **Concepts (3):** `storage-budgeted-agent-memory-compression`, `seagym-self-evolving-harness-evaluation`, `selective-experience-memory-harness`
+- **Pages updated (11):** `multi-factor-agentic-memory-value-model`, `tool-response-context-pruning-summarization`, `agent-memory-stack-comparison`, `claude-mem`, `continual-harness-online-self-improvement`, `harnessx-composable-evolution-foundry`, `self-harness-model-specific-improvement-loop`, `harness-updating-vs-benefit-nonmonotonic`, `skillhone-continual-skill-decision-history`, `agent-completion-verification-gates`, `index.md`, `sweeps/2026-06-17-daily.md`
+- **Cross-wiki:** `@osint-wiki/concepts/finacumen-financial-experience-memory.md`
+- **Phase-0:** `scripts/adopt_k117_phase0.sh` — MemRefine/SEAGym **REFERENCE**; FinAcumen **NO-GO** install (osint only)
+- **Brief:** `briefs/2026-06-17_k117-memory-seagym-finacumen-prod.md` → scp `cemini-prod:/opt/cemini/briefs/`
+- **Raw:** 3 PDFs → `raw-sources/`; inbox cleared
+
 ## [2026-06-16] sync | cursor-audit + super-audit v1.3.0 role delegation
 
 - **Skills (CCC mirror):** `.cursor/skills/cursor-audit/`, `.cursor/skills/super-audit/` — premium role-based model delegation (no hardcoded triples)
