@@ -40,9 +40,11 @@ related:
   - sources/arxiv-enterprise-mcp-adoption-2606.09182.md
   - concepts/tool-response-context-pruning-summarization.md
   - sources/arxiv-less-context-better-agents-2606.10209.md
+  - concepts/specification-driven-scientific-workflow-management.md
+  - sources/arxiv-specification-to-execution-scientific-workflow-2606.18425.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-15
+updated: 2026-06-18
 ---
 
 ## Relations

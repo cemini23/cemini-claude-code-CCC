@@ -8,9 +8,11 @@ related:
   - concepts/mcp-context-optimization.md
   - concepts/mcp-server-runtime-fault-taxonomy.md
   - sources/arxiv-mcp-runtime-fault-taxonomy-2606.05339.md
+  - concepts/specification-driven-scientific-workflow-management.md
+  - sources/arxiv-specification-to-execution-scientific-workflow-2606.18425.md
 maturity: draft
 created: 2026-06-10
-updated: 2026-06-10
+updated: 2026-06-18
 ---
 
 ## Relations

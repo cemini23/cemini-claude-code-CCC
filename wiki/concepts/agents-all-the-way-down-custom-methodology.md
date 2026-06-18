@@ -10,9 +10,10 @@ related:
   - concepts/ship-subagent-writer-reviewer-tester.md
   - concepts/skill-vetting.md
   - concepts/claude-honesty-critic-agent.md
+  - concepts/specification-driven-scientific-workflow-management.md
 maturity: draft
 created: 2026-06-15
-updated: 2026-06-15
+updated: 2026-06-18
 ---
 
 ## Relations

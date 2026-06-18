@@ -95,9 +95,11 @@ related:
   - concepts/claude-honesty-critic-agent.md
   - sources/arxiv-agents-all-the-way-down-2606.11869.md
   - concepts/selective-experience-memory-harness.md
+  - entities/tools/pegasus-ai-plugin-marketplace.md
+  - sources/arxiv-specification-to-execution-scientific-workflow-2606.18425.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-06-17
+updated: 2026-06-18
 ---
 
 ## Relations

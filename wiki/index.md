@@ -34,6 +34,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`everos`](entities/tools/everos.md) | draft | Long-term-memory OS — context-offload-to-disk pattern for token savings (Apache-2.0) |
 | [`notebooklm-py`](entities/tools/notebooklm-py.md) | draft | NotebookLM SDK/CLI + agents skill dir — Adopt catalog (K69 Post 18) |
 | [`webwright`](entities/tools/webwright.md) | draft | Microsoft Webwright browser harness — CONDITIONAL-GO (K88) |
+| [`pegasus-ai-plugin-marketplace`](entities/tools/pegasus-ai-plugin-marketplace.md) | draft | Pegasus scientific-workflow Claude plugin — REFERENCE (K118) |
 | [`skill-seekers`](entities/tools/skill-seekers.md) | draft | Doc/PDF→skill converter — CONDITIONAL-GO (K88) |
 | [`book-to-skill`](entities/tools/book-to-skill.md) | draft | Book corpus→skill pipeline — CONDITIONAL-GO (K88) |
 | [`skillnet`](entities/tools/skillnet.md) | draft | SkillNet routing — compare lazy-tool (K88) |
@@ -211,6 +212,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`storage-budgeted-agent-memory-compression`](concepts/storage-budgeted-agent-memory-compression.md) | draft | MemRefine delete/merge/preserve — 2606.13177 (K117) |
 | [`seagym-self-evolving-harness-evaluation`](concepts/seagym-self-evolving-harness-evaluation.md) | draft | SEAGym harness evolution eval — 2606.17546 (K117) |
 | [`selective-experience-memory-harness`](concepts/selective-experience-memory-harness.md) | draft | τ-gated experience memory — 2606.17642 (K117) |
+| [`specification-driven-scientific-workflow-management`](concepts/specification-driven-scientific-workflow-management.md) | draft | Intent→spec→code Pegasus pipeline — 2606.18425 (K118) |
 | [`tool-eval-license-skepticism-patterns`](concepts/tool-eval-license-skepticism-patterns.md) | draft | K73 license-eval anti-patterns (NO-LICENSE false negatives, BSL parsing) |
 | [`enterprise-auto-mode-telemetry-rollout`](concepts/enterprise-auto-mode-telemetry-rollout.md) | draft | Auto Mode policy rollout via telemetry loops (K73 Post 1) |
 | [`harness-de-bloat-4x4-pattern`](concepts/harness-de-bloat-4x4-pattern.md) | draft | 4-skills/4-agents simplification pattern (K73 Post 2) |
@@ -365,6 +367,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-memrefine-storage-budgeted-memory-2606.13177`](sources/arxiv-memrefine-storage-budgeted-memory-2606.13177.md) | draft | MemRefine storage-budgeted memory — read (K117) |
 | [`arxiv-seagym-self-evolving-harness-eval-2606.17546`](sources/arxiv-seagym-self-evolving-harness-eval-2606.17546.md) | draft | SEAGym harness eval environment — read (K117) |
 | [`arxiv-finacumen-experience-memory-harness-2606.17642`](sources/arxiv-finacumen-experience-memory-harness-2606.17642.md) | draft | FinAcumen experience memory — read (K117, osint route) |
+| [`arxiv-specification-to-execution-scientific-workflow-2606.18425`](sources/arxiv-specification-to-execution-scientific-workflow-2606.18425.md) | draft | Pegasus spec-driven scientific workflow — read (K118) |
 
 ## meta/
 

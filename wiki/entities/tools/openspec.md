@@ -22,9 +22,11 @@ related:
   - sources/arxiv-autosci-2605.31468.md
   - concepts/failed-trajectory-harness-repair.md
   - concepts/llm-as-code-agentic-programming.md
+  - concepts/specification-driven-scientific-workflow-management.md
+  - sources/arxiv-specification-to-execution-scientific-workflow-2606.18425.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-06-16
+updated: 2026-06-18
 ---
 
 ## Relations
@@ -58,6 +60,8 @@ The private `osint-wiki` workspace cloned the OpenSpec repository at `openspec/`
 **Phase-0 status**: OSINT-side entity page (`@osint-wiki/entities/tools/openspec.md`) carries the canonical license + maturity verdict. CCC defers to that page rather than duplicating audit content.
 
 **Comparison to Cemini's `/goal` template**: OpenSpec encodes more structure (per-feature task graphs, dependency tracking) but at the cost of authoring overhead. The `/goal` template is denser and fits within a single prompt envelope. For Cemini's solo-dev cadence the `/goal` template is the modal choice; OpenSpec earns its slot when scope outgrows a single envelope.
+
+**Scientific-workflow parallel (K118):** Pegasus team's **specification-before-code** pipeline [2606.18425] — structured spec with validation plan before DAG generation — is the same contract-first instinct as OpenSpec; see `@concepts/specification-driven-scientific-workflow-management.md`.
 
 ## Dead Ends
 

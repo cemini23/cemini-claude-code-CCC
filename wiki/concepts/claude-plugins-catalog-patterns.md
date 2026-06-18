@@ -12,9 +12,11 @@ related:
   - sources/trading-posts-compilation-42-2026-05-31.md
   - concepts/cross-wiki-tool-eval-inventory.md
   - entities/tools/claude-skill-registry.md
+  - entities/tools/pegasus-ai-plugin-marketplace.md
+  - sources/arxiv-specification-to-execution-scientific-workflow-2606.18425.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-05-31
+updated: 2026-06-18
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-25-2026-05-27.md"
 ---
 

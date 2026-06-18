@@ -43,9 +43,10 @@ related:
   - sources/arxiv-skilladaptor-2606.01311.md
   - concepts/claude-skills-folder-taxonomy.md
   - concepts/skillhone-continual-skill-decision-history.md
+  - entities/tools/pegasus-ai-plugin-marketplace.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-06-12
+updated: 2026-06-18
 ---
 
 ## Relations

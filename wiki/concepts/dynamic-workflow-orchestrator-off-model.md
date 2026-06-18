@@ -18,9 +18,11 @@ related:
   - concepts/llm-as-code-agentic-programming.md
   - sources/arxiv-llm-as-code-agentic-programming-2606.15874.md
   - concepts/llm-as-orchestrator-failure-modes.md
+  - concepts/specification-driven-scientific-workflow-management.md
+  - sources/arxiv-specification-to-execution-scientific-workflow-2606.18425.md
 maturity: draft
 created: 2026-06-09
-updated: 2026-06-16
+updated: 2026-06-18
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-7-2026-06-09.md"
 ---
 

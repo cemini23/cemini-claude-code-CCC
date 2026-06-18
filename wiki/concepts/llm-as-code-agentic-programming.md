@@ -11,9 +11,11 @@ related:
   - concepts/llm-as-orchestrator-failure-modes.md
   - entities/patterns/full-prompt-goal-template.md
   - entities/tools/openspec.md
+  - concepts/specification-driven-scientific-workflow-management.md
+  - sources/arxiv-specification-to-execution-scientific-workflow-2606.18425.md
 maturity: draft
 created: 2026-06-16
-updated: 2026-06-16
+updated: 2026-06-18
 ---
 
 ## Relations

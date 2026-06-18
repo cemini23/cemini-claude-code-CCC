@@ -4,6 +4,17 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-06-18] ingest | K118 Pegasus specification-driven scientific workflow
+
+- **Preingest:** 1 NEW (`2606.18425`)
+- **Source (1):** From Specification to Execution — Pegasus AI-assisted WMS pipeline
+- **Concept (1):** `specification-driven-scientific-workflow-management`
+- **Entity (1):** `pegasus-ai-plugin-marketplace` — Apache-2.0, CONDITIONAL-GO reference (HPC)
+- **Pages updated (12):** `openspec`, `llm-as-code-agentic-programming`, `failed-trajectory-harness-repair`, `agent-completion-verification-gates`, `claude-plugins-catalog-patterns`, `skill-vetting`, `dynamic-workflow-orchestrator-off-model`, `mcp-context-optimization`, `mcp-adaptive-systems-context-survey`, `index.md`, `sweeps/2026-06-18-daily.md`
+- **Phase-0:** `scripts/adopt_k118_phase0.sh` — marketplace **Apache-2.0**; **NO-GO** Cemini prod (HPC-only)
+- **Brief:** `briefs/2026-06-18_k118-spec-driven-pegasus-workflow-prod.md`
+- **Raw:** 1 PDF → `raw-sources/`; inbox cleared
+
 ## [2026-06-17] ingest | K117 MemRefine + SEAGym + FinAcumen routing
 
 - **Preingest:** 3 NEW (`2606.13177`, `2606.17546`, `2606.17642`)

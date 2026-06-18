@@ -23,9 +23,10 @@ related:
   - concepts/agent-rubrics-self-correction.md
   - entities/tools/hermes-agent.md
   - concepts/llm-as-code-agentic-programming.md
+  - concepts/specification-driven-scientific-workflow-management.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-16
+updated: 2026-06-18
 ---
 
 ## Relations
