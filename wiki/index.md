@@ -213,6 +213,8 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`seagym-self-evolving-harness-evaluation`](concepts/seagym-self-evolving-harness-evaluation.md) | draft | SEAGym harness evolution eval — 2606.17546 (K117) |
 | [`selective-experience-memory-harness`](concepts/selective-experience-memory-harness.md) | draft | τ-gated experience memory — 2606.17642 (K117) |
 | [`specification-driven-scientific-workflow-management`](concepts/specification-driven-scientific-workflow-management.md) | draft | Intent→spec→code Pegasus pipeline — 2606.18425 (K118) |
+| [`agent-first-web-framework`](concepts/agent-first-web-framework.md) | draft | ATML, ten principles, agents.txt — 2606.19116 (K119) |
+| [`handoff-validity-agent-harness`](concepts/handoff-validity-agent-harness.md) | draft | Handoff contracts + EACP layers — 2606.19795 (K119) |
 | [`tool-eval-license-skepticism-patterns`](concepts/tool-eval-license-skepticism-patterns.md) | draft | K73 license-eval anti-patterns (NO-LICENSE false negatives, BSL parsing) |
 | [`enterprise-auto-mode-telemetry-rollout`](concepts/enterprise-auto-mode-telemetry-rollout.md) | draft | Auto Mode policy rollout via telemetry loops (K73 Post 1) |
 | [`harness-de-bloat-4x4-pattern`](concepts/harness-de-bloat-4x4-pattern.md) | draft | 4-skills/4-agents simplification pattern (K73 Post 2) |
@@ -368,6 +370,8 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-seagym-self-evolving-harness-eval-2606.17546`](sources/arxiv-seagym-self-evolving-harness-eval-2606.17546.md) | draft | SEAGym harness eval environment — read (K117) |
 | [`arxiv-finacumen-experience-memory-harness-2606.17642`](sources/arxiv-finacumen-experience-memory-harness-2606.17642.md) | draft | FinAcumen experience memory — read (K117, osint route) |
 | [`arxiv-specification-to-execution-scientific-workflow-2606.18425`](sources/arxiv-specification-to-execution-scientific-workflow-2606.18425.md) | draft | Pegasus spec-driven scientific workflow — read (K118) |
+| [`arxiv-agent-first-web-redesign-2606.19116`](sources/arxiv-agent-first-web-redesign-2606.19116.md) | draft | Agent-first web vision — read (K119) |
+| [`arxiv-agentic-eda-handoff-2606.19795`](sources/arxiv-agentic-eda-handoff-2606.19795.md) | draft | EDA handoff validity survey — read (K119) |
 
 ## meta/
 

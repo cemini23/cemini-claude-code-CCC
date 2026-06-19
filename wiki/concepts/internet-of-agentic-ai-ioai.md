@@ -11,9 +11,11 @@ related:
   - concepts/subagent-orchestration.md
   - entities/mcp-servers/librarian-kb-server.md
   - concepts/agents-k1-agent-native-knowledge-orchestration.md
+  - concepts/agent-first-web-framework.md
+  - sources/arxiv-agent-first-web-redesign-2606.19116.md
 maturity: draft
 created: 2026-06-13
-updated: 2026-06-13
+updated: 2026-06-19
 ---
 
 ## Relations

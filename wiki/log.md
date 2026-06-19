@@ -4,6 +4,17 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-06-19] ingest | K119 Agent-first web + EDA handoff validity
+
+- **Preingest:** 2 NEW (`2606.19116`, `2606.19795`)
+- **Sources (2):** Agent-first web redesign; Agentic EDA handoff survey
+- **Concepts (2):** `agent-first-web-framework`, `handoff-validity-agent-harness`
+- **Pages updated (14):** `geo-seo-claude`, `channel-fracture`, `internet-of-agentic-ai-ioai`, `webwright`, `subagent-orchestration`, `specification-driven-scientific-workflow-management`, `agentic-pm-review-artifacts`, `agent-completion-verification-gates`, `mcp-context-optimization`, `index.md`, `sweeps/2026-06-19-daily.md`
+- **Cross-wiki:** `@seo-wiki/concepts/agent-first-web-atml-framework.md`
+- **Phase-0:** `scripts/adopt_k119_phase0.sh` — both **REFERENCE**; GEO routing to seo-wiki
+- **Brief:** `briefs/2026-06-19_k119-agent-first-web-eda-handoff-prod.md`
+- **Raw:** 2 PDFs → `raw-sources/`; inbox cleared
+
 ## [2026-06-18] ingest | K118 Pegasus specification-driven scientific workflow
 
 - **Preingest:** 1 NEW (`2606.18425`)

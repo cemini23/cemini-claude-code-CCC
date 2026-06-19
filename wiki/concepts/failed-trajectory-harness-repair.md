@@ -28,9 +28,10 @@ related:
   - concepts/harnessx-composable-evolution-foundry.md
   - concepts/specification-driven-scientific-workflow-management.md
   - sources/arxiv-specification-to-execution-scientific-workflow-2606.18425.md
+  - concepts/handoff-validity-agent-harness.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-06-18
+updated: 2026-06-19
 ---
 
 ## Relations

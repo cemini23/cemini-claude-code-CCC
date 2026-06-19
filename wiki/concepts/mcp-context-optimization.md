@@ -42,9 +42,11 @@ related:
   - sources/arxiv-less-context-better-agents-2606.10209.md
   - concepts/specification-driven-scientific-workflow-management.md
   - sources/arxiv-specification-to-execution-scientific-workflow-2606.18425.md
+  - concepts/agent-first-web-framework.md
+  - sources/arxiv-agent-first-web-redesign-2606.19116.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-18
+updated: 2026-06-19
 ---
 
 ## Relations

@@ -24,9 +24,10 @@ related:
   - sources/arxiv-agent-harness-operational-definition-2606.10106.md
   - concepts/harnessx-composable-evolution-foundry.md
   - sources/arxiv-harnessx-composable-harness-foundry-2606.14249.md
+  - concepts/handoff-validity-agent-harness.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-06-16
+updated: 2026-06-19
 ---
 
 ## Relations

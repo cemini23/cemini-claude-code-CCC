@@ -10,9 +10,11 @@ related:
   - sources/multi-wiki-tool-eval-v5-k88-2026-05-31.md
   - "@osint-wiki/entities/tools/microsoft-webwright.md"
   - concepts/cross-wiki-tool-adoption-routing.md
+  - concepts/agent-first-web-framework.md
+  - sources/arxiv-agent-first-web-redesign-2606.19116.md
 maturity: draft
 created: 2026-05-31
-updated: 2026-06-04
+updated: 2026-06-19
 cross-wiki-source: "@osint-wiki/entities/tools/microsoft-webwright.md"
 ---
 

@@ -8,9 +8,10 @@ related:
   - entities/mcp-servers/anthropic-skills.md
   - entities/commands/plugin.md
   - entities/skills/geo-seo-claude.md
+  - concepts/agent-first-web-framework.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-13
+updated: 2026-06-19
 ---
 
 ## Relations

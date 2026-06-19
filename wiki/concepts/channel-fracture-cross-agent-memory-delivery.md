@@ -13,9 +13,11 @@ related:
   - concepts/self-healing-agent-sessions.md
   - concepts/multi-factor-agentic-memory-value-model.md
   - concepts/perspectivegap-orchestration-prompting.md
+  - concepts/handoff-validity-agent-harness.md
+  - sources/arxiv-agentic-eda-handoff-2606.19795.md
 maturity: draft
 created: 2026-06-12
-updated: 2026-06-15
+updated: 2026-06-19
 ---
 
 ## Relations

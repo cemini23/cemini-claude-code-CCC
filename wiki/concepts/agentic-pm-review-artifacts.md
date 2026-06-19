@@ -9,9 +9,11 @@ related:
   - concepts/html-as-claude-code-output-format.md
   - entities/tools/openspec.md
   - sources/trading-posts-compilation-12-2026-06-01.md
+  - concepts/handoff-validity-agent-harness.md
+  - concepts/agent-first-web-framework.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-01
+updated: 2026-06-19
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-12-2026-06-01.md"
 ---
 

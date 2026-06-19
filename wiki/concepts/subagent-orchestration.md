@@ -96,9 +96,11 @@ related:
   - sources/brief-k112-ccc-claude-honesty-critic-2026-06-12.md
   - concepts/orchestration-reward-modeling-orch-rm.md
   - sources/arxiv-orch-rm-multi-agent-orchestration-2606.13598.md
+  - concepts/handoff-validity-agent-harness.md
+  - sources/arxiv-agentic-eda-handoff-2606.19795.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-16
+updated: 2026-06-19
 ---
 
 ## Relations

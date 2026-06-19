@@ -8,9 +8,11 @@ related:
   - entities/mcp-servers/anthropic-skills.md
   - entities/commands/plugin.md
   - entities/skills/claude-seo-agrici.md
+  - concepts/agent-first-web-framework.md
+  - sources/arxiv-agent-first-web-redesign-2606.19116.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-05-13
+updated: 2026-06-19
 ---
 
 ## Relations

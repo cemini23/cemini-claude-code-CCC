@@ -11,9 +11,10 @@ related:
   - concepts/enterprise-mcp-adoption-practice.md
   - concepts/internet-of-agentic-ai-ioai.md
   - sources/arxiv-internet-of-agentic-ai-2606.12835.md
+  - concepts/agent-first-web-framework.md
 maturity: draft
 created: 2026-06-10
-updated: 2026-06-13
+updated: 2026-06-19
 ---
 
 ## Relations

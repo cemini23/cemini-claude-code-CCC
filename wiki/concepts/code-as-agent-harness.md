@@ -64,9 +64,10 @@ related:
   - sources/arxiv-harnessx-composable-harness-foundry-2606.14249.md
   - concepts/llm-as-code-agentic-programming.md
   - sources/arxiv-llm-as-code-agentic-programming-2606.15874.md
+  - concepts/handoff-validity-agent-harness.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-06-16
+updated: 2026-06-19
 cross-wiki-source: "@osint-wiki/sources/arxiv-code-as-agent-harness-survey-2605.18747.md"
 ---
 

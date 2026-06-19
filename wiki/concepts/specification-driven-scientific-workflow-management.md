@@ -15,9 +15,11 @@ related:
   - concepts/failed-trajectory-harness-repair.md
   - concepts/mcp-adaptive-systems-context-survey.md
   - concepts/mcp-context-optimization.md
+  - concepts/handoff-validity-agent-harness.md
+  - sources/arxiv-agentic-eda-handoff-2606.19795.md
 maturity: draft
 created: 2026-06-18
-updated: 2026-06-18
+updated: 2026-06-19
 ---
 
 ## Relations
