@@ -13,9 +13,11 @@ related:
   - concepts/subagent-orchestration.md
   - concepts/etclovg-harness-layers.md
   - concepts/failed-trajectory-harness-repair.md
+  - concepts/plan-then-execute-topological-orchestration.md
+  - sources/arxiv-dynamo-topological-orchestration-2606.19382.md
 maturity: draft
 created: 2026-06-19
-updated: 2026-06-19
+updated: 2026-06-20
 ---
 
 ## Relations

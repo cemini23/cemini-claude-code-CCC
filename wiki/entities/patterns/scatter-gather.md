@@ -25,9 +25,12 @@ related:
   - concepts/recursive-agent-harness-harness-recursion.md
   - sources/arxiv-perspectivegap-multi-agent-orchestration-2606.08878.md
   - sources/arxiv-recursive-agent-harnesses-2606.13643.md
+  - concepts/plan-then-execute-topological-orchestration.md
+  - sources/arxiv-dynamo-topological-orchestration-2606.19382.md
+  - entities/tools/dynamo-orchestration.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-06-15
+updated: 2026-06-20
 cross-wiki-source: "@osint-wiki/concepts/scatter-gather-topology.md"
 ---
 

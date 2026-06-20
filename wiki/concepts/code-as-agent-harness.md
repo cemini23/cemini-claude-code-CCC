@@ -65,9 +65,10 @@ related:
   - concepts/llm-as-code-agentic-programming.md
   - sources/arxiv-llm-as-code-agentic-programming-2606.15874.md
   - concepts/handoff-validity-agent-harness.md
+  - concepts/executable-user-memory-user-as-code.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-06-19
+updated: 2026-06-20
 cross-wiki-source: "@osint-wiki/sources/arxiv-code-as-agent-harness-survey-2605.18747.md"
 ---
 

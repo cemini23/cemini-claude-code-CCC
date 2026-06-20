@@ -14,9 +14,11 @@ related:
   - entities/tools/conductor-mcp.md
   - "@osint-wiki/concepts/graphflow-verifiable-agent-workflows.md"
   - "@osint-wiki/sources/arxiv-graphflow-verifiable-workflows-2605.14968.md"
+  - concepts/plan-then-execute-topological-orchestration.md
+  - sources/arxiv-dynamo-topological-orchestration-2606.19382.md
 maturity: draft
 created: 2026-05-23
-updated: 2026-05-26
+updated: 2026-06-20
 cross-wiki-source: "@osint-wiki/sources/arxiv-graphflow-verifiable-workflows-2605.14968.md"
 ---
 

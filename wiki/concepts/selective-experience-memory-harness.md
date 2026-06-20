@@ -9,9 +9,10 @@ related:
   - concepts/skill-vetting.md
   - concepts/agent-memory-stack-comparison.md
   - concepts/mcp-pre-trade-diligence-boundary.md
+  - concepts/executable-user-memory-user-as-code.md
 maturity: draft
 created: 2026-06-17
-updated: 2026-06-17
+updated: 2026-06-20
 ---
 
 ## Relations

@@ -97,9 +97,11 @@ related:
   - concepts/selective-experience-memory-harness.md
   - entities/tools/pegasus-ai-plugin-marketplace.md
   - sources/arxiv-specification-to-execution-scientific-workflow-2606.18425.md
+  - entities/tools/dynamo-orchestration.md
+  - entities/tools/user-as-code.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-06-18
+updated: 2026-06-20
 ---
 
 ## Relations

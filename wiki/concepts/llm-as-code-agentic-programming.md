@@ -13,9 +13,12 @@ related:
   - entities/tools/openspec.md
   - concepts/specification-driven-scientific-workflow-management.md
   - sources/arxiv-specification-to-execution-scientific-workflow-2606.18425.md
+  - concepts/executable-user-memory-user-as-code.md
+  - sources/arxiv-user-as-code-executable-memory-2606.16707.md
+  - concepts/plan-then-execute-topological-orchestration.md
 maturity: draft
 created: 2026-06-16
-updated: 2026-06-18
+updated: 2026-06-20
 ---
 
 ## Relations

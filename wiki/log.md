@@ -4,6 +4,17 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-06-20] ingest | K120 User as Code + DynAMO orchestration
+
+- **Preingest:** 2 NEW (`2606.16707`, `2606.19382`)
+- **Sources (2):** User as Code executable memory; DynAMO topological scheduling
+- **Concepts (2):** `executable-user-memory-user-as-code`, `plan-then-execute-topological-orchestration`
+- **Entities (2):** `user-as-code` (Apache-2.0 CONDITIONAL-GO); `dynamo-orchestration` (REFERENCE)
+- **Pages updated (12):** `agent-memory-stack-comparison`, `claude-mem`, `llm-as-code-agentic-programming`, `dynamic-workflow-orchestrator-off-model`, `tool-response-context-pruning-summarization`, `scatter-gather`, `handoff-validity-agent-harness`, `graphflow-verifiable-agent-workflows`, `subagent-orchestration`, `index.md`, `sweeps/2026-06-20-daily.md`
+- **Phase-0:** `scripts/adopt_k120_phase0.sh` — both Apache-2.0; UaC laptop-only; DynAMO REFERENCE
+- **Brief:** `briefs/2026-06-20_k120-user-as-code-dynamo-prod.md`
+- **Raw:** 2 PDFs → `raw-sources/`; inbox cleared
+
 ## [2026-06-19] ingest | K119 Agent-first web + EDA handoff validity
 
 - **Preingest:** 2 NEW (`2606.19116`, `2606.19795`)

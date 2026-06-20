@@ -22,9 +22,11 @@ related:
   - sources/arxiv-memrefine-storage-budgeted-memory-2606.13177.md
   - concepts/selective-experience-memory-harness.md
   - sources/arxiv-finacumen-experience-memory-harness-2606.17642.md
+  - concepts/executable-user-memory-user-as-code.md
+  - sources/arxiv-user-as-code-executable-memory-2606.16707.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-06-17
+updated: 2026-06-20
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-25-2026-05-27.md"
 ---
 

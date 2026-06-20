@@ -35,6 +35,8 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`notebooklm-py`](entities/tools/notebooklm-py.md) | draft | NotebookLM SDK/CLI + agents skill dir — Adopt catalog (K69 Post 18) |
 | [`webwright`](entities/tools/webwright.md) | draft | Microsoft Webwright browser harness — CONDITIONAL-GO (K88) |
 | [`pegasus-ai-plugin-marketplace`](entities/tools/pegasus-ai-plugin-marketplace.md) | draft | Pegasus scientific-workflow Claude plugin — REFERENCE (K118) |
+| [`user-as-code`](entities/tools/user-as-code.md) | draft | Pine AI executable user memory — CONDITIONAL-GO (K120) |
+| [`dynamo-orchestration`](entities/tools/dynamo-orchestration.md) | draft | DynAMO topological workflow engine — REFERENCE (K120) |
 | [`skill-seekers`](entities/tools/skill-seekers.md) | draft | Doc/PDF→skill converter — CONDITIONAL-GO (K88) |
 | [`book-to-skill`](entities/tools/book-to-skill.md) | draft | Book corpus→skill pipeline — CONDITIONAL-GO (K88) |
 | [`skillnet`](entities/tools/skillnet.md) | draft | SkillNet routing — compare lazy-tool (K88) |
@@ -215,6 +217,8 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`specification-driven-scientific-workflow-management`](concepts/specification-driven-scientific-workflow-management.md) | draft | Intent→spec→code Pegasus pipeline — 2606.18425 (K118) |
 | [`agent-first-web-framework`](concepts/agent-first-web-framework.md) | draft | ATML, ten principles, agents.txt — 2606.19116 (K119) |
 | [`handoff-validity-agent-harness`](concepts/handoff-validity-agent-harness.md) | draft | Handoff contracts + EACP layers — 2606.19795 (K119) |
+| [`executable-user-memory-user-as-code`](concepts/executable-user-memory-user-as-code.md) | draft | Typed Python executable user memory — 2606.16707 (K120) |
+| [`plan-then-execute-topological-orchestration`](concepts/plan-then-execute-topological-orchestration.md) | draft | DynAMO DAG plan-then-execute — 2606.19382 (K120) |
 | [`tool-eval-license-skepticism-patterns`](concepts/tool-eval-license-skepticism-patterns.md) | draft | K73 license-eval anti-patterns (NO-LICENSE false negatives, BSL parsing) |
 | [`enterprise-auto-mode-telemetry-rollout`](concepts/enterprise-auto-mode-telemetry-rollout.md) | draft | Auto Mode policy rollout via telemetry loops (K73 Post 1) |
 | [`harness-de-bloat-4x4-pattern`](concepts/harness-de-bloat-4x4-pattern.md) | draft | 4-skills/4-agents simplification pattern (K73 Post 2) |
@@ -372,6 +376,8 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-specification-to-execution-scientific-workflow-2606.18425`](sources/arxiv-specification-to-execution-scientific-workflow-2606.18425.md) | draft | Pegasus spec-driven scientific workflow — read (K118) |
 | [`arxiv-agent-first-web-redesign-2606.19116`](sources/arxiv-agent-first-web-redesign-2606.19116.md) | draft | Agent-first web vision — read (K119) |
 | [`arxiv-agentic-eda-handoff-2606.19795`](sources/arxiv-agentic-eda-handoff-2606.19795.md) | draft | EDA handoff validity survey — read (K119) |
+| [`arxiv-user-as-code-executable-memory-2606.16707`](sources/arxiv-user-as-code-executable-memory-2606.16707.md) | draft | User as Code executable memory — read (K120) |
+| [`arxiv-dynamo-topological-orchestration-2606.19382`](sources/arxiv-dynamo-topological-orchestration-2606.19382.md) | draft | DynAMO topological orchestration — read (K120) |
 
 ## meta/
 

@@ -38,9 +38,12 @@ related:
   - sources/arxiv-multi-factor-agentic-memory-2606.12945.md
   - concepts/storage-budgeted-agent-memory-compression.md
   - sources/arxiv-memrefine-storage-budgeted-memory-2606.13177.md
+  - concepts/executable-user-memory-user-as-code.md
+  - sources/arxiv-user-as-code-executable-memory-2606.16707.md
+  - entities/tools/user-as-code.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-17
+updated: 2026-06-20
 ---
 
 ## Relations

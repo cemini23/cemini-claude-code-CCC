@@ -20,9 +20,11 @@ related:
   - concepts/llm-as-orchestrator-failure-modes.md
   - concepts/specification-driven-scientific-workflow-management.md
   - sources/arxiv-specification-to-execution-scientific-workflow-2606.18425.md
+  - concepts/plan-then-execute-topological-orchestration.md
+  - sources/arxiv-dynamo-topological-orchestration-2606.19382.md
 maturity: draft
 created: 2026-06-09
-updated: 2026-06-18
+updated: 2026-06-20
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-7-2026-06-09.md"
 ---
 

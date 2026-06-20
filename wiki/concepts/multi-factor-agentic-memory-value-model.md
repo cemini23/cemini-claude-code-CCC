@@ -11,9 +11,10 @@ related:
   - concepts/channel-fracture-cross-agent-memory-delivery.md
   - concepts/storage-budgeted-agent-memory-compression.md
   - sources/arxiv-memrefine-storage-budgeted-memory-2606.13177.md
+  - concepts/executable-user-memory-user-as-code.md
 maturity: draft
 created: 2026-06-15
-updated: 2026-06-17
+updated: 2026-06-20
 ---
 
 ## Relations

@@ -15,9 +15,10 @@ related:
   - concepts/perspectivegap-orchestration-prompting.md
   - concepts/handoff-validity-agent-harness.md
   - sources/arxiv-agentic-eda-handoff-2606.19795.md
+  - concepts/executable-user-memory-user-as-code.md
 maturity: draft
 created: 2026-06-12
-updated: 2026-06-19
+updated: 2026-06-20
 ---
 
 ## Relations

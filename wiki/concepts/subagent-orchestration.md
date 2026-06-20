@@ -98,9 +98,13 @@ related:
   - sources/arxiv-orch-rm-multi-agent-orchestration-2606.13598.md
   - concepts/handoff-validity-agent-harness.md
   - sources/arxiv-agentic-eda-handoff-2606.19795.md
+  - concepts/executable-user-memory-user-as-code.md
+  - sources/arxiv-user-as-code-executable-memory-2606.16707.md
+  - concepts/plan-then-execute-topological-orchestration.md
+  - sources/arxiv-dynamo-topological-orchestration-2606.19382.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-19
+updated: 2026-06-20
 ---
 
 ## Relations
