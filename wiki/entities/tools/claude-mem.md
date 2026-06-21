@@ -41,9 +41,10 @@ related:
   - concepts/executable-user-memory-user-as-code.md
   - sources/arxiv-user-as-code-executable-memory-2606.16707.md
   - entities/tools/user-as-code.md
+  - entities/tools/lightmem2.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-20
+updated: 2026-06-21
 ---
 
 ## Relations

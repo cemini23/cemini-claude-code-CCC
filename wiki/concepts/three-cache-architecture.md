@@ -20,9 +20,11 @@ related:
   - concepts/multi-factor-agentic-memory-value-model.md
   - sources/arxiv-multi-factor-agentic-memory-2606.12945.md
   - concepts/storage-budgeted-agent-memory-compression.md
+  - concepts/prompt-cache-aligned-context-management.md
+  - sources/arxiv-tokenpilot-cache-efficient-context-2606.17016.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-17
+updated: 2026-06-21
 ---
 
 ## Relations

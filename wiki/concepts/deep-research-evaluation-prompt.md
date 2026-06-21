@@ -2,7 +2,7 @@
 title: Deep research multi-wiki evaluation prompt — version lineage
 type: concept
 tags: [concept, prompt, gemini-deep-research, tool-evaluation, multi-wiki, cursor, claude-code]
-keywords: [v3, v4, v5, v6, v7, nine surfaces, game-dev-wiki, gambling-wiki, CCC wiki, tier classification, anti-hallucination, cross-wiki routing, license posture, world-cup-bot]
+keywords: [v3, v4, v5, v6, v7, v8, nine surfaces, game-dev-wiki, gambling-wiki, CCC wiki, tier classification, anti-hallucination, cross-wiki routing, license posture, world-cup-bot, wc-ticket-monitor, CeminiDFS, federation-hub]
 related:
   - concepts/cursor-ide-workspace.md
   - concepts/cross-wiki-routing.md
@@ -16,7 +16,7 @@ related:
   - @osint-wiki/concepts/game-dev-wiki-federation.md
 maturity: validated
 created: 2026-05-21
-updated: 2026-06-13
+updated: 2026-06-21
 ---
 
 ## Relations
@@ -50,11 +50,19 @@ Bulk tool evaluation uses **nine surfaces** (Cemini financial + seven specialist
 | v4 | 2026-05-21 | 7 (CCC = Cursor primary + Claude Code secondary) | `prompts/deep-research-multi-wiki-eval-v4-2026-05-21.md` | Frozen for reproducing K55–K84 batches |
 | v5 | 2026-05-30 | 7 + world-cup-bot inventory + inline license API | `prompts/deep-research-multi-wiki-eval-v5-2026-05-30.md` | Frozen after K88; NO-GO registry, `gh` license lookup |
 | v6 | 2026-05-31 | 8 (+ `gambling-wiki` surface 3) | `prompts/deep-research-multi-wiki-eval-v6-2026-05-31.md` | Frozen after K114; sports betting / casino / DFS split |
-| **v7** | **2026-06-13** | **9 (+ `game-dev-wiki` surface 8)** | **`prompts/deep-research-multi-wiki-eval-v7-2026-06-13.md`** | **Current default** — hobby game dev, castle/RTS, Godot evals, agent slices |
+| v7 | 2026-06-13 | 9 (+ `game-dev-wiki` surface 8) | `prompts/deep-research-multi-wiki-eval-v7-2026-06-13.md` | Frozen after K120; game-dev surface |
+| **v8** | **2026-06-21** | **9 (same surfaces)** | **`prompts/deep-research-multi-wiki-eval-v8-2026-06-21.md`** | **Current default** — shipped stack: wc-ticket-monitor, CeminiDFS, federation-hub; librarian offline |
 
 **First v6 production batch:** K90 (2026-05-31, 41 URLs) — `@sources/multi-wiki-tool-eval-v6-k90-2026-05-31.md` (adds gambling-wiki surface).
 
 **First v7 note:** K115 (2026-06-13) — `@game-dev-wiki` bootstrap; no bulk URL batch yet.
+
+### v8 deltas vs v7 [CONFIRMED 2026-06-21]
+
+1. **Shipped stack inventory** — `wc-ticket-monitor`, `CeminiDFS`, `cemini-federation-hub` alongside `world-cup-bot`.
+2. **Overlap fields** — `wc-ticket-monitor overlap` + `CeminiDFS overlap` in per-URL template (mirror world-cup-bot).
+3. **Librarian offline** — `cemini-librarian` deleted 2026-06-14; egress-fi raw archive; laptop `federation_paths.yaml` for cross-wiki reads.
+4. **Cross-routing** — FIFA ticket alerts, NFL nflverse pipelines, federation morning-summary tools.
 
 ### v7 deltas vs v6 [CONFIRMED 2026-06-13]
 
@@ -79,7 +87,7 @@ Bulk tool evaluation uses **nine surfaces** (Cemini financial + seven specialist
 
 ### Runtime workflow
 
-1. Paste **v7** + URL list into **Gemini Deep Research**.
+1. Paste **v8** + URL list into **Gemini Deep Research**.
 2. On return, open **OSINT WORKSPACE** in Cursor; spot-check Adopt licenses via `gh` / Exa.
 3. Ingest per `@osint-wiki/CLAUDE.md` ingest ops; cross-wiki briefs land in sibling `briefs/` folders; gambling-primary stubs → `@gambling-wiki/`; game-dev-primary stubs → `python3 scripts/cross_wiki_route.py --target-wiki game-dev-wiki` from OSINT.
 
@@ -89,7 +97,8 @@ Gemini's `NO LICENSE FOUND` layer was unreliable on 9–22% of URLs in two v3 ba
 
 ## Snippets
 
-- **v7 canonical:** `../prompts/deep-research-multi-wiki-eval-v7-2026-06-13.md` (relative to this wiki root's parent CCC repo)
+- **v8 canonical:** `../prompts/deep-research-multi-wiki-eval-v8-2026-06-21.md` (relative to this wiki root's parent CCC repo)
+- **v7 frozen:** `../prompts/deep-research-multi-wiki-eval-v7-2026-06-13.md`
 - **v6 frozen:** `../prompts/deep-research-multi-wiki-eval-v6-2026-05-31.md`
 - **v5 frozen:** `../prompts/deep-research-multi-wiki-eval-v5-2026-05-30.md`
 - **v4 frozen:** `../prompts/deep-research-multi-wiki-eval-v4-2026-05-21.md`

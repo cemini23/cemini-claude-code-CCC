@@ -10,9 +10,10 @@ related:
   - concepts/self-harness-model-specific-improvement-loop.md
   - concepts/harnessx-composable-evolution-foundry.md
   - concepts/agent-completion-verification-gates.md
+  - concepts/gatekeeper-layered-agent-evaluation.md
 maturity: draft
 created: 2026-06-17
-updated: 2026-06-17
+updated: 2026-06-21
 ---
 
 ## Relations

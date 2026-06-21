@@ -25,9 +25,10 @@ related:
   - concepts/harnessx-composable-evolution-foundry.md
   - sources/arxiv-harnessx-composable-harness-foundry-2606.14249.md
   - concepts/handoff-validity-agent-harness.md
+  - concepts/safeclawbench-staged-security-endpoints.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-06-19
+updated: 2026-06-21
 ---
 
 ## Relations

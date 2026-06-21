@@ -29,9 +29,11 @@ related:
   - concepts/specification-driven-scientific-workflow-management.md
   - sources/arxiv-specification-to-execution-scientific-workflow-2606.18425.md
   - concepts/handoff-validity-agent-harness.md
+  - concepts/gatekeeper-layered-agent-evaluation.md
+  - sources/arxiv-gatekeepers-layered-eval-quantum-vqe-2606.18422.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-06-19
+updated: 2026-06-21
 ---
 
 ## Relations

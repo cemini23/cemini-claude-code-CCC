@@ -22,9 +22,11 @@ related:
   - sources/arxiv-mcp-runtime-fault-taxonomy-2606.05339.md
   - concepts/enterprise-mcp-adoption-practice.md
   - sources/arxiv-enterprise-mcp-adoption-2606.09182.md
+  - concepts/safeclawbench-staged-security-endpoints.md
+  - sources/arxiv-safeclawbench-staged-agent-security-2606.18356.md
 maturity: draft
 created: 2026-06-04
-updated: 2026-06-11
+updated: 2026-06-21
 cross-wiki-source: "@osint-wiki/concepts/seclaw-agent-security-evaluation.md"
 ---
 

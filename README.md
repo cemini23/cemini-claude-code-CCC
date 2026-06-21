@@ -59,7 +59,7 @@ Full ingest workflow in `CLAUDE.md` § Operations.
 
 **Privacy:** **`ccc-wiki` is public** (this repository). **`osint-wiki`** and **Cemini Financial Suite** are private — cross-wiki links to them appear in prose but those repos are not public deliverables.
 
-**Canonical prompt:** [prompts/deep-research-multi-wiki-eval-v7-2026-06-13.md](prompts/deep-research-multi-wiki-eval-v7-2026-06-13.md) — nine-surface URL evaluation (includes `gambling-wiki`, `game-dev-wiki`; Gemini Deep Research + Cursor spot-check).
+**Canonical prompt:** [prompts/deep-research-multi-wiki-eval-v8-2026-06-21.md](prompts/deep-research-multi-wiki-eval-v8-2026-06-21.md) — nine-surface URL evaluation (includes `gambling-wiki`, `game-dev-wiki`, shipped OSS: world-cup-bot, wc-ticket-monitor, CeminiDFS; Gemini Deep Research + Cursor spot-check).
 
 ## Related
 

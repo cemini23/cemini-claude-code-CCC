@@ -31,7 +31,7 @@ related:
   - sources/arxiv-internet-of-agentic-ai-2606.12835.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-15
+updated: 2026-06-21
 ---
 
 ## Relations
@@ -69,7 +69,7 @@ The federation has **eight domain wikis** + private Cemini Financial Suite (CCC 
 | `3d-printing-wiki` | FDM/FFF printing, slicers, store ops |
 | `game-dev-wiki` | Hobby game dev — castle/RTS research, Godot/engine evals, vertical slices (public) |
 
-**Bulk eval routing:** `@concepts/deep-research-evaluation-prompt.md` (v7 at `prompts/deep-research-multi-wiki-eval-v7-2026-06-13.md`) — gambling-wiki = surface 3; game-dev-wiki = surface 8; osint = bots/LP only.
+**Bulk eval routing:** `@concepts/deep-research-evaluation-prompt.md` (v8 at `prompts/deep-research-multi-wiki-eval-v8-2026-06-21.md`) — gambling-wiki = surface 3; game-dev-wiki = surface 8; osint = bots/LP only; shipped OSS overlap fields for world-cup-bot, wc-ticket-monitor, CeminiDFS.
 
 Every wiki's CLAUDE.md has a "Related Wikis" table listing siblings with relative paths. The lint scripts parse this table to resolve `@<alias>/path` references.
 

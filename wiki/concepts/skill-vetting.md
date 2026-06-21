@@ -99,9 +99,11 @@ related:
   - sources/arxiv-specification-to-execution-scientific-workflow-2606.18425.md
   - entities/tools/dynamo-orchestration.md
   - entities/tools/user-as-code.md
+  - concepts/safeclawbench-staged-security-endpoints.md
+  - entities/tools/lightmem2.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-06-20
+updated: 2026-06-21
 ---
 
 ## Relations

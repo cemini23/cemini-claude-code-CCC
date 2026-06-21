@@ -10,9 +10,10 @@ related:
   - entities/tools/claude-mem.md
   - concepts/agent-memory-stack-comparison.md
   - concepts/three-cache-architecture.md
+  - concepts/prompt-cache-aligned-context-management.md
 maturity: draft
 created: 2026-06-17
-updated: 2026-06-17
+updated: 2026-06-21
 ---
 
 ## Relations

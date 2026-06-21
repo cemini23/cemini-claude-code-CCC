@@ -37,6 +37,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`pegasus-ai-plugin-marketplace`](entities/tools/pegasus-ai-plugin-marketplace.md) | draft | Pegasus scientific-workflow Claude plugin — REFERENCE (K118) |
 | [`user-as-code`](entities/tools/user-as-code.md) | draft | Pine AI executable user memory — CONDITIONAL-GO (K120) |
 | [`dynamo-orchestration`](entities/tools/dynamo-orchestration.md) | draft | DynAMO topological workflow engine — REFERENCE (K120) |
+| [`lightmem2`](entities/tools/lightmem2.md) | draft | TokenPilot-integrated memory — CONDITIONAL-GO (K121) |
 | [`skill-seekers`](entities/tools/skill-seekers.md) | draft | Doc/PDF→skill converter — CONDITIONAL-GO (K88) |
 | [`book-to-skill`](entities/tools/book-to-skill.md) | draft | Book corpus→skill pipeline — CONDITIONAL-GO (K88) |
 | [`skillnet`](entities/tools/skillnet.md) | draft | SkillNet routing — compare lazy-tool (K88) |
@@ -133,7 +134,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`cross-wiki-tool-eval-inventory`](concepts/cross-wiki-tool-eval-inventory.md) | draft | Consolidated receipt — all CCC-routed items from OSINT tool evaluations K45–K56 |
 | [`code-as-agent-harness`](concepts/code-as-agent-harness.md) | draft | Three-layer harness model mapped to Claude Code / conductor / MCP (K48 arXiv) |
 | [`self-healing-agent-sessions`](concepts/self-healing-agent-sessions.md) | draft | Failure taxonomy + retry budget for long Claude Code sessions (K48 arXiv) |
-| [`deep-research-evaluation-prompt`](concepts/deep-research-evaluation-prompt.md) | validated | v1→v7 lineage; canonical copy-paste at `prompts/deep-research-multi-wiki-eval-v7-2026-06-13.md` |
+| [`deep-research-evaluation-prompt`](concepts/deep-research-evaluation-prompt.md) | validated | v1→v8 lineage; canonical copy-paste at `prompts/deep-research-multi-wiki-eval-v8-2026-06-21.md` |
 | [`cursor-ide-workspace`](concepts/cursor-ide-workspace.md) | validated | Cursor as primary laptop harness; MCP map, rules, canvas, deployment boundary |
 | [`local-llm-mechanics-primer`](concepts/local-llm-mechanics-primer.md) | draft | KV cache / prefill-decode primer for local inference (K57 Post 1) |
 | [`tools-we-dont-use`](concepts/tools-we-dont-use.md) | draft | Institutional reject register (ToS bypass, ridark list discipline) |
@@ -219,6 +220,9 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`handoff-validity-agent-harness`](concepts/handoff-validity-agent-harness.md) | draft | Handoff contracts + EACP layers — 2606.19795 (K119) |
 | [`executable-user-memory-user-as-code`](concepts/executable-user-memory-user-as-code.md) | draft | Typed Python executable user memory — 2606.16707 (K120) |
 | [`plan-then-execute-topological-orchestration`](concepts/plan-then-execute-topological-orchestration.md) | draft | DynAMO DAG plan-then-execute — 2606.19382 (K120) |
+| [`prompt-cache-aligned-context-management`](concepts/prompt-cache-aligned-context-management.md) | draft | TokenPilot cache-safe compaction — 2606.17016 (K121) |
+| [`safeclawbench-staged-security-endpoints`](concepts/safeclawbench-staged-security-endpoints.md) | draft | Three-endpoint agent security — 2606.18356 (K121) |
+| [`gatekeeper-layered-agent-evaluation`](concepts/gatekeeper-layered-agent-evaluation.md) | draft | Gatekeeper + design entropy eval — 2606.18422 (K121) |
 | [`tool-eval-license-skepticism-patterns`](concepts/tool-eval-license-skepticism-patterns.md) | draft | K73 license-eval anti-patterns (NO-LICENSE false negatives, BSL parsing) |
 | [`enterprise-auto-mode-telemetry-rollout`](concepts/enterprise-auto-mode-telemetry-rollout.md) | draft | Auto Mode policy rollout via telemetry loops (K73 Post 1) |
 | [`harness-de-bloat-4x4-pattern`](concepts/harness-de-bloat-4x4-pattern.md) | draft | 4-skills/4-agents simplification pattern (K73 Post 2) |
@@ -378,6 +382,9 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-agentic-eda-handoff-2606.19795`](sources/arxiv-agentic-eda-handoff-2606.19795.md) | draft | EDA handoff validity survey — read (K119) |
 | [`arxiv-user-as-code-executable-memory-2606.16707`](sources/arxiv-user-as-code-executable-memory-2606.16707.md) | draft | User as Code executable memory — read (K120) |
 | [`arxiv-dynamo-topological-orchestration-2606.19382`](sources/arxiv-dynamo-topological-orchestration-2606.19382.md) | draft | DynAMO topological orchestration — read (K120) |
+| [`arxiv-tokenpilot-cache-efficient-context-2606.17016`](sources/arxiv-tokenpilot-cache-efficient-context-2606.17016.md) | draft | TokenPilot cache context management — read (K121) |
+| [`arxiv-safeclawbench-staged-agent-security-2606.18356`](sources/arxiv-safeclawbench-staged-agent-security-2606.18356.md) | draft | SafeClawBench staged security — read (K121) |
+| [`arxiv-gatekeepers-layered-eval-quantum-vqe-2606.18422`](sources/arxiv-gatekeepers-layered-eval-quantum-vqe-2606.18422.md) | draft | Gatekeeper layered eval — skimmed (K121) |
 
 ## meta/
 

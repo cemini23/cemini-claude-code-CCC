@@ -36,9 +36,11 @@ related:
   - sources/arxiv-specification-to-execution-scientific-workflow-2606.18425.md
   - concepts/handoff-validity-agent-harness.md
   - sources/arxiv-agentic-eda-handoff-2606.19795.md
+  - concepts/gatekeeper-layered-agent-evaluation.md
+  - sources/arxiv-gatekeepers-layered-eval-quantum-vqe-2606.18422.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-06-19
+updated: 2026-06-21
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-25-2026-05-27.md"
 ---
 

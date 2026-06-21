@@ -22,9 +22,11 @@ related:
   - concepts/bayesian-posterior-guided-skill-evolution.md
   - concepts/orchestration-reward-modeling-orch-rm.md
   - sources/arxiv-orch-rm-multi-agent-orchestration-2606.13598.md
+  - concepts/gatekeeper-layered-agent-evaluation.md
+  - sources/arxiv-gatekeepers-layered-eval-quantum-vqe-2606.18422.md
 maturity: draft
 created: 2026-06-03
-updated: 2026-06-16
+updated: 2026-06-21
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-17-2026-06-03.md"
 ---
 

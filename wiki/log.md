@@ -4,6 +4,25 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-06-21] ingest | K121 TokenPilot + SafeClawBench + gatekeeper eval
+
+- **Preingest:** 3 NEW (`2606.17016`, `2606.18356`, `2606.18422`)
+- **Sources (3):** TokenPilot cache context; SafeClawBench staged security; Gatekeepers layered VQE eval
+- **Concepts (3):** `prompt-cache-aligned-context-management`, `safeclawbench-staged-security-endpoints`, `gatekeeper-layered-agent-evaluation`
+- **Entity (1):** `lightmem2` (MIT, TokenPilot integrated)
+- **Pages updated (14):** `token-economics-and-prompt-caching`, `tool-response-context-pruning-summarization`, `mcp-context-optimization`, `three-cache-architecture`, `seclaw-agent-security-evaluation`, `defenseclaw`, `agent-completion-verification-gates`, `failed-trajectory-harness-repair`, `agent-rubrics-self-correction`, `index.md`, `sweeps/2026-06-21-daily.md`
+- **Cross-wiki:** `@cybersecurity-wiki/concepts/safeclawbench-staged-agent-security.md`
+- **Phase-0:** `scripts/adopt_k121_phase0.sh` — LightMem2 MIT; SafeClawBench HF dataset
+- **Brief:** `briefs/2026-06-21_k121-tokenpilot-safeclaw-gatekeepers-prod.md`
+- **Raw:** 3 PDFs → `raw-sources/`; inbox cleared
+
+## [2026-06-21] prompt | v8 deep-research multi-wiki eval — shipped OSS projects
+
+- **Created:** `prompts/deep-research-multi-wiki-eval-v8-2026-06-21.md` — supersedes v7 for day-to-day use
+- **Shipped stack added:** `wc-ticket-monitor`, `CeminiDFS`, `cemini-federation-hub` (inventory + overlap fields)
+- **Infra fix:** `cemini-librarian` offline 2026-06-14 → egress-fi archive + `federation_paths.yaml` laptop grep
+- **Updated:** `concepts/deep-research-evaluation-prompt.md`, `concepts/cross-wiki-routing.md`, `index.md`, `README.md`, `CLAUDE.md`
+
 ## [2026-06-20] ingest | K120 User as Code + DynAMO orchestration
 
 - **Preingest:** 2 NEW (`2606.16707`, `2606.19382`)
