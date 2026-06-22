@@ -6,6 +6,12 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-06-22] cross-wiki | K126 OSINT — agent skill Adopt stubs
+
+- **New (2):** `entities/tools/nvidia-skills.md`, `entities/tools/mattpocock-skills.md` — routing stubs from OSINT links.docx eval
+- **Updated:** `concepts/claude-code-skills-md-institutional-memory.md`, `wiki/index.md`
+- **Brief (local):** `briefs/2026-06-22_k126-nvidia-mattpocock-skills-adopt.md` (gitignored)
+
 ## [2026-06-22] ingest | K122 XCIENTIST claim drift + research harness
 
 - **Preingest:** 1 NEW (`2606.18874`)

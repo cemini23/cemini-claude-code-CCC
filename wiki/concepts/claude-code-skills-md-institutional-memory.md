@@ -12,9 +12,11 @@ related:
   - concepts/context-engineering.md
   - sources/trading-posts-macro-charts-skills-md-2026-05-28.md
   - concepts/muse-autoskill-skill-lifecycle.md
+  - entities/tools/nvidia-skills.md
+  - entities/tools/mattpocock-skills.md
 maturity: draft
 created: 2026-05-28
-updated: 2026-06-01
+updated: 2026-06-22
 cross-wiki-source: "@osint-wiki/concepts/claude-code-skills-md-workflow.md"
 ---
 
@@ -24,6 +26,8 @@ cross-wiki-source: "@osint-wiki/concepts/claude-code-skills-md-workflow.md"
 - `@concepts/claude-md-five-section-template.md` — CLAUDE.md hierarchy paired with Skills.md layer
 - `@concepts/twelve-rule-claude-md-template.md` — complementary discipline template (rules vs five-section scaffold)
 - `@entities/mcp-servers/anthropic-skills.md` — marketplace + SKILL.md spec surface
+- `@entities/tools/nvidia-skills.md` — K126 signed skill distribution stub (OSINT canonical)
+- `@entities/tools/mattpocock-skills.md` — K126 Adopt composable skill library stub
 - `@entities/tools/hermes-agent.md` — runtime memory product contrast (not file-based Skills.md)
 - `@concepts/context-engineering.md` — persistent files as context lever
 

@@ -152,6 +152,8 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`everything-claude-code`](entities/tools/everything-claude-code.md) | draft | ECC harness bundle — defer; canon on osint-wiki (K63) |
 | [`cursor-community-plugins`](entities/tools/cursor-community-plugins.md) | draft | Cursor plugin index — no LICENSE (K63 CONDITIONAL-GO) |
 | [`hermes-agent`](entities/tools/hermes-agent.md) | draft | Nous Hermes runtime — reference vs conductor (K64 OSINT routing) |
+| [`nvidia-skills`](entities/tools/nvidia-skills.md) | draft | Signed SKILL.md distribution — K126 OSINT stub (CONDITIONAL-GO) |
+| [`mattpocock-skills`](entities/tools/mattpocock-skills.md) | draft | Composable skill library — K126 Adopt stub (MIT) |
 | [`kimi-agent-swarm-vs-claude-agent-teams`](concepts/kimi-agent-swarm-vs-claude-agent-teams.md) | draft | Kimi Swarm hub vs Claude Teams mesh — CCC decision matrix (K65) |
 | [`kimi-agent-swarm`](entities/tools/kimi-agent-swarm.md) | draft | Moonshot swarm product — reference only (K65) |
 | [`claude-premortem-skill`](concepts/claude-premortem-skill.md) | draft | Pre-mortem SKILL pattern before harness changes (K67) |
