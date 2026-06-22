@@ -10,9 +10,12 @@ related:
   - concepts/monokern-compounding-research-pipeline.md
   - "@osint-wiki/entities/tools/deep-scientist.md"
   - concepts/cross-wiki-tool-eval-inventory.md
+  - entities/tools/xcientist.md
+  - concepts/externalized-research-synthesis-validation.md
+  - concepts/claim-drift-automated-research.md
 maturity: draft
 created: 2026-06-07
-updated: 2026-06-07
+updated: 2026-06-22
 license_verified: Apache-2.0
 ---
 
@@ -32,6 +35,8 @@ license_verified: Apache-2.0
 ## Narrative
 
 Autonomous multi-step research agent — steal **hypothesis loop + citation discipline** for CCC ingest pipeline (discuss takeaways → 3–15 wiki touches → `wiki_lint.py`). No full adopt: overlaps `@concepts/federated-daily-research-digest.md` + Exa-gated OOD workflow.
+
+**Compare K122:** `@entities/tools/xcientist.md` adds **process accountability** (validation contracts, claim-drift taxonomy) beyond hypothesis loop alone.
 
 **Steal targets:** explicit hypothesis → evidence → synthesis steps; refusal to cite without retrieval.
 

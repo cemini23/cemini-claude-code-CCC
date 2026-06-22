@@ -38,9 +38,13 @@ related:
   - sources/arxiv-agentic-eda-handoff-2606.19795.md
   - concepts/gatekeeper-layered-agent-evaluation.md
   - sources/arxiv-gatekeepers-layered-eval-quantum-vqe-2606.18422.md
+  - concepts/claim-drift-automated-research.md
+  - sources/arxiv-xcientist-research-harness-claim-drift-2606.18874.md
+  - concepts/externalized-research-synthesis-validation.md
+  - entities/tools/xcientist.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-06-21
+updated: 2026-06-22
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-25-2026-05-27.md"
 ---
 
@@ -72,6 +76,8 @@ K72 — **agent completion proof**: operators should not babysit every tool call
 Pair with `@concepts/claude-premortem-skill.md` (what could fail) and `@entities/patterns/full-prompt-goal-template.md` (what done looks like).
 
 **K111 channel fracture:** cross-agent memory/cron delivery must use **receiver-side proof** (read-back at target store) — writer tool success is insufficient; see `@concepts/channel-fracture-cross-agent-memory-delivery.md` CADVP CC-0 veto.
+
+**K122 claim drift:** completion gates must prove the **claimed mechanism** survived implementation — not only that tests/lint passed; see `@concepts/claim-drift-automated-research.md` (semantic / experimental / mechanistic subtypes).
 
 | Verdict | **REFERENCE (adopt in rules/skills)** |
 

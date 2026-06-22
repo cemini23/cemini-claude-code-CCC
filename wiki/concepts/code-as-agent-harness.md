@@ -66,9 +66,13 @@ related:
   - sources/arxiv-llm-as-code-agentic-programming-2606.15874.md
   - concepts/handoff-validity-agent-harness.md
   - concepts/executable-user-memory-user-as-code.md
+  - concepts/externalized-research-synthesis-validation.md
+  - concepts/claim-drift-automated-research.md
+  - sources/arxiv-xcientist-research-harness-claim-drift-2606.18874.md
+  - entities/tools/xcientist.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-06-20
+updated: 2026-06-22
 cross-wiki-source: "@osint-wiki/sources/arxiv-code-as-agent-harness-survey-2605.18747.md"
 ---
 

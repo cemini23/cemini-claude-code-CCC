@@ -9,9 +9,12 @@ related:
   - concepts/agent-rubrics-self-correction.md
   - concepts/failed-trajectory-harness-repair.md
   - concepts/seagym-self-evolving-harness-evaluation.md
+  - concepts/claim-drift-automated-research.md
+  - concepts/externalized-research-synthesis-validation.md
+  - sources/arxiv-xcientist-research-harness-claim-drift-2606.18874.md
 maturity: draft
 created: 2026-06-21
-updated: 2026-06-21
+updated: 2026-06-22
 ---
 
 ## Relations
@@ -37,6 +40,8 @@ How do we evaluate agent outputs when failures are structured and the harness it
 | Design entropy | Run-to-run consistency | Repeated eval variance (super-audit) |
 
 **Harness-in-the-loop:** eval platform silent fallback templates attributed failures to models — applies to CCC ingest evals and subagent return verification.
+
+**K122 claim-boundary audit:** XCIENTIST report-writing audits source fidelity before claims ship — complementary layer to gatekeeper screening; see `@concepts/claim-drift-automated-research.md`.
 
 **Verdict:** **REFERENCE** — adopt gatekeeper + consistency layers in eval briefs; no quantum stack install.
 

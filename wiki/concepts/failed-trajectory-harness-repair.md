@@ -31,9 +31,12 @@ related:
   - concepts/handoff-validity-agent-harness.md
   - concepts/gatekeeper-layered-agent-evaluation.md
   - sources/arxiv-gatekeepers-layered-eval-quantum-vqe-2606.18422.md
+  - concepts/claim-drift-automated-research.md
+  - concepts/externalized-research-synthesis-validation.md
+  - sources/arxiv-xcientist-research-harness-claim-drift-2606.18874.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-06-21
+updated: 2026-06-22
 ---
 
 ## Relations
@@ -85,6 +88,7 @@ Each `@concepts/etclovg-harness-layers.md` row maps to **typical flaws** and **c
 | Paper mechanism | CCC implementation |
 |-----------------|-------------------|
 | Trajectory-grounded diagnosis | File failed sessions in `wiki/log.md` with ETCLOVG layer tag — `prompts/harness-flaw-record-template.md`; `@osint-wiki/concepts/exploration-graph-dead-ends.md` on entity pages |
+| Claim drift taxonomy | `@concepts/claim-drift-automated-research.md` — when trace shows pass but mechanism claim unsupported (K122) |
 | Scoped repair specs | `@entities/tools/openspec.md` acceptance criteria + `@concepts/claude-premortem-skill.md` before harness edits |
 | Regression-bound acceptance | `wiki_lint.py` + `preingest_check.py` after ingest; prod `vet_skill.py` before skill promotion |
 | Observability gaps | Stop-hook logging; claude-mem; defenseclaw `skill-scanner` (step 3b on `@concepts/skill-vetting.md`) |

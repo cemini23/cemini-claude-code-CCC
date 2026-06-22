@@ -38,6 +38,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`user-as-code`](entities/tools/user-as-code.md) | draft | Pine AI executable user memory — CONDITIONAL-GO (K120) |
 | [`dynamo-orchestration`](entities/tools/dynamo-orchestration.md) | draft | DynAMO topological workflow engine — REFERENCE (K120) |
 | [`lightmem2`](entities/tools/lightmem2.md) | draft | TokenPilot-integrated memory — CONDITIONAL-GO (K121) |
+| [`xcientist`](entities/tools/xcientist.md) | draft | Research harness + claim drift — REFERENCE (K122) |
 | [`skill-seekers`](entities/tools/skill-seekers.md) | draft | Doc/PDF→skill converter — CONDITIONAL-GO (K88) |
 | [`book-to-skill`](entities/tools/book-to-skill.md) | draft | Book corpus→skill pipeline — CONDITIONAL-GO (K88) |
 | [`skillnet`](entities/tools/skillnet.md) | draft | SkillNet routing — compare lazy-tool (K88) |
@@ -223,6 +224,8 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`prompt-cache-aligned-context-management`](concepts/prompt-cache-aligned-context-management.md) | draft | TokenPilot cache-safe compaction — 2606.17016 (K121) |
 | [`safeclawbench-staged-security-endpoints`](concepts/safeclawbench-staged-security-endpoints.md) | draft | Three-endpoint agent security — 2606.18356 (K121) |
 | [`gatekeeper-layered-agent-evaluation`](concepts/gatekeeper-layered-agent-evaluation.md) | draft | Gatekeeper + design entropy eval — 2606.18422 (K121) |
+| [`claim-drift-automated-research`](concepts/claim-drift-automated-research.md) | draft | Claim drift failure taxonomy — 2606.18874 (K122) |
+| [`externalized-research-synthesis-validation`](concepts/externalized-research-synthesis-validation.md) | draft | XCIENTIST harness accountability — 2606.18874 (K122) |
 | [`tool-eval-license-skepticism-patterns`](concepts/tool-eval-license-skepticism-patterns.md) | draft | K73 license-eval anti-patterns (NO-LICENSE false negatives, BSL parsing) |
 | [`enterprise-auto-mode-telemetry-rollout`](concepts/enterprise-auto-mode-telemetry-rollout.md) | draft | Auto Mode policy rollout via telemetry loops (K73 Post 1) |
 | [`harness-de-bloat-4x4-pattern`](concepts/harness-de-bloat-4x4-pattern.md) | draft | 4-skills/4-agents simplification pattern (K73 Post 2) |
@@ -385,6 +388,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-tokenpilot-cache-efficient-context-2606.17016`](sources/arxiv-tokenpilot-cache-efficient-context-2606.17016.md) | draft | TokenPilot cache context management — read (K121) |
 | [`arxiv-safeclawbench-staged-agent-security-2606.18356`](sources/arxiv-safeclawbench-staged-agent-security-2606.18356.md) | draft | SafeClawBench staged security — read (K121) |
 | [`arxiv-gatekeepers-layered-eval-quantum-vqe-2606.18422`](sources/arxiv-gatekeepers-layered-eval-quantum-vqe-2606.18422.md) | draft | Gatekeeper layered eval — skimmed (K121) |
+| [`arxiv-xcientist-research-harness-claim-drift-2606.18874`](sources/arxiv-xcientist-research-harness-claim-drift-2606.18874.md) | draft | XCIENTIST research harness — read (K122) |
 
 ## meta/
 

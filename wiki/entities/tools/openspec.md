@@ -24,9 +24,10 @@ related:
   - concepts/llm-as-code-agentic-programming.md
   - concepts/specification-driven-scientific-workflow-management.md
   - sources/arxiv-specification-to-execution-scientific-workflow-2606.18425.md
+  - entities/tools/xcientist.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-06-18
+updated: 2026-06-22
 ---
 
 ## Relations

@@ -24,9 +24,11 @@ related:
   - sources/arxiv-orch-rm-multi-agent-orchestration-2606.13598.md
   - concepts/gatekeeper-layered-agent-evaluation.md
   - sources/arxiv-gatekeepers-layered-eval-quantum-vqe-2606.18422.md
+  - concepts/claim-drift-automated-research.md
+  - sources/arxiv-xcientist-research-harness-claim-drift-2606.18874.md
 maturity: draft
 created: 2026-06-03
-updated: 2026-06-21
+updated: 2026-06-22
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-17-2026-06-03.md"
 ---
 

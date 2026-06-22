@@ -15,9 +15,12 @@ related:
   - concepts/failed-trajectory-harness-repair.md
   - concepts/plan-then-execute-topological-orchestration.md
   - sources/arxiv-dynamo-topological-orchestration-2606.19382.md
+  - concepts/claim-drift-automated-research.md
+  - sources/arxiv-xcientist-research-harness-claim-drift-2606.18874.md
+  - concepts/externalized-research-synthesis-validation.md
 maturity: draft
 created: 2026-06-19
-updated: 2026-06-20
+updated: 2026-06-22
 ---
 
 ## Relations
@@ -64,6 +67,7 @@ When an agent passes work to another agent, tool, or session — what makes the 
 1. Subagent prompts must state **consumer acceptance conditions** explicitly.
 2. Prove handoff at **receiver** (inverse verification) — see channel fracture.
 3. Repeat failures → `@concepts/failed-trajectory-harness-repair.md`, not more silent retries.
+4. **Claim drift** (K122) — handoff summary must preserve mechanism structure, not just status "done"; see `@concepts/claim-drift-automated-research.md`.
 
 ## Snippets
 

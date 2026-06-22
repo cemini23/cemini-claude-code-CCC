@@ -17,9 +17,13 @@ related:
   - concepts/mcp-context-optimization.md
   - concepts/handoff-validity-agent-harness.md
   - sources/arxiv-agentic-eda-handoff-2606.19795.md
+  - concepts/externalized-research-synthesis-validation.md
+  - concepts/claim-drift-automated-research.md
+  - sources/arxiv-xcientist-research-harness-claim-drift-2606.18874.md
+  - entities/tools/xcientist.md
 maturity: draft
 created: 2026-06-18
-updated: 2026-06-19
+updated: 2026-06-22
 ---
 
 ## Relations
@@ -55,6 +59,8 @@ How do we generate complex workflows without opaque direct-to-code LLM synthesis
 3. AI debug agent pattern → `@concepts/failed-trajectory-harness-repair.md` closed-loop
 
 **Domain:** Pegasus/HTCondor scientific pipelines — **not** Cemini prod. Plugin marketplace Apache-2.0 — CONDITIONAL-GO reference only.
+
+**K122:** XCIENTIST **validation contracts** per experiment step extend spec-driven pattern — each step needs acceptance criteria + repair trace; pairs with `@concepts/claim-drift-automated-research.md` claim-boundary audit.
 
 ## Snippets
 

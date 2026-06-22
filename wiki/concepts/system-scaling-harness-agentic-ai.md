@@ -14,9 +14,12 @@ related:
   - "@osint-wiki/concepts/system-scaling-harness-evaluation.md"
   - concepts/runtime-harness-interface-adaptation.md
   - sources/arxiv-runtime-harness-adaptation-2605.22166.md
+  - concepts/externalized-research-synthesis-validation.md
+  - concepts/claim-drift-automated-research.md
+  - sources/arxiv-xcientist-research-harness-claim-drift-2606.18874.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-03
+updated: 2026-06-22
 ---
 
 ## Relations
@@ -42,7 +45,9 @@ arXiv **2605.26112** (Gu) — agent progress requires **system scaling**: treat 
 | Verifiable | `@concepts/agent-completion-verification-gates.md`, lint, pytest on prod |
 | Orchestration | conductor, `@concepts/subagent-orchestration.md` |
 
-**Verdict:** **REFERENCE** — use when arguing for harness metrics in eval prompts (v5/v6) vs model-only success rates.
+**K122:** XCIENTIST argues eval unit should be **research trajectory** (synthesis + validation process), not final artifact alone — aligns with harness-dimension checklist above.
+
+**Verdict:** **REFERENCE** — use when arguing for harness metrics in eval prompts (v5/v6/v8) vs model-only success rates.
 
 ## Snippets
 

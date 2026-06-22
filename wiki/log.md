@@ -4,6 +4,19 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+---
+
+## [2026-06-22] ingest | K122 XCIENTIST claim drift + research harness
+
+- **Preingest:** 1 NEW (`2606.18874`)
+- **Source (1):** XCIENTIST externalized research synthesis and validation
+- **Concepts (2):** `claim-drift-automated-research`, `externalized-research-synthesis-validation`
+- **Entity (1):** `xcientist` (OpenDFM/Xcientist, MIT)
+- **Pages updated (12):** `agent-completion-verification-gates`, `failed-trajectory-harness-repair`, `system-scaling-harness-agentic-ai`, `handoff-validity-agent-harness`, `gatekeeper-layered-agent-evaluation`, `specification-driven-scientific-workflow-management`, `agent-rubrics-self-correction`, `code-as-agent-harness`, `deep-scientist`, `index.md`, `sweeps/2026-06-22-daily.md`
+- **Phase-0:** `scripts/adopt_k122_phase0.sh` — Xcientist MIT
+- **Brief:** `briefs/2026-06-22_k122-xcientist-claim-drift-prod.md`
+- **Raw:** 1 PDF → `raw-sources/`; inbox cleared
+
 ## [2026-06-21] ingest | K121 TokenPilot + SafeClawBench + gatekeeper eval
 
 - **Preingest:** 3 NEW (`2606.17016`, `2606.18356`, `2606.18422`)
