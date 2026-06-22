@@ -6,6 +6,8 @@ keywords: [mattpocock-skills, to-issues, grill-me, skill-md]
 related:
   - "@osint-wiki/entities/tools/mattpocock-skills.md"
   - concepts/claude-code-skills-md-institutional-memory.md
+  - entities/skills/to-issues.md
+  - entities/skills/grill-with-docs.md
 maturity: draft
 created: 2026-06-22
 updated: 2026-06-22
@@ -18,4 +20,4 @@ cross-wiki-source: "@osint-wiki/entities/tools/mattpocock-skills.md"
 
 ## Narrative
 
-CCC routing stub. **Adopt** — transplant `to-issues`, `grill-me`, and other single-purpose skills into `.cursor/skills/`. Staged brief: `briefs/2026-06-22_k126-nvidia-mattpocock-skills-adopt.md` (local; briefs/ gitignored in this repo).
+CCC routing stub. **Adopted 2026-06-22** — `to-issues` + `grill-with-docs` (brief **grill-me**) in `.cursor/skills/`; catalog `@entities/skills/to-issues.md`, `@entities/skills/grill-with-docs.md`. Phase-0: `scripts/adopt_k126_phase0.sh`.

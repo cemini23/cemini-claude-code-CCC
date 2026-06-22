@@ -14,9 +14,10 @@ related:
   - concepts/skill-vetting.md
   - concepts/agent-rubrics-self-correction.md
   - "@osint-wiki/concepts/llm-routing-deepseek-openrouter-failover.md"
+  - entities/skills/grill-with-docs.md
 maturity: validated
 created: 2026-06-09
-updated: 2026-06-16
+updated: 2026-06-22
 cross-wiki-source: "OSINT WORKSPACE .cursor/skills/super-audit/ (2026-06-09); public distro agent-toolkit-demo/skills/super-audit/ (commit 40b97db); v1.3.0 role delegation (2026-06-16)"
 ---
 

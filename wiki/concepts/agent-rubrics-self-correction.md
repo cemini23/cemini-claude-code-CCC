@@ -26,6 +26,7 @@ related:
   - sources/arxiv-gatekeepers-layered-eval-quantum-vqe-2606.18422.md
   - concepts/claim-drift-automated-research.md
   - sources/arxiv-xcientist-research-harness-claim-drift-2606.18874.md
+  - entities/skills/grill-with-docs.md
 maturity: draft
 created: 2026-06-03
 updated: 2026-06-22

@@ -6,6 +6,16 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+---
+
+## [2026-06-22] adopt | K126 mattpocock skills + K122 claim-drift goal hygiene
+
+- **Skills installed:** `.cursor/skills/to-issues`, `.cursor/skills/grill-with-docs` (MIT, mattpocock/skills)
+- **Wiki catalog (2):** `entities/skills/to-issues.md`, `entities/skills/grill-with-docs.md`
+- **Updated:** `entities/tools/mattpocock-skills.md`, `entities/patterns/full-prompt-goal-template.md` (claim-drift SC), `index.md`
+- **Phase-0:** `scripts/adopt_k126_phase0.sh` — MIT pass; nvidia/skills REFERENCE only
+- **Briefs (local):** `briefs/2026-06-22_k126-nvidia-mattpocock-skills-adopt.md`, `briefs/2026-06-22_k122-xcientist-claim-drift-prod.md`
+
 ## [2026-06-22] cross-wiki | K126 OSINT — agent skill Adopt stubs
 
 - **New (2):** `entities/tools/nvidia-skills.md`, `entities/tools/mattpocock-skills.md` — routing stubs from OSINT links.docx eval

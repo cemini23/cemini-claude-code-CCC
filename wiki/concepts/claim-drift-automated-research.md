@@ -16,6 +16,9 @@ related:
   - concepts/system-scaling-harness-agentic-ai.md
   - concepts/code-as-agent-harness.md
   - entities/tools/deep-scientist.md
+  - entities/patterns/full-prompt-goal-template.md
+  - entities/skills/grill-with-docs.md
+  - entities/skills/to-issues.md
 maturity: draft
 created: 2026-06-22
 updated: 2026-06-22

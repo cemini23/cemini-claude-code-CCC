@@ -24,9 +24,11 @@ related:
   - entities/tools/hermes-agent.md
   - concepts/llm-as-code-agentic-programming.md
   - concepts/specification-driven-scientific-workflow-management.md
+  - concepts/claim-drift-automated-research.md
+  - entities/skills/to-issues.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-18
+updated: 2026-06-22
 ---
 
 ## Relations
@@ -80,6 +82,7 @@ Modal use for non-trivial single-shot tasks. Concrete adoption sites today:
 - **Goal-condition character limit**: the harness enforces a 4000-char limit on the goal field. The CCC bootstrap goal had to be compressed from 8794 chars to fit. The result was lower readability but tighter focus — Cemini now drafts the long version first, then prunes to fit.
 - **CROSS-WIKI BACKLINKS**: when the goal touches multiple wikis, the template gets a "bidirectional cross-wiki links" criterion. Easy to forget; build it into the SC list.
 - **LOCAL-ONLY CONSTRAINT**: laptop-only wikis (CCC, Cybersecurity, 3D-printing, Image-gen, SEO) need an explicit "NO REMOTE, NO PUSH" in the constraints block, otherwise the agent helpfully offers to push.
+- **CLAIM DRIFT CHECK (K122):** add success criterion that stated mechanism is preserved — changed files match intervention; citations/paths in summary match workspace; pass attributed to right gate (lint vs content vs phase-0). See `@concepts/claim-drift-automated-research.md`.
 
 ## Snippets
 

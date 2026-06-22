@@ -13,9 +13,10 @@ related:
   - entities/skills/tech-debt-audit.md
   - concepts/skill-vetting.md
   - concepts/agent-rubrics-self-correction.md
+  - entities/skills/grill-with-docs.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-06-16
+updated: 2026-06-22
 cross-wiki-source: "OSINT WORKSPACE .cursor/skills/cursor-audit/ (mirrored 2026-06-05); public distro agent-toolkit-demo/skills/cursor-audit/ (2026-06-06); v1.3.0 role delegation (2026-06-16)"
 ---
 
