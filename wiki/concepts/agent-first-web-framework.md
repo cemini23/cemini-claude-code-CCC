@@ -13,9 +13,11 @@ related:
   - entities/tools/webwright.md
   - concepts/agentic-pm-review-artifacts.md
   - seo-wiki/concepts/agent-first-web-atml-framework.md
+  - concepts/agentic-web-infrastructure-gap-taxonomy.md
+  - sources/arxiv-agentic-web-infrastructure-agentverse-2606.20570.md
 maturity: draft
 created: 2026-06-19
-updated: 2026-06-19
+updated: 2026-06-23
 ---
 
 ## Relations
@@ -67,6 +69,8 @@ What architectural changes does the web need when agents — not humans — are 
 | Cemini publisher sites (SEO wiki) | Steal provenance + supervision declaration for GEO briefs |
 | Claude Code harness | **REFERENCE** — do not block own agents; document intent in automation |
 | Prod install | **NO-GO** for ATML stack until standards mature |
+
+**K123:** `@concepts/agentic-web-infrastructure-gap-taxonomy.md` — infrastructure-layer complement (Agentverse 62-capability audit vs this page's application-layer ATML/agents.txt).
 
 ## Snippets
 

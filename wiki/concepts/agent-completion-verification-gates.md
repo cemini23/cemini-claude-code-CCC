@@ -42,9 +42,11 @@ related:
   - sources/arxiv-xcientist-research-harness-claim-drift-2606.18874.md
   - concepts/externalized-research-synthesis-validation.md
   - entities/tools/xcientist.md
+  - concepts/autonomous-coding-agents-enterprise-data.md
+  - sources/arxiv-data-intelligence-agents-dia-2606.19319.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-06-22
+updated: 2026-06-23
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-25-2026-05-27.md"
 ---
 

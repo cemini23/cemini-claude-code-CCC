@@ -70,9 +70,14 @@ related:
   - concepts/claim-drift-automated-research.md
   - sources/arxiv-xcientist-research-harness-claim-drift-2606.18874.md
   - entities/tools/xcientist.md
+  - concepts/os-level-agent-harness-android.md
+  - entities/tools/aohp.md
+  - concepts/autonomous-coding-agents-enterprise-data.md
+  - sources/arxiv-aohp-os-level-agent-harness-2606.23449.md
+  - sources/arxiv-data-intelligence-agents-dia-2606.19319.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-06-22
+updated: 2026-06-23
 cross-wiki-source: "@osint-wiki/sources/arxiv-code-as-agent-harness-survey-2605.18747.md"
 ---
 

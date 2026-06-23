@@ -19,9 +19,12 @@ related:
   - entities/patterns/full-prompt-goal-template.md
   - entities/skills/grill-with-docs.md
   - entities/skills/to-issues.md
+  - concepts/autonomous-coding-agents-enterprise-data.md
+  - concepts/cross-model-verified-agent-translation.md
+  - sources/arxiv-data-intelligence-agents-dia-2606.19319.md
 maturity: draft
 created: 2026-06-22
-updated: 2026-06-22
+updated: 2026-06-23
 ---
 
 ## Relations

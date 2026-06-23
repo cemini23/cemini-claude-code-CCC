@@ -27,9 +27,10 @@ related:
   - concepts/claim-drift-automated-research.md
   - sources/arxiv-xcientist-research-harness-claim-drift-2606.18874.md
   - entities/skills/grill-with-docs.md
+  - concepts/cross-model-verified-agent-translation.md
 maturity: draft
 created: 2026-06-03
-updated: 2026-06-22
+updated: 2026-06-23
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-17-2026-06-03.md"
 ---
 

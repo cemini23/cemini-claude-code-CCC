@@ -12,9 +12,11 @@ related:
   - concepts/claim-drift-automated-research.md
   - concepts/externalized-research-synthesis-validation.md
   - sources/arxiv-xcientist-research-harness-claim-drift-2606.18874.md
+  - concepts/cross-model-verified-agent-translation.md
+  - sources/arxiv-dual-agent-cross-model-protocol-translation-2606.20120.md
 maturity: draft
 created: 2026-06-21
-updated: 2026-06-22
+updated: 2026-06-23
 ---
 
 ## Relations

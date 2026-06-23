@@ -16,10 +16,14 @@ related:
   - sources/arxiv-runtime-harness-adaptation-2605.22166.md
   - concepts/externalized-research-synthesis-validation.md
   - concepts/claim-drift-automated-research.md
+  - concepts/agentic-web-infrastructure-gap-taxonomy.md
+  - sources/arxiv-agentic-web-infrastructure-agentverse-2606.20570.md
+  - concepts/os-level-agent-harness-android.md
+  - sources/arxiv-aohp-os-level-agent-harness-2606.23449.md
   - sources/arxiv-xcientist-research-harness-claim-drift-2606.18874.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-22
+updated: 2026-06-23
 ---
 
 ## Relations

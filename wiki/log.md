@@ -8,6 +8,19 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+---
+
+## [2026-06-23] ingest | K123 DIA + agentic web gaps + cross-model verify + AOHP
+
+- **Preingest:** 4 NEW (`2606.19319`, `2606.20120`, `2606.20570`, `2606.23449`)
+- **Sources (4):** DIA enterprise data; dual-agent protocol translation; Agentverse gap taxonomy; AOHP OS harness
+- **Concepts (4):** `autonomous-coding-agents-enterprise-data`, `cross-model-verified-agent-translation`, `agentic-web-infrastructure-gap-taxonomy`, `os-level-agent-harness-android`
+- **Entity (1):** `aohp` (Apache-2.0)
+- **Pages updated (14):** `agent-first-web-framework`, `internet-of-agentic-ai-ioai`, `gatekeeper-layered-agent-evaluation`, `handoff-validity-agent-harness`, `llm-as-code-agentic-programming`, `system-scaling-harness-agentic-ai`, `runtime-harness-interface-adaptation`, `code-as-agent-harness`, `specification-driven-scientific-workflow-management`, `index.md`, `sweeps/2026-06-23-daily.md`
+- **Phase-0:** `scripts/adopt_k123_phase0.sh` — AOHP Apache-2.0; others REFERENCE
+- **Brief:** `briefs/2026-06-23_k123-dia-agentic-web-aohp-prod.md`
+- **Raw:** 4 PDFs → `raw-sources/`; inbox cleared
+
 ## [2026-06-22] adopt | K126 mattpocock skills + K122 claim-drift goal hygiene
 
 - **Skills installed:** `.cursor/skills/to-issues`, `.cursor/skills/grill-with-docs` (MIT, mattpocock/skills)

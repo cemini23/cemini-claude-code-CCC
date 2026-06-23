@@ -16,9 +16,11 @@ related:
   - concepts/executable-user-memory-user-as-code.md
   - sources/arxiv-user-as-code-executable-memory-2606.16707.md
   - concepts/plan-then-execute-topological-orchestration.md
+  - concepts/autonomous-coding-agents-enterprise-data.md
+  - sources/arxiv-data-intelligence-agents-dia-2606.19319.md
 maturity: draft
 created: 2026-06-16
-updated: 2026-06-20
+updated: 2026-06-23
 ---
 
 ## Relations

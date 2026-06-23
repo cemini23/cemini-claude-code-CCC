@@ -9,10 +9,12 @@ related:
   - concepts/internet-of-agentic-ai-ioai.md
   - concepts/mcp-context-optimization.md
   - entities/tools/webwright.md
+  - concepts/agentic-web-infrastructure-gap-taxonomy.md
+  - sources/arxiv-agentic-web-infrastructure-agentverse-2606.20570.md
 maturity: draft
 read_status: read
 created: 2026-06-19
-updated: 2026-06-19
+updated: 2026-06-23
 ---
 
 ## Relations

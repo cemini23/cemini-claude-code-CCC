@@ -39,6 +39,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`dynamo-orchestration`](entities/tools/dynamo-orchestration.md) | draft | DynAMO topological workflow engine — REFERENCE (K120) |
 | [`lightmem2`](entities/tools/lightmem2.md) | draft | TokenPilot-integrated memory — CONDITIONAL-GO (K121) |
 | [`xcientist`](entities/tools/xcientist.md) | draft | Research harness + claim drift — REFERENCE (K122) |
+| [`aohp`](entities/tools/aohp.md) | draft | Android OS-level agent harness — CONDITIONAL-GO (K123) |
 | [`skill-seekers`](entities/tools/skill-seekers.md) | draft | Doc/PDF→skill converter — CONDITIONAL-GO (K88) |
 | [`book-to-skill`](entities/tools/book-to-skill.md) | draft | Book corpus→skill pipeline — CONDITIONAL-GO (K88) |
 | [`skillnet`](entities/tools/skillnet.md) | draft | SkillNet routing — compare lazy-tool (K88) |
@@ -230,6 +231,10 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`gatekeeper-layered-agent-evaluation`](concepts/gatekeeper-layered-agent-evaluation.md) | draft | Gatekeeper + design entropy eval — 2606.18422 (K121) |
 | [`claim-drift-automated-research`](concepts/claim-drift-automated-research.md) | draft | Claim drift failure taxonomy — 2606.18874 (K122) |
 | [`externalized-research-synthesis-validation`](concepts/externalized-research-synthesis-validation.md) | draft | XCIENTIST harness accountability — 2606.18874 (K122) |
+| [`autonomous-coding-agents-enterprise-data`](concepts/autonomous-coding-agents-enterprise-data.md) | draft | DIA ACA-first data intelligence — 2606.19319 (K123) |
+| [`cross-model-verified-agent-translation`](concepts/cross-model-verified-agent-translation.md) | draft | Parser + validator cross-model — 2606.20120 (K123) |
+| [`agentic-web-infrastructure-gap-taxonomy`](concepts/agentic-web-infrastructure-gap-taxonomy.md) | draft | Agentverse 62-cap gap audit — 2606.20570 (K123) |
+| [`os-level-agent-harness-android`](concepts/os-level-agent-harness-android.md) | draft | AOHP agent-native Android — 2606.23449 (K123) |
 | [`tool-eval-license-skepticism-patterns`](concepts/tool-eval-license-skepticism-patterns.md) | draft | K73 license-eval anti-patterns (NO-LICENSE false negatives, BSL parsing) |
 | [`enterprise-auto-mode-telemetry-rollout`](concepts/enterprise-auto-mode-telemetry-rollout.md) | draft | Auto Mode policy rollout via telemetry loops (K73 Post 1) |
 | [`harness-de-bloat-4x4-pattern`](concepts/harness-de-bloat-4x4-pattern.md) | draft | 4-skills/4-agents simplification pattern (K73 Post 2) |
@@ -393,6 +398,10 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-safeclawbench-staged-agent-security-2606.18356`](sources/arxiv-safeclawbench-staged-agent-security-2606.18356.md) | draft | SafeClawBench staged security — read (K121) |
 | [`arxiv-gatekeepers-layered-eval-quantum-vqe-2606.18422`](sources/arxiv-gatekeepers-layered-eval-quantum-vqe-2606.18422.md) | draft | Gatekeeper layered eval — skimmed (K121) |
 | [`arxiv-xcientist-research-harness-claim-drift-2606.18874`](sources/arxiv-xcientist-research-harness-claim-drift-2606.18874.md) | draft | XCIENTIST research harness — read (K122) |
+| [`arxiv-data-intelligence-agents-dia-2606.19319`](sources/arxiv-data-intelligence-agents-dia-2606.19319.md) | draft | DIA enterprise data ACA — read (K123) |
+| [`arxiv-dual-agent-cross-model-protocol-translation-2606.20120`](sources/arxiv-dual-agent-cross-model-protocol-translation-2606.20120.md) | draft | Cross-model protocol translation — read (K123) |
+| [`arxiv-agentic-web-infrastructure-agentverse-2606.20570`](sources/arxiv-agentic-web-infrastructure-agentverse-2606.20570.md) | draft | Agentic web gap analysis — read (K123) |
+| [`arxiv-aohp-os-level-agent-harness-2606.23449`](sources/arxiv-aohp-os-level-agent-harness-2606.23449.md) | draft | AOHP Android harness — read (K123) |
 
 ## meta/
 

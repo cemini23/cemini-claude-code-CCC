@@ -10,9 +10,12 @@ related:
   - concepts/thin-harness-fat-skills-garrytan.md
   - entities/tools/life-harness.md
   - entities/tools/claude-code.md
+  - concepts/os-level-agent-harness-android.md
+  - entities/tools/aohp.md
+  - sources/arxiv-aohp-os-level-agent-harness-2606.23449.md
 maturity: draft
 created: 2026-06-03
-updated: 2026-06-03
+updated: 2026-06-23
 ---
 
 ## Relations

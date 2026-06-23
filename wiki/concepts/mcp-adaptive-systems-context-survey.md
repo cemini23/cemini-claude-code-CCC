@@ -10,9 +10,10 @@ related:
   - sources/arxiv-mcp-runtime-fault-taxonomy-2606.05339.md
   - concepts/specification-driven-scientific-workflow-management.md
   - sources/arxiv-specification-to-execution-scientific-workflow-2606.18425.md
+  - concepts/agentic-web-infrastructure-gap-taxonomy.md
 maturity: draft
 created: 2026-06-10
-updated: 2026-06-18
+updated: 2026-06-23
 ---
 
 ## Relations
