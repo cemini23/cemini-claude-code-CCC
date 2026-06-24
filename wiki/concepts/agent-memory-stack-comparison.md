@@ -9,6 +9,10 @@ related:
   - entities/tools/claude-subconscious.md
   - concepts/agent-token-discipline-openclaw-hermes.md
   - concepts/three-cache-architecture.md
+  - concepts/dual-representation-agent-memory.md
+  - sources/arxiv-metis-text-code-memory-2606.24151.md
+  - concepts/procedural-memory-transfer-after.md
+  - sources/arxiv-procedural-memory-after-2606.23127.md
   - entities/mcp-servers/stash.md
   - concepts/cross-wiki-tool-eval-inventory.md
   - sources/trading-posts-compilation-25-2026-05-27.md
@@ -26,7 +30,7 @@ related:
   - sources/arxiv-user-as-code-executable-memory-2606.16707.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-06-20
+updated: 2026-06-24
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-25-2026-05-27.md"
 ---
 

@@ -14,9 +14,11 @@ related:
   - sources/multi-wiki-tool-eval-v5-k88-2026-05-31.md
   - sources/multi-wiki-tool-eval-v6-k90-2026-05-31.md
   - @osint-wiki/concepts/game-dev-wiki-federation.md
+  - concepts/multi-agent-evidence-artifact-layers.md
+  - entities/tools/awesome-agent-engineering.md
 maturity: validated
 created: 2026-05-21
-updated: 2026-06-21
+updated: 2026-06-24
 ---
 
 ## Relations

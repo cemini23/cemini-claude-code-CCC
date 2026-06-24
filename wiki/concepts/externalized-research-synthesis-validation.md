@@ -17,9 +17,11 @@ related:
   - entities/tools/deep-scientist.md
   - entities/tools/autoresearch-claw.md
   - concepts/autonomous-coding-agents-enterprise-data.md
+  - sources/arxiv-paperclaw-autonomous-research-2606.22610.md
+  - entities/tools/paperclaw.md
 maturity: draft
 created: 2026-06-22
-updated: 2026-06-23
+updated: 2026-06-24
 ---
 
 ## Relations

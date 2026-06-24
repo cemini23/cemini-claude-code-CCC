@@ -35,9 +35,12 @@ related:
   - sources/arxiv-harnessx-composable-harness-foundry-2606.14249.md
   - concepts/seagym-self-evolving-harness-evaluation.md
   - sources/arxiv-seagym-self-evolving-harness-eval-2606.17546.md
+  - concepts/procedural-memory-transfer-after.md
+  - sources/arxiv-metis-text-code-memory-2606.24151.md
+  - sources/arxiv-procedural-memory-after-2606.23127.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-06-17
+updated: 2026-06-24
 cross-wiki-source: "@osint-wiki/concepts/continual-harness-online-self-improvement.md"
 ---
 

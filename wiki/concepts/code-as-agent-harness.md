@@ -75,9 +75,13 @@ related:
   - concepts/autonomous-coding-agents-enterprise-data.md
   - sources/arxiv-aohp-os-level-agent-harness-2606.23449.md
   - sources/arxiv-data-intelligence-agents-dia-2606.19319.md
+  - concepts/model-harness-six-responsibilities.md
+  - sources/arxiv-agent-harness-survey-2606.20683.md
+  - sources/arxiv-paperclaw-autonomous-research-2606.22610.md
+  - entities/tools/paperclaw.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-06-23
+updated: 2026-06-24
 cross-wiki-source: "@osint-wiki/sources/arxiv-code-as-agent-harness-survey-2605.18747.md"
 ---
 

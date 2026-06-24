@@ -14,9 +14,11 @@ related:
   - concepts/cross-wiki-tool-eval-inventory.md
   - concepts/tool-response-context-pruning-summarization.md
   - concepts/llm-as-orchestrator-failure-modes.md
+  - concepts/self-compacting-adaptive-context.md
+  - sources/arxiv-self-compacting-agents-2606.23525.md
 maturity: draft
 created: 2026-06-07
-updated: 2026-06-16
+updated: 2026-06-24
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-19-2026-06-07.md"
 ---
 

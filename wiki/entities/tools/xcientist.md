@@ -13,9 +13,11 @@ related:
   - concepts/specification-driven-scientific-workflow-management.md
   - concepts/agent-completion-verification-gates.md
   - concepts/code-as-agent-harness.md
+  - entities/tools/paperclaw.md
+  - sources/arxiv-paperclaw-autonomous-research-2606.22610.md
 maturity: draft
 created: 2026-06-22
-updated: 2026-06-22
+updated: 2026-06-24
 ---
 
 ## Relations

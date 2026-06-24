@@ -19,9 +19,11 @@ related:
   - entities/tools/skillnet.md
   - concepts/muse-autoskill-skill-lifecycle.md
   - sources/arxiv-muse-autoskill-2605.27366.md
+  - concepts/dual-representation-agent-memory.md
+  - sources/arxiv-metis-text-code-memory-2606.24151.md
 maturity: draft
 created: 2026-05-23
-updated: 2026-06-01
+updated: 2026-06-24
 cross-wiki-source: "@osint-wiki/sources/arxiv-skillrae-agent-skills-2605.10114.md"
 ---
 

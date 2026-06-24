@@ -23,9 +23,13 @@ related:
   - entities/tools/xcientist.md
   - concepts/cross-model-verified-agent-translation.md
   - sources/arxiv-dual-agent-cross-model-protocol-translation-2606.20120.md
+  - sources/arxiv-paperclaw-autonomous-research-2606.22610.md
+  - entities/tools/paperclaw.md
+  - concepts/multi-agent-evidence-artifact-layers.md
+  - sources/arxiv-bioinsight-multi-agent-biomedical-2606.20997.md
 maturity: draft
 created: 2026-06-18
-updated: 2026-06-23
+updated: 2026-06-24
 ---
 
 ## Relations

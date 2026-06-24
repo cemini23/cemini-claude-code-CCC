@@ -12,9 +12,12 @@ related:
   - concepts/cross-wiki-tool-adoption-routing.md
   - concepts/agent-first-web-framework.md
   - sources/arxiv-agent-first-web-redesign-2606.19116.md
+  - concepts/scalable-cua-training-pipeline.md
+  - entities/tools/fara.md
+  - sources/arxiv-fara-scalable-cua-environments-2606.20785.md
 maturity: draft
 created: 2026-05-31
-updated: 2026-06-19
+updated: 2026-06-24
 cross-wiki-source: "@osint-wiki/entities/tools/microsoft-webwright.md"
 ---
 

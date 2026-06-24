@@ -25,9 +25,10 @@ related:
   - concepts/specification-driven-scientific-workflow-management.md
   - sources/arxiv-specification-to-execution-scientific-workflow-2606.18425.md
   - entities/tools/xcientist.md
+  - concepts/dual-representation-agent-memory.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-06-22
+updated: 2026-06-24
 ---
 
 ## Relations

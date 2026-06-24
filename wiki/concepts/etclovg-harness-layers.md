@@ -26,9 +26,11 @@ related:
   - sources/arxiv-harnessx-composable-harness-foundry-2606.14249.md
   - concepts/handoff-validity-agent-harness.md
   - concepts/safeclawbench-staged-security-endpoints.md
+  - concepts/model-harness-six-responsibilities.md
+  - sources/arxiv-agent-harness-survey-2606.20683.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-06-21
+updated: 2026-06-24
 ---
 
 ## Relations
@@ -37,6 +39,7 @@ updated: 2026-06-21
 - `@concepts/code-as-agent-harness.md` — three-layer survey model; ETCLOVG is finer-grained runtime taxonomy
 - `@concepts/skill-vetting.md` — Tool Interface + Governance gates before harness changes
 - `@concepts/hooks-for-automation.md` — Lifecycle + Observability injection points
+- `@concepts/model-harness-six-responsibilities.md` — six-responsibility survey decomposition (2606.20683)
 
 ## Raw Concept
 

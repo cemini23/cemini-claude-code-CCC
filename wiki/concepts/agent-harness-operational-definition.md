@@ -14,9 +14,11 @@ related:
   - sources/arxiv-self-harness-improve-themselves-2606.09498.md
   - sources/arxiv-parthenon-law-self-evolving-legal-agent-2606.04602.md
   - concepts/harnessx-composable-evolution-foundry.md
+  - concepts/model-harness-six-responsibilities.md
+  - sources/arxiv-agent-harness-survey-2606.20683.md
 maturity: draft
 created: 2026-06-10
-updated: 2026-06-16
+updated: 2026-06-24
 ---
 
 ## Relations

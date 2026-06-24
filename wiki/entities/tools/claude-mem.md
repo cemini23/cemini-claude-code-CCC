@@ -42,9 +42,13 @@ related:
   - sources/arxiv-user-as-code-executable-memory-2606.16707.md
   - entities/tools/user-as-code.md
   - entities/tools/lightmem2.md
+  - concepts/dual-representation-agent-memory.md
+  - concepts/procedural-memory-transfer-after.md
+  - sources/arxiv-metis-text-code-memory-2606.24151.md
+  - sources/arxiv-procedural-memory-after-2606.23127.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-21
+updated: 2026-06-24
 ---
 
 ## Relations

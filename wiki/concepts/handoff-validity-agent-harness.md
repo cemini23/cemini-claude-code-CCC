@@ -22,9 +22,11 @@ related:
   - sources/arxiv-dual-agent-cross-model-protocol-translation-2606.20120.md
   - concepts/autonomous-coding-agents-enterprise-data.md
   - concepts/os-level-agent-harness-android.md
+  - entities/tools/paperclaw.md
+  - sources/arxiv-paperclaw-autonomous-research-2606.22610.md
 maturity: draft
 created: 2026-06-19
-updated: 2026-06-23
+updated: 2026-06-24
 ---
 
 ## Relations

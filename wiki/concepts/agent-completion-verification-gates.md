@@ -44,9 +44,11 @@ related:
   - entities/tools/xcientist.md
   - concepts/autonomous-coding-agents-enterprise-data.md
   - sources/arxiv-data-intelligence-agents-dia-2606.19319.md
+  - concepts/scalable-cua-training-pipeline.md
+  - sources/arxiv-fara-scalable-cua-environments-2606.20785.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-06-23
+updated: 2026-06-24
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-25-2026-05-27.md"
 ---
 

@@ -16,9 +16,11 @@ related:
   - sources/arxiv-dynamo-topological-orchestration-2606.19382.md
   - concepts/prompt-cache-aligned-context-management.md
   - sources/arxiv-tokenpilot-cache-efficient-context-2606.17016.md
+  - concepts/self-compacting-adaptive-context.md
+  - sources/arxiv-self-compacting-agents-2606.23525.md
 maturity: draft
 created: 2026-06-15
-updated: 2026-06-21
+updated: 2026-06-24
 ---
 
 ## Relations

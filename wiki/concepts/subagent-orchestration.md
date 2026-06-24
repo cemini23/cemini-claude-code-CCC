@@ -7,6 +7,8 @@ related:
   - entities/tools/claude-code.md
   - concepts/context-engineering.md
   - concepts/token-economics-and-prompt-caching.md
+  - concepts/multi-agent-evidence-artifact-layers.md
+  - sources/arxiv-bioinsight-multi-agent-biomedical-2606.20997.md
   - concepts/cross-wiki-routing.md
   - entities/patterns/tier1-tier2-agent-model.md
   - entities/tools/cua.md

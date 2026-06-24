@@ -7,9 +7,12 @@ related:
   - sources/arxiv-cli-anything-2606-03854-2026-06-03.md
   - "@osint-wiki/concepts/cli-anything-agent-native-computer-use.md"
   - concepts/code-as-agent-harness.md
+  - concepts/scalable-cua-training-pipeline.md
+  - entities/tools/fara.md
+  - sources/arxiv-fara-scalable-cua-environments-2606.20785.md
 maturity: draft
 created: 2026-06-03
-updated: 2026-06-03
+updated: 2026-06-24
 ---
 
 ## Relations

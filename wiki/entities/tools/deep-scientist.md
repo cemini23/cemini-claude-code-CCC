@@ -13,9 +13,11 @@ related:
   - entities/tools/xcientist.md
   - concepts/externalized-research-synthesis-validation.md
   - concepts/claim-drift-automated-research.md
+  - entities/tools/paperclaw.md
+  - sources/arxiv-paperclaw-autonomous-research-2606.22610.md
 maturity: draft
 created: 2026-06-07
-updated: 2026-06-22
+updated: 2026-06-24
 license_verified: Apache-2.0
 ---
 

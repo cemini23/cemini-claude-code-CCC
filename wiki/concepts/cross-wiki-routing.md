@@ -29,9 +29,11 @@ related:
   - concepts/internet-of-agentic-ai-ioai.md
   - sources/arxiv-agents-k1-knowledge-orchestration-2606.13669.md
   - sources/arxiv-internet-of-agentic-ai-2606.12835.md
+  - concepts/multi-agent-evidence-artifact-layers.md
+  - sources/arxiv-bioinsight-multi-agent-biomedical-2606.20997.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-21
+updated: 2026-06-24
 ---
 
 ## Relations

@@ -10,6 +10,19 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+---
+
+## [2026-06-24] ingest | K124 harness survey + memory cluster + PaperClaw
+
+- **Preingest:** 7 NEW (`2606.20683`, `2606.20785`, `2606.20997`, `2606.22610`, `2606.23127`, `2606.23525`, `2606.24151`)
+- **Sources (7):** harness survey; Fara CUA; BioInsight; PaperClaw; AFTER procedural memory; SelfCompact; Metis
+- **Concepts (6):** `model-harness-six-responsibilities`, `scalable-cua-training-pipeline`, `multi-agent-evidence-artifact-layers`, `procedural-memory-transfer-after`, `self-compacting-adaptive-context`, `dual-representation-agent-memory`
+- **Entities (3):** `paperclaw`, `fara`, `awesome-agent-engineering` (all MIT)
+- **Pages updated (14):** `etclovg-harness-layers`, `code-as-agent-harness`, `externalized-research-synthesis-validation`, `xcientist`, `cpr-context-compression`, `long-thread-context-decay`, `agent-memory-stack-comparison`, `specification-driven-scientific-workflow-management`, `subagent-orchestration`, `cross-wiki-routing`, `skill-vetting`, `deep-scientist`, `index.md`, `sweeps/2026-06-24-daily.md`
+- **Phase-0:** `scripts/adopt_k124_phase0.sh` — PaperClaw/Fara/Awesome MIT; others REFERENCE
+- **Brief:** `briefs/2026-06-24_k124-harness-memory-research-cluster-prod.md`
+- **Raw:** 7 PDFs → `raw-sources/`; inbox cleared
+
 ## [2026-06-23] ingest | K123 DIA + agentic web gaps + cross-model verify + AOHP
 
 - **Preingest:** 4 NEW (`2606.19319`, `2606.20120`, `2606.20570`, `2606.23449`)

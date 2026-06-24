@@ -101,9 +101,11 @@ related:
   - entities/tools/user-as-code.md
   - concepts/safeclawbench-staged-security-endpoints.md
   - entities/tools/lightmem2.md
+  - concepts/procedural-memory-transfer-after.md
+  - sources/arxiv-procedural-memory-after-2606.23127.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-06-21
+updated: 2026-06-24
 ---
 
 ## Relations

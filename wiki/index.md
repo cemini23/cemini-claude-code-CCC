@@ -73,6 +73,9 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`timeclaw`](entities/tools/timeclaw.md) | draft | Time-series-native agent harness — CONDITIONAL-GO (2606.05404) |
 | [`omnifs`](entities/tools/omnifs.md) | draft | Projected API filesystem — CONDITIONAL-GO (K108) |
 | [`bayesian-agent`](entities/tools/bayesian-agent.md) | draft | Posterior-guided skill evolution — CONDITIONAL-GO (K109, MIT) |
+| [`paperclaw`](entities/tools/paperclaw.md) | draft | Autonomous research lifecycle harness — CONDITIONAL-GO (K124, MIT) |
+| [`fara`](entities/tools/fara.md) | draft | Microsoft CUA models + FaraGen pipeline — REFERENCE (K124, MIT) |
+| [`awesome-agent-engineering`](entities/tools/awesome-agent-engineering.md) | draft | Harness survey curated list — REFERENCE (K124, MIT) |
 
 ## entities/mcp-servers/
 
@@ -235,6 +238,12 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`cross-model-verified-agent-translation`](concepts/cross-model-verified-agent-translation.md) | draft | Parser + validator cross-model — 2606.20120 (K123) |
 | [`agentic-web-infrastructure-gap-taxonomy`](concepts/agentic-web-infrastructure-gap-taxonomy.md) | draft | Agentverse 62-cap gap audit — 2606.20570 (K123) |
 | [`os-level-agent-harness-android`](concepts/os-level-agent-harness-android.md) | draft | AOHP agent-native Android — 2606.23449 (K123) |
+| [`model-harness-six-responsibilities`](concepts/model-harness-six-responsibilities.md) | draft | Six runtime harness responsibilities — 2606.20683 (K124) |
+| [`scalable-cua-training-pipeline`](concepts/scalable-cua-training-pipeline.md) | draft | FaraGen env/solver/verifier CUA data — 2606.20785 (K124) |
+| [`multi-agent-evidence-artifact-layers`](concepts/multi-agent-evidence-artifact-layers.md) | draft | Evidence/synthesis/interface layers — 2606.20997 (K124) |
+| [`procedural-memory-transfer-after`](concepts/procedural-memory-transfer-after.md) | draft | AFTER procedural skill transfer — 2606.23127 (K124) |
+| [`self-compacting-adaptive-context`](concepts/self-compacting-adaptive-context.md) | draft | Rubric-gated SELFCOMPACT — 2606.23525 (K124) |
+| [`dual-representation-agent-memory`](concepts/dual-representation-agent-memory.md) | draft | Metis text vs code memory — 2606.24151 (K124) |
 | [`tool-eval-license-skepticism-patterns`](concepts/tool-eval-license-skepticism-patterns.md) | draft | K73 license-eval anti-patterns (NO-LICENSE false negatives, BSL parsing) |
 | [`enterprise-auto-mode-telemetry-rollout`](concepts/enterprise-auto-mode-telemetry-rollout.md) | draft | Auto Mode policy rollout via telemetry loops (K73 Post 1) |
 | [`harness-de-bloat-4x4-pattern`](concepts/harness-de-bloat-4x4-pattern.md) | draft | 4-skills/4-agents simplification pattern (K73 Post 2) |
@@ -402,6 +411,13 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-dual-agent-cross-model-protocol-translation-2606.20120`](sources/arxiv-dual-agent-cross-model-protocol-translation-2606.20120.md) | draft | Cross-model protocol translation — read (K123) |
 | [`arxiv-agentic-web-infrastructure-agentverse-2606.20570`](sources/arxiv-agentic-web-infrastructure-agentverse-2606.20570.md) | draft | Agentic web gap analysis — read (K123) |
 | [`arxiv-aohp-os-level-agent-harness-2606.23449`](sources/arxiv-aohp-os-level-agent-harness-2606.23449.md) | draft | AOHP Android harness — read (K123) |
+| [`arxiv-agent-harness-survey-2606.20683`](sources/arxiv-agent-harness-survey-2606.20683.md) | draft | Agent harness design survey — read (K124) |
+| [`arxiv-fara-scalable-cua-environments-2606.20785`](sources/arxiv-fara-scalable-cua-environments-2606.20785.md) | draft | Fara-1.5 CUA pipeline — read (K124) |
+| [`arxiv-bioinsight-multi-agent-biomedical-2606.20997`](sources/arxiv-bioinsight-multi-agent-biomedical-2606.20997.md) | draft | BioInsight multi-agent biomedical UI — read (K124) |
+| [`arxiv-paperclaw-autonomous-research-2606.22610`](sources/arxiv-paperclaw-autonomous-research-2606.22610.md) | draft | PaperClaw research lifecycle — read (K124) |
+| [`arxiv-procedural-memory-after-2606.23127`](sources/arxiv-procedural-memory-after-2606.23127.md) | draft | AFTER procedural memory benchmark — read (K124) |
+| [`arxiv-self-compacting-agents-2606.23525`](sources/arxiv-self-compacting-agents-2606.23525.md) | draft | SelfCompact adaptive context — read (K124) |
+| [`arxiv-metis-text-code-memory-2606.24151`](sources/arxiv-metis-text-code-memory-2606.24151.md) | draft | Metis dual memory — read (K124) |
 
 ## meta/
 

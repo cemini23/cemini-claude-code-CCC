@@ -12,9 +12,11 @@ related:
   - entities/patterns/scatter-gather.md
   - entities/tools/everos.md
   - concepts/long-thread-context-decay.md
+  - concepts/self-compacting-adaptive-context.md
+  - sources/arxiv-self-compacting-agents-2606.23525.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-06-07
+updated: 2026-06-24
 cross-wiki-source: "@osint-wiki/concepts/context-compression-resume-pattern.md"
 ---
 

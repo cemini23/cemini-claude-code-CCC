@@ -12,9 +12,10 @@ related:
   - concepts/cross-wiki-tool-eval-inventory.md
   - concepts/externalized-research-synthesis-validation.md
   - entities/tools/xcientist.md
+  - entities/tools/paperclaw.md
 maturity: draft
 created: 2026-06-07
-updated: 2026-06-22
+updated: 2026-06-24
 license_verified: MIT
 ---
 

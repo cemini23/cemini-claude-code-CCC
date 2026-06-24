@@ -33,9 +33,10 @@ related:
   - sources/arxiv-less-context-better-agents-2606.10209.md
   - concepts/prompt-cache-aligned-context-management.md
   - sources/arxiv-tokenpilot-cache-efficient-context-2606.17016.md
+  - concepts/self-compacting-adaptive-context.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-21
+updated: 2026-06-24
 ---
 
 ## Relations
