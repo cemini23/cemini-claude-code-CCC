@@ -11,6 +11,7 @@ related:
   - entities/tools/claude-code.md
   - concepts/system-scaling-harness-agentic-ai.md
   - entities/tools/awesome-agent-engineering.md
+  - entities/patterns/full-prompt-goal-template.md
 maturity: draft
 created: 2026-06-24
 updated: 2026-06-24

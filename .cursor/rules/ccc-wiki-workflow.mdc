@@ -26,8 +26,33 @@ When adding sources from `research to be indexed/`:
 1. `python3 scripts/preingest_check.py`
 2. Discuss takeaways with user before writing (unless user said "ingest as-is")
 3. Cross-wiki routing check — brief over stub when off-topic
-4. Touch 3–15 wiki pages; update `wiki/index.md`, `wiki/log.md`; move raw file to `raw-sources/`
-5. `python3 scripts/wiki_lint.py` — fix bidirectional gaps (`--fix-bidirectional --apply` when needed)
+4. **Evidence artifact layers (K124)** — before final narrative, produce typed intermediates per `@wiki/concepts/multi-agent-evidence-artifact-layers.md`:
+   - **Evidence:** source stub + key quotes/snippets
+   - **Synthesis:** concept/entity updates + verdict table
+   - **Interface:** index/log/brief or canvas matrix when 4+ sources or adoption verdicts
+5. Touch 3–15 wiki pages; update `wiki/index.md`, `wiki/log.md`; archive raw to egress-fi
+6. `python3 scripts/wiki_lint.py` — fix bidirectional gaps (`--fix-bidirectional --apply` when needed)
+
+## Harness change discipline (K124)
+
+Before editing hooks, skills, MCP wiring, or `.cursor/rules/`:
+
+1. Tag implicated **six responsibilities** (`@wiki/concepts/model-harness-six-responsibilities.md`): observation / context / control / action / state / verification-governance — plus **ETCLOVG layer** if filing a flaw record.
+2. Scoped repair only — OpenSpec acceptance criteria or `/goal` success criteria; premortem for blast-radius changes.
+3. Run `wiki_lint.py` after wiki-side documentation changes.
+
+## Long-session context (K124)
+
+Before `/compact`, new chat, or spawning a fresh Task subagent to escape context rot:
+
+1. **Compact when:** sub-task checkpoint recorded in `hot.md`, or trajectory converging (no mid-derivation).
+2. **Do not compact when:** mid-derivation, mid-search, or stuck in a loop (spawn subagent or restate AC instead).
+3. See `@wiki/concepts/self-compacting-adaptive-context.md` and `@wiki/entities/patterns/cpr-context-compression.md`.
+
+## Skill / memory promotion (K124)
+
+- **No new `entities/skills/` page** from a single session — need ≥2 independent reuses (AFTER steal-from; `@wiki/concepts/procedural-memory-transfer-after.md`).
+- **Wiki → skill crystallization** only when reuse is proven; wiki = text memory, skills/MCP = code memory (`@wiki/concepts/dual-representation-agent-memory.md`). Full checklist: `@wiki/concepts/skill-vetting.md` steps 12–13.
 
 ## Harness flaw records (HarnessFix steal-from)
 

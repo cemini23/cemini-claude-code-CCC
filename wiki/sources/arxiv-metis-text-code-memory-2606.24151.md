@@ -9,6 +9,7 @@ related:
   - entities/tools/claude-mem.md
   - concepts/skillrae-retrieval-augmented-execution.md
   - concepts/continual-harness-online-self-improvement.md
+  - concepts/skill-vetting.md
 maturity: draft
 read_status: read
 created: 2026-06-24

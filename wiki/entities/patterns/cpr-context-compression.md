@@ -14,6 +14,7 @@ related:
   - concepts/long-thread-context-decay.md
   - concepts/self-compacting-adaptive-context.md
   - sources/arxiv-self-compacting-agents-2606.23525.md
+  - entities/patterns/full-prompt-goal-template.md
 maturity: draft
 created: 2026-05-17
 updated: 2026-06-24
@@ -39,6 +40,16 @@ CCC-side stub cross-routed from the OSINT primary. CPR ("Compress / Preserve / R
 ### The pattern (three legs)
 
 1. **Compress** — when the working context approaches the model's window, summarise the trajectory into a dense string before persisting. Cemini's manifestation: Claude Code's native compaction event (when the harness compresses prior messages), plus the `hot.md` ritual which is a hand-written compression.
+
+**Rubric-gated compact (K124)** [TENTATIVE — arxiv-2606.23525]: prefer compress **after** a sub-task checkpoint, not mid-derivation. Before `/compact` or new chat, set in `hot.md`:
+
+| Field | Values |
+|-------|--------|
+| `Checkpoint` | last completed sub-task name |
+| `Compact OK` | `yes` / `no — mid-derivation` / `no — stuck loop` |
+
+If `Compact OK` is not `yes`, use Task subagent with clean context instead of compacting the parent thread. See `@concepts/self-compacting-adaptive-context.md`.
+
 2. **Preserve** — write compressed state to durable storage outside the LLM context. Cemini's manifestation: `hot.md` (gitignored session-state cache) plus claude-mem's observation index.
 3. **Resume** — on next session start, read preserved state back in. Cemini's manifestation: the `## Session-start ritual` section of @CLAUDE.md reads `hot.md` first.
 

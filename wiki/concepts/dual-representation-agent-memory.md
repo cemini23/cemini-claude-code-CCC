@@ -10,6 +10,8 @@ related:
   - concepts/skillrae-retrieval-augmented-execution.md
   - concepts/procedural-memory-transfer-after.md
   - entities/tools/openspec.md
+  - concepts/skill-vetting.md
+  - entities/patterns/full-prompt-goal-template.md
 maturity: draft
 created: 2026-06-24
 updated: 2026-06-24

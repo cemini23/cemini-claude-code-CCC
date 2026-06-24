@@ -12,6 +12,25 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+---
+
+---
+
+## [2026-06-24] adopt | Cursor /goal skill — federation-wide deploy
+
+- **Skill:** `.cursor/skills/goal/SKILL.md` + `cemini-goal-skill.mdc` rule
+- **Sync:** `scripts/sync_goal_skill_to_workspaces.sh` → 18 workspaces + `~/.cursor/skills/goal/`
+- **Wiki:** `entities/skills/goal.md`; `full-prompt-goal-template` Cursor note
+- **Global:** `~/.cursor/rules/cemini-goal-skill.mdc`, `cemini-projects.mdc` /goal section
+
+## [2026-06-24] adopt | K124 harness policy — pattern steals (no tool install)
+
+- **Target:** hands-on — rules + schema + `/goal` + vetting + CPR + flaw template
+- **Brief:** `briefs/2026-06-24_k124-harness-policy-hands-on.md`
+- **Patches:** `.cursor/rules/ccc-wiki-workflow.mdc`, `CLAUDE.md`, `full-prompt-goal-template`, `skill-vetting` (steps 12–13), `cpr-context-compression`, `prompts/harness-flaw-record-template.md`
+- **Steals:** evidence artifact layers, six-responsibility audit, diverse-trace skill promotion, rubric-gated compact, selective crystallization
+- **NO-GO:** PaperClaw/Fara prod install (unchanged)
+
 ## [2026-06-24] ingest | K124 harness survey + memory cluster + PaperClaw
 
 - **Preingest:** 7 NEW (`2606.20683`, `2606.20785`, `2606.20997`, `2606.22610`, `2606.23127`, `2606.23525`, `2606.24151`)

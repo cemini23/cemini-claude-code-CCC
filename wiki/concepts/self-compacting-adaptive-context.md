@@ -10,6 +10,7 @@ related:
   - concepts/tool-response-context-pruning-summarization.md
   - entities/tools/claude-code.md
   - concepts/token-economics-and-prompt-caching.md
+  - entities/patterns/full-prompt-goal-template.md
 maturity: draft
 created: 2026-06-24
 updated: 2026-06-24

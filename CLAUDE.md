@@ -164,6 +164,7 @@ Paths below are relative to this CLAUDE.md file's directory. Resolve `../` again
 3. Read the source (or relevant sections for long PDFs / repo READMEs / multi-part articles)
 4. **Discuss key takeaways with the user before writing**
 4b. **Cross-wiki routing check** — before writing pages, evaluate whether the source contains off-topic content more relevant to another wiki (most often `osint-wiki` for finance-specific, or `cybersecurity-wiki` for hardening / permissions). If so, route via a stub or brief. **When in doubt, prefer a brief over a stub.**
+4c. **Evidence artifact layers (K124)** — produce typed intermediates before polishing final narrative (`wiki/concepts/multi-agent-evidence-artifact-layers.md`): source stub (evidence) → concept/entity/verdict draft (synthesis) → index/log/brief or canvas (interface). Use canvas when 4+ sources or adoption matrix in one ingest.
 5. Create `wiki/sources/<slug>.md` — frontmatter + Raw Concept + short Narrative
 6. Identify entities + concepts the source touches. For each:
    - If page exists: update it, add `related:` backlink, bump `updated:`
@@ -273,6 +274,14 @@ If `hot.md` is missing (first run, deleted), say:
 > "No `hot.md` found — fresh session. Want me to rebuild session state from `wiki/log.md` + `ROADMAP.md`?"
 
 At session end, rewrite `hot.md` with updated position, open decisions, pending actions.
+
+**Compact rubric (K124)** — include in `hot.md` when the session was long or context-heavy:
+
+- `Checkpoint:` last completed sub-task (or `none — mid-task`)
+- `Compact OK:` `yes` | `no — mid-derivation` | `no — stuck loop`
+- Next session: compact `/compact` only if `Compact OK: yes`; else preserve full thread or spawn Task subagent with clean context.
+
+See `wiki/concepts/self-compacting-adaptive-context.md`.
 
 ### 1. Inbox check
 

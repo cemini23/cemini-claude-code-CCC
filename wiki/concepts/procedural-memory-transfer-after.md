@@ -11,6 +11,7 @@ related:
   - entities/skills/tech-debt-audit.md
   - concepts/agent-memory-stack-comparison.md
   - concepts/dual-representation-agent-memory.md
+  - entities/patterns/full-prompt-goal-template.md
 maturity: draft
 created: 2026-06-24
 updated: 2026-06-24

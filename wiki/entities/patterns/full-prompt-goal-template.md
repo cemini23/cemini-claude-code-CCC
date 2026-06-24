@@ -26,9 +26,16 @@ related:
   - concepts/specification-driven-scientific-workflow-management.md
   - concepts/claim-drift-automated-research.md
   - entities/skills/to-issues.md
+  - concepts/model-harness-six-responsibilities.md
+  - concepts/self-compacting-adaptive-context.md
+  - concepts/procedural-memory-transfer-after.md
+  - concepts/dual-representation-agent-memory.md
+  - entities/patterns/cpr-context-compression.md
+  - entities/skills/goal.md
+  - concepts/skill-vetting.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-22
+updated: 2026-06-24
 ---
 
 ## Relations
@@ -53,6 +60,8 @@ Single-shot meta-prompt template circulated on X in May 2026 (file `THE FULL PRO
 ## Narrative
 
 `/goal` is a slash command Cemini uses to seed a session with a long-form goal-condition. The harness's `Stop` hook blocks session termination until the condition holds — the goal stays active across model turns, hooks, and subagent calls until criteria are met. This makes the pattern *durable* in a way that putting goal text into the first user message is not (that text gets summarized away as context fills).
+
+**Cursor (2026-06-24):** skill at `.cursor/skills/goal/SKILL.md` + `cemini-goal-skill.mdc` rule; user-global `~/.cursor/skills/goal/SKILL.md`. Deploy: `scripts/sync_goal_skill_to_workspaces.sh`. Agent enforces rule 10 manually (no Stop hook in Cursor).
 
 ### Template structure
 
@@ -83,6 +92,9 @@ Modal use for non-trivial single-shot tasks. Concrete adoption sites today:
 - **CROSS-WIKI BACKLINKS**: when the goal touches multiple wikis, the template gets a "bidirectional cross-wiki links" criterion. Easy to forget; build it into the SC list.
 - **LOCAL-ONLY CONSTRAINT**: laptop-only wikis (CCC, Cybersecurity, 3D-printing, Image-gen, SEO) need an explicit "NO REMOTE, NO PUSH" in the constraints block, otherwise the agent helpfully offers to push.
 - **CLAIM DRIFT CHECK (K122):** add success criterion that stated mechanism is preserved — changed files match intervention; citations/paths in summary match workspace; pass attributed to right gate (lint vs content vs phase-0). See `@concepts/claim-drift-automated-research.md`.
+- **HARNESS RESPONSIBILITY TAG (K124):** when the goal edits hooks, skills, MCP, or rules, add SC: "Implicated six-responsibility tag recorded (observation/context/control/action/state/verification) + ETCLOVG layer if filing flaw." See `@concepts/model-harness-six-responsibilities.md`.
+- **COMPACT RUBRIC (K124):** for goals expected to exceed ~50 turns, add SC: "`hot.md` checkpoint + Compact OK field written before any `/compact` or new chat." See `@concepts/self-compacting-adaptive-context.md`.
+- **SKILL PROMOTION (K124):** goals that create new skills add SC: "Skill promotion only if ≥2 independent reuses documented; else stays wiki/concept only." See `@concepts/procedural-memory-transfer-after.md` + `@concepts/dual-representation-agent-memory.md`.
 
 ## Snippets
 

@@ -26,8 +26,17 @@ Enable in **Settings → Tools & MCP** after first open.
 | `ccc-wiki-pages.mdc` | Wiki frontmatter + bidirectional `related:` when editing `wiki/` |
 | `ccc-visual-deliverables.mdc` | Canvas for large tables; built-in browser for docs |
 | `ccc-rejected-cursor-tools.mdc` | K63 piracy cluster — never suggest |
+| `cemini-goal-skill.mdc` | `/goal` slash — read `.cursor/skills/goal/SKILL.md` |
 
-Patterns adapted from [awesome-cursorrules](https://github.com/PatrickJS/awesome-cursorrules) (CC0) — see `curated-rules/README.md`.
+## Skills (`.cursor/skills/`)
+
+| Skill | Invoke | Purpose |
+|-------|--------|---------|
+| `goal` | `/goal <task>` | Single-shot meta-prompt envelope (5 sections + 10 rules) |
+| `to-issues`, `grill-with-docs` | skill name | mattpocock planning (K126) |
+| `cursor-audit`, `super-audit` | skill name | Multi-model pre-ship review |
+
+User-global copy: `~/.cursor/skills/goal/SKILL.md`. Re-sync all workspaces: `./scripts/sync_goal_skill_to_workspaces.sh`.
 
 ## Global rules
 

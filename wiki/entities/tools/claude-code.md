@@ -16,6 +16,7 @@ related:
   - entities/mcp-servers/anthropic-skills.md
   - entities/patterns/ralph-loop.md
   - entities/patterns/full-prompt-goal-template.md
+  - entities/skills/goal.md
   - entities/tools/lazy-tool.md
   - entities/tools/claude-code-router.md
   - entities/tools/spec-kit.md

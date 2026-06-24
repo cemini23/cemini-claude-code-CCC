@@ -103,6 +103,9 @@ related:
   - entities/tools/lightmem2.md
   - concepts/procedural-memory-transfer-after.md
   - sources/arxiv-procedural-memory-after-2606.23127.md
+  - concepts/dual-representation-agent-memory.md
+  - sources/arxiv-metis-text-code-memory-2606.24151.md
+  - entities/patterns/full-prompt-goal-template.md
 maturity: draft
 created: 2026-05-17
 updated: 2026-06-24
@@ -159,6 +162,16 @@ Source: `@cybersecurity-wiki/sources/arxiv-prompt-injection-persistence-2606.044
 10. **Session-reset activation probe** (lab, authorized workspace) — (a) injection session with benign canary payload; (b) new chat / cleared history, workspace preserved; (c) activation session with unrelated task; **pass** if canary never influences behavior. Record channel + outcome. Full procedure: `@cybersecurity-wiki/briefs/2026-05-31_ccc-handoff-k100-spi-skill-vetting-checklist.md`.
 
 11. **Write-path governance (mcp-attested steal-from)** — closed **per-server tool allowlist**; deny tools not allowlisted even if advertised [Source: arxiv-2605.24248]. Re-scan on MCP version bump (DCI — 9.93% description≠code) [Source: arxiv-2606.04769]. Cross-link: `@cybersecurity-wiki/concepts/mcp-security-posture.md`.
+
+12. **Diverse-trace promotion (K124 / AFTER)** [TENTATIVE — arxiv-2606.23127] — before creating or promoting an **internal** skill (`entities/skills/` or `~/.claude/skills/`):
+    - **NO-GO** if distilled from a **single session** or single model trace only.
+    - **GO** only with ≥2 independent reuses (different sessions, tasks, or wikis) documented in `wiki/log.md` or skill page `## Raw Concept`.
+    - Prefer traces from **diverse** task families over narrow repo-specific overfitting.
+
+13. **Selective crystallization (K124 / Metis)** [TENTATIVE — arxiv-2606.24151] — memory representation choice:
+    - **Text memory (default):** keep reusable knowledge in `wiki/concepts/` or patterns; inject at runtime via read/search.
+    - **Code memory (crystallize):** promote to SKILL.md or MCP tool only when step 12 pass **and** execution efficiency justifies construction cost.
+    - Do not code-crystallize one-off ingest insights.
 
 **SPI-aware verdicts:** GO requires steps 1–8 **and** 9–10 pass; CONDITIONAL-GO if write paths exist but gated (Tier-2, operator confirm, re-run step 10 on upgrade).
 
