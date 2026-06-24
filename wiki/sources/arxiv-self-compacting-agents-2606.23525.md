@@ -27,7 +27,7 @@ updated: 2026-06-24
 | **Title** | Self-Compacting Language Model Agents |
 | **Authors** | Li et al. (JHU, Apple) |
 | **arXiv** | 2606.23525v1 [cs.CL] |
-| **Location** | `raw-sources/arxiv-2606.23525-2606-23525v1-self-compacting-language-model-agen.pdf` |
+| **Location** | `cemini-egress-fi:/opt/cemini-bulk/research/ccc/arxiv-2606.23525-2606-23525v1-self-compacting-language-model-agen.pdf` |
 | **Retrieved** | 2026-06-24 |
 | **Read status** | read (SELFCOMPACT design + benchmark gains) |
 

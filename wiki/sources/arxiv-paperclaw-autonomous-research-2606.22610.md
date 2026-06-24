@@ -31,7 +31,7 @@ updated: 2026-06-24
 | **arXiv** | 2606.22610v1 [cs.AI] |
 | **Code** | https://github.com/SequenxAI/PaperClaw (MIT) |
 | **Project** | https://sequenxai.github.io/PaperClaw |
-| **Location** | `raw-sources/arxiv-2606.22610-pdf-paperclaw-harnessing-agents-for-autonomous-r.pdf` |
+| **Location** | `cemini-egress-fi:/opt/cemini-bulk/research/ccc/arxiv-2606.22610-pdf-paperclaw-harnessing-agents-for-autonomous-r.pdf` |
 | **Retrieved** | 2026-06-24 |
 | **Read status** | read (pipeline + HITL + lifecycle memory) |
 

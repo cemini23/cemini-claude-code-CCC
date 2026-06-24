@@ -26,7 +26,7 @@ updated: 2026-06-24
 | **Title** | Metis: Bridging Text and Code Memory for Self-Evolving Agents |
 | **Authors** | Dai et al. (CUHK, Huawei, Wuhan U) |
 | **arXiv** | 2606.24151v1 [cs.CL] |
-| **Location** | `raw-sources/arxiv-2606.24151-pdf-metis-bridging-text-and-code-memory-for-self.pdf` |
+| **Location** | `cemini-egress-fi:/opt/cemini-bulk/research/ccc/arxiv-2606.24151-pdf-metis-bridging-text-and-code-memory-for-self.pdf` |
 | **Retrieved** | 2026-06-24 |
 | **Read status** | read (controlled comparison + hierarchical memory) |
 

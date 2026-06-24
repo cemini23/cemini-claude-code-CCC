@@ -29,7 +29,7 @@ updated: 2026-06-24
 | **arXiv** | 2606.20785v1 [cs.AI] |
 | **Code** | https://github.com/microsoft/fara (MIT) |
 | **Models** | https://ai.azure.com/catalog/models/Fara1.5-9B |
-| **Location** | `raw-sources/arxiv-2606.20785-2606-20785v1-fara-1-5-scalable-learning-environm.pdf` |
+| **Location** | `cemini-egress-fi:/opt/cemini-bulk/research/ccc/arxiv-2606.20785-2606-20785v1-fara-1-5-scalable-learning-environm.pdf` |
 | **Retrieved** | 2026-06-24 |
 | **Read status** | read (FaraGen1.5 pipeline + benchmark results) |
 

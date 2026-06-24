@@ -27,7 +27,7 @@ updated: 2026-06-24
 | **Authors** | Belikova et al. |
 | **arXiv** | 2606.23127v1 [cs.AI] |
 | **Benchmark** | AFTER — 382 enterprise tasks, 6 roles, 22 procedural skills |
-| **Location** | `raw-sources/arxiv-2606.23127-pdf-managing-procedural-memory-in-llm-agents-arx.pdf` |
+| **Location** | `cemini-egress-fi:/opt/cemini-bulk/research/ccc/arxiv-2606.23127-pdf-managing-procedural-memory-in-llm-agents-arx.pdf` |
 | **Retrieved** | 2026-06-24 |
 | **Read status** | read (AFTER design + transfer findings) |
 

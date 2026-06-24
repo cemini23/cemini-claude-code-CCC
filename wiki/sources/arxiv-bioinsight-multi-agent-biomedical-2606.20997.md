@@ -25,7 +25,7 @@ updated: 2026-06-24
 | **Title** | BioInsight: Multi-Agent Orchestration for Interactive Biomedical Knowledge Discovery |
 | **Authors** | Wang et al. (PKU, UIUC, UPenn, Purdue, Stanford) |
 | **arXiv** | 2606.20997v1 [cs.AI] |
-| **Location** | `raw-sources/arxiv-2606.20997-bioinsight-multi-agent-orchestration-for-interac.pdf` |
+| **Location** | `cemini-egress-fi:/opt/cemini-bulk/research/ccc/arxiv-2606.20997-bioinsight-multi-agent-orchestration-for-interac.pdf` |
 | **Retrieved** | 2026-06-24 |
 | **Read status** | read (architecture + typed artifacts) |
 

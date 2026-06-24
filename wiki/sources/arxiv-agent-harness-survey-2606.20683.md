@@ -30,7 +30,7 @@ updated: 2026-06-24
 | **Authors** | Guo et al. (CityU HK, Sydney, PKU, TokenRhythm) |
 | **arXiv** | 2606.20683v1 [cs.AI] |
 | **Companion** | https://github.com/ggjy/Awesome-Agent-Engineering (MIT) |
-| **Location** | `raw-sources/arxiv-2606.20683-pdf-a-survey-on-agent-system-and-harness-design.pdf` |
+| **Location** | `cemini-egress-fi:/opt/cemini-bulk/research/ccc/arxiv-2606.20683-pdf-a-survey-on-agent-system-and-harness-design.pdf` |
 | **Retrieved** | 2026-06-24 |
 | **Read status** | read (intro + six-responsibility decomposition) |
 

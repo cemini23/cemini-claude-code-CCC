@@ -21,7 +21,7 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 - **Pages updated (14):** `etclovg-harness-layers`, `code-as-agent-harness`, `externalized-research-synthesis-validation`, `xcientist`, `cpr-context-compression`, `long-thread-context-decay`, `agent-memory-stack-comparison`, `specification-driven-scientific-workflow-management`, `subagent-orchestration`, `cross-wiki-routing`, `skill-vetting`, `deep-scientist`, `index.md`, `sweeps/2026-06-24-daily.md`
 - **Phase-0:** `scripts/adopt_k124_phase0.sh` — PaperClaw/Fara/Awesome MIT; others REFERENCE
 - **Brief:** `briefs/2026-06-24_k124-harness-memory-research-cluster-prod.md`
-- **Raw:** 7 PDFs → `raw-sources/`; inbox cleared
+- **Raw:** 7 PDFs → egress-fi `cemini-egress-fi:/opt/cemini-bulk/research/ccc/`; inbox cleared
 
 ## [2026-06-23] ingest | K123 DIA + agentic web gaps + cross-model verify + AOHP
 
