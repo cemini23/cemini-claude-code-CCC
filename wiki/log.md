@@ -18,6 +18,16 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+---
+
+## [2026-06-25] adopt | Federation Cursor skills + prod brief batch scp
+
+- **Sync:** `scripts/sync_federation_cursor_skills.sh` — goal + to-issues + grill-with-docs → 18 workspaces + user-global
+- **Legacy:** `sync_goal_skill_to_workspaces.sh` delegates to federation sync
+- **Prod brief:** `briefs/2026-06-25_k122-k126-federation-cursor-harness-adoptions-cemini-prod.md`
+- **Prod scp:** `scripts/scp_harness_briefs_to_prod.sh` → `cemini-prod:/opt/cemini/briefs/` (K115–K127 harness batch)
+- **Global rule:** `~/.cursor/rules/cemini-projects.mdc` — federation skills table
+
 ## [2026-06-25] ingest | K125 memory orchestration cluster (4 arXiv)
 
 - **Preingest:** 4 NEW (`2604.07065`, `2606.22485`, `2606.23752`, `2606.24535`)

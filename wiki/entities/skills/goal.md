@@ -27,9 +27,11 @@ Cursor Agent skill deployed federation-wide (2026-06-24). Invoke with **`/goal <
 | Project | `.cursor/skills/goal/SKILL.md` |
 | User-global | `~/.cursor/skills/goal/SKILL.md` |
 | Rule | `.cursor/rules/cemini-goal-skill.mdc` |
-| Sync script | `scripts/sync_goal_skill_to_workspaces.sh` |
+| Sync script | `scripts/sync_federation_cursor_skills.sh` (goal + to-issues + grill-with-docs) |
+| Legacy alias | `scripts/sync_goal_skill_to_workspaces.sh` |
+| Prod briefs | `scripts/scp_harness_briefs_to_prod.sh` → `cemini-prod:/opt/cemini/briefs/` |
 
-**Deploy:** run sync script from CCC repo after editing the canonical skill. Covers federation wikis, OSINT, CeminiSuite, castle-sim, ticket monitors, etc.
+**Deploy:** run `sync_federation_cursor_skills.sh` from CCC repo after editing canonical skills. Covers federation wikis, OSINT, CeminiSuite, castle-sim, ticket monitors, etc. (18 workspaces + user-global).
 
 **Cursor vs Claude Code:** Cursor has no Stop hook — agent must enforce success-criteria check (rule 10) before ending turn.
 

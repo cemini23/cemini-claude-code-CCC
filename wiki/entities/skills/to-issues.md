@@ -21,7 +21,7 @@ cross-wiki-source: "github.com/mattpocock/skills skills/engineering/to-issues"
 - `@entities/patterns/full-prompt-goal-template.md` — `/goal` plans decomposed into grabbable issues
 - `@osint-wiki/entities/tools/mattpocock-skills.md` — canonical eval
 
-Skill files at `.cursor/skills/to-issues/` (MIT, mattpocock/skills).
+Skill files at `.cursor/skills/to-issues/` (MIT, mattpocock/skills). **Federation deploy:** `scripts/sync_federation_cursor_skills.sh` (18 workspaces + user-global).
 
 ## Raw Concept
 

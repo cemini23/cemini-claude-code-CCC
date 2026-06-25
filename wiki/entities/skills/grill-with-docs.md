@@ -24,7 +24,7 @@ cross-wiki-source: "github.com/mattpocock/skills skills/engineering/grill-with-d
 - `@entities/skills/super-audit.md` — pre-ship prod reviews
 - `@concepts/claim-drift-automated-research.md` — claim-boundary audit before ship
 
-Skill files at `.cursor/skills/grill-with-docs/`. Briefs refer to **grill-me**; mattpocock repo ships **grill-with-docs** (same role).
+Skill files at `.cursor/skills/grill-with-docs/`. **Federation deploy:** `scripts/sync_federation_cursor_skills.sh`. Briefs refer to **grill-me**; mattpocock repo ships **grill-with-docs** (same role).
 
 ## Raw Concept
 
