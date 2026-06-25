@@ -50,9 +50,10 @@ related:
   - sources/arxiv-agents-k1-knowledge-orchestration-2606.13669.md
   - concepts/orchestration-reward-modeling-orch-rm.md
   - sources/arxiv-orch-rm-multi-agent-orchestration-2606.13598.md
+  - concepts/mcp-trust-orchestration-collaboration.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-16
+updated: 2026-06-25
 ---
 
 ## Relations

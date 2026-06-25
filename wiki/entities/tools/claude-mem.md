@@ -46,9 +46,12 @@ related:
   - concepts/procedural-memory-transfer-after.md
   - sources/arxiv-metis-text-code-memory-2606.24151.md
   - sources/arxiv-procedural-memory-after-2606.23127.md
+  - concepts/event-sourced-poly-agent-handoff.md
+  - entities/tools/esaa-conversational.md
+  - sources/arxiv-esaa-conversational-event-sourced-2606.23752.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-24
+updated: 2026-06-25
 ---
 
 ## Relations

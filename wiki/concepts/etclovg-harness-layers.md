@@ -28,9 +28,12 @@ related:
   - concepts/safeclawbench-staged-security-endpoints.md
   - concepts/model-harness-six-responsibilities.md
   - sources/arxiv-agent-harness-survey-2606.20683.md
+  - concepts/governed-fleet-shared-memory.md
+  - concepts/mcp-trust-orchestration-collaboration.md
+  - sources/arxiv-governed-shared-memory-2606.24535.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-06-24
+updated: 2026-06-25
 ---
 
 ## Relations

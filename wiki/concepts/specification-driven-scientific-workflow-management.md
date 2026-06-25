@@ -27,9 +27,11 @@ related:
   - entities/tools/paperclaw.md
   - concepts/multi-agent-evidence-artifact-layers.md
   - sources/arxiv-bioinsight-multi-agent-biomedical-2606.20997.md
+  - concepts/neurosymbolic-adaptive-reasoning-workflows.md
+  - sources/arxiv-vadaorchestra-neurosymbolic-2606.22485.md
 maturity: draft
 created: 2026-06-18
-updated: 2026-06-24
+updated: 2026-06-25
 ---
 
 ## Relations

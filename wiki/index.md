@@ -76,6 +76,9 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`paperclaw`](entities/tools/paperclaw.md) | draft | Autonomous research lifecycle harness — CONDITIONAL-GO (K124, MIT) |
 | [`fara`](entities/tools/fara.md) | draft | Microsoft CUA models + FaraGen pipeline — REFERENCE (K124, MIT) |
 | [`awesome-agent-engineering`](entities/tools/awesome-agent-engineering.md) | draft | Harness survey curated list — REFERENCE (K124, MIT) |
+| [`esaa-conversational`](entities/tools/esaa-conversational.md) | draft | Event-sourced poly-agent handoff CLI — CONDITIONAL-GO Windows (K125) |
+| [`memclaw`](entities/tools/memclaw.md) | draft | Governed fleet shared memory SaaS — REFERENCE (K125) |
+| [`argusfleet`](entities/tools/argusfleet.md) | draft | Fleet memory eval harness — REFERENCE pending repo (K125) |
 
 ## entities/mcp-servers/
 
@@ -245,6 +248,10 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`procedural-memory-transfer-after`](concepts/procedural-memory-transfer-after.md) | draft | AFTER procedural skill transfer — 2606.23127 (K124) |
 | [`self-compacting-adaptive-context`](concepts/self-compacting-adaptive-context.md) | draft | Rubric-gated SELFCOMPACT — 2606.23525 (K124) |
 | [`dual-representation-agent-memory`](concepts/dual-representation-agent-memory.md) | draft | Metis text vs code memory — 2606.24151 (K124) |
+| [`mcp-trust-orchestration-collaboration`](concepts/mcp-trust-orchestration-collaboration.md) | draft | TaaS MCP trust layer — 2604.07065 (K125) |
+| [`neurosymbolic-adaptive-reasoning-workflows`](concepts/neurosymbolic-adaptive-reasoning-workflows.md) | draft | VADAOrchestra Datalog+/- — OSINT route (K125) |
+| [`event-sourced-poly-agent-handoff`](concepts/event-sourced-poly-agent-handoff.md) | draft | ESAA event log handoff — 2606.23752 (K125) |
+| [`governed-fleet-shared-memory`](concepts/governed-fleet-shared-memory.md) | draft | MemClaw scope/provenance/supersession — 2606.24535 (K125) |
 | [`tool-eval-license-skepticism-patterns`](concepts/tool-eval-license-skepticism-patterns.md) | draft | K73 license-eval anti-patterns (NO-LICENSE false negatives, BSL parsing) |
 | [`enterprise-auto-mode-telemetry-rollout`](concepts/enterprise-auto-mode-telemetry-rollout.md) | draft | Auto Mode policy rollout via telemetry loops (K73 Post 1) |
 | [`harness-de-bloat-4x4-pattern`](concepts/harness-de-bloat-4x4-pattern.md) | draft | 4-skills/4-agents simplification pattern (K73 Post 2) |
@@ -419,6 +426,16 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-procedural-memory-after-2606.23127`](sources/arxiv-procedural-memory-after-2606.23127.md) | draft | AFTER procedural memory benchmark — read (K124) |
 | [`arxiv-self-compacting-agents-2606.23525`](sources/arxiv-self-compacting-agents-2606.23525.md) | draft | SelfCompact adaptive context — read (K124) |
 | [`arxiv-metis-text-code-memory-2606.24151`](sources/arxiv-metis-text-code-memory-2606.24151.md) | draft | Metis dual memory — read (K124) |
+| [`arxiv-trust-as-a-service-mcp-2604.07065`](sources/arxiv-trust-as-a-service-mcp-2604.07065.md) | draft | TaaS MCP trust — read (K125) |
+| [`arxiv-vadaorchestra-neurosymbolic-2606.22485`](sources/arxiv-vadaorchestra-neurosymbolic-2606.22485.md) | draft | VADAOrchestra — read (K125) |
+| [`arxiv-esaa-conversational-event-sourced-2606.23752`](sources/arxiv-esaa-conversational-event-sourced-2606.23752.md) | draft | ESAA handoff — read (K125) |
+| [`arxiv-governed-shared-memory-2606.24535`](sources/arxiv-governed-shared-memory-2606.24535.md) | draft | MemClaw fleet memory — read (K125) |
+| [`brief-k125-memory-orchestration-cluster-2026-06-25`](sources/brief-k125-memory-orchestration-cluster-2026-06-25.md) | validated | K125 prod brief stub |
+| [`brief-k125-vadaorchestra-osint-handoff-2026-06-25`](sources/brief-k125-vadaorchestra-osint-handoff-2026-06-25.md) | validated | K125 OSINT handoff stub |
+| [`brief-k125-memclaw-fleet-governance-handoff-2026-06-25`](sources/brief-k125-memclaw-fleet-governance-handoff-2026-06-25.md) | validated | K125 cybersec handoff stub |
+| [`brief-k124-harness-memory-research-cluster-2026-06-24`](sources/brief-k124-harness-memory-research-cluster-2026-06-24.md) | validated | K124 prod brief stub |
+| [`brief-k124-harness-policy-hands-on-2026-06-24`](sources/brief-k124-harness-policy-hands-on-2026-06-24.md) | validated | K124 policy brief stub |
+| [`brief-k123-dia-agentic-web-aohp-2026-06-23`](sources/brief-k123-dia-agentic-web-aohp-2026-06-23.md) | validated | K123 prod brief stub |
 
 ## meta/
 

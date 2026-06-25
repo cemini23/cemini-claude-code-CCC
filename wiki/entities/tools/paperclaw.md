@@ -12,9 +12,10 @@ related:
   - concepts/specification-driven-scientific-workflow-management.md
   - concepts/handoff-validity-agent-harness.md
   - concepts/code-as-agent-harness.md
+  - sources/brief-k124-harness-memory-research-cluster-2026-06-24.md
 maturity: draft
 created: 2026-06-24
-updated: 2026-06-24
+updated: 2026-06-25
 ---
 
 ## Relations

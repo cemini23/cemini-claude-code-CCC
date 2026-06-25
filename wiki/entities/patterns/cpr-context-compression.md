@@ -15,9 +15,12 @@ related:
   - concepts/self-compacting-adaptive-context.md
   - sources/arxiv-self-compacting-agents-2606.23525.md
   - entities/patterns/full-prompt-goal-template.md
+  - concepts/event-sourced-poly-agent-handoff.md
+  - sources/arxiv-esaa-conversational-event-sourced-2606.23752.md
+  - sources/brief-k124-harness-policy-hands-on-2026-06-24.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-06-24
+updated: 2026-06-25
 cross-wiki-source: "@osint-wiki/concepts/context-compression-resume-pattern.md"
 ---
 

@@ -11,9 +11,10 @@ related:
   - entities/tools/claude-code.md
   - concepts/token-economics-and-prompt-caching.md
   - entities/patterns/full-prompt-goal-template.md
+  - sources/brief-k124-harness-policy-hands-on-2026-06-24.md
 maturity: draft
 created: 2026-06-24
-updated: 2026-06-24
+updated: 2026-06-25
 ---
 
 ## Relations

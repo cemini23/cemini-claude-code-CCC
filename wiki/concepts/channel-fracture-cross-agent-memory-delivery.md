@@ -14,11 +14,14 @@ related:
   - concepts/multi-factor-agentic-memory-value-model.md
   - concepts/perspectivegap-orchestration-prompting.md
   - concepts/handoff-validity-agent-harness.md
-  - sources/arxiv-agentic-eda-handoff-2606.19795.md
+  - concepts/event-sourced-poly-agent-handoff.md
+  - sources/arxiv-esaa-conversational-event-sourced-2606.23752.md
   - concepts/executable-user-memory-user-as-code.md
+  - entities/tools/esaa-conversational.md
+  - sources/arxiv-agentic-eda-handoff-2606.19795.md
 maturity: draft
 created: 2026-06-12
-updated: 2026-06-20
+updated: 2026-06-25
 ---
 
 ## Relations
@@ -49,6 +52,8 @@ Question: why do cross-agent "write this to agent B's memory" tasks appear to su
 Applies beyond Hermes: Claude Code **Task** subagent returns, conductor/librarian cross-wiki writes, claude-mem injection, Stop-hook state files — any path where the writer context ≠ target store context.
 
 **Bypass channels** (Hermes study): direct DB write or target self-write succeed; cron-delegated write fails — prefer explicit receiver pull or shared store with atomic commit over blind push from isolated scheduler.
+
+**K125 ESAA contrast [TENTATIVE]:** event-sourced **pull** handoff (receiver replays curated projection) vs cron **push** — see `@concepts/event-sourced-poly-agent-handoff.md`.
 
 ## Snippets
 

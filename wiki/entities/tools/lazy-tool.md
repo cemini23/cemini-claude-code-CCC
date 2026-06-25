@@ -39,9 +39,10 @@ related:
   - entities/tools/omnifs.md
   - sources/trading-posts-compilation-8-2026-06-09.md
   - concepts/prompt-cache-aligned-context-management.md
+  - concepts/mcp-trust-orchestration-collaboration.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-21
+updated: 2026-06-25
 ---
 
 ## Relations

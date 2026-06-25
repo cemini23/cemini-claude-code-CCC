@@ -28,9 +28,14 @@ related:
   - sources/arxiv-finacumen-experience-memory-harness-2606.17642.md
   - concepts/executable-user-memory-user-as-code.md
   - sources/arxiv-user-as-code-executable-memory-2606.16707.md
+  - concepts/governed-fleet-shared-memory.md
+  - entities/tools/memclaw.md
+  - sources/arxiv-governed-shared-memory-2606.24535.md
+  - concepts/event-sourced-poly-agent-handoff.md
+  - sources/arxiv-esaa-conversational-event-sourced-2606.23752.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-06-24
+updated: 2026-06-25
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-25-2026-05-27.md"
 ---
 
@@ -57,6 +62,9 @@ K72 Post 1 — marketing comparison of **mem0**, **OpenClaw**, and **Hermes** pe
 | Episodic federation | stash | **Global MCP** |
 | Personal-agent runtime | Hermes / OpenClaw | **In use (operator)** — Hermes on librarian + laptop; not prod trading |
 | Vector user memory API | mem0 | **Evaluate** — overlap risk with claude-mem |
+
+| Fleet governed store | MemClaw | **REFERENCE** — scope/provenance; cybersec checklist K125 |
+| Event-sourced handoff | ESAA-Conversational | **CONDITIONAL-GO** Windows only — receiver-validated replay |
 
 **Rule:** one **SessionStart** memory owner — see `@entities/tools/claude-obsidian.md` rejection case study.
 

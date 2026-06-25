@@ -24,9 +24,12 @@ related:
   - concepts/os-level-agent-harness-android.md
   - entities/tools/paperclaw.md
   - sources/arxiv-paperclaw-autonomous-research-2606.22610.md
+  - concepts/event-sourced-poly-agent-handoff.md
+  - sources/arxiv-esaa-conversational-event-sourced-2606.23752.md
+  - entities/tools/esaa-conversational.md
 maturity: draft
 created: 2026-06-19
-updated: 2026-06-24
+updated: 2026-06-25
 ---
 
 ## Relations

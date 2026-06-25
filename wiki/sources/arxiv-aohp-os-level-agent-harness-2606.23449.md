@@ -9,10 +9,11 @@ related:
   - concepts/runtime-harness-interface-adaptation.md
   - concepts/code-as-agent-harness.md
   - concepts/system-scaling-harness-agentic-ai.md
+  - sources/brief-k123-dia-agentic-web-aohp-2026-06-23.md
 maturity: draft
 read_status: read
 created: 2026-06-23
-updated: 2026-06-23
+updated: 2026-06-25
 ---
 
 ## Relations

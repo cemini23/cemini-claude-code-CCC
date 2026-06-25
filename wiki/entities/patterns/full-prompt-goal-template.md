@@ -33,9 +33,10 @@ related:
   - entities/patterns/cpr-context-compression.md
   - entities/skills/goal.md
   - concepts/skill-vetting.md
+  - concepts/neurosymbolic-adaptive-reasoning-workflows.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-24
+updated: 2026-06-25
 ---
 
 ## Relations

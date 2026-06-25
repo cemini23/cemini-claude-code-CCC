@@ -10,9 +10,11 @@ related:
   - entities/tools/lazy-tool.md
   - entities/mcp-servers/pmxt-mcp-pattern.md
   - concepts/cursor-ide-workspace.md
+  - concepts/mcp-trust-orchestration-collaboration.md
+  - sources/arxiv-trust-as-a-service-mcp-2604.07065.md
 maturity: core
 created: 2026-05-13
-updated: 2026-05-21
+updated: 2026-06-25
 ---
 
 ## Relations

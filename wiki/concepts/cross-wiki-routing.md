@@ -31,9 +31,14 @@ related:
   - sources/arxiv-internet-of-agentic-ai-2606.12835.md
   - concepts/multi-agent-evidence-artifact-layers.md
   - sources/arxiv-bioinsight-multi-agent-biomedical-2606.20997.md
+  - sources/arxiv-vadaorchestra-neurosymbolic-2606.22485.md
+  - sources/brief-k125-vadaorchestra-osint-handoff-2026-06-25.md
+  - concepts/mcp-trust-orchestration-collaboration.md
+  - concepts/neurosymbolic-adaptive-reasoning-workflows.md
+  - sources/arxiv-trust-as-a-service-mcp-2604.07065.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-24
+updated: 2026-06-25
 ---
 
 ## Relations

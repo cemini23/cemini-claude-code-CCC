@@ -16,6 +16,21 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+---
+
+## [2026-06-25] ingest | K125 memory orchestration cluster (4 arXiv)
+
+- **Preingest:** 4 NEW (`2604.07065`, `2606.22485`, `2606.23752`, `2606.24535`)
+- **Sources (4):** TaaS MCP trust; VADAOrchestra; ESAA-Conversational; governed fleet memory (MemClaw)
+- **Concepts (4):** `mcp-trust-orchestration-collaboration`, `neurosymbolic-adaptive-reasoning-workflows`, `event-sourced-poly-agent-handoff`, `governed-fleet-shared-memory`
+- **Entities (3):** `esaa-conversational` (CONDITIONAL-GO Windows), `memclaw`, `argusfleet` (REFERENCE — repo 404)
+- **Brief stubs (6):** K125 prod + cross-wiki; K124×2 + K123 brief audit stubs
+- **Cross-wiki briefs:** `@osint-wiki/briefs/2026-06-25_k125-vadaorchestra-osint-handoff.md`; `@cybersecurity-wiki/briefs/2026-06-25_k125-memclaw-fleet-memory-governance-handoff.md`
+- **Local briefs:** `briefs/2026-06-25_k125-memory-orchestration-cluster-prod.md`, `briefs/2026-06-25_k125-esaa-windows-handoff.md`
+- **Phase-0:** `scripts/adopt_k125_phase0.sh`
+- **Pages updated:** `channel-fracture`, `handoff-validity`, `agent-memory-stack-comparison`, `subagent-orchestration`, `cross-wiki-routing`, `index.md`, `sweeps/2026-06-25-daily.md`
+- **Archive:** 4 PDFs → egress-fi
+
 ## [2026-06-24] adopt | Cursor /goal skill — federation-wide deploy
 
 - **Skill:** `.cursor/skills/goal/SKILL.md` + `cemini-goal-skill.mdc` rule

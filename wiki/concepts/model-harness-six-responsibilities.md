@@ -12,9 +12,10 @@ related:
   - concepts/system-scaling-harness-agentic-ai.md
   - entities/tools/awesome-agent-engineering.md
   - entities/patterns/full-prompt-goal-template.md
+  - sources/brief-k124-harness-memory-research-cluster-2026-06-24.md
 maturity: draft
 created: 2026-06-24
-updated: 2026-06-24
+updated: 2026-06-25
 ---
 
 ## Relations

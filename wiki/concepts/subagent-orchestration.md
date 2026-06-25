@@ -9,6 +9,8 @@ related:
   - concepts/token-economics-and-prompt-caching.md
   - concepts/multi-agent-evidence-artifact-layers.md
   - sources/arxiv-bioinsight-multi-agent-biomedical-2606.20997.md
+  - concepts/event-sourced-poly-agent-handoff.md
+  - sources/arxiv-esaa-conversational-event-sourced-2606.23752.md
   - concepts/cross-wiki-routing.md
   - entities/patterns/tier1-tier2-agent-model.md
   - entities/tools/cua.md
@@ -104,9 +106,11 @@ related:
   - sources/arxiv-user-as-code-executable-memory-2606.16707.md
   - concepts/plan-then-execute-topological-orchestration.md
   - sources/arxiv-dynamo-topological-orchestration-2606.19382.md
+  - concepts/mcp-trust-orchestration-collaboration.md
+  - sources/arxiv-trust-as-a-service-mcp-2604.07065.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-20
+updated: 2026-06-25
 ---
 
 ## Relations
