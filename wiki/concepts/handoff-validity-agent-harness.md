@@ -27,9 +27,10 @@ related:
   - concepts/event-sourced-poly-agent-handoff.md
   - sources/arxiv-esaa-conversational-event-sourced-2606.23752.md
   - entities/tools/esaa-conversational.md
+  - concepts/hidden-user-state-recovery-audit.md
 maturity: draft
 created: 2026-06-19
-updated: 2026-06-25
+updated: 2026-06-26
 ---
 
 ## Relations

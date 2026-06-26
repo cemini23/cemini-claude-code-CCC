@@ -49,9 +49,12 @@ related:
   - concepts/event-sourced-poly-agent-handoff.md
   - entities/tools/esaa-conversational.md
   - sources/arxiv-esaa-conversational-event-sourced-2606.23752.md
+  - concepts/hidden-user-state-recovery-audit.md
+  - entities/tools/memprobe.md
+  - sources/arxiv-memprobe-hidden-user-state-recovery-2606.24595.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-25
+updated: 2026-06-26
 ---
 
 ## Relations

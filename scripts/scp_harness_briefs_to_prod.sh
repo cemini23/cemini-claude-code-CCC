@@ -24,6 +24,7 @@ BRIEFS=(
   "2026-06-24_k124-harness-policy-hands-on.md"
   "2026-06-25_k125-memory-orchestration-cluster-prod.md"
   "2026-06-25_k122-k126-federation-cursor-harness-adoptions-cemini-prod.md"
+  "2026-06-26_k128-memprobe-memory-recovery-prod.md"
 )
 
 echo "SCP harness briefs → ${REMOTE}"

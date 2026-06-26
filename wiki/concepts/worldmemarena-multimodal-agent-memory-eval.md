@@ -10,10 +10,13 @@ related:
   - concepts/agent-memory-stack-comparison.md
   - concepts/agent-token-discipline-openclaw-hermes.md
   - "@osint-wiki/concepts/agent-memory-pipeline-eval-rubric.md"
+  - concepts/hidden-user-state-recovery-audit.md
+  - sources/arxiv-memprobe-hidden-user-state-recovery-2606.24595.md
   - concepts/agent-rubrics-self-correction.md
+  - entities/tools/memprobe.md
 maturity: draft
 created: 2026-06-02
-updated: 2026-06-03
+updated: 2026-06-26
 ---
 
 ## Relations
@@ -36,7 +39,9 @@ arXiv **2605.29341** — evaluates long-horizon **multimodal** agent memory via 
 | Retrieval | conductor, stash recall, wiki index |
 | Use | session tool choice + rules |
 
-**Verdict:** **REFERENCE** — steal evaluation rubric for memory MCP/skill audits; multimodal scope beyond current CCC harness.
+| Recovery audit | MemProbe dump_all + top-k | hidden user-state reconstruction vs ground truth |
+
+**Verdict:** **REFERENCE** — steal evaluation rubric for memory MCP/skill audits; multimodal scope beyond current CCC harness. Pair with `@concepts/hidden-user-state-recovery-audit.md` for behavioral vs artifact scoring.
 
 ## Snippets
 

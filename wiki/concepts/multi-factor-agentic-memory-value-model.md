@@ -12,9 +12,12 @@ related:
   - concepts/storage-budgeted-agent-memory-compression.md
   - sources/arxiv-memrefine-storage-budgeted-memory-2606.13177.md
   - concepts/executable-user-memory-user-as-code.md
+  - concepts/hidden-user-state-recovery-audit.md
+  - sources/arxiv-memprobe-hidden-user-state-recovery-2606.24595.md
+  - entities/tools/memprobe.md
 maturity: draft
 created: 2026-06-15
-updated: 2026-06-20
+updated: 2026-06-26
 ---
 
 ## Relations

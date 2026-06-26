@@ -20,6 +20,19 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+---
+
+## [2026-06-26] ingest | K128 MemProbe memory recovery audit
+
+- **Preingest:** 1 NEW (`2606.24595`)
+- **Source:** MemProbe hidden user-state recovery benchmark
+- **Concept:** `hidden-user-state-recovery-audit`
+- **Entity:** `memprobe` (CC-BY-4.0, REFERENCE)
+- **Brief:** `briefs/2026-06-26_k128-memprobe-memory-recovery-prod.md` → scp prod
+- **Phase-0:** `scripts/adopt_k128_phase0.sh`
+- **Pages updated:** `agent-memory-stack-comparison`, `worldmemarena`, `channel-fracture`, `multi-factor-agentic-memory`, `claude-mem`, `index.md`, `sweeps/2026-06-26-daily.md`
+- **Archive:** PDF → egress-fi
+
 ## [2026-06-25] adopt | Federation Cursor skills + prod brief batch scp
 
 - **Sync:** `scripts/sync_federation_cursor_skills.sh` — goal + to-issues + grill-with-docs → 18 workspaces + user-global

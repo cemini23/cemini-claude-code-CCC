@@ -33,9 +33,12 @@ related:
   - sources/arxiv-governed-shared-memory-2606.24535.md
   - concepts/event-sourced-poly-agent-handoff.md
   - sources/arxiv-esaa-conversational-event-sourced-2606.23752.md
+  - concepts/hidden-user-state-recovery-audit.md
+  - sources/arxiv-memprobe-hidden-user-state-recovery-2606.24595.md
+  - entities/tools/memprobe.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-06-25
+updated: 2026-06-26
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-25-2026-05-27.md"
 ---
 
@@ -63,6 +66,7 @@ K72 Post 1 — marketing comparison of **mem0**, **OpenClaw**, and **Hermes** pe
 | Personal-agent runtime | Hermes / OpenClaw | **In use (operator)** — Hermes on librarian + laptop; not prod trading |
 | Vector user memory API | mem0 | **Evaluate** — overlap risk with claude-mem |
 
+| Recovery audit benchmark | MemProbe | **REFERENCE** — hidden user-state recovery; CC-BY-4.0 (K128) |
 | Fleet governed store | MemClaw | **REFERENCE** — scope/provenance; cybersec checklist K125 |
 | Event-sourced handoff | ESAA-Conversational | **CONDITIONAL-GO** Windows only — receiver-validated replay |
 

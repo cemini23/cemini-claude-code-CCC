@@ -79,6 +79,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`esaa-conversational`](entities/tools/esaa-conversational.md) | draft | Event-sourced poly-agent handoff CLI — CONDITIONAL-GO Windows (K125) |
 | [`memclaw`](entities/tools/memclaw.md) | draft | Governed fleet shared memory SaaS — REFERENCE (K125) |
 | [`argusfleet`](entities/tools/argusfleet.md) | draft | Fleet memory eval harness — REFERENCE pending repo (K125) |
+| [`memprobe`](entities/tools/memprobe.md) | draft | Hidden user-state recovery benchmark — REFERENCE CC-BY-4.0 (K128) |
 
 ## entities/mcp-servers/
 
@@ -252,6 +253,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`neurosymbolic-adaptive-reasoning-workflows`](concepts/neurosymbolic-adaptive-reasoning-workflows.md) | draft | VADAOrchestra Datalog+/- — OSINT route (K125) |
 | [`event-sourced-poly-agent-handoff`](concepts/event-sourced-poly-agent-handoff.md) | draft | ESAA event log handoff — 2606.23752 (K125) |
 | [`governed-fleet-shared-memory`](concepts/governed-fleet-shared-memory.md) | draft | MemClaw scope/provenance/supersession — 2606.24535 (K125) |
+| [`hidden-user-state-recovery-audit`](concepts/hidden-user-state-recovery-audit.md) | draft | MemProbe recovery vs task success — 2606.24595 (K128) |
 | [`tool-eval-license-skepticism-patterns`](concepts/tool-eval-license-skepticism-patterns.md) | draft | K73 license-eval anti-patterns (NO-LICENSE false negatives, BSL parsing) |
 | [`enterprise-auto-mode-telemetry-rollout`](concepts/enterprise-auto-mode-telemetry-rollout.md) | draft | Auto Mode policy rollout via telemetry loops (K73 Post 1) |
 | [`harness-de-bloat-4x4-pattern`](concepts/harness-de-bloat-4x4-pattern.md) | draft | 4-skills/4-agents simplification pattern (K73 Post 2) |
@@ -433,6 +435,8 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`brief-k125-memory-orchestration-cluster-2026-06-25`](sources/brief-k125-memory-orchestration-cluster-2026-06-25.md) | validated | K125 prod brief stub |
 | [`brief-k125-vadaorchestra-osint-handoff-2026-06-25`](sources/brief-k125-vadaorchestra-osint-handoff-2026-06-25.md) | validated | K125 OSINT handoff stub |
 | [`brief-k125-memclaw-fleet-governance-handoff-2026-06-25`](sources/brief-k125-memclaw-fleet-governance-handoff-2026-06-25.md) | validated | K125 cybersec handoff stub |
+| [`arxiv-memprobe-hidden-user-state-recovery-2606.24595`](sources/arxiv-memprobe-hidden-user-state-recovery-2606.24595.md) | draft | MemProbe recovery audit — read (K128) |
+| [`brief-k128-memprobe-memory-recovery-2026-06-26`](sources/brief-k128-memprobe-memory-recovery-2026-06-26.md) | validated | K128 prod brief stub |
 | [`brief-k124-harness-memory-research-cluster-2026-06-24`](sources/brief-k124-harness-memory-research-cluster-2026-06-24.md) | validated | K124 prod brief stub |
 | [`brief-k124-harness-policy-hands-on-2026-06-24`](sources/brief-k124-harness-policy-hands-on-2026-06-24.md) | validated | K124 policy brief stub |
 | [`brief-k123-dia-agentic-web-aohp-2026-06-23`](sources/brief-k123-dia-agentic-web-aohp-2026-06-23.md) | validated | K123 prod brief stub |

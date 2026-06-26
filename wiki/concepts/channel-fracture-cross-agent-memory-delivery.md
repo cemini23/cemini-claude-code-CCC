@@ -19,9 +19,11 @@ related:
   - concepts/executable-user-memory-user-as-code.md
   - entities/tools/esaa-conversational.md
   - sources/arxiv-agentic-eda-handoff-2606.19795.md
+  - concepts/hidden-user-state-recovery-audit.md
+  - sources/arxiv-memprobe-hidden-user-state-recovery-2606.24595.md
 maturity: draft
 created: 2026-06-12
-updated: 2026-06-25
+updated: 2026-06-26
 ---
 
 ## Relations
@@ -54,6 +56,8 @@ Applies beyond Hermes: Claude Code **Task** subagent returns, conductor/libraria
 **Bypass channels** (Hermes study): direct DB write or target self-write succeed; cron-delegated write fails — prefer explicit receiver pull or shared store with atomic commit over blind push from isolated scheduler.
 
 **K125 ESAA contrast [TENTATIVE]:** event-sourced **pull** handoff (receiver replays curated projection) vs cron **push** — see `@concepts/event-sourced-poly-agent-handoff.md`.
+
+**K128 MemProbe contrast [TENTATIVE]:** `dump_all` vs top-k retrieval separates **stored** from **reachable** memory — same fracture class as channel fracture at audit time.
 
 ## Snippets
 
