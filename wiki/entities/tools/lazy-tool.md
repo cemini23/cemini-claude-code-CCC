@@ -40,9 +40,11 @@ related:
   - sources/trading-posts-compilation-8-2026-06-09.md
   - concepts/prompt-cache-aligned-context-management.md
   - concepts/mcp-trust-orchestration-collaboration.md
+  - concepts/recoverable-tool-reliability-hazards.md
+  - concepts/confidence-aware-tool-orchestration.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-25
+updated: 2026-06-27
 ---
 
 ## Relations

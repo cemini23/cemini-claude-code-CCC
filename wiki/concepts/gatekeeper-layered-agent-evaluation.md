@@ -14,9 +14,12 @@ related:
   - sources/arxiv-xcientist-research-harness-claim-drift-2606.18874.md
   - concepts/cross-model-verified-agent-translation.md
   - sources/arxiv-dual-agent-cross-model-protocol-translation-2606.20120.md
+  - concepts/recoverable-tool-reliability-hazards.md
+  - concepts/confidence-aware-tool-orchestration.md
+  - sources/arxiv-toolbench-x-tool-environment-unreliability-2606.25819.md
 maturity: draft
 created: 2026-06-21
-updated: 2026-06-23
+updated: 2026-06-27
 ---
 
 ## Relations

@@ -22,6 +22,19 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+---
+
+## [2026-06-27] ingest | K129 tool reliability + confidence orchestration (2 arXiv)
+
+- **Preingest:** 2 NEW (`2606.25819`, `2606.26904`)
+- **Sources (2):** ToolBench-X hazards; Robust-TO confidence orchestration
+- **Concepts (2):** `recoverable-tool-reliability-hazards`, `confidence-aware-tool-orchestration`
+- **Entity (1):** `toolbench-x` (LICENSE unverified — REFERENCE)
+- **Briefs:** `briefs/2026-06-27_k129-tool-reliability-orchestration-prod.md`; `@image-gen-wiki/briefs/2026-06-27_k129-robust-to-confidence-tool-orchestration-handoff.md`
+- **Phase-0:** `scripts/adopt_k129_phase0.sh`
+- **Pages updated:** `gatekeeper-layered-agent-evaluation`, `etclovg-harness-layers`, `lazy-tool`, `index.md`, `sweeps/2026-06-27-daily.md`
+- **Archive:** 2 PDFs → egress-fi
+
 ## [2026-06-26] ingest | K128 MemProbe memory recovery audit
 
 - **Preingest:** 1 NEW (`2606.24595`)

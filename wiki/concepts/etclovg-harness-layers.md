@@ -31,9 +31,11 @@ related:
   - concepts/governed-fleet-shared-memory.md
   - concepts/mcp-trust-orchestration-collaboration.md
   - sources/arxiv-governed-shared-memory-2606.24535.md
+  - concepts/recoverable-tool-reliability-hazards.md
+  - sources/arxiv-toolbench-x-tool-environment-unreliability-2606.25819.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-06-25
+updated: 2026-06-27
 ---
 
 ## Relations
@@ -57,7 +59,7 @@ Seven-layer harness taxonomy from recent harness-engineering literature, formali
 | **Context & Memory** | What the model sees each step: window, summaries, retrieval, persistent memory | `hot.md`, `@entities/tools/claude-mem.md`, stash, progressive disclosure |
 | **Lifecycle & Orchestration** | Think-act-observe, retries, task state, multi-agent coordination, termination | Subagents, Stop hooks, `/goal`, conductor fan-out |
 | **Observability** | Traces, tool calls, errors, cost — enough to diagnose | `wiki/log.md`, claude-mem, defenseclaw discovery |
-| **Verification & Evaluation** | Readiness checks, intermediate validation, final eval, regression | `@concepts/skill-vetting.md`, OpenSpec criteria, `wiki_lint.py`, Glasswing review |
+| **Verification & Evaluation** | Readiness checks, intermediate validation, final eval, regression | `@concepts/skill-vetting.md`, OpenSpec criteria, `wiki_lint.py`, Glasswing review; **ToolBench-X** hazard recovery eval (K129) |
 | **Governance & Security** | Permissions, approvals, audit trails, policy enforcement | Tier 1/2 model, defenseclaw scanners, SeClaw trajectory eval |
 
 ### Why CCC owns this page

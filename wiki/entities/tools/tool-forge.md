@@ -8,9 +8,10 @@ related:
   - concepts/skill-vetting.md
   - entities/tools/lazy-tool.md
   - "@osint-wiki/sources/arxiv-tool-forge-governed-agentic-2605-28000-2026-06-02.md"
+  - concepts/recoverable-tool-reliability-hazards.md
 maturity: draft
 created: 2026-06-02
-updated: 2026-06-02
+updated: 2026-06-27
 phase_0_verdict: NO-GO install 2026-06-02 — steal validation-carrying only; Apache-2.0; 187 pytest pass; Alpha + Docker/Postgres stack
 ---
 

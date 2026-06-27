@@ -34,9 +34,10 @@ related:
   - concepts/claim-drift-automated-research.md
   - concepts/externalized-research-synthesis-validation.md
   - sources/arxiv-xcientist-research-harness-claim-drift-2606.18874.md
+  - concepts/recoverable-tool-reliability-hazards.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-06-22
+updated: 2026-06-27
 ---
 
 ## Relations

@@ -51,9 +51,10 @@ related:
   - concepts/orchestration-reward-modeling-orch-rm.md
   - sources/arxiv-orch-rm-multi-agent-orchestration-2606.13598.md
   - concepts/mcp-trust-orchestration-collaboration.md
+  - concepts/confidence-aware-tool-orchestration.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-25
+updated: 2026-06-27
 ---
 
 ## Relations

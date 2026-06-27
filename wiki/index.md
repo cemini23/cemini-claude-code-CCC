@@ -80,6 +80,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`memclaw`](entities/tools/memclaw.md) | draft | Governed fleet shared memory SaaS — REFERENCE (K125) |
 | [`argusfleet`](entities/tools/argusfleet.md) | draft | Fleet memory eval harness — REFERENCE pending repo (K125) |
 | [`memprobe`](entities/tools/memprobe.md) | draft | Hidden user-state recovery benchmark — REFERENCE CC-BY-4.0 (K128) |
+| [`toolbench-x`](entities/tools/toolbench-x.md) | draft | Tool-environment unreliability benchmark — REFERENCE (K129) |
 
 ## entities/mcp-servers/
 
@@ -254,6 +255,8 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`event-sourced-poly-agent-handoff`](concepts/event-sourced-poly-agent-handoff.md) | draft | ESAA event log handoff — 2606.23752 (K125) |
 | [`governed-fleet-shared-memory`](concepts/governed-fleet-shared-memory.md) | draft | MemClaw scope/provenance/supersession — 2606.24535 (K125) |
 | [`hidden-user-state-recovery-audit`](concepts/hidden-user-state-recovery-audit.md) | draft | MemProbe recovery vs task success — 2606.24595 (K128) |
+| [`recoverable-tool-reliability-hazards`](concepts/recoverable-tool-reliability-hazards.md) | draft | ToolBench-X five hazards — 2606.25819 (K129) |
+| [`confidence-aware-tool-orchestration`](concepts/confidence-aware-tool-orchestration.md) | draft | Robust-TO tiered evidence — 2606.26904 (K129) |
 | [`tool-eval-license-skepticism-patterns`](concepts/tool-eval-license-skepticism-patterns.md) | draft | K73 license-eval anti-patterns (NO-LICENSE false negatives, BSL parsing) |
 | [`enterprise-auto-mode-telemetry-rollout`](concepts/enterprise-auto-mode-telemetry-rollout.md) | draft | Auto Mode policy rollout via telemetry loops (K73 Post 1) |
 | [`harness-de-bloat-4x4-pattern`](concepts/harness-de-bloat-4x4-pattern.md) | draft | 4-skills/4-agents simplification pattern (K73 Post 2) |
@@ -437,6 +440,10 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`brief-k125-memclaw-fleet-governance-handoff-2026-06-25`](sources/brief-k125-memclaw-fleet-governance-handoff-2026-06-25.md) | validated | K125 cybersec handoff stub |
 | [`arxiv-memprobe-hidden-user-state-recovery-2606.24595`](sources/arxiv-memprobe-hidden-user-state-recovery-2606.24595.md) | draft | MemProbe recovery audit — read (K128) |
 | [`brief-k128-memprobe-memory-recovery-2026-06-26`](sources/brief-k128-memprobe-memory-recovery-2026-06-26.md) | validated | K128 prod brief stub |
+| [`arxiv-toolbench-x-tool-environment-unreliability-2606.25819`](sources/arxiv-toolbench-x-tool-environment-unreliability-2606.25819.md) | draft | ToolBench-X hazards — read (K129) |
+| [`arxiv-confidence-aware-tool-orchestration-video-2606.26904`](sources/arxiv-confidence-aware-tool-orchestration-video-2606.26904.md) | draft | Robust-TO orchestration — read (K129) |
+| [`brief-k129-tool-reliability-orchestration-2026-06-27`](sources/brief-k129-tool-reliability-orchestration-2026-06-27.md) | validated | K129 prod brief stub |
+| [`brief-k129-robust-to-imagegen-handoff-2026-06-27`](sources/brief-k129-robust-to-imagegen-handoff-2026-06-27.md) | validated | K129 image-gen handoff stub |
 | [`brief-k124-harness-memory-research-cluster-2026-06-24`](sources/brief-k124-harness-memory-research-cluster-2026-06-24.md) | validated | K124 prod brief stub |
 | [`brief-k124-harness-policy-hands-on-2026-06-24`](sources/brief-k124-harness-policy-hands-on-2026-06-24.md) | validated | K124 policy brief stub |
 | [`brief-k123-dia-agentic-web-aohp-2026-06-23`](sources/brief-k123-dia-agentic-web-aohp-2026-06-23.md) | validated | K123 prod brief stub |

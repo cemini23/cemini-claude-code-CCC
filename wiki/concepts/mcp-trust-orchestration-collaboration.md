@@ -14,9 +14,10 @@ related:
   - concepts/etclovg-harness-layers.md
   - concepts/governed-fleet-shared-memory.md
   - sources/brief-k125-memory-orchestration-cluster-2026-06-25.md
+  - concepts/recoverable-tool-reliability-hazards.md
 maturity: draft
 created: 2026-06-25
-updated: 2026-06-25
+updated: 2026-06-27
 ---
 
 ## Relations

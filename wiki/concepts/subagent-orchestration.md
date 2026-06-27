@@ -108,9 +108,11 @@ related:
   - sources/arxiv-dynamo-topological-orchestration-2606.19382.md
   - concepts/mcp-trust-orchestration-collaboration.md
   - sources/arxiv-trust-as-a-service-mcp-2604.07065.md
+  - concepts/confidence-aware-tool-orchestration.md
+  - sources/arxiv-confidence-aware-tool-orchestration-video-2606.26904.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-25
+updated: 2026-06-27
 ---
 
 ## Relations
