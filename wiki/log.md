@@ -4,6 +4,27 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-06-29] brief audit | K134 + K132 + federation batch wiki stubs
+
+- **Gap:** K134 brief referenced `@wiki/entities/tools/codebase-memory-mcp.md` — page missing on CCC wiki (existed on OSINT only)
+- **Entity (1):** `codebase-memory-mcp` — federation MCP adoption canon (CONDITIONAL-GO)
+- **Brief stubs (3):** K134 prod; K132 local adoptions; K122–K126 federation batch
+- **Source stub (1):** `eval-github-repos-plan-multi-wiki-2026-06-29` — cross-wiki pointer to OSINT K134 eval
+- **Updated:** `index.md`, `cursor-ide-workspace.md`; OSINT entity backlink
+
+---
+
+## [2026-06-28] prompt | deep-research eval v9 — active projects + TipDrop
+
+- **Created:** `prompts/deep-research-multi-wiki-eval-v9-2026-06-28.md` — supersedes v8 for day-to-day use
+- **Surface 1 reframed:** legacy Cemini Financial Suite equity stack deprioritized → **Cemini active prod bots** (XSP killer, dev.fun poker arena, PM/Kalshi exploratory)
+- **Surface 10 added:** **TipDrop.io** (David's Discord signals SaaS) with compliance-first eval
+- **Shipped inventories:** xsp-killer, devfun-poker-arena, castle-sim, tipdrop-workspace-kit
+- **Overlap fields:** poker-arena, xsp-killer, tipdrop (+ existing world-cup-bot, wc-ticket-monitor, CeminiDFS)
+- **Updated:** `wiki/concepts/deep-research-evaluation-prompt.md`, `cross-wiki-routing.md`, `index.md`, `README.md`, `CLAUDE.md`
+
+---
+
 ---
 
 ---

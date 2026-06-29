@@ -9,10 +9,11 @@ related:
   - concepts/self-compacting-adaptive-context.md
   - concepts/procedural-memory-transfer-after.md
   - entities/patterns/cpr-context-compression.md
+  - sources/brief-k122-k126-federation-cursor-harness-adoptions-2026-06-25.md
 maturity: validated
 read_status: deep-read
 created: 2026-06-24
-updated: 2026-06-25
+updated: 2026-06-29
 ---
 
 ## Relations

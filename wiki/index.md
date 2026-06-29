@@ -81,6 +81,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`argusfleet`](entities/tools/argusfleet.md) | draft | Fleet memory eval harness — REFERENCE pending repo (K125) |
 | [`memprobe`](entities/tools/memprobe.md) | draft | Hidden user-state recovery benchmark — REFERENCE CC-BY-4.0 (K128) |
 | [`toolbench-x`](entities/tools/toolbench-x.md) | draft | Tool-environment unreliability benchmark — REFERENCE (K129) |
+| [`codebase-memory-mcp`](entities/tools/codebase-memory-mcp.md) | validated | Tree-sitter code graph MCP — CONDITIONAL-GO federation deploy (K134) |
 
 ## entities/mcp-servers/
 
@@ -147,7 +148,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`cross-wiki-tool-eval-inventory`](concepts/cross-wiki-tool-eval-inventory.md) | draft | Consolidated receipt — all CCC-routed items from OSINT tool evaluations K45–K56 |
 | [`code-as-agent-harness`](concepts/code-as-agent-harness.md) | draft | Three-layer harness model mapped to Claude Code / conductor / MCP (K48 arXiv) |
 | [`self-healing-agent-sessions`](concepts/self-healing-agent-sessions.md) | draft | Failure taxonomy + retry budget for long Claude Code sessions (K48 arXiv) |
-| [`deep-research-evaluation-prompt`](concepts/deep-research-evaluation-prompt.md) | validated | v1→v8 lineage; canonical copy-paste at `prompts/deep-research-multi-wiki-eval-v8-2026-06-21.md` |
+| [`deep-research-evaluation-prompt`](concepts/deep-research-evaluation-prompt.md) | validated | v1→v9 lineage; canonical copy-paste at `prompts/deep-research-multi-wiki-eval-v9-2026-06-28.md` |
 | [`cursor-ide-workspace`](concepts/cursor-ide-workspace.md) | validated | Cursor as primary laptop harness; MCP map, rules, canvas, deployment boundary |
 | [`local-llm-mechanics-primer`](concepts/local-llm-mechanics-primer.md) | draft | KV cache / prefill-decode primer for local inference (K57 Post 1) |
 | [`tools-we-dont-use`](concepts/tools-we-dont-use.md) | draft | Institutional reject register (ToS bypass, ridark list discipline) |
@@ -447,12 +448,17 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`brief-k124-harness-memory-research-cluster-2026-06-24`](sources/brief-k124-harness-memory-research-cluster-2026-06-24.md) | validated | K124 prod brief stub |
 | [`brief-k124-harness-policy-hands-on-2026-06-24`](sources/brief-k124-harness-policy-hands-on-2026-06-24.md) | validated | K124 policy brief stub |
 | [`brief-k123-dia-agentic-web-aohp-2026-06-23`](sources/brief-k123-dia-agentic-web-aohp-2026-06-23.md) | validated | K123 prod brief stub |
+| [`eval-github-repos-plan-multi-wiki-2026-06-29`](sources/eval-github-repos-plan-multi-wiki-2026-06-29.md) | validated | K134 multi-wiki eval — CCC routing stub |
+| [`brief-k134-codebase-memory-cursor-federation-prod-2026-06-29`](sources/brief-k134-codebase-memory-cursor-federation-prod-2026-06-29.md) | validated | K134 prod brief stub |
+| [`brief-k132-local-adoptions-cursor-federation-prod-2026-06-27`](sources/brief-k132-local-adoptions-cursor-federation-prod-2026-06-27.md) | validated | K132 prod brief stub |
+| [`brief-k122-k126-federation-cursor-harness-adoptions-2026-06-25`](sources/brief-k122-k126-federation-cursor-harness-adoptions-2026-06-25.md) | validated | K122–K126 federation batch brief stub |
 
 ## meta/
 
 | Page | Maturity | Summary |
 |------|----------|---------|
 | [`daily-research-digest-cadence`](meta/daily-research-digest-cadence.md) | core | CCC LaunchAgent + sweeps cadence (K93) |
+| [`ccc-cross-wiki-handoff-briefs`](meta/ccc-cross-wiki-handoff-briefs.md) | validated | Catalog of `wiki/briefs/` cybersec/OSINT handoffs |
 
 ## sweeps/
 

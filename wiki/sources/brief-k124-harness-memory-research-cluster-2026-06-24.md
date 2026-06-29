@@ -8,10 +8,11 @@ related:
   - sources/brief-k124-harness-memory-research-cluster-2026-06-24.md
   - concepts/dual-representation-agent-memory.md
   - entities/tools/paperclaw.md
+  - sources/brief-k122-k126-federation-cursor-harness-adoptions-2026-06-25.md
 maturity: validated
 read_status: deep-read
 created: 2026-06-24
-updated: 2026-06-25
+updated: 2026-06-29
 ---
 
 ## Relations

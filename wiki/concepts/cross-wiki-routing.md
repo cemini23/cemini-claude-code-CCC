@@ -36,9 +36,10 @@ related:
   - concepts/mcp-trust-orchestration-collaboration.md
   - concepts/neurosymbolic-adaptive-reasoning-workflows.md
   - sources/arxiv-trust-as-a-service-mcp-2604.07065.md
+  - meta/ccc-cross-wiki-handoff-briefs.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-25
+updated: 2026-06-29
 ---
 
 ## Relations
@@ -76,7 +77,7 @@ The federation has **eight domain wikis** + private Cemini Financial Suite (CCC 
 | `3d-printing-wiki` | FDM/FFF printing, slicers, store ops |
 | `game-dev-wiki` | Hobby game dev — castle/RTS research, Godot/engine evals, vertical slices (public) |
 
-**Bulk eval routing:** `@concepts/deep-research-evaluation-prompt.md` (v8 at `prompts/deep-research-multi-wiki-eval-v8-2026-06-21.md`) — gambling-wiki = surface 3; game-dev-wiki = surface 8; osint = bots/LP only; shipped OSS overlap fields for world-cup-bot, wc-ticket-monitor, CeminiDFS.
+**Bulk eval routing:** `@concepts/deep-research-evaluation-prompt.md` (v9 at `prompts/deep-research-multi-wiki-eval-v9-2026-06-28.md`) — surface 1 = active prod bots (XSP, poker arena); surface 10 = TipDrop.io; gambling-wiki = surface 3; game-dev-wiki = surface 8; osint = bots/LP + XSP research; shipped OSS overlap fields for world-cup-bot, wc-ticket-monitor, CeminiDFS, poker-arena, xsp-killer, tipdrop.
 
 Every wiki's CLAUDE.md has a "Related Wikis" table listing siblings with relative paths. The lint scripts parse this table to resolve `@<alias>/path` references.
 

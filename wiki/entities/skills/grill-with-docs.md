@@ -10,9 +10,11 @@ related:
   - concepts/agent-rubrics-self-correction.md
   - concepts/claim-drift-automated-research.md
   - "@osint-wiki/entities/tools/mattpocock-skills.md"
+  - sources/brief-k122-k126-federation-cursor-harness-adoptions-2026-06-25.md
+  - sources/brief-k132-local-adoptions-cursor-federation-prod-2026-06-27.md
 maturity: draft
 created: 2026-06-22
-updated: 2026-06-22
+updated: 2026-06-29
 license_verified: MIT
 cross-wiki-source: "github.com/mattpocock/skills skills/engineering/grill-with-docs"
 ---

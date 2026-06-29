@@ -42,9 +42,10 @@ related:
   - concepts/mcp-trust-orchestration-collaboration.md
   - concepts/recoverable-tool-reliability-hazards.md
   - concepts/confidence-aware-tool-orchestration.md
+  - entities/tools/codebase-memory-mcp.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-27
+updated: 2026-06-29
 ---
 
 ## Relations

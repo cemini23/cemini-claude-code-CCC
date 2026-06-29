@@ -24,9 +24,10 @@ related:
   - sources/arxiv-enterprise-mcp-adoption-2606.09182.md
   - concepts/safeclawbench-staged-security-endpoints.md
   - sources/arxiv-safeclawbench-staged-agent-security-2606.18356.md
+  - meta/ccc-cross-wiki-handoff-briefs.md
 maturity: draft
 created: 2026-06-04
-updated: 2026-06-21
+updated: 2026-06-29
 cross-wiki-source: "@osint-wiki/concepts/seclaw-agent-security-evaluation.md"
 ---
 

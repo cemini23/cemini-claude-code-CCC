@@ -8,15 +8,18 @@ related:
   - concepts/claude-code-skills-md-institutional-memory.md
   - entities/skills/to-issues.md
   - entities/skills/grill-with-docs.md
+  - sources/eval-github-repos-plan-multi-wiki-2026-06-29.md
+  - entities/tools/codebase-memory-mcp.md
 maturity: draft
 created: 2026-06-22
-updated: 2026-06-22
+updated: 2026-06-29
 cross-wiki-source: "@osint-wiki/entities/tools/mattpocock-skills.md"
 ---
 
 ## Relations
 
 - `@osint-wiki/entities/tools/mattpocock-skills.md` — canonical K126 Adopt eval (MIT confirmed)
+- `@sources/eval-github-repos-plan-multi-wiki-2026-06-29.md` — K134 reaffirmed
 
 ## Narrative
 

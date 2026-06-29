@@ -19,9 +19,12 @@ related:
   - entities/tools/webwright.md
   - concepts/claude-artifacts-app-building.md
   - concepts/harness-layer-competition-cursor-claude-perplexity.md
+  - entities/tools/codebase-memory-mcp.md
+  - sources/brief-k134-codebase-memory-cursor-federation-prod-2026-06-29.md
+  - sources/brief-k132-local-adoptions-cursor-federation-prod-2026-06-27.md
 maturity: validated
 created: 2026-05-21
-updated: 2026-06-01
+updated: 2026-06-29
 ---
 
 ## Relations
@@ -38,6 +41,7 @@ updated: 2026-06-01
 - `@entities/tools/openevolve.md` — harness optimization experiments (Docker-isolated)
 - `@concepts/five-layer-operator-stack.md` — K78 execution layer (Cursor 3 / Agents Window)
 - `@concepts/codex-side-fork-workflow.md` — Cursor multi-chat as `/side`/`/fork` analog
+- `@entities/tools/codebase-memory-mcp.md` — K134 federation structural code graph MCP
 
 ## Raw Concept
 
@@ -74,7 +78,7 @@ Tunnels: LaunchAgents `com.cemini.stash-tunnel`, `com.cemini.prod-mcp-tunnel`. V
 
 **CCC meta-wiki** (`~/Desktop/projects/Cemini claude code CCC`)
 
-- `.cursor/mcp.json` — project **exa** (`scripts/mcp_exa.sh`) + **fetch**; no lazy-tool
+- `.cursor/mcp.json` — project **exa** (`scripts/mcp_exa.sh`) + **fetch** + **codebase-memory-mcp** (K134 federation sync); no lazy-tool
 - `.cursor/rules/ccc-wiki-workflow.mdc`, `ccc-wiki-pages.mdc`, `ccc-visual-deliverables.mdc`, `ccc-rejected-cursor-tools.mdc`
 - `.cursor/README.md` — MCP reload + global vs project scope
 
