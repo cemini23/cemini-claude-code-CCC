@@ -11,7 +11,17 @@
       "type": "stdio",
       "disabled": false,
       "command": "npx",
-      "args": ["-y", "mcp-fetch-server"],
+      "args": [
+        "-y",
+        "mcp-fetch-server"
+      ],
+      "env": {}
+    },
+    "codebase-memory-mcp": {
+      "type": "stdio",
+      "disabled": false,
+      "command": "/Users/claudiobarone/.local/bin/codebase-memory-mcp",
+      "args": [],
       "env": {}
     }
   }
