@@ -110,9 +110,10 @@ related:
   - sources/arxiv-trust-as-a-service-mcp-2604.07065.md
   - concepts/confidence-aware-tool-orchestration.md
   - sources/arxiv-confidence-aware-tool-orchestration-video-2606.26904.md
+  - concepts/web-scale-scientific-collaboration-infrastructure.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-27
+updated: 2026-06-30
 ---
 
 ## Relations

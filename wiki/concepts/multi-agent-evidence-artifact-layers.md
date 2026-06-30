@@ -11,9 +11,11 @@ related:
   - concepts/cross-wiki-routing.md
   - concepts/subagent-orchestration.md
   - sources/brief-k124-harness-policy-hands-on-2026-06-24.md
+  - concepts/web-scale-scientific-collaboration-infrastructure.md
+  - sources/arxiv-clarus-scientific-collaboration-infrastructure-2606.30246.md
 maturity: draft
 created: 2026-06-24
-updated: 2026-06-25
+updated: 2026-06-30
 ---
 
 ## Relations

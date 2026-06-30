@@ -81,6 +81,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`argusfleet`](entities/tools/argusfleet.md) | draft | Fleet memory eval harness — REFERENCE pending repo (K125) |
 | [`memprobe`](entities/tools/memprobe.md) | draft | Hidden user-state recovery benchmark — REFERENCE CC-BY-4.0 (K128) |
 | [`toolbench-x`](entities/tools/toolbench-x.md) | draft | Tool-environment unreliability benchmark — REFERENCE (K129) |
+| [`clarus`](entities/tools/clarus.md) | draft | Web-scale research collaboration SaaS — REFERENCE (K135) |
 | [`codebase-memory-mcp`](entities/tools/codebase-memory-mcp.md) | validated | Tree-sitter code graph MCP — CONDITIONAL-GO federation deploy (K134) |
 
 ## entities/mcp-servers/
@@ -258,6 +259,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`hidden-user-state-recovery-audit`](concepts/hidden-user-state-recovery-audit.md) | draft | MemProbe recovery vs task success — 2606.24595 (K128) |
 | [`recoverable-tool-reliability-hazards`](concepts/recoverable-tool-reliability-hazards.md) | draft | ToolBench-X five hazards — 2606.25819 (K129) |
 | [`confidence-aware-tool-orchestration`](concepts/confidence-aware-tool-orchestration.md) | draft | Robust-TO tiered evidence — 2606.26904 (K129) |
+| [`web-scale-scientific-collaboration-infrastructure`](concepts/web-scale-scientific-collaboration-infrastructure.md) | draft | Clarus project-agent-resource model — 2606.30246 (K135) |
 | [`tool-eval-license-skepticism-patterns`](concepts/tool-eval-license-skepticism-patterns.md) | draft | K73 license-eval anti-patterns (NO-LICENSE false negatives, BSL parsing) |
 | [`enterprise-auto-mode-telemetry-rollout`](concepts/enterprise-auto-mode-telemetry-rollout.md) | draft | Auto Mode policy rollout via telemetry loops (K73 Post 1) |
 | [`harness-de-bloat-4x4-pattern`](concepts/harness-de-bloat-4x4-pattern.md) | draft | 4-skills/4-agents simplification pattern (K73 Post 2) |
@@ -450,6 +452,8 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`brief-k123-dia-agentic-web-aohp-2026-06-23`](sources/brief-k123-dia-agentic-web-aohp-2026-06-23.md) | validated | K123 prod brief stub |
 | [`eval-github-repos-plan-multi-wiki-2026-06-29`](sources/eval-github-repos-plan-multi-wiki-2026-06-29.md) | validated | K134 multi-wiki eval — CCC routing stub |
 | [`brief-k134-codebase-memory-cursor-federation-prod-2026-06-29`](sources/brief-k134-codebase-memory-cursor-federation-prod-2026-06-29.md) | validated | K134 prod brief stub |
+| [`arxiv-clarus-scientific-collaboration-infrastructure-2606.30246`](sources/arxiv-clarus-scientific-collaboration-infrastructure-2606.30246.md) | draft | Clarus collaboration — read (K135) |
+| [`brief-k135-clarus-research-collaboration-2026-06-30`](sources/brief-k135-clarus-research-collaboration-2026-06-30.md) | validated | K135 prod brief stub |
 | [`brief-k132-local-adoptions-cursor-federation-prod-2026-06-27`](sources/brief-k132-local-adoptions-cursor-federation-prod-2026-06-27.md) | validated | K132 prod brief stub |
 | [`brief-k122-k126-federation-cursor-harness-adoptions-2026-06-25`](sources/brief-k122-k126-federation-cursor-harness-adoptions-2026-06-25.md) | validated | K122–K126 federation batch brief stub |
 

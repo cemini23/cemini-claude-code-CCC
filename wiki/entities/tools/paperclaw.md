@@ -13,9 +13,12 @@ related:
   - concepts/handoff-validity-agent-harness.md
   - concepts/code-as-agent-harness.md
   - sources/brief-k124-harness-memory-research-cluster-2026-06-24.md
+  - entities/tools/clarus.md
+  - sources/arxiv-clarus-scientific-collaboration-infrastructure-2606.30246.md
+  - concepts/web-scale-scientific-collaboration-infrastructure.md
 maturity: draft
 created: 2026-06-24
-updated: 2026-06-25
+updated: 2026-06-30
 ---
 
 ## Relations
@@ -44,7 +47,7 @@ Official implementation of arXiv **2606.22610** — Domain → Idea → Hypothes
 
 **Adoption verdict:** **CONDITIONAL-GO** laptop eval — steal hypothesis-map stoppability, lifecycle memory, citation validation for CCC wiki research workflows. **NO-GO** prod (overlaps XCIENTIST; academic paper domain).
 
-**Compare:** `@entities/tools/xcientist.md` (validation contracts + claim drift), `@entities/tools/deep-scientist.md` (lighter hypothesis loop).
+**Compare:** `@entities/tools/xcientist.md` (validation contracts + claim drift), `@entities/tools/deep-scientist.md` (lighter hypothesis loop). **Clarus contrast (K135):** `@entities/tools/clarus.md` — open collaboration network vs closed pipeline.
 
 ## Snippets
 

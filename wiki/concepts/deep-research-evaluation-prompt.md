@@ -2,7 +2,7 @@
 title: Deep research multi-wiki evaluation prompt — version lineage
 type: concept
 tags: [concept, prompt, gemini-deep-research, tool-evaluation, multi-wiki, cursor, claude-code]
-keywords: [v3, v4, v5, v6, v7, v8, nine surfaces, game-dev-wiki, gambling-wiki, CCC wiki, tier classification, anti-hallucination, cross-wiki routing, license posture, world-cup-bot, wc-ticket-monitor, CeminiDFS, federation-hub]
+keywords: [v3, v4, v5, v6, v7, v8, v9, ten surfaces, game-dev-wiki, gambling-wiki, CCC wiki, tier classification, anti-hallucination, cross-wiki routing, license posture, world-cup-bot, wc-ticket-monitor, CeminiDFS, federation-hub, xsp-killer, poker-arena, tipdrop, castle-sim]
 related:
   - concepts/cursor-ide-workspace.md
   - concepts/cross-wiki-routing.md
@@ -18,7 +18,7 @@ related:
   - entities/tools/awesome-agent-engineering.md
 maturity: validated
 created: 2026-05-21
-updated: 2026-06-24
+updated: 2026-06-28
 ---
 
 ## Relations
@@ -40,7 +40,7 @@ Question: **Where is the canonical copy-paste prompt for bulk URL / repo evaluat
 
 ## Narrative
 
-Bulk tool evaluation uses **nine surfaces** (Cemini financial + seven specialist wikis including **gambling-wiki** and **game-dev-wiki** + **CCC wiki** as harness meta). There is **no** separate Cursor wiki — Cursor operational detail lives in CCC surface 9 as of v7.
+Bulk tool evaluation uses **ten surfaces** (Cemini **active prod bots** — XSP killer, poker arena, PM/Kalshi exploratory — + seven specialist wikis including **gambling-wiki** and **game-dev-wiki** + **CCC wiki** as harness meta + **TipDrop.io** friend project). There is **no** separate Cursor wiki — Cursor operational detail lives in CCC surface 9. Legacy MAPPO/Riskfolio/conductor equity stack is **deprioritized** (v9, 2026-06-28).
 
 ### Version lineage
 
@@ -53,11 +53,20 @@ Bulk tool evaluation uses **nine surfaces** (Cemini financial + seven specialist
 | v5 | 2026-05-30 | 7 + world-cup-bot inventory + inline license API | `prompts/deep-research-multi-wiki-eval-v5-2026-05-30.md` | Frozen after K88; NO-GO registry, `gh` license lookup |
 | v6 | 2026-05-31 | 8 (+ `gambling-wiki` surface 3) | `prompts/deep-research-multi-wiki-eval-v6-2026-05-31.md` | Frozen after K114; sports betting / casino / DFS split |
 | v7 | 2026-06-13 | 9 (+ `game-dev-wiki` surface 8) | `prompts/deep-research-multi-wiki-eval-v7-2026-06-13.md` | Frozen after K120; game-dev surface |
-| **v8** | **2026-06-21** | **9 (same surfaces)** | **`prompts/deep-research-multi-wiki-eval-v8-2026-06-21.md`** | **Current default** — shipped stack: wc-ticket-monitor, CeminiDFS, federation-hub; librarian offline |
+| **v8** | **2026-06-21** | **9 (same surfaces)** | **`prompts/deep-research-multi-wiki-eval-v8-2026-06-21.md`** | Frozen after 2026-06-27 batches; librarian offline |
+| **v9** | **2026-06-28** | **10 (+ TipDrop.io surface 10)** | **`prompts/deep-research-multi-wiki-eval-v9-2026-06-28.md`** | **Current default** — surface 1 = active prod bots (XSP, poker arena); legacy Financial Suite equity deprioritized; TipDrop + overlap fields |
 
 **First v6 production batch:** K90 (2026-05-31, 41 URLs) — `@sources/multi-wiki-tool-eval-v6-k90-2026-05-31.md` (adds gambling-wiki surface).
 
 **First v7 note:** K115 (2026-06-13) — `@game-dev-wiki` bootstrap; no bulk URL batch yet.
+
+### v9 deltas vs v8 [CONFIRMED 2026-06-28]
+
+1. **Surface 1 reframed** — "Cemini financial suite" → **Cemini active prod bots** (XSP killer, dev.fun poker arena, PM/Kalshi exploratory); MAPPO/Riskfolio/conductor equity **legacy deprioritized**.
+2. **Surface 10: TipDrop.io** — David's Discord signals SaaS; compliance-first eval (CFTC/NFA/AI-washing).
+3. **Shipped inventories** — xsp-killer, devfun-poker-arena, castle-sim, tipdrop-workspace-kit added.
+4. **Overlap fields** — `poker-arena overlap`, `xsp-killer overlap`, `tipdrop overlap` in per-URL template.
+5. **Active project map** — co-primary canon: poker-arena, CeminiDFS, xsp-killer, castle-sim.
 
 ### v8 deltas vs v7 [CONFIRMED 2026-06-21]
 
@@ -89,7 +98,7 @@ Bulk tool evaluation uses **nine surfaces** (Cemini financial + seven specialist
 
 ### Runtime workflow
 
-1. Paste **v8** + URL list into **Gemini Deep Research**.
+1. Paste **`prompts/deep-research-multi-wiki-eval-v9-gemini-runtime.md`** + **≤20 URLs** (or a pre-split file under `prompts/batches/`) into **Gemini Deep Research**. Do **not** paste the full v9 canon (~39KB) with large URL lists — Deep Research often blanks before producing a plan.
 2. On return, open **OSINT WORKSPACE** in Cursor; spot-check Adopt licenses via `gh` / Exa.
 3. Ingest per `@osint-wiki/CLAUDE.md` ingest ops; cross-wiki briefs land in sibling `briefs/` folders; gambling-primary stubs → `@gambling-wiki/`; game-dev-primary stubs → `python3 scripts/cross_wiki_route.py --target-wiki game-dev-wiki` from OSINT.
 
@@ -99,7 +108,9 @@ Gemini's `NO LICENSE FOUND` layer was unreliable on 9–22% of URLs in two v3 ba
 
 ## Snippets
 
-- **v8 canonical:** `../prompts/deep-research-multi-wiki-eval-v8-2026-06-21.md` (relative to this wiki root's parent CCC repo)
+- **v9 Gemini runtime (paste this into Deep Research):** `../prompts/deep-research-multi-wiki-eval-v9-gemini-runtime.md`
+- **v9 full canon (Cursor spot-check only):** `../prompts/deep-research-multi-wiki-eval-v9-2026-06-28.md`
+- **v8 frozen:** `../prompts/deep-research-multi-wiki-eval-v8-2026-06-21.md`
 - **v7 frozen:** `../prompts/deep-research-multi-wiki-eval-v7-2026-06-13.md`
 - **v6 frozen:** `../prompts/deep-research-multi-wiki-eval-v6-2026-05-31.md`
 - **v5 frozen:** `../prompts/deep-research-multi-wiki-eval-v5-2026-05-30.md`

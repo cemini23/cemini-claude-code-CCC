@@ -29,9 +29,10 @@ related:
   - sources/arxiv-bioinsight-multi-agent-biomedical-2606.20997.md
   - concepts/neurosymbolic-adaptive-reasoning-workflows.md
   - sources/arxiv-vadaorchestra-neurosymbolic-2606.22485.md
+  - concepts/web-scale-scientific-collaboration-infrastructure.md
 maturity: draft
 created: 2026-06-18
-updated: 2026-06-25
+updated: 2026-06-30
 ---
 
 ## Relations

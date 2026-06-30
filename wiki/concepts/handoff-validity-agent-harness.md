@@ -28,9 +28,11 @@ related:
   - sources/arxiv-esaa-conversational-event-sourced-2606.23752.md
   - entities/tools/esaa-conversational.md
   - concepts/hidden-user-state-recovery-audit.md
+  - concepts/web-scale-scientific-collaboration-infrastructure.md
+  - sources/arxiv-clarus-scientific-collaboration-infrastructure-2606.30246.md
 maturity: draft
 created: 2026-06-19
-updated: 2026-06-26
+updated: 2026-06-30
 ---
 
 ## Relations

@@ -15,9 +15,11 @@ related:
   - sources/arxiv-agent-first-web-redesign-2606.19116.md
   - concepts/agentic-web-infrastructure-gap-taxonomy.md
   - sources/arxiv-agentic-web-infrastructure-agentverse-2606.20570.md
+  - concepts/web-scale-scientific-collaboration-infrastructure.md
+  - entities/tools/clarus.md
 maturity: draft
 created: 2026-06-13
-updated: 2026-06-23
+updated: 2026-06-30
 ---
 
 ## Relations

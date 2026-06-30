@@ -15,9 +15,12 @@ related:
   - concepts/code-as-agent-harness.md
   - entities/tools/paperclaw.md
   - sources/arxiv-paperclaw-autonomous-research-2606.22610.md
+  - entities/tools/clarus.md
+  - concepts/web-scale-scientific-collaboration-infrastructure.md
+  - sources/arxiv-clarus-scientific-collaboration-infrastructure-2606.30246.md
 maturity: draft
 created: 2026-06-22
-updated: 2026-06-24
+updated: 2026-06-30
 ---
 
 ## Relations

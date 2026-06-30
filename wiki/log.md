@@ -4,6 +4,19 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+---
+
+## [2026-06-30] ingest | K135 Clarus research collaboration infrastructure
+
+- **Preingest:** 1 NEW (`2606.30246`)
+- **Source:** Clarus web-scale scientific collaboration
+- **Concept:** `web-scale-scientific-collaboration-infrastructure`
+- **Entity:** `clarus` (SaaS REFERENCE — no public repo)
+- **Brief:** `briefs/2026-06-30_k135-clarus-research-collaboration-prod.md` → scp prod
+- **Phase-0:** `scripts/adopt_k135_phase0.sh`
+- **Pages updated:** `paperclaw`, `xcientist`, `deep-scientist`, `externalized-research-synthesis-validation`, `multi-agent-evidence-artifact-layers`, `internet-of-agentic-ai-ioai`, `index.md`, `sweeps/2026-06-30-daily.md`
+- **Archive:** PDF → egress-fi
+
 ## [2026-06-29] brief audit | K134 + K132 + federation batch wiki stubs
 
 - **Gap:** K134 brief referenced `@wiki/entities/tools/codebase-memory-mcp.md` — page missing on CCC wiki (existed on OSINT only)

@@ -19,9 +19,12 @@ related:
   - concepts/autonomous-coding-agents-enterprise-data.md
   - sources/arxiv-paperclaw-autonomous-research-2606.22610.md
   - entities/tools/paperclaw.md
+  - entities/tools/clarus.md
+  - sources/arxiv-clarus-scientific-collaboration-infrastructure-2606.30246.md
+  - concepts/web-scale-scientific-collaboration-infrastructure.md
 maturity: draft
 created: 2026-06-22
-updated: 2026-06-24
+updated: 2026-06-30
 ---
 
 ## Relations
