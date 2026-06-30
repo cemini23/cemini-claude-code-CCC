@@ -6,6 +6,16 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+---
+
+## [2026-06-30] brief audit | K115–K127 prod brief discoverability stubs
+
+- **Gap:** 11 local `briefs/` on prod (scp batch K115–K127) lacked wiki discoverability stubs; K125 ESAA Windows handoff also missing
+- **Brief stubs (11):** K115–K121 prod; K122 claim-drift; K126 skills; K127 AOHP; K125 ESAA Windows handoff
+- **Backlinks:** `--fix-bidirectional --apply` on 35 target pages (concepts, entities, arXiv sources)
+- **Index:** 11 new rows in `sources/` table
+- **Lint:** exit 0 (pre-existing cross-wiki dangling links unchanged)
+
 ## [2026-06-30] ingest | K135 Clarus research collaboration infrastructure
 
 - **Preingest:** 1 NEW (`2606.30246`)

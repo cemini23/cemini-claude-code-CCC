@@ -9,9 +9,10 @@ related:
   - concepts/runtime-harness-interface-adaptation.md
   - concepts/code-as-agent-harness.md
   - sources/brief-k123-dia-agentic-web-aohp-2026-06-23.md
+  - sources/brief-k127-aohp-secure-agent-interfaces-reference-2026-06-23.md
 maturity: draft
 created: 2026-06-23
-updated: 2026-06-25
+updated: 2026-06-30
 ---
 
 ## Relations

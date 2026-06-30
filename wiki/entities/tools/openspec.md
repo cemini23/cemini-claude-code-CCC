@@ -26,9 +26,10 @@ related:
   - sources/arxiv-specification-to-execution-scientific-workflow-2606.18425.md
   - entities/tools/xcientist.md
   - concepts/dual-representation-agent-memory.md
+  - sources/brief-k118-spec-driven-pegasus-workflow-prod-2026-06-18.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-06-24
+updated: 2026-06-30
 ---
 
 ## Relations

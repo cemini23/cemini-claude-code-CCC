@@ -30,6 +30,7 @@ related:
   - concepts/hidden-user-state-recovery-audit.md
   - concepts/web-scale-scientific-collaboration-infrastructure.md
   - sources/arxiv-clarus-scientific-collaboration-infrastructure-2606.30246.md
+  - sources/brief-k119-agent-first-web-eda-handoff-prod-2026-06-19.md
 maturity: draft
 created: 2026-06-19
 updated: 2026-06-30

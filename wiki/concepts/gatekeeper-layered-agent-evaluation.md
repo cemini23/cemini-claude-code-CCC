@@ -17,9 +17,10 @@ related:
   - concepts/recoverable-tool-reliability-hazards.md
   - concepts/confidence-aware-tool-orchestration.md
   - sources/arxiv-toolbench-x-tool-environment-unreliability-2606.25819.md
+  - sources/brief-k121-tokenpilot-safeclaw-gatekeepers-prod-2026-06-21.md
 maturity: draft
 created: 2026-06-21
-updated: 2026-06-27
+updated: 2026-06-30
 ---
 
 ## Relations

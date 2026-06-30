@@ -14,9 +14,10 @@ related:
   - concepts/subagent-orchestration.md
   - concepts/agent-memory-stack-comparison.md
   - sources/brief-k125-memory-orchestration-cluster-2026-06-25.md
+  - sources/brief-k125-esaa-windows-handoff-2026-06-25.md
 maturity: draft
 created: 2026-06-25
-updated: 2026-06-25
+updated: 2026-06-30
 ---
 
 ## Relations

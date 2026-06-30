@@ -18,9 +18,10 @@ related:
   - concepts/plan-then-execute-topological-orchestration.md
   - concepts/autonomous-coding-agents-enterprise-data.md
   - sources/arxiv-data-intelligence-agents-dia-2606.19319.md
+  - sources/brief-k116-orchrm-harnessx-llm-as-code-prod-2026-06-16.md
 maturity: draft
 created: 2026-06-16
-updated: 2026-06-23
+updated: 2026-06-30
 ---
 
 ## Relations

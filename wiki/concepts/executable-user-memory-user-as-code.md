@@ -14,9 +14,10 @@ related:
   - entities/tools/claude-mem.md
   - concepts/channel-fracture-cross-agent-memory-delivery.md
   - concepts/subagent-orchestration.md
+  - sources/brief-k120-user-as-code-dynamo-prod-2026-06-20.md
 maturity: draft
 created: 2026-06-20
-updated: 2026-06-20
+updated: 2026-06-30
 ---
 
 ## Relations

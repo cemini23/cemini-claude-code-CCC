@@ -9,9 +9,10 @@ related:
   - concepts/claude-plugins-catalog-patterns.md
   - concepts/skill-vetting.md
   - entities/mcp-servers/anthropic-skills.md
+  - sources/brief-k118-spec-driven-pegasus-workflow-prod-2026-06-18.md
 maturity: draft
 created: 2026-06-18
-updated: 2026-06-18
+updated: 2026-06-30
 ---
 
 ## Relations

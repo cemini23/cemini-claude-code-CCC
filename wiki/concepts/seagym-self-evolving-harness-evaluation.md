@@ -11,9 +11,10 @@ related:
   - concepts/harnessx-composable-evolution-foundry.md
   - concepts/agent-completion-verification-gates.md
   - concepts/gatekeeper-layered-agent-evaluation.md
+  - sources/brief-k117-memory-seagym-finacumen-prod-2026-06-17.md
 maturity: draft
 created: 2026-06-17
-updated: 2026-06-21
+updated: 2026-06-30
 ---
 
 ## Relations

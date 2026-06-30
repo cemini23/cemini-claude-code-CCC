@@ -9,9 +9,10 @@ related:
   - concepts/channel-fracture-cross-agent-memory-delivery.md
   - concepts/handoff-validity-agent-harness.md
   - entities/tools/claude-mem.md
+  - sources/brief-k125-esaa-windows-handoff-2026-06-25.md
 maturity: draft
 created: 2026-06-25
-updated: 2026-06-25
+updated: 2026-06-30
 ---
 
 ## Relations

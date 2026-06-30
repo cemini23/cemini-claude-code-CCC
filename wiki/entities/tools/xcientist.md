@@ -18,6 +18,7 @@ related:
   - entities/tools/clarus.md
   - concepts/web-scale-scientific-collaboration-infrastructure.md
   - sources/arxiv-clarus-scientific-collaboration-infrastructure-2606.30246.md
+  - sources/brief-k122-xcientist-claim-drift-prod-2026-06-22.md
 maturity: draft
 created: 2026-06-22
 updated: 2026-06-30

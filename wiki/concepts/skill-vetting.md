@@ -106,9 +106,10 @@ related:
   - concepts/dual-representation-agent-memory.md
   - sources/arxiv-metis-text-code-memory-2606.24151.md
   - entities/patterns/full-prompt-goal-template.md
+  - sources/brief-k126-nvidia-mattpocock-skills-adopt-2026-06-22.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-06-24
+updated: 2026-06-30
 ---
 
 ## Relations

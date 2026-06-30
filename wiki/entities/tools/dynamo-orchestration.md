@@ -8,9 +8,10 @@ related:
   - concepts/plan-then-execute-topological-orchestration.md
   - concepts/skill-vetting.md
   - entities/patterns/scatter-gather.md
+  - sources/brief-k120-user-as-code-dynamo-prod-2026-06-20.md
 maturity: draft
 created: 2026-06-20
-updated: 2026-06-20
+updated: 2026-06-30
 ---
 
 ## Relations

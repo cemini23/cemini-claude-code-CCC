@@ -18,9 +18,10 @@ related:
   - sources/arxiv-tokenpilot-cache-efficient-context-2606.17016.md
   - concepts/self-compacting-adaptive-context.md
   - sources/arxiv-self-compacting-agents-2606.23525.md
+  - sources/brief-k115-context-memory-recursion-prod-2026-06-15.md
 maturity: draft
 created: 2026-06-15
-updated: 2026-06-24
+updated: 2026-06-30
 ---
 
 ## Relations

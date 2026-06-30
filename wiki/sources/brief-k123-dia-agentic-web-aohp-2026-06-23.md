@@ -8,10 +8,11 @@ related:
   - sources/brief-k123-dia-agentic-web-aohp-2026-06-23.md
   - sources/arxiv-aohp-os-level-agent-harness-2606.23449.md
   - sources/brief-k122-k126-federation-cursor-harness-adoptions-2026-06-25.md
+  - sources/brief-k127-aohp-secure-agent-interfaces-reference-2026-06-23.md
 maturity: validated
 read_status: deep-read
 created: 2026-06-23
-updated: 2026-06-29
+updated: 2026-06-30
 ---
 
 ## Relations

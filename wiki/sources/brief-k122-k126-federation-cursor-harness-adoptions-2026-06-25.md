@@ -11,10 +11,12 @@ related:
   - sources/brief-k124-harness-memory-research-cluster-2026-06-24.md
   - sources/brief-k123-dia-agentic-web-aohp-2026-06-23.md
   - sources/brief-k132-local-adoptions-cursor-federation-prod-2026-06-27.md
+  - sources/brief-k122-xcientist-claim-drift-prod-2026-06-22.md
+  - sources/brief-k126-nvidia-mattpocock-skills-adopt-2026-06-22.md
 maturity: validated
 read_status: deep-read
 created: 2026-06-25
-updated: 2026-06-29
+updated: 2026-06-30
 ---
 
 ## Relations

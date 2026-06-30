@@ -79,9 +79,10 @@ related:
   - sources/arxiv-agent-harness-survey-2606.20683.md
   - sources/arxiv-paperclaw-autonomous-research-2606.22610.md
   - entities/tools/paperclaw.md
+  - sources/brief-k116-orchrm-harnessx-llm-as-code-prod-2026-06-16.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-06-24
+updated: 2026-06-30
 cross-wiki-source: "@osint-wiki/sources/arxiv-code-as-agent-harness-survey-2605.18747.md"
 ---
 

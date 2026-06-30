@@ -13,9 +13,10 @@ related:
   - concepts/agent-harness-operational-definition.md
   - concepts/seagym-self-evolving-harness-evaluation.md
   - sources/arxiv-seagym-self-evolving-harness-eval-2606.17546.md
+  - sources/brief-k116-orchrm-harnessx-llm-as-code-prod-2026-06-16.md
 maturity: draft
 created: 2026-06-16
-updated: 2026-06-17
+updated: 2026-06-30
 ---
 
 ## Relations

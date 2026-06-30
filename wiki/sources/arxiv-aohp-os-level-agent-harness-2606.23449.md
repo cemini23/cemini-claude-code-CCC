@@ -10,10 +10,11 @@ related:
   - concepts/code-as-agent-harness.md
   - concepts/system-scaling-harness-agentic-ai.md
   - sources/brief-k123-dia-agentic-web-aohp-2026-06-23.md
+  - sources/brief-k127-aohp-secure-agent-interfaces-reference-2026-06-23.md
 maturity: draft
 read_status: read
 created: 2026-06-23
-updated: 2026-06-25
+updated: 2026-06-30
 ---
 
 ## Relations

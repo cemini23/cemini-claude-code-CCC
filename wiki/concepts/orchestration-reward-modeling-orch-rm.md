@@ -10,9 +10,10 @@ related:
   - concepts/agent-rubrics-self-correction.md
   - concepts/agent-completion-verification-gates.md
   - concepts/retrospective-harness-optimization-rho.md
+  - sources/brief-k116-orchrm-harnessx-llm-as-code-prod-2026-06-16.md
 maturity: draft
 created: 2026-06-16
-updated: 2026-06-16
+updated: 2026-06-30
 ---
 
 ## Relations

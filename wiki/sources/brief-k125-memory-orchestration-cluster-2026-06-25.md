@@ -10,10 +10,11 @@ related:
   - sources/arxiv-trust-as-a-service-mcp-2604.07065.md
   - sources/arxiv-esaa-conversational-event-sourced-2606.23752.md
   - sources/arxiv-governed-shared-memory-2606.24535.md
+  - sources/brief-k125-esaa-windows-handoff-2026-06-25.md
 maturity: validated
 read_status: deep-read
 created: 2026-06-25
-updated: 2026-06-25
+updated: 2026-06-30
 ---
 
 ## Relations

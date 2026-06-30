@@ -12,9 +12,10 @@ related:
   - concepts/tool-response-context-pruning-summarization.md
   - entities/tools/lazy-tool.md
   - concepts/storage-budgeted-agent-memory-compression.md
+  - sources/brief-k121-tokenpilot-safeclaw-gatekeepers-prod-2026-06-21.md
 maturity: draft
 created: 2026-06-21
-updated: 2026-06-21
+updated: 2026-06-30
 ---
 
 ## Relations

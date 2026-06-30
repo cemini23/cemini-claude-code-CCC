@@ -30,6 +30,7 @@ related:
   - concepts/neurosymbolic-adaptive-reasoning-workflows.md
   - sources/arxiv-vadaorchestra-neurosymbolic-2606.22485.md
   - concepts/web-scale-scientific-collaboration-infrastructure.md
+  - sources/brief-k118-spec-driven-pegasus-workflow-prod-2026-06-18.md
 maturity: draft
 created: 2026-06-18
 updated: 2026-06-30

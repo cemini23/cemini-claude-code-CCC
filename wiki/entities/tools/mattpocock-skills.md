@@ -10,9 +10,10 @@ related:
   - entities/skills/grill-with-docs.md
   - sources/eval-github-repos-plan-multi-wiki-2026-06-29.md
   - entities/tools/codebase-memory-mcp.md
+  - sources/brief-k126-nvidia-mattpocock-skills-adopt-2026-06-22.md
 maturity: draft
 created: 2026-06-22
-updated: 2026-06-29
+updated: 2026-06-30
 cross-wiki-source: "@osint-wiki/entities/tools/mattpocock-skills.md"
 ---
 

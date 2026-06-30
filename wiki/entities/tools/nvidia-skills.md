@@ -7,9 +7,10 @@ related:
   - "@osint-wiki/entities/tools/nvidia-skills.md"
   - "@osint-wiki/entities/tools/nvidia-skillspector.md"
   - concepts/claude-code-skills-md-institutional-memory.md
+  - sources/brief-k126-nvidia-mattpocock-skills-adopt-2026-06-22.md
 maturity: draft
 created: 2026-06-22
-updated: 2026-06-22
+updated: 2026-06-30
 cross-wiki-source: "@osint-wiki/entities/tools/nvidia-skills.md"
 ---
 

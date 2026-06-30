@@ -10,9 +10,10 @@ related:
   - concepts/code-as-agent-harness.md
   - entities/patterns/scatter-gather.md
   - concepts/claude-harness-dynamic-workflows-k88.md
+  - sources/brief-k115-context-memory-recursion-prod-2026-06-15.md
 maturity: draft
 created: 2026-06-15
-updated: 2026-06-15
+updated: 2026-06-30
 ---
 
 ## Relations

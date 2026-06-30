@@ -38,6 +38,8 @@ related:
   - sources/arxiv-trust-as-a-service-mcp-2604.07065.md
   - meta/ccc-cross-wiki-handoff-briefs.md
   - concepts/web-scale-scientific-collaboration-infrastructure.md
+  - sources/brief-k117-memory-seagym-finacumen-prod-2026-06-17.md
+  - sources/brief-k119-agent-first-web-eda-handoff-prod-2026-06-19.md
 maturity: validated
 created: 2026-05-13
 updated: 2026-06-30

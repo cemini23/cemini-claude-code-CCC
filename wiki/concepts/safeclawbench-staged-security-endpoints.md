@@ -10,9 +10,10 @@ related:
   - concepts/skill-vetting.md
   - concepts/etclovg-harness-layers.md
   - cybersecurity-wiki/concepts/safeclawbench-staged-agent-security.md
+  - sources/brief-k121-tokenpilot-safeclaw-gatekeepers-prod-2026-06-21.md
 maturity: draft
 created: 2026-06-21
-updated: 2026-06-21
+updated: 2026-06-30
 ---
 
 ## Relations
