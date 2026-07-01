@@ -13,9 +13,11 @@ related:
   - entities/tools/awesome-agent-engineering.md
   - entities/patterns/full-prompt-goal-template.md
   - sources/brief-k124-harness-memory-research-cluster-2026-06-24.md
+  - concepts/agentic-orchestration-options-abpm.md
+  - sources/arxiv-agentic-orchestration-options-abpm-2606.31518.md
 maturity: draft
 created: 2026-06-24
-updated: 2026-06-25
+updated: 2026-07-01
 ---
 
 ## Relations
@@ -50,6 +52,8 @@ arXiv **2606.20683** decomposes the execution harness into **six coupled respons
 | Control | Lifecycle & Orchestration |
 | Verification/governance | Verification + Governance |
 | (cross-cutting) | Observability spans all |
+
+**K136:** ABPM **OO1–OO4** maps Control + Observability trade-offs — OO1 single-agent MCP vs OO3/OO4 external process frame with framed subagents; see `@concepts/agentic-orchestration-options-abpm.md`.
 
 Use the six-responsibility checklist for **survey-aligned** discussions; use ETCLOVG for **failure localization** (`## Dead Ends`, HarnessFix records).
 

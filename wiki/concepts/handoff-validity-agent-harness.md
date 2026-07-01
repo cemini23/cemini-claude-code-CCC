@@ -29,6 +29,8 @@ related:
   - entities/tools/esaa-conversational.md
   - concepts/hidden-user-state-recovery-audit.md
   - concepts/web-scale-scientific-collaboration-infrastructure.md
+  - concepts/agentic-orchestration-options-abpm.md
+  - sources/arxiv-agentic-orchestration-options-abpm-2606.31518.md
   - sources/arxiv-clarus-scientific-collaboration-infrastructure-2606.30246.md
   - sources/brief-k119-agent-first-web-eda-handoff-prod-2026-06-19.md
 maturity: draft
@@ -81,6 +83,7 @@ When an agent passes work to another agent, tool, or session — what makes the 
 2. Prove handoff at **receiver** (inverse verification) — see channel fracture.
 3. Repeat failures → `@concepts/failed-trajectory-harness-repair.md`, not more silent retries.
 4. **Claim drift** (K122) — handoff summary must preserve mechanism structure, not just status "done"; see `@concepts/claim-drift-automated-research.md`.
+5. **OO selection** (K136) — regulated or multi-party flows need **OO3/OO4** external frames + deterministic hooks, not OO1 handoff-in-chat alone; see `@concepts/agentic-orchestration-options-abpm.md`.
 
 ## Snippets
 

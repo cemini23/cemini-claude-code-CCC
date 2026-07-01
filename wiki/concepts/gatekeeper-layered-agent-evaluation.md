@@ -18,9 +18,12 @@ related:
   - concepts/confidence-aware-tool-orchestration.md
   - sources/arxiv-toolbench-x-tool-environment-unreliability-2606.25819.md
   - sources/brief-k121-tokenpilot-safeclaw-gatekeepers-prod-2026-06-21.md
+  - concepts/agentic-orchestration-options-abpm.md
+  - sources/arxiv-agentic-orchestration-options-abpm-2606.31518.md
+  - concepts/orchestration-option-quantitative-metrics.md
 maturity: draft
 created: 2026-06-21
-updated: 2026-06-30
+updated: 2026-07-01
 ---
 
 ## Relations
@@ -48,6 +51,8 @@ How do we evaluate agent outputs when failures are structured and the harness it
 **Harness-in-the-loop:** eval platform silent fallback templates attributed failures to models — applies to CCC ingest evals and subagent return verification.
 
 **K122 claim-boundary audit:** XCIENTIST report-writing audits source fidelity before claims ship — complementary layer to gatekeeper screening; see `@concepts/claim-drift-automated-research.md`.
+
+**K136 regulated flows:** Blood-donation case study — deterministic parallel services enforce hard stops (consent abort); gatekeeper + process frame (**OO4**) before LLM Q&A subtasks. See `@concepts/agentic-orchestration-options-abpm.md`.
 
 **Verdict:** **REFERENCE** — adopt gatekeeper + consistency layers in eval briefs; no quantum stack install.
 

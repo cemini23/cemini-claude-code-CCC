@@ -111,9 +111,11 @@ related:
   - concepts/confidence-aware-tool-orchestration.md
   - sources/arxiv-confidence-aware-tool-orchestration-video-2606.26904.md
   - concepts/web-scale-scientific-collaboration-infrastructure.md
+  - concepts/agentic-orchestration-options-abpm.md
+  - sources/arxiv-agentic-orchestration-options-abpm-2606.31518.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-30
+updated: 2026-07-01
 ---
 
 ## Relations
@@ -172,6 +174,8 @@ Claude Code's `Agent` tool spawns an isolated subagent that gets its own context
 User-authored agents inherit a similar surface unless explicitly restricted.
 
 ### When to dispatch
+
+**K136 OO mapping:** Single-session MCP work is **OO1** (process-agnostic agentic orchestration). Parallel Task fan-out with OpenSpec AC + hooks is **OO3** (orchestration of process-agnostic agents). Add explicit frame constraints to subagent prompts for **OO4**. See `@concepts/agentic-orchestration-options-abpm.md`.
 
 The dispatch decision reduces to: **does the subagent save the parent more tokens than its own setup costs?**
 

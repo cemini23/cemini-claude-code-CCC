@@ -33,9 +33,11 @@ related:
   - sources/arxiv-governed-shared-memory-2606.24535.md
   - concepts/recoverable-tool-reliability-hazards.md
   - sources/arxiv-toolbench-x-tool-environment-unreliability-2606.25819.md
+  - concepts/agentic-orchestration-options-abpm.md
+  - sources/arxiv-agentic-orchestration-options-abpm-2606.31518.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-06-27
+updated: 2026-07-01
 ---
 
 ## Relations
@@ -57,8 +59,8 @@ Seven-layer harness taxonomy from recent harness-engineering literature, formali
 | **Execution** (sandbox) | Safe, isolated, reproducible action environments | `@concepts/agent-vm-sandboxing.md`, Tier-2 scope; prod EMS boundaries |
 | **Tool Interface** | Tool discovery, schemas, docs, validation, error feedback | MCP manifests, `@entities/tools/lazy-tool.md`, SKILL.md tool lists |
 | **Context & Memory** | What the model sees each step: window, summaries, retrieval, persistent memory | `hot.md`, `@entities/tools/claude-mem.md`, stash, progressive disclosure |
-| **Lifecycle & Orchestration** | Think-act-observe, retries, task state, multi-agent coordination, termination | Subagents, Stop hooks, `/goal`, conductor fan-out |
-| **Observability** | Traces, tool calls, errors, cost — enough to diagnose | `wiki/log.md`, claude-mem, defenseclaw discovery |
+| **Lifecycle & Orchestration** | Think-act-observe, retries, task state, multi-agent coordination, termination | Subagents, Stop hooks, `/goal`, conductor fan-out; **OO3/OO4** process frames (K136) |
+| **Observability** | Traces, tool calls, errors, cost — enough to diagnose | `wiki/log.md`, claude-mem, defenseclaw discovery; **engine logs over agent self-log** (K136) |
 | **Verification & Evaluation** | Readiness checks, intermediate validation, final eval, regression | `@concepts/skill-vetting.md`, OpenSpec criteria, `wiki_lint.py`, Glasswing review; **ToolBench-X** hazard recovery eval (K129) |
 | **Governance & Security** | Permissions, approvals, audit trails, policy enforcement | Tier 1/2 model, defenseclaw scanners, SeClaw trajectory eval |
 

@@ -13,9 +13,11 @@ related:
   - concepts/handoff-validity-agent-harness.md
   - concepts/tool-response-context-pruning-summarization.md
   - concepts/subagent-orchestration.md
+  - concepts/agentic-orchestration-options-abpm.md
+  - sources/arxiv-agentic-orchestration-options-abpm-2606.31518.md
 maturity: draft
 created: 2026-06-20
-updated: 2026-06-20
+updated: 2026-07-01
 ---
 
 ## Relations

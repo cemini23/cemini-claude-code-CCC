@@ -8,6 +8,19 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+---
+
+## [2026-07-01] ingest | K136 Agentic orchestration options ABPM
+
+- **Preingest:** 1 NEW (`2606.31518`)
+- **Source:** TUM ABPM OO1–OO4 classification + light-sensing eval
+- **Concepts (2):** `agentic-orchestration-options-abpm`, `orchestration-option-quantitative-metrics`
+- **Entity (1):** `simple-agentic-scenario` (no LICENSE — REFERENCE)
+- **Brief:** `briefs/2026-07-01_k136-agentic-orchestration-options-abpm-prod.md` → scp prod
+- **Phase-0:** `scripts/adopt_k136_phase0.sh`
+- **Pages updated:** `subagent-orchestration`, `etclovg-harness-layers`, `model-harness-six-responsibilities`, `handoff-validity`, `plan-then-execute`, `scatter-gather`, `gatekeeper-layered-agent-evaluation`, `index.md`, `sweeps/2026-07-01-daily.md`
+- **Archive:** PDF → egress-fi
+
 ## [2026-06-30] brief audit | K115–K127 prod brief discoverability stubs
 
 - **Gap:** 11 local `briefs/` on prod (scp batch K115–K127) lacked wiki discoverability stubs; K125 ESAA Windows handoff also missing
