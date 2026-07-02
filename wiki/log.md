@@ -10,6 +10,19 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+---
+
+## [2026-07-02] ingest | K137 AutoMem metamemory cognitive skill
+
+- **Preingest:** 1 NEW (`2607.01224`)
+- **Source:** Stanford AutoMem — scaffold + proficiency meta-LLM loops
+- **Concept:** `metamemory-scaffold-proficiency-training`
+- **Entity:** `automem-stanford-cognitive-skill` (no LICENSE — REFERENCE; not verygoodplugins/automem)
+- **Brief:** `briefs/2026-07-02_k137-automem-metamemory-cognitive-skill-prod.md` → scp prod
+- **Phase-0:** `scripts/adopt_k137_phase0.sh`
+- **Pages updated:** `agent-memory-stack-comparison`, `agentic-memory-cross-scenario-generality`, `failed-trajectory-harness-repair`, `long-thread-context-decay`, `claude-mem`, `index.md`, `sweeps/2026-07-02-daily.md`
+- **Archive:** PDF → egress-fi
+
 ## [2026-07-01] ingest | K136 Agentic orchestration options ABPM
 
 - **Preingest:** 1 NEW (`2606.31518`)

@@ -52,9 +52,11 @@ related:
   - concepts/hidden-user-state-recovery-audit.md
   - entities/tools/memprobe.md
   - sources/arxiv-memprobe-hidden-user-state-recovery-2606.24595.md
+  - concepts/metamemory-scaffold-proficiency-training.md
+  - sources/arxiv-automem-metamemory-cognitive-skill-2607.01224.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-26
+updated: 2026-07-02
 ---
 
 ## Relations

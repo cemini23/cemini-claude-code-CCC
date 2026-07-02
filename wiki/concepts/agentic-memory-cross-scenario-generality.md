@@ -12,9 +12,12 @@ related:
   - "@osint-wiki/concepts/agent-memory-cross-scenario-generality.md"
   - "@osint-wiki/concepts/interaction-native-knowledge-harness.md"
   - "@osint-wiki/concepts/agent-memory-critique.md"
+  - concepts/metamemory-scaffold-proficiency-training.md
+  - sources/arxiv-automem-metamemory-cognitive-skill-2607.01224.md
+  - entities/tools/automem-stanford-cognitive-skill.md
 maturity: draft
 created: 2026-06-05
-updated: 2026-06-05
+updated: 2026-07-02
 cross-wiki-source: "@osint-wiki/concepts/agent-memory-cross-scenario-generality.md"
 ---
 
@@ -29,6 +32,8 @@ cross-wiki-source: "@osint-wiki/concepts/agent-memory-cross-scenario-generality.
 ## Raw Concept
 
 arXiv **2606.04315** evaluates eight memory systems + a search agent harness across **five scenarios** (single-turn QA, multi-session chat, agentic-trajectory QA, memory stress tests, long-horizon tasks). Finding: scenario-tuned passive stores underperform; **agent-controlled memory via tool calls** (AutoMEM harness) ranks best on cross-scenario generality [TENTATIVE — paper claims].
+
+**Name collision (K137):** arXiv **2607.01224** also uses "AutoMem" (Stanford) — metamemory scaffold/proficiency training on BALROG games. Different paper, repo, and claims. See `@concepts/metamemory-scaffold-proficiency-training.md`.
 
 ## Narrative
 

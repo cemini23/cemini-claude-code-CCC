@@ -16,9 +16,10 @@ related:
   - briefs/2026-06-26_ccc-handoff-sharelock-toxicity-ingest.md
   - briefs/2026-06-27_ccc-handoff-aohp-toolbench-craas-ingest.md
   - briefs/2026-06-03_k97-ccc-agent-harness-from-osint.md
+  - briefs/2026-07-01_ccc-handoff-ai-infra-guard-technical-report-ingest.md
 maturity: validated
 created: 2026-06-29
-updated: 2026-06-29
+updated: 2026-07-02
 ---
 
 ## Relations

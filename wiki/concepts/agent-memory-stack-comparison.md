@@ -36,9 +36,11 @@ related:
   - concepts/hidden-user-state-recovery-audit.md
   - sources/arxiv-memprobe-hidden-user-state-recovery-2606.24595.md
   - entities/tools/memprobe.md
+  - concepts/metamemory-scaffold-proficiency-training.md
+  - sources/arxiv-automem-metamemory-cognitive-skill-2607.01224.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-06-26
+updated: 2026-07-02
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-25-2026-05-27.md"
 ---
 
@@ -67,6 +69,7 @@ K72 Post 1 — marketing comparison of **mem0**, **OpenClaw**, and **Hermes** pe
 | Vector user memory API | mem0 | **Evaluate** — overlap risk with claude-mem |
 
 | Recovery audit benchmark | MemProbe | **REFERENCE** — hidden user-state recovery; CC-BY-4.0 (K128) |
+| Metamemory training | AutoMem (2607.01224) | **REFERENCE** — scaffold/proficiency loops; not verygoodplugins/automem (K137) |
 | Fleet governed store | MemClaw | **REFERENCE** — scope/provenance; cybersec checklist K125 |
 | Event-sourced handoff | ESAA-Conversational | **CONDITIONAL-GO** Windows only — receiver-validated replay |
 

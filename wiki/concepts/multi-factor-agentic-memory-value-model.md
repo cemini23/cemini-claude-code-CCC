@@ -16,9 +16,10 @@ related:
   - sources/arxiv-memprobe-hidden-user-state-recovery-2606.24595.md
   - entities/tools/memprobe.md
   - sources/brief-k115-context-memory-recursion-prod-2026-06-15.md
+  - concepts/metamemory-scaffold-proficiency-training.md
 maturity: draft
 created: 2026-06-15
-updated: 2026-06-30
+updated: 2026-07-02
 ---
 
 ## Relations

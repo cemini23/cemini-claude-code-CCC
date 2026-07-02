@@ -35,9 +35,11 @@ related:
   - concepts/externalized-research-synthesis-validation.md
   - sources/arxiv-xcientist-research-harness-claim-drift-2606.18874.md
   - concepts/recoverable-tool-reliability-hazards.md
+  - concepts/metamemory-scaffold-proficiency-training.md
+  - sources/arxiv-automem-metamemory-cognitive-skill-2607.01224.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-06-27
+updated: 2026-07-02
 ---
 
 ## Relations
@@ -93,7 +95,7 @@ Each `@concepts/etclovg-harness-layers.md` row maps to **typical flaws** and **c
 | Scoped repair specs | `@entities/tools/openspec.md` acceptance criteria + `@concepts/claude-premortem-skill.md` before harness edits |
 | Regression-bound acceptance | `wiki_lint.py` + `preingest_check.py` after ingest; prod `vet_skill.py` before skill promotion |
 | Observability gaps | Stop-hook logging; claude-mem; defenseclaw `skill-scanner` (step 3b on `@concepts/skill-vetting.md`) |
-| Verification gaps | SeClaw-style trajectory rubric when benchmark ships; Glasswing reviewer subagent |
+| Meta-LLM scaffold revision | `@concepts/metamemory-scaffold-proficiency-training.md` — trajectory review → revise hot.md/claude-mem schema (K137) |
 
 ### vs related patterns
 

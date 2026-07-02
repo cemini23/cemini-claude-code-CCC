@@ -16,9 +16,11 @@ related:
   - concepts/llm-as-orchestrator-failure-modes.md
   - concepts/self-compacting-adaptive-context.md
   - sources/arxiv-self-compacting-agents-2606.23525.md
+  - concepts/metamemory-scaffold-proficiency-training.md
+  - sources/arxiv-automem-metamemory-cognitive-skill-2607.01224.md
 maturity: draft
 created: 2026-06-07
-updated: 2026-06-24
+updated: 2026-07-02
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-19-2026-06-07.md"
 ---
 
