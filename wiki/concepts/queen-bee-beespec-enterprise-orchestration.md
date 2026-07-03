@@ -12,9 +12,10 @@ related:
   - concepts/mcp-server-catalog-curation.md
   - concepts/mcp-context-optimization.md
   - concepts/enterprise-mcp-adoption-practice.md
+  - sources/brief-k109-bayesian-agent-harness-cluster-prod-2026-06-10.md
 maturity: draft
 created: 2026-06-10
-updated: 2026-06-12
+updated: 2026-07-03
 ---
 
 ## Relations

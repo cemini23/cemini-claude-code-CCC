@@ -17,9 +17,13 @@ related:
   - briefs/2026-06-27_ccc-handoff-aohp-toolbench-craas-ingest.md
   - briefs/2026-06-03_k97-ccc-agent-harness-from-osint.md
   - briefs/2026-07-01_ccc-handoff-ai-infra-guard-technical-report-ingest.md
+  - briefs/2026-07-02_ccc-handoff-robust-to-confidence-orchestration-ingest.md
+  - briefs/2026-07-03_ccc-handoff-cognitive-heuristics-vuln-detection-ingest.md
+  - concepts/confidence-aware-tool-orchestration.md
+  - concepts/cognitive-heuristics-llm-vuln-detection.md
 maturity: validated
 created: 2026-06-29
-updated: 2026-07-02
+updated: 2026-07-03
 ---
 
 ## Relations
@@ -45,5 +49,8 @@ Catalog of **durable handoff briefs** staged under `wiki/briefs/` (distinct from
 | `2026-06-25_agentic-red-team-secure-architecture-handoff.md` | Cybersec | Red-team architecture |
 | `2026-06-26_ccc-handoff-sharelock-toxicity-ingest.md` | Cybersec | Sharelock toxicity |
 | `2026-06-27_ccc-handoff-aohp-toolbench-craas-ingest.md` | Cybersec | AOHP + ToolBench-X + CraaS |
+| `2026-07-01_ccc-handoff-ai-infra-guard-technical-report-ingest.md` | Cybersec | AI-Infra-Guard layer-paradigm red team |
+| `2026-07-02_ccc-handoff-robust-to-confidence-orchestration-ingest.md` | Cybersec | Robust-TO confidence tool routing |
+| `2026-07-03_ccc-handoff-cognitive-heuristics-vuln-detection-ingest.md` | Cybersec | Cognitive bias in LLM vuln scanners |
 
-Prod deploy briefs (K115–K134) live in gitignored `briefs/` with discoverability stubs under `wiki/sources/brief-k*.md`.
+Prod deploy briefs (K109–K137) live in gitignored `/briefs/` with discoverability stubs under `wiki/sources/brief-k*.md`.

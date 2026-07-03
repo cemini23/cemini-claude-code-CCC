@@ -12,9 +12,11 @@ related:
   - entities/tools/conductor-mcp.md
   - entities/tools/lazy-tool.md
   - sources/brief-k129-tool-reliability-orchestration-2026-06-27.md
+  - briefs/2026-07-02_ccc-handoff-robust-to-confidence-orchestration-ingest.md
+  - meta/ccc-cross-wiki-handoff-briefs.md
 maturity: draft
 created: 2026-06-27
-updated: 2026-06-27
+updated: 2026-07-03
 cross-wiki-primary: "@image-gen-wiki/concepts/confidence-aware-tool-orchestration.md"
 ---
 

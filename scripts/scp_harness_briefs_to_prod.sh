@@ -9,6 +9,7 @@ REMOTE="cemini-prod:/opt/cemini/briefs"
 FORCE="${FORCE:-0}"
 
 BRIEFS=(
+  "2026-06-10_k109-bayesian-agent-harness-cluster-prod.md"
   "2026-06-15_k115-context-memory-recursion-prod.md"
   "2026-06-16_k116-orchrm-harnessx-llm-as-code-prod.md"
   "2026-06-17_k117-memory-seagym-finacumen-prod.md"

@@ -9,9 +9,10 @@ related:
   - concepts/continual-harness-online-self-improvement.md
   - concepts/skill-vetting.md
   - entities/tools/claude-code.md
+  - sources/brief-k109-bayesian-agent-harness-cluster-prod-2026-06-10.md
 maturity: draft
 created: 2026-06-10
-updated: 2026-06-10
+updated: 2026-07-03
 ---
 
 ## Relations

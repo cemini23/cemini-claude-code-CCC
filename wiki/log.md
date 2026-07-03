@@ -12,6 +12,16 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+---
+
+## [2026-07-03] brief audit | K109 stub + cross-wiki handoffs tracked
+
+- **Gitignore fix:** `/briefs/` only — `wiki/briefs/` cross-wiki handoffs now versioned
+- **Brief stub (1):** K109 Bayesian-Agent harness cluster prod
+- **Concept stub (1):** `cognitive-heuristics-llm-vuln-detection` — cybersec routing (2606.30587)
+- **Handoffs tracked (13):** full `wiki/briefs/` catalog incl. Jul 1–3 cybersec ingests
+- **Updated:** `ccc-cross-wiki-handoff-briefs`, `confidence-aware-tool-orchestration`, `index.md`
+
 ## [2026-07-02] ingest | K137 AutoMem metamemory cognitive skill
 
 - **Preingest:** 1 NEW (`2607.01224`)

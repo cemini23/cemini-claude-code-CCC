@@ -16,9 +16,10 @@ related:
   - concepts/harnessx-composable-evolution-foundry.md
   - concepts/model-harness-six-responsibilities.md
   - sources/arxiv-agent-harness-survey-2606.20683.md
+  - sources/brief-k109-bayesian-agent-harness-cluster-prod-2026-06-10.md
 maturity: draft
 created: 2026-06-10
-updated: 2026-06-24
+updated: 2026-07-03
 ---
 
 ## Relations

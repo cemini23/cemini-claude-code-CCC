@@ -107,9 +107,10 @@ related:
   - sources/arxiv-metis-text-code-memory-2606.24151.md
   - entities/patterns/full-prompt-goal-template.md
   - sources/brief-k126-nvidia-mattpocock-skills-adopt-2026-06-22.md
+  - concepts/cognitive-heuristics-llm-vuln-detection.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-06-30
+updated: 2026-07-03
 ---
 
 ## Relations

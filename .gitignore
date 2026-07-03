@@ -4,8 +4,8 @@ hot.md
 .env
 .env.local
 
-# Local-only data
-briefs/
+# Local-only data (root prod briefs only — wiki/briefs/ cross-wiki handoffs are tracked)
+/briefs/
 raw-sources/
 research to be indexed/
 

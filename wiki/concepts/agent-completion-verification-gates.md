@@ -49,9 +49,10 @@ related:
   - concepts/recoverable-tool-reliability-hazards.md
   - sources/arxiv-toolbench-x-tool-environment-unreliability-2606.25819.md
   - concepts/orchestration-option-quantitative-metrics.md
+  - concepts/cognitive-heuristics-llm-vuln-detection.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-07-01
+updated: 2026-07-03
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-25-2026-05-27.md"
 ---
 

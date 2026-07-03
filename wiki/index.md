@@ -265,6 +265,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`agentic-orchestration-options-abpm`](concepts/agentic-orchestration-options-abpm.md) | draft | OO1–OO4 ABPM orchestration taxonomy — 2606.31518 (K136) |
 | [`orchestration-option-quantitative-metrics`](concepts/orchestration-option-quantitative-metrics.md) | draft | M/ABC/F1 traceability metrics — 2606.31518 (K136) |
 | [`metamemory-scaffold-proficiency-training`](concepts/metamemory-scaffold-proficiency-training.md) | draft | AutoMem metamemory loops — 2607.01224 (K137) |
+| [`cognitive-heuristics-llm-vuln-detection`](concepts/cognitive-heuristics-llm-vuln-detection.md) | draft | Cognitive bias in LLM scanners — cybersec stub (2606.30587) |
 | [`tool-eval-license-skepticism-patterns`](concepts/tool-eval-license-skepticism-patterns.md) | draft | K73 license-eval anti-patterns (NO-LICENSE false negatives, BSL parsing) |
 | [`enterprise-auto-mode-telemetry-rollout`](concepts/enterprise-auto-mode-telemetry-rollout.md) | draft | Auto Mode policy rollout via telemetry loops (K73 Post 1) |
 | [`harness-de-bloat-4x4-pattern`](concepts/harness-de-bloat-4x4-pattern.md) | draft | 4-skills/4-agents simplification pattern (K73 Post 2) |
@@ -474,6 +475,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`brief-k136-agentic-orchestration-options-abpm-2026-07-01`](sources/brief-k136-agentic-orchestration-options-abpm-2026-07-01.md) | validated | K136 prod brief stub |
 | [`arxiv-automem-metamemory-cognitive-skill-2607.01224`](sources/arxiv-automem-metamemory-cognitive-skill-2607.01224.md) | draft | AutoMem metamemory — read (K137) |
 | [`brief-k137-automem-metamemory-cognitive-skill-2026-07-02`](sources/brief-k137-automem-metamemory-cognitive-skill-2026-07-02.md) | validated | K137 prod brief stub |
+| [`brief-k109-bayesian-agent-harness-cluster-prod-2026-06-10`](sources/brief-k109-bayesian-agent-harness-cluster-prod-2026-06-10.md) | validated | K109 prod brief stub |
 | [`brief-k132-local-adoptions-cursor-federation-prod-2026-06-27`](sources/brief-k132-local-adoptions-cursor-federation-prod-2026-06-27.md) | validated | K132 prod brief stub |
 | [`brief-k122-k126-federation-cursor-harness-adoptions-2026-06-25`](sources/brief-k122-k126-federation-cursor-harness-adoptions-2026-06-25.md) | validated | K122–K126 federation batch brief stub |
 
