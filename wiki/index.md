@@ -7,6 +7,10 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | Page | Maturity | Summary |
 |------|----------|---------|
 | [`claude-code`](entities/tools/claude-code.md) | core | The CLI harness — modes, slash commands, skills, hooks, MCP, agents, surrounding tool stack |
+| [`portable-llm-wiki`](entities/tools/portable-llm-wiki.md) | draft | OKF/MCP wiki protocol and lint UI — STEAL-FROM (K142) |
+| [`zero`](entities/tools/zero.md) | draft | Local Go coding harness — ADOPT/TRIAL (K142) |
+| [`caveman`](entities/tools/caveman.md) | draft | Opt-in terse-output token compression skill — ADOPT/TRIAL (K142) |
+| [`astryx`](entities/tools/astryx.md) | draft | Agent-ready React design-system MCP/CLI pattern — STEAL-FROM (K142) |
 | [`claude-mem`](entities/tools/claude-mem.md) | validated | Passive observation memory; second layer beside `hot.md` |
 | [`exa-mcp`](entities/tools/exa-mcp.md) | core | Claude-Code-side wiring of the Exa search MCP |
 | [`conductor-mcp`](entities/tools/conductor-mcp.md) | validated | Cross-wiki query router (FastMCP) |
@@ -567,3 +571,5 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 ## Concepts
 
 - [ADK Arena — agent framework benchmark (OSINT handoff)](concepts/adk-arena-agent-framework-benchmark.md) — cross-wiki stub routed from ingest — `cross-wiki`
+
+- [`operator-model-selection`](concepts/operator-model-selection.md) — K142 model routing policy for workflows/subagents.
