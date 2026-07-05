@@ -573,3 +573,24 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 - [ADK Arena — agent framework benchmark (OSINT handoff)](concepts/adk-arena-agent-framework-benchmark.md) — cross-wiki stub routed from ingest — `cross-wiki`
 
 - [`operator-model-selection`](concepts/operator-model-selection.md) — K142 model routing policy for workflows/subagents.
+
+## Sources
+
+- [Latent Space — Ahmad Osman on why local AI is catching up](sources/newsletter-rss-latent-space-2026-06-30-ahmad-osman-on-why-local-ai-is-catching-up.md) — cross-wiki stub routed from ingest — `cross-wiki`
+- [Latent Space — [AINews] not much happened today](sources/newsletter-rss-latent-space-2026-06-30-ainews-not-much-happened-today.md) — cross-wiki stub routed from ingest — `cross-wiki`
+- [Latent Space — AIEWF Daily Dispatch: Loops, Software Factories & Forward Deployed Engineers](sources/newsletter-rss-latent-space-2026-07-01-aiewf-daily-dispatch-loops-software-factories-fo.md) — cross-wiki stub routed from ingest — `cross-wiki`
+- [Latent Space — [AINews] Sonnet 5 today, and Fable 5 tomorrow](sources/newsletter-rss-latent-space-2026-07-01-ainews-sonnet-5-today-and-fable-5-tomorrow.md) — cross-wiki stub routed from ingest — `cross-wiki`
+- [Latent Space — Autoresearch: The feedback loop behind self-improving agents](sources/newsletter-rss-latent-space-2026-07-01-autoresearch-the-feedback-loop-behind-self-impro.md) — cross-wiki stub routed from ingest — `cross-wiki`
+- [Latent Space — Forward Deployed Engineers and the future of software engineering](sources/newsletter-rss-latent-space-2026-07-01-forward-deployed-engineers-and-the-future-of-sof.md) — cross-wiki stub routed from ingest — `cross-wiki`
+- [Latent Space — How Cursor deploys AI inside the enterprise](sources/newsletter-rss-latent-space-2026-07-01-how-cursor-deploys-ai-inside-the-enterprise.md) — cross-wiki stub routed from ingest — `cross-wiki`
+- [Latent Space — 🔬 The Coolest Diffusion Research Isn't in LLMs — Evan Feinberg & Sergey Edunov, Genesis Molecular AI](sources/newsletter-rss-latent-space-2026-07-01-the-coolest-diffusion-research-isnt-in-llms-evan.md) — cross-wiki stub routed from ingest — `cross-wiki`
+- [Latent Space — Warp CEO Zach Lloyd on why software factories are the next phase of coding](sources/newsletter-rss-latent-space-2026-07-01-warp-ceo-zach-lloyd-on-why-software-factories-ar.md) — cross-wiki stub routed from ingest — `cross-wiki`
+- [Latent Space — AIEWF Daily Dispatch: Autoresearch and the tension between AI and human agency](sources/newsletter-rss-latent-space-2026-07-02-aiewf-daily-dispatch-autoresearch-and-the-tensio.md) — cross-wiki stub routed from ingest — `cross-wiki`
+- [Latent Space — [AINews] not much happened today](sources/newsletter-rss-latent-space-2026-07-02-ainews-not-much-happened-today.md) — cross-wiki stub routed from ingest — `cross-wiki`
+- [Latent Space — Skill engineering and the case against one-shot AI design](sources/newsletter-rss-latent-space-2026-07-02-skill-engineering-and-the-case-against-one-shot.md) — cross-wiki stub routed from ingest — `cross-wiki`
+- [Latent Space — The website of the future may assemble itself for every visitor](sources/newsletter-rss-latent-space-2026-07-02-the-website-of-the-future-may-assemble-itself-fo.md) — cross-wiki stub routed from ingest — `cross-wiki`
+- [Latent Space — AIEWF Daily Dispatch: The great loops debate and the state of AI engineering](sources/newsletter-rss-latent-space-2026-07-03-aiewf-daily-dispatch-the-great-loops-debate-and.md) — cross-wiki stub routed from ingest — `cross-wiki`
+- [Latent Space — Vercel's Andrew Qu on why agents are a new kind of software](sources/newsletter-rss-latent-space-2026-07-03-vercels-andrew-qu-on-why-agents-are-a-new-kind-o.md) — cross-wiki stub routed from ingest — `cross-wiki`
+- [The Pragmatic Engineer — Impressions from visiting OpenAI, Anthropic, & Cursor](sources/newsletter-rss-pragmatic-engineer-2026-06-30-impressions-from-visiting-openai-anthropic-curso.md) — cross-wiki stub routed from ingest — `cross-wiki`
+- [The Pragmatic Engineer — How Kent Beck shapes the software engineering industry](sources/newsletter-rss-pragmatic-engineer-2026-07-01-how-kent-beck-shapes-the-software-engineering-in.md) — cross-wiki stub routed from ingest — `cross-wiki`
+- [Addy Osmani's Blog — Agentic Autonomy Levels](sources/substack-rss-addy-osmani-2026-07-03-agentic-autonomy-levels.md) — cross-wiki stub routed from ingest — `cross-wiki`

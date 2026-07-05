@@ -1099,3 +1099,93 @@ v1.1.0: add `claude-fable-5-thinking-high` as default Anthropic leg for agentic/
 
 Cross-wiki stub routed from `@osint-wiki/sources/arxiv-adk-arena-agent-dev-kits-2606.05548-2026-06-06.md`.
 - Created wiki/concepts/adk-arena-agent-framework-benchmark.md (stub)
+
+## [2026-07-05] cross-wiki route | Latent Space — Ahmad Osman on why local AI is catching up
+
+Cross-wiki stub routed from `@osint-wiki/sources/newsletter-rss-latent-space-2026-06-30-ahmad-osman-on-why-local-ai-is-catching-up.md`.
+- Created wiki/sources/newsletter-rss-latent-space-2026-06-30-ahmad-osman-on-why-local-ai-is-catching-up.md (stub)
+
+## [2026-07-05] cross-wiki route | Latent Space — [AINews] not much happened today
+
+Cross-wiki stub routed from `@osint-wiki/sources/newsletter-rss-latent-space-2026-06-30-ainews-not-much-happened-today.md`.
+- Created wiki/sources/newsletter-rss-latent-space-2026-06-30-ainews-not-much-happened-today.md (stub)
+
+## [2026-07-05] cross-wiki route | Latent Space — AIEWF Daily Dispatch: Loops, Software Factories & Forward Deployed Engineers
+
+Cross-wiki stub routed from `@osint-wiki/sources/newsletter-rss-latent-space-2026-07-01-aiewf-daily-dispatch-loops-software-factories-fo.md`.
+- Created wiki/sources/newsletter-rss-latent-space-2026-07-01-aiewf-daily-dispatch-loops-software-factories-fo.md (stub)
+
+## [2026-07-05] cross-wiki route | Latent Space — [AINews] Sonnet 5 today, and Fable 5 tomorrow
+
+Cross-wiki stub routed from `@osint-wiki/sources/newsletter-rss-latent-space-2026-07-01-ainews-sonnet-5-today-and-fable-5-tomorrow.md`.
+- Created wiki/sources/newsletter-rss-latent-space-2026-07-01-ainews-sonnet-5-today-and-fable-5-tomorrow.md (stub)
+
+## [2026-07-05] cross-wiki route | Latent Space — Autoresearch: The feedback loop behind self-improving agents
+
+Cross-wiki stub routed from `@osint-wiki/sources/newsletter-rss-latent-space-2026-07-01-autoresearch-the-feedback-loop-behind-self-impro.md`.
+- Created wiki/sources/newsletter-rss-latent-space-2026-07-01-autoresearch-the-feedback-loop-behind-self-impro.md (stub)
+
+## [2026-07-05] cross-wiki route | Latent Space — Forward Deployed Engineers and the future of software engineering
+
+Cross-wiki stub routed from `@osint-wiki/sources/newsletter-rss-latent-space-2026-07-01-forward-deployed-engineers-and-the-future-of-sof.md`.
+- Created wiki/sources/newsletter-rss-latent-space-2026-07-01-forward-deployed-engineers-and-the-future-of-sof.md (stub)
+
+## [2026-07-05] cross-wiki route | Latent Space — How Cursor deploys AI inside the enterprise
+
+Cross-wiki stub routed from `@osint-wiki/sources/newsletter-rss-latent-space-2026-07-01-how-cursor-deploys-ai-inside-the-enterprise.md`.
+- Created wiki/sources/newsletter-rss-latent-space-2026-07-01-how-cursor-deploys-ai-inside-the-enterprise.md (stub)
+
+## [2026-07-05] cross-wiki route | Latent Space — 🔬 The Coolest Diffusion Research Isn't in LLMs — Evan Feinberg & Sergey Edunov, Genesis Molecular AI
+
+Cross-wiki stub routed from `@osint-wiki/sources/newsletter-rss-latent-space-2026-07-01-the-coolest-diffusion-research-isnt-in-llms-evan.md`.
+- Created wiki/sources/newsletter-rss-latent-space-2026-07-01-the-coolest-diffusion-research-isnt-in-llms-evan.md (stub)
+
+## [2026-07-05] cross-wiki route | Latent Space — Warp CEO Zach Lloyd on why software factories are the next phase of coding
+
+Cross-wiki stub routed from `@osint-wiki/sources/newsletter-rss-latent-space-2026-07-01-warp-ceo-zach-lloyd-on-why-software-factories-ar.md`.
+- Created wiki/sources/newsletter-rss-latent-space-2026-07-01-warp-ceo-zach-lloyd-on-why-software-factories-ar.md (stub)
+
+## [2026-07-05] cross-wiki route | Latent Space — AIEWF Daily Dispatch: Autoresearch and the tension between AI and human agency
+
+Cross-wiki stub routed from `@osint-wiki/sources/newsletter-rss-latent-space-2026-07-02-aiewf-daily-dispatch-autoresearch-and-the-tensio.md`.
+- Created wiki/sources/newsletter-rss-latent-space-2026-07-02-aiewf-daily-dispatch-autoresearch-and-the-tensio.md (stub)
+
+## [2026-07-05] cross-wiki route | Latent Space — [AINews] not much happened today
+
+Cross-wiki stub routed from `@osint-wiki/sources/newsletter-rss-latent-space-2026-07-02-ainews-not-much-happened-today.md`.
+- Created wiki/sources/newsletter-rss-latent-space-2026-07-02-ainews-not-much-happened-today.md (stub)
+
+## [2026-07-05] cross-wiki route | Latent Space — Skill engineering and the case against one-shot AI design
+
+Cross-wiki stub routed from `@osint-wiki/sources/newsletter-rss-latent-space-2026-07-02-skill-engineering-and-the-case-against-one-shot.md`.
+- Created wiki/sources/newsletter-rss-latent-space-2026-07-02-skill-engineering-and-the-case-against-one-shot.md (stub)
+
+## [2026-07-05] cross-wiki route | Latent Space — The website of the future may assemble itself for every visitor
+
+Cross-wiki stub routed from `@osint-wiki/sources/newsletter-rss-latent-space-2026-07-02-the-website-of-the-future-may-assemble-itself-fo.md`.
+- Created wiki/sources/newsletter-rss-latent-space-2026-07-02-the-website-of-the-future-may-assemble-itself-fo.md (stub)
+
+## [2026-07-05] cross-wiki route | Latent Space — AIEWF Daily Dispatch: The great loops debate and the state of AI engineering
+
+Cross-wiki stub routed from `@osint-wiki/sources/newsletter-rss-latent-space-2026-07-03-aiewf-daily-dispatch-the-great-loops-debate-and.md`.
+- Created wiki/sources/newsletter-rss-latent-space-2026-07-03-aiewf-daily-dispatch-the-great-loops-debate-and.md (stub)
+
+## [2026-07-05] cross-wiki route | Latent Space — Vercel's Andrew Qu on why agents are a new kind of software
+
+Cross-wiki stub routed from `@osint-wiki/sources/newsletter-rss-latent-space-2026-07-03-vercels-andrew-qu-on-why-agents-are-a-new-kind-o.md`.
+- Created wiki/sources/newsletter-rss-latent-space-2026-07-03-vercels-andrew-qu-on-why-agents-are-a-new-kind-o.md (stub)
+
+## [2026-07-05] cross-wiki route | The Pragmatic Engineer — Impressions from visiting OpenAI, Anthropic, & Cursor
+
+Cross-wiki stub routed from `@osint-wiki/sources/newsletter-rss-pragmatic-engineer-2026-06-30-impressions-from-visiting-openai-anthropic-curso.md`.
+- Created wiki/sources/newsletter-rss-pragmatic-engineer-2026-06-30-impressions-from-visiting-openai-anthropic-curso.md (stub)
+
+## [2026-07-05] cross-wiki route | The Pragmatic Engineer — How Kent Beck shapes the software engineering industry
+
+Cross-wiki stub routed from `@osint-wiki/sources/newsletter-rss-pragmatic-engineer-2026-07-01-how-kent-beck-shapes-the-software-engineering-in.md`.
+- Created wiki/sources/newsletter-rss-pragmatic-engineer-2026-07-01-how-kent-beck-shapes-the-software-engineering-in.md (stub)
+
+## [2026-07-05] cross-wiki route | Addy Osmani's Blog — Agentic Autonomy Levels
+
+Cross-wiki stub routed from `@osint-wiki/sources/substack-rss-addy-osmani-2026-07-03-agentic-autonomy-levels.md`.
+- Created wiki/sources/substack-rss-addy-osmani-2026-07-03-agentic-autonomy-levels.md (stub)
