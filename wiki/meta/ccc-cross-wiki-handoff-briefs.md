@@ -20,11 +20,13 @@ related:
   - briefs/2026-07-02_ccc-handoff-robust-to-confidence-orchestration-ingest.md
   - briefs/2026-07-03_ccc-handoff-cognitive-heuristics-vuln-detection-ingest.md
   - briefs/2026-07-04_ccc-handoff-hcp-execution-control-ingest.md
+  - briefs/2026-07-07_ccc-handoff-steerability-substrate-ingest.md
   - concepts/confidence-aware-tool-orchestration.md
   - concepts/cognitive-heuristics-llm-vuln-detection.md
+  - concepts/substrate-constraints-coding-agent-oversight.md
 maturity: validated
 created: 2026-06-29
-updated: 2026-07-04
+updated: 2026-07-07
 ---
 
 ## Relations
@@ -54,5 +56,6 @@ Catalog of **durable handoff briefs** staged under `wiki/briefs/` (distinct from
 | `2026-07-02_ccc-handoff-robust-to-confidence-orchestration-ingest.md` | Cybersec | Robust-TO confidence tool routing |
 | `2026-07-03_ccc-handoff-cognitive-heuristics-vuln-detection-ingest.md` | Cybersec | Cognitive bias in LLM vuln scanners |
 | `2026-07-04_ccc-handoff-hcp-execution-control-ingest.md` | Cybersec | HCP MCP execution-control invariants |
+| `2026-07-07_ccc-handoff-steerability-substrate-ingest.md` | Cybersec | Substrate constraints for coding-agent oversight |
 
 Prod deploy briefs (K109–K137) live in gitignored `/briefs/` with discoverability stubs under `wiki/sources/brief-k*.md`.

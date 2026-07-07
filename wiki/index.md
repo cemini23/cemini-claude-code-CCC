@@ -155,7 +155,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`cross-wiki-tool-eval-inventory`](concepts/cross-wiki-tool-eval-inventory.md) | draft | Consolidated receipt — all CCC-routed items from OSINT tool evaluations K45–K56 |
 | [`code-as-agent-harness`](concepts/code-as-agent-harness.md) | draft | Three-layer harness model mapped to Claude Code / conductor / MCP (K48 arXiv) |
 | [`self-healing-agent-sessions`](concepts/self-healing-agent-sessions.md) | draft | Failure taxonomy + retry budget for long Claude Code sessions (K48 arXiv) |
-| [`deep-research-evaluation-prompt`](concepts/deep-research-evaluation-prompt.md) | validated | v1→v9 lineage; canonical copy-paste at `prompts/deep-research-multi-wiki-eval-v9-2026-06-28.md` |
+| [`deep-research-evaluation-prompt`](concepts/deep-research-evaluation-prompt.md) | validated | v1→v10 lineage; canonical copy-paste at `prompts/deep-research-multi-wiki-eval-v10-2026-07-06.md` |
 | [`cursor-ide-workspace`](concepts/cursor-ide-workspace.md) | validated | Cursor as primary laptop harness; MCP map, rules, canvas, deployment boundary |
 | [`local-llm-mechanics-primer`](concepts/local-llm-mechanics-primer.md) | draft | KV cache / prefill-decode primer for local inference (K57 Post 1) |
 | [`tools-we-dont-use`](concepts/tools-we-dont-use.md) | draft | Institutional reject register (ToS bypass, ridark list discipline) |
@@ -270,6 +270,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`orchestration-option-quantitative-metrics`](concepts/orchestration-option-quantitative-metrics.md) | draft | M/ABC/F1 traceability metrics — 2606.31518 (K136) |
 | [`metamemory-scaffold-proficiency-training`](concepts/metamemory-scaffold-proficiency-training.md) | draft | AutoMem metamemory loops — 2607.01224 (K137) |
 | [`cognitive-heuristics-llm-vuln-detection`](concepts/cognitive-heuristics-llm-vuln-detection.md) | draft | Cognitive bias in LLM scanners — cybersec stub (2606.30587) |
+| [`substrate-constraints-coding-agent-oversight`](concepts/substrate-constraints-coding-agent-oversight.md) | draft | Substrate + docs CLI oversight — cybersec stub (2607.02389) |
 | [`tool-eval-license-skepticism-patterns`](concepts/tool-eval-license-skepticism-patterns.md) | draft | K73 license-eval anti-patterns (NO-LICENSE false negatives, BSL parsing) |
 | [`enterprise-auto-mode-telemetry-rollout`](concepts/enterprise-auto-mode-telemetry-rollout.md) | draft | Auto Mode policy rollout via telemetry loops (K73 Post 1) |
 | [`harness-de-bloat-4x4-pattern`](concepts/harness-de-bloat-4x4-pattern.md) | draft | 4-skills/4-agents simplification pattern (K73 Post 2) |
@@ -594,3 +595,4 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 - [The Pragmatic Engineer — Impressions from visiting OpenAI, Anthropic, & Cursor](sources/newsletter-rss-pragmatic-engineer-2026-06-30-impressions-from-visiting-openai-anthropic-curso.md) — cross-wiki stub routed from ingest — `cross-wiki`
 - [The Pragmatic Engineer — How Kent Beck shapes the software engineering industry](sources/newsletter-rss-pragmatic-engineer-2026-07-01-how-kent-beck-shapes-the-software-engineering-in.md) — cross-wiki stub routed from ingest — `cross-wiki`
 - [Addy Osmani's Blog — Agentic Autonomy Levels](sources/substack-rss-addy-osmani-2026-07-03-agentic-autonomy-levels.md) — cross-wiki stub routed from ingest — `cross-wiki`
+- [Latent Space — [AINews] The Field Guide to Fable](sources/newsletter-rss-latent-space-2026-07-07-ainews-the-field-guide-to-fable.md) — cross-wiki stub routed from ingest — `cross-wiki`

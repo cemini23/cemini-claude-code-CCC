@@ -50,9 +50,11 @@ related:
   - sources/arxiv-toolbench-x-tool-environment-unreliability-2606.25819.md
   - concepts/orchestration-option-quantitative-metrics.md
   - concepts/cognitive-heuristics-llm-vuln-detection.md
+  - concepts/substrate-constraints-coding-agent-oversight.md
+  - sources/arxiv-steerability-via-constraints-coding-agent-oversight-2607.02389.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-07-03
+updated: 2026-07-07
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-25-2026-05-27.md"
 ---
 
@@ -86,6 +88,8 @@ Pair with `@concepts/claude-premortem-skill.md` (what could fail) and `@entities
 **K111 channel fracture:** cross-agent memory/cron delivery must use **receiver-side proof** (read-back at target store) — writer tool success is insufficient; see `@concepts/channel-fracture-cross-agent-memory-delivery.md` CADVP CC-0 veto.
 
 **K122 claim drift:** completion gates must prove the **claimed mechanism** survived implementation — not only that tests/lint passed; see `@concepts/claim-drift-automated-research.md` (semantic / experimental / mechanistic subtypes).
+
+**K138 substrate constraints:** objective gates (`wiki_lint.py`, pytest, build) prove **session done**; **substrate constraints** (linters, types, module-local `Invariants:` docstrings) make agent output **auditable** before those gates run — small reviewer recall 54.5% → 90.9% with substrate + docs CLI (`@concepts/substrate-constraints-coding-agent-oversight.md`).
 
 | Verdict | **REFERENCE (adopt in rules/skills)** |
 
