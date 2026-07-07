@@ -22,6 +22,7 @@ updated: 2026-07-07
 | Field | Value |
 |-------|-------|
 | **Brief** | `wiki/briefs/2026-07-07_ccc-handoff-hexstrike-client-orchestration-ingest.md` |
+| **David adopt** | `tipdrop-workspace-kit/briefs/2026-07-07_k140-client-first-order-harness-adopt.md` |
 | **Cybersec primary** | `@cybersecurity-wiki/concepts/security-tool-orchestration-determinants.md` |
 | **Ingested** | 2026-07-07 |
 
