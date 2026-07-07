@@ -2,7 +2,7 @@
 title: Deep research multi-wiki evaluation prompt — version lineage
 type: concept
 tags: [concept, prompt, gemini-deep-research, tool-evaluation, multi-wiki, cursor, claude-code]
-keywords: [v3, v4, v5, v6, v7, v8, v9, ten surfaces, game-dev-wiki, gambling-wiki, CCC wiki, tier classification, anti-hallucination, cross-wiki routing, license posture, world-cup-bot, wc-ticket-monitor, CeminiDFS, federation-hub, xsp-killer, poker-arena, tipdrop, castle-sim]
+keywords: [v3, v4, v5, v6, v7, v8, v9, v10, ten surfaces, game-dev-wiki, gambling-wiki, CCC wiki, tier classification, anti-hallucination, cross-wiki routing, revenue lens, world-cup-bot, wc-ticket-monitor, CeminiDFS, federation-hub, xsp-killer, poker-arena, tipdrop, castle-sim]
 related:
   - concepts/cursor-ide-workspace.md
   - concepts/cross-wiki-routing.md
@@ -18,7 +18,7 @@ related:
   - entities/tools/awesome-agent-engineering.md
 maturity: validated
 created: 2026-05-21
-updated: 2026-06-28
+updated: 2026-07-06
 ---
 
 ## Relations
@@ -54,11 +54,20 @@ Bulk tool evaluation uses **ten surfaces** (Cemini **active prod bots** — XSP 
 | v6 | 2026-05-31 | 8 (+ `gambling-wiki` surface 3) | `prompts/deep-research-multi-wiki-eval-v6-2026-05-31.md` | Frozen after K114; sports betting / casino / DFS split |
 | v7 | 2026-06-13 | 9 (+ `game-dev-wiki` surface 8) | `prompts/deep-research-multi-wiki-eval-v7-2026-06-13.md` | Frozen after K120; game-dev surface |
 | **v8** | **2026-06-21** | **9 (same surfaces)** | **`prompts/deep-research-multi-wiki-eval-v8-2026-06-21.md`** | Frozen after 2026-06-27 batches; librarian offline |
-| **v9** | **2026-06-28** | **10 (+ TipDrop.io surface 10)** | **`prompts/deep-research-multi-wiki-eval-v9-2026-06-28.md`** | **Current default** — surface 1 = active prod bots (XSP, poker arena); legacy Financial Suite equity deprioritized; TipDrop + overlap fields |
+| **v9** | **2026-06-28** | **10 (+ TipDrop.io surface 10)** | **`prompts/deep-research-multi-wiki-eval-v9-2026-06-28.md`** | Frozen after 2026-06-28 batches; license-first lens |
+| **v10** | **2026-07-06** | **10 (same surfaces)** | **`prompts/deep-research-multi-wiki-eval-v10-2026-07-06.md`** | **Current default** — revenue-first lens; license/ToS demoted to implementation notes |
 
 **First v6 production batch:** K90 (2026-05-31, 41 URLs) — `@sources/multi-wiki-tool-eval-v6-k90-2026-05-31.md` (adds gambling-wiki surface).
 
 **First v7 note:** K115 (2026-06-13) — `@game-dev-wiki` bootstrap; no bulk URL batch yet.
+
+### v10 deltas vs v9 [CONFIRMED 2026-07-06]
+
+1. **Primary lens** — **"how does this make us money?"** replaces **"can we use this?"** License, ToS, compliance are implementation friction notes — never tier drivers.
+2. **Per-URL revenue fields** — `Revenue hypothesis`, `Revenue confidence`, `Revenue timeline`, `Project fit`, `Integration play`, `Improvement`, `Combo plays`.
+3. **Tiers redefined** — Integrate / Extract / Watch / Context / Pass (maps to v9 Adopt / Steal-from / Defer / Reference-only / Reject for ingest compat).
+4. **TipDrop compliance** reframed as **business-continuity risk** (MRR threat), not moral gate.
+5. **Post-run** — revenue-path validation, not mandatory license audit.
 
 ### v9 deltas vs v8 [CONFIRMED 2026-06-28]
 
@@ -98,18 +107,20 @@ Bulk tool evaluation uses **ten surfaces** (Cemini **active prod bots** — XSP 
 
 ### Runtime workflow
 
-1. Paste **`prompts/deep-research-multi-wiki-eval-v9-gemini-runtime.md`** + **≤20 URLs** (or a pre-split file under `prompts/batches/`) into **Gemini Deep Research**. Do **not** paste the full v9 canon (~39KB) with large URL lists — Deep Research often blanks before producing a plan.
-2. On return, open **OSINT WORKSPACE** in Cursor; spot-check Adopt licenses via `gh` / Exa.
+1. Paste **`prompts/deep-research-multi-wiki-eval-v10-gemini-runtime.md`** + **≤20 URLs** (or a pre-split file under `prompts/batches/`) into **Gemini Deep Research**. Do **not** paste the full v10 canon with large URL lists — Deep Research often blanks before producing a plan.
+2. On return, open **OSINT WORKSPACE** in Cursor; validate Integrate/Extract revenue hypotheses + project paths (license spot-check optional).
 3. Ingest per `@osint-wiki/CLAUDE.md` ingest ops; cross-wiki briefs land in sibling `briefs/` folders; gambling-primary stubs → `@gambling-wiki/`; game-dev-primary stubs → `python3 scripts/cross_wiki_route.py --target-wiki game-dev-wiki` from OSINT.
 
 ### Anti-hallucination lesson (K53/K54)
 
-Gemini's `NO LICENSE FOUND` layer was unreliable on 9–22% of URLs in two v3 batches; K84 reconfirmed ~30% false negatives when retrieval truncated. **Never ingest Adopt without LICENSE verification** on IP-sale-bearing surfaces — v5 makes GitHub API lookup mandatory.
+Gemini's `NO LICENSE FOUND` layer was unreliable on 9–22% of URLs in two v3 batches. v5–v9 made license lookup mandatory before tier assignment. **v10 demotes license to implementation notes** — tier on revenue + project fit; note license friction when discovered but do not Pass solely on SPDX.
 
 ## Snippets
 
-- **v9 Gemini runtime (paste this into Deep Research):** `../prompts/deep-research-multi-wiki-eval-v9-gemini-runtime.md`
-- **v9 full canon (Cursor spot-check only):** `../prompts/deep-research-multi-wiki-eval-v9-2026-06-28.md`
+- **v10 Gemini runtime (paste this into Deep Research):** `../prompts/deep-research-multi-wiki-eval-v10-gemini-runtime.md`
+- **v10 full canon (Cursor spot-check only):** `../prompts/deep-research-multi-wiki-eval-v10-2026-07-06.md`
+- **v9 frozen:** `../prompts/deep-research-multi-wiki-eval-v9-2026-06-28.md`
+- **v9 Gemini runtime (frozen):** `../prompts/deep-research-multi-wiki-eval-v9-gemini-runtime.md`
 - **v8 frozen:** `../prompts/deep-research-multi-wiki-eval-v8-2026-06-21.md`
 - **v7 frozen:** `../prompts/deep-research-multi-wiki-eval-v7-2026-06-13.md`
 - **v6 frozen:** `../prompts/deep-research-multi-wiki-eval-v6-2026-05-31.md`

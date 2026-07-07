@@ -14,6 +14,25 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+---
+
+## [2026-07-07] ingest | Steerability via constraints — coding-agent oversight (K138)
+
+- **Source:** arXiv 2607.02389 — substrate constraints + ~200 LoC docs CLI; backdoor recall 54.5% → 90.9%
+- **Created:** `sources/arxiv-steerability-via-constraints-coding-agent-oversight-2607.02389.md`, `sources/brief-k138-substrate-constraints-agent-oversight-2026-07-07.md`, `entities/tools/openshell.md`, `briefs/2026-07-07_k138-substrate-constraints-agent-oversight-prod.md`
+- **Expanded:** `concepts/substrate-constraints-coding-agent-oversight.md`, `briefs/2026-07-07_ccc-handoff-steerability-substrate-ingest.md`
+- **Updated:** `agent-completion-verification-gates`, `skill-vetting`, `subagent-orchestration`, `mcp-context-optimization`, `etclovg-harness-layers`, `code-as-agent-harness`, `super-audit`, `seclaw-agent-security-evaluation`, `lazy-tool`, `index.md`
+- **Phase-0:** `scripts/adopt_k138_phase0.sh` — REFERENCE; OpenShell Apache-2.0; David checklist on cybersec
+- **Archive:** `cemini-egress-fi:/opt/cemini-bulk/research/ccc/arxiv-2607.02389-2607-02389v1-steerability-via-constraints-a-subs.pdf`
+- **Cross-wiki:** cybersec primary `@cybersecurity-wiki/concepts/substrate-constraints-coding-agent-oversight.md`
+
+## [2026-07-06] prompt | v10 revenue-first link evaluation lens
+
+- **Created:** `prompts/deep-research-multi-wiki-eval-v10-2026-07-06.md` + `v10-gemini-runtime.md` — supersedes v9 for day-to-day use
+- **Lens shift:** primary question = "how does this make us money?" — project fit + revenue path + combo plays; license/ToS demoted to implementation notes
+- **Tiers:** Integrate / Extract / Watch / Context / Pass (maps to v9 Adopt/Steal-from/Defer/Reference-only/Reject)
+- **Updated:** `deep-research-evaluation-prompt`, `cross-wiki-routing`, `index.md`, `README.md`, `CLAUDE.md`
+
 ## [2026-07-03] brief audit | K109 stub + cross-wiki handoffs tracked
 
 - **Gitignore fix:** `/briefs/` only — `wiki/briefs/` cross-wiki handoffs now versioned
@@ -1189,3 +1208,8 @@ Cross-wiki stub routed from `@osint-wiki/sources/newsletter-rss-pragmatic-engine
 
 Cross-wiki stub routed from `@osint-wiki/sources/substack-rss-addy-osmani-2026-07-03-agentic-autonomy-levels.md`.
 - Created wiki/sources/substack-rss-addy-osmani-2026-07-03-agentic-autonomy-levels.md (stub)
+
+## [2026-07-07] cross-wiki route | Latent Space — [AINews] The Field Guide to Fable
+
+Cross-wiki stub routed from `@osint-wiki/sources/newsletter-rss-latent-space-2026-07-07-ainews-the-field-guide-to-fable.md`.
+- Created wiki/sources/newsletter-rss-latent-space-2026-07-07-ainews-the-field-guide-to-fable.md (stub)

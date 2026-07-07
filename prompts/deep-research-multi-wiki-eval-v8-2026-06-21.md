@@ -40,7 +40,7 @@ Re-evaluate ONLY if documented trigger on `@osint-wiki/entities/tools/pageindex.
 ### world-cup-bot (public OSS + Cemini WC PM module)
 
 - **Repo:** [cemini23/world-cup-bot](https://github.com/cemini23/world-cup-bot) — MIT, logic version `wc_advance_lp_v4`
-- **Local path:** `/Users/claudiobarone/Desktop/projects/world-cup-bot`
+- **Local path:** `/Users/claudiobarone/Projects/world-cup-bot`
 - **Modules live:** (1) scanner (2) conviction filter (3) quoter (4) fill handler + WS reconcile (5) calendar guard (6) cross-venue alert scanner (7) ledger + rewards sync
 - **Wiki:** `@osint-wiki/concepts/world-cup-advance-market-bot-v1.md`, `@osint-wiki/entities/tools/world-cup-bot.md`
 - **When evaluating Polymarket LP / sports / poly-maker / Polymarket/agents:** compare as **Reference-only or Steal-from pattern**, not greenfield Adopt, unless the URL adds a capability **absent** from modules 1–7 (name the gap).
@@ -48,7 +48,7 @@ Re-evaluate ONLY if documented trigger on `@osint-wiki/entities/tools/pageindex.
 ### wc-ticket-monitor (public OSS — FIFA 2026 knockout ticket alerts)
 
 - **Repo:** [cemini23/wc-ticket-monitor](https://github.com/cemini23/wc-ticket-monitor) — MIT
-- **Local path:** `/Users/claudiobarone/Desktop/projects/wc-ticket-monitor`
+- **Local path:** `/Users/claudiobarone/Projects/wc-ticket-monitor`
 - **Modules live:** (1) dual-source scanner (Great Reviewer FIFA API + TicketWave aggregators) (2) per-round price floors (`config.yaml` / `events.yaml`) (3) Discord deal alerts + dedupe cooldown (4) daily heartbeat digest (5) degraded-scan warnings (6) optional StubHub Playwright path (off by default) (7) hourly LaunchAgent / prod cron
 - **Wiki:** briefs in repo `briefs/`; ecosystem note in README — sibling to world-cup-bot, **not** PM LP
 - **When evaluating FIFA ticket / resale / price-alert / Discord monitor repos:** compare as **Reference-only or Steal-from**, not greenfield Adopt, unless the URL adds a capability **absent** from modules 1–7 (name the gap). Cross-route **Gambling-wiki** only if README is retail WC **betting** education, not ticket resale.
@@ -56,14 +56,14 @@ Re-evaluate ONLY if documented trigger on `@osint-wiki/entities/tools/pageindex.
 ### CeminiDFS (public OSS — NFL DIY projection pipeline)
 
 - **Repo:** [cemini23/CeminiDFS](https://github.com/cemini23/CeminiDFS) — MIT, phases 0–5 complete
-- **Local path:** `/Users/claudiobarone/Desktop/projects/CeminiDFS`
+- **Local path:** `/Users/claudiobarone/Projects/CeminiDFS`
 - **Pipeline live:** fetch (nflverse) → project (usage/stats/scoring) → normalize (pydfs-lineup-optimizer) → optimize (MME pools) → optional simulate / ownership / late-swap / sim rerank; backtest + calibration vs paid benchmarks
 - **Wiki:** `@gambling-wiki/concepts/diy-nfl-dfs-model-architecture.md` (K125 architecture canon)
 - **When evaluating NFL DFS projection / lineup optimizer / nflverse pipeline repos:** compare as **Reference-only or Steal-from**, not greenfield Adopt, unless the URL adds a capability **absent** from the shipped pipeline stages (name the gap). Primary fit for human-facing DFS strategy docs = **Gambling-wiki**; execution code overlap = CeminiDFS inventory.
 
 ### cemini-federation-hub (operator control plane — laptop)
 
-- **Repo:** local git at `/Users/claudiobarone/Desktop/projects/cemini-federation-hub` (not yet a public deliverable)
+- **Repo:** local git at `/Users/claudiobarone/Projects/cemini-federation-hub` (not yet a public deliverable)
 - **Role:** morning federation summary (`scripts/run_federation_morning_summary.py`), inbox triage across wikis, `federation_paths.yaml` path map, Obsidian sweep pages under `hub/sweeps/`
 - **When evaluating multi-wiki dashboards / morning-summary / inbox-triage / federation-operator tools:** compare as **Reference-only or Steal-from** for orchestration patterns; primary fit = **CCC-wiki** (harness ops). Do not Adopt a second federation hub without naming a gap vs `hub/meta/federation-operator-hub.md`.
 

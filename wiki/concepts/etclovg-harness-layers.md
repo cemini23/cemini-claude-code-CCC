@@ -35,9 +35,11 @@ related:
   - sources/arxiv-toolbench-x-tool-environment-unreliability-2606.25819.md
   - concepts/agentic-orchestration-options-abpm.md
   - sources/arxiv-agentic-orchestration-options-abpm-2606.31518.md
+  - concepts/substrate-constraints-coding-agent-oversight.md
+  - sources/arxiv-steerability-via-constraints-coding-agent-oversight-2607.02389.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-07-01
+updated: 2026-07-07
 ---
 
 ## Relations
@@ -61,7 +63,7 @@ Seven-layer harness taxonomy from recent harness-engineering literature, formali
 | **Context & Memory** | What the model sees each step: window, summaries, retrieval, persistent memory | `hot.md`, `@entities/tools/claude-mem.md`, stash, progressive disclosure |
 | **Lifecycle & Orchestration** | Think-act-observe, retries, task state, multi-agent coordination, termination | Subagents, Stop hooks, `/goal`, conductor fan-out; **OO3/OO4** process frames (K136) |
 | **Observability** | Traces, tool calls, errors, cost — enough to diagnose | `wiki/log.md`, claude-mem, defenseclaw discovery; **engine logs over agent self-log** (K136) |
-| **Verification & Evaluation** | Readiness checks, intermediate validation, final eval, regression | `@concepts/skill-vetting.md`, OpenSpec criteria, `wiki_lint.py`, Glasswing review; **ToolBench-X** hazard recovery eval (K129) |
+| **Verification & Evaluation** | Readiness checks, intermediate validation, final eval, regression | `@concepts/skill-vetting.md`, OpenSpec criteria, `wiki_lint.py`, Glasswing review; **ToolBench-X** hazard recovery eval (K129); **substrate constraints + docs CLI** for code audit (K138) |
 | **Governance & Security** | Permissions, approvals, audit trails, policy enforcement | Tier 1/2 model, defenseclaw scanners, SeClaw trajectory eval |
 
 ### Why CCC owns this page

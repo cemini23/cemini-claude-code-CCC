@@ -15,9 +15,11 @@ related:
   - concepts/agent-rubrics-self-correction.md
   - "@osint-wiki/concepts/llm-routing-deepseek-openrouter-failover.md"
   - entities/skills/grill-with-docs.md
+  - concepts/substrate-constraints-coding-agent-oversight.md
+  - sources/arxiv-steerability-via-constraints-coding-agent-oversight-2607.02389.md
 maturity: validated
 created: 2026-06-09
-updated: 2026-06-22
+updated: 2026-07-07
 cross-wiki-source: "OSINT WORKSPACE .cursor/skills/super-audit/ (2026-06-09); public distro agent-toolkit-demo/skills/super-audit/ (commit 40b97db); v1.3.0 role delegation (2026-06-16)"
 ---
 
@@ -61,6 +63,8 @@ Each auditor receives the same **audit pack** on disk (`audit_prompt.md` + `PACK
 - **Ranked patch backlog** — domain-specific (from tailored prompt)
 
 **Proven runs [CONFIRMED]:** poker Tournament S1 super audit (2026-06-09, 5 models); WC bot prod posture reviews use same pattern with `ADVISOR_*` overrides.
+
+**K138 complement:** For **code-review** subagents, pair council fan-out with **multi-pass per-function** passes (consistency → contract → invariant) when using smaller API models — single-pass review under-recalls on 8B-class reviewers per arXiv 2607.02389 (`@concepts/substrate-constraints-coding-agent-oversight.md`).
 
 ### Install path
 

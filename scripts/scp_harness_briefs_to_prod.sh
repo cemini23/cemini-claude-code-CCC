@@ -32,6 +32,7 @@ BRIEFS=(
   "2026-06-30_k135-clarus-research-collaboration-prod.md"
   "2026-07-01_k136-agentic-orchestration-options-abpm-prod.md"
   "2026-07-02_k137-automem-metamemory-cognitive-skill-prod.md"
+  "2026-07-07_k138-substrate-constraints-agent-oversight-prod.md"
 )
 
 echo "SCP harness briefs → ${REMOTE}"

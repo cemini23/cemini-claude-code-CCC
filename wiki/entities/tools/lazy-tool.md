@@ -43,9 +43,11 @@ related:
   - concepts/recoverable-tool-reliability-hazards.md
   - concepts/confidence-aware-tool-orchestration.md
   - entities/tools/codebase-memory-mcp.md
+  - concepts/substrate-constraints-coding-agent-oversight.md
+  - sources/arxiv-steerability-via-constraints-coding-agent-oversight-2607.02389.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-29
+updated: 2026-07-07
 ---
 
 ## Relations
@@ -99,6 +101,8 @@ This is the load-bearing reason CCC's `@concepts/token-economics-and-prompt-cach
 ### Cemini's adoption posture (2026-05-13)
 
 CONDITIONAL-GO: Cemini already runs the harness's `ToolSearch` deferred-tool pattern, which solves the same problem at the harness level for built-in tools. lazy-tool extends the trick to MCP. Worth running when MCP-server count exceeds 5; not worth the added moving part for fewer.
+
+**K138 nuance:** lazy-tool optimizes **remote MCP discovery** cost; for **in-repo code review** subagents, prefer bounded AST projection over `invoke_proxy_tool` dumps — see `@concepts/substrate-constraints-coding-agent-oversight.md`.
 
 ## Snippets
 

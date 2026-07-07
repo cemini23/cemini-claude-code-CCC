@@ -19,6 +19,7 @@ related:
   - briefs/2026-07-07_ccc-handoff-steerability-substrate-ingest.md
   - "@cybersecurity-wiki/concepts/substrate-constraints-coding-agent-oversight.md"
   - "@cybersecurity-wiki/sources/arxiv-2607-02389-steerability-constraints-coding-agent-oversight.md"
+  - meta/ccc-cross-wiki-handoff-briefs.md
 maturity: draft
 created: 2026-07-07
 updated: 2026-07-07

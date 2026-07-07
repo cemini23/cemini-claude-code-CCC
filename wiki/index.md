@@ -22,6 +22,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`ttok`](entities/tools/ttok.md) | draft | Token-counter CLI; preview before paste |
 | [`tech-debt-skill`](entities/tools/tech-debt-skill.md) | validated | Whole-repo audit skill (Cemini's first installed third-party skill) |
 | [`cua`](entities/tools/cua.md) | draft | M-series Mac VM sandbox for Tier-2 isolation |
+| [`openshell`](entities/tools/openshell.md) | draft | NVIDIA agent runtime peer — REFERENCE (K138, Apache-2.0) |
 | [`claude-code-ultimate-guide`](entities/tools/claude-code-ultimate-guide.md) | draft | 24k-line CC reference + 28-CVE catalog + 655 malicious-skill patterns |
 | [`claude-for-legal`](entities/tools/claude-for-legal.md) | draft | Anthropic-official legal-vertical plugin suite; STEAL-FROM 4 patterns (managed-agent cookbooks, cold-start interviews, Trust Layer, MCP connectors) |
 | [`skillkit`](entities/tools/skillkit.md) | draft | Cross-agent skill translation/management bridge; ships `@skillkit/mcp` runtime-discovery server — ADOPT |
@@ -270,7 +271,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`orchestration-option-quantitative-metrics`](concepts/orchestration-option-quantitative-metrics.md) | draft | M/ABC/F1 traceability metrics — 2606.31518 (K136) |
 | [`metamemory-scaffold-proficiency-training`](concepts/metamemory-scaffold-proficiency-training.md) | draft | AutoMem metamemory loops — 2607.01224 (K137) |
 | [`cognitive-heuristics-llm-vuln-detection`](concepts/cognitive-heuristics-llm-vuln-detection.md) | draft | Cognitive bias in LLM scanners — cybersec stub (2606.30587) |
-| [`substrate-constraints-coding-agent-oversight`](concepts/substrate-constraints-coding-agent-oversight.md) | draft | Substrate + docs CLI oversight — cybersec stub (2607.02389) |
+| [`substrate-constraints-coding-agent-oversight`](concepts/substrate-constraints-coding-agent-oversight.md) | draft | Substrate + docs CLI oversight — 2607.02389 (K138) |
 | [`tool-eval-license-skepticism-patterns`](concepts/tool-eval-license-skepticism-patterns.md) | draft | K73 license-eval anti-patterns (NO-LICENSE false negatives, BSL parsing) |
 | [`enterprise-auto-mode-telemetry-rollout`](concepts/enterprise-auto-mode-telemetry-rollout.md) | draft | Auto Mode policy rollout via telemetry loops (K73 Post 1) |
 | [`harness-de-bloat-4x4-pattern`](concepts/harness-de-bloat-4x4-pattern.md) | draft | 4-skills/4-agents simplification pattern (K73 Post 2) |
@@ -480,6 +481,8 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`brief-k136-agentic-orchestration-options-abpm-2026-07-01`](sources/brief-k136-agentic-orchestration-options-abpm-2026-07-01.md) | validated | K136 prod brief stub |
 | [`arxiv-automem-metamemory-cognitive-skill-2607.01224`](sources/arxiv-automem-metamemory-cognitive-skill-2607.01224.md) | draft | AutoMem metamemory — read (K137) |
 | [`brief-k137-automem-metamemory-cognitive-skill-2026-07-02`](sources/brief-k137-automem-metamemory-cognitive-skill-2026-07-02.md) | validated | K137 prod brief stub |
+| [`arxiv-steerability-via-constraints-coding-agent-oversight-2607.02389`](sources/arxiv-steerability-via-constraints-coding-agent-oversight-2607.02389.md) | draft | Steerability via constraints — read (K138) |
+| [`brief-k138-substrate-constraints-agent-oversight-2026-07-07`](sources/brief-k138-substrate-constraints-agent-oversight-2026-07-07.md) | validated | K138 prod brief stub |
 | [`brief-k109-bayesian-agent-harness-cluster-prod-2026-06-10`](sources/brief-k109-bayesian-agent-harness-cluster-prod-2026-06-10.md) | validated | K109 prod brief stub |
 | [`brief-k132-local-adoptions-cursor-federation-prod-2026-06-27`](sources/brief-k132-local-adoptions-cursor-federation-prod-2026-06-27.md) | validated | K132 prod brief stub |
 | [`brief-k122-k126-federation-cursor-harness-adoptions-2026-06-25`](sources/brief-k122-k126-federation-cursor-harness-adoptions-2026-06-25.md) | validated | K122–K126 federation batch brief stub |

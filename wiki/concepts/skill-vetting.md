@@ -108,9 +108,11 @@ related:
   - entities/patterns/full-prompt-goal-template.md
   - sources/brief-k126-nvidia-mattpocock-skills-adopt-2026-06-22.md
   - concepts/cognitive-heuristics-llm-vuln-detection.md
+  - concepts/substrate-constraints-coding-agent-oversight.md
+  - sources/arxiv-steerability-via-constraints-coding-agent-oversight-2607.02389.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-07-03
+updated: 2026-07-07
 ---
 
 ## Relations
@@ -168,9 +170,9 @@ Source: `@cybersecurity-wiki/sources/arxiv-prompt-injection-persistence-2606.044
 12. **Diverse-trace promotion (K124 / AFTER)** [TENTATIVE — arxiv-2606.23127] — before creating or promoting an **internal** skill (`entities/skills/` or `~/.claude/skills/`):
     - **NO-GO** if distilled from a **single session** or single model trace only.
     - **GO** only with ≥2 independent reuses (different sessions, tasks, or wikis) documented in `wiki/log.md` or skill page `## Raw Concept`.
-    - Prefer traces from **diverse** task families over narrow repo-specific overfitting.
+    - Prefer traces from **diverse** task families over narrow repo-specific overfitting. — before promoting harness changes that touch **generated code paths**, verify agent-touched files pass substrate stack (linter + types + contracts) and module-local `Invariants:` docstrings. Pairs with `@concepts/substrate-constraints-coding-agent-oversight.md` and `@concepts/agent-completion-verification-gates.md`. David checklist: `@cybersecurity-wiki/briefs/2026-07-07_harness-substrate-constraints-checklist.md`.
 
-13. **Selective crystallization (K124 / Metis)** [TENTATIVE — arxiv-2606.24151] — memory representation choice:
+14. **Selective crystallization (K124 / Metis)** [TENTATIVE — arxiv-2606.24151] — memory representation choice:
     - **Text memory (default):** keep reusable knowledge in `wiki/concepts/` or patterns; inject at runtime via read/search.
     - **Code memory (crystallize):** promote to SKILL.md or MCP tool only when step 12 pass **and** execution efficiency justifies construction cost.
     - Do not code-crystallize one-off ingest insights.

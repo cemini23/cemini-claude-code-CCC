@@ -113,9 +113,11 @@ related:
   - concepts/web-scale-scientific-collaboration-infrastructure.md
   - concepts/agentic-orchestration-options-abpm.md
   - sources/arxiv-agentic-orchestration-options-abpm-2606.31518.md
+  - concepts/substrate-constraints-coding-agent-oversight.md
+  - sources/arxiv-steerability-via-constraints-coding-agent-oversight-2607.02389.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-07-01
+updated: 2026-07-07
 ---
 
 ## Relations
@@ -176,6 +178,8 @@ User-authored agents inherit a similar surface unless explicitly restricted.
 ### When to dispatch
 
 **K136 OO mapping:** Single-session MCP work is **OO1** (process-agnostic agentic orchestration). Parallel Task fan-out with OpenSpec AC + hooks is **OO3** (orchestration of process-agnostic agents). Add explicit frame constraints to subagent prompts for **OO4**. See `@concepts/agentic-orchestration-options-abpm.md`.
+
+**K138 review subagents:** For code-audit fan-out, prefer **bounded AST projection** (`docs module` / `docs symbol` pattern) over dumping MCP tool payloads into reviewer context. Multi-pass per-function review for ≤8B reviewers — see `@concepts/substrate-constraints-coding-agent-oversight.md`.
 
 The dispatch decision reduces to: **does the subagent save the parent more tokens than its own setup costs?**
 

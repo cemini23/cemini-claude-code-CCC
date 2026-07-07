@@ -46,9 +46,11 @@ related:
   - sources/arxiv-agent-first-web-redesign-2606.19116.md
   - concepts/prompt-cache-aligned-context-management.md
   - sources/arxiv-tokenpilot-cache-efficient-context-2606.17016.md
+  - concepts/substrate-constraints-coding-agent-oversight.md
+  - sources/arxiv-steerability-via-constraints-coding-agent-oversight-2607.02389.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-21
+updated: 2026-07-07
 ---
 
 ## Relations
@@ -140,6 +142,10 @@ Cost optimization does not prevent **runtime coordination faults**. `@concepts/m
 - **Don't compress conversation history** — that's `@entities/tools/claude-mem.md`'s job (passive observation memory) and the harness's auto-summarization
 - **Don't free you from `/goal` discipline** — the goal-condition still has to be tight; cache savings on a wandering session still bill more than a focused session
 - **Don't replace context-engineering judgment** — see `@concepts/context-engineering.md` for the parent discipline
+
+### K138 — local code review vs MCP dumps [REFERENCE]
+
+arXiv **2607.02389** argues MCP-mediated retrieval can **saturate reviewer context** with raw payloads when auditing **developer-owned local repos**. Complement lazy-tool cost discipline with **projection CLI** (`docs module` / `docs symbol`) for review subagents — see `@concepts/substrate-constraints-coding-agent-oversight.md`. Lazy-tool remains correct for **untrusted remote MCP** discovery; projection CLI is for **in-repo** audit bundles.
 
 ## Dead Ends
 

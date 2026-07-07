@@ -16,9 +16,10 @@ related:
   - entities/tools/build-your-own-openclaw.md
   - entities/tools/agyn.md
   - sources/arxiv-agyn-agent-platform-2605.27575.md
+  - entities/tools/openshell.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-06-02
+updated: 2026-07-07
 cross-wiki-source: "@cybersecurity-wiki/concepts/agent-vm-sandboxing.md"
 ---
 

@@ -147,7 +147,7 @@ Paths below are relative to this CLAUDE.md file's directory. Resolve `../` again
 | `seo-wiki` | `../SEO:GEO B&M Business/wiki/` | Public | Local SEO, GBP, GEO/AEO, creator marketing skills |
 | `3d-printing-wiki` | `../3D printing/wiki/` | Public | FDM/FFF, Bambu, slicers, print farms |
 
-**Private:** `osint-wiki`, Cemini Financial Suite (`../CeminiSuite`). **Public:** this wiki (`ccc-wiki`) + six domain wikis (including `gambling-wiki`, `game-dev-wiki`). Federation table: `README.md`. Eval prompt: `prompts/deep-research-multi-wiki-eval-v8-2026-06-21.md`.
+**Private:** `osint-wiki`, Cemini Financial Suite (`../CeminiSuite`). **Public:** this wiki (`ccc-wiki`) + six domain wikis (including `gambling-wiki`, `game-dev-wiki`). Federation table: `README.md`. Eval prompt: `prompts/deep-research-multi-wiki-eval-v10-2026-07-06.md`.
 
 ### Cross-wiki link syntax
 

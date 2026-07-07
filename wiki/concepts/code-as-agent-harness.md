@@ -80,9 +80,11 @@ related:
   - sources/arxiv-paperclaw-autonomous-research-2606.22610.md
   - entities/tools/paperclaw.md
   - sources/brief-k116-orchrm-harnessx-llm-as-code-prod-2026-06-16.md
+  - concepts/substrate-constraints-coding-agent-oversight.md
+  - sources/arxiv-steerability-via-constraints-coding-agent-oversight-2607.02389.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-06-30
+updated: 2026-07-07
 cross-wiki-source: "@osint-wiki/sources/arxiv-code-as-agent-harness-survey-2605.18747.md"
 ---
 
@@ -126,6 +128,7 @@ arXiv:2605.18747 frames **code as operational substrate** — not only generated
 - **Executable** — every proposed action must resolve to a tool call the harness can run (or an explicit human approval gate per `@entities/patterns/tier1-tier2-agent-model.md`).
 - **Verifiable** — harness changes (new skills, MCP servers, hooks) pass `@concepts/skill-vetting.md` Phase-0 before adoption.
 - **Stateful** — durable state lives in git-tracked wiki + `hot.md` + stash/claude-mem; not only in the ephemeral context window.
+- **Substrate-enforced (K138)** — agent-generated code passes linter/type/contract stack and exposes module-local invariants for audit; see `@concepts/substrate-constraints-coding-agent-oversight.md`.
 
 ### Three complementary lenses (do not conflate)
 

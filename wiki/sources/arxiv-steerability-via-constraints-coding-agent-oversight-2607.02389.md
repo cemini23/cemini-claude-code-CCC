@@ -35,7 +35,7 @@ phase_0_verdict: "REFERENCE 2026-07-07 — ICML DL4Code workshop; no canonical p
 | **Venue** | Deep Learning for Code Workshop, ICML 2026, Seoul |
 | **arXiv** | 2607.02389 |
 | **Code** | Promised with experiment artifacts (`BACKDOORS.md`); **no public repo URL at Phase-0** |
-| **Location** | `cemini-egress-fi:/opt/cemini-bulk/research/ccc/arxiv-2607.02389-steerability-via-constraints-coding-agent-oversight.pdf` |
+| **Location** | `cemini-egress-fi:/opt/cemini-bulk/research/ccc/arxiv-2607.02389-2607-02389v1-steerability-via-constraints-a-subs.pdf` |
 | **Retrieved** | 2026-07-07 |
 | **Read status** | read (stance, system sketch, 2×2 backdoor experiment, OpenShell peer note) |
 

@@ -25,9 +25,12 @@ related:
   - concepts/safeclawbench-staged-security-endpoints.md
   - sources/arxiv-safeclawbench-staged-agent-security-2606.18356.md
   - meta/ccc-cross-wiki-handoff-briefs.md
+  - concepts/substrate-constraints-coding-agent-oversight.md
+  - sources/arxiv-steerability-via-constraints-coding-agent-oversight-2607.02389.md
+  - entities/tools/openshell.md
 maturity: draft
 created: 2026-06-04
-updated: 2026-06-29
+updated: 2026-07-07
 cross-wiki-source: "@osint-wiki/concepts/seclaw-agent-security-evaluation.md"
 ---
 
@@ -66,6 +69,7 @@ arXiv 2606.02302 (K98 inbox): **spec-driven security task synthesis** + docker t
 | vs defenseclaw | SeClaw = benchmark; defenseclaw = runtime gate — complementary |
 | vs HarnessFix (2606.06324) | SeClaw scores **security** trajectories; HarnessFix repairs **reliability** harness flaws — both reject final-answer-only eval |
 | vs MCP fault taxonomy (2606.05339) | Taxonomy's **Security** category (54 threads) + 27 subcategories define fault-injection fixtures; SeClaw scores agent trajectories against injected faults — complementary test design |
+| vs substrate constraints (2607.02389) | SeClaw = trajectory security scoring; K138 = **code-shape** substrate making weak reviewers effective — use both in Tier-2 promotion |
 
 **Do not** conflate with EMS/trading RBAC audits (OSINT `@concepts/ems-execution-security-gaps.md` scope).
 

@@ -12,9 +12,10 @@ related:
   - concepts/agent-vm-sandboxing.md
   - concepts/agent-sandbox-unikraft.md
   - entities/tools/fara.md
+  - entities/tools/openshell.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-06-24
+updated: 2026-07-07
 ---
 
 ## Relations
