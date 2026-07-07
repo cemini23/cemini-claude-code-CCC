@@ -37,9 +37,10 @@ related:
   - concepts/recoverable-tool-reliability-hazards.md
   - concepts/metamemory-scaffold-proficiency-training.md
   - sources/arxiv-automem-metamemory-cognitive-skill-2607.01224.md
+  - concepts/agentic-online-rl-self-evolving-systems.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-07-02
+updated: 2026-07-07
 ---
 
 ## Relations

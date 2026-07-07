@@ -115,6 +115,7 @@ related:
   - sources/arxiv-agentic-orchestration-options-abpm-2606.31518.md
   - concepts/substrate-constraints-coding-agent-oversight.md
   - sources/arxiv-steerability-via-constraints-coding-agent-oversight-2607.02389.md
+  - concepts/client-as-first-order-harness-factor.md
 maturity: validated
 created: 2026-05-13
 updated: 2026-07-07

@@ -23,6 +23,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`tech-debt-skill`](entities/tools/tech-debt-skill.md) | validated | Whole-repo audit skill (Cemini's first installed third-party skill) |
 | [`cua`](entities/tools/cua.md) | draft | M-series Mac VM sandbox for Tier-2 isolation |
 | [`openshell`](entities/tools/openshell.md) | draft | NVIDIA agent runtime peer — REFERENCE (K138, Apache-2.0) |
+| [`areal`](entities/tools/areal.md) | draft | Online-RL bridge for LLM agents — REFERENCE/WATCH (K139, Apache-2.0) |
 | [`claude-code-ultimate-guide`](entities/tools/claude-code-ultimate-guide.md) | draft | 24k-line CC reference + 28-CVE catalog + 655 malicious-skill patterns |
 | [`claude-for-legal`](entities/tools/claude-for-legal.md) | draft | Anthropic-official legal-vertical plugin suite; STEAL-FROM 4 patterns (managed-agent cookbooks, cold-start interviews, Trust Layer, MCP connectors) |
 | [`skillkit`](entities/tools/skillkit.md) | draft | Cross-agent skill translation/management bridge; ships `@skillkit/mcp` runtime-discovery server — ADOPT |
@@ -272,6 +273,9 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`metamemory-scaffold-proficiency-training`](concepts/metamemory-scaffold-proficiency-training.md) | draft | AutoMem metamemory loops — 2607.01224 (K137) |
 | [`cognitive-heuristics-llm-vuln-detection`](concepts/cognitive-heuristics-llm-vuln-detection.md) | draft | Cognitive bias in LLM scanners — cybersec stub (2606.30587) |
 | [`substrate-constraints-coding-agent-oversight`](concepts/substrate-constraints-coding-agent-oversight.md) | draft | Substrate + docs CLI oversight — 2607.02389 (K138) |
+| [`agentic-online-rl-self-evolving-systems`](concepts/agentic-online-rl-self-evolving-systems.md) | draft | ATDP / data-proxy / evolution control plane — 2607.01120 (K139) |
+| [`client-as-first-order-harness-factor`](concepts/client-as-first-order-harness-factor.md) | draft | Same model, 2.1× gap by client — 2607.02873 (K140) |
+| [`model-native-vs-tool-mediated-fulfillment`](concepts/model-native-vs-tool-mediated-fulfillment.md) | draft | Harness design axis; minimize lossy hops — 2606.31693 (K141) |
 | [`tool-eval-license-skepticism-patterns`](concepts/tool-eval-license-skepticism-patterns.md) | draft | K73 license-eval anti-patterns (NO-LICENSE false negatives, BSL parsing) |
 | [`enterprise-auto-mode-telemetry-rollout`](concepts/enterprise-auto-mode-telemetry-rollout.md) | draft | Auto Mode policy rollout via telemetry loops (K73 Post 1) |
 | [`harness-de-bloat-4x4-pattern`](concepts/harness-de-bloat-4x4-pattern.md) | draft | 4-skills/4-agents simplification pattern (K73 Post 2) |
@@ -483,6 +487,10 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`brief-k137-automem-metamemory-cognitive-skill-2026-07-02`](sources/brief-k137-automem-metamemory-cognitive-skill-2026-07-02.md) | validated | K137 prod brief stub |
 | [`arxiv-steerability-via-constraints-coding-agent-oversight-2607.02389`](sources/arxiv-steerability-via-constraints-coding-agent-oversight-2607.02389.md) | draft | Steerability via constraints — read (K138) |
 | [`brief-k138-substrate-constraints-agent-oversight-2026-07-07`](sources/brief-k138-substrate-constraints-agent-oversight-2026-07-07.md) | validated | K138 prod brief stub |
+| [`arxiv-next-gen-agentic-rl-self-evolving-2607.01120`](sources/arxiv-next-gen-agentic-rl-self-evolving-2607.01120.md) | draft | AReaL self-evolving agentic RL — read (K139) |
+| [`brief-k139-agentic-online-rl-self-evolving-2026-07-07`](sources/brief-k139-agentic-online-rl-self-evolving-2026-07-07.md) | validated | K139 prod brief stub |
+| [`brief-k140-hexstrike-client-orchestration-2026-07-07`](sources/brief-k140-hexstrike-client-orchestration-2026-07-07.md) | validated | K140 HexStrike handoff brief stub |
+| [`arxiv-shopx-intent-to-item-fulfillment-2606.31693`](sources/arxiv-shopx-intent-to-item-fulfillment-2606.31693.md) | draft | ShopX model-native fulfillment — skimmed (K141) |
 | [`brief-k109-bayesian-agent-harness-cluster-prod-2026-06-10`](sources/brief-k109-bayesian-agent-harness-cluster-prod-2026-06-10.md) | validated | K109 prod brief stub |
 | [`brief-k132-local-adoptions-cursor-federation-prod-2026-06-27`](sources/brief-k132-local-adoptions-cursor-federation-prod-2026-06-27.md) | validated | K132 prod brief stub |
 | [`brief-k122-k126-federation-cursor-harness-adoptions-2026-06-25`](sources/brief-k122-k126-federation-cursor-harness-adoptions-2026-06-25.md) | validated | K122–K126 federation batch brief stub |

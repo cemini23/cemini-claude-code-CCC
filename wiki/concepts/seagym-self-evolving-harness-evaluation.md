@@ -12,9 +12,11 @@ related:
   - concepts/agent-completion-verification-gates.md
   - concepts/gatekeeper-layered-agent-evaluation.md
   - sources/brief-k117-memory-seagym-finacumen-prod-2026-06-17.md
+  - concepts/agentic-online-rl-self-evolving-systems.md
+  - sources/arxiv-next-gen-agentic-rl-self-evolving-2607.01120.md
 maturity: draft
 created: 2026-06-17
-updated: 2026-06-30
+updated: 2026-07-07
 ---
 
 ## Relations

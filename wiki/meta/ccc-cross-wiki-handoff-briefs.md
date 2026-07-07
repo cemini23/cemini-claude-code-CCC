@@ -21,9 +21,11 @@ related:
   - briefs/2026-07-03_ccc-handoff-cognitive-heuristics-vuln-detection-ingest.md
   - briefs/2026-07-04_ccc-handoff-hcp-execution-control-ingest.md
   - briefs/2026-07-07_ccc-handoff-steerability-substrate-ingest.md
+  - briefs/2026-07-07_ccc-handoff-hexstrike-client-orchestration-ingest.md
   - concepts/confidence-aware-tool-orchestration.md
   - concepts/cognitive-heuristics-llm-vuln-detection.md
   - concepts/substrate-constraints-coding-agent-oversight.md
+  - concepts/client-as-first-order-harness-factor.md
 maturity: validated
 created: 2026-06-29
 updated: 2026-07-07

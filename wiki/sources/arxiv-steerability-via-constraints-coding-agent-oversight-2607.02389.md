@@ -12,6 +12,11 @@ related:
   - concepts/seclaw-agent-security-evaluation.md
   - entities/skills/super-audit.md
   - sources/brief-k138-substrate-constraints-agent-oversight-2026-07-07.md
+  - concepts/subagent-orchestration.md
+  - concepts/etclovg-harness-layers.md
+  - concepts/code-as-agent-harness.md
+  - entities/tools/lazy-tool.md
+  - briefs/2026-07-07_ccc-handoff-steerability-substrate-ingest.md
   - "@cybersecurity-wiki/sources/arxiv-2607-02389-steerability-constraints-coding-agent-oversight.md"
   - "@cybersecurity-wiki/concepts/substrate-constraints-coding-agent-oversight.md"
 maturity: draft

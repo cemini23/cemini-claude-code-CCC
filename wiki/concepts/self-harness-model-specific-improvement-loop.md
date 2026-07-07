@@ -17,9 +17,12 @@ related:
   - concepts/harnessx-composable-evolution-foundry.md
   - concepts/seagym-self-evolving-harness-evaluation.md
   - sources/arxiv-seagym-self-evolving-harness-eval-2606.17546.md
+  - concepts/agentic-online-rl-self-evolving-systems.md
+  - entities/tools/areal.md
+  - sources/arxiv-next-gen-agentic-rl-self-evolving-2607.01120.md
 maturity: draft
 created: 2026-06-11
-updated: 2026-06-17
+updated: 2026-07-07
 ---
 
 ## Relations

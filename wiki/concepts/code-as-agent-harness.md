@@ -82,6 +82,9 @@ related:
   - sources/brief-k116-orchrm-harnessx-llm-as-code-prod-2026-06-16.md
   - concepts/substrate-constraints-coding-agent-oversight.md
   - sources/arxiv-steerability-via-constraints-coding-agent-oversight-2607.02389.md
+  - concepts/client-as-first-order-harness-factor.md
+  - concepts/model-native-vs-tool-mediated-fulfillment.md
+  - sources/arxiv-shopx-intent-to-item-fulfillment-2606.31693.md
 maturity: draft
 created: 2026-05-21
 updated: 2026-07-07

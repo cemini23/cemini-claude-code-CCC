@@ -20,6 +20,8 @@ related:
   - "@cybersecurity-wiki/concepts/substrate-constraints-coding-agent-oversight.md"
   - "@cybersecurity-wiki/sources/arxiv-2607-02389-steerability-constraints-coding-agent-oversight.md"
   - meta/ccc-cross-wiki-handoff-briefs.md
+  - concepts/client-as-first-order-harness-factor.md
+  - concepts/model-native-vs-tool-mediated-fulfillment.md
 maturity: draft
 created: 2026-07-07
 updated: 2026-07-07

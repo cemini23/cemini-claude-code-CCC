@@ -16,6 +16,18 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-07-07] ingest | Agentic online-RL + HexStrike + ShopX (K139–K141)
+
+- **K139 — AReaL / next-gen agentic RL (2607.01120, Ant Group):** self-evolving agents bottlenecked by online-RL systems (ATDP / data proxy / evolution control plane), not RL algos. CCC-primary.
+  - Created `concepts/agentic-online-rl-self-evolving-systems.md`, `entities/tools/areal.md`, `sources/arxiv-next-gen-agentic-rl-self-evolving-2607.01120.md`, `sources/brief-k139-...`, `briefs/2026-07-07_k139-agentic-online-rl-self-evolving-prod.md`, `scripts/adopt_k139_phase0.sh`. Verdict **REFERENCE/WATCH** (Apache-2.0, no local RL).
+- **K140 — HexStrike-AI orchestration (2607.02873, USTC):** driving client is first-order (2.1× gap, same model); solve 55.4%→72.0% via harness fixes. **Cybersec-primary**, CCC harness stub.
+  - Created `concepts/client-as-first-order-harness-factor.md`, `briefs/2026-07-07_ccc-handoff-hexstrike-client-orchestration-ingest.md`, `sources/brief-k140-...`. Cybersec: source + `concepts/security-tool-orchestration-determinants.md` + lab checklist brief.
+- **K141 — ShopX (2606.31693, Taobao):** model-native vs tool-mediated fulfillment harness lesson. Off-domain e-commerce; **REFERENCE** only.
+  - Created `concepts/model-native-vs-tool-mediated-fulfillment.md`, `sources/arxiv-shopx-intent-to-item-fulfillment-2606.31693.md`.
+- **Wired:** continual-harness cluster, harness-layer-competition, code-as-agent-harness, mcp-context-optimization, subagent-orchestration, etclovg, meta handoff briefs, index.
+- **Archive:** AReaL + ShopX → egress-fi `ccc/`; HexStrike → egress-fi `cybersec/`.
+- **Cross-wiki:** cybersec `@cybersecurity-wiki/concepts/security-tool-orchestration-determinants.md` (bidirectional).
+
 ## [2026-07-07] ingest | Steerability via constraints — coding-agent oversight (K138)
 
 - **Source:** arXiv 2607.02389 — substrate constraints + ~200 LoC docs CLI; backdoor recall 54.5% → 90.9%

@@ -38,9 +38,12 @@ related:
   - concepts/procedural-memory-transfer-after.md
   - sources/arxiv-metis-text-code-memory-2606.24151.md
   - sources/arxiv-procedural-memory-after-2606.23127.md
+  - concepts/agentic-online-rl-self-evolving-systems.md
+  - entities/tools/areal.md
+  - sources/arxiv-next-gen-agentic-rl-self-evolving-2607.01120.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-06-24
+updated: 2026-07-07
 cross-wiki-source: "@osint-wiki/concepts/continual-harness-online-self-improvement.md"
 ---
 
