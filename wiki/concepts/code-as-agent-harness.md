@@ -85,9 +85,11 @@ related:
   - concepts/client-as-first-order-harness-factor.md
   - concepts/model-native-vs-tool-mediated-fulfillment.md
   - sources/arxiv-shopx-intent-to-item-fulfillment-2606.31693.md
+  - concepts/algorithmic-impermeability-model-agnostic-orchestration.md
+  - sources/arxiv-large-cancer-assistant-lca-2607.06531.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-07-07
+updated: 2026-07-09
 cross-wiki-source: "@osint-wiki/sources/arxiv-code-as-agent-harness-survey-2605.18747.md"
 ---
 
@@ -132,6 +134,7 @@ arXiv:2605.18747 frames **code as operational substrate** — not only generated
 - **Verifiable** — harness changes (new skills, MCP servers, hooks) pass `@concepts/skill-vetting.md` Phase-0 before adoption.
 - **Stateful** — durable state lives in git-tracked wiki + `hot.md` + stash/claude-mem; not only in the ephemeral context window.
 - **Substrate-enforced (K138)** — agent-generated code passes linter/type/contract stack and exposes module-local invariants for audit; see `@concepts/substrate-constraints-coding-agent-oversight.md`.
+- **Impermeable orchestration (K150)** — routing/orchestration independent of model weights; SIP at volatile boundaries — see `@concepts/algorithmic-impermeability-model-agnostic-orchestration.md`.
 
 ### Three complementary lenses (do not conflate)
 

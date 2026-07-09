@@ -54,9 +54,10 @@ related:
   - sources/arxiv-steerability-via-constraints-coding-agent-oversight-2607.02389.md
   - concepts/agentic-online-rl-self-evolving-systems.md
   - concepts/client-as-first-order-harness-factor.md
+  - concepts/agent-data-injection-attacks.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-07-07
+updated: 2026-07-09
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-25-2026-05-27.md"
 ---
 

@@ -8,10 +8,12 @@ related:
   - concepts/subagent-orchestration.md
   - concepts/specification-driven-scientific-workflow-management.md
   - concepts/cross-wiki-routing.md
+  - concepts/algorithmic-impermeability-model-agnostic-orchestration.md
+  - sources/arxiv-large-cancer-assistant-lca-2607.06531.md
 maturity: draft
 read_status: read
 created: 2026-06-24
-updated: 2026-06-24
+updated: 2026-07-09
 ---
 
 ## Relations

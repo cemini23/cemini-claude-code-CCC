@@ -15,9 +15,10 @@ related:
   - "@cybersecurity-wiki/sources/arxiv-2607-02873-hexstrike-security-tool-orchestration.md"
   - meta/ccc-cross-wiki-handoff-briefs.md
   - sources/brief-k140-hexstrike-client-orchestration-2026-07-07.md
+  - concepts/algorithmic-impermeability-model-agnostic-orchestration.md
 maturity: draft
 created: 2026-07-07
-updated: 2026-07-07
+updated: 2026-07-09
 cross-wiki-primary: "@cybersecurity-wiki/concepts/security-tool-orchestration-determinants.md"
 ---
 

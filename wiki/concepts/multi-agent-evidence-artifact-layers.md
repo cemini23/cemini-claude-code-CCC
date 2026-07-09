@@ -13,9 +13,11 @@ related:
   - sources/brief-k124-harness-policy-hands-on-2026-06-24.md
   - concepts/web-scale-scientific-collaboration-infrastructure.md
   - sources/arxiv-clarus-scientific-collaboration-infrastructure-2606.30246.md
+  - concepts/algorithmic-impermeability-model-agnostic-orchestration.md
+  - sources/arxiv-large-cancer-assistant-lca-2607.06531.md
 maturity: draft
 created: 2026-06-24
-updated: 2026-06-30
+updated: 2026-07-09
 ---
 
 ## Relations
@@ -38,6 +40,8 @@ From **BioInsight** (2606.20997) — three-layer decomposition applicable beyond
 | **Interface** | Render explorable artifact | Canvas (`.canvas.tsx`), structured briefs |
 
 **Steal-from for CCC ingest:** typed intermediate artifacts (source page draft, entity stubs, lint matrix) before final narrative — mirrors BioInsight's separation of retrieval from reasoning from presentation.
+
+**K150 SIP:** LCA's Standardized Intermediate Payload is the clinical-domain instance of the same boundary — typed payload between orchestration and volatile downstream (`@concepts/algorithmic-impermeability-model-agnostic-orchestration.md`).
 
 **Verdict:** **REFERENCE** pattern — domain-specific biomedical tooling **NO-GO** for CCC prod.
 

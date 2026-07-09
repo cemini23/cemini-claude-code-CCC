@@ -8,6 +8,7 @@ related:
   - "@cybersecurity-wiki/sources/arxiv-2607-05120-agent-data-injection-attacks.md"
   - concepts/agent-completion-verification-gates.md
   - briefs/2026-07-09_ccc-handoff-adi-spellsmith-ingest.md
+  - meta/ccc-cross-wiki-handoff-briefs.md
 maturity: draft
 created: 2026-07-09
 updated: 2026-07-09

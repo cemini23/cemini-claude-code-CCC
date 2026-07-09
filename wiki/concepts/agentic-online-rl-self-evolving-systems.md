@@ -14,9 +14,11 @@ related:
   - concepts/etclovg-harness-layers.md
   - concepts/agent-completion-verification-gates.md
   - sources/brief-k139-agentic-online-rl-self-evolving-2026-07-07.md
+  - concepts/algorithmic-impermeability-model-agnostic-orchestration.md
+  - sources/arxiv-large-cancer-assistant-lca-2607.06531.md
 maturity: draft
 created: 2026-07-07
-updated: 2026-07-07
+updated: 2026-07-09
 ---
 
 ## Relations
@@ -49,6 +51,8 @@ The control plane must choose between **updating policy weights** (RL fine-tune)
 1. **ATDP discipline** — even without training, log trajectories with **step-level outcome signals** (which tool call advanced the goal), not just prompt/completion dumps. Sharpens HarnessFix root-cause and completion-gate diagnosis.
 2. **Trigger from statistics** — decide harness edits from **trajectory statistics** (repeated failure signatures), not vibes — pairs with `@concepts/failed-trajectory-harness-repair.md`.
 3. **Governed substrate** — keep the egress-fi archive + ingest provenance as the "data proxy" governance layer if a weight-side loop is ever built on `cemini-prod`.
+
+4. **Impermeable routing (K150)** — evolution control plane must keep **orchestration routing invariant** when policy weights swap — pairs with `@concepts/algorithmic-impermeability-model-agnostic-orchestration.md`.
 
 ### Where it sits in ETCLOVG
 

@@ -16,6 +16,16 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+---
+
+## [2026-07-09] ingest | LCA algorithmic impermeability (K150)
+
+- **Source:** arXiv 2607.06531 — Large Cancer Assistant; model-agnostic orchestration via algorithmic impermeability, SIP, SDR. **Clinical off-domain**; harness patterns only.
+- **Created:** `concepts/algorithmic-impermeability-model-agnostic-orchestration.md`, `sources/arxiv-large-cancer-assistant-lca-2607.06531.md`, `sources/brief-k150-...`, `briefs/2026-07-09_k150-algorithmic-impermeability-orchestration-prod.md`, `scripts/adopt_k150_phase0.sh`
+- **Updated:** handoff-validity, multi-agent-evidence-artifact-layers, model-native-vs-tool-mediated, agentic-online-rl, code-as-agent-harness, subagent-orchestration, bioinsight source, index
+- **Verdict:** REFERENCE — no public repo; no David/TipDrop adoption
+- **Archive:** `cemini-egress-fi:.../arxiv-2607.06531-...pdf`
+
 ## [2026-07-07] ingest | Agentic online-RL + HexStrike + ShopX (K139–K141)
 
 - **K139 — AReaL / next-gen agentic RL (2607.01120, Ant Group):** self-evolving agents bottlenecked by online-RL systems (ATDP / data proxy / evolution control plane), not RL algos. CCC-primary.
@@ -1225,3 +1235,7 @@ Cross-wiki stub routed from `@osint-wiki/sources/substack-rss-addy-osmani-2026-0
 
 Cross-wiki stub routed from `@osint-wiki/sources/newsletter-rss-latent-space-2026-07-07-ainews-the-field-guide-to-fable.md`.
 - Created wiki/sources/newsletter-rss-latent-space-2026-07-07-ainews-the-field-guide-to-fable.md (stub)
+
+## [2026-07-08] cross-wiki | K149 ccc
+
+- Lilian Weng harness + context-engineering integrate briefs

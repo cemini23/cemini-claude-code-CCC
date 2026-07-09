@@ -40,9 +40,10 @@ related:
   - concepts/web-scale-scientific-collaboration-infrastructure.md
   - sources/brief-k117-memory-seagym-finacumen-prod-2026-06-17.md
   - sources/brief-k119-agent-first-web-eda-handoff-prod-2026-06-19.md
+  - sources/arxiv-large-cancer-assistant-lca-2607.06531.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-30
+updated: 2026-07-09
 ---
 
 ## Relations

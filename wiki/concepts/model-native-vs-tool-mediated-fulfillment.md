@@ -9,9 +9,11 @@ related:
   - concepts/mcp-context-optimization.md
   - concepts/substrate-constraints-coding-agent-oversight.md
   - entities/tools/lazy-tool.md
+  - concepts/algorithmic-impermeability-model-agnostic-orchestration.md
+  - sources/arxiv-large-cancer-assistant-lca-2607.06531.md
 maturity: draft
 created: 2026-07-07
-updated: 2026-07-07
+updated: 2026-07-09
 ---
 
 ## Relations
@@ -32,6 +34,7 @@ K141 arXiv **2606.31693** (ShopX) contrasts **model-native** execution (action s
 |----------|-----------|------|
 | **Tool-mediated** | LLM ↔ MCP/tool interfaces; each hop serializes intent through a narrow API | Lossy hand-offs; context saturation (`@concepts/mcp-context-optimization.md`) |
 | **Model-native** | Action space + execution primitives inside the model via an action protocol | Fewer hand-offs; but requires training the action space in — no drop-in for closed models |
+| **Impermeable orchestration** (K150) | Routing/orchestration strictly outside model; SIP boundary payload | Model swap without re-wiring routes — `@concepts/algorithmic-impermeability-model-agnostic-orchestration.md` |
 
 ### CCC read [TENTATIVE]
 

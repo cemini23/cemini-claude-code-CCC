@@ -33,9 +33,11 @@ related:
   - sources/arxiv-agentic-orchestration-options-abpm-2606.31518.md
   - sources/arxiv-clarus-scientific-collaboration-infrastructure-2606.30246.md
   - sources/brief-k119-agent-first-web-eda-handoff-prod-2026-06-19.md
+  - concepts/algorithmic-impermeability-model-agnostic-orchestration.md
+  - sources/arxiv-large-cancer-assistant-lca-2607.06531.md
 maturity: draft
 created: 2026-06-19
-updated: 2026-06-30
+updated: 2026-07-09
 ---
 
 ## Relations
@@ -66,6 +68,8 @@ When an agent passes work to another agent, tool, or session — what makes the 
 | Handoff contract | Acceptance criteria in `/goal`, OpenSpec AC, ingest "touch 3–15 pages" |
 | Evidence | Test output, `wiki_lint.py` pass, Phase-0 script verdict |
 | Coordination mechanism | Generate–repair (lint loop); recover–resume (`hot.md` + git); retrieve–answer (conductor) |
+
+**K150 SIP:** LCA's Standardized Intermediate Payload is a handoff contract between orchestration and volatile downstream — model swaps must not change the SIP shape (`@concepts/algorithmic-impermeability-model-agnostic-orchestration.md`). **SDR** = explicit supplementary-data request when handoff object is incomplete (not silent failure).
 
 ### Three validity scopes → Cemini mapping
 

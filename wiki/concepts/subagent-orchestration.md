@@ -116,9 +116,11 @@ related:
   - concepts/substrate-constraints-coding-agent-oversight.md
   - sources/arxiv-steerability-via-constraints-coding-agent-oversight-2607.02389.md
   - concepts/client-as-first-order-harness-factor.md
+  - concepts/algorithmic-impermeability-model-agnostic-orchestration.md
+  - sources/arxiv-large-cancer-assistant-lca-2607.06531.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-07-07
+updated: 2026-07-09
 ---
 
 ## Relations
@@ -181,6 +183,8 @@ User-authored agents inherit a similar surface unless explicitly restricted.
 **K136 OO mapping:** Single-session MCP work is **OO1** (process-agnostic agentic orchestration). Parallel Task fan-out with OpenSpec AC + hooks is **OO3** (orchestration of process-agnostic agents). Add explicit frame constraints to subagent prompts for **OO4**. See `@concepts/agentic-orchestration-options-abpm.md`.
 
 **K138 review subagents:** For code-audit fan-out, prefer **bounded AST projection** (`docs module` / `docs symbol` pattern) over dumping MCP tool payloads into reviewer context. Multi-pass per-function review for ≤8B reviewers — see `@concepts/substrate-constraints-coding-agent-oversight.md`.
+
+**K150 impermeability:** Subagent role maps and conductor routes should stay **invariant when the underlying model slug changes** — return SIP-shaped typed summaries, not model-specific prose (`@concepts/algorithmic-impermeability-model-agnostic-orchestration.md`).
 
 The dispatch decision reduces to: **does the subagent save the parent more tokens than its own setup costs?**
 
