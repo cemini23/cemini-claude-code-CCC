@@ -12,6 +12,8 @@ related:
   - concepts/cage-1-enterprise-agent-governance-eval.md
   - sources/brief-k152-polyworkbench-multilingual-agent-eval-2026-07-10.md
   - briefs/2026-07-10_ccc-handoff-cage-polyworkbench-ingest.md
+  - "@cybersecurity-wiki/concepts/multilingual-long-horizon-agent-evaluation.md"
+  - "@cybersecurity-wiki/sources/arxiv-2607-06008-polyworkbench-multilingual-long-horizon.md"
 maturity: draft
 created: 2026-07-10
 updated: 2026-07-10
