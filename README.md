@@ -59,7 +59,7 @@ Full ingest workflow in `CLAUDE.md` § Operations.
 
 **Privacy:** **`ccc-wiki` is public** (this repository). **`osint-wiki`** and **Cemini Financial Suite** are private — cross-wiki links to them appear in prose but those repos are not public deliverables.
 
-**Canonical prompt:** [prompts/deep-research-multi-wiki-eval-v10-2026-07-06.md](prompts/deep-research-multi-wiki-eval-v10-2026-07-06.md) — revenue-first URL evaluation across ten surfaces (active prod bots, TipDrop.io, shipped OSS); Gemini Deep Research + Cursor revenue-path validation.
+**Canonical prompt:** [prompts/deep-research-multi-wiki-eval-v10-2026-07-06.md](prompts/deep-research-multi-wiki-eval-v10-2026-07-06.md) — revenue-first URL evaluation; co-primary projects include family-tree/genealogy (castle-sim deprioritized), TipDrop.io, XSP, poker arena, CeminiDFS.
 
 ## Related
 

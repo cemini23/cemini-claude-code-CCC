@@ -62,6 +62,14 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 - **Archive:** `cemini-egress-fi:/opt/cemini-bulk/research/ccc/arxiv-2607.02389-2607-02389v1-steerability-via-constraints-a-subs.pdf`
 - **Cross-wiki:** cybersec primary `@cybersecurity-wiki/concepts/substrate-constraints-coding-agent-oversight.md`
 
+## [2026-07-10] prompt | v10.1 family-tree replaces castle-sim
+
+- **Updated:** `prompts/deep-research-multi-wiki-eval-v10-2026-07-06.md` + gemini-runtime — co-primary #4 = **family-tree / computational genealogy** (`Desktop/family/`, OSINT K153/K154)
+- **Demoted:** castle-sim → legacy deprioritized
+- **Added:** `genealogy overlap` field (8 modules); value hypothesis for personal projects
+- **Context:** OSINT session 2026-07-09 — K153/K154 ingest; private Barone pedigree sprint
+- **Updated:** `deep-research-evaluation-prompt`, `cross-wiki-routing`
+
 ## [2026-07-06] prompt | v10 revenue-first link evaluation lens
 
 - **Created:** `prompts/deep-research-multi-wiki-eval-v10-2026-07-06.md` + `v10-gemini-runtime.md` — supersedes v9 for day-to-day use

@@ -1,6 +1,6 @@
 # TipDrop / Discord alerts / StockTips — Batch B (20 URLs)
 
-**Paste into Gemini:** `deep-research-multi-wiki-eval-v9-gemini-runtime.md` + this URL block.
+**Paste into Gemini:** `deep-research-multi-wiki-eval-v10-gemini-runtime.md` + this URL block.
 
 **Theme:** DiscordMonitor clones + DiscordAlerts + unrelated tipdrop name collisions + StockTips apps. Watch for **self-bot / ToS violations** → Reject tier.
 

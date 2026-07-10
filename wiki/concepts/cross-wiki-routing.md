@@ -81,7 +81,7 @@ The federation has **eight domain wikis** + private Cemini Financial Suite (CCC 
 | `3d-printing-wiki` | FDM/FFF printing, slicers, store ops |
 | `game-dev-wiki` | Hobby game dev — castle/RTS research, Godot/engine evals, vertical slices (public) |
 
-**Bulk eval routing:** `@concepts/deep-research-evaluation-prompt.md` (v10 at `prompts/deep-research-multi-wiki-eval-v10-2026-07-06.md`) — revenue-first lens; surface 1 = active prod bots; surface 10 = TipDrop.io; gambling-wiki = surface 3; game-dev-wiki = surface 8; osint = bots/LP + XSP research; shipped OSS overlap fields.
+**Bulk eval routing:** `@concepts/deep-research-evaluation-prompt.md` (v10 at `prompts/deep-research-multi-wiki-eval-v10-2026-07-06.md`) — revenue-first lens; co-primary includes **family-tree** (genealogy overlap); castle-sim legacy; surface 10 = TipDrop.io.
 
 Every wiki's CLAUDE.md has a "Related Wikis" table listing siblings with relative paths. The lint scripts parse this table to resolve `@<alias>/path` references.
 

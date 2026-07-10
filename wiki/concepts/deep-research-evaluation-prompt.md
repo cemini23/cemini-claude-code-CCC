@@ -2,7 +2,7 @@
 title: Deep research multi-wiki evaluation prompt — version lineage
 type: concept
 tags: [concept, prompt, gemini-deep-research, tool-evaluation, multi-wiki, cursor, claude-code]
-keywords: [v3, v4, v5, v6, v7, v8, v9, v10, ten surfaces, game-dev-wiki, gambling-wiki, CCC wiki, tier classification, anti-hallucination, cross-wiki routing, revenue lens, world-cup-bot, wc-ticket-monitor, CeminiDFS, federation-hub, xsp-killer, poker-arena, tipdrop, castle-sim]
+keywords: [v3, v4, v5, v6, v7, v8, v9, v10, ten surfaces, game-dev-wiki, gambling-wiki, CCC wiki, tier classification, anti-hallucination, cross-wiki routing, revenue lens, genealogy, family-tree, world-cup-bot, wc-ticket-monitor, CeminiDFS, federation-hub, xsp-killer, poker-arena, tipdrop]
 related:
   - concepts/cursor-ide-workspace.md
   - concepts/cross-wiki-routing.md
@@ -15,10 +15,14 @@ related:
   - sources/multi-wiki-tool-eval-v6-k90-2026-05-31.md
   - @osint-wiki/concepts/game-dev-wiki-federation.md
   - concepts/multi-agent-evidence-artifact-layers.md
+  - "@osint-wiki/concepts/computational-genealogy-archival-automation.md"
+  - "@osint-wiki/concepts/italian-regional-genealogy-archive-playbook.md"
+  - "@osint-wiki/concepts/active-project-research-routing.md"
+  - "@osint-wiki/concepts/tool-evaluation-framework.md"
   - entities/tools/awesome-agent-engineering.md
 maturity: validated
 created: 2026-05-21
-updated: 2026-07-06
+updated: 2026-07-10
 ---
 
 ## Relations
@@ -30,9 +34,8 @@ updated: 2026-07-06
 - `@entities/tools/conductor-mcp.md` — cross-wiki query
 - `@entities/mcp-servers/librarian-kb-server.md` — wiki serving
 - `@entities/tools/claude-code.md` — secondary harness (v4)
-- `@osint-wiki/sources/multi-wiki-gemini-eval-prompt-2026-05-12.md` — v2 archive on OSINT wiki
+- `@osint-wiki/concepts/active-project-research-routing.md` — ingest brief routing (K156 family-tree pivot)
 - `@osint-wiki/concepts/tool-evaluation-framework.md` — methodology (bidirectional)
-- `@osint-wiki/concepts/game-dev-wiki-federation.md` — K115 federation + game-dev surface 8
 
 ## Raw Concept
 
@@ -40,7 +43,7 @@ Question: **Where is the canonical copy-paste prompt for bulk URL / repo evaluat
 
 ## Narrative
 
-Bulk tool evaluation uses **ten surfaces** (Cemini **active prod bots** — XSP killer, poker arena, PM/Kalshi exploratory — + seven specialist wikis including **gambling-wiki** and **game-dev-wiki** + **CCC wiki** as harness meta + **TipDrop.io** friend project). There is **no** separate Cursor wiki — Cursor operational detail lives in CCC surface 9. Legacy MAPPO/Riskfolio/conductor equity stack is **deprioritized** (v9, 2026-06-28).
+Bulk tool evaluation uses **ten surfaces** (Cemini **active prod bots** — XSP killer, poker arena, PM/Kalshi exploratory — + seven specialist wikis including **gambling-wiki** and **game-dev-wiki** + **CCC wiki** as harness meta + **TipDrop.io** friend project). Co-primary hobby slot (Jul 2026): **family-tree / computational genealogy** (`Desktop/family/`, OSINT K153/K154) — **castle-sim deprioritized**.
 
 ### Version lineage
 
@@ -60,6 +63,13 @@ Bulk tool evaluation uses **ten surfaces** (Cemini **active prod bots** — XSP 
 **First v6 production batch:** K90 (2026-05-31, 41 URLs) — `@sources/multi-wiki-tool-eval-v6-k90-2026-05-31.md` (adds gambling-wiki surface).
 
 **First v7 note:** K115 (2026-06-13) — `@game-dev-wiki` bootstrap; no bulk URL batch yet.
+
+### v10.1 delta (2026-07-10) [CONFIRMED]
+
+1. **castle-sim demoted** to legacy deprioritized (Jul 2026 operator pivot).
+2. **family-tree / computational genealogy** promoted to co-primary #4 — private `Desktop/family/` + OSINT wiki K153/K154 methodology.
+3. **`genealogy overlap`** field added (8 shipped modules: archival ladder, Gramps/GEDCOM, FS API, Antenati IIIF, HTR, entity resolution, regional playbook, US census staging).
+4. Personal projects use **value hypothesis** when `Revenue confidence: none`.
 
 ### v10 deltas vs v9 [CONFIRMED 2026-07-06]
 

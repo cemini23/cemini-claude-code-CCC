@@ -1,6 +1,6 @@
 # TipDrop / Unusual Whales / Discord alerts — Batch A (20 URLs)
 
-**Paste into Gemini:** `deep-research-multi-wiki-eval-v9-gemini-runtime.md` + this URL block.
+**Paste into Gemini:** `deep-research-multi-wiki-eval-v10-gemini-runtime.md` + this URL block.
 
 **Theme:** Unusual Whales integrations + early DiscordMonitor forks. Primary fit expected: **TipDrop-io** or **CCC-wiki** (MCP).
 

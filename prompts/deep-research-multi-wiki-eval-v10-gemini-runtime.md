@@ -28,25 +28,25 @@ Assign a **tier**, name **primary wiki fit**, flag **cross-wiki routing**, score
 - **Poker arena:** `agents/devfun-poker-arena/examples/cemini_decide.py` → overlap `poker-arena` → revenue: arena prizes
 - **CeminiDFS:** `CeminiDFS/src/ceminidfs/pipeline/` → overlap `CeminiDFS` → revenue: contest ROI
 - **XSP killer:** briefs `xsp-*` → `cemini-prod:/opt/cemini/briefs/` → overlap `xsp-killer` → revenue: trading P&L
-- **castle-sim:** `castle-sim/briefs/` → revenue: future game sales
+- **Family-tree / genealogy:** `Desktop/family/` + `Desktop/family/research/` → overlap `genealogy` → value: archival depth, brick-wall breakthroughs, jure sanguinis docs (no P&L)
 - **TipDrop:** `tipdrop-workspace-kit/` + David's `cemini23/tipdrop` → overlap `tipdrop` → revenue: David's $97/mo SaaS MRR
 
 ### Ten routing surfaces (YES / PARTIAL / NO — for wiki stubs, not permission gates)
 
 1. Cemini prod bots (XSP, poker arena, PM/Kalshi, world-cup-bot, wc-ticket-monitor)
-2. OSINT wiki — PM/Kalshi bots, LP, XSP research
+2. OSINT wiki — PM/Kalshi bots, LP, XSP research, **genealogy methodology** (K153/K154)
 3. Gambling wiki — retail betting, DFS, poker strategy
 4. Cybersec wiki
 5. Image-gen wiki
 6. SEO wiki
 7. 3D-printing wiki
-8. Game-dev wiki — castle-sim, Godot RTS
+8. Game-dev wiki — hobby game dev (castle-sim legacy — deprioritized)
 9. CCC wiki — Cursor/Claude harness, MCP, skills
 10. TipDrop.io — David's Discord signals SaaS
 
 ### Shipped stacks — default Context/Pass unless named gap + revenue why
 
-Poker arena (7 modules), CeminiDFS (pipeline stages), xsp-killer (4 modules), TipDrop kit (6 modules), world-cup-bot, wc-ticket-monitor — see full v10 canon.
+Poker arena (7 modules), CeminiDFS (pipeline stages), xsp-killer (4 modules), TipDrop kit (6 modules), **genealogy (8 modules — archival ladder, Gramps/GEDCOM, FS API, Antenati IIIF, HTR, entity resolution, regional playbook, US census staging)**, world-cup-bot, wc-ticket-monitor — see full v10 canon.
 
 ### Tiers (revenue-first)
 
@@ -64,7 +64,7 @@ Poker arena (7 modules), CeminiDFS (pipeline stages), xsp-killer (4 modules), Ti
 - Stars / commits / issues: NOT FOUND if unverified — never estimate.
 - Unverified features: CLAIMED (unverified).
 - Every fit claim needs a **specific project path** or wiki page.
-- Every revenue claim needs a **mechanism** (MRR, P&L, conversion, ops time saved).
+- Every revenue claim needs a **mechanism** (MRR, P&L, conversion, ops time saved). For **family-tree**: personal **value** (brick-wall breakthrough, hours saved, new generation documented) is valid when revenue confidence is `none`.
 - 404: UNAVAILABLE, skip deep analysis.
 
 ---
@@ -103,9 +103,9 @@ Poker arena (7 modules), CeminiDFS (pipeline stages), xsp-killer (4 modules), Ti
 - Tier: Integrate | Extract | Watch | Context | Pass | UNAVAILABLE
 - Primary fit: [surface name]
 - Surfaces: prod=NO osint=NO gambling=NO game=NO cyber=NO image=NO seo=NO print=NO ccc=PARTIAL tipdrop=YES
-- Overlaps: tipdrop=... poker-arena=... CeminiDFS=... xsp-killer=... wc-bot=... wc-tickets=...
+- Overlaps: tipdrop=... poker-arena=... CeminiDFS=... xsp-killer=... genealogy=... wc-bot=... wc-tickets=...
 - Cross-wiki routing: ...
-- Active project routing: [poker-arena | CeminiDFS | xsp-killer | castle-sim | tipdrop | wiki-only]
+- Active project routing: [poker-arena | CeminiDFS | xsp-killer | family-tree | tipdrop | wiki-only]
 - Combo plays: ... (or none)
 - Reasoning: 2-4 sentences — path + revenue + tier
 

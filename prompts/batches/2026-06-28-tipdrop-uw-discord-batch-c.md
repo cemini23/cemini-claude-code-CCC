@@ -1,6 +1,6 @@
 # TipDrop name collisions / StockTips — Batch C (18 URLs)
 
-**Paste into Gemini:** `deep-research-multi-wiki-eval-v9-gemini-runtime.md` + this URL block.
+**Paste into Gemini:** `deep-research-multi-wiki-eval-v10-gemini-runtime.md` + this URL block.
 
 **Theme:** Unrelated repos named tipdrop/stocktips — expect mostly **None** or **Reject** unless Discord signal SaaS angle is real. `lijx10/uwb-localization` is likely **wrong batch** (UWB localization, not Unusual Whales).
 
