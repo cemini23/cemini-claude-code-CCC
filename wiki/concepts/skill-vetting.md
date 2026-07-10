@@ -110,9 +110,11 @@ related:
   - concepts/cognitive-heuristics-llm-vuln-detection.md
   - concepts/substrate-constraints-coding-agent-oversight.md
   - sources/arxiv-steerability-via-constraints-coding-agent-oversight-2607.02389.md
+  - concepts/cage-1-enterprise-agent-governance-eval.md
+  - sources/arxiv-cage-1-enterprise-agentic-governance-2607.03510.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-07-07
+updated: 2026-07-10
 ---
 
 ## Relations

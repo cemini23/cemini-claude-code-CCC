@@ -18,6 +18,20 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+---
+
+## [2026-07-10] ingest | CAGE-1 + PolyWorkBench (K151–K152)
+
+- **K151 — CAGE-1 (2607.03510, Roopam W. Sure):** enterprise agent governance eval; **Prebind Assurance** before binding actions; 12 dimensions. CCC-primary. **NOT** lahlfors cybernetic-governance-engine.
+  - Created `concepts/cage-1-enterprise-agent-governance-eval.md`, `sources/arxiv-cage-1-enterprise-agentic-governance-2607.03510.md`, `sources/brief-k151-...`, `briefs/2026-07-10_k151-cage-1-prebind-assurance-prod.md`, `scripts/adopt_k151_phase0.sh`, `wiki/briefs/2026-07-10_ccc-handoff-cage-polyworkbench-ingest.md`
+  - **David:** `tipdrop-workspace-kit/briefs/2026-07-10_k151-prebind-assurance-adopt.md`
+  - Verdict **REFERENCE** — no product repo; adopt Prebind checklist
+- **K152 — PolyWorkBench (2607.06008, Tencent/BJTU):** 67 multilingual long-horizon tasks; hybrid structural+executable+semantic eval; client sensitivity (Claude Code, OpenClaw).
+  - Created `concepts/multilingual-long-horizon-agent-eval.md`, `sources/arxiv-polyworkbench-multilingual-long-horizon-2607.06008.md`, `sources/brief-k152-...`, `briefs/2026-07-10_k152-polyworkbench-multilingual-eval-prod.md`, `scripts/adopt_k152_phase0.sh`
+  - Verdict **REFERENCE** — no public repo at Phase-0; no David adoption
+- **Wired:** agent-completion-verification-gates, gatekeeper-layered, client-as-first-order, agent-five-gate, etclovg, skill-vetting, orchestration-option-quantitative-metrics, recoverable-tool-reliability, algorithmic-impermeability, index, scp script
+- **Archive:** both PDFs → egress-fi `ccc/`
+
 ## [2026-07-09] ingest | LCA algorithmic impermeability (K150)
 
 - **Source:** arXiv 2607.06531 — Large Cancer Assistant; model-agnostic orchestration via algorithmic impermeability, SIP, SDR. **Clinical off-domain**; harness patterns only.

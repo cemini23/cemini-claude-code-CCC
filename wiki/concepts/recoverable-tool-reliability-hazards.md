@@ -16,9 +16,11 @@ related:
   - concepts/confidence-aware-tool-orchestration.md
   - sources/brief-k129-tool-reliability-orchestration-2026-06-27.md
   - sources/arxiv-confidence-aware-tool-orchestration-video-2606.26904.md
+  - concepts/multilingual-long-horizon-agent-eval.md
+  - sources/arxiv-polyworkbench-multilingual-long-horizon-2607.06008.md
 maturity: draft
 created: 2026-06-27
-updated: 2026-06-27
+updated: 2026-07-10
 ---
 
 ## Relations

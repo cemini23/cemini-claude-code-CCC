@@ -13,9 +13,10 @@ related:
   - sources/trading-posts-compilation-18-2026-06-04.md
   - "@osint-wiki/concepts/agent-team-five-gate-decision-memo.md"
   - "@osint-wiki/sources/tradingagents.md"
+  - concepts/cage-1-enterprise-agent-governance-eval.md
 maturity: draft
 created: 2026-06-04
-updated: 2026-06-04
+updated: 2026-07-10
 cross-wiki-source: "@osint-wiki/concepts/agent-team-five-gate-decision-memo.md"
 ---
 

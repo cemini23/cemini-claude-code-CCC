@@ -39,9 +39,11 @@ related:
   - sources/arxiv-steerability-via-constraints-coding-agent-oversight-2607.02389.md
   - concepts/agentic-online-rl-self-evolving-systems.md
   - concepts/algorithmic-impermeability-model-agnostic-orchestration.md
+  - concepts/cage-1-enterprise-agent-governance-eval.md
+  - sources/arxiv-cage-1-enterprise-agentic-governance-2607.03510.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-07-09
+updated: 2026-07-10
 ---
 
 ## Relations

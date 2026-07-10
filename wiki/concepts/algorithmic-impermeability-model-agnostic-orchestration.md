@@ -17,9 +17,10 @@ related:
   - concepts/etclovg-harness-layers.md
   - sources/brief-k150-algorithmic-impermeability-orchestration-2026-07-09.md
   - sources/arxiv-bioinsight-multi-agent-biomedical-2606.20997.md
+  - concepts/cage-1-enterprise-agent-governance-eval.md
 maturity: draft
 created: 2026-07-09
-updated: 2026-07-09
+updated: 2026-07-10
 ---
 
 ## Relations

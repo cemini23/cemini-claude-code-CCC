@@ -277,6 +277,8 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`client-as-first-order-harness-factor`](concepts/client-as-first-order-harness-factor.md) | draft | Same model, 2.1× gap by client — 2607.02873 (K140) |
 | [`model-native-vs-tool-mediated-fulfillment`](concepts/model-native-vs-tool-mediated-fulfillment.md) | draft | Harness design axis; minimize lossy hops — 2606.31693 (K141) |
 | [`algorithmic-impermeability-model-agnostic-orchestration`](concepts/algorithmic-impermeability-model-agnostic-orchestration.md) | draft | Routing independent of model; SIP + SDR — 2607.06531 (K150) |
+| [`cage-1-enterprise-agent-governance-eval`](concepts/cage-1-enterprise-agent-governance-eval.md) | draft | Prebind Assurance + 12-dimension enterprise eval — 2607.03510 (K151) |
+| [`multilingual-long-horizon-agent-eval`](concepts/multilingual-long-horizon-agent-eval.md) | draft | PolyWorkBench hybrid eval + compounding degradation — 2607.06008 (K152) |
 | [`tool-eval-license-skepticism-patterns`](concepts/tool-eval-license-skepticism-patterns.md) | draft | K73 license-eval anti-patterns (NO-LICENSE false negatives, BSL parsing) |
 | [`enterprise-auto-mode-telemetry-rollout`](concepts/enterprise-auto-mode-telemetry-rollout.md) | draft | Auto Mode policy rollout via telemetry loops (K73 Post 1) |
 | [`harness-de-bloat-4x4-pattern`](concepts/harness-de-bloat-4x4-pattern.md) | draft | 4-skills/4-agents simplification pattern (K73 Post 2) |
@@ -494,6 +496,10 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-shopx-intent-to-item-fulfillment-2606.31693`](sources/arxiv-shopx-intent-to-item-fulfillment-2606.31693.md) | draft | ShopX model-native fulfillment — skimmed (K141) |
 | [`arxiv-large-cancer-assistant-lca-2607.06531`](sources/arxiv-large-cancer-assistant-lca-2607.06531.md) | draft | LCA impermeability + SIP — read (K150) |
 | [`brief-k150-algorithmic-impermeability-orchestration-2026-07-09`](sources/brief-k150-algorithmic-impermeability-orchestration-2026-07-09.md) | validated | K150 prod brief stub |
+| [`arxiv-cage-1-enterprise-agentic-governance-2607.03510`](sources/arxiv-cage-1-enterprise-agentic-governance-2607.03510.md) | draft | CAGE-1 Prebind Assurance — read (K151) |
+| [`brief-k151-cage-1-enterprise-agent-governance-2026-07-10`](sources/brief-k151-cage-1-enterprise-agent-governance-2026-07-10.md) | validated | K151 prod + David adopt brief stub |
+| [`arxiv-polyworkbench-multilingual-long-horizon-2607.06008`](sources/arxiv-polyworkbench-multilingual-long-horizon-2607.06008.md) | draft | PolyWorkBench benchmark — read (K152) |
+| [`brief-k152-polyworkbench-multilingual-agent-eval-2026-07-10`](sources/brief-k152-polyworkbench-multilingual-agent-eval-2026-07-10.md) | validated | K152 prod brief stub |
 | [`brief-k109-bayesian-agent-harness-cluster-prod-2026-06-10`](sources/brief-k109-bayesian-agent-harness-cluster-prod-2026-06-10.md) | validated | K109 prod brief stub |
 | [`brief-k132-local-adoptions-cursor-federation-prod-2026-06-27`](sources/brief-k132-local-adoptions-cursor-federation-prod-2026-06-27.md) | validated | K132 prod brief stub |
 | [`brief-k122-k126-federation-cursor-harness-adoptions-2026-06-25`](sources/brief-k122-k126-federation-cursor-harness-adoptions-2026-06-25.md) | validated | K122–K126 federation batch brief stub |

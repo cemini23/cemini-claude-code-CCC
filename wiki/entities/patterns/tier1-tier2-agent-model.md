@@ -24,9 +24,11 @@ related:
   - entities/skills/cursor-audit.md
   - entities/skills/super-audit.md
   - concepts/queen-bee-beespec-enterprise-orchestration.md
+  - concepts/cage-1-enterprise-agent-governance-eval.md
+  - sources/arxiv-cage-1-enterprise-agentic-governance-2607.03510.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-10
+updated: 2026-07-10
 ---
 
 ## Relations

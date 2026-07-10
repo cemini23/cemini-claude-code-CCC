@@ -55,9 +55,11 @@ related:
   - concepts/agentic-online-rl-self-evolving-systems.md
   - concepts/client-as-first-order-harness-factor.md
   - concepts/agent-data-injection-attacks.md
+  - concepts/cage-1-enterprise-agent-governance-eval.md
+  - sources/arxiv-cage-1-enterprise-agentic-governance-2607.03510.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-07-09
+updated: 2026-07-10
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-25-2026-05-27.md"
 ---
 
@@ -87,6 +89,8 @@ K72 — **agent completion proof**: operators should not babysit every tool call
 ### CCC fit
 
 Pair with `@concepts/claude-premortem-skill.md` (what could fail) and `@entities/patterns/full-prompt-goal-template.md` (what done looks like).
+
+**K151 Prebind Assurance (CAGE-1):** complements completion gates — prove control **before each binding action** (prod write, trade, send), not only at session end. See `@concepts/cage-1-enterprise-agent-governance-eval.md`.
 
 **K111 channel fracture:** cross-agent memory/cron delivery must use **receiver-side proof** (read-back at target store) — writer tool success is insufficient; see `@concepts/channel-fracture-cross-agent-memory-delivery.md` CADVP CC-0 veto.
 

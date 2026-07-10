@@ -10,9 +10,11 @@ related:
   - concepts/agent-completion-verification-gates.md
   - sources/brief-k136-agentic-orchestration-options-abpm-2026-07-01.md
   - entities/tools/simple-agentic-scenario.md
+  - concepts/multilingual-long-horizon-agent-eval.md
+  - sources/arxiv-polyworkbench-multilingual-long-horizon-2607.06008.md
 maturity: draft
 created: 2026-07-01
-updated: 2026-07-01
+updated: 2026-07-10
 ---
 
 ## Relations

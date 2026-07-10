@@ -28,9 +28,10 @@ related:
   - concepts/substrate-constraints-coding-agent-oversight.md
   - concepts/client-as-first-order-harness-factor.md
   - concepts/agent-data-injection-attacks.md
+  - briefs/2026-07-10_ccc-handoff-cage-polyworkbench-ingest.md
 maturity: validated
 created: 2026-06-29
-updated: 2026-07-09
+updated: 2026-07-10
 ---
 
 ## Relations

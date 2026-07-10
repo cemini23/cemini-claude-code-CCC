@@ -28,9 +28,10 @@ related:
   - concepts/substrate-constraints-coding-agent-oversight.md
   - sources/arxiv-steerability-via-constraints-coding-agent-oversight-2607.02389.md
   - entities/tools/openshell.md
+  - concepts/cage-1-enterprise-agent-governance-eval.md
 maturity: draft
 created: 2026-06-04
-updated: 2026-07-07
+updated: 2026-07-10
 cross-wiki-source: "@osint-wiki/concepts/seclaw-agent-security-evaluation.md"
 ---
 

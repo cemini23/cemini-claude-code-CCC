@@ -21,9 +21,13 @@ related:
   - concepts/agentic-orchestration-options-abpm.md
   - sources/arxiv-agentic-orchestration-options-abpm-2606.31518.md
   - concepts/orchestration-option-quantitative-metrics.md
+  - concepts/cage-1-enterprise-agent-governance-eval.md
+  - concepts/multilingual-long-horizon-agent-eval.md
+  - sources/arxiv-cage-1-enterprise-agentic-governance-2607.03510.md
+  - sources/arxiv-polyworkbench-multilingual-long-horizon-2607.06008.md
 maturity: draft
 created: 2026-06-21
-updated: 2026-07-01
+updated: 2026-07-10
 ---
 
 ## Relations
