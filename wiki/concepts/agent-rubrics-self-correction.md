@@ -28,9 +28,10 @@ related:
   - sources/arxiv-xcientist-research-harness-claim-drift-2606.18874.md
   - entities/skills/grill-with-docs.md
   - concepts/cross-model-verified-agent-translation.md
+  - "@osint-wiki/concepts/polyworkbench-multilingual-harness-eval.md"
 maturity: draft
 created: 2026-06-03
-updated: 2026-06-23
+updated: 2026-07-10
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-17-2026-06-03.md"
 ---
 
@@ -45,6 +46,7 @@ cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-17-2026-06-03.
 - `@entities/skills/cursor-audit.md` — three-model readonly audit synthesis before ship
 - `@entities/skills/super-audit.md` — five-model synthesis for prod GO/NO-GO
 - `@sources/trading-posts-compilation-17-2026-06-03.md` — K97 Post 6 (@sydneyrunkle)
+- `@osint-wiki/concepts/polyworkbench-multilingual-harness-eval.md` — K155 hybrid structural + executable + LLM semantic eval (multilingual compounding)
 
 ## Raw Concept
 
@@ -70,6 +72,8 @@ K97 Post 6 (@sydneyrunkle): **Rubrics** — structured criteria agents use to **
 2. **Stop hook** — re-check rubric before session end (`@concepts/hooks-for-automation.md`).
 3. **Reviewer subagent** — `code-reviewer`, `@entities/skills/cursor-audit.md` (cross-model), `@entities/skills/super-audit.md` (pre-ship), or other `@entities/skills/` audit pass on large diffs.
 4. **Phase-0 audits** — rubric rows in `@concepts/skill-vetting.md` for MCP/skill adopt.
+
+**PolyWorkBench steal (K155):** Long-horizon workplace trajectories degrade when multilingual inputs compound across turns. Federation harness rubrics should layer **structural** checks (schema/files), **executable** checks (scripts/fixtures), and **LLM semantic** grading — not a single judge pass. Reference: `@osint-wiki/concepts/polyworkbench-multilingual-harness-eval.md`.
 
 **Verdict:** **REFERENCE** — steal eval harness ideas; compare to `@entities/tools/deepeval` brief (K55, deferred) before adding eval framework deps.
 
