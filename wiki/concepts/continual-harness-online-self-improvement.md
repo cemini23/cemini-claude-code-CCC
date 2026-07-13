@@ -41,9 +41,12 @@ related:
   - concepts/agentic-online-rl-self-evolving-systems.md
   - entities/tools/areal.md
   - sources/arxiv-next-gen-agentic-rl-self-evolving-2607.01120.md
+  - concepts/verifiable-search-agent-environment.md
+  - concepts/modular-instruction-memory-learnable-selection.md
+  - sources/arxiv-miles-modular-instruction-memory-2607.06974.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-07-07
+updated: 2026-07-13
 cross-wiki-source: "@osint-wiki/concepts/continual-harness-online-self-improvement.md"
 ---
 

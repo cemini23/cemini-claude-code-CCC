@@ -57,9 +57,13 @@ related:
   - concepts/agent-data-injection-attacks.md
   - concepts/cage-1-enterprise-agent-governance-eval.md
   - sources/arxiv-cage-1-enterprise-agentic-governance-2607.03510.md
+  - concepts/hierarchical-bounded-agent-memory.md
+  - concepts/modular-instruction-memory-learnable-selection.md
+  - concepts/trustx-agent-risk-classification.md
+  - concepts/verifiable-search-agent-environment.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-07-10
+updated: 2026-07-13
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-25-2026-05-27.md"
 ---
 

@@ -22,9 +22,10 @@ related:
   - meta/ccc-cross-wiki-handoff-briefs.md
   - concepts/client-as-first-order-harness-factor.md
   - concepts/model-native-vs-tool-mediated-fulfillment.md
+  - concepts/trustx-agent-risk-classification.md
 maturity: draft
 created: 2026-07-07
-updated: 2026-07-07
+updated: 2026-07-13
 cross-wiki-primary: "@cybersecurity-wiki/concepts/substrate-constraints-coding-agent-oversight.md"
 ---
 

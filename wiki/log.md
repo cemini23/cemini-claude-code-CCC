@@ -20,6 +20,23 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+---
+
+## [2026-07-13] ingest | MILES + QSP memory + DeepSearch + TrustX (K153–K157)
+
+- **K153 — MILES (2607.06974, UNSW):** modular instruction memory + learnable coarse-to-fine selection for sequential reasoning. REFERENCE — no repo.
+  - Created `concepts/modular-instruction-memory-learnable-selection.md`, source, brief, `scripts/adopt_k153_phase0.sh`
+- **K154 — Ensemble QSP (2607.07666, AstraZeneca):** three-layer bounded memory + eviction; QSP domain off prod. REFERENCE.
+  - Created `concepts/hierarchical-bounded-agent-memory.md`, source, brief, `scripts/adopt_k154_phase0.sh`
+- **K156 — DeepSearch-World (2607.07820):** verifiable offline search env + self-distillation. WATCH — code promised not public.
+  - Created `concepts/verifiable-search-agent-environment.md`, source, brief, `scripts/adopt_k156_phase0.sh`
+- **K157 — TrustX ARC (2607.09586, RAI Institute):** 12-dimension agent risk tiering + coding-assistant extension. REFERENCE.
+  - Created `concepts/trustx-agent-risk-classification.md`, source, brief, `scripts/adopt_k157_phase0.sh`
+  - **David:** `tipdrop-workspace-kit/briefs/2026-07-13_k157-trustx-agent-risk-tier-adopt.md`
+- **Wired:** metamemory, dual-representation, channel-fracture, cage-1, index, scp script, handoff brief
+- **Archive:** all 4 PDFs → egress-fi `ccc/`
+- **Note:** K155 = prior PolyWorkBench rubrics cross-wiki commit
+
 ## [2026-07-10] ingest | CAGE-1 + PolyWorkBench (K151–K152)
 
 - **K151 — CAGE-1 (2607.03510, Roopam W. Sure):** enterprise agent governance eval; **Prebind Assurance** before binding actions; 12 dimensions. CCC-primary. **NOT** lahlfors cybernetic-governance-engine.

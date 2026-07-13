@@ -9,9 +9,10 @@ related:
   - concepts/agent-completion-verification-gates.md
   - briefs/2026-07-09_ccc-handoff-adi-spellsmith-ingest.md
   - meta/ccc-cross-wiki-handoff-briefs.md
+  - concepts/trustx-agent-risk-classification.md
 maturity: draft
 created: 2026-07-09
-updated: 2026-07-09
+updated: 2026-07-13
 cross-wiki-primary: "@cybersecurity-wiki/concepts/agent-data-injection-attacks.md"
 ---
 

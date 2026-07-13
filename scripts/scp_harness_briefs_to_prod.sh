@@ -37,6 +37,10 @@ BRIEFS=(
   "2026-07-09_k150-algorithmic-impermeability-orchestration-prod.md"
   "2026-07-10_k151-cage-1-prebind-assurance-prod.md"
   "2026-07-10_k152-polyworkbench-multilingual-eval-prod.md"
+  "2026-07-13_k153-miles-modular-instruction-memory-prod.md"
+  "2026-07-13_k154-hierarchical-bounded-agent-memory-prod.md"
+  "2026-07-13_k156-deepsearch-world-verifiable-search-prod.md"
+  "2026-07-13_k157-trustx-agent-risk-classification-prod.md"
 )
 
 echo "SCP harness briefs → ${REMOTE}"

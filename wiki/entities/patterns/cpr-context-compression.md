@@ -19,9 +19,10 @@ related:
   - sources/arxiv-esaa-conversational-event-sourced-2606.23752.md
   - sources/brief-k124-harness-policy-hands-on-2026-06-24.md
   - concepts/hidden-user-state-recovery-audit.md
+  - concepts/hierarchical-bounded-agent-memory.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-06-26
+updated: 2026-07-13
 cross-wiki-source: "@osint-wiki/concepts/context-compression-resume-pattern.md"
 ---
 

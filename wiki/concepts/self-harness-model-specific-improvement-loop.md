@@ -20,9 +20,10 @@ related:
   - concepts/agentic-online-rl-self-evolving-systems.md
   - entities/tools/areal.md
   - sources/arxiv-next-gen-agentic-rl-self-evolving-2607.01120.md
+  - concepts/modular-instruction-memory-learnable-selection.md
 maturity: draft
 created: 2026-06-11
-updated: 2026-07-07
+updated: 2026-07-13
 ---
 
 ## Relations

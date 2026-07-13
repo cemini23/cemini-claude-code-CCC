@@ -29,9 +29,10 @@ related:
   - concepts/client-as-first-order-harness-factor.md
   - concepts/agent-data-injection-attacks.md
   - briefs/2026-07-10_ccc-handoff-cage-polyworkbench-ingest.md
+  - briefs/2026-07-13_ccc-handoff-memory-search-trustx-ingest.md
 maturity: validated
 created: 2026-06-29
-updated: 2026-07-10
+updated: 2026-07-13
 ---
 
 ## Relations

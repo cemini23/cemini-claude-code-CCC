@@ -5,6 +5,8 @@ tags: [concept, benchmark, multilingual, long-horizon, evaluation, harness, k152
 keywords: [polyworkbench, multilingual compounding, hybrid eval, structural executable semantic, 2607.06008]
 related:
   - sources/arxiv-polyworkbench-multilingual-long-horizon-2607.06008.md
+  - concepts/verifiable-search-agent-environment.md
+  - sources/arxiv-deepsearch-world-self-distillation-2607.07820.md
   - concepts/client-as-first-order-harness-factor.md
   - concepts/orchestration-option-quantitative-metrics.md
   - concepts/recoverable-tool-reliability-hazards.md

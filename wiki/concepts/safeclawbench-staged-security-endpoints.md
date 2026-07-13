@@ -12,9 +12,10 @@ related:
   - cybersecurity-wiki/concepts/safeclawbench-staged-agent-security.md
   - sources/brief-k121-tokenpilot-safeclaw-gatekeepers-prod-2026-06-21.md
   - concepts/cage-1-enterprise-agent-governance-eval.md
+  - concepts/verifiable-search-agent-environment.md
 maturity: draft
 created: 2026-06-21
-updated: 2026-07-10
+updated: 2026-07-13
 ---
 
 ## Relations

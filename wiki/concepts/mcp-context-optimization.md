@@ -51,9 +51,10 @@ related:
   - concepts/client-as-first-order-harness-factor.md
   - concepts/model-native-vs-tool-mediated-fulfillment.md
   - sources/arxiv-shopx-intent-to-item-fulfillment-2606.31693.md
+  - concepts/hierarchical-bounded-agent-memory.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-07-07
+updated: 2026-07-13
 ---
 
 ## Relations

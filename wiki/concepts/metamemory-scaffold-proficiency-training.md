@@ -14,9 +14,11 @@ related:
   - entities/tools/claude-mem.md
   - concepts/multi-factor-agentic-memory-value-model.md
   - sources/brief-k137-automem-metamemory-cognitive-skill-2026-07-02.md
+  - concepts/modular-instruction-memory-learnable-selection.md
+  - sources/arxiv-miles-modular-instruction-memory-2607.06974.md
 maturity: draft
 created: 2026-07-02
-updated: 2026-07-02
+updated: 2026-07-13
 ---
 
 ## Relations

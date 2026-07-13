@@ -13,9 +13,12 @@ related:
   - concepts/skill-vetting.md
   - entities/patterns/full-prompt-goal-template.md
   - sources/brief-k124-harness-memory-research-cluster-2026-06-24.md
+  - concepts/modular-instruction-memory-learnable-selection.md
+  - concepts/hierarchical-bounded-agent-memory.md
+  - sources/arxiv-miles-modular-instruction-memory-2607.06974.md
 maturity: draft
 created: 2026-06-24
-updated: 2026-06-25
+updated: 2026-07-13
 ---
 
 ## Relations

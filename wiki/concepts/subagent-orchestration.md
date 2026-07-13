@@ -118,9 +118,11 @@ related:
   - concepts/client-as-first-order-harness-factor.md
   - concepts/algorithmic-impermeability-model-agnostic-orchestration.md
   - sources/arxiv-large-cancer-assistant-lca-2607.06531.md
+  - concepts/hierarchical-bounded-agent-memory.md
+  - sources/arxiv-ensemble-qsp-hierarchical-memory-2607.07666.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-07-09
+updated: 2026-07-13
 ---
 
 ## Relations

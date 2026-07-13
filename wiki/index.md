@@ -279,6 +279,10 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`algorithmic-impermeability-model-agnostic-orchestration`](concepts/algorithmic-impermeability-model-agnostic-orchestration.md) | draft | Routing independent of model; SIP + SDR — 2607.06531 (K150) |
 | [`cage-1-enterprise-agent-governance-eval`](concepts/cage-1-enterprise-agent-governance-eval.md) | draft | Prebind Assurance + 12-dimension enterprise eval — 2607.03510 (K151) |
 | [`multilingual-long-horizon-agent-eval`](concepts/multilingual-long-horizon-agent-eval.md) | draft | PolyWorkBench hybrid eval + compounding degradation — 2607.06008 (K152) |
+| [`modular-instruction-memory-learnable-selection`](concepts/modular-instruction-memory-learnable-selection.md) | draft | MILES coarse-to-fine memory selection — 2607.06974 (K153) |
+| [`hierarchical-bounded-agent-memory`](concepts/hierarchical-bounded-agent-memory.md) | draft | Short/mid/long capped memory + eviction — 2607.07666 (K154) |
+| [`verifiable-search-agent-environment`](concepts/verifiable-search-agent-environment.md) | draft | DeepSearch-World deterministic verifiable search env — 2607.07820 (K156) |
+| [`trustx-agent-risk-classification`](concepts/trustx-agent-risk-classification.md) | draft | TrustX ARC 12-dimension agent risk tiering — 2607.09586 (K157) |
 | [`tool-eval-license-skepticism-patterns`](concepts/tool-eval-license-skepticism-patterns.md) | draft | K73 license-eval anti-patterns (NO-LICENSE false negatives, BSL parsing) |
 | [`enterprise-auto-mode-telemetry-rollout`](concepts/enterprise-auto-mode-telemetry-rollout.md) | draft | Auto Mode policy rollout via telemetry loops (K73 Post 1) |
 | [`harness-de-bloat-4x4-pattern`](concepts/harness-de-bloat-4x4-pattern.md) | draft | 4-skills/4-agents simplification pattern (K73 Post 2) |
@@ -500,6 +504,14 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`brief-k151-cage-1-enterprise-agent-governance-2026-07-10`](sources/brief-k151-cage-1-enterprise-agent-governance-2026-07-10.md) | validated | K151 prod + David adopt brief stub |
 | [`arxiv-polyworkbench-multilingual-long-horizon-2607.06008`](sources/arxiv-polyworkbench-multilingual-long-horizon-2607.06008.md) | draft | PolyWorkBench benchmark — read (K152) |
 | [`brief-k152-polyworkbench-multilingual-agent-eval-2026-07-10`](sources/brief-k152-polyworkbench-multilingual-agent-eval-2026-07-10.md) | validated | K152 prod brief stub |
+| [`arxiv-miles-modular-instruction-memory-2607.06974`](sources/arxiv-miles-modular-instruction-memory-2607.06974.md) | draft | MILES learnable selection — read (K153) |
+| [`brief-k153-miles-modular-instruction-memory-2026-07-13`](sources/brief-k153-miles-modular-instruction-memory-2026-07-13.md) | validated | K153 prod brief stub |
+| [`arxiv-ensemble-qsp-hierarchical-memory-2607.07666`](sources/arxiv-ensemble-qsp-hierarchical-memory-2607.07666.md) | draft | Ensemble QSP hierarchical memory — read (K154) |
+| [`brief-k154-hierarchical-bounded-agent-memory-2026-07-13`](sources/brief-k154-hierarchical-bounded-agent-memory-2026-07-13.md) | validated | K154 prod brief stub |
+| [`arxiv-deepsearch-world-self-distillation-2607.07820`](sources/arxiv-deepsearch-world-self-distillation-2607.07820.md) | draft | DeepSearch-World — read (K156) |
+| [`brief-k156-deepsearch-world-verifiable-search-2026-07-13`](sources/brief-k156-deepsearch-world-verifiable-search-2026-07-13.md) | validated | K156 prod brief stub |
+| [`arxiv-trustx-agent-risk-classification-2607.09586`](sources/arxiv-trustx-agent-risk-classification-2607.09586.md) | draft | TrustX ARC — read (K157) |
+| [`brief-k157-trustx-agent-risk-classification-2026-07-13`](sources/brief-k157-trustx-agent-risk-classification-2026-07-13.md) | validated | K157 prod + David adopt stub |
 | [`brief-k109-bayesian-agent-harness-cluster-prod-2026-06-10`](sources/brief-k109-bayesian-agent-harness-cluster-prod-2026-06-10.md) | validated | K109 prod brief stub |
 | [`brief-k132-local-adoptions-cursor-federation-prod-2026-06-27`](sources/brief-k132-local-adoptions-cursor-federation-prod-2026-06-27.md) | validated | K132 prod brief stub |
 | [`brief-k122-k126-federation-cursor-harness-adoptions-2026-06-25`](sources/brief-k122-k126-federation-cursor-harness-adoptions-2026-06-25.md) | validated | K122–K126 federation batch brief stub |

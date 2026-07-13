@@ -16,14 +16,17 @@ related:
   - concepts/handoff-validity-agent-harness.md
   - concepts/event-sourced-poly-agent-handoff.md
   - sources/arxiv-esaa-conversational-event-sourced-2606.23752.md
+  - concepts/hierarchical-bounded-agent-memory.md
+  - sources/arxiv-ensemble-qsp-hierarchical-memory-2607.07666.md
   - concepts/executable-user-memory-user-as-code.md
   - entities/tools/esaa-conversational.md
   - sources/arxiv-agentic-eda-handoff-2606.19795.md
   - concepts/hidden-user-state-recovery-audit.md
   - sources/arxiv-memprobe-hidden-user-state-recovery-2606.24595.md
+  - concepts/modular-instruction-memory-learnable-selection.md
 maturity: draft
 created: 2026-06-12
-updated: 2026-06-26
+updated: 2026-07-13
 ---
 
 ## Relations

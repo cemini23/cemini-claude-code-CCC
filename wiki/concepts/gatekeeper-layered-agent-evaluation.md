@@ -25,9 +25,11 @@ related:
   - concepts/multilingual-long-horizon-agent-eval.md
   - sources/arxiv-cage-1-enterprise-agentic-governance-2607.03510.md
   - sources/arxiv-polyworkbench-multilingual-long-horizon-2607.06008.md
+  - concepts/verifiable-search-agent-environment.md
+  - sources/arxiv-deepsearch-world-self-distillation-2607.07820.md
 maturity: draft
 created: 2026-06-21
-updated: 2026-07-10
+updated: 2026-07-13
 ---
 
 ## Relations
