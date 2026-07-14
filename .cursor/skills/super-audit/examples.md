@@ -12,7 +12,7 @@
 2. **Pack** — `build_tournament_super_audit_pack.py` (domain-specific) or generic `build_audit_pack.py` with HL artifacts
 3. **Mode** — `prod-ship`
 4. **Cursor roles** — agentic-reasoning, code-implementation, third-lens → premium slugs per reference
-5. **API roles** — api-adversarial (Grok @ OR), api-deep-reasoning (DeepSeek reasoner) via `run_api_auditors.py`
+5. **API roles** — api-adversarial (`openrouter/fusion`), api-deep-reasoning (`OPENROUTER_PREMIUM_MODEL` / `z-ai/glm-5.2`) via `run_api_auditors.py`
 6. **Synthesize** — `briefs/2026-06-09_tournament-s1-super-audit-synthesis.md`
 
 **Outcome:** 4/5 recommended `70f2527` revert; operator shipped lane-gate hybrid `4a6df45` after conflict resolution.

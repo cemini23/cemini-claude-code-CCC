@@ -46,27 +46,36 @@ All other modes: see [cursor-audit reference](../cursor-audit/reference.md#mode-
 | **architecture** | api-adversarial | api-deep-reasoning |
 | **quick** | *(skip)* | api-deep-reasoning |
 
-## API premium catalog
+## API + local catalog
 
-Premium API models only — no flash/lite defaults unless env explicitly configures a pro-tier advisor.
+| API role | Purpose | Provider | Candidates (best first) |
+|----------|---------|----------|---------------------------|
+| **api-adversarial** | Red-team, contrarian deploy takes | OpenRouter | **`openrouter/fusion`** |
+| **api-adversarial** | Same role, **free** | **Ollama** | Best **qwen\***, then largest `*b` (`discover_api_keys.py`) |
+| **api-deep-reasoning** | Quant depth, patch ranking | OpenRouter | **`OPENROUTER_PREMIUM_MODEL`** → `z-ai/glm-5.2` |
+| **api-deep-reasoning** | Same role, **free** | **Ollama** | Same local model, reasoning system prompt |
+| **api-strategic** | Brief GO/NO-GO | OpenRouter | `anthropic/claude-opus-4.6` |
+| **api-advisor** | Domain-tuned | `ADVISOR_*` or OR | pro-tier `ADVISOR_MODEL` |
 
-| API role | Purpose | Provider / key | Premium candidates (best first) |
-|----------|---------|----------------|----------------------------------|
-| **api-adversarial** | Red-team, exploit paths, contrarian deploy takes | `OPENROUTER_API_KEY` | `x-ai/grok-4.3`, `moonshotai/kimi-k2.5` |
-| **api-deep-reasoning** | Quant/strategy depth, numeric claims, patch ranking | `DEEPSEEK_API_KEY` | `deepseek-reasoner` |
-| **api-strategic** | Brief displacement, narrative holes, GO/NO-GO | `OPENROUTER_API_KEY` or `ADVISOR_*` | `anthropic/claude-opus-4.6`, `ADVISOR_MODEL` if pro-tier |
-| **api-advisor** | Domain-tuned leg when `ADVISOR_*` set | `ADVISOR_API_KEY` | `ADVISOR_MODEL` — **upgrade** flash/lite IDs to pro equivalent when tailoring |
+**Auto-routing (`--discover`) — operator default:**
 
-**Excluded from default API legs:** `deepseek-v4-flash`, `google/gemini-*-flash` (unless user confirms advisor-only env and no pro key).
+| OpenRouter | Ollama | Auditors | API slots |
+|------------|--------|----------|-----------|
+| yes | yes | **6** | Fusion + premium + **local cross-check** |
+| yes | no | **5** | Fusion + premium |
+| no | yes | **5** (fallback) | 2× local |
+| no | no | **3** (degraded) | none |
+
+Slot 6 local is **additive** when Ollama is up. `SUPER_AUDIT_SKIP_LOCAL=1` forces 5-model. Operator chat overrides win.
 
 ### Tailoring API roles by domain
 
 | Domain | Slot 4 | Slot 5 |
 |--------|--------|--------|
-| Poker / trading bot | api-adversarial (Grok @ OR) | api-deep-reasoning |
-| WC bot / conviction | api-advisor (pro `ADVISOR_MODEL`) | api-deep-reasoning |
-| Adoption brief | api-strategic (Opus @ OR) | api-deep-reasoning |
-| Security | api-adversarial (Grok or Kimi @ OR) | api-deep-reasoning |
+| Poker / trading bot | api-adversarial (`openrouter/fusion`) | api-deep-reasoning (`OPENROUTER_PREMIUM_MODEL` / GLM 5.2) |
+| WC bot / conviction | api-advisor (pro `ADVISOR_MODEL`) | api-deep-reasoning (premium @ OR) |
+| Adoption brief | api-strategic (Opus @ OR) | api-deep-reasoning (GLM 5.2 @ OR) |
+| Security | api-adversarial (Fusion) | api-deep-reasoning (premium @ OR) |
 
 Use OpenRouter model IDs from [openrouter.ai/models](https://openrouter.ai/models).
 
@@ -86,24 +95,24 @@ Search order (first file wins for each variable; script does not overwrite exist
 
 | Variable | Used for |
 |----------|----------|
-| `OPENROUTER_API_KEY` | api-adversarial, api-strategic |
+| `OPENROUTER_API_KEY` | Premium legs — Fusion + slot 5 (optional if Ollama running) |
 | `OPENROUTER_BASE_URL` | Default `https://openrouter.ai/api/v1` |
-| `DEEPSEEK_API_KEY` | api-deep-reasoning |
-| `DEEPSEEK_BASE_URL` | Default `https://api.deepseek.com/v1` |
-| `ADVISOR_API_KEY` | api-advisor / api-strategic |
-| `ADVISOR_BASE_URL` | Advisor OpenAI-compatible endpoint |
-| `ADVISOR_MODEL` | Must be pro-tier for premium audit |
-| `ANTHROPIC_API_KEY` | Rare direct API (prefer OpenRouter) |
-| `OPENAI_API_KEY` | Direct OpenAI (Cursor leg usually sufficient) |
+| `OPENROUTER_PREMIUM_MODEL` | Slot 5 paid default — **`z-ai/glm-5.2`** |
+| **`OLLAMA_BASE_URL`** | Default `http://localhost:11434/v1` — **free local leg** |
+| **`OLLAMA_MODEL`** | Override; else auto-pick best qwen* / largest `*b` |
+| `SUPER_AUDIT_SKIP_LOCAL` | `1` = drop slot 6 even when Ollama is running |
+| `ADVISOR_*` | Optional api-advisor override |
+
+Without OpenRouter **or** Ollama, super-audit runs **3-model cursor-audit only**.
 
 **Session bootstrap:**
 
 ```bash
-source scripts/source_llm_routing_env.sh   # OSINT workspace
-python3 .cursor/skills/super-audit/scripts/discover_api_keys.py --json
+python3 .cursor/skills/super-audit/scripts/discover_api_keys.py
+python3 .cursor/skills/super-audit/scripts/run_api_auditors.py --pack ... --out ... --discover
 ```
 
-Discovery output lists **role → model** suggestions; parent picks two roles per mode matrix.
+Discovery writes recommended slots; `--discover` on run_api_auditors uses them automatically.
 
 ## auditors.json (build from roles)
 
@@ -119,16 +128,17 @@ Pass `--auditors path/to/auditors.json` to `run_api_auditors.py`. Labels should 
       "role": "api-adversarial",
       "base_url_env": "OPENROUTER_BASE_URL",
       "api_key_env": "OPENROUTER_API_KEY",
-      "model": "x-ai/grok-4.3",
-      "extra": { "reasoning": { "effort": "high" } },
+      "model": "openrouter/fusion",
+      "extra": { "plugins": [{ "id": "fusion" }] },
       "system": "Super audit — adversarial readonly reviewer. Follow required output format exactly."
     },
     {
       "label": "api-deep-reasoning",
       "role": "api-deep-reasoning",
-      "base_url_env": "DEEPSEEK_BASE_URL",
-      "api_key_env": "DEEPSEEK_API_KEY",
-      "model": "deepseek-reasoner",
+      "base_url_env": "OPENROUTER_BASE_URL",
+      "api_key_env": "OPENROUTER_API_KEY",
+      "model_env": "OPENROUTER_PREMIUM_MODEL",
+      "model": "z-ai/glm-5.2",
       "system": "Super audit — deep reasoning readonly reviewer. Follow required output format exactly."
     }
   ]

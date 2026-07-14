@@ -54,6 +54,28 @@ Before `/compact`, new chat, or spawning a fresh Task subagent to escape context
 - **No new `entities/skills/` page** from a single session — need ≥2 independent reuses (AFTER steal-from; `@wiki/concepts/procedural-memory-transfer-after.md`).
 - **Wiki → skill crystallization** only when reuse is proven; wiki = text memory, skills/MCP = code memory (`@wiki/concepts/dual-representation-agent-memory.md`). Full checklist: `@wiki/concepts/skill-vetting.md` steps 12–13.
 
+## Self-improvement loops (K162)
+
+When editing harness/skills that self-refine or self-score:
+
+1. Name the improvement signal and place it on the **verification hierarchy**: formal > execution (`wiki_lint` / tests / OpenSpec) > LLM judges/rubrics > intrinsic self-assessment.
+2. Prefer execution+; treat LLM judges as advisory.
+3. **NO-GO:** closed loops that rewrite their own pass criteria without a human gate.
+4. Document loop-closure level (human-in / human-on / closed) in the agent README or brief. See `@wiki/concepts/bounded-self-refinement-vs-rsi-taxonomy.md`.
+
+## Multi-tool routing (K164)
+
+When wiring multi-MCP / multi-skill agents:
+
+1. Partition tools into **mutually exclusive top-level domains** (no payment∩mandate-style overlap).
+2. Lazy-load only the active node's children — no flat mega-schema dump.
+3. Nested subagents use explicit push/pop return; untrusted child output stays in-frame (**capability fencing**).
+4. Binding leaves go through Prebind (K151). See `@wiki/concepts/hierarchical-skill-stack-lazy-orchestration.md`.
+
+## Research proposal / patch scoring (K155)
+
+Score research briefs and HL patches on **mechanism inheritance** (Idea Genome / GenomeDiff), not citation or embedding proximity. Require joint consistency of parent + driver + object fate. Methodology ADOPT; IdeasHaveGenomes code WATCH until SPDX. Primary: `@gambling-wiki/entities/tools/ideagene-bench.md`.
+
 ## Harness flaw records (HarnessFix steal-from)
 
 When a session fails **twice** with the same symptom (Stop-hook loop, subagent empty return, MCP schema drift, skill mis-invocation):

@@ -76,6 +76,8 @@ cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-25-2026-05-27.
 - `@entities/patterns/full-prompt-goal-template.md` — explicit done criteria in `/goal` envelopes
 - `@entities/tools/openspec.md` — acceptance criteria before merge
 - `@concepts/subagent-orchestration.md` — parent must verify subagent return, not assume success
+- `@concepts/bounded-self-refinement-vs-rsi-taxonomy.md` — K162 verification hierarchy for self-improve loops
+- `@concepts/hierarchical-skill-stack-lazy-orchestration.md` — K164 tree routing (orthogonal to stop gates)
 
 Cross-wiki: K72 Post 0 (@ericosiu).
 
@@ -104,6 +106,17 @@ Pair with `@concepts/claude-premortem-skill.md` (what could fail) and `@entities
 **K122 claim drift:** completion gates must prove the **claimed mechanism** survived implementation — not only that tests/lint passed; see `@concepts/claim-drift-automated-research.md` (semantic / experimental / mechanistic subtypes).
 
 **K138 substrate constraints:** objective gates (`wiki_lint.py`, pytest, build) prove **session done**; **substrate constraints** (linters, types, module-local `Invariants:` docstrings) make agent output **auditable** before those gates run — small reviewer recall 54.5% → 90.9% with substrate + docs CLI (`@concepts/substrate-constraints-coding-agent-oversight.md`).
+
+**K162 verification hierarchy (RSI survey):** when the session *is* a self-improvement loop, place the stop signal on this ladder and refuse weaker-only gates:
+
+| Strength | Signal | Session-done example |
+|----------|--------|----------------------|
+| Strongest | Formal | schema / type / OpenSpec AC |
+| High | Execution | `wiki_lint.py`, pytest, deploy smoke |
+| Mid | Judges / rubrics | `/super-audit`, LLM rubric — advisory |
+| Weakest | Intrinsic | “looks good” — never sole stop |
+
+**NO-GO:** closed self-reward that rewrites its own pass criteria without a human. See `@concepts/bounded-self-refinement-vs-rsi-taxonomy.md`.
 
 | Verdict | **REFERENCE (adopt in rules/skills)** |
 

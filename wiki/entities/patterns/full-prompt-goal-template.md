@@ -34,9 +34,11 @@ related:
   - entities/skills/goal.md
   - concepts/skill-vetting.md
   - concepts/neurosymbolic-adaptive-reasoning-workflows.md
+  - concepts/bounded-self-refinement-vs-rsi-taxonomy.md
+  - concepts/hierarchical-skill-stack-lazy-orchestration.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-25
+updated: 2026-07-14
 ---
 
 ## Relations
@@ -96,6 +98,9 @@ Modal use for non-trivial single-shot tasks. Concrete adoption sites today:
 - **HARNESS RESPONSIBILITY TAG (K124):** when the goal edits hooks, skills, MCP, or rules, add SC: "Implicated six-responsibility tag recorded (observation/context/control/action/state/verification) + ETCLOVG layer if filing flaw." See `@concepts/model-harness-six-responsibilities.md`.
 - **COMPACT RUBRIC (K124):** for goals expected to exceed ~50 turns, add SC: "`hot.md` checkpoint + Compact OK field written before any `/compact` or new chat." See `@concepts/self-compacting-adaptive-context.md`.
 - **SKILL PROMOTION (K124):** goals that create new skills add SC: "Skill promotion only if ≥2 independent reuses documented; else stays wiki/concept only." See `@concepts/procedural-memory-transfer-after.md` + `@concepts/dual-representation-agent-memory.md`.
+- **VERIFY HIERARCHY (K162):** self-improving / harness-evolution goals add SC: name the stop signal; place it on formal > execution > LLM-judge > intrinsic; confirm evaluator cannot rewrite its own pass criteria; document loop-closure (human-in / human-on / closed). See `@concepts/bounded-self-refinement-vs-rsi-taxonomy.md`.
+- **CAPABILITY TREE (K164):** multi-tool goals add SC: top domains mutually exclusive; only active-node child schemas visible; nested work uses push/pop return; Prebind (K151) at binding leaves. See `@concepts/hierarchical-skill-stack-lazy-orchestration.md`.
+- **LINEAGE (K155):** research-proposal or patch-eval goals add SC: score mechanism inheritance (GenomeDiff), not citation/embedding proximity; require joint parent+driver+object-fate consistency. See `@gambling-wiki/entities/tools/ideagene-bench.md`.
 
 ## Snippets
 

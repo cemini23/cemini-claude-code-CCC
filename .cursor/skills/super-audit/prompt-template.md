@@ -1,6 +1,6 @@
-# {{AUDIT_TITLE}} — super audit (5 auditors)
+# {{AUDIT_TITLE}} — super audit council
 
-You are auditor **{{MODEL_SLOT}}** in a **5-model super audit**.
+You are auditor **{{MODEL_SLOT}}** in a **multi-model super audit** (typically 5 or 6 auditors).
 
 **Mode:** `{{MODE}}` · **Readonly** — markdown report only; no edits.
 
@@ -59,7 +59,7 @@ PASS | WARN | FAIL — one line why
 {{DOMAIN_RECOMMENDATION_FIELDS}}
 
 ### Root cause
-One paragraph — or "insufficient evidence" + what to inspect next
+One paragraph on the likely cause — or "insufficient evidence" + what to inspect next. Do not transcribe or echo internal reasoning.
 
 ### Ranked patch backlog
 | P | Patch | Effort | Expected lift |

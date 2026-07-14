@@ -22,6 +22,14 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-07-14] hands-on | K155/K162/K164 harness policy patches
+
+- Encoded ADOPT steals as operational policy (K124-style): `/goal` SC tags, `ccc-wiki-workflow.mdc`, completion-gates K162 ladder
+- Hands-on brief: `briefs/2026-07-14_k162-k164-k155-harness-policy-hands-on.md`
+- TipDrop: `hierarchical-skill-tree-routing.md` stub (David K164)
+- Poker arena: `config/hu_capability_tree.json` + `examples/capability_tree.py` + tests
+- Prior ingest (same day): K162 RSI survey + K164 hierarchical skill stack wiki pages / phase-0 scripts
+
 ## [2026-07-14] ingest | RSI survey + hierarchical skill stack (K162–K164)
 
 - **K162 — RSI survey (2607.07663):** two-axis taxonomy + verification hierarchy. REFERENCE — cited GitHub 404 at Phase-0.

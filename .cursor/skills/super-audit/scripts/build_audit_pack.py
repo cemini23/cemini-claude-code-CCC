@@ -83,7 +83,12 @@ def main() -> int:
             src_s, dest = spec, Path(spec).name
         src = Path(src_s)
         if not src.is_absolute():
-            src = (workspace / src).resolve()
+            candidate = (workspace / src).resolve()
+            if candidate.is_file():
+                src = candidate
+            else:
+                alt = Path(src_s).resolve()
+                src = alt if alt.is_file() else candidate
         body = _read_tail(src, args.max_chars)
         (out / dest).write_text(body, encoding="utf-8")
         artifacts[dest] = str(out / dest)

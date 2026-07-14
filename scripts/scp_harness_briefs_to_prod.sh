@@ -44,6 +44,8 @@ BRIEFS=(
   "2026-07-14_k155-ideagene-lineage-eval-prod.md"
   "2026-07-14_k162-rsi-verification-hierarchy-prod.md"
   "2026-07-14_k164-hierarchical-skill-stack-lazy-orchestration-prod.md"
+  "2026-07-14_k162-k164-k155-harness-policy-hands-on.md"
+  "2026-07-14_stash-mcp-redeploy-prod.md"
 )
 
 echo "SCP harness briefs → ${REMOTE}"

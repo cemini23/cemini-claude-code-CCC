@@ -70,6 +70,9 @@ Per-SC confirmation · files touched · run/test steps · proof · decisions · 
 | **HARNESS TAG (K124)** | Hooks, skills, MCP, rules edits | Six-responsibility + ETCLOVG layer recorded |
 | **COMPACT RUBRIC (K124)** | Expected >50 turns | `hot.md` Checkpoint + Compact OK before `/compact` |
 | **SKILL PROMOTION (K124)** | New skill pages | ≥2 independent reuses logged or wiki-only |
+| **VERIFY HIERARCHY (K162)** | Self-improving agents / harness evolution | Name stop signal; prefer formal/execution over judge/intrinsic; evaluator cannot rewrite pass criteria; document loop-closure (in/on/closed) |
+| **CAPABILITY TREE (K164)** | Multi-tool / multi-MCP agents | Mutually exclusive top domains; lazy child manifests only; nested push/pop; Prebind at binding leaves |
+| **LINEAGE (K155)** | Research briefs / proposal or patch eval | Score mechanism inheritance (GenomeDiff), not citation proximity; joint parent+driver+fate consistency |
 | **CROSS-WIKI** | Federation ingest | Bidirectional `@wiki-alias/` backlinks |
 | **LOCAL-ONLY** | Laptop wikis | Explicit NO REMOTE / commit only when asked |
 

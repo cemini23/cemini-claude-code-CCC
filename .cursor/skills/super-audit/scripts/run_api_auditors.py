@@ -44,6 +44,8 @@ def _load_env(workspace: Path) -> None:
                 os.environ[k] = v
         break
 
+    os.environ.setdefault("OLLAMA_BASE_URL", "http://localhost:11434/v1")
+
     # WC-style advisor wiring when unset
     if not os.environ.get("ADVISOR_BASE_URL", "").strip() and os.environ.get(
         "OPENROUTER_API_KEY", ""
@@ -86,7 +88,11 @@ def _call_openai_compat(
     }
     if extra:
         body.update(extra)
-    headers = {"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"}
+    headers = {"Content-Type": "application/json"}
+    if api_key:
+        headers["Authorization"] = f"Bearer {api_key}"
+    elif "11434" not in base_url and "localhost" not in base_url:
+        headers["Authorization"] = "Bearer "
     if "openrouter.ai" in base_url:
         headers["HTTP-Referer"] = _resolve_env(
             "OPENROUTER_HTTP_REFERER", "https://github.com/cemini23"
@@ -111,7 +117,12 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--pack", type=Path, required=True)
     ap.add_argument("--out", type=Path, required=True)
-    ap.add_argument("--auditors", type=Path, default=DEFAULT_AUDITORS)
+    ap.add_argument("--auditors", type=Path, default=None)
+    ap.add_argument(
+        "--discover",
+        action="store_true",
+        help="Build auditors.json from discover_api_keys (OpenRouter + Ollama)",
+    )
     ap.add_argument("--workspace", type=Path, default=Path.cwd())
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--slot", default="", help="Run single label only")
@@ -131,12 +142,34 @@ def main() -> int:
     out_dir.mkdir(parents=True, exist_ok=True)
     ts = datetime.now(timezone.utc).strftime("%Y%m%dT%H%MZ")
 
-    auditors_path = args.auditors.resolve()
-    if not auditors_path.is_file():
-        print(f"Missing auditors config: {auditors_path}", file=sys.stderr)
-        return 1
+    tier = ""
+    if args.discover or args.auditors is None:
+        sys.path.insert(0, str(SCRIPT_DIR))
+        from discover_api_keys import discover, recommend_auditors  # noqa: E402
 
-    slots = _load_auditors(auditors_path)
+        disc = discover(workspace)
+        rec = recommend_auditors(disc)
+        slots = rec["slots"]
+        tier = rec["tier"]
+        auditors_path = out_dir / f"auditors_{ts}.json"
+        auditors_path.write_text(
+            json.dumps(
+                {"slots": slots, "tier": tier, "auditor_count": rec["auditor_count"]},
+                indent=2,
+            )
+            + "\n",
+            encoding="utf-8",
+        )
+        print(f"Discovered tier={tier} → {auditors_path}")
+        if not slots:
+            print("No API slots available (need OpenRouter key or running Ollama)", file=sys.stderr)
+            return 1
+    else:
+        auditors_path = args.auditors.resolve()
+        if not auditors_path.is_file():
+            print(f"Missing auditors config: {auditors_path}", file=sys.stderr)
+            return 1
+        slots = _load_auditors(auditors_path)
     if args.slot:
         slots = [s for s in slots if s.get("label") == args.slot]
         if not slots:
@@ -155,16 +188,26 @@ def main() -> int:
         label = slot.get("label") or "api-auditor"
         key_env = slot.get("api_key_env", "OPENROUTER_API_KEY")
         base_env = slot.get("base_url_env", "OPENROUTER_BASE_URL")
-        model = slot["model"]
-        api_key = _resolve_env(key_env)
-        base_url = _resolve_env(base_env, "https://openrouter.ai/api/v1")
+        api_key_optional = bool(slot.get("api_key_optional"))
+        model_env = slot.get("model_env", "").strip()
+        model = _resolve_env(model_env, slot["model"]) if model_env else slot["model"]
+        api_key = _resolve_env(key_env) if key_env else ""
+        default_base = (
+            "http://localhost:11434/v1"
+            if slot.get("local") or base_env == "OLLAMA_BASE_URL"
+            else "https://openrouter.ai/api/v1"
+        )
+        base_url = _resolve_env(base_env, default_base)
+        max_tokens = int(slot.get("max_tokens", 16_000))
         system = slot.get(
             "system",
             "Super audit — expert readonly reviewer. Follow required output format exactly.",
         )
         extra = slot.get("extra")
+        if model == "openrouter/fusion" and not extra:
+            extra = {"plugins": [{"id": "fusion"}]}
 
-        if not api_key:
+        if not api_key and not api_key_optional:
             msg = f"{label}: missing {key_env}"
             errors.append(msg)
             err_path = out_dir / f"{label}_{ts}_SKIPPED.txt"
@@ -174,7 +217,8 @@ def main() -> int:
             continue
 
         prompt = base_prompt.replace("{{MODEL_SLOT}}", label)
-        print(f"Calling {label} ({model})...")
+        provider = slot.get("provider", "api")
+        print(f"Calling {label} ({model}) via {provider}...")
         try:
             text = _call_openai_compat(
                 base_url=base_url,
@@ -183,6 +227,7 @@ def main() -> int:
                 prompt=prompt,
                 system=system,
                 extra=extra,
+                max_tokens=max_tokens,
             )
             out_path = out_dir / f"{label}_{ts}.md"
             out_path.write_text(text, encoding="utf-8")
@@ -199,6 +244,7 @@ def main() -> int:
         "timestamp": ts,
         "pack": str(pack),
         "auditors_file": str(auditors_path),
+        "tier": tier or None,
         "models": list(written.keys()),
         "errors": errors,
     }

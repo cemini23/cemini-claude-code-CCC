@@ -24,7 +24,7 @@ related:
   - sources/arxiv-timeclaw-contextualized-time-series-2606.05404.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-06-14
+updated: 2026-07-14
 cross-wiki-source: "@osint-wiki/sources/alash3al-stash.md"
 ---
 
@@ -41,7 +41,7 @@ cross-wiki-source: "@osint-wiki/sources/alash3al-stash.md"
 
 ## Raw Concept
 
-CCC-side stub for the stash MCP server. `[OFFLINE 2026-06-14]` Librarian host deleted — stash MCP tunnel (`localhost:8088`) unavailable unless operator restores from snapshot. Full audit: `@osint-wiki/sources/alash3al-stash.md`.
+CCC-side stub for the stash MCP server. **Redeployed 2026-07-14** on `cemini-prod` (`/opt/stash`, v0.2.11) after librarian deletion. Laptop tunnel: `localhost:8088` → prod `127.0.0.1:18080`. Full audit: `@osint-wiki/sources/alash3al-stash.md`.
 
 ## Narrative
 
@@ -50,7 +50,20 @@ CCC-side stub for the stash MCP server. `[OFFLINE 2026-06-14]` Librarian host de
 - **MCP-protocol-compatible** with Claude Desktop, Cursor, Windsurf, Cline, Continue, plus OpenRouter / Ollama backends. Claude Code is the primary CCC consumer.
 - **Episodic memory** — durable storage of "what happened in this session" across runs, accessible to the agent via MCP tool calls.
 - **Fact extraction + 8-stage consolidation** — turns raw conversation into stable facts that survive recall noise.
-- **Self-hosted, single binary, no cloud** — matches Cemini's laptop-server posture (binary lives on the Hetzner librarian, the laptop talks to it over MCP).
+- **Self-hosted** — Go binary in Docker on cemini-prod; laptop talks over SSH-tunneled MCP SSE.
+
+### Current deployment (2026-07-14)
+
+| Item | Value |
+|------|-------|
+| Host | `cemini-prod:/opt/stash` |
+| Version | v0.2.11 |
+| MCP | `127.0.0.1:18080/sse` (tunneled to laptop `:8088`) |
+| DB | dedicated `pgvector/pgvector:pg16` container |
+| LLM | OpenRouter embeddings + gpt-4o-mini reasoner |
+| Namespace | `/cemini` |
+
+Brief: `briefs/2026-07-14_stash-mcp-redeploy-prod.md`.
 
 ### How it relates to Cemini's existing memory stack
 
