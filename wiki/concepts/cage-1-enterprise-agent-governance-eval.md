@@ -21,9 +21,10 @@ related:
   - "@cybersecurity-wiki/sources/arxiv-2607-03510-cage-1-enterprise-agent-governance.md"
   - concepts/trustx-agent-risk-classification.md
   - sources/arxiv-trustx-agent-risk-classification-2607.09586.md
+  - concepts/hierarchical-skill-stack-lazy-orchestration.md
 maturity: draft
 created: 2026-07-10
-updated: 2026-07-13
+updated: 2026-07-14
 ---
 
 ## Relations

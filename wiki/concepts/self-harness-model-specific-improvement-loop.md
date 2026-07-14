@@ -21,9 +21,10 @@ related:
   - entities/tools/areal.md
   - sources/arxiv-next-gen-agentic-rl-self-evolving-2607.01120.md
   - concepts/modular-instruction-memory-learnable-selection.md
+  - concepts/bounded-self-refinement-vs-rsi-taxonomy.md
 maturity: draft
 created: 2026-06-11
-updated: 2026-07-13
+updated: 2026-07-14
 ---
 
 ## Relations

@@ -46,9 +46,11 @@ related:
   - concepts/substrate-constraints-coding-agent-oversight.md
   - sources/arxiv-steerability-via-constraints-coding-agent-oversight-2607.02389.md
   - concepts/model-native-vs-tool-mediated-fulfillment.md
+  - concepts/hierarchical-skill-stack-lazy-orchestration.md
+  - sources/arxiv-hierarchical-skill-stack-lazy-orchestration-2607.11138.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-07-07
+updated: 2026-07-14
 ---
 
 ## Relations

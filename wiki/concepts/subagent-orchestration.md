@@ -120,9 +120,11 @@ related:
   - sources/arxiv-large-cancer-assistant-lca-2607.06531.md
   - concepts/hierarchical-bounded-agent-memory.md
   - sources/arxiv-ensemble-qsp-hierarchical-memory-2607.07666.md
+  - concepts/hierarchical-skill-stack-lazy-orchestration.md
+  - sources/arxiv-hierarchical-skill-stack-lazy-orchestration-2607.11138.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-07-13
+updated: 2026-07-14
 ---
 
 ## Relations

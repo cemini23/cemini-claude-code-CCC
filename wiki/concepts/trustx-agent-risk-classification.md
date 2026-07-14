@@ -14,9 +14,10 @@ related:
   - concepts/agent-data-injection-attacks.md
   - sources/brief-k157-trustx-agent-risk-classification-2026-07-13.md
   - briefs/2026-07-13_ccc-handoff-memory-search-trustx-ingest.md
+  - concepts/bounded-self-refinement-vs-rsi-taxonomy.md
 maturity: draft
 created: 2026-07-13
-updated: 2026-07-13
+updated: 2026-07-14
 ---
 
 ## Relations

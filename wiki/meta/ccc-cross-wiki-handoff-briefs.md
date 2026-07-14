@@ -30,9 +30,10 @@ related:
   - concepts/agent-data-injection-attacks.md
   - briefs/2026-07-10_ccc-handoff-cage-polyworkbench-ingest.md
   - briefs/2026-07-13_ccc-handoff-memory-search-trustx-ingest.md
+  - briefs/2026-07-14_ccc-handoff-rsi-hierarchical-orchestration-ingest.md
 maturity: validated
 created: 2026-06-29
-updated: 2026-07-13
+updated: 2026-07-14
 ---
 
 ## Relations
@@ -66,5 +67,7 @@ Catalog of **durable handoff briefs** staged under `wiki/briefs/` (distinct from
 | `2026-07-07_ccc-handoff-hexstrike-client-orchestration-ingest.md` | Cybersec | Client-first-order tool orchestration (HexStrike) |
 | `2026-07-09_ccc-handoff-adi-spellsmith-ingest.md` | Cybersec | ADI trusted/untrusted isolation + SpellSmith MCP taint mitigation |
 | `2026-07-10_ccc-handoff-cage-polyworkbench-ingest.md` | Cybersec | CAGE-1 Prebind Assurance + PolyWorkBench multilingual eval |
+| `2026-07-13_ccc-handoff-memory-search-trustx-ingest.md` | CCC | MILES + QSP memory + DeepSearch + TrustX |
+| `2026-07-14_ccc-handoff-rsi-hierarchical-orchestration-ingest.md` | CCC | RSI verification hierarchy + hierarchical skill stack |
 
-Prod deploy briefs (K109–K152) live in gitignored `/briefs/` with discoverability stubs under `wiki/sources/brief-k*.md`.
+Prod deploy briefs (K109–K164) live in gitignored `/briefs/` with discoverability stubs under `wiki/sources/brief-k*.md`.

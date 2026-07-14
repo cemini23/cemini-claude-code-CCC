@@ -19,9 +19,10 @@ related:
   - concepts/multilingual-long-horizon-agent-eval.md
   - sources/arxiv-polyworkbench-multilingual-long-horizon-2607.06008.md
   - concepts/verifiable-search-agent-environment.md
+  - concepts/hierarchical-skill-stack-lazy-orchestration.md
 maturity: draft
 created: 2026-06-27
-updated: 2026-07-13
+updated: 2026-07-14
 ---
 
 ## Relations

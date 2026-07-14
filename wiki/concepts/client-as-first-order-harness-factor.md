@@ -18,9 +18,10 @@ related:
   - concepts/algorithmic-impermeability-model-agnostic-orchestration.md
   - concepts/multilingual-long-horizon-agent-eval.md
   - sources/arxiv-polyworkbench-multilingual-long-horizon-2607.06008.md
+  - concepts/hierarchical-skill-stack-lazy-orchestration.md
 maturity: draft
 created: 2026-07-07
-updated: 2026-07-10
+updated: 2026-07-14
 cross-wiki-primary: "@cybersecurity-wiki/concepts/security-tool-orchestration-determinants.md"
 ---
 

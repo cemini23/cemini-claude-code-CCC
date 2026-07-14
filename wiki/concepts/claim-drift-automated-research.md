@@ -23,9 +23,10 @@ related:
   - concepts/cross-model-verified-agent-translation.md
   - sources/arxiv-data-intelligence-agents-dia-2606.19319.md
   - sources/brief-k122-xcientist-claim-drift-prod-2026-06-22.md
+  - concepts/bounded-self-refinement-vs-rsi-taxonomy.md
 maturity: draft
 created: 2026-06-22
-updated: 2026-06-30
+updated: 2026-07-14
 ---
 
 ## Relations

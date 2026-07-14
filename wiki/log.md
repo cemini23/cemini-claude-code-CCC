@@ -22,6 +22,19 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-07-14] ingest | RSI survey + hierarchical skill stack (K162–K164)
+
+- **K162 — RSI survey (2607.07663):** two-axis taxonomy + verification hierarchy. REFERENCE — cited GitHub 404 at Phase-0.
+  - Created `concepts/bounded-self-refinement-vs-rsi-taxonomy.md`, source, brief, `scripts/adopt_k162_phase0.sh`
+  - No David adopt; no local clone
+- **K164 — Hierarchical skill architecture (2607.11138):** capability tree + LIFO stack + lazy manifests + fencing. REFERENCE + ADOPT patterns.
+  - Created `concepts/hierarchical-skill-stack-lazy-orchestration.md`, source, brief, `scripts/adopt_k164_phase0.sh`
+  - **David:** `tipdrop-workspace-kit/briefs/2026-07-14_k164-hierarchical-skill-tree-adopt.md`
+  - **Poker:** `agents/devfun-poker-arena/briefs/2026-07-14_k164-hierarchical-tool-routing-steal.md`
+- **Wired:** continual-harness, completion-gates, lazy-tool, mcp-context-optimization, subagent-orchestration, index, scp script, handoff brief
+- **Archive:** both PDFs → egress-fi `ccc/`
+- **Local adopt:** none installable <500MB (no public repos)
+
 ## [2026-07-13] ingest | MILES + QSP memory + DeepSearch + TrustX (K153–K157)
 
 - **K153 — MILES (2607.06974, UNSW):** modular instruction memory + learnable coarse-to-fine selection for sequential reasoning. REFERENCE — no repo.

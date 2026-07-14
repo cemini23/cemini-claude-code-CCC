@@ -18,9 +18,10 @@ related:
   - sources/arxiv-parthenon-law-self-evolving-legal-agent-2606.04602.md
   - concepts/selective-experience-memory-harness.md
   - sources/arxiv-finacumen-experience-memory-harness-2606.17642.md
+  - concepts/bounded-self-refinement-vs-rsi-taxonomy.md
 maturity: draft
 created: 2026-06-12
-updated: 2026-06-17
+updated: 2026-07-14
 ---
 
 ## Relations

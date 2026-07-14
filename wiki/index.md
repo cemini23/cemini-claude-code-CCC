@@ -283,6 +283,8 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`hierarchical-bounded-agent-memory`](concepts/hierarchical-bounded-agent-memory.md) | draft | Short/mid/long capped memory + eviction — 2607.07666 (K154) |
 | [`verifiable-search-agent-environment`](concepts/verifiable-search-agent-environment.md) | draft | DeepSearch-World deterministic verifiable search env — 2607.07820 (K156) |
 | [`trustx-agent-risk-classification`](concepts/trustx-agent-risk-classification.md) | draft | TrustX ARC 12-dimension agent risk tiering — 2607.09586 (K157) |
+| [`bounded-self-refinement-vs-rsi-taxonomy`](concepts/bounded-self-refinement-vs-rsi-taxonomy.md) | draft | RSI survey taxonomy + verification hierarchy — 2607.07663 (K162) |
+| [`hierarchical-skill-stack-lazy-orchestration`](concepts/hierarchical-skill-stack-lazy-orchestration.md) | draft | Capability tree + LIFO stack + lazy manifests — 2607.11138 (K164) |
 | [`tool-eval-license-skepticism-patterns`](concepts/tool-eval-license-skepticism-patterns.md) | draft | K73 license-eval anti-patterns (NO-LICENSE false negatives, BSL parsing) |
 | [`enterprise-auto-mode-telemetry-rollout`](concepts/enterprise-auto-mode-telemetry-rollout.md) | draft | Auto Mode policy rollout via telemetry loops (K73 Post 1) |
 | [`harness-de-bloat-4x4-pattern`](concepts/harness-de-bloat-4x4-pattern.md) | draft | 4-skills/4-agents simplification pattern (K73 Post 2) |
@@ -512,6 +514,10 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`brief-k156-deepsearch-world-verifiable-search-2026-07-13`](sources/brief-k156-deepsearch-world-verifiable-search-2026-07-13.md) | validated | K156 prod brief stub |
 | [`arxiv-trustx-agent-risk-classification-2607.09586`](sources/arxiv-trustx-agent-risk-classification-2607.09586.md) | draft | TrustX ARC — read (K157) |
 | [`brief-k157-trustx-agent-risk-classification-2026-07-13`](sources/brief-k157-trustx-agent-risk-classification-2026-07-13.md) | validated | K157 prod + David adopt stub |
+| [`arxiv-recursive-self-improvement-survey-2607.07663`](sources/arxiv-recursive-self-improvement-survey-2607.07663.md) | draft | RSI survey verification hierarchy — read (K162) |
+| [`brief-k162-rsi-verification-hierarchy-2026-07-14`](sources/brief-k162-rsi-verification-hierarchy-2026-07-14.md) | validated | K162 prod brief stub |
+| [`arxiv-hierarchical-skill-stack-lazy-orchestration-2607.11138`](sources/arxiv-hierarchical-skill-stack-lazy-orchestration-2607.11138.md) | draft | Hierarchical skill stack — read (K164) |
+| [`brief-k164-hierarchical-skill-stack-lazy-orchestration-2026-07-14`](sources/brief-k164-hierarchical-skill-stack-lazy-orchestration-2026-07-14.md) | validated | K164 prod + David + poker stub |
 | [`brief-k109-bayesian-agent-harness-cluster-prod-2026-06-10`](sources/brief-k109-bayesian-agent-harness-cluster-prod-2026-06-10.md) | validated | K109 prod brief stub |
 | [`brief-k132-local-adoptions-cursor-federation-prod-2026-06-27`](sources/brief-k132-local-adoptions-cursor-federation-prod-2026-06-27.md) | validated | K132 prod brief stub |
 | [`brief-k122-k126-federation-cursor-harness-adoptions-2026-06-25`](sources/brief-k122-k126-federation-cursor-harness-adoptions-2026-06-25.md) | validated | K122–K126 federation batch brief stub |

@@ -52,9 +52,11 @@ related:
   - concepts/model-native-vs-tool-mediated-fulfillment.md
   - sources/arxiv-shopx-intent-to-item-fulfillment-2606.31693.md
   - concepts/hierarchical-bounded-agent-memory.md
+  - concepts/hierarchical-skill-stack-lazy-orchestration.md
+  - sources/arxiv-hierarchical-skill-stack-lazy-orchestration-2607.11138.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-07-13
+updated: 2026-07-14
 ---
 
 ## Relations

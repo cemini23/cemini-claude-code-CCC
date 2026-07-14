@@ -21,9 +21,10 @@ related:
   - concepts/claude-skills-folder-taxonomy.md
   - sources/trading-posts-compilation-7-2026-06-09.md
   - concepts/skillhone-continual-skill-decision-history.md
+  - concepts/hierarchical-skill-stack-lazy-orchestration.md
 maturity: draft
 created: 2026-06-04
-updated: 2026-06-12
+updated: 2026-07-14
 ---
 
 ## Relations

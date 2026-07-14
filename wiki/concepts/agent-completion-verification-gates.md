@@ -61,9 +61,12 @@ related:
   - concepts/modular-instruction-memory-learnable-selection.md
   - concepts/trustx-agent-risk-classification.md
   - concepts/verifiable-search-agent-environment.md
+  - concepts/bounded-self-refinement-vs-rsi-taxonomy.md
+  - concepts/hierarchical-skill-stack-lazy-orchestration.md
+  - sources/arxiv-recursive-self-improvement-survey-2607.07663.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-07-13
+updated: 2026-07-14
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-25-2026-05-27.md"
 ---
 

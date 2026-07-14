@@ -16,9 +16,10 @@ related:
   - sources/brief-k139-agentic-online-rl-self-evolving-2026-07-07.md
   - concepts/algorithmic-impermeability-model-agnostic-orchestration.md
   - sources/arxiv-large-cancer-assistant-lca-2607.06531.md
+  - concepts/bounded-self-refinement-vs-rsi-taxonomy.md
 maturity: draft
 created: 2026-07-07
-updated: 2026-07-09
+updated: 2026-07-14
 ---
 
 ## Relations

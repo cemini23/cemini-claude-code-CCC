@@ -41,6 +41,9 @@ BRIEFS=(
   "2026-07-13_k154-hierarchical-bounded-agent-memory-prod.md"
   "2026-07-13_k156-deepsearch-world-verifiable-search-prod.md"
   "2026-07-13_k157-trustx-agent-risk-classification-prod.md"
+  "2026-07-14_k155-ideagene-lineage-eval-prod.md"
+  "2026-07-14_k162-rsi-verification-hierarchy-prod.md"
+  "2026-07-14_k164-hierarchical-skill-stack-lazy-orchestration-prod.md"
 )
 
 echo "SCP harness briefs → ${REMOTE}"
