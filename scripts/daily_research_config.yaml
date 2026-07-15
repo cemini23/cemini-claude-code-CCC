@@ -1,15 +1,21 @@
 loop:
-  recency_window_days: 7
+  recency_window_days: 14
   max_results_per_query: 3
 fetch:
   enabled: true
   max_downloads: 5
   fetch_likely: false
-  max_results_per_paper_query: 5
+  max_results_per_paper_query: 3
 arxiv_fallback:
   enabled: true
   request_interval_seconds: 3
-  max_terms_per_query: 6
+  max_terms_per_query: 4
+exa:
+  news_enabled: false
+  paper_mode: arxiv-only
+  include_domains:
+  - arxiv.org
+  search_type: auto
 active_topics:
 - Claude Code skills hooks MCP agent harness
 - Cursor IDE rules subagents conductor
@@ -19,9 +25,11 @@ paper_queries:
 - cluster: agent-harness
   query: research paper LLM agent harness self-improving tools memory
   category: research paper
+  arxiv_query: (all:agent AND (all:harness OR all:orchestration)) OR (all:LLM AND all:agent AND all:tool)
 - cluster: mcp-orchestration
   query: research paper model context protocol agent orchestration
   category: research paper
+  arxiv_query: (all:MCP OR all:"model context protocol") AND (all:agent OR all:tool OR all:orchestrat)
 queries:
 - cluster: claude-code-release
   query: Claude Code Anthropic release hooks skills
@@ -38,8 +46,8 @@ monokern_pipeline:
   - yt-dlp
   - inbox_pdf
   - web_url
-  skill_notes: Laptop-only NotebookLM auth; output to wiki/ or briefs/; Phase-4 human
-    gate before entity writes.
+  skill_notes: Laptop-only NotebookLM auth; output to wiki/ or briefs/; Phase-4 human gate before entity
+    writes.
 social:
   manual_pass:
   - tool: opencli-reader
