@@ -22,7 +22,7 @@ related:
   - entities/tools/awesome-agent-engineering.md
 maturity: validated
 created: 2026-05-21
-updated: 2026-07-10
+updated: 2026-07-15
 ---
 
 ## Relations
@@ -43,7 +43,9 @@ Question: **Where is the canonical copy-paste prompt for bulk URL / repo evaluat
 
 ## Narrative
 
-Bulk tool evaluation uses **ten surfaces** (Cemini **active prod bots** — XSP killer, poker arena, PM/Kalshi exploratory — + seven specialist wikis including **gambling-wiki** and **game-dev-wiki** + **CCC wiki** as harness meta + **TipDrop.io** friend project). Co-primary hobby slot (Jul 2026): **family-tree / computational genealogy** (`Desktop/family/`, OSINT K153/K154) — **castle-sim deprioritized**.
+Bulk tool evaluation uses **ten surfaces** (Cemini **active prod bots** — XSP killer, poker arena, PM/Kalshi exploratory — + seven specialist wikis including **gambling-wiki** and **game-dev-wiki** + **CCC wiki** as harness meta + **TipDrop.io** friend project).
+
+**Priority #1 (v10.2, 2026-07-15):** **XSP killer** · **TipDrop.io** · **family-tree** · **PM LP canary (K166)** · **wikis always-on**. Poker + CeminiDFS stay active (always report applies; #1 wins ties only). Revenue lens unchanged. castle-sim remains deprioritized.
 
 ### Version lineage
 
@@ -63,6 +65,13 @@ Bulk tool evaluation uses **ten surfaces** (Cemini **active prod bots** — XSP 
 **First v6 production batch:** K90 (2026-05-31, 41 URLs) — `@sources/multi-wiki-tool-eval-v6-k90-2026-05-31.md` (adds gambling-wiki surface).
 
 **First v7 note:** K115 (2026-06-13) — `@game-dev-wiki` bootstrap; no bulk URL batch yet.
+
+### v10.2 delta (2026-07-15) [CONFIRMED]
+
+1. **Priority #1** — **XSP killer**, **TipDrop.io**, **family-tree**, **PM LP canary (K166)** (+ **wikis always-on**). Tie-break routing/tiers toward these.
+2. **Poker arena** + **CeminiDFS** remain **active** — always score overlaps and surface applicable research; only lose on multi-project ties.
+3. **Revenue lens unchanged** — still “how does this make us money?” (or family-tree value hypothesis).
+4. **PM canary paths:** `compose.polymarket.canary.yml`, `docs/pm-lp-k166-phase1-canary.md`, briefs `pm-*` → overlap `pm-canary`.
 
 ### v10.1 delta (2026-07-10) [CONFIRMED]
 

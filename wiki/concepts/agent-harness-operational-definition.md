@@ -17,9 +17,10 @@ related:
   - concepts/model-harness-six-responsibilities.md
   - sources/arxiv-agent-harness-survey-2606.20683.md
   - sources/brief-k109-bayesian-agent-harness-cluster-prod-2026-06-10.md
+  - sources/arxiv-better-harnesses-smaller-models-2607.08938.md
 maturity: draft
 created: 2026-06-10
-updated: 2026-07-03
+updated: 2026-07-15
 ---
 
 ## Relations

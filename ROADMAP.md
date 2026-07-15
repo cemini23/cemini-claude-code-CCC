@@ -17,6 +17,8 @@ Active workstreams, open decisions, and the done log for the Cemini Claude Code 
 
 ## Follow-ups (parked)
 
+- **Harness-evolution claim re-audit (K169, 2026-07-15)** — `concepts/harnessx-composable-evolution-foundry.md`, `concepts/retrospective-harness-optimization-rho.md`, and `concepts/hierarchical-skill-stack-lazy-orchestration.md` (K164) all carry `[NEEDS VERIFICATION 2026-07-15]` tags per `concepts/harness-evolution-vs-test-time-scaling-baseline.md` — none were checked against a test-time-scaling baseline or held-out generalization split. Revisit before any of those three graduate past `draft`/`CONDITIONAL-GO`.
+
 - **Hook-test harness** — write a fixture that drives Claude Code with a controlled `settings.json` and observes hook firings. Deferred; today we lint hook *documentation*, not hook behavior.
 - **`/goal` invocation history** — capture every past `/goal` prompt + its outcome in `wiki/sources/goal-invocations-*.md`. Provides a corpus to mine for the `goal-recipe-` family of patterns.
 - **OpenSpec end-to-end** — once 3+ real OpenSpec runs land, write `concepts/openspec-end-to-end-workflow.md`.

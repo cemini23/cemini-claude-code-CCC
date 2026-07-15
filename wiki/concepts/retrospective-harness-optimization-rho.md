@@ -24,9 +24,12 @@ related:
   - concepts/self-harness-model-specific-improvement-loop.md
   - sources/arxiv-self-harness-improve-themselves-2606.09498.md
   - concepts/orchestration-reward-modeling-orch-rm.md
+  - concepts/harness-evolution-vs-test-time-scaling-baseline.md
+  - sources/arxiv-better-harnesses-smaller-models-2607.08938.md
+  - sources/arxiv-rethinking-harness-evolution-evaluation-2607.12227.md
 maturity: draft
 created: 2026-06-07
-updated: 2026-06-16
+updated: 2026-07-15
 ---
 
 ## Relations
@@ -37,6 +40,7 @@ updated: 2026-06-16
 - `@concepts/harness-updating-vs-benefit-nonmonotonic.md` — optimized harness must be followed by executor
 - `@entities/tools/retro-harness.md` — MIT reference implementation
 - `@entities/patterns/glasswing-deliberate-disagreement.md` — self-consistency via adversarial re-check
+- `@concepts/harness-evolution-vs-test-time-scaling-baseline.md` — [NEEDS VERIFICATION 2026-07-15] Table (SWE-Bench Pro +0.19 etc.) has no reported scaling-baseline or held-out-generalization comparison
 
 ## Raw Concept
 
@@ -109,6 +113,8 @@ RHO edits **Skills+Tools**; memory-only baselines gain ≤+0.05.
 | vs HarnessFix install | Both NO-GO prod; RHO is **experiment** in throwaway worktree |
 
 **Decision — CONDITIONAL-GO (laptop trial).** Run in isolated temp clone; do not wire to `~/.claude/` prod harness until smoke pass on CCC fixture trajectories.
+
+**[NEEDS VERIFICATION 2026-07-15]:** `@concepts/harness-evolution-vs-test-time-scaling-baseline.md` (AI2/UW 2607.12227) finds this class of method (single-round harness rewrite from unlabeled/self-preference feedback) often fails to beat simple parallel-sampling/sequential-refinement at matched budget, and gains overfit the tuning set. RHO's Table (SWE-Bench Pro 0.59→0.78) has no such baseline. Before promoting past laptop trial, run RHO's self-preference gate against a same-budget parallel-sampling control on a held-out task subset.
 
 ## Snippets
 

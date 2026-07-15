@@ -22,6 +22,28 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-07-15] ingest | SLM harness adaptation + harness-evolution eval (K168–K169)
+
+- **K168 — Better Harnesses, Smaller Models (2607.08938, CMU):** failure-mode→adaptation map; SLM cost recovery via tailored harness. **ADOPT** taxonomy + diagnostic loop; **NO-GO** `malusamayo/migration-analysis` (no LICENSE; replication package). Magnitude claims `[NEEDS VERIFICATION]` pending K169 gate.
+  - Created/finalized `concepts/failure-mode-harness-adaptation-mapping.md`, source, entity, prod brief, `scripts/adopt_k168_phase0.sh`
+  - **David:** `tipdrop-workspace-kit/briefs/2026-07-15_ccc-k168-slm-harness-adaptation-david.md` (distinct from TipDrop OSINT K168 Middy brief)
+  - **Poker:** `agents/devfun-poker-arena/briefs/2026-07-15_k168-slm-harness-for-repetitive-decides.md`
+- **K169 — Rethinking Harness Evolution Eval (2607.12227, AI2/UW):** matched-budget protocol; harness evolution ≤ test-time scaling on Terminal-Bench 2.1; weak held-out generalization. **ADOPT** five-row checklist; **NO-GO** `rethinking-harness-evolution/code` (no LICENSE file; paid E2B).
+  - Created/finalized `concepts/harness-evolution-vs-test-time-scaling-baseline.md`, source, entity, prod brief, `scripts/adopt_k169_phase0.sh`
+  - **Poker:** `agents/devfun-poker-arena/briefs/2026-07-15_k169-eval-discipline-for-harness-tweaks.md`
+- **Wired:** HarnessX/RHO/SEAGym/K164 caveat links, index, scp script, handoff brief, policy hands-on
+- **Archive:** both PDFs → egress-fi `ccc/`
+- **Local adopt:** none (both repos NO-GO on license; <500MB but unlicensed)
+- **ID note:** TipDrop OSINT occupied bare `k167`/`k168` filenames today (12-factor / Middy) — CCC uses K168/K169 with `ccc-k168-` David prefix
+
+## [2026-07-15] prompt | v10.2 Priority #1 + PM LP canary
+
+- Priority #1: **XSP killer**, **TipDrop.io**, **family-tree**, **PM LP canary (K166)** (+ **wikis always-on**)
+- Poker + CeminiDFS: still active — always report applies; #1 only wins ties
+- Revenue lens unchanged
+- PM paths: `compose.polymarket.canary.yml`, `docs/pm-lp-k166-phase1-canary.md`, overlap `pm-canary`
+- Concept + cross-wiki-routing notes: `@concepts/deep-research-evaluation-prompt.md` v10.2
+
 ## [2026-07-14] hands-on | K155/K162/K164 harness policy patches
 
 - Encoded ADOPT steals as operational policy (K124-style): `/goal` SC tags, `ccc-wiki-workflow.mdc`, completion-gates K162 ladder
@@ -1299,3 +1321,14 @@ Cross-wiki stub routed from `@osint-wiki/sources/newsletter-rss-latent-space-202
 ## [2026-07-08] cross-wiki | K149 ccc
 
 - Lilian Weng harness + context-engineering integrate briefs
+
+## [2026-07-15] ingest | K169 — Better Harnesses Smaller Models + Rethinking Harness Evolution Evaluation
+
+- **Sources:** arXiv 2607.08938 (CMU — SLM harness adaptation, 90% cost recovery) + arXiv 2607.12227 (AI2/UW — harness-evolution evaluation rigor)
+- **New pages:** `sources/arxiv-better-harnesses-smaller-models-2607.08938.md`, `sources/arxiv-rethinking-harness-evolution-evaluation-2607.12227.md`, `concepts/failure-mode-harness-adaptation-mapping.md`, `concepts/harness-evolution-vs-test-time-scaling-baseline.md`, `entities/tools/migration-analysis-replication-package.md` (NO-GO, no LICENSE), `entities/tools/rethinking-harness-evolution-eval-harness.md` (NO-GO, no LICENSE + paid infra)
+- **Backlinks + `[NEEDS VERIFICATION 2026-07-15]` caveats added** on `concepts/harnessx-composable-evolution-foundry.md`, `concepts/seagym-self-evolving-harness-evaluation.md`, `concepts/retrospective-harness-optimization-rho.md`, `concepts/hierarchical-skill-stack-lazy-orchestration.md` — none of those source papers ran a test-time-scaling baseline or held-out generalization check, which the AI2/UW paper shows is necessary to trust magnitude claims
+- **Phase-0:** both repos NO-GO adopt (no LICENSE on either GitHub API check; second repo also needs paid Claude/GPT/E2B/Serper API keys) — REFERENCE only
+- **Briefs:** `briefs/2026-07-15_k169-harness-adaptation-evaluation-rigor-prod.md` → scp'd to `cemini-prod:/opt/cemini/briefs/` [CONFIRMED 6079 bytes on remote]; David adopt → `tipdrop-workspace-kit/briefs/2026-07-15_k169-slm-harness-adaptation-cost-recovery-adopt.md`; poker steal → `OSINT WORKSPACE/agents/devfun-poker-arena/briefs/2026-07-15_k169-slm-harness-cost-recovery-steal.md`
+- **Archive:** both PDFs archived to `cemini-egress-fi:/opt/cemini-bulk/research/ccc/` (auto-archived by inbox pipeline before this session's explicit archive call ran; confirmed present + correct byte size via `ssh cemini-egress-fi`); local `research to be indexed/` copies removed
+- Updated `wiki/index.md` (8 new rows); `ROADMAP.md` follow-up noted
+- **Note:** a concurrent session in this workspace independently staged complementary K168/K169 artifacts for the same two papers around the same time — `briefs/2026-07-15_k168-slm-harness-adaptation-prod.md`, `briefs/2026-07-15_k169-harness-evolution-eval-discipline-prod.md`, `briefs/2026-07-15_k168-k169-harness-policy-hands-on.md`, source stubs `sources/brief-k168-slm-harness-adaptation-2026-07-15.md` / `sources/brief-k169-harness-evolution-eval-discipline-2026-07-15.md`, handoff `wiki/briefs/2026-07-15_ccc-handoff-slm-harness-eval-ingest.md`, Phase-0 scripts `scripts/adopt_k168_phase0.sh` / `scripts/adopt_k169_phase0.sh`, and backlinks on 9 further concept pages (`agent-harness-operational-definition`, `etclovg-harness-layers`, `failed-trajectory-harness-repair`, `harness-updating-vs-benefit-nonmonotonic`, `mcp-context-optimization`, `model-native-vs-tool-mediated-fulfillment`, `multi-agent-evidence-artifact-layers`, `operator-model-selection`, `meta/ccc-cross-wiki-handoff-briefs`). All of this was compatible with (referenced the same target filenames as) this session's core content — reconciled, not duplicated. All briefs from both sessions were sent to prod together in the single `scp_harness_briefs_to_prod.sh` run above.

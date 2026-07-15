@@ -41,6 +41,7 @@ related:
   - concepts/algorithmic-impermeability-model-agnostic-orchestration.md
   - concepts/cage-1-enterprise-agent-governance-eval.md
   - sources/arxiv-cage-1-enterprise-agentic-governance-2607.03510.md
+  - concepts/failure-mode-harness-adaptation-mapping.md
 maturity: validated
 created: 2026-06-05
 updated: 2026-07-10
@@ -53,6 +54,7 @@ updated: 2026-07-10
 - `@concepts/skill-vetting.md` — Tool Interface + Governance gates before harness changes
 - `@concepts/hooks-for-automation.md` — Lifecycle + Observability injection points
 - `@concepts/model-harness-six-responsibilities.md` — six-responsibility survey decomposition (2606.20683)
+- `@concepts/failure-mode-harness-adaptation-mapping.md` — K168 failure→adaptation map overlays context/tools/control
 
 ## Raw Concept
 

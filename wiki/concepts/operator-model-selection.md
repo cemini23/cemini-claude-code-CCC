@@ -3,15 +3,17 @@ title: Operator model selection for workflows and subagents
 type: concept
 tags: [models, workflows, subagents, codex, claude, k142]
 keywords: [gpt-5.5, sonnet-5, opus-4.8, fable-5, codex exec, model selection]
-related: []
+related:
+  - concepts/failure-mode-harness-adaptation-mapping.md
 maturity: draft
 created: 2026-07-03
-updated: 2026-07-03
+updated: 2026-07-15
 ---
 
 ## Relations
 
 - Source screenshot: `x.jpeg` archived through OSINT K142.
+- `@concepts/failure-mode-harness-adaptation-mapping.md` — K168: cheap-model tier via harness adaptation on low-diversity tasks
 
 ## Narrative
 

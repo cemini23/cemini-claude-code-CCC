@@ -15,9 +15,10 @@ related:
   - sources/arxiv-clarus-scientific-collaboration-infrastructure-2606.30246.md
   - concepts/algorithmic-impermeability-model-agnostic-orchestration.md
   - sources/arxiv-large-cancer-assistant-lca-2607.06531.md
+  - concepts/harness-evolution-vs-test-time-scaling-baseline.md
 maturity: draft
 created: 2026-06-24
-updated: 2026-07-09
+updated: 2026-07-15
 ---
 
 ## Relations

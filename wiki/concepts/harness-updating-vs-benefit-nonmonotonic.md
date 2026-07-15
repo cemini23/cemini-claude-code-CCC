@@ -23,9 +23,10 @@ related:
   - concepts/self-harness-model-specific-improvement-loop.md
   - concepts/seagym-self-evolving-harness-evaluation.md
   - sources/arxiv-seagym-self-evolving-harness-eval-2606.17546.md
+  - concepts/harness-evolution-vs-test-time-scaling-baseline.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-17
+updated: 2026-07-15
 cross-wiki-source: "@osint-wiki/concepts/harness-updating-vs-benefit-nonmonotonic.md"
 ---
 

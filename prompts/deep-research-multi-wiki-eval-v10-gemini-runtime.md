@@ -23,18 +23,27 @@ Assign a **tier**, name **primary wiki fit**, flag **cross-wiki routing**, score
 
 **License and ToS are NOT tier drivers.** Note friction under Implementation notes only. Tier on revenue + project fit.
 
-### Active co-primary projects (name path when claiming fit)
+### Still revenue-first
 
-- **Poker arena:** `agents/devfun-poker-arena/examples/cemini_decide.py` → overlap `poker-arena` → revenue: arena prizes
-- **CeminiDFS:** `CeminiDFS/src/ceminidfs/pipeline/` → overlap `CeminiDFS` → revenue: contest ROI
+Score every URL on **money / value path** (P&L, MRR, conversion, ops time saved, or family-tree personal value). License/ToS = notes only, not tier drivers.
+
+### Priority #1 (prefer routing/tier when ties; name path when claiming fit)
+
 - **XSP killer:** briefs `xsp-*` → `cemini-prod:/opt/cemini/briefs/` → overlap `xsp-killer` → revenue: trading P&L
-- **Family-tree / genealogy:** `Desktop/family/` + `Desktop/family/research/` → overlap `genealogy` → value: archival depth, brick-wall breakthroughs, jure sanguinis docs (no P&L)
 - **TipDrop:** `tipdrop-workspace-kit/` + David's `cemini23/tipdrop` → overlap `tipdrop` → revenue: David's $97/mo SaaS MRR
+- **Family-tree / genealogy:** `Desktop/family/` + `Desktop/family/research/` → overlap `genealogy` → value: archival depth, brick-wall breakthroughs, jure sanguinis docs (no P&L)
+- **PM LP canary (K166):** `CeminiSuite/` → `cemini-prod:/opt/cemini/` (`compose.polymarket.canary.yml`, `docs/pm-lp-k166-phase1-canary.md`, briefs `pm-*`) → overlap `pm-canary` → revenue: LP rewards P&L after shadow gates
+- **Wikis (always-on):** federation surfaces 2–9 + CCC — stub/route even when no Priority #1 code fit
+
+### Also active — always score & report if research applies (tie-break after #1)
+
+- **Poker arena:** `agents/devfun-poker-arena/examples/cemini_decide.py` → overlap `poker-arena` → revenue: arena prizes — **do not skip** poker/GTO/RL applies
+- **CeminiDFS:** `CeminiDFS/src/ceminidfs/pipeline/` → overlap `CeminiDFS` → revenue: contest ROI — **do not skip** NFL/DFS/projection applies
 
 ### Ten routing surfaces (YES / PARTIAL / NO — for wiki stubs, not permission gates)
 
-1. Cemini prod bots (XSP, poker arena, PM/Kalshi, world-cup-bot, wc-ticket-monitor)
-2. OSINT wiki — PM/Kalshi bots, LP, XSP research, **genealogy methodology** (K153/K154)
+1. Cemini prod bots (**XSP Priority #1**, **PM LP canary Priority #1**, poker arena, world-cup-bot, wc-ticket-monitor)
+2. OSINT wiki — **PM LP canary / Kalshi**, LP, XSP research, **genealogy methodology** (K153/K154; family-tree Priority #1)
 3. Gambling wiki — retail betting, DFS, poker strategy
 4. Cybersec wiki
 5. Image-gen wiki
@@ -42,11 +51,11 @@ Assign a **tier**, name **primary wiki fit**, flag **cross-wiki routing**, score
 7. 3D-printing wiki
 8. Game-dev wiki — hobby game dev (castle-sim legacy — deprioritized)
 9. CCC wiki — Cursor/Claude harness, MCP, skills
-10. TipDrop.io — David's Discord signals SaaS
+10. TipDrop.io — David's Discord signals SaaS (**Priority #1**)
 
 ### Shipped stacks — default Context/Pass unless named gap + revenue why
 
-Poker arena (7 modules), CeminiDFS (pipeline stages), xsp-killer (4 modules), TipDrop kit (6 modules), **genealogy (8 modules — archival ladder, Gramps/GEDCOM, FS API, Antenati IIIF, HTR, entity resolution, regional playbook, US census staging)**, world-cup-bot, wc-ticket-monitor — see full v10 canon.
+Poker arena (7 modules), ceminiDFS (pipeline stages), xsp-killer (4 modules), TipDrop kit (6 modules), **PM LP canary (K166 — shadow compose + markout kills + rebaseline)**, **genealogy (8 modules — archival ladder, Gramps/GEDCOM, FS API, Antenati IIIF, HTR, entity resolution, regional playbook, US census staging)**, world-cup-bot, wc-ticket-monitor — see full v10 canon.
 
 ### Tiers (revenue-first)
 
@@ -80,7 +89,7 @@ Poker arena (7 modules), CeminiDFS (pipeline stages), xsp-killer (4 modules), Ti
 - Deferred to next batch: [list or none]
 - Batch theme: [e.g. Discord alert bots + TipDrop revenue plays]
 - Evaluation order: [numbered URL list]
-- Primary lens: revenue + project fit per URL
+- Primary lens: revenue + project fit; Priority #1 = XSP + TipDrop + family-tree + PM canary (+ wikis always)
 ```
 
 ### Step 2 — Per URL
@@ -103,9 +112,9 @@ Poker arena (7 modules), CeminiDFS (pipeline stages), xsp-killer (4 modules), Ti
 - Tier: Integrate | Extract | Watch | Context | Pass | UNAVAILABLE
 - Primary fit: [surface name]
 - Surfaces: prod=NO osint=NO gambling=NO game=NO cyber=NO image=NO seo=NO print=NO ccc=PARTIAL tipdrop=YES
-- Overlaps: tipdrop=... poker-arena=... CeminiDFS=... xsp-killer=... genealogy=... wc-bot=... wc-tickets=...
+- Overlaps: tipdrop=... poker-arena=... ceminiDFS=... xsp-killer=... genealogy=... pm-canary=... wc-bot=... wc-tickets=...
 - Cross-wiki routing: ...
-- Active project routing: [poker-arena | CeminiDFS | xsp-killer | family-tree | tipdrop | wiki-only]
+- Active project routing: [xsp-killer | tipdrop | family-tree | pm-canary | wiki-only | poker-arena | ceminiDFS] (prefer Priority #1)
 - Combo plays: ... (or none)
 - Reasoning: 2-4 sentences — path + revenue + tier
 

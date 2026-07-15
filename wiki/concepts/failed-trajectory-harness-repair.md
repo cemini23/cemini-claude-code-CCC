@@ -38,9 +38,11 @@ related:
   - concepts/metamemory-scaffold-proficiency-training.md
   - sources/arxiv-automem-metamemory-cognitive-skill-2607.01224.md
   - concepts/agentic-online-rl-self-evolving-systems.md
+  - concepts/harness-evolution-vs-test-time-scaling-baseline.md
+  - sources/arxiv-rethinking-harness-evolution-evaluation-2607.12227.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-07-07
+updated: 2026-07-15
 ---
 
 ## Relations

@@ -54,6 +54,7 @@ related:
   - concepts/hierarchical-bounded-agent-memory.md
   - concepts/hierarchical-skill-stack-lazy-orchestration.md
   - sources/arxiv-hierarchical-skill-stack-lazy-orchestration-2607.11138.md
+  - concepts/failure-mode-harness-adaptation-mapping.md
 maturity: validated
 created: 2026-05-13
 updated: 2026-07-14
@@ -73,6 +74,7 @@ updated: 2026-07-14
 - `@entities/tools/omnifs.md` — projected filesystem for APIs; shell `cat`/`grep` ergonomics vs MCP catalog (K108)
 
 Cross-wiki: `@osint-wiki/concepts/mcp-context-optimization.md` is the original 4-layer methodology source (K34 ingest, OSINT side).
+- `@concepts/failure-mode-harness-adaptation-mapping.md` — K168 tool-filter / progressive-reveal adaptations
 
 ## Raw Concept
 

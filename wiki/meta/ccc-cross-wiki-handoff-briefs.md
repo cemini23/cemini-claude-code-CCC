@@ -31,9 +31,10 @@ related:
   - briefs/2026-07-10_ccc-handoff-cage-polyworkbench-ingest.md
   - briefs/2026-07-13_ccc-handoff-memory-search-trustx-ingest.md
   - briefs/2026-07-14_ccc-handoff-rsi-hierarchical-orchestration-ingest.md
+  - briefs/2026-07-15_ccc-handoff-slm-harness-eval-ingest.md
 maturity: validated
 created: 2026-06-29
-updated: 2026-07-14
+updated: 2026-07-15
 ---
 
 ## Relations
@@ -69,5 +70,6 @@ Catalog of **durable handoff briefs** staged under `wiki/briefs/` (distinct from
 | `2026-07-10_ccc-handoff-cage-polyworkbench-ingest.md` | Cybersec | CAGE-1 Prebind Assurance + PolyWorkBench multilingual eval |
 | `2026-07-13_ccc-handoff-memory-search-trustx-ingest.md` | CCC | MILES + QSP memory + DeepSearch + TrustX |
 | `2026-07-14_ccc-handoff-rsi-hierarchical-orchestration-ingest.md` | CCC | RSI verification hierarchy + hierarchical skill stack |
+| `2026-07-15_ccc-handoff-slm-harness-eval-ingest.md` | CCC | K168 SLM harness adaptation + K169 evolution-eval discipline |
 
-Prod deploy briefs (K109–K164) live in gitignored `/briefs/` with discoverability stubs under `wiki/sources/brief-k*.md`.
+Prod deploy briefs (K109–K169) live in gitignored `/briefs/` with discoverability stubs under `wiki/sources/brief-k*.md`.

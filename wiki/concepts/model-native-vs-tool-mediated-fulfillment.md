@@ -11,9 +11,11 @@ related:
   - entities/tools/lazy-tool.md
   - concepts/algorithmic-impermeability-model-agnostic-orchestration.md
   - sources/arxiv-large-cancer-assistant-lca-2607.06531.md
+  - concepts/failure-mode-harness-adaptation-mapping.md
+  - sources/arxiv-better-harnesses-smaller-models-2607.08938.md
 maturity: draft
 created: 2026-07-07
-updated: 2026-07-09
+updated: 2026-07-15
 ---
 
 ## Relations

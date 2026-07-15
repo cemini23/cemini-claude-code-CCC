@@ -16,9 +16,12 @@ related:
   - briefs/2026-07-14_ccc-handoff-rsi-hierarchical-orchestration-ingest.md
   - concepts/agent-completion-verification-gates.md
   - entities/patterns/full-prompt-goal-template.md
+  - concepts/harness-evolution-vs-test-time-scaling-baseline.md
+  - concepts/failure-mode-harness-adaptation-mapping.md
+  - sources/arxiv-rethinking-harness-evolution-evaluation-2607.12227.md
 maturity: draft
 created: 2026-07-14
-updated: 2026-07-14
+updated: 2026-07-15
 ---
 
 ## Relations
@@ -26,6 +29,8 @@ updated: 2026-07-14
 - `@sources/arxiv-hierarchical-skill-stack-lazy-orchestration-2607.11138.md` — K164 provenance
 - `@entities/tools/lazy-tool.md` — MCP-level lazy discovery (sibling pattern)
 - `@concepts/mcp-context-optimization.md` — four-layer stack; hierarchy is routing-layer steal
+- `@concepts/harness-evolution-vs-test-time-scaling-baseline.md` — this page's empirical anchors are single-source (already flagged TENTATIVE below); apply the K169 evaluation checklist before upgrading past "design checklist" ADOPT
+- `@concepts/failure-mode-harness-adaptation-mapping.md` — K169 sibling framework; stack-frame + capability-fencing design pairs with the tool-management (T2) adaptation strategy
 
 ## Raw Concept
 

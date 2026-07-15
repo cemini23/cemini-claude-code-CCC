@@ -91,6 +91,8 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`simple-agentic-scenario`](entities/tools/simple-agentic-scenario.md) | draft | TUM ABPM light-sensing reference repo — REFERENCE (K136) |
 | [`automem-stanford-cognitive-skill`](entities/tools/automem-stanford-cognitive-skill.md) | draft | Stanford AutoMem metamemory framework — REFERENCE (K137) |
 | [`codebase-memory-mcp`](entities/tools/codebase-memory-mcp.md) | validated | Tree-sitter code graph MCP — CONDITIONAL-GO federation deploy (K134) |
+| [`migration-analysis-replication-package`](entities/tools/migration-analysis-replication-package.md) | draft | CMU harness-adaptation paper replication package — NO-GO adopt, no LICENSE (K168) |
+| [`rethinking-harness-evolution-eval-harness`](entities/tools/rethinking-harness-evolution-eval-harness.md) | draft | Matched-budget harness-eval methodology repo — NO-GO adopt (no LICENSE, paid infra), REFERENCE design (K169) |
 
 ## entities/mcp-servers/
 
@@ -351,6 +353,8 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`adaptive-auto-harness-open-ended-streams`](concepts/adaptive-auto-harness-open-ended-streams.md) | draft | Stream harness tree + anti-overfit (2606.01770, K95) |
 | [`embedded-agent-modular-edge-architecture`](concepts/embedded-agent-modular-edge-architecture.md) | draft | Edge agent tiers + governance layer — REFERENCE (2606.02862, K95) |
 | [`slm-agent-orchestration-gateway`](concepts/slm-agent-orchestration-gateway.md) | draft | Intent router + service registry pattern (2606.03557, K95) |
+| [`failure-mode-harness-adaptation-mapping`](concepts/failure-mode-harness-adaptation-mapping.md) | draft | Five-axis failure taxonomy → context/tool/loop adaptation strategies; SLM cost-recovery framework — 2607.08938 (K168) |
+| [`harness-evolution-vs-test-time-scaling-baseline`](concepts/harness-evolution-vs-test-time-scaling-baseline.md) | draft | Evaluation-rigor checklist — harness evolution vs. parallel-sampling/sequential-refinement at matched budget — 2607.12227 (K169) |
 
 ## sources/
 
@@ -521,6 +525,11 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`brief-k109-bayesian-agent-harness-cluster-prod-2026-06-10`](sources/brief-k109-bayesian-agent-harness-cluster-prod-2026-06-10.md) | validated | K109 prod brief stub |
 | [`brief-k132-local-adoptions-cursor-federation-prod-2026-06-27`](sources/brief-k132-local-adoptions-cursor-federation-prod-2026-06-27.md) | validated | K132 prod brief stub |
 | [`brief-k122-k126-federation-cursor-harness-adoptions-2026-06-25`](sources/brief-k122-k126-federation-cursor-harness-adoptions-2026-06-25.md) | validated | K122–K126 federation batch brief stub |
+| [`arxiv-better-harnesses-smaller-models-2607.08938`](sources/arxiv-better-harnesses-smaller-models-2607.08938.md) | draft | Building 90% cheaper agents via automated harness adaptation — read (K168) |
+| [`brief-k168-slm-harness-adaptation-2026-07-15`](sources/brief-k168-slm-harness-adaptation-2026-07-15.md) | validated | K168 prod + David + poker stub |
+| [`arxiv-rethinking-harness-evolution-evaluation-2607.12227`](sources/arxiv-rethinking-harness-evolution-evaluation-2607.12227.md) | draft | Rethinking evaluation of harness evolution — read (K169) |
+| [`brief-k169-harness-adaptation-evaluation-rigor-prod-2026-07-15`](sources/brief-k169-harness-adaptation-evaluation-rigor-prod-2026-07-15.md) | validated | K168+K169 combined rigor prod stub |
+| [`brief-k169-harness-evolution-eval-discipline-2026-07-15`](sources/brief-k169-harness-evolution-eval-discipline-2026-07-15.md) | validated | K169 eval-discipline prod stub |
 
 ## meta/
 

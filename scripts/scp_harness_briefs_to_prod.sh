@@ -42,10 +42,15 @@ BRIEFS=(
   "2026-07-13_k156-deepsearch-world-verifiable-search-prod.md"
   "2026-07-13_k157-trustx-agent-risk-classification-prod.md"
   "2026-07-14_k155-ideagene-lineage-eval-prod.md"
+  "2026-07-15_k156-llm-risk-behaviour-audit-prod.md"
   "2026-07-14_k162-rsi-verification-hierarchy-prod.md"
   "2026-07-14_k164-hierarchical-skill-stack-lazy-orchestration-prod.md"
   "2026-07-14_k162-k164-k155-harness-policy-hands-on.md"
   "2026-07-14_stash-mcp-redeploy-prod.md"
+  "2026-07-15_k168-slm-harness-adaptation-prod.md"
+  "2026-07-15_k169-harness-evolution-eval-discipline-prod.md"
+  "2026-07-15_k168-k169-harness-policy-hands-on.md"
+  "2026-07-15_k169-harness-adaptation-evaluation-rigor-prod.md"
 )
 
 echo "SCP harness briefs → ${REMOTE}"
