@@ -46,9 +46,11 @@ related:
   - sources/arxiv-miles-modular-instruction-memory-2607.06974.md
   - concepts/bounded-self-refinement-vs-rsi-taxonomy.md
   - sources/arxiv-recursive-self-improvement-survey-2607.07663.md
+  - concepts/agent-optimizer-compounding-and-regression-control.md
+  - sources/arxiv-agent-optimizers-compound-continual-learning-2607.14004.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-07-14
+updated: 2026-07-16
 cross-wiki-source: "@osint-wiki/concepts/continual-harness-online-self-improvement.md"
 ---
 

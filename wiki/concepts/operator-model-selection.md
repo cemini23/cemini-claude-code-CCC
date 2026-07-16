@@ -5,9 +5,10 @@ tags: [models, workflows, subagents, codex, claude, k142]
 keywords: [gpt-5.5, sonnet-5, opus-4.8, fable-5, codex exec, model selection]
 related:
   - concepts/failure-mode-harness-adaptation-mapping.md
+  - concepts/mcp-multi-agent-graceful-degradation-stack.md
 maturity: draft
 created: 2026-07-03
-updated: 2026-07-15
+updated: 2026-07-16
 ---
 
 ## Relations

@@ -122,9 +122,11 @@ related:
   - sources/arxiv-ensemble-qsp-hierarchical-memory-2607.07666.md
   - concepts/hierarchical-skill-stack-lazy-orchestration.md
   - sources/arxiv-hierarchical-skill-stack-lazy-orchestration-2607.11138.md
+  - concepts/mcp-multi-agent-graceful-degradation-stack.md
+  - sources/arxiv-jw-astclaw-solar-telescope-multi-agent-mcp-2607.13549.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-07-14
+updated: 2026-07-16
 ---
 
 ## Relations

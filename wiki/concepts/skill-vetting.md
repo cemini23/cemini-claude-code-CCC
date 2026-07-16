@@ -114,9 +114,10 @@ related:
   - sources/arxiv-cage-1-enterprise-agentic-governance-2607.03510.md
   - concepts/trustx-agent-risk-classification.md
   - sources/arxiv-trustx-agent-risk-classification-2607.09586.md
+  - "@cybersecurity-wiki/concepts/skillsec-lifecycle-agent-skill-security.md"
 maturity: draft
 created: 2026-05-17
-updated: 2026-07-13
+updated: 2026-07-16
 ---
 
 ## Relations
@@ -200,3 +201,7 @@ Per CCC `LESSONS.md` 2026-05-13 (workspace root, outside the `wiki/` alias surfa
 ## Dead Ends
 
 - **Automating step 3 with an LLM** — tried mentally; rejected. The LLM that audits a skill is the same LLM the skill targets for injection. The audit must be done by the human operator, not by the harness.
+
+### SkillSec lifecycle (cybersec K177 — 2026-07-16)
+
+Extend Phase-0 skill audit across admission → retrieval → selection → execution → evolution. See @cybersecurity-wiki/concepts/skillsec-lifecycle-agent-skill-security.md (arXiv 2607.13987).

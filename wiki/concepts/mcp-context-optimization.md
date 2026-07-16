@@ -55,9 +55,11 @@ related:
   - concepts/hierarchical-skill-stack-lazy-orchestration.md
   - sources/arxiv-hierarchical-skill-stack-lazy-orchestration-2607.11138.md
   - concepts/failure-mode-harness-adaptation-mapping.md
+  - concepts/mcp-contract-grounded-synthesis-and-validation-gate.md
+  - sources/arxiv-contract-grounded-bt-coding-agent-mcp-2607.12220.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-07-14
+updated: 2026-07-16
 ---
 
 ## Relations

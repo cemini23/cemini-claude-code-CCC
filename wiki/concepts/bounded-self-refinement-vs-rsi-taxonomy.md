@@ -17,9 +17,10 @@ related:
   - briefs/2026-07-14_ccc-handoff-rsi-hierarchical-orchestration-ingest.md
   - concepts/agent-completion-verification-gates.md
   - entities/patterns/full-prompt-goal-template.md
+  - concepts/agent-optimizer-compounding-and-regression-control.md
 maturity: draft
 created: 2026-07-14
-updated: 2026-07-14
+updated: 2026-07-16
 ---
 
 ## Relations

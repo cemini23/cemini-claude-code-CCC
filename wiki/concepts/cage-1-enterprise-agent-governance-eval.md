@@ -22,9 +22,11 @@ related:
   - concepts/trustx-agent-risk-classification.md
   - sources/arxiv-trustx-agent-risk-classification-2607.09586.md
   - concepts/hierarchical-skill-stack-lazy-orchestration.md
+  - concepts/mcp-contract-grounded-synthesis-and-validation-gate.md
+  - sources/arxiv-contract-grounded-bt-coding-agent-mcp-2607.12220.md
 maturity: draft
 created: 2026-07-10
-updated: 2026-07-14
+updated: 2026-07-16
 ---
 
 ## Relations

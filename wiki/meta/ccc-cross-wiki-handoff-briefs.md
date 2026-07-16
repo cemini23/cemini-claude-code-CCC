@@ -32,9 +32,11 @@ related:
   - briefs/2026-07-13_ccc-handoff-memory-search-trustx-ingest.md
   - briefs/2026-07-14_ccc-handoff-rsi-hierarchical-orchestration-ingest.md
   - briefs/2026-07-15_ccc-handoff-slm-harness-eval-ingest.md
+  - briefs/2026-07-16_ccc-handoff-agenthoi-expressioncuelens-route.md
+  - briefs/2026-07-16_ccc-handoff-amt-x-aha-skillsec-ingest.md
 maturity: validated
 created: 2026-06-29
-updated: 2026-07-15
+updated: 2026-07-16
 ---
 
 ## Relations
@@ -71,5 +73,6 @@ Catalog of **durable handoff briefs** staged under `wiki/briefs/` (distinct from
 | `2026-07-13_ccc-handoff-memory-search-trustx-ingest.md` | CCC | MILES + QSP memory + DeepSearch + TrustX |
 | `2026-07-14_ccc-handoff-rsi-hierarchical-orchestration-ingest.md` | CCC | RSI verification hierarchy + hierarchical skill stack |
 | `2026-07-15_ccc-handoff-slm-harness-eval-ingest.md` | CCC | K168 SLM harness adaptation + K169 evolution-eval discipline |
+| `2026-07-16_ccc-handoff-agenthoi-expressioncuelens-route.md` | image-gen / TipDrop | AgentHOI + ExpressionCueLens routing |
 
-Prod deploy briefs (K109–K169) live in gitignored `/briefs/` with discoverability stubs under `wiki/sources/brief-k*.md`.
+Prod deploy briefs (K109–K173) live in gitignored `/briefs/` with discoverability stubs under `wiki/sources/brief-k*.md`.

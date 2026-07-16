@@ -16,9 +16,12 @@ related:
   - sources/brief-k168-slm-harness-adaptation-2026-07-15.md
   - briefs/2026-07-15_ccc-handoff-slm-harness-eval-ingest.md
   - sources/brief-k169-harness-adaptation-evaluation-rigor-prod-2026-07-15.md
+  - concepts/agent-optimizer-compounding-and-regression-control.md
+  - concepts/mcp-contract-grounded-synthesis-and-validation-gate.md
+  - sources/arxiv-agent-optimizers-compound-continual-learning-2607.14004.md
 maturity: draft
 created: 2026-07-15
-updated: 2026-07-15
+updated: 2026-07-16
 ---
 
 ## Relations

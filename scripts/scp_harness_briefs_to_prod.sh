@@ -51,6 +51,14 @@ BRIEFS=(
   "2026-07-15_k169-harness-evolution-eval-discipline-prod.md"
   "2026-07-15_k168-k169-harness-policy-hands-on.md"
   "2026-07-15_k169-harness-adaptation-evaluation-rigor-prod.md"
+  "2026-07-16_k175-amt-x-checklist-gated-asr-prod.md"
+  "2026-07-16_k176-aha-vcg-production-agent-red-team-prod.md"
+  "2026-07-16_k177-skillsec-lifecycle-skill-security-prod.md"
+  "2026-07-16_k178-gflowrl-attacker-rl-reference-prod.md"
+  "2026-07-16_k171-agent-optimizer-compounding-prod.md"
+  "2026-07-16_k172-mcp-contract-validation-gate-prod.md"
+  "2026-07-16_k173-mcp-graceful-degradation-prod.md"
+  "2026-07-16_k171-k173-harness-policy-hands-on.md"
 )
 
 echo "SCP harness briefs → ${REMOTE}"

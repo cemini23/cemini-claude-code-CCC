@@ -22,6 +22,24 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-07-16] ingest | optimizer compounding + MCP contract + graceful degradation (K171–K173)
+
+- **K171 — Do Agent Optimizers Compound? (2607.14004, RELAI):** continual two-phase Terminal-Bench eval; GEPA transfers below baseline; only regression-in-loop compounds. **ADOPT** compounding questions; **NO-GO** `relai-ai/Continual-Learning-Terminal-Bench` (no LICENSE).
+  - Concept `agent-optimizer-compounding-and-regression-control`, entity, prod brief, `scripts/adopt_k171_phase0.sh`
+  - **David:** `tipdrop-workspace-kit/briefs/2026-07-16_ccc-k171-regression-in-loop-david.md`
+  - **Poker:** `agents/devfun-poker-arena/briefs/2026-07-16_k171-optimizer-compounding-steal.md`
+- **K172 — Contract-grounded BT via coding agent MCP (2607.12220):** MCP skill contract + validation gate before execute. Robotics empirics; **ADOPT** pattern; **NO-GO** unlicensed webviewer/tb3-mcp; ros-mcp-server Apache CONDITIONAL not cloned.
+  - Concept `mcp-contract-grounded-synthesis-and-validation-gate`, entity, briefs, Phase-0
+  - **David / Poker:** ccc-k172 + poker contract-style tool surface
+- **K173 — JW-ASTClaw (2607.13549):** MCP multi-agent + cloud→local→rules fallback. **ADOPT** checklist; no public code.
+  - Concept `mcp-multi-agent-graceful-degradation-stack`, briefs, Phase-0
+- **Cross-route:** AgentHOI 2607.13881 → image-gen (WATCH, no LICENSE); ExpressionCueLens 2607.13924 → TipDrop companion-tone David brief (`ccc-k174-…`)
+- **Local adopt:** none (all paper-primary repos unlicensed or absent; ros-mcp skipped)
+- **Archive:** CCC PDFs → egress `ccc/`; AgentHOI → egress `image-gen/`
+- **Note:** K170 already used today (grok-build / git-secrets OSINT brief)
+
+---
+
 ## [2026-07-16] brief | K171 AgentsCAD MCP geometry grounding
 
 - Brief: `briefs/2026-07-16_k171-agentscad-mcp-geometry-grounding-prod.md` → scp `cemini-prod:/opt/cemini/briefs/`

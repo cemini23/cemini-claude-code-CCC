@@ -41,9 +41,11 @@ related:
   - sources/brief-k117-memory-seagym-finacumen-prod-2026-06-17.md
   - sources/brief-k119-agent-first-web-eda-handoff-prod-2026-06-19.md
   - sources/arxiv-large-cancer-assistant-lca-2607.06531.md
+  - sources/arxiv-agenthoi-training-free-hoi-detection-2607.13881.md
+  - sources/arxiv-expressioncuelens-hai-companion-2607.13924.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-07-15
+updated: 2026-07-16
 ---
 
 ## Relations

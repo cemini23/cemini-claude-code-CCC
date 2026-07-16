@@ -4,6 +4,7 @@ type: concept
 tags: [concept, evaluation-methodology, harness-evolution, test-time-scaling, overfitting, generalization, k169]
 keywords: [2607.12227, parallel sampling, sequential refinement, harness scaling, terminal-bench, pass@1, pass@5, held-out generalization]
 related:
+  - concepts/agent-optimizer-compounding-and-regression-control.md
   - sources/arxiv-rethinking-harness-evolution-evaluation-2607.12227.md
   - concepts/failure-mode-harness-adaptation-mapping.md
   - concepts/harnessx-composable-evolution-foundry.md
@@ -18,12 +19,15 @@ related:
   - briefs/2026-07-15_ccc-handoff-slm-harness-eval-ingest.md
   - sources/arxiv-better-harnesses-smaller-models-2607.08938.md
   - sources/brief-k169-harness-adaptation-evaluation-rigor-prod-2026-07-15.md
+  - sources/arxiv-agent-optimizers-compound-continual-learning-2607.14004.md
 maturity: draft
 created: 2026-07-15
-updated: 2026-07-15
+updated: 2026-07-16
 ---
 
 ## Relations
+
+- `@concepts/agent-optimizer-compounding-and-regression-control.md` — K171 continual compounding / regression-in-loop sibling
 
 - `@sources/arxiv-rethinking-harness-evolution-evaluation-2607.12227.md` — AI2/UW K169 provenance
 - `@concepts/failure-mode-harness-adaptation-mapping.md` — companion K169 page this one caveats

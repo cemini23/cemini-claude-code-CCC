@@ -20,9 +20,10 @@ related:
   - concepts/failure-mode-harness-adaptation-mapping.md
   - sources/arxiv-better-harnesses-smaller-models-2607.08938.md
   - sources/arxiv-rethinking-harness-evolution-evaluation-2607.12227.md
+  - concepts/agent-optimizer-compounding-and-regression-control.md
 maturity: draft
 created: 2026-06-16
-updated: 2026-07-15
+updated: 2026-07-16
 ---
 
 ## Relations

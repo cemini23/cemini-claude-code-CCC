@@ -19,9 +19,13 @@ related:
   - concepts/multilingual-long-horizon-agent-eval.md
   - sources/arxiv-polyworkbench-multilingual-long-horizon-2607.06008.md
   - concepts/hierarchical-skill-stack-lazy-orchestration.md
+  - concepts/mcp-contract-grounded-synthesis-and-validation-gate.md
+  - concepts/mcp-multi-agent-graceful-degradation-stack.md
+  - sources/arxiv-contract-grounded-bt-coding-agent-mcp-2607.12220.md
+  - sources/arxiv-jw-astclaw-solar-telescope-multi-agent-mcp-2607.13549.md
 maturity: draft
 created: 2026-07-07
-updated: 2026-07-14
+updated: 2026-07-16
 cross-wiki-primary: "@cybersecurity-wiki/concepts/security-tool-orchestration-determinants.md"
 ---
 

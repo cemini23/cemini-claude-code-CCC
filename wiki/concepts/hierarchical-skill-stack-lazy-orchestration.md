@@ -19,9 +19,11 @@ related:
   - concepts/harness-evolution-vs-test-time-scaling-baseline.md
   - concepts/failure-mode-harness-adaptation-mapping.md
   - sources/arxiv-rethinking-harness-evolution-evaluation-2607.12227.md
+  - concepts/mcp-contract-grounded-synthesis-and-validation-gate.md
+  - sources/arxiv-contract-grounded-bt-coding-agent-mcp-2607.12220.md
 maturity: draft
 created: 2026-07-14
-updated: 2026-07-15
+updated: 2026-07-16
 ---
 
 ## Relations

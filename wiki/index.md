@@ -93,6 +93,8 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`codebase-memory-mcp`](entities/tools/codebase-memory-mcp.md) | validated | Tree-sitter code graph MCP — CONDITIONAL-GO federation deploy (K134) |
 | [`migration-analysis-replication-package`](entities/tools/migration-analysis-replication-package.md) | draft | CMU harness-adaptation paper replication package — NO-GO adopt, no LICENSE (K168) |
 | [`rethinking-harness-evolution-eval-harness`](entities/tools/rethinking-harness-evolution-eval-harness.md) | draft | Matched-budget harness-eval methodology repo — NO-GO adopt (no LICENSE, paid infra), REFERENCE design (K169) |
+| [`relai-continual-learning-terminal-bench`](entities/tools/relai-continual-learning-terminal-bench.md) | draft | RELAI continual-learning Terminal-Bench artifacts — NO-GO license (K171) |
+| [`jsalfity-agentic-bt-mcp-artifacts`](entities/tools/jsalfity-agentic-bt-mcp-artifacts.md) | draft | Contract-grounded BT MCP/webviewer artifacts — NO-GO (K172) |
 
 ## entities/mcp-servers/
 
@@ -355,6 +357,9 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`slm-agent-orchestration-gateway`](concepts/slm-agent-orchestration-gateway.md) | draft | Intent router + service registry pattern (2606.03557, K95) |
 | [`failure-mode-harness-adaptation-mapping`](concepts/failure-mode-harness-adaptation-mapping.md) | draft | Five-axis failure taxonomy → context/tool/loop adaptation strategies; SLM cost-recovery framework — 2607.08938 (K168) |
 | [`harness-evolution-vs-test-time-scaling-baseline`](concepts/harness-evolution-vs-test-time-scaling-baseline.md) | draft | Evaluation-rigor checklist — harness evolution vs. parallel-sampling/sequential-refinement at matched budget — 2607.12227 (K169) |
+| [`agent-optimizer-compounding-and-regression-control`](concepts/agent-optimizer-compounding-and-regression-control.md) | draft | Continual compounding questions + in-loop regression — 2607.14004 (K171) |
+| [`mcp-contract-grounded-synthesis-and-validation-gate`](concepts/mcp-contract-grounded-synthesis-and-validation-gate.md) | draft | MCP skill contract + validation-before-bind — 2607.12220 (K172) |
+| [`mcp-multi-agent-graceful-degradation-stack`](concepts/mcp-multi-agent-graceful-degradation-stack.md) | draft | Cloud→local→rules MCP multi-agent fallback — 2607.13549 (K173) |
 
 ## sources/
 
@@ -529,6 +534,15 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`brief-k168-slm-harness-adaptation-2026-07-15`](sources/brief-k168-slm-harness-adaptation-2026-07-15.md) | validated | K168 prod + David + poker stub |
 | [`arxiv-rethinking-harness-evolution-evaluation-2607.12227`](sources/arxiv-rethinking-harness-evolution-evaluation-2607.12227.md) | draft | Rethinking evaluation of harness evolution — read (K169) |
 | [`brief-k169-harness-adaptation-evaluation-rigor-prod-2026-07-15`](sources/brief-k169-harness-adaptation-evaluation-rigor-prod-2026-07-15.md) | validated | K168+K169 combined rigor prod stub |
+| [`arxiv-agent-optimizers-compound-continual-learning-2607.14004`](sources/arxiv-agent-optimizers-compound-continual-learning-2607.14004.md) | draft | Do agent optimizers compound? — read (K171) |
+| [`brief-k171-agent-optimizer-compounding-2026-07-16`](sources/brief-k171-agent-optimizer-compounding-2026-07-16.md) | validated | K171 prod stub |
+| [`arxiv-contract-grounded-bt-coding-agent-mcp-2607.12220`](sources/arxiv-contract-grounded-bt-coding-agent-mcp-2607.12220.md) | draft | Contract-grounded BT via coding agent MCP — read (K172) |
+| [`brief-k172-mcp-contract-validation-gate-2026-07-16`](sources/brief-k172-mcp-contract-validation-gate-2026-07-16.md) | validated | K172 prod stub |
+| [`arxiv-jw-astclaw-solar-telescope-multi-agent-mcp-2607.13549`](sources/arxiv-jw-astclaw-solar-telescope-multi-agent-mcp-2607.13549.md) | draft | JW-ASTClaw MCP multi-agent telescope — read (K173) |
+| [`brief-k173-mcp-graceful-degradation-2026-07-16`](sources/brief-k173-mcp-graceful-degradation-2026-07-16.md) | validated | K173 prod stub |
+| [`arxiv-agenthoi-training-free-hoi-detection-2607.13881`](sources/arxiv-agenthoi-training-free-hoi-detection-2607.13881.md) | draft | AgentHOI HOI — cross-wiki image-gen stub |
+| [`arxiv-expressioncuelens-hai-companion-2607.13924`](sources/arxiv-expressioncuelens-hai-companion-2607.13924.md) | draft | ExpressionCueLens HAI companion cues — TipDrop route |
+
 | [`brief-k169-harness-evolution-eval-discipline-2026-07-15`](sources/brief-k169-harness-evolution-eval-discipline-2026-07-15.md) | validated | K169 eval-discipline prod stub |
 
 ## meta/
