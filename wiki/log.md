@@ -22,6 +22,14 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-07-16] brief | K171 AgentsCAD MCP geometry grounding
+
+- Brief: `briefs/2026-07-16_k171-agentscad-mcp-geometry-grounding-prod.md` → scp `cemini-prod:/opt/cemini/briefs/`
+- Steal: MCP tool-grounding required for spatial transforms (from @3d-printing-wiki AgentsCAD ingest)
+- No local code adopt
+
+---
+
 ## [2026-07-15] ingest | SLM harness adaptation + harness-evolution eval (K168–K169)
 
 - **K168 — Better Harnesses, Smaller Models (2607.08938, CMU):** failure-mode→adaptation map; SLM cost recovery via tailored harness. **ADOPT** taxonomy + diagnostic loop; **NO-GO** `malusamayo/migration-analysis` (no LICENSE; replication package). Magnitude claims `[NEEDS VERIFICATION]` pending K169 gate.
