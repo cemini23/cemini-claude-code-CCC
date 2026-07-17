@@ -59,6 +59,10 @@ BRIEFS=(
   "2026-07-16_k172-mcp-contract-validation-gate-prod.md"
   "2026-07-16_k173-mcp-graceful-degradation-prod.md"
   "2026-07-16_k171-k173-harness-policy-hands-on.md"
+  "2026-07-17_k184-datashield-risky-finetune-prod.md"
+  "2026-07-17_k185-prism-physical-vs-content-danger-prod.md"
+  "2026-07-17_k186-agentic-hard-example-synthesis-prod.md"
+  "2026-07-17_k187-statistical-self-consistency-prod.md"
 )
 
 echo "SCP harness briefs → ${REMOTE}"
