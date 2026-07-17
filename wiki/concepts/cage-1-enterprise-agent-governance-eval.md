@@ -24,9 +24,13 @@ related:
   - concepts/hierarchical-skill-stack-lazy-orchestration.md
   - concepts/mcp-contract-grounded-synthesis-and-validation-gate.md
   - sources/arxiv-contract-grounded-bt-coding-agent-mcp-2607.12220.md
+  - concepts/acp-mcp-three-layer-human-agent-execution.md
+  - concepts/coding-agent-install-gap-and-preinstall-gate.md
+  - concepts/policy-as-code-layered-validation-for-agent-artifacts.md
+  - sources/arxiv-weaponizing-setup-instructions-coding-agents-2607.15143.md
 maturity: draft
 created: 2026-07-10
-updated: 2026-07-16
+updated: 2026-07-17
 ---
 
 ## Relations

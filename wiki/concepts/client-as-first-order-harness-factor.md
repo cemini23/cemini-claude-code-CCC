@@ -23,9 +23,13 @@ related:
   - concepts/mcp-multi-agent-graceful-degradation-stack.md
   - sources/arxiv-contract-grounded-bt-coding-agent-mcp-2607.12220.md
   - sources/arxiv-jw-astclaw-solar-telescope-multi-agent-mcp-2607.13549.md
+  - concepts/acp-mcp-three-layer-human-agent-execution.md
+  - concepts/coding-agent-install-gap-and-preinstall-gate.md
+  - sources/arxiv-agent-client-protocol-hri-genai-2607.14919.md
+  - sources/arxiv-weaponizing-setup-instructions-coding-agents-2607.15143.md
 maturity: draft
 created: 2026-07-07
-updated: 2026-07-16
+updated: 2026-07-17
 cross-wiki-primary: "@cybersecurity-wiki/concepts/security-tool-orchestration-determinants.md"
 ---
 

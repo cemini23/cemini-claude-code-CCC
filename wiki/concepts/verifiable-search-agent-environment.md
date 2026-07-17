@@ -15,9 +15,11 @@ related:
   - sources/brief-k156-deepsearch-world-verifiable-search-2026-07-13.md
   - briefs/2026-07-13_ccc-handoff-memory-search-trustx-ingest.md
   - concepts/bounded-self-refinement-vs-rsi-taxonomy.md
+  - concepts/searchos-socm-explicit-search-state.md
+  - sources/arxiv-searchos-v1-open-domain-agent-collaboration-2607.15257.md
 maturity: draft
 created: 2026-07-13
-updated: 2026-07-14
+updated: 2026-07-17
 ---
 
 ## Relations

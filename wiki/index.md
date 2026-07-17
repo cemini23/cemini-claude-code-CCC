@@ -94,6 +94,9 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`migration-analysis-replication-package`](entities/tools/migration-analysis-replication-package.md) | draft | CMU harness-adaptation paper replication package — NO-GO adopt, no LICENSE (K168) |
 | [`rethinking-harness-evolution-eval-harness`](entities/tools/rethinking-harness-evolution-eval-harness.md) | draft | Matched-budget harness-eval methodology repo — NO-GO adopt (no LICENSE, paid infra), REFERENCE design (K169) |
 | [`relai-continual-learning-terminal-bench`](entities/tools/relai-continual-learning-terminal-bench.md) | draft | RELAI continual-learning Terminal-Bench artifacts — NO-GO license (K171) |
+| [`searchos`](entities/tools/searchos.md) | draft | SearchOS MIT — GO local adopt (K180) |
+| [`satellite-mission-compiler`](entities/tools/satellite-mission-compiler.md) | draft | OPA/Rego mission compiler EUPL — GO reference (K181) |
+| [`sancho-acp-clients`](entities/tools/sancho-acp-clients.md) | draft | ACP HRI clients Apache — CONDITIONAL (K182) |
 | [`jsalfity-agentic-bt-mcp-artifacts`](entities/tools/jsalfity-agentic-bt-mcp-artifacts.md) | draft | Contract-grounded BT MCP/webviewer artifacts — NO-GO (K172) |
 
 ## entities/mcp-servers/
@@ -360,6 +363,10 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`agent-optimizer-compounding-and-regression-control`](concepts/agent-optimizer-compounding-and-regression-control.md) | draft | Continual compounding questions + in-loop regression — 2607.14004 (K171) |
 | [`mcp-contract-grounded-synthesis-and-validation-gate`](concepts/mcp-contract-grounded-synthesis-and-validation-gate.md) | draft | MCP skill contract + validation-before-bind — 2607.12220 (K172) |
 | [`mcp-multi-agent-graceful-degradation-stack`](concepts/mcp-multi-agent-graceful-degradation-stack.md) | draft | Cloud→local→rules MCP multi-agent fallback — 2607.13549 (K173) |
+| [`coding-agent-install-gap-and-preinstall-gate`](concepts/coding-agent-install-gap-and-preinstall-gate.md) | draft | Install-gap / deterministic pre-install gate — 2607.15143 (K179) |
+| [`searchos-socm-explicit-search-state`](concepts/searchos-socm-explicit-search-state.md) | draft | SOCM Evidence Graph / Coverage / Failure Memory — 2607.15257 (K180) |
+| [`policy-as-code-layered-validation-for-agent-artifacts`](concepts/policy-as-code-layered-validation-for-agent-artifacts.md) | draft | Schema + OPA/Rego-style layered validation — 2607.14798 (K181) |
+| [`acp-mcp-three-layer-human-agent-execution`](concepts/acp-mcp-three-layer-human-agent-execution.md) | draft | ACP UI + MCP execution three-layer split — 2607.14919 (K182) |
 
 ## sources/
 

@@ -43,6 +43,7 @@ BRIEFS=(
   "2026-07-13_k157-trustx-agent-risk-classification-prod.md"
   "2026-07-14_k155-ideagene-lineage-eval-prod.md"
   "2026-07-15_k156-llm-risk-behaviour-audit-prod.md"
+  "2026-07-17_k158-play-adequacy-world-model-eval-prod.md"
   "2026-07-14_k162-rsi-verification-hierarchy-prod.md"
   "2026-07-14_k164-hierarchical-skill-stack-lazy-orchestration-prod.md"
   "2026-07-14_k162-k164-k155-harness-policy-hands-on.md"
@@ -63,6 +64,11 @@ BRIEFS=(
   "2026-07-17_k185-prism-physical-vs-content-danger-prod.md"
   "2026-07-17_k186-agentic-hard-example-synthesis-prod.md"
   "2026-07-17_k187-statistical-self-consistency-prod.md"
+  "2026-07-17_k179-coding-agent-preinstall-gate-prod.md"
+  "2026-07-17_k180-searchos-socm-prod.md"
+  "2026-07-17_k181-policy-as-code-guardrails-prod.md"
+  "2026-07-17_k182-acp-mcp-three-layer-prod.md"
+  "2026-07-17_k179-k182-harness-policy-hands-on.md"
 )
 
 echo "SCP harness briefs → ${REMOTE}"

@@ -22,6 +22,18 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-07-17] ingest | preinstall gate + SearchOS + policy-as-code + ACP (K179–K182)
+
+- **K179 — Setup weaponization (2607.15143):** install-gap; harness×model; deterministic pre-install gate. **ADOPT**; cybersec deepen. No code.
+- **K180 — SearchOS (2607.15257):** SOCM explicit search state. **ADOPT** checklist; **GO** MIT clone `.local/adopts/SearchOS` (~106MB).
+- **K181 — Satellite mission compiler (2607.14798):** OPA/Rego layered validation + MCP tools. **ADOPT** pattern; **GO** EUPL clone `.local/adopts/satellite-mission-compiler`.
+- **K182 — ACP+MCP three-layer (2607.14919):** UI auth/interrupt via ACP; MCP at execution. **ADOPT**; **CONDITIONAL** Apache `sancho-acp-clients`; core Sancho 404.
+- **Cross-route:** ARMOR++ 2607.15246 → cybersec (PDF egress `cybersec/`).
+- **David:** TipDrop `ccc-k179`…`ccc-k182`; **Poker:** k179/k180/k182 steals.
+- **Local adopts:** SearchOS + satellite-mission-compiler + sancho-acp-clients under `.local/adopts/` (gitignored).
+
+---
+
 ## [2026-07-16] ingest | optimizer compounding + MCP contract + graceful degradation (K171–K173)
 
 - **K171 — Do Agent Optimizers Compound? (2607.14004, RELAI):** continual two-phase Terminal-Bench eval; GEPA transfers below baseline; only regression-in-loop compounds. **ADOPT** compounding questions; **NO-GO** `relai-ai/Continual-Learning-Terminal-Bench` (no LICENSE).

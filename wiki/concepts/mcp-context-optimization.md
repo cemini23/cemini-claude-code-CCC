@@ -57,9 +57,10 @@ related:
   - concepts/failure-mode-harness-adaptation-mapping.md
   - concepts/mcp-contract-grounded-synthesis-and-validation-gate.md
   - sources/arxiv-contract-grounded-bt-coding-agent-mcp-2607.12220.md
+  - concepts/searchos-socm-explicit-search-state.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-07-16
+updated: 2026-07-17
 ---
 
 ## Relations

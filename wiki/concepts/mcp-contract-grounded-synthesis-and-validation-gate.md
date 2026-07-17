@@ -14,9 +14,14 @@ related:
   - sources/brief-k172-mcp-contract-validation-gate-2026-07-16.md
   - concepts/mcp-multi-agent-graceful-degradation-stack.md
   - sources/arxiv-jw-astclaw-solar-telescope-multi-agent-mcp-2607.13549.md
+  - concepts/acp-mcp-three-layer-human-agent-execution.md
+  - concepts/coding-agent-install-gap-and-preinstall-gate.md
+  - concepts/policy-as-code-layered-validation-for-agent-artifacts.md
+  - sources/arxiv-agent-client-protocol-hri-genai-2607.14919.md
+  - sources/arxiv-satellite-mission-compiler-policy-as-code-2607.14798.md
 maturity: draft
 created: 2026-07-16
-updated: 2026-07-16
+updated: 2026-07-17
 ---
 
 ## Relations
@@ -25,6 +30,11 @@ updated: 2026-07-16
 - `@concepts/cage-1-enterprise-agent-governance-eval.md` — Prebind Assurance sibling
 - `@concepts/mcp-context-optimization.md` — MCP surface discipline
 - `@concepts/hierarchical-skill-stack-lazy-orchestration.md` — K164 skill tree / fencing
+- `@concepts/acp-mcp-three-layer-human-agent-execution.md` — K182 ACP+MCP topology sibling
+- `@concepts/coding-agent-install-gap-and-preinstall-gate.md` — K179 pre-exec gate sibling
+- `@concepts/policy-as-code-layered-validation-for-agent-artifacts.md` — K181 schema+policy sibling
+- `@sources/arxiv-agent-client-protocol-hri-genai-2607.14919.md` — ACP+MCP three-layer provenance
+- `@sources/arxiv-satellite-mission-compiler-policy-as-code-2607.14798.md` — policy-as-code MCP pipeline provenance
 
 ## Raw Concept
 

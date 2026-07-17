@@ -115,9 +115,11 @@ related:
   - concepts/trustx-agent-risk-classification.md
   - sources/arxiv-trustx-agent-risk-classification-2607.09586.md
   - "@cybersecurity-wiki/concepts/skillsec-lifecycle-agent-skill-security.md"
+  - concepts/coding-agent-install-gap-and-preinstall-gate.md
+  - sources/arxiv-weaponizing-setup-instructions-coding-agents-2607.15143.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-07-16
+updated: 2026-07-17
 ---
 
 ## Relations

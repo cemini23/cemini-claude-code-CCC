@@ -21,9 +21,11 @@ related:
   - sources/arxiv-rethinking-harness-evolution-evaluation-2607.12227.md
   - concepts/mcp-contract-grounded-synthesis-and-validation-gate.md
   - sources/arxiv-contract-grounded-bt-coding-agent-mcp-2607.12220.md
+  - concepts/searchos-socm-explicit-search-state.md
+  - sources/arxiv-searchos-v1-open-domain-agent-collaboration-2607.15257.md
 maturity: draft
 created: 2026-07-14
-updated: 2026-07-16
+updated: 2026-07-17
 ---
 
 ## Relations

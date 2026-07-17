@@ -33,10 +33,12 @@ related:
   - briefs/2026-07-14_ccc-handoff-rsi-hierarchical-orchestration-ingest.md
   - briefs/2026-07-15_ccc-handoff-slm-harness-eval-ingest.md
   - briefs/2026-07-16_ccc-handoff-agenthoi-expressioncuelens-route.md
+  - briefs/2026-07-17_ccc-handoff-setup-weaponization-armor-route.md
   - briefs/2026-07-16_ccc-handoff-amt-x-aha-skillsec-ingest.md
+  - briefs/2026-07-17_ccc-handoff-datashield-prism-ingest.md
 maturity: validated
 created: 2026-06-29
-updated: 2026-07-16
+updated: 2026-07-17
 ---
 
 ## Relations
@@ -74,5 +76,6 @@ Catalog of **durable handoff briefs** staged under `wiki/briefs/` (distinct from
 | `2026-07-14_ccc-handoff-rsi-hierarchical-orchestration-ingest.md` | CCC | RSI verification hierarchy + hierarchical skill stack |
 | `2026-07-15_ccc-handoff-slm-harness-eval-ingest.md` | CCC | K168 SLM harness adaptation + K169 evolution-eval discipline |
 | `2026-07-16_ccc-handoff-agenthoi-expressioncuelens-route.md` | image-gen / TipDrop | AgentHOI + ExpressionCueLens routing |
+| `2026-07-17_ccc-handoff-setup-weaponization-armor-route.md` | cybersec | K179 setup weaponization + ARMOR++ |
 
-Prod deploy briefs (K109–K173) live in gitignored `/briefs/` with discoverability stubs under `wiki/sources/brief-k*.md`.
+Prod deploy briefs (K109–K182) live in gitignored `/briefs/` with discoverability stubs under `wiki/sources/brief-k*.md`.

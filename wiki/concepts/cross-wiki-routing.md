@@ -43,9 +43,10 @@ related:
   - sources/arxiv-large-cancer-assistant-lca-2607.06531.md
   - sources/arxiv-agenthoi-training-free-hoi-detection-2607.13881.md
   - sources/arxiv-expressioncuelens-hai-companion-2607.13924.md
+  - sources/arxiv-armor-plusplus-deepfake-agentic-attacks-2607.15246.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-07-16
+updated: 2026-07-17
 ---
 
 ## Relations

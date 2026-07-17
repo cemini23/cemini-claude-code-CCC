@@ -20,3 +20,6 @@ node_modules/
 Thumbs.db
 *.swp
 *.swo
+
+# Local Phase-0 clones (not tracked)
+.local/
