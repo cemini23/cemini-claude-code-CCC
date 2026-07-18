@@ -14,6 +14,7 @@ related:
   - concepts/coding-agent-install-gap-and-preinstall-gate.md
   - sources/brief-k189-flowguard-mcp-evidence-2026-07-18.md
   - briefs/2026-07-18_ccc-handoff-flowguard-mcp-security.md
+  - "@cybersecurity-wiki/concepts/mcp-security-evidence-grounded-detection.md"
 maturity: draft
 created: 2026-07-18
 updated: 2026-07-18
@@ -23,6 +24,7 @@ updated: 2026-07-18
 
 - `@sources/arxiv-flowguard-mcp-security-evidence-2607.14754.md` — K189 provenance
 - `@concepts/bounded-self-refinement-vs-rsi-taxonomy.md` — K162: execution feedback > LLM judges
+- `@cybersecurity-wiki/concepts/mcp-security-evidence-grounded-detection.md` — cybersec ops steal
 - `@concepts/mcp-contract-grounded-synthesis-and-validation-gate.md` — K172 validation-before-bind
 - `@concepts/multi-agent-evidence-artifact-layers.md` — typed evidence before narrative
 

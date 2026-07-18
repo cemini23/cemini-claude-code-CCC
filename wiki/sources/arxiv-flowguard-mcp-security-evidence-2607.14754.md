@@ -14,6 +14,8 @@ related:
   - briefs/2026-07-18_ccc-handoff-flowguard-mcp-security.md
   - concepts/bounded-self-refinement-vs-rsi-taxonomy.md
   - concepts/coding-agent-install-gap-and-preinstall-gate.md
+  - "@cybersecurity-wiki/concepts/mcp-security-evidence-grounded-detection.md"
+  - "@cybersecurity-wiki/sources/arxiv-flowguard-mcp-security-evidence-2607.14754.md"
 maturity: draft
 created: 2026-07-18
 updated: 2026-07-18
@@ -26,6 +28,7 @@ updated: 2026-07-18
 - `@concepts/safeclawbench-staged-security-endpoints.md` — staged security endpoints peer
 - `@concepts/mcp-server-runtime-fault-taxonomy.md` — MCP runtime fault peer
 - Cybersec deepen: `@cybersecurity-wiki/concepts/mcp-security-evidence-grounded-detection.md`
+- `@cybersecurity-wiki/sources/arxiv-flowguard-mcp-security-evidence-2607.14754.md`
 - `@sources/brief-k189-flowguard-mcp-evidence-2026-07-18.md`
 
 ## Raw Concept
