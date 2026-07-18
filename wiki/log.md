@@ -4,6 +4,14 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-07-18] cursor | federate adopted-geo-tools domain skill
+
+- Extended `scripts/sync_federation_cursor_skills.sh` with `DOMAIN_SKILL_DIRS` — syncs SEO canon `adopted-geo-tools` → user-global + all workspaces (alongside CCC CANON_SKILLS).
+- New entity `@entities/skills/adopted-geo-tools.md`. Skill uses absolute `SEO_ROOT` so helpers work from OSINT/tipdrop/Home/etc.
+- Updated `@entities/skills/goal.md` deploy note + user-global `cemini-projects.mdc` skill table.
+
+---
+
 ## [2026-07-18] ingest | FlowGuard MCP evidence-grounded detection (K189)
 
 - **K189 — FlowGuard (2607.14754, Fudan):** signals ≠ runtime evidence for MCP security; TRIAGE→RECON→STRIKE→ANALYSIS→REFINEMENT; F1 0.879/0.942 on cmd injection / FS; 523 findings / 326 servers. **ADOPT** evidence bar; **NO-GO** install (no public artifact; name-collision repos rejected).

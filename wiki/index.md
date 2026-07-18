@@ -125,6 +125,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`to-issues`](entities/skills/to-issues.md) | draft | mattpocock vertical-slice issue decomposition — K126 Adopt (MIT) |
 | [`grill-with-docs`](entities/skills/grill-with-docs.md) | draft | mattpocock plan interview + ADRs — K126 Adopt (grill-me alias) |
 | [`goal`](entities/skills/goal.md) | validated | Cursor `/goal` single-shot envelope — federation-wide (K124) |
+| [`adopted-geo-tools`](entities/skills/adopted-geo-tools.md) | validated | SEO-domain E-GEO / geo-optimizer / wondelai skill — synced federation-wide (2026-07-18) |
 
 ## entities/commands/
 
