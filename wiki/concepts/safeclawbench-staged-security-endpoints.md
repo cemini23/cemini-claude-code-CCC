@@ -13,9 +13,11 @@ related:
   - sources/brief-k121-tokenpilot-safeclaw-gatekeepers-prod-2026-06-21.md
   - concepts/cage-1-enterprise-agent-governance-eval.md
   - concepts/verifiable-search-agent-environment.md
+  - sources/arxiv-flowguard-mcp-security-evidence-2607.14754.md
+  - concepts/mcp-security-signals-vs-runtime-evidence.md
 maturity: draft
 created: 2026-06-21
-updated: 2026-07-13
+updated: 2026-07-18
 ---
 
 ## Relations

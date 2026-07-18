@@ -31,9 +31,11 @@ related:
   - concepts/cage-1-enterprise-agent-governance-eval.md
   - concepts/trustx-agent-risk-classification.md
   - concepts/verifiable-search-agent-environment.md
+  - sources/arxiv-flowguard-mcp-security-evidence-2607.14754.md
+  - concepts/mcp-security-signals-vs-runtime-evidence.md
 maturity: draft
 created: 2026-06-04
-updated: 2026-07-13
+updated: 2026-07-18
 cross-wiki-source: "@osint-wiki/concepts/seclaw-agent-security-evaluation.md"
 ---
 

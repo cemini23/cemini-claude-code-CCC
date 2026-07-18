@@ -12,9 +12,13 @@ related:
   - sources/brief-k179-coding-agent-preinstall-gate-2026-07-17.md
   - concepts/policy-as-code-layered-validation-for-agent-artifacts.md
   - sources/arxiv-satellite-mission-compiler-policy-as-code-2607.14798.md
+  - "@cybersecurity-wiki/concepts/coding-agent-supply-chain-install-gap.md"
+  - "@cybersecurity-wiki/sources/arxiv-weaponizing-setup-instructions-coding-agents-2607.15143.md"
+  - sources/arxiv-flowguard-mcp-security-evidence-2607.14754.md
+  - concepts/mcp-security-signals-vs-runtime-evidence.md
 maturity: draft
 created: 2026-07-17
-updated: 2026-07-17
+updated: 2026-07-18
 ---
 
 ## Relations
@@ -23,6 +27,7 @@ updated: 2026-07-17
 - `@concepts/client-as-first-order-harness-factor.md` — harness flips outcomes for same model
 - `@concepts/cage-1-enterprise-agent-governance-eval.md` — Prebind before bind actions
 - `@concepts/mcp-contract-grounded-synthesis-and-validation-gate.md` — validation-before-execute sibling (K172)
+- `@cybersecurity-wiki/concepts/coding-agent-supply-chain-install-gap.md` — cybersec deepen
 
 ## Raw Concept
 

@@ -10,16 +10,19 @@ related:
   - concepts/cage-1-enterprise-agent-governance-eval.md
   - sources/brief-k179-coding-agent-preinstall-gate-2026-07-17.md
   - briefs/2026-07-17_ccc-handoff-setup-weaponization-armor-route.md
+  - "@cybersecurity-wiki/sources/arxiv-weaponizing-setup-instructions-coding-agents-2607.15143.md"
+  - "@cybersecurity-wiki/concepts/coding-agent-supply-chain-install-gap.md"
 maturity: draft
 created: 2026-07-17
-updated: 2026-07-17
+updated: 2026-07-18
 ---
 
 ## Relations
 
 - `@concepts/coding-agent-install-gap-and-preinstall-gate.md` — synthesized steal
 - `@concepts/client-as-first-order-harness-factor.md` — harness-model interaction (K140 sibling)
-- Cybersec primary deepen: `@cybersecurity-wiki` (handoff brief)
+- Cybersec deepen: `@cybersecurity-wiki/sources/arxiv-weaponizing-setup-instructions-coding-agents-2607.15143.md`
+- `@cybersecurity-wiki/concepts/coding-agent-supply-chain-install-gap.md`
 - `@sources/brief-k179-coding-agent-preinstall-gate-2026-07-17.md`
 
 ## Raw Concept

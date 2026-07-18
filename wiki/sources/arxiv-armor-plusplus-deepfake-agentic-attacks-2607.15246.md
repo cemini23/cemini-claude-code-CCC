@@ -6,14 +6,17 @@ keywords: [2607.15246, ARMOR++, AADD-2025, black-box transfer]
 related:
   - concepts/cross-wiki-routing.md
   - briefs/2026-07-17_ccc-handoff-setup-weaponization-armor-route.md
+  - "@cybersecurity-wiki/sources/arxiv-armor-plusplus-deepfake-agentic-2607.15246.md"
+  - "@cybersecurity-wiki/concepts/armor-plusplus-agentic-deepfake-detector-attacks.md"
 maturity: draft
 created: 2026-07-17
-updated: 2026-07-17
+updated: 2026-07-18
 ---
 
 ## Relations
 
-- Primary: cybersecurity-wiki (offensive ML / deepfake robustness)
+- Primary: `@cybersecurity-wiki/sources/arxiv-armor-plusplus-deepfake-agentic-2607.15246.md`
+- Synthesis: `@cybersecurity-wiki/concepts/armor-plusplus-agentic-deepfake-detector-attacks.md`
 - Secondary interest: image-gen detector robustness
 - No public ARMOR++ code at Phase-0
 

@@ -4,21 +4,14 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
----
+## [2026-07-18] ingest | FlowGuard MCP evidence-grounded detection (K189)
 
----
-
----
-
----
-
----
-
----
-
----
-
----
+- **K189 — FlowGuard (2607.14754, Fudan):** signals ≠ runtime evidence for MCP security; TRIAGE→RECON→STRIKE→ANALYSIS→REFINEMENT; F1 0.879/0.942 on cmd injection / FS; 523 findings / 326 servers. **ADOPT** evidence bar; **NO-GO** install (no public artifact; name-collision repos rejected).
+- Concept `mcp-security-signals-vs-runtime-evidence`; source; prod + hands-on briefs; `scripts/adopt_k189_phase0.sh`.
+- **Cross-route:** cybersec stubs `mcp-security-evidence-grounded-detection` + source; handoff `wiki/briefs/2026-07-18_ccc-handoff-flowguard-mcp-security.md`.
+- **David:** TipDrop `ccc-k189-mcp-evidence-not-signals`; **Poker:** `k189-mcp-evidence-bar-steal`.
+- **Note:** K188 reserved for cybersec ARMOR++ (2607.15246) deepen — do not reuse for FlowGuard.
+- PDF → egress-fi `ccc/`.
 
 ---
 

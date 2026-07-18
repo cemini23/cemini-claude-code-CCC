@@ -16,9 +16,11 @@ related:
   - concepts/algorithmic-impermeability-model-agnostic-orchestration.md
   - sources/arxiv-large-cancer-assistant-lca-2607.06531.md
   - concepts/harness-evolution-vs-test-time-scaling-baseline.md
+  - sources/arxiv-flowguard-mcp-security-evidence-2607.14754.md
+  - concepts/mcp-security-signals-vs-runtime-evidence.md
 maturity: draft
 created: 2026-06-24
-updated: 2026-07-15
+updated: 2026-07-18
 ---
 
 ## Relations

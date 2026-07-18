@@ -36,9 +36,10 @@ related:
   - briefs/2026-07-17_ccc-handoff-setup-weaponization-armor-route.md
   - briefs/2026-07-16_ccc-handoff-amt-x-aha-skillsec-ingest.md
   - briefs/2026-07-17_ccc-handoff-datashield-prism-ingest.md
+  - briefs/2026-07-18_ccc-handoff-flowguard-mcp-security.md
 maturity: validated
 created: 2026-06-29
-updated: 2026-07-17
+updated: 2026-07-18
 ---
 
 ## Relations
@@ -79,3 +80,9 @@ Catalog of **durable handoff briefs** staged under `wiki/briefs/` (distinct from
 | `2026-07-17_ccc-handoff-setup-weaponization-armor-route.md` | cybersec | K179 setup weaponization + ARMOR++ |
 
 Prod deploy briefs (K109–K182) live in gitignored `/briefs/` with discoverability stubs under `wiki/sources/brief-k*.md`.
+
+### K189 FlowGuard (2026-07-18)
+
+- CCC: `wiki/briefs/2026-07-18_ccc-handoff-flowguard-mcp-security.md`
+- Cybersec: `concepts/mcp-security-evidence-grounded-detection.md`
+

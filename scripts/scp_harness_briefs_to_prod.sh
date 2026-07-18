@@ -69,6 +69,11 @@ BRIEFS=(
   "2026-07-17_k181-policy-as-code-guardrails-prod.md"
   "2026-07-17_k182-acp-mcp-three-layer-prod.md"
   "2026-07-17_k179-k182-harness-policy-hands-on.md"
+  "2026-07-18_k159-aleena-lifecycle-alignment-prod.md"
+  "2026-07-18_k159-memory-scarcity-open-inference-prod.md"
+  "2026-07-18_k188-armor-plusplus-deepfake-prod.md"
+  "2026-07-18_k189-flowguard-mcp-evidence-prod.md"
+  "2026-07-18_k189-harness-policy-hands-on.md"
 )
 
 echo "SCP harness briefs → ${REMOTE}"

@@ -18,9 +18,11 @@ related:
   - "@cybersecurity-wiki/concepts/mcp-security-posture.md"
   - concepts/mcp-adaptive-systems-context-survey.md
   - sources/arxiv-mcp-externalizing-context-survey-2508.19239.md
+  - sources/arxiv-flowguard-mcp-security-evidence-2607.14754.md
+  - concepts/mcp-security-signals-vs-runtime-evidence.md
 maturity: draft
 created: 2026-06-06
-updated: 2026-06-11
+updated: 2026-07-18
 ---
 
 ## Relations

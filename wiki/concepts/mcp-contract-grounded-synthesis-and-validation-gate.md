@@ -19,9 +19,11 @@ related:
   - concepts/policy-as-code-layered-validation-for-agent-artifacts.md
   - sources/arxiv-agent-client-protocol-hri-genai-2607.14919.md
   - sources/arxiv-satellite-mission-compiler-policy-as-code-2607.14798.md
+  - sources/arxiv-flowguard-mcp-security-evidence-2607.14754.md
+  - concepts/mcp-security-signals-vs-runtime-evidence.md
 maturity: draft
 created: 2026-07-16
-updated: 2026-07-17
+updated: 2026-07-18
 ---
 
 ## Relations

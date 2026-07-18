@@ -367,6 +367,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`searchos-socm-explicit-search-state`](concepts/searchos-socm-explicit-search-state.md) | draft | SOCM Evidence Graph / Coverage / Failure Memory — 2607.15257 (K180) |
 | [`policy-as-code-layered-validation-for-agent-artifacts`](concepts/policy-as-code-layered-validation-for-agent-artifacts.md) | draft | Schema + OPA/Rego-style layered validation — 2607.14798 (K181) |
 | [`acp-mcp-three-layer-human-agent-execution`](concepts/acp-mcp-three-layer-human-agent-execution.md) | draft | ACP UI + MCP execution three-layer split — 2607.14919 (K182) |
+| [`mcp-security-signals-vs-runtime-evidence`](concepts/mcp-security-signals-vs-runtime-evidence.md) | draft | Semantic signals ≠ runtime evidence for MCP security — 2607.14754 (K189) |
 
 ## sources/
 
@@ -547,6 +548,8 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`brief-k172-mcp-contract-validation-gate-2026-07-16`](sources/brief-k172-mcp-contract-validation-gate-2026-07-16.md) | validated | K172 prod stub |
 | [`arxiv-jw-astclaw-solar-telescope-multi-agent-mcp-2607.13549`](sources/arxiv-jw-astclaw-solar-telescope-multi-agent-mcp-2607.13549.md) | draft | JW-ASTClaw MCP multi-agent telescope — read (K173) |
 | [`brief-k173-mcp-graceful-degradation-2026-07-16`](sources/brief-k173-mcp-graceful-degradation-2026-07-16.md) | validated | K173 prod stub |
+| [`arxiv-flowguard-mcp-security-evidence-2607.14754`](sources/arxiv-flowguard-mcp-security-evidence-2607.14754.md) | draft | FlowGuard MCP evidence detection — 2607.14754 (K189) |
+| [`brief-k189-flowguard-mcp-evidence-2026-07-18`](sources/brief-k189-flowguard-mcp-evidence-2026-07-18.md) | validated | K189 prod stub |
 | [`arxiv-agenthoi-training-free-hoi-detection-2607.13881`](sources/arxiv-agenthoi-training-free-hoi-detection-2607.13881.md) | draft | AgentHOI HOI — cross-wiki image-gen stub |
 | [`arxiv-expressioncuelens-hai-companion-2607.13924`](sources/arxiv-expressioncuelens-hai-companion-2607.13924.md) | draft | ExpressionCueLens HAI companion cues — TipDrop route |
 

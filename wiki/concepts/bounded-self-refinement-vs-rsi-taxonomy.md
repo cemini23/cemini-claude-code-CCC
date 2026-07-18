@@ -18,9 +18,11 @@ related:
   - concepts/agent-completion-verification-gates.md
   - entities/patterns/full-prompt-goal-template.md
   - concepts/agent-optimizer-compounding-and-regression-control.md
+  - sources/arxiv-flowguard-mcp-security-evidence-2607.14754.md
+  - concepts/mcp-security-signals-vs-runtime-evidence.md
 maturity: draft
 created: 2026-07-14
-updated: 2026-07-16
+updated: 2026-07-18
 ---
 
 ## Relations
