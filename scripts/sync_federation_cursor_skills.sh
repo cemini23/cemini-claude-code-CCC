@@ -14,7 +14,9 @@ REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 # Core operator skills (mattpocock + Cemini audits)
 CANON_SKILLS=(goal to-issues grill-with-docs cursor-audit super-audit)
 SRC_RULE="${REPO_ROOT}/.cursor/rules/cemini-goal-skill.mdc"
+SRC_SEC_RULE="${REPO_ROOT}/.cursor/rules/cemini-cursor-security-preflight.mdc"
 USER_RULE="${HOME}/.cursor/rules/cemini-goal-skill.mdc"
+USER_SEC_RULE="${HOME}/.cursor/rules/cemini-cursor-security-preflight.mdc"
 
 # Domain skills: name|absolute path to skill directory (must contain SKILL.md)
 SEO_ROOT="/Users/claudiobarone/Projects/SEO:GEO B&M Business"
@@ -125,6 +127,9 @@ install_workspace() {
   local entry name src_dir
   mkdir -p "${rules_dir}"
   copy_file "${SRC_RULE}" "${rules_dir}/cemini-goal-skill.mdc"
+  if [[ -f "${SRC_SEC_RULE}" ]]; then
+    copy_file "${SRC_SEC_RULE}" "${rules_dir}/cemini-cursor-security-preflight.mdc"
+  fi
   for skill in "${CANON_SKILLS[@]}"; do
     sync_skill_tree "${skill}" "${dest}"
   done
@@ -147,6 +152,7 @@ verify_workspace() {
     [[ -f "${dest}/.cursor/skills/${name}/SKILL.md" ]] || ok=1
   done
   [[ -f "${dest}/.cursor/rules/cemini-goal-skill.mdc" ]] || ok=1
+  [[ -f "${dest}/.cursor/rules/cemini-cursor-security-preflight.mdc" ]] || ok=1
   # multi-file skills must carry companions
   [[ -f "${dest}/.cursor/skills/cursor-audit/reference.md" ]] || ok=1
   [[ -f "${dest}/.cursor/skills/super-audit/prompt-template.md" ]] || ok=1
@@ -171,6 +177,10 @@ done
 mkdir -p "$(dirname "${USER_RULE}")"
 copy_file "${SRC_RULE}" "${USER_RULE}"
 echo "  OK  user-global ${USER_RULE}"
+if [[ -f "${SRC_SEC_RULE}" ]]; then
+  copy_file "${SRC_SEC_RULE}" "${USER_SEC_RULE}"
+  echo "  OK  user-global ${USER_SEC_RULE}"
+fi
 
 count=0
 fail=0
@@ -196,4 +206,5 @@ if [[ "${fail}" -gt 0 ]]; then
   echo "Synced ${count} workspace(s); ${fail} verify failure(s); ${skip} skipped." >&2
   exit 1
 fi
-echo "Synced ${count} workspace(s) + user-global (${#CANON_SKILLS[@]} CCC + ${#DOMAIN_SKILL_DIRS[@]} domain + goal rule); ${skip} path(s) skipped (missing)."
+echo "Synced ${count} workspace(s) + user-global (${#CANON_SKILLS[@]} CCC + ${#DOMAIN_SKILL_DIRS[@]} domain + goal/security rules); ${skip} path(s) skipped (missing)."
+echo "Optional: cursor-security-preflight --quick   # scan all .cursor trees after sync"
