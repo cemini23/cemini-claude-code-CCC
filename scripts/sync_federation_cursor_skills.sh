@@ -20,8 +20,11 @@ USER_SEC_RULE="${HOME}/.cursor/rules/cemini-cursor-security-preflight.mdc"
 
 # Domain skills: name|absolute path to skill directory (must contain SKILL.md)
 SEO_ROOT="/Users/claudiobarone/Projects/SEO:GEO B&M Business"
+OSINT_ROOT="/Users/claudiobarone/Projects/OSINT WORKSPACE"
 DOMAIN_SKILL_DIRS=(
   "adopted-geo-tools|${SEO_ROOT}/.cursor/skills/adopted-geo-tools"
+  # K174 Extract — action-first ADHD output shaping (MIT); canon in OSINT
+  "i-have-adhd|${OSINT_ROOT}/.cursor/skills/i-have-adhd"
 )
 
 # Prefer Projects/ canon paths; include Desktop aliases when present.
@@ -91,11 +94,13 @@ sync_skill_tree() {
   if command -v rsync >/dev/null 2>&1; then
     rsync -a --delete \
       --exclude '.DS_Store' \
+      --exclude 'upstream' \
       "${src_dir}/" "${dest_dir}/"
   else
     rm -rf "${dest_dir}"
     mkdir -p "${dest_dir}"
     cp -R "${src_dir}/." "${dest_dir}/"
+    rm -rf "${dest_dir}/upstream"
   fi
 }
 
@@ -113,11 +118,13 @@ sync_domain_skill_tree() {
   if command -v rsync >/dev/null 2>&1; then
     rsync -a --delete \
       --exclude '.DS_Store' \
+      --exclude 'upstream' \
       "${src_dir}/" "${dest_dir}/"
   else
     rm -rf "${dest_dir}"
     mkdir -p "${dest_dir}"
     cp -R "${src_dir}/." "${dest_dir}/"
+    rm -rf "${dest_dir}/upstream"
   fi
 }
 
@@ -161,7 +168,7 @@ verify_workspace() {
 
 echo "Sync federation Cursor skills from ${REPO_ROOT}"
 echo "  CCC skills: ${CANON_SKILLS[*]}"
-echo "  Domain skills: adopted-geo-tools (canon: SEO wiki)"
+echo "  Domain skills: adopted-geo-tools (SEO) + i-have-adhd (OSINT K174)"
 
 # User-global copies (Cursor discovers ~/.cursor/skills/* in any window, including Home)
 for skill in "${CANON_SKILLS[@]}"; do
