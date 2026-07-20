@@ -74,6 +74,13 @@ BRIEFS=(
   "2026-07-18_k188-armor-plusplus-deepfake-prod.md"
   "2026-07-18_k189-flowguard-mcp-evidence-prod.md"
   "2026-07-18_k189-harness-policy-hands-on.md"
+  "2026-07-20_k190-mcp-cloud-gateway-hybrid-recommend-prod.md"
+  "2026-07-20_k191-toolverse-turn-aware-rl-prod.md"
+  "2026-07-20_k192-tars-tom-personalization-prod.md"
+  "2026-07-20_k193-businesscasebench-rubric-eval-prod.md"
+  "2026-07-20_k190-k194-harness-policy-hands-on.md"
+  "2026-07-20_k195-craft-capability-diagnosis-prod.md"
+  "2026-07-20_k196-cav-stixgen-llm-cti-prod.md"
 )
 
 echo "SCP harness briefs → ${REMOTE}"
