@@ -23,9 +23,13 @@ related:
   - sources/arxiv-contract-grounded-bt-coding-agent-mcp-2607.12220.md
   - concepts/searchos-socm-explicit-search-state.md
   - sources/arxiv-searchos-v1-open-domain-agent-collaboration-2607.15257.md
+  - concepts/mcp-cloud-gateway-hybrid-tool-recommendation.md
+  - concepts/toolverse-gust-turn-aware-agentic-rl.md
+  - sources/arxiv-scalable-mcp-cloud-gateway-2607.15593.md
+  - sources/arxiv-toolverse-long-horizon-mcp-rl-2607.15660.md
 maturity: draft
 created: 2026-07-14
-updated: 2026-07-17
+updated: 2026-07-20
 ---
 
 ## Relations

@@ -22,9 +22,11 @@ related:
   - sources/trading-posts-compilation-7-2026-06-09.md
   - concepts/skillhone-continual-skill-decision-history.md
   - concepts/hierarchical-skill-stack-lazy-orchestration.md
+  - concepts/theory-of-mind-personalized-agent-explanations.md
+  - sources/arxiv-tars-theory-of-mind-ide-2607.15948.md
 maturity: draft
 created: 2026-06-04
-updated: 2026-07-14
+updated: 2026-07-20
 ---
 
 ## Relations

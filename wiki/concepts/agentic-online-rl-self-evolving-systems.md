@@ -17,9 +17,11 @@ related:
   - concepts/algorithmic-impermeability-model-agnostic-orchestration.md
   - sources/arxiv-large-cancer-assistant-lca-2607.06531.md
   - concepts/bounded-self-refinement-vs-rsi-taxonomy.md
+  - concepts/toolverse-gust-turn-aware-agentic-rl.md
+  - sources/arxiv-toolverse-long-horizon-mcp-rl-2607.15660.md
 maturity: draft
 created: 2026-07-07
-updated: 2026-07-14
+updated: 2026-07-20
 ---
 
 ## Relations

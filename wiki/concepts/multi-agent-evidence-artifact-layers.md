@@ -18,9 +18,11 @@ related:
   - concepts/harness-evolution-vs-test-time-scaling-baseline.md
   - sources/arxiv-flowguard-mcp-security-evidence-2607.14754.md
   - concepts/mcp-security-signals-vs-runtime-evidence.md
+  - concepts/businesscasebench-rubric-from-expert-solutions.md
+  - sources/arxiv-businesscasebench-knowledge-work-2607.16057.md
 maturity: draft
 created: 2026-06-24
-updated: 2026-07-18
+updated: 2026-07-20
 ---
 
 ## Relations

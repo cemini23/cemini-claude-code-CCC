@@ -17,6 +17,8 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`openspec`](entities/tools/openspec.md) | draft | Spec-driven workflow alternative to Ralph and `/goal` |
 | [`syncthing`](entities/tools/syncthing.md) | draft | Peer-to-peer file sync underneath Claude Code |
 | [`lazy-tool`](entities/tools/lazy-tool.md) | validated | MCP discovery proxy, 46% input-token reduction (source claim) |
+| [`agentgateway`](entities/tools/agentgateway.md) | draft | OSS MCP/agent proxy — CONDITIONAL REFERENCE (K190, Apache-2.0) |
+| [`tars-vscode`](entities/tools/tars-vscode.md) | draft | VS Code ToM code explainer — MIT GO clone (K192) |
 | [`claude-code-router`](entities/tools/claude-code-router.md) | draft | Local LLM proxy for routing + caching headers |
 | [`spec-kit`](entities/tools/spec-kit.md) | draft | GitHub's CLI for spec-driven development |
 | [`ttok`](entities/tools/ttok.md) | draft | Token-counter CLI; preview before paste |
@@ -293,6 +295,10 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`trustx-agent-risk-classification`](concepts/trustx-agent-risk-classification.md) | draft | TrustX ARC 12-dimension agent risk tiering — 2607.09586 (K157) |
 | [`bounded-self-refinement-vs-rsi-taxonomy`](concepts/bounded-self-refinement-vs-rsi-taxonomy.md) | draft | RSI survey taxonomy + verification hierarchy — 2607.07663 (K162) |
 | [`hierarchical-skill-stack-lazy-orchestration`](concepts/hierarchical-skill-stack-lazy-orchestration.md) | draft | Capability tree + LIFO stack + lazy manifests — 2607.11138 (K164) |
+| [`mcp-cloud-gateway-hybrid-tool-recommendation`](concepts/mcp-cloud-gateway-hybrid-tool-recommendation.md) | draft | Hybrid Top-k MCP recommend + session affinity — 2607.15593 (K190) |
+| [`toolverse-gust-turn-aware-agentic-rl`](concepts/toolverse-gust-turn-aware-agentic-rl.md) | draft | GUST dependency-graph tasks + turn-aware credit — 2607.15660 (K191) |
+| [`theory-of-mind-personalized-agent-explanations`](concepts/theory-of-mind-personalized-agent-explanations.md) | draft | ToM profiler for personalized explanations — 2607.15948 (K192) |
+| [`businesscasebench-rubric-from-expert-solutions`](concepts/businesscasebench-rubric-from-expert-solutions.md) | draft | Expert-solution checklist rubrics — 2607.16057 (K193) |
 | [`tool-eval-license-skepticism-patterns`](concepts/tool-eval-license-skepticism-patterns.md) | draft | K73 license-eval anti-patterns (NO-LICENSE false negatives, BSL parsing) |
 | [`enterprise-auto-mode-telemetry-rollout`](concepts/enterprise-auto-mode-telemetry-rollout.md) | draft | Auto Mode policy rollout via telemetry loops (K73 Post 1) |
 | [`harness-de-bloat-4x4-pattern`](concepts/harness-de-bloat-4x4-pattern.md) | draft | 4-skills/4-agents simplification pattern (K73 Post 2) |
@@ -551,6 +557,12 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`brief-k173-mcp-graceful-degradation-2026-07-16`](sources/brief-k173-mcp-graceful-degradation-2026-07-16.md) | validated | K173 prod stub |
 | [`arxiv-flowguard-mcp-security-evidence-2607.14754`](sources/arxiv-flowguard-mcp-security-evidence-2607.14754.md) | draft | FlowGuard MCP evidence detection — 2607.14754 (K189) |
 | [`brief-k189-flowguard-mcp-evidence-2026-07-18`](sources/brief-k189-flowguard-mcp-evidence-2026-07-18.md) | validated | K189 prod stub |
+| [`arxiv-scalable-mcp-cloud-gateway-2607.15593`](sources/arxiv-scalable-mcp-cloud-gateway-2607.15593.md) | draft | Alibaba MCP cloud gateway — read (K190) |
+| [`arxiv-toolverse-long-horizon-mcp-rl-2607.15660`](sources/arxiv-toolverse-long-horizon-mcp-rl-2607.15660.md) | draft | ToolVerse GUST turn-aware RL — read (K191) |
+| [`arxiv-tars-theory-of-mind-ide-2607.15948`](sources/arxiv-tars-theory-of-mind-ide-2607.15948.md) | draft | TARS ToM IDE agent — read (K192) |
+| [`arxiv-businesscasebench-knowledge-work-2607.16057`](sources/arxiv-businesscasebench-knowledge-work-2607.16057.md) | draft | BusinessCaseBench knowledge work — read (K193) |
+| [`arxiv-agentic-ai-5g6g-survey-2607.16066`](sources/arxiv-agentic-ai-5g6g-survey-2607.16066.md) | draft | 5G/6G agentic survey — REFERENCE stub (K194) |
+| [`brief-k190-k194-mcp-gateway-toolverse-tars-2026-07-20`](sources/brief-k190-k194-mcp-gateway-toolverse-tars-2026-07-20.md) | validated | K190–K194 prod + David + poker stub |
 | [`arxiv-agenthoi-training-free-hoi-detection-2607.13881`](sources/arxiv-agenthoi-training-free-hoi-detection-2607.13881.md) | draft | AgentHOI HOI — cross-wiki image-gen stub |
 | [`arxiv-expressioncuelens-hai-companion-2607.13924`](sources/arxiv-expressioncuelens-hai-companion-2607.13924.md) | draft | ExpressionCueLens HAI companion cues — TipDrop route |
 

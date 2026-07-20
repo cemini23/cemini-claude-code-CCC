@@ -58,9 +58,12 @@ related:
   - concepts/mcp-contract-grounded-synthesis-and-validation-gate.md
   - sources/arxiv-contract-grounded-bt-coding-agent-mcp-2607.12220.md
   - concepts/searchos-socm-explicit-search-state.md
+  - concepts/mcp-cloud-gateway-hybrid-tool-recommendation.md
+  - entities/tools/agentgateway.md
+  - sources/arxiv-scalable-mcp-cloud-gateway-2607.15593.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-07-17
+updated: 2026-07-20
 ---
 
 ## Relations

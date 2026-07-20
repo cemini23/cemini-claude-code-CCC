@@ -36,9 +36,10 @@ related:
   - concepts/neurosymbolic-adaptive-reasoning-workflows.md
   - concepts/bounded-self-refinement-vs-rsi-taxonomy.md
   - concepts/hierarchical-skill-stack-lazy-orchestration.md
+  - concepts/theory-of-mind-personalized-agent-explanations.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-07-14
+updated: 2026-07-20
 ---
 
 ## Relations

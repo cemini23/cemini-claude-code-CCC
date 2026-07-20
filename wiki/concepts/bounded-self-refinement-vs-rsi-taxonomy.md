@@ -20,9 +20,13 @@ related:
   - concepts/agent-optimizer-compounding-and-regression-control.md
   - sources/arxiv-flowguard-mcp-security-evidence-2607.14754.md
   - concepts/mcp-security-signals-vs-runtime-evidence.md
+  - concepts/toolverse-gust-turn-aware-agentic-rl.md
+  - concepts/businesscasebench-rubric-from-expert-solutions.md
+  - sources/arxiv-businesscasebench-knowledge-work-2607.16057.md
+  - sources/arxiv-toolverse-long-horizon-mcp-rl-2607.15660.md
 maturity: draft
 created: 2026-07-14
-updated: 2026-07-18
+updated: 2026-07-20
 ---
 
 ## Relations

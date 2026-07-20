@@ -8,7 +8,7 @@ related:
   - concepts/searchos-socm-explicit-search-state.md
 maturity: draft
 created: 2026-07-17
-updated: 2026-07-17
+updated: 2026-07-18
 ---
 
 ## Relations
@@ -26,6 +26,10 @@ updated: 2026-07-17
 | Shallow size | ~106 MB (≪500 MB) |
 | Local adopt | `.local/adopts/SearchOS` (gitignored) |
 | Verdict | **GO** clone for reference; exercise before prod wiring |
+
+## Snippets
+
+**Local smoke (2026-07-18):** `.local/adopts/SearchOS/.venv` (Python 3.12); `searchos --help` PASS. Live query needs `searchos --setup` or `.env` (SF_PROVIDER + API key).
 
 ## Snippets
 

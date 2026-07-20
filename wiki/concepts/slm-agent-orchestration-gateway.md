@@ -8,9 +8,11 @@ related:
   - entities/tools/lazy-tool.md
   - entities/tools/conductor-mcp.md
   - concepts/mcp-context-optimization.md
+  - concepts/mcp-cloud-gateway-hybrid-tool-recommendation.md
+  - entities/tools/agentgateway.md
 maturity: draft
 created: 2026-06-03
-updated: 2026-06-03
+updated: 2026-07-20
 ---
 
 ## Relations

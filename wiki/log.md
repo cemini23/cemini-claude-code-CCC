@@ -4,6 +4,16 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-07-20] ingest | MCP gateway + ToolVerse + TARS + BusinessCaseBench + 5G/6G survey (K190–K194)
+
+- **K190 — Scalable MCP cloud gateway (2607.15593, Alibaba):** hybrid lexical+semantic Top-15 (98% recall); 8.9× selection time / 23.8× tokens; session affinity. **ADOPT** checklist; **NO-GO** Alibaba code; **CONDITIONAL-GO** `.local/adopts/agentgateway` (Apache-2.0, ~42MB).
+- **K191 — ToolVerse (2607.15660, Meituan):** ~422 MCP envs / ~4438 tools; GUST dependency-graph tasks; Turn-Aware Relative Advantage. **ADOPT** graph + turn scoring; **NO-GO** install (no official artifact).
+- **K192 — TARS (2607.15948):** ToM profiler + RAG in-IDE explanations; n=18 → 26% faster. **ADOPT** pattern; **GO** MIT `.local/adopts/tars` (~15MB); **NO-GO** Cursor VSIX drop-in.
+- **K193 — BusinessCaseBench (2607.16057):** expert-solution → checklist rubrics; Standard vs Complete Answer. **ADOPT** methodology; **NO-GO** install.
+- **K194 — 5G/6G agentic survey (2607.16066):** telecom OOD — **REFERENCE** source stub only (prefer brief over deepen).
+- **Pages:** 5 sources + 4 concepts + 2 entities + brief stub + handoff; Phase-0 `scripts/adopt_k190_phase0.sh`…`k194`; prod briefs + David + poker steals; `scp_harness_briefs_to_prod.sh` extended.
+- **Archive:** 5 PDFs → `cemini-egress-fi:/opt/cemini-bulk/research/ccc/`; inbox cleared on success.
+
 ## [2026-07-18] cursor | federate adopted-geo-tools domain skill
 
 - Extended `scripts/sync_federation_cursor_skills.sh` with `DOMAIN_SKILL_DIRS` — syncs SEO canon `adopted-geo-tools` → user-global + all workspaces (alongside CCC CANON_SKILLS).

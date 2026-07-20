@@ -13,7 +13,7 @@ related:
   - concepts/multi-factor-agentic-memory-value-model.md
 maturity: draft
 created: 2026-06-26
-updated: 2026-06-26
+updated: 2026-07-18
 ---
 
 ## Relations
@@ -31,6 +31,7 @@ MemProbe — open benchmark + pipeline for probing long-term agent memory via hi
 |-------|-------|
 | **Repo** | https://github.com/sora1998/MemProbe |
 | **License** | CC-BY-4.0 [CONFIRMED gh api 2026-06-26] |
+| **Local** | `.local/adopts/MemProbe` (~406 MB shallow; cap raised to 1.2 GB) |
 | **Verdict** | **REFERENCE** eval rubric; **CONDITIONAL-GO** laptop benchmark run with attribution |
 | **Overlap** | WorldMemArena (stage eval), LongMemEval (behavioral recall), claude-mem (operator memory) |
 

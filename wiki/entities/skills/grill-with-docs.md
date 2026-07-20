@@ -12,9 +12,10 @@ related:
   - "@osint-wiki/entities/tools/mattpocock-skills.md"
   - sources/brief-k122-k126-federation-cursor-harness-adoptions-2026-06-25.md
   - sources/brief-k132-local-adoptions-cursor-federation-prod-2026-06-27.md
+  - entities/skills/adopted-geo-tools.md
 maturity: draft
 created: 2026-06-22
-updated: 2026-06-29
+updated: 2026-07-20
 license_verified: MIT
 cross-wiki-source: "github.com/mattpocock/skills skills/engineering/grill-with-docs"
 ---

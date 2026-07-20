@@ -48,9 +48,12 @@ related:
   - concepts/model-native-vs-tool-mediated-fulfillment.md
   - concepts/hierarchical-skill-stack-lazy-orchestration.md
   - sources/arxiv-hierarchical-skill-stack-lazy-orchestration-2607.11138.md
+  - concepts/mcp-cloud-gateway-hybrid-tool-recommendation.md
+  - entities/tools/agentgateway.md
+  - sources/arxiv-scalable-mcp-cloud-gateway-2607.15593.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-07-14
+updated: 2026-07-20
 ---
 
 ## Relations

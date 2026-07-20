@@ -20,9 +20,11 @@ related:
   - sources/arxiv-better-harnesses-smaller-models-2607.08938.md
   - sources/brief-k169-harness-adaptation-evaluation-rigor-prod-2026-07-15.md
   - sources/arxiv-agent-optimizers-compound-continual-learning-2607.14004.md
+  - concepts/businesscasebench-rubric-from-expert-solutions.md
+  - sources/arxiv-businesscasebench-knowledge-work-2607.16057.md
 maturity: draft
 created: 2026-07-15
-updated: 2026-07-16
+updated: 2026-07-20
 ---
 
 ## Relations

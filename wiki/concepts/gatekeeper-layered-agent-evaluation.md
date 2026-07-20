@@ -27,9 +27,10 @@ related:
   - sources/arxiv-polyworkbench-multilingual-long-horizon-2607.06008.md
   - concepts/verifiable-search-agent-environment.md
   - sources/arxiv-deepsearch-world-self-distillation-2607.07820.md
+  - concepts/businesscasebench-rubric-from-expert-solutions.md
 maturity: draft
 created: 2026-06-21
-updated: 2026-07-13
+updated: 2026-07-20
 ---
 
 ## Relations

@@ -27,9 +27,12 @@ related:
   - concepts/coding-agent-install-gap-and-preinstall-gate.md
   - sources/arxiv-agent-client-protocol-hri-genai-2607.14919.md
   - sources/arxiv-weaponizing-setup-instructions-coding-agents-2607.15143.md
+  - concepts/theory-of-mind-personalized-agent-explanations.md
+  - entities/tools/tars-vscode.md
+  - sources/arxiv-tars-theory-of-mind-ide-2607.15948.md
 maturity: draft
 created: 2026-07-07
-updated: 2026-07-17
+updated: 2026-07-20
 cross-wiki-primary: "@cybersecurity-wiki/concepts/security-tool-orchestration-determinants.md"
 ---
 
