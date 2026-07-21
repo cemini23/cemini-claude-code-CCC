@@ -15,9 +15,10 @@ related:
   - sources/brief-k189-flowguard-mcp-evidence-2026-07-18.md
   - briefs/2026-07-18_ccc-handoff-flowguard-mcp-security.md
   - "@cybersecurity-wiki/concepts/mcp-security-evidence-grounded-detection.md"
+  - concepts/schema-bound-mcp-tool-surface.md
 maturity: draft
 created: 2026-07-18
-updated: 2026-07-18
+updated: 2026-07-21
 ---
 
 ## Relations

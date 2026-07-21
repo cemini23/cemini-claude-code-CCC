@@ -18,6 +18,8 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`syncthing`](entities/tools/syncthing.md) | draft | Peer-to-peer file sync underneath Claude Code |
 | [`lazy-tool`](entities/tools/lazy-tool.md) | validated | MCP discovery proxy, 46% input-token reduction (source claim) |
 | [`agentgateway`](entities/tools/agentgateway.md) | draft | OSS MCP/agent proxy — CONDITIONAL REFERENCE (K190, Apache-2.0) |
+| [`dataflow-opendcai`](entities/tools/dataflow-opendcai.md) | draft | Apache DataFlow platform — CONDITIONAL REFERENCE (K197) |
+| [`nuance-mcp`](entities/tools/nuance-mcp.md) | draft | Schema-bound instrument MCP — MIT GO clone (K198) |
 | [`tars-vscode`](entities/tools/tars-vscode.md) | draft | VS Code ToM code explainer — MIT GO clone (K192) |
 | [`claude-code-router`](entities/tools/claude-code-router.md) | draft | Local LLM proxy for routing + caching headers |
 | [`spec-kit`](entities/tools/spec-kit.md) | draft | GitHub's CLI for spec-driven development |
@@ -299,6 +301,11 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`toolverse-gust-turn-aware-agentic-rl`](concepts/toolverse-gust-turn-aware-agentic-rl.md) | draft | GUST dependency-graph tasks + turn-aware credit — 2607.15660 (K191) |
 | [`theory-of-mind-personalized-agent-explanations`](concepts/theory-of-mind-personalized-agent-explanations.md) | draft | ToM profiler for personalized explanations — 2607.15948 (K192) |
 | [`businesscasebench-rubric-from-expert-solutions`](concepts/businesscasebench-rubric-from-expert-solutions.md) | draft | Expert-solution checklist rubrics — 2607.16057 (K193) |
+| [`nl2pipeline-platform-grounded-mutations`](concepts/nl2pipeline-platform-grounded-mutations.md) | draft | Typed mutations vs free-form scripts — 2607.16617 (K197) |
+| [`schema-bound-mcp-tool-surface`](concepts/schema-bound-mcp-tool-surface.md) | draft | Bounds-validate MCP before dispatch — 2607.17012 (K198) |
+| [`solver-grounded-agent-numerics`](concepts/solver-grounded-agent-numerics.md) | draft | Numbers only from trusted tools — 2607.18147 (K199) |
+| [`measurement-gated-agent-harness-optimization`](concepts/measurement-gated-agent-harness-optimization.md) | draft | FlashRT IR + bench gate — 2607.18171 (K200) |
+| [`backbone-internal-tool-output-pruning`](concepts/backbone-internal-tool-output-pruning.md) | draft | Prune from coder LLM internals — 2607.18213 (K201) |
 | [`tool-eval-license-skepticism-patterns`](concepts/tool-eval-license-skepticism-patterns.md) | draft | K73 license-eval anti-patterns (NO-LICENSE false negatives, BSL parsing) |
 | [`enterprise-auto-mode-telemetry-rollout`](concepts/enterprise-auto-mode-telemetry-rollout.md) | draft | Auto Mode policy rollout via telemetry loops (K73 Post 1) |
 | [`harness-de-bloat-4x4-pattern`](concepts/harness-de-bloat-4x4-pattern.md) | draft | 4-skills/4-agents simplification pattern (K73 Post 2) |
@@ -563,6 +570,12 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-businesscasebench-knowledge-work-2607.16057`](sources/arxiv-businesscasebench-knowledge-work-2607.16057.md) | draft | BusinessCaseBench knowledge work — read (K193) |
 | [`arxiv-agentic-ai-5g6g-survey-2607.16066`](sources/arxiv-agentic-ai-5g6g-survey-2607.16066.md) | draft | 5G/6G agentic survey — REFERENCE stub (K194) |
 | [`brief-k190-k194-mcp-gateway-toolverse-tars-2026-07-20`](sources/brief-k190-k194-mcp-gateway-toolverse-tars-2026-07-20.md) | validated | K190–K194 prod + David + poker stub |
+| [`arxiv-dataflow-harness-nl2pipeline-2607.16617`](sources/arxiv-dataflow-harness-nl2pipeline-2607.16617.md) | draft | DataFlow-Harness NL2Pipeline — read (K197) |
+| [`arxiv-schema-bound-mcp-instrument-skills-2607.17012`](sources/arxiv-schema-bound-mcp-instrument-skills-2607.17012.md) | draft | Schema-bound MCP skills — read (K198) |
+| [`arxiv-smart-grids-agentic-tutorial-2607.18147`](sources/arxiv-smart-grids-agentic-tutorial-2607.18147.md) | draft | Smart-grid solver-grounded tutorial — REFERENCE (K199) |
+| [`arxiv-flashrt-agent-harness-realtime-2607.18171`](sources/arxiv-flashrt-agent-harness-realtime-2607.18171.md) | draft | FlashRT measurement-gated harness — read (K200) |
+| [`arxiv-swe-pruner-pro-internal-prune-2607.18213`](sources/arxiv-swe-pruner-pro-internal-prune-2607.18213.md) | draft | SWE-Pruner Pro internal prune — read (K201) |
+| [`brief-k197-k201-harness-solver-pruner-2026-07-21`](sources/brief-k197-k201-harness-solver-pruner-2026-07-21.md) | validated | K197–K201 prod + David + poker stub |
 | [`arxiv-agenthoi-training-free-hoi-detection-2607.13881`](sources/arxiv-agenthoi-training-free-hoi-detection-2607.13881.md) | draft | AgentHOI HOI — cross-wiki image-gen stub |
 | [`arxiv-expressioncuelens-hai-companion-2607.13924`](sources/arxiv-expressioncuelens-hai-companion-2607.13924.md) | draft | ExpressionCueLens HAI companion cues — TipDrop route |
 

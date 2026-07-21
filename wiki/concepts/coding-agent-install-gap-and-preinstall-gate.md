@@ -16,9 +16,10 @@ related:
   - "@cybersecurity-wiki/sources/arxiv-weaponizing-setup-instructions-coding-agents-2607.15143.md"
   - sources/arxiv-flowguard-mcp-security-evidence-2607.14754.md
   - concepts/mcp-security-signals-vs-runtime-evidence.md
+  - sources/arxiv-schema-bound-mcp-instrument-skills-2607.17012.md
 maturity: draft
 created: 2026-07-17
-updated: 2026-07-18
+updated: 2026-07-21
 ---
 
 ## Relations

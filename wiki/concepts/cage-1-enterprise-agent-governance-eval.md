@@ -28,9 +28,10 @@ related:
   - concepts/coding-agent-install-gap-and-preinstall-gate.md
   - concepts/policy-as-code-layered-validation-for-agent-artifacts.md
   - sources/arxiv-weaponizing-setup-instructions-coding-agents-2607.15143.md
+  - concepts/schema-bound-mcp-tool-surface.md
 maturity: draft
 created: 2026-07-10
-updated: 2026-07-17
+updated: 2026-07-21
 ---
 
 ## Relations

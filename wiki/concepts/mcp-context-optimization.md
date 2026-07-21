@@ -61,9 +61,12 @@ related:
   - concepts/mcp-cloud-gateway-hybrid-tool-recommendation.md
   - entities/tools/agentgateway.md
   - sources/arxiv-scalable-mcp-cloud-gateway-2607.15593.md
+  - concepts/backbone-internal-tool-output-pruning.md
+  - concepts/schema-bound-mcp-tool-surface.md
+  - sources/arxiv-swe-pruner-pro-internal-prune-2607.18213.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-07-20
+updated: 2026-07-21
 ---
 
 ## Relations

@@ -27,9 +27,10 @@ related:
   - entities/tools/xcientist.md
   - concepts/dual-representation-agent-memory.md
   - sources/brief-k118-spec-driven-pegasus-workflow-prod-2026-06-18.md
+  - concepts/nl2pipeline-platform-grounded-mutations.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-06-30
+updated: 2026-07-21
 ---
 
 ## Relations

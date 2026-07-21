@@ -87,9 +87,14 @@ related:
   - sources/arxiv-shopx-intent-to-item-fulfillment-2606.31693.md
   - concepts/algorithmic-impermeability-model-agnostic-orchestration.md
   - sources/arxiv-large-cancer-assistant-lca-2607.06531.md
+  - concepts/nl2pipeline-platform-grounded-mutations.md
+  - concepts/measurement-gated-agent-harness-optimization.md
+  - sources/arxiv-dataflow-harness-nl2pipeline-2607.16617.md
+  - sources/arxiv-flashrt-agent-harness-realtime-2607.18171.md
+  - entities/tools/dataflow-opendcai.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-07-09
+updated: 2026-07-21
 cross-wiki-source: "@osint-wiki/sources/arxiv-code-as-agent-harness-survey-2605.18747.md"
 ---
 

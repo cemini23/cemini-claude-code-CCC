@@ -65,9 +65,11 @@ related:
   - concepts/hierarchical-skill-stack-lazy-orchestration.md
   - sources/arxiv-recursive-self-improvement-survey-2607.07663.md
   - concepts/agent-optimizer-compounding-and-regression-control.md
+  - concepts/solver-grounded-agent-numerics.md
+  - sources/arxiv-smart-grids-agentic-tutorial-2607.18147.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-07-16
+updated: 2026-07-21
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-25-2026-05-27.md"
 ---
 

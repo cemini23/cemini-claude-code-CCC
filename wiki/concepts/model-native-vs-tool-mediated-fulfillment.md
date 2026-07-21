@@ -13,9 +13,10 @@ related:
   - sources/arxiv-large-cancer-assistant-lca-2607.06531.md
   - concepts/failure-mode-harness-adaptation-mapping.md
   - sources/arxiv-better-harnesses-smaller-models-2607.08938.md
+  - concepts/solver-grounded-agent-numerics.md
 maturity: draft
 created: 2026-07-07
-updated: 2026-07-15
+updated: 2026-07-21
 ---
 
 ## Relations

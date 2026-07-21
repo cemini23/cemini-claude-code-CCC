@@ -4,6 +4,16 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-07-21] ingest | DataFlow NL2Pipeline + schema-MCP + solver-grounded + FlashRT + SWE-Pruner (K197–K201)
+
+- **K197 — DataFlow-Harness (2607.16617):** NL2Pipeline gap; typed mutations + MCP registry + Skills; 93.3% pass; −72.5% cost vs vanilla CC. **ADOPT** checklist; WebUI **NO-GO**; **CONDITIONAL** `.local/adopts/DataFlow` (Apache, ~11MB).
+- **K198 — Schema-bound MCP skills (2607.17012):** bounds before dispatch; MCP-prompt skills; live jobs. **ADOPT**; **GO** MIT `.local/adopts/nuance-mcp` (~1.2MB).
+- **K199 — Smart-grid tutorial (2607.18147):** solver-grounded numerics. **ADOPT** rule; energy OOD; case code **NO-GO** (no SPDX).
+- **K200 — FlashRT (2607.18171):** IR + measurement-gated optimize loop. **ADOPT** checklist; repo **404 NO-GO**.
+- **K201 — SWE-Pruner Pro (2607.18213):** prune from backbone internals; ≤39% tokens. **ADOPT** principle; closed models keep K115; repo **NO-GO** (no SPDX).
+- **Pages:** 5 sources + 5 concepts + 2 entities + brief stub + handoff; Phase-0 k197–k201; prod + David + poker; scp list extended.
+- **Archive:** 5 PDFs → egress-fi `ccc/`; inbox cleared on success.
+
 ## [2026-07-20] ingest | MCP gateway + ToolVerse + TARS + BusinessCaseBench + 5G/6G survey (K190–K194)
 
 - **K190 — Scalable MCP cloud gateway (2607.15593, Alibaba):** hybrid lexical+semantic Top-15 (98% recall); 8.9× selection time / 23.8× tokens; session affinity. **ADOPT** checklist; **NO-GO** Alibaba code; **CONDITIONAL-GO** `.local/adopts/agentgateway` (Apache-2.0, ~42MB).

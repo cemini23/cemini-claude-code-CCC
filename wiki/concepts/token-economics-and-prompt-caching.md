@@ -34,9 +34,11 @@ related:
   - concepts/prompt-cache-aligned-context-management.md
   - sources/arxiv-tokenpilot-cache-efficient-context-2606.17016.md
   - concepts/self-compacting-adaptive-context.md
+  - concepts/backbone-internal-tool-output-pruning.md
+  - sources/arxiv-swe-pruner-pro-internal-prune-2607.18213.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-24
+updated: 2026-07-21
 ---
 
 ## Relations

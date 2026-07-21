@@ -21,9 +21,14 @@ related:
   - sources/arxiv-satellite-mission-compiler-policy-as-code-2607.14798.md
   - sources/arxiv-flowguard-mcp-security-evidence-2607.14754.md
   - concepts/mcp-security-signals-vs-runtime-evidence.md
+  - concepts/schema-bound-mcp-tool-surface.md
+  - concepts/nl2pipeline-platform-grounded-mutations.md
+  - sources/arxiv-schema-bound-mcp-instrument-skills-2607.17012.md
+  - entities/tools/nuance-mcp.md
+  - sources/arxiv-dataflow-harness-nl2pipeline-2607.16617.md
 maturity: draft
 created: 2026-07-16
-updated: 2026-07-18
+updated: 2026-07-21
 ---
 
 ## Relations

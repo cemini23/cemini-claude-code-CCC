@@ -24,9 +24,13 @@ related:
   - concepts/businesscasebench-rubric-from-expert-solutions.md
   - sources/arxiv-businesscasebench-knowledge-work-2607.16057.md
   - sources/arxiv-toolverse-long-horizon-mcp-rl-2607.15660.md
+  - concepts/solver-grounded-agent-numerics.md
+  - concepts/measurement-gated-agent-harness-optimization.md
+  - sources/arxiv-flashrt-agent-harness-realtime-2607.18171.md
+  - sources/arxiv-smart-grids-agentic-tutorial-2607.18147.md
 maturity: draft
 created: 2026-07-14
-updated: 2026-07-20
+updated: 2026-07-21
 ---
 
 ## Relations

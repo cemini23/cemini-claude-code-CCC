@@ -22,9 +22,10 @@ related:
   - sources/arxiv-agent-optimizers-compound-continual-learning-2607.14004.md
   - concepts/businesscasebench-rubric-from-expert-solutions.md
   - sources/arxiv-businesscasebench-knowledge-work-2607.16057.md
+  - concepts/measurement-gated-agent-harness-optimization.md
 maturity: draft
 created: 2026-07-15
-updated: 2026-07-20
+updated: 2026-07-21
 ---
 
 ## Relations

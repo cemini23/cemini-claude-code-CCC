@@ -19,9 +19,11 @@ related:
   - concepts/self-compacting-adaptive-context.md
   - sources/arxiv-self-compacting-agents-2606.23525.md
   - sources/brief-k115-context-memory-recursion-prod-2026-06-15.md
+  - concepts/backbone-internal-tool-output-pruning.md
+  - sources/arxiv-swe-pruner-pro-internal-prune-2607.18213.md
 maturity: draft
 created: 2026-06-15
-updated: 2026-06-30
+updated: 2026-07-21
 ---
 
 ## Relations
