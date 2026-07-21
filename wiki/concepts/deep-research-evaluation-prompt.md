@@ -2,7 +2,7 @@
 title: Deep research multi-wiki evaluation prompt — version lineage
 type: concept
 tags: [concept, prompt, gemini-deep-research, tool-evaluation, multi-wiki, cursor, claude-code]
-keywords: [v3, v4, v5, v6, v7, v8, v9, v10, ten surfaces, game-dev-wiki, gambling-wiki, CCC wiki, tier classification, anti-hallucination, cross-wiki routing, revenue lens, genealogy, family-tree, world-cup-bot, wc-ticket-monitor, CeminiDFS, federation-hub, xsp-killer, poker-arena, tipdrop]
+keywords: [v3, v4, v5, v6, v7, v8, v9, v10, v10.3, ten surfaces, game-dev-wiki, gambling-wiki, CCC wiki, tier classification, anti-hallucination, cross-wiki routing, revenue lens, genealogy, family-tree, atto, world-cup-bot, wc-ticket-monitor, ceminiDFS, federation-hub, xsp-killer, poker-arena, tipdrop]
 related:
   - concepts/cursor-ide-workspace.md
   - concepts/cross-wiki-routing.md
@@ -22,7 +22,7 @@ related:
   - entities/tools/awesome-agent-engineering.md
 maturity: validated
 created: 2026-05-21
-updated: 2026-07-15
+updated: 2026-07-21
 ---
 
 ## Relations
@@ -45,7 +45,7 @@ Question: **Where is the canonical copy-paste prompt for bulk URL / repo evaluat
 
 Bulk tool evaluation uses **ten surfaces** (Cemini **active prod bots** — XSP killer, poker arena, PM/Kalshi exploratory — + seven specialist wikis including **gambling-wiki** and **game-dev-wiki** + **CCC wiki** as harness meta + **TipDrop.io** friend project).
 
-**Priority #1 (v10.2, 2026-07-15):** **XSP killer** · **TipDrop.io** · **family-tree** · **PM LP canary (K166)** · **wikis always-on**. Poker + CeminiDFS stay active (always report applies; #1 wins ties only). Revenue lens unchanged. castle-sim remains deprioritized.
+**Priority #1 (v10.3, 2026-07-21):** **XSP killer** · **TipDrop.io** · **Atto** (genealogy product kit) · **family-tree / Barone dogfood** · **PM LP canary (K166)** · **wikis always-on**. Genealogy URLs must score `atto overlap` + `genealogy overlap` separately. Poker + CeminiDFS stay active (always report applies; #1 wins ties only). Revenue lens unchanged. castle-sim remains deprioritized.
 
 ### Version lineage
 
@@ -60,11 +60,18 @@ Bulk tool evaluation uses **ten surfaces** (Cemini **active prod bots** — XSP 
 | v7 | 2026-06-13 | 9 (+ `game-dev-wiki` surface 8) | `prompts/deep-research-multi-wiki-eval-v7-2026-06-13.md` | Frozen after K120; game-dev surface |
 | **v8** | **2026-06-21** | **9 (same surfaces)** | **`prompts/deep-research-multi-wiki-eval-v8-2026-06-21.md`** | Frozen after 2026-06-27 batches; librarian offline |
 | **v9** | **2026-06-28** | **10 (+ TipDrop.io surface 10)** | **`prompts/deep-research-multi-wiki-eval-v9-2026-06-28.md`** | Frozen after 2026-06-28 batches; license-first lens |
-| **v10** | **2026-07-06** | **10 (same surfaces)** | **`prompts/deep-research-multi-wiki-eval-v10-2026-07-06.md`** | **Current default** — revenue-first lens; license/ToS demoted to implementation notes |
+| **v10** | **2026-07-06** (+v10.3 2026-07-21) | **10 (same surfaces)** | **`prompts/deep-research-multi-wiki-eval-v10-2026-07-06.md`** | **Current default** — revenue-first; **Atto** emphasized as genealogy product (v10.3); license/ToS notes only |
 
 **First v6 production batch:** K90 (2026-05-31, 41 URLs) — `@sources/multi-wiki-tool-eval-v6-k90-2026-05-31.md` (adds gambling-wiki surface).
 
 **First v7 note:** K115 (2026-06-13) — `@game-dev-wiki` bootstrap; no bulk URL batch yet.
+
+### v10.3 delta (2026-07-21) [CONFIRMED]
+
+1. **Atto emphasized** as Priority #1 genealogy **product** — `/Users/claudiobarone/Projects/atto`, vault `~/AttoVault/`, MCP `atto-mcp`, GitHub `cemini23/atto`.
+2. **Split routing:** productizable genealogy → **`atto overlap`** (M1–M14 + FIND/AI); private Barone digs → **`genealogy overlap`** / `Desktop/family/research/` only (no PII into Atto fixtures).
+3. **Revenue for Atto:** kit $499–$899 · concierge ≥$2.5k · Access share $8–$20/mo · playbook sub $15–$40/mo — name SKU when claiming fit.
+4. Gemini runtime paste updated: `prompts/deep-research-multi-wiki-eval-v10-gemini-runtime.md`.
 
 ### v10.2 delta (2026-07-15) [CONFIRMED]
 

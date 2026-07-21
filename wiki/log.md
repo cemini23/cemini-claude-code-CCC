@@ -4,6 +4,15 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-07-21] prompt | deep-research v10.3 — Atto emphasize
+
+- **Did not already include Atto** — only Barone family-tree / `genealogy overlap` (v10.1–v10.2).
+- **v10.3:** Atto = Priority #1 genealogy **product** (`Projects/atto`, `~/AttoVault/`, `atto-mcp`); family-tree = private dogfood.
+- Updated: `prompts/deep-research-multi-wiki-eval-v10-2026-07-06.md`, `prompts/deep-research-multi-wiki-eval-v10-gemini-runtime.md`, `@concepts/deep-research-evaluation-prompt.md`.
+- New field: `atto overlap` (required on genealogy URLs); routing split productizable → Atto vs private digs → `Desktop/family/research/`.
+
+---
+
 ## [2026-07-21] ingest | DataFlow NL2Pipeline + schema-MCP + solver-grounded + FlashRT + SWE-Pruner (K197–K201)
 
 - **K197 — DataFlow-Harness (2607.16617):** NL2Pipeline gap; typed mutations + MCP registry + Skills; 93.3% pass; −72.5% cost vs vanilla CC. **ADOPT** checklist; WebUI **NO-GO**; **CONDITIONAL** `.local/adopts/DataFlow` (Apache, ~11MB).

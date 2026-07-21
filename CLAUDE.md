@@ -139,7 +139,7 @@ Paths below are relative to this CLAUDE.md file's directory. Resolve `../` again
 | Alias | Path | Visibility | Description |
 |-------|------|------------|-------------|
 | `ccc-wiki` | `wiki/` | **Public** | Cursor + Claude Code meta-wiki — workflow, agents, MCP, hooks, skills, slash commands, /goal·Ralph·OpenSpec |
-| `osint-wiki` | `../../OSINT WORKSPACE/wiki/` | **Private** | Financial research, quant finance, prediction markets, CeminiSuite. Shared: conductor/librarian, skill audits |
+| `osint-wiki` | `../OSINT WORKSPACE/wiki/` | **Private** | Financial research, quant finance, prediction markets, CeminiSuite. Shared: conductor/librarian, skill audits |
 | `gambling-wiki` | `../Gambling wiki/wiki/` | **Public** | Sports betting, casino, poker, DFS, best ball. Shared: Kelly/FLB theory; osint owns PM bots |
 | `game-dev-wiki` | `../Game Dev wiki/wiki/` | **Public** | Hobby game dev — castle/RTS research, Godot evals, agent harness. Shared: role graphs — ccc owns generic orchestration |
 | `cybersecurity-wiki` | `../Cybersecurity wiki/wiki/` | Public | Cybersecurity research — offensive/defensive, certifications. Shared: permission-scoping hooks |
