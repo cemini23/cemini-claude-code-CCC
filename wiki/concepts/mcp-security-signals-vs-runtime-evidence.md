@@ -16,9 +16,11 @@ related:
   - briefs/2026-07-18_ccc-handoff-flowguard-mcp-security.md
   - "@cybersecurity-wiki/concepts/mcp-security-evidence-grounded-detection.md"
   - concepts/schema-bound-mcp-tool-surface.md
+  - concepts/production-agent-deployment-checklist.md
+  - sources/arxiv-agents-in-the-wild-deployment-2607.19336.md
 maturity: draft
 created: 2026-07-18
-updated: 2026-07-21
+updated: 2026-07-22
 ---
 
 ## Relations

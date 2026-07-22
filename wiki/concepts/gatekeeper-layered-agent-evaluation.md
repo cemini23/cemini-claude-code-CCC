@@ -28,9 +28,10 @@ related:
   - concepts/verifiable-search-agent-environment.md
   - sources/arxiv-deepsearch-world-self-distillation-2607.07820.md
   - concepts/businesscasebench-rubric-from-expert-solutions.md
+  - concepts/verifiable-deterministic-agent-benchmarking.md
 maturity: draft
 created: 2026-06-21
-updated: 2026-07-20
+updated: 2026-07-22
 ---
 
 ## Relations

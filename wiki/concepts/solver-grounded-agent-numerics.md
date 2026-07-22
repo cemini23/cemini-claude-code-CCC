@@ -9,9 +9,12 @@ related:
   - concepts/agent-completion-verification-gates.md
   - concepts/model-native-vs-tool-mediated-fulfillment.md
   - sources/brief-k197-k201-harness-solver-pruner-2026-07-21.md
+  - concepts/domain-mcp-skills-fresh-subagent-orchestration.md
+  - sources/arxiv-agents4geos-mcp-multiphyics-2607.18557.md
+  - entities/tools/agents4geos.md
 maturity: draft
 created: 2026-07-21
-updated: 2026-07-21
+updated: 2026-07-22
 ---
 
 ## Relations

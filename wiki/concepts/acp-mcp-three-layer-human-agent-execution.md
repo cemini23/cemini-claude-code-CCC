@@ -10,9 +10,12 @@ related:
   - concepts/mcp-contract-grounded-synthesis-and-validation-gate.md
   - concepts/cage-1-enterprise-agent-governance-eval.md
   - sources/brief-k182-acp-mcp-three-layer-2026-07-17.md
+  - concepts/langgraph-stateful-workflow-pathways.md
+  - concepts/production-agent-deployment-checklist.md
+  - sources/arxiv-langgraph-stateful-business-workflows-2607.19297.md
 maturity: draft
 created: 2026-07-17
-updated: 2026-07-17
+updated: 2026-07-22
 ---
 
 ## Relations

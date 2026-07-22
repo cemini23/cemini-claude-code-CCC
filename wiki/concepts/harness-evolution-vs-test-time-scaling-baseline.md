@@ -23,9 +23,11 @@ related:
   - concepts/businesscasebench-rubric-from-expert-solutions.md
   - sources/arxiv-businesscasebench-knowledge-work-2607.16057.md
   - concepts/measurement-gated-agent-harness-optimization.md
+  - concepts/verifiable-deterministic-agent-benchmarking.md
+  - sources/arxiv-biosecbench-surveillance-2607.19262.md
 maturity: draft
 created: 2026-07-15
-updated: 2026-07-21
+updated: 2026-07-22
 ---
 
 ## Relations

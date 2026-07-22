@@ -67,9 +67,14 @@ related:
   - concepts/agent-optimizer-compounding-and-regression-control.md
   - concepts/solver-grounded-agent-numerics.md
   - sources/arxiv-smart-grids-agentic-tutorial-2607.18147.md
+  - concepts/langgraph-stateful-workflow-pathways.md
+  - concepts/production-agent-deployment-checklist.md
+  - concepts/verifiable-deterministic-agent-benchmarking.md
+  - sources/arxiv-agents-in-the-wild-deployment-2607.19336.md
+  - sources/arxiv-langgraph-stateful-business-workflows-2607.19297.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-07-21
+updated: 2026-07-22
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-25-2026-05-27.md"
 ---
 

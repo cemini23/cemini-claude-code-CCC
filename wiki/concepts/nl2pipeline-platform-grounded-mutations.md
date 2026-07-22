@@ -10,9 +10,11 @@ related:
   - concepts/mcp-contract-grounded-synthesis-and-validation-gate.md
   - entities/tools/openspec.md
   - sources/brief-k197-k201-harness-solver-pruner-2026-07-21.md
+  - concepts/domain-mcp-skills-fresh-subagent-orchestration.md
+  - sources/arxiv-agents4geos-mcp-multiphyics-2607.18557.md
 maturity: draft
 created: 2026-07-21
-updated: 2026-07-21
+updated: 2026-07-22
 ---
 
 ## Relations

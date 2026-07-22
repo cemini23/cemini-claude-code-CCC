@@ -20,6 +20,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`agentgateway`](entities/tools/agentgateway.md) | draft | OSS MCP/agent proxy — CONDITIONAL REFERENCE (K190, Apache-2.0) |
 | [`dataflow-opendcai`](entities/tools/dataflow-opendcai.md) | draft | Apache DataFlow platform — CONDITIONAL REFERENCE (K197) |
 | [`nuance-mcp`](entities/tools/nuance-mcp.md) | draft | Schema-bound instrument MCP — MIT GO clone (K198) |
+| [`agents4geos`](entities/tools/agents4geos.md) | draft | BSD-3 MCP skills harness for GEOS — GO REFERENCE (K202) |
 | [`tars-vscode`](entities/tools/tars-vscode.md) | draft | VS Code ToM code explainer — MIT GO clone (K192) |
 | [`claude-code-router`](entities/tools/claude-code-router.md) | draft | Local LLM proxy for routing + caching headers |
 | [`spec-kit`](entities/tools/spec-kit.md) | draft | GitHub's CLI for spec-driven development |
@@ -306,6 +307,10 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`solver-grounded-agent-numerics`](concepts/solver-grounded-agent-numerics.md) | draft | Numbers only from trusted tools — 2607.18147 (K199) |
 | [`measurement-gated-agent-harness-optimization`](concepts/measurement-gated-agent-harness-optimization.md) | draft | FlashRT IR + bench gate — 2607.18171 (K200) |
 | [`backbone-internal-tool-output-pruning`](concepts/backbone-internal-tool-output-pruning.md) | draft | Prune from coder LLM internals — 2607.18213 (K201) |
+| [`domain-mcp-skills-fresh-subagent-orchestration`](concepts/domain-mcp-skills-fresh-subagent-orchestration.md) | draft | Domain MCP skills + fresh subagents — 2607.18557 (K202) |
+| [`verifiable-deterministic-agent-benchmarking`](concepts/verifiable-deterministic-agent-benchmarking.md) | draft | Deterministic structured agent eval — 2607.19262 (K203) |
+| [`langgraph-stateful-workflow-pathways`](concepts/langgraph-stateful-workflow-pathways.md) | draft | Repair / evidence / HITL recipes — 2607.19297 (K204) |
+| [`production-agent-deployment-checklist`](concepts/production-agent-deployment-checklist.md) | draft | Verification + fallback + HITL deploy — 2607.19336 (K205) |
 | [`tool-eval-license-skepticism-patterns`](concepts/tool-eval-license-skepticism-patterns.md) | draft | K73 license-eval anti-patterns (NO-LICENSE false negatives, BSL parsing) |
 | [`enterprise-auto-mode-telemetry-rollout`](concepts/enterprise-auto-mode-telemetry-rollout.md) | draft | Auto Mode policy rollout via telemetry loops (K73 Post 1) |
 | [`harness-de-bloat-4x4-pattern`](concepts/harness-de-bloat-4x4-pattern.md) | draft | 4-skills/4-agents simplification pattern (K73 Post 2) |
@@ -576,6 +581,11 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-flashrt-agent-harness-realtime-2607.18171`](sources/arxiv-flashrt-agent-harness-realtime-2607.18171.md) | draft | FlashRT measurement-gated harness — read (K200) |
 | [`arxiv-swe-pruner-pro-internal-prune-2607.18213`](sources/arxiv-swe-pruner-pro-internal-prune-2607.18213.md) | draft | SWE-Pruner Pro internal prune — read (K201) |
 | [`brief-k197-k201-harness-solver-pruner-2026-07-21`](sources/brief-k197-k201-harness-solver-pruner-2026-07-21.md) | validated | K197–K201 prod + David + poker stub |
+| [`arxiv-agents4geos-mcp-multiphyics-2607.18557`](sources/arxiv-agents4geos-mcp-multiphyics-2607.18557.md) | draft | Agents4GEOS MCP platform — read (K202) |
+| [`arxiv-biosecbench-surveillance-2607.19262`](sources/arxiv-biosecbench-surveillance-2607.19262.md) | draft | BioSecBench verifiable eval — read (K203) |
+| [`arxiv-langgraph-stateful-business-workflows-2607.19297`](sources/arxiv-langgraph-stateful-business-workflows-2607.19297.md) | draft | LangGraph business pathways — read (K204) |
+| [`arxiv-agents-in-the-wild-deployment-2607.19336`](sources/arxiv-agents-in-the-wild-deployment-2607.19336.md) | draft | Agents in the Wild deploy tutorial — read (K205) |
+| [`brief-k202-k205-agents-langgraph-biosec-2026-07-22`](sources/brief-k202-k205-agents-langgraph-biosec-2026-07-22.md) | validated | K202–K205 prod + David + poker stub |
 | [`arxiv-agenthoi-training-free-hoi-detection-2607.13881`](sources/arxiv-agenthoi-training-free-hoi-detection-2607.13881.md) | draft | AgentHOI HOI — cross-wiki image-gen stub |
 | [`arxiv-expressioncuelens-hai-companion-2607.13924`](sources/arxiv-expressioncuelens-hai-companion-2607.13924.md) | draft | ExpressionCueLens HAI companion cues — TipDrop route |
 

@@ -28,9 +28,12 @@ related:
   - concepts/measurement-gated-agent-harness-optimization.md
   - sources/arxiv-flashrt-agent-harness-realtime-2607.18171.md
   - sources/arxiv-smart-grids-agentic-tutorial-2607.18147.md
+  - concepts/verifiable-deterministic-agent-benchmarking.md
+  - concepts/production-agent-deployment-checklist.md
+  - sources/arxiv-biosecbench-surveillance-2607.19262.md
 maturity: draft
 created: 2026-07-14
-updated: 2026-07-21
+updated: 2026-07-22
 ---
 
 ## Relations

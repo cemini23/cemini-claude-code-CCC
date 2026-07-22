@@ -10,9 +10,10 @@ related:
   - concepts/multi-agent-evidence-artifact-layers.md
   - concepts/gatekeeper-layered-agent-evaluation.md
   - sources/brief-k190-k194-mcp-gateway-toolverse-tars-2026-07-20.md
+  - concepts/verifiable-deterministic-agent-benchmarking.md
 maturity: draft
 created: 2026-07-20
-updated: 2026-07-20
+updated: 2026-07-22
 ---
 
 ## Relations

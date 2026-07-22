@@ -4,6 +4,15 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-07-22] ingest | Agents4GEOS + BioSecBench + LangGraph pathways + Agents in the Wild (K202–K205)
+
+- **K202 — Agents4GEOS (2607.18557):** 52 MCP tools; curated skills + fresh-context subagents; solver-grounded quantities. **ADOPT**; **GO** BSD-3 `.local/adopts/agents4geos` (~2.3MB); GEOS **NO-GO** (>500MB).
+- **K203 — BioSecBench-Surveillance (2607.19262):** deterministic structured grading; 16 model×harness; best ~50.2%. **ADOPT** eval methodology; biosec → cybersec stubs; Apache REFERENCE clone (~208KB).
+- **K204 — LangGraph workflows (2607.19297):** repair loops, evidence gating, HITL interrupt/checkpoint. **ADOPT** recipes; full LangGraph clone **NO-GO** (>500MB).
+- **K205 — Agents in the Wild (2607.19336):** verification + fallback + HITL deploy checklist. **ADOPT**; tutorial only.
+- **Pages:** 4 sources + 4 concepts + 1 entity + brief stub + handoff; Phase-0 k202–k205; prod + David + poker; cybersec BioSec stubs.
+- **Archive:** 4 PDFs → egress-fi `ccc/`.
+
 ## [2026-07-21] prompt | deep-research v10.3 — Atto emphasize
 
 - **Did not already include Atto** — only Barone family-tree / `genealogy overlap` (v10.1–v10.2).

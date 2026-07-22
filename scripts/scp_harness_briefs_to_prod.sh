@@ -92,6 +92,15 @@ BRIEFS=(
   "2026-07-21_k198-biosecurity-llm-early-warning-prod.md"
   "2026-07-21_k199-solver-grounded-smart-grid-agents-prod.md"
   "2026-07-21_k200-swe-pruner-pro-prod.md"
+  "2026-07-22_k202-authority-framing-agentic-cicd-prod.md"
+  "2026-07-22_k203-vqe-advbench-quantum-redteam-prod.md"
+  "2026-07-22_k204-oc-grpo-prod.md"
+  "2026-07-22_k205-gear-evidence-grounding-prod.md"
+  "2026-07-22_k202-agents4geos-domain-mcp-skills-prod.md"
+  "2026-07-22_k203-verifiable-agent-benchmark-prod.md"
+  "2026-07-22_k204-langgraph-stateful-pathways-prod.md"
+  "2026-07-22_k205-agents-in-the-wild-deploy-prod.md"
+  "2026-07-22_k202-k205-harness-policy-hands-on.md"
 )
 
 echo "SCP harness briefs → ${REMOTE}"

@@ -124,9 +124,12 @@ related:
   - sources/arxiv-hierarchical-skill-stack-lazy-orchestration-2607.11138.md
   - concepts/mcp-multi-agent-graceful-degradation-stack.md
   - sources/arxiv-jw-astclaw-solar-telescope-multi-agent-mcp-2607.13549.md
+  - concepts/domain-mcp-skills-fresh-subagent-orchestration.md
+  - concepts/langgraph-stateful-workflow-pathways.md
+  - sources/arxiv-langgraph-stateful-business-workflows-2607.19297.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-07-16
+updated: 2026-07-22
 ---
 
 ## Relations
