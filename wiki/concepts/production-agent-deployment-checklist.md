@@ -11,9 +11,12 @@ related:
   - concepts/bounded-self-refinement-vs-rsi-taxonomy.md
   - sources/brief-k202-k205-agents-langgraph-biosec-2026-07-22.md
   - concepts/acp-mcp-three-layer-human-agent-execution.md
+  - concepts/offensive-agent-ethics-oversight-posture.md
+  - concepts/mcp-session-sequential-attack-detection.md
+  - sources/arxiv-ethics-offensive-autonomous-agents-2607.20255.md
 maturity: draft
 created: 2026-07-22
-updated: 2026-07-22
+updated: 2026-07-23
 ---
 
 ## Relations

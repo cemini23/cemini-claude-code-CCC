@@ -72,9 +72,10 @@ related:
   - concepts/verifiable-deterministic-agent-benchmarking.md
   - sources/arxiv-agents-in-the-wild-deployment-2607.19336.md
   - sources/arxiv-langgraph-stateful-business-workflows-2607.19297.md
+  - concepts/offensive-agent-ethics-oversight-posture.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-07-22
+updated: 2026-07-23
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-25-2026-05-27.md"
 ---
 

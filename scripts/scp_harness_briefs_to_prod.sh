@@ -101,6 +101,16 @@ BRIEFS=(
   "2026-07-22_k204-langgraph-stateful-pathways-prod.md"
   "2026-07-22_k205-agents-in-the-wild-deploy-prod.md"
   "2026-07-22_k202-k205-harness-policy-hands-on.md"
+  "2026-07-23_k206-mcp-session-sequential-detection-prod.md"
+  "2026-07-23_k207-hybrid-slm-ensemble-orchestration-prod.md"
+  "2026-07-23_k208-offensive-agent-ethics-oversight-prod.md"
+  "2026-07-23_k209-iterasim-multistage-rag-triad-prod.md"
+  "2026-07-23_k206-k209-harness-policy-hands-on.md"
+  "2026-07-23_k214-notes-to-self-experiential-prod.md"
+  "2026-07-23_k213-probabilistic-llm-safety-bounds-prod.md"
+  "2026-07-23_k212-schwartz-value-recognition-prod.md"
+  "2026-07-23_k211-ethics-autonomous-offensive-agents-prod.md"
+  "2026-07-23_k210-know-your-agent-recon-prod.md"
 )
 
 echo "SCP harness briefs → ${REMOTE}"

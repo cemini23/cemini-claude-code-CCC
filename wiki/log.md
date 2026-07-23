@@ -4,6 +4,14 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-07-23] ingest | ChainWatch + SLM ensemble + offensive ethics + IteraSim RAG (K206–K209)
+
+- **K206 — ChainWatch (2607.19432):** session kill-chain MCP detection vs per-call gap. **ADOPT** checklist; **NO-GO** code; cybersec stubs.
+- **K207 — SLM ensemble malware analysis (2607.20216):** hybrid evidence+debate; 35.30% vs ungrounded frontier. **ADOPT** orchestration; `slms_mal` **404 NO-GO**; cybersec domain stub.
+- **K208 — Ethics offensive agents (2607.20255):** indeterminacy + HITL humility. **ADOPT** oversight posture; cybersec primary.
+- **K209 — IteraSim RAG (2607.20346):** multi-stage retrieval + Architect/Writer/Reviewer. **ADOPT**; **GO** MIT `.local/adopts/iterasim-rag-public` (~5.4MB).
+- **Archive:** 4 PDFs → egress-fi `ccc/`.
+
 ## [2026-07-22] ingest | Agents4GEOS + BioSecBench + LangGraph pathways + Agents in the Wild (K202–K205)
 
 - **K202 — Agents4GEOS (2607.18557):** 52 MCP tools; curated skills + fresh-context subagents; solver-grounded quantities. **ADOPT**; **GO** BSD-3 `.local/adopts/agents4geos` (~2.3MB); GEOS **NO-GO** (>500MB).

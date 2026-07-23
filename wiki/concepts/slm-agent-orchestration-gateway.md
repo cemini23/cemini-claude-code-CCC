@@ -10,9 +10,11 @@ related:
   - concepts/mcp-context-optimization.md
   - concepts/mcp-cloud-gateway-hybrid-tool-recommendation.md
   - entities/tools/agentgateway.md
+  - concepts/hybrid-slm-ensemble-orchestration.md
+  - sources/arxiv-slm-ensemble-malware-orchestration-2607.20216.md
 maturity: draft
 created: 2026-06-03
-updated: 2026-07-20
+updated: 2026-07-23
 ---
 
 ## Relations

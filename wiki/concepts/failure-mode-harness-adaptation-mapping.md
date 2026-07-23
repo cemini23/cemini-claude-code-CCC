@@ -19,9 +19,11 @@ related:
   - concepts/agent-optimizer-compounding-and-regression-control.md
   - concepts/mcp-contract-grounded-synthesis-and-validation-gate.md
   - sources/arxiv-agent-optimizers-compound-continual-learning-2607.14004.md
+  - concepts/hybrid-slm-ensemble-orchestration.md
+  - sources/arxiv-slm-ensemble-malware-orchestration-2607.20216.md
 maturity: draft
 created: 2026-07-15
-updated: 2026-07-16
+updated: 2026-07-23
 ---
 
 ## Relations

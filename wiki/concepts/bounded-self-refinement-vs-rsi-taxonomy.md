@@ -31,9 +31,12 @@ related:
   - concepts/verifiable-deterministic-agent-benchmarking.md
   - concepts/production-agent-deployment-checklist.md
   - sources/arxiv-biosecbench-surveillance-2607.19262.md
+  - concepts/hybrid-slm-ensemble-orchestration.md
+  - concepts/offensive-agent-ethics-oversight-posture.md
+  - sources/arxiv-ethics-offensive-autonomous-agents-2607.20255.md
 maturity: draft
 created: 2026-07-14
-updated: 2026-07-22
+updated: 2026-07-23
 ---
 
 ## Relations

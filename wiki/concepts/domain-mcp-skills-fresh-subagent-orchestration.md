@@ -11,9 +11,11 @@ related:
   - concepts/hierarchical-skill-stack-lazy-orchestration.md
   - concepts/nl2pipeline-platform-grounded-mutations.md
   - sources/brief-k202-k205-agents-langgraph-biosec-2026-07-22.md
+  - concepts/multi-stage-rag-architect-reviewer-triad.md
+  - sources/arxiv-iterasim-rag-multistage-2607.20346.md
 maturity: draft
 created: 2026-07-22
-updated: 2026-07-22
+updated: 2026-07-23
 ---
 
 ## Relations

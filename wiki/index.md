@@ -21,6 +21,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`dataflow-opendcai`](entities/tools/dataflow-opendcai.md) | draft | Apache DataFlow platform — CONDITIONAL REFERENCE (K197) |
 | [`nuance-mcp`](entities/tools/nuance-mcp.md) | draft | Schema-bound instrument MCP — MIT GO clone (K198) |
 | [`agents4geos`](entities/tools/agents4geos.md) | draft | BSD-3 MCP skills harness for GEOS — GO REFERENCE (K202) |
+| [`iterasim-rag-public`](entities/tools/iterasim-rag-public.md) | draft | MIT IteraSim RAG benchmark kit — GO REFERENCE (K209) |
 | [`tars-vscode`](entities/tools/tars-vscode.md) | draft | VS Code ToM code explainer — MIT GO clone (K192) |
 | [`claude-code-router`](entities/tools/claude-code-router.md) | draft | Local LLM proxy for routing + caching headers |
 | [`spec-kit`](entities/tools/spec-kit.md) | draft | GitHub's CLI for spec-driven development |
@@ -311,6 +312,10 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`verifiable-deterministic-agent-benchmarking`](concepts/verifiable-deterministic-agent-benchmarking.md) | draft | Deterministic structured agent eval — 2607.19262 (K203) |
 | [`langgraph-stateful-workflow-pathways`](concepts/langgraph-stateful-workflow-pathways.md) | draft | Repair / evidence / HITL recipes — 2607.19297 (K204) |
 | [`production-agent-deployment-checklist`](concepts/production-agent-deployment-checklist.md) | draft | Verification + fallback + HITL deploy — 2607.19336 (K205) |
+| [`mcp-session-sequential-attack-detection`](concepts/mcp-session-sequential-attack-detection.md) | draft | Session kill-chain MCP detection — 2607.19432 (K206) |
+| [`hybrid-slm-ensemble-orchestration`](concepts/hybrid-slm-ensemble-orchestration.md) | draft | Evidence + debate SLM ensembles — 2607.20216 (K207) |
+| [`offensive-agent-ethics-oversight-posture`](concepts/offensive-agent-ethics-oversight-posture.md) | draft | HITL/moral agency for acting agents — 2607.20255 (K208) |
+| [`multi-stage-rag-architect-reviewer-triad`](concepts/multi-stage-rag-architect-reviewer-triad.md) | draft | Expand/RRF/MMR + role triad — 2607.20346 (K209) |
 | [`tool-eval-license-skepticism-patterns`](concepts/tool-eval-license-skepticism-patterns.md) | draft | K73 license-eval anti-patterns (NO-LICENSE false negatives, BSL parsing) |
 | [`enterprise-auto-mode-telemetry-rollout`](concepts/enterprise-auto-mode-telemetry-rollout.md) | draft | Auto Mode policy rollout via telemetry loops (K73 Post 1) |
 | [`harness-de-bloat-4x4-pattern`](concepts/harness-de-bloat-4x4-pattern.md) | draft | 4-skills/4-agents simplification pattern (K73 Post 2) |
@@ -586,6 +591,11 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-langgraph-stateful-business-workflows-2607.19297`](sources/arxiv-langgraph-stateful-business-workflows-2607.19297.md) | draft | LangGraph business pathways — read (K204) |
 | [`arxiv-agents-in-the-wild-deployment-2607.19336`](sources/arxiv-agents-in-the-wild-deployment-2607.19336.md) | draft | Agents in the Wild deploy tutorial — read (K205) |
 | [`brief-k202-k205-agents-langgraph-biosec-2026-07-22`](sources/brief-k202-k205-agents-langgraph-biosec-2026-07-22.md) | validated | K202–K205 prod + David + poker stub |
+| [`arxiv-chainwatch-mcp-sequential-detection-2607.19432`](sources/arxiv-chainwatch-mcp-sequential-detection-2607.19432.md) | draft | ChainWatch MCP sequential detection — read (K206) |
+| [`arxiv-slm-ensemble-malware-orchestration-2607.20216`](sources/arxiv-slm-ensemble-malware-orchestration-2607.20216.md) | draft | SLM ensemble malware analysis — read (K207) |
+| [`arxiv-ethics-offensive-autonomous-agents-2607.20255`](sources/arxiv-ethics-offensive-autonomous-agents-2607.20255.md) | draft | Ethics offensive autonomous agents — read (K208) |
+| [`arxiv-iterasim-rag-multistage-2607.20346`](sources/arxiv-iterasim-rag-multistage-2607.20346.md) | draft | IteraSim multi-stage RAG — read (K209) |
+| [`brief-k206-k209-mcp-slm-rag-ethics-2026-07-23`](sources/brief-k206-k209-mcp-slm-rag-ethics-2026-07-23.md) | validated | K206–K209 prod + David + poker stub |
 | [`arxiv-agenthoi-training-free-hoi-detection-2607.13881`](sources/arxiv-agenthoi-training-free-hoi-detection-2607.13881.md) | draft | AgentHOI HOI — cross-wiki image-gen stub |
 | [`arxiv-expressioncuelens-hai-companion-2607.13924`](sources/arxiv-expressioncuelens-hai-companion-2607.13924.md) | draft | ExpressionCueLens HAI companion cues — TipDrop route |
 
