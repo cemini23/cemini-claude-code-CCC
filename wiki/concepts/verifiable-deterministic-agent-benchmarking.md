@@ -12,9 +12,10 @@ related:
   - sources/brief-k202-k205-agents-langgraph-biosec-2026-07-22.md
   - "@cybersecurity-wiki/concepts/biosecbench-surveillance-verifiable-agent-eval.md"
   - concepts/agent-completion-verification-gates.md
+  - concepts/traceable-scholarship-citation-first-generation.md
 maturity: draft
 created: 2026-07-22
-updated: 2026-07-22
+updated: 2026-07-24
 ---
 
 ## Relations

@@ -92,9 +92,11 @@ related:
   - sources/arxiv-dataflow-harness-nl2pipeline-2607.16617.md
   - sources/arxiv-flashrt-agent-harness-realtime-2607.18171.md
   - entities/tools/dataflow-opendcai.md
+  - concepts/harness-native-agent-rl-training.md
+  - sources/arxiv-openforgerl-harness-native-training-2607.21557.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-07-21
+updated: 2026-07-24
 cross-wiki-source: "@osint-wiki/sources/arxiv-code-as-agent-harness-survey-2605.18747.md"
 ---
 

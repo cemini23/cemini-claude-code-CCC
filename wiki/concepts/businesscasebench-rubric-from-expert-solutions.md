@@ -11,9 +11,10 @@ related:
   - concepts/gatekeeper-layered-agent-evaluation.md
   - sources/brief-k190-k194-mcp-gateway-toolverse-tars-2026-07-20.md
   - concepts/verifiable-deterministic-agent-benchmarking.md
+  - sources/arxiv-traceable-scholarship-aih-infra-2607.20916.md
 maturity: draft
 created: 2026-07-20
-updated: 2026-07-22
+updated: 2026-07-24
 ---
 
 ## Relations

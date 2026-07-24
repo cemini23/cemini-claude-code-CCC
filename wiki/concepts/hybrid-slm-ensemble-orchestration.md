@@ -10,9 +10,11 @@ related:
   - concepts/failure-mode-harness-adaptation-mapping.md
   - concepts/bounded-self-refinement-vs-rsi-taxonomy.md
   - sources/brief-k206-k209-mcp-slm-rag-ethics-2026-07-23.md
+  - concepts/local-open-weight-agentic-coding-eval.md
+  - sources/arxiv-agentic-coding-without-cloud-2607.21482.md
 maturity: draft
 created: 2026-07-23
-updated: 2026-07-23
+updated: 2026-07-24
 ---
 
 ## Relations

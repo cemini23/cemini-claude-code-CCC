@@ -21,9 +21,11 @@ related:
   - concepts/businesscasebench-rubric-from-expert-solutions.md
   - sources/arxiv-businesscasebench-knowledge-work-2607.16057.md
   - concepts/multi-stage-rag-architect-reviewer-triad.md
+  - concepts/traceable-scholarship-citation-first-generation.md
+  - sources/arxiv-traceable-scholarship-aih-infra-2607.20916.md
 maturity: draft
 created: 2026-06-24
-updated: 2026-07-23
+updated: 2026-07-24
 ---
 
 ## Relations

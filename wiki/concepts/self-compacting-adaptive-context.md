@@ -14,9 +14,11 @@ related:
   - sources/brief-k124-harness-policy-hands-on-2026-06-24.md
   - concepts/metamemory-scaffold-proficiency-training.md
   - concepts/backbone-internal-tool-output-pruning.md
+  - concepts/agentic-context-management-lifecycle.md
+  - sources/arxiv-agentic-context-management-2607.21503.md
 maturity: draft
 created: 2026-06-24
-updated: 2026-07-21
+updated: 2026-07-24
 ---
 
 ## Relations

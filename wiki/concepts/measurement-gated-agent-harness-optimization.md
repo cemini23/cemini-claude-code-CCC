@@ -9,9 +9,11 @@ related:
   - concepts/bounded-self-refinement-vs-rsi-taxonomy.md
   - concepts/harness-evolution-vs-test-time-scaling-baseline.md
   - sources/brief-k197-k201-harness-solver-pruner-2026-07-21.md
+  - concepts/harness-native-agent-rl-training.md
+  - sources/arxiv-openforgerl-harness-native-training-2607.21557.md
 maturity: draft
 created: 2026-07-21
-updated: 2026-07-21
+updated: 2026-07-24
 ---
 
 ## Relations

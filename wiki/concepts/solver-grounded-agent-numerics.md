@@ -12,9 +12,12 @@ related:
   - concepts/domain-mcp-skills-fresh-subagent-orchestration.md
   - sources/arxiv-agents4geos-mcp-multiphyics-2607.18557.md
   - entities/tools/agents4geos.md
+  - concepts/deterministic-mcp-symbolic-reasoning.md
+  - entities/tools/euclid-mcp.md
+  - sources/arxiv-euclid-mcp-prolog-reasoning-2607.21412.md
 maturity: draft
 created: 2026-07-21
-updated: 2026-07-22
+updated: 2026-07-24
 ---
 
 ## Relations

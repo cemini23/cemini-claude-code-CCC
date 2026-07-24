@@ -22,6 +22,9 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`nuance-mcp`](entities/tools/nuance-mcp.md) | draft | Schema-bound instrument MCP — MIT GO clone (K198) |
 | [`agents4geos`](entities/tools/agents4geos.md) | draft | BSD-3 MCP skills harness for GEOS — GO REFERENCE (K202) |
 | [`iterasim-rag-public`](entities/tools/iterasim-rag-public.md) | draft | MIT IteraSim RAG benchmark kit — GO REFERENCE (K209) |
+| [`aih-infra`](entities/tools/aih-infra.md) | draft | Traceable Scholarship MIT pointer — GO REFERENCE (K210) |
+| [`euclid-mcp`](entities/tools/euclid-mcp.md) | draft | Apache Prolog MCP reasoning — GO REFERENCE (K211) |
+| [`rrbench`](entities/tools/rrbench.md) | draft | MIT local open-weight data-prep eval — GO REFERENCE (K212) |
 | [`tars-vscode`](entities/tools/tars-vscode.md) | draft | VS Code ToM code explainer — MIT GO clone (K192) |
 | [`claude-code-router`](entities/tools/claude-code-router.md) | draft | Local LLM proxy for routing + caching headers |
 | [`spec-kit`](entities/tools/spec-kit.md) | draft | GitHub's CLI for spec-driven development |
@@ -316,6 +319,11 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`hybrid-slm-ensemble-orchestration`](concepts/hybrid-slm-ensemble-orchestration.md) | draft | Evidence + debate SLM ensembles — 2607.20216 (K207) |
 | [`offensive-agent-ethics-oversight-posture`](concepts/offensive-agent-ethics-oversight-posture.md) | draft | HITL/moral agency for acting agents — 2607.20255 (K208) |
 | [`multi-stage-rag-architect-reviewer-triad`](concepts/multi-stage-rag-architect-reviewer-triad.md) | draft | Expand/RRF/MMR + role triad — 2607.20346 (K209) |
+| [`traceable-scholarship-citation-first-generation`](concepts/traceable-scholarship-citation-first-generation.md) | draft | Citation-first + NO_EVIDENCE — 2607.20916 (K210) |
+| [`deterministic-mcp-symbolic-reasoning`](concepts/deterministic-mcp-symbolic-reasoning.md) | draft | Euclid-IR/Prolog via MCP — 2607.21412 (K211) |
+| [`local-open-weight-agentic-coding-eval`](concepts/local-open-weight-agentic-coding-eval.md) | draft | Local open-weight coding agents — 2607.21482 (K212) |
+| [`agentic-context-management-lifecycle`](concepts/agentic-context-management-lifecycle.md) | draft | ACM five primitives — 2607.21503 (K213) |
+| [`harness-native-agent-rl-training`](concepts/harness-native-agent-rl-training.md) | draft | Train inside real harnesses — 2607.21557 (K214) |
 | [`tool-eval-license-skepticism-patterns`](concepts/tool-eval-license-skepticism-patterns.md) | draft | K73 license-eval anti-patterns (NO-LICENSE false negatives, BSL parsing) |
 | [`enterprise-auto-mode-telemetry-rollout`](concepts/enterprise-auto-mode-telemetry-rollout.md) | draft | Auto Mode policy rollout via telemetry loops (K73 Post 1) |
 | [`harness-de-bloat-4x4-pattern`](concepts/harness-de-bloat-4x4-pattern.md) | draft | 4-skills/4-agents simplification pattern (K73 Post 2) |
@@ -596,6 +604,12 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-ethics-offensive-autonomous-agents-2607.20255`](sources/arxiv-ethics-offensive-autonomous-agents-2607.20255.md) | draft | Ethics offensive autonomous agents — read (K208) |
 | [`arxiv-iterasim-rag-multistage-2607.20346`](sources/arxiv-iterasim-rag-multistage-2607.20346.md) | draft | IteraSim multi-stage RAG — read (K209) |
 | [`brief-k206-k209-mcp-slm-rag-ethics-2026-07-23`](sources/brief-k206-k209-mcp-slm-rag-ethics-2026-07-23.md) | validated | K206–K209 prod + David + poker stub |
+| [`arxiv-traceable-scholarship-aih-infra-2607.20916`](sources/arxiv-traceable-scholarship-aih-infra-2607.20916.md) | draft | Traceable Scholarship / AIH-Infra — read (K210) |
+| [`arxiv-euclid-mcp-prolog-reasoning-2607.21412`](sources/arxiv-euclid-mcp-prolog-reasoning-2607.21412.md) | draft | Euclid-MCP Prolog reasoning — read (K211) |
+| [`arxiv-agentic-coding-without-cloud-2607.21482`](sources/arxiv-agentic-coding-without-cloud-2607.21482.md) | draft | Local open-weight agentic coding — read (K212) |
+| [`arxiv-agentic-context-management-2607.21503`](sources/arxiv-agentic-context-management-2607.21503.md) | draft | Agentic Context Management — read (K213) |
+| [`arxiv-openforgerl-harness-native-training-2607.21557`](sources/arxiv-openforgerl-harness-native-training-2607.21557.md) | draft | OpenForgeRL harness-native RL — read (K214) |
+| [`brief-k210-k214-traceable-euclid-acm-openforge-2026-07-24`](sources/brief-k210-k214-traceable-euclid-acm-openforge-2026-07-24.md) | validated | K210–K214 prod + David + poker stub |
 | [`arxiv-agenthoi-training-free-hoi-detection-2607.13881`](sources/arxiv-agenthoi-training-free-hoi-detection-2607.13881.md) | draft | AgentHOI HOI — cross-wiki image-gen stub |
 | [`arxiv-expressioncuelens-hai-companion-2607.13924`](sources/arxiv-expressioncuelens-hai-companion-2607.13924.md) | draft | ExpressionCueLens HAI companion cues — TipDrop route |
 

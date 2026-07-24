@@ -14,9 +14,10 @@ related:
   - concepts/modular-instruction-memory-learnable-selection.md
   - sources/brief-k154-hierarchical-bounded-agent-memory-2026-07-13.md
   - briefs/2026-07-13_ccc-handoff-memory-search-trustx-ingest.md
+  - concepts/agentic-context-management-lifecycle.md
 maturity: draft
 created: 2026-07-13
-updated: 2026-07-13
+updated: 2026-07-24
 ---
 
 ## Relations

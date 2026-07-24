@@ -34,9 +34,10 @@ related:
   - concepts/hybrid-slm-ensemble-orchestration.md
   - concepts/offensive-agent-ethics-oversight-posture.md
   - sources/arxiv-ethics-offensive-autonomous-agents-2607.20255.md
+  - concepts/harness-native-agent-rl-training.md
 maturity: draft
 created: 2026-07-14
-updated: 2026-07-23
+updated: 2026-07-24
 ---
 
 ## Relations

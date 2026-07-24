@@ -19,9 +19,11 @@ related:
   - concepts/bounded-self-refinement-vs-rsi-taxonomy.md
   - concepts/toolverse-gust-turn-aware-agentic-rl.md
   - sources/arxiv-toolverse-long-horizon-mcp-rl-2607.15660.md
+  - concepts/harness-native-agent-rl-training.md
+  - sources/arxiv-openforgerl-harness-native-training-2607.21557.md
 maturity: draft
 created: 2026-07-07
-updated: 2026-07-20
+updated: 2026-07-24
 ---
 
 ## Relations

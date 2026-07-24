@@ -4,6 +4,15 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-07-24] ingest | Traceable Scholarship + Euclid-MCP + local agents + ACM + OpenForgeRL (K210–K214)
+
+- **K210 — Traceable Scholarship (2607.20916):** citation-first, NO_EVIDENCE, page anchors, Scope Contract. **ADOPT**; **GO** MIT `.local/adopts/AIH-Infra` (~276KB).
+- **K211 — Euclid-MCP (2607.21412):** Prolog via MCP; semantic RAG unfit for rules. **ADOPT**; **GO** Apache `.local/adopts/euclid-mcp` (~1.2MB).
+- **K212 — Agentic coding without cloud (2607.21482):** local open-weight data-prep agents. **ADOPT**; **GO** MIT RRBench (~21MB); ns_core **NO-GO**.
+- **K213 — Agentic Context Management (2607.21503):** five-primitive lifecycle. **ADOPT** checklist; no code.
+- **K214 — OpenForgeRL (2607.21557):** harness-native RL via proxy+K8s. **ADOPT** checklist; official artifact **NO-GO**.
+- **Archive:** 5 PDFs → egress-fi `ccc/`.
+
 ## [2026-07-23] ingest | ChainWatch + SLM ensemble + offensive ethics + IteraSim RAG (K206–K209)
 
 - **K206 — ChainWatch (2607.19432):** session kill-chain MCP detection vs per-call gap. **ADOPT** checklist; **NO-GO** code; cybersec stubs.

@@ -11,9 +11,11 @@ related:
   - concepts/mcp-security-signals-vs-runtime-evidence.md
   - sources/brief-k197-k201-harness-solver-pruner-2026-07-21.md
   - concepts/mcp-context-optimization.md
+  - concepts/deterministic-mcp-symbolic-reasoning.md
+  - sources/arxiv-euclid-mcp-prolog-reasoning-2607.21412.md
 maturity: draft
 created: 2026-07-21
-updated: 2026-07-21
+updated: 2026-07-24
 ---
 
 ## Relations
