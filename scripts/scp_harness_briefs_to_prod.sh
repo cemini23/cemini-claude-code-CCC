@@ -111,6 +111,17 @@ BRIEFS=(
   "2026-07-23_k212-schwartz-value-recognition-prod.md"
   "2026-07-23_k211-ethics-autonomous-offensive-agents-prod.md"
   "2026-07-23_k210-know-your-agent-recon-prod.md"
+  "2026-07-24_k210-traceable-scholarship-citation-first-prod.md"
+  "2026-07-24_k211-euclid-mcp-symbolic-reasoning-prod.md"
+  "2026-07-24_k212-local-open-weight-agentic-coding-prod.md"
+  "2026-07-24_k213-agentic-context-management-lifecycle-prod.md"
+  "2026-07-24_k214-harness-native-rl-training-prod.md"
+  "2026-07-24_k219-rf-fingerprint-probe-prod.md"
+  "2026-07-24_k218-thinkink-hci-light-prod.md"
+  "2026-07-24_k217-pats-agentic-rl-scaffold-prod.md"
+  "2026-07-24_k216-code-monitor-red-teaming-prod.md"
+  "2026-07-24_k215-drone-fl-chained-attacks-prod.md"
+  "2026-07-24_k210-k214-harness-policy-hands-on.md"
 )
 
 echo "SCP harness briefs → ${REMOTE}"
