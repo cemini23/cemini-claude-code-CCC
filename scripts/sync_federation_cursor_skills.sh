@@ -11,12 +11,14 @@
 set -euo pipefail
 
 REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-# Core operator skills (mattpocock + Cemini audits)
-CANON_SKILLS=(goal to-issues grill-with-docs cursor-audit super-audit)
+# Core operator skills (mattpocock + Cemini audits + task router)
+CANON_SKILLS=(goal to-issues grill-with-docs cursor-audit super-audit route)
 SRC_RULE="${REPO_ROOT}/.cursor/rules/cemini-goal-skill.mdc"
 SRC_SEC_RULE="${REPO_ROOT}/.cursor/rules/cemini-cursor-security-preflight.mdc"
+SRC_ROUTE_RULE="${REPO_ROOT}/.cursor/rules/cemini-route-outsource.mdc"
 USER_RULE="${HOME}/.cursor/rules/cemini-goal-skill.mdc"
 USER_SEC_RULE="${HOME}/.cursor/rules/cemini-cursor-security-preflight.mdc"
+USER_ROUTE_RULE="${HOME}/.cursor/rules/cemini-route-outsource.mdc"
 
 # Domain skills: name|absolute path to skill directory (must contain SKILL.md)
 SEO_ROOT="/Users/claudiobarone/Projects/SEO:GEO B&M Business"
@@ -65,8 +67,17 @@ WORKSPACES=(
   "/Users/claudiobarone/Projects/tipdrop-workspace-kit"
   "/Users/claudiobarone/Desktop/projects/tipdrop-scanner"
   "/Users/claudiobarone/Projects/tipdrop-scanner"
+  "/Users/claudiobarone/Desktop/tipdrop-scanner"
   "/Users/claudiobarone/Projects/pm-lp-canary-wiki"
   "/Users/claudiobarone/Desktop/projects/pm-lp-canary-wiki"
+  # Priority product + other live Open Folder roots
+  "/Users/claudiobarone/Projects/atto"
+  "/Users/claudiobarone/Projects/easy review"
+  "/Users/claudiobarone/Projects/ARIS"
+  "/Users/claudiobarone/Projects/QuantOS_Private"
+  "/Users/claudiobarone/Projects/ara-schema"
+  "/Users/claudiobarone/Projects/wikilint"
+  "/Users/claudiobarone/Projects/vet"
 )
 
 copy_file() {
@@ -137,6 +148,11 @@ install_workspace() {
   if [[ -f "${SRC_SEC_RULE}" ]]; then
     copy_file "${SRC_SEC_RULE}" "${rules_dir}/cemini-cursor-security-preflight.mdc"
   fi
+  if [[ -f "${SRC_ROUTE_RULE}" ]]; then
+    copy_file "${SRC_ROUTE_RULE}" "${rules_dir}/cemini-route-outsource.mdc"
+    # Historical filename still present in some agent contexts
+    copy_file "${SRC_ROUTE_RULE}" "${rules_dir}/tipdrop-route-outsource.mdc"
+  fi
   for skill in "${CANON_SKILLS[@]}"; do
     sync_skill_tree "${skill}" "${dest}"
   done
@@ -160,6 +176,8 @@ verify_workspace() {
   done
   [[ -f "${dest}/.cursor/rules/cemini-goal-skill.mdc" ]] || ok=1
   [[ -f "${dest}/.cursor/rules/cemini-cursor-security-preflight.mdc" ]] || ok=1
+  [[ -f "${dest}/.cursor/rules/cemini-route-outsource.mdc" ]] || ok=1
+  [[ -f "${dest}/.cursor/skills/route/SKILL.md" ]] || ok=1
   # multi-file skills must carry companions
   [[ -f "${dest}/.cursor/skills/cursor-audit/reference.md" ]] || ok=1
   [[ -f "${dest}/.cursor/skills/super-audit/prompt-template.md" ]] || ok=1
@@ -187,6 +205,11 @@ echo "  OK  user-global ${USER_RULE}"
 if [[ -f "${SRC_SEC_RULE}" ]]; then
   copy_file "${SRC_SEC_RULE}" "${USER_SEC_RULE}"
   echo "  OK  user-global ${USER_SEC_RULE}"
+fi
+if [[ -f "${SRC_ROUTE_RULE}" ]]; then
+  copy_file "${SRC_ROUTE_RULE}" "${USER_ROUTE_RULE}"
+  copy_file "${SRC_ROUTE_RULE}" "${HOME}/.cursor/rules/tipdrop-route-outsource.mdc"
+  echo "  OK  user-global ${USER_ROUTE_RULE}"
 fi
 
 count=0
