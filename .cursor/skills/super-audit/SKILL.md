@@ -8,7 +8,7 @@ description: >-
   council super audit, pre-ship multi-opinion review.
 license: MIT
 metadata.author: cemini23
-metadata.version: "1.6.0"
+metadata.version: "1.6.1"
 disable-model-invocation: true
 ---
 

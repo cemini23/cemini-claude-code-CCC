@@ -347,7 +347,6 @@ def discover(workspace: Path) -> dict:
         "coverage": coverage,
         "tier": rec["tier"],
         "auditor_count": rec["auditor_count"],
-        "auditor_count": rec["auditor_count"],
         "setup_hint": (
             "Default: OPENROUTER_API_KEY + Ollama running → 6 auditors. "
             "No Ollama → 5 auditors (3 Cursor + 2 OpenRouter). "
