@@ -201,7 +201,7 @@ def _local_slot(*, label: str, role: str, model: str, kind: str) -> dict:
         "label": label,
         "role": role,
         "base_url_env": "OLLAMA_BASE_URL",
-        "api_key_env": "OLLAMA_API_KEY",
+        "api_key_env": "OLLAMA_API_KEY",  # pragma: allowlist secret
         "api_key_optional": True,
         "model_env": "OLLAMA_MODEL",
         "model": model,
