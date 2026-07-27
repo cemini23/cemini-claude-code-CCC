@@ -21,47 +21,43 @@ SKILL_ROOT = SCRIPT_DIR.parent
 DEFAULT_AUDITORS = SKILL_ROOT / "auditors.default.json"
 
 
-def _load_env(workspace: Path) -> None:
-    candidates = [
-        os.environ.get("CEMINI_LLM_ROUTING_ENV", "").strip(),
-        str(Path.home() / ".cemini" / "llm-routing.env"),
-        str(workspace / ".env"),
-        str(workspace / "config" / "llm-routing.env"),
-    ]
-    for path_s in candidates:
-        if not path_s:
-            continue
-        p = Path(path_s)
-        if not p.is_file():
-            continue
-        for line in p.read_text().splitlines():
-            line = line.strip()
-            if not line or line.startswith("#") or "=" not in line:
-                continue
-            k, _, v = line.partition("=")
-            k, v = k.strip(), v.strip().strip('"').strip("'")
-            if k and k not in os.environ:
-                os.environ[k] = v
-        break
+def _load_env(_workspace: Path) -> None:
+    """Hydrate process env from optional CEMINI_LLM_ROUTING_ENV path only.
+
+    Operator should export provider keys in the shell, or point
+    CEMINI_LLM_ROUTING_ENV at a local routing file. This skill does not
+    scan project dotenv trees.
+    """
+    custom = os.environ.get("CEMINI_LLM_ROUTING_ENV", "").strip()
+    if custom:
+        p = Path(custom).expanduser()
+        if p.is_file():
+            for line in p.read_text().splitlines():
+                line = line.strip()
+                if not line or line.startswith("#") or "=" not in line:
+                    continue
+                k, _, v = line.partition("=")
+                k, v = k.strip(), v.strip().strip('"').strip("'")
+                if k and k not in os.environ:
+                    os.environ[k] = v
 
     os.environ.setdefault("OLLAMA_BASE_URL", "http://localhost:11434/v1")
-
-    # WC-style advisor wiring when unset
-    if not os.environ.get("ADVISOR_BASE_URL", "").strip() and os.environ.get(
-        "OPENROUTER_API_KEY", ""
-    ).strip():
-        os.environ.setdefault(
-            "ADVISOR_BASE_URL",
-            os.environ.get("OPENROUTER_BASE_URL", "https://openrouter.ai/api/v1"),
-        )
-        os.environ.setdefault("ADVISOR_API_KEY", os.environ["OPENROUTER_API_KEY"])
-        os.environ.setdefault(
-            "ADVISOR_MODEL", os.environ.get("LLM_FALLBACK_MODEL_ADVISOR", "google/gemini-2.5-flash")
-        )
 
 
 def _resolve_env(name: str, default: str = "") -> str:
     return os.environ.get(name, default).strip()
+
+
+def _bearer_for_slot(slot: dict) -> str:
+    """Resolve outbound Authorization token for one auditor slot (no env mutation)."""
+    key_env = slot.get("api_key_env", "OPENROUTER_API_KEY")
+    token = _resolve_env(key_env) if key_env else ""
+    if token:
+        return token
+    # Advisor slots may reuse OpenRouter when ADVISOR_* is unset (read-only fallback).
+    if key_env == "ADVISOR_API_KEY":
+        return _resolve_env("OPENROUTER_API_KEY")
+    return ""
 
 
 def _call_openai_compat(
@@ -191,7 +187,9 @@ def main() -> int:
         api_key_optional = bool(slot.get("api_key_optional"))
         model_env = slot.get("model_env", "").strip()
         model = _resolve_env(model_env, slot["model"]) if model_env else slot["model"]
-        api_key = _resolve_env(key_env) if key_env else ""
+        api_key = _bearer_for_slot(slot)
+        if base_env == "ADVISOR_BASE_URL" and not _resolve_env(base_env):
+            base_env = "OPENROUTER_BASE_URL"
         default_base = (
             "http://localhost:11434/v1"
             if slot.get("local") or base_env == "OLLAMA_BASE_URL"

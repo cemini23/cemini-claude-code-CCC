@@ -81,15 +81,14 @@ Use OpenRouter model IDs from [openrouter.ai/models](https://openrouter.ai/model
 
 ## API key discovery (run before Step 4b)
 
-Search order (first file wins for each variable; script does not overwrite existing env):
+Sources (process environment wins over file values for the same key):
 
-| Priority | Path |
-|----------|------|
-| 1 | `$CEMINI_LLM_ROUTING_ENV` |
-| 2 | `~/.cemini/llm-routing.env` |
-| 3 | `{workspace}/.env` |
-| 4 | `{workspace}/config/llm-routing.env` |
-| 5 | `{project}/.env` (when auditing a subproject) |
+| Priority | Source |
+|----------|--------|
+| 1 | Process environment (`OPENROUTER_*`, `OLLAMA_*`, `ADVISOR_*`, …) |
+| 2 | Optional file at `$CEMINI_LLM_ROUTING_ENV` (operator-set absolute path) |
+
+Scripts **do not** scan project dotenv trees or hardcoded home secret paths.
 
 **Variables to probe:**
 
@@ -105,7 +104,7 @@ Search order (first file wins for each variable; script does not overwrite exist
 
 Without OpenRouter **or** Ollama, super-audit runs **3-model cursor-audit only**.
 
-**Session bootstrap:**
+**Session setup (keys already exported):**
 
 ```bash
 python3 .cursor/skills/super-audit/scripts/discover_api_keys.py
@@ -113,6 +112,7 @@ python3 .cursor/skills/super-audit/scripts/run_api_auditors.py --pack ... --out 
 ```
 
 Discovery writes recommended slots; `--discover` on run_api_auditors uses them automatically.
+Provider keys come from the process environment (or `CEMINI_LLM_ROUTING_ENV`).
 
 ## auditors.json (build from roles)
 

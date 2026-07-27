@@ -72,6 +72,7 @@ WORKSPACES=(
   "/Users/claudiobarone/Desktop/projects/pm-lp-canary-wiki"
   # Priority product + other live Open Folder roots
   "/Users/claudiobarone/Projects/atto"
+  "/Users/claudiobarone/Projects/GuruWatcher"
   "/Users/claudiobarone/Projects/easy review"
   "/Users/claudiobarone/Projects/ARIS"
   "/Users/claudiobarone/Projects/QuantOS_Private"
