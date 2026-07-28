@@ -727,3 +727,5 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 - [The Pragmatic Engineer — How Kent Beck shapes the software engineering industry](sources/newsletter-rss-pragmatic-engineer-2026-07-01-how-kent-beck-shapes-the-software-engineering-in.md) — cross-wiki stub routed from ingest — `cross-wiki`
 - [Addy Osmani's Blog — Agentic Autonomy Levels](sources/substack-rss-addy-osmani-2026-07-03-agentic-autonomy-levels.md) — cross-wiki stub routed from ingest — `cross-wiki`
 - [Latent Space — [AINews] The Field Guide to Fable](sources/newsletter-rss-latent-space-2026-07-07-ainews-the-field-guide-to-fable.md) — cross-wiki stub routed from ingest — `cross-wiki`
+- [Latent Space — Codex / ChatGPT Work (2026-07-28)](sources/newsletter-rss-latent-space-2026-07-28-codex-chatgpt-work.md) — cross-wiki stub routed from ingest — `cross-wiki`
+- [Pragmatic Engineer — Inside Anthropic (2026-07-28)](sources/newsletter-rss-pragmatic-engineer-2026-07-28-inside-anthropic.md) — cross-wiki stub routed from ingest — `cross-wiki`

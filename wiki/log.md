@@ -4,6 +4,13 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-07-27] prompt | v10.4 Priority #1 Atto · Priority #2 GuruWatcher
+
+- **Priority stack:** Atto #1 · GuruWatcher #2 · everything else behind (XSP / TipDrop / family-tree / PM canary / poker / CeminiDFS still scored).
+- **Updated:** `prompts/deep-research-multi-wiki-eval-v10-2026-07-06.md` + gemini-runtime · `@concepts/deep-research-evaluation-prompt.md` · `@concepts/cross-wiki-routing.md`
+- **Overlap field:** `guruwatcher overlap` (newsletter claim extract / price-level Discord / UW pollers / watch reconcile)
+- **Sync:** OSINT `active_project_brief_targets.yaml` + `daily_research_config.yaml` + federation hub `federation_paths.yaml`
+
 ## [2026-07-24] ingest | Traceable Scholarship + Euclid-MCP + local agents + ACM + OpenForgeRL (K210–K214)
 
 - **K210 — Traceable Scholarship (2607.20916):** citation-first, NO_EVIDENCE, page anchors, Scope Contract. **ADOPT**; **GO** MIT `.local/adopts/AIH-Infra` (~276KB).
@@ -1426,3 +1433,13 @@ Cross-wiki stub routed from `@osint-wiki/sources/newsletter-rss-latent-space-202
 - **Archive:** both PDFs archived to `cemini-egress-fi:/opt/cemini-bulk/research/ccc/` (auto-archived by inbox pipeline before this session's explicit archive call ran; confirmed present + correct byte size via `ssh cemini-egress-fi`); local `research to be indexed/` copies removed
 - Updated `wiki/index.md` (8 new rows); `ROADMAP.md` follow-up noted
 - **Note:** a concurrent session in this workspace independently staged complementary K168/K169 artifacts for the same two papers around the same time — `briefs/2026-07-15_k168-slm-harness-adaptation-prod.md`, `briefs/2026-07-15_k169-harness-evolution-eval-discipline-prod.md`, `briefs/2026-07-15_k168-k169-harness-policy-hands-on.md`, source stubs `sources/brief-k168-slm-harness-adaptation-2026-07-15.md` / `sources/brief-k169-harness-evolution-eval-discipline-2026-07-15.md`, handoff `wiki/briefs/2026-07-15_ccc-handoff-slm-harness-eval-ingest.md`, Phase-0 scripts `scripts/adopt_k168_phase0.sh` / `scripts/adopt_k169_phase0.sh`, and backlinks on 9 further concept pages (`agent-harness-operational-definition`, `etclovg-harness-layers`, `failed-trajectory-harness-repair`, `harness-updating-vs-benefit-nonmonotonic`, `mcp-context-optimization`, `model-native-vs-tool-mediated-fulfillment`, `multi-agent-evidence-artifact-layers`, `operator-model-selection`, `meta/ccc-cross-wiki-handoff-briefs`). All of this was compatible with (referenced the same target filenames as) this session's core content — reconciled, not duplicated. All briefs from both sessions were sent to prod together in the single `scp_harness_briefs_to_prod.sh` run above.
+
+## [2026-07-28] cross-wiki route | Latent Space — Codex / ChatGPT Work (2026-07-28)
+
+Cross-wiki stub routed from `@osint-wiki/sources/newsletter-rss-latent-space-2026-07-28-codex-chatgpt-work.md`.
+- Created wiki/sources/newsletter-rss-latent-space-2026-07-28-codex-chatgpt-work.md (stub)
+
+## [2026-07-28] cross-wiki route | Pragmatic Engineer — Inside Anthropic (2026-07-28)
+
+Cross-wiki stub routed from `@osint-wiki/sources/newsletter-rss-pragmatic-engineer-2026-07-28-inside-anthropic.md`.
+- Created wiki/sources/newsletter-rss-pragmatic-engineer-2026-07-28-inside-anthropic.md (stub)
