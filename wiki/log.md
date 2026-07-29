@@ -4,6 +4,11 @@ Append-only chronological record of wiki operations: bootstraps, ingests, sweeps
 
 ---
 
+## [2026-07-29] ops | Codex CLI adopt 0.145.0 + ChatGPT auth smoke PASS
+
+- Entity `@entities/tools/openai-codex-cli.md`; script `scripts/adopt_codex_cli.sh` (synced from OSINT)
+- Vendor path fixed (`…/bin/codex`); ChatGPT login; default model gpt-5.6-terra smoke OK
+
 ## [2026-07-27] prompt | v10.4 Priority #1 Atto · Priority #2 GuruWatcher
 
 - **Priority stack:** Atto #1 · GuruWatcher #2 · everything else behind (XSP / TipDrop / family-tree / PM canary / poker / CeminiDFS still scored).
