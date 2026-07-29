@@ -122,6 +122,7 @@ BRIEFS=(
   "2026-07-24_k216-code-monitor-red-teaming-prod.md"
   "2026-07-24_k215-drone-fl-chained-attacks-prod.md"
   "2026-07-24_k210-k214-harness-policy-hands-on.md"
+  "2026-07-29_k220-optimistic-verifiable-claims-prod.md"
 )
 
 echo "SCP harness briefs → ${REMOTE}"
