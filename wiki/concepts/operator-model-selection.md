@@ -8,9 +8,10 @@ related:
   - concepts/mcp-multi-agent-graceful-degradation-stack.md
   - concepts/local-open-weight-agentic-coding-eval.md
   - sources/arxiv-agentic-coding-without-cloud-2607.21482.md
+  - entities/tools/openai-codex-cli.md
 maturity: draft
 created: 2026-07-03
-updated: 2026-07-24
+updated: 2026-07-30
 ---
 
 ## Relations

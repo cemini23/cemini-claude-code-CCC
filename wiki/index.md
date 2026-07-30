@@ -24,6 +24,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`iterasim-rag-public`](entities/tools/iterasim-rag-public.md) | draft | MIT IteraSim RAG benchmark kit — GO REFERENCE (K209) |
 | [`aih-infra`](entities/tools/aih-infra.md) | draft | Traceable Scholarship MIT pointer — GO REFERENCE (K210) |
 | [`euclid-mcp`](entities/tools/euclid-mcp.md) | draft | Apache Prolog MCP reasoning — GO REFERENCE (K211) |
+| [`shard-secure-harness-distribution`](entities/tools/shard-secure-harness-distribution.md) | draft | SHarD / shard-demo MIT REFERENCE — K225 |
 | [`rrbench`](entities/tools/rrbench.md) | draft | MIT local open-weight data-prep eval — GO REFERENCE (K212) |
 | [`tars-vscode`](entities/tools/tars-vscode.md) | draft | VS Code ToM code explainer — MIT GO clone (K192) |
 | [`claude-code-router`](entities/tools/claude-code-router.md) | draft | Local LLM proxy for routing + caching headers |
@@ -401,6 +402,14 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`policy-as-code-layered-validation-for-agent-artifacts`](concepts/policy-as-code-layered-validation-for-agent-artifacts.md) | draft | Schema + OPA/Rego-style layered validation — 2607.14798 (K181) |
 | [`acp-mcp-three-layer-human-agent-execution`](concepts/acp-mcp-three-layer-human-agent-execution.md) | draft | ACP UI + MCP execution three-layer split — 2607.14919 (K182) |
 | [`mcp-security-signals-vs-runtime-evidence`](concepts/mcp-security-signals-vs-runtime-evidence.md) | draft | Semantic signals ≠ runtime evidence for MCP security — 2607.14754 (K189) |
+| [`hybrid-static-dynamic-mcp-tool-security`](concepts/hybrid-static-dynamic-mcp-tool-security.md) | draft | MTGuard lifecycle static–dynamic MCP co-analysis — 2607.25297 (K221) |
+| [`standing-policy-instruction-following-benchmark`](concepts/standing-policy-instruction-following-benchmark.md) | draft | HANDBOOK.md standing SOP following bench — 2607.25398 (K222) |
+| [`mcp-app-hitl-approval-gap`](concepts/mcp-app-hitl-approval-gap.md) | draft | Empiric MCPApps blocking approval 37.2% — 2607.25635 (K223) |
+| [`counterfactual-advantage-harness-orchestration`](concepts/counterfactual-advantage-harness-orchestration.md) | draft | CHILL advantage-margin harness orch — 2607.25825 (K224) |
+| [`distributed-harness-security-controls`](concepts/distributed-harness-security-controls.md) | draft | SHarD sandbox+skill-scan+tool-restrict — 2607.25890 (K225) |
+| [`agent-decoy-defense-vs-offensive-agents`](concepts/agent-decoy-defense-vs-offensive-agents.md) | draft | AgentSnare CCC stub — 2607.26998 (K227) |
+| [`memory-poisoning-write-execute-forget-lifecycle`](concepts/memory-poisoning-write-execute-forget-lifecycle.md) | draft | MemSecBench WEF memory poisoning — 2607.27080 (K228) |
+| [`cost-aware-tool-acquisition-stopping`](concepts/cost-aware-tool-acquisition-stopping.md) | draft | CAM-DF scores≠decisions tool depth — 2607.27083 (K229) |
 
 ## sources/
 
@@ -615,6 +624,16 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-expressioncuelens-hai-companion-2607.13924`](sources/arxiv-expressioncuelens-hai-companion-2607.13924.md) | draft | ExpressionCueLens HAI companion cues — TipDrop route |
 
 | [`brief-k169-harness-evolution-eval-discipline-2026-07-15`](sources/brief-k169-harness-evolution-eval-discipline-2026-07-15.md) | validated | K169 eval-discipline prod stub |
+| [`arxiv-mtguard-hybrid-mcp-tool-security-2607.25297`](sources/arxiv-mtguard-hybrid-mcp-tool-security-2607.25297.md) | draft | MTGuard hybrid MCP security — 2607.25297 (K221) |
+| [`arxiv-handbook-md-long-context-agentic-policy-2607.25398`](sources/arxiv-handbook-md-long-context-agentic-policy-2607.25398.md) | draft | HANDBOOK.md standing policy bench — 2607.25398 (K222) |
+| [`arxiv-empirical-mcp-applications-hitl-2607.25635`](sources/arxiv-empirical-mcp-applications-hitl-2607.25635.md) | draft | MCPApps HITL gap — 2607.25635 (K223) |
+| [`arxiv-chill-harness-counterfactual-learning-2607.25825`](sources/arxiv-chill-harness-counterfactual-learning-2607.25825.md) | draft | CHILL-Harness — 2607.25825 (K224) |
+| [`arxiv-shard-harness-security-distribution-2607.25890`](sources/arxiv-shard-harness-security-distribution-2607.25890.md) | draft | SHarD harness security distribution — 2607.25890 (K225) |
+| [`arxiv-vetclaw-veterinary-agentic-screening-2607.26042`](sources/arxiv-vetclaw-veterinary-agentic-screening-2607.26042.md) | draft | VetClaw OOD REFERENCE — 2607.26042 (K226) |
+| [`arxiv-agentsnare-decoy-pentest-defense-2607.26998`](sources/arxiv-agentsnare-decoy-pentest-defense-2607.26998.md) | draft | AgentSnare decoy defense — 2607.26998 (K227) |
+| [`arxiv-memsecbench-memory-poisoning-lifecycle-2607.27080`](sources/arxiv-memsecbench-memory-poisoning-lifecycle-2607.27080.md) | draft | MemSecBench WEF — 2607.27080 (K228) |
+| [`arxiv-cam-df-cost-aware-tool-stopping-2607.27083`](sources/arxiv-cam-df-cost-aware-tool-stopping-2607.27083.md) | draft | CAM-DF tool acquisition stopping — 2607.27083 (K229) |
+| [`brief-k221-k229-mcp-harness-security-ingest-2026-07-30`](sources/brief-k221-k229-mcp-harness-security-ingest-2026-07-30.md) | validated | K221–K229 prod/David/poker brief stub |
 
 ## meta/
 
@@ -700,33 +719,3 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | `entities/tools/roo-code.md` | `@osint-wiki/sources/multi-wiki-tool-eval-ipsale-risk-2026-05-17.md` | Cross-wiki tool-eval source (56-repo eval) |
 | `concepts/agents-k1-agent-native-knowledge-orchestration.md` | `@osint-wiki/concepts/librarian-server-architecture.md` | KG-at-scale serving implications (K114) |
 | `concepts/interaction-native-knowledge-harness.md` | `@osint-wiki/concepts/interaction-native-knowledge-harness.md` | Financial InKH deployment canon |
-
-## Concepts
-
-- [ADK Arena — agent framework benchmark (OSINT handoff)](concepts/adk-arena-agent-framework-benchmark.md) — cross-wiki stub routed from ingest — `cross-wiki`
-
-- [`operator-model-selection`](concepts/operator-model-selection.md) — K142 model routing policy for workflows/subagents.
-
-## Sources
-
-- [Latent Space — Ahmad Osman on why local AI is catching up](sources/newsletter-rss-latent-space-2026-06-30-ahmad-osman-on-why-local-ai-is-catching-up.md) — cross-wiki stub routed from ingest — `cross-wiki`
-- [Latent Space — [AINews] not much happened today](sources/newsletter-rss-latent-space-2026-06-30-ainews-not-much-happened-today.md) — cross-wiki stub routed from ingest — `cross-wiki`
-- [Latent Space — AIEWF Daily Dispatch: Loops, Software Factories & Forward Deployed Engineers](sources/newsletter-rss-latent-space-2026-07-01-aiewf-daily-dispatch-loops-software-factories-fo.md) — cross-wiki stub routed from ingest — `cross-wiki`
-- [Latent Space — [AINews] Sonnet 5 today, and Fable 5 tomorrow](sources/newsletter-rss-latent-space-2026-07-01-ainews-sonnet-5-today-and-fable-5-tomorrow.md) — cross-wiki stub routed from ingest — `cross-wiki`
-- [Latent Space — Autoresearch: The feedback loop behind self-improving agents](sources/newsletter-rss-latent-space-2026-07-01-autoresearch-the-feedback-loop-behind-self-impro.md) — cross-wiki stub routed from ingest — `cross-wiki`
-- [Latent Space — Forward Deployed Engineers and the future of software engineering](sources/newsletter-rss-latent-space-2026-07-01-forward-deployed-engineers-and-the-future-of-sof.md) — cross-wiki stub routed from ingest — `cross-wiki`
-- [Latent Space — How Cursor deploys AI inside the enterprise](sources/newsletter-rss-latent-space-2026-07-01-how-cursor-deploys-ai-inside-the-enterprise.md) — cross-wiki stub routed from ingest — `cross-wiki`
-- [Latent Space — 🔬 The Coolest Diffusion Research Isn't in LLMs — Evan Feinberg & Sergey Edunov, Genesis Molecular AI](sources/newsletter-rss-latent-space-2026-07-01-the-coolest-diffusion-research-isnt-in-llms-evan.md) — cross-wiki stub routed from ingest — `cross-wiki`
-- [Latent Space — Warp CEO Zach Lloyd on why software factories are the next phase of coding](sources/newsletter-rss-latent-space-2026-07-01-warp-ceo-zach-lloyd-on-why-software-factories-ar.md) — cross-wiki stub routed from ingest — `cross-wiki`
-- [Latent Space — AIEWF Daily Dispatch: Autoresearch and the tension between AI and human agency](sources/newsletter-rss-latent-space-2026-07-02-aiewf-daily-dispatch-autoresearch-and-the-tensio.md) — cross-wiki stub routed from ingest — `cross-wiki`
-- [Latent Space — [AINews] not much happened today](sources/newsletter-rss-latent-space-2026-07-02-ainews-not-much-happened-today.md) — cross-wiki stub routed from ingest — `cross-wiki`
-- [Latent Space — Skill engineering and the case against one-shot AI design](sources/newsletter-rss-latent-space-2026-07-02-skill-engineering-and-the-case-against-one-shot.md) — cross-wiki stub routed from ingest — `cross-wiki`
-- [Latent Space — The website of the future may assemble itself for every visitor](sources/newsletter-rss-latent-space-2026-07-02-the-website-of-the-future-may-assemble-itself-fo.md) — cross-wiki stub routed from ingest — `cross-wiki`
-- [Latent Space — AIEWF Daily Dispatch: The great loops debate and the state of AI engineering](sources/newsletter-rss-latent-space-2026-07-03-aiewf-daily-dispatch-the-great-loops-debate-and.md) — cross-wiki stub routed from ingest — `cross-wiki`
-- [Latent Space — Vercel's Andrew Qu on why agents are a new kind of software](sources/newsletter-rss-latent-space-2026-07-03-vercels-andrew-qu-on-why-agents-are-a-new-kind-o.md) — cross-wiki stub routed from ingest — `cross-wiki`
-- [The Pragmatic Engineer — Impressions from visiting OpenAI, Anthropic, & Cursor](sources/newsletter-rss-pragmatic-engineer-2026-06-30-impressions-from-visiting-openai-anthropic-curso.md) — cross-wiki stub routed from ingest — `cross-wiki`
-- [The Pragmatic Engineer — How Kent Beck shapes the software engineering industry](sources/newsletter-rss-pragmatic-engineer-2026-07-01-how-kent-beck-shapes-the-software-engineering-in.md) — cross-wiki stub routed from ingest — `cross-wiki`
-- [Addy Osmani's Blog — Agentic Autonomy Levels](sources/substack-rss-addy-osmani-2026-07-03-agentic-autonomy-levels.md) — cross-wiki stub routed from ingest — `cross-wiki`
-- [Latent Space — [AINews] The Field Guide to Fable](sources/newsletter-rss-latent-space-2026-07-07-ainews-the-field-guide-to-fable.md) — cross-wiki stub routed from ingest — `cross-wiki`
-- [Latent Space — Codex / ChatGPT Work (2026-07-28)](sources/newsletter-rss-latent-space-2026-07-28-codex-chatgpt-work.md) — cross-wiki stub routed from ingest — `cross-wiki`
-- [Pragmatic Engineer — Inside Anthropic (2026-07-28)](sources/newsletter-rss-pragmatic-engineer-2026-07-28-inside-anthropic.md) — cross-wiki stub routed from ingest — `cross-wiki`

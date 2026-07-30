@@ -10,9 +10,11 @@ related:
   - briefs/2026-07-09_ccc-handoff-adi-spellsmith-ingest.md
   - meta/ccc-cross-wiki-handoff-briefs.md
   - concepts/trustx-agent-risk-classification.md
+  - concepts/memory-poisoning-write-execute-forget-lifecycle.md
+  - sources/arxiv-memsecbench-memory-poisoning-lifecycle-2607.27080.md
 maturity: draft
 created: 2026-07-09
-updated: 2026-07-13
+updated: 2026-07-30
 cross-wiki-primary: "@cybersecurity-wiki/concepts/agent-data-injection-attacks.md"
 ---
 

@@ -15,9 +15,11 @@ related:
   - sources/brief-k154-hierarchical-bounded-agent-memory-2026-07-13.md
   - briefs/2026-07-13_ccc-handoff-memory-search-trustx-ingest.md
   - concepts/agentic-context-management-lifecycle.md
+  - concepts/memory-poisoning-write-execute-forget-lifecycle.md
+  - sources/arxiv-memsecbench-memory-poisoning-lifecycle-2607.27080.md
 maturity: draft
 created: 2026-07-13
-updated: 2026-07-24
+updated: 2026-07-30
 ---
 
 ## Relations

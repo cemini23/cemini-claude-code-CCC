@@ -26,9 +26,10 @@ related:
   - sources/arxiv-schema-bound-mcp-instrument-skills-2607.17012.md
   - entities/tools/nuance-mcp.md
   - sources/arxiv-dataflow-harness-nl2pipeline-2607.16617.md
+  - concepts/hybrid-static-dynamic-mcp-tool-security.md
 maturity: draft
 created: 2026-07-16
-updated: 2026-07-21
+updated: 2026-07-30
 ---
 
 ## Relations

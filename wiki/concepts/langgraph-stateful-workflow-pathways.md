@@ -11,9 +11,10 @@ related:
   - concepts/production-agent-deployment-checklist.md
   - sources/brief-k202-k205-agents-langgraph-biosec-2026-07-22.md
   - sources/arxiv-agents-in-the-wild-deployment-2607.19336.md
+  - sources/arxiv-vetclaw-veterinary-agentic-screening-2607.26042.md
 maturity: draft
 created: 2026-07-22
-updated: 2026-07-22
+updated: 2026-07-30
 ---
 
 ## Relations

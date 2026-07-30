@@ -13,9 +13,11 @@ related:
   - "@cybersecurity-wiki/concepts/biosecbench-surveillance-verifiable-agent-eval.md"
   - concepts/agent-completion-verification-gates.md
   - concepts/traceable-scholarship-citation-first-generation.md
+  - concepts/standing-policy-instruction-following-benchmark.md
+  - sources/arxiv-handbook-md-long-context-agentic-policy-2607.25398.md
 maturity: draft
 created: 2026-07-22
-updated: 2026-07-24
+updated: 2026-07-30
 ---
 
 ## Relations

@@ -9,9 +9,11 @@ related:
   - concepts/production-agent-deployment-checklist.md
   - sources/brief-k206-k209-mcp-slm-rag-ethics-2026-07-23.md
   - "@cybersecurity-wiki/concepts/chainwatch-mcp-kill-chain-detection.md"
+  - concepts/hybrid-static-dynamic-mcp-tool-security.md
+  - sources/arxiv-mtguard-hybrid-mcp-tool-security-2607.25297.md
 maturity: draft
 created: 2026-07-23
-updated: 2026-07-23
+updated: 2026-07-30
 ---
 
 ## Relations

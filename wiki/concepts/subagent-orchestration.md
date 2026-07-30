@@ -127,9 +127,10 @@ related:
   - concepts/domain-mcp-skills-fresh-subagent-orchestration.md
   - concepts/langgraph-stateful-workflow-pathways.md
   - sources/arxiv-langgraph-stateful-business-workflows-2607.19297.md
+  - entities/tools/openai-codex-cli.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-07-22
+updated: 2026-07-30
 ---
 
 ## Relations

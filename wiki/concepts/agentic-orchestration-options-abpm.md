@@ -16,9 +16,10 @@ related:
   - sources/brief-k136-agentic-orchestration-options-abpm-2026-07-01.md
   - concepts/gatekeeper-layered-agent-evaluation.md
   - concepts/algorithmic-impermeability-model-agnostic-orchestration.md
+  - concepts/counterfactual-advantage-harness-orchestration.md
 maturity: draft
 created: 2026-07-01
-updated: 2026-07-09
+updated: 2026-07-30
 ---
 
 ## Relations

@@ -24,9 +24,10 @@ related:
   - concepts/hidden-user-state-recovery-audit.md
   - sources/arxiv-memprobe-hidden-user-state-recovery-2606.24595.md
   - concepts/modular-instruction-memory-learnable-selection.md
+  - concepts/memory-poisoning-write-execute-forget-lifecycle.md
 maturity: draft
 created: 2026-06-12
-updated: 2026-07-13
+updated: 2026-07-30
 ---
 
 ## Relations

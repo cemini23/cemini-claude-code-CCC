@@ -13,9 +13,11 @@ related:
   - concepts/mcp-context-optimization.md
   - concepts/deterministic-mcp-symbolic-reasoning.md
   - sources/arxiv-euclid-mcp-prolog-reasoning-2607.21412.md
+  - concepts/hybrid-static-dynamic-mcp-tool-security.md
+  - sources/arxiv-mtguard-hybrid-mcp-tool-security-2607.25297.md
 maturity: draft
 created: 2026-07-21
-updated: 2026-07-24
+updated: 2026-07-30
 ---
 
 ## Relations

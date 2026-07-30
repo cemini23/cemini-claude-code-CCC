@@ -11,9 +11,11 @@ related:
   - concepts/agent-completion-verification-gates.md
   - concepts/retrospective-harness-optimization-rho.md
   - sources/brief-k116-orchrm-harnessx-llm-as-code-prod-2026-06-16.md
+  - concepts/counterfactual-advantage-harness-orchestration.md
+  - sources/arxiv-chill-harness-counterfactual-learning-2607.25825.md
 maturity: draft
 created: 2026-06-16
-updated: 2026-06-30
+updated: 2026-07-30
 ---
 
 ## Relations

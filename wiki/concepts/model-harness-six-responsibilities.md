@@ -15,9 +15,10 @@ related:
   - sources/brief-k124-harness-memory-research-cluster-2026-06-24.md
   - concepts/agentic-orchestration-options-abpm.md
   - sources/arxiv-agentic-orchestration-options-abpm-2606.31518.md
+  - concepts/distributed-harness-security-controls.md
 maturity: draft
 created: 2026-06-24
-updated: 2026-07-01
+updated: 2026-07-30
 ---
 
 ## Relations

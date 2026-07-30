@@ -14,9 +14,11 @@ related:
   - concepts/offensive-agent-ethics-oversight-posture.md
   - concepts/mcp-session-sequential-attack-detection.md
   - sources/arxiv-ethics-offensive-autonomous-agents-2607.20255.md
+  - concepts/mcp-app-hitl-approval-gap.md
+  - sources/arxiv-empirical-mcp-applications-hitl-2607.25635.md
 maturity: draft
 created: 2026-07-22
-updated: 2026-07-23
+updated: 2026-07-30
 ---
 
 ## Relations

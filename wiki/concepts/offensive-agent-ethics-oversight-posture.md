@@ -10,9 +10,11 @@ related:
   - concepts/agent-completion-verification-gates.md
   - sources/brief-k206-k209-mcp-slm-rag-ethics-2026-07-23.md
   - "@cybersecurity-wiki/concepts/ethics-autonomous-offensive-ai-agents.md"
+  - concepts/agent-decoy-defense-vs-offensive-agents.md
+  - sources/arxiv-agentsnare-decoy-pentest-defense-2607.26998.md
 maturity: draft
 created: 2026-07-23
-updated: 2026-07-23
+updated: 2026-07-30
 ---
 
 ## Relations

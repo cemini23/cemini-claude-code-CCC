@@ -14,9 +14,11 @@ related:
   - concepts/seclaw-agent-security-evaluation.md
   - "@cybersecurity-wiki/concepts/mcp-security-posture.md"
   - "@cybersecurity-wiki/concepts/enterprise-mcp-adoption-interviews.md"
+  - concepts/mcp-app-hitl-approval-gap.md
+  - sources/arxiv-empirical-mcp-applications-hitl-2607.25635.md
 maturity: draft
 created: 2026-06-11
-updated: 2026-06-11
+updated: 2026-07-30
 ---
 
 ## Relations

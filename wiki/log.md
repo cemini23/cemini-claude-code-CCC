@@ -1,3 +1,19 @@
+## [2026-07-30] ingest | MTGuard + HANDBOOK + MCPApps HITL + CHILL + SHarD + VetClaw + AgentSnare + MemSecBench + CAM-DF (K221–K229)
+
+- **K221 — MTGuard (2607.25297):** lifecycle static–dynamic MCP co-analysis; FPR 3.7%. **ADOPT**; **NO-GO** code.
+- **K222 — HANDBOOK.md (2607.25398):** standing SOP following; best strict 36.2%. **ADOPT** eval posture; **NO-GO** install.
+- **K223 — MCPApps empirical (2607.25635):** blocking approval **37.2%**. **ADOPT** HITL gate; study only.
+- **K224 — CHILL-Harness (2607.25825):** advantage-margin orchestration. **ADOPT**; chill-dev **404 NO-GO**.
+- **K225 — SHarD (2607.25890):** harness-distributed sandbox/skill-scan/tool-restrict; OWASP 23-test 100%. **ADOPT**; **GO** MIT `.local/adopts/agent-security-lab` + `shard-demo` (~24MB).
+- **K226 — VetClaw (2607.26042):** veterinary OOD — **REFERENCE** only.
+- **K227 — AgentSnare (2607.26998):** decoy Delay/Divert/Defuse; cybersec-primary. **ADOPT** awareness; **NO-GO** install.
+- **K228 — MemSecBench (2607.27080):** WEF; persist 84.2% / W–E 50.3% / repair 56.1%. **ADOPT** checklist; **NO-GO** code.
+- **K229 — CAM-DF (2607.27083):** scores≠decisions; 37% fewer tools live. **ADOPT**; **NO-GO** code.
+- **Pages:** 9 sources + 8 concepts + 1 entity + brief stub + handoff; Phase-0 k221–k229; prod + David + poker; cybersec AgentSnare stubs.
+- **Archive:** 9 PDFs → egress-fi `ccc/`.
+
+---
+
 # CCC Wiki — Operations Log
 
 Append-only chronological record of wiki operations: bootstraps, ingests, sweeps, retractions. Newest entries on top.

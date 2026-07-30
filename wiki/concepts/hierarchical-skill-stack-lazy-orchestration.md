@@ -28,9 +28,10 @@ related:
   - sources/arxiv-scalable-mcp-cloud-gateway-2607.15593.md
   - sources/arxiv-toolverse-long-horizon-mcp-rl-2607.15660.md
   - concepts/domain-mcp-skills-fresh-subagent-orchestration.md
+  - concepts/cost-aware-tool-acquisition-stopping.md
 maturity: draft
 created: 2026-07-14
-updated: 2026-07-22
+updated: 2026-07-30
 ---
 
 ## Relations

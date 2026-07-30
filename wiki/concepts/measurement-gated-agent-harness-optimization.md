@@ -11,9 +11,11 @@ related:
   - sources/brief-k197-k201-harness-solver-pruner-2026-07-21.md
   - concepts/harness-native-agent-rl-training.md
   - sources/arxiv-openforgerl-harness-native-training-2607.21557.md
+  - concepts/counterfactual-advantage-harness-orchestration.md
+  - sources/arxiv-chill-harness-counterfactual-learning-2607.25825.md
 maturity: draft
 created: 2026-07-21
-updated: 2026-07-24
+updated: 2026-07-30
 ---
 
 ## Relations

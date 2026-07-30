@@ -122,6 +122,16 @@ BRIEFS=(
   "2026-07-24_k216-code-monitor-red-teaming-prod.md"
   "2026-07-24_k215-drone-fl-chained-attacks-prod.md"
   "2026-07-24_k210-k214-harness-policy-hands-on.md"
+  "2026-07-30_k221-mtguard-hybrid-mcp-security-prod.md"
+  "2026-07-30_k222-handbook-standing-policy-bench-prod.md"
+  "2026-07-30_k223-mcp-hitl-approval-gap-prod.md"
+  "2026-07-30_k224-chill-advantage-harness-orch-prod.md"
+  "2026-07-30_k225-shard-harness-security-distribution-prod.md"
+  "2026-07-30_k226-vetclaw-ood-reference-prod.md"
+  "2026-07-30_k227-agentsnare-decoy-defense-prod.md"
+  "2026-07-30_k228-memsecbench-wef-memory-prod.md"
+  "2026-07-30_k229-cam-df-tool-acquisition-stopping-prod.md"
+  "2026-07-30_k221-k229-harness-policy-hands-on.md"
   "2026-07-29_k220-optimistic-verifiable-claims-prod.md"
 )
 

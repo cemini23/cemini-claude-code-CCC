@@ -12,9 +12,11 @@ related:
   - concepts/slm-agent-orchestration-gateway.md
   - sources/brief-k190-k194-mcp-gateway-toolverse-tars-2026-07-20.md
   - sources/arxiv-agentic-ai-5g6g-survey-2607.16066.md
+  - concepts/cost-aware-tool-acquisition-stopping.md
+  - sources/arxiv-cam-df-cost-aware-tool-stopping-2607.27083.md
 maturity: draft
 created: 2026-07-20
-updated: 2026-07-20
+updated: 2026-07-30
 ---
 
 ## Relations

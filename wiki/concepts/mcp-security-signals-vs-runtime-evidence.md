@@ -20,9 +20,11 @@ related:
   - sources/arxiv-agents-in-the-wild-deployment-2607.19336.md
   - concepts/mcp-session-sequential-attack-detection.md
   - sources/arxiv-chainwatch-mcp-sequential-detection-2607.19432.md
+  - concepts/hybrid-static-dynamic-mcp-tool-security.md
+  - sources/arxiv-mtguard-hybrid-mcp-tool-security-2607.25297.md
 maturity: draft
 created: 2026-07-18
-updated: 2026-07-23
+updated: 2026-07-30
 ---
 
 ## Relations

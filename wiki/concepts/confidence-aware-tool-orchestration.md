@@ -14,9 +14,11 @@ related:
   - sources/brief-k129-tool-reliability-orchestration-2026-06-27.md
   - briefs/2026-07-02_ccc-handoff-robust-to-confidence-orchestration-ingest.md
   - meta/ccc-cross-wiki-handoff-briefs.md
+  - concepts/cost-aware-tool-acquisition-stopping.md
+  - sources/arxiv-cam-df-cost-aware-tool-stopping-2607.27083.md
 maturity: draft
 created: 2026-06-27
-updated: 2026-07-03
+updated: 2026-07-30
 cross-wiki-primary: "@image-gen-wiki/concepts/confidence-aware-tool-orchestration.md"
 ---
 

@@ -117,9 +117,12 @@ related:
   - "@cybersecurity-wiki/concepts/skillsec-lifecycle-agent-skill-security.md"
   - concepts/coding-agent-install-gap-and-preinstall-gate.md
   - sources/arxiv-weaponizing-setup-instructions-coding-agents-2607.15143.md
+  - concepts/distributed-harness-security-controls.md
+  - entities/tools/shard-secure-harness-distribution.md
+  - sources/arxiv-shard-harness-security-distribution-2607.25890.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-07-17
+updated: 2026-07-30
 ---
 
 ## Relations

@@ -12,9 +12,11 @@ related:
   - sources/brief-k190-k194-mcp-gateway-toolverse-tars-2026-07-20.md
   - concepts/verifiable-deterministic-agent-benchmarking.md
   - sources/arxiv-traceable-scholarship-aih-infra-2607.20916.md
+  - concepts/standing-policy-instruction-following-benchmark.md
+  - sources/arxiv-handbook-md-long-context-agentic-policy-2607.25398.md
 maturity: draft
 created: 2026-07-20
-updated: 2026-07-24
+updated: 2026-07-30
 ---
 
 ## Relations

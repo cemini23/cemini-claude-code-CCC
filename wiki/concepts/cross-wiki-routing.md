@@ -84,7 +84,7 @@ The federation has **eight domain wikis** + private Cemini Financial Suite (CCC 
 | `3d-printing-wiki` | FDM/FFF printing, slicers, store ops |
 | `game-dev-wiki` | Hobby game dev — castle/RTS research, Godot/engine evals, vertical slices (public) |
 
-**Bulk eval routing:** `@concepts/deep-research-evaluation-prompt.md` (v10.2 at `prompts/deep-research-multi-wiki-eval-v10-2026-07-06.md`) — revenue-first lens; **Priority #1:** XSP killer · TipDrop.io · family-tree · PM LP canary (K166) (+ wikis always); poker/DFS active; castle-sim legacy.
+**Bulk eval routing:** `@concepts/deep-research-evaluation-prompt.md` (v10.4 at `prompts/deep-research-multi-wiki-eval-v10-2026-07-06.md`) — revenue-first lens; **Priority #1 Atto** · **Priority #2 GuruWatcher** · everything else behind (+ wikis always); castle-sim legacy.
 
 Every wiki's CLAUDE.md has a "Related Wikis" table listing siblings with relative paths. The lint scripts parse this table to resolve `@<alias>/path` references.
 

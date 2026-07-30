@@ -29,9 +29,11 @@ related:
   - sources/arxiv-rethinking-harness-evolution-evaluation-2607.12227.md
   - concepts/agent-optimizer-compounding-and-regression-control.md
   - sources/arxiv-agent-optimizers-compound-continual-learning-2607.14004.md
+  - concepts/counterfactual-advantage-harness-orchestration.md
+  - sources/arxiv-chill-harness-counterfactual-learning-2607.25825.md
 maturity: draft
 created: 2026-06-07
-updated: 2026-07-16
+updated: 2026-07-30
 ---
 
 ## Relations

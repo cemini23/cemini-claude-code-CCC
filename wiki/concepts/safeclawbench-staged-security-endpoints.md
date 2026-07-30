@@ -15,9 +15,10 @@ related:
   - concepts/verifiable-search-agent-environment.md
   - sources/arxiv-flowguard-mcp-security-evidence-2607.14754.md
   - concepts/mcp-security-signals-vs-runtime-evidence.md
+  - concepts/distributed-harness-security-controls.md
 maturity: draft
 created: 2026-06-21
-updated: 2026-07-18
+updated: 2026-07-30
 ---
 
 ## Relations

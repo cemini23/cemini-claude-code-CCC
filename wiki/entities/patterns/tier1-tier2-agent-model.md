@@ -28,9 +28,11 @@ related:
   - sources/arxiv-cage-1-enterprise-agentic-governance-2607.03510.md
   - concepts/trustx-agent-risk-classification.md
   - sources/arxiv-trustx-agent-risk-classification-2607.09586.md
+  - concepts/mcp-app-hitl-approval-gap.md
+  - sources/arxiv-empirical-mcp-applications-hitl-2607.25635.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-07-13
+updated: 2026-07-30
 ---
 
 ## Relations

@@ -17,9 +17,12 @@ related:
   - entities/tools/agyn.md
   - sources/arxiv-agyn-agent-platform-2605.27575.md
   - entities/tools/openshell.md
+  - concepts/distributed-harness-security-controls.md
+  - entities/tools/shard-secure-harness-distribution.md
+  - sources/arxiv-shard-harness-security-distribution-2607.25890.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-07-07
+updated: 2026-07-30
 cross-wiki-source: "@cybersecurity-wiki/concepts/agent-vm-sandboxing.md"
 ---
 

@@ -29,9 +29,11 @@ related:
   - concepts/policy-as-code-layered-validation-for-agent-artifacts.md
   - sources/arxiv-weaponizing-setup-instructions-coding-agents-2607.15143.md
   - concepts/schema-bound-mcp-tool-surface.md
+  - concepts/mcp-app-hitl-approval-gap.md
+  - concepts/standing-policy-instruction-following-benchmark.md
 maturity: draft
 created: 2026-07-10
-updated: 2026-07-21
+updated: 2026-07-30
 ---
 
 ## Relations

@@ -42,9 +42,11 @@ related:
   - concepts/cage-1-enterprise-agent-governance-eval.md
   - sources/arxiv-cage-1-enterprise-agentic-governance-2607.03510.md
   - concepts/failure-mode-harness-adaptation-mapping.md
+  - concepts/distributed-harness-security-controls.md
+  - sources/arxiv-shard-harness-security-distribution-2607.25890.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-07-10
+updated: 2026-07-30
 ---
 
 ## Relations

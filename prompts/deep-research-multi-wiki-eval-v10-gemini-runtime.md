@@ -1,4 +1,4 @@
-# Cemini Multi-Wiki Link Evaluation — Gemini Deep Research RUNTIME (v10.3)
+# Cemini Multi-Wiki Link Evaluation — Gemini Deep Research RUNTIME (v10.4)
 
 **Use this file for Gemini Deep Research paste.** Full canon: `deep-research-multi-wiki-eval-v10-2026-07-06.md` (Cursor spot-check only).
 
@@ -25,26 +25,30 @@ Assign a **tier**, name **primary wiki fit**, flag **cross-wiki routing**, score
 
 ### Still revenue-first
 
-Score every URL on **money / value path** (P&L, MRR, conversion, ops time saved, **Atto SKU**, or family-tree dogfood value). License/ToS = notes only, not tier drivers.
+Score every URL on **money / value path** (P&L, MRR, conversion, ops time saved, **Atto SKU**, GuruWatcher ops time / trading alert edge, or family-tree dogfood value). License/ToS = notes only, not tier drivers.
 
-### Priority #1 (prefer routing/tier when ties; name path when claiming fit)
+### Priority #1 — Atto (prefer routing/tier when ties; name path when claiming fit)
+
+- **Atto (EMPHASIZE — genealogy PRODUCT):** `/Users/claudiobarone/Projects/atto` · vault `~/AttoVault/` · MCP `atto-mcp` · GitHub `cemini23/atto` → overlap **`atto`** → revenue: kit $499–$899 · concierge ≥$2.5k · Access share $8–$20/mo · playbook sub $15–$40/mo. Italian civil-record agent kit (vault, human-gate truth, FIND deep-links, portals, share). **Score `atto overlap` on every genealogy/archive/HTR/GEDCOM/IIIF/vault/share URL.**
+
+### Priority #2 — GuruWatcher (second after Atto on ties)
+
+- **GuruWatcher:** `/Users/claudiobarone/Projects/GuruWatcher` · GitHub `cemini23/GuruWatcher` · prod `/opt/guru-watcher/` → overlap **`guruwatcher`** → value: alert-only newsletter parameter watches → Discord (Macro Charts fluid mind; no orders). **Score `guruwatcher overlap` on newsletter claim extract, price/level Discord alerts, UW/yfinance pollers, watch-reconcile ledgers.**
+
+### Behind #1 / #2 — always score & report if research applies (tie-break after #1 then #2)
 
 - **XSP killer:** briefs `xsp-*` → `cemini-prod:/opt/cemini/briefs/` → overlap `xsp-killer` → revenue: trading P&L
 - **TipDrop:** `tipdrop-workspace-kit/` + David's `cemini23/tipdrop` → overlap `tipdrop` → revenue: David's $97/mo SaaS MRR
-- **Atto (EMPHASIZE — genealogy PRODUCT):** `/Users/claudiobarone/Projects/atto` · vault `~/AttoVault/` · MCP `atto-mcp` · GitHub `cemini23/atto` → overlap **`atto`** → revenue: kit $499–$899 · concierge ≥$2.5k · Access share $8–$20/mo · playbook sub $15–$40/mo. Italian civil-record agent kit (vault, human-gate truth, FIND deep-links, portals, share). **Score `atto overlap` on every genealogy/archive/HTR/GEDCOM/IIIF/vault/share URL.**
-- **Family-tree / Barone dogfood:** `Desktop/family/` + `Desktop/family/research/` → overlap `genealogy` → value: archival depth, brick-wall breakthroughs, jure sanguinis docs (no P&L). Private pedigree only — **never** into Atto fixtures/marketing. Feeds Atto methodology; not the public brand.
-- **PM LP canary (K166):** `CeminiSuite/` → `cemini-prod:/opt/cemini/` (`compose.polymarket.canary.yml`, `docs/pm-lp-k166-phase1-canary.md`, briefs `pm-*`) → overlap `pm-canary` → revenue: LP rewards P&L after shadow gates
-- **Wikis (always-on):** federation surfaces 2–9 + CCC — stub/route even when no Priority #1 code fit
-
-### Also active — always score & report if research applies (tie-break after #1)
-
-- **Poker arena:** `agents/devfun-poker-arena/examples/cemini_decide.py` → overlap `poker-arena` → revenue: arena prizes — **do not skip** poker/GTO/RL applies
-- **CeminiDFS:** `CeminiDFS/src/ceminidfs/pipeline/` → overlap `CeminiDFS` → revenue: contest ROI — **do not skip** NFL/DFS/projection applies
+- **Family-tree / Barone dogfood:** `Desktop/family/` + `Desktop/family/research/` → overlap `genealogy` → value: archival depth (private — never Atto fixtures). Feeds Atto methodology; not the public brand.
+- **PM LP canary (K166):** `CeminiSuite/` → `cemini-prod:/opt/cemini/` (`compose.polymarket.canary.yml`, briefs `pm-*`) → overlap `pm-canary` → revenue: LP rewards P&L after shadow gates
+- **Poker arena:** `agents/devfun-poker-arena/examples/cemini_decide.py` → overlap `poker-arena` → revenue: arena prizes
+- **CeminiDFS:** `CeminiDFS/src/ceminidfs/pipeline/` → overlap `CeminiDFS` → revenue: contest ROI
+- **Wikis (always-on):** federation surfaces 2–9 + CCC — stub/route even when no Priority #1/#2 code fit
 
 ### Ten routing surfaces (YES / PARTIAL / NO — for wiki stubs, not permission gates)
 
-1. Cemini prod bots (**XSP Priority #1**, **PM LP canary Priority #1**, poker arena, world-cup-bot, wc-ticket-monitor)
-2. OSINT wiki — **PM LP canary / Kalshi**, LP, XSP research, **genealogy methodology** (K153/K154; **Atto** = product, family-tree = dogfood)
+1. Cemini prod bots (XSP, PM LP canary, poker arena, world-cup-bot, wc-ticket-monitor, **GuruWatcher Priority #2**)
+2. OSINT wiki — PM/Kalshi, LP, XSP research, **genealogy methodology** (K153/K154; **Atto** = product, family-tree = dogfood), Macro Charts → GuruWatcher
 3. Gambling wiki — retail betting, DFS, poker strategy
 4. Cybersec wiki
 5. Image-gen wiki
@@ -52,13 +56,15 @@ Score every URL on **money / value path** (P&L, MRR, conversion, ops time saved,
 7. 3D-printing wiki
 8. Game-dev wiki — hobby game dev (castle-sim legacy — deprioritized)
 9. CCC wiki — Cursor/Claude harness, MCP, skills (**combo Atto** when genealogy MCP/skill)
-10. TipDrop.io — David's Discord signals SaaS (**Priority #1**)
+10. TipDrop.io — David's Discord signals SaaS (behind #1/#2)
 
 ### Shipped stacks — default Context/Pass unless named gap + revenue why
 
-Poker arena (7 modules), CeminiDFS (pipeline stages), xsp-killer (4 modules), TipDrop kit (6 modules), **PM LP canary (K166 — shadow compose + markout kills + rebaseline)**, **Atto (M1–M14 + FIND/AI/MCP/Gumroad — intake, vault, strip, truth approve-only, playbook/FIND, portals FS/Antenati/Ancestry/HTR, share, concierge, desktop)**, **genealogy dogfood (8 modules — archival ladder, Gramps/GEDCOM, FS API, Antenati IIIF, HTR, entity resolution, regional playbook, US census staging)**, world-cup-bot, wc-ticket-monitor — see full v10 canon.
+Poker arena (7 modules), CeminiDFS (pipeline stages), xsp-killer (4 modules), TipDrop kit (6 modules), **PM LP canary (K166)**, **Atto (M1–M14 + FIND/AI/MCP/Gumroad)**, **GuruWatcher (ingest-issue · claim ledger · most-recent-wins reconcile · Discord alert · prod timer)**, **genealogy dogfood (8 modules)**, world-cup-bot, wc-ticket-monitor — see full v10 canon.
 
 **Atto hard bans (do not re-litigate):** no auto-merge truth.ged · Antenati IIIF local-only · no LLM-NAS HTR · no Tint GPL vendor · synthetic Rossi / 900-series SSN fixtures only.
+
+**GuruWatcher hard bans:** alert-only — never place orders; do not clobber prod `watches.json` hold/trigger state on claim sync.
 
 ### Tiers (revenue-first)
 
@@ -75,8 +81,8 @@ Poker arena (7 modules), CeminiDFS (pipeline stages), xsp-killer (4 modules), Ti
 
 - Stars / commits / issues: NOT FOUND if unverified — never estimate.
 - Unverified features: CLAIMED (unverified).
-- Every fit claim needs a **specific project path** or wiki page (`Projects/atto/...` or `Desktop/family/...`).
-- Every revenue claim needs a **mechanism** (MRR, P&L, conversion, ops time saved, **Atto SKU**). For **family-tree dogfood**: personal **value** (brick-wall breakthrough, hours saved) is valid when revenue confidence is `none`.
+- Every fit claim needs a **specific project path** or wiki page (`Projects/atto/...`, `Projects/GuruWatcher/...`, or `Desktop/family/...`).
+- Every revenue claim needs a **mechanism** (MRR, P&L, conversion, ops time saved, **Atto SKU**, GuruWatcher alert edge). For **family-tree dogfood**: personal **value** is valid when revenue confidence is `none`.
 - 404: UNAVAILABLE, skip deep analysis.
 
 ---
@@ -92,7 +98,7 @@ Poker arena (7 modules), CeminiDFS (pipeline stages), xsp-killer (4 modules), Ti
 - Deferred to next batch: [list or none]
 - Batch theme: [e.g. Discord alert bots + TipDrop revenue plays]
 - Evaluation order: [numbered URL list]
-- Primary lens: revenue + project fit; Priority #1 = XSP + TipDrop + Atto + family-tree dogfood + PM canary (+ wikis always)
+- Primary lens: revenue + project fit; Priority #1 = Atto; Priority #2 = GuruWatcher; everything else behind (+ wikis always)
 ```
 
 ### Step 2 — Per URL
@@ -108,22 +114,22 @@ Poker arena (7 modules), CeminiDFS (pipeline stages), xsp-killer (4 modules), Ti
 - Revenue hypothesis: ...
 - Revenue confidence: high | medium | low | none
 - Revenue timeline: now | 30d | 90d | speculative
-- Project fit: [list projects or none — include atto and/or family-tree when genealogy]
+- Project fit: [list projects or none — include atto and/or guruwatcher and/or family-tree when relevant]
 - Integration play: standalone | combo-with-[X] | wiki-only
 - Improvement: ...
 
 - Tier: Integrate | Extract | Watch | Context | Pass | UNAVAILABLE
 - Primary fit: [surface name]
 - Surfaces: prod=NO osint=NO gambling=NO game=NO cyber=NO image=NO seo=NO print=NO ccc=PARTIAL tipdrop=YES
-- Overlaps: tipdrop=... poker-arena=... ceminiDFS=... xsp-killer=... atto=... genealogy=... pm-canary=... wc-bot=... wc-tickets=...
+- Overlaps: tipdrop=... poker-arena=... ceminiDFS=... xsp-killer=... atto=... guruwatcher=... genealogy=... pm-canary=... wc-bot=... wc-tickets=...
 - Cross-wiki routing: ...
-- Active project routing: [xsp-killer | tipdrop | atto | family-tree | pm-canary | wiki-only | poker-arena | ceminiDFS] (prefer Priority #1; genealogy productizable → atto)
+- Active project routing: [atto | guruwatcher | xsp-killer | tipdrop | family-tree | pm-canary | wiki-only | poker-arena | ceminiDFS] (prefer #1 Atto then #2 GuruWatcher; genealogy productizable → atto)
 - Combo plays: ... (or none)
 - Reasoning: 2-4 sentences — path + revenue + tier
 
 ### Implementation notes (never tier drivers)
 - License: [SPDX or NOT FOUND or N/A] — friction only
-- Business risk: ... (or none) — TipDrop regulatory/MRR threats; Atto PII/share perimeter
+- Business risk: ... (or none) — TipDrop regulatory/MRR threats; Atto PII/share perimeter; GuruWatcher webhook/key hygiene
 - NEEDS VERIFICATION: ... (or none)
 ```
 
@@ -137,7 +143,7 @@ Poker arena (7 modules), CeminiDFS (pipeline stages), xsp-killer (4 modules), Ti
 - Context: N — [list]
 - Pass: N — [list]
 - UNAVAILABLE: N — [list]
-- Revenue by project: [counts — include atto and family-tree separately]
+- Revenue by project: [counts — include atto, guruwatcher, and family-tree separately]
 - Combo plays: [URL → projects → mechanism]
 - Genuine gaps (Extract/Integrate): [list + gap + revenue why]
 - Cross-routing batch: [by wiki]

@@ -36,9 +36,11 @@ related:
   - concepts/self-compacting-adaptive-context.md
   - concepts/backbone-internal-tool-output-pruning.md
   - sources/arxiv-swe-pruner-pro-internal-prune-2607.18213.md
+  - concepts/cost-aware-tool-acquisition-stopping.md
+  - sources/arxiv-cam-df-cost-aware-tool-stopping-2607.27083.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-07-21
+updated: 2026-07-30
 ---
 
 ## Relations
