@@ -22,9 +22,10 @@ related:
   - entities/tools/typst.md
   - entities/tools/flowforge-skill.md
   - sources/multi-wiki-tool-eval-50url-k102-2026-06-06.md
+  - concepts/phase1-adopt-wire.md
 maturity: draft
 created: 2026-06-04
-updated: 2026-06-06
+updated: 2026-07-31
 ---
 
 ## Relations

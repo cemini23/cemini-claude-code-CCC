@@ -10,8 +10,10 @@ related:
   - concepts/agent-vm-sandboxing.md
   - sources/brief-k221-k229-mcp-harness-security-ingest-2026-07-30.md
 maturity: draft
+wire_status: wont_wire
+wire_target: \"REFERENCE .local/adopts/shard-demo + agent-security-lab — do not curl|sh\"
 created: 2026-07-30
-updated: 2026-07-30
+updated: 2026-07-31
 ---
 
 ## Relations
@@ -35,3 +37,7 @@ Local: `.local/adopts/agent-security-lab`, `.local/adopts/shard-demo`.
 **Hands-on:** Do **not** run `curl …/install.sh | sh`. Clone + read. Research demo — not production drop-in for Claude Code/Cursor. Steal patterns into federation sandbox/skill-scan posture.
 
 **Phase-0:** `scripts/adopt_k225_phase0.sh`
+
+## Phase-1
+
+Research demo harness; steal sandbox/skill-scan/tool-restrict patterns only.

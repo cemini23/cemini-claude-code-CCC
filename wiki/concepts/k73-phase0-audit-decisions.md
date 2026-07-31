@@ -5,6 +5,8 @@ tags: [concept, phase-0, tool-eval, workflow, k73]
 keywords: [two-gate policy, doc-level verdict, adoption gate, mermaid-skill, tvscreener]
 related:
   - concepts/skill-vetting.md
+  - concepts/phase1-adopt-wire.md
+  - entities/skills/phase1-wire.md
   - concepts/cross-wiki-tool-eval-inventory.md
   - concepts/tool-eval-license-skepticism-patterns.md
   - entities/tools/mermaid-skill.md
@@ -14,13 +16,14 @@ related:
   - concepts/cross-wiki-tool-adoption-routing.md
 maturity: draft
 created: 2026-05-28
-updated: 2026-06-04
+updated: 2026-07-31
 cross-wiki-source: "@osint-wiki/sources/multi-wiki-tool-eval-25url-2026-05-28.md"
 ---
 
 ## Relations
 
 - `@concepts/skill-vetting.md` — canonical Phase-0 gate
+- `@concepts/phase1-adopt-wire.md` — Phase-1 wires (eval ≠ adopt ≠ wire)
 - `@concepts/cross-wiki-tool-eval-inventory.md` — inventory receipt
 - `@concepts/tool-eval-license-skepticism-patterns.md` — K73 license-analysis failure modes
 - `@entities/tools/mermaid-skill.md` — K73 conditional-go local
@@ -29,7 +32,7 @@ cross-wiki-source: "@osint-wiki/sources/multi-wiki-tool-eval-25url-2026-05-28.md
 
 ## Raw Concept
 
-K73 Phase-0 outcomes for CCC-local relevance: doc-level eval verdicts do not equal adoption; each candidate still passes source-audit + scope-fit gates.
+K73 Phase-0 outcomes for CCC-local relevance: doc-level eval verdicts do not equal adoption; each candidate still passes source-audit + scope-fit gates. Phase-1 (`/phase1`) then wires ADOPT/GO into rules/CLAUDE.md or marks `wont_wire`.
 
 ## Narrative
 
@@ -39,9 +42,10 @@ K73 Phase-0 outcomes for CCC-local relevance: doc-level eval verdicts do not equ
 | `metatrader-mcp-server` (MIT) | **NO-GO for current Cemini scope** (forex/MT mismatch) |
 | `tvscreener` (Apache-2.0) | **REFERENCE / CONDITIONAL local only** pending ToS + source-quality checks |
 
-Two-gate policy remains explicit:
+Three-gate policy remains explicit:
 1) doc-level eval triages candidates;  
-2) Phase-0 decides adopt/defer/reject for this workspace.
+2) Phase-0 decides adopt/defer/reject for this workspace;
+3) Phase-1 wires policy/runtime or marks `wont_wire`.
 
 ## Snippets
 

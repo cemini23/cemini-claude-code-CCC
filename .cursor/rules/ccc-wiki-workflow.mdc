@@ -32,6 +32,7 @@ When adding sources from `research to be indexed/`:
    - **Interface:** index/log/brief or canvas matrix when 4+ sources or adoption verdicts
 5. Touch 3–15 wiki pages; update `wiki/index.md`, `wiki/log.md`; archive raw to egress-fi
 6. `python3 scripts/wiki_lint.py` — fix bidirectional gaps (`--fix-bidirectional --apply` when needed)
+7. **Phase-1** — if ADOPT/GO in batch: propose `/phase1` wire (policy rule / CLAUDE.md / rare runtime) or mark `wont_wire` before claiming done. Skill: `.cursor/skills/phase1-wire/SKILL.md`. Skip Image-gen/3D local wires.
 
 ## Harness change discipline (K124)
 

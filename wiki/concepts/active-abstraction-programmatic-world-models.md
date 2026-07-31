@@ -12,6 +12,7 @@ related:
   - concepts/confidence-aware-tool-orchestration.md
   - sources/brief-k230-k233-memharness-tycho-agentradio-askchem-2026-07-31.md
   - "@game-dev-wiki/concepts/tycho-arc-agi-active-abstraction-stub.md"
+  - concepts/phase1-adopt-wire.md
 maturity: draft
 created: 2026-07-31
 updated: 2026-07-31

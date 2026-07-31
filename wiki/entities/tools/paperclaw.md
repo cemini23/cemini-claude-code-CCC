@@ -17,8 +17,10 @@ related:
   - sources/arxiv-clarus-scientific-collaboration-infrastructure-2606.30246.md
   - concepts/web-scale-scientific-collaboration-infrastructure.md
 maturity: draft
+wire_status: wont_wire
+wire_target: "REFERENCE clone — paper/eval repro only"
 created: 2026-06-24
-updated: 2026-06-30
+updated: 2026-07-31
 ---
 
 ## Relations

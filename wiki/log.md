@@ -1,3 +1,16 @@
+## [2026-07-31] skill | Phase-1 adopt-wire federation skill + inventory
+
+- New `.cursor/skills/phase1-wire/SKILL.md` — `/phase1` / wire adopts; policy vs runtime vs `wont_wire`
+- Concept `@concepts/phase1-adopt-wire.md` + entity `@entities/skills/phase1-wire.md`
+- Inventory `scripts/phase1_adopt_inventory.py` → `briefs/2026-07-31_phase1-adopt-inventory.md` (CCC+OSINT)
+- Policy rule `.cursor/rules/cemini-phase1-policy-wires.mdc` (K230–K233 steals)
+- Ingest contract: CLAUDE.md step 12 + `ccc-wiki-workflow.mdc` Phase-1 after ADOPT/GO
+- Sync: `phase1-wire` added to `sync_federation_cursor_skills.sh` CANON_SKILLS
+- Pilot: MemHarness/Tycho/AgentRadio/AskChem → `policy_wired`; SHarD → `wont_wire`; TipDrop CLAUDE bullets
+- Skip Image-gen / 3D local wire backlog
+
+---
+
 ## [2026-07-31] ingest | MemHarness + Tycho + AgentRadio + AskChem (K230–K233)
 
 - **K230 — MemHarness (2607.28272):** reconstruct retrieved memory for current state; GRPO; negative-transfer fix. **ADOPT**; **GO** Apache `.local/adopts/MemHarness` (~39MB).

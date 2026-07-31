@@ -12,7 +12,7 @@ set -euo pipefail
 
 REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 # Core operator skills (mattpocock + Cemini audits + task router)
-CANON_SKILLS=(goal to-issues grill-with-docs cursor-audit super-audit route)
+CANON_SKILLS=(goal to-issues grill-with-docs cursor-audit super-audit route phase1-wire)
 SRC_RULE="${REPO_ROOT}/.cursor/rules/cemini-goal-skill.mdc"
 SRC_SEC_RULE="${REPO_ROOT}/.cursor/rules/cemini-cursor-security-preflight.mdc"
 SRC_ROUTE_RULE="${REPO_ROOT}/.cursor/rules/cemini-route-outsource.mdc"

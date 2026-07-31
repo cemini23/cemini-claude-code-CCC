@@ -7,6 +7,8 @@ related:
   - entities/mcp-servers/anthropic-skills.md
   - entities/tools/claude-code-ultimate-guide.md
   - entities/commands/plugin.md
+  - concepts/phase1-adopt-wire.md
+  - entities/skills/phase1-wire.md
   - concepts/agent-vm-sandboxing.md
   - entities/tools/defenseclaw.md
   - entities/skills/src-hunter-skill.md
@@ -126,6 +128,9 @@ updated: 2026-07-30
 ---
 
 ## Relations
+
+- `@concepts/phase1-adopt-wire.md` — Phase-1 wires after Phase-0
+- `@entities/skills/phase1-wire.md`
 
 - @entities/mcp-servers/anthropic-skills.md — parent entity; this concept extracts the audit checklist embedded in that page into its own concept-level write-up
 - @entities/tools/claude-code-ultimate-guide.md — source of the 28-CVE catalog + 655 malicious-skill patterns referenced in step 4

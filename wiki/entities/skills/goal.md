@@ -9,9 +9,10 @@ related:
   - entities/skills/adopted-geo-tools.md
   - sources/brief-k122-k126-federation-cursor-harness-adoptions-2026-06-25.md
   - sources/brief-k132-local-adoptions-cursor-federation-prod-2026-06-27.md
+  - entities/skills/phase1-wire.md
 maturity: validated
 created: 2026-06-24
-updated: 2026-07-18
+updated: 2026-07-31
 ---
 
 ## Relations

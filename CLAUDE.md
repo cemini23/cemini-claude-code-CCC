@@ -174,6 +174,7 @@ Paths below are relative to this CLAUDE.md file's directory. Resolve `../` again
 9. **Archive raw to egress-fi**: `bash "../../OSINT WORKSPACE/scripts/archive_raw_to_egress.sh" --wiki-id ccc "research to be indexed/<filename>"` — update source page `Location`
 10. Update `ROADMAP.md` if the ingest opens new follow-ups; stage briefs in `briefs/` if the ingest produced something actionable
 11. A single ingest must touch 3-15 pages. If it touches 0 new pages, ask whether the source is worth ingesting
+12. **Phase-1 adopt-wire** — if the batch has ADOPT / GO items: propose `/phase1` (or run it) before claiming ingest done. Set entity `wire_status` / `wire_target` (policy rule, CLAUDE.md, runtime MCP, or `wont_wire`). See `@wiki/concepts/phase1-adopt-wire.md` and `.cursor/skills/phase1-wire/SKILL.md`. Clones under `.local/adopts/` without Phase-1 are REFERENCE shelf only.
 
 ### Query (answering a question)
 
@@ -256,6 +257,7 @@ Before adopting any third-party Claude-Code tool into the workflow, run a Phase-
    - **Prompts/patterns**: do they assume tools you don't have? do they leak credentials?
 5. Compare against existing wiki coverage (don't adopt parallel implementations)
 6. Decide GO / CONDITIONAL-GO / NO-GO and record in the entity page
+7. **Phase-1 (separate skill)** — GO/ADOPT is not “wired.” Run `/phase1` to policy-wire, runtime-wire, or mark `wont_wire`. Frontmatter: `wire_status: unwired | policy_wired | runtime_wired | wont_wire | deferred` and `wire_target:` when wired. Inventory: `python3 scripts/phase1_adopt_inventory.py --write-brief`.
 
 Pattern carried over from `@osint-wiki/concepts/tool-evaluation-framework.md` — 7+ catches of eval-brief mischaracterization since K28.
 

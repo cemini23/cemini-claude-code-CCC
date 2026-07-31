@@ -7,8 +7,10 @@ related:
   - sources/arxiv-agentic-coding-without-cloud-2607.21482.md
   - concepts/local-open-weight-agentic-coding-eval.md
 maturity: draft
+wire_status: wont_wire
+wire_target: "REFERENCE clone — paper/eval repro only"
 created: 2026-07-24
-updated: 2026-07-24
+updated: 2026-07-31
 ---
 
 ## Relations

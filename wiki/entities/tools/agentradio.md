@@ -8,6 +8,8 @@ related:
   - concepts/passive-awareness-async-multi-agent-coordination.md
   - sources/brief-k230-k233-memharness-tycho-agentradio-askchem-2026-07-31.md
 maturity: draft
+wire_status: policy_wired
+wire_target: \"REFERENCE .local/adopts/AgentRadio — policy in .cursor/rules/cemini-phase1-policy-wires.mdc (passive inbox)\"
 created: 2026-07-31
 updated: 2026-07-31
 ---
@@ -26,3 +28,7 @@ updated: 2026-07-31
 Local: `.local/adopts/AgentRadio`.
 
 **Phase-0:** `scripts/adopt_k232_phase0.sh`
+
+## Phase-1
+
+Policy wired; Harbor/Modal fleet **wont_wire** as runtime.

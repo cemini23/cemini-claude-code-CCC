@@ -8,6 +8,8 @@ related:
   - concepts/reconstructive-agent-memory-vs-verbatim-replay.md
   - sources/brief-k230-k233-memharness-tycho-agentradio-askchem-2026-07-31.md
 maturity: draft
+wire_status: policy_wired
+wire_target: \"REFERENCE clone .local/adopts/MemHarness — policy in .cursor/rules/cemini-phase1-policy-wires.mdc (reconstruct-before-inject)\"
 created: 2026-07-31
 updated: 2026-07-31
 ---
@@ -26,3 +28,7 @@ updated: 2026-07-31
 Local: `.local/adopts/MemHarness`. Pattern steal first; training stack optional.
 
 **Phase-0:** `scripts/adopt_k230_phase0.sh`
+
+## Phase-1
+
+Policy wired via cemini-phase1-policy-wires.mdc; clone itself is GRPO trainer **wont_wire** as runtime.

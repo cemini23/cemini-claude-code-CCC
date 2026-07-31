@@ -139,6 +139,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`super-audit`](entities/skills/super-audit.md) | validated | Five-model pre-ship council — 3 Cursor + 2 API (OpenRouter/DeepSeek); agent-toolkit-demo (2026-06-09) |
 | [`to-issues`](entities/skills/to-issues.md) | draft | mattpocock vertical-slice issue decomposition — K126 Adopt (MIT) |
 | [`grill-with-docs`](entities/skills/grill-with-docs.md) | draft | mattpocock plan interview + ADRs — K126 Adopt (grill-me alias) |
+| [`phase1-wire`](entities/skills/phase1-wire.md) | draft | Phase-1 adopt-wire skill — /phase1 after Phase-0 |
 | [`goal`](entities/skills/goal.md) | validated | Cursor `/goal` single-shot envelope — federation-wide (K124) |
 | [`adopted-geo-tools`](entities/skills/adopted-geo-tools.md) | validated | SEO-domain E-GEO / geo-optimizer / wondelai skill — synced federation-wide (2026-07-18) |
 
@@ -417,6 +418,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`reconstructive-agent-memory-vs-verbatim-replay`](concepts/reconstructive-agent-memory-vs-verbatim-replay.md) | draft | Reconstruct memory for current state — 2607.28272 (K230) |
 | [`active-abstraction-programmatic-world-models`](concepts/active-abstraction-programmatic-world-models.md) | draft | Build/use/bypass programmatic world models — 2607.28287 (K231) |
 | [`passive-awareness-async-multi-agent-coordination`](concepts/passive-awareness-async-multi-agent-coordination.md) | draft | AgentRadio async passive awareness — 2607.28430 (K232) |
+| [`phase1-adopt-wire`](concepts/phase1-adopt-wire.md) | draft | Policy vs runtime vs WONT_WIRE after Phase-0 |
 | [`claim-centered-retrieval-with-provenance`](concepts/claim-centered-retrieval-with-provenance.md) | draft | Claim-unit retrieval + DOI/quote — 2607.28618 (K233) |
 
 ## sources/

@@ -12,6 +12,7 @@ related:
   - concepts/agentic-online-rl-self-evolving-systems.md
   - concepts/memory-poisoning-write-execute-forget-lifecycle.md
   - sources/brief-k230-k233-memharness-tycho-agentradio-askchem-2026-07-31.md
+  - concepts/phase1-adopt-wire.md
 maturity: draft
 created: 2026-07-31
 updated: 2026-07-31
