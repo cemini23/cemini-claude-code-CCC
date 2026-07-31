@@ -1,36 +1,71 @@
 #!/usr/bin/env bash
-# Sync federation Cursor skills + /goal rule to all Cemini workspaces.
-# Canon lives in CCC repo: .cursor/skills/{goal,to-issues,grill-with-docs,cursor-audit,super-audit}
-# + cemini-goal-skill.mdc
+# Sync federation Cursor skills + shared rules to all Cemini workspaces.
 #
-# Domain skills (canon outside CCC):
-#   adopted-geo-tools ← SEO wiki .cursor/skills/adopted-geo-tools (absolute SEO_ROOT paths)
+# Canon: CCC `.cursor/skills/<name>/SKILL.md` with frontmatter `federation: true`
+# Domain skills (canon outside CCC): DOMAIN_SKILL_DIRS below.
+#
+# Auto-discovers federation skills — add a new cross-project skill by putting
+# `federation: true` in its SKILL.md frontmatter (no hard-coded list edit required).
 #
 # User-global ~/.cursor/skills + ~/.cursor/rules cover Home / empty windows.
-# Per-workspace copies cover Open Folder sessions (project skills discovery).
+# Per-workspace copies cover Open Folder sessions.
+#
+# Autosync: CCC `scripts/post-commit.sh` runs this when skills/rules change.
+# Manual: bash scripts/sync_federation_cursor_skills.sh
+#         ~/bin/sync-federation-cursor-skills
 set -euo pipefail
 
 REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
-# Core operator skills (mattpocock + Cemini audits + task router)
-CANON_SKILLS=(goal to-issues grill-with-docs cursor-audit super-audit route phase1-wire)
 SRC_RULE="${REPO_ROOT}/.cursor/rules/cemini-goal-skill.mdc"
 SRC_SEC_RULE="${REPO_ROOT}/.cursor/rules/cemini-cursor-security-preflight.mdc"
 SRC_ROUTE_RULE="${REPO_ROOT}/.cursor/rules/cemini-route-outsource.mdc"
+SRC_PHASE1_RULE="${REPO_ROOT}/.cursor/rules/cemini-phase1-policy-wires.mdc"
 USER_RULE="${HOME}/.cursor/rules/cemini-goal-skill.mdc"
 USER_SEC_RULE="${HOME}/.cursor/rules/cemini-cursor-security-preflight.mdc"
 USER_ROUTE_RULE="${HOME}/.cursor/rules/cemini-route-outsource.mdc"
+USER_PHASE1_RULE="${HOME}/.cursor/rules/cemini-phase1-policy-wires.mdc"
+
+# Discover CCC skills marked federation: true (YAML frontmatter).
+discover_federation_skills() {
+  local skill_md name
+  CANON_SKILLS=()
+  shopt -s nullglob
+  for skill_md in "${REPO_ROOT}/.cursor/skills"/*/SKILL.md; do
+    if awk '
+      BEGIN { in_fm=0; found=0 }
+      /^---[[:space:]]*$/ {
+        if (in_fm==0) { in_fm=1; next }
+        else { exit }
+      }
+      in_fm && /^federation:[[:space:]]*true[[:space:]]*$/ { found=1; exit }
+      END { exit found ? 0 : 1 }
+    ' "${skill_md}"; then
+      name="$(basename "$(dirname "${skill_md}")")"
+      # Domain skills synced separately — skip if listed in DOMAIN_SKILL_DIRS
+      case "${name}" in
+        adopted-geo-tools|i-have-adhd) continue ;;
+      esac
+      CANON_SKILLS+=("${name}")
+    fi
+  done
+  shopt -u nullglob
+  if [[ ${#CANON_SKILLS[@]} -eq 0 ]]; then
+    echo "FAIL: no skills with federation: true under ${REPO_ROOT}/.cursor/skills" >&2
+    exit 1
+  fi
+  # Stable order
+  IFS=$'\n' CANON_SKILLS=($(printf '%s\n' "${CANON_SKILLS[@]}" | sort -u))
+  unset IFS
+}
 
 # Domain skills: name|absolute path to skill directory (must contain SKILL.md)
 SEO_ROOT="/Users/claudiobarone/Projects/SEO:GEO B&M Business"
 OSINT_ROOT="/Users/claudiobarone/Projects/OSINT WORKSPACE"
 DOMAIN_SKILL_DIRS=(
   "adopted-geo-tools|${SEO_ROOT}/.cursor/skills/adopted-geo-tools"
-  # K174 Extract — action-first ADHD output shaping (MIT); canon in OSINT
   "i-have-adhd|${OSINT_ROOT}/.cursor/skills/i-have-adhd"
 )
 
-# Prefer Projects/ canon paths; include Desktop aliases when present.
-# tipdrop-* and pm-lp live under Desktop/projects or Projects.
 WORKSPACES=(
   "${REPO_ROOT}"
   "/Users/claudiobarone/Projects/OSINT WORKSPACE"
@@ -70,7 +105,6 @@ WORKSPACES=(
   "/Users/claudiobarone/Desktop/tipdrop-scanner"
   "/Users/claudiobarone/Projects/pm-lp-canary-wiki"
   "/Users/claudiobarone/Desktop/projects/pm-lp-canary-wiki"
-  # Priority product + other live Open Folder roots
   "/Users/claudiobarone/Projects/atto"
   "/Users/claudiobarone/Projects/GuruWatcher"
   "/Users/claudiobarone/Projects/easy review"
@@ -91,7 +125,6 @@ copy_file() {
   cp -f "${src}" "${dest}"
 }
 
-# Copy entire skill directory (SKILL.md + reference/examples/scripts).
 sync_skill_tree() {
   local skill="$1"
   local dest_root="$2"
@@ -102,7 +135,6 @@ sync_skill_tree() {
     return 1
   fi
   mkdir -p "${dest_dir}"
-  # Prefer rsync when available (deletes stale extras); else recursive cp.
   if command -v rsync >/dev/null 2>&1; then
     rsync -a --delete \
       --exclude '.DS_Store' \
@@ -116,7 +148,6 @@ sync_skill_tree() {
   fi
 }
 
-# Sync a domain skill whose canon lives outside CCC (e.g. SEO wiki).
 sync_domain_skill_tree() {
   local skill="$1"
   local src_dir="$2"
@@ -151,8 +182,10 @@ install_workspace() {
   fi
   if [[ -f "${SRC_ROUTE_RULE}" ]]; then
     copy_file "${SRC_ROUTE_RULE}" "${rules_dir}/cemini-route-outsource.mdc"
-    # Historical filename still present in some agent contexts
     copy_file "${SRC_ROUTE_RULE}" "${rules_dir}/tipdrop-route-outsource.mdc"
+  fi
+  if [[ -f "${SRC_PHASE1_RULE}" ]]; then
+    copy_file "${SRC_PHASE1_RULE}" "${rules_dir}/cemini-phase1-policy-wires.mdc"
   fi
   for skill in "${CANON_SKILLS[@]}"; do
     sync_skill_tree "${skill}" "${dest}"
@@ -167,7 +200,7 @@ install_workspace() {
 verify_workspace() {
   local dest="$1"
   local ok=0
-  local entry name
+  local entry name skill
   for skill in "${CANON_SKILLS[@]}"; do
     [[ -f "${dest}/.cursor/skills/${skill}/SKILL.md" ]] || ok=1
   done
@@ -179,17 +212,25 @@ verify_workspace() {
   [[ -f "${dest}/.cursor/rules/cemini-cursor-security-preflight.mdc" ]] || ok=1
   [[ -f "${dest}/.cursor/rules/cemini-route-outsource.mdc" ]] || ok=1
   [[ -f "${dest}/.cursor/skills/route/SKILL.md" ]] || ok=1
-  # multi-file skills must carry companions
-  [[ -f "${dest}/.cursor/skills/cursor-audit/reference.md" ]] || ok=1
-  [[ -f "${dest}/.cursor/skills/super-audit/prompt-template.md" ]] || ok=1
+  [[ -f "${dest}/.cursor/skills/phase1-wire/SKILL.md" ]] || ok=1
+  if [[ -f "${SRC_PHASE1_RULE}" ]]; then
+    [[ -f "${dest}/.cursor/rules/cemini-phase1-policy-wires.mdc" ]] || ok=1
+  fi
+  if [[ -f "${dest}/.cursor/skills/cursor-audit/SKILL.md" ]]; then
+    [[ -f "${dest}/.cursor/skills/cursor-audit/reference.md" ]] || ok=1
+  fi
+  if [[ -f "${dest}/.cursor/skills/super-audit/SKILL.md" ]]; then
+    [[ -f "${dest}/.cursor/skills/super-audit/prompt-template.md" ]] || ok=1
+  fi
   return "${ok}"
 }
 
+discover_federation_skills
+
 echo "Sync federation Cursor skills from ${REPO_ROOT}"
-echo "  CCC skills: ${CANON_SKILLS[*]}"
+echo "  Federation skills (auto): ${CANON_SKILLS[*]}"
 echo "  Domain skills: adopted-geo-tools (SEO) + i-have-adhd (OSINT K174)"
 
-# User-global copies (Cursor discovers ~/.cursor/skills/* in any window, including Home)
 for skill in "${CANON_SKILLS[@]}"; do
   sync_skill_tree "${skill}" "${HOME}"
   echo "  OK  user-global ~/.cursor/skills/${skill}/"
@@ -211,6 +252,10 @@ if [[ -f "${SRC_ROUTE_RULE}" ]]; then
   copy_file "${SRC_ROUTE_RULE}" "${USER_ROUTE_RULE}"
   copy_file "${SRC_ROUTE_RULE}" "${HOME}/.cursor/rules/tipdrop-route-outsource.mdc"
   echo "  OK  user-global ${USER_ROUTE_RULE}"
+fi
+if [[ -f "${SRC_PHASE1_RULE}" ]]; then
+  copy_file "${SRC_PHASE1_RULE}" "${USER_PHASE1_RULE}"
+  echo "  OK  user-global ${USER_PHASE1_RULE}"
 fi
 
 count=0
@@ -237,5 +282,5 @@ if [[ "${fail}" -gt 0 ]]; then
   echo "Synced ${count} workspace(s); ${fail} verify failure(s); ${skip} skipped." >&2
   exit 1
 fi
-echo "Synced ${count} workspace(s) + user-global (${#CANON_SKILLS[@]} CCC + ${#DOMAIN_SKILL_DIRS[@]} domain + goal/security rules); ${skip} path(s) skipped (missing)."
-echo "Optional: cursor-security-preflight --quick   # scan all .cursor trees after sync"
+echo "Synced ${count} workspace(s) + user-global (${#CANON_SKILLS[@]} federation + ${#DOMAIN_SKILL_DIRS[@]} domain + shared rules); ${skip} path(s) skipped (missing)."
+echo "Optional: cursor-security-preflight --quick"

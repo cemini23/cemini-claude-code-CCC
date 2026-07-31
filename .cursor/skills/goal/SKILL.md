@@ -5,6 +5,7 @@ description: >-
   intent into context, success criteria, operating rules, and completion proof.
   Use when the user invokes /goal or asks for a full-prompt goal session.
 disable-model-invocation: true
+federation: true
 ---
 # /goal — full-prompt single-shot meta-template
 

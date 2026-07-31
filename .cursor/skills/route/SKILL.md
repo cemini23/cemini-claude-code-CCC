@@ -10,6 +10,7 @@ description: >-
 license: MIT
 metadata.author: cemini23
 metadata.version: "2.0.1"
+federation: true
 ---
 
 # /route — unified task sorter (easy · mid · hard · money)

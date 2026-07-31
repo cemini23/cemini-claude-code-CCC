@@ -32,7 +32,7 @@ Cursor Agent skill deployed federation-wide (2026-06-24). Invoke with **`/goal <
 | Project | `.cursor/skills/goal/SKILL.md` |
 | User-global | `~/.cursor/skills/goal/SKILL.md` |
 | Rule | `.cursor/rules/cemini-goal-skill.mdc` |
-| Sync script | `scripts/sync_federation_cursor_skills.sh` (CCC skills + domain `adopted-geo-tools` from SEO wiki) |
+| Sync script | `scripts/sync_federation_cursor_skills.sh` — auto-discovers CCC skills with `federation: true`; domain skills via `DOMAIN_SKILL_DIRS`; CCC post-commit autosync |
 | Legacy alias | `scripts/sync_goal_skill_to_workspaces.sh` |
 | Prod briefs | `scripts/scp_harness_briefs_to_prod.sh` → `cemini-prod:/opt/cemini/briefs/` |
 

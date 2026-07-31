@@ -15,6 +15,7 @@ permissions:
   - filesystem:read
   - filesystem:write
   - env
+federation: true
 ---
 
 # Super audit (5–6 model council)

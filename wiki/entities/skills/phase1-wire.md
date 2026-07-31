@@ -33,6 +33,6 @@ Federation skill that closes the gap between Phase-0 REFERENCE clones and daily 
 | Canon | CCC `.cursor/skills/phase1-wire/SKILL.md` |
 | Invoke | `/phase1`, “wire adopts”, end-of-ingest propose |
 | Inventory | `scripts/phase1_adopt_inventory.py` |
-| Deploy | `scripts/sync_federation_cursor_skills.sh` (CANON_SKILLS) |
+| Deploy | `federation: true` → auto-discovered by `sync_federation_cursor_skills.sh`; CCC post-commit autosyncs |
 
 **Verdict:** **ADOPT** as standard post-ingest step. Not a Phase-0 replacement.

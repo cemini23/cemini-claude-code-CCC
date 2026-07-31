@@ -1,3 +1,13 @@
+## [2026-07-31] harness | federation skill autosync
+
+- `sync_federation_cursor_skills.sh` auto-discovers CCC skills with `federation: true` (no hard-coded CANON list)
+- Tagged: goal, to-issues, grill-with-docs, cursor-audit, super-audit, route, phase1-wire
+- CCC `post-commit.sh` runs sync when skills / shared federation rules change
+- Rule `.cursor/rules/cemini-federation-skill-sync.mdc` (agent reminder); `~/bin/sync-federation-cursor-skills`
+- Also syncs `cemini-phase1-policy-wires.mdc` federation-wide
+
+---
+
 ## [2026-07-31] skill | Phase-1 adopt-wire federation skill + inventory
 
 - New `.cursor/skills/phase1-wire/SKILL.md` — `/phase1` / wire adopts; policy vs runtime vs `wont_wire`
@@ -5,7 +15,7 @@
 - Inventory `scripts/phase1_adopt_inventory.py` → `briefs/2026-07-31_phase1-adopt-inventory.md` (CCC+OSINT)
 - Policy rule `.cursor/rules/cemini-phase1-policy-wires.mdc` (K230–K233 steals)
 - Ingest contract: CLAUDE.md step 12 + `ccc-wiki-workflow.mdc` Phase-1 after ADOPT/GO
-- Sync: `phase1-wire` added to `sync_federation_cursor_skills.sh` CANON_SKILLS
+- Sync: `phase1-wire` via `federation: true` auto-discover + post-commit
 - Pilot: MemHarness/Tycho/AgentRadio/AskChem → `policy_wired`; SHarD → `wont_wire`; TipDrop CLAUDE bullets
 - Skip Image-gen / 3D local wire backlog
 

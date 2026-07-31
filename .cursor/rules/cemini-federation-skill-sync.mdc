@@ -1,0 +1,36 @@
+---
+description: After editing federation Cursor skills, autosync (or remind) across workspaces
+alwaysApply: true
+---
+
+# Federation Cursor skill autosync
+
+**Canon skills** live in CCC `.cursor/skills/<name>/` with frontmatter `federation: true`.
+They sync to all workspaces + `~/.cursor/skills/` via `scripts/sync_federation_cursor_skills.sh`.
+
+## When you edit a federation skill or shared rule
+
+1. Ensure `federation: true` is in the skill's `SKILL.md` frontmatter (new cross-project workflow skills).
+2. Run sync (do not wait for the next commit if the user needs it now):
+
+```bash
+bash "/Users/claudiobarone/Projects/Cemini claude code CCC/scripts/sync_federation_cursor_skills.sh"
+# or: sync-federation-cursor-skills
+```
+
+3. Optional: `cursor-security-preflight --quick` after skill sync.
+
+## Autosync on commit
+
+CCC `scripts/post-commit.sh` (via `install-hooks.sh`) runs the same sync when a commit touches `.cursor/skills/`, shared `cemini-*.mdc` federation rules, or the sync script itself.
+
+## Do not federation-sync
+
+- Domain skills without `federation: true` (e.g. SEO `adopted-geo-tools`, OSINT `i-have-adhd` — those use `DOMAIN_SKILL_DIRS` in the sync script).
+- CCC-only alwaysApply rules that are wiki-specific noise in other repos (prefer TipDrop/CLAUDE bullets over dumping every CCC rule).
+
+## Adding a new cross-project workflow skill
+
+1. Create `.cursor/skills/<name>/SKILL.md` with `federation: true`.
+2. Run sync once (or commit — post-commit will sync).
+3. No hard-coded list edit required — discovery is automatic.

@@ -6,10 +6,12 @@ description: >-
   the user invokes /phase1, says "wire adopts", or after an ingest with
   ADOPT/GO items still unwired.
 disable-model-invocation: false
+federation: true
 ---
 # /phase1 — adopt-wire (federation)
 
 Canon: `@wiki/concepts/phase1-adopt-wire.md` (CCC). Phase-0 audits; Phase-1 wires.
+Deploy: `federation: true` → `scripts/sync_federation_cursor_skills.sh` (CCC post-commit autosync).
 
 ## Triggers
 
