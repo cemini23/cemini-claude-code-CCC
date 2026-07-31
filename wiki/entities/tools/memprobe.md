@@ -13,7 +13,7 @@ related:
   - concepts/multi-factor-agentic-memory-value-model.md
 maturity: draft
 wire_status: wont_wire
-wire_target: "REFERENCE clone — paper/eval repro only"
+wire_target: "REFERENCE shelf"
 created: 2026-06-26
 updated: 2026-07-31
 ---

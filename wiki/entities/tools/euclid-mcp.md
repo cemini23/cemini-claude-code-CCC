@@ -9,7 +9,9 @@ related:
   - concepts/solver-grounded-agent-numerics.md
 maturity: draft
 created: 2026-07-24
-updated: 2026-07-24
+updated: 2026-07-31
+wire_status: wont_wire
+wire_target: "REFERENCE/CONDITIONAL study — not default MCP"
 ---
 
 ## Relations

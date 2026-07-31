@@ -11,7 +11,7 @@ related:
   - sources/brief-k221-k229-mcp-harness-security-ingest-2026-07-30.md
 maturity: draft
 wire_status: wont_wire
-wire_target: \"REFERENCE .local/adopts/shard-demo + agent-security-lab — do not curl|sh\"
+wire_target: "REFERENCE .local/adopts/shard-demo + agent-security-lab — do not curl|sh"
 created: 2026-07-30
 updated: 2026-07-31
 ---

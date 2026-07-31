@@ -10,7 +10,9 @@ related:
   - concepts/deep-research-evaluation-prompt.md
 maturity: draft
 created: 2026-06-24
-updated: 2026-06-24
+updated: 2026-07-31
+wire_status: wont_wire
+wire_target: "REFERENCE digest pointer — no catalog mirror"
 ---
 
 ## Relations

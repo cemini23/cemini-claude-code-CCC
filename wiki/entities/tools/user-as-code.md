@@ -10,7 +10,9 @@ related:
   - entities/tools/claude-mem.md
 maturity: draft
 created: 2026-06-20
-updated: 2026-06-20
+updated: 2026-07-31
+wire_status: wont_wire
+wire_target: "NO-GO CCC — overlaps claude-mem + wiki"
 ---
 
 ## Relations

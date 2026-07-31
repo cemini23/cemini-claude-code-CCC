@@ -11,7 +11,9 @@ related:
   - sources/brief-k120-user-as-code-dynamo-prod-2026-06-20.md
 maturity: draft
 created: 2026-06-20
-updated: 2026-06-30
+updated: 2026-07-31
+wire_status: policy_wired
+wire_target: ".cursor/rules/cemini-phase1-ccc-harness.mdc"
 ---
 
 ## Relations

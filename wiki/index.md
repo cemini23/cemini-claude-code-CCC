@@ -29,6 +29,8 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`tycho-arc-agi`](entities/tools/tycho-arc-agi.md) | draft | ARC-AGI-3 programmatic world models — Apache (K231) |
 | [`agentradio`](entities/tools/agentradio.md) | draft | Async multi-agent awareness layer — Apache (K232) |
 | [`askchem`](entities/tools/askchem.md) | draft | Claim-centered literature MCP — MIT REFERENCE (K233) |
+| [`asm-adopt-orphan`](entities/tools/asm-adopt-orphan.md) | draft | Orphan CCC adopt — Phase-1 wont_wire |
+| [`biosecbench-surveillance`](entities/tools/biosecbench-surveillance.md) | draft | Biosecurity eval orphan adopt — Phase-1 wont_wire |
 | [`rrbench`](entities/tools/rrbench.md) | draft | MIT local open-weight data-prep eval — GO REFERENCE (K212) |
 | [`tars-vscode`](entities/tools/tars-vscode.md) | draft | VS Code ToM code explainer — MIT GO clone (K192) |
 | [`claude-code-router`](entities/tools/claude-code-router.md) | draft | Local LLM proxy for routing + caching headers |

@@ -8,7 +8,9 @@ related:
   - concepts/policy-as-code-layered-validation-for-agent-artifacts.md
 maturity: draft
 created: 2026-07-17
-updated: 2026-07-17
+updated: 2026-07-31
+wire_status: policy_wired
+wire_target: ".cursor/rules/cemini-phase1-ccc-harness.mdc"
 ---
 
 ## Narrative

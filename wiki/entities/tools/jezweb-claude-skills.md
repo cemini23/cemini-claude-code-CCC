@@ -9,7 +9,9 @@ related:
   - sources/multi-wiki-tool-eval-v5-k88-2026-05-31.md
 maturity: draft
 created: 2026-05-31
-updated: 2026-05-31
+updated: 2026-07-31
+wire_status: policy_wired
+wire_target: ".cursor/rules/cemini-phase1-ccc-harness.mdc"
 ---
 
 ## Relations

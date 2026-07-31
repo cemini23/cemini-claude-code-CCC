@@ -10,7 +10,9 @@ related:
   - entities/tools/cc-wf-studio.md
 maturity: draft
 created: 2026-07-20
-updated: 2026-07-20
+updated: 2026-07-31
+wire_status: policy_wired
+wire_target: ".cursor/rules/cemini-phase1-ccc-harness.mdc"
 ---
 
 ## Relations

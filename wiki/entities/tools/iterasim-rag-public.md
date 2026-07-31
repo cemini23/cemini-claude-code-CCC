@@ -8,7 +8,9 @@ related:
   - concepts/multi-stage-rag-architect-reviewer-triad.md
 maturity: draft
 created: 2026-07-23
-updated: 2026-07-23
+updated: 2026-07-31
+wire_status: wont_wire
+wire_target: "REFERENCE eval kit — no retrieval engine"
 ---
 
 ## Relations

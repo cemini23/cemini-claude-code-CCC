@@ -1,3 +1,15 @@
+## [2026-07-31] phase1 | CCC backlog clear
+
+- **MCP:** no new servers from this backlog (nuance=TEM OOD; euclid needs SWI-Prolog + niche; SearchOS/askchem need keys/domain). Keep exa/fetch/codebase-memory + global github/brave. Revisit euclid only if operator wants deterministic proof MCP.
+
+- New alwaysApply rule `.cursor/rules/cemini-phase1-ccc-harness.mdc` (schema-bound MCP, policy-as-code, DAG validate, LightMem2 compaction, Bayesian≠Phase-0, skill packaging, ToM, flowforge/canvas, FARA verifier, AIH citation)
+- CCC clones: **0 unwired** — policy_wired (patterns) + runtime_wired (mattpocock) + wont_wire (REFERENCE/trainers/OOD)
+- Stubs: `asm-adopt-orphan`, `biosecbench-surveillance`
+- Inventory aliases expanded in `scripts/phase1_adopt_inventory.py`
+- OSINT rows left for OSINT wiki `/phase1` paste (out of CCC surface)
+
+---
+
 ## [2026-07-31] harness | federation skill autosync
 
 - `sync_federation_cursor_skills.sh` auto-discovers CCC skills with `federation: true` (no hard-coded CANON list)

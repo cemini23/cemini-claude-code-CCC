@@ -8,7 +8,9 @@ related:
   - concepts/acp-mcp-three-layer-human-agent-execution.md
 maturity: draft
 created: 2026-07-17
-updated: 2026-07-17
+updated: 2026-07-31
+wire_status: wont_wire
+wire_target: "CONDITIONAL clients-only — core sancho 404"
 ---
 
 ## Narrative

@@ -5,6 +5,8 @@ description: >-
   (Cursor rules, CLAUDE.md bullets, rare MCP/PATH/skill installs). Use when
   the user invokes /phase1, says "wire adopts", or after an ingest with
   ADOPT/GO items still unwired.
+metadata.author: cemini23
+metadata.version: "1.0.0"
 disable-model-invocation: false
 federation: true
 ---

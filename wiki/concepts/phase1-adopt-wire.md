@@ -12,6 +12,8 @@ related:
   - concepts/active-abstraction-programmatic-world-models.md
   - concepts/passive-awareness-async-multi-agent-coordination.md
   - concepts/claim-centered-retrieval-with-provenance.md
+  - entities/tools/asm-adopt-orphan.md
+  - entities/tools/biosecbench-surveillance.md
 maturity: draft
 created: 2026-07-31
 updated: 2026-07-31
@@ -23,6 +25,12 @@ updated: 2026-07-31
 - `@concepts/skill-vetting.md` — Phase-0 gate (audit ≠ wire)
 - `@concepts/k73-phase0-audit-decisions.md` — eval ≠ adopt; Phase-1 adds ≠ wire
 - `@concepts/cross-wiki-tool-adoption-routing.md` — which wiki owns the wire
+- `@concepts/reconstructive-agent-memory-vs-verbatim-replay.md` — MemHarness policy
+- `@concepts/active-abstraction-programmatic-world-models.md` — Tycho policy
+- `@concepts/passive-awareness-async-multi-agent-coordination.md` — AgentRadio policy
+- `@concepts/claim-centered-retrieval-with-provenance.md` — AskChem policy
+- `@entities/tools/asm-adopt-orphan.md` — CCC orphan adopt wont_wire
+- `@entities/tools/biosecbench-surveillance.md` — CCC orphan adopt wont_wire
 
 ## Raw Concept
 

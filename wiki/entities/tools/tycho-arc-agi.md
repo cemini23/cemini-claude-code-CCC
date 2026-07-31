@@ -9,7 +9,7 @@ related:
   - sources/brief-k230-k233-memharness-tycho-agentradio-askchem-2026-07-31.md
 maturity: draft
 wire_status: policy_wired
-wire_target: \"REFERENCE .local/adopts/Tycho — policy in .cursor/rules/cemini-phase1-policy-wires.mdc (build/use/bypass)\"
+wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"
 created: 2026-07-31
 updated: 2026-07-31
 ---

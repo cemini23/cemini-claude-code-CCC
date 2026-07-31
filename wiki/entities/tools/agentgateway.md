@@ -12,7 +12,9 @@ related:
   - concepts/slm-agent-orchestration-gateway.md
 maturity: draft
 created: 2026-07-20
-updated: 2026-07-20
+updated: 2026-07-31
+wire_status: wont_wire
+wire_target: "REFERENCE MCP proxy study — not prod/TipDrop LIVE"
 ---
 
 ## Relations

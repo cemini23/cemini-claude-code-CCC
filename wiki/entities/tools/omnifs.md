@@ -12,8 +12,10 @@ related:
   - concepts/cross-wiki-tool-eval-inventory.md
 maturity: draft
 created: 2026-06-09
-updated: 2026-06-09
+updated: 2026-07-31
 phase_0_verdict: "CONDITIONAL-GO 2026-06-09 — Apache-2.0; laptop eval only; not prod/kb-server"
+wire_status: wont_wire
+wire_target: "CONDITIONAL laptop only — NO-GO prod/kb until design brief"
 ---
 
 ## Relations

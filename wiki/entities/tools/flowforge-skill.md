@@ -12,7 +12,9 @@ related:
   - concepts/cross-wiki-tool-adoption-routing.md
 maturity: draft
 created: 2026-06-06
-updated: 2026-06-06
+updated: 2026-07-31
+wire_status: policy_wired
+wire_target: ".cursor/rules/cemini-phase1-ccc-harness.mdc"
 ---
 
 ## Relations

@@ -1,0 +1,70 @@
+---
+description: Phase-1 CCC harness steals — schema-bound MCP, policy-as-code, DAG validate, memory compaction, skill packaging, ToM
+alwaysApply: true
+---
+
+# Phase-1 CCC harness backlog wires
+
+Patterns from CCC `.local/adopts/` that agents must follow. Clones stay REFERENCE unless `wire_status: runtime_wired`.
+
+## Schema-bound tools (nuance-mcp / K198)
+
+- Before side-effecting MCP/tool calls: args must pass **schema / typed bounds** (reject physically or contract-impossible values).
+- Prefer skills as **compositions of typed tools**, not free-form shell soup.
+- Do **not** add nuance-mcp (instruments domain) to prod MCP allowlist without an operator ticket.
+
+## Policy-as-code on artifacts (satellite-mission-compiler / K181)
+
+- High-blast plans (deploys, LIVE Discord, trading egress, destructive git): validate **schema then policy** before execute.
+- Steal layered OPA/Rego-style gates; do **not** run satellite runtime or Argo fleets from `.local/adopts/satellite-mission-compiler`.
+
+## Validate DAG before run (DynAMO / DataFlow)
+
+- Multi-step agent workflows: ensure a **validated DAG / ready-set** before parallel fan-out; prune context per node.
+- OpenDCAI DataFlow / DynAMO clones = pattern study only — **not** TipDrop/prod deps (WebUI NOASSERTION).
+
+## Compaction ≠ replace memory owner (LightMem2)
+
+- Prefer **ingestion-aware compaction** and lifecycle eviction over dumping raw history.
+- Do **not** replace claude-mem / wiki dual-memory with LightMem2. Clone = TokenPilot study only.
+
+## Posterior ≠ Phase-0 (Bayesian-Agent)
+
+- Skill/registry posteriors may rank rewrite priority — they **never** replace `@concepts/skill-vetting.md` Phase-0 (license/security).
+- `.local/adopts/Bayesian-Agent` = CONDITIONAL laptop trial only.
+
+## Skill packaging, no catalog mirror (jezweb / agents4geos / Awesome-AE)
+
+- Steal **SKILL.md structure**, frontmatter, test hooks — file into wiki/skills.
+- **No** remote catalog mirroring (LESSONS 2026-05-13). Awesome-Agent-Engineering = digest pointer only.
+- agents4geos = MCP+skills packaging REFERENCE; **NO-GO** full GEOS stack (>500MB).
+
+## ToM explanations (tars)
+
+- When the operator is confused or asks “why”: prefer **personalized / theory-of-mind** style explanation over opaque tool dumps.
+- TARS VSIX = REFERENCE — not a default Cursor extension.
+
+## Diagrams (flowforge-skill)
+
+- Prefer **Cursor canvas** for analytical diagrams in this federation.
+- Optional NL→draw.io skill only after skill-scanner + operator OK — not required for CCC.
+
+## Browser harness verify (fara)
+
+- Steal **verifier-triple / synthetic env** discipline for browser checks.
+- Do **not** adopt native CUA inference stacks; keep cursor-ide-browser + Webwright.
+
+## Traceable scholarship (AIH-Infra / K210)
+
+- Citation-first: claim + locator (`@path` / URL / DOI / quote). Unsupported → **NO_EVIDENCE**.
+- AIH-Infra clone = white-paper REFERENCE — wiki citation discipline already wins.
+
+## Already runtime-wired
+
+- mattpocock: `to-issues` + `grill-with-docs` via federation sync (`federation: true`).
+
+## Meta
+
+- Inventory: `python3 scripts/phase1_adopt_inventory.py --write-brief`
+- Skip Image-gen / 3D local wire backlogs
+- Trainers / Harbor / Modal / ARC runners / `curl|sh` = `wont_wire`

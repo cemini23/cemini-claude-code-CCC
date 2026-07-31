@@ -13,8 +13,10 @@ related:
   - sources/brief-k126-nvidia-mattpocock-skills-adopt-2026-06-22.md
 maturity: draft
 created: 2026-06-22
-updated: 2026-06-30
+updated: 2026-07-31
 cross-wiki-source: "@osint-wiki/entities/tools/mattpocock-skills.md"
+wire_status: runtime_wired
+wire_target: ".cursor/skills/to-issues/ + .cursor/skills/grill-with-docs/"
 ---
 
 ## Relations

@@ -8,7 +8,9 @@ related:
   - concepts/searchos-socm-explicit-search-state.md
 maturity: draft
 created: 2026-07-17
-updated: 2026-07-18
+updated: 2026-07-31
+wire_status: wont_wire
+wire_target: "REFERENCE multi-agent search — needs API setup; not prod-wired"
 ---
 
 ## Relations
