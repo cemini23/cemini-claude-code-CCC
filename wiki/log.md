@@ -1,3 +1,14 @@
+## [2026-07-31] ingest | MemHarness + Tycho + AgentRadio + AskChem (K230–K233)
+
+- **K230 — MemHarness (2607.28272):** reconstruct retrieved memory for current state; GRPO; negative-transfer fix. **ADOPT**; **GO** Apache `.local/adopts/MemHarness` (~39MB).
+- **K231 — Tycho (2607.28287):** active abstraction; sim fidelity ≠ RHAE; build/use/bypass. **ADOPT**; **GO** Apache `.local/adopts/Tycho` (~2.5MB); game-dev ARC stub.
+- **K232 — AgentRadio (2607.28430):** async threads/messages/wait-for-mentions; 62.1% vs 32.3% SWE-Atlas. **ADOPT**; **GO** Apache `.local/adopts/AgentRadio` (~13MB).
+- **K233 — AskChem (2607.28618):** claim-centered DOI+quote retrieval + MCP; chemistry OOD. **ADOPT** pattern; **GO** MIT `.local/adopts/askchem` (~9.3MB).
+- **Pages:** 4 sources + 4 concepts + 4 entities + brief stub + handoff; Phase-0 k230–k233; prod + David + poker.
+- **Archive:** 4 PDFs → egress-fi `ccc/`.
+
+---
+
 ## [2026-07-30] ingest | MTGuard + HANDBOOK + MCPApps HITL + CHILL + SHarD + VetClaw + AgentSnare + MemSecBench + CAM-DF (K221–K229)
 
 - **K221 — MTGuard (2607.25297):** lifecycle static–dynamic MCP co-analysis; FPR 3.7%. **ADOPT**; **NO-GO** code.

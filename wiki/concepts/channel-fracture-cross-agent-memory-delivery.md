@@ -25,9 +25,11 @@ related:
   - sources/arxiv-memprobe-hidden-user-state-recovery-2606.24595.md
   - concepts/modular-instruction-memory-learnable-selection.md
   - concepts/memory-poisoning-write-execute-forget-lifecycle.md
+  - concepts/passive-awareness-async-multi-agent-coordination.md
+  - sources/arxiv-agentradio-passive-awareness-multi-agent-2607.28430.md
 maturity: draft
 created: 2026-06-12
-updated: 2026-07-30
+updated: 2026-07-31
 ---
 
 ## Relations

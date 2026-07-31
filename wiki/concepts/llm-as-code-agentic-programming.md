@@ -19,9 +19,11 @@ related:
   - concepts/autonomous-coding-agents-enterprise-data.md
   - sources/arxiv-data-intelligence-agents-dia-2606.19319.md
   - sources/brief-k116-orchrm-harnessx-llm-as-code-prod-2026-06-16.md
+  - concepts/active-abstraction-programmatic-world-models.md
+  - sources/arxiv-tycho-active-abstraction-world-models-2607.28287.md
 maturity: draft
 created: 2026-06-16
-updated: 2026-06-30
+updated: 2026-07-31
 ---
 
 ## Relations

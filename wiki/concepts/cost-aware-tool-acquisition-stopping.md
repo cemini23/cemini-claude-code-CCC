@@ -10,9 +10,11 @@ related:
   - concepts/token-economics-and-prompt-caching.md
   - concepts/hierarchical-skill-stack-lazy-orchestration.md
   - sources/brief-k221-k229-mcp-harness-security-ingest-2026-07-30.md
+  - concepts/active-abstraction-programmatic-world-models.md
+  - sources/arxiv-tycho-active-abstraction-world-models-2607.28287.md
 maturity: draft
 created: 2026-07-30
-updated: 2026-07-30
+updated: 2026-07-31
 ---
 
 ## Relations

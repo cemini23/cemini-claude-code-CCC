@@ -14,9 +14,11 @@ related:
   - concepts/failure-mode-harness-adaptation-mapping.md
   - sources/arxiv-better-harnesses-smaller-models-2607.08938.md
   - concepts/solver-grounded-agent-numerics.md
+  - concepts/active-abstraction-programmatic-world-models.md
+  - sources/arxiv-tycho-active-abstraction-world-models-2607.28287.md
 maturity: draft
 created: 2026-07-07
-updated: 2026-07-21
+updated: 2026-07-31
 ---
 
 ## Relations

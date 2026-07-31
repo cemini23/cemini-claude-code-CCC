@@ -9,9 +9,11 @@ related:
   - concepts/multi-agent-evidence-artifact-layers.md
   - concepts/verifiable-deterministic-agent-benchmarking.md
   - sources/brief-k210-k214-traceable-euclid-acm-openforge-2026-07-24.md
+  - concepts/claim-centered-retrieval-with-provenance.md
+  - sources/arxiv-askchem-claim-centered-literature-2607.28618.md
 maturity: draft
 created: 2026-07-24
-updated: 2026-07-24
+updated: 2026-07-31
 ---
 
 ## Relations

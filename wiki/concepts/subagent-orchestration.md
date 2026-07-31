@@ -128,9 +128,11 @@ related:
   - concepts/langgraph-stateful-workflow-pathways.md
   - sources/arxiv-langgraph-stateful-business-workflows-2607.19297.md
   - entities/tools/openai-codex-cli.md
+  - concepts/passive-awareness-async-multi-agent-coordination.md
+  - sources/arxiv-agentradio-passive-awareness-multi-agent-2607.28430.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-07-30
+updated: 2026-07-31
 ---
 
 ## Relations

@@ -11,9 +11,10 @@ related:
   - concepts/channel-fracture-cross-agent-memory-delivery.md
   - concepts/dual-representation-agent-memory.md
   - sources/brief-k221-k229-mcp-harness-security-ingest-2026-07-30.md
+  - concepts/reconstructive-agent-memory-vs-verbatim-replay.md
 maturity: draft
 created: 2026-07-30
-updated: 2026-07-30
+updated: 2026-07-31
 ---
 
 ## Relations

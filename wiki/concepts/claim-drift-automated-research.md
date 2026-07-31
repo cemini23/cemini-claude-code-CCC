@@ -24,9 +24,11 @@ related:
   - sources/arxiv-data-intelligence-agents-dia-2606.19319.md
   - sources/brief-k122-xcientist-claim-drift-prod-2026-06-22.md
   - concepts/bounded-self-refinement-vs-rsi-taxonomy.md
+  - concepts/claim-centered-retrieval-with-provenance.md
+  - sources/arxiv-askchem-claim-centered-literature-2607.28618.md
 maturity: draft
 created: 2026-06-22
-updated: 2026-07-14
+updated: 2026-07-31
 ---
 
 ## Relations

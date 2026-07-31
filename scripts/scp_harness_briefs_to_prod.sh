@@ -134,6 +134,11 @@ BRIEFS=(
   "2026-07-30_k221-k229-harness-policy-hands-on.md"
   "2026-07-29_k220-optimistic-verifiable-claims-prod.md"
   "2026-07-31_k221-gplan-intermediate-compiler-prod.md"
+  "2026-07-31_k230-memharness-reconstructive-memory-prod.md"
+  "2026-07-31_k231-tycho-active-abstraction-prod.md"
+  "2026-07-31_k232-agentradio-passive-awareness-prod.md"
+  "2026-07-31_k233-askchem-claim-centered-prod.md"
+  "2026-07-31_k230-k233-harness-policy-hands-on.md"
 )
 
 echo "SCP harness briefs → ${REMOTE}"

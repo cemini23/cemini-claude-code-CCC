@@ -10,9 +10,11 @@ related:
   - concepts/agent-memory-stack-comparison.md
   - concepts/mcp-pre-trade-diligence-boundary.md
   - concepts/executable-user-memory-user-as-code.md
+  - concepts/reconstructive-agent-memory-vs-verbatim-replay.md
+  - sources/arxiv-memharness-reconstructed-memory-2607.28272.md
 maturity: draft
 created: 2026-06-17
-updated: 2026-06-20
+updated: 2026-07-31
 ---
 
 ## Relations

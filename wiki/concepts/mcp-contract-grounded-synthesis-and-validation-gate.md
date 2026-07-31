@@ -27,9 +27,10 @@ related:
   - entities/tools/nuance-mcp.md
   - sources/arxiv-dataflow-harness-nl2pipeline-2607.16617.md
   - concepts/hybrid-static-dynamic-mcp-tool-security.md
+  - concepts/claim-centered-retrieval-with-provenance.md
 maturity: draft
 created: 2026-07-16
-updated: 2026-07-30
+updated: 2026-07-31
 ---
 
 ## Relations

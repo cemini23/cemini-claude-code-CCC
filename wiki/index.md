@@ -25,6 +25,10 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`aih-infra`](entities/tools/aih-infra.md) | draft | Traceable Scholarship MIT pointer — GO REFERENCE (K210) |
 | [`euclid-mcp`](entities/tools/euclid-mcp.md) | draft | Apache Prolog MCP reasoning — GO REFERENCE (K211) |
 | [`shard-secure-harness-distribution`](entities/tools/shard-secure-harness-distribution.md) | draft | SHarD / shard-demo MIT REFERENCE — K225 |
+| [`memharness`](entities/tools/memharness.md) | draft | Reconstructive memory harness — Apache REFERENCE (K230) |
+| [`tycho-arc-agi`](entities/tools/tycho-arc-agi.md) | draft | ARC-AGI-3 programmatic world models — Apache (K231) |
+| [`agentradio`](entities/tools/agentradio.md) | draft | Async multi-agent awareness layer — Apache (K232) |
+| [`askchem`](entities/tools/askchem.md) | draft | Claim-centered literature MCP — MIT REFERENCE (K233) |
 | [`rrbench`](entities/tools/rrbench.md) | draft | MIT local open-weight data-prep eval — GO REFERENCE (K212) |
 | [`tars-vscode`](entities/tools/tars-vscode.md) | draft | VS Code ToM code explainer — MIT GO clone (K192) |
 | [`claude-code-router`](entities/tools/claude-code-router.md) | draft | Local LLM proxy for routing + caching headers |
@@ -410,6 +414,10 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`agent-decoy-defense-vs-offensive-agents`](concepts/agent-decoy-defense-vs-offensive-agents.md) | draft | AgentSnare CCC stub — 2607.26998 (K227) |
 | [`memory-poisoning-write-execute-forget-lifecycle`](concepts/memory-poisoning-write-execute-forget-lifecycle.md) | draft | MemSecBench WEF memory poisoning — 2607.27080 (K228) |
 | [`cost-aware-tool-acquisition-stopping`](concepts/cost-aware-tool-acquisition-stopping.md) | draft | CAM-DF scores≠decisions tool depth — 2607.27083 (K229) |
+| [`reconstructive-agent-memory-vs-verbatim-replay`](concepts/reconstructive-agent-memory-vs-verbatim-replay.md) | draft | Reconstruct memory for current state — 2607.28272 (K230) |
+| [`active-abstraction-programmatic-world-models`](concepts/active-abstraction-programmatic-world-models.md) | draft | Build/use/bypass programmatic world models — 2607.28287 (K231) |
+| [`passive-awareness-async-multi-agent-coordination`](concepts/passive-awareness-async-multi-agent-coordination.md) | draft | AgentRadio async passive awareness — 2607.28430 (K232) |
+| [`claim-centered-retrieval-with-provenance`](concepts/claim-centered-retrieval-with-provenance.md) | draft | Claim-unit retrieval + DOI/quote — 2607.28618 (K233) |
 
 ## sources/
 
@@ -634,6 +642,11 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-memsecbench-memory-poisoning-lifecycle-2607.27080`](sources/arxiv-memsecbench-memory-poisoning-lifecycle-2607.27080.md) | draft | MemSecBench WEF — 2607.27080 (K228) |
 | [`arxiv-cam-df-cost-aware-tool-stopping-2607.27083`](sources/arxiv-cam-df-cost-aware-tool-stopping-2607.27083.md) | draft | CAM-DF tool acquisition stopping — 2607.27083 (K229) |
 | [`brief-k221-k229-mcp-harness-security-ingest-2026-07-30`](sources/brief-k221-k229-mcp-harness-security-ingest-2026-07-30.md) | validated | K221–K229 prod/David/poker brief stub |
+| [`arxiv-memharness-reconstructed-memory-2607.28272`](sources/arxiv-memharness-reconstructed-memory-2607.28272.md) | draft | MemHarness — 2607.28272 (K230) |
+| [`arxiv-tycho-active-abstraction-world-models-2607.28287`](sources/arxiv-tycho-active-abstraction-world-models-2607.28287.md) | draft | Tycho ARC-AGI-3 — 2607.28287 (K231) |
+| [`arxiv-agentradio-passive-awareness-multi-agent-2607.28430`](sources/arxiv-agentradio-passive-awareness-multi-agent-2607.28430.md) | draft | AgentRadio — 2607.28430 (K232) |
+| [`arxiv-askchem-claim-centered-literature-2607.28618`](sources/arxiv-askchem-claim-centered-literature-2607.28618.md) | draft | AskChem — 2607.28618 (K233) |
+| [`brief-k230-k233-memharness-tycho-agentradio-askchem-2026-07-31`](sources/brief-k230-k233-memharness-tycho-agentradio-askchem-2026-07-31.md) | validated | K230–K233 brief stub |
 
 ## meta/
 

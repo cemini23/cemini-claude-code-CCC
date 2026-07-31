@@ -15,9 +15,11 @@ related:
   - sources/brief-k153-miles-modular-instruction-memory-2026-07-13.md
   - briefs/2026-07-13_ccc-handoff-memory-search-trustx-ingest.md
   - concepts/hierarchical-bounded-agent-memory.md
+  - concepts/reconstructive-agent-memory-vs-verbatim-replay.md
+  - sources/arxiv-memharness-reconstructed-memory-2607.28272.md
 maturity: draft
 created: 2026-07-13
-updated: 2026-07-13
+updated: 2026-07-31
 ---
 
 ## Relations

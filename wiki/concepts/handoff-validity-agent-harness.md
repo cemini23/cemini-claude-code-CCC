@@ -35,9 +35,10 @@ related:
   - sources/brief-k119-agent-first-web-eda-handoff-prod-2026-06-19.md
   - concepts/algorithmic-impermeability-model-agnostic-orchestration.md
   - sources/arxiv-large-cancer-assistant-lca-2607.06531.md
+  - concepts/passive-awareness-async-multi-agent-coordination.md
 maturity: draft
 created: 2026-06-19
-updated: 2026-07-09
+updated: 2026-07-31
 ---
 
 ## Relations

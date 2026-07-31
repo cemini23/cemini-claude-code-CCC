@@ -14,9 +14,11 @@ related:
   - entities/patterns/full-prompt-goal-template.md
   - sources/brief-k124-harness-policy-hands-on-2026-06-24.md
   - concepts/modular-instruction-memory-learnable-selection.md
+  - concepts/reconstructive-agent-memory-vs-verbatim-replay.md
+  - sources/arxiv-memharness-reconstructed-memory-2607.28272.md
 maturity: draft
 created: 2026-06-24
-updated: 2026-07-13
+updated: 2026-07-31
 ---
 
 ## Relations

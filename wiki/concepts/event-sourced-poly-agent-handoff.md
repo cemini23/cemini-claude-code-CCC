@@ -15,9 +15,11 @@ related:
   - concepts/agent-memory-stack-comparison.md
   - sources/brief-k125-memory-orchestration-cluster-2026-06-25.md
   - sources/brief-k125-esaa-windows-handoff-2026-06-25.md
+  - concepts/passive-awareness-async-multi-agent-coordination.md
+  - sources/arxiv-agentradio-passive-awareness-multi-agent-2607.28430.md
 maturity: draft
 created: 2026-06-25
-updated: 2026-06-30
+updated: 2026-07-31
 ---
 
 ## Relations

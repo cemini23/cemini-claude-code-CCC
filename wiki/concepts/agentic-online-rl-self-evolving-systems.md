@@ -21,9 +21,10 @@ related:
   - sources/arxiv-toolverse-long-horizon-mcp-rl-2607.15660.md
   - concepts/harness-native-agent-rl-training.md
   - sources/arxiv-openforgerl-harness-native-training-2607.21557.md
+  - concepts/reconstructive-agent-memory-vs-verbatim-replay.md
 maturity: draft
 created: 2026-07-07
-updated: 2026-07-24
+updated: 2026-07-31
 ---
 
 ## Relations

@@ -16,9 +16,10 @@ related:
   - meta/ccc-cross-wiki-handoff-briefs.md
   - concepts/cost-aware-tool-acquisition-stopping.md
   - sources/arxiv-cam-df-cost-aware-tool-stopping-2607.27083.md
+  - concepts/active-abstraction-programmatic-world-models.md
 maturity: draft
 created: 2026-06-27
-updated: 2026-07-30
+updated: 2026-07-31
 cross-wiki-primary: "@image-gen-wiki/concepts/confidence-aware-tool-orchestration.md"
 ---
 

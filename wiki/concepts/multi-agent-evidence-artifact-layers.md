@@ -23,9 +23,11 @@ related:
   - concepts/multi-stage-rag-architect-reviewer-triad.md
   - concepts/traceable-scholarship-citation-first-generation.md
   - sources/arxiv-traceable-scholarship-aih-infra-2607.20916.md
+  - concepts/claim-centered-retrieval-with-provenance.md
+  - sources/arxiv-askchem-claim-centered-literature-2607.28618.md
 maturity: draft
 created: 2026-06-24
-updated: 2026-07-24
+updated: 2026-07-31
 ---
 
 ## Relations
