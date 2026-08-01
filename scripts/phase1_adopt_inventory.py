@@ -84,6 +84,20 @@ CLONE_ENTITY_ALIASES = {
         "genealogy_ai": "entities/tools/genealogy-ai.md",
         "cod_fiscale": "entities/tools/cod-fiscale.md",
         "GeoLibre": "entities/tools/geolibre.md",
+        # K216 Phase-0 clone dirs → entity pages
+        "gedcom": "entities/tools/tmcw-gedcom.md",
+        "AncestryLLM": "entities/tools/ancestryllm.md",
+        "davidondrej-skills": "entities/tools/davidondrej-skills.md",
+        "magika": "entities/tools/google-magika.md",
+        "gedcomx": "entities/tools/gedcomx.md",
+        "FamilySearch-GEDCOM": "entities/tools/familysearch-gedcom.md",
+        "gh-stack": "entities/tools/gh-stack.md",
+        "dust": "entities/tools/dust-du.md",
+        "tailspin": "entities/tools/tailspin.md",
+        "waveterm": "entities/tools/waveterm.md",
+        "openaddresses": "entities/tools/openaddresses.md",
+        "rclone": "entities/tools/rclone.md",
+        "openapi-directory": "entities/tools/openapi-directory.md",
     },
 }
 

@@ -1,0 +1,9 @@
+---
+description: K216 Phase-1 CCC — gh-stack + DeepSeek Flash-0731 note
+alwaysApply: true
+---
+
+# CCC — K216 Phase-1
+
+- Optional Extract: `github/gh-stack` (MIT) at OSINT `.local/adopts/gh-stack` for stacked-PR hygiene.
+- DeepSeek-V4-Flash-0731 is behind existing `deepseek-v4-flash` — claude-ds / DEEPSEEK_MODEL need **no** retarget.
