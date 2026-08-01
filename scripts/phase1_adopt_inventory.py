@@ -107,6 +107,7 @@ CLONE_ENTITY_ALIASES = {
         "kurrentschrift": "entities/tools/kurrentschrift.md",
         "htrflow": "entities/tools/htrflow.md",
         "htrace.sh": "entities/tools/htrace-sh.md",
+        "franken_ocr": "entities/tools/franken-ocr.md",
     },
 }
 
