@@ -98,6 +98,15 @@ CLONE_ENTITY_ALIASES = {
         "openaddresses": "entities/tools/openaddresses.md",
         "rclone": "entities/tools/rclone.md",
         "openapi-directory": "entities/tools/openapi-directory.md",
+        # K217 Phase-0 OCR/HTR
+        "localOCR": "entities/tools/curiosity-localocr.md",
+        "Unlimited-OCR": "entities/tools/unlimited-ocr.md",
+        "DeepSeek-OCR": "entities/tools/deepseek-ocr.md",
+        "SimpleHTR": "entities/tools/simplehtr.md",
+        "OCRmyPDF": "entities/tools/ocrmypdf.md",
+        "kurrentschrift": "entities/tools/kurrentschrift.md",
+        "htrflow": "entities/tools/htrflow.md",
+        "htrace.sh": "entities/tools/htrace-sh.md",
     },
 }
 
