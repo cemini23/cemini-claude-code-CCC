@@ -5,6 +5,7 @@ tags: [skill, cursor, multi-model, audit, subagent, glasswing, openrouter, deeps
 keywords: [super-audit, five-model-audit, council-super-audit, cursor-audit, OpenRouter, DeepSeek, ADVISOR, pre-ship, readonly-subagent, role-delegation, premium-models, deliberate-disagreement]
 related:
   - entities/skills/cursor-audit.md
+  - entities/skills/free-audit.md
   - entities/tools/claude-code.md
   - concepts/subagent-orchestration.md
   - entities/patterns/glasswing-deliberate-disagreement.md
@@ -26,6 +27,7 @@ cross-wiki-source: "OSINT WORKSPACE .cursor/skills/super-audit/ (2026-06-09); pu
 ## Relations
 
 - `@entities/skills/cursor-audit.md` — 3-model baseline; super-audit extends with 2 HTTP API auditors
+- `@entities/skills/free-audit.md` — low-cost Grok-orchestrated council (0 Cursor Task; free OR + DeepSeek Flash)
 - `@entities/tools/claude-code.md` — Cursor Task-tool native (not Claude Code `Agent` tool)
 - `@concepts/subagent-orchestration.md` — parallel readonly fan-out + separate API leg
 - `@entities/patterns/glasswing-deliberate-disagreement.md` — 5-model conflict table gates ship

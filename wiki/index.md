@@ -139,6 +139,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`src-hunter-skill`](entities/skills/src-hunter-skill.md) | draft | 305-payload, 19-playbook SKILL.md — largest single CC skill in the wild (MIT); design exemplar |
 | [`cursor-audit`](entities/skills/cursor-audit.md) | validated | Multi-model Cursor audit — public distro in agent-toolkit-demo; vet CI (2026-06-06) |
 | [`super-audit`](entities/skills/super-audit.md) | validated | Five-model pre-ship council — 3 Cursor + 2 API (OpenRouter/DeepSeek); agent-toolkit-demo (2026-06-09) |
+| [`free-audit`](entities/skills/free-audit.md) | draft | Low-cost Grok-orchestrated council — DeepSeek Flash + ≥2 free OpenRouter (no Cursor Task) |
 | [`to-issues`](entities/skills/to-issues.md) | draft | mattpocock vertical-slice issue decomposition — K126 Adopt (MIT) |
 | [`grill-with-docs`](entities/skills/grill-with-docs.md) | draft | mattpocock plan interview + ADRs — K126 Adopt (grill-me alias) |
 | [`phase1-wire`](entities/skills/phase1-wire.md) | draft | Phase-1 adopt-wire skill — /phase1 after Phase-0 |

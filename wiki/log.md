@@ -1,3 +1,12 @@
+## [2026-08-01] skill | free-audit — Grok-orchestrated low-cost council
+
+- New `.cursor/skills/free-audit/` (`federation: true`) — Cursor packs → Grok audits+orchestrates → claude-ds/DeepSeek V4 Flash + ≥2 dynamic free OpenRouter models (exclude DeepSeek/Grok)
+- Scripts: `build_audit_pack.py`, `select_free_or_models.py`, `prepare_free_audit.py`, `run_non_grok_legs.py`
+- Wiki: `entities/skills/free-audit.md`; backlinks on cursor-audit + super-audit
+- Parent Cursor delivers only `SYNTHESIS.md` path (minimal Cursor spend)
+
+---
+
 ## [2026-07-31] phase1 | CCC backlog clear
 
 - **MCP:** no new servers from this backlog (nuance=TEM OOD; euclid needs SWI-Prolog + niche; SearchOS/askchem need keys/domain). Keep exa/fetch/codebase-memory + global github/brave. Revisit euclid only if operator wants deterministic proof MCP.

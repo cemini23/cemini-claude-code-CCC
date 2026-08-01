@@ -5,6 +5,7 @@ tags: [skill, cursor, multi-model, audit, subagent, glasswing, debugging, SKILL.
 keywords: [cursor-audit, multi-model-audit, council-audit, second-opinion-debug, Task-tool, readonly-subagent, role-delegation, premium-models, deliberate-disagreement]
 related:
   - entities/skills/super-audit.md
+  - entities/skills/free-audit.md
   - entities/tools/claude-code.md
   - concepts/subagent-orchestration.md
   - entities/patterns/glasswing-deliberate-disagreement.md
@@ -23,6 +24,7 @@ cross-wiki-source: "OSINT WORKSPACE .cursor/skills/cursor-audit/ (mirrored 2026-
 ## Relations
 
 - `@entities/skills/super-audit.md` — 5-model extension (3 Cursor + 2 API) for pre-ship prod reviews
+- `@entities/skills/free-audit.md` — low-cost Grok-orchestrated council (0 Cursor Task)
 - `@entities/tools/claude-code.md` — sibling harness; cursor-audit is **Cursor Task-tool** native (not Claude Code `Agent` tool)
 - `@concepts/subagent-orchestration.md` — parallel readonly fan-out discipline
 - `@entities/patterns/glasswing-deliberate-disagreement.md` — conflict table gates ship decisions

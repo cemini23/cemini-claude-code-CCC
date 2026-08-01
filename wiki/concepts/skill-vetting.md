@@ -70,6 +70,7 @@ related:
   - "@cybersecurity-wiki/briefs/2026-05-31_ccc-handoff-k100-spi-skill-vetting-checklist.md"
   - entities/skills/cursor-audit.md
   - entities/skills/super-audit.md
+  - entities/skills/free-audit.md
   - concepts/skilladaptor-step-level-skill-adaptation.md
   - sources/arxiv-skilladaptor-2606.01311.md
   - concepts/mcp-server-runtime-fault-taxonomy.md
@@ -145,6 +146,7 @@ updated: 2026-07-30
 - @concepts/claude-premortem-skill.md — internal harness/skill **authoring** gate before Phase-0 on third-party installs
 - @entities/skills/cursor-audit.md — **internal** Cursor harness skill (authored in-repo); Phase-0 checklist does not apply — track via git + wiki page instead
 - @entities/skills/super-audit.md — same internal harness class as cursor-audit (five-model + API leg)
+- @entities/skills/free-audit.md — same internal harness class (Grok-orchestrated free council; no Cursor Task)
 
 ## Raw Concept
 
