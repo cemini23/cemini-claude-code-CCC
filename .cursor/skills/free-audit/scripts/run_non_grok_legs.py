@@ -14,6 +14,7 @@ import argparse
 import json
 import re
 import sys
+import time
 import urllib.error
 import urllib.request
 from datetime import datetime, timezone
@@ -51,6 +52,13 @@ TOOL_STUB_RE = re.compile(
 )
 
 VERDICT_RE = re.compile(r"(?im)^###\s*Verdict\b")
+FINDINGS_RE = re.compile(r"(?im)^###\s*Findings\b")
+CONFIDENCE_RE = re.compile(r"(?im)^###\s*Confidence\b")
+META_REASONING_RE = re.compile(
+    r"(?i)\b(let me (analyze|build|read|think)|i'll go WARN|hmm\s*[—\-]|"
+    r"severity labels:|keep it tight|we need to|"
+    r"WARN \(or FAIL\?\)|are there critical)\b"
+)
 
 SKIP_PACK_NAMES = {
     "audit_prompt.md",
@@ -68,6 +76,7 @@ def _chat(
     system: str,
     title: str,
     max_tokens: int = 8_000,
+    extra: dict | None = None,
 ) -> str:
     url = base_url.rstrip("/") + "/chat/completions"
     body: dict = {
@@ -81,6 +90,8 @@ def _chat(
         # Disable tools when the provider honors OpenAI-compatible tool_choice.
         "tool_choice": "none",
     }
+    if extra:
+        body.update(extra)
     headers = {
         "Authorization": f"Bearer {api_key}",
         "Content-Type": "application/json",
@@ -88,25 +99,55 @@ def _chat(
     if "openrouter.ai" in base_url:
         headers["HTTP-Referer"] = env("OPENROUTER_HTTP_REFERER", "https://github.com/cemini23")
         headers["X-Title"] = env("OPENROUTER_APP_TITLE", title)
-    data = json.dumps(body).encode("utf-8")
-    req = urllib.request.Request(url, data=data, headers=headers, method="POST")
-    try:
-        with urllib.request.urlopen(req, timeout=600) as resp:
-            payload = json.loads(resp.read().decode("utf-8"))
-    except urllib.error.HTTPError as e:
-        # Some providers reject tool_choice when no tools are declared — retry bare.
-        err_body = e.read().decode("utf-8", errors="replace") if e.fp else ""
-        if e.code in (400, 422) and "tool" in err_body.lower():
-            body.pop("tool_choice", None)
-            data = json.dumps(body).encode("utf-8")
-            req = urllib.request.Request(url, data=data, headers=headers, method="POST")
-            with urllib.request.urlopen(req, timeout=600) as resp:
-                payload = json.loads(resp.read().decode("utf-8"))
-        else:
-            raise
-    msg = payload["choices"][0]["message"]
+    def _post(payload_body: dict) -> dict:
+        data = json.dumps(payload_body).encode("utf-8")
+        req = urllib.request.Request(url, data=data, headers=headers, method="POST")
+        last_http: urllib.error.HTTPError | None = None
+        for attempt in range(3):
+            try:
+                with urllib.request.urlopen(req, timeout=600) as resp:
+                    return json.loads(resp.read().decode("utf-8"))
+            except urllib.error.HTTPError as e:
+                last_http = e
+                err_body = e.read().decode("utf-8", errors="replace") if e.fp else ""
+                if e.code == 429 and attempt < 2:
+                    time.sleep(8 * (attempt + 1))
+                    req = urllib.request.Request(
+                        url, data=data, headers=headers, method="POST"
+                    )
+                    continue
+                if (
+                    e.code in (400, 422)
+                    and "tool" in err_body.lower()
+                    and "tool_choice" in payload_body
+                ):
+                    payload_body = dict(payload_body)
+                    payload_body.pop("tool_choice", None)
+                    data = json.dumps(payload_body).encode("utf-8")
+                    req = urllib.request.Request(
+                        url, data=data, headers=headers, method="POST"
+                    )
+                    continue
+                raise
+        assert last_http is not None
+        raise last_http
+
+    payload = _post(body)
+    choices = payload.get("choices")
+    if not choices:
+        # OpenRouter rate-limit / error payloads often omit choices.
+        err = payload.get("error") or payload
+        raise KeyError(f"no choices in response: {err!r}"[:500])
+    msg = choices[0].get("message") or {}
     content = (msg.get("content") or "").strip()
-    # Some models put stubs in reasoning / tool_calls fields with empty content.
+    # DeepSeek V4 Flash often puts the full answer in reasoning_content with
+    # empty content (agentic / thinking models). Prefer content, else reasoning.
+    if not content:
+        for key in ("reasoning_content", "reasoning", "refusal"):
+            alt = msg.get(key)
+            if isinstance(alt, str) and alt.strip():
+                content = alt.strip()
+                break
     if not content:
         tool_calls = msg.get("tool_calls") or msg.get("function_call")
         if tool_calls:
@@ -119,15 +160,38 @@ def _safe_label(model_id: str) -> str:
     return f"auditor-or-{slug}"[:120]
 
 
+def _extract_verdict_section(text: str) -> str:
+    """If reasoning wraps the audit, keep from ### Verdict onward when present."""
+    m = VERDICT_RE.search(text)
+    if m and m.start() > 0:
+        return text[m.start():].strip()
+    return text.strip()
+
+
 def _looks_degraded(text: str) -> bool:
     if not text or len(text.strip()) < 40:
         return True
-    if TOOL_STUB_RE.search(text):
+    # Pure tool stubs (short) — but long reasoning that later has Verdict is OK
+    if TOOL_STUB_RE.search(text) and not VERDICT_RE.search(text):
         return True
     if not VERDICT_RE.search(text) and "### Verdict" not in text:
-        # Allow "Verdict" without hashes as weak pass only if substantial prose
         if not re.search(r"(?im)^Verdict\b", text):
             return True
+    # Incomplete audits: Verdict header but still brainstorming / missing sections
+    if META_REASONING_RE.search(text):
+        return True
+    if not FINDINGS_RE.search(text):
+        return True
+    if not CONFIDENCE_RE.search(text):
+        return True
+    # Need at least one markdown table row beyond the header
+    rows = [
+        ln
+        for ln in text.splitlines()
+        if ln.strip().startswith("|") and not re.match(r"^\|\s*-+", ln.strip())
+    ]
+    if len(rows) < 2:  # header + ≥1 finding
+        return True
     return False
 
 
@@ -200,6 +264,56 @@ def _write_report(dest: Path, *, model: str, channel: str, ts: str, content: str
     dest.write_text(header + "\n" + content.rstrip() + "\n", encoding="utf-8")
 
 
+def _provider_extra(base_url: str) -> dict:
+    """Provider-specific body knobs. DeepSeek V4 Flash defaults to thinking
+    that fills reasoning_content and starves the structured audit — disable it.
+    """
+    if "deepseek.com" in base_url:
+        return {"thinking": {"type": "disabled"}}
+    return {}
+
+
+def _finalize_from_notes(
+    *,
+    base_url: str,
+    api_key: str,
+    model: str,
+    notes: str,
+    title: str,
+) -> str:
+    """Second pass: turn long reasoning/notes into the required audit markdown."""
+    clip = notes.strip()
+    if len(clip) > 14_000:
+        clip = clip[:14_000] + "\n… truncated notes …\n"
+    prompt = (
+        "Convert the auditor notes below into the required free-audit markdown.\n"
+        "Output ONLY the finished audit — no planning, no 'let me', no drafts.\n"
+        "Start with exactly: ### Verdict\n"
+        "Then ### Findings with a markdown table (header + at least 2 finding rows).\n"
+        "Then ### Root cause, ### Confidence, ### Unique angle.\n"
+        "Verdict line must be: PASS | WARN | FAIL — short reason.\n"
+        "No tools. No preamble.\n\n"
+        "## Notes\n\n"
+        f"{clip}\n"
+    )
+    system = (
+        "You format audit notes into a finished markdown report. "
+        "No tools. No meta commentary. First line must be ### Verdict."
+    )
+    return _extract_verdict_section(
+        _chat(
+            base_url=base_url,
+            api_key=api_key,
+            model=model,
+            prompt=prompt,
+            system=system,
+            title=title,
+            max_tokens=6_000,
+            extra=_provider_extra(base_url),
+        )
+    )
+
+
 def _call_with_retry(
     *,
     base_url: str,
@@ -207,35 +321,61 @@ def _call_with_retry(
     model: str,
     prompt: str,
     title: str,
+    max_tokens: int = 8_000,
 ) -> tuple[str, bool, str]:
     """Return (content, ok, note)."""
-    content = _chat(
-        base_url=base_url,
-        api_key=api_key,
-        model=model,
-        prompt=prompt,
-        system=SYSTEM,
-        title=title,
+    extra = _provider_extra(base_url)
+    content = _extract_verdict_section(
+        _chat(
+            base_url=base_url,
+            api_key=api_key,
+            model=model,
+            prompt=prompt,
+            system=SYSTEM,
+            title=title,
+            max_tokens=max_tokens,
+            extra=extra,
+        )
     )
     if not _looks_degraded(content):
         return content, True, ""
     # Retry once with stricter system + nudge
     retry_prompt = (
         prompt
-        + "\n\nIMPORTANT: Your first attempt must have been a tool call. "
-        "Do not call tools. Start your reply with exactly: ### Verdict\n"
+        + "\n\nIMPORTANT: Do not call tools. Your final answer MUST start with "
+        "### Verdict and include the Findings table. "
+        "If you reason first, still finish with the full markdown audit.\n"
     )
-    content2 = _chat(
-        base_url=base_url,
-        api_key=api_key,
-        model=model,
-        prompt=retry_prompt,
-        system=RETRY_SYSTEM,
-        title=title,
+    content2 = _extract_verdict_section(
+        _chat(
+            base_url=base_url,
+            api_key=api_key,
+            model=model,
+            prompt=retry_prompt,
+            system=RETRY_SYSTEM,
+            title=title,
+            max_tokens=max_tokens,
+            extra=extra,
+        )
     )
     if not _looks_degraded(content2):
-        return content2, True, "retry-after-tool-stub"
-    return content2 or content, False, "degraded-tool-stub"
+        return content2, True, "retry-after-empty-or-stub"
+    # DeepSeek-style: long analysis without Verdict → format pass
+    notes = content2 if len(content2) >= len(content) else content
+    if len(notes) >= 200:
+        try:
+            final = _finalize_from_notes(
+                base_url=base_url,
+                api_key=api_key,
+                model=model,
+                notes=notes,
+                title=title,
+            )
+            if not _looks_degraded(final):
+                return final, True, "finalize-from-reasoning"
+        except (urllib.error.URLError, urllib.error.HTTPError, KeyError, TimeoutError, json.JSONDecodeError):
+            pass
+    return notes, False, "degraded-empty-or-tool-stub"
 
 
 def _alternate_free_models(primary: list[str], pool: list[dict], *, need: int = 2) -> list[str]:
@@ -345,6 +485,7 @@ def main() -> int:
                     model=ds_model,
                     prompt=prompt,
                     title="free-audit-claude-ds",
+                    max_tokens=16_000,
                 )
                 _write_report(dest, model=ds_model, channel="deepseek-api", ts=ts, content=content, note=note)
                 written.append(str(dest))

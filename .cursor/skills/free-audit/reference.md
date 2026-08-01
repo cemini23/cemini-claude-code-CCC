@@ -103,7 +103,14 @@ One thing other models might miss
 
 ## HTTP leg reliability
 
-`run_non_grok_legs.py` inlines pack artifacts and sets `tool_choice=none`. It detects tool-stub replies (DSML / `{"tool":"read"}` / missing `### Verdict`), retries once, then falls back to another free OR family. Prefer treating degraded stubs as channel failure, not product FAIL.
+`run_non_grok_legs.py` inlines pack artifacts and sets `tool_choice=none`. It:
+- sends DeepSeek `thinking: {type: disabled}` so V4 Flash fills `content` (not endless `reasoning_content`)
+- still falls back to `reasoning_content` if `content` is empty
+- rejects tool-stub / incomplete audits (DSML, missing Findings/Confidence, meta-"let me" drafts)
+- retries once, finalize-from-notes, then falls back to another free OR family
+- treats OpenRouter bodies without `choices` (rate limits) as errors; 429 retries with backoff
+
+Treat degraded stubs as channel failure, not product FAIL.
 
 ## Cost discipline
 

@@ -7,7 +7,7 @@ description: >-
   low-cost council, or wants multi-model review without Cursor Task spend.
 license: MIT
 metadata.author: cemini23
-metadata.version: "1.0.0"
+metadata.version: "1.0.1"
 disable-model-invocation: true
 permissions:
   - network
