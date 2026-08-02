@@ -89,7 +89,7 @@ Resolution order:
 
 **Fallbacks:** never hard-stop on first provider credit/usage failure — walk the chain. Grok **auth** on hard still prints `grok login` and offers Cursor Grok implement.
 
-Force prefixes: `easy:`, `mid:` / `deepseek:`, `hard:`, `money:`.
+Force prefixes: `easy:`, `mid:` / `deepseek:`, `hard:`, `money:` (first line of multi-line prompts). Bare mentions of “DeepSeek” in NEVER lists do **not** force mid — use `use deepseek` or `deepseek:` prefix.
 
 ## Profiles
 
