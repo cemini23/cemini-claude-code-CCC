@@ -108,6 +108,11 @@ CLONE_ENTITY_ALIASES = {
         "htrflow": "entities/tools/htrflow.md",
         "htrace.sh": "entities/tools/htrace-sh.md",
         "franken_ocr": "entities/tools/franken-ocr.md",
+        # K218
+        "decimen-optical-transfer": "entities/tools/decimen-optical-transfer.md",
+        "pdf-inspector": "entities/tools/pdf-inspector.md",
+        "TencentDB-Agent-Memory": "entities/tools/tencentdb-agent-memory.md",
+        "last30days-skill": "entities/tools/last30days-skill.md",
     },
 }
 
