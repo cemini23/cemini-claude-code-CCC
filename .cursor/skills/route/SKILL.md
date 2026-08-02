@@ -26,9 +26,11 @@ Scripts ship inside `tipdrop-workspace-kit` (historical host). That does **not**
 | Executor | Default (MUST) | Opt out only when operator asks |
 |----------|----------------|----------------------------------|
 | **Grok CLI** (plan mid / implement hard) | `--always-approve` via `handoff-to-grok.ps1` | `-NoApprove` |
-| **claude-ds** (easy fallback + mid execute) | `--dangerously-skip-permissions` via `claude-ds.ps1` | `-NoSkipPermissions` / `CLAUDE_DS_ASK=1` |
+| **claude-ds** (easy fallback + mid execute) | `--dangerously-skip-permissions` via `claude-ds.ps1` / `claude-ds.sh` | `-NoSkipPermissions` / `CLAUDE_DS_ASK=1` |
 | **Cursor Grok** (fallback plan/implement) | Auto-run / full tool approve | UI Auto-run off / ask mode |
 | Easy API scripts | no tool sandbox — N/A | — |
+
+**DeepSeek Claude names (all hosts):** prefer TipDrop **`claude-ds`**. On cemini-prod / older Linux the same tool may be **`deepseek-claude`** (`~/.deepseek-claude` on PATH). Resolve either — do not fail the chain if only one exists. Order: `claude-ds` → `deepseek-claude` → `~/.deepseek-claude/deepseek-claude` → `scripts/claude-ds.ps1` / `scripts/claude-ds.sh`.
 
 Without always-approve, headless tools cancel → chain falls through to Cursor → burns quota. That is a skill bug, not an operator preference.
 
@@ -76,6 +78,17 @@ Resolution order:
 3. **Current project directory** (cwd with `.git` / `AGENTS.md` / `pyproject.toml` / …)
 4. TipDrop scanner **only** if the task is clearly scanner/TipDrop work
 5. Else fail and ask for `-WorkDir`
+
+### Paths with spaces (Cybersecurity wiki, CCC, OSINT, …)
+
+Federation roots like `~/Projects/Cybersecurity wiki` previously truncated at the space (`…/Cybersecurity` + bogus `-Model wiki`) when `Start-Process -ArgumentList` joined tokens. **Fixed in tipdrop-workspace-kit** (`Invoke-PwshScriptNamedArgs` EncodedCommand splat + `claude-ds` `Repair-SpacedWorkDirBinding`, 2026-08-02).
+
+Operator hygiene still:
+
+1. Prefer quoted `-WorkDir "/Users/…/Cybersecurity wiki"` (or let the `route-task` bash shim pass `"$(pwd)"`).
+2. Optional belt-and-suspenders: `export CLAUDE_DS_WORKDIR="$PWD"` / `export ROUTE_WORKDIR="$PWD"` before routing; or symlink without spaces (`ln -sfn "$PWD" /tmp/cybersec-wiki` then `-WorkDir /tmp/cybersec-wiki`).
+3. Smoke: `pwsh -File …/scripts/test-route-workdir-spaces.ps1`
+4. Mid/hard implement: use **`route-task` / `handoff-to-grok.ps1 --always-approve`**, not bare Task `grok-implementer` with `acceptEdits` (headless cancels writes).
 
 ## Lanes (must follow)
 
