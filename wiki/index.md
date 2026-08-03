@@ -29,6 +29,10 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`tycho-arc-agi`](entities/tools/tycho-arc-agi.md) | draft | ARC-AGI-3 programmatic world models — Apache (K231) |
 | [`agentradio`](entities/tools/agentradio.md) | draft | Async multi-agent awareness layer — Apache (K232) |
 | [`askchem`](entities/tools/askchem.md) | draft | Claim-centered literature MCP — MIT REFERENCE (K233) |
+| [`cyberneuro`](entities/tools/cyberneuro.md) | draft | Local-first MCP neuroimaging workbench — pattern only (K234) |
+| [`mcp-tester-transpiler`](entities/tools/mcp-tester-transpiler.md) | draft | Mutation-consistency transpiler testing — Zenodo REFERENCE (K235) |
+| [`ham-vln`](entities/tools/ham-vln.md) | draft | Decision-coupled hierarchical memory VLN — pattern only (K236) |
+| [`toktier`](entities/tools/toktier.md) | draft | Exact stateful tokenization serving — awareness only (K238) |
 | [`asm-adopt-orphan`](entities/tools/asm-adopt-orphan.md) | draft | Orphan CCC adopt — Phase-1 wont_wire |
 | [`biosecbench-surveillance`](entities/tools/biosecbench-surveillance.md) | draft | Biosecurity eval orphan adopt — Phase-1 wont_wire |
 | [`rrbench`](entities/tools/rrbench.md) | draft | MIT local open-weight data-prep eval — GO REFERENCE (K212) |
@@ -423,6 +427,11 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`passive-awareness-async-multi-agent-coordination`](concepts/passive-awareness-async-multi-agent-coordination.md) | draft | AgentRadio async passive awareness — 2607.28430 (K232) |
 | [`phase1-adopt-wire`](concepts/phase1-adopt-wire.md) | draft | Policy vs runtime vs WONT_WIRE after Phase-0 |
 | [`claim-centered-retrieval-with-provenance`](concepts/claim-centered-retrieval-with-provenance.md) | draft | Claim-unit retrieval + DOI/quote — 2607.28618 (K233) |
+| [`local-first-mcp-multi-agent-workbench`](concepts/local-first-mcp-multi-agent-workbench.md) | draft | CyberNeuro local-first MCP + skill-DAG + HITL — 2607.28841 (K234) |
+| [`mutation-consistency-metamorphic-transpiler-testing`](concepts/mutation-consistency-metamorphic-transpiler-testing.md) | draft | MCP-Tester mutation consistency — 2607.29247 (K235) |
+| [`decision-coupled-hierarchical-agentic-memory`](concepts/decision-coupled-hierarchical-agentic-memory.md) | draft | HAM-VLN decision-coupled write + retrieve — 2607.29600 (K236) |
+| [`accel-agentic-engineer-competencies`](concepts/accel-agentic-engineer-competencies.md) | draft | ACCEL five-pillar operator rubric — 2607.29610 (K237) |
+| [`exact-stateful-tokenization-agentic-serving`](concepts/exact-stateful-tokenization-agentic-serving.md) | draft | TokTier tokenization dominates TTFT — 2607.29678 (K238) |
 
 ## sources/
 
@@ -652,6 +661,12 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-agentradio-passive-awareness-multi-agent-2607.28430`](sources/arxiv-agentradio-passive-awareness-multi-agent-2607.28430.md) | draft | AgentRadio — 2607.28430 (K232) |
 | [`arxiv-askchem-claim-centered-literature-2607.28618`](sources/arxiv-askchem-claim-centered-literature-2607.28618.md) | draft | AskChem — 2607.28618 (K233) |
 | [`brief-k230-k233-memharness-tycho-agentradio-askchem-2026-07-31`](sources/brief-k230-k233-memharness-tycho-agentradio-askchem-2026-07-31.md) | validated | K230–K233 brief stub |
+| [`arxiv-cyberneuro-privacy-agentic-neuroimaging-2607.28841`](sources/arxiv-cyberneuro-privacy-agentic-neuroimaging-2607.28841.md) | draft | CyberNeuro — 2607.28841 (K234) |
+| [`arxiv-mcp-tester-mutation-consistency-transpilers-2607.29247`](sources/arxiv-mcp-tester-mutation-consistency-transpilers-2607.29247.md) | draft | MCP-Tester — 2607.29247 (K235) |
+| [`arxiv-ham-vln-hierarchical-agentic-memory-2607.29600`](sources/arxiv-ham-vln-hierarchical-agentic-memory-2607.29600.md) | draft | HAM-VLN — 2607.29600 (K236) |
+| [`arxiv-educating-agentic-engineer-accel-2607.29610`](sources/arxiv-educating-agentic-engineer-accel-2607.29610.md) | draft | ACCEL agentic engineer — 2607.29610 (K237) |
+| [`arxiv-toktier-exact-stateful-tokenization-2607.29678`](sources/arxiv-toktier-exact-stateful-tokenization-2607.29678.md) | draft | TokTier — 2607.29678 (K238) |
+| [`brief-k234-k238-cyberneuro-mcp-tester-ham-accel-toktier-2026-08-03`](sources/brief-k234-k238-cyberneuro-mcp-tester-ham-accel-toktier-2026-08-03.md) | validated | K234–K238 brief stub |
 
 ## meta/
 

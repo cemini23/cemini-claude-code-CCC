@@ -13,9 +13,12 @@ related:
   - entities/tools/lazy-tool.md
   - concepts/storage-budgeted-agent-memory-compression.md
   - sources/brief-k121-tokenpilot-safeclaw-gatekeepers-prod-2026-06-21.md
+  - concepts/exact-stateful-tokenization-agentic-serving.md
+  - sources/arxiv-toktier-exact-stateful-tokenization-2607.29678.md
+  - entities/tools/toktier.md
 maturity: draft
 created: 2026-06-21
-updated: 2026-06-30
+updated: 2026-08-03
 ---
 
 ## Relations
@@ -28,6 +31,7 @@ updated: 2026-06-30
 - `@concepts/tool-response-context-pruning-summarization.md` — content reduction without cache bust
 - `@entities/tools/lazy-tool.md` — stable tool surface for cache hits
 - `@concepts/storage-budgeted-agent-memory-compression.md` — memory budget peer
+- `@concepts/exact-stateful-tokenization-agentic-serving.md` — K238 TokTier TTFT under high cache hits
 
 ## Raw Concept
 
@@ -53,6 +57,10 @@ How do we shrink agent context without destroying prompt-cache continuity?
 3. Measure cache hits via billing dashboards (`@entities/tools/ai-token-monitor.md`) when adopting LightMem2.
 
 **Install:** LightMem2 **CONDITIONAL-GO** — evaluate vs claude-mem + manual pruning before prod.
+
+### K238 TokTier (2026-08-03)
+
+At ~94% prompt-cache hit rates, **re-tokenization** (not KV miss) can dominate TTFT — up to 64% per K238. Stateful exact incremental tokenization preserves cache-continuity *and* avoids full re-tokenize on append. See `@concepts/exact-stateful-tokenization-agentic-serving.md`.
 
 ## Snippets
 

@@ -13,9 +13,11 @@ related:
   - concepts/memory-poisoning-write-execute-forget-lifecycle.md
   - sources/brief-k230-k233-memharness-tycho-agentradio-askchem-2026-07-31.md
   - concepts/phase1-adopt-wire.md
+  - concepts/decision-coupled-hierarchical-agentic-memory.md
+  - sources/arxiv-ham-vln-hierarchical-agentic-memory-2607.29600.md
 maturity: draft
 created: 2026-07-31
-updated: 2026-07-31
+updated: 2026-08-03
 ---
 
 ## Relations
@@ -24,6 +26,7 @@ updated: 2026-07-31
 - `@entities/tools/memharness.md`
 - `@concepts/selective-experience-memory-harness.md`
 - `@concepts/procedural-memory-transfer-after.md`
+- `@concepts/decision-coupled-hierarchical-agentic-memory.md` — K236 decision-coupled write
 
 ## Raw Concept
 
@@ -38,3 +41,7 @@ Should retrieved experiential memory be injected verbatim, or reconstructed for 
 **Cemini steal:** Before stuffing `hot.md` / claude-mem / prior trajectory snippets into context: rewrite as **state-conditioned guidance**, or drop. Aligns with τ-gated experience memory (selective harness) and AFTER negative-transfer warnings.
 
 **Verdict:** **ADOPT** reconstruct-before-inject. **GO** Apache REFERENCE `.local/adopts/MemHarness`.
+
+### K236 complement (2026-08-03)
+
+HAM-VLN couples memory **write to the decision turn** (world-graph semantics on same MLLM call as action). Complements reconstruct-before-inject: recent waypoints verbatim in bounded window; older entries retrieved — see `@concepts/decision-coupled-hierarchical-agentic-memory.md`.

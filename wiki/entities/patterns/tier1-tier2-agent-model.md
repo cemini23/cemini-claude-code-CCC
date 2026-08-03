@@ -30,9 +30,10 @@ related:
   - sources/arxiv-trustx-agent-risk-classification-2607.09586.md
   - concepts/mcp-app-hitl-approval-gap.md
   - sources/arxiv-empirical-mcp-applications-hitl-2607.25635.md
+  - entities/skills/free-audit.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-07-30
+updated: 2026-08-03
 ---
 
 ## Relations

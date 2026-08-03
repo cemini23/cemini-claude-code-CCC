@@ -130,9 +130,10 @@ related:
   - entities/tools/openai-codex-cli.md
   - concepts/passive-awareness-async-multi-agent-coordination.md
   - sources/arxiv-agentradio-passive-awareness-multi-agent-2607.28430.md
+  - entities/skills/free-audit.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-07-31
+updated: 2026-08-03
 ---
 
 ## Relations

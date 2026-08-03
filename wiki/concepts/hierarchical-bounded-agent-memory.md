@@ -17,14 +17,18 @@ related:
   - concepts/agentic-context-management-lifecycle.md
   - concepts/memory-poisoning-write-execute-forget-lifecycle.md
   - sources/arxiv-memsecbench-memory-poisoning-lifecycle-2607.27080.md
+  - concepts/decision-coupled-hierarchical-agentic-memory.md
+  - sources/arxiv-ham-vln-hierarchical-agentic-memory-2607.29600.md
+  - entities/tools/ham-vln.md
 maturity: draft
 created: 2026-07-13
-updated: 2026-07-30
+updated: 2026-08-03
 ---
 
 ## Relations
 
 - `@sources/arxiv-ensemble-qsp-hierarchical-memory-2607.07666.md` — K154 Ensemble QSP (AstraZeneca)
+- `@concepts/decision-coupled-hierarchical-agentic-memory.md` — K236 HAM-VLN decision-coupled write
 
 ## Raw Concept
 
@@ -49,6 +53,10 @@ Completed subtasks **evicted** from mid-term state — do not accumulate stale c
 QSP/pharma workflow is **off-domain** for prod trading bots — adopt **memory architecture only**.
 
 | Verdict | **REFERENCE** — bounded hierarchical memory pattern for multi-session agent projects |
+
+### K236 complement (2026-08-03)
+
+HAM-VLN adds **decision-coupled writes**: the same turn that acts also updates the world graph — no separate memory LLM call. Pairs short/mid/long layers here with `@concepts/decision-coupled-hierarchical-agentic-memory.md`.
 
 ## Snippets
 

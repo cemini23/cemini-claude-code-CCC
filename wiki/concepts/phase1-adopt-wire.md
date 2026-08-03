@@ -14,9 +14,11 @@ related:
   - concepts/claim-centered-retrieval-with-provenance.md
   - entities/tools/asm-adopt-orphan.md
   - entities/tools/biosecbench-surveillance.md
+  - sources/brief-k234-k238-cyberneuro-mcp-tester-ham-accel-toktier-2026-08-03.md
+  - briefs/2026-08-03_ccc-handoff-k234-k238-ingest.md
 maturity: draft
 created: 2026-07-31
-updated: 2026-07-31
+updated: 2026-08-03
 ---
 
 ## Relations
@@ -31,6 +33,7 @@ updated: 2026-07-31
 - `@concepts/claim-centered-retrieval-with-provenance.md` — AskChem policy
 - `@entities/tools/asm-adopt-orphan.md` — CCC orphan adopt wont_wire
 - `@entities/tools/biosecbench-surveillance.md` — CCC orphan adopt wont_wire
+- `@sources/brief-k234-k238-cyberneuro-mcp-tester-ham-accel-toktier-2026-08-03.md` — K234–K238 batch brief stub
 
 ## Raw Concept
 

@@ -38,9 +38,12 @@ related:
   - sources/arxiv-swe-pruner-pro-internal-prune-2607.18213.md
   - concepts/cost-aware-tool-acquisition-stopping.md
   - sources/arxiv-cam-df-cost-aware-tool-stopping-2607.27083.md
+  - concepts/exact-stateful-tokenization-agentic-serving.md
+  - sources/arxiv-toktier-exact-stateful-tokenization-2607.29678.md
+  - entities/tools/toktier.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-07-30
+updated: 2026-08-03
 ---
 
 ## Relations
@@ -138,6 +141,10 @@ A typical Cemini session (~60K tokens carried forward turn-to-turn):
 - Cold: 60K × $3/MTok input ≈ $0.18/turn
 - Cached: 60K × $0.30/MTok cached-input ≈ $0.018/turn
 - **10× difference** — pace turns to keep the cache warm and the same session costs an order of magnitude less.
+
+### K238 — tokenization can dominate TTFT (2026-08-03)
+
+When prompt-cache hit rates exceed ~90%, **re-tokenization on append** — not model prefill — can consume up to **64% of TTFT** (K238 TokTier). Coding-agent continuations append ~1.4K chars median. Prefer serving stacks with stateful exact incremental tokenization when available. See `@concepts/exact-stateful-tokenization-agentic-serving.md`.
 
 ## Dead Ends
 

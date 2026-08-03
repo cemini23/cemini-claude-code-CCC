@@ -11,9 +11,11 @@ related:
   - entities/patterns/tier1-tier2-agent-model.md
   - concepts/cage-1-enterprise-agent-governance-eval.md
   - sources/brief-k221-k229-mcp-harness-security-ingest-2026-07-30.md
+  - concepts/local-first-mcp-multi-agent-workbench.md
+  - sources/arxiv-cyberneuro-privacy-agentic-neuroimaging-2607.28841.md
 maturity: draft
 created: 2026-07-30
-updated: 2026-07-30
+updated: 2026-08-03
 ---
 
 ## Relations
@@ -21,6 +23,7 @@ updated: 2026-07-30
 - `@sources/arxiv-empirical-mcp-applications-hitl-2607.25635.md`
 - `@concepts/production-agent-deployment-checklist.md`
 - `@entities/patterns/tier1-tier2-agent-model.md`
+- `@concepts/local-first-mcp-multi-agent-workbench.md` — K234 HITL verification panel
 
 ## Raw Concept
 
@@ -33,3 +36,7 @@ Across **1,723** GitHub MCPApps: file config 85.2%, official SDK 81.1%, logging 
 **Cemini steal:** Logging ≠ control. Prefer Cursor/Claude Code approval modes + Tier-2 gates for write/network/secret-touching tools. Treat "enable/disable server" as insufficient alone.
 
 **Verdict:** **ADOPT** default blocking gate for consequential tools. Study only — **NO-GO** install.
+
+### K234 CyberNeuro HITL panel (2026-08-03)
+
+CyberNeuro adds domain-specific **HITL verification panels** for biomedical QC atop MCP multi-agent flows — concrete instance of blocking human review beyond the 37.2% MCPApp baseline. See `@concepts/local-first-mcp-multi-agent-workbench.md`.

@@ -1,3 +1,19 @@
+## [2026-08-03] ingest | CyberNeuro + MCP-Tester + HAM-VLN + ACCEL + TokTier (K234–K238)
+
+- **K234 CyberNeuro** (2607.28841): local-first MCP multi-agent + SKILL.md skill-DAG + HITL QC panel — **ADOPT** patterns; **NO-GO** product (gated site, no public repo). Entity `@entities/tools/cyberneuro.md` `wont_wire`.
+- **K235 MCP-Tester** (2607.29247): mutation-consistency metamorphic testing for transpilers (NOT MCP protocol) — **ADOPT** + **GO** Zenodo REFERENCE `.local/adopts/mcp-tester-transpiler`. Entity `policy_wired`.
+- **K236 HAM-VLN** (2607.29600): decision-coupled hierarchical memory write on same turn as action — **ADOPT** pattern (pairs K154/K230); **NO-GO** code. Entity `ham-vln` policy pattern only.
+- **K237 ACCEL** (2607.29610): five-pillar agentic engineer competency rubric — **ADOPT** operator-education framing; **NO-GO** install (paper only).
+- **K238 TokTier** (2607.29678): tokenization up to 64% TTFT at high cache hits — **ADOPT** awareness; **NO-GO** deploy (no public artifact).
+- Pages: 5 sources, 5 concepts, 4 entities, brief stub, handoff `@briefs/2026-08-03_ccc-handoff-k234-k238-ingest.md`
+- Local adopt: `.local/adopts/mcp-tester-transpiler` (~3.3MB, Zenodo CC-BY-4.0)
+- Phase-0: `scripts/adopt_k234_phase0.sh` … `adopt_k238_phase0.sh` — all pass
+- Phase-1: `.cursor/rules/cemini-phase1-policy-wires.mdc` extended K234–K238; federation sync
+- **Briefs:** prod → `cemini-prod:/opt/cemini/briefs/`; David → tipdrop-workspace-kit; Poker → poker-arena; Atto → atto/briefs
+- **Archive:** 5 PDFs → `cemini-egress-fi:/opt/cemini-bulk/research/ccc/`
+
+---
+
 ## [2026-08-01] skill | free-audit — Grok-orchestrated low-cost council
 
 - New `.cursor/skills/free-audit/` (`federation: true`) — Cursor packs → Grok audits+orchestrates → claude-ds/DeepSeek V4 Flash + ≥2 dynamic free OpenRouter models (exclude DeepSeek/Grok)
