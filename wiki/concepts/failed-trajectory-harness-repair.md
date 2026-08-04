@@ -40,9 +40,12 @@ related:
   - concepts/agentic-online-rl-self-evolving-systems.md
   - concepts/harness-evolution-vs-test-time-scaling-baseline.md
   - sources/arxiv-rethinking-harness-evolution-evaluation-2607.12227.md
+  - concepts/telemetry-deterministic-agent-failure-repair.md
+  - sources/arxiv-agent-trajectory-sentinel-2608.02464.md
+  - entities/tools/agent-trajectory-sentinel.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-07-15
+updated: 2026-08-04
 ---
 
 ## Relations
@@ -54,6 +57,7 @@ updated: 2026-07-15
 - `@osint-wiki/concepts/exploration-graph-dead-ends.md` — wiki `## Dead Ends` preserves abandoned paths; HarnessFix automates flaw consolidation from traces
 - `@concepts/skilladaptor-step-level-skill-adaptation.md` — SkillAdaptor repairs **skill cards** at step granularity; HarnessFix repairs **harness artifacts** (prompts, hooks, validators)
 - `@concepts/agentic-memory-cross-scenario-generality.md` — memory eval (2606.04315) vs harness repair; both reject outcome-only optimization
+- `@concepts/telemetry-deterministic-agent-failure-repair.md` — K242 Trajectory Sentinel: in-session telemetry + deterministic verify + rollback (vs HarnessFix harness mutation)
 
 ## Raw Concept
 

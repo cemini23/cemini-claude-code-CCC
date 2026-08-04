@@ -41,9 +41,11 @@ related:
   - concepts/exact-stateful-tokenization-agentic-serving.md
   - sources/arxiv-toktier-exact-stateful-tokenization-2607.29678.md
   - entities/tools/toktier.md
+  - concepts/acem-agentic-cost-estimation.md
+  - sources/arxiv-acem-agentic-cost-estimation-2608.02582.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-08-03
+updated: 2026-08-04
 ---
 
 ## Relations
@@ -60,6 +62,7 @@ updated: 2026-08-03
 - `@entities/openusage.md` — background telemetry daemon tracking API token consumption + spend across local dev environments
 - `@entities/tools/ai-token-monitor.md` — cross-platform Tauri desktop app monitoring Claude Code + Codex token usage (offline-first)
 - `@entities/tools/codexbar.md` — macOS menu-bar app with daily/weekly limit tracking + overrun notifications
+- `@concepts/acem-agentic-cost-estimation.md` — K243 planning-phase RF/CF/HIS vocabulary (LLM + HITL + infra)
 
 ## Raw Concept
 
@@ -145,6 +148,10 @@ A typical Cemini session (~60K tokens carried forward turn-to-turn):
 ### K238 — tokenization can dominate TTFT (2026-08-03)
 
 When prompt-cache hit rates exceed ~90%, **re-tokenization on append** — not model prefill — can consume up to **64% of TTFT** (K238 TokTier). Coding-agent continuations append ~1.4K chars median. Prefer serving stacks with stateful exact incremental tokenization when available. See `@concepts/exact-stateful-tokenization-agentic-serving.md`.
+
+### K243 — ACEM planning vocabulary (2026-08-04)
+
+Beyond per-turn token discipline, agent **project planning** should use RF (Revision Factor), CF (Context Factor), and HIS-1..4 (HITL Intensity) to estimate LLM + HITL + infrastructure cost. See `@concepts/acem-agentic-cost-estimation.md`.
 
 ## Dead Ends
 

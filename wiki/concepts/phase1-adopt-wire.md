@@ -16,9 +16,12 @@ related:
   - entities/tools/biosecbench-surveillance.md
   - sources/brief-k234-k238-cyberneuro-mcp-tester-ham-accel-toktier-2026-08-03.md
   - briefs/2026-08-03_ccc-handoff-k234-k238-ingest.md
+  - sources/brief-k239-k243-safety-sentinel-acem-2026-08-04.md
+  - briefs/2026-08-04_ccc-handoff-k239-k243-ingest.md
+  - entities/tools/agent-trajectory-sentinel.md
 maturity: draft
 created: 2026-07-31
-updated: 2026-08-03
+updated: 2026-08-04
 ---
 
 ## Relations
@@ -34,6 +37,8 @@ updated: 2026-08-03
 - `@entities/tools/asm-adopt-orphan.md` — CCC orphan adopt wont_wire
 - `@entities/tools/biosecbench-surveillance.md` — CCC orphan adopt wont_wire
 - `@sources/brief-k234-k238-cyberneuro-mcp-tester-ham-accel-toktier-2026-08-03.md` — K234–K238 batch brief stub
+- `@sources/brief-k239-k243-safety-sentinel-acem-2026-08-04.md` — K239–K243 batch brief stub
+- `@entities/tools/agent-trajectory-sentinel.md` — K242 `policy_wired` entity
 
 ## Raw Concept
 

@@ -1,3 +1,19 @@
+## [2026-08-04] ingest | Execution fidelity + MCP.jl + tabular LLM fail + Trajectory Sentinel + ACEM (K239–K243)
+
+- **K239 Safety Invariants** (2608.00783): execution fidelity I1–I7 for irreversible transitions — **ADOPT** checklist; **NO-GO** install (no public repo). Entity `@entities/tools/datumpont-execution-fidelity.md` `wont_wire`.
+- **K240 MixedComplementarityProblems.jl** (2608.00959): batched Julia MCP solver — **GO** BSD-3 REFERENCE `.local/adopts/MixedComplementarityProblems.jl`; **wont_wire** CCC runtime (robotics OOD).
+- **K241 Tabular LLM failure** (2608.02412): dimensionality decisive — **ADOPT** no raw LLM single-pass for tabular analytics; concept-only.
+- **K242 Agent Trajectory Sentinel** (2608.02464): ESN+CUSUM telemetry + deterministic verify + rollback repair — **ADOPT** + **GO** MIT `.local/adopts/agent-trajectory-sentinel`. Entity `policy_wired`.
+- **K243 ACEM** (2608.02582): RF/CF/HIS cost vocabulary — **ADOPT** planning; **NO-GO** install (conceptual).
+- Pages: 5 sources, 5 concepts, 3 entities, brief stub, handoff `@briefs/2026-08-04_ccc-handoff-k239-k243-ingest.md`
+- Local adopts: `.local/adopts/agent-trajectory-sentinel` (~108MB MIT), `.local/adopts/MixedComplementarityProblems.jl` (~2.6MB BSD-3)
+- Phase-0: `scripts/adopt_k239_phase0.sh` … `adopt_k243_phase0.sh` — all pass
+- Phase-1: `.cursor/rules/cemini-phase1-policy-wires.mdc` extended K239–K243; federation sync
+- **Briefs:** prod → `cemini-prod:/opt/cemini/briefs/`; David → tipdrop-workspace-kit; Poker → poker-arena; Atto → atto/briefs; GuruWatcher → GuruWatcher/briefs
+- **Archive:** 5 PDFs → `cemini-egress-fi:/opt/cemini-bulk/research/ccc/`
+
+---
+
 ## [2026-08-03] ingest | CyberNeuro + MCP-Tester + HAM-VLN + ACCEL + TokTier (K234–K238)
 
 - **K234 CyberNeuro** (2607.28841): local-first MCP multi-agent + SKILL.md skill-DAG + HITL QC panel — **ADOPT** patterns; **NO-GO** product (gated site, no public repo). Entity `@entities/tools/cyberneuro.md` `wont_wire`.
@@ -1535,3 +1551,7 @@ Cross-wiki stub routed from `@osint-wiki/sources/newsletter-rss-latent-space-202
 
 Cross-wiki stub routed from `@osint-wiki/sources/newsletter-rss-pragmatic-engineer-2026-07-28-inside-anthropic.md`.
 - Created wiki/sources/newsletter-rss-pragmatic-engineer-2026-07-28-inside-anthropic.md (stub)
+
+## [2026-08-03] brief | K220 meat + Black-cat harness extract from OSINT
+
+- Brief: `briefs/2026-08-03_k220-meat-black-cat-harness.md`

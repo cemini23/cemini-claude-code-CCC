@@ -33,6 +33,9 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`mcp-tester-transpiler`](entities/tools/mcp-tester-transpiler.md) | draft | Mutation-consistency transpiler testing — Zenodo REFERENCE (K235) |
 | [`ham-vln`](entities/tools/ham-vln.md) | draft | Decision-coupled hierarchical memory VLN — pattern only (K236) |
 | [`toktier`](entities/tools/toktier.md) | draft | Exact stateful tokenization serving — awareness only (K238) |
+| [`datumpont-execution-fidelity`](entities/tools/datumpont-execution-fidelity.md) | draft | Execution fidelity I1–I7 invariants — pattern only (K239) |
+| [`mixed-complementarity-problems-jl`](entities/tools/mixed-complementarity-problems-jl.md) | draft | Batched Julia MCP solver — BSD-3 REFERENCE (K240) |
+| [`agent-trajectory-sentinel`](entities/tools/agent-trajectory-sentinel.md) | draft | Telemetry + deterministic verify + rollback — MIT (K242) |
 | [`asm-adopt-orphan`](entities/tools/asm-adopt-orphan.md) | draft | Orphan CCC adopt — Phase-1 wont_wire |
 | [`biosecbench-surveillance`](entities/tools/biosecbench-surveillance.md) | draft | Biosecurity eval orphan adopt — Phase-1 wont_wire |
 | [`rrbench`](entities/tools/rrbench.md) | draft | MIT local open-weight data-prep eval — GO REFERENCE (K212) |
@@ -432,6 +435,11 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`decision-coupled-hierarchical-agentic-memory`](concepts/decision-coupled-hierarchical-agentic-memory.md) | draft | HAM-VLN decision-coupled write + retrieve — 2607.29600 (K236) |
 | [`accel-agentic-engineer-competencies`](concepts/accel-agentic-engineer-competencies.md) | draft | ACCEL five-pillar operator rubric — 2607.29610 (K237) |
 | [`exact-stateful-tokenization-agentic-serving`](concepts/exact-stateful-tokenization-agentic-serving.md) | draft | TokTier tokenization dominates TTFT — 2607.29678 (K238) |
+| [`execution-fidelity-irreversible-agent-invariants`](concepts/execution-fidelity-irreversible-agent-invariants.md) | draft | Execution fidelity I1–I7 — 2608.00783 (K239) |
+| [`batched-open-mcp-solver-robotics`](concepts/batched-open-mcp-solver-robotics.md) | draft | MixedComplementarityProblems.jl batched MCP — 2608.00959 (K240) |
+| [`llm-tabular-prediction-dimensionality-failure`](concepts/llm-tabular-prediction-dimensionality-failure.md) | draft | LLM tabular fails at high-D — 2608.02412 (K241) |
+| [`telemetry-deterministic-agent-failure-repair`](concepts/telemetry-deterministic-agent-failure-repair.md) | draft | Trajectory Sentinel telemetry+verify — 2608.02464 (K242) |
+| [`acem-agentic-cost-estimation`](concepts/acem-agentic-cost-estimation.md) | draft | ACEM RF/CF/HIS cost vocabulary — 2608.02582 (K243) |
 
 ## sources/
 
@@ -667,6 +675,12 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-educating-agentic-engineer-accel-2607.29610`](sources/arxiv-educating-agentic-engineer-accel-2607.29610.md) | draft | ACCEL agentic engineer — 2607.29610 (K237) |
 | [`arxiv-toktier-exact-stateful-tokenization-2607.29678`](sources/arxiv-toktier-exact-stateful-tokenization-2607.29678.md) | draft | TokTier — 2607.29678 (K238) |
 | [`brief-k234-k238-cyberneuro-mcp-tester-ham-accel-toktier-2026-08-03`](sources/brief-k234-k238-cyberneuro-mcp-tester-ham-accel-toktier-2026-08-03.md) | validated | K234–K238 brief stub |
+| [`arxiv-safety-invariants-irreversible-transitions-2608.00783`](sources/arxiv-safety-invariants-irreversible-transitions-2608.00783.md) | draft | Execution fidelity invariants — 2608.00783 (K239) |
+| [`arxiv-mixed-complementarity-problems-jl-2608.00959`](sources/arxiv-mixed-complementarity-problems-jl-2608.00959.md) | draft | MixedComplementarityProblems.jl — 2608.00959 (K240) |
+| [`arxiv-llms-fail-tabular-prediction-2608.02412`](sources/arxiv-llms-fail-tabular-prediction-2608.02412.md) | draft | LLM tabular prediction failure — 2608.02412 (K241) |
+| [`arxiv-agent-trajectory-sentinel-2608.02464`](sources/arxiv-agent-trajectory-sentinel-2608.02464.md) | draft | Agent Trajectory Sentinel — 2608.02464 (K242) |
+| [`arxiv-acem-agentic-cost-estimation-2608.02582`](sources/arxiv-acem-agentic-cost-estimation-2608.02582.md) | draft | ACEM agentic cost estimation — 2608.02582 (K243) |
+| [`brief-k239-k243-safety-sentinel-acem-2026-08-04`](sources/brief-k239-k243-safety-sentinel-acem-2026-08-04.md) | validated | K239–K243 brief stub |
 
 ## meta/
 

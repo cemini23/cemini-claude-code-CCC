@@ -13,9 +13,12 @@ related:
   - sources/brief-k221-k229-mcp-harness-security-ingest-2026-07-30.md
   - concepts/local-first-mcp-multi-agent-workbench.md
   - sources/arxiv-cyberneuro-privacy-agentic-neuroimaging-2607.28841.md
+  - concepts/execution-fidelity-irreversible-agent-invariants.md
+  - sources/arxiv-safety-invariants-irreversible-transitions-2608.00783.md
+  - entities/tools/datumpont-execution-fidelity.md
 maturity: draft
 created: 2026-07-30
-updated: 2026-08-03
+updated: 2026-08-04
 ---
 
 ## Relations
@@ -24,6 +27,8 @@ updated: 2026-08-03
 - `@concepts/production-agent-deployment-checklist.md`
 - `@entities/patterns/tier1-tier2-agent-model.md`
 - `@concepts/local-first-mcp-multi-agent-workbench.md` — K234 HITL verification panel
+- `@concepts/execution-fidelity-irreversible-agent-invariants.md` — K239 I1 confirm gate
+- `@entities/tools/datumpont-execution-fidelity.md` — K239 entity (wont_wire)
 
 ## Raw Concept
 
@@ -40,3 +45,7 @@ Across **1,723** GitHub MCPApps: file config 85.2%, official SDK 81.1%, logging 
 ### K234 CyberNeuro HITL panel (2026-08-03)
 
 CyberNeuro adds domain-specific **HITL verification panels** for biomedical QC atop MCP multi-agent flows — concrete instance of blocking human review beyond the 37.2% MCPApp baseline. See `@concepts/local-first-mcp-multi-agent-workbench.md`.
+
+### K239 confirm gate (2026-08-04)
+
+K239 **I1 Confirm gate** extends blocking approval: preview the irreversible transition before key derive — execution fidelity, not just tool enablement. See `@concepts/execution-fidelity-irreversible-agent-invariants.md`.

@@ -25,9 +25,12 @@ related:
   - concepts/retrospective-harness-optimization-rho.md
   - sources/arxiv-retrospective-harness-optimization-2606.05922.md
   - concepts/channel-fracture-cross-agent-memory-delivery.md
+  - concepts/telemetry-deterministic-agent-failure-repair.md
+  - sources/arxiv-agent-trajectory-sentinel-2608.02464.md
+  - entities/tools/agent-trajectory-sentinel.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-06-12
+updated: 2026-08-04
 cross-wiki-source: "@osint-wiki/sources/arxiv-self-healing-llm-agents-2605.06737.md"
 ---
 
@@ -42,6 +45,7 @@ cross-wiki-source: "@osint-wiki/sources/arxiv-self-healing-llm-agents-2605.06737
 - `@entities/tools/claude-mem.md` — cross-session failure patterns
 - `@entities/patterns/glasswing-deliberate-disagreement.md` — recovery via adversarial re-check, not blind retry
 - `@entities/patterns/full-prompt-goal-template.md` — `/goal` Stop hook must not create infinite heal loops
+- `@concepts/telemetry-deterministic-agent-failure-repair.md` — K242 adds ESN+CUSUM telemetry trigger + rollback+re-run (45% repair vs 16% resample)
 
 Cross-wiki: `@osint-wiki/sources/arxiv-self-healing-llm-agents-2605.06737.md` (Samsung SDS / Yonsei, 13pp); `@osint-wiki/concepts/code-as-agent-harness.md` links verification + feedback in harness mechanisms.
 

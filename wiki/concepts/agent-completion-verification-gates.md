@@ -73,9 +73,15 @@ related:
   - sources/arxiv-agents-in-the-wild-deployment-2607.19336.md
   - sources/arxiv-langgraph-stateful-business-workflows-2607.19297.md
   - concepts/offensive-agent-ethics-oversight-posture.md
+  - concepts/execution-fidelity-irreversible-agent-invariants.md
+  - sources/arxiv-safety-invariants-irreversible-transitions-2608.00783.md
+  - concepts/telemetry-deterministic-agent-failure-repair.md
+  - sources/arxiv-agent-trajectory-sentinel-2608.02464.md
+  - entities/tools/agent-trajectory-sentinel.md
+  - entities/tools/datumpont-execution-fidelity.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-07-23
+updated: 2026-08-04
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-25-2026-05-27.md"
 ---
 
@@ -87,6 +93,10 @@ cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-25-2026-05-27.
 - `@concepts/subagent-orchestration.md` — parent must verify subagent return, not assume success
 - `@concepts/bounded-self-refinement-vs-rsi-taxonomy.md` — K162 verification hierarchy for self-improve loops
 - `@concepts/hierarchical-skill-stack-lazy-orchestration.md` — K164 tree routing (orthogonal to stop gates)
+- `@concepts/execution-fidelity-irreversible-agent-invariants.md` — K239 I1–I7: preview-before-write fidelity for irreversible binds (pairs human checkpoint row)
+- `@concepts/telemetry-deterministic-agent-failure-repair.md` — K242 deterministic recompute from tool results (0 FP on 1825 healthy)
+- `@entities/tools/agent-trajectory-sentinel.md` — K242 MIT REFERENCE entity
+- `@entities/tools/datumpont-execution-fidelity.md` — K239 invariant checklist entity
 
 Cross-wiki: K72 Post 0 (@ericosiu).
 
