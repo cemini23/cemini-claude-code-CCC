@@ -1,3 +1,9 @@
+## [2026-08-05] routing | TipDrop retired — links eval v10.5 + local abliterated lab
+
+- Deep-research prompts → **v10.5**: TipDrop.io / David kit removed from active project map; surface 10 = local abliterated / operator lab
+- Overlap field `local-abliterated-lab`; briefs → `Cybersecurity wiki/briefs/` only (never tipdrop-workspace-kit)
+- Canon: `prompts/deep-research-multi-wiki-eval-v10-2026-07-06.md` + gemini-runtime; `@concepts/deep-research-evaluation-prompt.md`; `hot.md`
+
 ## [2026-08-05] ingest | UrbanAgent + GUI–MCP adoption gap + MultiGlobeQA + HIVE + TurnSight (K244–K248)
 
 - **K244 UrbanAgent** (2608.03018): clarify-before-act + evidence-aligned close + execution-quality eval — **ADOPT** pattern; **NO-GO** install (no public repo, urban OOD). Entity `@entities/tools/urbanagent.md` `wont_wire`.
@@ -9,7 +15,7 @@
 - Local adopts: `.local/adopts/MultiGlobeQA` (~53MB MIT)
 - Phase-0: `scripts/adopt_k244_phase0.sh` … `adopt_k248_phase0.sh` — all pass
 - Phase-1: `.cursor/rules/cemini-phase1-policy-wires.mdc` extended K244–K248; federation sync
-- **Briefs:** prod → `cemini-prod:/opt/cemini/briefs/`; David → tipdrop-workspace-kit; Poker → poker-arena; Atto → atto/briefs; GuruWatcher → GuruWatcher/briefs
+- **Briefs:** prod → `cemini-prod:/opt/cemini/briefs/`; Poker → poker-arena; Atto → atto/briefs; GuruWatcher → GuruWatcher/briefs *(David/TipDrop kit retired same day — see routing entry above)*
 - **Archive:** 5 PDFs → `cemini-egress-fi:/opt/cemini-bulk/research/ccc/`
 
 ---
