@@ -43,9 +43,11 @@ related:
   - entities/tools/toktier.md
   - concepts/acem-agentic-cost-estimation.md
   - sources/arxiv-acem-agentic-cost-estimation-2608.02582.md
+  - concepts/hybrid-gui-mcp-tool-adoption-gap.md
+  - sources/arxiv-screenshots-or-tools-gui-mcp-2608.03327.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-08-04
+updated: 2026-08-05
 ---
 
 ## Relations
@@ -152,6 +154,10 @@ When prompt-cache hit rates exceed ~90%, **re-tokenization on append** — not m
 ### K243 — ACEM planning vocabulary (2026-08-04)
 
 Beyond per-turn token discipline, agent **project planning** should use RF (Revision Factor), CF (Context Factor), and HIS-1..4 (HITL Intensity) to estimate LLM + HITL + infrastructure cost. See `@concepts/acem-agentic-cost-estimation.md`.
+
+### K245 — GUI observation-rule token cut (2026-08-05)
+
+K245 post-tool screenshot drop + halved image history cuts ≈ **1/3 input tokens** on GUI–MCP tasks when train/infer observation rules align — pairs `@concepts/mcp-context-optimization.md` Layer 4 discipline. See `@concepts/hybrid-gui-mcp-tool-adoption-gap.md`.
 
 ## Dead Ends
 

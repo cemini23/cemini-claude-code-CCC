@@ -15,9 +15,12 @@ related:
   - concepts/deterministic-mcp-symbolic-reasoning.md
   - entities/tools/euclid-mcp.md
   - sources/arxiv-euclid-mcp-prolog-reasoning-2607.21412.md
+  - concepts/geospatial-computation-vs-parametric-knowledge.md
+  - sources/arxiv-multiglobeqa-geospatial-reasoning-2608.03882.md
+  - entities/tools/multiglobeqa.md
 maturity: draft
 created: 2026-07-21
-updated: 2026-07-24
+updated: 2026-08-05
 ---
 
 ## Relations
@@ -41,6 +44,10 @@ K199 smart-grid tutorial principle, generalized: **a numerical result is reporte
 4. Smart-grid case code: **NO-GO** (no SPDX).
 
 | Verdict | **ADOPT** solver-grounded rule; energy content **REFERENCE**/route-out |
+
+### K246 — geospatial computation (2026-08-05)
+
+MultiGlobeQA: gold facts plateau <2/3 — grid indexing and shape computation need solver/tool grounding, not more retrieval. See `@concepts/geospatial-computation-vs-parametric-knowledge.md`.
 
 ## Snippets
 

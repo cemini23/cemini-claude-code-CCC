@@ -16,9 +16,12 @@ related:
   - concepts/solver-grounded-agent-numerics.md
   - concepts/active-abstraction-programmatic-world-models.md
   - sources/arxiv-tycho-active-abstraction-world-models-2607.28287.md
+  - concepts/hybrid-gui-mcp-tool-adoption-gap.md
+  - sources/arxiv-screenshots-or-tools-gui-mcp-2608.03327.md
+  - entities/tools/hybrid-gui-mcp-osworld.md
 maturity: draft
 created: 2026-07-07
-updated: 2026-07-31
+updated: 2026-08-05
 ---
 
 ## Relations
@@ -50,6 +53,10 @@ CCC is almost entirely **tool-mediated** (Claude Code + MCP + skills) — correc
 3. **Action protocol clarity** — a well-specified model-facing action protocol beats ad-hoc tool sprawl (lazy-tool discovery is the tool-mediated mitigation).
 
 | Verdict | **REFERENCE** — design-axis vocabulary; CCC stays tool-mediated, minimizes hops |
+
+### K245 — screenshot vs MCP path (2026-08-05)
+
+When both GUI screenshots and MCP tools are available, models often prefer the **screenshot route** even when tools are reachable (23.9% adoption on reasoning model). MCP benefit sign-flips by model class (+4.0pp reasoning vs −5.9pp non-reasoning). See `@concepts/hybrid-gui-mcp-tool-adoption-gap.md`.
 
 ## Snippets
 

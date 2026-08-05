@@ -19,9 +19,15 @@ related:
   - sources/brief-k239-k243-safety-sentinel-acem-2026-08-04.md
   - briefs/2026-08-04_ccc-handoff-k239-k243-ingest.md
   - entities/tools/agent-trajectory-sentinel.md
+  - sources/brief-k244-k248-urban-gui-mcp-hive-turnsight-2026-08-05.md
+  - briefs/2026-08-05_ccc-handoff-k244-k248-ingest.md
+  - entities/tools/hybrid-gui-mcp-osworld.md
+  - entities/tools/urbanagent.md
+  - entities/tools/multiglobeqa.md
+  - entities/tools/turnsight.md
 maturity: draft
 created: 2026-07-31
-updated: 2026-08-04
+updated: 2026-08-05
 ---
 
 ## Relations
@@ -39,6 +45,8 @@ updated: 2026-08-04
 - `@sources/brief-k234-k238-cyberneuro-mcp-tester-ham-accel-toktier-2026-08-03.md` — K234–K238 batch brief stub
 - `@sources/brief-k239-k243-safety-sentinel-acem-2026-08-04.md` — K239–K243 batch brief stub
 - `@entities/tools/agent-trajectory-sentinel.md` — K242 `policy_wired` entity
+- `@sources/brief-k244-k248-urban-gui-mcp-hive-turnsight-2026-08-05.md` — K244–K248 batch brief stub
+- `@entities/tools/hybrid-gui-mcp-osworld.md` — K245 `policy_wired` entity
 
 ## Raw Concept
 

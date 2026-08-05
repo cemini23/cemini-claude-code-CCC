@@ -151,6 +151,12 @@ BRIEFS=(
   "2026-08-04_k242-agent-trajectory-sentinel-prod.md"
   "2026-08-04_k243-acem-cost-estimation-prod.md"
   "2026-08-04_k239-k243-harness-policy-hands-on.md"
+  "2026-08-05_k244-urbanagent-clarify-before-act-prod.md"
+  "2026-08-05_k245-gui-mcp-tool-adoption-gap-prod.md"
+  "2026-08-05_k246-multiglobeqa-geospatial-computation-prod.md"
+  "2026-08-05_k247-hive-voice-keyboard-prod.md"
+  "2026-08-05_k248-turnsight-turn-level-hindsight-prod.md"
+  "2026-08-05_k244-k248-harness-policy-hands-on.md"
 )
 
 echo "SCP harness briefs → ${REMOTE}"

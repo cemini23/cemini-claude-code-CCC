@@ -1,3 +1,19 @@
+## [2026-08-05] ingest | UrbanAgent + GUI–MCP adoption gap + MultiGlobeQA + HIVE + TurnSight (K244–K248)
+
+- **K244 UrbanAgent** (2608.03018): clarify-before-act + evidence-aligned close + execution-quality eval — **ADOPT** pattern; **NO-GO** install (no public repo, urban OOD). Entity `@entities/tools/urbanagent.md` `wont_wire`.
+- **K245 Screenshots or Tools?** (2608.03327): MCP sign-flip by model class; adoption gap 23.9%; observation-rule screenshot trim — **ADOPT** policy; **NO-GO** install. Entity `@entities/tools/hybrid-gui-mcp-osworld.md` `policy_wired`.
+- **K246 MultiGlobeQA** (2608.03882): geospatial computation not knowledge; MIT REFERENCE `.local/adopts/MultiGlobeQA` — **GO** eval bench; **wont_wire** CCC runtime.
+- **K247 HIVE** (2608.03970): voice hurts constructive tasks; keyboard resilient; thinking budget ≠ voice fix — **ADOPT** input policy; concept-only.
+- **K248 TurnSight** (2608.04007): turn-level hindsight for tool RL — **ADOPT** pattern; **NO-GO** clone (no SPDX). Entity `@entities/tools/turnsight.md` `wont_wire`.
+- Pages: 6 sources, 5 concepts, 4 entities, brief stub, handoff `@briefs/2026-08-05_ccc-handoff-k244-k248-ingest.md`
+- Local adopts: `.local/adopts/MultiGlobeQA` (~53MB MIT)
+- Phase-0: `scripts/adopt_k244_phase0.sh` … `adopt_k248_phase0.sh` — all pass
+- Phase-1: `.cursor/rules/cemini-phase1-policy-wires.mdc` extended K244–K248; federation sync
+- **Briefs:** prod → `cemini-prod:/opt/cemini/briefs/`; David → tipdrop-workspace-kit; Poker → poker-arena; Atto → atto/briefs; GuruWatcher → GuruWatcher/briefs
+- **Archive:** 5 PDFs → `cemini-egress-fi:/opt/cemini-bulk/research/ccc/`
+
+---
+
 ## [2026-08-04] ingest | Execution fidelity + MCP.jl + tabular LLM fail + Trajectory Sentinel + ACEM (K239–K243)
 
 - **K239 Safety Invariants** (2608.00783): execution fidelity I1–I7 for irreversible transitions — **ADOPT** checklist; **NO-GO** install (no public repo). Entity `@entities/tools/datumpont-execution-fidelity.md` `wont_wire`.

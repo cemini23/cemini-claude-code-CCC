@@ -66,9 +66,12 @@ related:
   - sources/arxiv-swe-pruner-pro-internal-prune-2607.18213.md
   - concepts/agentic-context-management-lifecycle.md
   - sources/arxiv-agentic-context-management-2607.21503.md
+  - concepts/hybrid-gui-mcp-tool-adoption-gap.md
+  - sources/arxiv-screenshots-or-tools-gui-mcp-2608.03327.md
+  - entities/tools/hybrid-gui-mcp-osworld.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-07-24
+updated: 2026-08-05
 ---
 
 ## Relations
@@ -165,6 +168,10 @@ Cost optimization does not prevent **runtime coordination faults**. `@concepts/m
 ### K138 — local code review vs MCP dumps [REFERENCE]
 
 arXiv **2607.02389** argues MCP-mediated retrieval can **saturate reviewer context** with raw payloads when auditing **developer-owned local repos**. Complement lazy-tool cost discipline with **projection CLI** (`docs module` / `docs symbol`) for review subagents — see `@concepts/substrate-constraints-coding-agent-oversight.md`. Lazy-tool remains correct for **untrusted remote MCP** discovery; projection CLI is for **in-repo** audit bundles.
+
+### K245 — post-tool screenshot drop (2026-08-05)
+
+When train and inference **observation rules match**, drop redundant post-tool screenshots and halve image history: ≈ −1/3 input tokens with small accuracy cost; 37.8% vs 33.0% uncompressed at 53% input cost (K245). **Do not trim** if observation rules diverge — rich–lean gap reappears. See `@concepts/hybrid-gui-mcp-tool-adoption-gap.md`.
 
 ## Dead Ends
 

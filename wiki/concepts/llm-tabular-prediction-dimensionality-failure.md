@@ -7,9 +7,12 @@ related:
   - sources/arxiv-llms-fail-tabular-prediction-2608.02412.md
   - sources/brief-k239-k243-safety-sentinel-acem-2026-08-04.md
   - briefs/2026-08-04_ccc-handoff-k239-k243-ingest.md
+  - concepts/geospatial-computation-vs-parametric-knowledge.md
+  - sources/arxiv-multiglobeqa-geospatial-reasoning-2608.03882.md
+  - entities/tools/multiglobeqa.md
 maturity: draft
 created: 2026-08-04
-updated: 2026-08-04
+updated: 2026-08-05
 ---
 
 ## Relations
@@ -39,6 +42,10 @@ K241 (arXiv **2608.02412**, Garnelo & Czarnecki): controlled study of pure singl
 | Tabular foundation models where appropriate | Assume LLM "understands" spreadsheet structure |
 
 | Verdict | **ADOPT** policy. Concept-only — no entity install. |
+
+### K246 — computation not knowledge (2026-08-05)
+
+MultiGlobeQA generalizes the K241 theme: even with gold facts, geospatial QA plateaus because **computation** (grid indexing, shape) fails — not missing parametric knowledge. See `@concepts/geospatial-computation-vs-parametric-knowledge.md`.
 
 ## Dead Ends
 

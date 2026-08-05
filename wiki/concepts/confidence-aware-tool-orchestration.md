@@ -17,9 +17,13 @@ related:
   - concepts/cost-aware-tool-acquisition-stopping.md
   - sources/arxiv-cam-df-cost-aware-tool-stopping-2607.27083.md
   - concepts/active-abstraction-programmatic-world-models.md
+  - concepts/clarify-before-act-evidence-aligned-close.md
+  - concepts/hybrid-gui-mcp-tool-adoption-gap.md
+  - sources/arxiv-urbanagent-cross-system-urban-tasks-2608.03018.md
+  - sources/arxiv-screenshots-or-tools-gui-mcp-2608.03327.md
 maturity: draft
 created: 2026-06-27
-updated: 2026-07-31
+updated: 2026-08-05
 cross-wiki-primary: "@image-gen-wiki/concepts/confidence-aware-tool-orchestration.md"
 ---
 
@@ -46,6 +50,10 @@ Question: how should agents route sub-queries to tools when input quality and to
 **Cross-wiki:** video corruption eval → `@image-gen-wiki/briefs/2026-06-27_k129-robust-to-confidence-tool-orchestration-handoff.md`.
 
 **Verdict:** **REFERENCE** pattern only; no Robust-TO prod install.
+
+### K244 + K245 — clarify loop + adoption gap (2026-08-05)
+
+K244 UrbanAgent adds **clarify-before-act** and **evidence-aligned close** before tiered merge. K245 GUI–MCP shows MCP presence ≠ use — measure **adoption gap** and match model class (reasoning vs non-reasoning sign flip). See `@concepts/clarify-before-act-evidence-aligned-close.md` and `@concepts/hybrid-gui-mcp-tool-adoption-gap.md`.
 
 ## Snippets
 

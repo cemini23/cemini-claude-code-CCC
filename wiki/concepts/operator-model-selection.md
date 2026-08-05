@@ -9,9 +9,12 @@ related:
   - concepts/local-open-weight-agentic-coding-eval.md
   - sources/arxiv-agentic-coding-without-cloud-2607.21482.md
   - entities/tools/openai-codex-cli.md
+  - concepts/hybrid-gui-mcp-tool-adoption-gap.md
+  - sources/arxiv-screenshots-or-tools-gui-mcp-2608.03327.md
+  - entities/tools/hybrid-gui-mcp-osworld.md
 maturity: draft
 created: 2026-07-03
-updated: 2026-07-30
+updated: 2026-08-05
 ---
 
 ## Relations
@@ -24,6 +27,10 @@ updated: 2026-07-30
 Operator policy from K142 screenshot: cost is a tie-breaker only. For anything that ships, rank tradeoffs as **intelligence > taste > cost**. Use GPT-5.5 for bulk/mechanical Codex CLI work where effectively free; use higher-taste Claude models for user-facing UI/copy/API design and independent reviews. Never use Haiku.
 
 Availability/pricing is operator-specific and should remain `[NEEDS VERIFICATION 2026-07-03]`; treat this as routing policy, not benchmark truth.
+
+### K245 — MCP benefit sign-flip (2026-08-05)
+
+Identical GUI–MCP harness: reasoning models **+4.0pp** with MCP tools; non-reasoning **−5.9pp**. Model tier matters for whether MCP availability helps — see `@concepts/hybrid-gui-mcp-tool-adoption-gap.md`.
 
 | Model | Cost | Intelligence | Taste |
 |-------|------|--------------|-------|

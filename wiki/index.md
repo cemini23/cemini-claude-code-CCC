@@ -36,6 +36,10 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`datumpont-execution-fidelity`](entities/tools/datumpont-execution-fidelity.md) | draft | Execution fidelity I1–I7 invariants — pattern only (K239) |
 | [`mixed-complementarity-problems-jl`](entities/tools/mixed-complementarity-problems-jl.md) | draft | Batched Julia MCP solver — BSD-3 REFERENCE (K240) |
 | [`agent-trajectory-sentinel`](entities/tools/agent-trajectory-sentinel.md) | draft | Telemetry + deterministic verify + rollback — MIT (K242) |
+| [`urbanagent`](entities/tools/urbanagent.md) | draft | UrbanAgent clarify loop — pattern only (K244) |
+| [`hybrid-gui-mcp-osworld`](entities/tools/hybrid-gui-mcp-osworld.md) | draft | GUI–MCP adoption gap — policy_wired (K245) |
+| [`multiglobeqa`](entities/tools/multiglobeqa.md) | draft | MultiGlobeQA geospatial bench — MIT REFERENCE (K246) |
+| [`turnsight`](entities/tools/turnsight.md) | draft | TurnSight hindsight RL — no SPDX (K248) |
 | [`asm-adopt-orphan`](entities/tools/asm-adopt-orphan.md) | draft | Orphan CCC adopt — Phase-1 wont_wire |
 | [`biosecbench-surveillance`](entities/tools/biosecbench-surveillance.md) | draft | Biosecurity eval orphan adopt — Phase-1 wont_wire |
 | [`rrbench`](entities/tools/rrbench.md) | draft | MIT local open-weight data-prep eval — GO REFERENCE (K212) |
@@ -440,6 +444,11 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`llm-tabular-prediction-dimensionality-failure`](concepts/llm-tabular-prediction-dimensionality-failure.md) | draft | LLM tabular fails at high-D — 2608.02412 (K241) |
 | [`telemetry-deterministic-agent-failure-repair`](concepts/telemetry-deterministic-agent-failure-repair.md) | draft | Trajectory Sentinel telemetry+verify — 2608.02464 (K242) |
 | [`acem-agentic-cost-estimation`](concepts/acem-agentic-cost-estimation.md) | draft | ACEM RF/CF/HIS cost vocabulary — 2608.02582 (K243) |
+| [`clarify-before-act-evidence-aligned-close`](concepts/clarify-before-act-evidence-aligned-close.md) | draft | Clarify-before-act + evidence-aligned close — 2608.03018 (K244) |
+| [`hybrid-gui-mcp-tool-adoption-gap`](concepts/hybrid-gui-mcp-tool-adoption-gap.md) | draft | GUI–MCP adoption gap + screenshot trim — 2608.03327 (K245) |
+| [`geospatial-computation-vs-parametric-knowledge`](concepts/geospatial-computation-vs-parametric-knowledge.md) | draft | Geospatial computation vs knowledge — 2608.03882 (K246) |
+| [`voice-vs-keyboard-agent-input-robustness`](concepts/voice-vs-keyboard-agent-input-robustness.md) | draft | HIVE voice vs keyboard input — 2608.03970 (K247) |
+| [`turn-level-hindsight-tool-integrated-rl`](concepts/turn-level-hindsight-tool-integrated-rl.md) | draft | TurnSight turn-level hindsight — 2608.04007 (K248) |
 
 ## sources/
 
@@ -681,6 +690,12 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-agent-trajectory-sentinel-2608.02464`](sources/arxiv-agent-trajectory-sentinel-2608.02464.md) | draft | Agent Trajectory Sentinel — 2608.02464 (K242) |
 | [`arxiv-acem-agentic-cost-estimation-2608.02582`](sources/arxiv-acem-agentic-cost-estimation-2608.02582.md) | draft | ACEM agentic cost estimation — 2608.02582 (K243) |
 | [`brief-k239-k243-safety-sentinel-acem-2026-08-04`](sources/brief-k239-k243-safety-sentinel-acem-2026-08-04.md) | validated | K239–K243 brief stub |
+| [`arxiv-urbanagent-cross-system-urban-tasks-2608.03018`](sources/arxiv-urbanagent-cross-system-urban-tasks-2608.03018.md) | draft | UrbanAgent cross-system urban — 2608.03018 (K244) |
+| [`arxiv-screenshots-or-tools-gui-mcp-2608.03327`](sources/arxiv-screenshots-or-tools-gui-mcp-2608.03327.md) | draft | Screenshots or Tools GUI–MCP — 2608.03327 (K245) |
+| [`arxiv-multiglobeqa-geospatial-reasoning-2608.03882`](sources/arxiv-multiglobeqa-geospatial-reasoning-2608.03882.md) | draft | MultiGlobeQA geospatial — 2608.03882 (K246) |
+| [`arxiv-hive-voice-keyboard-input-perturbation-2608.03970`](sources/arxiv-hive-voice-keyboard-input-perturbation-2608.03970.md) | draft | HIVE voice vs keyboard — 2608.03970 (K247) |
+| [`arxiv-turnsight-hindsight-self-distillation-2608.04007`](sources/arxiv-turnsight-hindsight-self-distillation-2608.04007.md) | draft | TurnSight hindsight RL — 2608.04007 (K248) |
+| [`brief-k244-k248-urban-gui-mcp-hive-turnsight-2026-08-05`](sources/brief-k244-k248-urban-gui-mcp-hive-turnsight-2026-08-05.md) | validated | K244–K248 brief stub |
 
 ## meta/
 
