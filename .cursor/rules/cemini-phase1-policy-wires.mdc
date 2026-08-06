@@ -1,9 +1,9 @@
 ---
-description: Phase-1 policy wires — memory/HITL/codegen/tokenization/fidelity/sentinel/cost/GUI-MCP/input (K230–K248)
+description: Phase-1 policy wires — memory/HITL/codegen/tokenization/fidelity/sentinel/cost/GUI-MCP/input/canary/Argus (K230–K253)
 alwaysApply: true
 ---
 
-# Phase-1 policy wires (K230–K248)
+# Phase-1 policy wires (K230–K253)
 
 Concrete harness behavior from Phase-0 ADOPT patterns. Clones under `.local/adopts/` are REFERENCE unless noted.
 
@@ -118,8 +118,36 @@ Concrete harness behavior from Phase-0 ADOPT patterns. Clones under `.local/adop
 - Long-horizon tool RL: prefer turn-level, execution-conditioned hindsight over trajectory-only reward — **training pattern only**.
 - `quchangle1/TurnSight` **NO-GO** clone (no SPDX / no LICENSE). **wont_wire** runtime.
 
+## Edge MCP + meta-action executors (Scale-CDA / K249)
+
+- GenAI proposes structured actions; **verified meta-action executors** enact them — do not let the model rewrite safety/policy cores.
+- Automotive Scale-CDA / Openpilot stacks **wont_wire** (OOD / no Scale-CDA repo).
+
+## Canary tools for MCP selection diagnosis (K250)
+
+- Plant diagnostic canary tools (semantic decoys, parameter traps, capability mirages, prerequisite blindness, temporal decoys, granularity traps) when auditing MCP tool-selection.
+- Capability tier ≠ safety; measure canary susceptibility rate (CSR). No public canary framework artifact — taxonomy only.
+- Entity `canary-tools-mcp` = `policy_wired`.
+
+## Split-inference activation compression (RAC / K251)
+
+- Local–cloud–local splits bottleneck on boundary activations — prefer local head/tools for privacy-sensitive agents; WATCH codecs.
+- RAC code **wont_wire** (no public artifact).
+
+## Bidirectional HAI skill evolution (ArtAnno / BiHAA / K252)
+
+- Close the loop: operator trajectories distill into skills/KB (pairs AFTER / skill-vetting) — not one-way AI assist.
+- ArtAnno product **wont_wire**; skip Image-gen local wire.
+
+## Verification-gated persist/pivot runtime (Argus / K253)
+
+- Separate Manager/Planner/Engineer from independent Reviewer; admit memories/skills only after review (+ task-native verify when available).
+- Persist while evidence supports; pivot on measured failure. Durable project state across sessions.
+- `lbx154/Argus` **NO-GO** clone until LICENSE/SPDX present (pyproject MIT claim insufficient). **wont_wire**.
+
 ## Phase-1 meta
 
 - After ingest ADOPT/GO: propose `/phase1` wire before claiming done.
 - Inventory: `python3 scripts/phase1_adopt_inventory.py --write-brief`
 - Skip Image-gen / 3D local wire backlogs.
+- **TipDrop/David kit retired 2026-08-05** — lab briefs → `Cybersecurity wiki/briefs/` (local-abliterated-lab), never tipdrop-workspace-kit.

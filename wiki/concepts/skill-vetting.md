@@ -123,9 +123,12 @@ related:
   - concepts/distributed-harness-security-controls.md
   - entities/tools/shard-secure-harness-distribution.md
   - sources/arxiv-shard-harness-security-distribution-2607.25890.md
+  - sources/arxiv-artanno-bidirectional-hai-annotation-2608.05026.md
+  - concepts/bidirectional-hai-skill-evolution.md
+  - entities/tools/artanno.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-07-30
+updated: 2026-08-06
 ---
 
 ## Relations
@@ -199,6 +202,10 @@ Source: `@cybersecurity-wiki/sources/arxiv-prompt-injection-persistence-2606.044
 ### HarnessFix steal-from (K100)
 
 When a vetted skill still causes recurring session failures, tag the flaw with an **ETCLOVG layer** (`@concepts/etclovg-harness-layers.md`) before re-audit — e.g. Tool Interface (schema drift), Governance (permission bypass instructions). Full diagnosis/repair loop: `@concepts/failed-trajectory-harness-repair.md` (manual flaw records; no HarnessFix install).
+
+### K252 BiHAA skill-evolution loop (2026-08-06)
+
+K252 ArtAnno / BiHAA: bidirectional human–AI augmentation — humans distill trajectories into reusable skills via Interaction-Driven Evolution. Pairs step 12 (≥2 independent reuses) with `@concepts/procedural-memory-transfer-after.md`. See `@concepts/bidirectional-hai-skill-evolution.md`.
 
 ### Verdict
 

@@ -43,9 +43,12 @@ related:
   - concepts/telemetry-deterministic-agent-failure-repair.md
   - sources/arxiv-agent-trajectory-sentinel-2608.02464.md
   - entities/tools/agent-trajectory-sentinel.md
+  - sources/arxiv-argus-long-horizon-agentic-runtime-2608.05144.md
+  - concepts/verification-gated-persist-pivot-runtime.md
+  - entities/tools/argus-agentic-runtime.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-08-04
+updated: 2026-08-06
 ---
 
 ## Relations
@@ -123,6 +126,10 @@ Each `@concepts/etclovg-harness-layers.md` row maps to **typical flaws** and **c
 | ETCLOVG + operator vocabulary | **ADOPTED** — `@concepts/etclovg-harness-layers.md` |
 | Manual flaw-record discipline | **ADOPTED** — `.cursor/rules/ccc-wiki-workflow.mdc` + `prompts/harness-flaw-record-template.md` |
 | Prod deploy | **STEAL-FROM** — trajectory logs + dual Stage-1 scan; see prod adoption brief |
+
+### K253 Argus verification-gated admission (2026-08-06)
+
+K253 Argus: cross-session harness evolution with **verification-gated admission** — persist durable state when evidence supports; pivot on measured failure. Complements HarnessFix scoped repair with four-role review before state mutation. See `@concepts/verification-gated-persist-pivot-runtime.md`.
 
 ## Snippets
 

@@ -9,9 +9,12 @@ related:
   - concepts/mcp-app-hitl-approval-gap.md
   - sources/brief-k234-k238-cyberneuro-mcp-tester-ham-accel-toktier-2026-08-03.md
   - briefs/2026-08-03_ccc-handoff-k234-k238-ingest.md
+  - sources/arxiv-rac-split-inference-activation-compression-2608.04991.md
+  - concepts/split-inference-activation-compression.md
+  - entities/tools/rac-split-inference.md
 maturity: draft
 created: 2026-08-03
-updated: 2026-08-03
+updated: 2026-08-06
 ---
 
 ## Relations
@@ -40,6 +43,10 @@ K234 CyberNeuro (arXiv **2607.28841**) demonstrates a **local-first** agentic wo
 **Domain note:** Neuroimaging workflow is OOD — adopt **architecture only**, not product install.
 
 | Verdict | **ADOPT** patterns. **NO-GO** CyberNeuro product/code (gated site; no public repo) |
+
+### K251 RAC — split-inference boundary compression (2026-08-06)
+
+K251 RAC: reference-aware activation compression at local/cloud split boundaries — privacy-sensitive agents benefit from **local head + local tools** with compressed activations to cloud middle. Awareness only; no RAC install. See `@concepts/split-inference-activation-compression.md`.
 
 ## Snippets
 

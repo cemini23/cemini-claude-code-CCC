@@ -79,9 +79,12 @@ related:
   - sources/arxiv-agent-trajectory-sentinel-2608.02464.md
   - entities/tools/agent-trajectory-sentinel.md
   - entities/tools/datumpont-execution-fidelity.md
+  - sources/arxiv-argus-long-horizon-agentic-runtime-2608.05144.md
+  - concepts/verification-gated-persist-pivot-runtime.md
+  - entities/tools/argus-agentic-runtime.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-08-04
+updated: 2026-08-06
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-25-2026-05-27.md"
 ---
 
@@ -138,6 +141,10 @@ Pair with `@concepts/claude-premortem-skill.md` (what could fail) and `@entities
 **NO-GO:** closed self-reward that rewrites its own pass criteria without a human. See `@concepts/bounded-self-refinement-vs-rsi-taxonomy.md`.
 
 | Verdict | **REFERENCE (adopt in rules/skills)** |
+
+### K253 Argus — verification-gated admission (2026-08-06)
+
+K253 Argus: admit memories/skills/procedures only after **role-owned review + task-native verification**; persist when evidence supports; pivot on measured failure. Extends completion gates to **durable state evolution** over long horizons. See `@concepts/verification-gated-persist-pivot-runtime.md`.
 
 ## Snippets
 

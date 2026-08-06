@@ -13,9 +13,12 @@ related:
   - concepts/operator-model-selection.md
   - sources/brief-k244-k248-urban-gui-mcp-hive-turnsight-2026-08-05.md
   - briefs/2026-08-05_ccc-handoff-k244-k248-ingest.md
+  - sources/arxiv-canary-tools-mcp-tool-selection-2608.04719.md
+  - concepts/canary-tools-mcp-selection-diagnosis.md
+  - entities/tools/canary-tools-mcp.md
 maturity: draft
 created: 2026-08-05
-updated: 2026-08-05
+updated: 2026-08-06
 ---
 
 ## Relations
@@ -59,3 +62,7 @@ Successful tool call often makes next screenshot redundant. Drop redundant post-
 3. Drop redundant post-tool screenshots **only** when train and inference observation rules align
 
 | Verdict | **ADOPT** policy. **NO-GO** install. Entity `policy_wired`. |
+
+### K250 — canary-tool diagnosis (2026-08-06)
+
+K250 Canary Tools adds **diagnostic probe tools** and six-type taxonomy (semantic decoys, parameter traps, capability mirages, etc.) to measure CSR — complements adoption-gap measurement. Tier≠safety for tool selection. See `@concepts/canary-tools-mcp-selection-diagnosis.md`.

@@ -40,6 +40,11 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`hybrid-gui-mcp-osworld`](entities/tools/hybrid-gui-mcp-osworld.md) | draft | GUI–MCP adoption gap — policy_wired (K245) |
 | [`multiglobeqa`](entities/tools/multiglobeqa.md) | draft | MultiGlobeQA geospatial bench — MIT REFERENCE (K246) |
 | [`turnsight`](entities/tools/turnsight.md) | draft | TurnSight hindsight RL — no SPDX (K248) |
+| [`scale-cda`](entities/tools/scale-cda.md) | draft | Scale-CDA edge MCP meta-action — pattern only (K249) |
+| [`canary-tools-mcp`](entities/tools/canary-tools-mcp.md) | draft | Canary Tools MCP diagnosis — policy_wired (K250) |
+| [`rac-split-inference`](entities/tools/rac-split-inference.md) | draft | RAC split inference compression — awareness (K251) |
+| [`artanno`](entities/tools/artanno.md) | draft | ArtAnno BiHAA skill evolution — pattern only (K252) |
+| [`argus-agentic-runtime`](entities/tools/argus-agentic-runtime.md) | draft | Argus persist/pivot runtime — no SPDX (K253) |
 | [`asm-adopt-orphan`](entities/tools/asm-adopt-orphan.md) | draft | Orphan CCC adopt — Phase-1 wont_wire |
 | [`biosecbench-surveillance`](entities/tools/biosecbench-surveillance.md) | draft | Biosecurity eval orphan adopt — Phase-1 wont_wire |
 | [`rrbench`](entities/tools/rrbench.md) | draft | MIT local open-weight data-prep eval — GO REFERENCE (K212) |
@@ -449,6 +454,11 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`geospatial-computation-vs-parametric-knowledge`](concepts/geospatial-computation-vs-parametric-knowledge.md) | draft | Geospatial computation vs knowledge — 2608.03882 (K246) |
 | [`voice-vs-keyboard-agent-input-robustness`](concepts/voice-vs-keyboard-agent-input-robustness.md) | draft | HIVE voice vs keyboard input — 2608.03970 (K247) |
 | [`turn-level-hindsight-tool-integrated-rl`](concepts/turn-level-hindsight-tool-integrated-rl.md) | draft | TurnSight turn-level hindsight — 2608.04007 (K248) |
+| [`edge-mcp-meta-action-executor-pattern`](concepts/edge-mcp-meta-action-executor-pattern.md) | draft | Scale-CDA edge MCP meta-action — 2608.04235 (K249) |
+| [`canary-tools-mcp-selection-diagnosis`](concepts/canary-tools-mcp-selection-diagnosis.md) | draft | Canary Tools MCP selection diagnosis — 2608.04719 (K250) |
+| [`split-inference-activation-compression`](concepts/split-inference-activation-compression.md) | draft | RAC split inference compression — 2608.04991 (K251) |
+| [`bidirectional-hai-skill-evolution`](concepts/bidirectional-hai-skill-evolution.md) | draft | ArtAnno BiHAA skill evolution — 2608.05026 (K252) |
+| [`verification-gated-persist-pivot-runtime`](concepts/verification-gated-persist-pivot-runtime.md) | draft | Argus persist/pivot runtime — 2608.05144 (K253) |
 
 ## sources/
 
@@ -696,6 +706,12 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-hive-voice-keyboard-input-perturbation-2608.03970`](sources/arxiv-hive-voice-keyboard-input-perturbation-2608.03970.md) | draft | HIVE voice vs keyboard — 2608.03970 (K247) |
 | [`arxiv-turnsight-hindsight-self-distillation-2608.04007`](sources/arxiv-turnsight-hindsight-self-distillation-2608.04007.md) | draft | TurnSight hindsight RL — 2608.04007 (K248) |
 | [`brief-k244-k248-urban-gui-mcp-hive-turnsight-2026-08-05`](sources/brief-k244-k248-urban-gui-mcp-hive-turnsight-2026-08-05.md) | validated | K244–K248 brief stub |
+| [`arxiv-scale-cda-cooperative-driving-mcp-2608.04235`](sources/arxiv-scale-cda-cooperative-driving-mcp-2608.04235.md) | draft | Scale-CDA edge MCP — 2608.04235 (K249) |
+| [`arxiv-canary-tools-mcp-tool-selection-2608.04719`](sources/arxiv-canary-tools-mcp-tool-selection-2608.04719.md) | draft | Canary Tools MCP diagnosis — 2608.04719 (K250) |
+| [`arxiv-rac-split-inference-activation-compression-2608.04991`](sources/arxiv-rac-split-inference-activation-compression-2608.04991.md) | draft | RAC split inference — 2608.04991 (K251) |
+| [`arxiv-artanno-bidirectional-hai-annotation-2608.05026`](sources/arxiv-artanno-bidirectional-hai-annotation-2608.05026.md) | draft | ArtAnno BiHAA annotation — 2608.05026 (K252) |
+| [`arxiv-argus-long-horizon-agentic-runtime-2608.05144`](sources/arxiv-argus-long-horizon-agentic-runtime-2608.05144.md) | draft | Argus agentic runtime — 2608.05144 (K253) |
+| [`brief-k249-k253-scale-cda-canary-rac-artanno-argus-2026-08-06`](sources/brief-k249-k253-scale-cda-canary-rac-artanno-argus-2026-08-06.md) | validated | K249–K253 brief stub |
 
 ## meta/
 

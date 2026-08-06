@@ -25,9 +25,16 @@ related:
   - entities/tools/urbanagent.md
   - entities/tools/multiglobeqa.md
   - entities/tools/turnsight.md
+  - sources/brief-k249-k253-scale-cda-canary-rac-artanno-argus-2026-08-06.md
+  - briefs/2026-08-06_ccc-handoff-k249-k253-ingest.md
+  - entities/tools/scale-cda.md
+  - entities/tools/canary-tools-mcp.md
+  - entities/tools/rac-split-inference.md
+  - entities/tools/artanno.md
+  - entities/tools/argus-agentic-runtime.md
 maturity: draft
 created: 2026-07-31
-updated: 2026-08-05
+updated: 2026-08-06
 ---
 
 ## Relations
@@ -47,6 +54,8 @@ updated: 2026-08-05
 - `@entities/tools/agent-trajectory-sentinel.md` — K242 `policy_wired` entity
 - `@sources/brief-k244-k248-urban-gui-mcp-hive-turnsight-2026-08-05.md` — K244–K248 batch brief stub
 - `@entities/tools/hybrid-gui-mcp-osworld.md` — K245 `policy_wired` entity
+- `@sources/brief-k249-k253-scale-cda-canary-rac-artanno-argus-2026-08-06.md` — K249–K253 batch brief stub
+- `@entities/tools/canary-tools-mcp.md` — K250 `policy_wired` entity
 
 ## Raw Concept
 

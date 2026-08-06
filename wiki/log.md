@@ -1,3 +1,17 @@
+## [2026-08-06] ingest | Scale-CDA + Canary Tools + RAC + ArtAnno + Argus (K249–K253)
+
+- **K249 Scale-CDA** (2608.04235): edge MCP bridge + meta-action executors into planner hooks without mutating safety core — **ADOPT** pattern; **NO-GO** automotive install. Entity `@entities/tools/scale-cda.md` `wont_wire`.
+- **K250 Canary Tools** (2608.04719): six-type canary taxonomy for MCP tool-selection diagnosis; CSR ~36×; tier≠safety — **ADOPT** policy; **NO-GO** install (no artifact). Entity `@entities/tools/canary-tools-mcp.md` `policy_wired`.
+- **K251 RAC** (2608.04991): split-inference activation compression awareness — **ADOPT** concept; **NO-GO** install. Entity `@entities/tools/rac-split-inference.md` `wont_wire`.
+- **K252 ArtAnno / BiHAA** (2608.05026): bidirectional HAI skill-evolution loop — **ADOPT** pattern; **NO-GO** product. Entity `@entities/tools/artanno.md` `wont_wire`. Skip Image-gen local wire.
+- **K253 Argus** (2608.05144): four-role verification-gated persist/pivot runtime — **ADOPT** pattern; **NO-GO** clone (no LICENSE on `lbx154/Argus`). Entity `@entities/tools/argus-agentic-runtime.md` `wont_wire`.
+- Pages: 6 sources, 5 concepts, 5 entities, brief stub, handoff `@briefs/2026-08-06_ccc-handoff-k249-k253-ingest.md`
+- Phase-0: `scripts/adopt_k249_phase0.sh` … `adopt_k253_phase0.sh` — all pass
+- Phase-1: `.cursor/rules/cemini-phase1-policy-wires.mdc` extended K249–K253; federation sync
+- **Briefs:** prod → `cemini-prod:/opt/cemini/briefs/`; Poker → poker-arena; Atto → atto/briefs; GuruWatcher → GuruWatcher/briefs; Cybersec → `Cybersecurity wiki/briefs/` (local-abliterated-lab) — no TipDrop
+- **Archive:** 5 PDFs → `cemini-egress-fi:/opt/cemini-bulk/research/ccc/`
+- **Local adopts:** none (all code NO-GO / no artifact / no SPDX)
+
 ## [2026-08-05] routing | TipDrop retired — links eval v10.5 + local abliterated lab
 
 - Deep-research prompts → **v10.5**: TipDrop.io / David kit removed from active project map; surface 10 = local abliterated / operator lab

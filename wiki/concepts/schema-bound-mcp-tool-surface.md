@@ -15,9 +15,14 @@ related:
   - sources/arxiv-euclid-mcp-prolog-reasoning-2607.21412.md
   - concepts/hybrid-static-dynamic-mcp-tool-security.md
   - sources/arxiv-mtguard-hybrid-mcp-tool-security-2607.25297.md
+  - sources/arxiv-canary-tools-mcp-tool-selection-2608.04719.md
+  - concepts/canary-tools-mcp-selection-diagnosis.md
+  - entities/tools/canary-tools-mcp.md
+  - concepts/edge-mcp-meta-action-executor-pattern.md
+  - sources/arxiv-scale-cda-cooperative-driving-mcp-2608.04235.md
 maturity: draft
 created: 2026-07-21
-updated: 2026-07-30
+updated: 2026-08-06
 ---
 
 ## Relations
@@ -43,6 +48,10 @@ K198: LLM agents emit physically unreasonable args. Fix at the **tool protocol**
 5. Local clone `nuance-mcp` for study — microscopy domain, pattern generalizes to TipDrop LIVE / trading / shell.
 
 | Verdict | **ADOPT** schema-bound + skill-composition checklist; **GO** MIT clone REFERENCE |
+
+### K250 — canary probes for selection diagnosis (2026-08-06)
+
+K250 Canary Tools taxonomy (parameter traps, capability mirages, etc.) complements schema-bound **dispatch** validation — probes whether agents select tools by reasoning vs surface cues. See `@concepts/canary-tools-mcp-selection-diagnosis.md`.
 
 ## Snippets
 

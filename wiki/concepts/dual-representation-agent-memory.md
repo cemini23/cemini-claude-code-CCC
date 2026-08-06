@@ -17,9 +17,11 @@ related:
   - concepts/hierarchical-bounded-agent-memory.md
   - sources/arxiv-miles-modular-instruction-memory-2607.06974.md
   - concepts/memory-poisoning-write-execute-forget-lifecycle.md
+  - concepts/bidirectional-hai-skill-evolution.md
+  - sources/arxiv-artanno-bidirectional-hai-annotation-2608.05026.md
 maturity: draft
 created: 2026-06-24
-updated: 2026-07-30
+updated: 2026-08-06
 ---
 
 ## Relations

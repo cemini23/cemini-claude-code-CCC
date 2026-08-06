@@ -157,6 +157,12 @@ BRIEFS=(
   "2026-08-05_k247-hive-voice-keyboard-prod.md"
   "2026-08-05_k248-turnsight-turn-level-hindsight-prod.md"
   "2026-08-05_k244-k248-harness-policy-hands-on.md"
+  "2026-08-06_k249-scale-cda-edge-mcp-prod.md"
+  "2026-08-06_k250-canary-tools-mcp-diagnosis-prod.md"
+  "2026-08-06_k251-rac-split-inference-prod.md"
+  "2026-08-06_k252-artanno-bihaa-skill-evolution-prod.md"
+  "2026-08-06_k253-argus-persist-pivot-runtime-prod.md"
+  "2026-08-06_k249-k253-harness-policy-hands-on.md"
 )
 
 echo "SCP harness briefs → ${REMOTE}"

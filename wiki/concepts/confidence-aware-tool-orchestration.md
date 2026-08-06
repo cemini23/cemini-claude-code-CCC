@@ -21,9 +21,12 @@ related:
   - concepts/hybrid-gui-mcp-tool-adoption-gap.md
   - sources/arxiv-urbanagent-cross-system-urban-tasks-2608.03018.md
   - sources/arxiv-screenshots-or-tools-gui-mcp-2608.03327.md
+  - sources/arxiv-canary-tools-mcp-tool-selection-2608.04719.md
+  - concepts/canary-tools-mcp-selection-diagnosis.md
+  - entities/tools/canary-tools-mcp.md
 maturity: draft
 created: 2026-06-27
-updated: 2026-08-05
+updated: 2026-08-06
 cross-wiki-primary: "@image-gen-wiki/concepts/confidence-aware-tool-orchestration.md"
 ---
 
@@ -54,6 +57,10 @@ Question: how should agents route sub-queries to tools when input quality and to
 ### K244 + K245 — clarify loop + adoption gap (2026-08-05)
 
 K244 UrbanAgent adds **clarify-before-act** and **evidence-aligned close** before tiered merge. K245 GUI–MCP shows MCP presence ≠ use — measure **adoption gap** and match model class (reasoning vs non-reasoning sign flip). See `@concepts/clarify-before-act-evidence-aligned-close.md` and `@concepts/hybrid-gui-mcp-tool-adoption-gap.md`.
+
+### K250 — canary CSR diagnosis (2026-08-06)
+
+K250 Canary Tools: inject diagnostic probe tools; CSR varies ~36× across models; susceptibility predicts failure (ρ=−0.34). Complements tiered evidence merge — diagnose **tool-selection reasoning** before trusting orchestration. See `@concepts/canary-tools-mcp-selection-diagnosis.md`.
 
 ## Snippets
 

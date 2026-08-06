@@ -28,9 +28,12 @@ related:
   - concepts/telemetry-deterministic-agent-failure-repair.md
   - sources/arxiv-agent-trajectory-sentinel-2608.02464.md
   - entities/tools/agent-trajectory-sentinel.md
+  - sources/arxiv-argus-long-horizon-agentic-runtime-2608.05144.md
+  - concepts/verification-gated-persist-pivot-runtime.md
+  - entities/tools/argus-agentic-runtime.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-08-04
+updated: 2026-08-06
 cross-wiki-source: "@osint-wiki/sources/arxiv-self-healing-llm-agents-2605.06737.md"
 ---
 
@@ -123,6 +126,10 @@ When the same failure class repeats across sessions, escalate from self-healing 
 | "Success" but wrong data returned | Tool → Silent failure / Data & Schema |
 
 Use taxonomy leaf names when filing `wiki/log.md` entries — speeds dedupe across MCP servers.
+
+### K253 Argus persist/pivot (2026-08-06)
+
+K253 Argus: in-session self-healing retries vs **persist/pivot** over durable state — admit memories/skills only after role-owned review + task-native verification. Escalate repeated failures to harness repair, not unbounded retry. See `@concepts/verification-gated-persist-pivot-runtime.md`.
 
 ## Snippets
 

@@ -35,9 +35,11 @@ related:
   - concepts/offensive-agent-ethics-oversight-posture.md
   - sources/arxiv-ethics-offensive-autonomous-agents-2607.20255.md
   - concepts/harness-native-agent-rl-training.md
+  - concepts/verification-gated-persist-pivot-runtime.md
+  - sources/arxiv-argus-long-horizon-agentic-runtime-2608.05144.md
 maturity: draft
 created: 2026-07-14
-updated: 2026-07-24
+updated: 2026-08-06
 ---
 
 ## Relations
