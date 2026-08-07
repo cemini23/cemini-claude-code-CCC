@@ -1,0 +1,16 @@
+---
+description: CCC Phase-1 wires from OSINT K226 (HarnessOpt / anton / google-skills / Muse)
+alwaysApply: true
+---
+
+# CCC — K226 Phase-1 wires
+
+**Brief:** `docs/briefs/2026-08-07_k226-harnessopt-muse-anton.md`
+**Clones:** OSINT `.local/adopts/` (do not re-clone into CCC)
+
+- **HarnessOpt-Bench** (arXiv 2608.06301) — treat harness optimization (prompts, tools, control flow, memory, orchestration) as a first-class eval axis when changing Cursor/Claude/Grok lanes — not weights alone.
+- **anton** (MIT, OSINT `.local/adopts/anton` ~7.6MB) — self-improving harness **Watch**. Compare patterns; do not auto-write Atto `truth.ged` or GuruWatcher `watches.json`.
+- **google/skills** (Apache-2.0, OSINT `.local/adopts/google-skills` ~6.2MB) — Agent Skills packing **Context**. Supply-chain review before adopting third-party skill packs (`agent-setup-supply-chain` + cursor-security-preflight).
+- **Latent Space 2026-08-07** — Muse Spark $/test + OpenAI Agent Plugins (skills+MCP bundling) + CF Kitesurf/WebMCP = harness/infra awareness; no mandatory install.
+- **CircuitSteer** companion (`mehrshad-sdtn/CircuitSteer`) — **NO-GO clone** (NULL SPDX); paper ideas only.
+- **MMAligner** (2608.05909) — multimodal safety Context; skip Image-gen local wire backlog.
