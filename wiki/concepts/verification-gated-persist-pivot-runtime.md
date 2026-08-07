@@ -12,6 +12,7 @@ related:
   - concepts/bounded-self-refinement-vs-rsi-taxonomy.md
   - sources/brief-k249-k253-scale-cda-canary-rac-artanno-argus-2026-08-06.md
   - briefs/2026-08-06_ccc-handoff-k249-k253-ingest.md
+  - concepts/trajectory-error-lifecycle-attribution.md
 maturity: draft
 created: 2026-08-06
 updated: 2026-08-06

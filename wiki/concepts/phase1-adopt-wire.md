@@ -32,9 +32,15 @@ related:
   - entities/tools/rac-split-inference.md
   - entities/tools/artanno.md
   - entities/tools/argus-agentic-runtime.md
+  - briefs/2026-08-07_ccc-handoff-k254-k258-ingest.md
+  - entities/tools/av-aivat.md
+  - entities/tools/hardware-keystore-mcp-signing.md
+  - entities/tools/programmatic-tool-calling-ptc.md
+  - entities/tools/read-agentic-document-search.md
+  - entities/tools/trajdebug.md
 maturity: draft
 created: 2026-07-31
-updated: 2026-08-06
+updated: 2026-08-07
 ---
 
 ## Relations

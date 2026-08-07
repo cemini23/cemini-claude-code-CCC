@@ -163,6 +163,12 @@ BRIEFS=(
   "2026-08-06_k252-artanno-bihaa-skill-evolution-prod.md"
   "2026-08-06_k253-argus-persist-pivot-runtime-prod.md"
   "2026-08-06_k249-k253-harness-policy-hands-on.md"
+  "2026-08-07_k254-hardware-keystore-signing-prod.md"
+  "2026-08-07_k255-read-agentic-document-ops-prod.md"
+  "2026-08-07_k256-trajdebug-error-lifecycle-prod.md"
+  "2026-08-07_k257-av-aivat-anytime-valid-eval-prod.md"
+  "2026-08-07_k258-programmatic-tool-calling-prod.md"
+  "2026-08-07_k254-k258-harness-policy-hands-on.md"
 )
 
 echo "SCP harness briefs → ${REMOTE}"

@@ -20,9 +20,13 @@ related:
   - entities/tools/canary-tools-mcp.md
   - concepts/edge-mcp-meta-action-executor-pattern.md
   - sources/arxiv-scale-cda-cooperative-driving-mcp-2608.04235.md
+  - concepts/hardware-confined-agent-signing.md
+  - concepts/interpretable-agentic-document-ops.md
+  - sources/arxiv-beyond-topk-read-agentic-retrieval-2608.06305.md
+  - sources/arxiv-hardware-keystores-ai-agent-signing-2608.06130.md
 maturity: draft
 created: 2026-07-21
-updated: 2026-08-06
+updated: 2026-08-07
 ---
 
 ## Relations

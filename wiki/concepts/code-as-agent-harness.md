@@ -94,6 +94,9 @@ related:
   - entities/tools/dataflow-opendcai.md
   - concepts/harness-native-agent-rl-training.md
   - sources/arxiv-openforgerl-harness-native-training-2607.21557.md
+  - concepts/programmatic-vs-json-tool-calling.md
+  - entities/tools/programmatic-tool-calling-ptc.md
+  - sources/arxiv-bitter-lesson-tool-calling-2608.06370.md
 maturity: draft
 created: 2026-05-21
 updated: 2026-07-24

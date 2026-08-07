@@ -13,9 +13,12 @@ related:
   - briefs/2026-08-04_ccc-handoff-k239-k243-ingest.md
   - concepts/edge-mcp-meta-action-executor-pattern.md
   - sources/arxiv-scale-cda-cooperative-driving-mcp-2608.04235.md
+  - concepts/hardware-confined-agent-signing.md
+  - entities/tools/hardware-keystore-mcp-signing.md
+  - sources/arxiv-hardware-keystores-ai-agent-signing-2608.06130.md
 maturity: draft
 created: 2026-08-04
-updated: 2026-08-06
+updated: 2026-08-07
 ---
 
 ## Relations

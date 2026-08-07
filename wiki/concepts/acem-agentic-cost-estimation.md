@@ -8,9 +8,12 @@ related:
   - concepts/token-economics-and-prompt-caching.md
   - sources/brief-k239-k243-safety-sentinel-acem-2026-08-04.md
   - briefs/2026-08-04_ccc-handoff-k239-k243-ingest.md
+  - concepts/anytime-valid-agent-eval-stopping.md
+  - entities/tools/av-aivat.md
+  - sources/arxiv-av-aivat-anytime-valid-agent-eval-2608.06362.md
 maturity: draft
 created: 2026-08-04
-updated: 2026-08-04
+updated: 2026-08-07
 ---
 
 ## Relations

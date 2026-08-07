@@ -46,9 +46,11 @@ related:
   - sources/arxiv-argus-long-horizon-agentic-runtime-2608.05144.md
   - concepts/verification-gated-persist-pivot-runtime.md
   - entities/tools/argus-agentic-runtime.md
+  - concepts/trajectory-error-lifecycle-attribution.md
+  - sources/arxiv-trajdebug-error-lifecycle-2608.06346.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-08-06
+updated: 2026-08-07
 ---
 
 ## Relations

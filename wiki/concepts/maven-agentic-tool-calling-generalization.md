@@ -11,6 +11,8 @@ related:
   - concepts/subagent-orchestration.md
   - concepts/code-as-agent-harness.md
   - "@osint-wiki/concepts/mcp-tool-calling-eval-scaffold.md"
+  - concepts/programmatic-vs-json-tool-calling.md
+  - sources/arxiv-bitter-lesson-tool-calling-2608.06370.md
 maturity: draft
 created: 2026-06-02
 updated: 2026-06-05

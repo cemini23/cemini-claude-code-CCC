@@ -13,9 +13,11 @@ related:
   - concepts/mcp-contract-grounded-synthesis-and-validation-gate.md
   - sources/brief-k230-k233-memharness-tycho-agentradio-askchem-2026-07-31.md
   - concepts/phase1-adopt-wire.md
+  - concepts/interpretable-agentic-document-ops.md
+  - sources/arxiv-beyond-topk-read-agentic-retrieval-2608.06305.md
 maturity: draft
 created: 2026-07-31
-updated: 2026-07-31
+updated: 2026-08-07
 ---
 
 ## Relations

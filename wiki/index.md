@@ -45,6 +45,11 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`rac-split-inference`](entities/tools/rac-split-inference.md) | draft | RAC split inference compression — awareness (K251) |
 | [`artanno`](entities/tools/artanno.md) | draft | ArtAnno BiHAA skill evolution — pattern only (K252) |
 | [`argus-agentic-runtime`](entities/tools/argus-agentic-runtime.md) | draft | Argus persist/pivot runtime — no SPDX (K253) |
+| [`hardware-keystore-mcp-signing`](entities/tools/hardware-keystore-mcp-signing.md) | draft | Hardware PKCS#11 agent signing — policy_wired (K254) |
+| [`read-agentic-document-search`](entities/tools/read-agentic-document-search.md) | draft | READ embedding-free MCP docs — MIT REFERENCE (K255) |
+| [`trajdebug`](entities/tools/trajdebug.md) | draft | TrajDebug error lifecycle — MIT skeleton (K256) |
+| [`av-aivat`](entities/tools/av-aivat.md) | draft | AV-AIVAT anytime-valid eval — pattern only (K257) |
+| [`programmatic-tool-calling-ptc`](entities/tools/programmatic-tool-calling-ptc.md) | draft | PTC vs JSON tool calling — policy_wired (K258) |
 | [`asm-adopt-orphan`](entities/tools/asm-adopt-orphan.md) | draft | Orphan CCC adopt — Phase-1 wont_wire |
 | [`biosecbench-surveillance`](entities/tools/biosecbench-surveillance.md) | draft | Biosecurity eval orphan adopt — Phase-1 wont_wire |
 | [`rrbench`](entities/tools/rrbench.md) | draft | MIT local open-weight data-prep eval — GO REFERENCE (K212) |
@@ -459,6 +464,11 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`split-inference-activation-compression`](concepts/split-inference-activation-compression.md) | draft | RAC split inference compression — 2608.04991 (K251) |
 | [`bidirectional-hai-skill-evolution`](concepts/bidirectional-hai-skill-evolution.md) | draft | ArtAnno BiHAA skill evolution — 2608.05026 (K252) |
 | [`verification-gated-persist-pivot-runtime`](concepts/verification-gated-persist-pivot-runtime.md) | draft | Argus persist/pivot runtime — 2608.05144 (K253) |
+| [`hardware-confined-agent-signing`](concepts/hardware-confined-agent-signing.md) | draft | Hardware-confined PKCS#11 signing — 2608.06130 (K254) |
+| [`interpretable-agentic-document-ops`](concepts/interpretable-agentic-document-ops.md) | draft | READ interpretable document ops — 2608.06305 (K255) |
+| [`trajectory-error-lifecycle-attribution`](concepts/trajectory-error-lifecycle-attribution.md) | draft | TrajDebug error lifecycle — 2608.06346 (K256) |
+| [`anytime-valid-agent-eval-stopping`](concepts/anytime-valid-agent-eval-stopping.md) | draft | AV-AIVAT anytime-valid stopping — 2608.06362 (K257) |
+| [`programmatic-vs-json-tool-calling`](concepts/programmatic-vs-json-tool-calling.md) | draft | PTC vs JSON tool calling — 2608.06370 (K258) |
 
 ## sources/
 
@@ -712,6 +722,12 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-artanno-bidirectional-hai-annotation-2608.05026`](sources/arxiv-artanno-bidirectional-hai-annotation-2608.05026.md) | draft | ArtAnno BiHAA annotation — 2608.05026 (K252) |
 | [`arxiv-argus-long-horizon-agentic-runtime-2608.05144`](sources/arxiv-argus-long-horizon-agentic-runtime-2608.05144.md) | draft | Argus agentic runtime — 2608.05144 (K253) |
 | [`brief-k249-k253-scale-cda-canary-rac-artanno-argus-2026-08-06`](sources/brief-k249-k253-scale-cda-canary-rac-artanno-argus-2026-08-06.md) | validated | K249–K253 brief stub |
+| [`arxiv-hardware-keystores-ai-agent-signing-2608.06130`](sources/arxiv-hardware-keystores-ai-agent-signing-2608.06130.md) | draft | Hardware keystores MCP signing — 2608.06130 (K254) |
+| [`arxiv-beyond-topk-read-agentic-retrieval-2608.06305`](sources/arxiv-beyond-topk-read-agentic-retrieval-2608.06305.md) | draft | Beyond Top-K READ — 2608.06305 (K255) |
+| [`arxiv-trajdebug-error-lifecycle-2608.06346`](sources/arxiv-trajdebug-error-lifecycle-2608.06346.md) | draft | TrajDebug error lifecycle — 2608.06346 (K256) |
+| [`arxiv-av-aivat-anytime-valid-agent-eval-2608.06362`](sources/arxiv-av-aivat-anytime-valid-agent-eval-2608.06362.md) | draft | AV-AIVAT anytime-valid eval — 2608.06362 (K257) |
+| [`arxiv-bitter-lesson-tool-calling-2608.06370`](sources/arxiv-bitter-lesson-tool-calling-2608.06370.md) | draft | Bitter lesson PTC vs JSON — 2608.06370 (K258) |
+| [`brief-k254-k258-keystore-read-trajdebug-avaivat-ptc-2026-08-07`](sources/brief-k254-k258-keystore-read-trajdebug-avaivat-ptc-2026-08-07.md) | validated | K254–K258 brief stub |
 
 ## meta/
 

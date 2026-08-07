@@ -11,9 +11,12 @@ related:
   - concepts/agent-completion-verification-gates.md
   - sources/brief-k239-k243-safety-sentinel-acem-2026-08-04.md
   - briefs/2026-08-04_ccc-handoff-k239-k243-ingest.md
+  - concepts/trajectory-error-lifecycle-attribution.md
+  - entities/tools/trajdebug.md
+  - sources/arxiv-trajdebug-error-lifecycle-2608.06346.md
 maturity: draft
 created: 2026-08-04
-updated: 2026-08-04
+updated: 2026-08-07
 ---
 
 ## Relations

@@ -1,3 +1,18 @@
+## [2026-08-07] ingest | Hardware keystore + READ + TrajDebug + AV-AIVAT + PTC (K254–K258)
+
+- **K254 Hardware Keystores** (2608.06130): PKCS#11 hardware-confined signing + Zero-Trust MCP stack — **ADOPT** pattern; **NO-GO** clone (anonymous.4open only). Entity `@entities/tools/hardware-keystore-mcp-signing.md` `policy_wired`. Cybersec-primary.
+- **K255 Beyond Top-K / READ** (2608.06305): MCP grep/outline/bounded-read over long docs; BM25≈READ — **ADOPT** interface; **GO** MIT `.local/adopts/READ` (~8.4MB). Entity `policy_wired` / runtime `wont_wire`.
+- **K256 TrajDebug** (2608.06346): error-lifecycle attribution (trigger→state→cause) — **ADOPT** method; **GO** thin MIT shelf `.local/adopts/TrajDebug` (~4.2MB, **0 `.py`** under review). Entity `wont_wire`.
+- **K257 AV-AIVAT** (2608.06362): anytime-valid AIVAT stopping; median **74×** fewer HUNL hands — **ADOPT** poker eval discipline; **NO-GO** code. Entity `wont_wire`. Poker-primary.
+- **K258 Bitter Lesson PTC** (2608.06370): programmatic tool calling matches/beats JSON 11/14 models — **ADOPT** policy; **NO-GO** install. Entity `policy_wired`.
+- Pages: 6 sources, 5 concepts, 5 entities, brief stub, handoff `@briefs/2026-08-07_ccc-handoff-k254-k258-ingest.md`
+- Phase-0: `scripts/adopt_k254_phase0.sh` … `adopt_k258_phase0.sh`
+- Phase-1: `.cursor/rules/cemini-phase1-policy-wires.mdc` extended K254–K258; federation sync
+- **Briefs:** prod → cemini-prod; Poker → poker-arena; Atto → atto; GuruWatcher → GuruWatcher; Cybersec → local-abliterated-lab (no TipDrop)
+- **Archive:** 5 PDFs → cemini-egress-fi
+- **Local adopts:** READ + TrajDebug (<500MB)
+- **CI note:** GHA Actions budget empty — local `wiki_lint.py` only
+
 ## [2026-08-06] ingest | Scale-CDA + Canary Tools + RAC + ArtAnno + Argus (K249–K253)
 
 - **K249 Scale-CDA** (2608.04235): edge MCP bridge + meta-action executors into planner hooks without mutating safety core — **ADOPT** pattern; **NO-GO** automotive install. Entity `@entities/tools/scale-cda.md` `wont_wire`.
