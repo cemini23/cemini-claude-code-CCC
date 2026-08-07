@@ -35,4 +35,4 @@ Evidence-grounded pipeline: (1) error trigger detection with verbatim commitment
 
 | Verdict | **ADOPT** error-lifecycle attribution method. **GO** thin MIT REFERENCE shelf (paper+LICENSE+stubs, ~4.2MB). **wont_wire** until detector code ships. |
 
-**Location (2026-08-07):** local `raw-sources/<file>` — egress-fi SCP timed out (banner exchange); re-archive when jump is up → `cemini-egress-fi:/opt/cemini-bulk/research/ccc/`.
+**Location:** `cemini-egress-fi:/opt/cemini-bulk/research/ccc/<basename>` (archived 2026-08-07; local `raw-sources/` copy retained).

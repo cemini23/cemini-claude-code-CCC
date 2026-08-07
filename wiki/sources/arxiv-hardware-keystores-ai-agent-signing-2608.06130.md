@@ -36,4 +36,4 @@ Software-resident signing keys (env, files, container memory) are exfiltratable 
 
 | Verdict | **ADOPT** hardware-confined signing + ZT MCP enforcement pattern. **NO-GO** clone (anonymous artifact only). Cybersec-primary. |
 
-**Location (2026-08-07):** local `raw-sources/<file>` — egress-fi SCP timed out (banner exchange); re-archive when jump is up → `cemini-egress-fi:/opt/cemini-bulk/research/ccc/`.
+**Location:** `cemini-egress-fi:/opt/cemini-bulk/research/ccc/<basename>` (archived 2026-08-07; local `raw-sources/` copy retained).

@@ -36,4 +36,4 @@ On long financial/regulatory docs, chunk+embed+top-k is structurally unsound (un
 
 | Verdict | **ADOPT** interpretable agentic document ops. **GO** MIT REFERENCE clone `.local/adopts/READ` (~8.4MB). **wont_wire** as default CCC MCP. |
 
-**Location (2026-08-07):** local `raw-sources/<file>` — egress-fi SCP timed out (banner exchange); re-archive when jump is up → `cemini-egress-fi:/opt/cemini-bulk/research/ccc/`.
+**Location:** `cemini-egress-fi:/opt/cemini-bulk/research/ccc/<basename>` (archived 2026-08-07; local `raw-sources/` copy retained).

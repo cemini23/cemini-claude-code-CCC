@@ -37,4 +37,4 @@ Programmatic tool calling (typed Python stubs + single-turn `execute_python`) vs
 
 | Verdict | **ADOPT** PTC for code-capable models (pairs `@concepts/code-as-agent-harness.md`). **NO-GO** install (no public eval harness). Entity `policy_wired`. |
 
-**Location (2026-08-07):** local `raw-sources/<file>` — egress-fi SCP timed out (banner exchange); re-archive when jump is up → `cemini-egress-fi:/opt/cemini-bulk/research/ccc/`.
+**Location:** `cemini-egress-fi:/opt/cemini-bulk/research/ccc/<basename>` (archived 2026-08-07; local `raw-sources/` copy retained).
