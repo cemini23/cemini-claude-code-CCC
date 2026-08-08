@@ -1,0 +1,14 @@
+---
+description: CCC Phase-1 wires from OSINT K228 (pi harness + quality gates + KV cache)
+alwaysApply: true
+---
+
+# CCC K228 Phase-1 wires
+
+**Brief:** `docs/briefs/2026-08-08_k228-pi-quality-gates-kv.md`
+
+- **pi** (`earendil-works/pi`, MIT, OSINT `.local/adopts/pi-earendil` ~27MB) — terminal agent harness **Integrate**. Preflight before enable.
+- **pi-peer** — Watch for cross-session messaging (Zawinski).
+- **Agentic code quality gates** (Osmani) — prefer deterministic harness constraints over review volume.
+- **Cross-model KV cache** (2608.03893) — serving/routing awareness only; no deploy claim.
+- **ai-website-cloner-template** — Watch only.
