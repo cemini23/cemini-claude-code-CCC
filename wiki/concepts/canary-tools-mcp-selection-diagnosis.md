@@ -12,9 +12,11 @@ related:
   - concepts/operator-model-selection.md
   - sources/brief-k249-k253-scale-cda-canary-rac-artanno-argus-2026-08-06.md
   - briefs/2026-08-06_ccc-handoff-k249-k253-ingest.md
+  - concepts/mcp-claim-validation-and-parameter-grounding.md
+  - sources/arxiv-cascade-agentic-regulatory-network-2608.05359.md
 maturity: draft
 created: 2026-08-06
-updated: 2026-08-06
+updated: 2026-08-08
 ---
 
 ## Relations

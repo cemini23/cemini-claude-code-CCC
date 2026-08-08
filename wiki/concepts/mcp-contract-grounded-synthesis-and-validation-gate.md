@@ -28,9 +28,12 @@ related:
   - sources/arxiv-dataflow-harness-nl2pipeline-2607.16617.md
   - concepts/hybrid-static-dynamic-mcp-tool-security.md
   - concepts/claim-centered-retrieval-with-provenance.md
+  - concepts/mcp-claim-validation-and-parameter-grounding.md
+  - sources/arxiv-cascade-agentic-regulatory-network-2608.05359.md
+  - entities/tools/cascade-mcp.md
 maturity: draft
 created: 2026-07-16
-updated: 2026-07-31
+updated: 2026-08-08
 ---
 
 ## Relations

@@ -169,6 +169,8 @@ BRIEFS=(
   "2026-08-07_k257-av-aivat-anytime-valid-eval-prod.md"
   "2026-08-07_k258-programmatic-tool-calling-prod.md"
   "2026-08-07_k254-k258-harness-policy-hands-on.md"
+  "2026-08-08_k259-cascade-mcp-claim-validation-prod.md"
+  "2026-08-08_k259-harness-policy-hands-on.md"
 )
 
 echo "SCP harness briefs → ${REMOTE}"

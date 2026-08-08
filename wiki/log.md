@@ -1,3 +1,17 @@
+## [2026-08-08] ingest | CASCADE MCP claim validation + parameter grounding (K259)
+
+- **K259 CASCADE** (2608.05359): LangGraph MCP gene-perturbation server — steal **claim-level** validation of MCP tool reports (not membership) + NL→MCP parameter-grounding failure taxonomy (schema / alias / confident-wrong-default) — **ADOPT** policy; **GO** MIT REFERENCE `.local/adopts/CASCADE` (~352MB shallow, no DepMap/model); **wont_wire** runtime (cancer genomics OOD).
+- Pages: 2 sources + 1 concept + 1 entity + handoff `@briefs/2026-08-08_ccc-handoff-k259-cascade-ingest.md`
+- Phase-0: `scripts/adopt_k259_phase0.sh`
+- Phase-1: `.cursor/rules/cemini-phase1-policy-wires.mdc` §K259; concept `policy_wired`
+- **Briefs:** prod → cemini-prod; Poker / Atto / GuruWatcher / Cybersec local-abliterated-lab (no TipDrop)
+- **Archive:** PDF → egress-fi (or raw-sources fallback)
+- Also commits pending K254–K258 phase1 wire_status closeout brief if present
+
+## [2026-08-07] phase1 | K254–K258 wire_status closeout
+
+- Concepts → `policy_wired` (`cemini-phase1-policy-wires.mdc`): hardware-confined signing, READ doc ops, TrajDebug, AV-AIVAT, PTC. Entity hardware-keystore already `policy_wired`. No SoftHSM/AV-AIVAT/PTC runtime install; no secrets; no LIVE Discord.
+
 ## [2026-08-07] ingest | Hardware keystore + READ + TrajDebug + AV-AIVAT + PTC (K254–K258)
 
 - **K254 Hardware Keystores** (2608.06130): PKCS#11 hardware-confined signing + Zero-Trust MCP stack — **ADOPT** pattern; **NO-GO** clone (anonymous.4open only). Entity `@entities/tools/hardware-keystore-mcp-signing.md` `policy_wired`. Cybersec-primary.

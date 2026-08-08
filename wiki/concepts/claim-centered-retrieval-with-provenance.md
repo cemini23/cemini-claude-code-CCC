@@ -15,6 +15,7 @@ related:
   - concepts/phase1-adopt-wire.md
   - concepts/interpretable-agentic-document-ops.md
   - sources/arxiv-beyond-topk-read-agentic-retrieval-2608.06305.md
+  - concepts/mcp-claim-validation-and-parameter-grounding.md
 maturity: draft
 created: 2026-07-31
 updated: 2026-08-07

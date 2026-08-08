@@ -10,6 +10,7 @@ related:
   - sources/brief-k254-k258-keystore-read-trajdebug-avaivat-ptc-2026-08-07.md
   - briefs/2026-08-07_ccc-handoff-k254-k258-ingest.md
   - concepts/phase1-adopt-wire.md
+  - briefs/2026-08-07_phase1-wire-status-closeout-k254-k258.md
 maturity: draft
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"

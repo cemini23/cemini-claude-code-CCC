@@ -24,9 +24,12 @@ related:
   - concepts/interpretable-agentic-document-ops.md
   - sources/arxiv-beyond-topk-read-agentic-retrieval-2608.06305.md
   - sources/arxiv-hardware-keystores-ai-agent-signing-2608.06130.md
+  - concepts/mcp-claim-validation-and-parameter-grounding.md
+  - entities/tools/cascade-mcp.md
+  - sources/arxiv-cascade-agentic-regulatory-network-2608.05359.md
 maturity: draft
 created: 2026-07-21
-updated: 2026-08-07
+updated: 2026-08-08
 ---
 
 ## Relations
