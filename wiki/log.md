@@ -1,5 +1,13 @@
 ## [2026-08-08] ingest | CASCADE MCP claim validation + parameter grounding (K259)
 
+## [2026-08-08] route | agent-toolkit canon host + SIP/verify gates
+
+- Migrated `/route` scripts from tipdrop-workspace-kit → private `cemini23/agent-toolkit`
+- Skill v2.1: SIP SDR, verify gate, lane escalate, `_route_runs/`
+- Prod `/opt/cemini/agent-toolkit`; egress rsync same path (no pwsh)
+- Pages: `entities/tools/agent-toolkit.md`, `entities/skills/route.md`
+
+
 - **K259 CASCADE** (2608.05359): LangGraph MCP gene-perturbation server — steal **claim-level** validation of MCP tool reports (not membership) + NL→MCP parameter-grounding failure taxonomy (schema / alias / confident-wrong-default) — **ADOPT** policy; **GO** MIT REFERENCE `.local/adopts/CASCADE` (~352MB shallow, no DepMap/model); **wont_wire** runtime (cancer genomics OOD).
 - Pages: 2 sources + 1 concept + 1 entity + handoff `@briefs/2026-08-08_ccc-handoff-k259-cascade-ingest.md`
 - Phase-0: `scripts/adopt_k259_phase0.sh`

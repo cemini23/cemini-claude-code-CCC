@@ -98,6 +98,7 @@ WORKSPACES=(
   "/Users/claudiobarone/Desktop/projects/wc-r16-ticket-monitor"
   "/Users/claudiobarone/Projects/agent-toolkit-demo"
   "/Users/claudiobarone/Desktop/projects/agent-toolkit-demo"
+  "/Users/claudiobarone/Projects/agent-toolkit"
   "/Users/claudiobarone/Desktop/projects/tipdrop-workspace-kit"
   "/Users/claudiobarone/Projects/tipdrop-workspace-kit"
   "/Users/claudiobarone/Desktop/projects/tipdrop-scanner"

@@ -9,19 +9,23 @@ related:
   - concepts/three-cache-architecture.md
   - entities/tools/claude-code-router.md
   - entities/tools/ai-token-monitor.md
+  - entities/tools/agent-toolkit.md
+  - entities/skills/route.md
   - "@osint-wiki/concepts/api-credential-registry.md"
   - "@osint-wiki/entities/infrastructure/deepseek-api.md"
   - "@gambling-wiki/concepts/poker-hl-analyst-loop.md"
   - "@osint-wiki/concepts/llm-routing-deepseek-openrouter-failover.md"
 maturity: draft
 created: 2026-06-04
-updated: 2026-06-04
+updated: 2026-08-08
 ---
 
 ## Relations
 
 - @concepts/deepseek-coding-cost-routing.md — cheap-model discipline; this page is **automatic failover** when DeepSeek quota hits
 - @entities/tools/claude-code-router.md — prod proxy layer; complementary to app-level `llm_routing.py`
+- @entities/tools/agent-toolkit.md — private `/route` script host (`ROUTE_KIT`)
+- @entities/skills/route.md — federation `/route` skill v2.1
 - @osint-wiki/concepts/api-credential-registry.md — key names only (`DEEPSEEK_*`, `OPENROUTER_*`)
 - @osint-wiki/entities/infrastructure/deepseek-api.md — Cemini brain entity
 - @gambling-wiki/concepts/poker-hl-analyst-loop.md — `cemini_hl_loop.sh` sources routing env at start

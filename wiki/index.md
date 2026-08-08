@@ -7,6 +7,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | Page | Maturity | Summary |
 |------|----------|---------|
 | [`claude-code`](entities/tools/claude-code.md) | core | The CLI harness — modes, slash commands, skills, hooks, MCP, agents, surrounding tool stack |
+| [`agent-toolkit`](entities/tools/agent-toolkit.md) | validated | Private /route script host (ROUTE_KIT) |
 | [`portable-llm-wiki`](entities/tools/portable-llm-wiki.md) | draft | OKF/MCP wiki protocol and lint UI — STEAL-FROM (K142) |
 | [`zero`](entities/tools/zero.md) | draft | Local Go coding harness — ADOPT/TRIAL (K142) |
 | [`caveman`](entities/tools/caveman.md) | draft | Opt-in terse-output token compression skill — ADOPT/TRIAL (K142) |
@@ -166,6 +167,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`grill-with-docs`](entities/skills/grill-with-docs.md) | draft | mattpocock plan interview + ADRs — K126 Adopt (grill-me alias) |
 | [`phase1-wire`](entities/skills/phase1-wire.md) | draft | Phase-1 adopt-wire skill — /phase1 after Phase-0 |
 | [`goal`](entities/skills/goal.md) | validated | Cursor `/goal` single-shot envelope — federation-wide (K124) |
+| [`route`](entities/skills/route.md) | validated | /route easy·mid·hard·money outsource (v2.1 SIP/verify; agent-toolkit host) |
 | [`adopted-geo-tools`](entities/skills/adopted-geo-tools.md) | validated | SEO-domain E-GEO / geo-optimizer / wondelai skill — synced federation-wide (2026-07-18) |
 
 ## entities/commands/
