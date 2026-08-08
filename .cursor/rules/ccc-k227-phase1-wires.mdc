@@ -1,0 +1,14 @@
+---
+description: CCC Phase-1 wires from OSINT K227 (the-startup + Zawinski multiagents)
+alwaysApply: true
+---
+
+# CCC K227 Phase-1 wires
+
+**Brief:** `docs/briefs/2026-08-08_k227-the-startup-zawinski.md`
+**Clones:** OSINT `.local/adopts/the-startup`
+
+- **the-startup** (MIT ~2.6MB) — Claude Code SDD skills/commands **Integrate**. Architecture-before-code to cut harness drift. Run `cursor-security-preflight` before enabling third-party packs.
+- **Zawinski's Law of MultiAgents** — treat inter-agent messaging, shared stores, and externalized memory as first-class monitoring surfaces.
+- Harness > model on some SWE-bench Pro runs — keep HarnessOpt-Bench framing when changing Cursor/Claude/Grok lanes.
+- Judgment–consequence gap — HITL when judgment should change irreversible actions; no silent-default consequential tool args (pairs K259).
