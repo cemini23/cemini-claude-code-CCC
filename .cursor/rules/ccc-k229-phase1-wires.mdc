@@ -1,0 +1,12 @@
+---
+description: CCC Phase-1 wires from OSINT K229 (pi-rlm + LifeOS ISA)
+alwaysApply: true
+---
+
+# CCC K229 Phase-1 wires
+
+**Brief:** `docs/briefs/2026-08-09_k229-pi-rlm-lifeos-isa.md`
+
+- **pi-rlm** (MIT, OSINT `.local/adopts/pi-rlm`) — persistent Bun `execute` harness **Integrate** ideation beside earendil `pi`. Preflight before enable.
+- **LifeOS** — Extract ISA / CloseGate state-machine discipline; do not vendor full product.
+- Pairs agentic code quality gates + Zawinski multiagent notes. EpicStaff NO-GO.
