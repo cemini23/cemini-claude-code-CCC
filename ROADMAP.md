@@ -13,7 +13,7 @@ Active workstreams, open decisions, and the done log for the Cemini Claude Code 
 
 - **Skill catalog scope** — do we mirror catalog content (anthropic-skills, claude-mem skills, finance-skills) or only document the spec + our internal skills? Decision pinned 2026-05-13 in CCC LESSONS.md: spec-only, no catalog content dependency. Revisit if a downstream consumer needs a per-skill catalog page.
 - **Tier-2 sweep** — OSINT's wiki_gap_detect Tier-2 sweep is roadmapped there. Not wired here yet; defer until the corpus is large enough that gaps are non-obvious by inspection (likely > 50 pages).
-- **Librarian sync** — **done 2026-05-21**: `ccc-wiki` added to `@osint-wiki` `scripts/sync_wiki_to_librarian.sh` → `cemini-librarian:/opt/cemini-wiki/ccc-wiki/wiki/` (hourly + post-commit). Conductor can still read local `wiki/` when offline.
+- **Librarian sync** — **closed 2026-06**: `cemini-librarian` decommissioned. Earlier 2026-05-21 wire is historical only. Workspace stays laptop-only; raw archives go to `cemini-egress-fi` (see `CLAUDE.md`).
 
 ## Follow-ups (parked)
 

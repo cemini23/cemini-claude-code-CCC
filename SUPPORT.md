@@ -1,6 +1,8 @@
 # Support Cemini open research
 
-Voluntary tips help fund wikis, OSS tooling, and public research. **Donation-only addresses** — not trading or production wallets.
+Thank you for your interest — and for any support, large or small. Tips and kind words both help keep Cemini research and tooling open.
+
+Voluntary tips fund wikis, OSS tooling, and public research. **Donation-only addresses** — not trading or production wallets.
 
 | Chain family | Address |
 |--------------|---------|
@@ -8,4 +10,12 @@ Voluntary tips help fund wikis, OSS tooling, and public research. **Donation-onl
 | **Solana / SVM** | `J4zNn4hK9jTrKBFY8sbAGJHLoZvXvQf4B9pQSbSrocZE` |
 | **Polymarket** (referral) | [polymarket.com/?r=Cemini23](https://polymarket.com/?r=Cemini23) |
 
-Also: [Outlier Weekly](https://outlierweekly.substack.com) · YouTube [@Cemini23](https://www.youtube.com/@Cemini23)
+If you’d rather follow along or try something we ship:
+
+- Newsletter — [Outlier Weekly](https://outlierweekly.substack.com) (Substack)
+- Genealogy kit — [youratto.com](https://youratto.com)
+- Newsletter parameter alerts — [guruwatcher.com](https://guruwatcher.com)
+- YouTube — [@Cemini23](https://www.youtube.com/@Cemini23)
+- This meta-wiki — [cemini-claude-code-CCC](https://github.com/cemini23/cemini-claude-code-CCC)
+
+We’re grateful you’re here. Thank you for your support.
