@@ -1,0 +1,12 @@
+---
+description: CCC Phase-1 wires from OSINT K230
+alwaysApply: true
+---
+
+# CCC K230 Phase-1 wires
+
+**Brief:** `docs/briefs/2026-08-10_k230-t3code-a2e-niyam.md`
+
+- **t3code** / **code-graph-rag** / **CLIProxyAPI** — MIT Integrate ideation; preflight before enable.
+- **A2E** harness auditing + **Niyam** intent-bound tool gates — policy patterns; no claimed deploy.
+- DiDPO + trajectory attribution — training/debug patterns. EpicStaff NO-GO.
