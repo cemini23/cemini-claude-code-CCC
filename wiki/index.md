@@ -52,6 +52,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`av-aivat`](entities/tools/av-aivat.md) | draft | AV-AIVAT anytime-valid eval — pattern only (K257) |
 | [`programmatic-tool-calling-ptc`](entities/tools/programmatic-tool-calling-ptc.md) | draft | PTC vs JSON tool calling — policy_wired (K258) |
 | [`cascade-mcp`](entities/tools/cascade-mcp.md) | draft | CASCADE LangGraph MCP — MIT REFERENCE OOD (K259) |
+| [`residencyrl`](entities/tools/residencyrl.md) | draft | ResidencyRL clinical multi-turn RL — closed NO-GO (K260) |
 | [`asm-adopt-orphan`](entities/tools/asm-adopt-orphan.md) | draft | Orphan CCC adopt — Phase-1 wont_wire |
 | [`biosecbench-surveillance`](entities/tools/biosecbench-surveillance.md) | draft | Biosecurity eval orphan adopt — Phase-1 wont_wire |
 | [`rrbench`](entities/tools/rrbench.md) | draft | MIT local open-weight data-prep eval — GO REFERENCE (K212) |
@@ -473,6 +474,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`anytime-valid-agent-eval-stopping`](concepts/anytime-valid-agent-eval-stopping.md) | draft | AV-AIVAT anytime-valid stopping — 2608.06362 (K257) |
 | [`programmatic-vs-json-tool-calling`](concepts/programmatic-vs-json-tool-calling.md) | draft | PTC vs JSON tool calling — 2608.06370 (K258) |
 | [`mcp-claim-validation-and-parameter-grounding`](concepts/mcp-claim-validation-and-parameter-grounding.md) | draft | CASCADE claim validation + NL→MCP grounding — 2608.05359 (K259) |
+| [`adversarial-curriculum-structured-reward-doc-fidelity`](concepts/adversarial-curriculum-structured-reward-doc-fidelity.md) | draft | ResidencyRL adversarial curriculum + doc fidelity — 2608.07418 (K260) |
 
 ## sources/
 
@@ -734,6 +736,8 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`brief-k254-k258-keystore-read-trajdebug-avaivat-ptc-2026-08-07`](sources/brief-k254-k258-keystore-read-trajdebug-avaivat-ptc-2026-08-07.md) | validated | K254–K258 brief stub |
 | [`arxiv-cascade-agentic-regulatory-network-2608.05359`](sources/arxiv-cascade-agentic-regulatory-network-2608.05359.md) | draft | CASCADE MCP claim validation — 2608.05359 (K259) |
 | [`brief-k259-cascade-mcp-claim-validation-2026-08-08`](sources/brief-k259-cascade-mcp-claim-validation-2026-08-08.md) | validated | K259 brief stub |
+| [`arxiv-residencyrl-simulated-clinical-rl-2608.07418`](sources/arxiv-residencyrl-simulated-clinical-rl-2608.07418.md) | draft | ResidencyRL multi-turn clinical RL — 2608.07418 (K260) |
+| [`brief-k260-residencyrl-2026-08-10`](sources/brief-k260-residencyrl-2026-08-10.md) | validated | K260 brief stub |
 
 ## meta/
 
@@ -748,6 +752,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 |------|---------|
 | [`2026-06-01-daily`](sweeps/2026-06-01-daily.md) | First digest run — 3 arXiv ingested |
 | [`2026-06-02-daily`](sweeps/2026-06-02-daily.md) | 5 arXiv fetched — full ingest 2026-06-02 |
+| [`2026-08-09-daily`](sweeps/2026-08-09-daily.md) | Daily digest — 0 new PDFs; 6 dupes skipped |
 
 ## entities/people/
 

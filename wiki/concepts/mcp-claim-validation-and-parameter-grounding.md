@@ -12,15 +12,17 @@ related:
   - concepts/claim-centered-retrieval-with-provenance.md
   - sources/brief-k259-cascade-mcp-claim-validation-2026-08-08.md
   - briefs/2026-08-08_ccc-handoff-k259-cascade-ingest.md
+  - concepts/adversarial-curriculum-structured-reward-doc-fidelity.md
 maturity: draft
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"
 created: 2026-08-08
-updated: 2026-08-08
+updated: 2026-08-10
 ---
 
 ## Relations
 
+- `@concepts/adversarial-curriculum-structured-reward-doc-fidelity.md`
 - `@sources/arxiv-cascade-agentic-regulatory-network-2608.05359.md`
 - `@entities/tools/cascade-mcp.md`
 - `@concepts/mcp-contract-grounded-synthesis-and-validation-gate.md`

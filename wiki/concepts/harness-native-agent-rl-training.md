@@ -9,10 +9,13 @@ related:
   - concepts/agentic-online-rl-self-evolving-systems.md
   - concepts/measurement-gated-agent-harness-optimization.md
   - concepts/bounded-self-refinement-vs-rsi-taxonomy.md
+  - concepts/adversarial-curriculum-structured-reward-doc-fidelity.md
+  - sources/arxiv-residencyrl-simulated-clinical-rl-2608.07418.md
   - sources/brief-k210-k214-traceable-euclid-acm-openforge-2026-07-24.md
+  - entities/tools/residencyrl.md
 maturity: draft
 created: 2026-07-24
-updated: 2026-07-24
+updated: 2026-08-10
 ---
 
 ## Relations
@@ -20,6 +23,7 @@ updated: 2026-07-24
 - `@sources/arxiv-openforgerl-harness-native-training-2607.21557.md`
 - `@concepts/code-as-agent-harness.md`
 - `@concepts/bounded-self-refinement-vs-rsi-taxonomy.md`
+- `@concepts/adversarial-curriculum-structured-reward-doc-fidelity.md`
 
 ## Raw Concept
 

@@ -21,6 +21,7 @@ related:
   - concepts/ship-subagent-writer-reviewer-tester.md
   - concepts/bayesian-posterior-guided-skill-evolution.md
   - concepts/orchestration-reward-modeling-orch-rm.md
+  - concepts/adversarial-curriculum-structured-reward-doc-fidelity.md
   - sources/arxiv-orch-rm-multi-agent-orchestration-2606.13598.md
   - concepts/gatekeeper-layered-agent-evaluation.md
   - sources/arxiv-gatekeepers-layered-eval-quantum-vqe-2606.18422.md
@@ -29,14 +30,16 @@ related:
   - entities/skills/grill-with-docs.md
   - concepts/cross-model-verified-agent-translation.md
   - "@osint-wiki/concepts/polyworkbench-multilingual-harness-eval.md"
+  - sources/arxiv-residencyrl-simulated-clinical-rl-2608.07418.md
 maturity: draft
 created: 2026-06-03
-updated: 2026-07-10
+updated: 2026-08-10
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-17-2026-06-03.md"
 ---
 
 ## Relations
 
+- `@concepts/adversarial-curriculum-structured-reward-doc-fidelity.md`
 - `@concepts/agent-completion-verification-gates.md` — explicit done criteria before merge
 - `@concepts/skill-vetting.md` — rubric rows for skill/MCP Phase-0
 - `@entities/patterns/full-prompt-goal-template.md` — success criteria in `/goal` envelopes

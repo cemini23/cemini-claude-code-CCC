@@ -1,0 +1,12 @@
+---
+description: CCC Phase-1 wires from K260 (ResidencyRL adversarial curriculum + doc fidelity)
+alwaysApply: true
+---
+
+# CCC — K260 Phase-1 wires
+
+**Brief:** `docs/briefs/2026-08-10_k260-residencyrl-harness.md`
+
+- **ResidencyRL** (arXiv 2608.07418, Google) — pattern **ADOPT**; code **NO-GO** (closed).
+- Adversarial curriculum packs + hierarchical rubrics/safety penalties + premature-closure gate + documentation fidelity → `cemini-phase1-policy-wires.mdc` §K260.
+- No `.local/adopts/` shelf.

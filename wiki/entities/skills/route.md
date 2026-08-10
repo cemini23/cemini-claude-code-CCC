@@ -6,9 +6,10 @@ keywords: [route-task, always-approve, SIP, verify-gate]
 related:
   - entities/tools/agent-toolkit.md
   - concepts/llm-routing-deepseek-openrouter-failover.md
+  - entities/skills/phase1-wire.md
 maturity: validated
 created: 2026-07-01
-updated: 2026-08-08
+updated: 2026-08-10
 ---
 
 ## Relations

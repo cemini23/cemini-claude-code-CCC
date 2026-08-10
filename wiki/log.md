@@ -1,3 +1,13 @@
+## [2026-08-10] ingest | ResidencyRL adversarial curriculum + doc fidelity (K260)
+
+- **K260 ResidencyRL** (2608.07418): Google multi-turn clinical RL (GRPO) — steal **adversarial curriculum packs**, hierarchical rubrics + safety penalties, **premature-closure** resistance, **documentation anti-hallucination** — **ADOPT** policy; **NO-GO** code (explicitly closed); **wont_wire** runtime (clinical OOD).
+- Pages: 2 sources + 1 concept + 1 entity + handoff `@briefs/2026-08-10_ccc-handoff-k260-residencyrl-ingest.md`
+- Phase-0: `scripts/adopt_k260_phase0.sh`
+- Phase-1: `.cursor/rules/cemini-phase1-policy-wires.mdc` §K260; `ccc-k260-phase1-wires.mdc`; concept `policy_wired`
+- **Briefs:** prod → cemini-prod; Poker → poker-arena; Atto → atto/briefs; GuruWatcher → GuruWatcher/briefs; Cybersec → `Cybersecurity wiki/briefs/` (no TipDrop)
+- **Local adopts:** none (closed code)
+- Also tracked: `docs/k220-meat-black-cat.md`, `wiki/sweeps/2026-08-09-daily.md`
+
 ## [2026-08-08] ingest | CASCADE MCP claim validation + parameter grounding (K259)
 
 ## [2026-08-08] route | agent-toolkit canon host + SIP/verify gates

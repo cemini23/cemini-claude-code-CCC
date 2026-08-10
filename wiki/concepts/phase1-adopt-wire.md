@@ -41,13 +41,17 @@ related:
   - entities/tools/trajdebug.md
   - briefs/2026-08-08_ccc-handoff-k259-cascade-ingest.md
   - entities/tools/cascade-mcp.md
+  - concepts/adversarial-curriculum-structured-reward-doc-fidelity.md
+  - briefs/2026-08-10_ccc-handoff-k260-residencyrl-ingest.md
+  - entities/tools/residencyrl.md
 maturity: draft
 created: 2026-07-31
-updated: 2026-08-08
+updated: 2026-08-10
 ---
 
 ## Relations
 
+- `@concepts/adversarial-curriculum-structured-reward-doc-fidelity.md`
 - `@entities/skills/phase1-wire.md` — Cursor skill
 - `@concepts/skill-vetting.md` — Phase-0 gate (audit ≠ wire)
 - `@concepts/k73-phase0-audit-decisions.md` — eval ≠ adopt; Phase-1 adds ≠ wire

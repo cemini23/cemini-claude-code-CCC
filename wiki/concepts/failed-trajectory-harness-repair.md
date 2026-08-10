@@ -48,13 +48,15 @@ related:
   - entities/tools/argus-agentic-runtime.md
   - concepts/trajectory-error-lifecycle-attribution.md
   - sources/arxiv-trajdebug-error-lifecycle-2608.06346.md
+  - concepts/adversarial-curriculum-structured-reward-doc-fidelity.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-08-07
+updated: 2026-08-10
 ---
 
 ## Relations
 
+- `@concepts/adversarial-curriculum-structured-reward-doc-fidelity.md`
 - `@sources/arxiv-failed-trajectory-harness-repair-2606.06324-2026-06-05.md` — arXiv provenance (deep-read)
 - `@concepts/etclovg-harness-layers.md` — layer vocabulary for diagnosis
 - `@concepts/self-healing-agent-sessions.md` — runtime retry vs harness *repair* (different loop)

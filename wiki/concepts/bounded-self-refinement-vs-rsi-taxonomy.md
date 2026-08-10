@@ -37,13 +37,16 @@ related:
   - concepts/harness-native-agent-rl-training.md
   - concepts/verification-gated-persist-pivot-runtime.md
   - sources/arxiv-argus-long-horizon-agentic-runtime-2608.05144.md
+  - concepts/adversarial-curriculum-structured-reward-doc-fidelity.md
+  - sources/arxiv-residencyrl-simulated-clinical-rl-2608.07418.md
 maturity: draft
 created: 2026-07-14
-updated: 2026-08-06
+updated: 2026-08-10
 ---
 
 ## Relations
 
+- `@concepts/adversarial-curriculum-structured-reward-doc-fidelity.md`
 - `@sources/arxiv-recursive-self-improvement-survey-2607.07663.md` — K162 provenance
 - `@concepts/continual-harness-online-self-improvement.md` — Cemini harness-evolution cluster (deployment-time cell)
 - `@concepts/agent-completion-verification-gates.md` — prefer stronger verification rungs
