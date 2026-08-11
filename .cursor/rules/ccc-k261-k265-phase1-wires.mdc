@@ -10,5 +10,5 @@ alwaysApply: true
 - **K262** scaffold > MCP/CLI interface — optimize scaffolding first.
 - **K263** versioned model–harness pairs; no Macaron weight pull.
 - **K264** accept/reject/escalate verification gate before high-blast execute.
-- **K265** SHE four-artifact + HITL; `.local/adopts/SHE` REFERENCE only.
+- **K265** Blast Radius reversible context eviction (buried dead matter + scent skeletons).
 - **K261** VectraYX — cybersec-primary; no CCC runtime.

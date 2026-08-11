@@ -1,0 +1,15 @@
+---
+description: CCC Phase-1 wires from K266–K269 agent-security wave (cybersec-owned)
+alwaysApply: true
+---
+
+# CCC — K266–K269 Phase-1 wires
+
+Cybersec-owned agent-security wires (authoritative bullets live in the cybersec `.cursor/rules/`); CCC awareness only.
+
+**Briefs:** `Cybersecurity wiki/briefs/2026-08-11_k267-*`, `k268-*`, `k269-*` + OOD route briefs.
+
+- **K266** ShieldAI risk-taxonomy map — map OSS eval/guardrail/observability tooling to explicit risk matrices; HITL + org process; REFERENCE clone only.
+- **K267** ILL inaudible-LF (5–20 Hz) audio — authorized acoustic lab only; DRG requery defense; REFERENCE (no public code).
+- **K268** SHE safety harness evolution — four artifacts + validity check + safety–utility selection; lab/offline only, HITL before prod-harness mutation; `.local/adopts/SHE` Apache-2.0 REFERENCE (~5MB).
+- **K269** Taboo decoding-time diagnostic — scoped refusal-surface / structured-output audit only; not a generic safety benchmark; REFERENCE (Zenodo CC-BY-4.0).

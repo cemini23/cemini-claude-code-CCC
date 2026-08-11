@@ -1,9 +1,9 @@
 ---
-description: Phase-1 policy wires — memory/HITL/codegen/tokenization/fidelity/sentinel/cost/GUI-MCP/input/canary/Argus/keystore/READ/PTC/CASCADE/ResidencyRL/BlastRadius (K230–K265)
+description: Phase-1 policy wires — memory/HITL/codegen/tokenization/fidelity/sentinel/cost/GUI-MCP/input/canary/Argus/keystore/READ/PTC/CASCADE/ResidencyRL/BlastRadius/SHE (K230–K268)
 alwaysApply: true
 ---
 
-# Phase-1 policy wires (K230–K265)
+# Phase-1 policy wires (K230–K268)
 
 Concrete harness behavior from Phase-0 ADOPT patterns. Clones under `.local/adopts/` are REFERENCE unless noted.
 
@@ -225,7 +225,7 @@ Concrete harness behavior from Phase-0 ADOPT patterns. Clones under `.local/adop
 - Prefer independent review of judge **reasoning quality** under disagreement — do not silent-accept.
 - Robot `verification_layers` repo **404** — pattern only; entity `wont_wire`.
 
-## Trajectory-driven safety harness evolution (SHE / K265)
+## Trajectory-driven safety harness evolution (SHE / K268)
 
 - Name the owning harness artifact before edits: **System Prompt / Rule Bank / Safety Memory / Tool Policy**.
 - Attribution-guided, artifact-local edits + safety–utility validation; **HITL** before mutating prod Cursor/Claude harnesses.
