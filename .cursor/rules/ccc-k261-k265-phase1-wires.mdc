@@ -1,0 +1,14 @@
+---
+description: CCC Phase-1 wires from K261–K265 harness wave
+alwaysApply: true
+---
+
+# CCC — K261–K265 Phase-1 wires
+
+**Brief:** `docs/briefs/2026-08-11_k261-k265-harness-wave.md`
+
+- **K262** scaffold > MCP/CLI interface — optimize scaffolding first.
+- **K263** versioned model–harness pairs; no Macaron weight pull.
+- **K264** accept/reject/escalate verification gate before high-blast execute.
+- **K265** SHE four-artifact + HITL; `.local/adopts/SHE` REFERENCE only.
+- **K261** VectraYX — cybersec-primary; no CCC runtime.

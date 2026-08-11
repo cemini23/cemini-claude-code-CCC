@@ -39,9 +39,14 @@ related:
   - sources/arxiv-argus-long-horizon-agentic-runtime-2608.05144.md
   - concepts/adversarial-curriculum-structured-reward-doc-fidelity.md
   - sources/arxiv-residencyrl-simulated-clinical-rl-2608.07418.md
+  - concepts/llm-verification-layer-accept-escalate-reject.md
+  - concepts/trajectory-driven-safety-harness-evolution.md
+  - concepts/versioned-model-harness-continual-adaptation.md
+  - sources/arxiv-agentic-harnesses-verification-layers-2608.09857.md
+  - sources/arxiv-macaron-v1-continual-learning-2608.09819.md
 maturity: draft
 created: 2026-07-14
-updated: 2026-08-10
+updated: 2026-08-11
 ---
 
 ## Relations

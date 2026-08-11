@@ -53,6 +53,11 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`programmatic-tool-calling-ptc`](entities/tools/programmatic-tool-calling-ptc.md) | draft | PTC vs JSON tool calling — policy_wired (K258) |
 | [`cascade-mcp`](entities/tools/cascade-mcp.md) | draft | CASCADE LangGraph MCP — MIT REFERENCE OOD (K259) |
 | [`residencyrl`](entities/tools/residencyrl.md) | draft | ResidencyRL clinical multi-turn RL — closed NO-GO (K260) |
+| [`vectrayx-vision-1b`](entities/tools/vectrayx-vision-1b.md) | draft | Spanish cyber VLM — NO-GO weights (K261) |
+| [`scaffolding-mcp-cli-study`](entities/tools/scaffolding-mcp-cli-study.md) | draft | Scaffold > MCP/CLI study — no code (K262) |
+| [`macaron-v1`](entities/tools/macaron-v1.md) | draft | Macaron continual MoL — NO-GO weights (K263) |
+| [`verification-layers-robot`](entities/tools/verification-layers-robot.md) | draft | Robot verification layers — 404 NO-GO (K264) |
+| [`she-safety-harness`](entities/tools/she-safety-harness.md) | draft | SHE safety harness evolution — Apache REFERENCE (K265) |
 | [`asm-adopt-orphan`](entities/tools/asm-adopt-orphan.md) | draft | Orphan CCC adopt — Phase-1 wont_wire |
 | [`biosecbench-surveillance`](entities/tools/biosecbench-surveillance.md) | draft | Biosecurity eval orphan adopt — Phase-1 wont_wire |
 | [`rrbench`](entities/tools/rrbench.md) | draft | MIT local open-weight data-prep eval — GO REFERENCE (K212) |
@@ -475,6 +480,10 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`programmatic-vs-json-tool-calling`](concepts/programmatic-vs-json-tool-calling.md) | draft | PTC vs JSON tool calling — 2608.06370 (K258) |
 | [`mcp-claim-validation-and-parameter-grounding`](concepts/mcp-claim-validation-and-parameter-grounding.md) | draft | CASCADE claim validation + NL→MCP grounding — 2608.05359 (K259) |
 | [`adversarial-curriculum-structured-reward-doc-fidelity`](concepts/adversarial-curriculum-structured-reward-doc-fidelity.md) | draft | ResidencyRL adversarial curriculum + doc fidelity — 2608.07418 (K260) |
+| [`scaffold-over-tool-interface`](concepts/scaffold-over-tool-interface.md) | draft | Scaffolding > MCP/CLI interface — 2608.08654 (K262) |
+| [`versioned-model-harness-continual-adaptation`](concepts/versioned-model-harness-continual-adaptation.md) | draft | Macaron versioned model–harness — 2608.09819 (K263) |
+| [`llm-verification-layer-accept-escalate-reject`](concepts/llm-verification-layer-accept-escalate-reject.md) | draft | Accept/reject/escalate verify gate — 2608.09857 (K264) |
+| [`trajectory-driven-safety-harness-evolution`](concepts/trajectory-driven-safety-harness-evolution.md) | draft | SHE four-artifact safety evolution — 2608.09885 (K265) |
 
 ## sources/
 
@@ -738,6 +747,12 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`brief-k259-cascade-mcp-claim-validation-2026-08-08`](sources/brief-k259-cascade-mcp-claim-validation-2026-08-08.md) | validated | K259 brief stub |
 | [`arxiv-residencyrl-simulated-clinical-rl-2608.07418`](sources/arxiv-residencyrl-simulated-clinical-rl-2608.07418.md) | draft | ResidencyRL multi-turn clinical RL — 2608.07418 (K260) |
 | [`brief-k260-residencyrl-2026-08-10`](sources/brief-k260-residencyrl-2026-08-10.md) | validated | K260 brief stub |
+| [`arxiv-vectrayx-vision-1b-cyber-vlm-2608.08477`](sources/arxiv-vectrayx-vision-1b-cyber-vlm-2608.08477.md) | draft | VectraYX-Vision-1B — 2608.08477 (K261) |
+| [`arxiv-scaffolding-matters-more-than-interface-2608.08654`](sources/arxiv-scaffolding-matters-more-than-interface-2608.08654.md) | draft | Scaffolding > interface — 2608.08654 (K262) |
+| [`arxiv-macaron-v1-continual-learning-2608.09819`](sources/arxiv-macaron-v1-continual-learning-2608.09819.md) | draft | Macaron-V1 — 2608.09819 (K263) |
+| [`arxiv-agentic-harnesses-verification-layers-2608.09857`](sources/arxiv-agentic-harnesses-verification-layers-2608.09857.md) | draft | Agentic verification layers — 2608.09857 (K264) |
+| [`arxiv-she-safety-harness-evolution-2608.09885`](sources/arxiv-she-safety-harness-evolution-2608.09885.md) | draft | SHE safety harness evolution — 2608.09885 (K265) |
+| [`brief-k261-k265-harness-wave-2026-08-11`](sources/brief-k261-k265-harness-wave-2026-08-11.md) | validated | K261–K265 brief stub |
 
 ## meta/
 
@@ -753,6 +768,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`2026-06-01-daily`](sweeps/2026-06-01-daily.md) | First digest run — 3 arXiv ingested |
 | [`2026-06-02-daily`](sweeps/2026-06-02-daily.md) | 5 arXiv fetched — full ingest 2026-06-02 |
 | [`2026-08-09-daily`](sweeps/2026-08-09-daily.md) | Daily digest — 0 new PDFs; 6 dupes skipped |
+| [`2026-08-11-daily`](sweeps/2026-08-11-daily.md) | Daily digest — fetched papers into inbox |
 
 ## entities/people/
 

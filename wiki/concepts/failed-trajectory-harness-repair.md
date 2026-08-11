@@ -49,9 +49,11 @@ related:
   - concepts/trajectory-error-lifecycle-attribution.md
   - sources/arxiv-trajdebug-error-lifecycle-2608.06346.md
   - concepts/adversarial-curriculum-structured-reward-doc-fidelity.md
+  - concepts/trajectory-driven-safety-harness-evolution.md
+  - sources/arxiv-she-safety-harness-evolution-2608.09885.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-08-10
+updated: 2026-08-11
 ---
 
 ## Relations

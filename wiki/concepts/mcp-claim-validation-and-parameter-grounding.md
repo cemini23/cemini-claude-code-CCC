@@ -13,11 +13,12 @@ related:
   - sources/brief-k259-cascade-mcp-claim-validation-2026-08-08.md
   - briefs/2026-08-08_ccc-handoff-k259-cascade-ingest.md
   - concepts/adversarial-curriculum-structured-reward-doc-fidelity.md
+  - concepts/llm-verification-layer-accept-escalate-reject.md
 maturity: draft
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"
 created: 2026-08-08
-updated: 2026-08-10
+updated: 2026-08-11
 ---
 
 ## Relations

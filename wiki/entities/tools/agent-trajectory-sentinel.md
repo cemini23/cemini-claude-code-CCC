@@ -4,6 +4,7 @@ type: entity
 tags: [entity, tool, telemetry, monitoring, repair, k242]
 keywords: [2608.02464, sunnydubey1111, ESN, CUSUM, MIT]
 related:
+  - sources/arxiv-agentic-harnesses-verification-layers-2608.09857.md
   - sources/arxiv-agent-trajectory-sentinel-2608.02464.md
   - concepts/telemetry-deterministic-agent-failure-repair.md
   - concepts/failed-trajectory-harness-repair.md
@@ -21,6 +22,7 @@ updated: 2026-08-04
 
 ## Relations
 
+- `@sources/arxiv-agentic-harnesses-verification-layers-2608.09857.md`
 - `@sources/arxiv-agent-trajectory-sentinel-2608.02464.md`
 - `@concepts/telemetry-deterministic-agent-failure-repair.md`
 

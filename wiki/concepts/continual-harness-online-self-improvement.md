@@ -48,9 +48,11 @@ related:
   - sources/arxiv-recursive-self-improvement-survey-2607.07663.md
   - concepts/agent-optimizer-compounding-and-regression-control.md
   - sources/arxiv-agent-optimizers-compound-continual-learning-2607.14004.md
+  - concepts/versioned-model-harness-continual-adaptation.md
+  - sources/arxiv-macaron-v1-continual-learning-2608.09819.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-07-16
+updated: 2026-08-11
 cross-wiki-source: "@osint-wiki/concepts/continual-harness-online-self-improvement.md"
 ---
 

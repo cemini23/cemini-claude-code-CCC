@@ -44,9 +44,19 @@ related:
   - concepts/adversarial-curriculum-structured-reward-doc-fidelity.md
   - briefs/2026-08-10_ccc-handoff-k260-residencyrl-ingest.md
   - entities/tools/residencyrl.md
+  - briefs/2026-08-11_ccc-handoff-k261-k265-ingest.md
+  - concepts/llm-verification-layer-accept-escalate-reject.md
+  - concepts/scaffold-over-tool-interface.md
+  - concepts/trajectory-driven-safety-harness-evolution.md
+  - concepts/versioned-model-harness-continual-adaptation.md
+  - entities/tools/macaron-v1.md
+  - entities/tools/scaffolding-mcp-cli-study.md
+  - entities/tools/she-safety-harness.md
+  - entities/tools/vectrayx-vision-1b.md
+  - entities/tools/verification-layers-robot.md
 maturity: draft
 created: 2026-07-31
-updated: 2026-08-10
+updated: 2026-08-11
 ---
 
 ## Relations

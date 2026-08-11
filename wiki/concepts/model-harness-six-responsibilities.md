@@ -16,9 +16,10 @@ related:
   - concepts/agentic-orchestration-options-abpm.md
   - sources/arxiv-agentic-orchestration-options-abpm-2606.31518.md
   - concepts/distributed-harness-security-controls.md
+  - concepts/scaffold-over-tool-interface.md
 maturity: draft
 created: 2026-06-24
-updated: 2026-07-30
+updated: 2026-08-11
 ---
 
 ## Relations

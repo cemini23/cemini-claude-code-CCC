@@ -1,3 +1,14 @@
+## [2026-08-11] ingest | Scaffold/Macaron/Verify/SHE/VectraYX harness wave (K261–K265)
+
+- **K261 VectraYX** (2608.08477): Spanish cyber VLM + MCP tools — cybersec-primary; CCC stub; **NO-GO** weights.
+- **K262 Scaffolding > interface** (2608.08654): scaffolding dominates MCP vs CLI — **ADOPT**; **NO-GO** code.
+- **K263 Macaron-V1** (2608.09819): versioned model–harness + MoL — **ADOPT** vocab; **NO-GO** weights / null SPDX hcp-sdk.
+- **K264 Agentic verification layers** (2608.09857): accept/reject/escalate — **ADOPT**; repo **404 NO-GO**.
+- **K265 SHE** (2608.09885): four-artifact safety harness evolution — **ADOPT**; **GO** Apache `.local/adopts/SHE` (~5MB); HITL only.
+- Phase-0: `adopt_k261`…`k265_phase0.sh`; Phase-1: policy wires §K261–K265 + `ccc-k261-k265-phase1-wires.mdc`
+- Briefs: prod / Atto / Poker / GuruWatcher / Cybersec; route mid→claude-ds hung off-task → Cursor parent takeover (Grok CLI out)
+- Also: route skill v2.2 Grok-out docs; `wiki/sweeps/2026-08-11-daily.md`; `docs/briefs/2026-08-10_cursor-route-orchestrator-viral.md`
+
 ## [2026-08-10] ingest | ResidencyRL adversarial curriculum + doc fidelity (K260)
 
 - **K260 ResidencyRL** (2608.07418): Google multi-turn clinical RL (GRPO) — steal **adversarial curriculum packs**, hierarchical rubrics + safety penalties, **premature-closure** resistance, **documentation anti-hallucination** — **ADOPT** policy; **NO-GO** code (explicitly closed); **wont_wire** runtime (clinical OOD).

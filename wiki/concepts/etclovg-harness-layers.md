@@ -44,9 +44,11 @@ related:
   - concepts/failure-mode-harness-adaptation-mapping.md
   - concepts/distributed-harness-security-controls.md
   - sources/arxiv-shard-harness-security-distribution-2607.25890.md
+  - concepts/trajectory-driven-safety-harness-evolution.md
+  - sources/arxiv-she-safety-harness-evolution-2608.09885.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-07-30
+updated: 2026-08-11
 ---
 
 ## Relations
