@@ -9,7 +9,7 @@ related:
   - entities/skills/phase1-wire.md
 maturity: validated
 created: 2026-07-01
-updated: 2026-08-11
+updated: 2026-08-12
 ---
 
 ## Relations
@@ -40,5 +40,7 @@ OSINT daily digest steals for this skill via cluster `cursor-route-harness` (`da
 | K232 SHE | Trajectory→System Prompt / Rule Bank / Safety Memory / Tool Policy; evolve from `_route_runs/` **HITL only** | open — pattern; `.local/adopts/SHE` REFERENCE (OSINT) |
 | K231 smart-ralph | Force research→design→tasks in SIP Plan before mid/hard execute | open — SIP checklist |
 | K232 DiffCoop / verify papers | Pressure-test failover paths; accept/reformulate/escalate on verify fail | open — eval habit |
+| K233 | SKILLER skill-authoring / SkillLens / MISA-T / opencodex candidate | open — pattern + `/phase1` only for opencodex |
+| K234 | Charity Majors: harness > model; verification bottleneck; pets→cattle code | open — reinforce Verify gate; brief `2026-08-12_k234-charity-majors-harness-verify.md` |
 
-Brief: `briefs/2026-08-11_route-skill-k231-k232-steals.md`.
+Briefs: `briefs/2026-08-11_route-skill-k231-k232-steals.md` · `briefs/2026-08-12_k234-charity-majors-harness-verify.md`.
