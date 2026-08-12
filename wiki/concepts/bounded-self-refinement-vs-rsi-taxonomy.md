@@ -44,9 +44,11 @@ related:
   - concepts/versioned-model-harness-continual-adaptation.md
   - sources/arxiv-agentic-harnesses-verification-layers-2608.09857.md
   - sources/arxiv-macaron-v1-continual-learning-2608.09819.md
+  - concepts/agentic-configuration-management-acm.md
+  - sources/arxiv-agentic-configuration-management-acm-2608.11166.md
 maturity: draft
 created: 2026-07-14
-updated: 2026-08-11
+updated: 2026-08-12
 ---
 
 ## Relations

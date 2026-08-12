@@ -14,11 +14,15 @@ related:
   - briefs/2026-08-08_ccc-handoff-k259-cascade-ingest.md
   - concepts/adversarial-curriculum-structured-reward-doc-fidelity.md
   - concepts/llm-verification-layer-accept-escalate-reject.md
+  - concepts/enterprise-mcp-auth-gateway.md
+  - concepts/llm-assisted-writing-detection-hygiene.md
+  - sources/arxiv-enterprise-mcp-auth-gateway-2608.10760.md
+  - sources/arxiv-llm-assisted-writing-biomedical-pmc-2608.10715.md
 maturity: draft
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"
 created: 2026-08-08
-updated: 2026-08-11
+updated: 2026-08-12
 ---
 
 ## Relations

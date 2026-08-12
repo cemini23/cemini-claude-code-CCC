@@ -126,9 +126,10 @@ related:
   - sources/arxiv-artanno-bidirectional-hai-annotation-2608.05026.md
   - concepts/bidirectional-hai-skill-evolution.md
   - entities/tools/artanno.md
+  - concepts/domain-solvers-as-agent-callable-mcp-skills.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-08-06
+updated: 2026-08-12
 ---
 
 ## Relations

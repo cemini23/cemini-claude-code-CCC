@@ -58,6 +58,10 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`macaron-v1`](entities/tools/macaron-v1.md) | draft | Macaron continual MoL — NO-GO weights (K263) |
 | [`verification-layers-robot`](entities/tools/verification-layers-robot.md) | draft | Robot verification layers — 404 NO-GO (K264) |
 | [`she-safety-harness`](entities/tools/she-safety-harness.md) | draft | SHE safety harness evolution — Apache REFERENCE (K265) |
+| [`llm-usage-in-pmc`](entities/tools/llm-usage-in-pmc.md) | draft | PMC LLM-writing study — null SPDX NO-GO (K270) |
+| [`enterprise-mcp-auth-gateway`](entities/tools/enterprise-mcp-auth-gateway.md) | draft | Enterprise MCP auth gateway pattern (K271) |
+| [`agent4binary`](entities/tools/agent4binary.md) | draft | Agent-callable binary tools — MIT REFERENCE (K272) |
+| [`agentic-configuration-management-acm`](entities/tools/agentic-configuration-management-acm.md) | draft | ACM reference model — policy (K273) |
 | [`asm-adopt-orphan`](entities/tools/asm-adopt-orphan.md) | draft | Orphan CCC adopt — Phase-1 wont_wire |
 | [`biosecbench-surveillance`](entities/tools/biosecbench-surveillance.md) | draft | Biosecurity eval orphan adopt — Phase-1 wont_wire |
 | [`rrbench`](entities/tools/rrbench.md) | draft | MIT local open-weight data-prep eval — GO REFERENCE (K212) |
@@ -484,6 +488,10 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`versioned-model-harness-continual-adaptation`](concepts/versioned-model-harness-continual-adaptation.md) | draft | Macaron versioned model–harness — 2608.09819 (K263) |
 | [`llm-verification-layer-accept-escalate-reject`](concepts/llm-verification-layer-accept-escalate-reject.md) | draft | Accept/reject/escalate verify gate — 2608.09857 (K264) |
 | [`trajectory-driven-safety-harness-evolution`](concepts/trajectory-driven-safety-harness-evolution.md) | draft | SHE four-artifact safety evolution — 2608.09885 (K265) |
+| [`llm-assisted-writing-detection-hygiene`](concepts/llm-assisted-writing-detection-hygiene.md) | draft | LLM-writing detection hygiene — 2608.10715 (K270) |
+| [`enterprise-mcp-auth-gateway`](concepts/enterprise-mcp-auth-gateway.md) | draft | MCP auth gateway persona×credential — 2608.10760 (K271) |
+| [`domain-solvers-as-agent-callable-mcp-skills`](concepts/domain-solvers-as-agent-callable-mcp-skills.md) | draft | Domain solvers as MCP+Skills — 2608.10866 (K272) |
+| [`agentic-configuration-management-acm`](concepts/agentic-configuration-management-acm.md) | draft | Agentic Configuration Management — 2608.11166 (K273) |
 
 ## sources/
 
@@ -753,6 +761,11 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-agentic-harnesses-verification-layers-2608.09857`](sources/arxiv-agentic-harnesses-verification-layers-2608.09857.md) | draft | Agentic verification layers — 2608.09857 (K264) |
 | [`arxiv-she-safety-harness-evolution-2608.09885`](sources/arxiv-she-safety-harness-evolution-2608.09885.md) | draft | SHE safety harness evolution — 2608.09885 (K265) |
 | [`brief-k261-k265-harness-wave-2026-08-11`](sources/brief-k261-k265-harness-wave-2026-08-11.md) | validated | K261–K265 brief stub |
+| [`arxiv-llm-assisted-writing-biomedical-pmc-2608.10715`](sources/arxiv-llm-assisted-writing-biomedical-pmc-2608.10715.md) | draft | LLM-assisted writing in PMC — 2608.10715 (K270) |
+| [`arxiv-enterprise-mcp-auth-gateway-2608.10760`](sources/arxiv-enterprise-mcp-auth-gateway-2608.10760.md) | draft | Enterprise MCP auth gateway — 2608.10760 (K271) |
+| [`arxiv-agent-callable-spectroscopic-binary-2608.10866`](sources/arxiv-agent-callable-spectroscopic-binary-2608.10866.md) | draft | Agent-callable spectroscopic tools — 2608.10866 (K272) |
+| [`arxiv-agentic-configuration-management-acm-2608.11166`](sources/arxiv-agentic-configuration-management-acm-2608.11166.md) | draft | ACM reference model — 2608.11166 (K273) |
+| [`brief-k270-k273-mcp-acm-wave-2026-08-12`](sources/brief-k270-k273-mcp-acm-wave-2026-08-12.md) | validated | K270–K273 brief stub |
 
 ## meta/
 
@@ -769,6 +782,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`2026-06-02-daily`](sweeps/2026-06-02-daily.md) | 5 arXiv fetched — full ingest 2026-06-02 |
 | [`2026-08-09-daily`](sweeps/2026-08-09-daily.md) | Daily digest — 0 new PDFs; 6 dupes skipped |
 | [`2026-08-11-daily`](sweeps/2026-08-11-daily.md) | Daily digest — fetched papers into inbox |
+| [`2026-08-12-daily`](sweeps/2026-08-12-daily.md) | Daily digest — 4 papers to inbox |
 
 ## entities/people/
 

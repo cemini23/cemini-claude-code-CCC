@@ -54,9 +54,19 @@ related:
   - entities/tools/she-safety-harness.md
   - entities/tools/vectrayx-vision-1b.md
   - entities/tools/verification-layers-robot.md
+  - briefs/2026-08-12_ccc-handoff-k270-k273-ingest.md
+  - concepts/agentic-configuration-management-acm.md
+  - concepts/domain-solvers-as-agent-callable-mcp-skills.md
+  - concepts/enterprise-mcp-auth-gateway.md
+  - concepts/llm-assisted-writing-detection-hygiene.md
+  - entities/tools/agent4binary.md
+  - entities/tools/agentic-configuration-management-acm.md
+  - entities/tools/enterprise-mcp-auth-gateway.md
+  - entities/tools/llm-usage-in-pmc.md
+  - sources/arxiv-agentic-configuration-management-acm-2608.11166.md
 maturity: draft
 created: 2026-07-31
-updated: 2026-08-11
+updated: 2026-08-12
 ---
 
 ## Relations

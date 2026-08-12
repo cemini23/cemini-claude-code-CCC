@@ -1,3 +1,14 @@
+## [2026-08-12] ingest | MCP auth gateway + ACM + agent-callable tools (K270–K273)
+
+- **Note:** K266–K269 IDs already used by cybersec agent-security wave — this batch uses **K270–K273**.
+- **K270** LLM-assisted writing in PMC (2608.10715) — hygiene awareness; **NO-GO** null SPDX.
+- **K271** Enterprise MCP auth gateway (2608.10760) — persona×credential + central gateway — **ADOPT**; no public code.
+- **K272** Agent-callable spectroscopic tools (2608.10866) — MCP+Skill packaging — **ADOPT**; **GO** MIT `.local/adopts/agent4binary` (~185MB); astronomy **wont_wire**.
+- **K273** Agentic Configuration Management ACM (2608.11166) — baselines/provenance governance — **ADOPT**; no SPDX product.
+- Phase-0: `adopt_k270`…`k273`; Phase-1: policy §K270–K273 + `ccc-k270-k273-phase1-wires.mdc`
+- Route: mid+SkipGrokPlan attempted with wrong K266 IDs → killed; Cursor parent completed as K270–K273 (Grok CLI out).
+- Briefs: prod / Atto / Poker / GuruWatcher / Cybersec
+
 ## [2026-08-11] ingest | Scaffold/Macaron/Verify/SHE/VectraYX harness wave (K261–K265)
 
 - **K261 VectraYX** (2608.08477): Spanish cyber VLM + MCP tools — cybersec-primary; CCC stub; **NO-GO** weights.

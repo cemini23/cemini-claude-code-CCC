@@ -27,9 +27,13 @@ related:
   - concepts/mcp-claim-validation-and-parameter-grounding.md
   - entities/tools/cascade-mcp.md
   - sources/arxiv-cascade-agentic-regulatory-network-2608.05359.md
+  - concepts/domain-solvers-as-agent-callable-mcp-skills.md
+  - concepts/enterprise-mcp-auth-gateway.md
+  - sources/arxiv-agent-callable-spectroscopic-binary-2608.10866.md
+  - sources/arxiv-enterprise-mcp-auth-gateway-2608.10760.md
 maturity: draft
 created: 2026-07-21
-updated: 2026-08-08
+updated: 2026-08-12
 ---
 
 ## Relations

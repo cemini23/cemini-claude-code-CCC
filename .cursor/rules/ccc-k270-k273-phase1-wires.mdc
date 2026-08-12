@@ -1,0 +1,14 @@
+---
+description: CCC Phase-1 wires from K270–K273 MCP auth gateway + ACM wave
+alwaysApply: true
+---
+
+# CCC — K270–K273 Phase-1 wires
+
+**Brief:** `docs/briefs/2026-08-12_k270-k273-mcp-acm-wave.md`
+
+- **K271** Enterprise MCP auth gateway — persona×credential; central aggregation.
+- **K273** ACM — config items, baselines, provenance for harness governance.
+- **K272** agent4binary MIT REFERENCE — MCP+Skill packaging pattern; astronomy wont_wire.
+- **K270** LLM-writing hygiene awareness; null-SPDX detector NO-GO.
+- Note: cybersec wave already occupies K266–K269 IDs — do not renumber this batch onto those.
