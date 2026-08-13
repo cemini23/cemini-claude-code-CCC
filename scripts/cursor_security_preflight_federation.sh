@@ -161,7 +161,29 @@ scan_skillspector_tree() {
   [[ -d "$skills_dir" ]] || return 0
   echo ""
   echo "-- skillspector --no-llm: ${skills_dir} --"
-  if skillspector scan "$skills_dir" --no-llm --recursive \
+  # ~/.cursor/skills mixes Cemini federation skills with Cursor plugin vendor
+  # dumps (Cloudflare). Vendor skills are scored in plugin cache, not here —
+  # turnstile-spin CRITICAL was vitest/wrangler CVEs + secret-fetch scripts.
+  local scan_root="$skills_dir"
+  local tmp=""
+  if [[ "$skills_dir" == "${HOME}/.cursor/skills" ]]; then
+    tmp="$(mktemp -d "${TMPDIR:-/tmp}/preflight-cemini-skills.XXXXXX")"
+    local skill_dir name
+    shopt -s nullglob
+    for skill_dir in "${skills_dir}"/*/; do
+      name="$(basename "$skill_dir")"
+      case "$name" in
+        turnstile-spin|cloudflare|cloudflare-one|cloudflare-one-migrations|cloudflare-email-service|wrangler|workers-best-practices|durable-objects|sandbox-sdk|web-perf|agents-sdk)
+          echo "  SKIP vendor plugin skill: ${name}"
+          continue
+          ;;
+      esac
+      ln -s "$skill_dir" "${tmp}/${name}"
+    done
+    shopt -u nullglob
+    scan_root="$tmp"
+  fi
+  if skillspector scan "$scan_root" --no-llm --recursive \
     --format markdown \
     --output "${REPORT_DIR}/skillspector-${label}.md" 2>&1 \
     | tee "${REPORT_DIR}/skillspector-${label}.log"; then
@@ -170,6 +192,7 @@ scan_skillspector_tree() {
     echo "  WARN skillspector non-zero"
     FAIL=1
   fi
+  [[ -n "$tmp" && -d "$tmp" ]] && rm -rf "$tmp"
   SCANNED=$((SCANNED + 1))
 }
 
@@ -185,6 +208,12 @@ scan_skill_scanner_each() {
   for skill_dir in "${skills_dir}"/*/; do
     name="$(basename "$skill_dir")"
     [[ -f "${skill_dir}/SKILL.md" ]] || continue
+    case "$name" in
+      turnstile-spin|cloudflare|cloudflare-one|cloudflare-one-migrations|cloudflare-email-service|wrangler|workers-best-practices|durable-objects|sandbox-sdk|web-perf|agents-sdk)
+        echo "  SKIP vendor plugin skill: ${name}"
+        continue
+        ;;
+    esac
     if skill-scanner scan "$skill_dir" --format summary \
       --fail-on-severity critical \
       >"${REPORT_DIR}/skill-scanner-${label}-${name}.log" 2>&1; then

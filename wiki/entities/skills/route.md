@@ -51,4 +51,4 @@ OSINT daily digest steals for this skill via cluster `cursor-route-harness` (`da
 | ops 2026-08-12 | OpenCode / Reasonix as DeepSeek coding harness vs claude-ds | **closed** — keep claude-ds 2.1.222; both NO-GO PATH + mid swap (`@entities/tools/opencode.md`, `@entities/tools/reasonix.md`) |
 | ops 2026-08-12 | Flash vs Pro in one harness; Pro = Grok CLI usage-out stand-in | **wired** — skill v2.3 + `route-task.ps1`; official DeepSeek Harness still unreleased |
 
-Briefs: `briefs/2026-08-11_route-skill-k231-k232-steals.md` · `briefs/2026-08-12_k234-charity-majors-harness-verify.md`.
+Briefs: `briefs/2026-08-11_route-skill-k231-k232-steals.md` · `briefs/2026-08-12_k234-charity-majors-harness-verify.md` · public product working brief: `~/Projects/cursor-route/docs/briefs/WORKING.md`.
