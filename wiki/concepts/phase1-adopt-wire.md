@@ -64,9 +64,16 @@ related:
   - entities/tools/enterprise-mcp-auth-gateway.md
   - entities/tools/llm-usage-in-pmc.md
   - sources/arxiv-agentic-configuration-management-acm-2608.11166.md
+  - briefs/2026-08-13_ccc-handoff-k274-k276-ingest.md
+  - concepts/convergent-detour-hijacking-progressive-disclosure.md
+  - concepts/multi-hop-api-retrieval-eval-tool-policies.md
+  - concepts/role-specialization-model-multi-tool-coordination.md
+  - entities/patterns/convergent-detour-hijacking.md
+  - entities/patterns/role-specialization-model.md
+  - entities/tools/vakra.md
 maturity: draft
 created: 2026-07-31
-updated: 2026-08-12
+updated: 2026-08-13
 ---
 
 ## Relations

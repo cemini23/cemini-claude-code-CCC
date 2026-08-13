@@ -10,9 +10,11 @@ related:
   - entities/tools/claude-skill-registry.md
   - "@osint-wiki/entities/tools/agent-skill-manager.md"
   - concepts/cross-wiki-tool-eval-inventory.md
+  - concepts/convergent-detour-hijacking-progressive-disclosure.md
+  - sources/arxiv-convergent-detour-hijacking-cdh-2608.12273.md
 maturity: draft
 created: 2026-06-07
-updated: 2026-06-07
+updated: 2026-08-13
 phase_0_verdict: "CONDITIONAL-GO 2026-06-07 — MIT; isolated skill dirs only"
 ---
 

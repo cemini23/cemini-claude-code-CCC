@@ -18,11 +18,13 @@ related:
   - concepts/llm-assisted-writing-detection-hygiene.md
   - sources/arxiv-enterprise-mcp-auth-gateway-2608.10760.md
   - sources/arxiv-llm-assisted-writing-biomedical-pmc-2608.10715.md
+  - concepts/multi-hop-api-retrieval-eval-tool-policies.md
+  - sources/arxiv-vakra-multi-hop-api-retrieval-2608.12282.md
 maturity: draft
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"
 created: 2026-08-08
-updated: 2026-08-12
+updated: 2026-08-13
 ---
 
 ## Relations

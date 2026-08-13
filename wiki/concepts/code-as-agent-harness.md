@@ -97,9 +97,12 @@ related:
   - concepts/programmatic-vs-json-tool-calling.md
   - entities/tools/programmatic-tool-calling-ptc.md
   - sources/arxiv-bitter-lesson-tool-calling-2608.06370.md
+  - concepts/role-specialization-model-multi-tool-coordination.md
+  - entities/patterns/role-specialization-model.md
+  - sources/arxiv-role-specialization-model-rsm-2608.12311.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-07-24
+updated: 2026-08-13
 cross-wiki-source: "@osint-wiki/sources/arxiv-code-as-agent-harness-survey-2605.18747.md"
 ---
 

@@ -15,9 +15,12 @@ related:
   - concepts/traceable-scholarship-citation-first-generation.md
   - concepts/standing-policy-instruction-following-benchmark.md
   - sources/arxiv-handbook-md-long-context-agentic-policy-2607.25398.md
+  - concepts/multi-hop-api-retrieval-eval-tool-policies.md
+  - entities/tools/vakra.md
+  - sources/arxiv-vakra-multi-hop-api-retrieval-2608.12282.md
 maturity: draft
 created: 2026-07-22
-updated: 2026-07-30
+updated: 2026-08-13
 ---
 
 ## Relations

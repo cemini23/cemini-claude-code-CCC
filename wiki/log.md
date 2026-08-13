@@ -1,3 +1,17 @@
+## [2026-08-13] ingest | K274–K276 skill-security + eval-policy wave (CDH / VAKRA / RSM)
+
+- **K274** CDH (2608.12273) — progressive-disclosure skill supply-chain attack: description wins selection, body recruits benign skills into a bounded detour, task still completes. **ADOPT** threat model; trajectory necessity = security requirement. Pattern only, no code.
+- **K275** VAKRA (2608.12282) — 8k+ executable APIs / 62 domains; multi-hop + NL tool-use policy eval; re-exec verification. **ADOPT** eval axes; `IBM/vakra` **NO-GO** clone (CC-BY-NC-SA 4.0 LICENSE verified); HF dataset WATCH only.
+- **K276** RSM (2608.12311) — role-specialized multi-tool coordination (Antigravity/Gemini CLI/Qwen Code); **ADOPT** role coordination + HITL verify + negative-constraint prompt-hardening; case study, no product.
+- Phase-0 scripts `adopt_k274/275/276_phase0.sh` all green; policy wires extended `cemini-phase1-policy-wires.mdc` §K274–K276 + `ccc-k274-k276-phase1-wires.mdc`.
+- Briefs: prod SCP'd (`2026-08-13_k274-k276-harness-wave-prod.md`); routed Atto (K275) / GuruWatcher / Poker / Cybersec (CDH attack surface; VAKRA dual interest with K235 benchflow).
+- 3 PDFs archived to egress-fi; inbox empty. No local adopts (nothing SPDX-clean <500MB).
+
+## [2026-08-12] ops | cursor-route skill working brief + turnstile-spin preflight
+
+- Living brief: `docs/briefs/2026-08-12_cursor-route-skill-working.md` — **pointer only**; editable file is `~/Projects/cursor-route/docs/briefs/WORKING.md`.
+- Preflight CRITICAL was Cloudflare `turnstile-spin` in `~/.cursor/skills` (vitest CVEs + secret-fetch), not `/route` (LOW 6). Removed user-global copy. Preflight skips Cursor-plugin vendor skill dirs under `~/.cursor/skills`.
+
 ## [2026-08-12] ops | /route v2.3 Flash vs Pro (Grok CLI stand-in)
 
 - Isolated `claude-ds` stays the worker. DeepSeek V4 Pro GA (`deepseek-v4-pro`) stands in for Grok CLI when **usage** is out: mid **plan**, hard **implement**. Flash stays easy/mid execute. Grok **auth** still `grok login`.

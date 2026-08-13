@@ -1,0 +1,14 @@
+---
+description: CCC Phase-1 wires from K274–K276 skill-security + eval-policy wave
+alwaysApply: true
+---
+
+# CCC — K274–K276 Phase-1 wires
+
+**Brief:** `docs/briefs/2026-08-13_k274-k276-skill-security-eval-wave.md`
+
+- **K274** Convergent Detour Hijacking — progressive-disclosure skill supply-chain threat model; **trajectory necessity** is a security requirement. Pattern only, no code.
+- **K275** VAKRA multi-hop eval axes (API hops, multi-source, NL policy constraints, re-exec verify). `IBM/vakra` **NO-GO** clone (CC-BY-NC-SA 4.0) — eval axes ADOPT, HF dataset WATCH only.
+- **K276** Role Specialization Model — explicit role coordination + HITL verify + prompt-hardening (negative constraints, failure-backed instructions). Case study, no product install.
+- No local adopts in this batch; all runtime **wont_wire**, all concepts **policy_wired**.
+- Note: same-day cybersec K235 benchflow brief covers VAKRA attack-surface angle — CCC owns harness/eval-policy side.

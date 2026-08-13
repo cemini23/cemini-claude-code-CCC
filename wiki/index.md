@@ -64,6 +64,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`enterprise-mcp-auth-gateway`](entities/tools/enterprise-mcp-auth-gateway.md) | draft | Enterprise MCP auth gateway pattern (K271) |
 | [`agent4binary`](entities/tools/agent4binary.md) | draft | Agent-callable binary tools — MIT REFERENCE (K272) |
 | [`agentic-configuration-management-acm`](entities/tools/agentic-configuration-management-acm.md) | draft | ACM reference model — policy (K273) |
+| [`vakra`](entities/tools/vakra.md) | draft | VAKRA multi-hop benchmark — CC-BY-NC-SA NO-GO (K275) |
 | [`asm-adopt-orphan`](entities/tools/asm-adopt-orphan.md) | draft | Orphan CCC adopt — Phase-1 wont_wire |
 | [`biosecbench-surveillance`](entities/tools/biosecbench-surveillance.md) | draft | Biosecurity eval orphan adopt — Phase-1 wont_wire |
 | [`rrbench`](entities/tools/rrbench.md) | draft | MIT local open-weight data-prep eval — GO REFERENCE (K212) |
@@ -200,6 +201,8 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`scatter-gather`](entities/patterns/scatter-gather.md) | draft | Cross-wiki stub — LangGraph parallel fan-out topology; parallel Agent tool calls |
 | [`citadel-agent-orchestration`](entities/patterns/citadel-agent-orchestration.md) | draft | Apex agent-orchestration OS layer — 4-tier /do routing, campaign persistence, lifecycle hooks, circuit breaker |
 | [`glasswing-deliberate-disagreement`](entities/patterns/glasswing-deliberate-disagreement.md) | draft | evilsocket/audit adversarial-verification pattern — multi-agent disagreement as safety primitive (MIT) |
+| [`convergent-detour-hijacking`](entities/patterns/convergent-detour-hijacking.md) | draft | CDH skill-supply-chain attack pattern — trajectory necessity (K274) |
+| [`role-specialization-model`](entities/patterns/role-specialization-model.md) | draft | RSM multi-tool role coordination — HITL + prompt-hardening (K276) |
 
 ## concepts/
 
@@ -494,6 +497,9 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`enterprise-mcp-auth-gateway`](concepts/enterprise-mcp-auth-gateway.md) | draft | MCP auth gateway persona×credential — 2608.10760 (K271) |
 | [`domain-solvers-as-agent-callable-mcp-skills`](concepts/domain-solvers-as-agent-callable-mcp-skills.md) | draft | Domain solvers as MCP+Skills — 2608.10866 (K272) |
 | [`agentic-configuration-management-acm`](concepts/agentic-configuration-management-acm.md) | draft | Agentic Configuration Management — 2608.11166 (K273) |
+| [`convergent-detour-hijacking-progressive-disclosure`](concepts/convergent-detour-hijacking-progressive-disclosure.md) | draft | CDH skill-supply-chain threat model — 2608.12273 (K274) |
+| [`multi-hop-api-retrieval-eval-tool-policies`](concepts/multi-hop-api-retrieval-eval-tool-policies.md) | draft | VAKRA multi-hop eval axes — 2608.12282 (K275) |
+| [`role-specialization-model-multi-tool-coordination`](concepts/role-specialization-model-multi-tool-coordination.md) | draft | RSM role coordination — 2608.12311 (K276) |
 
 ## sources/
 
@@ -768,6 +774,10 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-agent-callable-spectroscopic-binary-2608.10866`](sources/arxiv-agent-callable-spectroscopic-binary-2608.10866.md) | draft | Agent-callable spectroscopic tools — 2608.10866 (K272) |
 | [`arxiv-agentic-configuration-management-acm-2608.11166`](sources/arxiv-agentic-configuration-management-acm-2608.11166.md) | draft | ACM reference model — 2608.11166 (K273) |
 | [`brief-k270-k273-mcp-acm-wave-2026-08-12`](sources/brief-k270-k273-mcp-acm-wave-2026-08-12.md) | validated | K270–K273 brief stub |
+| [`arxiv-convergent-detour-hijacking-cdh-2608.12273`](sources/arxiv-convergent-detour-hijacking-cdh-2608.12273.md) | draft | CDH skill-supply-chain — 2608.12273 (K274) |
+| [`arxiv-vakra-multi-hop-api-retrieval-2608.12282`](sources/arxiv-vakra-multi-hop-api-retrieval-2608.12282.md) | draft | VAKRA multi-hop eval — 2608.12282 (K275) |
+| [`arxiv-role-specialization-model-rsm-2608.12311`](sources/arxiv-role-specialization-model-rsm-2608.12311.md) | draft | RSM role coordination — 2608.12311 (K276) |
+| [`brief-k274-k276-skill-security-eval-2026-08-13`](sources/brief-k274-k276-skill-security-eval-2026-08-13.md) | validated | K274–K276 brief stub |
 
 ## meta/
 

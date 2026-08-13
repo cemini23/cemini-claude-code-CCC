@@ -127,9 +127,12 @@ related:
   - concepts/bidirectional-hai-skill-evolution.md
   - entities/tools/artanno.md
   - concepts/domain-solvers-as-agent-callable-mcp-skills.md
+  - concepts/convergent-detour-hijacking-progressive-disclosure.md
+  - entities/patterns/convergent-detour-hijacking.md
+  - sources/arxiv-convergent-detour-hijacking-cdh-2608.12273.md
 maturity: draft
 created: 2026-05-17
-updated: 2026-08-12
+updated: 2026-08-13
 ---
 
 ## Relations

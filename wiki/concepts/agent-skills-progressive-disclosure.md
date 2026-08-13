@@ -24,9 +24,12 @@ related:
   - concepts/hierarchical-skill-stack-lazy-orchestration.md
   - concepts/theory-of-mind-personalized-agent-explanations.md
   - sources/arxiv-tars-theory-of-mind-ide-2607.15948.md
+  - concepts/convergent-detour-hijacking-progressive-disclosure.md
+  - entities/patterns/convergent-detour-hijacking.md
+  - sources/arxiv-convergent-detour-hijacking-cdh-2608.12273.md
 maturity: draft
 created: 2026-06-04
-updated: 2026-07-20
+updated: 2026-08-13
 ---
 
 ## Relations
