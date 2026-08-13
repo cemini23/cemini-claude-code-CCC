@@ -19,6 +19,8 @@ related:
   - entities/skills/goal.md
   - entities/tools/lazy-tool.md
   - entities/tools/claude-code-router.md
+  - entities/tools/opencode.md
+  - entities/tools/reasonix.md
   - entities/tools/spec-kit.md
   - entities/tools/ttok.md
   - entities/tools/tech-debt-skill.md
@@ -58,7 +60,7 @@ related:
 maturity: core
 hub: true
 created: 2026-05-13
-updated: 2026-06-10
+updated: 2026-08-12
 ---
 
 ## Relations
@@ -76,6 +78,7 @@ updated: 2026-06-10
 - `@entities/patterns/ralph-loop.md` — loop-based execution pattern
 - `@entities/patterns/full-prompt-goal-template.md` — single-shot meta-prompt template
 - `@entities/tools/lazy-tool.md`, `@entities/tools/claude-code-router.md`, `@entities/tools/ttok.md`, `@entities/tools/tech-debt-skill.md`, `@entities/tools/cua.md`, `@entities/tools/spec-kit.md`, `@entities/tools/claude-code-ultimate-guide.md` — surrounding tool stack
+- `@entities/tools/opencode.md`, `@entities/tools/reasonix.md` — Phase-0 2026-08-12 DeepSeek coding-harness alternatives; **keep** isolated `claude-ds` (Flash + Pro in one process; official DeepSeek Harness unreleased)
 - `@entities/commands/plugin.md` — `/plugin marketplace add` + `/plugin install`
 - `@entities/tools/superclaude-framework.md` — third-party Claude Code config/automation framework (slash commands + cognitive personas + KNOWLEDGE.md)
 - `@concepts/claude-desktop-vs-claude-code.md` — surface distinction

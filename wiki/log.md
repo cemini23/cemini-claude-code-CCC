@@ -1,3 +1,15 @@
+## [2026-08-12] ops | /route v2.3 Flash vs Pro (Grok CLI stand-in)
+
+- Isolated `claude-ds` stays the worker. DeepSeek V4 Pro GA (`deepseek-v4-pro`) stands in for Grok CLI when **usage** is out: mid **plan**, hard **implement**. Flash stays easy/mid execute. Grok **auth** still `grok login`.
+- One harness; no second coding loop. Official DeepSeek Harness still unreleased.
+- Skill v2.3.0 + always-apply route rule; toolkit `route-task.ps1`. Brief: `docs/briefs/2026-08-12_route-v23-flash-pro.md`.
+
+## [2026-08-12] ops | claude-ds bump + OpenCode/Reasonix Phase-0
+
+- Isolated `claude-ds`: Claude Code **2.1.123 → 2.1.222** (npm age-gate blocks same-week 2.1.229). Wrapper no longer hardcodes retired `DeepSeek-V3.1` / `deepseek-chat`. `CLAUDE_CONFIG_DIR=~/.deepseek-claude`. Default Flash; `-Model deepseek-v4-pro` for harder mid. Plugins: exa + pyright-lsp + typescript-lsp + code-review. Stock Anthropic `claude` plugins untouched.
+- Phase-0: `@entities/tools/opencode.md` (MIT, ~197k★) and `@entities/tools/reasonix.md` (MIT, ~34k★) — **CONDITIONAL-GO** docs-only reference; **NO-GO** PATH and `/route` mid swap. Keep `claude-ds`.
+- Scripts: `adopt_opencode_phase0.sh`, `adopt_reasonix_phase0.sh`. Toolkit: `claude-ds.ps1` / `.sh` / `install-claude-ds.ps1`.
+
 ## [2026-08-12] ingest | MCP auth gateway + ACM + agent-callable tools (K270–K273)
 
 - **Note:** K266–K269 IDs already used by cybersec agent-security wave — this batch uses **K270–K273**.

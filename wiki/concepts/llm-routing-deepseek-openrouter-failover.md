@@ -11,13 +11,15 @@ related:
   - entities/tools/ai-token-monitor.md
   - entities/tools/agent-toolkit.md
   - entities/skills/route.md
+  - entities/tools/opencode.md
+  - entities/tools/reasonix.md
   - "@osint-wiki/concepts/api-credential-registry.md"
   - "@osint-wiki/entities/infrastructure/deepseek-api.md"
   - "@gambling-wiki/concepts/poker-hl-analyst-loop.md"
   - "@osint-wiki/concepts/llm-routing-deepseek-openrouter-failover.md"
 maturity: draft
 created: 2026-06-04
-updated: 2026-08-08
+updated: 2026-08-12
 ---
 
 ## Relations
@@ -25,7 +27,9 @@ updated: 2026-08-08
 - @concepts/deepseek-coding-cost-routing.md — cheap-model discipline; this page is **automatic failover** when DeepSeek quota hits
 - @entities/tools/claude-code-router.md — prod proxy layer; complementary to app-level `llm_routing.py`
 - @entities/tools/agent-toolkit.md — private `/route` script host (`ROUTE_KIT`)
-- @entities/skills/route.md — federation `/route` skill v2.1
+- @entities/skills/route.md — federation `/route` skill v2.3
+- @entities/tools/opencode.md — Phase-0; NO-GO mid swap (not `@osint-wiki/entities/tools/opencodex.md`)
+- @entities/tools/reasonix.md — Phase-0; NO-GO mid swap
 - @osint-wiki/concepts/api-credential-registry.md — key names only (`DEEPSEEK_*`, `OPENROUTER_*`)
 - @osint-wiki/entities/infrastructure/deepseek-api.md — Cemini brain entity
 - @gambling-wiki/concepts/poker-hl-analyst-loop.md — `cemini_hl_loop.sh` sources routing env at start
@@ -82,6 +86,8 @@ Default model map: `deepseek-v4-flash` → `deepseek/deepseek-chat` on OpenRoute
 ### Cursor / Claude Code
 
 Routing is **env-driven**, not a Cursor setting. Open a terminal, `source` the script, then run scripts or point OpenAI-compat tools at the same env. For HL patches, use OpenRouter in chat after sourcing (no runtime LLM in `cemini_decide.py`).
+
+**`/route` claude-ds (2026-08-12 v2.3):** one isolated Claude Code (`~/.deepseek-claude`). Flash = easy/mid execute; Pro = Grok CLI usage-out stand-in. `CLAUDE_CODE_SUBAGENT_MODEL=deepseek-v4-flash`. Official DeepSeek Harness unreleased.
 
 ## Snippets
 
