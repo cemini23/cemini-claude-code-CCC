@@ -8,9 +8,10 @@ related:
   - concepts/llm-routing-deepseek-openrouter-failover.md
   - entities/tools/opencode.md
   - entities/tools/reasonix.md
+  - entities/tools/deepseek-harness.md
 maturity: validated
 created: 2026-08-08
-updated: 2026-08-12
+updated: 2026-08-14
 ---
 
 ## Relations
@@ -19,6 +20,7 @@ updated: 2026-08-12
 - @concepts/llm-routing-deepseek-openrouter-failover.md
 - @entities/tools/opencode.md — Phase-0 2026-08-12; NO-GO `/route` swap
 - @entities/tools/reasonix.md — Phase-0 2026-08-12; NO-GO `/route` swap
+- @entities/tools/deepseek-harness.md — Phase-0 2026-08-14 official `dsh`; developer preview, NO-GO `/route` swap (keep-wrapper policy)
 
 ## Raw Concept
 
@@ -34,4 +36,4 @@ Private canon host for Cemini `/route` after TipDrop kit retirement (2026-08-08)
 
 Scripts: `route-task`, `handoff-to-grok`, `claude-ds`, SIP/verify/escalate libs. Adopt: `pwsh -File scripts/adopt-route-always-approve.ps1`. TipDrop kit keeps redirect stubs only.
 
-**claude-ds (2026-08-12):** isolated Claude Code **2.1.222** (npm `minimum-release-age` blocks same-week **2.1.229**), `CLAUDE_CONFIG_DIR=~/.deepseek-claude`, default `deepseek-v4-flash`, `-Model deepseek-v4-pro` for Grok CLI stand-in (mid plan / hard implement when usage is out). Subagents: `CLAUDE_CODE_SUBAGENT_MODEL=deepseek-v4-flash`. Native wrapper no longer hardcodes retired `DeepSeek-V3.1` / `deepseek-chat`. Plugins: exa + pyright-lsp + typescript-lsp + code-review. OpenCode / Reasonix audited — **keep this worker**. Official DeepSeek Harness still unreleased.
+**claude-ds (2026-08-14):** isolated Claude Code **2.1.222** (npm `minimum-release-age` blocks same-week **2.1.229**), `CLAUDE_CONFIG_DIR=~/.deepseek-claude`, default `deepseek-v4-flash`, `-Model deepseek-v4-pro` for Grok CLI stand-in (mid plan / hard implement when usage is out). Subagents: `CLAUDE_CODE_SUBAGENT_MODEL=deepseek-v4-flash`. Native wrapper no longer hardcodes retired `DeepSeek-V3.1` / `deepseek-chat`. Plugins: exa + pyright-lsp + typescript-lsp + code-review. OpenCode / Reasonix / official DeepSeek Harness `dsh` audited — **keep this worker** (dsh: developer preview RC, prod Node 20, cutover gates on `@entities/tools/deepseek-harness.md`).

@@ -1,3 +1,13 @@
+## [2026-08-14] ops | dsh Phase-0 NO-GO /route swap — keep claude-ds wrapper
+
+- **New page:** `entities/tools/deepseek-harness.md` — official DeepSeek Harness (`deepseek-ai/deepseek-harness`, npm `@deepseek-ai/dsh` 0.1.0-rc.6). Phase-0 audit: MIT SPDX `[CONFIRMED]` (gh api + clone `47f9438` 2026-08-13, `/tmp/deepseek-harness-audit` ~80MB); README = developer preview with breaking changes; repo rc.5 vs npm rc.6 skew; engines Node `^22.19 || >=24` (prod is v20.20.0); headless = positional task only (no PromptFile / no -Model); permissions via `DSH_PERMISSION_MODE`; no TUI shipped.
+- **Verdict:** NO-GO `/route` executor swap (laptop + prod). Keep isolated `claude-ds` (Claude Code 2.1.222, `~/.deepseek-claude`). Track A scratch pilot (separate binary name) deferred; Track B cutover gates documented on the entity (non-rc npm pin + integrity, prod Node, PromptFile file-path, Flash/Pro CLI, always-approve mapping, laptop+prod smoke, HITL GO). `wire_status: wont_wire` runtime PATH.
+- **GPTSOL review (2026-08-14):** AGREE keep-wrapper; residual Anthropic-shim risk = monitor, not a reason to adopt RC dsh.
+- **Federation policy fix:** route SKILL.md **v2.3.0 → v2.3.1** — dropped "unreleased DeepSeek Harness" wording; developer preview / NO-GO `/route` swap; keep one isolated Claude Code harness. Synced via `scripts/sync_federation_cursor_skills.sh` (CCC canon + `~/.cursor/skills/route` + OSINT + agent-toolkit). agent-toolkit README + `claude-ds.ps1` header + `route-task.ps1` comment updated; `adopt-route-always-approve.ps1` re-run (shims refreshed, always-approve defaults unchanged).
+- **Backlinks:** `entities/tools/claude-code.md`, `entities/tools/agent-toolkit.md`, `entities/skills/route.md`, `concepts/llm-routing-deepseek-openrouter-failover.md` (bidirectional `related:` + wording fixed); index.md row added.
+- **Prod unchanged:** `/usr/local/bin/claude-ds` bash wrapper; `/root/.deepseek-claude/deepseek-claude` untouched; Node v20.20.0 (no upgrade); no `npx @deepseek-ai/dsh` as default executor.
+- **Verify:** skill asserts green; federation diffs clean; `claude-ds` on PATH = kit shim; `dsh` absent from PATH; prod ssh check ok; `route-task -DryClassify` still classifies hard; `wiki_lint.py` clean.
+
 ## [2026-08-13] ingest | K274–K276 skill-security + eval-policy wave (CDH / VAKRA / RSM)
 
 - **K274** CDH (2608.12273) — progressive-disclosure skill supply-chain attack: description wins selection, body recruits benign skills into a bounded detour, task still completes. **ADOPT** threat model; trajectory necessity = security requirement. Pattern only, no code.

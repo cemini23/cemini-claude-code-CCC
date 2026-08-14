@@ -10,6 +10,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`agent-toolkit`](entities/tools/agent-toolkit.md) | validated | Private /route script host (ROUTE_KIT) |
 | [`opencode`](entities/tools/opencode.md) | draft | sst/OpenCode coding agent — Phase-0 MIT; NO-GO `/route` swap (not opencodex) |
 | [`reasonix`](entities/tools/reasonix.md) | draft | DeepSeek-native community CLI — Phase-0 MIT; NO-GO `/route` swap |
+| [`deepseek-harness`](entities/tools/deepseek-harness.md) | draft | Official DeepSeek Harness `dsh` — developer preview RC; Phase-0 MIT; NO-GO `/route` swap (keep claude-ds) |
 | [`portable-llm-wiki`](entities/tools/portable-llm-wiki.md) | draft | OKF/MCP wiki protocol and lint UI — STEAL-FROM (K142) |
 | [`zero`](entities/tools/zero.md) | draft | Local Go coding harness — ADOPT/TRIAL (K142) |
 | [`caveman`](entities/tools/caveman.md) | draft | Opt-in terse-output token compression skill — ADOPT/TRIAL (K142) |

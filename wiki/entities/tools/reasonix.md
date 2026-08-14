@@ -8,12 +8,13 @@ related:
   - entities/tools/agent-toolkit.md
   - entities/skills/route.md
   - entities/tools/opencode.md
+  - entities/tools/deepseek-harness.md
   - concepts/llm-routing-deepseek-openrouter-failover.md
   - "@osint-wiki/entities/tools/reasonix.md"
   - "@osint-wiki/entities/infrastructure/deepseek-api.md"
 maturity: draft
 created: 2026-08-12
-updated: 2026-08-12
+updated: 2026-08-14
 wire_status: wont_wire
 ---
 
@@ -23,6 +24,7 @@ wire_status: wont_wire
 - @entities/tools/agent-toolkit.md
 - @entities/skills/route.md — do not swap mid-lane onto Reasonix
 - @entities/tools/opencode.md — sibling Phase-0 (provider-agnostic)
+- @entities/tools/deepseek-harness.md — official DeepSeek Harness `dsh`; developer preview, NO-GO `/route` swap (2026-08-14)
 - @concepts/llm-routing-deepseek-openrouter-failover.md
 - @osint-wiki/entities/tools/reasonix.md — OSINT stub
 - @osint-wiki/entities/infrastructure/deepseek-api.md

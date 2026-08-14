@@ -8,12 +8,13 @@ related:
   - entities/tools/agent-toolkit.md
   - entities/skills/route.md
   - entities/tools/reasonix.md
+  - entities/tools/deepseek-harness.md
   - concepts/llm-routing-deepseek-openrouter-failover.md
   - "@osint-wiki/entities/tools/opencodex.md"
   - "@osint-wiki/entities/tools/opencode.md"
 maturity: draft
 created: 2026-08-12
-updated: 2026-08-12
+updated: 2026-08-14
 wire_status: wont_wire
 ---
 
@@ -23,6 +24,7 @@ wire_status: wont_wire
 - @entities/tools/agent-toolkit.md — `claude-ds.ps1` / `route-task` host
 - @entities/skills/route.md — do not swap mid-lane onto OpenCode
 - @entities/tools/reasonix.md — sibling Phase-0 (DeepSeek-native CLI)
+- @entities/tools/deepseek-harness.md — official DeepSeek Harness `dsh`; developer preview, NO-GO `/route` swap (2026-08-14)
 - @concepts/llm-routing-deepseek-openrouter-failover.md
 - @osint-wiki/entities/tools/opencodex.md — **different tool** (`lidge-jun/opencodex` provider proxy)
 - @osint-wiki/entities/tools/opencode.md — OSINT stub

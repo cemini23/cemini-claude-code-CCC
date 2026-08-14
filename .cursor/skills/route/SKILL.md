@@ -9,7 +9,7 @@ description: >-
   for all Cemini projects - not TipDrop-specific.
 license: MIT
 metadata.author: cemini23
-metadata.version: "2.3.0"
+metadata.version: "2.3.1"
 federation: true
 ---
 
@@ -102,9 +102,9 @@ Mid tasks that look like multi-file/tests/LIVE/secrets auto-escalate to hard/mon
 
 Run logs: `agent-toolkit/briefs/handoffs/_route_runs/`. Parent summaries must include verify evidence - no status-only "done".
 
-## Grok-out + Flash vs Pro (v2.3)
+## Grok-out + Flash vs Pro (v2.3 → v2.3.1)
 
-**One isolated Claude Code harness** (`~/.deepseek-claude`). `-Model` selects Flash vs Pro. Do not install a second coding loop (OpenCode / Reasonix / unreleased DeepSeek Harness). Official recipe also keeps Pro as main and Flash as haiku + `CLAUDE_CODE_SUBAGENT_MODEL`.
+**One isolated Claude Code harness** (`~/.deepseek-claude`). `-Model` selects Flash vs Pro. Do not install a second coding loop (OpenCode / Reasonix / official DeepSeek Harness `dsh` developer preview). Keep `claude-ds`. Revisit only when cutover gates on `@entities/tools/deepseek-harness.md` pass. Official recipe also keeps Pro as main and Flash as haiku + `CLAUDE_CODE_SUBAGENT_MODEL`.
 
 | Role | Model | When |
 |------|-------|------|
