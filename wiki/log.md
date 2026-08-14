@@ -25,7 +25,7 @@
 ## [2026-08-12] ops | /route v2.3 Flash vs Pro (Grok CLI stand-in)
 
 - Isolated `claude-ds` stays the worker. DeepSeek V4 Pro GA (`deepseek-v4-pro`) stands in for Grok CLI when **usage** is out: mid **plan**, hard **implement**. Flash stays easy/mid execute. Grok **auth** still `grok login`.
-- One harness; no second coding loop. Official DeepSeek Harness still unreleased.
+- One harness; no second coding loop. Official DeepSeek Harness still unreleased. `[RETRACTED 2026-08-14]` — released as developer preview; still **NO-GO** `/route` swap (`@entities/tools/deepseek-harness.md`, skill v2.3.1).
 - Skill v2.3.0 + always-apply route rule; toolkit `route-task.ps1`. Brief: `docs/briefs/2026-08-12_route-v23-flash-pro.md`.
 
 ## [2026-08-12] ops | claude-ds bump + OpenCode/Reasonix Phase-0

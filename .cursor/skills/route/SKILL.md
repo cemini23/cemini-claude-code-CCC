@@ -104,7 +104,7 @@ Run logs: `agent-toolkit/briefs/handoffs/_route_runs/`. Parent summaries must in
 
 ## Grok-out + Flash vs Pro (v2.3 → v2.3.1)
 
-**One isolated Claude Code harness** (`~/.deepseek-claude`). `-Model` selects Flash vs Pro. Do not install a second coding loop (OpenCode / Reasonix / official DeepSeek Harness `dsh` developer preview). Keep `claude-ds`. Revisit only when cutover gates on `@entities/tools/deepseek-harness.md` pass. Official recipe also keeps Pro as main and Flash as haiku + `CLAUDE_CODE_SUBAGENT_MODEL`.
+**One isolated Claude Code harness** (`~/.deepseek-claude`). `-Model` selects Flash vs Pro. Do not install a second coding loop (OpenCode / Reasonix / official DeepSeek Harness `dsh` developer preview). Keep `claude-ds`. Do **not** install `dsh` on PATH, and do **not** hide it behind the `claude-ds` name, without explicit operator GO. Cutover gates live in the CCC wiki page `entities/tools/deepseek-harness.md` (not a federated skill file). Official recipe also keeps Pro as main and Flash as haiku + `CLAUDE_CODE_SUBAGENT_MODEL`.
 
 | Role | Model | When |
 |------|-------|------|

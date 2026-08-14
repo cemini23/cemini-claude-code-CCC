@@ -10,6 +10,7 @@ related:
   - entities/tools/opencode.md
   - entities/tools/reasonix.md
   - concepts/llm-routing-deepseek-openrouter-failover.md
+  - "@osint-wiki/concepts/llm-routing-deepseek-openrouter-failover.md"
 maturity: draft
 created: 2026-08-14
 updated: 2026-08-14
@@ -24,6 +25,7 @@ wire_status: wont_wire
 - @entities/tools/opencode.md — sibling Phase-0 (community, provider-agnostic)
 - @entities/tools/reasonix.md — sibling Phase-0 (community, DeepSeek-native)
 - @concepts/llm-routing-deepseek-openrouter-failover.md
+- @osint-wiki/concepts/llm-routing-deepseek-openrouter-failover.md — OSINT copy of the routing concept; keep-wrapper wording
 
 ## Raw Concept
 

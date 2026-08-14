@@ -25,7 +25,7 @@ updated: 2026-08-14
 
 ## Raw Concept
 
-Federation skill `.cursor/skills/route/SKILL.md` (v2.3). Scripts live in private agent-toolkit.
+Federation skill `.cursor/skills/route/SKILL.md` (v2.3.1). Scripts live in private agent-toolkit.
 
 ## Narrative
 
