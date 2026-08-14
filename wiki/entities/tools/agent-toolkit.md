@@ -20,7 +20,7 @@ updated: 2026-08-14
 - @concepts/llm-routing-deepseek-openrouter-failover.md
 - @entities/tools/opencode.md — Phase-0 2026-08-12; NO-GO `/route` swap
 - @entities/tools/reasonix.md — Phase-0 2026-08-12; NO-GO `/route` swap
-- @entities/tools/deepseek-harness.md — Phase-0 2026-08-14 official `dsh`; developer preview, NO-GO `/route` swap (keep-wrapper policy)
+- @entities/tools/deepseek-harness.md — official `dsh` `/route` worker behind `claude-ds` (v2.3.2; pin `install-dsh.ps1`)
 
 ## Raw Concept
 

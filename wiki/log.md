@@ -1,3 +1,10 @@
+## [2026-08-14] ops | official dsh is the /route worker (skill v2.3.2)
+
+- Operator GO same day after Phase-0 keep-wrapper: wire official `@deepseek-ai/dsh@0.1.0-rc.6` behind PATH name `claude-ds`. Always-approve = `DSH_PERMISSION_MODE=danger-full-access`. `-Model` → per-job `--patch`. PromptFile by path. Claude Code at `~/.deepseek-claude` is fallback (`CLAUDE_DS_FORCE_LEGACY=1`).
+- Toolkit: `scripts/install-dsh.ps1` pin into `~/.dsh-cemini`; `claude-ds.ps1` / `claude-ds.sh` launch dsh first; prod Node 20 stays — sidecar `~/.local/node24` if needed.
+- Skill v2.3.2 + entity `deepseek-harness.md` `wire_status: runtime_wired`. Federation sync. Adopt shims.
+- Do **not** put `dsh` on PATH as a second coding loop. OpenCode / Reasonix remain NO-GO.
+
 ## [2026-08-14] ingest | K277–K281 trust + verification wave (Labels ≠ endpoints / InterSAGE / MARC-v1 / Vero / AutoDesign)
 
 - **K277** Labels Are Not Endpoints (2608.12880) — MCP security-eval measurement audit: historical grader **leaked treatment** (metadata gated ATTACK_SUCCESS); treatment-blind reconstruction corrected **58 labels**; locked v2 = zero ATTACK_SUCCESS. **ADOPT** seven-link Integrity Chain + treatment-blind grading; labels ≠ behavioral endpoints. No public product → policy_wired, Cybersec brief.

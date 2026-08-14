@@ -79,7 +79,7 @@ updated: 2026-08-14
 - `@entities/patterns/ralph-loop.md` — loop-based execution pattern
 - `@entities/patterns/full-prompt-goal-template.md` — single-shot meta-prompt template
 - `@entities/tools/lazy-tool.md`, `@entities/tools/claude-code-router.md`, `@entities/tools/ttok.md`, `@entities/tools/tech-debt-skill.md`, `@entities/tools/cua.md`, `@entities/tools/spec-kit.md`, `@entities/tools/claude-code-ultimate-guide.md` — surrounding tool stack
-- `@entities/tools/opencode.md`, `@entities/tools/reasonix.md`, `@entities/tools/deepseek-harness.md` — Phase-0 DeepSeek coding-harness alternatives; **keep** isolated `claude-ds` (Flash + Pro in one process; official DeepSeek Harness `dsh` is developer preview — NO-GO `/route` swap)
+- `@entities/tools/opencode.md`, `@entities/tools/reasonix.md` — Phase-0 DeepSeek coding-harness alternatives; **NO-GO** extra PATH loops. `@entities/tools/deepseek-harness.md` — official `dsh` **is** the `/route` worker behind `claude-ds` (v2.3.2); isolated Claude Code is fallback
 - `@entities/commands/plugin.md` — `/plugin marketplace add` + `/plugin install`
 - `@entities/tools/superclaude-framework.md` — third-party Claude Code config/automation framework (slash commands + cognitive personas + KNOWLEDGE.md)
 - `@concepts/claude-desktop-vs-claude-code.md` — surface distinction
