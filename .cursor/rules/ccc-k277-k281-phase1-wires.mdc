@@ -1,0 +1,17 @@
+---
+description: CCC Phase-1 wires from K277–K281 trust + verification wave
+alwaysApply: true
+---
+
+# CCC — K277–K281 Phase-1 wires
+
+**Brief:** `docs/briefs/2026-08-14_k277-k281-trust-verification-wave.md`
+
+**Dual-ID note:** Cybersec **K277 = RSM** (CCC K276). This batch's **CCC K277 = Labels-Are-Not-Endpoints** (2608.12880) — resolve by file+wiki, not bare K#.
+
+- **K277** Labels Are Not Endpoints — treatment leakage + construct validity in MCP security eval. **ADOPT** seven-link Integrity Chain + treatment-blind grading; labels ≠ behavioral endpoints. No public product; policy_wired, Cybersec brief.
+- **K278** InterSAGE — trust-native IoA protocol (AIC four-dimensional identity, DID-bound capability VCs, monotonic capability attenuation, kernel-mediated audit trails). **Atto-priority**. No public SPDX clone → **policy only**.
+- **K279** MARC-v1 — deterministic multi-agent clinical coordination. Steal decomposer-from-NL + stage-wise failure attribution + role-specialized pipeline. `Penn-RAIL/MARC-v1` **MIT** ~19MB → **GO REFERENCE** (`.local/adopts/MARC-v1`); clinical **`wont_wire`**.
+- **K280** Vero — repo-level verified (code+proof) synthesis bench. **ADOPT** joint impl+proof eval + unsat/incorrectness audit. `sunblaze-ucb/vero` **Apache-2.0** ~13MB → **GO REFERENCE** (`.local/adopts/vero`); runtime **`wont_wire`** (Lean bench).
+- **K281** AutoDesign — meta-harness optimizer from rollout feedback. Steal meta-harness loop **with HITL / external eval contract** (pairs K162 — no closed self-rewrite of pass criteria). LICENSE **MIT** on disk (gh API NOASSERTION) → **GO REFERENCE** (`.local/adopts/AutoDesign`); poster/Image-gen runtime **`wont_wire`**.
+- Local adopts: MARC-v1, vero, AutoDesign — all REFERENCE shelf (gitignored `.local/adopts/`), no runtime wiring.

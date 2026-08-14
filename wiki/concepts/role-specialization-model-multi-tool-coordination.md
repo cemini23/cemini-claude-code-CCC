@@ -11,6 +11,9 @@ related:
   - sources/brief-k274-k276-skill-security-eval-2026-08-13.md
   - briefs/2026-08-13_ccc-handoff-k274-k276-ingest.md
   - concepts/phase1-adopt-wire.md
+  - concepts/marc-clinical-multi-agent-coordination.md
+  - entities/tools/marc-v1.md
+  - sources/arxiv-marc-v1-clinical-multi-agent-2608.13476.md
 maturity: draft
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"

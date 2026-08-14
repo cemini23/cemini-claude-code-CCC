@@ -18,9 +18,19 @@ related:
   - concepts/multi-hop-api-retrieval-eval-tool-policies.md
   - entities/tools/vakra.md
   - sources/arxiv-vakra-multi-hop-api-retrieval-2608.12282.md
+  - concepts/measurement-integrity-mcp-security-eval.md
+  - concepts/repo-level-verified-code-proof-eval.md
+  - entities/tools/vero.md
+  - sources/arxiv-vero-repo-verified-code-proof-2608.13522.md
+  - concepts/marc-clinical-multi-agent-coordination.md
+  - concepts/meta-harness-optimization-hitl-eval-contract.md
+  - entities/patterns/treatment-blind-endpoint-integrity.md
+  - entities/tools/marc-v1.md
+  - sources/arxiv-labels-not-endpoints-treatment-leakage-2608.12880.md
+  - sources/arxiv-marc-v1-clinical-multi-agent-2608.13476.md
 maturity: draft
 created: 2026-07-22
-updated: 2026-08-13
+updated: 2026-08-14
 ---
 
 ## Relations

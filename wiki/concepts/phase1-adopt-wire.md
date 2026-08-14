@@ -71,9 +71,20 @@ related:
   - entities/patterns/convergent-detour-hijacking.md
   - entities/patterns/role-specialization-model.md
   - entities/tools/vakra.md
+  - briefs/2026-08-14_ccc-handoff-k277-k281-ingest.md
+  - concepts/measurement-integrity-mcp-security-eval.md
+  - concepts/intersage-trust-native-ioa-protocol.md
+  - concepts/marc-clinical-multi-agent-coordination.md
+  - concepts/repo-level-verified-code-proof-eval.md
+  - concepts/meta-harness-optimization-hitl-eval-contract.md
+  - entities/patterns/treatment-blind-endpoint-integrity.md
+  - entities/tools/intersage.md
+  - entities/tools/marc-v1.md
+  - entities/tools/vero.md
+  - entities/tools/autodesign.md
 maturity: draft
 created: 2026-07-31
-updated: 2026-08-13
+updated: 2026-08-14
 ---
 
 ## Relations

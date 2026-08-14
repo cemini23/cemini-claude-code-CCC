@@ -15,6 +15,12 @@ related:
   - concepts/phase1-adopt-wire.md
   - entities/tools/vakra.md
   - sources/arxiv-vakra-multi-hop-api-retrieval-2608.12282.md
+  - concepts/measurement-integrity-mcp-security-eval.md
+  - concepts/intersage-trust-native-ioa-protocol.md
+  - entities/patterns/treatment-blind-endpoint-integrity.md
+  - entities/tools/intersage.md
+  - sources/arxiv-labels-not-endpoints-treatment-leakage-2608.12880.md
+  - sources/arxiv-intersage-trust-native-ioa-protocol-2608.13030.md
 maturity: draft
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"

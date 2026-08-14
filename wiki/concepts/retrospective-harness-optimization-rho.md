@@ -31,6 +31,9 @@ related:
   - sources/arxiv-agent-optimizers-compound-continual-learning-2607.14004.md
   - concepts/counterfactual-advantage-harness-orchestration.md
   - sources/arxiv-chill-harness-counterfactual-learning-2607.25825.md
+  - concepts/meta-harness-optimization-hitl-eval-contract.md
+  - entities/tools/autodesign.md
+  - sources/arxiv-autodesign-meta-harness-2608.13560.md
 maturity: draft
 created: 2026-06-07
 updated: 2026-07-30

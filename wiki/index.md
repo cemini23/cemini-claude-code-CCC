@@ -66,6 +66,10 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`agent4binary`](entities/tools/agent4binary.md) | draft | Agent-callable binary tools — MIT REFERENCE (K272) |
 | [`agentic-configuration-management-acm`](entities/tools/agentic-configuration-management-acm.md) | draft | ACM reference model — policy (K273) |
 | [`vakra`](entities/tools/vakra.md) | draft | VAKRA multi-hop benchmark — CC-BY-NC-SA NO-GO (K275) |
+| [`intersage`](entities/tools/intersage.md) | draft | InterSAGE IoA trust protocol — policy only (K278) |
+| [`marc-v1`](entities/tools/marc-v1.md) | draft | MARC-v1 clinical multi-agent — MIT REFERENCE (K279) |
+| [`vero`](entities/tools/vero.md) | draft | Vero repo-level verified eval — Apache REFERENCE (K280) |
+| [`autodesign`](entities/tools/autodesign.md) | draft | AutoDesign meta-harness — MIT REFERENCE (K281) |
 | [`asm-adopt-orphan`](entities/tools/asm-adopt-orphan.md) | draft | Orphan CCC adopt — Phase-1 wont_wire |
 | [`biosecbench-surveillance`](entities/tools/biosecbench-surveillance.md) | draft | Biosecurity eval orphan adopt — Phase-1 wont_wire |
 | [`rrbench`](entities/tools/rrbench.md) | draft | MIT local open-weight data-prep eval — GO REFERENCE (K212) |
@@ -204,6 +208,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`glasswing-deliberate-disagreement`](entities/patterns/glasswing-deliberate-disagreement.md) | draft | evilsocket/audit adversarial-verification pattern — multi-agent disagreement as safety primitive (MIT) |
 | [`convergent-detour-hijacking`](entities/patterns/convergent-detour-hijacking.md) | draft | CDH skill-supply-chain attack pattern — trajectory necessity (K274) |
 | [`role-specialization-model`](entities/patterns/role-specialization-model.md) | draft | RSM multi-tool role coordination — HITL + prompt-hardening (K276) |
+| [`treatment-blind-endpoint-integrity`](entities/patterns/treatment-blind-endpoint-integrity.md) | draft | Labels ≠ endpoints — Integrity Chain (K277) |
 
 ## concepts/
 
@@ -501,6 +506,11 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`convergent-detour-hijacking-progressive-disclosure`](concepts/convergent-detour-hijacking-progressive-disclosure.md) | draft | CDH skill-supply-chain threat model — 2608.12273 (K274) |
 | [`multi-hop-api-retrieval-eval-tool-policies`](concepts/multi-hop-api-retrieval-eval-tool-policies.md) | draft | VAKRA multi-hop eval axes — 2608.12282 (K275) |
 | [`role-specialization-model-multi-tool-coordination`](concepts/role-specialization-model-multi-tool-coordination.md) | draft | RSM role coordination — 2608.12311 (K276) |
+| [`measurement-integrity-mcp-security-eval`](concepts/measurement-integrity-mcp-security-eval.md) | draft | Measurement integrity in MCP eval — 2608.12880 (K277) |
+| [`intersage-trust-native-ioa-protocol`](concepts/intersage-trust-native-ioa-protocol.md) | draft | InterSAGE trust-native IoA — 2608.13030 (K278) |
+| [`marc-clinical-multi-agent-coordination`](concepts/marc-clinical-multi-agent-coordination.md) | draft | MARC clinical multi-agent — 2608.13476 (K279) |
+| [`repo-level-verified-code-proof-eval`](concepts/repo-level-verified-code-proof-eval.md) | draft | Repo-level verified code+proof — 2608.13522 (K280) |
+| [`meta-harness-optimization-hitl-eval-contract`](concepts/meta-harness-optimization-hitl-eval-contract.md) | draft | Meta-harness + HITL eval contract — 2608.13560 (K281) |
 
 ## sources/
 
@@ -779,6 +789,12 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-vakra-multi-hop-api-retrieval-2608.12282`](sources/arxiv-vakra-multi-hop-api-retrieval-2608.12282.md) | draft | VAKRA multi-hop eval — 2608.12282 (K275) |
 | [`arxiv-role-specialization-model-rsm-2608.12311`](sources/arxiv-role-specialization-model-rsm-2608.12311.md) | draft | RSM role coordination — 2608.12311 (K276) |
 | [`brief-k274-k276-skill-security-eval-2026-08-13`](sources/brief-k274-k276-skill-security-eval-2026-08-13.md) | validated | K274–K276 brief stub |
+| [`arxiv-labels-not-endpoints-treatment-leakage-2608.12880`](sources/arxiv-labels-not-endpoints-treatment-leakage-2608.12880.md) | draft | Labels ≠ endpoints — 2608.12880 (K277) |
+| [`arxiv-intersage-trust-native-ioa-protocol-2608.13030`](sources/arxiv-intersage-trust-native-ioa-protocol-2608.13030.md) | draft | InterSAGE IoA — 2608.13030 (K278) |
+| [`arxiv-marc-v1-clinical-multi-agent-2608.13476`](sources/arxiv-marc-v1-clinical-multi-agent-2608.13476.md) | draft | MARC clinical — 2608.13476 (K279) |
+| [`arxiv-vero-repo-verified-code-proof-2608.13522`](sources/arxiv-vero-repo-verified-code-proof-2608.13522.md) | draft | Vero repo verified — 2608.13522 (K280) |
+| [`arxiv-autodesign-meta-harness-2608.13560`](sources/arxiv-autodesign-meta-harness-2608.13560.md) | draft | AutoDesign meta-harness — 2608.13560 (K281) |
+| [`brief-k277-k281-trust-verification-wave-2026-08-14`](sources/brief-k277-k281-trust-verification-wave-2026-08-14.md) | validated | K277–K281 brief stub |
 
 ## meta/
 

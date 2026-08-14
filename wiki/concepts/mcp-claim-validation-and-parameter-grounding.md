@@ -20,11 +20,20 @@ related:
   - sources/arxiv-llm-assisted-writing-biomedical-pmc-2608.10715.md
   - concepts/multi-hop-api-retrieval-eval-tool-policies.md
   - sources/arxiv-vakra-multi-hop-api-retrieval-2608.12282.md
+  - concepts/measurement-integrity-mcp-security-eval.md
+  - concepts/intersage-trust-native-ioa-protocol.md
+  - sources/arxiv-labels-not-endpoints-treatment-leakage-2608.12880.md
+  - sources/arxiv-intersage-trust-native-ioa-protocol-2608.13030.md
+  - concepts/repo-level-verified-code-proof-eval.md
+  - entities/patterns/treatment-blind-endpoint-integrity.md
+  - entities/tools/intersage.md
+  - entities/tools/vero.md
+  - sources/arxiv-vero-repo-verified-code-proof-2608.13522.md
 maturity: draft
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"
 created: 2026-08-08
-updated: 2026-08-13
+updated: 2026-08-14
 ---
 
 ## Relations

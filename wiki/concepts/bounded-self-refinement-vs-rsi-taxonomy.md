@@ -46,6 +46,9 @@ related:
   - sources/arxiv-macaron-v1-continual-learning-2608.09819.md
   - concepts/agentic-configuration-management-acm.md
   - sources/arxiv-agentic-configuration-management-acm-2608.11166.md
+  - concepts/meta-harness-optimization-hitl-eval-contract.md
+  - entities/tools/autodesign.md
+  - sources/arxiv-autodesign-meta-harness-2608.13560.md
 maturity: draft
 created: 2026-07-14
 updated: 2026-08-12
