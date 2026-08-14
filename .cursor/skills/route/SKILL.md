@@ -9,7 +9,7 @@ description: >-
   for all Cemini projects - not TipDrop-specific.
 license: MIT
 metadata.author: cemini23
-metadata.version: "2.3.1"
+metadata.version: "2.3.2"
 federation: true
 ---
 
@@ -26,12 +26,12 @@ federation: true
 | Executor | Default (MUST) | Opt out only when operator asks |
 |----------|----------------|----------------------------------|
 | **Grok CLI** (plan mid / implement hard) | `--always-approve` via `handoff-to-grok.ps1` | `-NoApprove` |
-| **claude-ds Flash** (`deepseek-v4-flash`; easy + mid execute) | `--dangerously-skip-permissions` via `claude-ds.ps1` | `-NoSkipPermissions` / `CLAUDE_DS_ASK=1` |
-| **claude-ds Pro** (`deepseek-v4-pro`; Grok CLI stand-in) | `--dangerously-skip-permissions` via `claude-ds.ps1` | `-NoSkipPermissions` / `CLAUDE_DS_ASK=1` |
+| **claude-ds Flash** (`deepseek-v4-flash`; easy + mid execute) | official `dsh` + `DSH_PERMISSION_MODE=danger-full-access` via `claude-ds.ps1` | `-NoSkipPermissions` / `CLAUDE_DS_ASK=1` |
+| **claude-ds Pro** (`deepseek-v4-pro`; Grok CLI stand-in) | official `dsh` + `DSH_PERMISSION_MODE=danger-full-access` via `claude-ds.ps1` | `-NoSkipPermissions` / `CLAUDE_DS_ASK=1` |
 | **Cursor Grok** (fallback plan/implement) | Auto-run / full tool approve | UI Auto-run off / ask mode |
 | Easy API scripts | no tool sandbox - N/A | - |
 
-**DeepSeek Claude names (all hosts):** prefer **`claude-ds`**. On cemini-prod / older Linux the same tool may be **`deepseek-claude`** (`~/.deepseek-claude` on PATH). Resolve either - do not fail the chain if only one exists. Order: `claude-ds` → `deepseek-claude` → `~/.deepseek-claude/deepseek-claude` → `agent-toolkit/scripts/claude-ds.ps1` / `claude-ds.sh`.
+**PATH name stays `claude-ds`.** Worker is official DeepSeek Harness (`dsh`, pin `install-dsh.ps1` → `~/.dsh-cemini`). Isolated Claude Code at `~/.deepseek-claude` is **fallback** (`CLAUDE_DS_FORCE_LEGACY=1` or dsh cannot boot). On prod, `deepseek-claude` may still exist as that fallback. Resolve: `claude-ds` → kit `claude-ds.ps1` / `claude-ds.sh` → `deepseek-claude` → `~/.deepseek-claude/deepseek-claude`. Do **not** put `dsh` on PATH as a second coding loop — the shim owns it.
 
 Without always-approve, headless tools cancel → chain falls through to Cursor → burns quota. That is a skill bug, not an operator preference.
 
@@ -102,9 +102,9 @@ Mid tasks that look like multi-file/tests/LIVE/secrets auto-escalate to hard/mon
 
 Run logs: `agent-toolkit/briefs/handoffs/_route_runs/`. Parent summaries must include verify evidence - no status-only "done".
 
-## Grok-out + Flash vs Pro (v2.3 → v2.3.1)
+## Grok-out + Flash vs Pro (v2.3.2)
 
-**One isolated Claude Code harness** (`~/.deepseek-claude`). `-Model` selects Flash vs Pro. Do not install a second coding loop (OpenCode / Reasonix / official DeepSeek Harness `dsh` developer preview). Keep `claude-ds`. Do **not** install `dsh` on PATH, and do **not** hide it behind the `claude-ds` name, without explicit operator GO. Cutover gates live in the CCC wiki page `entities/tools/deepseek-harness.md` (not a federated skill file). Official recipe also keeps Pro as main and Flash as haiku + `CLAUDE_CODE_SUBAGENT_MODEL`.
+**Official DeepSeek Harness** (`@deepseek-ai/dsh`, pin via `install-dsh.ps1`) is the `/route` worker behind the `claude-ds` PATH name (operator GO 2026-08-14). `-Model` writes a per-job `dsh --patch` overlay (`deepseek-v4-flash` / `deepseek-v4-pro`). Always-approve is `DSH_PERMISSION_MODE=danger-full-access`. PromptFile is a file path inside the headless task (not `cat` into argv). Isolated Claude Code at `~/.deepseek-claude` remains **fallback only**. Do **not** install a second coding loop (OpenCode / Reasonix) or a global `dsh` on PATH. Wiki: `entities/tools/deepseek-harness.md`. Prod Node 20 stays; dsh uses a Node 24 sidecar.
 
 | Role | Model | When |
 |------|-------|------|

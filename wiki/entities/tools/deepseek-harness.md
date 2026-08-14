@@ -19,17 +19,17 @@ wire_status: wont_wire
 
 ## Relations
 
-- @entities/tools/claude-code.md — `claude-ds` (isolated Claude Code) is what `/route` actually runs; dsh does not replace it
-- @entities/tools/agent-toolkit.md — `claude-ds.ps1` / `route-task` keep-wrapper host
-- @entities/skills/route.md — policy: do not swap `/route` onto dsh (developer preview)
+- @entities/tools/claude-code.md — isolated Claude Code at `~/.deepseek-claude` is **fallback** (`CLAUDE_DS_FORCE_LEGACY=1`)
+- @entities/tools/agent-toolkit.md — `claude-ds.ps1` launches pinned `dsh`; `install-dsh.ps1` pin
+- @entities/skills/route.md — v2.3.2: official dsh is the `/route` worker behind PATH name `claude-ds`
 - @entities/tools/opencode.md — sibling Phase-0 (community, provider-agnostic)
 - @entities/tools/reasonix.md — sibling Phase-0 (community, DeepSeek-native)
 - @concepts/llm-routing-deepseek-openrouter-failover.md
-- @osint-wiki/concepts/llm-routing-deepseek-openrouter-failover.md — OSINT copy of the routing concept; keep-wrapper wording
+- @osint-wiki/concepts/llm-routing-deepseek-openrouter-failover.md — OSINT copy of the routing concept; dsh-via-claude-ds worker
 
 ## Raw Concept
 
-What prompted this page: 2026-08-14 Phase-0 audit of the **official** DeepSeek Harness (`deepseek-ai/deepseek-harness`, npm `@deepseek-ai/dsh`), the first-party answer to the same question that prompted the OpenCode / Reasonix audits on 2026-08-12 — "is there a better DeepSeek coding harness than Claude Code pointed at `api.deepseek.com/anthropic`?" Verdict: **NO-GO for the `/route` executor swap; keep `claude-ds`.** This page also fixes the federation wording: agents kept saying the harness was "unreleased" — it is **released as a developer preview** (that is still not adoption-ready).
+What prompted this page: 2026-08-14 Phase-0 audit of the **official** DeepSeek Harness (`deepseek-ai/deepseek-harness`, npm `@deepseek-ai/dsh`). Morning verdict was keep-wrapper; **operator GO the same day** to wire official `dsh` as the `/route` worker behind the existing `claude-ds` PATH name (yolo permissions, per-job `--patch` for Flash/Pro, Claude Code fallback). The harness is a **developer preview** (breaking changes expected) — we pin npm and keep the shim so DeepSeek updates land without rewriting `route-task`.
 
 ## Narrative
 
