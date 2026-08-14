@@ -25,7 +25,7 @@ updated: 2026-08-14
 
 ## Raw Concept
 
-Federation skill `.cursor/skills/route/SKILL.md` (v2.3.2). Scripts live in private agent-toolkit.
+Federation skill `.cursor/skills/route/SKILL.md` (v2.3.3). Scripts live in private agent-toolkit.
 
 ## Narrative
 
@@ -38,6 +38,8 @@ v2.3 (2026-08-12): DeepSeek V4 Pro GA → **Grok CLI stand-in**. `Get-ClaudeDsMo
 v2.3.1 (2026-08-14 morning): policy clarification — dsh is a developer-preview RC, keep-wrapper. **Superseded same day.**
 
 v2.3.2 (2026-08-14): operator GO — official `dsh` is the `/route` worker behind PATH name `claude-ds` (`install-dsh.ps1` pin, `DSH_PERMISSION_MODE=danger-full-access`, `-Model` → `--patch`). Claude Code at `~/.deepseek-claude` is fallback (`CLAUDE_DS_FORCE_LEGACY=1`). Prod uses a Node 24 sidecar; system Node stays v20.
+
+v2.3.3 (2026-08-14): skill misevolution HITL (arXiv 2608.12851) — operating rule 10: no unattended auto-evolve; on verify fail reconsider the Plan, not only retry (Vero lesson); external eval contract — do not rewrite `## Verify` mid-run.
 
 v2.2: **Grok-out** (`-SkipGrokPlan` / `ROUTE_GROK_OUT=1`) + usable `## Plan` skips Grok → claude-ds on mid/hard; **claude-ds hang watchdog** (stall/max env) prints parent Cursor takeover; `-HandoffPath` resume. Helpers: `scripts/lib/Test-RoutePlanPresent.ps1`.
 
@@ -57,5 +59,8 @@ OSINT daily digest steals for this skill via cluster `cursor-route-harness` (`da
 | ops 2026-08-12 | OpenCode / Reasonix as DeepSeek coding harness vs claude-ds | **closed** — keep claude-ds 2.1.222; both NO-GO PATH + mid swap (`@entities/tools/opencode.md`, `@entities/tools/reasonix.md`) |
 | ops 2026-08-12 | Flash vs Pro in one harness; Pro = Grok CLI usage-out stand-in | **wired** — skill v2.3 + `route-task.ps1` |
 | ops 2026-08-14 | Official DeepSeek Harness `dsh` as `/route` worker | **wired** v2.3.2 — pin `~/.dsh-cemini`; PATH stays `claude-ds`; Claude Code fallback (`@entities/tools/deepseek-harness.md`) |
+| board K237 AutoDesign (2608.13560) | Meta-harness optimization bibliography → `/route` harness-evolution canon (AutoDesign / Meta-Harness / HarnessX / Self-Harness / Recursive / Continual / Agentic Harness Engineering). Wire id in policy file: CCC **K281**. | **open** — bibliography; `.local/adopts/AutoDesign` GO REFERENCE |
+| board K237 misevolution (2608.12851) | Skill misevolution SHE gate — skills worsen with practice; terminal success-rate ≠ safe library; govern authoring/retrieval/execution; delete-only repair + reuse-time attribution; no unattended auto-evolve of `.cursor/skills/*` | **wired** 2026-08-14 — policy §SHE + skill v2.3.3 rule 10 |
+| board K237 Vero (2608.13522) | Reconsider-definition habit — on verify fail, reconsider the Plan/definition, not only retry (collapse 16 failed lemma attempts into one edit). Wire id in policy file: CCC **K280**. | **wired** 2026-08-14 — skill rule 10; `.local/adopts/vero` GO REFERENCE |
 
 Briefs: `briefs/2026-08-11_route-skill-k231-k232-steals.md` · `briefs/2026-08-12_k234-charity-majors-harness-verify.md` · public product working brief: `~/Projects/cursor-route/docs/briefs/WORKING.md`.

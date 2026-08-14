@@ -1714,3 +1714,10 @@ Cross-wiki stub routed from `@osint-wiki/sources/newsletter-rss-pragmatic-engine
 ## [2026-08-03] brief | K220 meat + Black-cat harness extract from OSINT
 
 - Brief: `briefs/2026-08-03_k220-meat-black-cat-harness.md`
+
+## [2026-08-14] phase-1 wire | K237 meta-harness — skill misevolution SHE gate + /route backlog
+
+- Policy: `.cursor/rules/cemini-phase1-policy-wires.mdc` — new §Skill misevolution lifecycle gates (arXiv 2608.12851) under SHE/K268: skills worsen with practice, govern authoring/retrieval/execution gates, delete-only repair + reuse-time attribution, no unattended auto-evolve of `.cursor/skills/*`; dual-ID note (ACCEL K237 vs board K237 = AutoDesign/Vero/misevolution) in new bullets + pointer on ACCEL.
+- Skill: `.cursor/skills/route/SKILL.md` v2.3.2 → v2.3.3 — operating rule 10 (misevolution HITL; verify-fail → reconsider Plan, not only retry; external eval contract — no Verify rewrite mid-run) + Related bullet to policy wire.
+- Backlog: `wiki/entities/skills/route.md` — added K237 AutoDesign bibliography (open), K237 misevolution SHE gate (wired), K237 Vero reconsider-definition habit (wired); ops 2026-08-14 dsh row already present.
+- Sync: `scripts/sync_federation_cursor_skills.sh` → `~/.cursor/skills/route/SKILL.md` matches.

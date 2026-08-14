@@ -9,7 +9,7 @@ description: >-
   for all Cemini projects - not TipDrop-specific.
 license: MIT
 metadata.author: cemini23
-metadata.version: "2.3.2"
+metadata.version: "2.3.3"
 federation: true
 ---
 
@@ -159,6 +159,7 @@ Force prefixes: `easy:`, `mid:` / `deepseek:`, `hard:`, `money:` (first line of 
 7. K172 carve-out: only the reviewed handoff path (`handoff-to-grok.ps1` / `route-task`) with scoped `--cwd`, secret deny rules, and optional `--sandbox workspace`. No free-form `grok` against home trees.
 8. Mid Grok **usage** failure → **claude-ds Pro** plans then Flash executes (or fill Plan then `-SkipGrokPlan`). Mid Grok **auth** → `grok login`. Hard Grok failure + Plan → **claude-ds Pro**; else **Cursor Grok implement**.
 9. Do not claim done without verify evidence (or explicit SDR/block). Hang takeover still requires Verify.
+10. **Skill misevolution HITL** (arXiv 2608.12851): skills can worsen with practice — no unattended auto-evolve of this skill's promote/refine cycles; changes land via HITL only. On verify fail, **reconsider the Plan, not only retry** (Vero lesson: a wrong definition burns 16 failed lemma attempts). Keep the **external eval contract**: do not rewrite `## Verify` mid-run to match a failing execution.
 
 ## PowerShell one-liners
 
@@ -183,3 +184,4 @@ $env:ROUTE_GROK_OUT = "1"   # session: skip Grok; require usable Plan
 - `.../lib/Test-RouteHandoffSip.ps1` - SIP contract
 - `.../lib/Test-RoutePlanPresent.ps1` - usable Plan + Grok-out helpers
 - `.cursor/rules/cemini-route-outsource.mdc` - always-on outsource + always-approve (`tipdrop-route-outsource.mdc` is a filename alias)
+- `.cursor/rules/cemini-phase1-policy-wires.mdc` §Skill misevolution (SHE / arXiv 2608.12851) - no unattended auto-evolve of `.cursor/skills/*`; HITL on write ≠ retrieval-time safety
