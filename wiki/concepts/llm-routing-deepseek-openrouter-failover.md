@@ -31,7 +31,7 @@ updated: 2026-08-14
 - @entities/skills/route.md — federation `/route` skill v2.3
 - @entities/tools/opencode.md — Phase-0; NO-GO mid swap (not `@osint-wiki/entities/tools/opencodex.md`)
 - @entities/tools/reasonix.md — Phase-0; NO-GO mid swap
-- @entities/tools/deepseek-harness.md — Phase-0 2026-08-14; official `dsh` developer preview, NO-GO `/route` swap
+- @entities/tools/deepseek-harness.md — official `dsh` `/route` worker behind `claude-ds` (v2.3.2)
 - @osint-wiki/concepts/api-credential-registry.md — key names only (`DEEPSEEK_*`, `OPENROUTER_*`)
 - @osint-wiki/entities/infrastructure/deepseek-api.md — Cemini brain entity
 - @gambling-wiki/concepts/poker-hl-analyst-loop.md — `cemini_hl_loop.sh` sources routing env at start
@@ -89,7 +89,7 @@ Default model map: `deepseek-v4-flash` → `deepseek/deepseek-chat` on OpenRoute
 
 Routing is **env-driven**, not a Cursor setting. Open a terminal, `source` the script, then run scripts or point OpenAI-compat tools at the same env. For HL patches, use OpenRouter in chat after sourcing (no runtime LLM in `cemini_decide.py`).
 
-**`/route` claude-ds (2026-08-14 v2.3.1):** one isolated Claude Code (`~/.deepseek-claude`). Flash = easy/mid execute; Pro = Grok CLI usage-out stand-in. `CLAUDE_CODE_SUBAGENT_MODEL=deepseek-v4-flash`. Official DeepSeek Harness `dsh` = developer preview, NO-GO `/route` swap (`@entities/tools/deepseek-harness.md`).
+**`/route` claude-ds (2026-08-14 v2.3.2):** official DeepSeek Harness `dsh` behind PATH name `claude-ds`. Flash = easy/mid execute; Pro = Grok CLI usage-out stand-in (`-Model` → per-job `--patch`). Always-approve = `DSH_PERMISSION_MODE=danger-full-access`. Isolated Claude Code at `~/.deepseek-claude` is fallback only (`@entities/tools/deepseek-harness.md`).
 
 ## Snippets
 

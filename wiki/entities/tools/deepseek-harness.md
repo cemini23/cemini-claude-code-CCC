@@ -14,7 +14,7 @@ related:
 maturity: draft
 created: 2026-08-14
 updated: 2026-08-14
-wire_status: wont_wire
+wire_status: runtime_wired
 ---
 
 ## Relations
@@ -50,30 +50,32 @@ What prompted this page: 2026-08-14 Phase-0 audit of the **official** DeepSeek H
 | Models | Headless boots the official DeepSeek route unless patched. Flash vs Pro is **not** `claude-ds -Model`. PTC/`DSH_TOOLS_MODE=code` exists but is not a route-task adapter |
 | Surfaces | `apps/` = `cli` + `web` only — **no TUI shipped** as of 2026-08-14. Community README frames it as a framework for building harnesses, not a finished coding-agent drop-in |
 
-**Hard blockers for a complete laptop+prod `/route` swap:** prod Node 20; RC breaking-change warning; missing PromptFile / Flash-Pro CLI; always-approve is a different permission model (`DSH_PERMISSION_MODE` vs `--dangerously-skip-permissions`); the `/route` hang watchdog + spaced-WorkDir repair + SIP are wrapped around `claude-ds.ps1`, not `dsh`.
+**Morning Phase-0 blockers (still true as raw facts, now wrapped):** prod system Node is v20 (sidecar Node 24, do **not** replace trading-host Node); RC breaking-change warning (pin npm); no first-class `-PromptFile` / `-Model` on shipped headless (shim writes a prompt-file task + `--patch`); permission flag is `DSH_PERMISSION_MODE` not `--dangerously-skip-permissions`; hang watchdog / SIP / spaced-WorkDir stay on `claude-ds.ps1`.
 
-### Decision
+### Decision (operator GO 2026-08-14 — same-day override)
 
 | Target | Verdict |
 |--------|---------|
-| `.local/adopts/` REFERENCE clone | **NO-GO** — 80 MB+ RC churn; `/tmp/deepseek-harness-audit` already covers the audit |
-| Runtime PATH (`dsh`) | **NO-GO** — do not install a second coding loop on PATH |
-| Track A — optional later laptop scratch pilot (not `/route`) | **deferred** — separate binary name (never `claude-ds`), pinned npm tarball + integrity, scratch WorkDir, HITL |
-| Track B — production `/route` replacement (laptop **and** prod) | **NO-GO today** — all cutover gates below; no laptop-only "we replaced /route" |
+| `.local/adopts/` REFERENCE clone | **NO-GO** — 80 MB+ RC churn; `/tmp/deepseek-harness-audit` covers the audit |
+| Runtime PATH name `dsh` | **NO-GO** — do not steal PATH; pin lives in `~/.dsh-cemini` |
+| `/route` worker behind `claude-ds` | **GO / runtime_wired** — `install-dsh.ps1` pin `@deepseek-ai/dsh@0.1.0-rc.6`; yolo `danger-full-access`; `-Model` → `--patch`; PromptFile by path; Claude Code fallback |
+| Prod | **GO** with Node **24 sidecar** (`~/.local/node24`); system `node` stays v20.20.0 |
 
-**Keep `/route` on isolated Claude Code 2.1.222 at `~/.deepseek-claude`** (`claude-ds` wrapper). This is the same class of decision as OpenCode / Reasonix (2026-08-12): MIT + headless is not enough for a production `/route` cutover.
+**Install:** `pwsh -File ~/Projects/agent-toolkit/scripts/install-dsh.ps1` then `adopt-route-always-approve.ps1`. Opt out to old wrapper: `CLAUDE_DS_FORCE_LEGACY=1`. Ask mode: `CLAUDE_DS_ASK=1`.
 
-### Track B cutover gates (do not execute; revisit only when all pass)
+**Residual:** developer-preview RC (pin + retest on bump). `settings.yaml` sticky GUI default is overridden per job by `--patch`. Hang watchdog still wraps `claude-ds.ps1`, not raw `dsh`.
 
-1. `@deepseek-ai/dsh` **non-rc** pin with recorded npm integrity (not only git HEAD — clone was rc.5 while npm was rc.6)
-2. Prod Node meets `^22.19.0 || >=24` (Track B cannot skip prod)
-3. Headless accepts SIP **PromptFile** as a file path (not `cat` into argv — ARG_MAX/quoting). WorkDir with spaces works
-4. First-class Flash vs Pro selection equivalent to `claude-ds -Model`
-5. Always-approve mapping proven: noninteractive `danger-full-access` does not hang; opt-out ask-mode still fails closed; hang watchdog still kills stalled runs
-6. Adapter may reuse `Invoke-ClaudeDsExecute` internally only after gates 1–5; PATH name `claude-ds` stays until then. Smoke: `test-route-workdir-spaces.ps1` + one mid + one hard SkipGrok on **laptop and prod**
-7. HITL GO after GPTSOL/Grok review of the adapter PR
+### Track B cutover gates (historical — morning list; adapter now implements 3–6 via shim)
 
-**Wire posture:** `wire_status: wont_wire` for runtime PATH; `policy_wired` for the "keep `claude-ds` / do not second-loop" skill text (route SKILL.md v2.3.1). GPTSOL review (2026-08-14): AGREE keep-wrapper. Residual keep-wrapper risk (Anthropic-compat shim / pinned 2.1.222 aging) = **monitor, not a reason to adopt RC dsh.**
+1. Non-rc npm pin — still RC; we pin **0.1.0-rc.6** anyway (operator GO)
+2. Prod Node — **sidecar**, not system upgrade
+3. PromptFile as file path — shim task text points at the UTF-8 file
+4. Flash vs Pro — `--patch` on `agent-default-model`
+5. Always-approve — `DSH_PERMISSION_MODE=danger-full-access` (operator: do not stall on "dangerous")
+6. PATH name `claude-ds` stays; `Invoke-ClaudeDsExecute` unchanged
+7. HITL GO — **operator 2026-08-14** (this page)
+
+**Wire posture:** `wire_status: runtime_wired`. Route SKILL.md **v2.3.2**. OpenCode / Reasonix remain NO-GO.
 
 ## Snippets
 
@@ -91,5 +93,5 @@ What prompted this page: 2026-08-14 Phase-0 audit of the **official** DeepSeek H
 
 ## Dead Ends
 
-- **Full `/route` replacement with official dsh (2026-08-14)** — audited, NO-GO. Prod Node 20 + RC breaking-change warning + missing PromptFile / Flash-Pro CLI + different permission model + watchdog/SIP/WorkDir wrappers all tied to `claude-ds.ps1`. Revisit only via the Track B cutover gates above.
-- **"DeepSeek Harness is unreleased" wording in federation pages** — wrong after 2026-08-13 release as developer preview; policy text corrected to developer-preview / keep-wrapper in route SKILL.md v2.3.1 (2026-08-14).
+- **Morning keep-wrapper (2026-08-14)** — Phase-0 NO-GO `/route` swap. **Superseded same day** by operator GO: official dsh behind `claude-ds`, yolo permissions, Node sidecar on prod. Skill v2.3.1 keep-wrapper text replaced in v2.3.2.
+- **"DeepSeek Harness is unreleased" wording** — wrong after 2026-08-13; corrected in v2.3.1, then v2.3.2 made it the worker.
