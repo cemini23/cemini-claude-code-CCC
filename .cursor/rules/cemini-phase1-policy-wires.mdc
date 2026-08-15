@@ -374,7 +374,7 @@ CCC **ACCEL** is also labeled K237 (agentic-engineer competencies, above). Numbe
 
 ## OSINT K239 — SteerBench action-boundary HITL · intent-not-form / HiRoute (2026-08-15)
 
-**Dual-ID:** this section is **OSINT K239** (SteerBench-Work 2608.12654 + WIFA/HiRoute + eval). **CCC K239** is Datumpont / execution-fidelity (section above). Resolve by file+wiki, not bare K#. Federation sync: keep this block so OSINT copies are not wiped.
+**Dual-ID:** this section is **OSINT K239** (SteerBench-Work 2608.12654 + WIFA/HiRoute + eval). **CCC K239** is Datumpont / execution-fidelity (section above). **Capital Flows / GW K239** = GuruWatcher bond-crash product surface (`guruwatcher-k239-bond-crash-phase1-wires.mdc`) — a third K239; do not collapse. Resolve by file+wiki, not bare K#. Federation sync: keep this block so OSINT copies are not wiped.
 
 - **Proceed vs hold at the action boundary** — state-changing tool calls (`scp` to prod, Discord LIVE, `watches.json` writes, skill mutation, AGPL/GPL vendor into Atto) default **HOLD for HITL**. Read-only wiki/query may proceed. Capability of the model is **not** a reason to drop the gate (SteerBench: over-refusal ≫ under-refusal; evidence-reversed mirrors fail).
 - **Intent, not form** — refuse/allow on intent + tool effect + authorization, not wrapper phrasing. Do not train WIFA/HiRoute; **no jailbreak PoC** in wiki. Authorized owned-lab recon ≠ public exploit writeup.
