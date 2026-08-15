@@ -341,6 +341,16 @@ Same-day Cybersec batch used **K278–K281** for ATOBench / MARC / YAVIN / ente 
 - `.local/adopts/AutoDesign` (MIT on disk; gh API NOASSERTION but LICENSE file is MIT) = GO REFERENCE. Poster/Image-gen runtime **`wont_wire`**.
 - **Dual-ID note**: today's meta-harness brief board **K237** also cites AutoDesign (2608.13560) — resolve by arXiv id / brief path; this section's CCC **K281** remains the wire id.
 
+## OSINT K239 — SteerBench action-boundary HITL · intent-not-form / HiRoute (2026-08-15)
+
+**Dual-ID:** this section is **OSINT K239** (SteerBench-Work 2608.12654 + WIFA/HiRoute + eval). **CCC K239** is Datumpont / execution-fidelity (section above). Resolve by file+wiki, not bare K#. Federation sync: keep this block so OSINT copies are not wiped.
+
+- **Proceed vs hold at the action boundary** — state-changing tool calls (`scp` to prod, Discord LIVE, `watches.json` writes, skill mutation, AGPL/GPL vendor into Atto) default **HOLD for HITL**. Read-only wiki/query may proceed. Capability of the model is **not** a reason to drop the gate (SteerBench: over-refusal ≫ under-refusal; evidence-reversed mirrors fail).
+- **Intent, not form** — refuse/allow on intent + tool effect + authorization, not wrapper phrasing. Do not train WIFA/HiRoute; **no jailbreak PoC** in wiki. Authorized owned-lab recon ≠ public exploit writeup.
+- **No unattended auto-evolve** of `.cursor/skills/*`. Worker ≠ verifier (Osmani). `/goal` evaluator checks named metrics only — it is not taste.
+- **GO Integrate this batch: none.** fclones MIT = Extract (Atto vault CoW; no unsupervised `--delete`). openai/privacy-filter Apache-2.0 = Extract (PII strip; ≠ packyme). rachoon stays **AGPL Extract-only**; RustScan stays **GPL-3.0 Extract-only** (docx Integrate + MIT were wrong). LFM encoders = license `other` + weight skip. timesfm code cloned; **no HF checkpoints**; GuruWatcher remains alert-only.
+- **0day-Rubbish / LEAKSFORUMS** = Context only. No exploit payloads, no criminal-forum interaction.
+
 ## Phase-1 meta
 
 - After ingest ADOPT/GO: propose `/phase1` wire before claiming done.
