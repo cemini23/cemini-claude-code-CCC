@@ -341,6 +341,37 @@ Same-day Cybersec batch used **K278–K281** for ATOBench / MARC / YAVIN / ente 
 - `.local/adopts/AutoDesign` (MIT on disk; gh API NOASSERTION but LICENSE file is MIT) = GO REFERENCE. Poster/Image-gen runtime **`wont_wire`**.
 - **Dual-ID note**: today's meta-harness brief board **K237** also cites AutoDesign (2608.13560) — resolve by arXiv id / brief path; this section's CCC **K281** remains the wire id.
 
+## OSINT wave K237 (shared policy file — dual-ID note)
+
+CCC **ACCEL** is also labeled K237 (agentic-engineer competencies, above). Numbers below are the **OSINT 2026-08-14 ingest** (ente E2EE vault, CyberScraper, skill misevolution, HARD defense). Same-day Cybersec used ente as **K281**. Resolve by file+wiki, not bare K#.
+
+## E2EE vault + zero-knowledge share (ente / K237)
+
+- **Client-side encryption before upload; server stores ciphertext only.** Zero-knowledge share links (recipient URL + out-of-band key) + Shamir emergency recovery for client dossiers.
+- **AGPL isolate (hard rule):** ente is AGPL-3.0 (721MB > clone cap — README/docs only). **No AGPL library links into proprietary Atto distribution kits**; clean-room pattern extraction only. Same for rachoon (AGPL Gotenberg billing).
+- **Never put private Barone pedigree / living-person vitals in Atto fixtures or git** — Desktop/family only.
+- `.local/adopts/` has **no ente clone** (size-skip); CyberScraper-2077 / rachoon / RustScan / vero reference clones only.
+
+## CyberScraper GO cyber-lab (CyberScraper-2077 / K237)
+
+- **Authorized-target-only scraping** — local-lab eval, whitehat perimeter audits, newsletter/substack polling the operator has rights to. No mass scraping.
+- **Headless fallback required** for unattended cron runs (stealth mode attaches to a live Chrome via CDP/Patchright on localhost:9222).
+- Playwright memory-leak watch during multi-hour polling loops.
+
+## Skill misevolution SHE gate (2608.12851 / K237)
+
+- **Skills can get worse with practice** — promote/refine skills under an eval-gate with decoupled benign-utility + harm judges, clean-session reload, No-Evolution baseline.
+- **Govern at three lifecycle gates** (authoring / retrieval / execution) — a terminal success rate cannot distinguish a clean library from an unsafe skill never retrieved.
+- **HITL on a skill's write does not cover retrieval-time harm** — need retrieval lineage + retirement on evidenced harm (2 harmful reuses), delete-only repair critic, library cap.
+- Applies to `.cursor/skills/*` and CCC `/route` skill library.
+
+## Self-evolving defense guardrails (HARD / K237)
+
+- Defense evolution loop (attack → judge → route to policy/gate evolver → redeploy → held-out retest) is a **pattern for the cyber lab**, not a wired product.
+- **Literal gate rules rot** (memorize attacks, generalize poorly) — prefer anti-obfuscation/cumulative-intent abstractions; scope invariants to preserve benign utility (never blanket-refuse a capability).
+- **Over-restriction is a failure mode** — optimize ASR *and* UA jointly.
+- RustScan is **GPL-3.0 (docx claimed MIT — wrong)**; Extract pattern only, batch-size discipline `-b 10 -T 5000` on sensitive targets.
+
 ## OSINT K239 — SteerBench action-boundary HITL · intent-not-form / HiRoute (2026-08-15)
 
 **Dual-ID:** this section is **OSINT K239** (SteerBench-Work 2608.12654 + WIFA/HiRoute + eval). **CCC K239** is Datumpont / execution-fidelity (section above). Resolve by file+wiki, not bare K#. Federation sync: keep this block so OSINT copies are not wiped.
