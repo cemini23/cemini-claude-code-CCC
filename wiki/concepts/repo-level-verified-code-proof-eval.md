@@ -12,9 +12,11 @@ related:
   - sources/brief-k277-k281-trust-verification-wave-2026-08-14.md
   - briefs/2026-08-14_ccc-handoff-k277-k281-ingest.md
   - concepts/phase1-adopt-wire.md
+  - sources/brief-k237-meta-harness-vero-misevolution-2026-08-14.md
+  - concepts/skill-misevolution.md
 maturity: draft
 created: 2026-08-14
-updated: 2026-08-14
+updated: 2026-08-15
 ---
 
 ## Relations
@@ -36,6 +38,7 @@ Vero is the first benchmark for **joint implementation + proof synthesis at the 
 1. **Joint impl+proof eval** — grade the *combination*: implementation satisfies spec, proof checks. Unit tests + human review cannot rule out the bug classes formal verification captures.
 2. **Unsat / incorrectness audit** — agents may **prove the provided spec unsatisfiable or the reference code incorrect**. The benchmark itself is challengeable, which surfaces latent curation errors. This is an audit mechanism inside an eval — the eval must survive being told it's wrong.
 3. **Repository scale as the unit** — multi-module coherence (not single-function) is the realistic failure surface. Frontiers fully solve 27/43 and close nothing on the hardest repos → we are far from repo-scale verified synthesis.
+4. **Reconsider the definition, not only retry** (board K237 brief). Agents commit to an implementation early and grind proofs; a harness that edits the spec/definition can collapse many failed lemma attempts into one change. Wired in `/route` v2.3.3: on verify fail, reconsider the Plan.
 
 ### Local adopt
 

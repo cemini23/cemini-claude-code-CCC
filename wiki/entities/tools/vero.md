@@ -12,10 +12,11 @@ related:
   - sources/brief-k277-k281-trust-verification-wave-2026-08-14.md
   - briefs/2026-08-14_ccc-handoff-k277-k281-ingest.md
   - concepts/phase1-adopt-wire.md
+  - sources/brief-k237-meta-harness-vero-misevolution-2026-08-14.md
 maturity: draft
 wire_status: wont_wire
 created: 2026-08-14
-updated: 2026-08-14
+updated: 2026-08-15
 ---
 
 ## Relations

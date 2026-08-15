@@ -11,9 +11,10 @@ related:
   - entities/tools/reasonix.md
   - concepts/llm-routing-deepseek-openrouter-failover.md
   - "@osint-wiki/concepts/llm-routing-deepseek-openrouter-failover.md"
+  - sources/brief-k237-meta-harness-vero-misevolution-2026-08-14.md
 maturity: draft
 created: 2026-08-14
-updated: 2026-08-14
+updated: 2026-08-15
 wire_status: runtime_wired
 ---
 

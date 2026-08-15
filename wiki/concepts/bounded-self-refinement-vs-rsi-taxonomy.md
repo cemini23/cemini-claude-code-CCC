@@ -49,9 +49,11 @@ related:
   - concepts/meta-harness-optimization-hitl-eval-contract.md
   - entities/tools/autodesign.md
   - sources/arxiv-autodesign-meta-harness-2608.13560.md
+  - concepts/skill-misevolution.md
+  - sources/arxiv-skill-misevolution-2608.12851.md
 maturity: draft
 created: 2026-07-14
-updated: 2026-08-12
+updated: 2026-08-15
 ---
 
 ## Relations

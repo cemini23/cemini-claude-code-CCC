@@ -511,6 +511,9 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`marc-clinical-multi-agent-coordination`](concepts/marc-clinical-multi-agent-coordination.md) | draft | MARC clinical multi-agent — 2608.13476 (K279) |
 | [`repo-level-verified-code-proof-eval`](concepts/repo-level-verified-code-proof-eval.md) | draft | Repo-level verified code+proof — 2608.13522 (K280) |
 | [`meta-harness-optimization-hitl-eval-contract`](concepts/meta-harness-optimization-hitl-eval-contract.md) | draft | Meta-harness + HITL eval contract — 2608.13560 (K281) |
+| [`skill-misevolution`](concepts/skill-misevolution.md) | draft | Skill misevolution lifecycle gates — 2608.12851 (board K237) |
+| [`persona-hat-claude-code-sdlc`](concepts/persona-hat-claude-code-sdlc.md) | draft | Persona-hat SDLC — MCP designs, skills implement (OSINT K238) |
+| [`inspectable-tool-region-attribution`](concepts/inspectable-tool-region-attribution.md) | draft | Inspectable tool justification — AmalthAI from SEO (K158) |
 
 ## sources/
 
@@ -795,6 +798,10 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-vero-repo-verified-code-proof-2608.13522`](sources/arxiv-vero-repo-verified-code-proof-2608.13522.md) | draft | Vero repo verified — 2608.13522 (K280) |
 | [`arxiv-autodesign-meta-harness-2608.13560`](sources/arxiv-autodesign-meta-harness-2608.13560.md) | draft | AutoDesign meta-harness — 2608.13560 (K281) |
 | [`brief-k277-k281-trust-verification-wave-2026-08-14`](sources/brief-k277-k281-trust-verification-wave-2026-08-14.md) | validated | K277–K281 brief stub |
+| [`arxiv-skill-misevolution-2608.12851`](sources/arxiv-skill-misevolution-2608.12851.md) | draft | Skill misevolution — 2608.12851 (board K237) |
+| [`brief-k237-meta-harness-vero-misevolution-2026-08-14`](sources/brief-k237-meta-harness-vero-misevolution-2026-08-14.md) | validated | Board K237 brief stub (misevolution / Vero / AutoDesign) |
+| [`brief-k238-persona-hat-claude-gcp-2026-08-15`](sources/brief-k238-persona-hat-claude-gcp-2026-08-15.md) | validated | OSINT K238 persona-hat GCP brief stub |
+| [`brief-k158-amalthai-tabsom-from-seo-2026-08-14`](sources/brief-k158-amalthai-tabsom-from-seo-2026-08-14.md) | validated | SEO K158 AmalthAI/TabSOM brief stub |
 
 ## meta/
 
@@ -812,6 +819,9 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`2026-08-09-daily`](sweeps/2026-08-09-daily.md) | Daily digest — 0 new PDFs; 6 dupes skipped |
 | [`2026-08-11-daily`](sweeps/2026-08-11-daily.md) | Daily digest — fetched papers into inbox |
 | [`2026-08-12-daily`](sweeps/2026-08-12-daily.md) | Daily digest — 4 papers to inbox |
+| [`2026-08-13-daily`](sweeps/2026-08-13-daily.md) | Daily digest — 3 papers (CDH / VAKRA / RSM) |
+| [`2026-08-14-daily`](sweeps/2026-08-14-daily.md) | Daily digest — 5 papers (K277–K281 wave) |
+| [`2026-08-15-daily`](sweeps/2026-08-15-daily.md) | Daily digest — 0 new PDFs; 3 dupes skipped |
 
 ## entities/people/
 

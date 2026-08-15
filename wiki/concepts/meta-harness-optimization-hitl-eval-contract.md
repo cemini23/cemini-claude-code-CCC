@@ -13,9 +13,10 @@ related:
   - sources/brief-k277-k281-trust-verification-wave-2026-08-14.md
   - briefs/2026-08-14_ccc-handoff-k277-k281-ingest.md
   - concepts/phase1-adopt-wire.md
+  - sources/brief-k237-meta-harness-vero-misevolution-2026-08-14.md
 maturity: draft
 created: 2026-08-14
-updated: 2026-08-14
+updated: 2026-08-15
 ---
 
 ## Relations
@@ -35,9 +36,10 @@ AutoDesign: a **meta-harness optimizer guides a code agent to recursively improv
 ### Steal (ADOPT — with the HITL guardrail)
 
 1. **Meta-harness loop over the harness, not the model** — improve the DesignHarness (workflow, prompts, tool ordering), keep the code agent fixed. Harness gains transfer across model configs (+12.4% avg).
-2. **Rollout feedback as the optimizer's signal** — score + trajectory → harness edits. Recursive but *bounded* improvement.
-3. **External eval contract / HITL (the guardrail, pairs K162).** Pass criteria must NOT be closed self-rewritten by the optimizer. Keep human design priors and an external scoring authority authoritative; the optimizer improves *within* the contract.
-4. **Human-aligned priors** — the harness starts from human design priors, not a blank slate.
+2. **Five-component harness audit** (board K237): Context & Memory / Tools & Specs / Execution Runtime / Orchestration / Eval & Feedback — map skills, hooks, MCP, session loop onto those slots.
+3. **Rollout feedback as the optimizer's signal** — score + trajectory → harness edits. Recursive but *bounded* improvement. Propose one bounded update per iteration; promote only when train improves **and** hidden-dev does not regress.
+4. **External eval contract / HITL (the guardrail, pairs K162).** Pass criteria must NOT be closed self-rewritten by the optimizer. Keep human design priors and an external scoring authority authoritative; the optimizer improves *within* the contract.
+5. **Human-aligned priors** — the harness starts from human design priors, not a blank slate. HITL redirection on plateau (brief: autonomous 80.88 → 88.39 with an NL nudge).
 
 ### Why this pairs K162
 

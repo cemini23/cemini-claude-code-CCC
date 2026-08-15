@@ -12,9 +12,11 @@ related:
   - sources/arxiv-rac-split-inference-activation-compression-2608.04991.md
   - concepts/split-inference-activation-compression.md
   - entities/tools/rac-split-inference.md
+  - concepts/inspectable-tool-region-attribution.md
+  - sources/brief-k158-amalthai-tabsom-from-seo-2026-08-14.md
 maturity: draft
 created: 2026-08-03
-updated: 2026-08-06
+updated: 2026-08-15
 ---
 
 ## Relations

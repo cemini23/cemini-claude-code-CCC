@@ -27,9 +27,10 @@ related:
   - concepts/convergent-detour-hijacking-progressive-disclosure.md
   - entities/patterns/convergent-detour-hijacking.md
   - sources/arxiv-convergent-detour-hijacking-cdh-2608.12273.md
+  - concepts/persona-hat-claude-code-sdlc.md
 maturity: draft
 created: 2026-06-04
-updated: 2026-08-13
+updated: 2026-08-15
 ---
 
 ## Relations

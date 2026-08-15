@@ -1,3 +1,11 @@
+## [2026-08-15] ops | brief-to-wiki fill — misevolution, persona-hat, AmalthAI
+
+- Board **K237** brief (`briefs/2026-08-14_k237-meta-harness-vero-misevolution.md`) cited wiki pages that did not exist. Added `@concepts/skill-misevolution.md` + `@sources/arxiv-skill-misevolution-2608.12851.md` + brief stub. Policy already wired (SHE § + `/route` v2.3.3). Stub notes: dsh keep-wrapper line in that brief is **superseded** by v2.3.2 GO.
+- Enriched K280/K281 concepts from the same brief: Vero reconsider-definition; AutoDesign five-component harness audit + train/dev promote gate.
+- OSINT **K238** persona-hat GCP brief → `@concepts/persona-hat-claude-code-sdlc.md` (dual-ID vs CCC TokTier K238). Cross-wiki to OSINT canon.
+- SEO **K158** AmalthAI/TabSOM → `@concepts/inspectable-tool-region-attribution.md` (`wont_wire` AGPL).
+- Indexed sweeps 2026-08-13 / 14 / 15.
+
 ## [2026-08-14] ops | official dsh is the /route worker (skill v2.3.2)
 
 - Operator GO same day after Phase-0 keep-wrapper: wire official `@deepseek-ai/dsh@0.1.0-rc.6` behind PATH name `claude-ds`. Always-approve = `DSH_PERMISSION_MODE=danger-full-access`. `-Model` → per-job `--patch`. PromptFile by path. Claude Code at `~/.deepseek-claude` is fallback (`CLAUDE_DS_FORCE_LEGACY=1`).

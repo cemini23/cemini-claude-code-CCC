@@ -10,9 +10,14 @@ related:
   - entities/tools/opencode.md
   - entities/tools/reasonix.md
   - entities/tools/deepseek-harness.md
+  - concepts/skill-misevolution.md
+  - sources/brief-k237-meta-harness-vero-misevolution-2026-08-14.md
+  - concepts/persona-hat-claude-code-sdlc.md
+  - sources/arxiv-skill-misevolution-2608.12851.md
+  - sources/brief-k238-persona-hat-claude-gcp-2026-08-15.md
 maturity: validated
 created: 2026-07-01
-updated: 2026-08-14
+updated: 2026-08-15
 ---
 
 ## Relations
@@ -22,6 +27,8 @@ updated: 2026-08-14
 - @entities/tools/opencode.md — Phase-0 NO-GO mid swap
 - @entities/tools/reasonix.md — Phase-0 NO-GO mid swap
 - @entities/tools/deepseek-harness.md — official `dsh` is the `/route` worker behind `claude-ds` (v2.3.2; operator GO 2026-08-14)
+- @concepts/skill-misevolution.md — board K237; v2.3.3 rule 10
+- @concepts/persona-hat-claude-code-sdlc.md — OSINT K238 GCP hats (dual-ID vs TokTier K238)
 
 ## Raw Concept
 

@@ -16,9 +16,10 @@ related:
   - concepts/hardware-confined-agent-signing.md
   - entities/tools/hardware-keystore-mcp-signing.md
   - sources/arxiv-hardware-keystores-ai-agent-signing-2608.06130.md
+  - concepts/persona-hat-claude-code-sdlc.md
 maturity: draft
 created: 2026-08-04
-updated: 2026-08-07
+updated: 2026-08-15
 ---
 
 ## Relations

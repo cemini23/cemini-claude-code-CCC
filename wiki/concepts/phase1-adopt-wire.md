@@ -82,9 +82,10 @@ related:
   - entities/tools/marc-v1.md
   - entities/tools/vero.md
   - entities/tools/autodesign.md
+  - concepts/skill-misevolution.md
 maturity: draft
 created: 2026-07-31
-updated: 2026-08-14
+updated: 2026-08-15
 ---
 
 ## Relations
