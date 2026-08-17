@@ -17,9 +17,11 @@ related:
   - entities/tools/hardware-keystore-mcp-signing.md
   - sources/arxiv-hardware-keystores-ai-agent-signing-2608.06130.md
   - concepts/persona-hat-claude-code-sdlc.md
+  - concepts/recoverable-agent-execution-checkpoints.md
+  - sources/arxiv-agentrewind-recoverable-execution-2608.14380.md
 maturity: draft
 created: 2026-08-04
-updated: 2026-08-15
+updated: 2026-08-17
 ---
 
 ## Relations

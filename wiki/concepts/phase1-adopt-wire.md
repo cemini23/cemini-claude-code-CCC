@@ -83,9 +83,17 @@ related:
   - entities/tools/vero.md
   - entities/tools/autodesign.md
   - concepts/skill-misevolution.md
+  - briefs/2026-08-17_ccc-handoff-k282-k284-ingest.md
+  - concepts/differential-fault-injection-llm-modernization.md
+  - concepts/recoverable-agent-execution-checkpoints.md
+  - concepts/test-time-world-model-validate-before-act.md
+  - entities/patterns/differential-fault-injection-validation.md
+  - entities/tools/agentrewind.md
+  - entities/tools/mettlebench.md
+  - entities/tools/twin-arc-agi-3.md
 maturity: draft
 created: 2026-07-31
-updated: 2026-08-15
+updated: 2026-08-17
 ---
 
 ## Relations

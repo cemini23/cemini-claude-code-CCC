@@ -51,9 +51,10 @@ related:
   - sources/arxiv-autodesign-meta-harness-2608.13560.md
   - concepts/skill-misevolution.md
   - sources/arxiv-skill-misevolution-2608.12851.md
+  - concepts/differential-fault-injection-llm-modernization.md
 maturity: draft
 created: 2026-07-14
-updated: 2026-08-15
+updated: 2026-08-17
 ---
 
 ## Relations

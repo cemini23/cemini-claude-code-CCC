@@ -8,9 +8,12 @@ related:
   - entities/tools/mcp-tester-transpiler.md
   - sources/brief-k234-k238-cyberneuro-mcp-tester-ham-accel-toktier-2026-08-03.md
   - briefs/2026-08-03_ccc-handoff-k234-k238-ingest.md
+  - concepts/differential-fault-injection-llm-modernization.md
+  - entities/patterns/differential-fault-injection-validation.md
+  - sources/arxiv-differential-fault-injection-llm-modernization-2608.14527.md
 maturity: draft
 created: 2026-08-03
-updated: 2026-08-03
+updated: 2026-08-17
 ---
 
 ## Relations

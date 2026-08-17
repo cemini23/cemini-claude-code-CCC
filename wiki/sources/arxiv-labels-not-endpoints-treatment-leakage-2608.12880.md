@@ -11,6 +11,7 @@ related:
   - concepts/convergent-detour-hijacking-progressive-disclosure.md
   - sources/brief-k277-k281-trust-verification-wave-2026-08-14.md
   - briefs/2026-08-14_ccc-handoff-k277-k281-ingest.md
+  - "@cybersecurity-wiki/sources/arxiv-2608-12880-labels-not-endpoints.md"
 maturity: draft
 created: 2026-08-14
 updated: 2026-08-14

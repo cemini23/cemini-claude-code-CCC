@@ -1729,3 +1729,14 @@ Cross-wiki stub routed from `@osint-wiki/sources/newsletter-rss-pragmatic-engine
 - Skill: `.cursor/skills/route/SKILL.md` v2.3.2 → v2.3.3 — operating rule 10 (misevolution HITL; verify-fail → reconsider Plan, not only retry; external eval contract — no Verify rewrite mid-run) + Related bullet to policy wire.
 - Backlog: `wiki/entities/skills/route.md` — added K237 AutoDesign bibliography (open), K237 misevolution SHE gate (wired), K237 Vero reconsider-definition habit (wired); ops 2026-08-14 dsh row already present.
 - Sync: `scripts/sync_federation_cursor_skills.sh` → `~/.cursor/skills/route/SKILL.md` matches.
+
+## [2026-08-17] ingest | K282–K284 harness wave — AgentRewind, Twin, differential fault injection
+
+- **Sources:** arXiv 2608.14380 (AgentRewind — recoverable execution), 2608.14490 (Twin — test-time digital twin), 2608.14527 (differential fault injection for LLM-modernized scientific software)
+- **New pages:** `sources/arxiv-agentrewind-recoverable-execution-2608.14380.md`, `sources/arxiv-twin-test-time-digital-twin-2608.14490.md`, `sources/arxiv-differential-fault-injection-llm-modernization-2608.14527.md`, `sources/brief-k282-k284-harness-wave-2026-08-17.md`, `concepts/recoverable-agent-execution-checkpoints.md`, `concepts/test-time-world-model-validate-before-act.md`, `concepts/differential-fault-injection-llm-modernization.md`, `entities/tools/agentrewind.md`, `entities/tools/mettlebench.md`, `entities/tools/twin-arc-agi-3.md`, `entities/patterns/differential-fault-injection-validation.md`, `briefs/2026-08-17_ccc-handoff-k282-k284-ingest.md`
+- **Phase-0:** `scripts/adopt_k282_phase0.sh` / `adopt_k283_phase0.sh` / `adopt_k284_phase0.sh`. REFERENCE clones: replay-agent-recorder (MIT), MettleBench (Apache-2.0), TWIN-ARC-AGI-3 (MIT); re-cloned K279–K281 (MARC-v1 MIT, vero Apache-2.0, AutoDesign MIT) after empty shelf.
+- **Phase-1:** `.cursor/rules/cemini-phase1-policy-wires.mdc` §K282–K284 + `.cursor/rules/ccc-k282-k284-phase1-wires.mdc`. K284 policy-only (no public ftinj SPDX); scientific/GAMESS runtime `wont_wire`.
+- **Cross-wiki:** game-dev `concepts/twin-test-time-world-model-stub.md` (K283), cybersec `concepts/differential-fault-injection-llm-code-stub.md` (K284). Committed pending K277 cybersec backlinks (4 files).
+- **Briefs:** `docs/briefs/2026-08-17_k282-k284-harness-wave.md`, prod `briefs/2026-08-17_k282-k284-harness-wave-prod.md` + `-harness-policy-hands-on.md` → scp'd to `cemini-prod:/opt/cemini/briefs/`; cross-project atto / cybersec / game-dev.
+- **Archive:** 3 PDFs → `cemini-egress-fi:/opt/cemini-bulk/research/ccc/`; inbox empty; source Location fields set.
+- Updated `wiki/index.md` (11 new rows) + sweeps rows.

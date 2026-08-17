@@ -14,9 +14,11 @@ related:
   - concepts/trajectory-error-lifecycle-attribution.md
   - entities/tools/trajdebug.md
   - sources/arxiv-trajdebug-error-lifecycle-2608.06346.md
+  - concepts/recoverable-agent-execution-checkpoints.md
+  - sources/arxiv-agentrewind-recoverable-execution-2608.14380.md
 maturity: draft
 created: 2026-08-04
-updated: 2026-08-07
+updated: 2026-08-17
 ---
 
 ## Relations

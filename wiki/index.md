@@ -70,6 +70,9 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`marc-v1`](entities/tools/marc-v1.md) | draft | MARC-v1 clinical multi-agent — MIT REFERENCE (K279) |
 | [`vero`](entities/tools/vero.md) | draft | Vero repo-level verified eval — Apache REFERENCE (K280) |
 | [`autodesign`](entities/tools/autodesign.md) | draft | AutoDesign meta-harness — MIT REFERENCE (K281) |
+| [`agentrewind`](entities/tools/agentrewind.md) | draft | AgentRewind recoverable execution — MIT REFERENCE (K282) |
+| [`mettlebench`](entities/tools/mettlebench.md) | draft | MettleBench long-horizon bench — Apache REFERENCE (K282) |
+| [`twin-arc-agi-3`](entities/tools/twin-arc-agi-3.md) | draft | Twin test-time digital twin — MIT REFERENCE (K283) |
 | [`asm-adopt-orphan`](entities/tools/asm-adopt-orphan.md) | draft | Orphan CCC adopt — Phase-1 wont_wire |
 | [`biosecbench-surveillance`](entities/tools/biosecbench-surveillance.md) | draft | Biosecurity eval orphan adopt — Phase-1 wont_wire |
 | [`rrbench`](entities/tools/rrbench.md) | draft | MIT local open-weight data-prep eval — GO REFERENCE (K212) |
@@ -209,6 +212,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`convergent-detour-hijacking`](entities/patterns/convergent-detour-hijacking.md) | draft | CDH skill-supply-chain attack pattern — trajectory necessity (K274) |
 | [`role-specialization-model`](entities/patterns/role-specialization-model.md) | draft | RSM multi-tool role coordination — HITL + prompt-hardening (K276) |
 | [`treatment-blind-endpoint-integrity`](entities/patterns/treatment-blind-endpoint-integrity.md) | draft | Labels ≠ endpoints — Integrity Chain (K277) |
+| [`differential-fault-injection-validation`](entities/patterns/differential-fault-injection-validation.md) | draft | Off-nominal paired fault injection — policy (K284) |
 
 ## concepts/
 
@@ -511,6 +515,9 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`marc-clinical-multi-agent-coordination`](concepts/marc-clinical-multi-agent-coordination.md) | draft | MARC clinical multi-agent — 2608.13476 (K279) |
 | [`repo-level-verified-code-proof-eval`](concepts/repo-level-verified-code-proof-eval.md) | draft | Repo-level verified code+proof — 2608.13522 (K280) |
 | [`meta-harness-optimization-hitl-eval-contract`](concepts/meta-harness-optimization-hitl-eval-contract.md) | draft | Meta-harness + HITL eval contract — 2608.13560 (K281) |
+| [`recoverable-agent-execution-checkpoints`](concepts/recoverable-agent-execution-checkpoints.md) | draft | Recoverable agent checkpoints — 2608.14380 (K282) |
+| [`test-time-world-model-validate-before-act`](concepts/test-time-world-model-validate-before-act.md) | draft | Validate-before-act world model — 2608.14490 (K283) |
+| [`differential-fault-injection-llm-modernization`](concepts/differential-fault-injection-llm-modernization.md) | draft | Off-nominal LLM-modernization validation — 2608.14527 (K284) |
 | [`skill-misevolution`](concepts/skill-misevolution.md) | draft | Skill misevolution lifecycle gates — 2608.12851 (board K237) |
 | [`persona-hat-claude-code-sdlc`](concepts/persona-hat-claude-code-sdlc.md) | draft | Persona-hat SDLC — MCP designs, skills implement (OSINT K238) |
 | [`inspectable-tool-region-attribution`](concepts/inspectable-tool-region-attribution.md) | draft | Inspectable tool justification — AmalthAI from SEO (K158) |
@@ -798,6 +805,10 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-vero-repo-verified-code-proof-2608.13522`](sources/arxiv-vero-repo-verified-code-proof-2608.13522.md) | draft | Vero repo verified — 2608.13522 (K280) |
 | [`arxiv-autodesign-meta-harness-2608.13560`](sources/arxiv-autodesign-meta-harness-2608.13560.md) | draft | AutoDesign meta-harness — 2608.13560 (K281) |
 | [`brief-k277-k281-trust-verification-wave-2026-08-14`](sources/brief-k277-k281-trust-verification-wave-2026-08-14.md) | validated | K277–K281 brief stub |
+| [`arxiv-agentrewind-recoverable-execution-2608.14380`](sources/arxiv-agentrewind-recoverable-execution-2608.14380.md) | draft | AgentRewind recoverable execution — 2608.14380 (K282) |
+| [`arxiv-twin-test-time-digital-twin-2608.14490`](sources/arxiv-twin-test-time-digital-twin-2608.14490.md) | draft | Twin test-time digital twin — 2608.14490 (K283) |
+| [`arxiv-differential-fault-injection-llm-modernization-2608.14527`](sources/arxiv-differential-fault-injection-llm-modernization-2608.14527.md) | draft | Differential fault injection — 2608.14527 (K284) |
+| [`brief-k282-k284-harness-wave-2026-08-17`](sources/brief-k282-k284-harness-wave-2026-08-17.md) | draft | K282–K284 brief stub |
 | [`arxiv-skill-misevolution-2608.12851`](sources/arxiv-skill-misevolution-2608.12851.md) | draft | Skill misevolution — 2608.12851 (board K237) |
 | [`brief-k237-meta-harness-vero-misevolution-2026-08-14`](sources/brief-k237-meta-harness-vero-misevolution-2026-08-14.md) | validated | Board K237 brief stub (misevolution / Vero / AutoDesign) |
 | [`brief-k238-persona-hat-claude-gcp-2026-08-15`](sources/brief-k238-persona-hat-claude-gcp-2026-08-15.md) | validated | OSINT K238 persona-hat GCP brief stub |
@@ -822,6 +833,8 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`2026-08-13-daily`](sweeps/2026-08-13-daily.md) | Daily digest — 3 papers (CDH / VAKRA / RSM) |
 | [`2026-08-14-daily`](sweeps/2026-08-14-daily.md) | Daily digest — 5 papers (K277–K281 wave) |
 | [`2026-08-15-daily`](sweeps/2026-08-15-daily.md) | Daily digest — 0 new PDFs; 3 dupes skipped |
+| [`2026-08-16-daily`](sweeps/2026-08-16-daily.md) | Daily digest — 0 new PDFs; 3 dupes skipped |
+| [`2026-08-17-daily`](sweeps/2026-08-17-daily.md) | Daily digest — 3 papers (K282–K284 wave) |
 
 ## entities/people/
 

@@ -1,0 +1,13 @@
+---
+description: CCC Phase-1 wires from K282–K284 harness wave
+alwaysApply: true
+---
+
+# CCC — K282–K284 Phase-1 wires
+
+**Brief:** `docs/briefs/2026-08-17_k282-k284-harness-wave.md`
+
+- **K282** AgentRewind — recoverable execution for long-horizon agents. **ADOPT** aligned context+env checkpoints + resume-from-checkpoint recovery + rewind memory. `Futuresis/replay-agent-recorder` **MIT** ~3.7MB → **GO REFERENCE** (`.local/adopts/replay-agent-recorder`); `Kelvin-Coffee/MettleBench` **Apache-2.0** ~31MB → **GO REFERENCE** (`.local/adopts/MettleBench`). Framework runtime **`wont_wire`**. Pairs K239 execution fidelity + K242 rollback.
+- **K283** Twin — test-time digital twin for unknown games. **ADOPT** harness-enforced validate-before-act (no scored action until twin replays every logged transition) + goal-before-reward + execute-checked halt-on-mismatch. `Alexyskoutnev/TWIN-ARC-AGI-3` **MIT** ~7.1MB → **GO REFERENCE** (`.local/adopts/TWIN-ARC-AGI-3`); ARC bench runtime **`wont_wire`**. Pairs K231 Tycho. Game-dev cross-wiki stub.
+- **K284** Differential fault injection — off-nominal paired validation for LLM code modernization. **ADOPT** off-nominal paired differential validation + measurement-guided hardening loop. No public `ftinj` SPDX clone → **policy only** (scientific/GAMESS; no runtime on CCC laptop). Cybersec brief stub. Pairs K235 mutation-consistency + K162 verification hierarchy.
+- Local adopts: replay-agent-recorder, MettleBench, TWIN-ARC-AGI-3 — all REFERENCE shelf (gitignored `.local/adopts/`), no runtime wiring.

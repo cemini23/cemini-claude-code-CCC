@@ -12,6 +12,7 @@ related:
   - sources/brief-k277-k281-trust-verification-wave-2026-08-14.md
   - briefs/2026-08-14_ccc-handoff-k277-k281-ingest.md
   - concepts/phase1-adopt-wire.md
+  - "@cybersecurity-wiki/concepts/intersage-trust-native-ioa-protocol.md"
 maturity: draft
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"

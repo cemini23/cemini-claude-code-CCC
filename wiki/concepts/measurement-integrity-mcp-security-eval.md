@@ -15,6 +15,7 @@ related:
   - concepts/phase1-adopt-wire.md
   - entities/tools/intersage.md
   - sources/arxiv-intersage-trust-native-ioa-protocol-2608.13030.md
+  - "@cybersecurity-wiki/concepts/measurement-integrity-mcp-security-eval.md"
 maturity: draft
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"

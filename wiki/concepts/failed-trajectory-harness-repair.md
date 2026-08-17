@@ -51,9 +51,10 @@ related:
   - concepts/adversarial-curriculum-structured-reward-doc-fidelity.md
   - concepts/trajectory-driven-safety-harness-evolution.md
   - sources/arxiv-she-safety-harness-evolution-2608.09885.md
+  - concepts/recoverable-agent-execution-checkpoints.md
 maturity: validated
 created: 2026-06-05
-updated: 2026-08-11
+updated: 2026-08-17
 ---
 
 ## Relations
