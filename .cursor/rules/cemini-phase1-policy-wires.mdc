@@ -87,6 +87,7 @@ Concrete harness behavior from Phase-0 ADOPT patterns. Clones under `.local/adop
 ## Robotics MCP solver (K240)
 
 - `.local/adopts/MixedComplementarityProblems.jl` = BSD-3 REFERENCE for robotics/game-dev — **wont_wire** on CCC/TipDrop/prod harness.
+- **OSINT/GW K240** (Talon HITL + RSSB + VIVO, alert-only) = `guruwatcher-k240-talon-rssb-phase1-wires.mdc` — do not collapse with this robotics K240.
 
 ## Clarify-before-act + evidence-aligned close (UrbanAgent / K244)
 
