@@ -11,9 +11,11 @@ related:
   - sources/brief-k210-k214-traceable-euclid-acm-openforge-2026-07-24.md
   - concepts/claim-centered-retrieval-with-provenance.md
   - sources/arxiv-askchem-claim-centered-literature-2607.28618.md
+  - concepts/planner-state-semantic-integrity-attack-surface.md
+  - sources/arxiv-esti-state-semantic-injection-2608.16806.md
 maturity: draft
 created: 2026-07-24
-updated: 2026-07-31
+updated: 2026-08-18
 ---
 
 ## Relations

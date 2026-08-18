@@ -414,6 +414,52 @@ CCC **ACCEL** is also labeled K237 (agentic-engineer competencies, above). Numbe
 - **GO Integrate this batch: none.** fclones MIT = Extract (Atto vault CoW; no unsupervised `--delete`). openai/privacy-filter Apache-2.0 = Extract (PII strip; ≠ packyme). rachoon stays **AGPL Extract-only**; RustScan stays **GPL-3.0 Extract-only** (docx Integrate + MIT were wrong). LFM encoders = license `other` + weight skip. timesfm code cloned; **no HF checkpoints**; GuruWatcher remains alert-only.
 - **0day-Rubbish / LEAKSFORUMS** = Context only. No exploit payloads, no criminal-forum interaction.
 
+## CCC wave K285–K289 (shared policy file)
+
+Signed mandates on MCP actions (K285) + 3D world agents WATCH (K286) + black-box RL on opaque harness (K287) + planner-state semantic integrity (K288) + agentified eval evidence trees (K289). **No local clones** this batch (all null SPDX).
+
+## Signed mandate chain at MCP proxy (Mandato / CCC K285)
+
+- **Authorization is a signed artifact, not application code.** A mandate binds principal × agent workload identity × tool scope × parameter constraints × contextual conditions × TTL × delegation policy, signed by the principal (JAdES/JWS). Signing a mandate is a legal act — legible to auditors/lawyers.
+- **Enforce at a non-bypassable MCP proxy.** Terminate both sides; upstream servers accept only the proxy's mTLS workload identity. Completeness + non-bypassability are architectural, not contractual.
+- **Separated PDP/PEP, fail-closed.** Minimal in-line enforcement; decision point evaluates against mandate store + revocation view + quota counters. Escalations park via MCP task semantics → human console showing the *mandate clause* (AI Act Art. 14 "meaningful" oversight).
+- **Closed constraint language.** Equality / enumerated sets / numeric ranges / string prefixes / presence-absence — one-line-per-predicate explainability; the policy must not become an unauditable program.
+- **Monotone attenuation + deny-by-default.** A sub-mandate can only narrow scope / widen conditions / shrink validity, never weaken oversight (confirm cannot become auto downstream). Absence of mandate / expired chain / unverifiable signature / unknown tool / out-of-language constraint → DENY.
+- **Append-only hash-chained audit.** Every permit/deny chained; selective hash commitments (GDPR minimization); Merkle checkpoints under RFC 3161 → qualified timestamps (eIDAS). Ratification corrects by appending, never editing.
+- Pairs K278 InterSAGE (identity/VC trust), K271 MCP auth gateway (transport), K239 execution fidelity (deny-by-default). No public SPDX clone → **policy only**. **Atto-priority.**
+
+## 3D world agents — rubric + feasibility verifier (VibeWorlding / CCC K286)
+
+- **Unify fragmented 3D tooling under one MCP sandbox** (asset retrieve/add/rotate/translate/delete) — agent reasons over one interface.
+- **Dual-constraint verifier as backbone** — physical feasibility (collision, height) AND intent fulfillment (ecological plausibility, retrieval). Handcrafted rules or a generic LLM judge alone are insufficient.
+- **Same environment + reward for eval and training** — the rubric verifier is both benchmark scorer and RL reward service (no train/eval drift).
+- `usail-hkust/VibeWorlding-Gym` null SPDX → **NO-GO clone**. **Reference only**; **`wont_wire`** CCC/Image-gen/3D. Game-dev stub.
+
+## Black-box RL on opaque harness (ClawGym II / CCC K287)
+
+- **Treat the harness as an opaque rollout engine** — don't instrument internals; intercept at the model boundary with a **serving proxy**.
+- **Sandbox per rollout** — each task environment + harness in a temporary sandbox, provisioned on demand, destroyed on completion.
+- **Rebuild prefix trees from captured calls** — fragmented/forked/redundant traces → prefix tree; adapt PPO (critic) and GRPO (critic-free) over the recovered tree.
+- **Preserve training–inference consistency** — black-box token-in-token-out + token-level importance-sampling rollout correction, or training destabilizes.
+- **Mix-harness joint training** — each task–harness pair is a training instance; rollouts from heterogeneous harnesses (OpenClaw + Claude Code) jointly optimize one model.
+- Pairs K281 AutoDesign (optimize harness, model fixed — complementary axis), K262 scaffold>interface, K263 versioned model-harness pairs. No public SPDX repo → **policy only**.
+
+## Planner-state semantic integrity (ESTI / CCC K288)
+
+- **Planner-visible state producers are an integrity boundary** — compromise of exactly one can steer planning (objects, relations, affordances, task-stage rules, feedback).
+- **Schema-preserving false evidence beats explicit commands** — false records conform to the field's semantic role/format; audit *consistency across records*, not just injected instructions.
+- **Distinguish planning adoption (P-ASR) from execution realization (E-ASR)** — planning deviation ≠ physical attack success; measure both.
+- **Defend carrier/representation consistency, not re-grounding** — removing runtime re-grounding moves P-ASR/E-ASR only +1.92/+3.85 pts.
+- **Conditional-delivery scoping** — results are conditional on successful state delivery; don't overclaim write-access probability (pairs K259 traceable scholarship). Pairs K274 CDH trajectory audit. No public code → **policy only**; **Cybersec-primary**.
+
+## Agentified eval — evidence tree not scalar (HarnessEval-W / CCC K289)
+
+- **Eval = evidence tree, not a scalar** — deliver what was tested, which tool supplied the grounding, and the logical chain justifying the score.
+- **Route case → skills → sub-agents with tools** — no fixed rubric fits all cases; decompose into measurable subproblems delegated to tool-equipped sub-agents.
+- **Parent validates before verdict** — a verification gate between evidence collection and scoring (pairs K162: no closed self-eval).
+- **Agentic, validated case construction** — sample scene taxonomy → ground actions → validate each candidate before acceptance (pairs K277 measurement integrity).
+- `mirros-lab/harnesseval-w` null SPDX → **NO-GO clone**. **`policy_wired`**.
+
 ## Phase-1 meta
 
 - After ingest ADOPT/GO: propose `/phase1` wire before claiming done.

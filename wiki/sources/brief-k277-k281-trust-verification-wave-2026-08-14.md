@@ -23,7 +23,7 @@ related:
   - briefs/2026-08-14_ccc-k277-k281-sip-ready.md
 maturity: validated
 created: 2026-08-14
-updated: 2026-08-14
+updated: 2026-08-18
 ---
 
 ## Relations
@@ -41,7 +41,15 @@ Brief stub for the K277–K281 ingest (2026-08-14). Dual-ID note: Cybersec **K27
 
 ## Narrative
 
-Five-paper trust + verification wave: K277 treatment-leakage measurement audit, K278 InterSAGE IoA trust protocol (Atto-priority), K279 MARC-v1 clinical multi-agent (MIT GO REFERENCE), K280 Vero repo-level verified eval (Apache-2.0 GO REFERENCE), K281 AutoDesign meta-harness (MIT clone + HITL eval contract, pairs K162).
+Five-paper trust + verification wave (2026-08-14 ingest). Dual-ID: Cybersec **K277 = RSM**; this batch's CCC K277 = Labels-Are-Not-Endpoints.
+
+| ID | arXiv | Verdict | Wire |
+|----|-------|---------|------|
+| **K277** | 2608.12880 | **ADOPT** Integrity Chain + treatment-blind graders | `policy_wired` |
+| **K278** | 2608.13030 | **ADOPT** InterSAGE AIC + VC discovery + audit | `policy_wired` (Atto-priority) |
+| **K279** | 2608.13476 | **GO REFERENCE** MARC-v1 MIT | clinical `wont_wire` |
+| **K280** | 2608.13522 | **GO REFERENCE** vero Apache-2.0 | Lean bench `wont_wire` |
+| **K281** | 2608.13560 | **ADOPT** meta-harness + HITL eval contract | AutoDesign REFERENCE `wont_wire` runtime |
 
 ## Sources
 

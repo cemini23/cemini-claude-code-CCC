@@ -19,9 +19,10 @@ related:
   - concepts/persona-hat-claude-code-sdlc.md
   - concepts/recoverable-agent-execution-checkpoints.md
   - sources/arxiv-agentrewind-recoverable-execution-2608.14380.md
+  - concepts/signed-mandate-mcp-protocol-enforcement.md
 maturity: draft
 created: 2026-08-04
-updated: 2026-08-17
+updated: 2026-08-18
 ---
 
 ## Relations

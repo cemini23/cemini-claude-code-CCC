@@ -14,9 +14,10 @@ related:
   - briefs/2026-08-14_ccc-handoff-k277-k281-ingest.md
   - concepts/phase1-adopt-wire.md
   - sources/brief-k237-meta-harness-vero-misevolution-2026-08-14.md
+  - concepts/black-box-rl-opaque-harness-optimization.md
 maturity: draft
 created: 2026-08-14
-updated: 2026-08-15
+updated: 2026-08-18
 ---
 
 ## Relations

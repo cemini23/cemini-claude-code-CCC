@@ -11,10 +11,11 @@ related:
   - sources/brief-k274-k276-skill-security-eval-2026-08-13.md
   - briefs/2026-08-13_ccc-handoff-k274-k276-ingest.md
   - concepts/phase1-adopt-wire.md
+  - concepts/planner-state-semantic-integrity-attack-surface.md
 maturity: draft
 wire_status: wont_wire
 created: 2026-08-13
-updated: 2026-08-13
+updated: 2026-08-18
 ---
 
 ## Relations

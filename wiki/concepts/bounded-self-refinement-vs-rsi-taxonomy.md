@@ -52,9 +52,11 @@ related:
   - concepts/skill-misevolution.md
   - sources/arxiv-skill-misevolution-2608.12851.md
   - concepts/differential-fault-injection-llm-modernization.md
+  - concepts/agentified-eval-evidence-tree-harness.md
+  - sources/arxiv-harnesseval-w-visual-worlds-2608.16859.md
 maturity: draft
 created: 2026-07-14
-updated: 2026-08-17
+updated: 2026-08-18
 ---
 
 ## Relations

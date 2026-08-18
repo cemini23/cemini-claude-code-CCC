@@ -16,11 +16,13 @@ related:
   - entities/tools/intersage.md
   - sources/arxiv-intersage-trust-native-ioa-protocol-2608.13030.md
   - "@cybersecurity-wiki/concepts/measurement-integrity-mcp-security-eval.md"
+  - concepts/agentified-eval-evidence-tree-harness.md
+  - sources/arxiv-harnesseval-w-visual-worlds-2608.16859.md
 maturity: draft
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"
 created: 2026-08-14
-updated: 2026-08-14
+updated: 2026-08-18
 ---
 
 ## Relations

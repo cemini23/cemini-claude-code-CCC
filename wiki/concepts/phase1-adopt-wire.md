@@ -91,9 +91,21 @@ related:
   - entities/tools/agentrewind.md
   - entities/tools/mettlebench.md
   - entities/tools/twin-arc-agi-3.md
+  - briefs/2026-08-18_ccc-handoff-k285-k289-ingest.md
+  - concepts/agentified-eval-evidence-tree-harness.md
+  - concepts/black-box-rl-opaque-harness-optimization.md
+  - concepts/planner-state-semantic-integrity-attack-surface.md
+  - concepts/signed-mandate-mcp-protocol-enforcement.md
+  - concepts/vibeworlding-multimodal-3d-world-agents.md
+  - entities/patterns/signed-mandate-mcp-proxy.md
+  - entities/patterns/state-semantic-injection-esti.md
+  - entities/tools/clawgym-ii.md
+  - entities/tools/harnesseval-w.md
+  - entities/tools/mandato.md
+  - entities/tools/vibeworlding-gym.md
 maturity: draft
 created: 2026-07-31
-updated: 2026-08-17
+updated: 2026-08-18
 ---
 
 ## Relations

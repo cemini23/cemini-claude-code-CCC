@@ -73,6 +73,10 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`agentrewind`](entities/tools/agentrewind.md) | draft | AgentRewind recoverable execution — MIT REFERENCE (K282) |
 | [`mettlebench`](entities/tools/mettlebench.md) | draft | MettleBench long-horizon bench — Apache REFERENCE (K282) |
 | [`twin-arc-agi-3`](entities/tools/twin-arc-agi-3.md) | draft | Twin test-time digital twin — MIT REFERENCE (K283) |
+| [`mandato`](entities/tools/mandato.md) | draft | Mandato signed MCP mandates — policy only (K285) |
+| [`vibeworlding-gym`](entities/tools/vibeworlding-gym.md) | draft | VibeWorlding 3D agent gym — null SPDX NO-GO (K286) |
+| [`clawgym-ii`](entities/tools/clawgym-ii.md) | draft | ClawGym II black-box harness RL — policy only (K287) |
+| [`harnesseval-w`](entities/tools/harnesseval-w.md) | draft | HarnessEval-W agentified eval — null SPDX NO-GO (K289) |
 | [`asm-adopt-orphan`](entities/tools/asm-adopt-orphan.md) | draft | Orphan CCC adopt — Phase-1 wont_wire |
 | [`biosecbench-surveillance`](entities/tools/biosecbench-surveillance.md) | draft | Biosecurity eval orphan adopt — Phase-1 wont_wire |
 | [`rrbench`](entities/tools/rrbench.md) | draft | MIT local open-weight data-prep eval — GO REFERENCE (K212) |
@@ -213,6 +217,8 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`role-specialization-model`](entities/patterns/role-specialization-model.md) | draft | RSM multi-tool role coordination — HITL + prompt-hardening (K276) |
 | [`treatment-blind-endpoint-integrity`](entities/patterns/treatment-blind-endpoint-integrity.md) | draft | Labels ≠ endpoints — Integrity Chain (K277) |
 | [`differential-fault-injection-validation`](entities/patterns/differential-fault-injection-validation.md) | draft | Off-nominal paired fault injection — policy (K284) |
+| [`signed-mandate-mcp-proxy`](entities/patterns/signed-mandate-mcp-proxy.md) | draft | Signed mandate MCP proxy — policy (K285) |
+| [`state-semantic-injection-esti`](entities/patterns/state-semantic-injection-esti.md) | draft | ESTI planner-state integrity — policy (K288) |
 
 ## concepts/
 
@@ -518,6 +524,11 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`recoverable-agent-execution-checkpoints`](concepts/recoverable-agent-execution-checkpoints.md) | draft | Recoverable agent checkpoints — 2608.14380 (K282) |
 | [`test-time-world-model-validate-before-act`](concepts/test-time-world-model-validate-before-act.md) | draft | Validate-before-act world model — 2608.14490 (K283) |
 | [`differential-fault-injection-llm-modernization`](concepts/differential-fault-injection-llm-modernization.md) | draft | Off-nominal LLM-modernization validation — 2608.14527 (K284) |
+| [`signed-mandate-mcp-protocol-enforcement`](concepts/signed-mandate-mcp-protocol-enforcement.md) | draft | Signed mandate MCP enforcement — 2608.14074 (K285) |
+| [`vibeworlding-multimodal-3d-world-agents`](concepts/vibeworlding-multimodal-3d-world-agents.md) | draft | VibeWorlding 3D agents — WATCH 2608.15265 (K286) |
+| [`black-box-rl-opaque-harness-optimization`](concepts/black-box-rl-opaque-harness-optimization.md) | draft | Black-box RL on opaque harness — 2608.16798 (K287) |
+| [`planner-state-semantic-integrity-attack-surface`](concepts/planner-state-semantic-integrity-attack-surface.md) | draft | ESTI planner-state integrity — 2608.16806 (K288) |
+| [`agentified-eval-evidence-tree-harness`](concepts/agentified-eval-evidence-tree-harness.md) | draft | Agentified eval evidence trees — 2608.16859 (K289) |
 | [`skill-misevolution`](concepts/skill-misevolution.md) | draft | Skill misevolution lifecycle gates — 2608.12851 (board K237) |
 | [`persona-hat-claude-code-sdlc`](concepts/persona-hat-claude-code-sdlc.md) | draft | Persona-hat SDLC — MCP designs, skills implement (OSINT K238) |
 | [`inspectable-tool-region-attribution`](concepts/inspectable-tool-region-attribution.md) | draft | Inspectable tool justification — AmalthAI from SEO (K158) |
@@ -809,6 +820,12 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-twin-test-time-digital-twin-2608.14490`](sources/arxiv-twin-test-time-digital-twin-2608.14490.md) | draft | Twin test-time digital twin — 2608.14490 (K283) |
 | [`arxiv-differential-fault-injection-llm-modernization-2608.14527`](sources/arxiv-differential-fault-injection-llm-modernization-2608.14527.md) | draft | Differential fault injection — 2608.14527 (K284) |
 | [`brief-k282-k284-harness-wave-2026-08-17`](sources/brief-k282-k284-harness-wave-2026-08-17.md) | draft | K282–K284 brief stub |
+| [`arxiv-mandato-signed-mandates-mcp-2608.14074`](sources/arxiv-mandato-signed-mandates-mcp-2608.14074.md) | draft | Mandato signed mandates — 2608.14074 (K285) |
+| [`arxiv-vibeworlding-3d-open-worlds-2608.15265`](sources/arxiv-vibeworlding-3d-open-worlds-2608.15265.md) | draft | VibeWorlding 3D agents — 2608.15265 (K286) |
+| [`arxiv-clawgym-ii-black-box-rl-harness-2608.16798`](sources/arxiv-clawgym-ii-black-box-rl-harness-2608.16798.md) | draft | ClawGym II black-box RL — 2608.16798 (K287) |
+| [`arxiv-esti-state-semantic-injection-2608.16806`](sources/arxiv-esti-state-semantic-injection-2608.16806.md) | draft | ESTI state-semantic injection — 2608.16806 (K288) |
+| [`arxiv-harnesseval-w-visual-worlds-2608.16859`](sources/arxiv-harnesseval-w-visual-worlds-2608.16859.md) | draft | HarnessEval-W agentified eval — 2608.16859 (K289) |
+| [`brief-k285-k289-harness-wave-2026-08-18`](sources/brief-k285-k289-harness-wave-2026-08-18.md) | draft | K285–K289 brief stub |
 | [`arxiv-skill-misevolution-2608.12851`](sources/arxiv-skill-misevolution-2608.12851.md) | draft | Skill misevolution — 2608.12851 (board K237) |
 | [`brief-k237-meta-harness-vero-misevolution-2026-08-14`](sources/brief-k237-meta-harness-vero-misevolution-2026-08-14.md) | validated | Board K237 brief stub (misevolution / Vero / AutoDesign) |
 | [`brief-k238-persona-hat-claude-gcp-2026-08-15`](sources/brief-k238-persona-hat-claude-gcp-2026-08-15.md) | validated | OSINT K238 persona-hat GCP brief stub |
@@ -835,6 +852,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`2026-08-15-daily`](sweeps/2026-08-15-daily.md) | Daily digest — 0 new PDFs; 3 dupes skipped |
 | [`2026-08-16-daily`](sweeps/2026-08-16-daily.md) | Daily digest — 0 new PDFs; 3 dupes skipped |
 | [`2026-08-17-daily`](sweeps/2026-08-17-daily.md) | Daily digest — 3 papers (K282–K284 wave) |
+| [`2026-08-18-daily`](sweeps/2026-08-18-daily.md) | Daily digest — 5 papers (K285–K289 wave) |
 
 ## entities/people/
 

@@ -1,0 +1,15 @@
+---
+description: CCC Phase-1 wires from K285–K289 harness wave
+alwaysApply: true
+---
+
+# CCC — K285–K289 Phase-1 wires
+
+**Brief:** `docs/briefs/2026-08-18_k285-k289-harness-wave.md`
+
+- **K285** Mandato — signed mandates on MCP agent actions + hash-chained audit. **ADOPT** signed mandate chain at MCP proxy; parameter constraints + TTL + principal binding; hash-chained permit/deny audit; separated decision/enforcement points. No public SPDX clone → **policy only**. **Atto-priority** (pairs K278 InterSAGE, K271 MCP auth gateway, K239 execution fidelity).
+- **K286** VibeWorlding — multimodal 3D world agents. **WATCH** rubric + physical-feasibility verifier for multimodal tool loops — **reference only**, no 3D runtime wire. `usail-hkust/VibeWorlding-Gym` null SPDX → **NO-GO** clone. **`wont_wire`** CCC/Image-gen/3D. Game-dev stub.
+- **K287** ClawGym II — black-box RL on agent harness. **ADOPT** intercept model calls at serving proxy; rebuild prefix trees; PPO/GRPO on trees; mix-harness joint training; sandbox per rollout. No public ClawGym II SPDX repo → **policy only**. Pairs K281 AutoDesign, K262 scaffold>interface, K263 versioned model-harness pairs.
+- **K288** ESTI — state-semantic injection in embodied agents. **ADOPT** treat planner-visible state producers as integrity boundaries; audit schema-preserving false evidence; distinguish planning adoption vs execution realization. No public code → **policy only**. **Cybersec-primary**; CCC policy awareness. Pairs K259 traceable scholarship, K274 CDH trajectory audit.
+- **K289** HarnessEval-W — agentifying eval of visual worlds. **ADOPT** eval = evidence tree not scalar; route case → skills → sub-agents with tools → parent validates before verdict; pairs external eval contract (K162). `mirros-lab/harnesseval-w` null SPDX → **NO-GO** clone. **`policy_wired`**. Pairs K277 measurement integrity.
+- Local adopts: **none** this batch (all null SPDX). Existing K282–K281 REFERENCE shelf untouched.

@@ -11,11 +11,13 @@ related:
   - sources/brief-k270-k273-mcp-acm-wave-2026-08-12.md
   - briefs/2026-08-12_ccc-handoff-k270-k273-ingest.md
   - concepts/phase1-adopt-wire.md
+  - concepts/signed-mandate-mcp-protocol-enforcement.md
+  - sources/arxiv-mandato-signed-mandates-mcp-2608.14074.md
 maturity: draft
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"
 created: 2026-08-12
-updated: 2026-08-12
+updated: 2026-08-18
 ---
 
 ## Relations

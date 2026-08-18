@@ -1740,3 +1740,14 @@ Cross-wiki stub routed from `@osint-wiki/sources/newsletter-rss-pragmatic-engine
 - **Briefs:** `docs/briefs/2026-08-17_k282-k284-harness-wave.md`, prod `briefs/2026-08-17_k282-k284-harness-wave-prod.md` + `-harness-policy-hands-on.md` → scp'd to `cemini-prod:/opt/cemini/briefs/`; cross-project atto / cybersec / game-dev.
 - **Archive:** 3 PDFs → `cemini-egress-fi:/opt/cemini-bulk/research/ccc/`; inbox empty; source Location fields set.
 - Updated `wiki/index.md` (11 new rows) + sweeps rows.
+
+## [2026-08-18] ingest | K285–K289 harness wave — Mandato, VibeWorlding, ClawGym II, ESTI, HarnessEval-W
+
+- **Sources:** arXiv 2608.14074 (Mandato), 2608.15265 (VibeWorlding), 2608.16798 (ClawGym II), 2608.16806 (ESTI), 2608.16859 (HarnessEval-W)
+- **New pages:** 5 arxiv sources, `sources/brief-k285-k289-harness-wave-2026-08-18.md`, 5 concepts, 5 entities, 2 patterns, `briefs/2026-08-18_ccc-handoff-k285-k289-ingest.md`
+- **Phase-0:** `adopt_k285`…`k289_phase0.sh`. **No clones** (all null SPDX).
+- **Phase-1:** `.cursor/rules/cemini-phase1-policy-wires.mdc` §K285–K289 + `ccc-k285-k289-phase1-wires.mdc`
+- **Cross-wiki:** cybersec `esti-state-semantic-injection-stub.md`, game-dev `vibeworlding-3d-agent-stub.md`
+- **Briefs:** `docs/briefs/2026-08-18_k285-k289-harness-wave.md`, prod briefs → scp'd; atto K285 Mandato; cybersec K288; game-dev K286
+- **Archive:** 5 PDFs → egress-fi; inbox empty
+- Expanded K277–K281 brief verdict table; updated `wiki/index.md` + sweep

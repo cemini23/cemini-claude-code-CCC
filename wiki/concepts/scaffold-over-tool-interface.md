@@ -12,11 +12,13 @@ related:
   - concepts/phase1-adopt-wire.md
   - entities/tools/vectrayx-vision-1b.md
   - sources/arxiv-vectrayx-vision-1b-cyber-vlm-2608.08477.md
+  - concepts/black-box-rl-opaque-harness-optimization.md
+  - sources/arxiv-clawgym-ii-black-box-rl-harness-2608.16798.md
 maturity: draft
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"
 created: 2026-08-11
-updated: 2026-08-11
+updated: 2026-08-18
 ---
 
 ## Relations
