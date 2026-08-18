@@ -1,3 +1,9 @@
+## [2026-08-18] ops | OSINT K241 cursor-route 0.1.9 — health proves mid DeepSeek
+
+- Public `cemini23/cursor-route` **0.1.9**: `health` `lane:mid` / JSON `lanes.mid` prove DeepSeek (Anthropic hatch is not proof); `status --json` evidence tree (`spawn` / `execute` / `verify.claim=unverified`). Mid stays `claude-ds`. `--worker deepseek` remains experimental.
+- Backlog: `wiki/entities/skills/route.md` OSINT K241 row **wired** on the public product. **Do not replace** private `/route` / PATH `claude-ds`. HITL before toolkit PR.
+- Brief: `briefs/2026-08-18_k241-cursor-route-clawgym-harnesseval.md`. Dual-ID: OSINT K241 ≠ CCC K241.
+
 ## [2026-08-15] ops | brief-to-wiki fill — misevolution, persona-hat, AmalthAI
 
 - Board **K237** brief (`briefs/2026-08-14_k237-meta-harness-vero-misevolution.md`) cited wiki pages that did not exist. Added `@concepts/skill-misevolution.md` + `@sources/arxiv-skill-misevolution-2608.12851.md` + brief stub. Policy already wired (SHE § + `/route` v2.3.3). Stub notes: dsh keep-wrapper line in that brief is **superseded** by v2.3.2 GO.
