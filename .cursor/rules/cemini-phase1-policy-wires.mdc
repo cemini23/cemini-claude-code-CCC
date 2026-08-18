@@ -72,6 +72,7 @@ Concrete harness behavior from Phase-0 ADOPT patterns. Clones under `.local/adop
 
 - Do not use a single-pass LLM over pasted CSV/feature tables as primary predictive analytics — accuracy collapses with dimensionality.
 - Prefer classical / tabular-foundation / solver tools; LLMs for narrative around tool outputs.
+- **OSINT/GW K241** (Capital Flows 30y + three equity risks, alert-only) = `guruwatcher-k241-capital-flows-macro-phase1-wires.mdc` — do not collapse with this tabular K241.
 
 ## Telemetry + deterministic failure repair (Trajectory Sentinel / K242)
 
