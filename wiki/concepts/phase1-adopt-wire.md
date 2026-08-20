@@ -103,9 +103,13 @@ related:
   - entities/tools/harnesseval-w.md
   - entities/tools/mandato.md
   - entities/tools/vibeworlding-gym.md
+  - concepts/harness-continual-learning-guarded-evolution.md
+  - concepts/self-play-adaptive-synthetic-executable-environments.md
+  - concepts/task-conditioned-least-privilege-agent-learning.md
+  - concepts/task-conditioned-meta-agent-orchestration-eureka.md
 maturity: draft
 created: 2026-07-31
-updated: 2026-08-18
+updated: 2026-08-20
 ---
 
 ## Relations

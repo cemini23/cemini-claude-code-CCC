@@ -54,9 +54,13 @@ related:
   - concepts/differential-fault-injection-llm-modernization.md
   - concepts/agentified-eval-evidence-tree-harness.md
   - sources/arxiv-harnesseval-w-visual-worlds-2608.16859.md
+  - concepts/harness-continual-learning-guarded-evolution.md
+  - concepts/self-play-adaptive-synthetic-executable-environments.md
+  - sources/arxiv-harness-continual-learning-2608.19013.md
+  - sources/arxiv-spade-self-play-synthetic-environments-2608.19197.md
 maturity: draft
 created: 2026-07-14
-updated: 2026-08-18
+updated: 2026-08-20
 ---
 
 ## Relations

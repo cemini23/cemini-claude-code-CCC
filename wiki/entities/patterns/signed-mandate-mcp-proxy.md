@@ -10,10 +10,11 @@ related:
   - sources/brief-k285-k289-harness-wave-2026-08-18.md
   - briefs/2026-08-18_ccc-handoff-k285-k289-ingest.md
   - concepts/phase1-adopt-wire.md
+  - entities/patterns/task-conditioned-least-privilege-envelope.md
 maturity: draft
 wire_status: policy_wired
 created: 2026-08-18
-updated: 2026-08-18
+updated: 2026-08-20
 ---
 
 ## Relations

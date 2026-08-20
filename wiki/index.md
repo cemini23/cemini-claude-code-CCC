@@ -77,6 +77,10 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`vibeworlding-gym`](entities/tools/vibeworlding-gym.md) | draft | VibeWorlding 3D agent gym — null SPDX NO-GO (K286) |
 | [`clawgym-ii`](entities/tools/clawgym-ii.md) | draft | ClawGym II black-box harness RL — policy only (K287) |
 | [`harnesseval-w`](entities/tools/harnesseval-w.md) | draft | HarnessEval-W agentified eval — null SPDX NO-GO (K289) |
+| [`enterprise-analytics-multi-agent-platform`](entities/tools/enterprise-analytics-multi-agent-platform.md) | draft | Enterprise BI multi-agent — WATCH wont_wire (K291) |
+| [`harness-continual-learning-hcl`](entities/tools/harness-continual-learning-hcl.md) | draft | HCL guarded harness evolution — policy only (K292) |
+| [`eureka-meta-agent`](entities/tools/eureka-meta-agent.md) | draft | Eureka meta-agent — null SPDX NO-GO (K293) |
+| [`spade-rl`](entities/tools/spade-rl.md) | draft | SPADE self-play envs — MIT REFERENCE (K294) |
 | [`asm-adopt-orphan`](entities/tools/asm-adopt-orphan.md) | draft | Orphan CCC adopt — Phase-1 wont_wire |
 | [`biosecbench-surveillance`](entities/tools/biosecbench-surveillance.md) | draft | Biosecurity eval orphan adopt — Phase-1 wont_wire |
 | [`rrbench`](entities/tools/rrbench.md) | draft | MIT local open-weight data-prep eval — GO REFERENCE (K212) |
@@ -218,6 +222,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`treatment-blind-endpoint-integrity`](entities/patterns/treatment-blind-endpoint-integrity.md) | draft | Labels ≠ endpoints — Integrity Chain (K277) |
 | [`differential-fault-injection-validation`](entities/patterns/differential-fault-injection-validation.md) | draft | Off-nominal paired fault injection — policy (K284) |
 | [`signed-mandate-mcp-proxy`](entities/patterns/signed-mandate-mcp-proxy.md) | draft | Signed mandate MCP proxy — policy (K285) |
+| [`task-conditioned-least-privilege-envelope`](entities/patterns/task-conditioned-least-privilege-envelope.md) | draft | Task-relative least-privilege envelope — policy (K290) |
 | [`state-semantic-injection-esti`](entities/patterns/state-semantic-injection-esti.md) | draft | ESTI planner-state integrity — policy (K288) |
 
 ## concepts/
@@ -529,6 +534,11 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`black-box-rl-opaque-harness-optimization`](concepts/black-box-rl-opaque-harness-optimization.md) | draft | Black-box RL on opaque harness — 2608.16798 (K287) |
 | [`planner-state-semantic-integrity-attack-surface`](concepts/planner-state-semantic-integrity-attack-surface.md) | draft | ESTI planner-state integrity — 2608.16806 (K288) |
 | [`agentified-eval-evidence-tree-harness`](concepts/agentified-eval-evidence-tree-harness.md) | draft | Agentified eval evidence trees — 2608.16859 (K289) |
+| [`task-conditioned-least-privilege-agent-learning`](concepts/task-conditioned-least-privilege-agent-learning.md) | draft | Least-privilege post-training — 2608.18351 (K290) |
+| [`enterprise-conversational-multi-agent-analytics`](concepts/enterprise-conversational-multi-agent-analytics.md) | draft | Enterprise BI multi-agent — WATCH 2608.18740 (K291) |
+| [`harness-continual-learning-guarded-evolution`](concepts/harness-continual-learning-guarded-evolution.md) | draft | HCL guarded harness evolution — 2608.19013 (K292) |
+| [`task-conditioned-meta-agent-orchestration-eureka`](concepts/task-conditioned-meta-agent-orchestration-eureka.md) | draft | Eureka obligation graphs — 2608.19047 (K293) |
+| [`self-play-adaptive-synthetic-executable-environments`](concepts/self-play-adaptive-synthetic-executable-environments.md) | draft | SPADE self-play executable envs — 2608.19197 (K294) |
 | [`skill-misevolution`](concepts/skill-misevolution.md) | draft | Skill misevolution lifecycle gates — 2608.12851 (board K237) |
 | [`persona-hat-claude-code-sdlc`](concepts/persona-hat-claude-code-sdlc.md) | draft | Persona-hat SDLC — MCP designs, skills implement (OSINT K238) |
 | [`inspectable-tool-region-attribution`](concepts/inspectable-tool-region-attribution.md) | draft | Inspectable tool justification — AmalthAI from SEO (K158) |
@@ -826,6 +836,12 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-esti-state-semantic-injection-2608.16806`](sources/arxiv-esti-state-semantic-injection-2608.16806.md) | draft | ESTI state-semantic injection — 2608.16806 (K288) |
 | [`arxiv-harnesseval-w-visual-worlds-2608.16859`](sources/arxiv-harnesseval-w-visual-worlds-2608.16859.md) | draft | HarnessEval-W agentified eval — 2608.16859 (K289) |
 | [`brief-k285-k289-harness-wave-2026-08-18`](sources/brief-k285-k289-harness-wave-2026-08-18.md) | draft | K285–K289 brief stub |
+| [`arxiv-task-conditioned-least-privilege-learning-2608.18351`](sources/arxiv-task-conditioned-least-privilege-learning-2608.18351.md) | draft | Least-privilege learning — 2608.18351 (K290) |
+| [`arxiv-enterprise-multi-agent-analytics-2608.18740`](sources/arxiv-enterprise-multi-agent-analytics-2608.18740.md) | draft | Enterprise multi-agent BI — 2608.18740 (K291) |
+| [`arxiv-harness-continual-learning-2608.19013`](sources/arxiv-harness-continual-learning-2608.19013.md) | draft | Harness Continual Learning — 2608.19013 (K292) |
+| [`arxiv-eureka-meta-agent-orchestration-2608.19047`](sources/arxiv-eureka-meta-agent-orchestration-2608.19047.md) | draft | Eureka meta-agent — 2608.19047 (K293) |
+| [`arxiv-spade-self-play-synthetic-environments-2608.19197`](sources/arxiv-spade-self-play-synthetic-environments-2608.19197.md) | draft | SPADE self-play envs — 2608.19197 (K294) |
+| [`brief-k290-k294-harness-wave-2026-08-20`](sources/brief-k290-k294-harness-wave-2026-08-20.md) | draft | K290–K294 brief stub |
 | [`arxiv-skill-misevolution-2608.12851`](sources/arxiv-skill-misevolution-2608.12851.md) | draft | Skill misevolution — 2608.12851 (board K237) |
 | [`brief-k237-meta-harness-vero-misevolution-2026-08-14`](sources/brief-k237-meta-harness-vero-misevolution-2026-08-14.md) | validated | Board K237 brief stub (misevolution / Vero / AutoDesign) |
 | [`brief-k238-persona-hat-claude-gcp-2026-08-15`](sources/brief-k238-persona-hat-claude-gcp-2026-08-15.md) | validated | OSINT K238 persona-hat GCP brief stub |
@@ -853,6 +869,8 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`2026-08-16-daily`](sweeps/2026-08-16-daily.md) | Daily digest — 0 new PDFs; 3 dupes skipped |
 | [`2026-08-17-daily`](sweeps/2026-08-17-daily.md) | Daily digest — 3 papers (K282–K284 wave) |
 | [`2026-08-18-daily`](sweeps/2026-08-18-daily.md) | Daily digest — 5 papers (K285–K289 wave) |
+| [`2026-08-19-daily`](sweeps/2026-08-19-daily.md) | Daily digest — 0 new PDFs |
+| [`2026-08-20-daily`](sweeps/2026-08-20-daily.md) | Daily digest — 5 papers (K290–K294 wave) |
 
 ## entities/people/
 

@@ -13,11 +13,12 @@ related:
   - concepts/phase1-adopt-wire.md
   - concepts/signed-mandate-mcp-protocol-enforcement.md
   - sources/arxiv-mandato-signed-mandates-mcp-2608.14074.md
+  - sources/arxiv-enterprise-multi-agent-analytics-2608.18740.md
 maturity: draft
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"
 created: 2026-08-12
-updated: 2026-08-18
+updated: 2026-08-20
 ---
 
 ## Relations

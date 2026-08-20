@@ -20,9 +20,11 @@ related:
   - concepts/recoverable-agent-execution-checkpoints.md
   - sources/arxiv-agentrewind-recoverable-execution-2608.14380.md
   - concepts/signed-mandate-mcp-protocol-enforcement.md
+  - concepts/task-conditioned-least-privilege-agent-learning.md
+  - sources/arxiv-task-conditioned-least-privilege-learning-2608.18351.md
 maturity: draft
 created: 2026-08-04
-updated: 2026-08-18
+updated: 2026-08-20
 ---
 
 ## Relations

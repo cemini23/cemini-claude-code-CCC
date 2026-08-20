@@ -13,9 +13,11 @@ related:
   - sources/arxiv-askchem-claim-centered-literature-2607.28618.md
   - concepts/planner-state-semantic-integrity-attack-surface.md
   - sources/arxiv-esti-state-semantic-injection-2608.16806.md
+  - concepts/task-conditioned-meta-agent-orchestration-eureka.md
+  - sources/arxiv-eureka-meta-agent-orchestration-2608.19047.md
 maturity: draft
 created: 2026-07-24
-updated: 2026-08-18
+updated: 2026-08-20
 ---
 
 ## Relations

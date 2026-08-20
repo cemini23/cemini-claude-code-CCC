@@ -13,11 +13,13 @@ related:
   - concepts/phase1-adopt-wire.md
   - concepts/black-box-rl-opaque-harness-optimization.md
   - sources/arxiv-clawgym-ii-black-box-rl-harness-2608.16798.md
+  - concepts/harness-continual-learning-guarded-evolution.md
+  - sources/arxiv-harness-continual-learning-2608.19013.md
 maturity: draft
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"
 created: 2026-08-11
-updated: 2026-08-18
+updated: 2026-08-20
 ---
 
 ## Relations

@@ -1757,3 +1757,14 @@ Cross-wiki stub routed from `@osint-wiki/sources/newsletter-rss-pragmatic-engine
 - **Briefs:** `docs/briefs/2026-08-18_k285-k289-harness-wave.md`, prod briefs → scp'd; atto K285 Mandato; cybersec K288; game-dev K286
 - **Archive:** 5 PDFs → egress-fi; inbox empty
 - Expanded K277–K281 brief verdict table; updated `wiki/index.md` + sweep
+
+## [2026-08-20] ingest | K290–K294 harness wave — least-privilege, HCL, Eureka, SPADE
+
+- **Sources:** arXiv 2608.18351 (least-privilege learning), 2608.18740 (enterprise multi-agent BI), 2608.19013 (HCL), 2608.19047 (Eureka), 2608.19197 (SPADE)
+- **New pages:** 5 arxiv sources, `sources/brief-k290-k294-harness-wave-2026-08-20.md`, 5 concepts, 5 entities, 1 pattern, `briefs/2026-08-20_ccc-handoff-k290-k294-ingest.md`
+- **Phase-0:** `adopt_k290`…`k294_phase0.sh`. REFERENCE clone: `spade-rl/spade` (MIT ~1.4MB); no clones for K290/K291/K292/K293 (no public SPDX).
+- **Phase-1:** `.cursor/rules/cemini-phase1-policy-wires.mdc` §K290–K294 + `ccc-k290-k294-phase1-wires.mdc`
+- **Cross-wiki:** atto K290 least-privilege + K285 Mandato; cybersec K290 excess-authority eval
+- **Briefs:** `docs/briefs/2026-08-20_k290-k294-harness-wave.md`, prod briefs → scp'd; hands-on policy brief
+- **Archive:** 5 PDFs → egress-fi; inbox empty
+- Updated `wiki/index.md` + sweeps 2026-08-19/2026-08-20 rows

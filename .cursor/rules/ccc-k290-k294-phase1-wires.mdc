@@ -1,0 +1,14 @@
+---
+description: CCC Phase-1 wires from K290–K294 harness wave
+alwaysApply: true
+---
+
+# CCC — K290–K294 Phase-1 wires
+
+**Brief:** `docs/briefs/2026-08-20_k290-k294-harness-wave.md`
+
+- **K290** Least-privilege learning — **ADOPT** task-relative sufficient-authority envelopes + brokered terminal/MCP audit + learned restraint layer (complements K285 Mandato, K239). No public code → **policy only**.
+- **K291** Enterprise multi-agent BI — **WATCH** sequential CrewAI pipeline + MCP viz. Enterprise OOD → **`wont_wire`**.
+- **K292** Harness Continual Learning — **ADOPT** guarded optimizer/evaluator commit + harness-level forgetting metric around frozen model (pairs K281, K162, K263). **Policy only**.
+- **K293** Eureka — **ADOPT** obligation graphs + acceptance certificates + governed architecture evolution (pairs K162/K277). `manxis-contact/Eureka` null SPDX → **NO-GO** clone. **Policy only**.
+- **K294** SPADE — **ADOPT** co-evolving Gym-style executable envs + hint-based regret. `spade-rl/spade` **MIT** ~1.4MB → **GO REFERENCE** (`.local/adopts/spade`); trainer **`wont_wire`**.

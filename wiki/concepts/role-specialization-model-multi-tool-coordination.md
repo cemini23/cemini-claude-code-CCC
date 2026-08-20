@@ -16,11 +16,12 @@ related:
   - sources/arxiv-marc-v1-clinical-multi-agent-2608.13476.md
   - concepts/persona-hat-claude-code-sdlc.md
   - sources/brief-k238-persona-hat-claude-gcp-2026-08-15.md
+  - concepts/enterprise-conversational-multi-agent-analytics.md
 maturity: draft
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"
 created: 2026-08-13
-updated: 2026-08-15
+updated: 2026-08-20
 ---
 
 ## Relations
