@@ -1774,3 +1774,16 @@ Cross-wiki stub routed from `@osint-wiki/sources/newsletter-rss-pragmatic-engine
 - **Briefs:** `docs/briefs/2026-08-20_k290-k294-harness-wave.md`, prod briefs → scp'd; hands-on policy brief
 - **Archive:** 5 PDFs → egress-fi; inbox empty
 - Updated `wiki/index.md` + sweeps 2026-08-19/2026-08-20 rows
+
+## [2026-08-21] ingest | K295–K299 harness wave — Delegating-or-Doing, Thinkingbox, RL-Trotter, Task-CoEvolve, MidTool
+
+- **Sources:** arXiv 2608.19551 (hybrid HAI + MCP CMS, N=73), 2608.19741 (Thinkingbox stateful MCP sandbox/bench), 2608.20139 (RL-Trotter quantum sim — OOD stub), 2608.20169 (Task-CoEvolve adaptive val-task selection), 2608.20314 (MidTool mid-training tool-use)
+- **New pages:** 5 arxiv sources (K297 = OOD stub only, no concept depth), `sources/brief-k295-k299-harness-wave-2026-08-21.md`, 4 concepts (hybrid-human-agent-delegation-effort-vs-duration, terminal-state-eval-discovery-reliability-gap, adaptive-validation-task-selection-harness-optimization, mid-training-tool-use-affordance-grounding), 4 entities (delegating-or-doing-hybrid-hai, thinkingbox, task-coevolve, midtool), `briefs/2026-08-21_ccc-handoff-k295-k299-ingest.md`
+- **k244 brief-fill (6 pages cited by `briefs/2026-08-21_k244-harness-skill-wayfinder.md`):** `sources/arxiv-k244-harness-skill-selection-cluster.md`, `sources/newsletter-rss-latent-space-2026-08-20-wayfinder.md`, `sources/substack-rss-addy-osmani-2026-08-21-software-factory.md`, `concepts/skill-set-selection-under-budget.md`, `concepts/wayfinder-fog-of-war-planning.md`, `concepts/agent-toolkit-routing-research-backlog.md`; backlink on `concepts/skill-misevolution.md`. Task-CoEvolve mapped → **CCC K298** (K244 stays UrbanAgent)
+- **Phase-0:** `adopt_k295`…`k299_phase0.sh` all exit 0. REFERENCE clone: `microsoft/thinkingbox` (MIT verified — LICENSE.txt on disk + gh API SPDX `MIT`). No Task-CoEvolve clone (null SPDX); no MidTool HF download.
+- **Phase-1:** `.cursor/rules/cemini-phase1-policy-wires.mdc` §K295–K299 + `ccc-k295-k299-phase1-wires.mdc` (CCC-only, no federation-sync). Entities wired: K295/K298 `policy_wired`; K296 `wont_wire` (REFERENCE clone); K299 `wont_wire` (WATCH); K297 OOD stub.
+- **Cross-wiki:** atto `2026-08-21_k296-thinkingbox-task-coevolve-from-ccc.md`; cybersec `2026-08-21_k296-thinkingbox-from-ccc.md`
+- **Briefs:** `docs/briefs/2026-08-21_k295-k299-harness-wave.md`; prod briefs `2026-08-21_k295-k299-harness-wave-prod.md` + `-harness-policy-hands-on.md` → scp'd via updated `scripts/scp_harness_briefs_to_prod.sh`
+- **Archive:** 5 PDFs → `cemini-egress-fi:/opt/cemini-bulk/research/ccc/` (verified remote sizes); inbox empty except `.gitkeep`
+- Updated `wiki/index.md` (4 entity + 7 concept + 9 source rows) + sweeps 2026-08-21
+- **Leftover (propose-only):** wayfinder skill scaffold, BPS skill router, EnvHarness wrap — no `.cursor/skills` edits this wave

@@ -81,6 +81,10 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`harness-continual-learning-hcl`](entities/tools/harness-continual-learning-hcl.md) | draft | HCL guarded harness evolution — policy only (K292) |
 | [`eureka-meta-agent`](entities/tools/eureka-meta-agent.md) | draft | Eureka meta-agent — null SPDX NO-GO (K293) |
 | [`spade-rl`](entities/tools/spade-rl.md) | draft | SPADE self-play envs — MIT REFERENCE (K294) |
+| [`delegating-or-doing-hybrid-hai`](entities/tools/delegating-or-doing-hybrid-hai.md) | draft | Hybrid HAI delegation study — policy only (K295) |
+| [`thinkingbox`](entities/tools/thinkingbox.md) | draft | Thinkingbox stateful MCP bench — MIT REFERENCE (K296) |
+| [`task-coevolve`](entities/tools/task-coevolve.md) | draft | Task-CoEvolve val-task sampling — NO-GO clone (K298) |
+| [`midtool`](entities/tools/midtool.md) | draft | MidTool mid-training tool-use — WATCH wont_wire (K299) |
 | [`asm-adopt-orphan`](entities/tools/asm-adopt-orphan.md) | draft | Orphan CCC adopt — Phase-1 wont_wire |
 | [`biosecbench-surveillance`](entities/tools/biosecbench-surveillance.md) | draft | Biosecurity eval orphan adopt — Phase-1 wont_wire |
 | [`rrbench`](entities/tools/rrbench.md) | draft | MIT local open-weight data-prep eval — GO REFERENCE (K212) |
@@ -539,6 +543,13 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`harness-continual-learning-guarded-evolution`](concepts/harness-continual-learning-guarded-evolution.md) | draft | HCL guarded harness evolution — 2608.19013 (K292) |
 | [`task-conditioned-meta-agent-orchestration-eureka`](concepts/task-conditioned-meta-agent-orchestration-eureka.md) | draft | Eureka obligation graphs — 2608.19047 (K293) |
 | [`self-play-adaptive-synthetic-executable-environments`](concepts/self-play-adaptive-synthetic-executable-environments.md) | draft | SPADE self-play executable envs — 2608.19197 (K294) |
+| [`hybrid-human-agent-delegation-effort-vs-duration`](concepts/hybrid-human-agent-delegation-effort-vs-duration.md) | draft | Hybrid HAI delegation — effort ≠ duration (K295) |
+| [`terminal-state-eval-discovery-reliability-gap`](concepts/terminal-state-eval-discovery-reliability-gap.md) | draft | Terminal-state eval discovery–reliability gap — 2608.19741 (K296) |
+| [`adaptive-validation-task-selection-harness-optimization`](concepts/adaptive-validation-task-selection-harness-optimization.md) | draft | Adaptive val-task selection — 2608.20169 (K298) |
+| [`mid-training-tool-use-affordance-grounding`](concepts/mid-training-tool-use-affordance-grounding.md) | draft | Mid-training tool-use — 2608.20314 (K299) |
+| [`skill-set-selection-under-budget`](concepts/skill-set-selection-under-budget.md) | draft | BPS set-level skill selection under budget (k244 steal) |
+| [`wayfinder-fog-of-war-planning`](concepts/wayfinder-fog-of-war-planning.md) | draft | Wayfinder fog-of-war planning (k244 steal) |
+| [`agent-toolkit-routing-research-backlog`](concepts/agent-toolkit-routing-research-backlog.md) | draft | Agent-toolkit routing research backlog (k244 steal) |
 | [`skill-misevolution`](concepts/skill-misevolution.md) | draft | Skill misevolution lifecycle gates — 2608.12851 (board K237) |
 | [`persona-hat-claude-code-sdlc`](concepts/persona-hat-claude-code-sdlc.md) | draft | Persona-hat SDLC — MCP designs, skills implement (OSINT K238) |
 | [`inspectable-tool-region-attribution`](concepts/inspectable-tool-region-attribution.md) | draft | Inspectable tool justification — AmalthAI from SEO (K158) |
@@ -842,6 +853,15 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-eureka-meta-agent-orchestration-2608.19047`](sources/arxiv-eureka-meta-agent-orchestration-2608.19047.md) | draft | Eureka meta-agent — 2608.19047 (K293) |
 | [`arxiv-spade-self-play-synthetic-environments-2608.19197`](sources/arxiv-spade-self-play-synthetic-environments-2608.19197.md) | draft | SPADE self-play envs — 2608.19197 (K294) |
 | [`brief-k290-k294-harness-wave-2026-08-20`](sources/brief-k290-k294-harness-wave-2026-08-20.md) | draft | K290–K294 brief stub |
+| [`arxiv-delegating-or-doing-hybrid-human-agent-interfaces-2608.19551`](sources/arxiv-delegating-or-doing-hybrid-human-agent-interfaces-2608.19551.md) | draft | Hybrid HAI delegation — 2608.19551 (K295) |
+| [`arxiv-thinkingbox-sandbox-benchmark-stateful-business-2608.19741`](sources/arxiv-thinkingbox-sandbox-benchmark-stateful-business-2608.19741.md) | draft | Thinkingbox stateful bench — 2608.19741 (K296) |
+| [`arxiv-rl-trotter-long-time-quantum-simulation-2608.20139`](sources/arxiv-rl-trotter-long-time-quantum-simulation-2608.20139.md) | draft | RL-Trotter quantum sim OOD — 2608.20139 (K297) |
+| [`arxiv-task-coevolve-adaptive-validation-task-selection-2608.20169`](sources/arxiv-task-coevolve-adaptive-validation-task-selection-2608.20169.md) | draft | Task-CoEvolve val-task selection — 2608.20169 (K298) |
+| [`arxiv-midtool-mid-training-data-synthesis-2608.20314`](sources/arxiv-midtool-mid-training-data-synthesis-2608.20314.md) | draft | MidTool mid-training — 2608.20314 (K299) |
+| [`brief-k295-k299-harness-wave-2026-08-21`](sources/brief-k295-k299-harness-wave-2026-08-21.md) | validated | K295–K299 brief stub |
+| [`arxiv-k244-harness-skill-selection-cluster`](sources/arxiv-k244-harness-skill-selection-cluster.md) | draft | K244 harness skill-selection cluster — BPS/EnvHarness/Task-CoEvolve |
+| [`newsletter-rss-latent-space-2026-08-20-wayfinder`](sources/newsletter-rss-latent-space-2026-08-20-wayfinder.md) | draft | Wayfinder skill — Latent Space (k244 steal) |
+| [`substack-rss-addy-osmani-2026-08-21-software-factory`](sources/substack-rss-addy-osmani-2026-08-21-software-factory.md) | draft | Osmani software-factory labels — Substack (k244 steal) |
 | [`arxiv-skill-misevolution-2608.12851`](sources/arxiv-skill-misevolution-2608.12851.md) | draft | Skill misevolution — 2608.12851 (board K237) |
 | [`brief-k237-meta-harness-vero-misevolution-2026-08-14`](sources/brief-k237-meta-harness-vero-misevolution-2026-08-14.md) | validated | Board K237 brief stub (misevolution / Vero / AutoDesign) |
 | [`brief-k238-persona-hat-claude-gcp-2026-08-15`](sources/brief-k238-persona-hat-claude-gcp-2026-08-15.md) | validated | OSINT K238 persona-hat GCP brief stub |
@@ -871,6 +891,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`2026-08-18-daily`](sweeps/2026-08-18-daily.md) | Daily digest — 5 papers (K285–K289 wave) |
 | [`2026-08-19-daily`](sweeps/2026-08-19-daily.md) | Daily digest — 0 new PDFs |
 | [`2026-08-20-daily`](sweeps/2026-08-20-daily.md) | Daily digest — 5 papers (K290–K294 wave) |
+| [`2026-08-21-daily`](sweeps/2026-08-21-daily.md) | Daily digest — 5 papers (K295–K299 wave) |
 
 ## entities/people/
 

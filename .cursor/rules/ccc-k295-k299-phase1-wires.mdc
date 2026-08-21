@@ -1,0 +1,14 @@
+---
+description: CCC Phase-1 wires from K295–K299 harness wave (CCC-only — do NOT federation-sync)
+alwaysApply: true
+---
+
+# CCC — K295–K299 Phase-1 wires
+
+**Brief:** `docs/briefs/2026-08-21_k295-k299-harness-wave.md`
+
+- **K295** Delegating-or-Doing hybrid HAI — **ADOPT** effort-vs-duration split (clicks/nav/steps, not wall-clock), person > task delegation variance (ICC=.50), no assumption of risk-calibrated delegation → safeguards on the agent path (pairs K245, K247, K239). No public repo → **policy only**.
+- **K296** Thinkingbox — **ADOPT** terminal-state eval: isolated MCP sessions + traces + executable checks over final backend state; one success ≠ reliability (65.36% pass@1 vs 25.25% pass^20); valid tool calls / clean termination still fail (pairs K239, K275, K277). `microsoft/thinkingbox` **MIT** → **GO REFERENCE** (`.local/adopts/thinkingbox`); benchmark runtime **`wont_wire`**.
+- **K297** RL-Trotter quantum sim — **OOD** source stub only, **`wont_wire`**; no Atto/3D/prod wire.
+- **K298** Task-CoEvolve — **ADOPT** variance-weighted val-task sampling + full-set estimation from partial evals; ~80% fewer evals, matches full-set on Terminal-Bench 2.1; do not re-score the full val pack every harness loop; **do not** auto-evolve `.cursor/skills` or rewrite `## Verify`/pass criteria (pairs K281, K292, K162). `Agent4Science-UTokyo/Task-CoEvolve` no LICENSE → **NO-GO clone**.
+- **K299** MidTool — **WATCH** model-choice awareness only: dedicated tool-use mid-training (affordance recognition, argument grounding, workflow composition, incomplete-info recovery) beats leaving tool use to post-training (pairs K259). **`wont_wire`** runtime; **no HF `MidTool/midtool-release` download**.

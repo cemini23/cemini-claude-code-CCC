@@ -18,11 +18,14 @@ related:
   - "@cybersecurity-wiki/concepts/measurement-integrity-mcp-security-eval.md"
   - concepts/agentified-eval-evidence-tree-harness.md
   - sources/arxiv-harnesseval-w-visual-worlds-2608.16859.md
+  - concepts/terminal-state-eval-discovery-reliability-gap.md
+  - entities/tools/thinkingbox.md
+  - sources/arxiv-thinkingbox-sandbox-benchmark-stateful-business-2608.19741.md
 maturity: draft
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"
 created: 2026-08-14
-updated: 2026-08-18
+updated: 2026-08-21
 ---
 
 ## Relations

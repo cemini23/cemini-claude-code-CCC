@@ -16,9 +16,12 @@ related:
   - sources/arxiv-canary-tools-mcp-tool-selection-2608.04719.md
   - concepts/canary-tools-mcp-selection-diagnosis.md
   - entities/tools/canary-tools-mcp.md
+  - concepts/hybrid-human-agent-delegation-effort-vs-duration.md
+  - entities/tools/delegating-or-doing-hybrid-hai.md
+  - sources/arxiv-delegating-or-doing-hybrid-human-agent-interfaces-2608.19551.md
 maturity: draft
 created: 2026-08-05
-updated: 2026-08-06
+updated: 2026-08-21
 ---
 
 ## Relations

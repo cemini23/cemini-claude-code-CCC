@@ -16,11 +16,14 @@ related:
   - concepts/phase1-adopt-wire.md
   - sources/arxiv-convergent-detour-hijacking-cdh-2608.12273.md
   - sources/arxiv-role-specialization-model-rsm-2608.12311.md
+  - concepts/terminal-state-eval-discovery-reliability-gap.md
+  - entities/tools/thinkingbox.md
+  - sources/arxiv-thinkingbox-sandbox-benchmark-stateful-business-2608.19741.md
 maturity: draft
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"
 created: 2026-08-13
-updated: 2026-08-13
+updated: 2026-08-21
 ---
 
 ## Relations

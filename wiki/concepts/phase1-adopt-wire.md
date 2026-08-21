@@ -107,9 +107,19 @@ related:
   - concepts/self-play-adaptive-synthetic-executable-environments.md
   - concepts/task-conditioned-least-privilege-agent-learning.md
   - concepts/task-conditioned-meta-agent-orchestration-eureka.md
+  - concepts/hybrid-human-agent-delegation-effort-vs-duration.md
+  - concepts/terminal-state-eval-discovery-reliability-gap.md
+  - concepts/adaptive-validation-task-selection-harness-optimization.md
+  - concepts/mid-training-tool-use-affordance-grounding.md
+  - entities/tools/delegating-or-doing-hybrid-hai.md
+  - entities/tools/thinkingbox.md
+  - entities/tools/task-coevolve.md
+  - entities/tools/midtool.md
+  - briefs/2026-08-21_ccc-handoff-k295-k299-ingest.md
+  - briefs/2026-08-21_ccc-k295-k299-sip-ready.md
 maturity: draft
 created: 2026-07-31
-updated: 2026-08-20
+updated: 2026-08-21
 ---
 
 ## Relations

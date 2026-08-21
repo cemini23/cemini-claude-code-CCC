@@ -29,11 +29,14 @@ related:
   - entities/tools/intersage.md
   - entities/tools/vero.md
   - sources/arxiv-vero-repo-verified-code-proof-2608.13522.md
+  - concepts/mid-training-tool-use-affordance-grounding.md
+  - entities/tools/midtool.md
+  - sources/arxiv-midtool-mid-training-data-synthesis-2608.20314.md
 maturity: draft
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"
 created: 2026-08-08
-updated: 2026-08-14
+updated: 2026-08-21
 ---
 
 ## Relations

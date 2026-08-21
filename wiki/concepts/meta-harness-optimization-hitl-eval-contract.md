@@ -19,9 +19,12 @@ related:
   - concepts/task-conditioned-meta-agent-orchestration-eureka.md
   - sources/arxiv-eureka-meta-agent-orchestration-2608.19047.md
   - sources/arxiv-harness-continual-learning-2608.19013.md
+  - concepts/adaptive-validation-task-selection-harness-optimization.md
+  - entities/tools/task-coevolve.md
+  - sources/arxiv-task-coevolve-adaptive-validation-task-selection-2608.20169.md
 maturity: draft
 created: 2026-08-14
-updated: 2026-08-20
+updated: 2026-08-21
 ---
 
 ## Relations

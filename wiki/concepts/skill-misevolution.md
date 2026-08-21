@@ -12,11 +12,13 @@ related:
   - concepts/bounded-self-refinement-vs-rsi-taxonomy.md
   - concepts/phase1-adopt-wire.md
   - concepts/repo-level-verified-code-proof-eval.md
+  - concepts/skill-set-selection-under-budget.md
+  - sources/arxiv-k244-harness-skill-selection-cluster.md
 maturity: draft
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"
 created: 2026-08-15
-updated: 2026-08-15
+updated: 2026-08-21
 ---
 
 ## Relations

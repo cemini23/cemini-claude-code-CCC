@@ -498,6 +498,39 @@ Least-privilege learning (K290) + enterprise BI WATCH (K291) + HCL (K292) + Eure
 - Corpus grounding + environment memory for designer stability.
 - `spade-rl/spade` **MIT** → **GO REFERENCE** `.local/adopts/spade`; RL trainer **`wont_wire`** on prod harness (pairs K162 closed-loop guardrails).
 
+## CCC wave K295–K299 (shared policy file)
+
+Hybrid HAI delegation (K295) + Thinkingbox terminal-state eval (K296, MIT REFERENCE clone) + RL-Trotter OOD (K297) + Task-CoEvolve adaptive val-task selection (K298) + MidTool mid-training tool-use WATCH (K299). Clone: thinkingbox MIT REFERENCE only. **CCC-only rule** `ccc-k295-k299-phase1-wires.mdc` — do **not** federation-sync.
+
+## Hybrid HAI delegation — effort vs duration, person not task (CCC K295)
+
+- **Measure interaction effort and wall-clock duration separately.** MCP+GUI hybrid cut clicks/page-nav/scrolls (N=73) but not completion time — do not claim speedups from tool/assistant presence; report steps eliminated per delegation as the real signal.
+- **Delegation variance is person > task (ICC=.50).** Do not assume task risk drives delegation — users did not systematically avoid higher-risk CRUD; hybrid availability ≠ high-risk auto-delegate. Place confirmation/preview/reversibility **on the agent path** (pairs K239 execution fidelity).
+- Design for the **single handoff** (state intent → confirm result), not sustained dialogue; do not make delegation the default.
+
+## Terminal-state eval — one success ≠ reliability (Thinkingbox / CCC K296)
+
+- For stateful, multi-turn, consequence-bearing harness evals: grade **terminal backend state + side effects + dialogue** with executable checks (wrong/missing/extra effects fail), not surface form or tool-call validity (pairs K277 labels≠endpoints).
+- Report pass@1 **and** repeat-rate (pass^20): 65.36% pass@1 vs 25.25% pass^20 on 507 stateful business workflows — a single green run proves discoverability, not dependability.
+- **Isolated sessions per attempt** (no shared DB rows/cached tool state) or pass@k and training rewards are unreliable.
+- `.local/adopts/thinkingbox` (MIT) = GO REFERENCE; benchmark runtime **`wont_wire`**.
+
+## RL-Trotter quantum simulation (CCC K297 — OOD)
+
+- Physics OOD — source stub only; **`wont_wire`**; no Atto/3D/prod wire. Brief-over-stub.
+
+## Adaptive validation-task selection (Task-CoEvolve / CCC K298)
+
+- When iterating a harness optimizer loop: **sample informative val tasks** (disagreement/frontier, variance-weighted) and **estimate full-set scores from partial evals** (inclusion-probability weighting) — ~80% fewer evals, matches full-set on Terminal-Bench 2.1; a 20% budget can beat full-set (less overfitting).
+- **Do not** auto-evolve `.cursor/skills` (misevolution) and **do not** rewrite `## Verify` / pass criteria mid-run (pairs K281 AutoDesign, K292 HCL, K162 external eval contract).
+- `Agent4Science-UTokyo/Task-CoEvolve` **NO-GO clone** (no LICENSE). **Dual-ID: CCC K298** — fills the Task-CoEvolve item in the k244 steal brief; K244 stays UrbanAgent.
+
+## Mid-training for agentic tool use (MidTool / CCC K299 — WATCH)
+
+- **Model-choice awareness:** dedicated tool-use mid-training (affordance recognition, argument grounding, workflow composition, incomplete-info recovery) beats leaving tool use to post-training — prefer families with agentic mid-training for MCP-heavy lanes.
+- Evaluate the four atomic tool-use capabilities, not raw function-call accuracy (pairs K259 parameter grounding).
+- **`wont_wire`** runtime; **no HF `MidTool/midtool-release` download**.
+
 ## Phase-1 meta
 
 - After ingest ADOPT/GO: propose `/phase1` wire before claiming done.

@@ -22,9 +22,12 @@ related:
   - concepts/signed-mandate-mcp-protocol-enforcement.md
   - concepts/task-conditioned-least-privilege-agent-learning.md
   - sources/arxiv-task-conditioned-least-privilege-learning-2608.18351.md
+  - concepts/terminal-state-eval-discovery-reliability-gap.md
+  - entities/tools/thinkingbox.md
+  - sources/arxiv-thinkingbox-sandbox-benchmark-stateful-business-2608.19741.md
 maturity: draft
 created: 2026-08-04
-updated: 2026-08-20
+updated: 2026-08-21
 ---
 
 ## Relations
