@@ -1,3 +1,9 @@
+## [2026-08-21] ops | Hyperliquid referral row on SUPPORT.md + README
+
+- **Canon** — `SUPPORT.md`: Hyperliquid [app.hyperliquid.xyz/join/CEMINI23](https://app.hyperliquid.xyz/join/CEMINI23) below Polymarket `r=`
+- **Mirrors** — this README + federation wiki READMEs + cursor-route `SUPPORT.md` / README + toolkit READMEs
+- **Note** — referral only; donation addresses unchanged.
+
 ## [2026-08-18] ops | OSINT K241 cursor-route 0.1.9 — health proves mid DeepSeek
 
 - Public `cemini23/cursor-route` **0.1.9**: `health` `lane:mid` / JSON `lanes.mid` prove DeepSeek (Anthropic hatch is not proof); `status --json` evidence tree (`spawn` / `execute` / `verify.claim=unverified`). Mid stays `claude-ds`. `--worker deepseek` remains experimental.
