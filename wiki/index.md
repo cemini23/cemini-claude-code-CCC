@@ -8,7 +8,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 |------|----------|---------|
 | [`claude-code`](entities/tools/claude-code.md) | core | The CLI harness — modes, slash commands, skills, hooks, MCP, agents, surrounding tool stack |
 | [`agent-toolkit`](entities/tools/agent-toolkit.md) | validated | Private /route script host (ROUTE_KIT) |
-| [`opencode`](entities/tools/opencode.md) | draft | sst/OpenCode coding agent — Phase-0 MIT; NO-GO `/route` swap (not opencodex) |
+| [`opencode`](entities/tools/opencode.md) | draft | sst/OpenCode coding agent — Phase-0 MIT; NO-GO `/route` swap; v2.4.1 Zen-free sidecar (live pick) |
 | [`reasonix`](entities/tools/reasonix.md) | draft | DeepSeek-native community CLI — Phase-0 MIT; NO-GO `/route` swap |
 | [`deepseek-harness`](entities/tools/deepseek-harness.md) | draft | Official DeepSeek Harness `dsh` — `/route` worker behind `claude-ds` (v2.3.2; pin `~/.dsh-cemini`) |
 | [`portable-llm-wiki`](entities/tools/portable-llm-wiki.md) | draft | OKF/MCP wiki protocol and lint UI — STEAL-FROM (K142) |

@@ -14,15 +14,15 @@ related:
   - "@osint-wiki/entities/tools/opencode.md"
 maturity: draft
 created: 2026-08-12
-updated: 2026-08-14
-wire_status: wont_wire
+updated: 2026-08-21
+wire_status: policy_wired
 ---
 
 ## Relations
 
 - @entities/tools/claude-code.md — current `/route` mid executor (`claude-ds` = this CLI + DeepSeek Anthropic-compat)
 - @entities/tools/agent-toolkit.md — `claude-ds.ps1` / `route-task` host
-- @entities/skills/route.md — do not swap mid-lane onto OpenCode
+- @entities/skills/route.md — v2.4 opt-in Zen-free sidecar; still NO-GO as `claude-ds` swap
 - @entities/tools/reasonix.md — sibling Phase-0 (DeepSeek-native CLI)
 - @entities/tools/deepseek-harness.md — official `dsh` `/route` worker behind `claude-ds` (v2.3.2); OpenCode stays NO-GO
 - @concepts/llm-routing-deepseek-openrouter-failover.md
@@ -59,7 +59,7 @@ What prompted this page: 2026-08-12 claude-ds harness refresh. Operator asked wh
 | Runtime PATH | **NO-GO** — curl\|sh hard stop; overlaps Claude Code; no isolated install dir |
 | `/route` mid-executor swap | **NO-GO** — keep `claude-ds`. Sidecar smoke later only if Anthropic-shim hangs persist after the 2.1.222 bump |
 
-Keep mid-lane on updated `claude-ds` (Claude Code **2.1.222**, default `deepseek-v4-flash`, `-Model deepseek-v4-pro` for harder work).
+Keep mid-lane **plan** on Grok and mid **worker PATH** on `claude-ds`. **2026-08-21:** `/route` v2.4.1 adds OpenCode as a Zen-free **sidecar** (`opencode run --auto`, live catalog pick — Ox Alpha while it is still listed free). That does not reverse the PATH / mid-swap NO-GO.
 
 ## Snippets
 

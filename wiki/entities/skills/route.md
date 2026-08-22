@@ -17,14 +17,14 @@ related:
   - sources/brief-k238-persona-hat-claude-gcp-2026-08-15.md
 maturity: validated
 created: 2026-07-01
-updated: 2026-08-20
+updated: 2026-08-21
 ---
 
 ## Relations
 
 - @entities/tools/agent-toolkit.md
 - @concepts/llm-routing-deepseek-openrouter-failover.md
-- @entities/tools/opencode.md — Phase-0 NO-GO mid swap
+- @entities/tools/opencode.md — Phase-0 NO-GO mid **swap**; v2.4 opt-in Zen-free **sidecar**
 - @entities/tools/reasonix.md — Phase-0 NO-GO mid swap
 - @entities/tools/deepseek-harness.md — official `dsh` is the `/route` worker behind `claude-ds` (v2.3.2; operator GO 2026-08-14)
 - @concepts/skill-misevolution.md — board K237; v2.3.3 rule 10
@@ -32,7 +32,7 @@ updated: 2026-08-20
 
 ## Raw Concept
 
-Federation skill `.cursor/skills/route/SKILL.md` (v2.3.3). Scripts live in private agent-toolkit.
+Federation skill `.cursor/skills/route/SKILL.md` (v2.4.1). Scripts live in private agent-toolkit.
 
 ## Narrative
 
@@ -47,6 +47,8 @@ v2.3.1 (2026-08-14 morning): policy clarification — dsh is a developer-preview
 v2.3.2 (2026-08-14): operator GO — official `dsh` is the `/route` worker behind PATH name `claude-ds` (`install-dsh.ps1` pin, `DSH_PERMISSION_MODE=danger-full-access`, `-Model` → `--patch`). Claude Code at `~/.deepseek-claude` is fallback (`CLAUDE_DS_FORCE_LEGACY=1`). Prod uses a Node 24 sidecar; system Node stays v20.
 
 v2.3.3 (2026-08-14): skill misevolution HITL (arXiv 2608.12851) — operating rule 10: no unattended auto-evolve; on verify fail reconsider the Plan, not only retry (Vero lesson); external eval contract — do not rewrite `## Verify` mid-run.
+
+v2.4.1 (2026-08-21): steal public cursor-route `--worker opencode` as a **sidecar** (not a `claude-ds` swap). Easy/mid execute: OpenRouter free → OpenCode Zen free (**live catalog pick**, Ox Alpha while listed; not a locked id; not Big Pickle by default) → Flash family (`deepseek-v4-flash` / `deepseek-v4-flash-vision-exp`). Mid Grok-out plan = Flash (never Pro). Hard Grok-out = Flash then Pro then OpenCode. Pro is audits + hard backup only. `ROUTE_SKIP_OPENCODE=1` disables the sidecar. Missing `opencode` skips to Flash. Pin: `ROUTE_OPENCODE_MODEL`.
 
 v2.2: **Grok-out** (`-SkipGrokPlan` / `ROUTE_GROK_OUT=1`) + usable `## Plan` skips Grok → claude-ds on mid/hard; **claude-ds hang watchdog** (stall/max env) prints parent Cursor takeover; `-HandoffPath` resume. Helpers: `scripts/lib/Test-RoutePlanPresent.ps1`.
 
@@ -63,7 +65,7 @@ OSINT daily digest steals for this skill via cluster `cursor-route-harness` (`da
 | K232 DiffCoop / verify papers | Pressure-test failover paths; accept/reformulate/escalate on verify fail | open — eval habit |
 | K233 | SKILLER skill-authoring / SkillLens / MISA-T / opencodex candidate | open — pattern + `/phase1` only for opencodex |
 | K234 | Charity Majors: harness > model; verification bottleneck; pets→cattle code | open — reinforce Verify gate; brief `2026-08-12_k234-charity-majors-harness-verify.md` |
-| ops 2026-08-12 | OpenCode / Reasonix as DeepSeek coding harness vs claude-ds | **closed** — keep claude-ds 2.1.222; both NO-GO PATH + mid swap (`@entities/tools/opencode.md`, `@entities/tools/reasonix.md`) |
+| ops 2026-08-12 | OpenCode / Reasonix as DeepSeek coding harness vs claude-ds | **closed** — keep `claude-ds` PATH; both NO-GO as mid **swap**. v2.4.1 (2026-08-21) adds OpenCode as Zen-free **sidecar** only (live catalog pick) |
 | ops 2026-08-12 | Flash vs Pro in one harness; Pro = Grok CLI usage-out stand-in | **wired** — skill v2.3 + `route-task.ps1` |
 | ops 2026-08-14 | Official DeepSeek Harness `dsh` as `/route` worker | **wired** v2.3.2 — pin `~/.dsh-cemini`; PATH stays `claude-ds`; Claude Code fallback (`@entities/tools/deepseek-harness.md`) |
 | board K237 AutoDesign (2608.13560) | Meta-harness optimization bibliography → `/route` harness-evolution canon (AutoDesign / Meta-Harness / HarnessX / Self-Harness / Recursive / Continual / Agentic Harness Engineering). Wire id in policy file: CCC **K281**. | **open** — bibliography; `.local/adopts/AutoDesign` GO REFERENCE |

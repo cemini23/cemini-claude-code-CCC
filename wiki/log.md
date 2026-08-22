@@ -1,3 +1,9 @@
+## [2026-08-21] ops | /route v2.4.1 OpenCode Zen sidecar (live free pick)
+
+- Skill `.cursor/skills/route/SKILL.md` v2.4.1: OpenCode is a sidecar, not a `claude-ds` swap. Empty/`free` = live Zen catalog pick (Ox Alpha while listed). Pin `ROUTE_OPENCODE_MODEL`.
+- Wiki: `@entities/skills/route.md`, `@entities/tools/opencode.md` (`wire_status: policy_wired`).
+- Runtime host: private `agent-toolkit` (`opencode-run.ps1`, `Select-ZenFreeModel.ps1`).
+
 ## [2026-08-21] ops | Hyperliquid referral row on SUPPORT.md + README
 
 - **Canon** — `SUPPORT.md`: Hyperliquid [app.hyperliquid.xyz/join/CEMINI23](https://app.hyperliquid.xyz/join/CEMINI23) below Polymarket `r=`
