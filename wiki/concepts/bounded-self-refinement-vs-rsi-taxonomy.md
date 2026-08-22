@@ -47,6 +47,7 @@ related:
   - concepts/agentic-configuration-management-acm.md
   - sources/arxiv-agentic-configuration-management-acm-2608.11166.md
   - concepts/meta-harness-optimization-hitl-eval-contract.md
+  - entities/skills/env-harness-wrap.md
   - entities/tools/autodesign.md
   - sources/arxiv-autodesign-meta-harness-2608.13560.md
   - concepts/skill-misevolution.md

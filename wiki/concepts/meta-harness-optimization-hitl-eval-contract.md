@@ -16,6 +16,7 @@ related:
   - sources/brief-k237-meta-harness-vero-misevolution-2026-08-14.md
   - concepts/black-box-rl-opaque-harness-optimization.md
   - concepts/harness-continual-learning-guarded-evolution.md
+  - entities/skills/env-harness-wrap.md
   - concepts/task-conditioned-meta-agent-orchestration-eureka.md
   - sources/arxiv-eureka-meta-agent-orchestration-2608.19047.md
   - sources/arxiv-harness-continual-learning-2608.19013.md

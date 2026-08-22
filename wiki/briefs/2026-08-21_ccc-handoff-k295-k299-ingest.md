@@ -18,6 +18,7 @@ related:
   - entities/tools/midtool.md
   - entities/tools/task-coevolve.md
   - entities/tools/thinkingbox.md
+  - concepts/phase1-adopt-wire.md
 created: 2026-08-21
 updated: 2026-08-21
 ---

@@ -6,6 +6,7 @@ keywords: [latent.space, wayfinder-skill, fog of war, /grill-me, /wayfinder, map
 related:
   - concepts/wayfinder-fog-of-war-planning.md
   - concepts/agent-toolkit-routing-research-backlog.md
+  - entities/skills/wayfinder.md
 maturity: draft
 read_status: skimmed
 created: 2026-08-21
@@ -15,6 +16,7 @@ updated: 2026-08-21
 ## Relations
 
 - `@concepts/wayfinder-fog-of-war-planning.md`
+- `@entities/skills/wayfinder.md`
 
 ## Raw Concept
 

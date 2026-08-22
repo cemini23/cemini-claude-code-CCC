@@ -1,3 +1,9 @@
+## [2026-08-21] ops | BPS / EnvHarness wrap / Wayfinder skills HITL-wired
+
+- Federation skills (opt-in, `disable-model-invocation: true`): `wayfinder`, `skill-set-budget` (BPS = Best Prefix Selection, decision-rule only), `env-harness-wrap` (keep original verifier; EnvRigger WATCH).
+- Policy: `cemini-phase1-policy-wires.mdc` §Skill-set budget + wrap-don't-rebuild. Dual-ID: not CCC K244 UrbanAgent.
+- **No** BPS solver clone, **no** EnvRigger auto-plug-ins, **no** unattended skill evolve.
+
 ## [2026-08-21] ops | /route v2.4.1 OpenCode Zen sidecar (live free pick)
 
 - Skill `.cursor/skills/route/SKILL.md` v2.4.1: OpenCode is a sidecar, not a `claude-ds` swap. Empty/`free` = live Zen catalog pick (Ox Alpha while listed). Pin `ROUTE_OPENCODE_MODEL`.

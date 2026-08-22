@@ -9,6 +9,9 @@ related:
   - sources/arxiv-task-coevolve-adaptive-validation-task-selection-2608.20169.md
   - concepts/skill-misevolution.md
   - concepts/agent-toolkit-routing-research-backlog.md
+  - entities/skills/skill-set-budget.md
+  - entities/skills/env-harness-wrap.md
+  - entities/skills/wayfinder.md
 maturity: draft
 read_status: skimmed
 created: 2026-08-21
@@ -38,4 +41,4 @@ updated: 2026-08-21
 
 Retrieval bottleneck note (BrowseComp-Plus_CM): agentic search evals that freeze a query-built 100K corpus overstate recall — ClimbMix projection 84.3%→21.4% evidence recall, −5 pts accuracy. Filed on routing backlog (see `@concepts/agent-toolkit-routing-research-backlog.md`), not a clone.
 
-| Verdict | **Propose-only** — no Phase-0 clones this cluster; do **not** edit `.cursor/skills`. |
+| Verdict | **ADOPT decision-rule + wrap policy** — skills `skill-set-budget`, `env-harness-wrap`, `wayfinder` HITL-wired 2026-08-21. No BPS solver clone; EnvRigger WATCH. |

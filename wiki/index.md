@@ -198,6 +198,9 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`free-audit`](entities/skills/free-audit.md) | draft | Low-cost Grok-orchestrated council — DeepSeek Flash + ≥2 free OpenRouter (no Cursor Task) |
 | [`to-issues`](entities/skills/to-issues.md) | draft | mattpocock vertical-slice issue decomposition — K126 Adopt (MIT) |
 | [`grill-with-docs`](entities/skills/grill-with-docs.md) | draft | mattpocock plan interview + ADRs — K126 Adopt (grill-me alias) |
+| [`wayfinder`](entities/skills/wayfinder.md) | draft | Fog-of-war map/tickets/session — federation `/wayfinder` |
+| [`skill-set-budget`](entities/skills/skill-set-budget.md) | draft | BPS set-not-top-k skill select — federation (no solver clone) |
+| [`env-harness-wrap`](entities/skills/env-harness-wrap.md) | draft | Keep the verifier; wrap don’t rebuild — federation |
 | [`phase1-wire`](entities/skills/phase1-wire.md) | draft | Phase-1 adopt-wire skill — /phase1 after Phase-0 |
 | [`goal`](entities/skills/goal.md) | validated | Cursor `/goal` single-shot envelope — federation-wide (K124) |
 | [`route`](entities/skills/route.md) | validated | /route easy·mid·hard·money (v2.3 Flash vs Pro; Grok-out stand-in) |

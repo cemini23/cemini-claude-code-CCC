@@ -8,6 +8,7 @@ related:
   - concepts/trajectory-driven-safety-harness-evolution.md
   - entities/tools/she-safety-harness.md
   - entities/skills/route.md
+  - entities/skills/skill-set-budget.md
   - sources/brief-k237-meta-harness-vero-misevolution-2026-08-14.md
   - concepts/bounded-self-refinement-vs-rsi-taxonomy.md
   - concepts/phase1-adopt-wire.md

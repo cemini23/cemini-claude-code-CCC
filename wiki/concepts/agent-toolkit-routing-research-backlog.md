@@ -30,9 +30,9 @@ Where do steal-from findings that are *not* ready to wire get parked so they don
 Open items:
 
 1. **BrowseComp-Plus_CM retrieval bottleneck** — agentic search evals that *freeze a query-built 100K corpus* overstate recall: ClimbMix projection drops evidence recall **84.3% → 21.4%** with −5 pts accuracy. File on the routing backlog as an eval-design caveat, **not** a clone.
-2. **BPS skill-set router** (`/phase1` proposal) — see `@concepts/skill-set-selection-under-budget.md`.
-3. **EnvHarness wrap** (keep verifier, EnvRigger synthesizes plug-ins) — see `@sources/arxiv-k244-harness-skill-selection-cluster.md`.
-4. **Wayfinder skill** — see `@concepts/wayfinder-fog-of-war-planning.md`.
+2. **BPS skill-set select** — **wired** `.cursor/skills/skill-set-budget/` (decision-rule; no solver clone).
+3. **EnvHarness wrap** — **wired** `.cursor/skills/env-harness-wrap/` (keep verifier; EnvRigger WATCH).
+4. **Wayfinder skill** — **wired** `.cursor/skills/wayfinder/`.
 5. **Task-CoEvolve** val-task sampling — **wired as CCC K298** (`@concepts/adaptive-validation-task-selection-harness-optimization.md`), not backlog.
 
-| Verdict | **Backlog** — tracked here; nothing in this page is runtime-wired. |
+| Verdict | **Backlog** — item 1 remains parked; 2–5 are wired. |

@@ -7,15 +7,17 @@ related:
   - entities/tools/mattpocock-skills.md
   - entities/skills/cursor-audit.md
   - entities/skills/super-audit.md
+  - entities/skills/wayfinder.md
   - concepts/agent-rubrics-self-correction.md
   - concepts/claim-drift-automated-research.md
   - "@osint-wiki/entities/tools/mattpocock-skills.md"
   - sources/brief-k122-k126-federation-cursor-harness-adoptions-2026-06-25.md
   - sources/brief-k132-local-adoptions-cursor-federation-prod-2026-06-27.md
   - entities/skills/adopted-geo-tools.md
+  - concepts/wayfinder-fog-of-war-planning.md
 maturity: draft
 created: 2026-06-22
-updated: 2026-07-20
+updated: 2026-08-21
 license_verified: MIT
 cross-wiki-source: "github.com/mattpocock/skills skills/engineering/grill-with-docs"
 ---
@@ -24,6 +26,7 @@ cross-wiki-source: "github.com/mattpocock/skills skills/engineering/grill-with-d
 
 - `@entities/tools/mattpocock-skills.md` — parent library (K126 Adopt)
 - `@entities/skills/cursor-audit.md` — multi-model audit; grill-with-docs is interview-style plan sharpening
+- `@entities/skills/wayfinder.md` — fog-of-war `/wayfinder`; grill-with-docs stays the bounded-path interview
 - `@entities/skills/super-audit.md` — pre-ship prod reviews
 - `@concepts/claim-drift-automated-research.md` — claim-boundary audit before ship
 

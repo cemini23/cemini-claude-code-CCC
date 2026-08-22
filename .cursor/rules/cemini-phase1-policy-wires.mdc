@@ -531,6 +531,14 @@ Hybrid HAI delegation (K295) + Thinkingbox terminal-state eval (K296, MIT REFERE
 - Evaluate the four atomic tool-use capabilities, not raw function-call accuracy (pairs K259 parameter grounding).
 - **`wont_wire`** runtime; **no HF `MidTool/midtool-release` download**.
 
+## Skill-set budget (BPS) + wrap-don't-rebuild (EnvHarness) + Wayfinder
+
+Steal-from k244 cluster (arXiv 2608.19993 / 2608.19880 + Latent Space wayfinder). **Not** CCC K244 (UrbanAgent). Skills: `.cursor/skills/{skill-set-budget,env-harness-wrap,wayfinder}/` (`federation: true`, operator-invoked). No paper-algorithm clone; no EnvRigger auto-plug-ins.
+
+- **Set, not top-k (BPS).** When several skills could apply, add only complements under a token budget; skip distractors. Do not pack by independent semantic rank (paper: Best Prefix Selection).
+- **Wrap, don't rebuild (EnvHarness).** Keep the existing verifier (`wiki_lint`, OpenSpec, route `## Verify`, tests). Adapt via wrappers; HITL before changing the scorer. EnvRigger-style trajectory→plug-in synthesis is **WATCH** — no unattended skill/harness mutation (pairs K162 / K281 / K298).
+- **Wayfinder** is opt-in fog-of-war planning (map / tickets / session). Bounded one-session paths still use `grill-with-docs`.
+
 ## Phase-1 meta
 
 - After ingest ADOPT/GO: propose `/phase1` wire before claiming done.
