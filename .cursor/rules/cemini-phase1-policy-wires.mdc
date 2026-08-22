@@ -79,11 +79,13 @@ Concrete harness behavior from Phase-0 ADOPT patterns. Clones under `.local/adop
 - Prefer **deterministic verification** (recompute claims from tool results + required-call coverage) before LLM-as-judge for mid-run failures.
 - Cheap telemetry monitors OK when healthy-null is **recalibrated per deployment** (cold transfer fails).
 - On alarm: rollback + re-run beats blind resample. `.local/adopts/agent-trajectory-sentinel` = MIT REFERENCE — not a default MCP install.
+- **OSINT/GW K242** (Capital Flows 2026-08-19 equity positioning, alert-only) = `guruwatcher-k242-capital-flows-equity-positioning-phase1-wires.mdc` — do not collapse with this Sentinel K242.
 
 ## Agentic cost estimation vocabulary (ACEM / K243)
 
 - Budget agent work as **LLM + HITL + infrastructure**; track Revision Factor (retries), Context Factor (growing context), HIS oversight level.
 - Conceptual only — calibrate locally; do not treat the related Zenodo book as ACEM code.
+- **OSINT/GW K243** (career-ops Extract + Klement no-arm + purple HOLD, alert-only) = `guruwatcher-k243-career-ops-klement-phase1-wires.mdc` — do not collapse with this ACEM K243.
 
 ## Robotics MCP solver (K240)
 
