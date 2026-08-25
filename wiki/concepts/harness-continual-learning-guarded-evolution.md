@@ -4,6 +4,8 @@ type: concept
 tags: [concept, continual-learning, harness, meta-harness, k292]
 keywords: [2608.19013, HCL, harness-level forgetting, Continual Evaluator]
 related:
+  - sources/arxiv-prime-agent-rlm-harness-2608.23552.md
+  - concepts/rlm-continual-harness.md
   - sources/arxiv-harness-continual-learning-2608.19013.md
   - entities/tools/harness-continual-learning-hcl.md
   - concepts/meta-harness-optimization-hitl-eval-contract.md
@@ -15,17 +17,20 @@ related:
   - concepts/adaptive-validation-task-selection-harness-optimization.md
   - entities/tools/task-coevolve.md
   - sources/arxiv-task-coevolve-adaptive-validation-task-selection-2608.20169.md
+  - entities/tools/prime-agent.md
 maturity: draft
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"
 created: 2026-08-20
-updated: 2026-08-21
+updated: 2026-08-25
 ---
 
 ## Relations
 
 - `@sources/arxiv-harness-continual-learning-2608.19013.md`
 - `@entities/tools/harness-continual-learning-hcl.md`
+- `@sources/arxiv-prime-agent-rlm-harness-2608.23552.md`
+- `@concepts/rlm-continual-harness.md`
 
 ## Raw Concept
 

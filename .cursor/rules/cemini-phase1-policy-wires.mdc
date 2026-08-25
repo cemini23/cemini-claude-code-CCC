@@ -547,3 +547,42 @@ Steal-from k244 cluster (arXiv 2608.19993 / 2608.19880 + Latent Space wayfinder)
 - Inventory: `python3 scripts/phase1_adopt_inventory.py --write-brief`
 - Skip Image-gen / 3D local wire backlogs.
 - **TipDrop/David kit retired 2026-08-05** — lab briefs → `Cybersecurity wiki/briefs/` (local-abliterated-lab), never tipdrop-workspace-kit.
+
+## CCC wave K300–K309 (shared policy file)
+
+AutoMOOSE OOD stub (K300) + Graph Engineering vocabulary (K301) + AID-Guard effect closure (K302) + health CUI trust OOD stub (K303) + memory-poisoning bounded occupancy (K304) + MCP-Universe RL WATCH trainer (K305, Apache-2.0 REFERENCE clone) + ARGUS K8s RCA asymmetry (K306) + MediSkill-Evo process-constrained evolution pattern (K307) + MetaCaster intermediary-engineer TSF (K308, MIT REFERENCE clone) + Prime Agent RLM/Continual Harness (K309, MIT REFERENCE clone <500MB). Clones: MCP-Universe, metacaster, prime-agent — REFERENCE only. **CCC-only rule** `ccc-k300-k309-phase1-wires.mdc` — do **not** federation-sync. **Dual-ID:** same-day Cybersec K301–K306 = CLEAR / PsychJail / CLAUDE.md-deny / SDP-RIM / BT-NFT / LLM-compliance; CCC K253 Argus persist/pivot ≠ CCC K306 ARGUS RCA; CCC K229 pi-rlm ≠ CCC K309 Prime Agent.
+
+## Authorization-to-effect closure (AID-Guard / CCC K302)
+
+- **Admission approval ≠ effect authority.** Revalidate the exact approved request and current provider state at commit; a request that changed before commit is unauthorized by default.
+- **One reservation while ambiguous** — unknown outcome ⇒ hold; never blind-retry into a duplicate effect.
+- **At most one successor**, only after terminal result or certified no-effect with a delivery fence across the declared recovery horizon.
+- Paper evidence: 13 live mutations clean; 210/210 Stripe trials matched; 44/44 compromise attacks blocked at 35.4–43.8 pp strict-profile utility cost. Pairs K239 execution fidelity + K285 Mandato. No public repo → **policy_wired** only. **Atto-priority.**
+
+## Memory poisoning — bounded occupancy + write-path grounding (CCC K304)
+
+- **Content screening cannot see payload-free lies**: 0.832 injection recall yet 0/360 plain false assertions refused; 1.2% poison → LongMemEval 0.850→0.300.
+- **Additive provenance ranking has no usable weight** (shipped weight p=0.80 vs none; higher weights exclude untrusted categorically). Use provenance as a **bounded occupancy constraint** on retrieved context instead.
+- **External grounding required before persistent writes** — truth is not a text property. No poison PoCs in wiki or briefs. Pairs K230 reconstructive memory. Cybersec dual-ID K304 = SDP-RIM.
+
+## Diagnostic/prescriptive asymmetry — never auto-apply remediations (CCC K306)
+
+- ARGUS (MCP-grounded K8s RCA over Prometheus/Loki/NATS): correct root cause **10/10**, MCP success **0.91**, but engineers consistently distrust prescribed fixes.
+- Wire agents as diagnostic engines with evidence attached; keep remediation human-gated everywhere (alerts, autofixes, harness self-repair). Do not merge with CCC K253 Argus persist/pivot (`lbx154/Argus`) — different product. Runtime **`wont_wire`**.
+
+## Process-constrained self-evolution (MediSkill-Evo / CCC K307)
+
+- **Typed banks** (skills / rules / schemas / measurement) with per-type safeguards — not one retrieval bag.
+- **Frozen test-time snapshot published before evolution runs**; candidates scored against what they cannot influence (pairs K162 external-eval contract).
+- **Process critic with veto** rejects controller-invalid candidates outright. Clinical domain `wont_wire`; never evolve `.cursor/skills` unattended (pairs K237).
+
+## Intermediary-engineer agents (MetaCaster / CCC K308)
+
+- For high-frequency cheap-decision surfaces: the agent **builds/maintains the small specialist** (train from few examples + text); it does not serve each prediction itself.
+- Meta-harness may optimize harness (prompts/skills/tools) — **never the pass criteria** (pairs K281/K162). MIT REFERENCE clone `.local/adopts/metacaster`; TSF runtime **`wont_wire`**; GuruWatcher pointer alert-only.
+
+## RLM REPL + Continual Harness (Prime Agent / CCC K309)
+
+- Context as programmable data in a persistent REPL; histories/memories/skills/prompts/subagent specs persisting across trajectories; recursive subagents + human-inspectable Agents View.
+- Standardized execution/recovery/verification keeps **harness failures from scoring as model failures** (ARC-AGI-3 RHAE Best@1 30%→95.5%, paper claim).
+- Guardrails: **HITL before any skill/prompt self-write**; retention checks on held-out packs before trusting learned state (K292); **do not replace Cursor / `/route` / claude-ds** — runtime `wont_wire`, clone REFERENCE only (pairs K229 pi-rlm brief).

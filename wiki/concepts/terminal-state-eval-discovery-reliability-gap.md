@@ -4,6 +4,8 @@ type: concept
 tags: [concept, eval, mcp, sandbox, stateful, reliability, k296]
 keywords: [2608.19741, Thinkingbox, pass@1, pass^20, terminal state, side effects, discovery-reliability]
 related:
+  - sources/arxiv-mcp-universe-rl-2608.22167.md
+  - entities/tools/mcp-universe-rl.md
   - sources/arxiv-thinkingbox-sandbox-benchmark-stateful-business-2608.19741.md
   - entities/tools/thinkingbox.md
   - concepts/execution-fidelity-irreversible-agent-invariants.md
@@ -16,13 +18,15 @@ maturity: draft
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"
 created: 2026-08-21
-updated: 2026-08-21
+updated: 2026-08-25
 ---
 
 ## Relations
 
 - `@sources/arxiv-thinkingbox-sandbox-benchmark-stateful-business-2608.19741.md`
 - `@entities/tools/thinkingbox.md`
+- `@sources/arxiv-mcp-universe-rl-2608.22167.md`
+- `@entities/tools/mcp-universe-rl.md`
 
 ## Raw Concept
 

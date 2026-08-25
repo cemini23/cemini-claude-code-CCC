@@ -4,6 +4,7 @@ type: concept
 tags: [concept, safety, invariants, execution-fidelity, irreversible, k239]
 keywords: [2608.00783, I1-I7, confirm gate, Datumpont, preview-before-write]
 related:
+  - sources/arxiv-aid-guard-stateful-authorization-2608.21159.md
   - sources/arxiv-safety-invariants-irreversible-transitions-2608.00783.md
   - entities/tools/datumpont-execution-fidelity.md
   - concepts/agent-completion-verification-gates.md
@@ -25,9 +26,10 @@ related:
   - concepts/terminal-state-eval-discovery-reliability-gap.md
   - entities/tools/thinkingbox.md
   - sources/arxiv-thinkingbox-sandbox-benchmark-stateful-business-2608.19741.md
+  - concepts/authorization-to-effect-closure.md
 maturity: draft
 created: 2026-08-04
-updated: 2026-08-21
+updated: 2026-08-25
 ---
 
 ## Relations
@@ -36,6 +38,7 @@ updated: 2026-08-21
 - `@concepts/agent-completion-verification-gates.md` — completion proof at session end; fidelity at irreversible bind
 - `@concepts/production-agent-deployment-checklist.md` — deployment checklist for LIVE/trading/writes
 - `@concepts/mcp-app-hitl-approval-gap.md` — I1 confirm gate extends blocking-approval gap
+- `@sources/arxiv-aid-guard-stateful-authorization-2608.21159.md`
 
 ## Raw Concept
 

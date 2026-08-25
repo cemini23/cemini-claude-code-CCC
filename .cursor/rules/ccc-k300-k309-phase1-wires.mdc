@@ -1,0 +1,21 @@
+---
+description: CCC Phase-1 wires from K300–K309 harness wave (CCC-only — do NOT federation-sync)
+alwaysApply: true
+---
+
+# CCC — K300–K309 Phase-1 wires
+
+**Brief:** `docs/briefs/2026-08-25_k300-k309-harness-wave.md` · SIP: `wiki/briefs/2026-08-25_ccc-k300-k309-sip-ready.md`
+
+**Dual-ID (resolve by file + wiki, not bare K#):** same-day Cybersec K301–K306 = CLEAR / PsychJail / CLAUDE.md-deny / SDP-RIM / BT-NFT / LLM-compliance. CCC K253 = Argus persist/pivot (`lbx154/Argus`) ≠ **CCC K306** ARGUS K8s RCA (2608.23084). CCC K229 = pi-rlm brief ≠ **CCC K309** Prime Agent. Do not merge; do not delete BPS/Wayfinder blocks.
+
+- **K300** AutoMOOSE — **OOD** materials/HPC source stub only, **`wont_wire`**; no clone (needs MOOSE binary + SLURM). Steal: Skeptic falsifies but never repairs; corrected work is re-admitted before acceptance (pairs K253 verification-gated admission).
+- **K301** Graph Engineering — **ADOPT vocabulary**: Graph Engineering / System Intelligence as the layer after Prompt → Context → Harness → Loop Engineering; name the task/agent/state graph explicitly when a workflow spans >1 session or >2 agents (pairs K276 RSM role boundaries). `DEEP-JLU/Awesome-Graph-Engineering` MIT — digest pointer, **NO catalog clone** (LESSONS 2026-05-13).
+- **K302** AID-Guard — **ADOPT authorization-to-effect closure**: revalidate exact approved request + provider state at commit; keep one reservation while outcome ambiguous; at most one successor after certified no-effect + delivery fence. Admission approval ≠ effect authority (pairs K239 invariants, K285 Mandato). No public repo → **policy_wired**.
+- **K303** Health CUI trust — **OOD** health HCI stub, **`wont_wire`**; steal: search-agent identity and interface modality measurably move trust (N=21 / N=20) — channel choice is not content-neutral (pairs K247).
+- **K304** Memory poisoning — **ADOPT policy**: payload-free lies defeat content screening (0/360 refused) and additive provenance has no usable weight (p=0.80); use provenance as a **bounded occupancy constraint**, require external grounding on the write path. 1.2% poison → LongMemEval 0.850→0.300 (pairs K230). No poison PoCs anywhere.
+- **K305** MCP-Universe RL — **WATCH trainer**: env-orchestration isolates/recycles MCP environments per trajectory (pairs K296), rollout-orchestration overlaps tool stalls. `SalesforceAIResearch/MCP-Universe` Apache-2.0 → **GO REFERENCE** `.local/adopts/MCP-Universe`; runtime **`wont_wire`**; no GRPO wired harness; no HF weights.
+- **K306** ARGUS K8s RCA — **ADOPT diagnostic/prescriptive asymmetry**: 10/10 correct RCA at MCP success 0.91, yet engineers distrust prescribed fixes — agents draft diagnoses with evidence; remediations stay human-gated, never auto-applied. Dual-ID vs CCC K253. No public repo → runtime **`wont_wire`**.
+- **K307** MediSkill-Evo — **ADOPT pattern**: typed memory banks + frozen test-time snapshot published before evolution + process critic with veto over controller-invalid candidates. Clinical domain **`wont_wire`**; never evolve `.cursor/skills` unattended (pairs K237/K162).
+- **K308** MetaCaster — **ADOPT agent-as-intermediary-engineer**: agents build/maintain small specialists for high-frequency surfaces instead of serving each prediction; meta-harness may optimize anything except pass criteria (pairs K281). `D2I-Group/metacaster` MIT → **GO REFERENCE** `.local/adopts/metacaster`; TSF runtime **`wont_wire`**; GuruWatcher pointer alert-only.
+- **K309** Prime Agent — **ADOPT RLM REPL + Continual Harness patterns** (context as programmable data; cross-trajectory histories/memories/skills/prompts/subagent specs; harness failures ≠ model failures). `PrimeIntellect-ai/prime-agent` MIT <500MB → **GO REFERENCE** `.local/adopts/prime-agent`. Runtime **`wont_wire`** — do **not** replace Cursor / `/route` / claude-ds. HITL before any skill/prompt self-write; retention checks per K292 before adopting learned state (pairs K229/K292/K162).

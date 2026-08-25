@@ -171,6 +171,10 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`satellite-mission-compiler`](entities/tools/satellite-mission-compiler.md) | draft | OPA/Rego mission compiler EUPL — GO reference (K181) |
 | [`sancho-acp-clients`](entities/tools/sancho-acp-clients.md) | draft | ACP HRI clients Apache — CONDITIONAL (K182) |
 | [`jsalfity-agentic-bt-mcp-artifacts`](entities/tools/jsalfity-agentic-bt-mcp-artifacts.md) | draft | Contract-grounded BT MCP/webviewer artifacts — NO-GO (K172) |
+| [`aid-guard`](entities/tools/aid-guard.md) | draft | AID-Guard authorization-to-effect closure — policy only (K302) |
+| [`mcp-universe-rl`](entities/tools/mcp-universe-rl.md) | draft | MCP-Universe RL trainer — Apache REFERENCE (K305) |
+| [`metacaster`](entities/tools/metacaster.md) | draft | MetaCaster meta-harness TSF — MIT REFERENCE (K308) |
+| [`prime-agent`](entities/tools/prime-agent.md) | draft | Prime Agent RLM harness — MIT REFERENCE <500MB (K309) |
 
 ## entities/mcp-servers/
 
@@ -556,6 +560,13 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`skill-misevolution`](concepts/skill-misevolution.md) | draft | Skill misevolution lifecycle gates — 2608.12851 (board K237) |
 | [`persona-hat-claude-code-sdlc`](concepts/persona-hat-claude-code-sdlc.md) | draft | Persona-hat SDLC — MCP designs, skills implement (OSINT K238) |
 | [`inspectable-tool-region-attribution`](concepts/inspectable-tool-region-attribution.md) | draft | Inspectable tool justification — AmalthAI from SEO (K158) |
+| [`graph-engineering-system-intelligence`](concepts/graph-engineering-system-intelligence.md) | draft | Graph Engineering / System Intelligence vocabulary — 2608.21156 (K301) |
+| [`authorization-to-effect-closure`](concepts/authorization-to-effect-closure.md) | draft | Authorization-to-effect closure — 2608.21159 (K302) |
+| [`memory-poisoning-content-screening-bound`](concepts/memory-poisoning-content-screening-bound.md) | draft | Memory poisoning vs content screening; bounded occupancy — 2608.21230 (K304) |
+| [`diagnostic-prescriptive-asymmetry-mcp-rca`](concepts/diagnostic-prescriptive-asymmetry-mcp-rca.md) | draft | Diagnostic/prescriptive asymmetry in MCP RCA — 2608.23084 (K306) |
+| [`process-constrained-self-evolution`](concepts/process-constrained-self-evolution.md) | draft | Process-constrained self-evolution — 2608.23397 (K307) |
+| [`agent-as-intermediary-engineer`](concepts/agent-as-intermediary-engineer.md) | draft | Agent as intermediary engineer — 2608.23473 (K308) |
+| [`rlm-continual-harness`](concepts/rlm-continual-harness.md) | draft | RLM REPL + Continual Harness — 2608.23552 (K309) |
 
 ## sources/
 
@@ -869,6 +880,16 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`brief-k237-meta-harness-vero-misevolution-2026-08-14`](sources/brief-k237-meta-harness-vero-misevolution-2026-08-14.md) | validated | Board K237 brief stub (misevolution / Vero / AutoDesign) |
 | [`brief-k238-persona-hat-claude-gcp-2026-08-15`](sources/brief-k238-persona-hat-claude-gcp-2026-08-15.md) | validated | OSINT K238 persona-hat GCP brief stub |
 | [`brief-k158-amalthai-tabsom-from-seo-2026-08-14`](sources/brief-k158-amalthai-tabsom-from-seo-2026-08-14.md) | validated | SEO K158 AmalthAI/TabSOM brief stub |
+| [`arxiv-automoose-agentic-phase-field-2608.20571`](sources/arxiv-automoose-agentic-phase-field-2608.20571.md) | draft | AutoMOOSE agentic phase-field — OOD stub (K300) |
+| [`arxiv-graph-engineering-llm-agents-2608.21156`](sources/arxiv-graph-engineering-llm-agents-2608.21156.md) | draft | Graph Engineering survey — 2608.21156 (K301) |
+| [`arxiv-aid-guard-stateful-authorization-2608.21159`](sources/arxiv-aid-guard-stateful-authorization-2608.21159.md) | draft | AID-Guard stateful authorization — 2608.21159 (K302) |
+| [`arxiv-health-trust-search-agents-cui-2608.21177`](sources/arxiv-health-trust-search-agents-cui-2608.21177.md) | draft | Health CUI trust — OOD stub (K303) |
+| [`arxiv-agent-memory-poisoning-utility-2608.21230`](sources/arxiv-agent-memory-poisoning-utility-2608.21230.md) | draft | Memory poisoning vs content screening — 2608.21230 (K304) |
+| [`arxiv-mcp-universe-rl-2608.22167`](sources/arxiv-mcp-universe-rl-2608.22167.md) | draft | MCP-Universe RL trainer — 2608.22167 (K305) |
+| [`arxiv-argus-mcp-k8s-rca-2608.23084`](sources/arxiv-argus-mcp-k8s-rca-2608.23084.md) | draft | ARGUS K8s RCA — 2608.23084 (K306) |
+| [`arxiv-mediskill-evo-process-constrained-2608.23397`](sources/arxiv-mediskill-evo-process-constrained-2608.23397.md) | draft | MediSkill-Evo process-constrained evolution — 2608.23397 (K307) |
+| [`arxiv-metacaster-meta-harness-tsf-2608.23473`](sources/arxiv-metacaster-meta-harness-tsf-2608.23473.md) | draft | MetaCaster few-shot TSF — 2608.23473 (K308) |
+| [`arxiv-prime-agent-rlm-harness-2608.23552`](sources/arxiv-prime-agent-rlm-harness-2608.23552.md) | draft | Prime Agent RLM harness — 2608.23552 (K309) |
 
 ## meta/
 

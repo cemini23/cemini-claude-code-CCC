@@ -4,6 +4,8 @@ type: entity
 tags: [entity, tool, agentic-runtime, persist-pivot, k253]
 keywords: [2608.05144, Argus, wont_wire, no-spdx, lbx154]
 related:
+  - sources/arxiv-argus-mcp-k8s-rca-2608.23084.md
+  - concepts/diagnostic-prescriptive-asymmetry-mcp-rca.md
   - sources/arxiv-argus-long-horizon-agentic-runtime-2608.05144.md
   - concepts/verification-gated-persist-pivot-runtime.md
   - concepts/self-healing-agent-sessions.md
@@ -15,13 +17,15 @@ related:
 maturity: draft
 wire_status: wont_wire
 created: 2026-08-06
-updated: 2026-08-06
+updated: 2026-08-25
 ---
 
 ## Relations
 
 - `@sources/arxiv-argus-long-horizon-agentic-runtime-2608.05144.md`
 - `@concepts/verification-gated-persist-pivot-runtime.md`
+- `@sources/arxiv-argus-mcp-k8s-rca-2608.23084.md`
+- `@concepts/diagnostic-prescriptive-asymmetry-mcp-rca.md`
 
 ## Raw Concept
 

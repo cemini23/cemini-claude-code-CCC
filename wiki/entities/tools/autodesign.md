@@ -4,6 +4,8 @@ type: entity
 tags: [entity, tool, meta-harness, poster, mit, k281]
 keywords: [k281, AutoDesign, DesignHarness, PosterBench, meta-harness-optimizer, MIT, meituan, mbzuai]
 related:
+  - sources/arxiv-metacaster-meta-harness-tsf-2608.23473.md
+  - entities/tools/metacaster.md
   - sources/arxiv-autodesign-meta-harness-2608.13560.md
   - concepts/meta-harness-optimization-hitl-eval-contract.md
   - concepts/bounded-self-refinement-vs-rsi-taxonomy.md
@@ -14,16 +16,19 @@ related:
   - briefs/2026-08-14_ccc-handoff-k277-k281-ingest.md
   - concepts/phase1-adopt-wire.md
   - sources/brief-k237-meta-harness-vero-misevolution-2026-08-14.md
+  - concepts/agent-as-intermediary-engineer.md
 maturity: draft
 wire_status: wont_wire
 created: 2026-08-14
-updated: 2026-08-15
+updated: 2026-08-25
 ---
 
 ## Relations
 
 - `@sources/arxiv-autodesign-meta-harness-2608.13560.md`
 - `@concepts/meta-harness-optimization-hitl-eval-contract.md`
+- `@sources/arxiv-metacaster-meta-harness-tsf-2608.23473.md`
+- `@entities/tools/metacaster.md`
 
 ## Raw Concept
 

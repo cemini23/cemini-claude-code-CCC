@@ -4,6 +4,9 @@ type: concept
 tags: [concept, skills, safety, she, lifecycle, k237]
 keywords: [2608.12851, SAFEEVOLVE, authoring, retrieval, execution, HITL, dual-id]
 related:
+  - sources/arxiv-mediskill-evo-process-constrained-2608.23397.md
+  - concepts/process-constrained-self-evolution.md
+  - concepts/rlm-continual-harness.md
   - sources/arxiv-skill-misevolution-2608.12851.md
   - concepts/trajectory-driven-safety-harness-evolution.md
   - entities/tools/she-safety-harness.md
@@ -15,11 +18,12 @@ related:
   - concepts/repo-level-verified-code-proof-eval.md
   - concepts/skill-set-selection-under-budget.md
   - sources/arxiv-k244-harness-skill-selection-cluster.md
+  - sources/arxiv-prime-agent-rlm-harness-2608.23552.md
 maturity: draft
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"
 created: 2026-08-15
-updated: 2026-08-21
+updated: 2026-08-25
 ---
 
 ## Relations
@@ -29,6 +33,9 @@ updated: 2026-08-21
 - `@entities/tools/she-safety-harness.md`
 - `@entities/skills/route.md`
 - `@sources/brief-k237-meta-harness-vero-misevolution-2026-08-14.md`
+- `@sources/arxiv-mediskill-evo-process-constrained-2608.23397.md`
+- `@concepts/process-constrained-self-evolution.md`
+- `@concepts/rlm-continual-harness.md`
 
 ## Raw Concept
 

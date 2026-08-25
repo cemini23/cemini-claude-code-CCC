@@ -1799,3 +1799,16 @@ Cross-wiki stub routed from `@osint-wiki/sources/newsletter-rss-pragmatic-engine
 - **Archive:** 5 PDFs → `cemini-egress-fi:/opt/cemini-bulk/research/ccc/` (verified remote sizes); inbox empty except `.gitkeep`
 - Updated `wiki/index.md` (4 entity + 7 concept + 9 source rows) + sweeps 2026-08-21
 - **Leftover (propose-only):** wayfinder skill scaffold, BPS skill router, EnvHarness wrap — no `.cursor/skills` edits this wave
+
+## [2026-08-25] ingest | K300–K309 harness wave — AID-Guard, memory poisoning, ARGUS RCA, MediSkill-Evo, MetaCaster, Prime Agent
+
+- **Sources:** arXiv 2608.20571 (AutoMOOSE — OOD stub), 2608.21156 (Graph Engineering survey), 2608.21159 (AID-Guard), 2608.21177 (health CUI trust — OOD stub), 2608.21230 (memory poisoning), 2608.22167 (MCP-Universe RL), 2608.23084 (ARGUS K8s RCA), 2608.23397 (MediSkill-Evo), 2608.23473 (MetaCaster), 2608.23552 (Prime Agent)
+- **New pages:** 10 arxiv sources, 7 concepts (graph-engineering-system-intelligence, authorization-to-effect-closure, memory-poisoning-content-screening-bound, diagnostic-prescriptive-asymmetry-mcp-rca, process-constrained-self-evolution, agent-as-intermediary-engineer, rlm-continual-harness), 4 entities (aid-guard, mcp-universe-rl, metacaster, prime-agent); SIP brief `wiki/briefs/2026-08-25_ccc-k300-k309-sip-ready.md` extended
+- **Backlinks:** 12 existing pages patched bidirectionally (verification-gated, subagent-orchestration, execution-fidelity, signed-mandate, voice-vs-keyboard, reconstructive-memory, terminal-state-eval, argus-agentic-runtime, skill-misevolution, autodesign, mandato, harness-continual-learning)
+- **Phase-0:** `adopt_k300`…`k309_phase0.sh` all exit 0 (gh API SPDX: MCP-Universe Apache-2.0; metacaster MIT; prime-agent MIT). Clones `.local/adopts/{MCP-Universe 17MB, metacaster 5MB, prime-agent 31MB}` all <500MB with LICENSE on disk. NO Awesome-Graph-Engineering / AutoMOOSE / GRPO-HF clones.
+- **Phase-1:** `.cursor/rules/cemini-phase1-policy-wires.mdc` §CCC wave K300–K309 + five per-topic sections; CCC-only `ccc-k300-k309-phase1-wires.mdc` (not federation-synced). All new entities wire_status ≠ unwired.
+- **Dual-ID preserved:** Cybersec K301–K306 untouched; CCC K253 Argus ≠ CCC K306 ARGUS RCA noted in both rule files + source page.
+- **Cross-wiki:** atto steal `briefs/2026-08-25_k300-k309-atto-prime-agent-aid-guard-steal.md`; cybersec `../Cybersecurity wiki/briefs/2026-08-25_k302-k304-aid-guard-memory-poisoning-from-ccc.md`; GuruWatcher pointer `../GuruWatcher/briefs/2026-08-25_k308-metacaster-intermediary-engineer-pointer.md`
+- **Briefs:** `docs/briefs/2026-08-25_k300-k309-harness-wave.md`; prod pair scp'd to `cemini-prod:/opt/cemini/briefs/` via updated script
+- **Archive:** 10 PDFs → egress-fi (inbox empty except .gitkeep)
+- **Leftover (propose-only):** Prime Agent sandbox trial; AID-Guard commit-revalidation prototype for one low-risk MCP write path — not implemented this wave

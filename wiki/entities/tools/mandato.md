@@ -4,6 +4,7 @@ type: entity
 tags: [entity, tool, mcp, authorization, governance, audit, policy-only, k285]
 keywords: [k285, Mandato, signed-mandate, MCP proxy, hash-chained audit, PDP-PEP, EU AI Act]
 related:
+  - entities/tools/aid-guard.md
   - sources/arxiv-mandato-signed-mandates-mcp-2608.14074.md
   - concepts/signed-mandate-mcp-protocol-enforcement.md
   - entities/patterns/signed-mandate-mcp-proxy.md
@@ -13,7 +14,7 @@ related:
 maturity: draft
 wire_status: policy_wired
 created: 2026-08-18
-updated: 2026-08-18
+updated: 2026-08-25
 ---
 
 ## Relations
@@ -21,6 +22,7 @@ updated: 2026-08-18
 - `@sources/arxiv-mandato-signed-mandates-mcp-2608.14074.md`
 - `@concepts/signed-mandate-mcp-protocol-enforcement.md`
 - `@entities/patterns/signed-mandate-mcp-proxy.md`
+- `@entities/tools/aid-guard.md`
 
 ## Raw Concept
 

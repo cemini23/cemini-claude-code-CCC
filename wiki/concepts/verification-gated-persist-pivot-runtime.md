@@ -4,6 +4,8 @@ type: concept
 tags: [concept, agentic-runtime, persist-pivot, verification-gated, four-role, k253]
 keywords: [2608.05144, Argus, Manager, Planner, Engineer, Reviewer, self-evolution]
 related:
+  - sources/arxiv-automoose-agentic-phase-field-2608.20571.md
+  - concepts/diagnostic-prescriptive-asymmetry-mcp-rca.md
   - sources/arxiv-argus-long-horizon-agentic-runtime-2608.05144.md
   - entities/tools/argus-agentic-runtime.md
   - concepts/self-healing-agent-sessions.md
@@ -15,7 +17,7 @@ related:
   - concepts/trajectory-error-lifecycle-attribution.md
 maturity: draft
 created: 2026-08-06
-updated: 2026-08-06
+updated: 2026-08-25
 ---
 
 ## Relations
@@ -24,6 +26,8 @@ updated: 2026-08-06
 - `@concepts/agent-completion-verification-gates.md` — task-native verification peer
 - `@concepts/self-healing-agent-sessions.md` — in-session retry vs persist/pivot
 - `@concepts/failed-trajectory-harness-repair.md` — cross-session harness repair peer
+- `@sources/arxiv-automoose-agentic-phase-field-2608.20571.md`
+- `@concepts/diagnostic-prescriptive-asymmetry-mcp-rca.md`
 
 ## Raw Concept
 

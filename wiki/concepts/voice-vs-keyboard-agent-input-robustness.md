@@ -4,17 +4,19 @@ type: concept
 tags: [concept, voice, keyboard, input, robustness, k247]
 keywords: [2608.03970, HIVE, transcription, QWERTY, constructive-tasks, thinking-budget]
 related:
+  - sources/arxiv-health-trust-search-agents-cui-2608.21177.md
   - sources/arxiv-hive-voice-keyboard-input-perturbation-2608.03970.md
   - sources/brief-k244-k248-urban-gui-mcp-hive-turnsight-2026-08-05.md
   - briefs/2026-08-05_ccc-handoff-k244-k248-ingest.md
 maturity: draft
 created: 2026-08-05
-updated: 2026-08-05
+updated: 2026-08-25
 ---
 
 ## Relations
 
 - `@sources/arxiv-hive-voice-keyboard-input-perturbation-2608.03970.md` — K247 provenance
+- `@sources/arxiv-health-trust-search-agents-cui-2608.21177.md`
 
 ## Raw Concept
 

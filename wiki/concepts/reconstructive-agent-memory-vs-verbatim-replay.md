@@ -4,6 +4,7 @@ type: concept
 tags: [concept, memory, harness, negative-transfer, k230]
 keywords: [MemHarness, reconstruct, GRPO, OOD]
 related:
+  - sources/arxiv-agent-memory-poisoning-utility-2608.21230.md
   - sources/arxiv-memharness-reconstructed-memory-2607.28272.md
   - entities/tools/memharness.md
   - concepts/selective-experience-memory-harness.md
@@ -15,9 +16,10 @@ related:
   - concepts/phase1-adopt-wire.md
   - concepts/decision-coupled-hierarchical-agentic-memory.md
   - sources/arxiv-ham-vln-hierarchical-agentic-memory-2607.29600.md
+  - concepts/memory-poisoning-content-screening-bound.md
 maturity: draft
 created: 2026-07-31
-updated: 2026-08-03
+updated: 2026-08-25
 ---
 
 ## Relations
@@ -27,6 +29,7 @@ updated: 2026-08-03
 - `@concepts/selective-experience-memory-harness.md`
 - `@concepts/procedural-memory-transfer-after.md`
 - `@concepts/decision-coupled-hierarchical-agentic-memory.md` — K236 decision-coupled write
+- `@sources/arxiv-agent-memory-poisoning-utility-2608.21230.md`
 
 ## Raw Concept
 

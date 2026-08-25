@@ -4,6 +4,7 @@ type: concept
 tags: [concept, subagent, agent, delegation, claude-code, parallelism, explore-agent, plan-agent]
 keywords: [subagent, Agent tool, Explore agent, Plan agent, code-reviewer, general-purpose, isolation, worktree, parallel agents]
 related:
+  - sources/arxiv-graph-engineering-llm-agents-2608.21156.md
   - entities/tools/claude-code.md
   - concepts/context-engineering.md
   - concepts/token-economics-and-prompt-caching.md
@@ -131,9 +132,10 @@ related:
   - concepts/passive-awareness-async-multi-agent-coordination.md
   - sources/arxiv-agentradio-passive-awareness-multi-agent-2607.28430.md
   - entities/skills/free-audit.md
+  - concepts/graph-engineering-system-intelligence.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-08-03
+updated: 2026-08-25
 ---
 
 ## Relations
@@ -169,6 +171,7 @@ updated: 2026-08-03
 - `@sources/arxiv-perspectivegap-multi-agent-orchestration-2606.08878.md` — orchestration prompting benchmark
 - `@concepts/internet-of-agentic-ai-ioai.md` — Internet-scale MAS vision vs harness-local dispatch
 - `@sources/arxiv-parthenon-law-self-evolving-legal-agent-2606.04602.md` — solver–evaluator–learner role isolation
+- `@sources/arxiv-graph-engineering-llm-agents-2608.21156.md`
 
 Cross-wiki: `@osint-wiki/concepts/conductor-orchestrator.md` carries the OSINT-side conductor history (parallel subagent dispatch for cross-wiki queries).
 
