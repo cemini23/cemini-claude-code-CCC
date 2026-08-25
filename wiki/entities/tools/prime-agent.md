@@ -6,6 +6,7 @@ keywords: [2608.23552, prime-agent, PrimeIntellect-ai, MIT, arc-agi-3, continual
 related:
   - sources/arxiv-prime-agent-rlm-harness-2608.23552.md
   - concepts/rlm-continual-harness.md
+  - entities/skills/prime-agent-sandbox.md
   - concepts/harness-continual-learning-guarded-evolution.md
   - briefs/2026-08-25_ccc-k300-k309-sip-ready.md
 maturity: draft
@@ -19,6 +20,7 @@ updated: 2026-08-25
 
 - `@sources/arxiv-prime-agent-rlm-harness-2608.23552.md`
 - `@concepts/rlm-continual-harness.md`
+- `@entities/skills/prime-agent-sandbox.md`
 - `@concepts/harness-continual-learning-guarded-evolution.md` (K292 retention discipline)
 - `@briefs/2026-08-25_ccc-k300-k309-sip-ready.md`
 
@@ -38,4 +40,4 @@ Persistent IPython REPL (RLM), Continual Harness across trajectories, recursive 
 
 ## Phase-1
 
-Runtime **`wont_wire`**: **do not replace Cursor / `/route` / claude-ds with Prime Agent.** HITL required before any skill/prompt self-write (K162/K237); any future trial must include K292-style retention checks on held-out packs. Atto steal brief written (`briefs/2026-08-25_k300-k309-atto-prime-agent-aid-guard-steal.md`).
+Runtime **`wont_wire`**: **do not replace Cursor / `/route` / claude-ds with Prime Agent.** Sandbox trial: `scripts/prime_agent_sandbox_trial.sh` + skill `prime-agent-sandbox` (inventory + K292 retention; never `curl|bash` install). HITL before any skill/prompt self-write. Atto steal brief written (`briefs/2026-08-25_k300-k309-atto-prime-agent-aid-guard-steal.md`).

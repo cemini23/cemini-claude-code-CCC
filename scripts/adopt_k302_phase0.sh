@@ -10,6 +10,8 @@ check "concept" test -f "${REPO_ROOT}/wiki/concepts/authorization-to-effect-clos
 check "entity" test -f "${REPO_ROOT}/wiki/entities/tools/aid-guard.md"
 check "policy K302" grep -q "K302" "${REPO_ROOT}/.cursor/rules/cemini-phase1-policy-wires.mdc"
 check "ccc-rule K302" grep -q "K302" "${REPO_ROOT}/.cursor/rules/ccc-k300-k309-phase1-wires.mdc"
-warn_note "K302 AID-Guard no public SPDX repo — policy_wired only; pairs K239/K285."
+check "skill" test -f "${REPO_ROOT}/.cursor/skills/aid-guard-commit/SKILL.md"
+check "helper-selftest" python3 "${REPO_ROOT}/scripts/aid_guard_commit.py" selftest
+warn_note "K302 AID-Guard no public SPDX repo — policy_wired + commit helper; pairs K239/K285. Not a LIVE proxy."
 echo "Summary: ${pass} pass, ${fail} fail, ${warn} warn"
 [[ "${fail}" -eq 0 ]]

@@ -6,6 +6,7 @@ keywords: [prime agent, recursive language model, ipython repl, continual harnes
 related:
   - sources/arxiv-prime-agent-rlm-harness-2608.23552.md
   - entities/tools/prime-agent.md
+  - entities/skills/prime-agent-sandbox.md
   - concepts/harness-continual-learning-guarded-evolution.md
   - concepts/skill-misevolution.md
   - briefs/2026-08-25_ccc-k300-k309-sip-ready.md
@@ -18,6 +19,7 @@ updated: 2026-08-25
 
 - `@sources/arxiv-prime-agent-rlm-harness-2608.23552.md`
 - `@entities/tools/prime-agent.md`
+- `@entities/skills/prime-agent-sandbox.md`
 - `@concepts/harness-continual-learning-guarded-evolution.md` (K292)
 - `@concepts/skill-misevolution.md`
 - `@briefs/2026-08-25_ccc-k300-k309-sip-ready.md`

@@ -6,6 +6,7 @@ keywords: [2608.23473, metacaster, D2I-Group, MIT, tsf, guruwatcher]
 related:
   - sources/arxiv-metacaster-meta-harness-tsf-2608.23473.md
   - concepts/agent-as-intermediary-engineer.md
+  - entities/skills/intermediary-engineer.md
   - entities/tools/autodesign.md
   - briefs/2026-08-25_ccc-k300-k309-sip-ready.md
 maturity: draft
@@ -19,6 +20,7 @@ updated: 2026-08-25
 
 - `@sources/arxiv-metacaster-meta-harness-tsf-2608.23473.md`
 - `@concepts/agent-as-intermediary-engineer.md`
+- `@entities/skills/intermediary-engineer.md`
 - `@entities/tools/autodesign.md` (K281 meta-harness pair)
 - `@briefs/2026-08-25_ccc-k300-k309-sip-ready.md`
 
@@ -38,4 +40,4 @@ Agents as intermediary engineers training lightweight forecasters from few examp
 
 ## Phase-1
 
-TSF runtime **`wont_wire`** on CCC. GuruWatcher/time-series steal: intermediary-engineer pattern, alert-only — no forecaster runtime swap (see `briefs/2026-08-25_k300-k309-harness-wave-prod.md`). Pairs K281.
+TSF runtime **`wont_wire`** on CCC. Federation skill `intermediary-engineer`. GuruWatcher alert-only rule `guruwatcher-k308-metacaster-phase1-wires.mdc` — no forecaster runtime swap. Pairs K281.

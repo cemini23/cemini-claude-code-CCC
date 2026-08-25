@@ -12,6 +12,8 @@ check "policy K309" grep -q "K309" "${REPO_ROOT}/.cursor/rules/cemini-phase1-pol
 check "ccc-rule K309" grep -q "K309" "${REPO_ROOT}/.cursor/rules/ccc-k300-k309-phase1-wires.mdc"
 check "clone" test -d "${REPO_ROOT}/.local/adopts/prime-agent"
 check "mit-license-on-disk" grep -qi "MIT License" "${REPO_ROOT}/.local/adopts/prime-agent/LICENSE"
+check "skill" test -f "${REPO_ROOT}/.cursor/skills/prime-agent-sandbox/SKILL.md"
+check "sandbox-trial" bash "${REPO_ROOT}/scripts/prime_agent_sandbox_trial.sh"
 warn_note "K309 Prime Agent MIT GO REFERENCE clone <500MB; runtime wont_wire — do NOT replace Cursor//route/claude-ds; HITL before any self-write (pairs K229/K292/K162)."
 echo "Summary: ${pass} pass, ${fail} fail, ${warn} warn"
 [[ "${fail}" -eq 0 ]]

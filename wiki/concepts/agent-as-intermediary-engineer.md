@@ -6,6 +6,7 @@ keywords: [metacaster, intermediary engineer, lightweight forecaster, few-shot, 
 related:
   - sources/arxiv-metacaster-meta-harness-tsf-2608.23473.md
   - entities/tools/metacaster.md
+  - entities/skills/intermediary-engineer.md
   - entities/tools/autodesign.md
   - briefs/2026-08-25_ccc-k300-k309-sip-ready.md
 maturity: draft
@@ -17,6 +18,7 @@ updated: 2026-08-25
 
 - `@sources/arxiv-metacaster-meta-harness-tsf-2608.23473.md`
 - `@entities/tools/metacaster.md`
+- `@entities/skills/intermediary-engineer.md`
 - `@entities/tools/autodesign.md` (K281 pair)
 - `@briefs/2026-08-25_ccc-k300-k309-sip-ready.md`
 

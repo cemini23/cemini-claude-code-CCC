@@ -586,3 +586,11 @@ AutoMOOSE OOD stub (K300) + Graph Engineering vocabulary (K301) + AID-Guard effe
 - Context as programmable data in a persistent REPL; histories/memories/skills/prompts/subagent specs persisting across trajectories; recursive subagents + human-inspectable Agents View.
 - Standardized execution/recovery/verification keeps **harness failures from scoring as model failures** (ARC-AGI-3 RHAE Best@1 30%→95.5%, paper claim).
 - Guardrails: **HITL before any skill/prompt self-write**; retention checks on held-out packs before trusting learned state (K292); **do not replace Cursor / `/route` / claude-ds** — runtime `wont_wire`, clone REFERENCE only (pairs K229 pi-rlm brief).
+
+## AID-Guard commit + Prime Agent sandbox + intermediary-engineer (HITL 2026-08-25)
+
+Operator-invoked federation skills (`disable-model-invocation: true`): `.cursor/skills/{aid-guard-commit,prime-agent-sandbox,intermediary-engineer}/`. No paper-product install; no `curl|bash`.
+
+- **AID-Guard helper** — `scripts/aid_guard_commit.py` reserve → commit (exact hash) → release / certify-no-effect / one successor. Default demo path is `local.hot_md`. GitHub MCP file writes and stash writes use the same protocol; **preview/HITL still required** (K239). `python3 scripts/aid_guard_commit.py selftest` is the executable check. Not a Stripe/LIVE proxy.
+- **Prime Agent sandbox** — `scripts/prime_agent_sandbox_trial.sh` is inventory + K292 retention (harness files unchanged). **Never** run upstream `install.sh`; **never** PATH-swap `/route`.
+- **Intermediary-engineer** — high-frequency numeric surfaces: agent builds the specialist, does not serve each prediction. GuruWatcher: `guruwatcher-k308-metacaster-phase1-wires.mdc` alert-only; no TSF runtime.

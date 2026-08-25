@@ -6,6 +6,7 @@ keywords: [aid-guard, authorization-to-effect, delivery fence, reservation linea
 related:
   - sources/arxiv-aid-guard-stateful-authorization-2608.21159.md
   - entities/tools/aid-guard.md
+  - entities/skills/aid-guard-commit.md
   - concepts/execution-fidelity-irreversible-agent-invariants.md
   - concepts/signed-mandate-mcp-protocol-enforcement.md
   - briefs/2026-08-25_ccc-k300-k309-sip-ready.md
@@ -18,6 +19,7 @@ updated: 2026-08-25
 
 - `@sources/arxiv-aid-guard-stateful-authorization-2608.21159.md`
 - `@entities/tools/aid-guard.md`
+- `@entities/skills/aid-guard-commit.md`
 - `@concepts/execution-fidelity-irreversible-agent-invariants.md`
 - `@concepts/signed-mandate-mcp-protocol-enforcement.md`
 - `@briefs/2026-08-25_ccc-k300-k309-sip-ready.md`

@@ -1,3 +1,11 @@
+## [2026-08-25] ops | AID-Guard commit helper + Prime Agent sandbox + intermediary-engineer HITL-wired
+
+- Federation skills (opt-in, `disable-model-invocation: true`): `aid-guard-commit`, `prime-agent-sandbox`, `intermediary-engineer`.
+- Helper `scripts/aid_guard_commit.py selftest` — exact-hash revalidation; demo path `local.hot_md`; GitHub/stash still K239 preview. Not a LIVE/Stripe proxy.
+- Trial `scripts/prime_agent_sandbox_trial.sh` — clone inventory + K292 harness-hash retention. **Never** `curl|bash` install.sh; **never** replace Cursor/`/route`.
+- GuruWatcher alert-only: `guruwatcher-k308-metacaster-phase1-wires.mdc` (no TSF runtime).
+- Policy: `cemini-phase1-policy-wires.mdc` §AID-Guard commit + Prime Agent sandbox + intermediary-engineer.
+
 ## [2026-08-21] ops | BPS / EnvHarness wrap / Wayfinder skills HITL-wired
 
 - Federation skills (opt-in, `disable-model-invocation: true`): `wayfinder`, `skill-set-budget` (BPS = Best Prefix Selection, decision-rule only), `env-harness-wrap` (keep original verifier; EnvRigger WATCH).
@@ -1799,6 +1807,14 @@ Cross-wiki stub routed from `@osint-wiki/sources/newsletter-rss-pragmatic-engine
 - **Archive:** 5 PDFs → `cemini-egress-fi:/opt/cemini-bulk/research/ccc/` (verified remote sizes); inbox empty except `.gitkeep`
 - Updated `wiki/index.md` (4 entity + 7 concept + 9 source rows) + sweeps 2026-08-21
 - **Leftover (propose-only):** wayfinder skill scaffold, BPS skill router, EnvHarness wrap — no `.cursor/skills` edits this wave
+
+## [2026-08-25] ops | AID-Guard commit helper + Prime Agent sandbox + intermediary-engineer HITL-wired
+
+- Federation skills (opt-in, `disable-model-invocation: true`): `aid-guard-commit`, `prime-agent-sandbox`, `intermediary-engineer`.
+- Helper `scripts/aid_guard_commit.py selftest` — exact-hash revalidation; demo path `local.hot_md`; GitHub/stash still K239 preview. Not a LIVE/Stripe proxy.
+- Trial `scripts/prime_agent_sandbox_trial.sh` — clone inventory + K292 harness-hash retention. **Never** `curl|bash` install.sh; **never** replace Cursor/`/route`.
+- GuruWatcher alert-only: `guruwatcher-k308-metacaster-phase1-wires.mdc` (no TSF runtime).
+- Policy: `cemini-phase1-policy-wires.mdc` §AID-Guard commit + Prime Agent sandbox + intermediary-engineer.
 
 ## [2026-08-25] ingest | K300–K309 harness wave — AID-Guard, memory poisoning, ARGUS RCA, MediSkill-Evo, MetaCaster, Prime Agent
 

@@ -6,6 +6,7 @@ keywords: [2608.21159, AID-Guard, no public repo, commit revalidation, reservati
 related:
   - sources/arxiv-aid-guard-stateful-authorization-2608.21159.md
   - concepts/authorization-to-effect-closure.md
+  - entities/skills/aid-guard-commit.md
   - entities/tools/mandato.md
   - briefs/2026-08-25_ccc-k300-k309-sip-ready.md
 maturity: draft
@@ -19,6 +20,7 @@ updated: 2026-08-25
 
 - `@sources/arxiv-aid-guard-stateful-authorization-2608.21159.md`
 - `@concepts/authorization-to-effect-closure.md`
+- `@entities/skills/aid-guard-commit.md`
 - `@entities/tools/mandato.md` (K285 pair — mandates at admission, closure at effect)
 - `@briefs/2026-08-25_ccc-k300-k309-sip-ready.md`
 
@@ -38,4 +40,4 @@ Commit-time revalidation of exact approved request + provider state; one reserva
 
 ## Phase-1
 
-`policy_wired`: `.cursor/rules/cemini-phase1-policy-wires.mdc` §K300–K309 + CCC-only rule `ccc-k300-k309-phase1-wires.mdc`. Dual-ID: Cybersec K302 = PsychJail. Pairs K239 / K285.
+`policy_wired` protocol + HITL skill `aid-guard-commit` / `scripts/aid_guard_commit.py` (selftest). Dual-ID: Cybersec K302 = PsychJail. Pairs K239 / K285. Not a Stripe/LIVE proxy.

@@ -12,6 +12,7 @@ check "policy K308" grep -q "K308" "${REPO_ROOT}/.cursor/rules/cemini-phase1-pol
 check "ccc-rule K308" grep -q "K308" "${REPO_ROOT}/.cursor/rules/ccc-k300-k309-phase1-wires.mdc"
 check "clone" test -d "${REPO_ROOT}/.local/adopts/metacaster"
 check "mit-license-on-disk" grep -qi "MIT License" "${REPO_ROOT}/.local/adopts/metacaster/LICENSE"
+check "skill" test -f "${REPO_ROOT}/.cursor/skills/intermediary-engineer/SKILL.md"
 warn_note "K308 MetaCaster MIT GO REFERENCE clone; TSF runtime wont_wire; GuruWatcher intermediary-engineer pointer only (pairs K281)."
 echo "Summary: ${pass} pass, ${fail} fail, ${warn} warn"
 [[ "${fail}" -eq 0 ]]
