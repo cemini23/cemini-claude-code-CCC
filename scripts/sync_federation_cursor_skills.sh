@@ -187,6 +187,10 @@ install_workspace() {
   fi
   if [[ -f "${SRC_PHASE1_RULE}" ]]; then
     copy_file "${SRC_PHASE1_RULE}" "${rules_dir}/cemini-phase1-policy-wires.mdc"
+    # Cybersec dual-ID lives in a dest overlay; CCC canon does not carry it.
+    if [[ -f "${dest}/scripts/restore_cybersec_dual_id.py" ]]; then
+      python3 "${dest}/scripts/restore_cybersec_dual_id.py" --file "${rules_dir}/cemini-phase1-policy-wires.mdc"
+    fi
   fi
   for skill in "${CANON_SKILLS[@]}"; do
     sync_skill_tree "${skill}" "${dest}"
