@@ -16,11 +16,12 @@ related:
   - concepts/phase1-adopt-wire.md
   - concepts/task-conditioned-least-privilege-agent-learning.md
   - sources/arxiv-task-conditioned-least-privilege-learning-2608.18351.md
+  - concepts/mandate-signature-vs-preauth-intent.md
 maturity: draft
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"
 created: 2026-08-18
-updated: 2026-08-25
+updated: 2026-08-26
 ---
 
 ## Relations

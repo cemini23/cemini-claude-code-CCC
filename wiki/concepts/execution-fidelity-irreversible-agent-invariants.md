@@ -27,9 +27,11 @@ related:
   - entities/tools/thinkingbox.md
   - sources/arxiv-thinkingbox-sandbox-benchmark-stateful-business-2608.19741.md
   - concepts/authorization-to-effect-closure.md
+  - concepts/mandate-signature-vs-preauth-intent.md
+  - concepts/step-level-tool-guardrails.md
 maturity: draft
 created: 2026-08-04
-updated: 2026-08-25
+updated: 2026-08-26
 ---
 
 ## Relations

@@ -1828,3 +1828,15 @@ Cross-wiki stub routed from `@osint-wiki/sources/newsletter-rss-pragmatic-engine
 - **Briefs:** `docs/briefs/2026-08-25_k300-k309-harness-wave.md`; prod pair scp'd to `cemini-prod:/opt/cemini/briefs/` via updated script
 - **Archive:** 10 PDFs → egress-fi (inbox empty except .gitkeep)
 - **Leftover (propose-only):** Prime Agent sandbox trial; AID-Guard commit-revalidation prototype for one low-risk MCP write path — not implemented this wave
+
+## [2026-08-26] ingest | K310–K314 harness wave — AP2 security, SCOUT, StepGuard, StarHarness, Recuris
+
+- **Sources:** arXiv 2608.23858 (AP2 v0.2 threat model — ADOPT policy, no PoCs), 2608.23992 (SCOUT lazy hybrid tool discovery — 140.2k→1.3k tokens, policy only), 2608.24777 (StepGuard step-level guardrails — zheng977 repo license:null → NO-GO clone), 2608.24804 (StarHarness stratified harness evolution — MIT REFERENCE clone), 2608.24876 (Recuris EM–WM memory evolution — Apache-2.0 REFERENCE clone)
+- **New pages:** 5 arxiv sources, 5 concepts (mandate-signature-vs-preauth-intent, hybrid-mcp-tool-discovery-lazy-catalog, step-level-tool-guardrails, stratified-harness-evolution, experiential-working-memory-coupling), 2 entities (starharness, recuris); SIP `wiki/briefs/2026-08-26_ccc-k310-k314-sip-ready.md`
+- **Phase-0:** `adopt_k310`…`k314_phase0.sh` all exit 0 (gh API SPDX: StarHarness MIT; Recuris Apache-2.0). Clones `.local/adopts/{StarHarness 24MB, Recuris 4MB}` <500MB with LICENSE on disk. No AP2 protocol clone as paper artifact.
+- **Phase-1:** `.cursor/rules/cemini-phase1-policy-wires.mdc` §CCC wave K310–K314 + per-topic sections; CCC-only `ccc-k310-k314-phase1-wires.mdc` (not federation-synced). All new entities wire_status ≠ unwired.
+- **Dual-ID preserved:** CCC K285 Mandato ≠ CCC K310 pre-auth context; BPS/Wayfinder/AID-Guard leftover skills blocks kept intact in policy file.
+- **Cross-wiki:** cybersec steal AP2+StepGuard (`../Cybersecurity wiki/briefs/2026-08-26_k310-k312-ap2-stepguard-steal-from-ccc.md`, no PoCs); atto steal mandate≠intent + lazy catalog (`../atto/briefs/2026-08-26_k310-k311-mandate-intent-lazy-mcp-from-ccc.md`)
+- **Briefs:** `docs/briefs/2026-08-26_k310-k314-harness-wave.md`; prod pair scp'd to `cemini-prod:/opt/cemini/briefs/` via updated script
+- **Archive:** 5 PDFs → egress-fi (inbox empty except .gitkeep)
+- **Leftover (propose-only):** SCOUT-style meta-tools on `/route`; StepGuard-style PreToolUse gate — HITL later, not implemented this wave

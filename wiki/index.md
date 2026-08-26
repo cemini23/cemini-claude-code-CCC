@@ -175,6 +175,8 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`mcp-universe-rl`](entities/tools/mcp-universe-rl.md) | draft | MCP-Universe RL trainer — Apache REFERENCE (K305) |
 | [`metacaster`](entities/tools/metacaster.md) | draft | MetaCaster meta-harness TSF — MIT REFERENCE (K308) |
 | [`prime-agent`](entities/tools/prime-agent.md) | draft | Prime Agent RLM harness — MIT REFERENCE <500MB (K309) |
+| [`starharness`](entities/tools/starharness.md) | draft | StarHarness stratified harness evolution — MIT REFERENCE <500MB (K313) |
+| [`recuris`](entities/tools/recuris.md) | draft | Recuris EM–WM memory evolution — Apache-2.0 REFERENCE <500MB (K314) |
 
 ## entities/mcp-servers/
 
@@ -570,6 +572,11 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`process-constrained-self-evolution`](concepts/process-constrained-self-evolution.md) | draft | Process-constrained self-evolution — 2608.23397 (K307) |
 | [`agent-as-intermediary-engineer`](concepts/agent-as-intermediary-engineer.md) | draft | Agent as intermediary engineer — 2608.23473 (K308) |
 | [`rlm-continual-harness`](concepts/rlm-continual-harness.md) | draft | RLM REPL + Continual Harness — 2608.23552 (K309) |
+| [`mandate-signature-vs-preauth-intent`](concepts/mandate-signature-vs-preauth-intent.md) | draft | Mandate signature vs pre-auth intent — 2608.23858 (K310) |
+| [`hybrid-mcp-tool-discovery-lazy-catalog`](concepts/hybrid-mcp-tool-discovery-lazy-catalog.md) | draft | Hybrid MCP tool discovery, lazy catalog — 2608.23992 (K311) |
+| [`step-level-tool-guardrails`](concepts/step-level-tool-guardrails.md) | draft | Step-level tool guardrails + safety–utility dial — 2608.24777 (K312) |
+| [`stratified-harness-evolution`](concepts/stratified-harness-evolution.md) | draft | Stratified harness evolution protocol — 2608.24804 (K313) |
+| [`experiential-working-memory-coupling`](concepts/experiential-working-memory-coupling.md) | draft | EM–WM coupling, validation-gated skill memory — 2608.24876 (K314) |
 
 ## sources/
 
@@ -893,6 +900,11 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-mediskill-evo-process-constrained-2608.23397`](sources/arxiv-mediskill-evo-process-constrained-2608.23397.md) | draft | MediSkill-Evo process-constrained evolution — 2608.23397 (K307) |
 | [`arxiv-metacaster-meta-harness-tsf-2608.23473`](sources/arxiv-metacaster-meta-harness-tsf-2608.23473.md) | draft | MetaCaster few-shot TSF — 2608.23473 (K308) |
 | [`arxiv-prime-agent-rlm-harness-2608.23552`](sources/arxiv-prime-agent-rlm-harness-2608.23552.md) | draft | Prime Agent RLM harness — 2608.23552 (K309) |
+| [`arxiv-ap2-beyond-the-mandate-2608.23858`](sources/arxiv-ap2-beyond-the-mandate-2608.23858.md) | draft | AP2 v0.2 systematic security analysis — 2608.23858 (K310) |
+| [`arxiv-scout-hybrid-mcp-tool-discovery-2608.23992`](sources/arxiv-scout-hybrid-mcp-tool-discovery-2608.23992.md) | draft | SCOUT hybrid MCP tool discovery — 2608.23992 (K311) |
+| [`arxiv-stepguard-step-level-guardrails-2608.24777`](sources/arxiv-stepguard-step-level-guardrails-2608.24777.md) | draft | StepGuard step-level guardrails — 2608.24777 (K312) |
+| [`arxiv-starharness-stratified-harness-evolution-2608.24804`](sources/arxiv-starharness-stratified-harness-evolution-2608.24804.md) | draft | StarHarness stratified search — 2608.24804 (K313) |
+| [`arxiv-recuris-em-wm-memory-evolution-2608.24876`](sources/arxiv-recuris-em-wm-memory-evolution-2608.24876.md) | draft | Recuris EM–WM memory evolution — 2608.24876 (K314) |
 
 ## meta/
 

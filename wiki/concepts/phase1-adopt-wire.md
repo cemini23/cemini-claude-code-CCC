@@ -118,9 +118,10 @@ related:
   - briefs/2026-08-21_ccc-handoff-k295-k299-ingest.md
   - briefs/2026-08-21_ccc-k295-k299-sip-ready.md
   - briefs/2026-08-25_ccc-k300-k309-sip-ready.md
+  - briefs/2026-08-26_ccc-k310-k314-sip-ready.md
 maturity: draft
 created: 2026-07-31
-updated: 2026-08-25
+updated: 2026-08-26
 ---
 
 ## Relations

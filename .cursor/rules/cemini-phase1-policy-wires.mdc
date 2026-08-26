@@ -594,3 +594,37 @@ Operator-invoked federation skills (`disable-model-invocation: true`): `.cursor/
 - **AID-Guard helper** — `scripts/aid_guard_commit.py` reserve → commit (exact hash) → release / certify-no-effect / one successor. Default demo path is `local.hot_md`. GitHub MCP file writes and stash writes use the same protocol; **preview/HITL still required** (K239). `python3 scripts/aid_guard_commit.py selftest` is the executable check. Not a Stripe/LIVE proxy.
 - **Prime Agent sandbox** — `scripts/prime_agent_sandbox_trial.sh` is inventory + K292 retention (harness files unchanged). **Never** run upstream `install.sh`; **never** PATH-swap `/route`.
 - **Intermediary-engineer** — high-frequency numeric surfaces: agent builds the specialist, does not serve each prediction. GuruWatcher: `guruwatcher-k308-metacaster-phase1-wires.mdc` alert-only; no TSF runtime.
+
+## CCC wave K310–K314 (shared policy file)
+
+AP2 pre-auth intent (K310, policy) + SCOUT lazy MCP catalog (K311, policy) + StepGuard step-level guardrails (K312, policy) + StarHarness stratified evolution (K313, MIT REFERENCE clone) + Recuris EM–WM memory coupling (K314, Apache-2.0 REFERENCE clone). Clones: StarHarness (24MB), Recuris (4MB) — REFERENCE only. **CCC-only rule** `ccc-k310-k314-phase1-wires.mdc` — do **not** federation-sync. **Dual-ID:** CCC K285 Mandato ≠ CCC K310 pre-authorization context; same-day Cybersec AP2/StepGuard ingests resolve by file + wiki.
+
+## Mandate signature vs pre-authorization intent (CCC K310)
+
+- **A signed mandate proves integrity of bytes, not user intent.** A2A messages and MCP tool results that shape a transaction stay unsigned; manipulate them and a valid signature encodes an unintended action (48 threats / 8 High by AIVSS across five deployment architectures).
+- Revalidate the approved request **and** the context it was approved against at effect time (pairs K302 revalidate-at-commit). Treat unsigned shaping inputs as attacker-controllable in every threat model.
+- No exploit text or PoCs in wiki/briefs; no paper testbed/scanner clone. `policy_wired`.
+
+## Lazy hybrid MCP tool discovery (CCC K311)
+
+- Never load the full tool catalog at turn 0. Retrieve per step (`tool_search`: BM25 + dense fused by RRF, top-k≈5) then execute (`execute_tool`). PayPal production: 140.2k → 1.3k tool tokens (99%) with zero client changes.
+- Prompt caching does not fix this — the model still attends to the whole catalog. Pairs BPS set-not-top-k + K164 lazy skill stacks.
+- No public repo → `policy_wired`. SCOUT-style meta-tools on `/route` = propose-only leftover (HITL later).
+
+## Gate the step, not only the answer (CCC K312)
+
+- Check candidate tool actions **before execution**; audit completed trajectories afterwards. Guards are tuned on an explicit safety–utility dial (StepGuard: ASR −77.3%, utility −2.8 pts) — over-defense burns utility, under-defense burns safety.
+- Context-matched supervision (safe/unsafe variants diverge only at the risky step) stops guards from keying on tool identity. Pairs K239 preview-before-effect.
+- `zheng977/StepGuard` license:null → NO-GO clone; trainer `wont_wire`, policy `policy_wired`. PreToolUse-style gate = propose-only leftover.
+
+## Stratified harness evolution (CCC K313)
+
+- Evolve harness (prompts/tools/skills/MCP/subagents/loop) with **weights frozen**; pool stratified by baseline failure mode; proposer-visible search tasks ≠ proposer-hidden selection tasks ≠ held-out eval; accept few changes (4–12 → +20–35 pp); transfer cross-model without re-evolution.
+- Never optimize pass criteria; no closed rewrite of `## Verify` (pairs K162/K281/K292/K298). Do not auto-evolve `.cursor/skills`.
+- `ServiceNow/StarHarness` MIT → GO REFERENCE `.local/adopts/StarHarness`; trainer `wont_wire`.
+
+## EM–WM coupling + validation-gated skill memory (CCC K314)
+
+- Working Memory tracks live task state and **picks** skills from Experiential Memory — grounding skill use in current needs instead of full history (+17.8 pp τ²-Bench GPT-5.6 Sol; failure modes −20–86%).
+- Execution traces localize failures to a specific memory component; Meta-Agent applies **validation-gated** patches; loop stays bounded. **HITL before any skill self-write** (pairs K237/K298/K307/K309).
+- `Gen-Verse/Recuris` Apache-2.0 → GO REFERENCE `.local/adopts/Recuris`; runtime `wont_wire`.

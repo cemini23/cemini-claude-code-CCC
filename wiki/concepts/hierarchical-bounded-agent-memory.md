@@ -20,9 +20,10 @@ related:
   - concepts/decision-coupled-hierarchical-agentic-memory.md
   - sources/arxiv-ham-vln-hierarchical-agentic-memory-2607.29600.md
   - entities/tools/ham-vln.md
+  - concepts/experiential-working-memory-coupling.md
 maturity: draft
 created: 2026-07-13
-updated: 2026-08-03
+updated: 2026-08-26
 ---
 
 ## Relations

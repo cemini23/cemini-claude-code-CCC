@@ -30,9 +30,10 @@ related:
   - concepts/domain-mcp-skills-fresh-subagent-orchestration.md
   - concepts/cost-aware-tool-acquisition-stopping.md
   - concepts/programmatic-vs-json-tool-calling.md
+  - concepts/hybrid-mcp-tool-discovery-lazy-catalog.md
 maturity: draft
 created: 2026-07-14
-updated: 2026-07-30
+updated: 2026-08-26
 ---
 
 ## Relations
