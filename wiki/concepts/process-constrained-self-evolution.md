@@ -7,9 +7,10 @@ related:
   - sources/arxiv-mediskill-evo-process-constrained-2608.23397.md
   - concepts/skill-misevolution.md
   - briefs/2026-08-25_ccc-k300-k309-sip-ready.md
+  - concepts/validation-ratchet-skill-evolution.md
 maturity: draft
 created: 2026-08-25
-updated: 2026-08-25
+updated: 2026-08-28
 ---
 
 ## Relations

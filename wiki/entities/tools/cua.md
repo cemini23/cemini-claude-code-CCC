@@ -13,9 +13,10 @@ related:
   - concepts/agent-sandbox-unikraft.md
   - entities/tools/fara.md
   - entities/tools/openshell.md
+  - concepts/structured-state-semantic-actions.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-07-07
+updated: 2026-08-28
 ---
 
 ## Relations

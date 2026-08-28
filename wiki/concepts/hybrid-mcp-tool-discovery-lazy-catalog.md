@@ -7,9 +7,11 @@ related:
   - sources/arxiv-scout-hybrid-mcp-tool-discovery-2608.23992.md
   - concepts/hierarchical-skill-stack-lazy-orchestration.md
   - concepts/skill-set-selection-under-budget.md
+  - briefs/2026-08-28_ccc-k315-k324-sip-ready.md
+  - entities/skills/scout-tool-search.md
 maturity: draft
 created: 2026-08-26
-updated: 2026-08-26
+updated: 2026-08-28
 ---
 
 ## Relations

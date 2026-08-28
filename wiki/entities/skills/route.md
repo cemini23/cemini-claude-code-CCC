@@ -15,9 +15,12 @@ related:
   - concepts/persona-hat-claude-code-sdlc.md
   - sources/arxiv-skill-misevolution-2608.12851.md
   - sources/brief-k238-persona-hat-claude-gcp-2026-08-15.md
+  - concepts/progress-guided-step-routing.md
+  - entities/skills/scout-tool-search.md
+  - sources/arxiv-progrouter-progress-orchestration-2608.25992.md
 maturity: validated
 created: 2026-07-01
-updated: 2026-08-21
+updated: 2026-08-28
 ---
 
 ## Relations

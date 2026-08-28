@@ -47,9 +47,12 @@ related:
   - sources/trading-posts-compilation-7-2026-06-09.md
   - concepts/tool-response-context-pruning-summarization.md
   - sources/arxiv-less-context-better-agents-2606.10209.md
+  - concepts/query-aware-role-fusion.md
+  - sources/arxiv-claude-code-complete-user-handbook-2608.26742.md
+  - sources/arxiv-more-mixture-of-roles-2608.27338.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-06-15
+updated: 2026-08-28
 ---
 
 ## Relations

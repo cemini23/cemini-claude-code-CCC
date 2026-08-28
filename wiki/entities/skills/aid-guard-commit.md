@@ -9,9 +9,10 @@ related:
   - entities/skills/prime-agent-sandbox.md
   - entities/skills/intermediary-engineer.md
   - briefs/2026-08-25_ccc-k300-k309-sip-ready.md
+  - entities/skills/step-gate.md
 maturity: draft
 created: 2026-08-25
-updated: 2026-08-25
+updated: 2026-08-28
 wire_status: runtime_wired
 wire_target: ".cursor/skills/aid-guard-commit/SKILL.md"
 ---

@@ -1,0 +1,28 @@
+---
+description: CCC Phase-1 wires from K315–K324 harness wave (CCC-only — do NOT federation-sync)
+alwaysApply: true
+---
+
+# CCC — K315–K324 Phase-1 wires
+
+**Brief:** `docs/briefs/2026-08-28_k315-k324-harness-wave.md` · SIP: `wiki/briefs/2026-08-28_ccc-k315-k324-sip-ready.md`
+
+**Dual-ID (resolve by file + wiki, not bare K#):** **CCC K324** = RedEvoAgent red-team skill evolution (Cybersec-primary — same-day Cybersec PDF ingests as its own K#; CCC takes only the validation ratchet). **CCC K285 Mandato** ≠ K315 ToolMinimize — do not merge. Do not delete BPS / Wayfinder / AID-Guard leftover / K310–K314 blocks.
+
+- **K315** ToolMinimize — **ADOPT policy**: allow/block is not enough; rewrite tool-call argument **values** to minimum necessary PSD (removal / generalization / substitution / truncation). 81–88% of tool calls over-share PSD under default prompts; privacy prompts leave 36–76%; middleware rewrites at 1.77 ms median with 100% argument-level validity (81.2–92.0% privacy-cost cut). PII detectors miss implicit PSD. No public SPDX → `policy_wired`. Cybersec steal. **No PII/PoC dumps anywhere.**
+- **K316** LifePlanner — **OOD** trip-planning bench, short stub. Pass Rate drops to 40.2% on complex planning; failures come from **incomplete evidence acquisition + imprecise tool use + weak constraint integration**, not model size. `wont_wire`. No clone.
+- **K317** TAU-Agent — **OOD** traffic-video RAG, short stub. Central retrieval agent selects evidence (caption + tracking) **then** VLM — lazy, not dump. `siri-rouser/TAU-Agent` **MIT** but **skip clone** (OOD). `wont_wire`.
+- **K318** ProgRouter — **ADOPT step-wise routing**: one-shot cascade fails multi-step workflows; route **per step** from a multi-view progress scorer (outcome regimes + subtask completion + progress trends + state quality) + meta-gating under time/cost budgets. Pairs `/route` quality-cost. No public SPDX → `policy_wired`.
+- **K319** AsymSpec — **WATCH** serving only: drafter reads full context, verifier sees compressed (contrastive δ-fusion + divergence-aware acceptance); ≈90% full-context accuracy at 1.3–1.7× throughput / 0.2–0.3× compute. Huawei. **`wont_wire`**. No clone.
+- **K320** Claude Code Complete User Handbook (Soldani) — **ADOPT practitioner reference**: source page + **delta** on `entities/tools/claude-code.md` (control stack 4-layer; plan-as-contract 8-point; measure usage vs context separately; completion-report discipline; Evidence-Gated Delivery; 21 misconceptions M01–M21). Claims vs Anthropic docs flagged `[TENTATIVE]` / `[NEEDS VERIFICATION]`. No 208-page dump.
+- **K321** ASIL — **ADOPT policy**: JSON structured observations + code-executable semantic actions over screenshot-and-click (screenshots are state-incomplete; actions brittle). ASIL >80 at <5 actions/task vs 6.6/26.6 screenshot-click strict. No SPDX hunt hit → `policy_wired`. GUI runtime **`wont_wire`** — keep cursor-ide-browser; do not add CUA.
+- **K322** MoRe — **WATCH**: query-aware steering-vector fusion gives MAS-level quality at **20× lower token cost**; do not auto-spawn N agents for multi-perspective work. Frozen backbone; GRPO **`wont_wire`**. No clone.
+- **K323** INTENT-AS-A-TOOL — **ADOPT policy**: intent-targeted tools give a **judge-free commitment signal** (call probability), complement CoT monitors, expand labels into dense trajectories, identify critical intervention steps. `RebeccaZhang22/intent-as-a-tool` **MIT** ~0.3MB → **GO REFERENCE** `.local/adopts/intent-as-a-tool`. Runtime **`wont_wire`**. **No attack/PoC text.** Cybersec steal.
+- **K324** RedEvoAgent — **Cybersec-primary**. CCC steal: **validation ratchet** — keep skill updates only if validation improves (pairs K237/K313/K314). Never auto-evolve `.cursor/skills`. **No attack-skill clone. No attack/PoC text.** Runtime **`wont_wire`**.
+
+**HITL leftovers shipped 2026-08-28 (operator-invoked federation skills, NOT `/route` rewrite, NOT a hook install):**
+
+- **SCOUT meta-tools (K311 leftover):** `.cursor/skills/scout-tool-search/` — indexes **local** `.cursor/skills/*/SKILL.md` frontmatter, keyword/term-overlap top-k≈5, `execute` = read that SKILL.md (not a live MCP invoke, not a catalog dump). Helper `scripts/scout_tool_search.py selftest`.
+- **Step gate (K312 leftover):** `.cursor/skills/step-gate/` — closed classifier `(tool, args_summary)` → `proceed` | `hold` | `escalate` (hold: LIVE Discord, scp to cemini-prod, watches.json, `.cursor/skills` mutation, secrets, force-push). Helper `scripts/step_gate.py selftest`. Operator-invoked before high-blast; pairs K239.
+
+Both skills: `federation: true` + `disable-model-invocation: true`, sync on commit. **Do not federation-sync this CCC-only file.**

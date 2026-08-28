@@ -10,9 +10,10 @@ related:
   - concepts/execution-fidelity-irreversible-agent-invariants.md
   - concepts/signed-mandate-mcp-protocol-enforcement.md
   - briefs/2026-08-25_ccc-k300-k309-sip-ready.md
+  - concepts/tool-argument-privacy-minimization.md
 maturity: draft
 created: 2026-08-25
-updated: 2026-08-25
+updated: 2026-08-28
 ---
 
 ## Relations

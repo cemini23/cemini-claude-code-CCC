@@ -11,9 +11,10 @@ related:
   - sources/substack-rss-addy-osmani-2026-08-21-software-factory.md
   - entities/skills/skill-set-budget.md
   - concepts/hybrid-mcp-tool-discovery-lazy-catalog.md
+  - concepts/progress-guided-step-routing.md
 maturity: draft
 created: 2026-08-21
-updated: 2026-08-26
+updated: 2026-08-28
 wire_status: policy_wired
 wire_target: ".cursor/skills/skill-set-budget/SKILL.md"
 ---

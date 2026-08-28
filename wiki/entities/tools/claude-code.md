@@ -58,10 +58,11 @@ related:
   - concepts/agent-harness-operational-definition.md
   - sources/arxiv-agent-harness-operational-definition-2606.10106.md
   - entities/tools/bayesian-agent.md
+  - sources/arxiv-claude-code-complete-user-handbook-2608.26742.md
 maturity: core
 hub: true
 created: 2026-05-13
-updated: 2026-08-14
+updated: 2026-08-28
 ---
 
 ## Relations
@@ -156,6 +157,17 @@ See `@concepts/claude-desktop-vs-claude-code.md` for the full distinction. Short
 ### Cost discipline (load-bearing)
 
 The cost model lives in `@concepts/three-cache-architecture.md` (mechanism) + `@concepts/token-economics-and-prompt-caching.md` (the rules) + `@concepts/mcp-context-optimization.md` (the four-layer stack). Cemini's defaults: static-at-start prompts; 60-270s active polls; 1200-1800s idle waits; never 300s.
+
+### Handbook delta (K320, Soldani 2026-08-26)
+
+Delta from `@sources/arxiv-claude-code-complete-user-handbook-2608.26742.md` — claims not yet cross-checked vs Anthropic docs flagged `[TENTATIVE]`:
+
+1. **Agentic control stack (4 layers, only 2–4 constrain):** (1) advisory instruction — CLAUDE.md/rules/skills/prompt shape intent, not enforced; (2) permission deny→ask→allow — product-enforced, a deny cannot be widened from below; (3) sandbox — OS-enforced (not native Windows); (4) isolation — container/VM contains failures of 2–3. Hooks cut across 1–2 but **no hook decision can bypass a matching deny rule**. An instruction that must hold belongs at layer 2 or below.
+2. **Plan-as-contract:** an 8-point minimum complete plan (outcome+exclusions, inputs, every changed file, ordered steps, open human decisions, tests/evidence, external side effects, rollback). Approve the plan, not "any method"; auto mode is classifier-assisted permission, not a sandbox.
+3. **Measure usage and context separately:** `/usage` = allocation/cost; `/context` = occupancy. Usage climbs superlinearly (every request carries accumulated history); a CLAUDE.md edit does not take effect mid-session.
+4. **Completion report discipline:** distinguish checks that ran from checks described; "do not describe a check that did not run"; inspect evidence yourself.
+5. **Evidence-Gated Delivery:** eight-stage method with named gates ending in a human release gate.
+6. **Misconception corrections (M01–M21):** e.g. `/loop` ≠ cron (session-scoped, 50-task cap, 7-day expiry); fork-mode subagents inherit parent conversation — parent's acceptEdits/bypass overrides subagent mode; workflow agents always run acceptEdits regardless of session mode; green routine status ≠ task success. `[NEEDS VERIFICATION 2026-09-04]`
 
 ## Dead Ends
 

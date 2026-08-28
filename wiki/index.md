@@ -177,6 +177,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`prime-agent`](entities/tools/prime-agent.md) | draft | Prime Agent RLM harness — MIT REFERENCE <500MB (K309) |
 | [`starharness`](entities/tools/starharness.md) | draft | StarHarness stratified harness evolution — MIT REFERENCE <500MB (K313) |
 | [`recuris`](entities/tools/recuris.md) | draft | Recuris EM–WM memory evolution — Apache-2.0 REFERENCE <500MB (K314) |
+| [`intent-as-a-tool`](entities/tools/intent-as-a-tool.md) | draft | Intent-targeted tools for misalignment tracking — MIT REFERENCE <500MB (K323) |
 
 ## entities/mcp-servers/
 
@@ -210,6 +211,8 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`aid-guard-commit`](entities/skills/aid-guard-commit.md) | draft | AID-Guard commit-revalidation helper — federation (K302) |
 | [`prime-agent-sandbox`](entities/skills/prime-agent-sandbox.md) | draft | Prime Agent REFERENCE trial; no Cursor//route swap — federation (K309) |
 | [`intermediary-engineer`](entities/skills/intermediary-engineer.md) | draft | MetaCaster specialist-not-forecaster — federation (K308) |
+| [`scout-tool-search`](entities/skills/scout-tool-search.md) | draft | Local SKILL.md frontmatter top-k search — federation (K311 shipped) |
+| [`step-gate`](entities/skills/step-gate.md) | draft | Closed proceed/hold/escalate step classifier — federation (K312 shipped) |
 | [`phase1-wire`](entities/skills/phase1-wire.md) | draft | Phase-1 adopt-wire skill — /phase1 after Phase-0 |
 | [`goal`](entities/skills/goal.md) | validated | Cursor `/goal` single-shot envelope — federation-wide (K124) |
 | [`route`](entities/skills/route.md) | validated | /route easy·mid·hard·money (v2.3 Flash vs Pro; Grok-out stand-in) |
@@ -577,6 +580,12 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`step-level-tool-guardrails`](concepts/step-level-tool-guardrails.md) | draft | Step-level tool guardrails + safety–utility dial — 2608.24777 (K312) |
 | [`stratified-harness-evolution`](concepts/stratified-harness-evolution.md) | draft | Stratified harness evolution protocol — 2608.24804 (K313) |
 | [`experiential-working-memory-coupling`](concepts/experiential-working-memory-coupling.md) | draft | EM–WM coupling, validation-gated skill memory — 2608.24876 (K314) |
+| [`tool-argument-privacy-minimization`](concepts/tool-argument-privacy-minimization.md) | draft | Rewrite tool args to minimum PSD, not only allow/block — 2608.24957 (K315) |
+| [`progress-guided-step-routing`](concepts/progress-guided-step-routing.md) | draft | Route per step from progress + difficulty + cost — 2608.25992 (K318) |
+| [`structured-state-semantic-actions`](concepts/structured-state-semantic-actions.md) | draft | JSON state + semantic actions over screenshot-click — 2608.26991 (K321) |
+| [`query-aware-role-fusion`](concepts/query-aware-role-fusion.md) | draft | Fused role steering vs spawning N agents — 2608.27338 (K322) |
+| [`intent-as-a-tool-misalignment-signal`](concepts/intent-as-a-tool-misalignment-signal.md) | draft | Intent-tool call probability = judge-free signal — 2608.27348 (K323) |
+| [`validation-ratchet-skill-evolution`](concepts/validation-ratchet-skill-evolution.md) | draft | Keep skill updates only when validation improves — 2608.27439 (K324) |
 
 ## sources/
 
@@ -905,6 +914,16 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-stepguard-step-level-guardrails-2608.24777`](sources/arxiv-stepguard-step-level-guardrails-2608.24777.md) | draft | StepGuard step-level guardrails — 2608.24777 (K312) |
 | [`arxiv-starharness-stratified-harness-evolution-2608.24804`](sources/arxiv-starharness-stratified-harness-evolution-2608.24804.md) | draft | StarHarness stratified search — 2608.24804 (K313) |
 | [`arxiv-recuris-em-wm-memory-evolution-2608.24876`](sources/arxiv-recuris-em-wm-memory-evolution-2608.24876.md) | draft | Recuris EM–WM memory evolution — 2608.24876 (K314) |
+| [`arxiv-toolminimize-privacy-args-2608.24957`](sources/arxiv-toolminimize-privacy-args-2608.24957.md) | draft | ToolMinimize arg rewriting for PSD — 2608.24957 (K315) |
+| [`arxiv-lifeplanner-geospatial-agents-2608.25039`](sources/arxiv-lifeplanner-geospatial-agents-2608.25039.md) | draft | LifePlanner geo-spatial + social bench (OOD) — 2608.25039 (K316) |
+| [`arxiv-tau-agent-traffic-rag-2608.25935`](sources/arxiv-tau-agent-traffic-rag-2608.25935.md) | draft | TAU-Agent traffic-video RAG (OOD) — 2608.25935 (K317) |
+| [`arxiv-progrouter-progress-orchestration-2608.25992`](sources/arxiv-progrouter-progress-orchestration-2608.25992.md) | draft | ProgRouter progress-guided orchestration — 2608.25992 (K318) |
+| [`arxiv-asymspec-speculative-decoding-2608.26004`](sources/arxiv-asymspec-speculative-decoding-2608.26004.md) | draft | AsymSpec context-asymmetric SD (WATCH) — 2608.26004 (K319) |
+| [`arxiv-claude-code-complete-user-handbook-2608.26742`](sources/arxiv-claude-code-complete-user-handbook-2608.26742.md) | draft | Claude Code Complete User Handbook — 2608.26742 (K320) |
+| [`arxiv-asil-structured-state-semantic-actions-2608.26991`](sources/arxiv-asil-structured-state-semantic-actions-2608.26991.md) | draft | ASIL structured state + semantic actions — 2608.26991 (K321) |
+| [`arxiv-more-mixture-of-roles-2608.27338`](sources/arxiv-more-mixture-of-roles-2608.27338.md) | draft | MoRe mixture of roles (WATCH) — 2608.27338 (K322) |
+| [`arxiv-intent-as-a-tool-misalignment-2608.27348`](sources/arxiv-intent-as-a-tool-misalignment-2608.27348.md) | draft | INTENT-AS-A-TOOL misalignment signal — 2608.27348 (K323) |
+| [`arxiv-redevoagent-redteam-skill-evo-2608.27439`](sources/arxiv-redevoagent-redteam-skill-evo-2608.27439.md) | draft | RedEvoAgent red-team skill evo — 2608.27439 (K324) |
 
 ## meta/
 

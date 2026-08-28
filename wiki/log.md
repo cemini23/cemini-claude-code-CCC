@@ -1840,3 +1840,16 @@ Cross-wiki stub routed from `@osint-wiki/sources/newsletter-rss-pragmatic-engine
 - **Briefs:** `docs/briefs/2026-08-26_k310-k314-harness-wave.md`; prod pair scp'd to `cemini-prod:/opt/cemini/briefs/` via updated script
 - **Archive:** 5 PDFs → egress-fi (inbox empty except .gitkeep)
 - **Leftover (propose-only):** SCOUT-style meta-tools on `/route`; StepGuard-style PreToolUse gate — HITL later, not implemented this wave
+
+## [2026-08-28] ingest | K315–K324 harness wave — ToolMinimize, ProgRouter, ASIL, Intent-as-a-Tool, RedEvoAgent + SCOUT/StepGate skills shipped
+
+- **Sources:** arXiv 2608.24957 (ToolMinimize arg rewriting — ADOPT policy, no public SPDX), 2608.25039 (LifePlanner — OOD stub), 2608.25935 (TAU-Agent — OOD stub, MIT repo skipped), 2608.25992 (ProgRouter step-wise routing — ADOPT policy), 2608.26004 (AsymSpec — WATCH serving), 2608.26742 (Claude Code Complete User Handbook — ADOPT delta), 2608.26991 (ASIL structured state — ADOPT policy), 2608.27338 (MoRe role fusion — WATCH), 2608.27348 (INTENT-AS-A-TOOL — ADOPT policy + MIT REFERENCE clone), 2608.27439 (RedEvoAgent — Cybersec-primary, validation-ratchet steal)
+- **New pages:** 10 arxiv sources, 7 concepts (tool-argument-privacy-minimization, progress-guided-step-routing, structured-state-semantic-actions, query-aware-role-fusion, intent-as-a-tool-misalignment-signal, validation-ratchet-skill-evolution; + delta section on entities/tools/claude-code.md), 3 entities (intent-as-a-tool, scout-tool-search, step-gate); SIP `wiki/briefs/2026-08-28_ccc-k315-k324-sip-ready.md`
+- **Phase-0:** `adopt_k315`…`k324_phase0.sh` all exit 0 (gh API SPDX: TAU-Agent MIT skipped-OOD; intent-as-a-tool MIT 17MB clone). Clones `.local/adopts/intent-as-a-tool` <500MB with LICENSE on disk. No TAU / RedEvoAgent / AsymSpec / AP2 clones.
+- **Phase-1:** `.cursor/rules/cemini-phase1-policy-wires.mdc` §CCC wave K315–K324 + per-topic sections; CCC-only `ccc-k315-k324-phase1-wires.mdc` (not federation-synced). K311/K312 leftover lines updated to "shipped 2026-08-28" in both rule files. All new entities wire_status ≠ unwired.
+- **HITL leftovers shipped:** `.cursor/skills/scout-tool-search/` + `scripts/scout_tool_search.py selftest` (local SKILL.md frontmatter top-k; execute = read SKILL.md; 16 federation skills indexed) and `.cursor/skills/step-gate/` + `scripts/step_gate.py selftest` (closed proceed/hold/escalate; 8 cases). Both `federation: true` + `disable-model-invocation: true`. No `curl|bash`. No hook install. No `~/.claude/settings.json` edits. No `route-task.ps1` rewrite.
+- **Dual-ID preserved:** CCC K324 RedEvoAgent = Cybersec-primary same-day PDF; CCC K285 Mandato ≠ K315 ToolMinimize; BPS/Wayfinder/AID-Guard/K310–K314 blocks kept.
+- **Cross-wiki:** cybersec steal `../Cybersecurity wiki/briefs/2026-08-28_k315-k324-toolminimize-intent-redevoagent-steal-from-ccc.md` (no PoCs); atto steal `../atto/briefs/2026-08-28_k315-k318-toolminimize-progrouter-steal-from-ccc.md`
+- **Briefs:** `docs/briefs/2026-08-28_k315-k324-harness-wave.md`; prod pair scp'd to `cemini-prod:/opt/cemini/briefs/` via updated script
+- **Archive:** 10 PDFs → egress-fi (inbox empty except .gitkeep)
+- **Leftover (propose-only, not implemented):** real Claude PreToolUse hook for step gate; dense SCOUT index over MCP tool schemas — HITL later

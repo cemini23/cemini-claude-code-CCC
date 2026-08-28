@@ -6,9 +6,14 @@ keywords: [StepGuard, StepGen, Balance-GRPO, pre-execution check, trajectory aud
 related:
   - sources/arxiv-stepguard-step-level-guardrails-2608.24777.md
   - concepts/execution-fidelity-irreversible-agent-invariants.md
+  - briefs/2026-08-28_ccc-k315-k324-sip-ready.md
+  - concepts/intent-as-a-tool-misalignment-signal.md
+  - concepts/tool-argument-privacy-minimization.md
+  - entities/skills/step-gate.md
+  - sources/arxiv-toolminimize-privacy-args-2608.24957.md
 maturity: draft
 created: 2026-08-26
-updated: 2026-08-26
+updated: 2026-08-28
 ---
 
 ## Relations

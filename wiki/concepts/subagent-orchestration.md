@@ -133,9 +133,10 @@ related:
   - sources/arxiv-agentradio-passive-awareness-multi-agent-2607.28430.md
   - entities/skills/free-audit.md
   - concepts/graph-engineering-system-intelligence.md
+  - concepts/query-aware-role-fusion.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-08-25
+updated: 2026-08-28
 ---
 
 ## Relations

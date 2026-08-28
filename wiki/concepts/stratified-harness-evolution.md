@@ -6,9 +6,10 @@ keywords: [StarHarness, failure-mode stratification, proposer-hidden selection, 
 related:
   - sources/arxiv-starharness-stratified-harness-evolution-2608.24804.md
   - entities/tools/starharness.md
+  - concepts/validation-ratchet-skill-evolution.md
 maturity: draft
 created: 2026-08-26
-updated: 2026-08-26
+updated: 2026-08-28
 ---
 
 ## Relations

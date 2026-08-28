@@ -12,11 +12,13 @@ related:
   - sources/brief-k244-k248-urban-gui-mcp-hive-turnsight-2026-08-05.md
   - briefs/2026-08-05_ccc-handoff-k244-k248-ingest.md
   - concepts/phase1-adopt-wire.md
+  - concepts/structured-state-semantic-actions.md
+  - sources/arxiv-asil-structured-state-semantic-actions-2608.26991.md
 maturity: draft
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"
 created: 2026-08-05
-updated: 2026-08-05
+updated: 2026-08-28
 ---
 
 ## Relations
