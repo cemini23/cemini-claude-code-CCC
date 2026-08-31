@@ -21,11 +21,13 @@ related:
   - concepts/terminal-state-eval-discovery-reliability-gap.md
   - entities/tools/thinkingbox.md
   - sources/arxiv-thinkingbox-sandbox-benchmark-stateful-business-2608.19741.md
+  - concepts/bounded-authority-auditable-trajectories.md
+  - sources/arxiv-llm-agents-software-systems-security-slr-2608.28490.md
 maturity: draft
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"
 created: 2026-08-14
-updated: 2026-08-21
+updated: 2026-08-31
 ---
 
 ## Relations

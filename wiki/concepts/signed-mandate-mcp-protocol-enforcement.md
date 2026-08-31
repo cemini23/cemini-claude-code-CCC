@@ -17,11 +17,14 @@ related:
   - concepts/task-conditioned-least-privilege-agent-learning.md
   - sources/arxiv-task-conditioned-least-privilege-learning-2608.18351.md
   - concepts/mandate-signature-vs-preauth-intent.md
+  - concepts/recognition-vs-enforcement-instruction-arbitration.md
+  - entities/patterns/external-reference-monitor.md
+  - sources/arxiv-recognition-without-enforcement-2608.28502.md
 maturity: draft
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"
 created: 2026-08-18
-updated: 2026-08-26
+updated: 2026-08-31
 ---
 
 ## Relations

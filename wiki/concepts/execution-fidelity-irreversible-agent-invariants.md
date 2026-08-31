@@ -29,9 +29,13 @@ related:
   - concepts/authorization-to-effect-closure.md
   - concepts/mandate-signature-vs-preauth-intent.md
   - concepts/step-level-tool-guardrails.md
+  - concepts/bounded-authority-auditable-trajectories.md
+  - concepts/cross-process-plugin-agent-harness.md
+  - sources/arxiv-llm-agents-software-systems-security-slr-2608.28490.md
+  - sources/arxiv-logos-cross-process-agent-harness-2608.28553.md
 maturity: draft
 created: 2026-08-04
-updated: 2026-08-26
+updated: 2026-08-31
 ---
 
 ## Relations

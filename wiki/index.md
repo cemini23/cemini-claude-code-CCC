@@ -178,6 +178,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`starharness`](entities/tools/starharness.md) | draft | StarHarness stratified harness evolution — MIT REFERENCE <500MB (K313) |
 | [`recuris`](entities/tools/recuris.md) | draft | Recuris EM–WM memory evolution — Apache-2.0 REFERENCE <500MB (K314) |
 | [`intent-as-a-tool`](entities/tools/intent-as-a-tool.md) | draft | Intent-targeted tools for misalignment tracking — MIT REFERENCE <500MB (K323) |
+| [`logos-agent-harness`](entities/tools/logos-agent-harness.md) | draft | Logos cross-process agent harness — policy only, wont_wire (K327) |
 
 ## entities/mcp-servers/
 
@@ -240,6 +241,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`role-specialization-model`](entities/patterns/role-specialization-model.md) | draft | RSM multi-tool role coordination — HITL + prompt-hardening (K276) |
 | [`treatment-blind-endpoint-integrity`](entities/patterns/treatment-blind-endpoint-integrity.md) | draft | Labels ≠ endpoints — Integrity Chain (K277) |
 | [`differential-fault-injection-validation`](entities/patterns/differential-fault-injection-validation.md) | draft | Off-nominal paired fault injection — policy (K284) |
+| [`external-reference-monitor`](entities/patterns/external-reference-monitor.md) | draft | Auth source routing + capability-gated execution — policy_wired (K326) |
 | [`signed-mandate-mcp-proxy`](entities/patterns/signed-mandate-mcp-proxy.md) | draft | Signed mandate MCP proxy — policy (K285) |
 | [`task-conditioned-least-privilege-envelope`](entities/patterns/task-conditioned-least-privilege-envelope.md) | draft | Task-relative least-privilege envelope — policy (K290) |
 | [`state-semantic-injection-esti`](entities/patterns/state-semantic-injection-esti.md) | draft | ESTI planner-state integrity — policy (K288) |
@@ -586,6 +588,9 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`query-aware-role-fusion`](concepts/query-aware-role-fusion.md) | draft | Fused role steering vs spawning N agents — 2608.27338 (K322) |
 | [`intent-as-a-tool-misalignment-signal`](concepts/intent-as-a-tool-misalignment-signal.md) | draft | Intent-tool call probability = judge-free signal — 2608.27348 (K323) |
 | [`validation-ratchet-skill-evolution`](concepts/validation-ratchet-skill-evolution.md) | draft | Keep skill updates only when validation improves — 2608.27439 (K324) |
+| [`bounded-authority-auditable-trajectories`](concepts/bounded-authority-auditable-trajectories.md) | draft | Security agents: act ≠ bounded/auditable — 2608.28490 (K325) |
+| [`recognition-vs-enforcement-instruction-arbitration`](concepts/recognition-vs-enforcement-instruction-arbitration.md) | draft | Recognition ≠ enforcement; external monitor — 2608.28502 (K326) |
+| [`cross-process-plugin-agent-harness`](concepts/cross-process-plugin-agent-harness.md) | draft | Plugin=process, append-only transcript — 2608.28553 (K327) |
 
 ## sources/
 
@@ -924,6 +929,9 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-more-mixture-of-roles-2608.27338`](sources/arxiv-more-mixture-of-roles-2608.27338.md) | draft | MoRe mixture of roles (WATCH) — 2608.27338 (K322) |
 | [`arxiv-intent-as-a-tool-misalignment-2608.27348`](sources/arxiv-intent-as-a-tool-misalignment-2608.27348.md) | draft | INTENT-AS-A-TOOL misalignment signal — 2608.27348 (K323) |
 | [`arxiv-redevoagent-redteam-skill-evo-2608.27439`](sources/arxiv-redevoagent-redteam-skill-evo-2608.27439.md) | draft | RedEvoAgent red-team skill evo — 2608.27439 (K324) |
+| [`arxiv-llm-agents-software-systems-security-slr-2608.28490`](sources/arxiv-llm-agents-software-systems-security-slr-2608.28490.md) | draft | Security-agent SLR 2023–2026 — 2608.28490 (K325) |
+| [`arxiv-recognition-without-enforcement-2608.28502`](sources/arxiv-recognition-without-enforcement-2608.28502.md) | draft | Recognition Without Enforcement — 2608.28502 (K326) |
+| [`arxiv-logos-cross-process-agent-harness-2608.28553`](sources/arxiv-logos-cross-process-agent-harness-2608.28553.md) | draft | Logos cross-process agent harness — 2608.28553 (K327) |
 
 ## meta/
 
@@ -950,6 +958,9 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`2026-08-19-daily`](sweeps/2026-08-19-daily.md) | Daily digest — 0 new PDFs |
 | [`2026-08-20-daily`](sweeps/2026-08-20-daily.md) | Daily digest — 5 papers (K290–K294 wave) |
 | [`2026-08-21-daily`](sweeps/2026-08-21-daily.md) | Daily digest — 5 papers (K295–K299 wave) |
+| [`2026-08-29-daily`](sweeps/2026-08-29-daily.md) | Daily digest — 0 new PDFs; 6 dupes skipped |
+| [`2026-08-30-daily`](sweeps/2026-08-30-daily.md) | Daily digest — 0 new PDFs; 6 dupes skipped |
+| [`2026-08-31-daily`](sweeps/2026-08-31-daily.md) | Daily digest — 3 papers (K325–K327 wave) |
 
 ## entities/people/
 

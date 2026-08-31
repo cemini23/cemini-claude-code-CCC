@@ -1853,3 +1853,16 @@ Cross-wiki stub routed from `@osint-wiki/sources/newsletter-rss-pragmatic-engine
 - **Briefs:** `docs/briefs/2026-08-28_k315-k324-harness-wave.md`; prod pair scp'd to `cemini-prod:/opt/cemini/briefs/` via updated script
 - **Archive:** 10 PDFs → egress-fi (inbox empty except .gitkeep)
 - **Leftover (propose-only, not implemented):** real Claude PreToolUse hook for step gate; dense SCOUT index over MCP tool schemas — HITL later
+
+## [2026-08-31] ingest | K325–K327 harness wave — security-agent SLR, recognition-vs-enforcement, Logos cross-process bus
+
+- **Sources:** arXiv 2608.28490 (LLM-Based Agents for Software and Systems Security — 72-page SLR, Cybersec-primary), 2608.28502 (Recognition Without Enforcement — ADOPT policy, no PoCs), 2608.28553 (Logos — ADOPT policy, no clone)
+- **New pages:** 3 arxiv sources, 3 concepts (bounded-authority-auditable-trajectories, recognition-vs-enforcement-instruction-arbitration, cross-process-plugin-agent-harness), 2 entities (external-reference-monitor `policy_wired`, logos-agent-harness `wont_wire`); SIP `wiki/briefs/2026-08-31_ccc-k325-k327-sip-ready.md`
+- **Phase-0:** `adopt_k325`…`k327_phase0.sh` all exit 0. **No clones** — no InstructionArbitrationBench (no SPDX), no Logos (no SPDX). No attack templates / no PoCs anywhere.
+- **Phase-1:** `.cursor/rules/cemini-phase1-policy-wires.mdc` §CCC wave K325–K327 + per-topic sections; CCC-only `ccc-k325-k327-phase1-wires.mdc` (NOT federation-synced). Entity wire_status ≠ unwired: K326 `policy_wired`, K327 `wont_wire` (runtime), K325 survey `wont_wire`.
+- **Dual-ID preserved:** same-day Cybersec inbox has 2608.28490 + 2608.28502 (its own K#); CCC K285 Mandato / K310 AP2 / K312 StepGate remain distinct from K326 external monitor; BPS/Wayfinder/AID-Guard/K310–K324 blocks kept.
+- **Cross-wiki:** cybersec steal `../Cybersecurity wiki/briefs/2026-08-31_k325-k326-slr-external-monitor-steal-from-ccc.md` (no PoCs); atto steal `../atto/briefs/2026-08-31_k326-k327-external-enforcement-process-plugins-from-ccc.md`
+- **Briefs:** `docs/briefs/2026-08-31_k325-k327-harness-wave.md`; prod pair `briefs/2026-08-31_k325-k327-harness-wave-prod.md` + `-harness-policy-hands-on.md` scp'd to `cemini-prod:/opt/cemini/briefs/` via updated script
+- **Archive:** 3 PDFs → egress-fi (inbox empty except `.gitkeep`)
+- **Sweeps:** committed 2026-08-29 / 2026-08-30 / 2026-08-31 daily digests
+- **Leftover (propose-only, not implemented):** real Claude Code PreToolUse hook (`~/.claude/settings.json` — ask first); dense SCOUT index — HITL later

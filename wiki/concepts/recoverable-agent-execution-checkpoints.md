@@ -13,11 +13,14 @@ related:
   - sources/brief-k282-k284-harness-wave-2026-08-17.md
   - briefs/2026-08-17_ccc-handoff-k282-k284-ingest.md
   - concepts/phase1-adopt-wire.md
+  - concepts/cross-process-plugin-agent-harness.md
+  - entities/tools/logos-agent-harness.md
+  - sources/arxiv-logos-cross-process-agent-harness-2608.28553.md
 maturity: draft
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"
 created: 2026-08-17
-updated: 2026-08-17
+updated: 2026-08-31
 ---
 
 ## Relations

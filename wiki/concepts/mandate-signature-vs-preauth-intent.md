@@ -7,9 +7,11 @@ related:
   - sources/arxiv-ap2-beyond-the-mandate-2608.23858.md
   - concepts/signed-mandate-mcp-protocol-enforcement.md
   - concepts/execution-fidelity-irreversible-agent-invariants.md
+  - concepts/recognition-vs-enforcement-instruction-arbitration.md
+  - sources/arxiv-recognition-without-enforcement-2608.28502.md
 maturity: draft
 created: 2026-08-26
-updated: 2026-08-26
+updated: 2026-08-31
 ---
 
 ## Relations

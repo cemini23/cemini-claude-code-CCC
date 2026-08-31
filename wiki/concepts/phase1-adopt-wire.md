@@ -120,9 +120,12 @@ related:
   - briefs/2026-08-25_ccc-k300-k309-sip-ready.md
   - briefs/2026-08-26_ccc-k310-k314-sip-ready.md
   - briefs/2026-08-28_ccc-k315-k324-sip-ready.md
+  - briefs/2026-08-31_ccc-k325-k327-sip-ready.md
+  - entities/patterns/external-reference-monitor.md
+  - entities/tools/logos-agent-harness.md
 maturity: draft
 created: 2026-07-31
-updated: 2026-08-28
+updated: 2026-08-31
 ---
 
 ## Relations

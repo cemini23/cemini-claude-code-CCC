@@ -11,9 +11,12 @@ related:
   - concepts/tool-argument-privacy-minimization.md
   - entities/skills/step-gate.md
   - sources/arxiv-toolminimize-privacy-args-2608.24957.md
+  - concepts/recognition-vs-enforcement-instruction-arbitration.md
+  - entities/patterns/external-reference-monitor.md
+  - sources/arxiv-recognition-without-enforcement-2608.28502.md
 maturity: draft
 created: 2026-08-26
-updated: 2026-08-28
+updated: 2026-08-31
 ---
 
 ## Relations
