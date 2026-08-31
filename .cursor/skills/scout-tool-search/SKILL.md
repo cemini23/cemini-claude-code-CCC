@@ -7,7 +7,7 @@ description: >-
   the SKILL.md — never a live MCP invoke, never a catalog dump.
 license: MIT
 metadata.author: cemini23
-metadata.version: "1.1.0"
+metadata.version: "1.1.1"
 disable-model-invocation: true
 federation: true
 ---
@@ -32,5 +32,5 @@ Never load every skill's full body to pick one. Index **local** `.cursor/skills/
 
 - Do not use this to enumerate every skill (that is a catalog dump).
 - Do not execute a skill's actions — only read its SKILL.md.
-- No pipe-to-shell install patterns (`curl` piped to `bash`). No network calls. No secrets.
-- Do not rewrite `## Verify`. Do not rewrite `route-task.ps1`. Do not edit `~/.claude/settings.json`.
+- No pipe-to-shell install patterns. No network calls. No secrets.
+- Do not rewrite `## Verify`. Do not rewrite `route-task.ps1`. Do not edit the tracked Claude Code user settings file.

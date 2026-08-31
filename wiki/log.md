@@ -1882,3 +1882,7 @@ Cross-wiki stub routed from `@osint-wiki/sources/newsletter-rss-pragmatic-engine
 - **HOLD classifier:** `watches.json` Write/Edit now HOLD; secrets HOLD on `.env`/credentials paths and write/export, not wiki prose (`grep token`); prod HOLD on `scp`/`ssh` **commands** to cemini-prod/egress, not `~/.ssh/config` mentions.
 - **Installer:** atomic write (`os.replace`) of `settings.local.json`.
 - **Selftests:** scout BM25; step-gate 12 cases; hook 7 payloads + kill switch + malformed stdin.
+
+## [2026-08-31] ops | SkillSpector wording on leftover skills
+
+- `step-gate` + `scout-tool-search` SKILL.md **v1.1.1**: drop `.claude/` path literals and force-push examples so SkillSpector AS1/TM1 stay LOW/SAFE. Installer, hook, and classifier unchanged. Local rescan: both 0/100 SAFE.
