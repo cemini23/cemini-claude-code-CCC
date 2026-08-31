@@ -1866,3 +1866,19 @@ Cross-wiki stub routed from `@osint-wiki/sources/newsletter-rss-pragmatic-engine
 - **Archive:** 3 PDFs → egress-fi (inbox empty except `.gitkeep`)
 - **Sweeps:** committed 2026-08-29 / 2026-08-30 / 2026-08-31 daily digests
 - **Leftover (propose-only, not implemented):** real Claude Code PreToolUse hook (`~/.claude/settings.json` — ask first); dense SCOUT index — HITL later
+
+## [2026-08-31] ops | K311/K312 leftovers shipped — BM25 SCOUT + PreToolUse step-gate hook
+
+- **BM25 SCOUT:** `scripts/scout_tool_search.py` term-overlap scorer replaced with **BM25-lite** (k1=1.5, b=0.75, IDF from the local skill corpus, small substring bonus). No pip, no HF, no vector DB. CLI `query`/`read`/`selftest` unchanged; selftest now also asserts query `step` → `step-gate` in top-k. SKILL.md `.cursor/skills/scout-tool-search/` bumped to v1.1.0 (BM25 wording).
+- **PreToolUse step-gate hook:** new `scripts/claude_pretooluse_step_gate.py` — reads Claude Code PreToolUse JSON on stdin (`tool_name` + `tool_input`), flattens to args summary, calls `step_gate.classify`. **Denies only HOLD** (`permissionDecision: deny`, systemMessage "Operator OK required"); PROCEED/ESCALATE always allow (no deny-on-ESCALATE — would freeze the session). `STEP_GATE_HOOK=0` kill switch. Exit 0 with JSON. `selftest`: 5 synthetic payloads + kill switch.
+- **Installer:** new `scripts/install_pretooluse_step_gate.sh` (idempotent): backups `~/.claude/settings.local.json`, merges `hooks.PreToolUse` matcher `Bash|Write|Edit` → `python3 "<CCC>/scripts/claude_pretooluse_step_gate.py"` timeout 5s, leaves unrelated hooks (claude-mem SessionStart) untouched, prints no secrets. **Run on this machine** — settings.local.json now carries the hook; `~/.claude/settings.json` untouched.
+- **Wiki:** `hooks-for-automation.md` — Cemini now runs exactly one PreToolUse (deny-on-HOLD, settings.local.json); `step-level-tool-guardrails.md` — leftover = **shipped**; `hybrid-mcp-tool-discovery-lazy-catalog.md` — BM25 sparse branch shipped (dense+RRF out of scope). Entity pages `scout-tool-search.md` + `step-gate.md` updated (updated 2026-08-31); SIP brief backlinks added; `wiki/log.md` this entry.
+- **Policy:** `ccc-k310-k314-phase1-wires.mdc` + shared policy K311/K312 bullets — hook + BM25 notes added (no federation-sync).
+- **No commit** — parent audits with GPT-5.6 Sol + Kimi, then lint/commit/push/sync.
+
+## [2026-08-31] ops | leftover audit fixes (Sol + Kimi) then ship
+
+- **Fail-open stdout:** PreToolUse exception path prints allow-JSON to **stdout** (stderr is ignored by Claude Code). Non-object JSON (`[]`) and malformed stdin allow.
+- **HOLD classifier:** `watches.json` Write/Edit now HOLD; secrets HOLD on `.env`/credentials paths and write/export, not wiki prose (`grep token`); prod HOLD on `scp`/`ssh` **commands** to cemini-prod/egress, not `~/.ssh/config` mentions.
+- **Installer:** atomic write (`os.replace`) of `settings.local.json`.
+- **Selftests:** scout BM25; step-gate 12 cases; hook 7 payloads + kill switch + malformed stdin.

@@ -21,4 +21,4 @@ alwaysApply: true
 | K326 | ADOPT policy | External enforcement for high-blast tools; auth-routed sources; capability-gated execution | `policy_wired` (external-reference-monitor) |
 | K327 | ADOPT policy | Isolate plugins; append-only durable state; no re-execution of retained prefix | `wont_wire` runtime (logos-agent-harness) |
 
-**Leftovers stay propose-only (HITL first):** real Claude Code PreToolUse hook (`~/.claude/settings.json` — ask first); dense/BM25+vector SCOUT index. No hook install, no `route-task.ps1` rewrite, no `~/.claude/settings.json` edits, no `.cursor/skills` auto-evolution, no federation sync of this file.
+**Leftovers shipped 2026-08-31 (K311/K312):** BM25 SCOUT + PreToolUse deny-on-HOLD in `~/.claude/settings.local.json`. Remaining propose-only: dense+RRF over a live MCP catalog; InstructionArbitrationBench SPDX watch. No `route-task.ps1` rewrite, no `~/.claude/settings.json` edits, no `.cursor/skills` auto-evolution, no federation sync of this file.

@@ -20,9 +20,9 @@ alwaysApply: true
 - **K323** INTENT-AS-A-TOOL — **ADOPT policy**: intent-targeted tools give a **judge-free commitment signal** (call probability), complement CoT monitors, expand labels into dense trajectories, identify critical intervention steps. `RebeccaZhang22/intent-as-a-tool` **MIT** ~0.3MB → **GO REFERENCE** `.local/adopts/intent-as-a-tool`. Runtime **`wont_wire`**. **No attack/PoC text.** Cybersec steal.
 - **K324** RedEvoAgent — **Cybersec-primary**. CCC steal: **validation ratchet** — keep skill updates only if validation improves (pairs K237/K313/K314). Never auto-evolve `.cursor/skills`. **No attack-skill clone. No attack/PoC text.** Runtime **`wont_wire`**.
 
-**HITL leftovers shipped 2026-08-28 (operator-invoked federation skills, NOT `/route` rewrite, NOT a hook install):**
+**HITL leftovers shipped 2026-08-28 (operator-invoked federation skills, NOT `/route` rewrite):**
 
-- **SCOUT meta-tools (K311 leftover):** `.cursor/skills/scout-tool-search/` — indexes **local** `.cursor/skills/*/SKILL.md` frontmatter, keyword/term-overlap top-k≈5, `execute` = read that SKILL.md (not a live MCP invoke, not a catalog dump). Helper `scripts/scout_tool_search.py selftest`.
-- **Step gate (K312 leftover):** `.cursor/skills/step-gate/` — closed classifier `(tool, args_summary)` → `proceed` | `hold` | `escalate` (hold: LIVE Discord, scp to cemini-prod, watches.json, `.cursor/skills` mutation, secrets, force-push). Helper `scripts/step_gate.py selftest`. Operator-invoked before high-blast; pairs K239.
+- **SCOUT meta-tools (K311 leftover):** `.cursor/skills/scout-tool-search/` — indexes **local** `.cursor/skills/*/SKILL.md` frontmatter, **BM25-lite** top-k≈5 (2026-08-31), `execute` = read that SKILL.md (not a live MCP invoke, not a catalog dump). Helper `scripts/scout_tool_search.py selftest`. Dense+RRF over a live MCP catalog stays out of scope.
+- **Step gate (K312 leftover):** `.cursor/skills/step-gate/` — closed classifier `(tool, args_summary)` → `proceed` | `hold` | `escalate`. Helper `scripts/step_gate.py selftest`. **Real PreToolUse hook 2026-08-31:** `scripts/claude_pretooluse_step_gate.py` in `~/.claude/settings.local.json` (matcher `Bash|Write|Edit`, timeout 5s) — denies **only HOLD**; PROCEED/ESCALATE allow; `STEP_GATE_HOOK=0` kill switch. No Stop hook. No `~/.claude/settings.json` edit.
 
 Both skills: `federation: true` + `disable-model-invocation: true`, sync on commit. **Do not federation-sync this CCC-only file.**

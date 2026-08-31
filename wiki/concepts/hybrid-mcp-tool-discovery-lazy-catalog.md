@@ -9,9 +9,10 @@ related:
   - concepts/skill-set-selection-under-budget.md
   - briefs/2026-08-28_ccc-k315-k324-sip-ready.md
   - entities/skills/scout-tool-search.md
+  - briefs/2026-08-31_ccc-pretooluse-scout-bm25-sip-ready.md
 maturity: draft
 created: 2026-08-26
-updated: 2026-08-28
+updated: 2026-08-31
 ---
 
 ## Relations
@@ -35,7 +36,9 @@ Full `tools/list` injection is O(N) context forever; prompt caching amortizes co
 
 Production number: 140.2k tokens → 1.3k (**99% cut**) with full capability preserved.
 
-CCC policy (ADOPT): never load the full tool catalog at turn 0; retrieve per step, then execute. Same principle as K164 lazy skill stacks (`@concepts/hierarchical-skill-stack-lazy-orchestration.md`) and BPS set-not-top-k (`@concepts/skill-set-selection-under-budget.md`) applied to MCP tool surfaces. Leftover implementation (propose-only): SCOUT-style meta-tools on `/route` — HITL later.
+CCC policy (ADOPT): never load the full tool catalog at turn 0; retrieve per step, then execute. Same principle as K164 lazy skill stacks (`@concepts/hierarchical-skill-stack-lazy-orchestration.md`) and BPS set-not-top-k (`@concepts/skill-set-selection-under-budget.md`) applied to MCP tool surfaces.
+
+**Shipped 2026-08-31 — BM25 SCOUT (sparse branch):** `scripts/scout_tool_search.py` now scores the local skill corpus (name + description + first heading) with **BM25-lite** (k1=1.5, b=0.75, IDF from that corpus, small substring bonus) — no pip, no HF, no vector DB. This is the sparse side of SCOUT's hybrid retrieval, applied to `.cursor/skills/*/SKILL.md`; dense + RRF fusion and SCOUT-style meta-tools on `/route` remain out of scope (HITL later). Selftest covers query `step` → `step-gate` in top-k.
 
 | Confidence | `[CONFIRMED]` — production deployment at PayPal across six MCP clients |
 |------------|------------|

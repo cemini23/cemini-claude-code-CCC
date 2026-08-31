@@ -1,10 +1,14 @@
 #!/usr/bin/env python3
-"""SCOUT tool-search (CCC K311 leftover, shipped 2026-08-28).
+"""SCOUT tool-search (CCC K311 leftover, shipped 2026-08-28; BM25 2026-08-31).
 
 Operator-invoked federation helper: index LOCAL .cursor/skills/*/SKILL.md
 frontmatter (name + description, plus one line from the body's first heading)
-and return keyword / term-overlap top-k (k~=5). 'execute' means READ that
-SKILL.md -- never a live MCP invoke, never a catalog dump.
+and return BM25-lite top-k (k~=5). 'execute' means READ that SKILL.md --
+never a live MCP invoke, never a catalog dump.
+
+Scoring is BM25-lite (k1=1.5, b=0.75) with IDF computed over the local skill
+corpus; a small substring bonus handles e.g. "git" inside "GitHub". No pip
+dependency, no HF, no vector DB.
 
 Usage:
   python3 scripts/scout_tool_search.py query <terms...> [-k 5]
@@ -14,6 +18,7 @@ Usage:
 from __future__ import annotations
 
 import argparse
+import math
 import re
 import sys
 from collections import Counter
@@ -26,6 +31,10 @@ STOP = {
     "the", "a", "an", "and", "or", "of", "to", "for", "in", "on", "with",
     "use", "using", "when", "how", "what", "that", "this", "is", "are", "it",
 }
+
+K1 = 1.5
+B = 0.75
+SUBSTRING_BONUS = 0.05  # small per-query-token bonus for substring hits
 
 
 def _tokens(text: str) -> Counter:
@@ -93,28 +102,66 @@ def index_skills(skills_dir: Path | None = None) -> list[dict]:
     return out
 
 
-def score(sk: dict, query: Counter, q_total: int) -> tuple[float, str]:
+def _corpus_stats(skills: list[dict]) -> tuple[dict, dict, float]:
+    """Return (doc_freq, doc_lengths, avgdl) over the skill corpus.
+
+    doc_freq: term -> number of skills containing it.
+    doc_lengths: name -> token count.
+    """
+    doc_freq: Counter = Counter()
+    doc_lengths: dict[str, int] = {}
+    total_len = 0
+    for sk in skills:
+        toks = _tokens(sk["text"])
+        doc_lengths[sk["name"]] = sum(toks.values())
+        total_len += sum(toks.values())
+        for w in toks:
+            doc_freq[w] += 1
+    n = len(skills)
+    avgdl = total_len / n if n else 0.0
+    return dict(doc_freq), doc_lengths, avgdl
+
+
+def _idf(n: int, df: int) -> float:
+    return math.log(1.0 + (n - df + 0.5) / (df + 0.5))
+
+
+def score_bm25(sk: dict, query: Counter, doc_freq: dict, doc_lengths: dict, avgdl: float) -> tuple[float, str]:
     text_l = sk["text"].lower()
     sk_tok = _tokens(sk["text"])
-    overlap = sum(min(query[w], sk_tok[w]) for w in query)
-    # substring fallback: query token contained in a description word (e.g. "git" in "GitHub")
-    sub = sum(1 for w in query if w in text_l)
-    if q_total == 0:
-        return 0.0, "empty query"
-    cov = max(overlap, sub * 0.5) / q_total
-    if overlap:
-        return cov, "term-overlap with query"
-    if sub:
-        return cov, "substring match in description"
-    return 0.0, "no shared terms"
+    dl = doc_lengths.get(sk["name"], 1)
+    n = max(len(doc_lengths), 1)
+    denom_norm = 1 - B + B * (dl / avgdl) if avgdl else 1.0
+
+    total = 0.0
+    matched = 0
+    for w, qf in query.items():
+        f = sk_tok.get(w, 0)
+        if f > 0:
+            idf = _idf(n, doc_freq.get(w, 0))
+            total += idf * (f * (K1 + 1)) / (f + K1 * denom_norm)
+            matched += 1
+        elif w in text_l:
+            # substring fallback: query token contained in a description word
+            # (e.g. "git" in "GitHub") -- small bonus, keeps IDF-free
+            total += SUBSTRING_BONUS * qf
+            matched += 1
+
+    if matched == 0:
+        return 0.0, "no shared terms"
+    why = "BM25 match" if any(sk_tok.get(w, 0) > 0 for w in query) else "substring match in description"
+    return total, why
 
 
 def search(terms: list[str], k: int = 5) -> list[dict]:
     query = _tokens(" ".join(terms))
-    q_total = sum(query.values())
+    if not query:
+        return []
+    skills = index_skills()
+    doc_freq, doc_lengths, avgdl = _corpus_stats(skills)
     ranked = []
-    for sk in index_skills():
-        s, why = score(sk, query, q_total)
+    for sk in skills:
+        s, why = score_bm25(sk, query, doc_freq, doc_lengths, avgdl)
         if s > 0:
             ranked.append({"name": sk["name"], "path": sk["path"], "score": round(s, 3), "why": why, "desc": sk["desc"]})
     ranked.sort(key=lambda r: (-r["score"], r["name"]))
@@ -157,14 +204,20 @@ def selftest() -> int:
     empty = search(["zzzzzzzz"])
     if empty:
         raise SystemExit(f"selftest FAIL: non-empty result for nonsense query ({empty})")
-    print(f"selftest PASS: {len(skills)} skills indexed; {fed} federation; 'route' in top-k")
+    # BM25 path: query 'step' must rank the step-gate skill in top-k
+    st = search(["step"])
+    if not any(r["name"].lower() == "step-gate" for r in st):
+        names = [r["name"] for r in st]
+        raise SystemExit(f"selftest FAIL: query 'step' did not rank step-gate in top-k ({names})")
+    print(f"selftest PASS: {len(skills)} skills indexed; {fed} federation; "
+          f"'route' and 'step'->step-gate in top-k (BM25)")
     return 0
 
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     sub = ap.add_subparsers(dest="cmd", required=True)
-    q = sub.add_parser("query", help="top-k skill search")
+    q = sub.add_parser("query", help="top-k skill search (BM25-lite)")
     q.add_argument("terms", nargs="+")
     q.add_argument("-k", type=int, default=5)
     q.set_defaults(fn=cmd_search)

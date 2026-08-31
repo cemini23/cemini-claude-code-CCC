@@ -1,8 +1,11 @@
 #!/usr/bin/env python3
-"""Step gate (CCC K312 leftover, shipped 2026-08-28).
+"""Step gate (CCC K312 leftover, shipped 2026-08-28; PreToolUse hook 2026-08-31).
 
 Operator-invoked closed classifier: (tool, args_summary) -> proceed | hold | escalate.
-Run BEFORE a high-blast step. NOT a Claude Code hook install, NOT a live monitor.
+Run BEFORE a high-blast step. The CLI remains operator-invoked. A real Claude
+Code PreToolUse hook now exists: scripts/claude_pretooluse_step_gate.py
+(deny-on-HOLD only, wired into ~/.claude/settings.local.json by
+scripts/install_pretooluse_step_gate.sh; STEP_GATE_HOOK=0 kill switch).
 
   hold     - never do this without explicit operator OK (LIVE Discord, scp to
              cemini-prod, watches.json writes, .cursor/skills mutation, secrets,
@@ -23,15 +26,14 @@ from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 
-# Closed high-blast list: (regex on tool, regex on args_summary) -> hold
-HOLD_PATTERNS: list[tuple[str, str, str]] = [
-    (r"discord", r".*", "LIVE Discord"),
-    (r"scp|ssh|bash", r"cemini-prod|cemini-egress|scp ", "scp/ssh to prod or egress"),
-    (r"(^|\.)(write|edit|replace).*watches|watches\.json", r".*", "watches.json write"),
-    (r"edit|write|replace|bash", r"\.cursor/skills/", ".cursor/skills mutation"),
-    (r"(^|\.)(read|write|edit|bash)", r"\.env|secret|token|api[_-]?key", "secrets/.env"),
-    (r"git|bash", r"git\s+push\s+--force|git\s+push\s+-f\b", "git push --force"),
-]
+# Write-like tools vs bash that actually writes (not grep/cat mentions).
+_WRITE_TOOL = re.compile(r"write|edit|replace")
+_BASHISH = re.compile(r"bash|shell")
+_WRITE_OP = re.compile(r"(>>?|\btee\b|\bcp\b|\bmv\b|\brm\b)")
+_PROD_HOST = re.compile(r"cemini-(prod|egress)")
+_SCP_SSH_CMD = re.compile(r"(?<![\w.])(scp|ssh)(?![\w.])")
+_FORCE_PUSH = re.compile(r"git\s+push\s+(-f\b|--force)")
+_ENV_PATH = re.compile(r"(^|[/\s])\.env(\b|$)|credentials\.json")
 
 # Low-blast allowlist: (regex on tool, regex on args_summary) -> proceed
 PROCEED_PATTERNS: list[tuple[str, str, str]] = [
@@ -41,12 +43,30 @@ PROCEED_PATTERNS: list[tuple[str, str, str]] = [
 ]
 
 
+def _is_mutating(tool_l: str, args_l: str) -> bool:
+    if _WRITE_TOOL.search(tool_l):
+        return True
+    return bool(_BASHISH.search(tool_l) and _WRITE_OP.search(args_l))
+
+
 def classify(tool: str, args_summary: str) -> tuple[str, str]:
     tool_l = (tool or "").lower()
     args_l = (args_summary or "").lower()
-    for tp, ap, why in HOLD_PATTERNS:
-        if re.search(tp, tool_l) and re.search(ap, args_l):
-            return "hold", why
+    if _FORCE_PUSH.search(args_l):
+        return "hold", "git push --force"
+    if "discord" in tool_l and re.search(r"\blive\b", args_l):
+        return "hold", "LIVE Discord"
+    if _SCP_SSH_CMD.search(args_l) and _PROD_HOST.search(args_l):
+        return "hold", "scp/ssh to prod or egress"
+    if "watches.json" in args_l and _is_mutating(tool_l, args_l):
+        return "hold", "watches.json write"
+    if ".cursor/skills" in args_l and _is_mutating(tool_l, args_l):
+        return "hold", ".cursor/skills mutation"
+    if _ENV_PATH.search(args_l) and (
+        _WRITE_TOOL.search(tool_l)
+        or (_BASHISH.search(tool_l) and (_WRITE_OP.search(args_l) or re.search(r"\b(export|curl)\b", args_l)))
+    ):
+        return "hold", "secrets/.env"
     for tp, ap, why in PROCEED_PATTERNS:
         if re.search(tp, tool_l) and re.search(ap, args_l):
             return "proceed", why
@@ -76,6 +96,10 @@ def selftest() -> int:
         ("bash", "python3 scripts/wiki_lint.py", "proceed", "wiki_lint"),
         ("bash", "git push --force origin main", "hold", "force push"),
         ("edit", ".env", "hold", "secrets/.env"),
+        ("write", "watches.json", "hold", "watches.json write"),
+        ("bash", "grep -r token wiki/", "escalate", "read-only token mention"),
+        ("bash", "grep cemini-prod ~/.ssh/config", "escalate", "prod hostname mention"),
+        ("bash", "cat .cursor/skills/route/SKILL.md", "escalate", "read skill not mutate"),
     ]
     for tool, args, want, why in cases:
         got, got_why = classify(tool, args)

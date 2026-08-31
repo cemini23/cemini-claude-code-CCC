@@ -212,8 +212,8 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`aid-guard-commit`](entities/skills/aid-guard-commit.md) | draft | AID-Guard commit-revalidation helper — federation (K302) |
 | [`prime-agent-sandbox`](entities/skills/prime-agent-sandbox.md) | draft | Prime Agent REFERENCE trial; no Cursor//route swap — federation (K309) |
 | [`intermediary-engineer`](entities/skills/intermediary-engineer.md) | draft | MetaCaster specialist-not-forecaster — federation (K308) |
-| [`scout-tool-search`](entities/skills/scout-tool-search.md) | draft | Local SKILL.md frontmatter top-k search — federation (K311 shipped) |
-| [`step-gate`](entities/skills/step-gate.md) | draft | Closed proceed/hold/escalate step classifier — federation (K312 shipped) |
+| [`scout-tool-search`](entities/skills/scout-tool-search.md) | draft | Local SKILL.md BM25-lite top-k search — federation (K311 shipped) |
+| [`step-gate`](entities/skills/step-gate.md) | draft | Closed proceed/hold/escalate classifier + PreToolUse deny-on-HOLD hook — federation (K312 shipped) |
 | [`phase1-wire`](entities/skills/phase1-wire.md) | draft | Phase-1 adopt-wire skill — /phase1 after Phase-0 |
 | [`goal`](entities/skills/goal.md) | validated | Cursor `/goal` single-shot envelope — federation-wide (K124) |
 | [`route`](entities/skills/route.md) | validated | /route easy·mid·hard·money (v2.3 Flash vs Pro; Grok-out stand-in) |

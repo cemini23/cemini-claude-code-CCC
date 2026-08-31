@@ -24,9 +24,11 @@ related:
   - sources/trading-posts-compilation-8-2026-06-09.md
   - concepts/channel-fracture-cross-agent-memory-delivery.md
   - sources/arxiv-channel-fracture-cross-agent-memory-2606.04896.md
+  - entities/skills/step-gate.md
+  - briefs/2026-08-31_ccc-pretooluse-scout-bm25-sip-ready.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-06-12
+updated: 2026-08-31
 ---
 
 ## Relations
@@ -39,6 +41,7 @@ updated: 2026-06-12
 - `@entities/tools/claude-obsidian.md` — case study of SessionStart-hook collision (claude-obsidian vs claude-mem)
 - `@concepts/code-as-agent-harness.md` — hooks as harness feedback control
 - `@concepts/self-healing-agent-sessions.md` — Stop-hook infinite-loop risk under `/goal` healing
+- `@entities/skills/step-gate.md` — the one PreToolUse hook Cemini runs (deny-on-HOLD only)
 
 ## Raw Concept
 
@@ -90,7 +93,7 @@ Misconfigured hooks are the #1 footgun:
 
 - **Wide-deploy ban on Stop hooks** without an explicit, measurable exit condition. The `/goal` Stop hook (which gates on goal-condition satisfaction) is the only Stop hook Cemini runs by default; user-authored Stop hooks need a paired test fixture before adoption.
 - **SessionStart hooks limited to context injection** (claude-mem, hot.md banner, inbox check). No mutation, no surprises.
-- **PreToolUse / PostToolUse hooks** — Cemini doesn't currently run any. Permission policy lives in `.claude/settings.json#permissions.allow|deny` instead, which is declarative and easier to reason about than imperative hook code.
+- **PreToolUse hooks** — Cemini runs exactly **one**: the step-gate deny-on-HOLD hook (`scripts/claude_pretooluse_step_gate.py`, wired into `~/.claude/settings.local.json` via `scripts/install_pretooluse_step_gate.sh`, matcher `Bash|Write|Edit`, timeout 5s). It denies **only** `HOLD` verdicts from `step_gate.classify`; PROCEED and ESCALATE always allow (deny-on-ESCALATE would freeze the session — see `@entities/skills/step-gate.md`). `STEP_GATE_HOOK=0` is the kill switch. No PostToolUse hooks run. Permission policy still lives in `.claude/settings.json#permissions.allow|deny` for declarative hard blocks.
 
 ### Permissions vs hooks
 

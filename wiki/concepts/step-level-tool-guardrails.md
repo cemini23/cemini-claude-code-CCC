@@ -14,6 +14,7 @@ related:
   - concepts/recognition-vs-enforcement-instruction-arbitration.md
   - entities/patterns/external-reference-monitor.md
   - sources/arxiv-recognition-without-enforcement-2608.28502.md
+  - briefs/2026-08-31_ccc-pretooluse-scout-bm25-sip-ready.md
 maturity: draft
 created: 2026-08-26
 updated: 2026-08-31
@@ -38,7 +39,7 @@ Trajectory-level guards see damage after it happens; final-answer checks miss ha
 
 Pairs K239 preview-before-effect (`@concepts/execution-fidelity-irreversible-agent-invariants.md`): preview is the human-facing form of the same gate; StepGuard is the automated form.
 
-Leftover implementation (propose-only): a StepGuard-style PreToolUse hook policy for CCC — HITL later; no trainer runtime (`wont_wire`). Cybersec steal brief written.
+**Shipped 2026-08-31** — real Claude Code PreToolUse hook for CCC: `scripts/claude_pretooluse_step_gate.py`, wired into `~/.claude/settings.local.json` (matcher `Bash|Write|Edit`, timeout 5s) by `scripts/install_pretooluse_step_gate.sh`. It runs the closed `step_gate.classify` on every Bash/Write/Edit call and **denies only HOLD** (`permissionDecision: deny` + "Operator OK required" message); PROCEED and ESCALATE always allow — deny-on-ESCALATE would freeze the session (the K312 safety–utility dial, over-defense cost). `STEP_GATE_HOOK=0` kill switch. The operator-invoked CLI `scripts/step_gate.py check` remains for pre-step classification. No trainer runtime (`wont_wire`). Cybersec steal brief written.
 
 | Confidence | `[CONFIRMED]` — AgentDojo + AgentDyn evals vs no-guard baseline |
 |------------|------------|

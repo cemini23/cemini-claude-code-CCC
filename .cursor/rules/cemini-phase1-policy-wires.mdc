@@ -609,13 +609,13 @@ AP2 pre-auth intent (K310, policy) + SCOUT lazy MCP catalog (K311, policy) + Ste
 
 - Never load the full tool catalog at turn 0. Retrieve per step (`tool_search`: BM25 + dense fused by RRF, top-k≈5) then execute (`execute_tool`). PayPal production: 140.2k → 1.3k tool tokens (99%) with zero client changes.
 - Prompt caching does not fix this — the model still attends to the whole catalog. Pairs BPS set-not-top-k + K164 lazy skill stacks.
-- No public repo → `policy_wired`. SCOUT meta-tools **shipped 2026-08-28 as operator-invoked skill** `scout-tool-search` (federation, `disable-model-invocation: true`) — local SKILL.md frontmatter top-k search, not a `/route` rewrite.
+- No public repo → `policy_wired`. SCOUT meta-tools **shipped 2026-08-28 as operator-invoked skill** `scout-tool-search` (federation, `disable-model-invocation: true`) — local SKILL.md frontmatter top-k search, not a `/route` rewrite. **BM25-lite 2026-08-31**: `scripts/scout_tool_search.py` k1=1.5, b=0.75, IDF from local corpus — no pip/HF/vector DB.
 
 ## Gate the step, not only the answer (CCC K312)
 
 - Check candidate tool actions **before execution**; audit completed trajectories afterwards. Guards are tuned on an explicit safety–utility dial (StepGuard: ASR −77.3%, utility −2.8 pts) — over-defense burns utility, under-defense burns safety.
 - Context-matched supervision (safe/unsafe variants diverge only at the risky step) stops guards from keying on tool identity. Pairs K239 preview-before-effect.
-- `zheng977/StepGuard` license:null → NO-GO clone; trainer `wont_wire`, policy `policy_wired`. Step gate **shipped 2026-08-28 as operator-invoked skill** `step-gate` (federation, `disable-model-invocation: true`) — closed proceed/hold/escalate classifier, not a Claude Code hook install.
+- `zheng977/StepGuard` license:null → NO-GO clone; trainer `wont_wire`, policy `policy_wired`. Step gate **shipped 2026-08-28 as operator-invoked skill** `step-gate` (federation, `disable-model-invocation: true`) — closed proceed/hold/escalate classifier. **Real PreToolUse hook 2026-08-31**: `scripts/claude_pretooluse_step_gate.py` in `~/.claude/settings.local.json` (matcher `Bash|Write|Edit`, timeout 5s) — **denies only HOLD**, PROCEED/ESCALATE allow, `STEP_GATE_HOOK=0` kill switch; no Stop hook, no deny-on-ESCALATE.
 
 ## Stratified harness evolution (CCC K313)
 
