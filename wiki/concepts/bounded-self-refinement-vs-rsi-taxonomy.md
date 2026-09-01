@@ -62,9 +62,12 @@ related:
   - concepts/adaptive-validation-task-selection-harness-optimization.md
   - entities/tools/task-coevolve.md
   - sources/arxiv-task-coevolve-adaptive-validation-task-selection-2608.20169.md
+  - concepts/vague-goal-self-evolution.md
+  - sources/arxiv-aspire-vague-goal-self-evolution-2608.31111.md
+  - briefs/2026-09-01_ccc-k328-k332-sip-ready.md
 maturity: draft
 created: 2026-07-14
-updated: 2026-08-21
+updated: 2026-09-01
 ---
 
 ## Relations
@@ -73,6 +76,9 @@ updated: 2026-08-21
 - `@sources/arxiv-recursive-self-improvement-survey-2607.07663.md` — K162 provenance
 - `@concepts/continual-harness-online-self-improvement.md` — Cemini harness-evolution cluster (deployment-time cell)
 - `@concepts/agent-completion-verification-gates.md` — prefer stronger verification rungs
+- `@concepts/vague-goal-self-evolution.md`
+- `@sources/arxiv-aspire-vague-goal-self-evolution-2608.31111.md`
+- `@briefs/2026-09-01_ccc-k328-k332-sip-ready.md`
 
 ## Raw Concept
 

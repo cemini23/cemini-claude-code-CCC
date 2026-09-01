@@ -32,11 +32,13 @@ related:
   - concepts/mid-training-tool-use-affordance-grounding.md
   - entities/tools/midtool.md
   - sources/arxiv-midtool-mid-training-data-synthesis-2608.20314.md
+  - concepts/domain-grounded-tool-orchestration.md
+  - sources/arxiv-domain-grounded-tool-orchestration-2608.30696.md
 maturity: draft
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"
 created: 2026-08-08
-updated: 2026-08-21
+updated: 2026-09-01
 ---
 
 ## Relations
@@ -46,6 +48,8 @@ updated: 2026-08-21
 - `@entities/tools/cascade-mcp.md`
 - `@concepts/mcp-contract-grounded-synthesis-and-validation-gate.md`
 - `@concepts/schema-bound-mcp-tool-surface.md`
+- `@concepts/domain-grounded-tool-orchestration.md`
+- `@sources/arxiv-domain-grounded-tool-orchestration-2608.30696.md`
 
 ## Raw Concept
 

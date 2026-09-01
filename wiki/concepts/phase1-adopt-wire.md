@@ -123,9 +123,14 @@ related:
   - briefs/2026-08-31_ccc-k325-k327-sip-ready.md
   - entities/patterns/external-reference-monitor.md
   - entities/tools/logos-agent-harness.md
+  - concepts/domain-grounded-tool-orchestration.md
+  - concepts/evaluation-first-rubric-induction.md
+  - concepts/vague-goal-self-evolution.md
+  - entities/tools/autoscirub.md
+  - briefs/2026-09-01_ccc-k328-k332-sip-ready.md
 maturity: draft
 created: 2026-07-31
-updated: 2026-08-31
+updated: 2026-09-01
 ---
 
 ## Relations
@@ -148,6 +153,11 @@ updated: 2026-08-31
 - `@entities/tools/hybrid-gui-mcp-osworld.md` — K245 `policy_wired` entity
 - `@sources/brief-k249-k253-scale-cda-canary-rac-artanno-argus-2026-08-06.md` — K249–K253 batch brief stub
 - `@entities/tools/canary-tools-mcp.md` — K250 `policy_wired` entity
+- `@concepts/domain-grounded-tool-orchestration.md`
+- `@concepts/evaluation-first-rubric-induction.md`
+- `@concepts/vague-goal-self-evolution.md`
+- `@entities/tools/autoscirub.md`
+- `@briefs/2026-09-01_ccc-k328-k332-sip-ready.md`
 
 ## Raw Concept
 

@@ -11,11 +11,13 @@ related:
   - sources/brief-k270-k273-mcp-acm-wave-2026-08-12.md
   - briefs/2026-08-12_ccc-handoff-k270-k273-ingest.md
   - concepts/phase1-adopt-wire.md
+  - concepts/domain-grounded-tool-orchestration.md
+  - sources/arxiv-domain-grounded-tool-orchestration-2608.30696.md
 maturity: draft
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"
 created: 2026-08-12
-updated: 2026-08-12
+updated: 2026-09-01
 ---
 
 ## Relations
@@ -23,6 +25,8 @@ updated: 2026-08-12
 - `@sources/arxiv-agent-callable-spectroscopic-binary-2608.10866.md`
 - `@entities/tools/agent4binary.md`
 - `@concepts/schema-bound-mcp-tool-surface.md`
+- `@concepts/domain-grounded-tool-orchestration.md`
+- `@sources/arxiv-domain-grounded-tool-orchestration-2608.30696.md`
 
 ## Raw Concept
 

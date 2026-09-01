@@ -9,9 +9,11 @@ related:
   - entities/tools/cua.md
   - briefs/2026-08-28_ccc-k315-k324-sip-ready.md
   - sources/arxiv-lifeplanner-geospatial-agents-2608.25039.md
+  - concepts/domain-grounded-tool-orchestration.md
+  - sources/arxiv-domain-grounded-tool-orchestration-2608.30696.md
 maturity: draft
 created: 2026-08-28
-updated: 2026-08-28
+updated: 2026-09-01
 ---
 
 ## Relations
@@ -20,6 +22,8 @@ updated: 2026-08-28
 - `@entities/tools/hybrid-gui-mcp-osworld.md`
 - `@entities/tools/cua.md`
 - `@briefs/2026-08-28_ccc-k315-k324-sip-ready.md`
+- `@concepts/domain-grounded-tool-orchestration.md`
+- `@sources/arxiv-domain-grounded-tool-orchestration-2608.30696.md`
 
 ## Raw Concept
 

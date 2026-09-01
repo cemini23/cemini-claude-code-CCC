@@ -7,9 +7,10 @@ related:
   - entities/tools/deeprubric-code.md
   - seo-wiki/sources/arxiv-zhu-2026-deeprubric-evidence-tree-2606.17029-2026-06-16.md
   - seo-wiki/entities/tools/deeprubric-code.md
+  - concepts/evaluation-first-rubric-induction.md
 maturity: draft
 created: 2026-06-16
-updated: 2026-06-16
+updated: 2026-09-01
 cross-wiki-source: "@seo-wiki/sources/arxiv-zhu-2026-deeprubric-evidence-tree-2606.17029-2026-06-16.md"
 ---
 
@@ -19,6 +20,7 @@ cross-wiki-source: "@seo-wiki/sources/arxiv-zhu-2026-deeprubric-evidence-tree-26
 - @seo-wiki/sources/arxiv-zhu-2026-deeprubric-evidence-tree-2606.17029-2026-06-16.md
 - @seo-wiki/entities/tools/deeprubric-code.md
 - @seo-wiki/briefs/2026-06-16_k120-deeprubric-evidence-tree-wiki-ingest-ccc-handoff.md
+- @concepts/evaluation-first-rubric-induction.md
 
 ## Raw Concept
 

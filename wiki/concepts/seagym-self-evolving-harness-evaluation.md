@@ -16,9 +16,12 @@ related:
   - sources/arxiv-next-gen-agentic-rl-self-evolving-2607.01120.md
   - concepts/harness-evolution-vs-test-time-scaling-baseline.md
   - sources/arxiv-rethinking-harness-evolution-evaluation-2607.12227.md
+  - concepts/evaluation-first-rubric-induction.md
+  - concepts/vague-goal-self-evolution.md
+  - sources/arxiv-autoscirub-rubric-induction-2608.31076.md
 maturity: draft
 created: 2026-06-17
-updated: 2026-07-15
+updated: 2026-09-01
 ---
 
 ## Relations
@@ -30,6 +33,9 @@ updated: 2026-07-15
 - `@concepts/harnessx-composable-evolution-foundry.md` — harness evolution with seesaw gate
 - `@concepts/agent-completion-verification-gates.md` — verifier-backed eval views
 - `@concepts/harness-evolution-vs-test-time-scaling-baseline.md` — adds the missing "scaling baseline" view SEAGym's checklist doesn't cover
+- `@concepts/evaluation-first-rubric-induction.md`
+- `@concepts/vague-goal-self-evolution.md`
+- `@sources/arxiv-autoscirub-rubric-induction-2608.31076.md`
 
 ## Raw Concept
 

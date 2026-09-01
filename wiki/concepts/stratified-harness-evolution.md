@@ -7,15 +7,23 @@ related:
   - sources/arxiv-starharness-stratified-harness-evolution-2608.24804.md
   - entities/tools/starharness.md
   - concepts/validation-ratchet-skill-evolution.md
+  - concepts/evaluation-first-rubric-induction.md
+  - concepts/vague-goal-self-evolution.md
+  - sources/arxiv-autoscirub-rubric-induction-2608.31076.md
+  - sources/arxiv-aspire-vague-goal-self-evolution-2608.31111.md
 maturity: draft
 created: 2026-08-26
-updated: 2026-08-28
+updated: 2026-09-01
 ---
 
 ## Relations
 
 - `@sources/arxiv-starharness-stratified-harness-evolution-2608.24804.md`
 - `@entities/tools/starharness.md`
+- `@concepts/evaluation-first-rubric-induction.md`
+- `@concepts/vague-goal-self-evolution.md`
+- `@sources/arxiv-autoscirub-rubric-induction-2608.31076.md`
+- `@sources/arxiv-aspire-vague-goal-self-evolution-2608.31111.md`
 
 ## Raw Concept
 

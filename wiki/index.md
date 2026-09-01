@@ -179,6 +179,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`recuris`](entities/tools/recuris.md) | draft | Recuris EM–WM memory evolution — Apache-2.0 REFERENCE <500MB (K314) |
 | [`intent-as-a-tool`](entities/tools/intent-as-a-tool.md) | draft | Intent-targeted tools for misalignment tracking — MIT REFERENCE <500MB (K323) |
 | [`logos-agent-harness`](entities/tools/logos-agent-harness.md) | draft | Logos cross-process agent harness — policy only, wont_wire (K327) |
+| [`autoscirub`](entities/tools/autoscirub.md) | draft | AutoSciRub evaluation-first rubric induction — MIT REFERENCE <500MB (K331) |
 
 ## entities/mcp-servers/
 
@@ -591,6 +592,10 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`bounded-authority-auditable-trajectories`](concepts/bounded-authority-auditable-trajectories.md) | draft | Security agents: act ≠ bounded/auditable — 2608.28490 (K325) |
 | [`recognition-vs-enforcement-instruction-arbitration`](concepts/recognition-vs-enforcement-instruction-arbitration.md) | draft | Recognition ≠ enforcement; external monitor — 2608.28502 (K326) |
 | [`cross-process-plugin-agent-harness`](concepts/cross-process-plugin-agent-harness.md) | draft | Plugin=process, append-only transcript — 2608.28553 (K327) |
+| [`output-attestation-and-delegation-ancestry`](concepts/output-attestation-and-delegation-ancestry.md) | draft | Two-layer output + ancestry evidence; co-signed DAG — 2608.30387 (K328) |
+| [`domain-grounded-tool-orchestration`](concepts/domain-grounded-tool-orchestration.md) | draft | Intent/execute/explain split over MCP + ontology — 2608.30696 (K329) |
+| [`evaluation-first-rubric-induction`](concepts/evaluation-first-rubric-induction.md) | draft | Induce executable rubric before execution — 2608.31076 (K331) |
+| [`vague-goal-self-evolution`](concepts/vague-goal-self-evolution.md) | draft | Goal interpretation = missing search axis — 2608.31111 (K332) |
 
 ## sources/
 
@@ -932,6 +937,11 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-llm-agents-software-systems-security-slr-2608.28490`](sources/arxiv-llm-agents-software-systems-security-slr-2608.28490.md) | draft | Security-agent SLR 2023–2026 — 2608.28490 (K325) |
 | [`arxiv-recognition-without-enforcement-2608.28502`](sources/arxiv-recognition-without-enforcement-2608.28502.md) | draft | Recognition Without Enforcement — 2608.28502 (K326) |
 | [`arxiv-logos-cross-process-agent-harness-2608.28553`](sources/arxiv-logos-cross-process-agent-harness-2608.28553.md) | draft | Logos cross-process agent harness — 2608.28553 (K327) |
+| [`arxiv-attesting-outputs-delegation-ancestry-2608.30387`](sources/arxiv-attesting-outputs-delegation-ancestry-2608.30387.md) | draft | Output attestation + delegation ancestry — 2608.30387 (K328) |
+| [`arxiv-domain-grounded-tool-orchestration-2608.30696`](sources/arxiv-domain-grounded-tool-orchestration-2608.30696.md) | draft | Domain-grounded tool orchestration — 2608.30696 (K329) |
+| [`arxiv-castclaw-hitl-forecasting-agent-2608.30976`](sources/arxiv-castclaw-hitl-forecasting-agent-2608.30976.md) | draft | CastClaw HITL forecasting agent (OOD) — 2608.30976 (K330) |
+| [`arxiv-autoscirub-rubric-induction-2608.31076`](sources/arxiv-autoscirub-rubric-induction-2608.31076.md) | draft | AutoSciRub evaluation-first rubric induction — 2608.31076 (K331) |
+| [`arxiv-aspire-vague-goal-self-evolution-2608.31111`](sources/arxiv-aspire-vague-goal-self-evolution-2608.31111.md) | draft | Aspire vague-goal self-evolution — 2608.31111 (K332) |
 
 ## meta/
 
@@ -961,6 +971,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`2026-08-29-daily`](sweeps/2026-08-29-daily.md) | Daily digest — 0 new PDFs; 6 dupes skipped |
 | [`2026-08-30-daily`](sweeps/2026-08-30-daily.md) | Daily digest — 0 new PDFs; 6 dupes skipped |
 | [`2026-08-31-daily`](sweeps/2026-08-31-daily.md) | Daily digest — 3 papers (K325–K327 wave) |
+| [`2026-09-01-daily`](sweeps/2026-09-01-daily.md) | Daily digest — 5 papers (K328–K332 wave) |
 
 ## entities/people/
 

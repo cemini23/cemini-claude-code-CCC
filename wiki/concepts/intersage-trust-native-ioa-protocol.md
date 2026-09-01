@@ -15,11 +15,13 @@ related:
   - "@cybersecurity-wiki/concepts/intersage-trust-native-ioa-protocol.md"
   - concepts/signed-mandate-mcp-protocol-enforcement.md
   - sources/arxiv-mandato-signed-mandates-mcp-2608.14074.md
+  - concepts/output-attestation-and-delegation-ancestry.md
+  - sources/arxiv-attesting-outputs-delegation-ancestry-2608.30387.md
 maturity: draft
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"
 created: 2026-08-14
-updated: 2026-08-18
+updated: 2026-09-01
 ---
 
 ## Relations
@@ -27,6 +29,8 @@ updated: 2026-08-18
 - `@sources/arxiv-intersage-trust-native-ioa-protocol-2608.13030.md`
 - `@entities/tools/intersage.md`
 - `@concepts/mcp-claim-validation-and-parameter-grounding.md`
+- `@concepts/output-attestation-and-delegation-ancestry.md`
+- `@sources/arxiv-attesting-outputs-delegation-ancestry-2608.30387.md`
 
 ## Raw Concept
 

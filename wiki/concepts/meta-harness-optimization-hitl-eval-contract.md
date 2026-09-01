@@ -23,9 +23,12 @@ related:
   - concepts/adaptive-validation-task-selection-harness-optimization.md
   - entities/tools/task-coevolve.md
   - sources/arxiv-task-coevolve-adaptive-validation-task-selection-2608.20169.md
+  - concepts/output-attestation-and-delegation-ancestry.md
+  - sources/arxiv-castclaw-hitl-forecasting-agent-2608.30976.md
+  - briefs/2026-09-01_ccc-k328-k332-sip-ready.md
 maturity: draft
 created: 2026-08-14
-updated: 2026-08-21
+updated: 2026-09-01
 ---
 
 ## Relations
@@ -33,6 +36,9 @@ updated: 2026-08-21
 - `@sources/arxiv-autodesign-meta-harness-2608.13560.md`
 - `@entities/tools/autodesign.md`
 - `@concepts/bounded-self-refinement-vs-rsi-taxonomy.md`
+- `@concepts/output-attestation-and-delegation-ancestry.md`
+- `@sources/arxiv-castclaw-hitl-forecasting-agent-2608.30976.md`
+- `@briefs/2026-09-01_ccc-k328-k332-sip-ready.md`
 
 ## Raw Concept
 

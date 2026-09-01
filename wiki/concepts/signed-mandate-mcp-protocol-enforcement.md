@@ -20,11 +20,14 @@ related:
   - concepts/recognition-vs-enforcement-instruction-arbitration.md
   - entities/patterns/external-reference-monitor.md
   - sources/arxiv-recognition-without-enforcement-2608.28502.md
+  - concepts/output-attestation-and-delegation-ancestry.md
+  - sources/arxiv-attesting-outputs-delegation-ancestry-2608.30387.md
+  - briefs/2026-09-01_ccc-k328-k332-sip-ready.md
 maturity: draft
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"
 created: 2026-08-18
-updated: 2026-08-31
+updated: 2026-09-01
 ---
 
 ## Relations
@@ -36,6 +39,9 @@ updated: 2026-08-31
 - `@concepts/intersage-trust-native-ioa-protocol.md` — K278 InterSAGE identity + capability-bound discovery
 - `@concepts/execution-fidelity-irreversible-agent-invariants.md` — K239: Mandato's deny-by-default + oversight class is the authorization-side counterpart to irreversible-execution invariants
 - `@concepts/authorization-to-effect-closure.md`
+- `@concepts/output-attestation-and-delegation-ancestry.md`
+- `@sources/arxiv-attesting-outputs-delegation-ancestry-2608.30387.md`
+- `@briefs/2026-09-01_ccc-k328-k332-sip-ready.md`
 
 ## Raw Concept
 

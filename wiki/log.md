@@ -1886,3 +1886,15 @@ Cross-wiki stub routed from `@osint-wiki/sources/newsletter-rss-pragmatic-engine
 ## [2026-08-31] ops | SkillSpector wording on leftover skills
 
 - `step-gate` + `scout-tool-search` SKILL.md **v1.1.1**: drop `.claude/` path literals and force-push examples so SkillSpector AS1/TM1 stay LOW/SAFE. Installer, hook, and classifier unchanged. Local rescan: both 0/100 SAFE.
+
+## [2026-09-01] ingest | K328–K332 harness wave — output attestation, domain-grounded orchestration, CastClaw, AutoSciRub, Aspire
+
+- **Sources:** arXiv 2608.30387 (Attesting Outputs and Delegation Ancestry — ADOPT policy, no SPDX → no clone, Cybersec steal), 2608.30696 (Domain-Grounded Tool Orchestration — ADOPT pattern, ParaView/TTK OOD), 2608.30976 (CastClaw HITL forecasting — OOD short stub), 2608.31076 (AutoSciRub — ADOPT eval-first, MIT GO REFERENCE clone), 2608.31111 (Aspire vague-goal self-evolution — ADOPT policy, no SPDX → no clone)
+- **New pages:** 5 arxiv sources (K330 short), 4 concepts (output-attestation-and-delegation-ancestry, domain-grounded-tool-orchestration, evaluation-first-rubric-induction, vague-goal-self-evolution), 1 entity (autoscirub `wont_wire` runtime / REFERENCE clone); SIP `wiki/briefs/2026-09-01_ccc-k328-k332-sip-ready.md`
+- **Phase-0:** `adopt_k328`…`k332_phase0.sh` all exit 0. Clone **only** `zjunlp/AutoSciRub` (MIT via gh SPDX 2026-09-01, ~2.5MB) into `.local/adopts/AutoSciRub`. No Aspire / ParaView / CastClaw clones.
+- **Phase-1:** `.cursor/rules/cemini-phase1-policy-wires.mdc` §CCC wave K328–K332 + per-topic sections; CCC-only `ccc-k328-k332-phase1-wires.mdc` (NOT federation-synced). Wire status: K328 `policy_wired`, K329 `policy_wired` (runtime `wont_wire`), K330 `wont_wire`, K331 concept `policy_wired` + entity runtime `wont_wire`, K332 `policy_wired` (runtime `wont_wire`).
+- **Dual-ID preserved:** Cybersec may later take 2608.30387 / 2608.30083 (ZK agent proofs — cap-skipped this wave); CCC K285 Mandato / K278 InterSAGE / K310 AP2 remain distinct from K328 output attestation. BPS / Wayfinder / AID-Guard / K310–K327 blocks kept.
+- **Cross-wiki:** cybersec steal `../Cybersecurity wiki/briefs/2026-09-01_k328-two-layer-attestation-steal-from-ccc.md` (no PoCs); atto steal `../atto/briefs/2026-09-01_k328-k329-attestation-dag-intent-execute-steal-from-ccc.md`; GuruWatcher CastClaw pointer alert-only (no new TSF runtime).
+- **Briefs:** `docs/briefs/2026-09-01_k328-k332-harness-wave.md`; prod pair `briefs/2026-09-01_k328-k332-harness-wave-prod.md` + `-harness-policy-hands-on.md` scp'd to `cemini-prod:/opt/cemini/briefs/` via updated script
+- **Archive:** 5 PDFs → egress-fi (inbox empty except `.gitkeep`); sweep `wiki/sweeps/2026-09-01-daily.md` committed
+- **Lint/git:** `wiki_lint.py` 0 bidirectional gaps (49 new edges all backlinked; baseline non-gap checks unchanged). Commit only ingest files; unrelated dirty (CLAUDE.md / LESSONS.md / five-section template / claude_mem_keepalive) left unstaged. Push `main`; Wiki Lint CI green.

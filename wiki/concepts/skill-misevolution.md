@@ -19,11 +19,13 @@ related:
   - concepts/skill-set-selection-under-budget.md
   - sources/arxiv-k244-harness-skill-selection-cluster.md
   - sources/arxiv-prime-agent-rlm-harness-2608.23552.md
+  - concepts/vague-goal-self-evolution.md
+  - sources/arxiv-aspire-vague-goal-self-evolution-2608.31111.md
 maturity: draft
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"
 created: 2026-08-15
-updated: 2026-08-25
+updated: 2026-09-01
 ---
 
 ## Relations
@@ -36,6 +38,8 @@ updated: 2026-08-25
 - `@sources/arxiv-mediskill-evo-process-constrained-2608.23397.md`
 - `@concepts/process-constrained-self-evolution.md`
 - `@concepts/rlm-continual-harness.md`
+- `@concepts/vague-goal-self-evolution.md`
+- `@sources/arxiv-aspire-vague-goal-self-evolution-2608.31111.md`
 
 ## Raw Concept
 

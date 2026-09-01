@@ -31,9 +31,10 @@ related:
   - concepts/cross-model-verified-agent-translation.md
   - "@osint-wiki/concepts/polyworkbench-multilingual-harness-eval.md"
   - sources/arxiv-residencyrl-simulated-clinical-rl-2608.07418.md
+  - concepts/evaluation-first-rubric-induction.md
 maturity: draft
 created: 2026-06-03
-updated: 2026-08-10
+updated: 2026-09-01
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-17-2026-06-03.md"
 ---
 
@@ -50,6 +51,7 @@ cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-17-2026-06-03.
 - `@entities/skills/super-audit.md` — five-model synthesis for prod GO/NO-GO
 - `@sources/trading-posts-compilation-17-2026-06-03.md` — K97 Post 6 (@sydneyrunkle)
 - `@osint-wiki/concepts/polyworkbench-multilingual-harness-eval.md` — K155 hybrid structural + executable + LLM semantic eval (multilingual compounding)
+- `@concepts/evaluation-first-rubric-induction.md`
 
 ## Raw Concept
 

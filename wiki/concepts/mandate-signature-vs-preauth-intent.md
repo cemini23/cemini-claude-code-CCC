@@ -9,9 +9,11 @@ related:
   - concepts/execution-fidelity-irreversible-agent-invariants.md
   - concepts/recognition-vs-enforcement-instruction-arbitration.md
   - sources/arxiv-recognition-without-enforcement-2608.28502.md
+  - concepts/output-attestation-and-delegation-ancestry.md
+  - sources/arxiv-attesting-outputs-delegation-ancestry-2608.30387.md
 maturity: draft
 created: 2026-08-26
-updated: 2026-08-31
+updated: 2026-09-01
 ---
 
 ## Relations
@@ -19,6 +21,8 @@ updated: 2026-08-31
 - `@sources/arxiv-ap2-beyond-the-mandate-2608.23858.md`
 - `@concepts/signed-mandate-mcp-protocol-enforcement.md`
 - `@concepts/execution-fidelity-irreversible-agent-invariants.md`
+- `@concepts/output-attestation-and-delegation-ancestry.md`
+- `@sources/arxiv-attesting-outputs-delegation-ancestry-2608.30387.md`
 
 ## Raw Concept
 

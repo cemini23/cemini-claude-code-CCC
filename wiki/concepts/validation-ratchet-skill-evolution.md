@@ -8,9 +8,12 @@ related:
   - concepts/stratified-harness-evolution.md
   - concepts/process-constrained-self-evolution.md
   - briefs/2026-08-28_ccc-k315-k324-sip-ready.md
+  - concepts/evaluation-first-rubric-induction.md
+  - concepts/vague-goal-self-evolution.md
+  - sources/arxiv-autoscirub-rubric-induction-2608.31076.md
 maturity: draft
 created: 2026-08-28
-updated: 2026-08-28
+updated: 2026-09-01
 ---
 
 ## Relations
@@ -19,6 +22,9 @@ updated: 2026-08-28
 - `@concepts/stratified-harness-evolution.md`
 - `@concepts/process-constrained-self-evolution.md`
 - `@briefs/2026-08-28_ccc-k315-k324-sip-ready.md`
+- `@concepts/evaluation-first-rubric-induction.md`
+- `@concepts/vague-goal-self-evolution.md`
+- `@sources/arxiv-autoscirub-rubric-induction-2608.31076.md`
 
 ## Raw Concept
 
