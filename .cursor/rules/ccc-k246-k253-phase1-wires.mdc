@@ -1,0 +1,58 @@
+---
+description: CCC Phase-1 wires from OSINT K246-K253 harness + newsletter waves (CCC-only — do NOT federation-sync)
+alwaysApply: true
+---
+
+# CCC — K246–K253 Phase-1 wires
+
+**Briefs:** `docs/briefs/2026-08-25_k246-ccc-harness-cluster.md` · `docs/briefs/2026-08-26_k247-ccc-harness-starharness-recuris.md` · `docs/briefs/2026-08-28_k248-ccc-harness-mixture-roles.md` · `docs/briefs/2026-08-29_k249-ccc-openai-cursor-harness.md` · `docs/briefs/2026-08-29_k250-ccc-jit-reasoningbank-wikiskill.md` · `docs/briefs/2026-08-31_k252-ccc-harness-evolution.md` · `docs/briefs/2026-09-01_k253-ccc-harness-self-improvement.md` · `docs/briefs/2026-09-01_k253-ccc-oss-software-factory.md`
+
+**Dual-ID:** OSINT ingest K246–K253 ≠ federation `cemini-phase1-policy-wires.mdc` K246–K253 (MultiGlobeQA/HIVE/TurnSight/etc.). Resolve by file+wiki, not bare K#.
+
+Verdict: **policy + REFERENCE clones only. 0 new runtime Integrate GO.**
+
+## K246 — harness cluster
+
+- Andrew Ng AI Engineering pillars; harness choice can matter more than model on enterprise work.
+- Prime Agent K309, Graph Engineering K301, memory-poisoning K304 already federation-wired.
+- Apodex, SWE Refactor Bench, VAT decomposition = eval/decomposition vocabulary.
+- Do **not** swap `/route`.
+
+## K247 — StarHarness + Recuris
+
+- K313/K314 already in federation rules. REFERENCE clones only; trainer `wont_wire`.
+- Ramp Inspect sandbox steal; do **not** replace Cursor.
+
+## K248 — HarnessLens + MoRe
+
+- HarnessLens: behavior-aware verify (+7.6–13.6% held-out). REFERENCE only on operator GO.
+- MoRe K322 WATCH — set-not-MAS mandate. Do **not** swap `/route`.
+
+## K249 — OpenAI/Cursor vendor risk
+
+- OpenAI cut Cursor after SpaceX close — vendor concentration risk, not a routing event.
+- Keep Grok CLI + Claude + Codex lanes. Do **not** swap `/route` without HITL.
+- GLM-5.3 / Hy4 / wiki-skill-evolution = awareness. No unattended skill evolve.
+
+## K250 — JIT + ReasoningBank + WikiSkill
+
+- JIT-Agent REFERENCE (~124MB). Do **not** PATH-swap `/route`.
+- ReasoningBank + WikiSkill = validation-gated skill memory pattern (K324/K237).
+- Trainer `wont_wire`.
+
+## K252 — harness evolution
+
+- EvoUndo recoverability invariant; Logos bus/transcript (pairs K327).
+- Personalized skill routing pairs BPS. Prove2Me = K280 vocabulary only.
+- 0 Integrate GO.
+
+## K253 — self-improvement + OSS factory
+
+- AutoSciRub rubric-before-improve; S3Gym/Aspire WATCH only.
+- Osmani skill decay: verification floor + deliberate reps.
+- OSS factory pattern: HITL on federation merges. **Never auto-evolve `.cursor/skills`.**
+
+## Rules
+
+- HITL before harness/skill mutation. External eval contract (K162/K281/K292).
+- Do **not** swap `/route` or replace PATH `claude-ds` without HITL.
