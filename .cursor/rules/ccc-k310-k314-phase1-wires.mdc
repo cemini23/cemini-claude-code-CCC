@@ -7,7 +7,7 @@ alwaysApply: true
 
 **Brief:** `docs/briefs/2026-08-26_k310-k314-harness-wave.md` · SIP: `wiki/briefs/2026-08-26_ccc-k310-k314-sip-ready.md`
 
-**Dual-ID (resolve by file + wiki, not bare K#):** **CCC K285** = Mandato signed-mandate enforcement (`@concepts/signed-mandate-mcp-protocol-enforcement.md`) ≠ **CCC K310** = pre-authorization context outside the signature. Same-day Cybersec may ingest AP2 / StepGuard — do not merge. Do not delete BPS / Wayfinder / AID-Guard leftover skills blocks in the shared policy file.
+**IDs:** Resolve by arXiv id / slug / file path — K# is a log batch label only.
 
 - **K310** AP2 Beyond the Mandate — **ADOPT policy**: valid mandate signatures ≠ user intent when pre-authorization context (A2A messages, MCP tool results) is manipulated. 48 threats / 8 High (AIVSS) across five architectures. Bind pre-commit context (pairs K302 AID-Guard revalidate-at-commit). **No PoCs or exploit text anywhere; no paper testbed/scanner clone** → `policy_wired`.
 - **K311** SCOUT — **ADOPT lazy hybrid retrieval**: never load the full MCP tool catalog at turn 0; two meta-tools (`tool_search` → hybrid BM25+dense RRF top-k → `execute_tool`); 140.2k → 1.3k tokens (99%) at PayPal across six clients incl. Claude Code/Cursor. No public repo → `policy_wired`. **Shipped 2026-08-28 as operator-invoked skill** `.cursor/skills/scout-tool-search/` (`federation: true`, `disable-model-invocation: true`, helper `scripts/scout_tool_search.py selftest`) — local SKILL.md frontmatter top-k search, not a `/route` rewrite. **BM25-lite shipped 2026-08-31**: scorer = k1=1.5, b=0.75, IDF from the local corpus, small substring bonus; no pip/HF/vector DB; selftest also covers query `step` → `step-gate`.

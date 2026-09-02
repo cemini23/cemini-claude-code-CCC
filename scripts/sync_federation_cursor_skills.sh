@@ -62,7 +62,7 @@ discover_federation_skills() {
       name="$(basename "$(dirname "${skill_md}")")"
       # Domain skills synced separately — skip if listed in DOMAIN_SKILL_DIRS
       case "${name}" in
-        adopted-geo-tools|i-have-adhd|cemini-wiki-ingest|notebooklm-osint-bridge) continue ;;
+        adopted-geo-tools|i-have-adhd|cemini-wiki-ingest|notebooklm-osint-bridge|eval-first-rubric|last30days|pii-redact|claim-ledger|vault-dedupe|osint-catalog) continue ;;
       esac
       CANON_SKILLS+=("${name}")
     fi
@@ -85,6 +85,12 @@ DOMAIN_SKILL_DIRS=(
   "i-have-adhd|${OSINT_ROOT}/.cursor/skills/i-have-adhd"
   "cemini-wiki-ingest|${OSINT_ROOT}/.cursor/skills/cemini-wiki-ingest"
   "notebooklm-osint-bridge|${OSINT_ROOT}/.cursor/skills/notebooklm-osint-bridge"
+  "eval-first-rubric|${OSINT_ROOT}/.cursor/skills/eval-first-rubric"
+  "last30days|${OSINT_ROOT}/.cursor/skills/last30days"
+  "pii-redact|${OSINT_ROOT}/.cursor/skills/pii-redact"
+  "claim-ledger|${OSINT_ROOT}/.cursor/skills/claim-ledger"
+  "vault-dedupe|${OSINT_ROOT}/.cursor/skills/vault-dedupe"
+  "osint-catalog|${OSINT_ROOT}/.cursor/skills/osint-catalog"
 )
 
 WORKSPACES=(

@@ -7,7 +7,7 @@ alwaysApply: true
 
 **Briefs:** `docs/briefs/2026-08-25_k246-ccc-harness-cluster.md` · `docs/briefs/2026-08-26_k247-ccc-harness-starharness-recuris.md` · `docs/briefs/2026-08-28_k248-ccc-harness-mixture-roles.md` · `docs/briefs/2026-08-29_k249-ccc-openai-cursor-harness.md` · `docs/briefs/2026-08-29_k250-ccc-jit-reasoningbank-wikiskill.md` · `docs/briefs/2026-08-31_k252-ccc-harness-evolution.md` · `docs/briefs/2026-09-01_k253-ccc-harness-self-improvement.md` · `docs/briefs/2026-09-01_k253-ccc-oss-software-factory.md`
 
-**Dual-ID:** OSINT ingest K246–K253 ≠ federation `cemini-phase1-policy-wires.mdc` K246–K253 (MultiGlobeQA/HIVE/TurnSight/etc.). Resolve by file+wiki, not bare K#.
+**IDs:** Resolve by arXiv id / slug / file path — K# is a log batch label only.
 
 Verdict: **policy + REFERENCE clones only. 0 new runtime Integrate GO.**
 

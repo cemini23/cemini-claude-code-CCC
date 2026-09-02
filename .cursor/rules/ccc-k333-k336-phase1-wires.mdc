@@ -7,7 +7,7 @@ alwaysApply: true
 
 **Brief:** `docs/briefs/2026-09-02_k333-k336-harness-wave.md` · SIP: `wiki/briefs/2026-09-02_ccc-k333-k336-sip-ready.md`
 
-**Dual-ID (resolve by file + wiki, not bare K#):** **CCC K333** (2609.00267 delegation/trust) ≠ **CCC K285 Mandato** / **K310 AP2** / **K326 external monitor** / **K328 attestation** — Cybersec may take K333 as primary steal. Do not delete BPS / Wayfinder / AID-Guard / K310–K332 blocks. Executor: OpenCode Zen free pick then **claude-ds Flash** — never Pro.
+**IDs:** Resolve by arXiv id / slug / file path — K# is a log batch label only.
 
 - **K333** Delegation Without Trust — **Cybersec-primary** + **CCC ADOPT policy**: **untrusted-model property** — a governed system must confine a fully prompt-injected agent to explicitly delegated authority; authorization broker **external** to model reasoning; four threats (confused deputy, token theft/replay, PI privilege escalation, compromised sub-agents); default frameworks (LangGraph, CrewAI, AutoGen, MCP auth) lack built-in confinement. VotalAI LLM Shield production reference — **no public SPDX → policy only, no clone. No PoCs.** `policy_wired`. Pairs K285/K310/K326/K328.
 - **K334** HarnessDev — **ADOPT eval-first**: unit of evaluation = **runnable harness**, not task output; **Creation** (weak seed → full harness) + **Evolution** (downstream feedback); generated harnesses lag human references on code/search; evolution gains **unstable**, partial held-out transfer, **executor-model-dependent**; state/memory components often **never fire** (0 checkpoint events / 26k trajectories). Project page only — **no public SPDX → policy only**. Runtime **`wont_wire`**. Pairs K281/K292/K313/K332. **Never auto-evolve `.cursor/skills`.**

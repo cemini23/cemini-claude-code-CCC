@@ -7,7 +7,7 @@ alwaysApply: true
 
 **Brief:** `docs/briefs/2026-08-25_k300-k309-harness-wave.md` · SIP: `wiki/briefs/2026-08-25_ccc-k300-k309-sip-ready.md`
 
-**Dual-ID (resolve by file + wiki, not bare K#):** same-day Cybersec K301–K306 = CLEAR / PsychJail / CLAUDE.md-deny / SDP-RIM / BT-NFT / LLM-compliance. CCC K253 = Argus persist/pivot (`lbx154/Argus`) ≠ **CCC K306** ARGUS K8s RCA (2608.23084). CCC K229 = pi-rlm brief ≠ **CCC K309** Prime Agent. Do not merge; do not delete BPS/Wayfinder blocks.
+**IDs:** Resolve by arXiv id / slug / file path — K# is a log batch label only.
 
 - **K300** AutoMOOSE — **OOD** materials/HPC source stub only, **`wont_wire`**; no clone (needs MOOSE binary + SLURM). Steal: Skeptic falsifies but never repairs; corrected work is re-admitted before acceptance (pairs K253 verification-gated admission).
 - **K301** Graph Engineering — **ADOPT vocabulary**: Graph Engineering / System Intelligence as the layer after Prompt → Context → Harness → Loop Engineering; name the task/agent/state graph explicitly when a workflow spans >1 session or >2 agents (pairs K276 RSM role boundaries). `DEEP-JLU/Awesome-Graph-Engineering` MIT — digest pointer, **NO catalog clone** (LESSONS 2026-05-13).

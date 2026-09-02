@@ -7,7 +7,7 @@ alwaysApply: true
 
 **Brief:** `docs/briefs/2026-08-28_k315-k324-harness-wave.md` · SIP: `wiki/briefs/2026-08-28_ccc-k315-k324-sip-ready.md`
 
-**Dual-ID (resolve by file + wiki, not bare K#):** **CCC K324** = RedEvoAgent red-team skill evolution (Cybersec-primary — same-day Cybersec PDF ingests as its own K#; CCC takes only the validation ratchet). **CCC K285 Mandato** ≠ K315 ToolMinimize — do not merge. Do not delete BPS / Wayfinder / AID-Guard leftover / K310–K314 blocks.
+**IDs:** Resolve by arXiv id / slug / file path — K# is a log batch label only.
 
 - **K315** ToolMinimize — **ADOPT policy**: allow/block is not enough; rewrite tool-call argument **values** to minimum necessary PSD (removal / generalization / substitution / truncation). 81–88% of tool calls over-share PSD under default prompts; privacy prompts leave 36–76%; middleware rewrites at 1.77 ms median with 100% argument-level validity (81.2–92.0% privacy-cost cut). PII detectors miss implicit PSD. No public SPDX → `policy_wired`. Cybersec steal. **No PII/PoC dumps anywhere.**
 - **K316** LifePlanner — **OOD** trip-planning bench, short stub. Pass Rate drops to 40.2% on complex planning; failures come from **incomplete evidence acquisition + imprecise tool use + weak constraint integration**, not model size. `wont_wire`. No clone.

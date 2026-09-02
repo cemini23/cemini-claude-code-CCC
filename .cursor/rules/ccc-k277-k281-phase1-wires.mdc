@@ -7,7 +7,7 @@ alwaysApply: true
 
 **Brief:** `docs/briefs/2026-08-14_k277-k281-trust-verification-wave.md`
 
-**Dual-ID note:** Cybersec **K277 = RSM** (CCC K276). This batch's **CCC K277 = Labels-Are-Not-Endpoints** (2608.12880) — resolve by file+wiki, not bare K#.
+**IDs:** Resolve by arXiv id / slug / file path — K# is a log batch label only.
 
 - **K277** Labels Are Not Endpoints — treatment leakage + construct validity in MCP security eval. **ADOPT** seven-link Integrity Chain + treatment-blind grading; labels ≠ behavioral endpoints. No public product; policy_wired, Cybersec brief.
 - **K278** InterSAGE — trust-native IoA protocol (AIC four-dimensional identity, DID-bound capability VCs, monotonic capability attenuation, kernel-mediated audit trails). **Atto-priority**. No public SPDX clone → **policy only**.

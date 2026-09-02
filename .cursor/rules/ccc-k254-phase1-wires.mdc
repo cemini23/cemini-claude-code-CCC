@@ -8,7 +8,7 @@ alwaysApply: true
 **Briefs:** `docs/briefs/2026-09-02_k254-ccc-harness-evolution.md`, `docs/briefs/2026-09-02_k254-ccc-fable-51-routing.md`
 **Wiki:** `@osint-wiki/concepts/k254-harness-evolution-wave.md`, `@osint-wiki/concepts/k254-ccc-models-wave.md`
 
-**Dual-ID:** **CCC K254** (hardware keystore) ≠ **OSINT K254** (this harness wave). **CCC K334–K336** already cover HarnessDev/HoH/CordisBench — this file adds OSINT-ingest cross-links + Agent Seer + SKILL.state + Fable 5.1.
+**IDs:** Resolve by arXiv id / slug / file path — K# is a log batch label only.
 
 ## Harness evolution cluster (policy_wired)
 

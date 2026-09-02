@@ -409,7 +409,7 @@ CCC **ACCEL** is also labeled K237 (agentic-engineer competencies, above). Numbe
 
 ## OSINT K239 — SteerBench action-boundary HITL · intent-not-form / HiRoute (2026-08-15)
 
-**Dual-ID:** this section is **OSINT K239** (SteerBench-Work 2608.12654 + WIFA/HiRoute + eval). **CCC K239** is Datumpont / execution-fidelity (section above). **Capital Flows / GW K239** = GuruWatcher bond-crash product surface (`guruwatcher-k239-bond-crash-phase1-wires.mdc`) — a third K239; do not collapse. Resolve by file+wiki, not bare K#. Federation sync: keep this block so OSINT copies are not wiped.
+**IDs:** Resolve by arXiv id / slug / file path — K# is a log batch label only.
 
 - **Proceed vs hold at the action boundary** — state-changing tool calls (`scp` to prod, Discord LIVE, `watches.json` writes, skill mutation, AGPL/GPL vendor into Atto) default **HOLD for HITL**. Read-only wiki/query may proceed. Capability of the model is **not** a reason to drop the gate (SteerBench: over-refusal ≫ under-refusal; evidence-reversed mirrors fail).
 - **Intent, not form** — refuse/allow on intent + tool effect + authorization, not wrapper phrasing. Do not train WIFA/HiRoute; **no jailbreak PoC** in wiki. Authorized owned-lab recon ≠ public exploit writeup.
@@ -550,7 +550,7 @@ Steal-from k244 cluster (arXiv 2608.19993 / 2608.19880 + Latent Space wayfinder)
 
 ## CCC wave K300–K309 (shared policy file)
 
-AutoMOOSE OOD stub (K300) + Graph Engineering vocabulary (K301) + AID-Guard effect closure (K302) + health CUI trust OOD stub (K303) + memory-poisoning bounded occupancy (K304) + MCP-Universe RL WATCH trainer (K305, Apache-2.0 REFERENCE clone) + ARGUS K8s RCA asymmetry (K306) + MediSkill-Evo process-constrained evolution pattern (K307) + MetaCaster intermediary-engineer TSF (K308, MIT REFERENCE clone) + Prime Agent RLM/Continual Harness (K309, MIT REFERENCE clone <500MB). Clones: MCP-Universe, metacaster, prime-agent — REFERENCE only. **CCC-only rule** `ccc-k300-k309-phase1-wires.mdc` — do **not** federation-sync. **Dual-ID:** same-day Cybersec K301–K306 = CLEAR / PsychJail / CLAUDE.md-deny / SDP-RIM / BT-NFT / LLM-compliance; CCC K253 Argus persist/pivot ≠ CCC K306 ARGUS RCA; CCC K229 pi-rlm ≠ CCC K309 Prime Agent.
+AutoMOOSE OOD stub (K300) + Graph Engineering vocabulary (K301) + AID-Guard effect closure (K302) + health CUI trust OOD stub (K303) + memory-poisoning bounded occupancy (K304) + MCP-Universe RL WATCH trainer (K305, Apache-2.0 REFERENCE clone) + ARGUS K8s RCA asymmetry (K306) + MediSkill-Evo process-constrained evolution pattern (K307) + MetaCaster intermediary-engineer TSF (K308, MIT REFERENCE clone) + Prime Agent RLM/Continual Harness (K309, MIT REFERENCE clone <500MB). Clones: MCP-Universe, metacaster, prime-agent — REFERENCE only. **CCC-only rule** `ccc-k300-k309-phase1-wires.mdc` — do **not** federation-sync. Resolve by arXiv id / slug..md-deny / SDP-RIM / BT-NFT / LLM-compliance; CCC K253 Argus persist/pivot ≠ CCC K306 ARGUS RCA; CCC K229 pi-rlm ≠ CCC K309 Prime Agent.
 
 ## Authorization-to-effect closure (AID-Guard / CCC K302)
 
@@ -597,7 +597,7 @@ Operator-invoked federation skills (`disable-model-invocation: true`): `.cursor/
 
 ## CCC wave K310–K314 (shared policy file)
 
-AP2 pre-auth intent (K310, policy) + SCOUT lazy MCP catalog (K311, policy) + StepGuard step-level guardrails (K312, policy) + StarHarness stratified evolution (K313, MIT REFERENCE clone) + Recuris EM–WM memory coupling (K314, Apache-2.0 REFERENCE clone). Clones: StarHarness (24MB), Recuris (4MB) — REFERENCE only. **CCC-only rule** `ccc-k310-k314-phase1-wires.mdc` — do **not** federation-sync. **Dual-ID:** CCC K285 Mandato ≠ CCC K310 pre-authorization context; same-day Cybersec AP2/StepGuard ingests resolve by file + wiki.
+AP2 pre-auth intent (K310, policy) + SCOUT lazy MCP catalog (K311, policy) + StepGuard step-level guardrails (K312, policy) + StarHarness stratified evolution (K313, MIT REFERENCE clone) + Recuris EM–WM memory coupling (K314, Apache-2.0 REFERENCE clone). Clones: StarHarness (24MB), Recuris (4MB) — REFERENCE only. **CCC-only rule** `ccc-k310-k314-phase1-wires.mdc` — do **not** federation-sync. Resolve by arXiv id / slug..
 
 ## Mandate signature vs pre-authorization intent (CCC K310)
 
@@ -631,7 +631,7 @@ AP2 pre-auth intent (K310, policy) + SCOUT lazy MCP catalog (K311, policy) + Ste
 
 ## CCC wave K315–K324 (shared policy file)
 
-ToolMinimize arg rewriting (K315, policy) + LifePlanner OOD (K316) + TAU-Agent OOD (K317) + ProgRouter step-wise routing (K318, policy) + AsymSpec serving WATCH (K319) + Claude Code Handbook delta (K320, reference) + ASIL structured state (K321, policy) + MoRe role fusion WATCH (K322) + INTENT-AS-A-TOOL (K323, MIT REFERENCE clone) + RedEvoAgent validation ratchet (K324, Cybersec-primary steal). Clone: intent-as-a-tool (17MB) — REFERENCE only. **CCC-only rule** `ccc-k315-k324-phase1-wires.mdc` — do **not** federation-sync. **Dual-ID:** CCC K324 RedEvoAgent = Cybersec-primary same-day PDF; CCC K285 Mandato ≠ K315 ToolMinimize.
+ToolMinimize arg rewriting (K315, policy) + LifePlanner OOD (K316) + TAU-Agent OOD (K317) + ProgRouter step-wise routing (K318, policy) + AsymSpec serving WATCH (K319) + Claude Code Handbook delta (K320, reference) + ASIL structured state (K321, policy) + MoRe role fusion WATCH (K322) + INTENT-AS-A-TOOL (K323, MIT REFERENCE clone) + RedEvoAgent validation ratchet (K324, Cybersec-primary steal). Clone: intent-as-a-tool (17MB) — REFERENCE only. **CCC-only rule** `ccc-k315-k324-phase1-wires.mdc` — do **not** federation-sync. Resolve by arXiv id / slug..
 
 ## Minimize tool-argument values, not only allow the call (CCC K315)
 
@@ -683,7 +683,7 @@ ToolMinimize arg rewriting (K315, policy) + LifePlanner OOD (K316) + TAU-Agent O
 
 ## CCC wave K325–K327 (shared policy file)
 
-Security-agent SLR bounded-authority gap (K325, Cybersec-primary steal) + Recognition Without Enforcement external monitor (K326, policy) + Logos cross-process plugin harness (K327, policy). **No clones** — no InstructionArbitrationBench (no SPDX, forthcoming), no Logos (no SPDX). **Zero attack text / no paper prompts / no PoCs anywhere.** CCC-only rule `ccc-k325-k327-phase1-wires.mdc` — do **not** federation-sync. **Dual-ID:** same-day Cybersec inbox holds 2608.28490 + 2608.28502 (its own K#); CCC K285 Mandato / K310 AP2 / K312 StepGate ≠ K326 external monitor.
+Security-agent SLR bounded-authority gap (K325, Cybersec-primary steal) + Recognition Without Enforcement external monitor (K326, policy) + Logos cross-process plugin harness (K327, policy). **No clones** — no InstructionArbitrationBench (no SPDX, forthcoming), no Logos (no SPDX). **Zero attack text / no paper prompts / no PoCs anywhere.** CCC-only rule `ccc-k325-k327-phase1-wires.mdc` — do **not** federation-sync. Resolve by arXiv id / slug..28490 + 2608.28502 (its own K#); CCC K285 Mandato / K310 AP2 / K312 StepGate ≠ K326 external monitor.
 
 ## Bounded authority + auditable trajectories (CCC K325)
 
@@ -705,7 +705,7 @@ Security-agent SLR bounded-authority gap (K325, Cybersec-primary steal) + Recogn
 
 ## CCC wave K328–K332 (shared policy file)
 
-Output attestation + delegation ancestry (K328, policy) + Domain-grounded tool orchestration (K329, pattern) + CastClaw HITL forecasting (K330, OOD steal) + AutoSciRub evaluation-first rubric induction (K331, eval-first) + Aspire vague-goal self-evolution (K332, policy). **One clone:** `zjunlp/AutoSciRub` MIT (~2.5MB) → REFERENCE `.local/adopts/AutoSciRub` — runtime `wont_wire`. **CCC-only rule** `ccc-k328-k332-phase1-wires.mdc` — do **not** federation-sync. **Dual-ID:** Cybersec may later take 2608.30387 (attestation) or 2608.30083 (ZK agent proofs — cap-skipped this wave); CCC K285 Mandato / K278 InterSAGE / K310 AP2 remain distinct from K328 output attestation. **No PoCs / no attack templates anywhere.**
+Output attestation + delegation ancestry (K328, policy) + Domain-grounded tool orchestration (K329, pattern) + CastClaw HITL forecasting (K330, OOD steal) + AutoSciRub evaluation-first rubric induction (K331, eval-first) + Aspire vague-goal self-evolution (K332, policy). **One clone:** `zjunlp/AutoSciRub` MIT (~2.5MB) → REFERENCE `.local/adopts/AutoSciRub` — runtime `wont_wire`. **CCC-only rule** `ccc-k328-k332-phase1-wires.mdc` — do **not** federation-sync. Resolve by arXiv id / slug..30387 (attestation) or 2608.30083 (ZK agent proofs — cap-skipped this wave); CCC K285 Mandato / K278 InterSAGE / K310 AP2 remain distinct from K328 output attestation. **No PoCs / no attack templates anywhere.**
 
 ## Credentials ≠ later output bytes — two-layer attestation (CCC K328)
 
@@ -740,7 +740,7 @@ Output attestation + delegation ancestry (K328, policy) + Domain-grounded tool o
 
 ## CCC wave K333–K336 (shared policy file)
 
-Delegation without trust (K333, Cybersec-primary + policy) + HarnessDev harness-as-artifact eval (K334, eval-first) + Harness-of-Harness meta-wrap (K335, pattern) + CordisBench lifecycle reasoning eval (K336, eval axis). **One clone:** `Flesymeb/HarnessOfHarness` MIT (~312MB) → REFERENCE `.local/adopts/HarnessOfHarness` — runtime `wont_wire`. **CCC-only rule** `ccc-k333-k336-phase1-wires.mdc` — do **not** federation-sync. **Dual-ID:** CCC K333 ≠ K285 Mandato / K310 AP2 / K326 external monitor / K328 attestation. **No PoCs / no attack templates anywhere.**
+Delegation without trust (K333, Cybersec-primary + policy) + HarnessDev harness-as-artifact eval (K334, eval-first) + Harness-of-Harness meta-wrap (K335, pattern) + CordisBench lifecycle reasoning eval (K336, eval axis). **One clone:** `Flesymeb/HarnessOfHarness` MIT (~312MB) → REFERENCE `.local/adopts/HarnessOfHarness` — runtime `wont_wire`. **CCC-only rule** `ccc-k333-k336-phase1-wires.mdc` — do **not** federation-sync. Resolve by arXiv id / slug.. **No PoCs / no attack templates anywhere.**
 
 ## Untrusted-model delegation governance (CCC K333 · Cybersec-primary)
 
