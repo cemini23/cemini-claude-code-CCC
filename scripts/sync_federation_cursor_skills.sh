@@ -7,23 +7,42 @@
 # Auto-discovers federation skills — add a new cross-project skill by putting
 # `federation: true` in its SKILL.md frontmatter (no hard-coded list edit required).
 #
-# User-global ~/.cursor/skills + ~/.cursor/rules cover Home / empty windows.
-# Per-workspace copies cover Open Folder sessions.
+# User-global ~/.cursor/rules/ holds shared federation rules (no project copies — avoids double-load).
+# Per-workspace: skills only. Per-workspace rule copies caused ~47% duplicate rule tokens (super-audit 2026-09-02).
 #
 # Autosync: CCC `scripts/post-commit.sh` runs this when skills/rules change.
 # Manual: bash scripts/sync_federation_cursor_skills.sh
+#         bash scripts/sync_federation_cursor_skills.sh --prune-project-rules
 #         ~/bin/sync-federation-cursor-skills
 set -euo pipefail
+
+PRUNE_PROJECT_RULES=0
+for arg in "$@"; do
+  case "${arg}" in
+    --prune-project-rules) PRUNE_PROJECT_RULES=1 ;;
+  esac
+done
 
 REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 SRC_RULE="${REPO_ROOT}/.cursor/rules/cemini-goal-skill.mdc"
 SRC_SEC_RULE="${REPO_ROOT}/.cursor/rules/cemini-cursor-security-preflight.mdc"
 SRC_ROUTE_RULE="${REPO_ROOT}/.cursor/rules/cemini-route-outsource.mdc"
 SRC_PHASE1_RULE="${REPO_ROOT}/.cursor/rules/cemini-phase1-policy-wires.mdc"
+SRC_INV_RULE="${REPO_ROOT}/.cursor/rules/cemini-invariants.mdc"
 USER_RULE="${HOME}/.cursor/rules/cemini-goal-skill.mdc"
 USER_SEC_RULE="${HOME}/.cursor/rules/cemini-cursor-security-preflight.mdc"
 USER_ROUTE_RULE="${HOME}/.cursor/rules/cemini-route-outsource.mdc"
 USER_PHASE1_RULE="${HOME}/.cursor/rules/cemini-phase1-policy-wires.mdc"
+USER_INV_RULE="${HOME}/.cursor/rules/cemini-invariants.mdc"
+
+FEDERATION_RULES_TO_PRUNE=(
+  cemini-goal-skill.mdc
+  cemini-cursor-security-preflight.mdc
+  cemini-route-outsource.mdc
+  tipdrop-route-outsource.mdc
+  cemini-phase1-policy-wires.mdc
+  cemini-invariants.mdc
+)
 
 # Discover CCC skills marked federation: true (YAML frontmatter).
 discover_federation_skills() {
@@ -43,7 +62,7 @@ discover_federation_skills() {
       name="$(basename "$(dirname "${skill_md}")")"
       # Domain skills synced separately — skip if listed in DOMAIN_SKILL_DIRS
       case "${name}" in
-        adopted-geo-tools|i-have-adhd) continue ;;
+        adopted-geo-tools|i-have-adhd|cemini-wiki-ingest|notebooklm-osint-bridge) continue ;;
       esac
       CANON_SKILLS+=("${name}")
     fi
@@ -64,6 +83,8 @@ OSINT_ROOT="/Users/claudiobarone/Projects/OSINT WORKSPACE"
 DOMAIN_SKILL_DIRS=(
   "adopted-geo-tools|${SEO_ROOT}/.cursor/skills/adopted-geo-tools"
   "i-have-adhd|${OSINT_ROOT}/.cursor/skills/i-have-adhd"
+  "cemini-wiki-ingest|${OSINT_ROOT}/.cursor/skills/cemini-wiki-ingest"
+  "notebooklm-osint-bridge|${OSINT_ROOT}/.cursor/skills/notebooklm-osint-bridge"
 )
 
 WORKSPACES=(
@@ -174,24 +195,7 @@ sync_domain_skill_tree() {
 
 install_workspace() {
   local dest="$1"
-  local rules_dir="${dest}/.cursor/rules"
   local entry name src_dir
-  mkdir -p "${rules_dir}"
-  copy_file "${SRC_RULE}" "${rules_dir}/cemini-goal-skill.mdc"
-  if [[ -f "${SRC_SEC_RULE}" ]]; then
-    copy_file "${SRC_SEC_RULE}" "${rules_dir}/cemini-cursor-security-preflight.mdc"
-  fi
-  if [[ -f "${SRC_ROUTE_RULE}" ]]; then
-    copy_file "${SRC_ROUTE_RULE}" "${rules_dir}/cemini-route-outsource.mdc"
-    copy_file "${SRC_ROUTE_RULE}" "${rules_dir}/tipdrop-route-outsource.mdc"
-  fi
-  if [[ -f "${SRC_PHASE1_RULE}" ]]; then
-    copy_file "${SRC_PHASE1_RULE}" "${rules_dir}/cemini-phase1-policy-wires.mdc"
-    # Cybersec dual-ID lives in a dest overlay; CCC canon does not carry it.
-    if [[ -f "${dest}/scripts/restore_cybersec_dual_id.py" ]]; then
-      python3 "${dest}/scripts/restore_cybersec_dual_id.py" --file "${rules_dir}/cemini-phase1-policy-wires.mdc"
-    fi
-  fi
   for skill in "${CANON_SKILLS[@]}"; do
     sync_skill_tree "${skill}" "${dest}"
   done
@@ -199,6 +203,21 @@ install_workspace() {
     name="${entry%%|*}"
     src_dir="${entry#*|}"
     sync_domain_skill_tree "${name}" "${src_dir}" "${dest}"
+  done
+}
+
+prune_project_rules() {
+  local ws="$1"
+  local rules_dir="${ws}/.cursor/rules"
+  local fname fpath
+  [[ "${ws}" == "${REPO_ROOT}" ]] && return 0
+  [[ -d "${rules_dir}" ]] || return 0
+  for fname in "${FEDERATION_RULES_TO_PRUNE[@]}"; do
+    fpath="${rules_dir}/${fname}"
+    if [[ -f "${fpath}" ]]; then
+      rm -f "${fpath}"
+      echo "  PRUNED ${ws} ${fname}"
+    fi
   done
 }
 
@@ -213,14 +232,8 @@ verify_workspace() {
     name="${entry%%|*}"
     [[ -f "${dest}/.cursor/skills/${name}/SKILL.md" ]] || ok=1
   done
-  [[ -f "${dest}/.cursor/rules/cemini-goal-skill.mdc" ]] || ok=1
-  [[ -f "${dest}/.cursor/rules/cemini-cursor-security-preflight.mdc" ]] || ok=1
-  [[ -f "${dest}/.cursor/rules/cemini-route-outsource.mdc" ]] || ok=1
   [[ -f "${dest}/.cursor/skills/route/SKILL.md" ]] || ok=1
   [[ -f "${dest}/.cursor/skills/phase1-wire/SKILL.md" ]] || ok=1
-  if [[ -f "${SRC_PHASE1_RULE}" ]]; then
-    [[ -f "${dest}/.cursor/rules/cemini-phase1-policy-wires.mdc" ]] || ok=1
-  fi
   if [[ -f "${dest}/.cursor/skills/cursor-audit/SKILL.md" ]]; then
     [[ -f "${dest}/.cursor/skills/cursor-audit/reference.md" ]] || ok=1
   fi
@@ -234,7 +247,7 @@ discover_federation_skills
 
 echo "Sync federation Cursor skills from ${REPO_ROOT}"
 echo "  Federation skills (auto): ${CANON_SKILLS[*]}"
-echo "  Domain skills: adopted-geo-tools (SEO) + i-have-adhd (OSINT K174)"
+echo "  Domain skills: adopted-geo-tools (SEO) + i-have-adhd + cemini-wiki-ingest + notebooklm-osint-bridge (OSINT)"
 
 for skill in "${CANON_SKILLS[@]}"; do
   sync_skill_tree "${skill}" "${HOME}"
@@ -255,8 +268,12 @@ if [[ -f "${SRC_SEC_RULE}" ]]; then
 fi
 if [[ -f "${SRC_ROUTE_RULE}" ]]; then
   copy_file "${SRC_ROUTE_RULE}" "${USER_ROUTE_RULE}"
-  copy_file "${SRC_ROUTE_RULE}" "${HOME}/.cursor/rules/tipdrop-route-outsource.mdc"
+  rm -f "${HOME}/.cursor/rules/tipdrop-route-outsource.mdc"
   echo "  OK  user-global ${USER_ROUTE_RULE}"
+fi
+if [[ -f "${SRC_INV_RULE}" ]]; then
+  copy_file "${SRC_INV_RULE}" "${USER_INV_RULE}"
+  echo "  OK  user-global ${USER_INV_RULE}"
 fi
 if [[ -f "${SRC_PHASE1_RULE}" ]]; then
   copy_file "${SRC_PHASE1_RULE}" "${USER_PHASE1_RULE}"
@@ -282,10 +299,19 @@ for ws in "${WORKSPACES[@]}"; do
   fi
 done
 
+if [[ "${PRUNE_PROJECT_RULES}" -eq 1 ]]; then
+  echo ""
+  echo "Prune federation rule copies from project .cursor/rules/ ..."
+  for ws in "${WORKSPACES[@]}"; do
+    [[ -d "${ws}" ]] || continue
+    prune_project_rules "${ws}"
+  done
+fi
+
 echo ""
 if [[ "${fail}" -gt 0 ]]; then
   echo "Synced ${count} workspace(s); ${fail} verify failure(s); ${skip} skipped." >&2
   exit 1
 fi
-echo "Synced ${count} workspace(s) + user-global (${#CANON_SKILLS[@]} federation + ${#DOMAIN_SKILL_DIRS[@]} domain + shared rules); ${skip} path(s) skipped (missing)."
+echo "Synced ${count} workspace(s) + user-global (${#CANON_SKILLS[@]} federation + ${#DOMAIN_SKILL_DIRS[@]} domain skills; rules → ~/.cursor/rules/ only); ${skip} path(s) skipped (missing)."
 echo "Optional: cursor-security-preflight --quick"
