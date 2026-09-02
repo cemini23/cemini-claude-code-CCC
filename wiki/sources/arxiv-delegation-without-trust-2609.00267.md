@@ -70,5 +70,5 @@ CCC policy lines: **never gate authority inside model reasoning**; prefer extern
 
 > "An external authorization broker with scoped sub-agent delegation closes the architectural gap at sub-microsecond decision latency in production reference deployments." [Source: arXiv 2609.00267 — VotalAI LLM Shield reference]
 
-| **Location** | Pending archive to `cemini-egress-fi:/opt/cemini-bulk/research/ccc/` |
+| **Location** | `cemini-egress-fi:/opt/cemini-bulk/research/ccc/arxiv-2609.00267-delegation-without-trust-an-empirical-gap-analys.pdf` |
 |--------------|------------------------------------------------------------------------|

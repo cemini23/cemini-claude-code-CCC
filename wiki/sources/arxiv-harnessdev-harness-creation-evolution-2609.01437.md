@@ -67,5 +67,5 @@ CCC policy lines: **evaluate harness infrastructure, not only answers**; treat v
 
 > "State and memory components defined in harness code often never fire at runtime — integration verification is required." [Source: arXiv 2609.01437 — integration gap finding]
 
-| **Location** | Pending archive to `cemini-egress-fi:/opt/cemini-bulk/research/ccc/` |
+| **Location** | `cemini-egress-fi:/opt/cemini-bulk/research/ccc/arxiv-2609.01437-harnessdev-can-llms-create-and-evolve-their-own.pdf` |
 |--------------|------------------------------------------------------------------------|

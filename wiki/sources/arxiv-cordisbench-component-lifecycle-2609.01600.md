@@ -56,5 +56,5 @@ CCC policy lines: treat dynamic harness changes as **dependency + teardown-order
 
 > "Deterministic reference semantics match Cordis execution on all 528 executable questions — prefer execution verify over LLM lifecycle anticipation when formal spec exists." [Source: arXiv 2609.01600 — eval methodology]
 
-| **Location** | Pending archive to `cemini-egress-fi:/opt/cemini-bulk/research/ccc/` |
+| **Location** | `cemini-egress-fi:/opt/cemini-bulk/research/ccc/arxiv-2609.01600-cordisbench-can-language-models-reason-about-com.pdf` |
 |--------------|------------------------------------------------------------------------|

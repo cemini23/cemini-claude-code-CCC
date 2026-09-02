@@ -65,5 +65,5 @@ CCC policy lines: meta-loop discipline for long-horizon SWE; independent eval ga
 
 > "Implementation-time testing is separated from independent evaluation — self-tests during coding do not substitute for held-out scoring." [Source: arXiv 2609.01481 — eval discipline]
 
-| **Location** | Pending archive to `cemini-egress-fi:/opt/cemini-bulk/research/ccc/` |
+| **Location** | `cemini-egress-fi:/opt/cemini-bulk/research/ccc/arxiv-2609.01481-harness-of-harness-multi-day-autonomous-software.pdf` |
 |--------------|------------------------------------------------------------------------|
