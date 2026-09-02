@@ -1,0 +1,23 @@
+---
+description: Cemini federation hard invariants — HITL on irreversible effects, no skill/harness auto-evolve, no prod writes, license + secrets, claim + locator
+alwaysApply: true
+---
+
+# Cemini federation invariants
+
+Hard gates for every workspace. Full catalog is on demand in `cemini-phase1-policy-wires.mdc`.
+
+- Irreversible effects (LIVE Discord, trading egress, `scp` to `cemini-prod`, `watches.json`, stash/GitHub writes): preview → confirm → pre-state → act → post-state. No phantom success. Verify-then-retry. One reservation while ambiguous. (execution-fidelity / AID-Guard)
+- Never auto-evolve `.cursor/skills/*`, `.cursor/rules/*`, prompts, or hooks. HITL before any harness self-write. Skills can get worse with practice. (2608.12851 misevolution / SHE / StarHarness / HCL)
+- Never rewrite `## Verify` or pass criteria mid-run. External eval contract is authoritative. (AutoDesign / Task-CoEvolve / AutoSciRub)
+- Gate the tool step, not only the answer. Enforcement is external and fail-closed; model self-arbitration is not a boundary. (StepGuard / external-reference-monitor / Mandato)
+- `.local/adopts/*` = REFERENCE. Runtime wire needs a `wire-ledger.yaml` row. No `curl | sh`, no upstream `install.sh`, no HF weight downloads by default.
+- License: no clone without SPDX or LICENSE file. AGPL / GPL = extract-only; never into Atto or proprietary kits.
+- Secrets never in rules, handoffs, or free-tier models. No production private keys in agent-readable env for LIVE agents. (hardware-keystore)
+- Claim + source locator or `NO_EVIDENCE`. Never invent fields to fill a schema in durable artifacts. (Traceable Scholarship / ResidencyRL)
+- Solvers, not LLM recall, for tabular prediction, distance, containment, lifecycle order. (MultiGlobeQA / CordisBench)
+- No PoCs, jailbreak text, or attack templates in wiki or briefs.
+- `/opt/cemini` is read-only from laptops. Briefs to `/opt/cemini/briefs/` only, after HITL.
+- IDs: key rules and ledger rows by arXiv id / slug. K# is a batch label in `log.md` only.
+
+Full catalog (on demand): `cemini-phase1-policy-wires.mdc` · canon: `@ccc-wiki/concepts/phase1-adopt-wire.md` · verbs: `@osint-wiki/concepts/file-keep-wire-harness.md`

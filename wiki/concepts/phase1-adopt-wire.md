@@ -10,6 +10,7 @@ related:
   - concepts/cross-wiki-tool-adoption-routing.md
   - concepts/reconstructive-agent-memory-vs-verbatim-replay.md
   - concepts/active-abstraction-programmatic-world-models.md
+  - concepts/file-keep-wire-harness.md
   - concepts/passive-awareness-async-multi-agent-coordination.md
   - concepts/claim-centered-retrieval-with-provenance.md
   - entities/tools/asm-adopt-orphan.md

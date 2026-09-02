@@ -8,6 +8,8 @@ alwaysApply: true
 **Canon skills** live in CCC `.cursor/skills/<name>/` with frontmatter `federation: true`.
 They sync to all workspaces + `~/.cursor/skills/` via `scripts/sync_federation_cursor_skills.sh`.
 
+**Shared federation rules** (`cemini-*.mdc`) sync to `~/.cursor/rules/` **only** — do not copy into project `.cursor/rules/` (double-load). Run `bash scripts/sync_federation_cursor_skills.sh --prune-project-rules` once after upgrading.
+
 ## When you edit a federation skill or shared rule
 
 1. Ensure `federation: true` is in the skill's `SKILL.md` frontmatter (new cross-project workflow skills).

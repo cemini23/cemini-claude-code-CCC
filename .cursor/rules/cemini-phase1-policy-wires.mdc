@@ -1,6 +1,6 @@
 ---
 description: Phase-1 policy wires — memory/HITL/codegen/tokenization/fidelity/sentinel/cost/GUI-MCP/input/canary/Argus/keystore/READ/PTC/CASCADE/ResidencyRL/BlastRadius/SHE/measurement/InterSAGE/MARC/Vero/AutoDesign (K230–K281)
-alwaysApply: true
+alwaysApply: false
 ---
 
 # Phase-1 policy wires (K230–K281)

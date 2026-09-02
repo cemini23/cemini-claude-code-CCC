@@ -29,7 +29,7 @@ fi
 need_sync=0
 while IFS= read -r path; do
   case "${path}" in
-    .cursor/skills/*/SKILL.md|.cursor/skills/*/*|.cursor/rules/cemini-goal-skill.mdc|.cursor/rules/cemini-route-outsource.mdc|.cursor/rules/cemini-cursor-security-preflight.mdc|.cursor/rules/cemini-phase1-policy-wires.mdc|.cursor/rules/cemini-federation-skill-sync.mdc|scripts/sync_federation_cursor_skills.sh|scripts/post-commit.sh)
+    .cursor/skills/*/SKILL.md|.cursor/skills/*/*|.cursor/rules/cemini-goal-skill.mdc|.cursor/rules/cemini-route-outsource.mdc|.cursor/rules/cemini-cursor-security-preflight.mdc|.cursor/rules/cemini-invariants.mdc|.cursor/rules/cemini-phase1-policy-wires.mdc|.cursor/rules/cemini-federation-skill-sync.mdc|scripts/sync_federation_cursor_skills.sh|scripts/post-commit.sh)
       need_sync=1
       break
       ;;
