@@ -11,9 +11,11 @@ related:
   - sources/arxiv-recognition-without-enforcement-2608.28502.md
   - concepts/output-attestation-and-delegation-ancestry.md
   - sources/arxiv-attesting-outputs-delegation-ancestry-2608.30387.md
+  - concepts/untrusted-model-delegation-governance.md
+  - sources/arxiv-delegation-without-trust-2609.00267.md
 maturity: draft
 created: 2026-08-26
-updated: 2026-09-01
+updated: 2026-09-02
 ---
 
 ## Relations

@@ -65,9 +65,11 @@ related:
   - concepts/vague-goal-self-evolution.md
   - sources/arxiv-aspire-vague-goal-self-evolution-2608.31111.md
   - briefs/2026-09-01_ccc-k328-k332-sip-ready.md
+  - concepts/harness-as-eval-artifact.md
+  - sources/arxiv-harnessdev-harness-creation-evolution-2609.01437.md
 maturity: draft
 created: 2026-07-14
-updated: 2026-09-01
+updated: 2026-09-02
 ---
 
 ## Relations

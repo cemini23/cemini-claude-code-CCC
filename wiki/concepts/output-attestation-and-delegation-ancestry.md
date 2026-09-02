@@ -10,11 +10,13 @@ related:
   - concepts/intersage-trust-native-ioa-protocol.md
   - concepts/meta-harness-optimization-hitl-eval-contract.md
   - briefs/2026-09-01_ccc-k328-k332-sip-ready.md
+  - concepts/untrusted-model-delegation-governance.md
+  - sources/arxiv-delegation-without-trust-2609.00267.md
 maturity: draft
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"
 created: 2026-09-01
-updated: 2026-09-01
+updated: 2026-09-02
 ---
 
 ## Relations

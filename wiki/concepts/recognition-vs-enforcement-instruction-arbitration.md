@@ -11,9 +11,11 @@ related:
   - concepts/bounded-authority-auditable-trajectories.md
   - entities/patterns/external-reference-monitor.md
   - briefs/2026-08-31_ccc-k325-k327-sip-ready.md
+  - concepts/untrusted-model-delegation-governance.md
+  - sources/arxiv-delegation-without-trust-2609.00267.md
 maturity: draft
 created: 2026-08-31
-updated: 2026-08-31
+updated: 2026-09-02
 ---
 
 ## Relations

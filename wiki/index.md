@@ -180,6 +180,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`intent-as-a-tool`](entities/tools/intent-as-a-tool.md) | draft | Intent-targeted tools for misalignment tracking — MIT REFERENCE <500MB (K323) |
 | [`logos-agent-harness`](entities/tools/logos-agent-harness.md) | draft | Logos cross-process agent harness — policy only, wont_wire (K327) |
 | [`autoscirub`](entities/tools/autoscirub.md) | draft | AutoSciRub evaluation-first rubric induction — MIT REFERENCE <500MB (K331) |
+| [`harness-of-harness`](entities/tools/harness-of-harness.md) | draft | Harness-of-Harness meta-wrap — MIT REFERENCE ~312MB (K335) |
 
 ## entities/mcp-servers/
 
@@ -596,6 +597,10 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`domain-grounded-tool-orchestration`](concepts/domain-grounded-tool-orchestration.md) | draft | Intent/execute/explain split over MCP + ontology — 2608.30696 (K329) |
 | [`evaluation-first-rubric-induction`](concepts/evaluation-first-rubric-induction.md) | draft | Induce executable rubric before execution — 2608.31076 (K331) |
 | [`vague-goal-self-evolution`](concepts/vague-goal-self-evolution.md) | draft | Goal interpretation = missing search axis — 2608.31111 (K332) |
+| [`untrusted-model-delegation-governance`](concepts/untrusted-model-delegation-governance.md) | draft | Untrusted-model property + external broker — 2609.00267 (K333) |
+| [`harness-as-eval-artifact`](concepts/harness-as-eval-artifact.md) | draft | Evaluate runnable harness not task output — 2609.01437 (K334) |
+| [`meta-harness-continual-improvement`](concepts/meta-harness-continual-improvement.md) | draft | Meta-harness wrap on existing harnesses — 2609.01481 (K335) |
+| [`harness-component-lifecycle-reasoning`](concepts/harness-component-lifecycle-reasoning.md) | draft | Teardown-order lifecycle reasoning — 2609.01600 (K336) |
 
 ## sources/
 
@@ -942,6 +947,10 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-castclaw-hitl-forecasting-agent-2608.30976`](sources/arxiv-castclaw-hitl-forecasting-agent-2608.30976.md) | draft | CastClaw HITL forecasting agent (OOD) — 2608.30976 (K330) |
 | [`arxiv-autoscirub-rubric-induction-2608.31076`](sources/arxiv-autoscirub-rubric-induction-2608.31076.md) | draft | AutoSciRub evaluation-first rubric induction — 2608.31076 (K331) |
 | [`arxiv-aspire-vague-goal-self-evolution-2608.31111`](sources/arxiv-aspire-vague-goal-self-evolution-2608.31111.md) | draft | Aspire vague-goal self-evolution — 2608.31111 (K332) |
+| [`arxiv-delegation-without-trust-2609.00267`](sources/arxiv-delegation-without-trust-2609.00267.md) | draft | Delegation Without Trust — 2609.00267 (K333) |
+| [`arxiv-harnessdev-harness-creation-evolution-2609.01437`](sources/arxiv-harnessdev-harness-creation-evolution-2609.01437.md) | draft | HarnessDev harness creation/evolution — 2609.01437 (K334) |
+| [`arxiv-harness-of-harness-multiday-swe-2609.01481`](sources/arxiv-harness-of-harness-multiday-swe-2609.01481.md) | draft | Harness-of-Harness multi-day SWE — 2609.01481 (K335) |
+| [`arxiv-cordisbench-component-lifecycle-2609.01600`](sources/arxiv-cordisbench-component-lifecycle-2609.01600.md) | draft | CordisBench component lifecycles — 2609.01600 (K336) |
 
 ## meta/
 
@@ -972,6 +981,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`2026-08-30-daily`](sweeps/2026-08-30-daily.md) | Daily digest — 0 new PDFs; 6 dupes skipped |
 | [`2026-08-31-daily`](sweeps/2026-08-31-daily.md) | Daily digest — 3 papers (K325–K327 wave) |
 | [`2026-09-01-daily`](sweeps/2026-09-01-daily.md) | Daily digest — 5 papers (K328–K332 wave) |
+| [`2026-09-02-daily`](sweeps/2026-09-02-daily.md) | Daily digest — 4 papers (K333–K336 wave) |
 
 ## entities/people/
 

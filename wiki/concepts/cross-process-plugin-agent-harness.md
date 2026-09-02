@@ -9,9 +9,11 @@ related:
   - concepts/execution-fidelity-irreversible-agent-invariants.md
   - entities/tools/logos-agent-harness.md
   - briefs/2026-08-31_ccc-k325-k327-sip-ready.md
+  - concepts/harness-component-lifecycle-reasoning.md
+  - sources/arxiv-cordisbench-component-lifecycle-2609.01600.md
 maturity: draft
 created: 2026-08-31
-updated: 2026-08-31
+updated: 2026-09-02
 ---
 
 ## Relations

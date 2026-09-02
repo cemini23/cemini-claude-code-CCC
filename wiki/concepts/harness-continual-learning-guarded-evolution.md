@@ -18,11 +18,13 @@ related:
   - entities/tools/task-coevolve.md
   - sources/arxiv-task-coevolve-adaptive-validation-task-selection-2608.20169.md
   - entities/tools/prime-agent.md
+  - concepts/meta-harness-continual-improvement.md
+  - sources/arxiv-harness-of-harness-multiday-swe-2609.01481.md
 maturity: draft
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"
 created: 2026-08-20
-updated: 2026-08-25
+updated: 2026-09-02
 ---
 
 ## Relations

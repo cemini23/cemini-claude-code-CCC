@@ -1898,3 +1898,15 @@ Cross-wiki stub routed from `@osint-wiki/sources/newsletter-rss-pragmatic-engine
 - **Briefs:** `docs/briefs/2026-09-01_k328-k332-harness-wave.md`; prod pair `briefs/2026-09-01_k328-k332-harness-wave-prod.md` + `-harness-policy-hands-on.md` scp'd to `cemini-prod:/opt/cemini/briefs/` via updated script
 - **Archive:** 5 PDFs → egress-fi (inbox empty except `.gitkeep`); sweep `wiki/sweeps/2026-09-01-daily.md` committed
 - **Lint/git:** `wiki_lint.py` 0 bidirectional gaps (49 new edges all backlinked; baseline non-gap checks unchanged). Commit only ingest files; unrelated dirty (CLAUDE.md / LESSONS.md / five-section template / claude_mem_keepalive) left unstaged. Push `main`; Wiki Lint CI green.
+
+## [2026-09-02] ingest | K333–K336 harness wave — untrusted delegation, HarnessDev, HoH, CordisBench
+
+- **Sources:** arXiv 2609.00267 (Delegation Without Trust — Cybersec-primary + ADOPT policy, no SPDX), 2609.01437 (HarnessDev — ADOPT eval-first, project page only), 2609.01481 (Harness-of-Harness — ADOPT pattern, MIT GO REFERENCE clone), 2609.01600 (CordisBench — ADOPT eval axis, SPDX watch)
+- **New pages:** 4 arxiv sources, 4 concepts (untrusted-model-delegation-governance, harness-as-eval-artifact, meta-harness-continual-improvement, harness-component-lifecycle-reasoning), 1 entity (harness-of-harness `wont_wire` runtime / REFERENCE clone); SIP `wiki/briefs/2026-09-02_ccc-k333-k336-sip-ready.md`
+- **Phase-0:** `adopt_k333`…`k336_phase0.sh` all exit 0. Clone **only** `Flesymeb/HarnessOfHarness` (MIT, ~312MB) into `.local/adopts/HarnessOfHarness`. No HarnessDev / CordisBench / VotalAI clones.
+- **Phase-1:** `.cursor/rules/cemini-phase1-policy-wires.mdc` §CCC wave K333–K336 + per-topic sections; CCC-only `ccc-k333-k336-phase1-wires.mdc` (NOT federation-synced).
+- **Dual-ID:** CCC K333 ≠ K285 Mandato / K310 AP2 / K326 / K328 attestation. BPS / Wayfinder / K310–K332 blocks kept.
+- **Cross-wiki:** cybersec steal `../Cybersecurity wiki/briefs/2026-09-02_k333-untrusted-model-delegation-steal-from-ccc.md` (no PoCs).
+- **Briefs:** `docs/briefs/2026-09-02_k333-k336-harness-wave.md`; prod pair scp'd via updated script.
+- **Archive:** 4 PDFs → egress-fi (inbox empty except `.gitkeep`); sweep `wiki/sweeps/2026-09-02-daily.md` committed.
+- **Leftover (propose-only):** CordisBench SPDX watch; HarnessDev benchmark repo if published; dense SCOUT over live MCP catalog; real authorization broker runtime (Atto/Cybersec HITL).

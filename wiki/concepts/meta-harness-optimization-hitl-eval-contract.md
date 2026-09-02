@@ -26,9 +26,13 @@ related:
   - concepts/output-attestation-and-delegation-ancestry.md
   - sources/arxiv-castclaw-hitl-forecasting-agent-2608.30976.md
   - briefs/2026-09-01_ccc-k328-k332-sip-ready.md
+  - concepts/harness-as-eval-artifact.md
+  - concepts/meta-harness-continual-improvement.md
+  - sources/arxiv-harness-of-harness-multiday-swe-2609.01481.md
+  - sources/arxiv-harnessdev-harness-creation-evolution-2609.01437.md
 maturity: draft
 created: 2026-08-14
-updated: 2026-09-01
+updated: 2026-09-02
 ---
 
 ## Relations

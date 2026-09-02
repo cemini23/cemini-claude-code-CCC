@@ -199,6 +199,8 @@ BRIEFS=(
   "2026-08-31_k325-k327-harness-policy-hands-on.md"
   "2026-09-01_k328-k332-harness-wave-prod.md"
   "2026-09-01_k328-k332-harness-policy-hands-on.md"
+  "2026-09-02_k333-k336-harness-wave-prod.md"
+  "2026-09-02_k333-k336-harness-policy-hands-on.md"
 )
 
 echo "SCP harness briefs → ${REMOTE}"

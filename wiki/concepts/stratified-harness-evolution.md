@@ -11,9 +11,13 @@ related:
   - concepts/vague-goal-self-evolution.md
   - sources/arxiv-autoscirub-rubric-induction-2608.31076.md
   - sources/arxiv-aspire-vague-goal-self-evolution-2608.31111.md
+  - concepts/harness-as-eval-artifact.md
+  - concepts/meta-harness-continual-improvement.md
+  - sources/arxiv-harness-of-harness-multiday-swe-2609.01481.md
+  - sources/arxiv-harnessdev-harness-creation-evolution-2609.01437.md
 maturity: draft
 created: 2026-08-26
-updated: 2026-09-01
+updated: 2026-09-02
 ---
 
 ## Relations
