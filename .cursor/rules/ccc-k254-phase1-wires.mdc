@@ -1,0 +1,37 @@
+---
+description: CCC Phase-1 wires from OSINT K254 harness + Fable 5.1 routing (CCC-only — do NOT federation-sync)
+alwaysApply: true
+---
+
+# CCC — K254 Phase-1 wires
+
+**Briefs:** `docs/briefs/2026-09-02_k254-ccc-harness-evolution.md`, `docs/briefs/2026-09-02_k254-ccc-fable-51-routing.md`
+**Wiki:** `@osint-wiki/concepts/k254-harness-evolution-wave.md`, `@osint-wiki/concepts/k254-ccc-models-wave.md`
+
+**Dual-ID:** **CCC K254** (hardware keystore) ≠ **OSINT K254** (this harness wave). **CCC K334–K336** already cover HarnessDev/HoH/CordisBench — this file adds OSINT-ingest cross-links + Agent Seer + SKILL.state + Fable 5.1.
+
+## Harness evolution cluster (policy_wired)
+
+- **HarnessDev (2609.01437)** — unit of eval = **runnable harness**; Creation + Evolution; unstable gains; state/memory hooks often never fire. Run `python3 scripts/harness_eval_checklist.py` (OSINT copy) before SHIP. Skill: `harness-eval-gate`. **Never auto-evolve** `.cursor/skills`.
+- **Harness-of-Harness (2609.01481)** — meta-harness **wraps** existing stacks; plan–code–test; separate impl test from independent eval; versioned history. REFERENCE `.local/adopts/HarnessOfHarness` if cloned — **wont_wire** runtime; do not replace Cursor/`/route`.
+- **CordisBench (2609.01600)** — teardown-order + dependency cleanup; at scale prefer **deterministic reference semantics** over LLM anticipation. Eval runtime **`wont_wire`** until SPDX.
+- **SKILL.state (2608.26263)** — long-horizon skill state vocabulary; pairs K237 misevolution + K314 EM–WM; **library cap + retirement** on evidenced harm.
+- **Agent Seer (2608.26133)** — scenario synthesis from spec understanding for eval/red-team packs; pairs K260 adversarial curriculum; **no PoC text** in wiki.
+
+## Fable/Mythos 5.1 routing (awareness only)
+
+- Latent Space AINews: SOTA claim + **75% cache price cut** with **~70% more output tokens** on cache miss — measure **$/task**, not list price alone.
+- **Do not** swap `/route` default executor or Cursor premium model without HITL + external eval contract (K281/K162).
+- `/usage` (allocation) vs `/context` (occupancy) stay separate (K320).
+
+## Wires landed
+
+| Item | wire_status | Helper |
+|------|-------------|--------|
+| HarnessDev eval-first | `policy_wired` | `harness-eval-gate`, `harness_eval_checklist.py` |
+| HoH wrap pattern | `policy_wired` | `env-harness-wrap` |
+| CordisBench lifecycle axis | `policy_wired` | execution verify over LLM guess |
+| SKILL.state + Agent Seer | `policy_wired` | misevolution gates K237 |
+| Fable 5.1 routing | `policy_wired` | no `/route` swap without HITL |
+
+**Non-goals:** no HarnessDev/CordisBench/Agent Seer clones (no public SPDX); no federation sync of this file; no skill auto-evolution.
