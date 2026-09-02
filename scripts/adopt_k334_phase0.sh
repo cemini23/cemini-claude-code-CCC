@@ -11,6 +11,7 @@ check "policy K334" grep -q "K334" "${REPO_ROOT}/.cursor/rules/cemini-phase1-pol
 check "ccc-rule K334" grep -q "K334" "${REPO_ROOT}/.cursor/rules/ccc-k333-k336-phase1-wires.mdc"
 check "no clone" test ! -d "${REPO_ROOT}/.local/adopts/HarnessDev"
 check "concept wired" grep -q "wire_status: policy_wired" "${REPO_ROOT}/wiki/concepts/harness-as-eval-artifact.md"
+check "eval gate helper" python3 "${REPO_ROOT}/scripts/harness_eval_checklist.py" selftest
 warn_note "K334 ADOPT eval — unit of eval = runnable harness; Creation+Evolution; unstable/partial transfer; state often never fires. Project page only — no SPDX → policy only. Never auto-evolve .cursor/skills."
 echo "Summary: ${pass} pass, ${fail} fail, ${warn} warn"
 [[ "${fail}" -eq 0 ]]

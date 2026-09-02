@@ -24,3 +24,5 @@ alwaysApply: true
 | K336 | ADOPT eval axis | Teardown-order reasoning; prefer execution verify at scale | `policy_wired` (harness-component-lifecycle-reasoning); runtime `wont_wire` |
 
 **Leftovers / non-goals:** no federation sync of this file; no HarnessDev / CordisBench / VotalAI clones; no `.cursor/skills` auto-evolution; no `route-task.ps1` rewrite; no `~/.claude/settings.json` edits; no PoCs / attack templates anywhere.
+
+**Leftovers shipped 2026-09-02:** federation skills `untrusted-delegation-precheck` / `harness-eval-gate` / `agent-queue-labels` (`disable-model-invocation: true`); helpers `delegation_broker_precheck.py`, `harness_eval_checklist.py`, `agent_queue_labels.py`, `spdx_watch_harness_wave.sh`; `external-reference-monitor` v1.1 K333 pairing. Remaining propose-only: dense+RRF SCOUT over live MCP catalog; CordisBench/HarnessDev clone when SPDX appears; HoH runtime wrap (HITL); authorization broker product install.

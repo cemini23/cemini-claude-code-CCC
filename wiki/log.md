@@ -1910,3 +1910,11 @@ Cross-wiki stub routed from `@osint-wiki/sources/newsletter-rss-pragmatic-engine
 - **Briefs:** `docs/briefs/2026-09-02_k333-k336-harness-wave.md`; prod pair scp'd via updated script.
 - **Archive:** 4 PDFs → egress-fi (inbox empty except `.gitkeep`); sweep `wiki/sweeps/2026-09-02-daily.md` committed.
 - **Leftover (propose-only):** CordisBench SPDX watch; HarnessDev benchmark repo if published; dense SCOUT over live MCP catalog; real authorization broker runtime (Atto/Cybersec HITL).
+
+## [2026-09-02] ops | K333–K336 leftovers shipped — precheck skills + helpers
+
+- **Federation skills (operator-invoked):** `untrusted-delegation-precheck` (K333), `harness-eval-gate` (K334), `agent-queue-labels` (Osmani k244); `external-reference-monitor` bumped v1.1 (K326+K333 pairing)
+- **Helpers:** `delegation_broker_precheck.py`, `harness_eval_checklist.py`, `agent_queue_labels.py`, `spdx_watch_harness_wave.sh` — all with `selftest`
+- **Phase-0:** `adopt_k333` / `adopt_k334` extended to run helper selftests
+- **Cross-wiki:** Atto steal `../atto/briefs/2026-09-02_k333-untrusted-delegation-steal-from-ccc.md`; leftovers brief `docs/briefs/2026-09-02_k333-k336-leftovers-shipped.md`
+- **Still propose-only:** HoH runtime wrap; dense+RRF SCOUT; CordisBench/HarnessDev clone when SPDX; VotalAI product; 2608.30083 ZK proofs

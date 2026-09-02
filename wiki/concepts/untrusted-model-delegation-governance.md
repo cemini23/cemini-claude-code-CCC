@@ -11,6 +11,7 @@ related:
   - concepts/output-attestation-and-delegation-ancestry.md
   - concepts/phase1-adopt-wire.md
   - briefs/2026-09-02_ccc-k333-k336-sip-ready.md
+  - entities/patterns/external-reference-monitor.md
 maturity: draft
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"
