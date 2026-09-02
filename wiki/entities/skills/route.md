@@ -20,7 +20,7 @@ related:
   - sources/arxiv-progrouter-progress-orchestration-2608.25992.md
 maturity: validated
 created: 2026-07-01
-updated: 2026-08-28
+updated: 2026-09-02
 ---
 
 ## Relations
@@ -77,5 +77,6 @@ OSINT daily digest steals for this skill via cluster `cursor-route-harness` (`da
 | OSINT K241 (2026-08-18) | Outlier Weekly + public MIT [`cemini23/cursor-route`](https://github.com/cemini23/cursor-route) (npm 0.1.9): lane-aware tmux workers; **health proves mid is DeepSeek** (`lane:mid` / `lanes.mid`; Anthropic hatch is not proof); **do not replace `/route`**; always-approve ≠ LIVE Discord/trading. Also: ClawGym II (2608.16798) optimize the *model through* the harness (do not fork it); HarnessEval-W (2608.16859) evidence-tree eval (`status --json` spawn/execute/verify, claim stays unverified); strategic tech debt (2608.16112) — unattended skill evolve / silent `~/.cursor/skills` = toxic; `--worker deepseek` stays cheap-to-abandon. Dual-ID: **OSINT K241** ≠ CCC K241. | **wired** 2026-08-18 on public cursor-route 0.1.9 (health proof + evidence tree). `/route` worker unchanged — HITL before toolkit PR. Brief `briefs/2026-08-18_k241-cursor-route-clawgym-harnesseval.md` |
 | OSINT K242 (2026-08-19) | Glean enterprise task→model routing (cost; skip LLM for calculator tasks). **Do not swap `/route` worker.** easy-agent MIT = Extract permission/checkpoint pattern only. Grok clone stall (0% CPU, `.local/adopts` mtime) tripped 600s watchdog → Pro hang → Cursor parent takeover. Dual-ID: **OSINT K242** ≠ Trajectory Sentinel K242. | **open** — backlog; `/route` worker unchanged. Brief `briefs/2026-08-19_k242-glean-routing-dram-easy-agent.md` |
 | OSINT K243 (2026-08-20) | GLM-5.3 post-training (RL-on-environments + DSH harness plugin Cordis): **the harness layer is the cost/diff surface** — TrueForge (MIT) quantifies harness cost; route pricing must count harness, not just tokens. Osmani cognitive surrender + mutual amplification reinforce the verify gate (worker ≠ verifier). **Do not swap `/route` worker or PATH `claude-ds`.** Eureka (K293) / Harness-CL (K292) / SemaPLC OOD — policy only. Dual-ID: **OSINT K243** ≠ CCC K243 (ACEM). | **open** — backlog; `/route` worker unchanged. Brief `briefs/2026-08-20_k243-ccc.md` |
+| OSINT super-audit (2026-09-02) | Public MIT [`cemini23/cursor-route`](https://github.com/cemini23/cursor-route) npm **0.1.14**: easy-lane OpenRouter live pick **tier-ranks** Qwen/GLM/Kimi above Nemotron 550B (ctx bonus capped at 131072). **Do not replace `/route`.** Mid stays `claude-ds`. | **wired** on public cursor-route 0.1.14 only. `/route` worker unchanged. |
 
 Briefs: `briefs/2026-08-11_route-skill-k231-k232-steals.md` · `briefs/2026-08-12_k234-charity-majors-harness-verify.md` · `briefs/2026-08-18_k241-cursor-route-clawgym-harnesseval.md` · `briefs/2026-08-19_k242-glean-routing-dram-easy-agent.md` · `briefs/2026-08-20_k243-ccc.md` · public product working brief: `~/Projects/cursor-route/docs/briefs/WORKING.md`.
