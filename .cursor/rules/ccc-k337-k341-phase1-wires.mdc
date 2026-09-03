@@ -1,0 +1,30 @@
+---
+description: CCC Phase-1 wires from K337–K341 harness wave (CCC-only — do NOT federation-sync)
+alwaysApply: true
+---
+
+# CCC — K337–K341 Phase-1 wires
+
+**Brief:** `docs/briefs/2026-09-03_k337-k341-harness-wave.md` · SIP: `wiki/briefs/2026-09-03_ccc-k337-k341-sip-ready.md`
+
+**IDs:** Resolve by arXiv id / slug / file path — K# is a log batch label only.
+
+- **K337** ACLE-MCP — **Cybersec-primary** + **CCC ADOPT policy**: **post-authorization execution trust gap** — OAuth authorizes access, not the workload that executes; short-lived sender-constrained **capability lease** binds workload appraisal, op/object/param bounds, freshness; **Execution Gate** before protected tool logic. Prototype (Keycloak/OIDC, MCP Python SDK, optional vTPM) — **no public SPDX → policy only, no clone. No PoCs.** `policy_wired`. Pairs K285/K328/K326/K333.
+- **K338** BuildOcc — **OOD** building-energy occupant agents (ATUS). Open-source + Zenodo — **skip clone** (OOD). Short source stub; `wont_wire`. No concept/entity.
+- **K339** Bilevel Coordinated Reflection — **ADOPT pattern**: orchestrator–worker as bilevel coordination game; decomposition quality controls equilibrium slack; reflection as bounded memory update — **prefer external verification** in loop. No public repo → **policy only**. Pairs K276/K313/K314. `policy_wired`.
+- **K340** SafeEvolve — **ADOPT policy** with **HITL**: harness-only and policy-only safety both fail; co-evolve bounded/versioned/reversible harness artifacts with policy from trajectory evidence. `MaoPopovich/SafeEvolve` **MIT** ~841KB → **GO REFERENCE** `.local/adopts/SafeEvolve`. Trainer/SFT-RL runtime **`wont_wire`**. **Never auto-evolve `.cursor/skills`.** Pairs K237 misevolution/K268 SHE/K162. Distinct from K237 SAFEEVOLVE delete-only repair sub-method — cross-link both.
+- **K341** Telecom RCA — **ADOPT policy**: structured evidence-grounded RCA; vanilla LLM hallucinates on cross-layer deps; **diagnose with evidence, remediate human-gated** (pairs K306 ARGUS). No public repo → **policy only**. Runtime `wont_wire`.
+
+**Wires landed:**
+
+| K | Verdict | Wire | Entity/concept wire_status |
+|---|---|---|----|
+| K337 | ADOPT policy (Cybersec-primary) | Capability lease + Execution Gate at invocation | `policy_wired` (attested-capability-leases-execution-time-trust) |
+| K338 | OOD stub | None | `wont_wire` (no concept) |
+| K339 | ADOPT pattern | Bilevel game + external verification in reflection | `policy_wired` (bilevel-coordinated-reflection) |
+| K340 | ADOPT policy | Bounded harness–policy co-evolution; HITL on skill self-write | concept `policy_wired`; entity `wont_wire` (SafeEvolve REFERENCE) |
+| K341 | ADOPT policy | Evidence-tree RCA; human-gated fixes | `policy_wired` (evidence-grounded-structured-rca); runtime `wont_wire` |
+
+**Non-goals:** no federation sync of this file; no ACLE/BuildOcc/Telecom clones; no `.cursor/skills` auto-evolution; no `route-task.ps1` rewrite; no `~/.claude/settings.json` edits; no PoCs / attack templates anywhere.
+
+**Propose-only:** ACLE-MCP product/runtime install (HITL); SafeEvolve trainer wire; SPDX watch for ACLE/Bilevel/Telecom repos when they appear.

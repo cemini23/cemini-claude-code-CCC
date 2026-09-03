@@ -17,11 +17,13 @@ related:
   - concepts/persona-hat-claude-code-sdlc.md
   - sources/brief-k238-persona-hat-claude-gcp-2026-08-15.md
   - concepts/enterprise-conversational-multi-agent-analytics.md
+  - concepts/bilevel-coordinated-reflection.md
+  - sources/arxiv-bilevel-coordinated-reflection-2609.02750.md
 maturity: draft
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"
 created: 2026-08-13
-updated: 2026-08-20
+updated: 2026-09-03
 ---
 
 ## Relations

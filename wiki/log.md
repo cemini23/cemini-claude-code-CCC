@@ -1,3 +1,9 @@
+## [2026-09-03] ingest | K337–K341 harness wave (Sep 3 daily sweep)
+
+- **5 NEW inbox PDFs** ingested: ACLE-MCP (2609.02690), BuildOcc OOD (2609.02729), Bilevel Reflection (2609.02750), SafeEvolve (2609.02786), Telecom RCA (2609.02805).
+- **Pages:** 5 sources, 4 concepts, 1 entity (`safeevolve` REFERENCE); SIP `wiki/briefs/2026-09-03_ccc-k337-k341-sip-ready.md`.
+- **Phase-0/1:** adopt_k337…k341; `ccc-k337-k341-phase1-wires.mdc`; policy §K337–K341.
+
 ## [2026-08-25] ops | AID-Guard commit helper + Prime Agent sandbox + intermediary-engineer HITL-wired
 
 - Federation skills (opt-in, `disable-model-invocation: true`): `aid-guard-commit`, `prime-agent-sandbox`, `intermediary-engineer`.

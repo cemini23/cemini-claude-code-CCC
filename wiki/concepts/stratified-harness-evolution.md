@@ -15,9 +15,11 @@ related:
   - concepts/meta-harness-continual-improvement.md
   - sources/arxiv-harness-of-harness-multiday-swe-2609.01481.md
   - sources/arxiv-harnessdev-harness-creation-evolution-2609.01437.md
+  - concepts/bilevel-coordinated-reflection.md
+  - sources/arxiv-bilevel-coordinated-reflection-2609.02750.md
 maturity: draft
 created: 2026-08-26
-updated: 2026-09-02
+updated: 2026-09-03
 ---
 
 ## Relations

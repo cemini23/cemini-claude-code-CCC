@@ -8,7 +8,9 @@ related:
   - concepts/process-constrained-self-evolution.md
   - concepts/rlm-continual-harness.md
   - sources/arxiv-skill-misevolution-2608.12851.md
-  - concepts/trajectory-driven-safety-harness-evolution.md
+  - concepts/harness-policy-co-evolution-safety.md
+  - sources/arxiv-safeevolve-harness-policy-co-evolution-2609.02786.md
+  - entities/tools/safeevolve.md
   - entities/tools/she-safety-harness.md
   - entities/skills/route.md
   - entities/skills/skill-set-budget.md
@@ -21,11 +23,12 @@ related:
   - sources/arxiv-prime-agent-rlm-harness-2608.23552.md
   - concepts/vague-goal-self-evolution.md
   - sources/arxiv-aspire-vague-goal-self-evolution-2608.31111.md
+  - concepts/trajectory-driven-safety-harness-evolution.md
 maturity: draft
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"
 created: 2026-08-15
-updated: 2026-09-01
+updated: 2026-09-03
 ---
 
 ## Relations

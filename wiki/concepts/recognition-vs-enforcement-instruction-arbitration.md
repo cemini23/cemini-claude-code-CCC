@@ -13,9 +13,11 @@ related:
   - briefs/2026-08-31_ccc-k325-k327-sip-ready.md
   - concepts/untrusted-model-delegation-governance.md
   - sources/arxiv-delegation-without-trust-2609.00267.md
+  - concepts/attested-capability-leases-execution-time-trust.md
+  - sources/arxiv-acle-mcp-attested-capability-leases-2609.02690.md
 maturity: draft
 created: 2026-08-31
-updated: 2026-09-02
+updated: 2026-09-03
 ---
 
 ## Relations

@@ -14,10 +14,12 @@ related:
   - sources/brief-k249-k253-scale-cda-canary-rac-artanno-argus-2026-08-06.md
   - briefs/2026-08-06_ccc-handoff-k249-k253-ingest.md
   - concepts/phase1-adopt-wire.md
+  - concepts/evidence-grounded-structured-rca.md
+  - sources/arxiv-llms-telecom-rca-structured-reasoning-2609.02805.md
 maturity: draft
 wire_status: wont_wire
 created: 2026-08-06
-updated: 2026-08-25
+updated: 2026-09-03
 ---
 
 ## Relations

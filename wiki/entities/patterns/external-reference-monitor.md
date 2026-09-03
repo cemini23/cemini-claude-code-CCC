@@ -12,10 +12,11 @@ related:
   - concepts/phase1-adopt-wire.md
   - briefs/2026-08-31_ccc-k325-k327-sip-ready.md
   - briefs/2026-09-02_ccc-k333-k336-sip-ready.md
+  - concepts/attested-capability-leases-execution-time-trust.md
 maturity: draft
 wire_status: policy_wired
 created: 2026-08-31
-updated: 2026-09-02
+updated: 2026-09-03
 ---
 
 ## Relations

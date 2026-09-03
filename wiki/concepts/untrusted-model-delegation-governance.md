@@ -9,14 +9,16 @@ related:
   - concepts/mandate-signature-vs-preauth-intent.md
   - concepts/recognition-vs-enforcement-instruction-arbitration.md
   - concepts/output-attestation-and-delegation-ancestry.md
+  - concepts/attested-capability-leases-execution-time-trust.md
   - concepts/phase1-adopt-wire.md
   - briefs/2026-09-02_ccc-k333-k336-sip-ready.md
   - entities/patterns/external-reference-monitor.md
+  - sources/arxiv-acle-mcp-attested-capability-leases-2609.02690.md
 maturity: draft
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"
 created: 2026-09-02
-updated: 2026-09-02
+updated: 2026-09-03
 ---
 
 ## Relations
@@ -26,6 +28,7 @@ updated: 2026-09-02
 - `@concepts/mandate-signature-vs-preauth-intent.md`
 - `@concepts/recognition-vs-enforcement-instruction-arbitration.md`
 - `@concepts/output-attestation-and-delegation-ancestry.md`
+- `@concepts/attested-capability-leases-execution-time-trust.md`
 - `@concepts/phase1-adopt-wire.md`
 - `@briefs/2026-09-02_ccc-k333-k336-sip-ready.md`
 

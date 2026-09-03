@@ -181,6 +181,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`logos-agent-harness`](entities/tools/logos-agent-harness.md) | draft | Logos cross-process agent harness — policy only, wont_wire (K327) |
 | [`autoscirub`](entities/tools/autoscirub.md) | draft | AutoSciRub evaluation-first rubric induction — MIT REFERENCE <500MB (K331) |
 | [`harness-of-harness`](entities/tools/harness-of-harness.md) | draft | Harness-of-Harness meta-wrap — MIT REFERENCE ~312MB (K335) |
+| [`safeevolve`](entities/tools/safeevolve.md) | draft | SafeEvolve safety co-evolution — MIT REFERENCE ~841KB (K340) |
 
 ## entities/mcp-servers/
 
@@ -601,6 +602,10 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`harness-as-eval-artifact`](concepts/harness-as-eval-artifact.md) | draft | Evaluate runnable harness not task output — 2609.01437 (K334) |
 | [`meta-harness-continual-improvement`](concepts/meta-harness-continual-improvement.md) | draft | Meta-harness wrap on existing harnesses — 2609.01481 (K335) |
 | [`harness-component-lifecycle-reasoning`](concepts/harness-component-lifecycle-reasoning.md) | draft | Teardown-order lifecycle reasoning — 2609.01600 (K336) |
+| [`attested-capability-leases-execution-time-trust`](concepts/attested-capability-leases-execution-time-trust.md) | draft | ACLE-MCP capability leases — 2609.02690 (K337) |
+| [`bilevel-coordinated-reflection`](concepts/bilevel-coordinated-reflection.md) | draft | Bilevel orchestrator–worker game — 2609.02750 (K339) |
+| [`harness-policy-co-evolution-safety`](concepts/harness-policy-co-evolution-safety.md) | draft | SafeEvolve harness–policy co-evolution — 2609.02786 (K340) |
+| [`evidence-grounded-structured-rca`](concepts/evidence-grounded-structured-rca.md) | draft | Telecom evidence-grounded RCA — 2609.02805 (K341) |
 
 ## sources/
 
@@ -951,6 +956,11 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-harnessdev-harness-creation-evolution-2609.01437`](sources/arxiv-harnessdev-harness-creation-evolution-2609.01437.md) | draft | HarnessDev harness creation/evolution — 2609.01437 (K334) |
 | [`arxiv-harness-of-harness-multiday-swe-2609.01481`](sources/arxiv-harness-of-harness-multiday-swe-2609.01481.md) | draft | Harness-of-Harness multi-day SWE — 2609.01481 (K335) |
 | [`arxiv-cordisbench-component-lifecycle-2609.01600`](sources/arxiv-cordisbench-component-lifecycle-2609.01600.md) | draft | CordisBench component lifecycles — 2609.01600 (K336) |
+| [`arxiv-acle-mcp-attested-capability-leases-2609.02690`](sources/arxiv-acle-mcp-attested-capability-leases-2609.02690.md) | draft | ACLE-MCP capability leases — 2609.02690 (K337) |
+| [`arxiv-buildocc-llm-occupant-agent-building-energy-2609.02729`](sources/arxiv-buildocc-llm-occupant-agent-building-energy-2609.02729.md) | draft | BuildOcc OOD stub — 2609.02729 (K338) |
+| [`arxiv-bilevel-coordinated-reflection-2609.02750`](sources/arxiv-bilevel-coordinated-reflection-2609.02750.md) | draft | Bilevel coordinated reflection — 2609.02750 (K339) |
+| [`arxiv-safeevolve-harness-policy-co-evolution-2609.02786`](sources/arxiv-safeevolve-harness-policy-co-evolution-2609.02786.md) | draft | SafeEvolve harness–policy co-evolution — 2609.02786 (K340) |
+| [`arxiv-llms-telecom-rca-structured-reasoning-2609.02805`](sources/arxiv-llms-telecom-rca-structured-reasoning-2609.02805.md) | draft | Telecom structured RCA — 2609.02805 (K341) |
 
 ## meta/
 
@@ -982,6 +992,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`2026-08-31-daily`](sweeps/2026-08-31-daily.md) | Daily digest — 3 papers (K325–K327 wave) |
 | [`2026-09-01-daily`](sweeps/2026-09-01-daily.md) | Daily digest — 5 papers (K328–K332 wave) |
 | [`2026-09-02-daily`](sweeps/2026-09-02-daily.md) | Daily digest — 4 papers (K333–K336 wave) |
+| [`2026-09-03-daily`](sweeps/2026-09-03-daily.md) | Daily digest — 5 papers (K337–K341 wave) |
 
 ## entities/people/
 

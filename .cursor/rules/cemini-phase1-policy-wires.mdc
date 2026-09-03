@@ -55,7 +55,6 @@ Concrete harness behavior from Phase-0 ADOPT patterns. Clones under `.local/adop
 - Score operator workflows on: intent framing · orchestration · verification · ethical accountability · continuous learning.
 - Watch automation bias, deskilling, superficial engagement, and felt-vs-measured speedup gaps.
 - Paper/rubric only — no curriculum product install.
-- **Dual-ID note**: today's meta-harness brief board also says **K237** (AutoDesign/Vero/misevolution) — resolve by arXiv id / brief path, not bare K# (see skill-misevolution subsection under SHE).
 
 ## Tokenization TTFT under high cache hits (TokTier / K238)
 
@@ -241,14 +240,13 @@ Concrete harness behavior from Phase-0 ADOPT patterns. Clones under `.local/adop
 - **Skills can worsen with practice** — a terminal success-rate cannot distinguish a clean skill library from an unsafe skill never retrieved (21/21 evolved configs authored unsafe artifacts; 15 retained fresh-session harm).
 - **Govern all three lifecycle gates** — authoring (CU/UG/Stealth), retrieval (URR), execution (C-ASR). **HITL on a skill's write does not cover retrieval-time harm** — a later retrieval can activate an unsafe span; keep retrieval lineage + retirement on evidenced harm.
 - **Prefer delete-only repair + reuse-time attribution** (SAFEEVOLVE: delete-only repair critic, reuse-time attribution, retire after 2 harmful reuses, library cap); **no unattended auto-evolve of `.cursor/skills/*`** promote/refine cycles.
-- **Dual-ID note**: ACCEL is also labeled **K237** in this file; today's meta-harness brief board **K237** = AutoDesign/Vero/misevolution — resolve by arXiv id / brief path, not bare K#.
 
 ## VectraYX cyber VLM (K261)
 
 - Spanish/LATAM cyber imagery VLM with MCP tool tokens — **cybersec-primary**; CCC awareness only. **NO-GO** weights/runtime.
 
 
-## CCC wave K270–K273 (shared policy file — dual-ID note)
+## CCC wave K270–K273 (shared policy file)
 
 Same-day Cybersec batch used **K270–K272** for GFlowNet / REDAgentBench / Cross-lingual safety in `cemini-cybersec-lab-redteam.mdc` + `cemini-cybersec-agent-audit.mdc`. Numbers below are **CCC** MCP/ACM-wave meanings in this shared federation file (also `ccc-k270-k273-phase1-wires.mdc`). Resolve by file+wiki, not bare K# alone.
 
@@ -275,7 +273,7 @@ Same-day Cybersec batch used **K270–K272** for GFlowNet / REDAgentBench / Cros
 - Prefer deterministic validation and dependency-aware impact before blast-radius harness edits.
 - No ACM product install until a clear SPDX'd artifact exists.
 
-## CCC wave K274–K276 (shared policy file — dual-ID note)
+## CCC wave K274–K276 (shared policy file)
 
 Same-day Cybersec batch used **K274–K277** for WhiteNet / wireless AInf / tutor-withhold / RSM in `cemini-cybersec-lab-redteam.mdc`, `cemini-cybersec-agent-audit.mdc`, and `cemini-cybersec-mcp-tool-control.mdc`. Numbers below are **CCC** harness-wave meanings (CDH / VAKRA / RSM). **RSM paper 2608.12311 = CCC K276 AND Cybersec K277** — resolve by file+wiki, not bare K#.
 
@@ -303,7 +301,7 @@ Same-day Cybersec batch used **K274–K277** for WhiteNet / wireless AInf / tuto
 - **Failure-backed instructions only** — over-detailed rule files reduce success + raise cost (pairs K273 ACM baseline discipline).
 - RSM is a case-study framework — no product install; policy pattern only. Cybersec domain wire: `cemini-cybersec-mcp-tool-control.mdc` §K277.
 
-## CCC wave K277–K281 (shared policy file — dual-ID note)
+## CCC wave K277–K281 (shared policy file)
 
 Same-day Cybersec batch used **K278–K281** for ATOBench / MARC / YAVIN / ente in `cemini-cybersec-lab-redteam.mdc`, `cemini-cybersec-agent-audit.mdc`, `cemini-cybersec-mcp-tool-control.mdc`, and `cemini-cybersec-agent-containment.mdc`. Numbers below are **CCC** meanings. **CCC K278 = InterSAGE**, **Cybersec K278 = ATOBench**. **MARC-v1 2608.13476 = CCC K279 AND Cybersec K279** (clinical `wont_wire`, orchestration REFERENCE). Resolve by file+wiki, not bare K#.
 
@@ -335,7 +333,6 @@ Same-day Cybersec batch used **K278–K281** for ATOBench / MARC / YAVIN / ente 
 - **Unsat / incorrectness audit** — agents may prove the provided spec unsatisfiable or reference code incorrect; an eval must survive being told it's wrong.
 - **Repository scale is the unit** — multi-module coherence, not single-function; frontiers solve 27/43 and close nothing on the hardest repos.
 - `.local/adopts/vero` (Apache-2.0) = GO REFERENCE. Runtime **`wont_wire`** (Lean toolchain bench).
-- **Dual-ID note**: today's meta-harness brief board **K237** also cites Vero (2608.13522) — resolve by arXiv id / brief path; this section's CCC **K280** remains the wire id.
 
 ## Meta-harness optimization with HITL / external eval contract (AutoDesign / CCC K281)
 
@@ -343,7 +340,6 @@ Same-day Cybersec batch used **K278–K281** for ATOBench / MARC / YAVIN / ente 
 - **External eval contract / HITL is the guardrail (pairs K162)** — pass criteria must NOT be closed self-rewritten by the optimizer; keep human design priors and external scoring authoritative.
 - `[NEEDS VERIFICATION 2026-08-14]` — paper reports the external contract; whether the shipped harness enforces it at runtime is not audited in the paper.
 - `.local/adopts/AutoDesign` (MIT on disk; gh API NOASSERTION but LICENSE file is MIT) = GO REFERENCE. Poster/Image-gen runtime **`wont_wire`**.
-- **Dual-ID note**: today's meta-harness brief board **K237** also cites AutoDesign (2608.13560) — resolve by arXiv id / brief path; this section's CCC **K281** remains the wire id.
 
 ## CCC wave K282–K284 (shared policy file)
 
@@ -376,7 +372,7 @@ Recoverable execution (K282) + test-time world-model validate-before-act (K283) 
 - Off-nominal fidelity ≠ absolute resilience (reference behavior not assumed desirable).
 - No public `ftinj` SPDX clone → **policy only**; scientific/GAMESS domain — no runtime on CCC laptop.
 
-## OSINT wave K237 (shared policy file — dual-ID note)
+## OSINT wave K237 (shared policy file)
 
 CCC **ACCEL** is also labeled K237 (agentic-engineer competencies, above). Numbers below are the **OSINT 2026-08-14 ingest** (ente E2EE vault, CyberScraper, skill misevolution, HARD defense). Same-day Cybersec used ente as **K281**. Resolve by file+wiki, not bare K#.
 
@@ -525,7 +521,7 @@ Hybrid HAI delegation (K295) + Thinkingbox terminal-state eval (K296, MIT REFERE
 
 - When iterating a harness optimizer loop: **sample informative val tasks** (disagreement/frontier, variance-weighted) and **estimate full-set scores from partial evals** (inclusion-probability weighting) — ~80% fewer evals, matches full-set on Terminal-Bench 2.1; a 20% budget can beat full-set (less overfitting).
 - **Do not** auto-evolve `.cursor/skills` (misevolution) and **do not** rewrite `## Verify` / pass criteria mid-run (pairs K281 AutoDesign, K292 HCL, K162 external eval contract).
-- `Agent4Science-UTokyo/Task-CoEvolve` **NO-GO clone** (no LICENSE). **Dual-ID: CCC K298** — fills the Task-CoEvolve item in the k244 steal brief; K244 stays UrbanAgent.
+- `Agent4Science-UTokyo/Task-CoEvolve` **NO-GO clone** (no LICENSE). Resolve by arXiv id — fills the Task-CoEvolve item in the k244 steal brief; K244 stays UrbanAgent.
 
 ## Mid-training for agentic tool use (MidTool / CCC K299 — WATCH)
 
@@ -563,7 +559,7 @@ AutoMOOSE OOD stub (K300) + Graph Engineering vocabulary (K301) + AID-Guard effe
 
 - **Content screening cannot see payload-free lies**: 0.832 injection recall yet 0/360 plain false assertions refused; 1.2% poison → LongMemEval 0.850→0.300.
 - **Additive provenance ranking has no usable weight** (shipped weight p=0.80 vs none; higher weights exclude untrusted categorically). Use provenance as a **bounded occupancy constraint** on retrieved context instead.
-- **External grounding required before persistent writes** — truth is not a text property. No poison PoCs in wiki or briefs. Pairs K230 reconstructive memory. Cybersec dual-ID K304 = SDP-RIM.
+- **External grounding required before persistent writes** — truth is not a text property. No poison PoCs in wiki or briefs. Pairs K230 reconstructive memory. Cybersec arXiv ref (K304 = SDP-RIM).
 
 ## Diagnostic/prescriptive asymmetry — never auto-apply remediations (CCC K306)
 
@@ -768,3 +764,29 @@ Delegation without trust (K333, Cybersec-primary + policy) + HarnessDev harness-
 - CordisBench (1,200 questions): localization, schedule prediction, guaranteed/reachable conditions, reconfiguration — models handle small systems but degrade as relevant interactions scale (2→32).
 - When dependencies are formally available, **deterministic reference semantics / Cordis execution** agrees on all 528 executable questions — prefer **compute or execute-verify** over LLM lifecycle anticipation at scale (≈3k reasoning tokens/question at medium effort vs avoidable with reference semantics).
 - GitHub + HF cited — **no public SPDX at Phase-0 → WATCH**, no clone this wave. Eval runtime **`wont_wire`**. Pairs K327 Logos transcript boundaries. Concept `policy_wired`.
+
+## CCC wave K337–K341 (shared policy file)
+
+ACLE-MCP execution-time trust (K337, Cybersec-primary) + BuildOcc OOD stub (K338) + Bilevel coordinated reflection (K339, pattern) + SafeEvolve harness–policy co-evolution (K340, policy + REFERENCE) + Telecom evidence-grounded RCA (K341, policy). **One clone:** `MaoPopovich/SafeEvolve` MIT (~841KB) → REFERENCE `.local/adopts/SafeEvolve` — trainer `wont_wire`. **CCC-only rule** `ccc-k337-k341-phase1-wires.mdc` — do **not** federation-sync. **No PoCs / no attack templates anywhere.**
+
+## Attested capability leases — execution-time trust (CCC K337 · Cybersec-primary)
+
+- **Post-authorization execution trust gap:** OAuth proves delegated access, not that the **current provider-side workload** executing a protected remote MCP call matches the relying party's trust assumptions (substituted workload, stale attestation, copied authority, undeclared proxy).
+- **Capability lease + Execution Gate:** short-lived, sender-constrained lease binding workload appraisal, op/object/param bounds, freshness, downstream constraints; consumed immediately before protected tool logic.
+- Prototype (Keycloak/OIDC, MCP Python SDK, optional vTPM) — **no public SPDX → policy only, no clone. No PoCs.** `policy_wired`. Pairs K285/K328/K326/K333.
+
+## Bilevel coordinated reflection — orchestrator–worker game (CCC K339)
+
+- Model orchestrator–worker interaction as a **bilevel coordination game**; decomposition quality controls worker-game equilibrium slack.
+- Reflection as bounded memory update — **prefer external verification** in the loop; free-form reflection alone is not a reliability boundary.
+- No public repo → **policy only**. Pairs K276/K313/K314. `policy_wired`.
+
+## Harness–policy co-evolution for safety (CCC K340)
+
+- Harness-only and policy-only safety alignment both fail under multi-step agentic execution; co-evolve **bounded, versioned, reversible** harness artifacts with policy from the same trajectory evidence.
+- `MaoPopovich/SafeEvolve` **MIT** (~841KB) → GO REFERENCE `.local/adopts/SafeEvolve`. Trainer/SFT-RL runtime **`wont_wire`**. **Never auto-evolve `.cursor/skills`.** Pairs K237 misevolution/K268 SHE/K162 external eval.
+
+## Evidence-grounded structured RCA (CCC K341)
+
+- Telecom RCA requires **structured reasoning + evidence alignment** — vanilla LLM answers hallucinate on cross-layer dependencies.
+- **Diagnostic/prescriptive asymmetry (pairs K306 ARGUS):** agents draft diagnoses with evidence; **remediations stay human-gated**. Runtime **`wont_wire`**. `policy_wired`.

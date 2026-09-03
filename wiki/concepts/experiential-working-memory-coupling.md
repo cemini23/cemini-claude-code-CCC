@@ -7,9 +7,11 @@ related:
   - sources/arxiv-recuris-em-wm-memory-evolution-2608.24876.md
   - entities/tools/recuris.md
   - concepts/hierarchical-bounded-agent-memory.md
+  - concepts/bilevel-coordinated-reflection.md
+  - sources/arxiv-bilevel-coordinated-reflection-2609.02750.md
 maturity: draft
 created: 2026-08-26
-updated: 2026-08-26
+updated: 2026-09-03
 ---
 
 ## Relations
