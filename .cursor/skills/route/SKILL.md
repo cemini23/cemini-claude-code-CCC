@@ -10,7 +10,7 @@ description: >-
   not TipDrop-specific.
 license: MIT
 metadata.author: cemini23
-metadata.version: "2.4.1"
+metadata.version: "2.4.2"
 federation: true
 ---
 
@@ -132,7 +132,7 @@ Override ids: `ROUTE_CLAUDE_DS_FLASH_MODEL` / `ROUTE_CLAUDE_DS_VISION_MODEL` / `
 | `ROUTE_CLAUDE_DS_HANG_SECONDS` | Stall kill (default **360**) - no stdout/WorkDir mtime progress |
 | `ROUTE_CLAUDE_DS_MAX_SECONDS` | Hard wall (default **2700**) |
 
-Grok **auth** is not usage-out: print `grok login`. If a usable Plan is already on the hard handoff, Flash then Pro then OpenCode still implement before Cursor Grok.
+Grok **auth** is not usage-out: print `grok login`. **Headless (Cursor agent subprocess):** `handoff-to-grok.ps1` sets `XAI_API_KEY` from `~/.grok/auth.json` when the OAuth keychain path fails (`Device not configured` / os error 6). Interactive `grok login` alone is not enough for `/route` from Agent until that inject runs (kit ≥ 2026-09-04). Optional override: export `XAI_API_KEY` from console.x.ai. If a usable Plan is already on the hard handoff, Flash then Pro then OpenCode still implement before Cursor Grok.
 
 Usable Plan = filled section (≥80 chars), not the empty hard-lane placeholder. Resume: `route-task -SkipGrokPlan -HandoffPath <handoff> "mid: execute handoff <handoff>"`.
 
