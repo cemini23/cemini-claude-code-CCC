@@ -606,6 +606,9 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`bilevel-coordinated-reflection`](concepts/bilevel-coordinated-reflection.md) | draft | Bilevel orchestrator–worker game — 2609.02750 (K339) |
 | [`harness-policy-co-evolution-safety`](concepts/harness-policy-co-evolution-safety.md) | draft | SafeEvolve harness–policy co-evolution — 2609.02786 (K340) |
 | [`evidence-grounded-structured-rca`](concepts/evidence-grounded-structured-rca.md) | draft | Telecom evidence-grounded RCA — 2609.02805 (K341) |
+| [`environment-evolution-terminal-agents`](concepts/environment-evolution-terminal-agents.md) | draft | Off-policy env evolution — 2609.04128 (K343) |
+| [`natural-language-interaction-protocol`](concepts/natural-language-interaction-protocol.md) | draft | NLIP Ecma interop envelope — 2609.04135 (K344) |
+| [`knowledge-commons-governance-multi-agent`](concepts/knowledge-commons-governance-multi-agent.md) | draft | Swarm commons governance — 2609.04170 (K345) |
 
 ## sources/
 
@@ -961,6 +964,10 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-bilevel-coordinated-reflection-2609.02750`](sources/arxiv-bilevel-coordinated-reflection-2609.02750.md) | draft | Bilevel coordinated reflection — 2609.02750 (K339) |
 | [`arxiv-safeevolve-harness-policy-co-evolution-2609.02786`](sources/arxiv-safeevolve-harness-policy-co-evolution-2609.02786.md) | draft | SafeEvolve harness–policy co-evolution — 2609.02786 (K340) |
 | [`arxiv-llms-telecom-rca-structured-reasoning-2609.02805`](sources/arxiv-llms-telecom-rca-structured-reasoning-2609.02805.md) | draft | Telecom structured RCA — 2609.02805 (K341) |
+| [`arxiv-hierarchical-spm-agentic-orchestration-2609.04015`](sources/arxiv-hierarchical-spm-agentic-orchestration-2609.04015.md) | draft | SPM hierarchical automation OOD — 2609.04015 (K342) |
+| [`arxiv-environment-evolution-terminal-agents-2609.04128`](sources/arxiv-environment-evolution-terminal-agents-2609.04128.md) | draft | Environment evolution terminal agents — 2609.04128 (K343) |
+| [`arxiv-nlip-natural-language-interaction-protocol-2609.04135`](sources/arxiv-nlip-natural-language-interaction-protocol-2609.04135.md) | draft | NLIP protocol — 2609.04135 (K344) |
+| [`arxiv-research-swarm-cheating-whistleblowing-2609.04170`](sources/arxiv-research-swarm-cheating-whistleblowing-2609.04170.md) | draft | Swarm cheating/whistleblowing — 2609.04170 (K345) |
 
 ## meta/
 
@@ -993,6 +1000,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`2026-09-01-daily`](sweeps/2026-09-01-daily.md) | Daily digest — 5 papers (K328–K332 wave) |
 | [`2026-09-02-daily`](sweeps/2026-09-02-daily.md) | Daily digest — 4 papers (K333–K336 wave) |
 | [`2026-09-03-daily`](sweeps/2026-09-03-daily.md) | Daily digest — 5 papers (K337–K341 wave) |
+| [`2026-09-04-daily`](sweeps/2026-09-04-daily.md) | Daily digest — 4 papers (K342–K345 wave) |
 
 ## entities/people/
 

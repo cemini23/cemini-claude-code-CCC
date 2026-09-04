@@ -790,3 +790,24 @@ ACLE-MCP execution-time trust (K337, Cybersec-primary) + BuildOcc OOD stub (K338
 
 - Telecom RCA requires **structured reasoning + evidence alignment** — vanilla LLM answers hallucinate on cross-layer dependencies.
 - **Diagnostic/prescriptive asymmetry (pairs K306 ARGUS):** agents draft diagnoses with evidence; **remediations stay human-gated**. Runtime **`wont_wire`**. `policy_wired`.
+
+## CCC wave K342–K345 (shared policy file)
+
+SPM OOD stub (K342) + environment evolution for terminal agents (K343, eval) + NLIP interop awareness (K344) + research-swarm commons governance (K345, Cybersec-primary). **No clones.** CCC-only rule `ccc-k342-k345-phase1-wires.mdc` — do **not** federation-sync. **No PoCs.**
+
+## Environment evolution for terminal agents (CCC K343)
+
+- **Off-policy environment evolution** incrementally raises difficulty and schedules environments generation-by-generation — continuous learning signals as models strengthen.
+- On-policy co-evolution near the learnable frontier **limits generalization** at scale — treat curriculum as eval artifact (pairs K334 HarnessDev).
+- `UniPat-AI/Terminal-X` null SPDX → **no clone**. Trainer **`wont_wire`**.
+
+## NLIP — Natural Language Interaction Protocol (CCC K344)
+
+- Ecma-track **semantic message envelope** for NL-first agent interop over HTTP/WS/AMQP — complements MCP/A2A, does not replace tool harness.
+- `nlip-project/ecma_draft` CC0 — **digest pointer only**; no remote catalog mirror. Runtime **`wont_wire`**.
+
+## Knowledge commons governance in multi-agent swarms (CCC K345 · Cybersec-primary)
+
+- Shared knowledge libraries + messaging are **commons**: exploits and whistleblowing propagate on the **same auditable channels** — blocking comms pushes covert side-channels.
+- **Institutional affordances** (monitoring, graduated sanctions, collective rule change) beat autograder-only patches (Ostrom). Pairs K277 measurement integrity.
+- **No PoCs / no exploit recipes in wiki.** Google DeepMind case study — no public repo. `policy_wired`.

@@ -1,0 +1,26 @@
+---
+description: CCC Phase-1 wires from K342–K345 harness wave (CCC-only — do NOT federation-sync)
+alwaysApply: true
+---
+
+# CCC — K342–K345 Phase-1 wires
+
+**Brief:** `docs/briefs/2026-09-04_k342-k345-harness-wave.md` · SIP: `wiki/briefs/2026-09-04_ccc-k342-k345-sip-ready.md`
+
+**IDs:** Resolve by arXiv id / slug / file path — K# is a log batch label only.
+
+- **K342** Hierarchical SPM automation — **OOD** instruments/materials: agentic orchestration + algorithmic instrument control. Short source stub; `wont_wire`. No clone.
+- **K343** Environment Evolution for Terminal Agents — **ADOPT eval-first**: off-policy environment difficulty evolution + generational scheduling vs on-policy co-evolution limits. `UniPat-AI/Terminal-X` **null SPDX** → no clone. Runtime **`wont_wire`**. Pairs K334/K294.
+- **K344** NLIP (Ecma) — **ADOPT awareness**: semantic NL interaction envelope over HTTP/WS/AMQP; heterogeneous agent interop. `nlip-project/ecma_draft` **CC0** — digest pointer only; **no catalog mirror**. Runtime **`wont_wire`**. Pairs K271.
+- **K345** Research swarm cheating/whistleblowing — **Cybersec-primary + ADOPT eval**: shared knowledge commons enables exploit contagion and peer audit on same channels; Ostrom governance > autograder whack-a-mole. **No public repo. No PoCs.** `policy_wired`. Pairs K277/K325.
+
+**Wires landed:**
+
+| K | Verdict | Wire | wire_status |
+|---|---|---|-------------|
+| K342 | OOD stub | None | `wont_wire` |
+| K343 | ADOPT eval | Off-policy env curriculum axis | `policy_wired` |
+| K344 | ADOPT awareness | NLIP envelope vocabulary | `policy_wired` |
+| K345 | Cybersec + eval | Commons governance + measurement integrity | `policy_wired` |
+
+**Non-goals:** no federation sync; no Terminal-X clone; no PoCs; no skill auto-evolution.

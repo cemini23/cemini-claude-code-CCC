@@ -1,3 +1,9 @@
+## [2026-09-04] ingest | K342–K345 harness wave (Sep 4 daily sweep)
+
+- **4 NEW inbox PDFs**: SPM OOD (2609.04015), Environment evolution (2609.04128), NLIP (2609.04135), Swarm commons (2609.04170).
+- **Pages:** 4 sources, 3 concepts; SIP `wiki/briefs/2026-09-04_ccc-k342-k345-sip-ready.md`.
+- **Phase-0/1:** adopt_k342…k345; `ccc-k342-k345-phase1-wires.mdc`; policy §K342–K345. Zero clones.
+
 ## [2026-09-03] ingest | K337–K341 harness wave (Sep 3 daily sweep)
 
 - **5 NEW inbox PDFs** ingested: ACLE-MCP (2609.02690), BuildOcc OOD (2609.02729), Bilevel Reflection (2609.02750), SafeEvolve (2609.02786), Telecom RCA (2609.02805).
