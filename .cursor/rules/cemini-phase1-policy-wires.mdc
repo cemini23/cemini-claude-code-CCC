@@ -811,3 +811,52 @@ SPM OOD stub (K342) + environment evolution for terminal agents (K343, eval) + N
 - Shared knowledge libraries + messaging are **commons**: exploits and whistleblowing propagate on the **same auditable channels** — blocking comms pushes covert side-channels.
 - **Institutional affordances** (monitoring, graduated sanctions, collective rule change) beat autograder-only patches (Ostrom). Pairs K277 measurement integrity.
 - **No PoCs / no exploit recipes in wiki.** Google DeepMind case study — no public repo. `policy_wired`.
+
+## CCC wave K346–K357 (shared policy file)
+
+World-acting taxonomy (K346) + HVAC OOD (K347) + CUA-Universe hybrid GUI+CLI eval (K348) + KOPA OOD (K349) + harness supply-chain defects (K350, Cybersec-primary) + edge SLM MCP reliability (K351) + Poisson OOD (K352) + MCP registry unbiased sample (K353) + agent experiment reproduction eval (K354) + Ecdysis runtime harness training (K355) + COBRA-Skills bandit evolution (K356) + Artificial Id persistent drive (K357). **Zero clones.** CCC-only rule `ccc-k346-k357-phase1-wires.mdc` — do **not** federation-sync. **No PoCs.**
+
+## World-acting systems taxonomy (CCC K346)
+
+- Do not conflate **model competence** with **system integration**, persistence, or safe authority across digital/social/virtual/physical environments.
+- World-acting requires external harness, broker, and verification — not narration alone. Pairs K309 Prime Agent / K325 bounded eval.
+
+## Hybrid GUI+CLI agent environments (CCC K348)
+
+- Real computer work combines **visual state inspection** with **high-throughput CLI** over shared application state — GUI-only agent trajectories are systematically inefficient.
+- Evaluate hybrid coordination, not GUI-only benchmarks. No public SPDX → no clone. Runtime **`wont_wire`**.
+
+## Harness supply-chain defects (CCC K350 · Cybersec-primary)
+
+- Coding-agent **harness artifacts** (instruction files, skills, hooks, MCP declarations, subagents) install from marketplaces/repos with **no lockfile, no install-time check**, running at developer privileges.
+- Run **cursor-security-preflight** before third-party harness adoption; treat harness as supply-chain surface (pairs K274 CDH). **No PoCs.**
+
+## Edge SLM MCP tool-call reliability (CCC K351)
+
+- Sub-2B on-device agents need **machine-readable JSON tool invocation** reliability — fluent generation alone is insufficient for MCP-style calls on edge hardware.
+- Eval axis `policy_wired`; bench runtime **`wont_wire`**.
+
+## MCP registry unbiased sampling (CCC K353)
+
+- Unrepaired probability samples from the MCP registry **≠** curated/repaired benchmark frames — ecosystem coverage gaps are invisible in hand-picked eval sets.
+- Lazy-load tool catalogs (K311 SCOUT); never assume registry draw matches benchmark coverage.
+
+## Agent experiment reproduction eval (CCC K354)
+
+- Agent eval for scientific reproducibility must go **beyond final repository snapshots** — reproduce experiments from paper specifications across domains, not ML-only.
+- Pairs K280 Vero joint verification / K281 external eval contract. Runtime **`wont_wire`**.
+
+## Runtime harness evolution — Ecdysis (CCC K355)
+
+- Self-evolving **runtime harnesses** via iterative search + execution feedback can improve agents — but require external eval and HITL before prod harness mutation.
+- `cuiyu-ai/Ecdysis` null SPDX → **no clone**. Trainer **`wont_wire`**. **Never auto-evolve `.cursor/skills`.** Pairs K313/K162.
+
+## Bandit-guided skill evolution — COBRA-Skills (CCC K356)
+
+- Budgeted contextual bandit over skill candidates reduces costly execution eval — still requires validation-gated commit (pairs K237 misevolution / K314).
+- No public SPDX repo → **policy only**. **Never auto-evolve `.cursor/skills`.**
+
+## Artificial Id — persistent agent drive (CCC K357)
+
+- Persistent agents crossing task boundaries need an adaptive **internal drive** for objectives, retries, verification, and stopping — hand-specified harness transitions do not scale.
+- Policy awareness only; runtime **`wont_wire`**. Pairs K327 Logos transcript boundaries / K309 continual harness.

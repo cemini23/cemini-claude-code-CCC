@@ -38,6 +38,7 @@ Active workstreams, open decisions, and the done log for the Cemini Claude Code 
 
 ## Done
 
+- **2026-09-11** — K346–K357 harness wave: 12 arXiv ingests + Phase-0/1, archive, lint, CI green. Cybersec steal K350. Zero clones.
 - **2026-06-05** — K100 deep-read: HarnessFix/ETCLOVG synthesized; memory paper routed OSINT; flaw-record template + workflow rule adopted.
 - **2026-05-13** — Public repo + CI. `cemini-claude-code-CCC` created, GitHub Actions lint workflow added, lint green on first run, pushed.
 - **2026-05-13** — Cross-wiki deep-dive sweep. Mined OSINT/Cybersec/SEO/3D-printing/Image-gen for Claude Code material. 16 new pages + 8 deepened pages + 10 sibling-wiki backlinks added. ccc-wiki registered in SEO and Cybersec Related Wikis tables. 32 pages total; lint clean.

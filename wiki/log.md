@@ -1,3 +1,9 @@
+## [2026-09-11] ingest | K346–K357 harness wave (Sep 11 daily sweep)
+
+- **12 NEW inbox PDFs**: world-acting taxonomy (2609.04894), HVAC OOD (2609.05314), CUA-Universe (2609.05374), KOPA OOD (2609.05395), Scanning the Harness (2609.07360), edge SLM MCP (2609.07370), Poisson OOD (2609.07916), MCP registry sample (2609.10962), NLPCC reproduction (2609.11117), Ecdysis (2609.11677), COBRA-Skills (2609.11682), Artificial Id (2609.11911).
+- **Pages:** 12 sources, 9 concepts; SIP `wiki/briefs/2026-09-11_ccc-k346-k357-sip-ready.md`.
+- **Phase-0/1:** adopt_k346…k357; `ccc-k346-k357-phase1-wires.mdc`; policy §K346–K357. Zero clones. Cybersec steal K350.
+
 ## [2026-09-11] ops | /route v2.4.3 always-apply rule + federation sync
 
 - Always-apply Cursor rule `.cursor/rules/cemini-route-outsource.mdc` now matches skill v2.4.3: Grok-out = Flash then OpenCode; V4 Pro off rotation; wire id `deepseek-flash`.

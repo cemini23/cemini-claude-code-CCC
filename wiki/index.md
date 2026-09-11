@@ -609,6 +609,15 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`environment-evolution-terminal-agents`](concepts/environment-evolution-terminal-agents.md) | draft | Off-policy env evolution — 2609.04128 (K343) |
 | [`natural-language-interaction-protocol`](concepts/natural-language-interaction-protocol.md) | draft | NLIP Ecma interop envelope — 2609.04135 (K344) |
 | [`knowledge-commons-governance-multi-agent`](concepts/knowledge-commons-governance-multi-agent.md) | draft | Swarm commons governance — 2609.04170 (K345) |
+| [`world-acting-systems-taxonomy`](concepts/world-acting-systems-taxonomy.md) | draft | World-acting vs model-only taxonomy — 2609.04894 (K346) |
+| [`hybrid-gui-cli-agent-environment`](concepts/hybrid-gui-cli-agent-environment.md) | draft | Hybrid GUI+CLI agent environment — 2609.05374 (K348) |
+| [`harness-supply-chain-defects`](concepts/harness-supply-chain-defects.md) | draft | Harness supply-chain defects — 2609.07360 (K350) |
+| [`edge-slm-mcp-tool-reliability`](concepts/edge-slm-mcp-tool-reliability.md) | draft | Edge SLM MCP tool reliability — 2609.07370 (K351) |
+| [`mcp-registry-unbiased-sampling`](concepts/mcp-registry-unbiased-sampling.md) | draft | MCP registry unbiased sample — 2609.10962 (K353) |
+| [`agent-experiment-reproduction-eval`](concepts/agent-experiment-reproduction-eval.md) | draft | Agent experiment reproduction eval — 2609.11117 (K354) |
+| [`runtime-harness-evolution-ecdysis`](concepts/runtime-harness-evolution-ecdysis.md) | draft | Ecdysis runtime harness evolution — 2609.11677 (K355) |
+| [`bandit-guided-skill-evolution`](concepts/bandit-guided-skill-evolution.md) | draft | COBRA-Skills bandit evolution — 2609.11682 (K356) |
+| [`artificial-id-persistent-agent-drive`](concepts/artificial-id-persistent-agent-drive.md) | draft | Artificial Id persistent drive — 2609.11911 (K357) |
 
 ## sources/
 
@@ -968,6 +977,18 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-environment-evolution-terminal-agents-2609.04128`](sources/arxiv-environment-evolution-terminal-agents-2609.04128.md) | draft | Environment evolution terminal agents — 2609.04128 (K343) |
 | [`arxiv-nlip-natural-language-interaction-protocol-2609.04135`](sources/arxiv-nlip-natural-language-interaction-protocol-2609.04135.md) | draft | NLIP protocol — 2609.04135 (K344) |
 | [`arxiv-research-swarm-cheating-whistleblowing-2609.04170`](sources/arxiv-research-swarm-cheating-whistleblowing-2609.04170.md) | draft | Swarm cheating/whistleblowing — 2609.04170 (K345) |
+| [`arxiv-world-acting-systems-taxonomy-2609.04894`](sources/arxiv-world-acting-systems-taxonomy-2609.04894.md) | draft | World-acting systems taxonomy — 2609.04894 (K346) |
+| [`arxiv-hvac-llm-building-energy-2609.05314`](sources/arxiv-hvac-llm-building-energy-2609.05314.md) | draft | HVAC LLM building energy OOD — 2609.05314 (K347) |
+| [`arxiv-cua-universe-hybrid-gui-cli-2609.05374`](sources/arxiv-cua-universe-hybrid-gui-cli-2609.05374.md) | draft | CUA-Universe hybrid GUI+CLI — 2609.05374 (K348) |
+| [`arxiv-kopa-bench-korean-public-api-2609.05395`](sources/arxiv-kopa-bench-korean-public-api-2609.05395.md) | draft | KOPA-Bench Korean APIs OOD — 2609.05395 (K349) |
+| [`arxiv-scanning-harness-supply-chain-defects-2609.07360`](sources/arxiv-scanning-harness-supply-chain-defects-2609.07360.md) | draft | Harness supply-chain defects — 2609.07360 (K350) |
+| [`arxiv-edge-slm-mcp-tool-reliability-2609.07370`](sources/arxiv-edge-slm-mcp-tool-reliability-2609.07370.md) | draft | Edge SLM MCP reliability — 2609.07370 (K351) |
+| [`arxiv-poisson-image-denoising-2609.07916`](sources/arxiv-poisson-image-denoising-2609.07916.md) | draft | Poisson denoising OOD — 2609.07916 (K352) |
+| [`arxiv-mcp-registry-random-sample-2609.10962`](sources/arxiv-mcp-registry-random-sample-2609.10962.md) | draft | MCP registry random sample — 2609.10962 (K353) |
+| [`arxiv-agent-experiment-reproduction-nlpcc-2609.11117`](sources/arxiv-agent-experiment-reproduction-nlpcc-2609.11117.md) | draft | NLPCC experiment reproduction — 2609.11117 (K354) |
+| [`arxiv-ecdysis-runtime-harness-training-2609.11677`](sources/arxiv-ecdysis-runtime-harness-training-2609.11677.md) | draft | Ecdysis runtime harness training — 2609.11677 (K355) |
+| [`arxiv-cobra-skills-bandit-evolution-2609.11682`](sources/arxiv-cobra-skills-bandit-evolution-2609.11682.md) | draft | COBRA-Skills bandit evolution — 2609.11682 (K356) |
+| [`arxiv-artificial-id-persistent-alignment-2609.11911`](sources/arxiv-artificial-id-persistent-alignment-2609.11911.md) | draft | Artificial Id persistent alignment — 2609.11911 (K357) |
 
 ## meta/
 
@@ -1001,6 +1022,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`2026-09-02-daily`](sweeps/2026-09-02-daily.md) | Daily digest — 4 papers (K333–K336 wave) |
 | [`2026-09-03-daily`](sweeps/2026-09-03-daily.md) | Daily digest — 5 papers (K337–K341 wave) |
 | [`2026-09-04-daily`](sweeps/2026-09-04-daily.md) | Daily digest — 4 papers (K342–K345 wave) |
+| [`2026-09-11-daily`](sweeps/2026-09-11-daily.md) | Daily digest — 12 papers (K346–K357 wave) |
 
 ## entities/people/
 

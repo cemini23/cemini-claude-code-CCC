@@ -1,0 +1,42 @@
+---
+description: CCC Phase-1 wires from K346–K357 harness wave (CCC-only — do NOT federation-sync)
+alwaysApply: true
+---
+
+# CCC — K346–K357 Phase-1 wires
+
+**Brief:** `docs/briefs/2026-09-11_k346-k357-harness-wave.md` · SIP: `wiki/briefs/2026-09-11_ccc-k346-k357-sip-ready.md`
+
+**IDs:** Resolve by arXiv id / slug / file path — K# is a log batch label only.
+
+- **K346** World-acting systems taxonomy — **ADOPT awareness**: separate model competence, system integration, persistence, and safe authority across digital/social/virtual/physical environments. Survey — no clone. `policy_wired`. Pairs K309/K325.
+- **K347** HVAC LLM building energy — **OOD** stub; `wont_wire`. No clone.
+- **K348** CUA-Universe — **ADOPT eval-first**: hybrid GUI+CLI over shared app state; GUI-only trajectories insufficient. No public SPDX → no clone. Runtime **`wont_wire`**. Pairs K321/K286.
+- **K349** KOPA-Bench Korean public APIs — **OOD** locale benchmark stub; `wont_wire`.
+- **K350** Scanning the Harness — **Cybersec-primary + ADOPT policy**: coding-agent harness artifacts (CLAUDE.md, skills, hooks, MCP, subagents) are an unvetted supply-chain layer — no lockfile, no install-time check, developer privileges. Run cursor-security-preflight before third-party harness adoption. **No PoCs.** `policy_wired`. Pairs K274/skill-vetting.
+- **K351** Edge SLM MCP reliability — **ADOPT eval axis**: sub-2B edge agents need JSON tool-call reliability, not fluent generation alone. Runtime **`wont_wire`**. Pairs K259/K296.
+- **K352** Poisson image denoising — **OOD** image restoration stub; `wont_wire`.
+- **K353** MCP registry random sample — **ADOPT eval/measurement**: unrepaired registry draw ≠ curated/repaired benchmark coverage; lazy-load + SCOUT top-k (K311). `policy_wired`. Pairs K274.
+- **K354** Agent experiment reproduction — **ADOPT eval-first**: reproduce experiments from papers — eval beyond final repo snapshot. `policy_wired`. Pairs K280/K281.
+- **K355** Ecdysis — **ADOPT pattern**: iterative runtime harness evolution from execution feedback. `cuiyu-ai/Ecdysis` **null SPDX** → no clone. Trainer **`wont_wire`**. **Never auto-evolve `.cursor/skills`.** Pairs K313/K162.
+- **K356** COBRA-Skills — **ADOPT policy**: contextual bandit budget for skill optimization without full execution eval every candidate. No public SPDX → policy only. **Never auto-evolve `.cursor/skills`.** Pairs K237/K314.
+- **K357** Artificial Id — **ADOPT policy**: persistent agents need adaptive internal drive for objectives/retries/verification/stopping across task boundaries. Runtime **`wont_wire`**. Pairs K327/K309.
+
+**Wires landed:**
+
+| K | Verdict | Wire | wire_status |
+|---|---|---|-------------|
+| K346 | ADOPT awareness | World-acting vs model-only taxonomy | `policy_wired` |
+| K347 | OOD stub | None | `wont_wire` |
+| K348 | ADOPT eval | Hybrid GUI+CLI environment axis | `policy_wired` |
+| K349 | OOD stub | None | `wont_wire` |
+| K350 | Cybersec + policy | Harness supply-chain preflight | `policy_wired` |
+| K351 | ADOPT eval | Edge SLM tool-call reliability | `policy_wired` |
+| K352 | OOD stub | None | `wont_wire` |
+| K353 | ADOPT measurement | Registry sample vs benchmark gap | `policy_wired` |
+| K354 | ADOPT eval | Paper experiment reproduction | `policy_wired` |
+| K355 | ADOPT pattern | Runtime harness evolution (HITL) | `policy_wired` |
+| K356 | ADOPT policy | Bandit skill evolution (no auto-write) | `policy_wired` |
+| K357 | ADOPT policy | Persistent agent internal drive | `policy_wired` |
+
+**Non-goals:** no federation sync; no Ecdysis clone; no PoCs; no skill auto-evolution; no `~/.claude/settings.json` edits.
