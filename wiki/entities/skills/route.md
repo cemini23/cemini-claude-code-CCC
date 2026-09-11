@@ -20,7 +20,7 @@ related:
   - sources/arxiv-progrouter-progress-orchestration-2608.25992.md
 maturity: validated
 created: 2026-07-01
-updated: 2026-09-02
+updated: 2026-09-11
 ---
 
 ## Relations
@@ -50,6 +50,8 @@ v2.3.1 (2026-08-14 morning): policy clarification — dsh is a developer-preview
 v2.3.2 (2026-08-14): operator GO — official `dsh` is the `/route` worker behind PATH name `claude-ds` (`install-dsh.ps1` pin, `DSH_PERMISSION_MODE=danger-full-access`, `-Model` → `--patch`). Claude Code at `~/.deepseek-claude` is fallback (`CLAUDE_DS_FORCE_LEGACY=1`). Prod uses a Node 24 sidecar; system Node stays v20.
 
 v2.3.3 (2026-08-14): skill misevolution HITL (arXiv 2608.12851) — operating rule 10: no unattended auto-evolve; on verify fail reconsider the Plan, not only retry (Vero lesson); external eval contract — do not rewrite `## Verify` mid-run.
+
+v2.4.3 (2026-09-11): DeepSeek **V4.1 Flash** wire id `deepseek-flash` (native vision). Stronger than V4 Pro — **Pro off rotation**. Hard Grok-out = Flash then OpenCode. Legacy `deepseek-v4-flash` / `deepseek-v4-pro` aliases map to Flash.
 
 v2.4.1 (2026-08-21): steal public cursor-route `--worker opencode` as a **sidecar** (not a `claude-ds` swap). Easy/mid execute: OpenRouter free → OpenCode Zen free (**live catalog pick**, Ox Alpha while listed; not a locked id; not Big Pickle by default) → Flash family (`deepseek-v4-flash` / `deepseek-v4-flash-vision-exp`). Mid Grok-out plan = Flash (never Pro). Hard Grok-out = Flash then Pro then OpenCode. Pro is audits + hard backup only. `ROUTE_SKIP_OPENCODE=1` disables the sidecar. Missing `opencode` skips to Flash. Pin: `ROUTE_OPENCODE_MODEL`.
 
