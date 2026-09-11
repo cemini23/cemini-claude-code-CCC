@@ -14,7 +14,7 @@ related:
   - sources/brief-k237-meta-harness-vero-misevolution-2026-08-14.md
 maturity: draft
 created: 2026-08-14
-updated: 2026-08-15
+updated: 2026-09-11
 wire_status: runtime_wired
 ---
 
@@ -22,7 +22,7 @@ wire_status: runtime_wired
 
 - @entities/tools/claude-code.md — isolated Claude Code at `~/.deepseek-claude` is **fallback** (`CLAUDE_DS_FORCE_LEGACY=1`)
 - @entities/tools/agent-toolkit.md — `claude-ds.ps1` launches pinned `dsh`; `install-dsh.ps1` pin
-- @entities/skills/route.md — v2.3.2: official dsh is the `/route` worker behind PATH name `claude-ds`
+- @entities/skills/route.md — v2.4.3: official dsh is the `/route` worker behind PATH name `claude-ds`; wire id `deepseek-flash`
 - @entities/tools/opencode.md — sibling Phase-0 (community, provider-agnostic)
 - @entities/tools/reasonix.md — sibling Phase-0 (community, DeepSeek-native)
 - @concepts/llm-routing-deepseek-openrouter-failover.md
@@ -76,7 +76,7 @@ What prompted this page: 2026-08-14 Phase-0 audit of the **official** DeepSeek H
 6. PATH name `claude-ds` stays; `Invoke-ClaudeDsExecute` unchanged
 7. HITL GO — **operator 2026-08-14** (this page)
 
-**Wire posture:** `wire_status: runtime_wired`. Route SKILL.md **v2.3.2**. OpenCode / Reasonix remain NO-GO.
+**Wire posture:** `wire_status: runtime_wired`. Route SKILL.md **v2.4.3**. Wire id `deepseek-flash` (V4.1 Flash). V4 Pro off rotation. OpenCode / Reasonix remain NO-GO as PATH swaps.
 
 ## Snippets
 

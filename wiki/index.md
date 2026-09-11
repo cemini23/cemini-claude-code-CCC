@@ -219,7 +219,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`step-gate`](entities/skills/step-gate.md) | draft | Closed proceed/hold/escalate classifier + PreToolUse deny-on-HOLD hook — federation (K312 shipped) |
 | [`phase1-wire`](entities/skills/phase1-wire.md) | draft | Phase-1 adopt-wire skill — /phase1 after Phase-0 |
 | [`goal`](entities/skills/goal.md) | validated | Cursor `/goal` single-shot envelope — federation-wide (K124) |
-| [`route`](entities/skills/route.md) | validated | /route easy·mid·hard·money (v2.3 Flash vs Pro; Grok-out stand-in) |
+| [`route`](entities/skills/route.md) | validated | /route easy·mid·hard·money (v2.4.3 V4.1 Flash; Pro off rotation) |
 | [`adopted-geo-tools`](entities/skills/adopted-geo-tools.md) | validated | SEO-domain E-GEO / geo-optimizer / wondelai skill — synced federation-wide (2026-07-18) |
 
 ## entities/commands/

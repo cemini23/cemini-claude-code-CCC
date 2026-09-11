@@ -20,7 +20,7 @@ related:
   - "@osint-wiki/concepts/llm-routing-deepseek-openrouter-failover.md"
 maturity: draft
 created: 2026-06-04
-updated: 2026-08-14
+updated: 2026-09-11
 ---
 
 ## Relations
@@ -28,7 +28,7 @@ updated: 2026-08-14
 - @concepts/deepseek-coding-cost-routing.md — cheap-model discipline; this page is **automatic failover** when DeepSeek quota hits
 - @entities/tools/claude-code-router.md — prod proxy layer; complementary to app-level `llm_routing.py`
 - @entities/tools/agent-toolkit.md — private `/route` script host (`ROUTE_KIT`)
-- @entities/skills/route.md — federation `/route` skill v2.3
+- @entities/skills/route.md — federation `/route` skill v2.4.3
 - @entities/tools/opencode.md — Phase-0; NO-GO mid swap (not `@osint-wiki/entities/tools/opencodex.md`)
 - @entities/tools/reasonix.md — Phase-0; NO-GO mid swap
 - @entities/tools/deepseek-harness.md — official `dsh` `/route` worker behind `claude-ds` (v2.3.2)
@@ -89,7 +89,7 @@ Default model map: `deepseek-v4-flash` → `deepseek/deepseek-chat` on OpenRoute
 
 Routing is **env-driven**, not a Cursor setting. Open a terminal, `source` the script, then run scripts or point OpenAI-compat tools at the same env. For HL patches, use OpenRouter in chat after sourcing (no runtime LLM in `cemini_decide.py`).
 
-**`/route` claude-ds (2026-08-14 v2.3.2):** official DeepSeek Harness `dsh` behind PATH name `claude-ds`. Flash = easy/mid execute; Pro = Grok CLI usage-out stand-in (`-Model` → per-job `--patch`). Always-approve = `DSH_PERMISSION_MODE=danger-full-access`. Isolated Claude Code at `~/.deepseek-claude` is fallback only (`@entities/tools/deepseek-harness.md`).
+**`/route` claude-ds (2026-09-11 v2.4.3):** official DeepSeek Harness `dsh` behind PATH name `claude-ds`. Wire id `deepseek-flash` (V4.1 Flash, native vision). Easy/mid execute = Flash family; Grok-out mid plan = Flash (never Pro); Grok-out hard + Plan = Flash then OpenCode. V4 Pro is **off rotation**. Always-approve = `DSH_PERMISSION_MODE=danger-full-access`. Isolated Claude Code at `~/.deepseek-claude` is fallback only (`@entities/tools/deepseek-harness.md`). Always-apply Cursor rule: `~/.cursor/rules/cemini-route-outsource.mdc`.
 
 ## Snippets
 

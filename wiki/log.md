@@ -1,3 +1,11 @@
+## [2026-09-11] ops | /route v2.4.3 always-apply rule + federation sync
+
+- Always-apply Cursor rule `.cursor/rules/cemini-route-outsource.mdc` now matches skill v2.4.3: Grok-out = Flash then OpenCode; V4 Pro off rotation; wire id `deepseek-flash`.
+- Trigger phrases in rule YAML + body: `/route`, `route this`, `route as recommended`.
+- Wiki: `@entities/skills/route.md`, `@entities/tools/agent-toolkit.md`, `@entities/tools/deepseek-harness.md`, `@concepts/llm-routing-deepseek-openrouter-failover.md`.
+- Operator brief: `docs/briefs/2026-09-11_route-v243-flash-not-pro.md`.
+- Federation sync: `scripts/sync_federation_cursor_skills.sh` → `~/.cursor/skills/route/` + `~/.cursor/rules/cemini-route-outsource.mdc` + every listed workspace.
+
 ## [2026-09-04] ingest | K342–K345 harness wave (Sep 4 daily sweep)
 
 - **4 NEW inbox PDFs**: SPM OOD (2609.04015), Environment evolution (2609.04128), NLIP (2609.04135), Swarm commons (2609.04170).

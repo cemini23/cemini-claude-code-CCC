@@ -35,11 +35,11 @@ updated: 2026-09-11
 
 ## Raw Concept
 
-Federation skill `.cursor/skills/route/SKILL.md` (v2.4.1). Scripts live in private agent-toolkit.
+Federation skill `.cursor/skills/route/SKILL.md` (v2.4.3). Scripts live in private agent-toolkit.
 
 ## Narrative
 
-Lanes: easy (OpenRouter free → claude-ds **Flash**), mid (Grok plan → Flash execute), hard/money (Cursor premium plan → Grok implement). **Grok CLI usage out:** Pro plans (mid) / Pro implements (hard + Plan). Always-approve default. One harness; `-Model` selects Flash vs Pro.
+Lanes: easy (OpenRouter free → OpenCode Zen free → claude-ds **Flash**), mid (Grok plan → OpenCode then Flash execute), hard/money (Cursor premium plan → Grok implement). **Grok CLI usage out:** Flash family plans (mid, never Pro) / Flash then OpenCode (hard + Plan). Wire id `deepseek-flash` (DeepSeek V4.1 Flash, native vision). V4 Pro is **off rotation**. Always-approve default. One harness; `-Model` aliases map to Flash. Always-apply Cursor rule: `~/.cursor/rules/cemini-route-outsource.mdc`. Say **route as recommended** / `/route` / `route this` in any federation workspace.
 
 v2.1 adds SIP handoff contract (SDR exit 3), post-implement verify gate, mid→hard confidence escalate, `_route_runs/` claim-safe logs. Canon host `@entities/tools/agent-toolkit.md`.
 
@@ -71,7 +71,8 @@ OSINT daily digest steals for this skill via cluster `cursor-route-harness` (`da
 | K233 | SKILLER skill-authoring / SkillLens / MISA-T / opencodex candidate | open — pattern + `/phase1` only for opencodex |
 | K234 | Charity Majors: harness > model; verification bottleneck; pets→cattle code | open — reinforce Verify gate; brief `2026-08-12_k234-charity-majors-harness-verify.md` |
 | ops 2026-08-12 | OpenCode / Reasonix as DeepSeek coding harness vs claude-ds | **closed** — keep `claude-ds` PATH; both NO-GO as mid **swap**. v2.4.1 (2026-08-21) adds OpenCode as Zen-free **sidecar** only (live catalog pick) |
-| ops 2026-08-12 | Flash vs Pro in one harness; Pro = Grok CLI usage-out stand-in | **wired** — skill v2.3 + `route-task.ps1` |
+| ops 2026-08-12 | Flash vs Pro in one harness; Pro = Grok CLI usage-out stand-in | **superseded** 2026-09-11 — V4.1 Flash; Pro off rotation |
+| ops 2026-09-11 | V4.1 Flash wire id `deepseek-flash`; Pro off rotation; hard Grok-out = Flash then OpenCode; always-apply rule matches skill | **wired** — skill v2.4.3 + `cemini-route-outsource.mdc` + agent-toolkit |
 | ops 2026-08-14 | Official DeepSeek Harness `dsh` as `/route` worker | **wired** v2.3.2 — pin `~/.dsh-cemini`; PATH stays `claude-ds`; Claude Code fallback (`@entities/tools/deepseek-harness.md`) |
 | board K237 AutoDesign (2608.13560) | Meta-harness optimization bibliography → `/route` harness-evolution canon (AutoDesign / Meta-Harness / HarnessX / Self-Harness / Recursive / Continual / Agentic Harness Engineering). Wire id in policy file: CCC **K281**. | **open** — bibliography; `.local/adopts/AutoDesign` GO REFERENCE |
 | board K237 misevolution (2608.12851) | Skill misevolution SHE gate — skills worsen with practice; terminal success-rate ≠ safe library; govern authoring/retrieval/execution; delete-only repair + reuse-time attribution; no unattended auto-evolve of `.cursor/skills/*` | **wired** 2026-08-14 — policy §SHE + skill v2.3.3 rule 10 |
@@ -81,4 +82,4 @@ OSINT daily digest steals for this skill via cluster `cursor-route-harness` (`da
 | OSINT K243 (2026-08-20) | GLM-5.3 post-training (RL-on-environments + DSH harness plugin Cordis): **the harness layer is the cost/diff surface** — TrueForge (MIT) quantifies harness cost; route pricing must count harness, not just tokens. Osmani cognitive surrender + mutual amplification reinforce the verify gate (worker ≠ verifier). **Do not swap `/route` worker or PATH `claude-ds`.** Eureka (K293) / Harness-CL (K292) / SemaPLC OOD — policy only. Dual-ID: **OSINT K243** ≠ CCC K243 (ACEM). | **open** — backlog; `/route` worker unchanged. Brief `briefs/2026-08-20_k243-ccc.md` |
 | OSINT super-audit (2026-09-02) | Public MIT [`cemini23/cursor-route`](https://github.com/cemini23/cursor-route) npm **0.1.14**: easy-lane OpenRouter live pick **tier-ranks** Qwen/GLM/Kimi above Nemotron 550B (ctx bonus capped at 131072). **Do not replace `/route`.** Mid stays `claude-ds`. | **wired** on public cursor-route 0.1.14 only. `/route` worker unchanged. |
 
-Briefs: `briefs/2026-08-11_route-skill-k231-k232-steals.md` · `briefs/2026-08-12_k234-charity-majors-harness-verify.md` · `briefs/2026-08-18_k241-cursor-route-clawgym-harnesseval.md` · `briefs/2026-08-19_k242-glean-routing-dram-easy-agent.md` · `briefs/2026-08-20_k243-ccc.md` · public product working brief: `~/Projects/cursor-route/docs/briefs/WORKING.md`.
+Briefs: `docs/briefs/2026-09-11_route-v243-flash-not-pro.md` · `briefs/2026-08-11_route-skill-k231-k232-steals.md` · `briefs/2026-08-12_k234-charity-majors-harness-verify.md` · `briefs/2026-08-18_k241-cursor-route-clawgym-harnesseval.md` · `briefs/2026-08-19_k242-glean-routing-dram-easy-agent.md` · `briefs/2026-08-20_k243-ccc.md` · public product working brief: `~/Projects/cursor-route/docs/briefs/WORKING.md`.

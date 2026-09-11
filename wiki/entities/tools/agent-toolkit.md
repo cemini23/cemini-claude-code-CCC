@@ -11,7 +11,7 @@ related:
   - entities/tools/deepseek-harness.md
 maturity: validated
 created: 2026-08-08
-updated: 2026-08-14
+updated: 2026-09-11
 ---
 
 ## Relations
@@ -36,4 +36,4 @@ Private canon host for Cemini `/route` after TipDrop kit retirement (2026-08-08)
 
 Scripts: `route-task`, `handoff-to-grok`, `claude-ds`, SIP/verify/escalate libs. Adopt: `pwsh -File scripts/adopt-route-always-approve.ps1`. TipDrop kit keeps redirect stubs only.
 
-**claude-ds (2026-08-14):** isolated Claude Code **2.1.222** (npm `minimum-release-age` blocks same-week **2.1.229**), `CLAUDE_CONFIG_DIR=~/.deepseek-claude`, default `deepseek-v4-flash`, `-Model deepseek-v4-pro` for Grok CLI stand-in (mid plan / hard implement when usage is out). Subagents: `CLAUDE_CODE_SUBAGENT_MODEL=deepseek-v4-flash`. Native wrapper no longer hardcodes retired `DeepSeek-V3.1` / `deepseek-chat`. Plugins: exa + pyright-lsp + typescript-lsp + code-review. OpenCode / Reasonix / official DeepSeek Harness `dsh` audited — **keep this worker** (dsh: developer preview RC, prod Node 20, cutover gates on `@entities/tools/deepseek-harness.md`).
+**claude-ds (2026-09-11):** PATH name `claude-ds` → official `dsh` (`~/.dsh-cemini`) with `--patch` overlay `{provider: deepseek-official, model: deepseek-flash}`. Isolated Claude Code at `~/.deepseek-claude` is **fallback** (`CLAUDE_DS_FORCE_LEGACY=1`). Wire id **`deepseek-flash`** (DeepSeek V4.1 Flash, native vision). Legacy `deepseek-v4-flash` / `deepseek-v4-pro` aliases map here. V4 Pro is **off rotation**. Subagents: `CLAUDE_CODE_SUBAGENT_MODEL=deepseek-flash`. OpenCode is a Zen-free **sidecar**, not a PATH swap. Reasonix remains NO-GO. Historical 2026-08-14: isolated Claude Code 2.1.222 was the worker; superseded same day by dsh (`@entities/tools/deepseek-harness.md`).
