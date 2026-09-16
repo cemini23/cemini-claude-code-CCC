@@ -860,3 +860,27 @@ World-acting taxonomy (K346) + HVAC OOD (K347) + CUA-Universe hybrid GUI+CLI eva
 
 - Persistent agents crossing task boundaries need an adaptive **internal drive** for objectives, retries, verification, and stopping — hand-specified harness transitions do not scale.
 - Policy awareness only; runtime **`wont_wire`**. Pairs K327 Logos transcript boundaries / K309 continual harness.
+
+## CCC wave K358–K362 (shared policy file)
+
+EchoPath GUI replay memory (K358) + DriveMCP OOD (K359) + Emergence World long-horizon MAS stress test (K360, Cybersec-primary) + ScienceBuddy recursive harness improvement (K361) + social harness for agentic societies (K362, Cybersec-primary). **Zero clones.** CCC-only rule `ccc-k358-k362-phase1-wires.mdc` — do **not** federation-sync. **No PoCs.**
+
+## Execution-level replayable GUI memory — EchoPath (CCC K358)
+
+- Convert **artifact-validated GUI trajectories** into replayable execution-level memory — avoid redundant observe-plan-act on repetitive enterprise GUI workflows.
+- GUI runtime **`wont_wire`** — keep cursor-ide-browser; no native CUA. Pairs K282 AgentRewind / K321 ASIL.
+
+## Long-horizon multi-agent adversarial eval — Emergence World (CCC K360 · Cybersec-primary)
+
+- Persistent multi-agent failures propagate through memory, tools, peer agents, and environment — **isolated response eval is insufficient**.
+- Continuous adversarial stress-test environments are an eval axis for long-horizon autonomy. **No PoCs.** Runtime **`wont_wire`**.
+
+## Recursive-in-recursive harness improvement — ScienceBuddy (CCC K361)
+
+- Couple **harness evolution** with model learning from interactive workspace evidence → tasks + rubrics for continual improvement.
+- **Never auto-evolve `.cursor/skills`.** External eval + HITL before prod harness mutation. No public SPDX → no clone. Pairs K355/K331/K237.
+
+## Social harness for agentic societies (CCC K362 · Cybersec-primary)
+
+- Agents coordinating across **trust boundaries** for partially aligned principals need a **social harness** for messaging — not just model competence.
+- Faulty/malicious agents exploit comms vulnerabilities (stall, influence, harm). Pairs K227 Zawinski / K277 / K345 commons. **No PoCs.**

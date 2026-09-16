@@ -1,3 +1,15 @@
+## [2026-09-13] prompt | v10.6 — poker retired; CeminiDFS #3 · CeminiParlays #4
+
+- Deep-research prompts → **v10.6**: Priority **#1 Atto · #2 GuruWatcher · #3 CeminiDFS · #4 CeminiParlays · then wikis**. Poker arena / `devfun-poker-arena` retired (no `poker-arena overlap`). New `ceminiparlays overlap`.
+- Canon: `prompts/deep-research-multi-wiki-eval-v10-2026-07-06.md` + gemini-runtime; `@concepts/deep-research-evaluation-prompt.md`; `@concepts/cross-wiki-routing.md`.
+- OSINT ingest sync: `@osint-wiki/concepts/active-project-research-routing.md` + `scripts/active_project_brief_targets.yaml` + `scripts/daily_research_config.yaml`.
+
+## [2026-09-16] ingest | K358–K362 harness wave (Sep 16 daily sweep)
+
+- **5 NEW inbox PDFs**: EchoPath (2609.16635), DriveMCP OOD (2609.17247), Emergence World (2609.17320), ScienceBuddy (2609.17523), Social Harness (2609.17527).
+- **Pages:** 5 sources, 4 concepts; SIP `wiki/briefs/2026-09-16_ccc-k358-k362-sip-ready.md`.
+- **Phase-0/1:** adopt_k358…k362; `ccc-k358-k362-phase1-wires.mdc`; policy §K358–K362. Zero clones. Cybersec steal K360/K362.
+
 ## [2026-09-11] ingest | K346–K357 harness wave (Sep 11 daily sweep)
 
 - **12 NEW inbox PDFs**: world-acting taxonomy (2609.04894), HVAC OOD (2609.05314), CUA-Universe (2609.05374), KOPA OOD (2609.05395), Scanning the Harness (2609.07360), edge SLM MCP (2609.07370), Poisson OOD (2609.07916), MCP registry sample (2609.10962), NLPCC reproduction (2609.11117), Ecdysis (2609.11677), COBRA-Skills (2609.11682), Artificial Id (2609.11911).

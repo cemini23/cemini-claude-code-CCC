@@ -618,6 +618,10 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`runtime-harness-evolution-ecdysis`](concepts/runtime-harness-evolution-ecdysis.md) | draft | Ecdysis runtime harness evolution — 2609.11677 (K355) |
 | [`bandit-guided-skill-evolution`](concepts/bandit-guided-skill-evolution.md) | draft | COBRA-Skills bandit evolution — 2609.11682 (K356) |
 | [`artificial-id-persistent-agent-drive`](concepts/artificial-id-persistent-agent-drive.md) | draft | Artificial Id persistent drive — 2609.11911 (K357) |
+| [`execution-level-replayable-gui-memory`](concepts/execution-level-replayable-gui-memory.md) | draft | EchoPath GUI replay memory — 2609.16635 (K358) |
+| [`long-horizon-multi-agent-adversarial-eval`](concepts/long-horizon-multi-agent-adversarial-eval.md) | draft | Emergence World MAS stress test — 2609.17320 (K360) |
+| [`recursive-in-recursive-harness-improvement`](concepts/recursive-in-recursive-harness-improvement.md) | draft | ScienceBuddy recursive improvement — 2609.17523 (K361) |
+| [`social-harness-multi-agent-trust`](concepts/social-harness-multi-agent-trust.md) | draft | Social harness for agentic societies — 2609.17527 (K362) |
 
 ## sources/
 
@@ -989,6 +993,11 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-ecdysis-runtime-harness-training-2609.11677`](sources/arxiv-ecdysis-runtime-harness-training-2609.11677.md) | draft | Ecdysis runtime harness training — 2609.11677 (K355) |
 | [`arxiv-cobra-skills-bandit-evolution-2609.11682`](sources/arxiv-cobra-skills-bandit-evolution-2609.11682.md) | draft | COBRA-Skills bandit evolution — 2609.11682 (K356) |
 | [`arxiv-artificial-id-persistent-alignment-2609.11911`](sources/arxiv-artificial-id-persistent-alignment-2609.11911.md) | draft | Artificial Id persistent alignment — 2609.11911 (K357) |
+| [`arxiv-echopath-gui-replayable-memory-2609.16635`](sources/arxiv-echopath-gui-replayable-memory-2609.16635.md) | draft | EchoPath GUI replay memory — 2609.16635 (K358) |
+| [`arxiv-drivemcp-adas-agentic-framework-2609.17247`](sources/arxiv-drivemcp-adas-agentic-framework-2609.17247.md) | draft | DriveMCP ADAS OOD — 2609.17247 (K359) |
+| [`arxiv-emergence-world-multi-agent-stress-test-2609.17320`](sources/arxiv-emergence-world-multi-agent-stress-test-2609.17320.md) | draft | Emergence World MAS stress test — 2609.17320 (K360) |
+| [`arxiv-sciencebuddy-recursive-self-improvement-2609.17523`](sources/arxiv-sciencebuddy-recursive-self-improvement-2609.17523.md) | draft | ScienceBuddy recursive improvement — 2609.17523 (K361) |
+| [`arxiv-agentic-societies-social-harness-2609.17527`](sources/arxiv-agentic-societies-social-harness-2609.17527.md) | draft | Social harness agentic societies — 2609.17527 (K362) |
 
 ## meta/
 
@@ -1023,6 +1032,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`2026-09-03-daily`](sweeps/2026-09-03-daily.md) | Daily digest — 5 papers (K337–K341 wave) |
 | [`2026-09-04-daily`](sweeps/2026-09-04-daily.md) | Daily digest — 4 papers (K342–K345 wave) |
 | [`2026-09-11-daily`](sweeps/2026-09-11-daily.md) | Daily digest — 12 papers (K346–K357 wave) |
+| [`2026-09-16-daily`](sweeps/2026-09-16-daily.md) | Daily digest — 5 papers (K358–K362 wave) |
 
 ## entities/people/
 

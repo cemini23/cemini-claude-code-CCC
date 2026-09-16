@@ -1,0 +1,28 @@
+---
+description: CCC Phase-1 wires from K358–K362 harness wave (CCC-only — do NOT federation-sync)
+alwaysApply: true
+---
+
+# CCC — K358–K362 Phase-1 wires
+
+**Brief:** `docs/briefs/2026-09-16_k358-k362-harness-wave.md` · SIP: `wiki/briefs/2026-09-16_ccc-k358-k362-sip-ready.md`
+
+**IDs:** Resolve by arXiv id / slug / file path — K# is a log batch label only.
+
+- **K358** EchoPath — **ADOPT pattern**: artifact-validated GUI trajectories → execution-level replayable memory; cuts redundant observe-plan-act on repetitive enterprise GUI work. GUI runtime **`wont_wire`** — cursor-ide-browser only. Pairs K282/K321/K348.
+- **K359** DriveMCP — **OOD** automotive ADAS agentic pipeline stub; `wont_wire`. No clone.
+- **K360** Emergence World — **Cybersec-primary + ADOPT eval**: continuously running adversarial stress-test for long-horizon multi-agent systems; failures propagate via memory/tools/agents/state. **No PoCs.** Runtime **`wont_wire`**. Pairs K260/K345/K227.
+- **K361** ScienceBuddy — **ADOPT pattern**: recursive-in-recursive harness evolution + RL from interactive scientific workspace evidence. **Never auto-evolve `.cursor/skills`.** No public SPDX → no clone. Trainer **`wont_wire`**. Pairs K355/K331/K237.
+- **K362** Agentic Societies Social Harness — **Cybersec-primary + ADOPT policy**: inter-agent coordination across trust boundaries needs a **social harness** beyond model competence; messaging vulnerabilities enable stall/influence/harm. **No PoCs.** Pairs K227/K277/K345/K326.
+
+**Wires landed:**
+
+| K | Verdict | Wire | wire_status |
+|---|---|---|-------------|
+| K358 | ADOPT pattern | GUI replayable execution memory | `policy_wired` |
+| K359 | OOD stub | None | `wont_wire` |
+| K360 | Cybersec + eval | Long-horizon MAS adversarial eval axis | `policy_wired` |
+| K361 | ADOPT pattern | Recursive harness improvement (HITL) | `policy_wired` |
+| K362 | Cybersec + policy | Social harness for multi-agent trust | `policy_wired` |
+
+**Non-goals:** no federation sync; no PoCs; no skill auto-evolution; no CUA/GUI runtime wire.
