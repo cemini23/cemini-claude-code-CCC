@@ -884,3 +884,32 @@ EchoPath GUI replay memory (K358) + DriveMCP OOD (K359) + Emergence World long-h
 
 - Agents coordinating across **trust boundaries** for partially aligned principals need a **social harness** for messaging — not just model competence.
 - Faulty/malicious agents exploit comms vulnerabilities (stall, influence, harm). Pairs K227 Zawinski / K277 / K345 commons. **No PoCs.**
+
+## CCC wave K363–K367 (shared policy file)
+
+ReFigBench harness attribution (K363) + Ask-the-Tool serving progress (K364) + ASLEval privacy displacement (K365, Cybersec-primary) + MCP NIDS beacon blind spot (K366, Cybersec-primary) + remote MCP observability tiers (K367). **Zero clones.** CCC-only rule `ccc-k363-k367-phase1-wires.mdc` — do **not** federation-sync. **No PoCs.**
+
+## Harness attribution for multimodal eval — ReFigBench (CCC K363)
+
+- Low scores on tool-trace or screenshot proxies cannot distinguish **model vs harness** failure for multimodal coding agents.
+- Evaluate runnable harness + artifact validity, not isolated short proxies. Pairs K334 / K289 evidence-tree eval.
+
+## Tool-progress-aware serving — Ask the Tool (CCC K364)
+
+- Pre-call duration estimates cannot reliably rank or predict tool-call wall-clock time; KV cache retention should use **in-call progress signals**, not guesses from name/history/declared duration.
+- Awareness for token economics and serving policy — not a CCC runtime wire. Pairs K320 usage vs context.
+
+## Privacy exposure displacement — ASLEval (CCC K365 · Cybersec-primary)
+
+- **Privacy exposure displacement** = local eval proxy misses unauthorized exposure elsewhere in the session.
+- Use authorization-aware **session-level** measurement, not single-action/final-response proxies. **No PoCs.** Pairs K315 PSD / K277.
+
+## MCP traffic NIDS observability gap (CCC K366 · Cybersec-primary)
+
+- MCP Streamable HTTP agent traffic can mimic **beacon-like cadence** — legacy NIDS IoC assumptions may misclassify or miss agent egress.
+- Treat MCP/agent JSON-RPC as first-class observability surface. **No evasion recipes.** Pairs K367 / K353.
+
+## Remote MCP ecosystem observability (CCC K367)
+
+- Remote MCP shifts to **centralized deployments** — measure catalog metadata (O₀), passive compliance (O₁), and active probes (O₂).
+- Pairs K271 MCP auth gateway / K353 registry sampling / K366 network detection gap.

@@ -4,6 +4,12 @@
 - Canon: `prompts/deep-research-multi-wiki-eval-v10-2026-07-06.md` + gemini-runtime; `@concepts/deep-research-evaluation-prompt.md`; `@concepts/cross-wiki-routing.md`.
 - OSINT ingest sync: `@osint-wiki/concepts/active-project-research-routing.md` + `scripts/active_project_brief_targets.yaml` + `scripts/daily_research_config.yaml`.
 
+## [2026-09-17] ingest | K363–K367 harness wave (Sep 17 daily sweep)
+
+- **5 NEW inbox PDFs**: ReFigBench (2609.18844), Ask the Tool (2609.18849), ASLEval (2609.18864), MCP NIDS beacons (2609.19091), Remote MCP observability (2609.19100).
+- **Pages:** 5 sources, 5 concepts; SIP `wiki/briefs/2026-09-17_ccc-k363-k367-sip-ready.md`.
+- **Phase-0/1:** adopt_k363…k367; `ccc-k363-k367-phase1-wires.mdc`; policy §K363–K367. Zero clones. Cybersec steal K365/K366.
+
 ## [2026-09-16] ingest | K358–K362 harness wave (Sep 16 daily sweep)
 
 - **5 NEW inbox PDFs**: EchoPath (2609.16635), DriveMCP OOD (2609.17247), Emergence World (2609.17320), ScienceBuddy (2609.17523), Social Harness (2609.17527).

@@ -1,0 +1,28 @@
+---
+description: CCC Phase-1 wires from K363–K367 harness wave (CCC-only — do NOT federation-sync)
+alwaysApply: true
+---
+
+# CCC — K363–K367 Phase-1 wires
+
+**Brief:** `docs/briefs/2026-09-17_k363-k367-harness-wave.md` · SIP: `wiki/briefs/2026-09-17_ccc-k363-k367-sip-ready.md`
+
+**IDs:** Resolve by arXiv id / slug / file path — K# is a log batch label only.
+
+- **K363** ReFigBench — **ADOPT eval-first**: multimodal agent failures need harness-vs-model attribution; proxy scores (traces, screenshot resemblance) insufficient. Pairs K334/K289. Runtime **`wont_wire`**.
+- **K364** Ask the Tool — **ADOPT policy**: serving systems must not guess tool-call duration pre-call for KV cache retention — tool calls hold progress the serving layer should read. Pairs K320 token economics / K327 resume. Awareness only; **`wont_wire`** runtime.
+- **K365** ASLEval — **Cybersec-primary + ADOPT eval**: **privacy exposure displacement** — local action/response proxies miss session-level unauthorized exposure. Authorization-aware session eval. **No PoCs.** Pairs K315/K277. Runtime **`wont_wire`**.
+- **K366** MCP NIDS beacons — **Cybersec-primary + ADOPT policy**: MCP Streamable HTTP traffic can mimic beacon cadence — NIDS IoC assumptions break without MCP-aware rules. **No PoCs / no evasion recipes.** Pairs K353/K367. `policy_wired`.
+- **K367** Remote MCP observability — **ADOPT measurement + policy**: remote MCP centralization + three-tier observability (catalog O₀ / passive O₁ / active O₂). Pairs K271/K353/K366. Runtime **`wont_wire`**.
+
+**Wires landed:**
+
+| K | Verdict | Wire | wire_status |
+|---|---|---|-------------|
+| K363 | ADOPT eval | Harness attribution for multimodal eval | `policy_wired` |
+| K364 | ADOPT policy | Tool-progress-aware serving awareness | `policy_wired` |
+| K365 | Cybersec + eval | Session-level privacy displacement eval | `policy_wired` |
+| K366 | Cybersec + policy | MCP traffic NIDS observability gap | `policy_wired` |
+| K367 | ADOPT measurement | Remote MCP centralization + observability tiers | `policy_wired` |
+
+**Non-goals:** no federation sync; no PoCs; no NIDS rule packs; no serving-stack runtime wire.

@@ -622,6 +622,11 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`long-horizon-multi-agent-adversarial-eval`](concepts/long-horizon-multi-agent-adversarial-eval.md) | draft | Emergence World MAS stress test — 2609.17320 (K360) |
 | [`recursive-in-recursive-harness-improvement`](concepts/recursive-in-recursive-harness-improvement.md) | draft | ScienceBuddy recursive improvement — 2609.17523 (K361) |
 | [`social-harness-multi-agent-trust`](concepts/social-harness-multi-agent-trust.md) | draft | Social harness for agentic societies — 2609.17527 (K362) |
+| [`harness-attribution-multimodal-eval`](concepts/harness-attribution-multimodal-eval.md) | draft | ReFigBench harness attribution — 2609.18844 (K363) |
+| [`tool-call-progress-aware-serving`](concepts/tool-call-progress-aware-serving.md) | draft | Ask-the-Tool serving progress — 2609.18849 (K364) |
+| [`privacy-exposure-displacement-eval`](concepts/privacy-exposure-displacement-eval.md) | draft | ASLEval privacy displacement — 2609.18864 (K365) |
+| [`mcp-traffic-network-detection-blind-spot`](concepts/mcp-traffic-network-detection-blind-spot.md) | draft | MCP NIDS beacon blind spot — 2609.19091 (K366) |
+| [`remote-mcp-ecosystem-observability`](concepts/remote-mcp-ecosystem-observability.md) | draft | Remote MCP observability — 2609.19100 (K367) |
 
 ## sources/
 
@@ -998,6 +1003,11 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-emergence-world-multi-agent-stress-test-2609.17320`](sources/arxiv-emergence-world-multi-agent-stress-test-2609.17320.md) | draft | Emergence World MAS stress test — 2609.17320 (K360) |
 | [`arxiv-sciencebuddy-recursive-self-improvement-2609.17523`](sources/arxiv-sciencebuddy-recursive-self-improvement-2609.17523.md) | draft | ScienceBuddy recursive improvement — 2609.17523 (K361) |
 | [`arxiv-agentic-societies-social-harness-2609.17527`](sources/arxiv-agentic-societies-social-harness-2609.17527.md) | draft | Social harness agentic societies — 2609.17527 (K362) |
+| [`arxiv-refigbench-scientific-figure-harness-2609.18844`](sources/arxiv-refigbench-scientific-figure-harness-2609.18844.md) | draft | ReFigBench harness eval — 2609.18844 (K363) |
+| [`arxiv-ask-the-tool-serving-progress-2609.18849`](sources/arxiv-ask-the-tool-serving-progress-2609.18849.md) | draft | Ask-the-Tool serving progress — 2609.18849 (K364) |
+| [`arxiv-asleval-privacy-exposure-displacement-2609.18864`](sources/arxiv-asleval-privacy-exposure-displacement-2609.18864.md) | draft | ASLEval privacy displacement — 2609.18864 (K365) |
+| [`arxiv-mcp-traffic-nids-beacon-evasion-2609.19091`](sources/arxiv-mcp-traffic-nids-beacon-evasion-2609.19091.md) | draft | MCP NIDS beacon evasion — 2609.19091 (K366) |
+| [`arxiv-remote-mcp-centralization-observability-2609.19100`](sources/arxiv-remote-mcp-centralization-observability-2609.19100.md) | draft | Remote MCP observability — 2609.19100 (K367) |
 
 ## meta/
 
@@ -1033,6 +1043,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`2026-09-04-daily`](sweeps/2026-09-04-daily.md) | Daily digest — 4 papers (K342–K345 wave) |
 | [`2026-09-11-daily`](sweeps/2026-09-11-daily.md) | Daily digest — 12 papers (K346–K357 wave) |
 | [`2026-09-16-daily`](sweeps/2026-09-16-daily.md) | Daily digest — 5 papers (K358–K362 wave) |
+| [`2026-09-17-daily`](sweeps/2026-09-17-daily.md) | Daily digest — 5 papers (K363–K367 wave) |
 
 ## entities/people/
 
