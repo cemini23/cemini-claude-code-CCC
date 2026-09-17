@@ -46,7 +46,7 @@ related:
   - sources/arxiv-armor-plusplus-deepfake-agentic-attacks-2607.15246.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-07-17
+updated: 2026-09-13
 ---
 
 ## Relations
@@ -84,7 +84,7 @@ The federation has **eight domain wikis** + private Cemini Financial Suite (CCC 
 | `3d-printing-wiki` | FDM/FFF printing, slicers, store ops |
 | `game-dev-wiki` | Hobby game dev — castle/RTS research, Godot/engine evals, vertical slices (public) |
 
-**Bulk eval routing:** `@concepts/deep-research-evaluation-prompt.md` (v10.4 at `prompts/deep-research-multi-wiki-eval-v10-2026-07-06.md`) — revenue-first lens; **Priority #1 Atto** · **Priority #2 GuruWatcher** · everything else behind (+ wikis always); castle-sim legacy.
+**Bulk eval routing:** `@concepts/deep-research-evaluation-prompt.md` (v10.6 at `prompts/deep-research-multi-wiki-eval-v10-2026-07-06.md`) — revenue-first lens; **#1 Atto** · **#2 GuruWatcher** · **#3 CeminiDFS** · **#4 CeminiParlays** · then wikis always; poker + TipDrop + castle-sim legacy.
 
 Every wiki's CLAUDE.md has a "Related Wikis" table listing siblings with relative paths. The lint scripts parse this table to resolve `@<alias>/path` references.
 
