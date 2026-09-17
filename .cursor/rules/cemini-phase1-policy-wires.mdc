@@ -913,3 +913,9 @@ ReFigBench harness attribution (K363) + Ask-the-Tool serving progress (K364) + A
 
 - Remote MCP shifts to **centralized deployments** — measure catalog metadata (O₀), passive compliance (O₁), and active probes (O₂).
 - Pairs K271 MCP auth gateway / K353 registry sampling / K366 network detection gap.
+
+## Implicit trust across MCP input channels (CCC K368 · Cybersec-primary)
+
+- Tool descriptions, tool results, and sampling messages share one **undifferentiated context window** — no privilege separation between channels.
+- Measure **implicit trust profiles** per channel/payload framing; cross-channel fragmentation can reassemble harmful intent from benign fragments.
+- **External enforcement** required — model recognition ≠ boundary (pairs K310/K326/K365/K274). **No PoCs / no attack templates anywhere.** Runtime **`wont_wire`**.

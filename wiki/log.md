@@ -4,6 +4,12 @@
 - Canon: `prompts/deep-research-multi-wiki-eval-v10-2026-07-06.md` + gemini-runtime; `@concepts/deep-research-evaluation-prompt.md`; `@concepts/cross-wiki-routing.md`.
 - OSINT ingest sync: `@osint-wiki/concepts/active-project-research-routing.md` + `scripts/active_project_brief_targets.yaml` + `scripts/daily_research_config.yaml`.
 
+## [2026-09-17] ingest | K368 implicit trust MCP (digest cap follow-up)
+
+- **1 manually fetched PDF**: implicit trust in tool-calling pipelines (2609.18217) — skipped by Sep 17 digest cap.
+- **Pages:** 1 source, 1 concept; SIP `wiki/briefs/2026-09-17_ccc-k368-sip-ready.md`.
+- **Phase-0/1:** adopt_k368; `ccc-k368-phase1-wires.mdc`; policy §K368. Cybersec steal. **No PoCs.**
+
 ## [2026-09-17] ingest | K363–K367 harness wave (Sep 17 daily sweep)
 
 - **5 NEW inbox PDFs**: ReFigBench (2609.18844), Ask the Tool (2609.18849), ASLEval (2609.18864), MCP NIDS beacons (2609.19091), Remote MCP observability (2609.19100).

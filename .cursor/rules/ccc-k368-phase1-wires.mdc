@@ -1,0 +1,20 @@
+---
+description: CCC Phase-1 wires from K368 implicit-trust MCP paper (CCC-only — do NOT federation-sync)
+alwaysApply: true
+---
+
+# CCC — K368 Phase-1 wires
+
+**Brief:** `docs/briefs/2026-09-17_k368-implicit-trust-mcp.md` · SIP: `wiki/briefs/2026-09-17_ccc-k368-sip-ready.md`
+
+**IDs:** Resolve by arXiv id / slug / file path — K# is a log batch label only.
+
+- **K368** Implicit trust in MCP tool-calling — **Cybersec-primary + ADOPT policy**: tool descriptions, tool results, and sampling messages share one context window **without privilege separation**; measure per-channel trust profiles; cross-channel fragmentation reassembles intent from benign fragments. External enforcement required (pairs K310/K326/K365/K274). **No PoCs / no attack templates / no fragmentation recipes.** Runtime **`wont_wire`**.
+
+**Wires landed:**
+
+| K | Verdict | Wire | wire_status |
+|---|---|---|-------------|
+| K368 | Cybersec + policy | MCP channel-aware implicit trust measurement | `policy_wired` |
+
+**Non-goals:** no federation sync; no PoCs; no exploit/fragmentation text anywhere.

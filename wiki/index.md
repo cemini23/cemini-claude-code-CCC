@@ -627,6 +627,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`privacy-exposure-displacement-eval`](concepts/privacy-exposure-displacement-eval.md) | draft | ASLEval privacy displacement — 2609.18864 (K365) |
 | [`mcp-traffic-network-detection-blind-spot`](concepts/mcp-traffic-network-detection-blind-spot.md) | draft | MCP NIDS beacon blind spot — 2609.19091 (K366) |
 | [`remote-mcp-ecosystem-observability`](concepts/remote-mcp-ecosystem-observability.md) | draft | Remote MCP observability — 2609.19100 (K367) |
+| [`implicit-trust-mcp-input-channels`](concepts/implicit-trust-mcp-input-channels.md) | draft | Implicit trust MCP channels — 2609.18217 (K368) |
 
 ## sources/
 
@@ -1008,6 +1009,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-asleval-privacy-exposure-displacement-2609.18864`](sources/arxiv-asleval-privacy-exposure-displacement-2609.18864.md) | draft | ASLEval privacy displacement — 2609.18864 (K365) |
 | [`arxiv-mcp-traffic-nids-beacon-evasion-2609.19091`](sources/arxiv-mcp-traffic-nids-beacon-evasion-2609.19091.md) | draft | MCP NIDS beacon evasion — 2609.19091 (K366) |
 | [`arxiv-remote-mcp-centralization-observability-2609.19100`](sources/arxiv-remote-mcp-centralization-observability-2609.19100.md) | draft | Remote MCP observability — 2609.19100 (K367) |
+| [`arxiv-implicit-trust-mcp-tool-calling-2609.18217`](sources/arxiv-implicit-trust-mcp-tool-calling-2609.18217.md) | draft | Implicit trust MCP tool-calling — 2609.18217 (K368) |
 
 ## meta/
 
