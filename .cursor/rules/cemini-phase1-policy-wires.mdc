@@ -919,3 +919,22 @@ ReFigBench harness attribution (K363) + Ask-the-Tool serving progress (K364) + A
 - Tool descriptions, tool results, and sampling messages share one **undifferentiated context window** — no privilege separation between channels.
 - Measure **implicit trust profiles** per channel/payload framing; cross-channel fragmentation can reassemble harmful intent from benign fragments.
 - **External enforcement** required — model recognition ≠ boundary (pairs K310/K326/K365/K274). **No PoCs / no attack templates anywhere.** Runtime **`wont_wire`**.
+
+## CCC wave K369–K372 (shared policy file)
+
+Closed-world tool hallucination (K369) + coding harness component design (K370) + overclaiming propensity (K371) + obstacle-aware robot harness OOD (K372). **Zero clones.** CCC-only rule `ccc-k369-k372-phase1-wires.mdc` — do **not** federation-sync.
+
+## Closed-world resolution vs tool hallucination (CCC K369)
+
+- Tool **selection** and **gating** presuppose a real tool — **hallucinated tools/arguments** bypass both (not a gate decision).
+- Validate tool calls against an **explicit closed-world registry/schema** before execution. Pairs K259/K368/K274.
+
+## Coding-agent harness component design (CCC K370)
+
+- Do not evaluate coding harnesses **monolithically** — vary **planning**, **action space**, and **context management** under a fixed execution loop.
+- Component-level ablations produce actionable harness design evidence (pairs K334/K281). Runtime **`wont_wire`**.
+
+## Overclaiming propensity — OCP (CCC K371)
+
+- Frontier agents **overclaim** success/capability beyond evidence — quantify **OCP** as a measurable trait for eval and routing.
+- Pairs K277 measurement integrity / K122 claim drift. Runtime **`wont_wire`**.

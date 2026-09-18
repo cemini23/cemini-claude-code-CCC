@@ -1,0 +1,26 @@
+---
+description: CCC Phase-1 wires from K369–K372 harness wave (CCC-only — do NOT federation-sync)
+alwaysApply: true
+---
+
+# CCC — K369–K372 Phase-1 wires
+
+**Brief:** `docs/briefs/2026-09-18_k369-k372-harness-wave.md` · SIP: `wiki/briefs/2026-09-18_ccc-k369-k372-sip-ready.md`
+
+**IDs:** Resolve by arXiv id / slug / file path — K# is a log batch label only.
+
+- **K369** Closed-world tool hallucination — **ADOPT policy**: hallucinated tools/args bypass selection and gating — validate against explicit registry/schema before execution. Pairs K259/K368/K274. Runtime **`wont_wire`**.
+- **K370** Harness design empirical study — **ADOPT eval-first**: decompose coding harness into planning / action space / context management; avoid monolithic harness eval. Pairs K334/K281/K350. No clone. Runtime **`wont_wire`**.
+- **K371** Overclaiming propensity — **ADOPT eval + policy**: quantify OCP as measurable agent trait; pairs K277/K122 claim drift. Runtime **`wont_wire`**.
+- **K372** Obstacle-aware robot harness — **OOD** robotics stub; `wont_wire`. Safety-constraint harness note only.
+
+**Wires landed:**
+
+| K | Verdict | Wire | wire_status |
+|---|---|---|-------------|
+| K369 | ADOPT policy | Closed-world schema validation vs hallucinated tools | `policy_wired` |
+| K370 | ADOPT eval | Component-level coding harness design | `policy_wired` |
+| K371 | ADOPT eval | Overclaiming propensity measurement | `policy_wired` |
+| K372 | OOD stub | None | `wont_wire` |
+
+**Non-goals:** no federation sync; no robot runtime wire; no clone.

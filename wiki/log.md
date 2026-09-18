@@ -4,6 +4,12 @@
 - Canon: `prompts/deep-research-multi-wiki-eval-v10-2026-07-06.md` + gemini-runtime; `@concepts/deep-research-evaluation-prompt.md`; `@concepts/cross-wiki-routing.md`.
 - OSINT ingest sync: `@osint-wiki/concepts/active-project-research-routing.md` + `scripts/active_project_brief_targets.yaml` + `scripts/daily_research_config.yaml`.
 
+## [2026-09-18] ingest | K369–K372 harness wave (Sep 18 daily sweep)
+
+- **4 NEW inbox PDFs**: closed-world tool hallucination (2609.19425), harness design empirical (2609.20804), overclaiming propensity (2609.20812), obstacle-aware robot OOD (2609.20822).
+- **Pages:** 4 sources, 3 concepts; SIP `wiki/briefs/2026-09-18_ccc-k369-k372-sip-ready.md`.
+- **Phase-0/1:** adopt_k369…k372; `ccc-k369-k372-phase1-wires.mdc`; policy §K369–K372. Zero clones.
+
 ## [2026-09-17] ingest | K368 implicit trust MCP (digest cap follow-up)
 
 - **1 manually fetched PDF**: implicit trust in tool-calling pipelines (2609.18217) — skipped by Sep 17 digest cap.

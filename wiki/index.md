@@ -628,6 +628,9 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`mcp-traffic-network-detection-blind-spot`](concepts/mcp-traffic-network-detection-blind-spot.md) | draft | MCP NIDS beacon blind spot — 2609.19091 (K366) |
 | [`remote-mcp-ecosystem-observability`](concepts/remote-mcp-ecosystem-observability.md) | draft | Remote MCP observability — 2609.19100 (K367) |
 | [`implicit-trust-mcp-input-channels`](concepts/implicit-trust-mcp-input-channels.md) | draft | Implicit trust MCP channels — 2609.18217 (K368) |
+| [`closed-world-tool-hallucination-resolution`](concepts/closed-world-tool-hallucination-resolution.md) | draft | Closed-world tool hallucination — 2609.19425 (K369) |
+| [`coding-agent-harness-component-design`](concepts/coding-agent-harness-component-design.md) | draft | Coding harness component design — 2609.20804 (K370) |
+| [`overclaiming-propensity-agent-measurement`](concepts/overclaiming-propensity-agent-measurement.md) | draft | Overclaiming propensity OCP — 2609.20812 (K371) |
 
 ## sources/
 
@@ -1010,6 +1013,10 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-mcp-traffic-nids-beacon-evasion-2609.19091`](sources/arxiv-mcp-traffic-nids-beacon-evasion-2609.19091.md) | draft | MCP NIDS beacon evasion — 2609.19091 (K366) |
 | [`arxiv-remote-mcp-centralization-observability-2609.19100`](sources/arxiv-remote-mcp-centralization-observability-2609.19100.md) | draft | Remote MCP observability — 2609.19100 (K367) |
 | [`arxiv-implicit-trust-mcp-tool-calling-2609.18217`](sources/arxiv-implicit-trust-mcp-tool-calling-2609.18217.md) | draft | Implicit trust MCP tool-calling — 2609.18217 (K368) |
+| [`arxiv-closed-world-resolution-tool-hallucination-2609.19425`](sources/arxiv-closed-world-resolution-tool-hallucination-2609.19425.md) | draft | Closed-world tool hallucination — 2609.19425 (K369) |
+| [`arxiv-harness-design-coding-agents-empirical-2609.20804`](sources/arxiv-harness-design-coding-agents-empirical-2609.20804.md) | draft | Harness design coding agents — 2609.20804 (K370) |
+| [`arxiv-overclaiming-propensity-frontier-agents-2609.20812`](sources/arxiv-overclaiming-propensity-frontier-agents-2609.20812.md) | draft | Overclaiming propensity OCP — 2609.20812 (K371) |
+| [`arxiv-obstacle-aware-harness-robot-manipulation-2609.20822`](sources/arxiv-obstacle-aware-harness-robot-manipulation-2609.20822.md) | draft | Obstacle-aware robot harness OOD — 2609.20822 (K372) |
 
 ## meta/
 
@@ -1046,6 +1053,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`2026-09-11-daily`](sweeps/2026-09-11-daily.md) | Daily digest — 12 papers (K346–K357 wave) |
 | [`2026-09-16-daily`](sweeps/2026-09-16-daily.md) | Daily digest — 5 papers (K358–K362 wave) |
 | [`2026-09-17-daily`](sweeps/2026-09-17-daily.md) | Daily digest — 5 papers (K363–K367 wave) |
+| [`2026-09-18-daily`](sweeps/2026-09-18-daily.md) | Daily digest — 4 papers (K369–K372 wave) |
 
 ## entities/people/
 
