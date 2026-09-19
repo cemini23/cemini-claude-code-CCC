@@ -10,7 +10,7 @@
 - **Daily digest:** `wiki/sweeps/2026-09-19-daily.md` — 0 PDFs fetched; 6 arXiv dupes skipped (4 inbox = K369–K372 already ingested).
 - **preingest_check:** 4 DUPLICATE verdicts — no re-ingest.
 - **Phase-0:** adopt_k369…k372 re-run — all pass (warn only).
-- **Archive:** `archive_raw_to_egress.sh --wiki-id ccc` ×4 — **FAILED** (`cemini-egress-fi` SSH timeout). Inbox PDFs retained locally; source pages already cite egress-fi paths from Sep 18 ingest.
+- **Archive:** `archive_raw_to_egress.sh --wiki-id ccc` ×4 — **FAILED** AM (`cemini-egress-fi` SSH timeout). **Completed same day** after egress restored — 4 PDFs on `cemini-egress-fi:/opt/cemini-bulk/research/ccc/`; inbox empty.
 - **CI:** prior K369–K372 push green (`35346149618`).
 
 ## [2026-09-13] prompt | v10.6 — poker retired; CeminiDFS #3 · CeminiParlays #4
