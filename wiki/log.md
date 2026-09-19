@@ -1,3 +1,11 @@
+## [2026-09-19] query | full ingest — no new papers; archive blocked
+
+- **Daily digest:** `wiki/sweeps/2026-09-19-daily.md` — 0 PDFs fetched; 6 arXiv dupes skipped (4 inbox = K369–K372 already ingested).
+- **preingest_check:** 4 DUPLICATE verdicts — no re-ingest.
+- **Phase-0:** adopt_k369…k372 re-run — all pass (warn only).
+- **Archive:** `archive_raw_to_egress.sh --wiki-id ccc` ×4 — **FAILED** (`cemini-egress-fi` SSH timeout). Inbox PDFs retained locally; source pages already cite egress-fi paths from Sep 18 ingest.
+- **CI:** prior K369–K372 push green (`35346149618`).
+
 ## [2026-09-13] prompt | v10.6 — poker retired; CeminiDFS #3 · CeminiParlays #4
 
 - Deep-research prompts → **v10.6**: Priority **#1 Atto · #2 GuruWatcher · #3 CeminiDFS · #4 CeminiParlays · then wikis**. Poker arena / `devfun-poker-arena` retired (no `poker-arena overlap`). New `ceminiparlays overlap`.

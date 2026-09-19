@@ -1054,6 +1054,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`2026-09-16-daily`](sweeps/2026-09-16-daily.md) | Daily digest — 5 papers (K358–K362 wave) |
 | [`2026-09-17-daily`](sweeps/2026-09-17-daily.md) | Daily digest — 5 papers (K363–K367 wave) |
 | [`2026-09-18-daily`](sweeps/2026-09-18-daily.md) | Daily digest — 4 papers (K369–K372 wave) |
+| [`2026-09-19-daily`](sweeps/2026-09-19-daily.md) | Daily digest — 0 new PDFs; 4 inbox dupes (K369–K372 already ingested) |
 
 ## entities/people/
 
