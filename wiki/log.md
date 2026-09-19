@@ -1,3 +1,10 @@
+## [2026-09-19] wire | K369–K372 leftovers shipped (Grok plan P1–P4)
+
+- **Skills:** `closed-world-tool-check`, `harness-component-eval`, `ocp-claim-check` (federation, operator-invoked).
+- **Helpers:** `closed_world_tool_check.py`, `harness_component_eval.py`, `ocp_claim_check.py`, `config/closed_world_tools.example.json`.
+- **Phase-0:** adopt_k369/370/371 call new selftests; SPDX watch +2609.20804.
+- **Route:** Grok CLI plan (mid); OpenCode execute incomplete → Cursor parent implemented.
+
 ## [2026-09-19] query | full ingest — no new papers; archive blocked
 
 - **Daily digest:** `wiki/sweeps/2026-09-19-daily.md` — 0 PDFs fetched; 6 arXiv dupes skipped (4 inbox = K369–K372 already ingested).

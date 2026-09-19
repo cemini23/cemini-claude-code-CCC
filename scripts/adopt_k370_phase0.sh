@@ -11,6 +11,8 @@ check "concept wired" grep -q "wire_status: policy_wired" "${REPO_ROOT}/wiki/con
 check "policy K370" grep -q "K370" "${REPO_ROOT}/.cursor/rules/cemini-phase1-policy-wires.mdc"
 check "ccc-rule K370" grep -q "K370" "${REPO_ROOT}/.cursor/rules/ccc-k369-k372-phase1-wires.mdc"
 check "no clone" test ! -d "${REPO_ROOT}/.local/adopts/coding-agent-harness-component-design"
+check "component eval helper" test -f "${REPO_ROOT}/scripts/harness_component_eval.py"
+check "component eval selftest" python3 "${REPO_ROOT}/scripts/harness_component_eval.py" selftest
 warn_note "K370 ADOPT eval-first"
 echo "Summary: ${pass} pass, ${fail} fail, ${warn} warn"
 [[ "${fail}" -eq 0 ]]

@@ -23,4 +23,6 @@ alwaysApply: true
 | K371 | ADOPT eval | Overclaiming propensity measurement | `policy_wired` |
 | K372 | OOD stub | None | `wont_wire` |
 
-**Non-goals:** no federation sync; no robot runtime wire; no clone.
+**Leftovers shipped 2026-09-19:** federation skills `closed-world-tool-check` / `harness-component-eval` / `ocp-claim-check` (`disable-model-invocation: true`); helpers `closed_world_tool_check.py`, `harness_component_eval.py`, `ocp_claim_check.py`, `config/closed_world_tools.example.json`; SPDX watch line for arXiv 2609.20804 in `spdx_watch_harness_wave.sh`. Remaining propose-only: MCP broker product; dense+RRF SCOUT over live MCP catalog (HITL); HoH runtime wrap; K370 clone when SPDX appears.
+
+**Non-goals:** no federation sync of this CCC-only file; no robot runtime wire; no clone.

@@ -11,6 +11,8 @@ check "concept wired" grep -q "wire_status: policy_wired" "${REPO_ROOT}/wiki/con
 check "policy K371" grep -q "K371" "${REPO_ROOT}/.cursor/rules/cemini-phase1-policy-wires.mdc"
 check "ccc-rule K371" grep -q "K371" "${REPO_ROOT}/.cursor/rules/ccc-k369-k372-phase1-wires.mdc"
 check "no clone" test ! -d "${REPO_ROOT}/.local/adopts/overclaiming-propensity-agent-measurement"
+check "ocp helper" test -f "${REPO_ROOT}/scripts/ocp_claim_check.py"
+check "ocp selftest" python3 "${REPO_ROOT}/scripts/ocp_claim_check.py" selftest
 warn_note "K371 ADOPT eval + policy"
 echo "Summary: ${pass} pass, ${fail} fail, ${warn} warn"
 [[ "${fail}" -eq 0 ]]

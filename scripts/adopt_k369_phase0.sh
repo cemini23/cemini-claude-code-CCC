@@ -11,6 +11,8 @@ check "concept wired" grep -q "wire_status: policy_wired" "${REPO_ROOT}/wiki/con
 check "policy K369" grep -q "K369" "${REPO_ROOT}/.cursor/rules/cemini-phase1-policy-wires.mdc"
 check "ccc-rule K369" grep -q "K369" "${REPO_ROOT}/.cursor/rules/ccc-k369-k372-phase1-wires.mdc"
 check "no clone" test ! -d "${REPO_ROOT}/.local/adopts/closed-world-tool-hallucination-resolution"
+check "closed-world helper" test -f "${REPO_ROOT}/scripts/closed_world_tool_check.py"
+check "closed-world selftest" python3 "${REPO_ROOT}/scripts/closed_world_tool_check.py" selftest
 warn_note "K369 ADOPT policy"
 echo "Summary: ${pass} pass, ${fail} fail, ${warn} warn"
 [[ "${fail}" -eq 0 ]]
