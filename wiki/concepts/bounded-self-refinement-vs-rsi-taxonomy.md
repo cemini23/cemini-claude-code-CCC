@@ -67,9 +67,11 @@ related:
   - briefs/2026-09-01_ccc-k328-k332-sip-ready.md
   - concepts/harness-as-eval-artifact.md
   - sources/arxiv-harnessdev-harness-creation-evolution-2609.01437.md
+  - concepts/harness-policy-co-evolution-safety.md
+  - sources/arxiv-safeevolve-harness-policy-co-evolution-2609.02786.md
 maturity: draft
 created: 2026-07-14
-updated: 2026-09-02
+updated: 2026-09-03
 ---
 
 ## Relations

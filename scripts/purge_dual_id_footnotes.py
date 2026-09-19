@@ -25,12 +25,13 @@ def main() -> int:
         new = text
         for pat in PATTERNS:
             new = pat.sub("\n" + REPL, new)
-        # Inline trailing Dual-ID clauses on same line — shorten to arXiv ref only
-        new = re.sub(
-            r"\.\s+\*\*Dual-ID:\*\*[^.\n]+",
-            ". Resolve by arXiv id / slug.",
-            new,
-        )
+        # Inline trailing Dual-ID clauses on same line — shorten
+        new = re.sub(r"\.\s+\*\*Dual-ID:\*\*[^.\n]+", ". Resolve by arXiv id / slug.", new)
+        new = re.sub(r"\*\*Dual-ID:\*\*[^.\n]+", "Resolve by arXiv id / slug.", new)
+        new = re.sub(r"- \*\*Dual-ID note\*\*:[^\n]+\n", "", new)
+        new = re.sub(r" — dual-ID note", "", new, flags=re.I)
+        new = re.sub(r"Dual-ID vs ([^\n.]+)", r"Resolve by arXiv id (\1)", new)
+        new = re.sub(r"Cybersec dual-ID ([^\n.]+)", r"Cybersec arXiv ref (\1)", new)
         if new != text:
             path.write_text(new, encoding="utf-8")
             changed += 1

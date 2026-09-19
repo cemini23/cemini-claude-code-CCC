@@ -6,6 +6,12 @@ Newest entries on top.
 
 ---
 
+## 2026-08-25 — New CLAUDE.md must include ASD-STE100 (setup default)
+
+When bootstrapping or helping someone fork `wiki-template`, always paste **`## Writing style (ASD-STE100)`** into root `CLAUDE.md`. Block: `@osint-wiki/scripts/snippets/claude-md-ste100-section.md`. Wired into five-section template Style row + wiki-template SETUP step 4. Global fallback: `~/.claude/CLAUDE.md`. See `@osint-wiki/LESSONS.md` 2026-08-25.
+
+---
+
 ## 2026-05-13 — Cross-wiki deep-dive paid for itself in 1 session; OSINT carries most of the Claude Code material
 
 Dispatched two parallel Explore agents (one OSINT-focused, one for the four laptop-only siblings) and inventoried every page touching Claude Code workflow. The OSINT wiki carried 48 high-signal entries; SEO + Cybersec each carried ~10 substantial pages; 3D-printing + Image-gen had less Claude Code-specific material (just root CLAUDE.md cross-references).
