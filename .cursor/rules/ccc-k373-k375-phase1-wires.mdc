@@ -21,6 +21,8 @@ alwaysApply: true
 | K374 | ADOPT pattern | Single-agent RCA baseline; evidence-grounded industrial RCA pattern | `policy_wired` |
 | K375 | ADOPT eval-first | Hybrid CUA recreation environments + reference-grounded assertions | `policy_wired` |
 
-**Non-goals:** no federation sync; no PoCs; no CUA/GUI runtime wire; no RecreationWorld clone until SPDX.
+**Non-goals:** no federation sync of this CCC-only file; no PoCs; no CUA/GUI runtime wire; no RecreationWorld clone until SPDX.
 
-**Propose-only:** EnterpriseVal metric catalogue as federation eval checklist; RecreationWorld SPDX watch in `spdx_watch_harness_wave.sh`; K374 multi-agent revisit on harder failure chains.
+**Leftovers shipped 2026-09-21:** federation skill `enterprise-scale-gate` (`disable-model-invocation: true`); helper `scripts/enterprise_scale_gate.py` + `config/enterprise_scale_gate.example.json`.
+
+**Propose-only:** RecreationWorld SPDX watch in `spdx_watch_harness_wave.sh`; K374 multi-agent revisit on harder failure chains.

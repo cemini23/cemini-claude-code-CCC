@@ -1,0 +1,27 @@
+{
+  "use_case": "credit-memo-draft",
+  "consequence_tier": "high",
+  "frozen_config": {
+    "model": "frontier-model-pinned",
+    "prompts": "credit-memo-v3",
+    "retrieval": "policy-kb-v2",
+    "tools": "closed-world-registry-v1",
+    "guardrails": "step-gate+external-reference-monitor",
+    "oversight": "HITL-before-scale"
+  },
+  "metrics": [
+    {
+      "name": "citation_precision",
+      "value": 0.88,
+      "threshold_min": 0.70,
+      "confidence_lower": 0.85
+    },
+    {
+      "name": "hallucination_rate",
+      "value": 0.016,
+      "threshold_max": 0.05,
+      "confidence_upper": 0.02
+    }
+  ],
+  "human_review_confirmed": true
+}
