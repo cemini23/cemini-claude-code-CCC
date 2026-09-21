@@ -1,3 +1,10 @@
+## [2026-09-21] wire | K373 enterprise-scale-gate leftover shipped
+
+- **Skill:** `enterprise-scale-gate` (federation, operator-invoked, `disable-model-invocation: true`).
+- **Helper:** `scripts/enterprise_scale_gate.py` + `config/enterprise_scale_gate.example.json`.
+- **Phase-0:** adopt_k373 extended with skill/helper/selftest checks after no-clone gate.
+- **Verdicts:** REJECT | CONDITIONAL | SCALE — frozen config + metric thresholds + human review on medium/high tiers.
+
 ## [2026-09-21] ingest | K373–K375 harness wave (Sep 21 daily sweep)
 
 - **3 NEW inbox PDFs**: EnterpriseVal (2609.21841), industrial test-failure RCA (2609.21843), RecreationWorld (2609.22000).
