@@ -6,10 +6,11 @@ keywords: [2609.05374, k348]
 related:
   - concepts/hybrid-gui-cli-agent-environment.md
   - briefs/2026-09-11_ccc-k346-k357-sip-ready.md
+  - concepts/hybrid-cua-recreation-environments.md
 maturity: draft
 read_status: read
 created: 2026-09-11
-updated: 2026-09-11
+updated: 2026-09-21
 ---
 
 ## Relations

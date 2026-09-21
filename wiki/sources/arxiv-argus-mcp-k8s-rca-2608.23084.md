@@ -9,10 +9,11 @@ related:
   - briefs/2026-08-25_ccc-k300-k309-sip-ready.md
   - concepts/evidence-grounded-structured-rca.md
   - sources/arxiv-llms-telecom-rca-structured-reasoning-2609.02805.md
+  - concepts/industrial-test-failure-rca-agents.md
 maturity: draft
 read_status: read
 created: 2026-08-25
-updated: 2026-09-03
+updated: 2026-09-21
 ---
 
 ## Relations

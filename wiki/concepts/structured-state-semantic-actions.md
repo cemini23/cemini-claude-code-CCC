@@ -11,9 +11,10 @@ related:
   - sources/arxiv-lifeplanner-geospatial-agents-2608.25039.md
   - concepts/domain-grounded-tool-orchestration.md
   - sources/arxiv-domain-grounded-tool-orchestration-2608.30696.md
+  - concepts/hybrid-cua-recreation-environments.md
 maturity: draft
 created: 2026-08-28
-updated: 2026-09-01
+updated: 2026-09-21
 ---
 
 ## Relations

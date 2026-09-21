@@ -6,6 +6,8 @@ keywords: [2609.02805, telecom RCA, structured reasoning, evidence-grounded, hum
 related:
   - sources/arxiv-llms-telecom-rca-structured-reasoning-2609.02805.md
   - sources/arxiv-argus-mcp-k8s-rca-2608.23084.md
+  - sources/arxiv-industrial-test-failure-rca-llm-agents-2609.21843.md
+  - concepts/industrial-test-failure-rca-agents.md
   - entities/tools/argus-agentic-runtime.md
   - concepts/phase1-adopt-wire.md
   - briefs/2026-09-03_ccc-k337-k341-sip-ready.md
@@ -20,6 +22,8 @@ updated: 2026-09-03
 
 - `@sources/arxiv-llms-telecom-rca-structured-reasoning-2609.02805.md`
 - `@sources/arxiv-argus-mcp-k8s-rca-2608.23084.md`
+- `@sources/arxiv-industrial-test-failure-rca-llm-agents-2609.21843.md`
+- `@concepts/industrial-test-failure-rca-agents.md`
 - `@entities/tools/argus-agentic-runtime.md`
 - `@concepts/phase1-adopt-wire.md`
 - `@briefs/2026-09-03_ccc-k337-k341-sip-ready.md`

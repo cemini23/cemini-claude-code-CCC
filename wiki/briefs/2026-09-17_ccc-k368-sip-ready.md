@@ -5,9 +5,11 @@ tags: [brief, handoff, k368, cybersec, mcp]
 keywords: [2609.18217, implicit trust, mcp, sip]
 related:
   - concepts/phase1-adopt-wire.md
+  - concepts/implicit-trust-mcp-input-channels.md
+  - sources/arxiv-implicit-trust-mcp-tool-calling-2609.18217.md
 maturity: draft
 created: 2026-09-17
-updated: 2026-09-17
+updated: 2026-09-21
 ---
 
 ## Target

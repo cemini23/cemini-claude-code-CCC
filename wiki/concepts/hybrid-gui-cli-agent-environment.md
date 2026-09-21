@@ -5,6 +5,8 @@ tags: [concept, k348]
 keywords: [2609.05374, k348]
 related:
   - sources/arxiv-cua-universe-hybrid-gui-cli-2609.05374.md
+  - sources/arxiv-recreationworld-hybrid-cua-environments-2609.22000.md
+  - concepts/hybrid-cua-recreation-environments.md
   - concepts/phase1-adopt-wire.md
   - briefs/2026-09-11_ccc-k346-k357-sip-ready.md
 maturity: draft
@@ -17,6 +19,8 @@ updated: 2026-09-11
 ## Relations
 
 - `@sources/arxiv-cua-universe-hybrid-gui-cli-2609.05374.md`
+- `@sources/arxiv-recreationworld-hybrid-cua-environments-2609.22000.md`
+- `@concepts/hybrid-cua-recreation-environments.md`
 - `@concepts/phase1-adopt-wire.md`
 - `@briefs/2026-09-11_ccc-k346-k357-sip-ready.md`
 

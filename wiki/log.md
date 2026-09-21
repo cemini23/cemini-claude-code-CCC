@@ -1,3 +1,10 @@
+## [2026-09-21] ingest | K373–K375 harness wave (Sep 21 daily sweep)
+
+- **3 NEW inbox PDFs**: EnterpriseVal (2609.21841), industrial test-failure RCA (2609.21843), RecreationWorld (2609.22000).
+- **Pages:** 3 sources, 3 concepts; SIP `wiki/briefs/2026-09-21_ccc-k373-k375-sip-ready.md`.
+- **Phase-0/1:** adopt_k373…k375; `ccc-k373-k375-phase1-wires.mdc`; policy §K373–K375. Zero clones. K375 GitHub WATCH (SPDX unverified).
+- **Route:** OpenRouter free draft only → Cursor parent implemented.
+
 ## [2026-09-19] wire | K369–K372 leftovers shipped (Grok plan P1–P4)
 
 - **Skills:** `closed-world-tool-check`, `harness-component-eval`, `ocp-claim-check` (federation, operator-invoked).

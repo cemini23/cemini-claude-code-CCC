@@ -938,3 +938,24 @@ Closed-world tool hallucination (K369) + coding harness component design (K370) 
 
 - Frontier agents **overclaim** success/capability beyond evidence — quantify **OCP** as a measurable trait for eval and routing.
 - Pairs K277 measurement integrity / K122 claim drift. Runtime **`wont_wire`**.
+
+## CCC wave K373–K375 (shared policy file)
+
+EnterpriseVal use-case eval (K373) + industrial test-failure RCA pattern (K374) + RecreationWorld hybrid CUA (K375). **Zero clones.** CCC-only rule `ccc-k373-k375-phase1-wires.mdc` — do **not** federation-sync.
+
+## Enterprise use-case GenAI evaluation (CCC K373)
+
+- Public capability benchmarks ≠ enterprise deployment fit — evaluate **frozen socio-technical configuration** (model, prompts, retrieval, tools, guardrails, oversight) on **your data under your controls**.
+- Metric catalogue spans fidelity, utility, efficiency, reliability, assurance, oversight; map vectors with confidence bounds to **REJECT / CONDITIONAL / SCALE** gates before scaling.
+- Pairs K331 rubric-before-run / K289 evidence-tree eval / K277 / K151 CAGE-1. Runtime **`wont_wire`**.
+
+## Industrial test-failure RCA agents (CCC K374)
+
+- Nightly regression RCA across heterogeneous logs: tool-augmented LLM workflows; **single-agent baseline** when faster/cheaper without consistent quality loss in pilot.
+- Practitioner-perceived correctness + operational metrics (cost, duration, consistency) alongside automated scores. Pairs K341 evidence-grounded RCA / K306 human-gated remediation. Runtime **`wont_wire`**.
+
+## Hybrid CUA recreation environments (CCC K375)
+
+- **Hybrid GUI+CLI** agents must explore interfaces, implement, and visually verify — evaluate on **recreation** tasks (reference app → faithful rebuild).
+- Reference-grounded **programmatic + visual** assertions; freeze hidden suite after reference validation. RECREATIONBENCH-scale eval, not GUI-only trajectories (pairs K348/K321).
+- GitHub/HF cited — **WATCH** SPDX before clone. GUI runtime **`wont_wire`** — cursor-ide-browser only.

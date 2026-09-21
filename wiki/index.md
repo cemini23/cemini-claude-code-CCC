@@ -631,6 +631,9 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`closed-world-tool-hallucination-resolution`](concepts/closed-world-tool-hallucination-resolution.md) | draft | Closed-world tool hallucination — 2609.19425 (K369) |
 | [`coding-agent-harness-component-design`](concepts/coding-agent-harness-component-design.md) | draft | Coding harness component design — 2609.20804 (K370) |
 | [`overclaiming-propensity-agent-measurement`](concepts/overclaiming-propensity-agent-measurement.md) | draft | Overclaiming propensity OCP — 2609.20812 (K371) |
+| [`enterprise-use-case-genai-evaluation`](concepts/enterprise-use-case-genai-evaluation.md) | draft | EnterpriseVal use-case eval + scale gates — 2609.21841 (K373) |
+| [`industrial-test-failure-rca-agents`](concepts/industrial-test-failure-rca-agents.md) | draft | Industrial test-failure RCA LLM agents — 2609.21843 (K374) |
+| [`hybrid-cua-recreation-environments`](concepts/hybrid-cua-recreation-environments.md) | draft | RecreationWorld hybrid CUA recreation — 2609.22000 (K375) |
 
 ## sources/
 
@@ -1017,6 +1020,9 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-harness-design-coding-agents-empirical-2609.20804`](sources/arxiv-harness-design-coding-agents-empirical-2609.20804.md) | draft | Harness design coding agents — 2609.20804 (K370) |
 | [`arxiv-overclaiming-propensity-frontier-agents-2609.20812`](sources/arxiv-overclaiming-propensity-frontier-agents-2609.20812.md) | draft | Overclaiming propensity OCP — 2609.20812 (K371) |
 | [`arxiv-obstacle-aware-harness-robot-manipulation-2609.20822`](sources/arxiv-obstacle-aware-harness-robot-manipulation-2609.20822.md) | draft | Obstacle-aware robot harness OOD — 2609.20822 (K372) |
+| [`arxiv-enterpriseval-enterprise-genai-evaluation-2609.21841`](sources/arxiv-enterpriseval-enterprise-genai-evaluation-2609.21841.md) | draft | EnterpriseVal enterprise GenAI eval — 2609.21841 (K373) |
+| [`arxiv-industrial-test-failure-rca-llm-agents-2609.21843`](sources/arxiv-industrial-test-failure-rca-llm-agents-2609.21843.md) | draft | Industrial test-failure RCA — 2609.21843 (K374) |
+| [`arxiv-recreationworld-hybrid-cua-environments-2609.22000`](sources/arxiv-recreationworld-hybrid-cua-environments-2609.22000.md) | draft | RecreationWorld hybrid CUA — 2609.22000 (K375) |
 
 ## meta/
 
@@ -1055,6 +1061,8 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`2026-09-17-daily`](sweeps/2026-09-17-daily.md) | Daily digest — 5 papers (K363–K367 wave) |
 | [`2026-09-18-daily`](sweeps/2026-09-18-daily.md) | Daily digest — 4 papers (K369–K372 wave) |
 | [`2026-09-19-daily`](sweeps/2026-09-19-daily.md) | Daily digest — 0 new PDFs; 4 inbox dupes (K369–K372 already ingested) |
+| [`2026-09-20-daily`](sweeps/2026-09-20-daily.md) | Daily digest — 0 new PDFs; 6 dupes skipped |
+| [`2026-09-21-daily`](sweeps/2026-09-21-daily.md) | Daily digest — 3 papers (K373–K375 wave) |
 
 ## entities/people/
 

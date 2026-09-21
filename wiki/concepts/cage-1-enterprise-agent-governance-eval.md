@@ -23,6 +23,8 @@ related:
   - sources/arxiv-trustx-agent-risk-classification-2607.09586.md
   - concepts/hierarchical-skill-stack-lazy-orchestration.md
   - concepts/mcp-contract-grounded-synthesis-and-validation-gate.md
+  - concepts/enterprise-use-case-genai-evaluation.md
+  - sources/arxiv-enterpriseval-enterprise-genai-evaluation-2609.21841.md
   - sources/arxiv-contract-grounded-bt-coding-agent-mcp-2607.12220.md
   - concepts/acp-mcp-three-layer-human-agent-execution.md
   - concepts/coding-agent-install-gap-and-preinstall-gate.md

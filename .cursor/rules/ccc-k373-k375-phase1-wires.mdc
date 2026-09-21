@@ -1,0 +1,26 @@
+---
+description: CCC Phase-1 wires from K373–K375 harness wave (CCC-only — do NOT federation-sync)
+alwaysApply: true
+---
+
+# CCC — K373–K375 Phase-1 wires
+
+**Brief:** `docs/briefs/2026-09-21_k373-k375-harness-wave.md` · SIP: `wiki/briefs/2026-09-21_ccc-k373-k375-sip-ready.md`
+
+**IDs:** Resolve by arXiv id / slug / file path — K# is a log batch label only.
+
+- **K373** EnterpriseVal — **ADOPT eval-first**: use-case-level enterprise GenAI evaluation with **frozen socio-technical configuration** (model, prompts, retrieval, tools, guardrails, human oversight); metric catalogue (fidelity, utility, efficiency, reliability, assurance, oversight); **REJECT / CONDITIONAL / SCALE** threshold gate with confidence bounds. Pairs K331/K289/K277/K151. No public product repo → no clone. Runtime **`wont_wire`**.
+- **K374** Industrial test-failure RCA — **ADOPT pattern**: tool-augmented LLM RCA for nightly regression failures; **single-agent faster/cheaper baseline** vs orchestrated multi-agent (no consistent quality win in pilot). Practitioner eval + operational metrics (cost, duration, consistency). Pairs K341/K306. Industrial domain OOD for CCC runtime. No clone. Runtime **`wont_wire`**.
+- **K375** RecreationWorld — **ADOPT eval-first**: **hybrid GUI+CLI** computer-use agents; **recreation** benchmark (reference → faithful rebuild); RECREATIONBENCH 250 tasks / 5 platforms; programmatic + visual assertions frozen after reference validation. Pairs K348/K321/K286. GitHub/HF cited — **WATCH** until SPDX verified; no clone. GUI runtime **`wont_wire`** — cursor-ide-browser only.
+
+**Wires landed:**
+
+| K | Verdict | Wire | wire_status |
+|---|---|---|-------------|
+| K373 | ADOPT eval-first | Enterprise use-case eval with frozen config + scale gates | `policy_wired` |
+| K374 | ADOPT pattern | Single-agent RCA baseline; evidence-grounded industrial RCA pattern | `policy_wired` |
+| K375 | ADOPT eval-first | Hybrid CUA recreation environments + reference-grounded assertions | `policy_wired` |
+
+**Non-goals:** no federation sync; no PoCs; no CUA/GUI runtime wire; no RecreationWorld clone until SPDX.
+
+**Propose-only:** EnterpriseVal metric catalogue as federation eval checklist; RecreationWorld SPDX watch in `spdx_watch_harness_wave.sh`; K374 multi-agent revisit on harder failure chains.

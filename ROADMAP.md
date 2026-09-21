@@ -38,6 +38,7 @@ Active workstreams, open decisions, and the done log for the Cemini Claude Code 
 
 ## Done
 
+- **2026-09-21** — K373–K375 harness wave: 3 arXiv ingests + Phase-0/1, archive, lint, CI green. EnterpriseVal + RCA pattern + RecreationWorld hybrid CUA. Zero clones.
 - **2026-09-19** — Full ingest check: Sep 19 daily digest (0 new PDFs); preingest 4 DUPLICATE (K369–K372); phase0 re-pass; lint green. Archive to egress-fi **blocked** (SSH timeout) — 4 PDFs remain in inbox.
 - **2026-09-18** — K369–K372 harness wave: 4 arXiv ingests + Phase-0/1, lint, CI green. Archive attempted; egress-fi flaky. Zero clones.
 - **2026-09-17** — K368 implicit-trust MCP (2609.18217 digest-cap follow-up) + K363–K367 harness wave. Phase-0/1, archive, lint, CI green. Cybersec steals. Zero clones.

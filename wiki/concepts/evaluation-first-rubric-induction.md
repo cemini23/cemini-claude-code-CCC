@@ -13,6 +13,8 @@ related:
   - concepts/evidence-tree-rubric-supervision.md
   - concepts/phase1-adopt-wire.md
   - briefs/2026-09-01_ccc-k328-k332-sip-ready.md
+  - concepts/enterprise-use-case-genai-evaluation.md
+  - sources/arxiv-enterpriseval-enterprise-genai-evaluation-2609.21841.md
 maturity: draft
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"
