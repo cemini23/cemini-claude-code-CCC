@@ -38,6 +38,6 @@ Pairs: `harness-eval-gate`, K331 rubric-before-run, K289 evidence-tree eval, K27
 
 ## NEVER
 
-- Read-only classifier — no side effects from this helper.
+- Do not write `watches.json`, Discord, wiki, or git from this helper.
 - Do not treat model refusal as authorization.
 - No LIVE Discord without LIVE OK.
