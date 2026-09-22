@@ -29,11 +29,13 @@ SRC_SEC_RULE="${REPO_ROOT}/.cursor/rules/cemini-cursor-security-preflight.mdc"
 SRC_ROUTE_RULE="${REPO_ROOT}/.cursor/rules/cemini-route-outsource.mdc"
 SRC_PHASE1_RULE="${REPO_ROOT}/.cursor/rules/cemini-phase1-policy-wires.mdc"
 SRC_INV_RULE="${REPO_ROOT}/.cursor/rules/cemini-invariants.mdc"
+SRC_JEV_RULE="${REPO_ROOT}/.cursor/rules/jev-workflow.mdc"
 USER_RULE="${HOME}/.cursor/rules/cemini-goal-skill.mdc"
 USER_SEC_RULE="${HOME}/.cursor/rules/cemini-cursor-security-preflight.mdc"
 USER_ROUTE_RULE="${HOME}/.cursor/rules/cemini-route-outsource.mdc"
 USER_PHASE1_RULE="${HOME}/.cursor/rules/cemini-phase1-policy-wires.mdc"
 USER_INV_RULE="${HOME}/.cursor/rules/cemini-invariants.mdc"
+USER_JEV_RULE="${HOME}/.cursor/rules/jev-workflow.mdc"
 
 FEDERATION_RULES_TO_PRUNE=(
   cemini-goal-skill.mdc
@@ -42,6 +44,7 @@ FEDERATION_RULES_TO_PRUNE=(
   tipdrop-route-outsource.mdc
   cemini-phase1-policy-wires.mdc
   cemini-invariants.mdc
+  jev-workflow.mdc
 )
 
 # Discover CCC skills marked federation: true (YAML frontmatter).
@@ -284,6 +287,10 @@ fi
 if [[ -f "${SRC_PHASE1_RULE}" ]]; then
   copy_file "${SRC_PHASE1_RULE}" "${USER_PHASE1_RULE}"
   echo "  OK  user-global ${USER_PHASE1_RULE}"
+fi
+if [[ -f "${SRC_JEV_RULE}" ]]; then
+  copy_file "${SRC_JEV_RULE}" "${USER_JEV_RULE}"
+  echo "  OK  user-global ${USER_JEV_RULE}"
 fi
 
 count=0
