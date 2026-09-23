@@ -1,0 +1,9 @@
+{
+  "catalog_id": "example-mcp-granularity",
+  "tools": [
+    {"name": "read_file", "description": "Read a file path within the workspace."},
+    {"name": "write_file", "description": "Write content to a path."},
+    {"name": "run_tests", "description": "Run the project test suite."},
+    {"name": "search_code", "description": "Search the repository for a pattern."}
+  ]
+}

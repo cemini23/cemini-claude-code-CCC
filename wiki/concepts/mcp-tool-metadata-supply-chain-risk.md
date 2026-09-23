@@ -26,7 +26,7 @@ K382: Cybersec-primary ADOPT policy — arXiv 2609.26761.
 
 ## Narrative
 
-**Semantic MCP hijacking** via **tool metadata + trajectory traces** — descriptions and prior tool results shape selection without touching server binaries. **Cybersec-primary** supply-chain surface for MCP catalogs (pairs K274 CDH / K368 implicit trust / K350 harness supply-chain scan). `Lilaizhen/A2M` **null license** → **NO clone**. **No PoCs / no attack templates anywhere.** Runtime **`wont_wire`**; concept **`policy_wired`**.
+**Semantic MCP hijacking** via **tool metadata + trajectory traces** — descriptions and prior tool results shape selection without touching server binaries. **Cybersec-primary** supply-chain surface for MCP catalogs (pairs K274 CDH / K368 implicit trust / K350 harness supply-chain scan). Operator helper: `scripts/mcp_metadata_precheck.py` + federation skill `mcp-metadata-precheck` (heuristic review only; pair `cursor-security-preflight`). `Lilaizhen/A2M` **null license** → **NO clone**. **No PoCs / no attack templates anywhere.** Runtime **`wont_wire`**; concept **`policy_wired`**.
 
 ## Snippets
 

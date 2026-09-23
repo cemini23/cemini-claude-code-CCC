@@ -2009,3 +2009,8 @@ Cross-wiki stub routed from `@osint-wiki/sources/newsletter-rss-pragmatic-engine
 - **Phase-0:** `adopt_k333` / `adopt_k334` extended to run helper selftests
 - **Cross-wiki:** Atto steal `../atto/briefs/2026-09-02_k333-untrusted-delegation-steal-from-ccc.md`; leftovers brief `docs/briefs/2026-09-02_k333-k336-leftovers-shipped.md`
 - **Still propose-only:** HoH runtime wrap; dense+RRF SCOUT; CordisBench/HarnessDev clone when SPDX; VotalAI product; 2608.30083 ZK proofs
+
+## [2026-09-23] follow-up | K376/K382 leftovers + archive
+
+- Archived 9 K376–K384 inbox PDFs to `cemini-egress-fi:/opt/cemini-bulk/research/ccc/` (inbox empty).
+- Shipped `mcp_granularity_eval.py` + `mcp_metadata_precheck.py` and federation skills `mcp-granularity-eval`, `mcp-metadata-precheck`.

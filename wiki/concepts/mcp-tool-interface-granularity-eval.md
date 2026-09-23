@@ -26,7 +26,7 @@ K376: ADOPT eval-first — arXiv 2609.24161.
 
 ## Narrative
 
-MCP tool **interface granularity** — how many tools, how fine-grained schemas — is a controlled variable for agent eval, not an afterthought. **MCP-GRANITE** sweeps granularity and reports a **~4-tool sweet spot** on their benchmark suite: too few tools overload single-call semantics; too many inflate selection error and context cost. Treat granularity as a harness axis when comparing MCP stacks or ablating tool design (pairs K272 agent4binary packaging / K351 edge SLM JSON reliability). No public SPDX product requirement for CCC — eval vocabulary only. No clone. Runtime **`wont_wire`**.
+MCP tool **interface granularity** — how many tools, how fine-grained schemas — is a controlled variable for agent eval, not an afterthought. **MCP-GRANITE** sweeps granularity and reports a **~4-tool sweet spot** on their benchmark suite: too few tools overload single-call semantics; too many inflate selection error and context cost. Treat granularity as a harness axis when comparing MCP stacks or ablating tool design (pairs K272 agent4binary packaging / K351 edge SLM JSON reliability). Operator helper: `scripts/mcp_granularity_eval.py` + federation skill `mcp-granularity-eval`. No public SPDX product requirement for CCC — eval vocabulary only. No clone. Runtime **`wont_wire`**.
 
 ## Snippets
 

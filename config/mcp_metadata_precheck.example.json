@@ -1,0 +1,13 @@
+{
+  "catalog_id": "example-mcp-metadata-clean",
+  "tools": [
+    {
+      "name": "read_file",
+      "description": "Read a UTF-8 text file at the given path. Returns file contents or an error."
+    },
+    {
+      "name": "list_directory",
+      "description": "List entries in a directory path relative to the workspace root."
+    }
+  ]
+}
