@@ -5,22 +5,20 @@ tags: [concept, k373]
 keywords: [2609.21841, k373]
 related:
   - sources/arxiv-enterpriseval-enterprise-genai-evaluation-2609.21841.md
-  - concepts/evaluation-first-rubric-induction.md
-  - concepts/cage-1-enterprise-agent-governance-eval.md
   - concepts/phase1-adopt-wire.md
   - briefs/2026-09-21_ccc-k373-k375-sip-ready.md
+  - concepts/cage-1-enterprise-agent-governance-eval.md
+  - concepts/evaluation-first-rubric-induction.md
 maturity: draft
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"
 created: 2026-09-21
-updated: 2026-09-21
+updated: 2026-09-23
 ---
 
 ## Relations
 
 - `@sources/arxiv-enterpriseval-enterprise-genai-evaluation-2609.21841.md`
-- `@concepts/evaluation-first-rubric-induction.md`
-- `@concepts/cage-1-enterprise-agent-governance-eval.md`
 - `@concepts/phase1-adopt-wire.md`
 - `@briefs/2026-09-21_ccc-k373-k375-sip-ready.md`
 

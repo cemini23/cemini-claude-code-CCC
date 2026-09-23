@@ -1,3 +1,9 @@
+## [2026-09-23] ingest | K376–K384 harness wave (Sep 22–23 daily sweep)
+
+- **9 NEW inbox PDFs**: MCP-GRANITE (2609.24161), Ascent (2609.24620), RRSI (2609.24972), Harness-Zero (2609.24974), onPanda (2609.24983), Growing Harness (2609.26760), A2M (2609.26761), CliffCompaction (2609.26779), Agensh (2609.26781).
+- **Pages:** 9 sources, 7 concepts; SIP `wiki/briefs/2026-09-23_ccc-k376-k384-sip-ready.md`.
+- **Phase-0/1:** adopt_k376…k384; `ccc-k376-k384-phase1-wires.mdc`; policy §K376–K384. Zero clones (harness-zero SIZE-SKIP; A2M null license). Agensh GitHub WATCH (404 at Phase-0).
+
 ## [2026-09-21] wire | K373 enterprise-scale-gate leftover shipped
 
 - **Skill:** `enterprise-scale-gate` (federation, operator-invoked, `disable-model-invocation: true`).

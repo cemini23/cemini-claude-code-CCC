@@ -32,6 +32,7 @@ watch_repo "HarnessDev" "HarnessDev self-developing-agents"
 watch_repo "InstructionArbitrationBench" "InstructionArbitrationBench instruction arbitration"
 watch_repo "DelegationWithoutTrust" "delegation without trust votal LLM Shield"
 watch_repo "HarnessDesignCodingAgents" "empirical study harness design coding agents arxiv 2609.20804"
+watch_repo "Agensh" "Agensh scaling organizational intelligence microsoft arxiv 2609.26781"
 watch_repo "RecreationWorld" "RecreationWorld hybrid computer-use agents arxiv 2609.22000"
 
 echo ""

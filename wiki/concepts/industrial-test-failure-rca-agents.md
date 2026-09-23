@@ -5,22 +5,20 @@ tags: [concept, k374]
 keywords: [2609.21843, k374]
 related:
   - sources/arxiv-industrial-test-failure-rca-llm-agents-2609.21843.md
-  - concepts/evidence-grounded-structured-rca.md
-  - sources/arxiv-argus-mcp-k8s-rca-2608.23084.md
   - concepts/phase1-adopt-wire.md
   - briefs/2026-09-21_ccc-k373-k375-sip-ready.md
+  - concepts/evidence-grounded-structured-rca.md
+  - sources/arxiv-argus-mcp-k8s-rca-2608.23084.md
 maturity: draft
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"
 created: 2026-09-21
-updated: 2026-09-21
+updated: 2026-09-23
 ---
 
 ## Relations
 
 - `@sources/arxiv-industrial-test-failure-rca-llm-agents-2609.21843.md`
-- `@concepts/evidence-grounded-structured-rca.md`
-- `@sources/arxiv-argus-mcp-k8s-rca-2608.23084.md`
 - `@concepts/phase1-adopt-wire.md`
 - `@briefs/2026-09-21_ccc-k373-k375-sip-ready.md`
 

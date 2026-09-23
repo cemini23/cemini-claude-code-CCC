@@ -5,24 +5,21 @@ tags: [concept, k375]
 keywords: [2609.22000, k375]
 related:
   - sources/arxiv-recreationworld-hybrid-cua-environments-2609.22000.md
-  - concepts/hybrid-gui-cli-agent-environment.md
-  - sources/arxiv-cua-universe-hybrid-gui-cli-2609.05374.md
-  - concepts/structured-state-semantic-actions.md
   - concepts/phase1-adopt-wire.md
   - briefs/2026-09-21_ccc-k373-k375-sip-ready.md
+  - concepts/hybrid-gui-cli-agent-environment.md
+  - concepts/structured-state-semantic-actions.md
+  - sources/arxiv-cua-universe-hybrid-gui-cli-2609.05374.md
 maturity: draft
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"
 created: 2026-09-21
-updated: 2026-09-21
+updated: 2026-09-23
 ---
 
 ## Relations
 
 - `@sources/arxiv-recreationworld-hybrid-cua-environments-2609.22000.md`
-- `@concepts/hybrid-gui-cli-agent-environment.md`
-- `@sources/arxiv-cua-universe-hybrid-gui-cli-2609.05374.md`
-- `@concepts/structured-state-semantic-actions.md`
 - `@concepts/phase1-adopt-wire.md`
 - `@briefs/2026-09-21_ccc-k373-k375-sip-ready.md`
 

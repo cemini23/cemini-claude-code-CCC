@@ -1,0 +1,38 @@
+---
+description: CCC Phase-1 wires from K376–K384 harness wave (CCC-only — do NOT federation-sync)
+alwaysApply: true
+---
+
+# CCC — K376–K384 Phase-1 wires
+
+**Brief:** `docs/briefs/2026-09-23_k376-k384-harness-wave.md` · SIP: `wiki/briefs/2026-09-23_ccc-k376-k384-sip-ready.md`
+
+**IDs:** Resolve by arXiv id / slug / file path — K# is a log batch label only.
+
+- **K376** MCP-GRANITE — **ADOPT eval-first**: tool interface granularity as controlled eval variable; ~4-tool sweet spot on benchmark sweep. Pairs K272/K351. No clone. Runtime **`wont_wire`**.
+- **K377** Ascent — **OOD** clinical MCP stub; CCC steal MCP tool surface only (typed tools, audit, oversight). Bayer clinical domain. No clone. **`wont_wire`**.
+- **K378** RRSI — **ADOPT pattern**: proposer budget + critic + pruner for regularized recursive harness improvement. `google-research/rrsi` Apache-2.0 optional REFERENCE — not required Phase-0. Pairs K281/K313/K292. Trainer **`wont_wire`**. Never auto-evolve `.cursor/skills`.
+- **K379** Harness-Zero — **ADOPT awareness**: harness distillation via agent-as-harness. `metaevo-ai/harness-zero` **SIZE-SKIP** (jev rule) — **NO clone**. Policy in source + rule only. Runtime **`wont_wire`**.
+- **K380** onPanda — **ADOPT eval axis**: token-level on-policy alignment annotation for SFT/pref data. Runtime **`wont_wire`**.
+- **K381** Growing Harness — **ADOPT pattern**: failure-guided harness code growth vs context expansion. Pairs K334/K281. HITL on harness self-write. No clone. Runtime **`wont_wire`**.
+- **K382** A2M — **Cybersec-primary + ADOPT policy**: semantic MCP hijacking via metadata + traces; `Lilaizhen/A2M` null license → NO clone. **No PoCs.** Pairs K274/K368/K350. **`policy_wired`**.
+- **K383** CliffCompaction — **ADOPT pattern**: truncate/drop-only compaction — never rephrase/summarize history. MIT `nguyenvuthientrang/cliffcompaction` REFERENCE note only — no clone required. Pairs K265/K124. Runtime **`wont_wire`**.
+- **K384** Agensh — **ADOPT pattern**: orchestrator-free decentralized scaling to 1024 agents. `microsoft/Agensh` **WATCH** (404 at Phase-0). Runtime **`wont_wire`** — do not replace `/route`.
+
+**Wires landed:**
+
+| K | Verdict | Wire | wire_status |
+|---|---|---|-------------|
+| K376 | ADOPT eval-first | MCP tool interface granularity eval axis | `policy_wired` |
+| K377 | OOD stub | Clinical MCP tool-surface awareness only | `wont_wire` |
+| K378 | ADOPT pattern | Regularized recursive harness improvement (budget/critic/pruner) | `policy_wired` |
+| K379 | ADOPT awareness | Harness-Zero distillation awareness; SIZE-SKIP no clone | `policy_wired` |
+| K380 | ADOPT eval axis | On-policy token alignment annotation | `policy_wired` |
+| K381 | ADOPT pattern | Grow harness not context | `policy_wired` |
+| K382 | Cybersec + policy | MCP metadata supply-chain / semantic hijacking awareness | `policy_wired` |
+| K383 | ADOPT pattern | Truncate-only long-horizon compaction | `policy_wired` |
+| K384 | ADOPT pattern | Decentralized multi-agent harness scaling | `policy_wired` |
+
+**Non-goals:** no federation sync; no PoCs; no harness-zero clone; no A2M clone; no skill auto-evolution; no `/route` swap.
+
+**Propose-only:** Agensh SPDX watch in `spdx_watch_harness_wave.sh`; optional RRSI REFERENCE clone on operator GO.

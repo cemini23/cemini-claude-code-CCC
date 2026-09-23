@@ -634,6 +634,13 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`enterprise-use-case-genai-evaluation`](concepts/enterprise-use-case-genai-evaluation.md) | draft | EnterpriseVal use-case eval + scale gates — 2609.21841 (K373) |
 | [`industrial-test-failure-rca-agents`](concepts/industrial-test-failure-rca-agents.md) | draft | Industrial test-failure RCA LLM agents — 2609.21843 (K374) |
 | [`hybrid-cua-recreation-environments`](concepts/hybrid-cua-recreation-environments.md) | draft | RecreationWorld hybrid CUA recreation — 2609.22000 (K375) |
+| [`decentralized-multi-agent-harness-scaling`](concepts/decentralized-multi-agent-harness-scaling.md) | draft | Agensh orchestrator-free scaling — 2609.26781 (K384) |
+| [`grow-harness-not-context`](concepts/grow-harness-not-context.md) | draft | Failure-guided harness growth — 2609.26760 (K381) |
+| [`mcp-tool-interface-granularity-eval`](concepts/mcp-tool-interface-granularity-eval.md) | draft | MCP-GRANITE interface granularity — 2609.24161 (K376) |
+| [`mcp-tool-metadata-supply-chain-risk`](concepts/mcp-tool-metadata-supply-chain-risk.md) | draft | A2M MCP metadata hijacking — 2609.26761 (K382) |
+| [`on-policy-token-alignment-annotation`](concepts/on-policy-token-alignment-annotation.md) | draft | onPanda token alignment — 2609.24983 (K380) |
+| [`regularized-recursive-harness-improvement`](concepts/regularized-recursive-harness-improvement.md) | draft | RRSI budget/critic/pruner — 2609.24972 (K378) |
+| [`truncate-only-long-horizon-compaction`](concepts/truncate-only-long-horizon-compaction.md) | draft | CliffCompaction truncate-only — 2609.26779 (K383) |
 
 ## sources/
 
@@ -1023,6 +1030,15 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-enterpriseval-enterprise-genai-evaluation-2609.21841`](sources/arxiv-enterpriseval-enterprise-genai-evaluation-2609.21841.md) | draft | EnterpriseVal enterprise GenAI eval — 2609.21841 (K373) |
 | [`arxiv-industrial-test-failure-rca-llm-agents-2609.21843`](sources/arxiv-industrial-test-failure-rca-llm-agents-2609.21843.md) | draft | Industrial test-failure RCA — 2609.21843 (K374) |
 | [`arxiv-recreationworld-hybrid-cua-environments-2609.22000`](sources/arxiv-recreationworld-hybrid-cua-environments-2609.22000.md) | draft | RecreationWorld hybrid CUA — 2609.22000 (K375) |
+| [`arxiv-mcp-granite-tool-interface-granularity-2609.24161`](sources/arxiv-mcp-granite-tool-interface-granularity-2609.24161.md) | draft | MCP-GRANITE granularity — 2609.24161 (K376) |
+| [`arxiv-ascent-clinical-mcp-agents-2609.24620`](sources/arxiv-ascent-clinical-mcp-agents-2609.24620.md) | draft | Ascent clinical MCP — 2609.24620 (K377) |
+| [`arxiv-rrsi-regularized-recursive-self-improvement-2609.24972`](sources/arxiv-rrsi-regularized-recursive-self-improvement-2609.24972.md) | draft | RRSI harness RSI — 2609.24972 (K378) |
+| [`arxiv-harness-zero-harness-distillation-2609.24974`](sources/arxiv-harness-zero-harness-distillation-2609.24974.md) | draft | Harness-Zero distillation — 2609.24974 (K379) |
+| [`arxiv-onpanda-on-policy-token-alignment-2609.24983`](sources/arxiv-onpanda-on-policy-token-alignment-2609.24983.md) | draft | onPanda token alignment — 2609.24983 (K380) |
+| [`arxiv-growing-harness-not-context-2609.26760`](sources/arxiv-growing-harness-not-context-2609.26760.md) | draft | Grow harness not context — 2609.26760 (K381) |
+| [`arxiv-a2m-mcp-metadata-hijacking-2609.26761`](sources/arxiv-a2m-mcp-metadata-hijacking-2609.26761.md) | draft | A2M MCP hijacking — 2609.26761 (K382) |
+| [`arxiv-cliffcompaction-long-horizon-compaction-2609.26779`](sources/arxiv-cliffcompaction-long-horizon-compaction-2609.26779.md) | draft | CliffCompaction — 2609.26779 (K383) |
+| [`arxiv-agensh-decentralized-multi-agent-scaling-2609.26781`](sources/arxiv-agensh-decentralized-multi-agent-scaling-2609.26781.md) | draft | Agensh 1024-agent scaling — 2609.26781 (K384) |
 
 ## meta/
 
@@ -1063,6 +1079,8 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`2026-09-19-daily`](sweeps/2026-09-19-daily.md) | Daily digest — 0 new PDFs; 4 inbox dupes (K369–K372 already ingested) |
 | [`2026-09-20-daily`](sweeps/2026-09-20-daily.md) | Daily digest — 0 new PDFs; 6 dupes skipped |
 | [`2026-09-21-daily`](sweeps/2026-09-21-daily.md) | Daily digest — 3 papers (K373–K375 wave) |
+| [`2026-09-22-daily`](sweeps/2026-09-22-daily.md) | Daily digest — papers into K376–K384 wave inbox |
+| [`2026-09-23-daily`](sweeps/2026-09-23-daily.md) | Daily digest — 9 papers (K376–K384 wave) |
 
 ## entities/people/
 

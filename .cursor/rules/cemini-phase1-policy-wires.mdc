@@ -959,3 +959,45 @@ EnterpriseVal use-case eval (K373) + industrial test-failure RCA pattern (K374) 
 - **Hybrid GUI+CLI** agents must explore interfaces, implement, and visually verify — evaluate on **recreation** tasks (reference app → faithful rebuild).
 - Reference-grounded **programmatic + visual** assertions; freeze hidden suite after reference validation. RECREATIONBENCH-scale eval, not GUI-only trajectories (pairs K348/K321).
 - GitHub/HF cited — **WATCH** SPDX before clone. GUI runtime **`wont_wire`** — cursor-ide-browser only.
+
+
+## CCC wave K376–K384 (shared policy file)
+
+MCP-GRANITE granularity eval (K376) + clinical Ascent stub (K377) + RRSI regularized harness RSI (K378) + Harness-Zero awareness (K379) + onPanda token alignment (K380) + grow-harness-not-context (K381) + A2M MCP metadata risk (K382) + CliffCompaction truncate-only (K383) + Agensh decentralized scaling (K384). **Zero clones** (harness-zero SIZE-SKIP; A2M null license). CCC-only rule `ccc-k376-k384-phase1-wires.mdc` — do **not** federation-sync.
+
+## MCP tool interface granularity eval (CCC K376)
+
+- Treat MCP **tool count and schema granularity** as a controlled harness variable when benchmarking agents — not a fixed default.
+- MCP-GRANITE reports a **~4-tool sweet spot** on their suite; extremes hurt selection and context. Pairs K272 / K351. Runtime **`wont_wire`**.
+
+## Clinical MCP tool surface (CCC K377)
+
+- Clinical MCP stacks (Ascent) are **OOD** for CCC runtime — steal **typed tool surface + audit + oversight** patterns only. **`wont_wire`**.
+
+## Regularized recursive harness improvement (CCC K378)
+
+- Harness RSI with **proposer budget**, **critic**, and **pruner** — no unbounded self-rewrite of pass criteria (pairs K281/K313/K292). Optional `google-research/rrsi` REFERENCE. Trainer **`wont_wire`**. Never auto-evolve `.cursor/skills`.
+
+## Harness-Zero distillation awareness (CCC K379)
+
+- **Agent-as-harness distillation** is awareness-only; `metaevo-ai/harness-zero` is **SIZE-SKIP** — **no clone**. Runtime **`wont_wire`**.
+
+## On-policy token alignment annotation (CCC K380)
+
+- Prefer **token-level** correction labels on on-policy rollouts for tool/agent trajectories. Eval/training axis only. Runtime **`wont_wire`**.
+
+## Grow harness not context (CCC K381)
+
+- On strategy failure, add **executable harness capability** before expanding context (pairs K334/K281). HITL on harness self-write. Runtime **`wont_wire`**.
+
+## MCP tool metadata supply-chain risk (CCC K382)
+
+- **Semantic hijacking** via tool descriptions and trace-visible metadata — external catalog vetting + preflight (pairs K274/K368/K350). **No PoCs.** Runtime **`wont_wire`**.
+
+## Truncate-only long-horizon compaction (CCC K383)
+
+- Long-horizon compaction: **truncate/drop only** — do not LLM-rephrase history into synthetic summaries (pairs K265/K124). Runtime **`wont_wire`**.
+
+## Decentralized multi-agent harness scaling (CCC K384)
+
+- **Orchestrator-free** org-scale multi-agent patterns — awareness only; `microsoft/Agensh` WATCH until public repo. Do not replace `/route`. Runtime **`wont_wire`**.
