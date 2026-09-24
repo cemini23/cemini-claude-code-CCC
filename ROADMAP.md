@@ -38,6 +38,7 @@ Active workstreams, open decisions, and the done log for the Cemini Claude Code 
 
 ## Done
 
+- **2026-09-24** — K385–K389 harness wave: 5 arXiv ingests + Phase-0/1, archive, lint, CI. KV working-set + surrogate consumer eval + agent-editing world model. Zero clones.
 - **2026-09-23** — K376–K384 harness wave: 9 arXiv ingests + Phase-0/1, archive, lint, CI. MCP granularity + RRSI + A2M metadata policy + truncate-only compaction. Zero clones.
 - **2026-09-21** — K373–K375 harness wave: 3 arXiv ingests + Phase-0/1, archive, lint, CI green. EnterpriseVal + RCA pattern + RecreationWorld hybrid CUA. Zero clones.
 - **2026-09-19** — Full ingest check: Sep 19 daily digest (0 new PDFs); preingest 4 DUPLICATE (K369–K372); phase0 re-pass; lint green. Archive to egress-fi **blocked** (SSH timeout) — 4 PDFs remain in inbox.

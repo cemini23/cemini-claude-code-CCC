@@ -1001,3 +1001,28 @@ MCP-GRANITE granularity eval (K376) + clinical Ascent stub (K377) + RRSI regular
 ## Decentralized multi-agent harness scaling (CCC K384)
 
 - **Orchestrator-free** org-scale multi-agent patterns — awareness only; `microsoft/Agensh` WATCH until public repo. Do not replace `/route`. Runtime **`wont_wire`**.
+
+## CCC wave K385–K389 (shared policy file)
+
+Robot MCP navigation stub (K385) + regulated insurer multi-agent governance (K386) + KV cache working-set serving (K387) + surrogate consumer eval validity (K388) + agent-editing world model (K389). **Zero clones.** CCC-only rule `ccc-k385-k389-phase1-wires.mdc` — do **not** federation-sync.
+
+## Embodied MCP tool packaging (CCC K385)
+
+- Robot navigation via MCP is **OOD** for CCC runtime — steal **MCP tool packaging for embodied agents** only. **`wont_wire`**.
+
+## Regulated enterprise multi-agent governance (CCC K386)
+
+- **Governed multi-agent** under regulatory audit/oversight vocabulary (Solvency II–style). Finance domain **OOD** for CCC runtime (pairs K373/K325). Runtime **`wont_wire`**.
+
+## KV cache working-set serving (CCC K387)
+
+- Treat KV cache as a **dynamic working set** for online capacity planning — serving/routing awareness (pairs K228/K320/K364). Runtime **`wont_wire`**.
+
+## Agent heuristic surrogate consumer eval (CCC K388)
+
+- Agentic shopping **operationalizes human heuristics** as surrogate consumer — require **construct validity** when eval scores agents as consumer proxies (pairs K277/K371). **No PoCs.** Runtime **`wont_wire`**.
+
+## Agent-editing world model (CCC K389)
+
+- Agents **maintain/edit explicit world models** for planning (pairs K283/K296/K334). No clone unless SPDX at Phase-0. Runtime **`wont_wire`**.
+

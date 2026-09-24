@@ -1,3 +1,9 @@
+## [2026-09-24] ingest | K385–K389 harness wave (Sep 24 daily sweep)
+
+- **5 NEW inbox PDFs**: robot MCP navigation (2609.27340), regulated insurers multi-agent (2609.27636), KV cache working set (2609.27746), shopping surrogate consumer (2609.28372), agent-editing world model (2609.28416).
+- **Pages:** 5 sources, 4 concepts; SIP `wiki/briefs/2026-09-24_ccc-k385-k389-sip-ready.md`.
+- **Phase-0/1:** adopt_k385…k389; `ccc-k385-k389-phase1-wires.mdc`; policy §K385–K389. Zero clones.
+
 ## [2026-09-23] ingest | K376–K384 harness wave (Sep 22–23 daily sweep)
 
 - **9 NEW inbox PDFs**: MCP-GRANITE (2609.24161), Ascent (2609.24620), RRSI (2609.24972), Harness-Zero (2609.24974), onPanda (2609.24983), Growing Harness (2609.26760), A2M (2609.26761), CliffCompaction (2609.26779), Agensh (2609.26781).

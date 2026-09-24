@@ -1,0 +1,32 @@
+---
+description: CCC Phase-1 wires from K385–K389 harness wave (CCC-only — do NOT federation-sync)
+alwaysApply: true
+---
+
+# CCC — K385–K389 Phase-1 wires
+
+**Brief:** `docs/briefs/2026-09-24_k385-k389-harness-wave.md` · SIP: `wiki/briefs/2026-09-24_ccc-k385-k389-sip-ready.md`
+
+**IDs:** Resolve by arXiv id / slug / file path — K# is a log batch label only.
+
+- **K385** LLM robot navigation via MCP — **OOD** robotics stub; CCC steal **MCP tool packaging for embodied agents** only. No clone. **`wont_wire`**.
+- **K386** Regulated insurers multi-agent — **ADOPT policy awareness**: governed multi-agent under Solvency II–style audit/oversight; finance domain OOD for CCC runtime. Concept `regulated-enterprise-multi-agent-governance`. Runtime **`wont_wire`**.
+- **K387** KV cache working set — **ADOPT awareness**: working-set view of KV cache for serving/routing capacity planning (pairs K228/K320/K364). Concept `kv-cache-working-set-serving`. Runtime **`wont_wire`**.
+- **K388** Shopping by algorithm — **ADOPT eval + policy**: agents operationalize human shopping heuristics as surrogate consumer; construct validity when eval treats agent as consumer proxy (pairs K277/K371). **No PoCs.** Concept **`policy_wired`**. Runtime **`wont_wire`**.
+- **K389** Agent-Editing World Model — **ADOPT pattern**: agents maintain/edit explicit world models for planning (pairs K283/K296/K334). No clone unless SPDX at Phase-0. Runtime **`wont_wire`**.
+
+**Wires landed:**
+
+| K | Verdict | Wire | wire_status |
+|---|---|---|-------------|
+| K385 | OOD stub | Embodied MCP tool packaging awareness only | `wont_wire` |
+| K386 | ADOPT policy awareness | Regulated enterprise multi-agent governance | `policy_wired` |
+| K387 | ADOPT awareness | KV cache working-set serving/routing | `policy_wired` |
+| K388 | ADOPT eval + policy | Agent heuristic surrogate consumer eval validity | `policy_wired` |
+| K389 | ADOPT pattern | Agent-editing explicit world model | `policy_wired` |
+
+**Non-goals:** no federation sync; no PoCs; no robot/finance product runtime; no skill auto-evolution; no `/route` swap.
+
+**Leftovers shipped 2026-09-24:** K385–K389 inbox PDFs archived to egress-fi.
+
+**Propose-only:** Agent-Editing World Model SPDX watch in `spdx_watch_harness_wave.sh` when public repo appears.

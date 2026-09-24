@@ -641,6 +641,10 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`on-policy-token-alignment-annotation`](concepts/on-policy-token-alignment-annotation.md) | draft | onPanda token alignment — 2609.24983 (K380) |
 | [`regularized-recursive-harness-improvement`](concepts/regularized-recursive-harness-improvement.md) | draft | RRSI budget/critic/pruner — 2609.24972 (K378) |
 | [`truncate-only-long-horizon-compaction`](concepts/truncate-only-long-horizon-compaction.md) | draft | CliffCompaction truncate-only — 2609.26779 (K383) |
+| [`agent-editing-world-model`](concepts/agent-editing-world-model.md) | draft | Agent-editing explicit world model — 2609.28416 (K389) |
+| [`agent-heuristic-surrogate-consumer-eval`](concepts/agent-heuristic-surrogate-consumer-eval.md) | draft | Surrogate consumer construct validity — 2609.28372 (K388) |
+| [`kv-cache-working-set-serving`](concepts/kv-cache-working-set-serving.md) | draft | KV cache working-set serving — 2609.27746 (K387) |
+| [`regulated-enterprise-multi-agent-governance`](concepts/regulated-enterprise-multi-agent-governance.md) | draft | Regulated insurer multi-agent — 2609.27636 (K386) |
 
 ## sources/
 
@@ -1039,6 +1043,11 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-a2m-mcp-metadata-hijacking-2609.26761`](sources/arxiv-a2m-mcp-metadata-hijacking-2609.26761.md) | draft | A2M MCP hijacking — 2609.26761 (K382) |
 | [`arxiv-cliffcompaction-long-horizon-compaction-2609.26779`](sources/arxiv-cliffcompaction-long-horizon-compaction-2609.26779.md) | draft | CliffCompaction — 2609.26779 (K383) |
 | [`arxiv-agensh-decentralized-multi-agent-scaling-2609.26781`](sources/arxiv-agensh-decentralized-multi-agent-scaling-2609.26781.md) | draft | Agensh 1024-agent scaling — 2609.26781 (K384) |
+| [`arxiv-spatial-semantic-robot-navigation-mcp-2609.27340`](sources/arxiv-spatial-semantic-robot-navigation-mcp-2609.27340.md) | draft | Robot navigation via MCP — 2609.27340 (K385) |
+| [`arxiv-regulated-insurers-multi-agent-solvency-2609.27636`](sources/arxiv-regulated-insurers-multi-agent-solvency-2609.27636.md) | draft | Regulated insurers multi-agent — 2609.27636 (K386) |
+| [`arxiv-kv-cache-working-set-capacity-2609.27746`](sources/arxiv-kv-cache-working-set-capacity-2609.27746.md) | draft | KV cache working set — 2609.27746 (K387) |
+| [`arxiv-shopping-algorithm-agent-heuristic-surrogate-2609.28372`](sources/arxiv-shopping-algorithm-agent-heuristic-surrogate-2609.28372.md) | draft | Shopping algorithm surrogate consumer — 2609.28372 (K388) |
+| [`arxiv-agent-editing-world-model-2609.28416`](sources/arxiv-agent-editing-world-model-2609.28416.md) | draft | Agent-editing world model — 2609.28416 (K389) |
 
 ## meta/
 
@@ -1081,6 +1090,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`2026-09-21-daily`](sweeps/2026-09-21-daily.md) | Daily digest — 3 papers (K373–K375 wave) |
 | [`2026-09-22-daily`](sweeps/2026-09-22-daily.md) | Daily digest — papers into K376–K384 wave inbox |
 | [`2026-09-23-daily`](sweeps/2026-09-23-daily.md) | Daily digest — 9 papers (K376–K384 wave) |
+| [`2026-09-24-daily`](sweeps/2026-09-24-daily.md) | Daily digest — 5 papers (K385–K389 wave) |
 
 ## entities/people/
 
