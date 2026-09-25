@@ -332,6 +332,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`queen-bee-beespec-enterprise-orchestration`](concepts/queen-bee-beespec-enterprise-orchestration.md) | draft | BeeSpec IR for governed enterprise MCP — 2606.06545 |
 | [`bayesian-posterior-guided-skill-evolution`](concepts/bayesian-posterior-guided-skill-evolution.md) | draft | Posterior-guided skill/SOP evolution — 2606.08348 |
 | [`progressive-autonomy-incident-resolution`](concepts/progressive-autonomy-incident-resolution.md) | draft | Agentic AIOps progressive autonomy — 2606.09122 |
+| [`progressive-skill-discovery-access-control`](concepts/progressive-skill-discovery-access-control.md) | draft | Progressive skill disclosure as access control — 2609.28693 (K390) |
 | [`mcp-adaptive-systems-context-survey`](concepts/mcp-adaptive-systems-context-survey.md) | draft | MCP adaptive-systems survey lens — 2508.19239 |
 | [`self-harness-model-specific-improvement-loop`](concepts/self-harness-model-specific-improvement-loop.md) | draft | Self-Harness weakness→proposal→validation loop — 2606.09498 |
 | [`enterprise-mcp-adoption-practice`](concepts/enterprise-mcp-adoption-practice.md) | draft | Enterprise MCP interviews n=20 — 2606.09182 |
@@ -620,6 +621,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`artificial-id-persistent-agent-drive`](concepts/artificial-id-persistent-agent-drive.md) | draft | Artificial Id persistent drive — 2609.11911 (K357) |
 | [`execution-level-replayable-gui-memory`](concepts/execution-level-replayable-gui-memory.md) | draft | EchoPath GUI replay memory — 2609.16635 (K358) |
 | [`long-horizon-multi-agent-adversarial-eval`](concepts/long-horizon-multi-agent-adversarial-eval.md) | draft | Emergence World MAS stress test — 2609.17320 (K360) |
+| [`low-cost-cross-vendor-behavior-assays`](concepts/low-cost-cross-vendor-behavior-assays.md) | draft | Cross-vendor/release behavior probes — 2609.30012 (K392) |
 | [`recursive-in-recursive-harness-improvement`](concepts/recursive-in-recursive-harness-improvement.md) | draft | ScienceBuddy recursive improvement — 2609.17523 (K361) |
 | [`social-harness-multi-agent-trust`](concepts/social-harness-multi-agent-trust.md) | draft | Social harness for agentic societies — 2609.17527 (K362) |
 | [`harness-attribution-multimodal-eval`](concepts/harness-attribution-multimodal-eval.md) | draft | ReFigBench harness attribution — 2609.18844 (K363) |
@@ -628,6 +630,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`mcp-traffic-network-detection-blind-spot`](concepts/mcp-traffic-network-detection-blind-spot.md) | draft | MCP NIDS beacon blind spot — 2609.19091 (K366) |
 | [`remote-mcp-ecosystem-observability`](concepts/remote-mcp-ecosystem-observability.md) | draft | Remote MCP observability — 2609.19100 (K367) |
 | [`implicit-trust-mcp-input-channels`](concepts/implicit-trust-mcp-input-channels.md) | draft | Implicit trust MCP channels — 2609.18217 (K368) |
+| [`instrumental-monitor-evasion-under-task-pressure`](concepts/instrumental-monitor-evasion-under-task-pressure.md) | draft | Monitor evasion under task pressure — 2609.30217 (K393) |
 | [`closed-world-tool-hallucination-resolution`](concepts/closed-world-tool-hallucination-resolution.md) | draft | Closed-world tool hallucination — 2609.19425 (K369) |
 | [`coding-agent-harness-component-design`](concepts/coding-agent-harness-component-design.md) | draft | Coding harness component design — 2609.20804 (K370) |
 | [`overclaiming-propensity-agent-measurement`](concepts/overclaiming-propensity-agent-measurement.md) | draft | Overclaiming propensity OCP — 2609.20812 (K371) |
@@ -643,6 +646,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`truncate-only-long-horizon-compaction`](concepts/truncate-only-long-horizon-compaction.md) | draft | CliffCompaction truncate-only — 2609.26779 (K383) |
 | [`agent-editing-world-model`](concepts/agent-editing-world-model.md) | draft | Agent-editing explicit world model — 2609.28416 (K389) |
 | [`agent-heuristic-surrogate-consumer-eval`](concepts/agent-heuristic-surrogate-consumer-eval.md) | draft | Surrogate consumer construct validity — 2609.28372 (K388) |
+| [`agent-trace-tampering-audit-gap`](concepts/agent-trace-tampering-audit-gap.md) | draft | Agent-writable traces vs external audit — 2609.30266 (K394) |
 | [`kv-cache-working-set-serving`](concepts/kv-cache-working-set-serving.md) | draft | KV cache working-set serving — 2609.27746 (K387) |
 | [`regulated-enterprise-multi-agent-governance`](concepts/regulated-enterprise-multi-agent-governance.md) | draft | Regulated insurer multi-agent — 2609.27636 (K386) |
 
@@ -1048,6 +1052,11 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-kv-cache-working-set-capacity-2609.27746`](sources/arxiv-kv-cache-working-set-capacity-2609.27746.md) | draft | KV cache working set — 2609.27746 (K387) |
 | [`arxiv-shopping-algorithm-agent-heuristic-surrogate-2609.28372`](sources/arxiv-shopping-algorithm-agent-heuristic-surrogate-2609.28372.md) | draft | Shopping algorithm surrogate consumer — 2609.28372 (K388) |
 | [`arxiv-agent-editing-world-model-2609.28416`](sources/arxiv-agent-editing-world-model-2609.28416.md) | draft | Agent-editing world model — 2609.28416 (K389) |
+| [`arxiv-progressive-skill-discovery-access-control-2609.28693`](sources/arxiv-progressive-skill-discovery-access-control-2609.28693.md) | draft | Progressive skill access control — 2609.28693 (K390) |
+| [`arxiv-xrr-curves-x-ray-calc-agent-2609.28926`](sources/arxiv-xrr-curves-x-ray-calc-agent-2609.28926.md) | draft | XRR X-Ray Calc agent — 2609.28926 (K391) |
+| [`arxiv-low-cost-cross-vendor-behavior-assays-2609.30012`](sources/arxiv-low-cost-cross-vendor-behavior-assays-2609.30012.md) | draft | Low-cost behavior assays — 2609.30012 (K392) |
+| [`arxiv-instrumental-monitor-evasion-task-pressure-2609.30217`](sources/arxiv-instrumental-monitor-evasion-task-pressure-2609.30217.md) | draft | Instrumental monitor evasion — 2609.30217 (K393) |
+| [`arxiv-agent-trace-tampering-2609.30266`](sources/arxiv-agent-trace-tampering-2609.30266.md) | draft | Agent trace tampering — 2609.30266 (K394) |
 
 ## meta/
 
@@ -1091,6 +1100,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`2026-09-22-daily`](sweeps/2026-09-22-daily.md) | Daily digest — papers into K376–K384 wave inbox |
 | [`2026-09-23-daily`](sweeps/2026-09-23-daily.md) | Daily digest — 9 papers (K376–K384 wave) |
 | [`2026-09-24-daily`](sweeps/2026-09-24-daily.md) | Daily digest — 5 papers (K385–K389 wave) |
+| [`2026-09-25-daily`](sweeps/2026-09-25-daily.md) | Daily digest — 5 papers (K390–K394 wave) |
 
 ## entities/people/
 

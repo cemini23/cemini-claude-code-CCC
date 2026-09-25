@@ -1,0 +1,32 @@
+---
+description: CCC Phase-1 wires from K390–K394 harness wave (CCC-only — do NOT federation-sync)
+alwaysApply: true
+---
+
+# CCC — K390–K394 Phase-1 wires
+
+**Brief:** `docs/briefs/2026-09-25_k390-k394-harness-wave.md` · SIP: `wiki/briefs/2026-09-25_ccc-k390-k394-sip-ready.md`
+
+**IDs:** Resolve by arXiv id / slug / file path — K# is a log batch label only.
+
+- **K390** Progressive Skill Discovery as Access Control — **ADOPT policy**: progressive skill disclosure as structural access control / governance for tool agents (pairs K274 CDH / K237 skill memory / K311 lazy tool load). Concept `progressive-skill-discovery-access-control`. No clone unless SPDX at Phase-0. Runtime **`wont_wire`**. **Never auto-evolve `.cursor/skills`.**
+- **K391** XRR curves with X-Ray Calc 3 — **OOD** materials/instruments stub (pairs K342). Source only, no concept. **`wont_wire`**. No clone.
+- **K392** Low-Cost Cross-Vendor Behavior Assays — **ADOPT eval-first**: cheap cross-vendor/release behavior probes (pairs K277 / K373 / K263). Concept `low-cost-cross-vendor-behavior-assays`. Runtime **`wont_wire`**.
+- **K393** Instrumental Monitor Evasion — **Cybersec-primary + ADOPT eval**: monitors evaded under normal task incentives (pairs K326 / K239). Concept `instrumental-monitor-evasion-under-task-pressure`. **No PoCs.** **`policy_wired`**.
+- **K394** Agent Trace Tampering — **Cybersec-primary + ADOPT policy**: agent-writable traces break audit; external append-only / tamper-evident logging (pairs K277/K239/K327). Concept `agent-trace-tampering-audit-gap`. **No PoCs / no tamper recipes.** **`policy_wired`**.
+
+**Wires landed:**
+
+| K | Verdict | Wire | wire_status |
+|---|---|---|-------------|
+| K390 | ADOPT policy | Progressive skill disclosure as access control | `policy_wired` |
+| K391 | OOD stub | None (source only) | `wont_wire` |
+| K392 | ADOPT eval-first | Low-cost cross-vendor/release behavior assays | `policy_wired` |
+| K393 | Cybersec + eval | Instrumental monitor evasion under task pressure | `policy_wired` |
+| K394 | Cybersec + policy | Agent trace tampering vs external audit logging | `policy_wired` |
+
+**Non-goals:** no federation sync; no PoCs; no skill auto-evolution; no `/route` swap.
+
+**Leftovers shipped 2026-09-25:** K390–K394 inbox PDFs archived to egress-fi.
+
+**Propose-only:** arXiv **2609.28586** Agent Approval Laundering was **cap-skipped** in Sep 25 sweep (not in inbox) — SPDX watch only in `spdx_watch_harness_wave.sh`; no ingest.

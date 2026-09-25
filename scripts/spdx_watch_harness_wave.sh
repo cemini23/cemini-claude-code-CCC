@@ -35,5 +35,7 @@ watch_repo "HarnessDesignCodingAgents" "empirical study harness design coding ag
 watch_repo "Agensh" "Agensh scaling organizational intelligence microsoft arxiv 2609.26781"
 watch_repo "RecreationWorld" "RecreationWorld hybrid computer-use agents arxiv 2609.22000"
 
+watch_repo "AgentApprovalLaundering" "Agent Approval Laundering arxiv 2609.28586"
+
 echo ""
 echo "Done. No clones performed — report only."

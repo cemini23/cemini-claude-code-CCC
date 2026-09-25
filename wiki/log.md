@@ -1,3 +1,9 @@
+## [2026-09-25] ingest | K390–K394 harness wave (Sep 25 daily sweep)
+
+- **5 NEW inbox PDFs**: progressive skill access control (2609.28693), XRR X-Ray Calc agent (2609.28926), low-cost behavior assays (2609.30012), instrumental monitor evasion (2609.30217), agent trace tampering (2609.30266).
+- **Pages:** 5 sources, 4 concepts; SIP `wiki/briefs/2026-09-25_ccc-k390-k394-sip-ready.md`.
+- **Phase-0/1:** adopt_k390…k394; `ccc-k390-k394-phase1-wires.mdc`; policy §K390–K394. Zero clones. Cap-skipped 2609.28586 Agent Approval Laundering — SPDX watch only.
+
 ## [2026-09-24] ingest | K385–K389 harness wave (Sep 24 daily sweep)
 
 - **5 NEW inbox PDFs**: robot MCP navigation (2609.27340), regulated insurers multi-agent (2609.27636), KV cache working set (2609.27746), shopping surrogate consumer (2609.28372), agent-editing world model (2609.28416).
