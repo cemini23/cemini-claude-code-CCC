@@ -1,4 +1,8 @@
 
+## [2026-09-25] cross-route | LLM graders CS exams (from image-gen arXiv:2609.29333)
+
+- NEW `@sources/arxiv-2609-29333-llm-graders-cs-exams-routed.md`
+
 ## [2026-09-25] follow-up | K395 + K390/K392 leftovers
 
 - Ingest **2609.28586** Agent Approval Laundering as **K395** (cap-skipped paper); archive to egress-fi.
