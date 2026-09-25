@@ -332,6 +332,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`queen-bee-beespec-enterprise-orchestration`](concepts/queen-bee-beespec-enterprise-orchestration.md) | draft | BeeSpec IR for governed enterprise MCP — 2606.06545 |
 | [`bayesian-posterior-guided-skill-evolution`](concepts/bayesian-posterior-guided-skill-evolution.md) | draft | Posterior-guided skill/SOP evolution — 2606.08348 |
 | [`progressive-autonomy-incident-resolution`](concepts/progressive-autonomy-incident-resolution.md) | draft | Agentic AIOps progressive autonomy — 2606.09122 |
+| [`agent-approval-laundering-transitive-effects`](concepts/agent-approval-laundering-transitive-effects.md) | draft | Approval laundering transitive effects — 2609.28586 (K395) |
 | [`progressive-skill-discovery-access-control`](concepts/progressive-skill-discovery-access-control.md) | draft | Progressive skill disclosure as access control — 2609.28693 (K390) |
 | [`mcp-adaptive-systems-context-survey`](concepts/mcp-adaptive-systems-context-survey.md) | draft | MCP adaptive-systems survey lens — 2508.19239 |
 | [`self-harness-model-specific-improvement-loop`](concepts/self-harness-model-specific-improvement-loop.md) | draft | Self-Harness weakness→proposal→validation loop — 2606.09498 |
@@ -1052,6 +1053,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-kv-cache-working-set-capacity-2609.27746`](sources/arxiv-kv-cache-working-set-capacity-2609.27746.md) | draft | KV cache working set — 2609.27746 (K387) |
 | [`arxiv-shopping-algorithm-agent-heuristic-surrogate-2609.28372`](sources/arxiv-shopping-algorithm-agent-heuristic-surrogate-2609.28372.md) | draft | Shopping algorithm surrogate consumer — 2609.28372 (K388) |
 | [`arxiv-agent-editing-world-model-2609.28416`](sources/arxiv-agent-editing-world-model-2609.28416.md) | draft | Agent-editing world model — 2609.28416 (K389) |
+| [`arxiv-agent-approval-laundering-2609.28586`](sources/arxiv-agent-approval-laundering-2609.28586.md) | draft | Agent Approval Laundering — 2609.28586 (K395) |
 | [`arxiv-progressive-skill-discovery-access-control-2609.28693`](sources/arxiv-progressive-skill-discovery-access-control-2609.28693.md) | draft | Progressive skill access control — 2609.28693 (K390) |
 | [`arxiv-xrr-curves-x-ray-calc-agent-2609.28926`](sources/arxiv-xrr-curves-x-ray-calc-agent-2609.28926.md) | draft | XRR X-Ray Calc agent — 2609.28926 (K391) |
 | [`arxiv-low-cost-cross-vendor-behavior-assays-2609.30012`](sources/arxiv-low-cost-cross-vendor-behavior-assays-2609.30012.md) | draft | Low-cost behavior assays — 2609.30012 (K392) |

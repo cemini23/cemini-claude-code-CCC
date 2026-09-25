@@ -26,7 +26,7 @@ K390: ADOPT policy — arXiv 2609.28693.
 
 ## Narrative
 
-**Progressive skill disclosure as structural access control** for tool-using agents — governance through staged skill/tool exposure, not flat catalog dumps (pairs K274 CDH / K237 skill memory / K311 lazy tool load). **Never auto-evolve `.cursor/skills`.** No clone unless SPDX at Phase-0. Runtime **`wont_wire`**; concept **`policy_wired`**.
+**Progressive skill disclosure as structural access control** for tool-using agents — governance through staged skill/tool exposure, not flat catalog dumps (pairs K274 CDH / K237 skill memory / K311 lazy tool load). Operator helper: `scripts/progressive_skill_access_precheck.py` + federation skill `progressive-skill-access-precheck`. **Never auto-evolve `.cursor/skills`.** No clone unless SPDX at Phase-0. Runtime **`wont_wire`**; concept **`policy_wired`**.
 
 ## Snippets
 

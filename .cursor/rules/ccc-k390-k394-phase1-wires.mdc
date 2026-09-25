@@ -27,6 +27,6 @@ alwaysApply: true
 
 **Non-goals:** no federation sync; no PoCs; no skill auto-evolution; no `/route` swap.
 
-**Leftovers shipped 2026-09-25:** K390–K394 inbox PDFs archived to egress-fi.
+**Leftovers shipped 2026-09-25:** K390–K394 inbox PDFs archived to egress-fi; federation skills `progressive-skill-access-precheck` / `cross-vendor-behavior-assay` + helpers under `scripts/` and `config/`. **K395** ingested separately — see `ccc-k395-phase1-wires.mdc`.
 
-**Propose-only:** arXiv **2609.28586** Agent Approval Laundering was **cap-skipped** in Sep 25 sweep (not in inbox) — SPDX watch only in `spdx_watch_harness_wave.sh`; no ingest.
+**Propose-only:** K378 RRSI REFERENCE; K389/K384 SPDX; dense+RRF SCOUT (HITL).

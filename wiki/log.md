@@ -1,3 +1,8 @@
+
+## [2026-09-25] follow-up | K395 + K390/K392 leftovers
+
+- Ingest **2609.28586** Agent Approval Laundering as **K395** (cap-skipped paper); archive to egress-fi.
+- Shipped federation skills `progressive-skill-access-precheck` / `cross-vendor-behavior-assay` + helpers.
 ## [2026-09-25] ingest | K390–K394 harness wave (Sep 25 daily sweep)
 
 - **5 NEW inbox PDFs**: progressive skill access control (2609.28693), XRR X-Ray Calc agent (2609.28926), low-cost behavior assays (2609.30012), instrumental monitor evasion (2609.30217), agent trace tampering (2609.30266).

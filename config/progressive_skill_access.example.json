@@ -1,0 +1,19 @@
+{
+  "plan_id": "example-staged-skills",
+  "max_tools_per_stage": 5,
+  "flat_dump": false,
+  "stages": [
+    {
+      "name": "read_only",
+      "tools": ["read_file", "search_code"],
+      "max_tools": 5,
+      "unlock_criteria": "operator confirms scope after read-only recon"
+    },
+    {
+      "name": "mutate",
+      "tools": ["write_file", "run_tests"],
+      "max_tools": 5,
+      "unlock_criteria": "plan approved; step-gate proceed on first write"
+    }
+  ]
+}

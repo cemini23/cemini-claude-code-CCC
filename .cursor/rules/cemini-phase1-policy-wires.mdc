@@ -1051,3 +1051,11 @@ Progressive skill access control (K390) + XRR materials stub (K391) + low-cost c
 ## Agent trace tampering audit gap (CCC K394)
 
 - Agent-writable traces break audit — **external append-only / tamper-evident** logging (pairs K277/K239/K327). **No PoCs / no tamper recipes.** Runtime **`wont_wire`**.
+
+## CCC wave K395 (shared policy file)
+
+Agent Approval Laundering transitive effects (K395). **Zero clones.** CCC-only rule `ccc-k395-phase1-wires.mdc` — do **not** federation-sync.
+
+## Agent approval laundering transitive effects (CCC K395)
+
+- **Approved invocation ≠ bounded effects** — transitive follow-on tools, delegation, and side channels can exceed the approved envelope (pairs K310/K302/K333). **No PoCs.** Runtime **`wont_wire`**.

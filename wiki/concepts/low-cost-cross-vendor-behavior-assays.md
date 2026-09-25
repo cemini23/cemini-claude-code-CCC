@@ -26,7 +26,7 @@ K392: ADOPT eval-first — arXiv 2609.30012.
 
 ## Narrative
 
-**Cheap cross-vendor/release behavior probes** — eval-first measurement when models and harnesses churn (pairs K277 measurement integrity / K373 enterprise eval / K263 versioned model–harness pairs). Runtime **`wont_wire`**; concept **`policy_wired`**.
+**Cheap cross-vendor/release behavior probes** — eval-first measurement when models and harnesses churn (pairs K277 measurement integrity / K373 enterprise eval / K263 versioned model–harness pairs). Operator helper: `scripts/cross_vendor_behavior_assay.py` + federation skill `cross-vendor-behavior-assay`. Runtime **`wont_wire`**; concept **`policy_wired`**.
 
 ## Snippets
 

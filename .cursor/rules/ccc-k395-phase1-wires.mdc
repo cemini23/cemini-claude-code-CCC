@@ -1,0 +1,20 @@
+---
+description: CCC Phase-1 wires K395 Agent Approval Laundering (CCC-only — do NOT federation-sync)
+alwaysApply: true
+---
+
+# CCC — K395 Phase-1 wires
+
+**Brief:** `docs/briefs/2026-09-25_k395-agent-approval-laundering.md` · SIP: `wiki/briefs/2026-09-25_ccc-k395-agent-approval-laundering-sip-ready.md`
+
+**IDs:** Resolve by arXiv id / slug / file path — K# is a log batch label only.
+
+- **K395** Agent Approval Laundering — **Cybersec-primary + ADOPT policy**: an approved invocation does not bound **transitive** downstream effects; bind **authorization to effect closure** (pairs K310/K302/K333). Cap-skipped in Sep 25 sweep; ingested manually after SPDX watch. **No PoCs.** Runtime **`wont_wire`**.
+
+**Wires landed:**
+
+| K | Verdict | Wire | wire_status |
+|---|---|---|-------------|
+| K395 | Cybersec + policy | Transitive effects beyond approved tool invocation | `policy_wired` |
+
+**Non-goals:** no federation sync; no PoCs; no skill auto-evolution.

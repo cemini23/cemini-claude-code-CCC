@@ -37,6 +37,7 @@ Active workstreams, open decisions, and the done log for the Cemini Claude Code 
 - **Catalog content (third-party skills/MCP) intentionally minimal** — we cover the *spec* (SKILL.md), our *audit pattern* (Phase-0), and our *internal use*. Per LESSONS.md 2026-05-13, catalog content has too high churn to mirror.
 
 ## Done
+- **2026-09-25** — K395 approval laundering ingest + K390/K392 federation precheck helpers.
 
 - **2026-09-25** — K390–K394 harness wave: 5 arXiv ingests + Phase-0/1, archive, lint, CI. Progressive skill access control + behavior assays + monitor evasion + trace tampering policy. Zero clones.
 - **2026-09-24** — K385–K389 harness wave: 5 arXiv ingests + Phase-0/1, archive, lint, CI. KV working-set + surrogate consumer eval + agent-editing world model. Zero clones.

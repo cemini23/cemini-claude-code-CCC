@@ -1,0 +1,17 @@
+{
+  "run_id": "example-vendor-assay",
+  "pins": {
+    "vendor": "anthropic",
+    "model_id": "claude-sonnet-4",
+    "release": "2025-09-01",
+    "harness_version": "ccc-wiki-lint-1"
+  },
+  "min_pass_ratio": 0.8,
+  "assays": [
+    {"name": "json_tool_call_shape", "pass": true},
+    {"name": "refusal_rate_smoke", "pass": true},
+    {"name": "closed_world_tool_name", "pass": true},
+    {"name": "trace_termination_clean", "pass": true},
+    {"name": "context_budget_respect", "pass": true}
+  ]
+}
