@@ -6,7 +6,7 @@ keywords: [2609.28926, k391]
 related:
   - briefs/2026-09-25_ccc-k390-k394-sip-ready.md
 maturity: draft
-read_status: read
+read_status: deep-read
 created: 2026-09-25
 updated: 2026-09-25
 ---
@@ -31,6 +31,6 @@ updated: 2026-09-25
 
 ## Snippets
 
-> "Teaching an LLM agent to fit XRR curves with X-Ray Calc 3 — CCC K391 synthesis." [Source: arXiv 2609.28926 — paraphrase]
+> "The structure of a periodic multilayer X-ray mirror is obtained by fitting its X-ray reflectivity (XRR) curve, and the result depends on how the operator normalizes and trims the curve, frees parameters, and accepts a fit. The manual of the fitting program and the papers describing its engine leave these decisions to the operator, whose practice is tacit, so the fitting stays with the expert." [Source: https://arxiv.org/abs/2609.28926 (retrieved 2026-09-25)]
 
 | **Location** | `cemini-egress-fi:/opt/cemini-bulk/research/ccc/arxiv-2609.28926-teaching-an-llm-agent-to-fit-xrr-curves-with-x-r.pdf` |

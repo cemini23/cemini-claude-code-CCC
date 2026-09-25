@@ -11,7 +11,7 @@ maturity: draft
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"
 created: 2026-09-24
-updated: 2026-09-24
+updated: 2026-09-25
 ---
 
 ## Relations
@@ -30,4 +30,4 @@ Agentic shopping systems **operationalize human heuristics** as a **surrogate co
 
 ## Snippets
 
-> "See source page for arXiv 2609.28372 locators." [Source: CCC K388 synthesis]
+> "Consumers increasingly delegate purchasing decisions to Large Language Models (LLMs) acting as surrogate consumers." [Source: https://arxiv.org/abs/2609.28372 (retrieved 2026-09-25)]

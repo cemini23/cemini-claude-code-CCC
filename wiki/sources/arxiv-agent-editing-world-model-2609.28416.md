@@ -7,9 +7,9 @@ related:
   - concepts/agent-editing-world-model.md
   - briefs/2026-09-24_ccc-k385-k389-sip-ready.md
 maturity: draft
-read_status: read
+read_status: deep-read
 created: 2026-09-24
-updated: 2026-09-24
+updated: 2026-09-25
 ---
 
 ## Relations
@@ -33,6 +33,6 @@ LLM agents **maintain and edit explicit world models** for planning — harness 
 
 ## Snippets
 
-> "Agent-Editing World Model: Rethinking World Modeling for LLM Agents — CCC K389 synthesis." [Source: arXiv 2609.28416 — paraphrase]
+> "Recent advances in large language models (LLMs) have enabled agents to tackle long-horizon tasks across diverse environments. To further improve agent performance, existing language world models typically predict environment observations, yet reconstructing high-entropy, execution-dependent tool responses offers limited value when real feedback is available. Meanwhile, agents suffer from task-state contamination, where unsupported assumptions and outdated plans persist in history and distort subsequent decisions." [Source: https://arxiv.org/abs/2609.28416 (retrieved 2026-09-25)]
 
 | **Location** | `cemini-egress-fi:/opt/cemini-bulk/research/ccc/arxiv-2609.28416-agent-editing-world-model-rethinking-world-model.pdf` |

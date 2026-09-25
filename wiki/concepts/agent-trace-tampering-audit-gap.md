@@ -30,4 +30,4 @@ K394: Cybersec + ADOPT policy — arXiv 2609.30266.
 
 ## Snippets
 
-> "See source page for arXiv 2609.30266 locators." [Source: CCC K394 synthesis]
+> "Asynchronous monitoring, incident investigations, and compliance audits primarily rely on agent traces to reconstruct what happened. These analyses assume that LLM agents cannot tamper with their own execution traces." [Source: https://arxiv.org/abs/2609.30266 (retrieved 2026-09-25)]

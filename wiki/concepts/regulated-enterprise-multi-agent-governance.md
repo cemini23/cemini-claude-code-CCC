@@ -11,7 +11,7 @@ maturity: draft
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"
 created: 2026-09-24
-updated: 2026-09-24
+updated: 2026-09-25
 ---
 
 ## Relations
@@ -30,4 +30,4 @@ K386: ADOPT policy awareness — arXiv 2609.27636.
 
 ## Snippets
 
-> "See source page for arXiv 2609.27636 locators." [Source: CCC K386 synthesis]
+> "This paper proposes a formal multi-agent architecture for implementing enterprise AI in regulated insurance firms, integrating economic theory with institutional design." [Source: https://arxiv.org/abs/2609.27636 (retrieved 2026-09-25)]

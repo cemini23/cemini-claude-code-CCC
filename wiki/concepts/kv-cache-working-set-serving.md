@@ -11,7 +11,7 @@ maturity: draft
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"
 created: 2026-09-24
-updated: 2026-09-24
+updated: 2026-09-25
 ---
 
 ## Relations
@@ -30,4 +30,4 @@ K387: ADOPT awareness — arXiv 2609.27746.
 
 ## Snippets
 
-> "See source page for arXiv 2609.27746 locators." [Source: CCC K387 synthesis]
+> "Prefix caching is critical for efficient large language model (LLM) serving, particularly for agentic workloads that repeatedly invoke the model with a growing conversation and tool-use history." [Source: https://arxiv.org/abs/2609.27746 (retrieved 2026-09-25)]

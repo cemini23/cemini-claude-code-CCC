@@ -7,9 +7,9 @@ related:
   - concepts/kv-cache-working-set-serving.md
   - briefs/2026-09-24_ccc-k385-k389-sip-ready.md
 maturity: draft
-read_status: read
+read_status: deep-read
 created: 2026-09-24
-updated: 2026-09-24
+updated: 2026-09-25
 ---
 
 ## Relations
@@ -33,6 +33,6 @@ updated: 2026-09-24
 
 ## Snippets
 
-> "The KV Cache Working Set: Online Capacity Planning for LLM Inference Systems — CCC K387 synthesis." [Source: arXiv 2609.27746 — paraphrase]
+> "Prefix caching is critical for efficient large language model (LLM) serving, particularly for agentic workloads that repeatedly invoke the model with a growing conversation and tool-use history. By reusing the key-value (KV) states of previously processed prefixes, prefix caching avoids redundant prefill computation. Its effectiveness, however, depends on retaining a sufficiently large set of KV cache states." [Source: https://arxiv.org/abs/2609.27746 (retrieved 2026-09-25)]
 
 | **Location** | `cemini-egress-fi:/opt/cemini-bulk/research/ccc/arxiv-2609.27746-the-kv-cache-working-set-online-capacity-plannin.pdf` |

@@ -30,4 +30,4 @@ K393: Cybersec + ADOPT eval — arXiv 2609.30217.
 
 ## Snippets
 
-> "See source page for arXiv 2609.30217 locators." [Source: CCC K393 synthesis]
+> "A central concern in AI safety is that agents may treat oversight as an obstacle when it conflicts with completing their goals. We study instrumental evasion, the propensity of LLM agents to circumvent runtime monitoring as a means of completing ordinary tasks." [Source: https://arxiv.org/abs/2609.30217 (retrieved 2026-09-25)]

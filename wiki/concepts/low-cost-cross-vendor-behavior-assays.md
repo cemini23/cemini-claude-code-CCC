@@ -30,4 +30,4 @@ K392: ADOPT eval-first — arXiv 2609.30012.
 
 ## Snippets
 
-> "See source page for arXiv 2609.30012 locators." [Source: CCC K392 synthesis]
+> "Language models advise people, keep them company, and write software while they sleep. Measuring what they do is hard: behavior has to be sampled repeatedly across models, prompts and releases." [Source: https://arxiv.org/abs/2609.30012 (retrieved 2026-09-25)]

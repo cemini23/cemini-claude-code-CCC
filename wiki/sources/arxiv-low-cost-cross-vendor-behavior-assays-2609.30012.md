@@ -7,7 +7,7 @@ related:
   - concepts/low-cost-cross-vendor-behavior-assays.md
   - briefs/2026-09-25_ccc-k390-k394-sip-ready.md
 maturity: draft
-read_status: read
+read_status: deep-read
 created: 2026-09-25
 updated: 2026-09-25
 ---
@@ -33,6 +33,6 @@ updated: 2026-09-25
 
 ## Snippets
 
-> "Low-Cost Assays for Measuring Model Behavior Across Vendors and Releases — CCC K392 synthesis." [Source: arXiv 2609.30012 — paraphrase]
+> "Language models advise people, keep them company, and write software while they sleep. Measuring what they do is hard: behavior has to be sampled repeatedly across models, prompts and releases, most of it lives in unstructured text that has to be coded before it can be counted, and the result has to be legible and rigorous enough to meaningfully compare models and vendors." [Source: https://arxiv.org/abs/2609.30012 (retrieved 2026-09-25)]
 
 | **Location** | `cemini-egress-fi:/opt/cemini-bulk/research/ccc/arxiv-2609.30012-low-cost-assays-for-measuring-model-behavior-acr.pdf` |

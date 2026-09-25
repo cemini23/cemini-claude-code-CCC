@@ -11,7 +11,7 @@ maturity: draft
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"
 created: 2026-09-24
-updated: 2026-09-24
+updated: 2026-09-25
 ---
 
 ## Relations
@@ -30,4 +30,4 @@ LLM agents **maintain and edit explicit world models** for planning — harness 
 
 ## Snippets
 
-> "See source page for arXiv 2609.28416 locators." [Source: CCC K389 synthesis]
+> "Recent advances in large language models (LLMs) have enabled agents to tackle long-horizon tasks across diverse environments. Existing language world models typically predict environment observations, yet reconstructing high-entropy, execution-dependent tool responses offers limited value when real feedback is available." [Source: https://arxiv.org/abs/2609.28416 (retrieved 2026-09-25)]

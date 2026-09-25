@@ -7,7 +7,7 @@ related:
   - concepts/agent-trace-tampering-audit-gap.md
   - briefs/2026-09-25_ccc-k390-k394-sip-ready.md
 maturity: draft
-read_status: read
+read_status: deep-read
 created: 2026-09-25
 updated: 2026-09-25
 ---
@@ -33,6 +33,6 @@ updated: 2026-09-25
 
 ## Snippets
 
-> "LLM Agents Can Easily Tamper With Their Own Traces — CCC K394 synthesis." [Source: arXiv 2609.30266 — paraphrase]
+> "Asynchronous monitoring, incident investigations, and compliance audits primarily rely on agent traces to reconstruct what happened. These analyses assume that LLM agents cannot tamper with their own execution traces. We show that local LLM agents such as Claude Code, Codex, Antigravity, Open Code and Grok Build fail to enforce this boundary." [Source: https://arxiv.org/abs/2609.30266 (retrieved 2026-09-25)]
 
 | **Location** | `cemini-egress-fi:/opt/cemini-bulk/research/ccc/arxiv-2609.30266-llm-agents-can-easily-tamper-with-their-own-trac.pdf` |

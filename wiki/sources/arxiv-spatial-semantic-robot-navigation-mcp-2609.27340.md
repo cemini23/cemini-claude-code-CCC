@@ -6,9 +6,9 @@ keywords: [2609.27340, k385]
 related:
   - briefs/2026-09-24_ccc-k385-k389-sip-ready.md
 maturity: draft
-read_status: read
+read_status: deep-read
 created: 2026-09-24
-updated: 2026-09-24
+updated: 2026-09-25
 ---
 
 ## Relations
@@ -31,6 +31,6 @@ updated: 2026-09-24
 
 ## Snippets
 
-> "Spatial and Semantic Reasoning for LLM-Driven Robot Navigation via MCP — CCC K385 synthesis." [Source: arXiv 2609.27340 — paraphrase]
+> "Large language models (LLMs) are increasingly used as natural-language interfaces for robotic systems, yet their integration with Robot Operating System (ROS)-based navigation remains limited by two gaps. First, navigation data such as occupancy grids are represented as raw geometric messages that are difficult for LLMs to use directly as spatial or semantic context." [Source: https://arxiv.org/abs/2609.27340 (retrieved 2026-09-25)]
 
 | **Location** | `cemini-egress-fi:/opt/cemini-bulk/research/ccc/arxiv-2609.27340-spatial-and-semantic-reasoning-for-llm-driven-ro.pdf` |

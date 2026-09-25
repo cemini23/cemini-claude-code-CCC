@@ -8,7 +8,7 @@ related:
   - concepts/phase1-adopt-wire.md
   - briefs/2026-09-25_ccc-k395-agent-approval-laundering-sip-ready.md
 maturity: draft
-read_status: skimmed
+read_status: deep-read
 created: 2026-09-25
 updated: 2026-09-25
 ---
@@ -35,6 +35,6 @@ updated: 2026-09-25
 
 ## Snippets
 
-> "Agent Approval Laundering: Transitive Effects Beyond the Approved Invocation — CCC K395 synthesis." [Source: arXiv 2609.28586 — paraphrase]
+> "Coding-agent approval interfaces bind a human decision to a command or tool call, whereas developer tools execute the transitive workflow that invocation activates. Package installation can invoke lifecycle hooks and write files; an MCP tool call can exercise network authority. We call the resulting structural record-coverage failure approval laundering: a durable record faithfully names the entry invocation yet omits effects exercised within its workflow." [Source: https://arxiv.org/abs/2609.28586 (retrieved 2026-09-25)]
 
 | **Location** | `cemini-egress-fi:/opt/cemini-bulk/research/ccc/arxiv-2609.28586-agent-approval-laundering-transitive-effects.pdf` |

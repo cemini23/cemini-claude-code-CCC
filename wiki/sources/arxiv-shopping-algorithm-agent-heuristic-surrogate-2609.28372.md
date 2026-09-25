@@ -7,9 +7,9 @@ related:
   - concepts/agent-heuristic-surrogate-consumer-eval.md
   - briefs/2026-09-24_ccc-k385-k389-sip-ready.md
 maturity: draft
-read_status: read
+read_status: deep-read
 created: 2026-09-24
-updated: 2026-09-24
+updated: 2026-09-25
 ---
 
 ## Relations
@@ -33,6 +33,6 @@ Agentic shopping systems **operationalize human heuristics** as a **surrogate co
 
 ## Snippets
 
-> "Shopping by Algorithm: How Agentic AI Deploys Human Heuristics as a Surrogate Consumer — CCC K388 synthesis." [Source: arXiv 2609.28372 — paraphrase]
+> "Consumers increasingly delegate purchasing decisions to Large Language Models (LLMs) acting as surrogate consumers. Using 'Tool-Lab,' an adaptation of information-board process tracing that places product attributes behind costly tool calls, we examine how marketing pricing cues (i.e., just-below pricing and promotional framing) influence AI shopping agents." [Source: https://arxiv.org/abs/2609.28372 (retrieved 2026-09-25)]
 
 | **Location** | `cemini-egress-fi:/opt/cemini-bulk/research/ccc/arxiv-2609.28372-shopping-by-algorithm-how-agentic-ai-deploys-hum.pdf` |

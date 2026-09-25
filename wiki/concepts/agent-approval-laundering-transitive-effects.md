@@ -30,4 +30,4 @@ K395: Cybersec-primary ADOPT policy — arXiv 2609.28586.
 
 ## Snippets
 
-> "See source page for arXiv 2609.28586 locators." [Source: CCC K395 synthesis]
+> "Coding-agent approval interfaces bind a human decision to a command or tool call, whereas developer tools execute the transitive workflow that invocation activates. We call the resulting structural record-coverage failure approval laundering: a durable record faithfully names the entry invocation yet omits effects exercised within its workflow." [Source: https://arxiv.org/abs/2609.28586 (retrieved 2026-09-25)]

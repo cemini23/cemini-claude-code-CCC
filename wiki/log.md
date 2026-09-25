@@ -1,4 +1,11 @@
 
+## [2026-09-25] deep-read | K385–K395 arXiv snippets + bidirectional links
+
+- **11 sources updated** with verbatim arXiv abstract quotes, `read_status: deep-read` (K395 was `skimmed`), `updated: 2026-09-25`.
+- **9 concepts updated** with short quotes + same citation; `updated: 2026-09-25`.
+- **Bidirectional `related:`** confirmed — sources ↔ concepts (K385, K391 OOD stubs excluded).
+- `wiki_lint.py --fix-bidirectional` dry-run clean for batch; no hub rewrites.
+
 ## [2026-09-25] cross-route | LLM graders CS exams (from image-gen arXiv:2609.29333)
 
 - NEW `@sources/arxiv-2609-29333-llm-graders-cs-exams-routed.md`

@@ -7,9 +7,9 @@ related:
   - concepts/regulated-enterprise-multi-agent-governance.md
   - briefs/2026-09-24_ccc-k385-k389-sip-ready.md
 maturity: draft
-read_status: read
+read_status: deep-read
 created: 2026-09-24
-updated: 2026-09-24
+updated: 2026-09-25
 ---
 
 ## Relations
@@ -33,6 +33,6 @@ updated: 2026-09-24
 
 ## Snippets
 
-> "Multi-Agent AI Architecture for Regulated Insurers: A Generic AI Framework under Solvency II — CCC K386 synthesis." [Source: arXiv 2609.27636 — paraphrase]
+> "This paper proposes a formal multi-agent architecture for implementing enterprise AI in regulated insurance firms, integrating economic theory with institutional design. The framework synthesises three core theoretical perspectives: Arrow's risk pooling theory to formalise risk transformation under uncertainty, Nash equilibrium to model strategic interactions between decision agents, and Principal-Agent theory to address incentive alignment under information asymmetry." [Source: https://arxiv.org/abs/2609.27636 (retrieved 2026-09-25)]
 
 | **Location** | `cemini-egress-fi:/opt/cemini-bulk/research/ccc/arxiv-2609.27636-multi-agent-ai-architecture-for-regulated-insure.pdf` |

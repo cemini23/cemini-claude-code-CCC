@@ -7,7 +7,7 @@ related:
   - concepts/progressive-skill-discovery-access-control.md
   - briefs/2026-09-25_ccc-k390-k394-sip-ready.md
 maturity: draft
-read_status: read
+read_status: deep-read
 created: 2026-09-25
 updated: 2026-09-25
 ---
@@ -33,6 +33,6 @@ updated: 2026-09-25
 
 ## Snippets
 
-> "Progressive Skill Discovery as Access Control for Tool-Using LLM Agents: Structural Governance through Staged Disclosure — CCC K390 synthesis." [Source: arXiv 2609.28693 — paraphrase]
+> "Large Language Model (LLM) agents struggle to scale safely when exposed to vast enterprise toolsets. Providing an agent with access to every internal tool leads to oversized context windows, degraded tool selection, and severe governance vulnerabilities—as system policies defined purely in prompts remain probabilistic advice rather than hard constraints." [Source: https://arxiv.org/abs/2609.28693 (retrieved 2026-09-25)]
 
 | **Location** | `cemini-egress-fi:/opt/cemini-bulk/research/ccc/arxiv-2609.28693-progressive-skill-discovery-as-access-control-fo.pdf` |

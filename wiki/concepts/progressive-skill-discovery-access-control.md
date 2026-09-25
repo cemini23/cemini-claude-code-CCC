@@ -30,4 +30,4 @@ K390: ADOPT policy — arXiv 2609.28693.
 
 ## Snippets
 
-> "See source page for arXiv 2609.28693 locators." [Source: CCC K390 synthesis]
+> "Large Language Model (LLM) agents struggle to scale safely when exposed to vast enterprise toolsets. Providing an agent with access to every internal tool leads to oversized context windows, degraded tool selection, and severe governance vulnerabilities." [Source: https://arxiv.org/abs/2609.28693 (retrieved 2026-09-25)]
