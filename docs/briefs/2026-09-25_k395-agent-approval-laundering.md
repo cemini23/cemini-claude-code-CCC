@@ -14,3 +14,7 @@ Manual ingest of arXiv **2609.28586** (missed Sep 25 daily cap). Cybersec-primar
 ## Propose-only
 
 - K378 RRSI REFERENCE clone; K389/K384 SPDX; dense+RRF SCOUT (HITL)
+
+## Cross-wiki
+
+- Cybersec steal: `../Cybersecurity wiki/briefs/2026-09-25_k395-agent-approval-laundering-steal-from-ccc.md`

@@ -11,6 +11,7 @@ check "concept wired" grep -q "wire_status: policy_wired" "${REPO_ROOT}/wiki/con
 check "policy K395" grep -q "K395" "${REPO_ROOT}/.cursor/rules/cemini-phase1-policy-wires.mdc"
 check "ccc-rule K395" grep -q "K395" "${REPO_ROOT}/.cursor/rules/ccc-k395-phase1-wires.mdc"
 check "no clone" test ! -d "${REPO_ROOT}/.local/adopts/agent-approval-laundering-transitive-effects"
+check "helper selftest" python3 "${REPO_ROOT}/scripts/approval_laundering_precheck.py" selftest
 warn_note "K395 Cybersec-primary ADOPT policy"
 echo "Summary: ${pass} pass, ${fail} fail, ${warn} warn"
 [[ "${fail}" -eq 0 ]]

@@ -1,0 +1,11 @@
+{
+  "review_id": "example-npm-install",
+  "approved_entry": "npm install --save-dev eslint",
+  "transitive_effects": [
+    "package lifecycle scripts",
+    "node_modules write under project",
+    "optional network fetch from registry"
+  ],
+  "effect_closure_reviewed": true,
+  "audit_covers_transitive": true
+}

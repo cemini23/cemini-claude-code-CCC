@@ -1,3 +1,9 @@
+## [2026-09-25] ops | K395 leftovers + Grok-advised SPDX watch
+
+- Grok GO: cybersec brief steal, K389 SPDX watch line, approval-laundering-precheck skill.
+- Grok NO-GO: prod scp (briefs not on allowlist), RRSI clone, bulk 151 deep-read.
+- Shipped helper + federation skill; extended `spdx_watch_harness_wave.sh` (Agent-Editing World Model).
+
 
 ## [2026-09-25] deep-read | K385–K395 arXiv snippets + bidirectional links
 

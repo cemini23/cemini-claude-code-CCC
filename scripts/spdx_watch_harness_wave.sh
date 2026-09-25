@@ -36,6 +36,7 @@ watch_repo "Agensh" "Agensh scaling organizational intelligence microsoft arxiv 
 watch_repo "RecreationWorld" "RecreationWorld hybrid computer-use agents arxiv 2609.22000"
 
 watch_repo "AgentApprovalLaundering" "Agent Approval Laundering arxiv 2609.28586"
+watch_repo "AgentEditingWorldModel" "Agent-Editing World Model arxiv 2609.28416"
 
 echo ""
 echo "Done. No clones performed — report only."

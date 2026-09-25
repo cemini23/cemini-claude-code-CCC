@@ -26,7 +26,7 @@ K395: Cybersec-primary ADOPT policy — arXiv 2609.28586.
 
 ## Narrative
 
-**Agent approval laundering** — a user- or policy-**approved** tool invocation can still cause **transitive** effects outside the approved action envelope (follow-on tools, side channels, delegated sub-agents). Authorization at the **first hop** is not **effect closure** (pairs K310 pre-auth intent / K302 AID-Guard / K333 untrusted-model delegation). **Cybersec-primary**; **No PoCs / no exploit recipes.** No clone. Runtime **`wont_wire`**; concept **`policy_wired`**.
+**Agent approval laundering** — a user- or policy-**approved** tool invocation can still cause **transitive** effects outside the approved action envelope (follow-on tools, side channels, delegated sub-agents). Authorization at the **first hop** is not **effect closure** (pairs K310 pre-auth intent / K302 AID-Guard / K333 untrusted-model delegation). **Cybersec-primary**; **No PoCs / no exploit recipes.** No clone. Operator helper: `scripts/approval_laundering_precheck.py` + federation skill `approval-laundering-precheck`. Runtime **`wont_wire`**; concept **`policy_wired`**.
 
 ## Snippets
 

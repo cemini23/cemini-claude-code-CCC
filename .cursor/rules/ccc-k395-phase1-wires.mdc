@@ -18,3 +18,5 @@ alwaysApply: true
 | K395 | Cybersec + policy | Transitive effects beyond approved tool invocation | `policy_wired` |
 
 **Non-goals:** no federation sync; no PoCs; no skill auto-evolution.
+
+**Leftovers shipped 2026-09-25:** federation skill `approval-laundering-precheck` + `scripts/approval_laundering_precheck.py`. Cybersec steal: `../Cybersecurity wiki/briefs/2026-09-25_k395-agent-approval-laundering-steal-from-ccc.md`.
