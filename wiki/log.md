@@ -1,3 +1,9 @@
+## [2026-09-28] ingest | K396–K400 harness wave (Sep 28 daily sweep)
+
+- **Sources:** 2609.30717 RecToolBench, 2609.31358 SDC-MCP gateway, 2609.31511 Muslim voice OOD, 2609.31524 CVSA OOD, 2609.31562 agentic economies.
+- **Phase-0/1:** adopt_k396…k400; `ccc-k396-k400-phase1-wires.mdc`; policy §K396–K400. Zero clones.
+- **Archive:** egress-fi **timeout 2026-09-28** — PDFs remain in inbox; re-run archive when tunnel healthy. Sweeps 26–28 committed.
+
 ## [2026-09-25] ops | K395 leftovers + Grok-advised SPDX watch
 
 - Grok GO: cybersec brief steal, K389 SPDX watch line, approval-laundering-precheck skill.

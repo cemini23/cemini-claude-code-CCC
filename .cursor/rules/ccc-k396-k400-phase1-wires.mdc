@@ -1,0 +1,30 @@
+---
+description: CCC Phase-1 wires from K396–K400 harness wave (CCC-only — do NOT federation-sync)
+alwaysApply: true
+---
+
+# CCC — K396–K400 Phase-1 wires
+
+**Brief:** `docs/briefs/2026-09-28_k396-k400-harness-wave.md` · SIP: `wiki/briefs/2026-09-28_ccc-k396-k400-sip-ready.md`
+
+**IDs:** Resolve by arXiv id / slug / file path — K# is a log batch label only.
+
+- **K396** RecToolBench — **ADOPT eval-first**: recommendation-specific tool orchestration under fuzzy intent (pairs K316/K259/K318). Concept `recommendation-tool-orchestration-fuzzy-intent-eval`. No clone unless SPDX. Runtime **`wont_wire`**.
+- **K397** SDC-to-MCP medical gateway — **ADOPT policy awareness**: safety-bounded gateway between SDC and MCP for agents (pairs K337/K271/K377). Clinical **OOD** runtime. **No PoCs.** Runtime **`wont_wire`**.
+- **K398** Muslim voice platform — **OOD** deployed voice/religious domain stub. Source only. **`wont_wire`**. No clone.
+- **K399** CVSA structured reasoning — **OOD** medical/surgical safety stub; structured reasoning vocabulary only. Source only. **`wont_wire`**.
+- **K400** Agentic economies for science — **ADOPT eval + policy**: agentic economies for autonomous discovery; commons governance (pairs K345/K277). **No PoCs.** Runtime **`wont_wire`**.
+
+**Wires landed:**
+
+| K | Verdict | Wire | wire_status |
+|---|---|---|-------------|
+| K396 | ADOPT eval-first | Rec-domain tool orchestration under fuzzy intent | `policy_wired` |
+| K397 | ADOPT policy | Safety-bounded SDC-to-MCP gateway awareness | `policy_wired` |
+| K398 | OOD stub | None (source only) | `wont_wire` |
+| K399 | OOD stub | None (source only) | `wont_wire` |
+| K400 | ADOPT eval + policy | Agentic economies / science commons governance | `policy_wired` |
+
+**Non-goals:** no federation sync; no PoCs; no clinical/voice runtime; no skill auto-evolution.
+
+**Propose-only:** RecToolBench SPDX watch; optional deep-read pass after archive.

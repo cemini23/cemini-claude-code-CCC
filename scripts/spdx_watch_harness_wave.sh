@@ -37,6 +37,7 @@ watch_repo "RecreationWorld" "RecreationWorld hybrid computer-use agents arxiv 2
 
 watch_repo "AgentApprovalLaundering" "Agent Approval Laundering arxiv 2609.28586"
 watch_repo "AgentEditingWorldModel" "Agent-Editing World Model arxiv 2609.28416"
+watch_repo "RecToolBench" "RecToolBench recommendation tool orchestration arxiv 2609.30717"
 
 echo ""
 echo "Done. No clones performed — report only."

@@ -1059,3 +1059,19 @@ Agent Approval Laundering transitive effects (K395). **Zero clones.** CCC-only r
 ## Agent approval laundering transitive effects (CCC K395)
 
 - **Approved invocation ≠ bounded effects** — transitive follow-on tools, delegation, and side channels can exceed the approved envelope (pairs K310/K302/K333). **No PoCs.** Runtime **`wont_wire`**.
+
+## CCC wave K396–K400 (shared policy file)
+
+RecToolBench (K396) + SDC-to-MCP gateway awareness (K397) + voice/CVSA OOD stubs (K398/K399) + agentic science economies (K400). **Zero clones.** CCC-only rule `ccc-k396-k400-phase1-wires.mdc` — do **not** federation-sync.
+
+## Recommendation tool orchestration under fuzzy intent (CCC K396)
+
+- **Rec-domain orchestration** is a distinct eval axis from generic tool-use — fuzzy user intent stresses constraint integration (pairs K316/K259/K318). Runtime **`wont_wire`**.
+
+## Safety-bounded SDC-to-MCP gateway (CCC K397)
+
+- **Bounded gateway** between structured clinical control and MCP tools — awareness for enterprise MCP stacks (pairs K337/K271). Clinical runtime **OOD**. **No PoCs.** Runtime **`wont_wire`**.
+
+## Agentic economies for autonomous science (CCC K400)
+
+- **Market-like agent coordination** in discovery pipelines needs commons governance + integrity eval (pairs K345/K277). **No PoCs.** Runtime **`wont_wire`**.

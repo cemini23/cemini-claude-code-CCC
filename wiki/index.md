@@ -332,6 +332,9 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`queen-bee-beespec-enterprise-orchestration`](concepts/queen-bee-beespec-enterprise-orchestration.md) | draft | BeeSpec IR for governed enterprise MCP — 2606.06545 |
 | [`bayesian-posterior-guided-skill-evolution`](concepts/bayesian-posterior-guided-skill-evolution.md) | draft | Posterior-guided skill/SOP evolution — 2606.08348 |
 | [`progressive-autonomy-incident-resolution`](concepts/progressive-autonomy-incident-resolution.md) | draft | Agentic AIOps progressive autonomy — 2606.09122 |
+| [`recommendation-tool-orchestration-fuzzy-intent-eval`](concepts/recommendation-tool-orchestration-fuzzy-intent-eval.md) | draft | RecToolBench fuzzy intent — 2609.30717 (K396) |
+| [`safety-bounded-sdc-mcp-gateway`](concepts/safety-bounded-sdc-mcp-gateway.md) | draft | SDC-to-MCP gateway — 2609.31358 (K397) |
+| [`agentic-economies-autonomous-science-governance`](concepts/agentic-economies-autonomous-science-governance.md) | draft | Agentic science economies — 2609.31562 (K400) |
 | [`agent-approval-laundering-transitive-effects`](concepts/agent-approval-laundering-transitive-effects.md) | draft | Approval laundering transitive effects — 2609.28586 (K395) |
 | [`progressive-skill-discovery-access-control`](concepts/progressive-skill-discovery-access-control.md) | draft | Progressive skill disclosure as access control — 2609.28693 (K390) |
 | [`mcp-adaptive-systems-context-survey`](concepts/mcp-adaptive-systems-context-survey.md) | draft | MCP adaptive-systems survey lens — 2508.19239 |
@@ -1053,6 +1056,11 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-kv-cache-working-set-capacity-2609.27746`](sources/arxiv-kv-cache-working-set-capacity-2609.27746.md) | draft | KV cache working set — 2609.27746 (K387) |
 | [`arxiv-shopping-algorithm-agent-heuristic-surrogate-2609.28372`](sources/arxiv-shopping-algorithm-agent-heuristic-surrogate-2609.28372.md) | draft | Shopping algorithm surrogate consumer — 2609.28372 (K388) |
 | [`arxiv-agent-editing-world-model-2609.28416`](sources/arxiv-agent-editing-world-model-2609.28416.md) | draft | Agent-editing world model — 2609.28416 (K389) |
+| [`arxiv-rectoolbench-fuzzy-intent-tool-orchestration-2609.30717`](sources/arxiv-rectoolbench-fuzzy-intent-tool-orchestration-2609.30717.md) | draft | RecToolBench fuzzy intent — 2609.30717 |
+| [`arxiv-safety-bounded-sdc-mcp-gateway-medical-2609.31358`](sources/arxiv-safety-bounded-sdc-mcp-gateway-medical-2609.31358.md) | draft | SDC-to-MCP gateway — 2609.31358 |
+| [`arxiv-agentic-economies-autonomous-scientific-discovery-2609.31562`](sources/arxiv-agentic-economies-autonomous-scientific-discovery-2609.31562.md) | draft | Agentic science economies — 2609.31562 |
+| [`arxiv-muslim-arabic-voice-ai-platform-2609.31511`](sources/arxiv-muslim-arabic-voice-ai-platform-2609.31511.md) | draft | Muslim voice platform OOD — 2609.31511 |
+| [`arxiv-structured-reasoning-cvsa-safety-2609.31524`](sources/arxiv-structured-reasoning-cvsa-safety-2609.31524.md) | draft | CVSA structured reasoning OOD — 2609.31524 |
 | [`arxiv-agent-approval-laundering-2609.28586`](sources/arxiv-agent-approval-laundering-2609.28586.md) | draft | Agent Approval Laundering — 2609.28586 (K395) |
 | [`arxiv-progressive-skill-discovery-access-control-2609.28693`](sources/arxiv-progressive-skill-discovery-access-control-2609.28693.md) | draft | Progressive skill access control — 2609.28693 (K390) |
 | [`arxiv-xrr-curves-x-ray-calc-agent-2609.28926`](sources/arxiv-xrr-curves-x-ray-calc-agent-2609.28926.md) | draft | XRR X-Ray Calc agent — 2609.28926 (K391) |
