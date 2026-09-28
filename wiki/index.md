@@ -1060,6 +1060,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-safety-bounded-sdc-mcp-gateway-medical-2609.31358`](sources/arxiv-safety-bounded-sdc-mcp-gateway-medical-2609.31358.md) | draft | SDC-to-MCP gateway — 2609.31358 |
 | [`arxiv-agentic-economies-autonomous-scientific-discovery-2609.31562`](sources/arxiv-agentic-economies-autonomous-scientific-discovery-2609.31562.md) | draft | Agentic science economies — 2609.31562 |
 | [`arxiv-muslim-arabic-voice-ai-platform-2609.31511`](sources/arxiv-muslim-arabic-voice-ai-platform-2609.31511.md) | draft | Muslim voice platform OOD — 2609.31511 |
+| [`arxiv-2609-31506-haitian-creole-cultural-awareness-ood-2026-09-28`](sources/arxiv-2609-31506-haitian-creole-cultural-awareness-ood-2026-09-28.md) | draft | Haitian Creole cultural LLM eval OOD — 2609.31506 (from Cybersec) |
 | [`arxiv-structured-reasoning-cvsa-safety-2609.31524`](sources/arxiv-structured-reasoning-cvsa-safety-2609.31524.md) | draft | CVSA structured reasoning OOD — 2609.31524 |
 | [`arxiv-agent-approval-laundering-2609.28586`](sources/arxiv-agent-approval-laundering-2609.28586.md) | draft | Agent Approval Laundering — 2609.28586 (K395) |
 | [`arxiv-progressive-skill-discovery-access-control-2609.28693`](sources/arxiv-progressive-skill-discovery-access-control-2609.28693.md) | draft | Progressive skill access control — 2609.28693 (K390) |

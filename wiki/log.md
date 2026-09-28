@@ -1,3 +1,10 @@
+## [2026-09-28] ops | egress UFW heal + K396-K400 archive
+
+- Hetzner token: OSINT WORKSPACE/.env (HETZNER_API_TOKEN and HCLOUD_TOKEN).
+- Rescue boot, patched UFW user.rules for laptop IP 172.58.133.38, normal reboot.
+- Five inbox PDFs on bulk ccc path; inbox cleared.
+
+
 
 ## [2026-09-28] deep-read | K396/K397/K400 + egress connectivity
 
@@ -14,7 +21,7 @@
 
 - **Sources:** 2609.30717 RecToolBench, 2609.31358 SDC-MCP gateway, 2609.31511 Muslim voice OOD, 2609.31524 CVSA OOD, 2609.31562 agentic economies.
 - **Phase-0/1:** adopt_k396…k400; `ccc-k396-k400-phase1-wires.mdc`; policy §K396–K400. Zero clones.
-- **Archive:** egress-fi **timeout 2026-09-28** — PDFs remain in inbox; re-run archive when tunnel healthy. Sweeps 26–28 committed.
+- **Archive:** archive completed 2026-09-28 after UFW heal (ops entry above). Sweeps 26–28 committed.
 
 ## [2026-09-25] ops | K395 leftovers + Grok-advised SPDX watch
 
