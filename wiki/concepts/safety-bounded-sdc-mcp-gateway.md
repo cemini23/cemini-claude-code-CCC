@@ -26,6 +26,8 @@ K397: ADOPT policy awareness — arXiv 2609.31358.
 
 ## Narrative
 
+**Deep-read (2026-09-28):** Safety-bounded = agent requests never dispatch SDC device ops; semantic metadata helps structured alarms (2609.31358).
+
 **Safety-bounded SDC-to-MCP gateway** for medical agents — bounded envelope between structured clinical data/control (SDC) and MCP tool surface (pairs K337 capability leases / K271 MCP auth gateway / K377 clinical MCP tool-surface steal). **Clinical runtime OOD** for CCC; policy awareness only. **No PoCs.** No clone. Runtime **`wont_wire`**; concept **`policy_wired`**.
 
 ## Snippets

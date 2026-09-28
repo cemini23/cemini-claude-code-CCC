@@ -26,6 +26,8 @@ K396: ADOPT eval-first — arXiv 2609.30717.
 
 ## Narrative
 
+**Deep-read (2026-09-28):** RecToolBench: fuzzy intent + MCP orchestration complexity dominates rec success (2609.30717).
+
 **RecToolBench** evaluates **recommendation-specific tool orchestration** when user intent is **fuzzy** — not generic tool-use alone (pairs K316 LifePlanner constraint integration / K259 tool grounding / K318 step-wise routing). Treat rec-domain orchestration as its own harness axis. No clone unless SPDX. Runtime **`wont_wire`**; concept **`policy_wired`**.
 
 ## Snippets

@@ -1,3 +1,15 @@
+
+## [2026-09-28] deep-read | K396/K397/K400 + egress connectivity
+
+- Route easy: OpenRouter free could not read local WorkDir; deep-read from arXiv API in parent session.
+- Egress host 204.168.139.190 port 22 timed out; prod alias points at RFC5737 stub; archive blocked (5 PDFs inbox).
+- RecToolBench GitHub repo SPDX MIT (optional REFERENCE clone HITL).
+
+## [2026-09-28] cross-wiki | OOD Haitian Creole cultural LLM eval (from Cybersec)
+
+- **OOD route** — arXiv 2609.31506 cultural-awareness infilling/story eval for Haitian Creole. NLP primary. Cybersec OOD stub `@cybersecurity-wiki/sources/arxiv-2609-31506-haitian-creole-llm-cultural-awareness-ood.md`.
+- **friend brief:** n/a
+
 ## [2026-09-28] ingest | K396–K400 harness wave (Sep 28 daily sweep)
 
 - **Sources:** 2609.30717 RecToolBench, 2609.31358 SDC-MCP gateway, 2609.31511 Muslim voice OOD, 2609.31524 CVSA OOD, 2609.31562 agentic economies.

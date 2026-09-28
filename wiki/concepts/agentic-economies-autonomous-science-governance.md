@@ -26,6 +26,8 @@ K400: ADOPT eval + policy — arXiv 2609.31562.
 
 ## Narrative
 
+**Deep-read (2026-09-28):** Agentic science needs resource/credit/liability markets, not cognition-only harness eval (2609.31562).
+
 **Agentic economies** for autonomous scientific discovery — market-like coordination among research agents raises **commons governance + measurement integrity** questions (pairs K345 research swarm commons / K277 construct validity). Eval and policy awareness; **no PoCs.** No clone. Runtime **`wont_wire`**; concept **`policy_wired`**.
 
 ## Snippets
