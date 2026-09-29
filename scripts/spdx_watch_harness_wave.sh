@@ -41,3 +41,5 @@ watch_repo "RecToolBench" "RecToolBench recommendation tool orchestration arxiv 
 
 echo ""
 echo "Done. No clones performed — report only."
+watch_repo "TokenCast" "TokenCast agent token forecast arxiv 2609.35760"
+

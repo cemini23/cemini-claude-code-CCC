@@ -1,3 +1,9 @@
+## [2026-09-29] ingest | K401–K405 harness wave (Sep 29 daily sweep)
+
+- **Sources:** 2609.33731 HTN MCP, 2609.35381 MCP errors, 2609.35659 Tracekit, 2609.35738 harness learning, 2609.35760 TokenCast.
+- **Phase-0/1:** adopt_k401…k405; `ccc-k401-k405-phase1-wires.mdc`; policy §K401–K405. Zero clones.
+- **Archive:** egress bulk ccc (5 PDFs).
+
 ## [2026-09-28] ops | egress UFW heal + K396-K400 archive
 
 - Hetzner token: OSINT WORKSPACE/.env (HETZNER_API_TOKEN and HCLOUD_TOKEN).

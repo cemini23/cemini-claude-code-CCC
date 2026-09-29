@@ -334,6 +334,11 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`progressive-autonomy-incident-resolution`](concepts/progressive-autonomy-incident-resolution.md) | draft | Agentic AIOps progressive autonomy — 2606.09122 |
 | [`recommendation-tool-orchestration-fuzzy-intent-eval`](concepts/recommendation-tool-orchestration-fuzzy-intent-eval.md) | draft | RecToolBench fuzzy intent — 2609.30717 (K396) |
 | [`safety-bounded-sdc-mcp-gateway`](concepts/safety-bounded-sdc-mcp-gateway.md) | draft | SDC-to-MCP gateway — 2609.31358 (K397) |
+| [`htn-planning-mcp-multi-server-coordination`](concepts/htn-planning-mcp-multi-server-coordination.md) | draft | HTN Planning as a Coordination Layer for Multi-Ser… — 2609.33731 (K401) |
+| [`mcp-developer-error-messages-agent-recovery`](concepts/mcp-developer-error-messages-agent-recovery.md) | draft | MCP Error Messages Written for Developers Hurt the… — 2609.35381 (K402) |
+| [`tracekit-tamper-evident-agent-audit`](concepts/tracekit-tamper-evident-agent-audit.md) | draft | Tracekit: Tamper-Evident Intent-Reasoning-Action A… — 2609.35659 (K403) |
+| [`harness-learning-test-time-adaptation`](concepts/harness-learning-test-time-adaptation.md) | draft | Harness Learning Enables Generalizable Test-Time A… — 2609.35738 (K404) |
+| [`tokencast-agent-token-consumption-forecast`](concepts/tokencast-agent-token-consumption-forecast.md) | draft | TokenCast: Forecasting Token Consumption During LL… — 2609.35760 (K405) |
 | [`agentic-economies-autonomous-science-governance`](concepts/agentic-economies-autonomous-science-governance.md) | draft | Agentic science economies — 2609.31562 (K400) |
 | [`agent-approval-laundering-transitive-effects`](concepts/agent-approval-laundering-transitive-effects.md) | draft | Approval laundering transitive effects — 2609.28586 (K395) |
 | [`progressive-skill-discovery-access-control`](concepts/progressive-skill-discovery-access-control.md) | draft | Progressive skill disclosure as access control — 2609.28693 (K390) |
@@ -1058,6 +1063,11 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-agent-editing-world-model-2609.28416`](sources/arxiv-agent-editing-world-model-2609.28416.md) | draft | Agent-editing world model — 2609.28416 (K389) |
 | [`arxiv-rectoolbench-fuzzy-intent-tool-orchestration-2609.30717`](sources/arxiv-rectoolbench-fuzzy-intent-tool-orchestration-2609.30717.md) | draft | RecToolBench fuzzy intent — 2609.30717 |
 | [`arxiv-safety-bounded-sdc-mcp-gateway-medical-2609.31358`](sources/arxiv-safety-bounded-sdc-mcp-gateway-medical-2609.31358.md) | draft | SDC-to-MCP gateway — 2609.31358 |
+| [`arxiv-tokencast-agent-token-forecast-2609.35760`](sources/arxiv-tokencast-agent-token-forecast-2609.35760.md) | draft | TokenCast: Forecasting Token Consumption During LLM Age… — 2609.35760 |
+| [`arxiv-harness-learning-test-time-adaptation-2609.35738`](sources/arxiv-harness-learning-test-time-adaptation-2609.35738.md) | draft | Harness Learning Enables Generalizable Test-Time Adapta… — 2609.35738 |
+| [`arxiv-tracekit-tamper-evident-agent-audit-2609.35659`](sources/arxiv-tracekit-tamper-evident-agent-audit-2609.35659.md) | draft | Tracekit: Tamper-Evident Intent-Reasoning-Action Auditi… — 2609.35659 |
+| [`arxiv-mcp-developer-error-messages-hurt-agents-2609.35381`](sources/arxiv-mcp-developer-error-messages-hurt-agents-2609.35381.md) | draft | MCP Error Messages Written for Developers Hurt the Most… — 2609.35381 |
+| [`arxiv-htn-planning-mcp-multi-server-coordination-2609.33731`](sources/arxiv-htn-planning-mcp-multi-server-coordination-2609.33731.md) | draft | HTN Planning as a Coordination Layer for Multi-Server M… — 2609.33731 |
 | [`arxiv-agentic-economies-autonomous-scientific-discovery-2609.31562`](sources/arxiv-agentic-economies-autonomous-scientific-discovery-2609.31562.md) | draft | Agentic science economies — 2609.31562 |
 | [`arxiv-muslim-arabic-voice-ai-platform-2609.31511`](sources/arxiv-muslim-arabic-voice-ai-platform-2609.31511.md) | draft | Muslim voice platform OOD — 2609.31511 |
 | [`arxiv-2609-31506-haitian-creole-cultural-awareness-ood-2026-09-28`](sources/arxiv-2609-31506-haitian-creole-cultural-awareness-ood-2026-09-28.md) | draft | Haitian Creole cultural LLM eval OOD — 2609.31506 (from Cybersec) |

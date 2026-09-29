@@ -1075,3 +1075,28 @@ RecToolBench (K396) + SDC-to-MCP gateway awareness (K397) + voice/CVSA OOD stubs
 ## Agentic economies for autonomous science (CCC K400)
 
 - **Market-like agent coordination** in discovery pipelines needs commons governance + integrity eval (pairs K345/K277). **No PoCs.** Runtime **`wont_wire`**.
+
+## CCC wave K401–K405 (shared policy file)
+
+HTN MCP coordination (K401) + MCP developer error surfaces (K402) + Tracekit tamper-evident audit (K403) + harness learning TTA (K404) + TokenCast token forecast (K405). **Zero clones.** CCC-only rule `ccc-k401-k405-phase1-wires.mdc` — do **not** federation-sync.
+
+## HTN planning MCP multi-server coordination (CCC K401)
+
+- **Deterministic cross-server execution** vs LLM-per-tool-call hosts (pairs K329/K318). Runtime **`wont_wire`**.
+
+## MCP developer-oriented error messages (CCC K402)
+
+- **Agent-callable recovery** in MCP error payloads — developer-only steps fail closed for agents (pairs K368/K259). Runtime **`wont_wire`**.
+
+## Tracekit tamper-evident agent audit (CCC K403)
+
+- **Hash-chained intent–reasoning–action** ledger; external anchoring (pairs K394/K327). **No PoCs.** Runtime **`wont_wire`**.
+
+## Harness learning test-time adaptation (CCC K404)
+
+- **Executable harness meta-updates** from execution feedback; keep external eval contract (pairs K292/K281/K162). Trainer **`wont_wire`**.
+
+## TokenCast agent token consumption forecast (CCC K405)
+
+- **Mid-run token budget forecasting** for agent segments (pairs K320/K387). Runtime **`wont_wire`**.
+

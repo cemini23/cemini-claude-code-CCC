@@ -1,0 +1,30 @@
+---
+description: CCC Phase-1 wires from K401–K405 harness wave (CCC-only — do NOT federation-sync)
+alwaysApply: true
+---
+
+# CCC — K401–K405 Phase-1 wires
+
+**Brief:** `docs/briefs/2026-09-29_k401-k405-harness-wave.md` · SIP: `wiki/briefs/2026-09-29_ccc-k401-k405-sip-ready.md`
+
+**IDs:** Resolve by arXiv id / slug / file path — K# is a log batch label only.
+
+- **K401** HTN Planning as a Coordination Layer for Multi-Server MCP To… — **ADOPT pattern**: concept `htn-planning-mcp-multi-server-coordination`. Runtime **`wont_wire`**.
+- **K402** MCP Error Messages Written for Developers Hurt the Most Capa… — **ADOPT policy + eval**: concept `mcp-developer-error-messages-agent-recovery`. Runtime **`wont_wire`**.
+- **K403** Tracekit: Tamper-Evident Intent-Reasoning-Action Auditing fo… — **Cybersec + ADOPT policy**: concept `tracekit-tamper-evident-agent-audit`. Runtime **`wont_wire`**.
+- **K404** Harness Learning Enables Generalizable Test-Time Adaptation… — **ADOPT eval-first**: concept `harness-learning-test-time-adaptation`. Runtime **`wont_wire`**.
+- **K405** TokenCast: Forecasting Token Consumption During LLM Agent Ex… — **ADOPT awareness**: concept `tokencast-agent-token-consumption-forecast`. Runtime **`wont_wire`**.
+
+**Wires landed:**
+
+| K | Verdict | Wire | wire_status |
+|---|---|---|-------------|
+| K401 | ADOPT | htn planning mcp multi server coordinati | `policy_wired` |
+| K402 | ADOPT | mcp developer error messages agent recov | `policy_wired` |
+| K403 | Cybersec | tracekit tamper evident agent audit | `policy_wired` |
+| K404 | ADOPT | harness learning test time adaptation | `policy_wired` |
+| K405 | ADOPT | tokencast agent token consumption foreca | `policy_wired` |
+
+**Non-goals:** no federation sync; no PoCs; no skill auto-evolution; Tracekit no tamper recipes.
+
+**Propose-only:** TokenCast SPDX watch; optional hplan26 REFERENCE clone (Apache-2.0, HITL).
