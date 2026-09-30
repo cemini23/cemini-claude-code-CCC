@@ -1,6 +1,6 @@
 ---
 description: CCC Phase-1 wires from K285–K289 harness wave
-alwaysApply: true
+alwaysApply: false
 ---
 
 # CCC — K285–K289 Phase-1 wires

@@ -1,6 +1,6 @@
 ---
 description: CCC Phase-1 wires from K270–K273 MCP auth gateway + ACM wave
-alwaysApply: true
+alwaysApply: false
 ---
 
 # CCC — K270–K273 Phase-1 wires

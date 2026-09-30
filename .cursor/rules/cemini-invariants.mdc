@@ -11,6 +11,7 @@ Hard gates for every workspace. Full catalog is on demand in `cemini-phase1-poli
 - Never auto-evolve `.cursor/skills/*`, `.cursor/rules/*`, prompts, or hooks. HITL before any harness self-write. Skills can get worse with practice. (2608.12851 misevolution / SHE / StarHarness / HCL)
 - Never rewrite `## Verify` or pass criteria mid-run. External eval contract is authoritative. (AutoDesign / Task-CoEvolve / AutoSciRub)
 - Gate the tool step, not only the answer. Enforcement is external and fail-closed; model self-arbitration is not a boundary. (StepGuard / external-reference-monitor / Mandato)
+- **Shell-equivalent MCP tools are `Bash`.** A tool whose schema accepts a command, script, argv, or code string executes with the caller's privileges — classify it shell-equivalent regardless of its name, and hold it to the `Bash` bar. A domain-sounding name (`attest`, `run_evidence`, `apply_fix`) is not evidence of a bounded capability. Runtime wire needs an operator ticket plus either an explicit allowlist or a fail-closed bound. (Assay K406: `attest` → `subprocess.run(command, shell=True)`, 900s)
 - `.local/adopts/*` = REFERENCE. Runtime wire needs a `wire-ledger.yaml` row. No `curl | sh`, no upstream `install.sh`, no HF weight downloads by default.
 - License: no clone without SPDX or LICENSE file. AGPL / GPL = extract-only; never into Atto or proprietary kits.
 - Secrets never in rules, handoffs, or free-tier models. No production private keys in agent-readable env for LIVE agents. (hardware-keystore)

@@ -1,6 +1,6 @@
 ---
 description: CCC Phase-1 wires from K390–K394 harness wave (CCC-only — do NOT federation-sync)
-alwaysApply: true
+alwaysApply: false
 ---
 
 # CCC — K390–K394 Phase-1 wires

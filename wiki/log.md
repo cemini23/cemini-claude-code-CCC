@@ -1,3 +1,27 @@
+## [2026-09-30] ops | Cursor rule bloat cut 79% — 102 KB → 22 KB per request
+
+49 of 51 `.cursor/rules/*.mdc` were `alwaysApply: true`, so Cursor injected all of them into **every**
+request. Measured cost: **102,426 bytes ≈ 25,000 tokens per Cursor turn**.
+
+Flipped the **39 per-wave `ccc-k*-phase1-wires.mdc`** files to `alwaysApply: false`. Each already
+carries a `description`, so they become Cursor "Agent Requested" rules — pulled in only when relevant.
+No content deleted; the live policy for each wave already lives in its wiki concept page with
+`wire_status` in frontmatter, so the rules are a historical record.
+
+| | Before | After |
+|---|---|---|
+| Rules always-on | 49 | **10** |
+| Bytes per request | 102,426 | **21,652** |
+| ≈ Tokens per request | ~25,000 | **~5,400** |
+
+The 10 that stay always-on are evergreen: `ccc-wiki-workflow`, `ccc-visual-deliverables`,
+`ccc-rejected-cursor-tools`, `cemini-invariants`, `cemini-route-outsource`, `cemini-goal-skill`,
+`cemini-cursor-security-preflight`, `cemini-federation-skill-sync`, `cemini-phase1-ccc-harness`,
+`jev-workflow`. `cemini-phase1-ccc-harness` was reviewed and kept — it is live agent-facing do/don't
+policy (schema-bound tools, policy-as-code gates, DAG validation), not a wave record.
+
+**Reversal:** one-line flip per file. Re-run the measure to confirm.
+
 ## [2026-09-30] ops | Cross-wiki survey — gh verification bug is CCC + Cybersec only
 
 Surveyed all eight wikis for the two defect classes found in this session's SPDX watch: an invalid

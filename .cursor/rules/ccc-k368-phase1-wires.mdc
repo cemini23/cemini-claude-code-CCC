@@ -1,6 +1,6 @@
 ---
 description: CCC Phase-1 wires from K368 implicit-trust MCP paper (CCC-only — do NOT federation-sync)
-alwaysApply: true
+alwaysApply: false
 ---
 
 # CCC — K368 Phase-1 wires

@@ -1,6 +1,6 @@
 ---
 description: CCC Phase-1 wires from K325–K327 harness wave (CCC-only — do NOT federation-sync)
-alwaysApply: true
+alwaysApply: false
 ---
 
 # CCC — K325–K327 Phase-1 wires

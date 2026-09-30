@@ -1,6 +1,6 @@
 ---
 description: CCC Phase-1 wires from OSINT K228 (pi harness + quality gates + KV cache)
-alwaysApply: true
+alwaysApply: false
 ---
 
 # CCC K228 Phase-1 wires

@@ -1,6 +1,6 @@
 ---
 description: CCC Phase-1 wires from K261–K265 harness wave
-alwaysApply: true
+alwaysApply: false
 ---
 
 # CCC — K261–K265 Phase-1 wires

@@ -1112,7 +1112,11 @@ federation-sync.
 - **Claims bound to the Merkle hash of the dependency cone**; staleness = hash comparison; blast
   radius == staleness frontier. Merge gate consults **no model** — 8 mechanical checks including
   **evidence monotonicity** (never delete the failing test) (pairs K403/K394/K402). Apache-2.0, MCP
-  server. Runtime **`wont_wire`** pending transport/auth audit.
+  server. Runtime **`wont_wire`** — audit complete 2026-09-30: stdio transport is clean and
+  `dependencies = []` confirmed, but `attest` executes a model-supplied command via
+  `subprocess.run(..., shell=True)` with a 900s timeout. See the shell-equivalent invariant in
+  `cemini-invariants.mdc`. Unblock = re-classify `attest` as shell-equivalent, or bound it to an
+  operator allowlist. The protocol (cone-hash claims + 8-check gate) needs no code and is adoptable now.
 
 ## Deterministic retrieval chain + reader swap (CCC K407)
 

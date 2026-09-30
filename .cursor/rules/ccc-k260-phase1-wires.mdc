@@ -1,6 +1,6 @@
 ---
 description: CCC Phase-1 wires from K260 (ResidencyRL adversarial curriculum + doc fidelity)
-alwaysApply: true
+alwaysApply: false
 ---
 
 # CCC — K260 Phase-1 wires

@@ -1,6 +1,6 @@
 ---
 description: CCC Phase-1 wires from K274–K276 skill-security + eval-policy wave
-alwaysApply: true
+alwaysApply: false
 ---
 
 # CCC — K274–K276 Phase-1 wires

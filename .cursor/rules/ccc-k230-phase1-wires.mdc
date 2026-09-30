@@ -1,6 +1,6 @@
 ---
 description: CCC Phase-1 wires from OSINT K230
-alwaysApply: true
+alwaysApply: false
 ---
 
 # CCC K230 Phase-1 wires

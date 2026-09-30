@@ -1,6 +1,6 @@
 ---
 description: CCC Phase-1 wires from K277–K281 trust + verification wave
-alwaysApply: true
+alwaysApply: false
 ---
 
 # CCC — K277–K281 Phase-1 wires

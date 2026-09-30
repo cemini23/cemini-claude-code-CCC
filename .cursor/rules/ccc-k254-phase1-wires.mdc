@@ -1,6 +1,6 @@
 ---
 description: CCC Phase-1 wires from OSINT K254 harness + Fable 5.1 routing (CCC-only — do NOT federation-sync)
-alwaysApply: true
+alwaysApply: false
 ---
 
 # CCC — K254 Phase-1 wires

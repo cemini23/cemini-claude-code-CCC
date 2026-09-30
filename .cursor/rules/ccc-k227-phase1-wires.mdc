@@ -1,6 +1,6 @@
 ---
 description: CCC Phase-1 wires from OSINT K227 (the-startup + Zawinski multiagents)
-alwaysApply: true
+alwaysApply: false
 ---
 
 # CCC K227 Phase-1 wires

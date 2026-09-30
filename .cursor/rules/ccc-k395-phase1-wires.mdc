@@ -1,6 +1,6 @@
 ---
 description: CCC Phase-1 wires K395 Agent Approval Laundering (CCC-only — do NOT federation-sync)
-alwaysApply: true
+alwaysApply: false
 ---
 
 # CCC — K395 Phase-1 wires
