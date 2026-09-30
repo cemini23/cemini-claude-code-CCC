@@ -1,3 +1,29 @@
+## [2026-09-30] ops | Cybersec brief actioned — their review found a flaw in OUR watch
+
+The brief sent earlier today was picked up and actioned by the Cybersecurity wiki's own session.
+They fixed all three broken call sites, found three more with the same swallow, and added a shared
+`scripts/gh_lookup.sh` plus an offline test wired into CI.
+
+**They flagged a defect in CCC's watch, and they were right.** CCC's `watch_slug` treated every
+non-zero `gh api` exit as "slug not reachable" — conflating **HTTP 404 (absent, a real answer)** with
+**any other error (lookup failed, no answer at all)**. An auth or network failure would therefore
+have read as "no repo exists".
+
+Fixed in `e0ebc2c`: `gh_api_slug` now returns 0 (JSON) / 2 (absent) / 3 (lookup failure). Failures
+print to stderr, are counted, and the script **exits 3**, so automation cannot mistake a broken
+lookup for an absence. Search results separate `EMPTY` (true negative) from `ERROR`.
+
+**Their re-run results, routed back:**
+- `InstructionArbitrationBench` — **still nothing, now a confirmed true negative.** The fixed query
+  actually ran. CCC's `watch_query "InstructionArbitrationBench"` entry stays as-is; nothing to route.
+- `zheng977/StepGuard` is now **Apache-2.0** — that clears a K307 clone HOLD.
+- `getathelas/LoopHarness` is Apache-2.0 too, but its no-clone reason is Apple OS source, not license.
+- `reinforcelabs/EvoFlint` has no GitHub repo (HF space only).
+
+**Federation note:** this is the cross-wiki loop working as designed — a CCC brief produced a fix in
+Cybersec, whose review then produced a fix in CCC. The `license.key` vs `license.spdx_id` distinction
+(only `gh api repos/<slug>` exposes `spdx_id`) is now documented in both watches.
+
 ## [2026-09-30] ops | Phase-1 closeout — 3 license-clear promotions wired
 
 Audited this session's output for unwired Phase-1 items. Answer: **three**, all cases where SPDX
