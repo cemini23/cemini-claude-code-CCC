@@ -1,3 +1,29 @@
+## [2026-09-30] ops | Phase-1 closeout — 3 license-clear promotions wired
+
+Audited this session's output for unwired Phase-1 items. Answer: **three**, all cases where SPDX
+verification *changed the verdict* and no wire had followed.
+
+| Page | Was | Now |
+|------|-----|-----|
+| `entities/patterns/citadel-agent-orchestration.md` | "steal-from; MIT pending" | `policy_wired` |
+| `entities/tools/claude-skill-registry.md` | "CONDITIONAL-GO until license" | `policy_wired` |
+| `concepts/2026-05-13_multi-codex-codex-home-isolation.md` | DEFER (license unverified) | `policy_wired` |
+
+All three target `.cursor/rules/cemini-phase1-policy-wires.mdc`, and a matching
+**CCC license-clear promotions** section was appended there so the `wire_target` resolves rather than
+being aspirational. All three carry runtime **`wont_wire`** — pattern extraction only, no clone.
+
+**Already wired, no action needed:** `hybrid-cua-recreation-environments` (RecreationWorld) and
+`agent-editing-world-model` were both `policy_wired` on their concept pages — those are the correct
+homes, since `wire_status` lives on concept/entity pages, not source pages (1 exception in 450).
+`headless-claude-code-controlled-eval-lane` (K407/K410) was verified present in the policy file.
+
+**Not wired, deliberately:** the 4 remaining K406–K410 items are `wont_wire`/REFERENCE by design.
+CCC's clone shelf is clean — 16 of 17 `wont_wire`.
+
+**One pre-existing gap surfaced, not from this session:** `replay-agent-recorder` (CCC, MIT, 3.2 MB)
+is `unwired` in `phase1_adopt_inventory.py` and has **no entity page**. Left for the operator.
+
 ## [2026-09-30] ops | Wiki lint swept — sections 2–8 to zero, 1 dropped 157 → 42
 
 | # | Check | Before | After |

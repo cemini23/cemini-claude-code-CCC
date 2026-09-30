@@ -11,6 +11,8 @@ maturity: draft
 created: 2026-05-15
 updated: 2026-05-30
 cross-wiki-source: "@osint-wiki/sources/eval-github-repos-2026-05-13.md"
+wire_status: policy_wired
+wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"
 ---
 
 # multi-codex — CODEX_HOME env-var isolation pattern
@@ -35,3 +37,7 @@ ingest pass.
 Surfaced in the 2026-05-13 14-repo GitHub eval (`@osint-wiki/sources/eval-github-repos-2026-05-13.md`) as **DEFER** (upstream license unverified). The extractable insight is the **isolation pattern itself**: per-instance `CODEX_HOME` (analogous to per-agent home directories) generalises to any agent CLI that keeps state in a fixed home path. Relevant to ccc-wiki's multi-agent orchestration cluster even if the upstream repo's license proves fatal.
 
 **License CLEARED 2026-09-30:** `Spielewoy/multi-codex` is **MIT** — 246★, pushed 2026-08-19, actively maintained. The original DEFER reason (upstream license unverified) no longer holds. [CONFIRMED via GitHub API 2026-09-30] **Phase-0 maturity read 2026-09-30:** 246★, 18 forks, 1 open issue, 1.8 MB, PowerShell, pushed 2026-08-19; topic `account-isolation`. Description: "Run multiple AI coding accounts at the same time." The extractable insight remains the per-instance `CODEX_HOME` isolation pattern, not the tool.
+
+## Phase-1 wire (2026-09-30)
+
+`wire_status: policy_wired` → `.cursor/rules/cemini-phase1-policy-wires.mdc`. Extract the per-instance CODEX_HOME isolation pattern; the tool itself is not adopted.

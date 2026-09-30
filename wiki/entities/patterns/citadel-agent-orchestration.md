@@ -14,6 +14,8 @@ maturity: draft
 created: 2026-05-21
 updated: 2026-05-24
 cross-wiki-source: "@osint-wiki/sources/multi-wiki-tool-eval-prompt-2026-05-18.md"
+wire_status: policy_wired
+wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"
 ---
 
 ## Relations
@@ -56,3 +58,7 @@ Citadel validates the conductor/librarian architecture direction Cemini has been
 License not yet GitHub-API verified at time of routing. If MIT/Apache: promote to Adopt for pattern extraction. If unlicensed: Steal-from architecturally only; no code.
 
 **License RESOLVED 2026-09-30: MIT.** `sethgammon/Citadel` — 923★, pushed 2026-09-27, actively maintained. [CONFIRMED via GitHub API 2026-09-30] Per this page's own rule, the restriction lifts: **promote to Adopt for pattern extraction**. Code-level reuse is now permitted under MIT terms; no clone was performed. **Phase-0 maturity read 2026-09-30:** 923★, 82 forks, **0 open issues**, 27.7 MB, JavaScript, active (pushed 2026-09-27). Description: "The operating layer for Claude Code + OpenAI Codex: persistent project memory…"; topic `claude-code-plugin`. Strongest CCC-fit of this batch — it is a Claude Code plugin, not a generic framework. **Clone eligible** on license + maturity.
+
+## Phase-1 wire (2026-09-30)
+
+`wire_status: policy_wired` → `.cursor/rules/cemini-phase1-policy-wires.mdc`. Every pattern in the Architecture section is extractable under MIT terms without adopting the tool.

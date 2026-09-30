@@ -1148,3 +1148,26 @@ federation-sync.
 - **`claude -p` + built-in tools disabled + one MCP tool + injected model-call budget** = a fixed,
   comparable substrate. Two independent sources. Policy/awareness only.
 
+## CCC license-clear promotions (2026-09-30)
+
+Three pages whose verdict changed once SPDX was verified. All `policy_wired` — pattern extraction
+only, no runtime adoption, no clone.
+
+## Citadel agent-orchestration OS layer (MIT, 923★)
+
+- **Campaign persistence across sessions, dependency-aware discovery relay between waves,
+  circuit-breaker on agent error rate, per-invocation lifecycle hooks.** Extract the primitives;
+  adopting the tool itself is out of scope. Pairs `@ccc-wiki/concepts/subagent-orchestration.md`.
+  Runtime stays **`wont_wire`**.
+
+## claude-skill-registry index pattern (MIT, 658★)
+
+- **Discovery-pointer UX for a skill inventory.** Do **not** mirror registry content into the wiki
+  (catalog-churn policy), and do **not** clone — the repo is ~28 GB of generated GitHub-Pages
+  artifacts. Read generated pages over HTTP. Runtime **`wont_wire`**.
+
+## multi-codex CODEX_HOME isolation (MIT, 246★)
+
+- **Per-instance `CODEX_HOME` isolation** generalises to any agent CLI that keeps state in a fixed
+  home path. Extract the pattern, not the PowerShell tool. Runtime **`wont_wire`**.
+

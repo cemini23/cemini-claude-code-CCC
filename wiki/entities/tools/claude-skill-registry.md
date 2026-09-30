@@ -12,6 +12,8 @@ related:
 maturity: draft
 created: 2026-05-31
 updated: 2026-06-07
+wire_status: policy_wired
+wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"
 ---
 
 ## Relations
@@ -37,3 +39,7 @@ Prior OSINT eval (`links-5-2`) flagged **license contamination risk** on similar
 
 > Registry index pattern — spec + audit, not catalog mirror.
 > — [Source: briefs/2026-05-31_k88-ccc-workflows-and-tool-eval-from-osint.md]
+
+## Phase-1 wire (2026-09-30)
+
+`wire_status: policy_wired` → `.cursor/rules/cemini-phase1-policy-wires.mdc`. Index/discovery UX pattern only; do not mirror registry content and do not clone the 28 GB tree.
