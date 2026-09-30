@@ -1,0 +1,34 @@
+---
+description: CCC Phase-1 wires from K406–K410 harness wave (CCC-only — do NOT federation-sync)
+alwaysApply: true
+---
+
+# CCC — K406–K410 Phase-1 wires
+
+**Brief:** `docs/briefs/2026-09-30_k406-k410-harness-wave.md` · SIP: `wiki/briefs/2026-09-30_ccc-k406-k410-sip-ready.md`
+
+**IDs:** Resolve by arXiv id / slug / file path — K# is a log batch label only.
+
+- **K406** Assay: Claims That Decay With the Code. Content-Addressed … — **CONDITIONAL-GO (Apache-2.0)**: concept `assay-content-addressed-evidence-graphs`.
+- **K407** Auditable Long-Term Memory: A Deterministic Retrieval Chai… — **REFERENCE + eval-methodology**: concept `deterministic-retrieval-chain-reader-swap`.
+- **K408** MotorMind: Scaffolding General Vision Language Models for … — **REFERENCE (cross-domain)**: concept `vlm-mid-level-action-harness`.
+- **K409** Learning Meta-Skills for Agent Harness Design in Test-Time… — **ADOPT pattern; NO-GO clone (null SPDX)**: concept `meta-skill-bank-harness-construction`.
+- **K410** Thinking Before Thinking: Scaling Agentic Inference Throug… — **ADOPT pattern**: concept `agentic-meta-reasoning-control-plane`.
+
+**Cross-cutting:** `headless-claude-code-controlled-eval-lane` — K407 + K410 both run headless
+Claude Code with the built-in tools disabled as a controlled comparison lane.
+
+**Wires landed:**
+
+| K | Verdict | Wire | wire_status |
+|---|---|------|-------------|
+| K406 | CONDITIONAL-GO (Apache-2.0) | assay content addressed evidence graphs | `policy_wired` |
+| K407 | REFERENCE + eval-methodology | deterministic retrieval chain reader swap | `policy_wired` |
+| K408 | REFERENCE (cross-domain) | vlm mid level action harness | `policy_wired` |
+| K409 | ADOPT pattern; NO-GO clone (null SPDX) | meta skill bank harness construction | `policy_wired` |
+| K410 | ADOPT pattern | agentic meta reasoning control plane | `policy_wired` |
+
+**Non-goals:** no federation sync; no PoCs; no skill auto-evolution; no clone of any repo this wave.
+
+**Propose-only:** Assay HITL clone (Apache-2.0, MCP server transport/auth audit first);
+MetaSkill-AI4AI SPDX watch (null license).

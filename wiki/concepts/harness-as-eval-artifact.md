@@ -15,11 +15,13 @@ related:
   - concepts/meta-harness-continual-improvement.md
   - concepts/environment-evolution-terminal-agents.md
   - sources/arxiv-environment-evolution-terminal-agents-2609.04128.md
+  - concepts/headless-claude-code-controlled-eval-lane.md
 maturity: draft
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"
 created: 2026-09-02
 updated: 2026-09-04
+
 ---
 
 ## Relations
@@ -31,6 +33,7 @@ updated: 2026-09-04
 - `@concepts/bounded-self-refinement-vs-rsi-taxonomy.md`
 - `@concepts/phase1-adopt-wire.md`
 - `@briefs/2026-09-02_ccc-k333-k336-sip-ready.md`
+- `@concepts/headless-claude-code-controlled-eval-lane.md` — headless Claude Code controlled eval lane (K407/K410)
 
 ## Raw Concept
 

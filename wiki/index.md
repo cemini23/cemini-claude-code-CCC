@@ -334,6 +334,12 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`progressive-autonomy-incident-resolution`](concepts/progressive-autonomy-incident-resolution.md) | draft | Agentic AIOps progressive autonomy — 2606.09122 |
 | [`recommendation-tool-orchestration-fuzzy-intent-eval`](concepts/recommendation-tool-orchestration-fuzzy-intent-eval.md) | draft | RecToolBench fuzzy intent — 2609.30717 (K396) |
 | [`safety-bounded-sdc-mcp-gateway`](concepts/safety-bounded-sdc-mcp-gateway.md) | draft | SDC-to-MCP gateway — 2609.31358 (K397) |
+| [`assay-content-addressed-evidence-graphs`](concepts/assay-content-addressed-evidence-graphs.md) | draft | Assay: Claims That Decay With the Code. Content-Ad… — 2609.36170 (K406) |
+| [`deterministic-retrieval-chain-reader-swap`](concepts/deterministic-retrieval-chain-reader-swap.md) | draft | Auditable Long-Term Memory: A Deterministic Retrie… — 2609.38021 (K407) |
+| [`vlm-mid-level-action-harness`](concepts/vlm-mid-level-action-harness.md) | draft | MotorMind: Scaffolding General Vision Language Mod… — 2609.38078 (K408) |
+| [`meta-skill-bank-harness-construction`](concepts/meta-skill-bank-harness-construction.md) | draft | Learning Meta-Skills for Agent Harness Design in T… — 2609.38143 (K409) |
+| [`agentic-meta-reasoning-control-plane`](concepts/agentic-meta-reasoning-control-plane.md) | draft | Thinking Before Thinking: Scaling Agentic Inferenc… — 2609.38147 (K410) |
+| [`headless-claude-code-controlled-eval-lane`](concepts/headless-claude-code-controlled-eval-lane.md) | draft | Headless Claude Code as a controlled evaluation lane — K407/K410 |
 | [`htn-planning-mcp-multi-server-coordination`](concepts/htn-planning-mcp-multi-server-coordination.md) | draft | HTN Planning as a Coordination Layer for Multi-Ser… — 2609.33731 (K401) |
 | [`mcp-developer-error-messages-agent-recovery`](concepts/mcp-developer-error-messages-agent-recovery.md) | draft | MCP Error Messages Written for Developers Hurt the… — 2609.35381 (K402) |
 | [`tracekit-tamper-evident-agent-audit`](concepts/tracekit-tamper-evident-agent-audit.md) | draft | Tracekit: Tamper-Evident Intent-Reasoning-Action A… — 2609.35659 (K403) |
@@ -1067,6 +1073,11 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-harness-learning-test-time-adaptation-2609.35738`](sources/arxiv-harness-learning-test-time-adaptation-2609.35738.md) | draft | Harness Learning Enables Generalizable Test-Time Adapta… — 2609.35738 |
 | [`arxiv-tracekit-tamper-evident-agent-audit-2609.35659`](sources/arxiv-tracekit-tamper-evident-agent-audit-2609.35659.md) | draft | Tracekit: Tamper-Evident Intent-Reasoning-Action Auditi… — 2609.35659 |
 | [`arxiv-mcp-developer-error-messages-hurt-agents-2609.35381`](sources/arxiv-mcp-developer-error-messages-hurt-agents-2609.35381.md) | draft | MCP Error Messages Written for Developers Hurt the Most… — 2609.35381 |
+| [`arxiv-assay-content-addressed-evidence-graphs-2609.36170`](sources/arxiv-assay-content-addressed-evidence-graphs-2609.36170.md) | draft | Assay: Claims That Decay With the Code. Content-Address… — 2609.36170 |
+| [`arxiv-auditable-long-term-memory-deterministic-chain-2609.38021`](sources/arxiv-auditable-long-term-memory-deterministic-chain-2609.38021.md) | draft | Auditable Long-Term Memory: A Deterministic Retrieval C… — 2609.38021 |
+| [`arxiv-motormind-vlm-mid-level-action-harness-2609.38078`](sources/arxiv-motormind-vlm-mid-level-action-harness-2609.38078.md) | draft | MotorMind: Scaffolding General Vision Language Models f… — 2609.38078 |
+| [`arxiv-meta-skills-agent-harness-design-2609.38143`](sources/arxiv-meta-skills-agent-harness-design-2609.38143.md) | draft | Learning Meta-Skills for Agent Harness Design in Test-T… — 2609.38143 |
+| [`arxiv-agentic-meta-reasoning-control-plane-2609.38147`](sources/arxiv-agentic-meta-reasoning-control-plane-2609.38147.md) | draft | Thinking Before Thinking: Scaling Agentic Inference Thr… — 2609.38147 |
 | [`arxiv-htn-planning-mcp-multi-server-coordination-2609.33731`](sources/arxiv-htn-planning-mcp-multi-server-coordination-2609.33731.md) | draft | HTN Planning as a Coordination Layer for Multi-Server M… — 2609.33731 |
 | [`arxiv-agentic-economies-autonomous-scientific-discovery-2609.31562`](sources/arxiv-agentic-economies-autonomous-scientific-discovery-2609.31562.md) | draft | Agentic science economies — 2609.31562 |
 | [`arxiv-muslim-arabic-voice-ai-platform-2609.31511`](sources/arxiv-muslim-arabic-voice-ai-platform-2609.31511.md) | draft | Muslim voice platform OOD — 2609.31511 |
@@ -1122,6 +1133,8 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`2026-09-23-daily`](sweeps/2026-09-23-daily.md) | Daily digest — 9 papers (K376–K384 wave) |
 | [`2026-09-24-daily`](sweeps/2026-09-24-daily.md) | Daily digest — 5 papers (K385–K389 wave) |
 | [`2026-09-25-daily`](sweeps/2026-09-25-daily.md) | Daily digest — 5 papers (K390–K394 wave) |
+| [`2026-09-29-daily`](sweeps/2026-09-29-daily.md) | Daily digest — 5 papers (K401–K405 wave) |
+| [`2026-09-30-daily`](sweeps/2026-09-30-daily.md) | Daily digest — 5 papers (K406–K410 wave) |
 
 ## entities/people/
 
@@ -1193,3 +1206,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | `entities/tools/roo-code.md` | `@osint-wiki/sources/multi-wiki-tool-eval-ipsale-risk-2026-05-17.md` | Cross-wiki tool-eval source (56-repo eval) |
 | `concepts/agents-k1-agent-native-knowledge-orchestration.md` | `@osint-wiki/concepts/librarian-server-architecture.md` | KG-at-scale serving implications (K114) |
 | `concepts/interaction-native-knowledge-harness.md` | `@osint-wiki/concepts/interaction-native-knowledge-harness.md` | Financial InKH deployment canon |
+
+## Sources
+
+- [Deterministic PRM guidance in discrete diffusion](sources/arxiv-2609-35472-prm-discrete-diffusion-routed.md) — cross-wiki stub routed from ingest — `cross-wiki`

@@ -12,7 +12,7 @@ watch_repo() {
   echo ""
   echo "==> $slug (query: $query)"
   local hit
-  hit="$(gh search repos "$query" --limit 3 --json fullName,licenseInfo,updatedAt 2>/dev/null || echo '[]')"
+  hit="$(gh search repos "$query" --limit 3 --json fullName,license,updatedAt 2>/dev/null || echo '[]')"
   if [[ "$hit" == "[]" || -z "$hit" ]]; then
     echo "  WATCH — no public GitHub repo found"
     return 0
@@ -21,7 +21,7 @@ watch_repo() {
 import json, sys
 rows = json.load(sys.stdin)
 for r in rows:
-    lic = (r.get('licenseInfo') or {}).get('spdxId') or 'NOASSERTION'
+    lic = (r.get('license') or {}).get('spdxId') or 'NOASSERTION'
     updated = (r.get('updatedAt') or '?')[:10]
     print(f\"  {r['fullName']}  SPDX={lic}  updated={updated}\")
 "
@@ -40,6 +40,9 @@ watch_repo "AgentEditingWorldModel" "Agent-Editing World Model arxiv 2609.28416"
 watch_repo "RecToolBench" "RecToolBench recommendation tool orchestration arxiv 2609.30717"
 
 echo ""
-echo "Done. No clones performed — report only."
+watch_repo "Assay" "assay claims that decay with the code arxiv 2609.36170"
+watch_repo "MetaSkill-AI4AI" "learning meta-skills agent harness design arxiv 2609.38143"
+watch_repo "MotorMind" "motormind vision language robot manipulation arxiv 2609.38078"
+watch_repo "AuditableLTM" "auditable long-term memory deterministic retrieval chain arxiv 2609.38021"
 watch_repo "TokenCast" "TokenCast agent token forecast arxiv 2609.35760"
-
+echo "Done. No clones performed — report only."

@@ -19,7 +19,11 @@ Active workstreams, open decisions, and the done log for the Cemini Claude Code 
 
 - **Harness-evolution claim re-audit (K169, 2026-07-15)** — `concepts/harnessx-composable-evolution-foundry.md`, `concepts/retrospective-harness-optimization-rho.md`, and `concepts/hierarchical-skill-stack-lazy-orchestration.md` (K164) all carry `[NEEDS VERIFICATION 2026-07-15]` tags per `concepts/harness-evolution-vs-test-time-scaling-baseline.md` — none were checked against a test-time-scaling baseline or held-out generalization split. Revisit before any of those three graduate past `draft`/`CONDITIONAL-GO`.
 
-- **SPDX watch (K333–K336 leftovers)** — run `bash scripts/spdx_watch_harness_wave.sh` periodically for CordisBench, HarnessDev, InstructionArbitrationBench, DelegationWithoutTrust repos. Clone only after SPDX + Phase-0.
+- **SPDX watch (K333–K336 leftovers)** — run `bash scripts/spdx_watch_harness_wave.sh` periodically for CordisBench, HarnessDev, InstructionArbitrationBench, DelegationWithoutTrust repos. Clone only after SPDX + Phase-0. **2026-09-30:** the script had a silent bug (`--json licenseInfo` is rejected by the installed `gh`, and `2>/dev/null || echo '[]'` swallowed it, so every repo reported "no repo found"). Fixed to `--json license`. Re-run it — the earlier runs reported nothing.
+
+- **Assay HITL clone (K406, 2026-09-30)** — `OmShiv/assay-research` is Apache-2.0 and ships an MCP server. Phase-0 is CONDITIONAL-GO. Do not clone until the MCP server's transport and auth model are audited. Hosted eval *protocol* (cone-hash claims + mechanical merge gate) is adoptable without the code.
+
+- **MetaSkill-AI4AI SPDX watch (K409, 2026-09-30)** — `qiancheng-apodex/MetaSkill-AI4AI` returns **null SPDX** (no license file). NO-GO on clone. Watch for a license file. The meta-skill `(when, provide, use)` pattern is adoptable as policy without the code.
 
 - **Dense+RRF SCOUT over live MCP catalog (K311 leftover)** — HITL; local BM25 SCOUT shipped 2026-08-31.
 
@@ -45,6 +49,7 @@ Active workstreams, open decisions, and the done log for the Cemini Claude Code 
 - **2026-09-23** — K376–K384 harness wave: 9 arXiv ingests + Phase-0/1, archive, lint, CI. MCP granularity + RRSI + A2M metadata policy + truncate-only compaction. Zero clones.
 - **2026-09-21** — K373–K375 harness wave: 3 arXiv ingests + Phase-0/1, archive, lint, CI green. EnterpriseVal + RCA pattern + RecreationWorld hybrid CUA. Zero clones.
 - **2026-09-19** — Full ingest check: Sep 19 daily digest (0 new PDFs); preingest 4 DUPLICATE (K369–K372); phase0 re-pass; lint green. Archive to egress-fi **blocked** (SSH timeout) — 4 PDFs remain in inbox.
+- **2026-09-30** — K406–K410 harness wave: 5 arXiv ingests + Phase-0/1, one cross-cutting concept (`headless-claude-code-controlled-eval-lane`, confirmed by 2 independent sources), archive, lint, CI green. Repaired malformed 2609.35472 cross-route stub. Fixed silent `licenseInfo` bug in `spdx_watch_harness_wave.sh`. Phase-0: Assay Apache-2.0 (CONDITIONAL-GO), longmemeval-evidence MIT, MetaSkill-AI4AI null SPDX (NO-GO clone). Zero clones.
 - **2026-09-18** — K369–K372 harness wave: 4 arXiv ingests + Phase-0/1, lint, CI green. Archive attempted; egress-fi flaky. Zero clones.
 - **2026-09-17** — K368 implicit-trust MCP (2609.18217 digest-cap follow-up) + K363–K367 harness wave. Phase-0/1, archive, lint, CI green. Cybersec steals. Zero clones.
 - **2026-09-16** — K358–K362 harness wave: 5 arXiv ingests + Phase-0/1, archive, lint, CI green. Cybersec steal K360/K362. Zero clones.

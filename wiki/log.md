@@ -1,3 +1,12 @@
+## [2026-09-30] ingest | K406–K410 harness wave (Sep 30 daily sweep)
+
+- **Sources:** 2609.36170 Assay evidence graphs, 2609.38021 auditable LTM, 2609.38078 MotorMind, 2609.38143 meta-skills, 2609.38147 agentic meta-reasoning.
+- **Cross-cutting concept:** `headless-claude-code-controlled-eval-lane` (K407 + K410 — two independent sources run headless Claude Code with built-in tools disabled as a controlled eval lane). `[CONFIRMED]`
+- **Phase-0:** assay-research Apache-2.0; longmemeval-evidence MIT; MetaSkill-AI4AI **null SPDX → NO-GO clone**.
+- **Phase-1:** adopt_k406…k410; `ccc-k406-k410-phase1-wires.mdc`; policy §K406–K410. Zero clones.
+- **Fix:** repaired malformed 2609.35472 cross-route stub (duplicate sections, empty frontmatter) + backlink on `orchestration-reward-modeling-orch-rm`.
+- **Archive:** egress bulk ccc (5 PDFs).
+
 ## [2026-09-29] ingest | K401–K405 harness wave (Sep 29 daily sweep)
 
 - **Sources:** 2609.33731 HTN MCP, 2609.35381 MCP errors, 2609.35659 Tracekit, 2609.35738 harness learning, 2609.35760 TokenCast.
@@ -2079,3 +2088,8 @@ Cross-wiki stub routed from `@osint-wiki/sources/newsletter-rss-pragmatic-engine
 
 - Archived 9 K376–K384 inbox PDFs to `cemini-egress-fi:/opt/cemini-bulk/research/ccc/` (inbox empty).
 - Shipped `mcp_granularity_eval.py` + `mcp_metadata_precheck.py` and federation skills `mcp-granularity-eval`, `mcp-metadata-precheck`.
+
+## [2026-09-29] cross-wiki route | Deterministic PRM guidance in discrete diffusion
+
+Cross-wiki stub routed from `@image-gen-wiki/sources/arxiv-2609-35472-prm-discrete-diffusion-routed.md`.
+- Created wiki/sources/arxiv-2609-35472-prm-discrete-diffusion-routed.md (stub)

@@ -1100,3 +1100,47 @@ HTN MCP coordination (K401) + MCP developer error surfaces (K402) + Tracekit tam
 
 - **Mid-run token budget forecasting** for agent segments (pairs K320/K387). Runtime **`wont_wire`**.
 
+## CCC wave K406–K410 (shared policy file)
+
+Assay content-addressed evidence graphs (K406) + deterministic retrieval chain / reader swap (K407)
++ VLM mid-level action harness (K408) + meta-skill bank harness construction (K409) + agentic
+meta-reasoning control plane (K410). **Zero clones.** CCC-only rule `ccc-k406-k410-phase1-wires.mdc` — do **not**
+federation-sync.
+
+## Assay content-addressed evidence graphs (CCC K406)
+
+- **Claims bound to the Merkle hash of the dependency cone**; staleness = hash comparison; blast
+  radius == staleness frontier. Merge gate consults **no model** — 8 mechanical checks including
+  **evidence monotonicity** (never delete the failing test) (pairs K403/K394/K402). Apache-2.0, MCP
+  server. Runtime **`wont_wire`** pending transport/auth audit.
+
+## Deterministic retrieval chain + reader swap (CCC K407)
+
+- **All stages below the reader are deterministic code**; the LLM is a replaceable reader. Ingest
+  the **eval-methodology** lesson: the judge flipped 3 verdicts on byte-identical answers, so report
+  the **noise band, not the rank** (pairs K392/K162). Runtime **`wont_wire`**.
+
+## VLM mid-level action harness (CCC K408)
+
+- **Async monitor + non-blocking verification + boundary-only cancellation**; harness and backbone
+  decouple (pairs K404). Cross-domain REFERENCE — robotics is outside CCC scope. Runtime
+  **`wont_wire`**.
+
+## Meta-skill bank harness construction (CCC K409)
+
+- **Meta-skill = (`when`, `provide`, `use`)**; Builder learns principles from Target execution, bank
+  frozen. **Teaching the Builder beats teaching the Target.** Repo returns **null SPDX** → **NO-GO
+  clone**, watch only. Runtime **`wont_wire`**.
+
+## Agentic meta-reasoning control plane (CCC K410)
+
+- **Separate the controller from the workers**; 4-stage control cycle (assess/propose/evaluate/
+  dispatch); **compact controller state, not history replay**; artifact graph for diagnosis.
+  Overhead hurts at small budgets (pairs `subagent-orchestration`/K387/K405/K318). Runtime
+  **`wont_wire`**.
+
+## Headless Claude Code controlled eval lane (CCC K407/K410)
+
+- **`claude -p` + built-in tools disabled + one MCP tool + injected model-call budget** = a fixed,
+  comparable substrate. Two independent sources. Policy/awareness only.
+

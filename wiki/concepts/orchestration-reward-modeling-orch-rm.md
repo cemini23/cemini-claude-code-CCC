@@ -13,9 +13,10 @@ related:
   - sources/brief-k116-orchrm-harnessx-llm-as-code-prod-2026-06-16.md
   - concepts/counterfactual-advantage-harness-orchestration.md
   - sources/arxiv-chill-harness-counterfactual-learning-2607.25825.md
+  - sources/arxiv-2609-35472-prm-discrete-diffusion-routed.md
 maturity: draft
 created: 2026-06-16
-updated: 2026-07-30
+updated: 2026-09-30
 ---
 
 ## Relations
@@ -26,6 +27,7 @@ updated: 2026-07-30
 - `@concepts/agent-rubrics-self-correction.md` — scalar reward from traces
 - `@concepts/agent-completion-verification-gates.md` — verifier scores for pairs
 - `@concepts/retrospective-harness-optimization-rho.md` — trajectory-level preference learning peer
+- `@sources/arxiv-2609-35472-prm-discrete-diffusion-routed.md` — deterministic PRM guidance failure (cross-wiki stub)
 
 ## Raw Concept
 

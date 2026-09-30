@@ -28,9 +28,11 @@ related:
   - entities/tools/marc-v1.md
   - sources/arxiv-labels-not-endpoints-treatment-leakage-2608.12880.md
   - sources/arxiv-marc-v1-clinical-multi-agent-2608.13476.md
+  - concepts/headless-claude-code-controlled-eval-lane.md
 maturity: draft
 created: 2026-07-22
 updated: 2026-08-14
+
 ---
 
 ## Relations
@@ -39,6 +41,7 @@ updated: 2026-08-14
 - Cybersec domain: `@cybersecurity-wiki/concepts/biosecbench-surveillance-verifiable-agent-eval.md`
 - `@concepts/harness-evolution-vs-test-time-scaling-baseline.md` — eval discipline
 - `@concepts/businesscasebench-rubric-from-expert-solutions.md` — subjective rubric peer (K193)
+- `@concepts/headless-claude-code-controlled-eval-lane.md` — headless Claude Code controlled eval lane (K407/K410)
 
 ## Raw Concept
 
