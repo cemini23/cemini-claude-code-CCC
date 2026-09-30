@@ -8,6 +8,7 @@ maturity: draft
 created: 2026-07-05
 updated: 2026-07-05
 cross-wiki-source: @osint-wiki/sources/newsletter-rss-latent-space-2026-06-30-ahmad-osman-on-why-local-ai-is-catching-up.md
+read_status: read
 ---
 
 # Latent Space — Ahmad Osman on why local AI is catching up

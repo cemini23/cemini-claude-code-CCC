@@ -182,7 +182,10 @@ for src, fm in pages.items():
                 dangling.append((src, tgt_raw))
 
 # orphans: pages with zero inbound edges (excluding index/log already excluded)
-orphans = sorted(p for p in all_paths if p not in inbound)
+# Generated sweeps are inputs to the ingest ritual, not wiki pages — nothing links to
+# a daily digest by design, so reporting all ~115 of them buries the real orphans.
+orphans = sorted(p for p in all_paths
+                 if p not in inbound and not p.startswith("sweeps/"))
 
 # bidirectional gaps: src→tgt without tgt→src
 # Hub pages (frontmatter `hub: true`) are exempt: many spokes legitimately
@@ -287,7 +290,13 @@ cited_unread.sort(key=lambda x: -x[1])
 
 # -- 6: frontmatter quality ----------------------------------------------
 
-no_frontmatter = sorted(p for p, fm in pages.items() if fm.get("_no_frontmatter"))
+# Auto-generated pages. Their frontmatter, if wanted, belongs in the generator that
+# writes them — flagging each emitted file just reports the generator's output shape.
+GENERATED_SKIP_PREFIXES = ("sweeps/",)
+no_frontmatter = sorted(
+    p for p, fm in pages.items()
+    if fm.get("_no_frontmatter") and not p.startswith(GENERATED_SKIP_PREFIXES)
+)
 no_type = sorted(p for p, fm in pages.items()
                  if not fm.get("_no_frontmatter") and not fm.get("type"))
 no_maturity = sorted(p for p, fm in pages.items()

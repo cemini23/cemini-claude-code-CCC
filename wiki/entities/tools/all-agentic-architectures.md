@@ -5,7 +5,7 @@ tags: [tool, patterns, steal-from, k113]
 keywords: [fareedkhan, deterministic-picker]
 related:
   - sources/multi-wiki-tool-eval-v5-k113-2026-06-12.md
-  - concepts/conductor-orchestrator.md
+  - "@osint-wiki/concepts/conductor-orchestrator.md"
   - "@osint-wiki/entities/tools/all-agentic-architectures.md"
 maturity: draft
 created: 2026-06-12

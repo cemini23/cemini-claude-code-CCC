@@ -12,7 +12,7 @@ maturity: validated
 read_status: deep-read
 created: 2026-06-12
 updated: 2026-06-12
-cross-wiki-source: "@osint-wiki/briefs/2026-06-12_k112-ccc-claude-honesty-critic-from-osint.md"
+cross-wiki-source: "OSINT WORKSPACE/briefs/2026-06-12_k112-ccc-claude-honesty-critic-from-osint.md"
 ---
 
 ## Relations
@@ -34,4 +34,4 @@ Operator harness pattern: honesty protocol + critic agent + contractor framing. 
 
 ## Sources
 
-- @osint-wiki/briefs/2026-06-12_k112-ccc-claude-honesty-critic-from-osint.md
+- OSINT WORKSPACE/briefs/2026-06-12_k112-ccc-claude-honesty-critic-from-osint.md

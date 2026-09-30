@@ -8,6 +8,7 @@ maturity: draft
 created: 2026-07-05
 updated: 2026-07-05
 cross-wiki-source: @osint-wiki/sources/substack-rss-addy-osmani-2026-07-03-agentic-autonomy-levels.md
+read_status: read
 ---
 
 # Addy Osmani's Blog — Agentic Autonomy Levels

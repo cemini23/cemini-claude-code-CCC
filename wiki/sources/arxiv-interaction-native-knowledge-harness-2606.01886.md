@@ -5,8 +5,8 @@ tags: [source, arxiv, knowledge-harness, financial-agents, cross-wiki-route]
 keywords: [2606.01886, inkh, temporal-graph, passive-injection, wiki-audit]
 related:
   - concepts/interaction-native-knowledge-harness.md
-  - osint-wiki/sources/arxiv-interaction-native-knowledge-harness-2606.01886.md
-  - osint-wiki/concepts/interaction-native-knowledge-harness.md
+  - "@osint-wiki/sources/arxiv-interaction-native-knowledge-harness-2606.01886.md"
+  - "@osint-wiki/concepts/interaction-native-knowledge-harness.md"
   - entities/mcp-servers/llm-wiki-compiler.md
   - concepts/context-engineering.md
   - concepts/interaction-native-knowledge-harness.md

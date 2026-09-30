@@ -12,7 +12,7 @@ related:
   - concepts/mcp-context-optimization.md
   - entities/tools/webwright.md
   - concepts/agentic-pm-review-artifacts.md
-  - seo-wiki/concepts/agent-first-web-atml-framework.md
+  - "@seo-wiki/concepts/agent-first-web-atml-framework.md"
   - concepts/agentic-web-infrastructure-gap-taxonomy.md
   - sources/arxiv-agentic-web-infrastructure-agentverse-2606.20570.md
   - sources/brief-k119-agent-first-web-eda-handoff-prod-2026-06-19.md

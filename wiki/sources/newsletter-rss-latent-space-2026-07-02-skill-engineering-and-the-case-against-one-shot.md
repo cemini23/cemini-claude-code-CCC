@@ -8,6 +8,7 @@ maturity: draft
 created: 2026-07-05
 updated: 2026-07-05
 cross-wiki-source: @osint-wiki/sources/newsletter-rss-latent-space-2026-07-02-skill-engineering-and-the-case-against-one-shot.md
+read_status: read
 ---
 
 # Latent Space — Skill engineering and the case against one-shot AI design

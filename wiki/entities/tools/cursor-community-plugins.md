@@ -21,7 +21,7 @@ cross-wiki-source: "@osint-wiki/sources/multi-wiki-tool-eval-36url-wiki-ingestio
 - `@entities/commands/plugin.md` — Claude Code `/plugin` is a different marketplace
 - `@concepts/skill-vetting.md` — each listed plugin still needs Phase-0 before install
 
-Cross-wiki: `@osint-wiki/entities/tools/community-plugins.md` (if present); K63 URL #15.
+Cross-wiki: `osint-wiki entities/tools/community-plugins (page not written)` (if present); K63 URL #15.
 
 ## Raw Concept
 

@@ -157,7 +157,7 @@ Bulk tool evaluation uses **ten surfaces** (Cemini **active prod bots** — XSP 
 
 1. Paste **`prompts/deep-research-multi-wiki-eval-v10-gemini-runtime.md`** + **≤20 URLs** (or a pre-split file under `prompts/batches/`) into **Gemini Deep Research**. Do **not** paste the full v10 canon with large URL lists — Deep Research often blanks before producing a plan.
 2. On return, open **OSINT WORKSPACE** in Cursor; validate Integrate/Extract revenue hypotheses + project paths (license spot-check optional).
-3. Ingest per `@osint-wiki/CLAUDE.md` ingest ops; cross-wiki briefs land in sibling `briefs/` folders; gambling-primary stubs → `@gambling-wiki/`; game-dev-primary stubs → `python3 scripts/cross_wiki_route.py --target-wiki game-dev-wiki` from OSINT.
+3. Ingest per `OSINT WORKSPACE/CLAUDE.md` ingest ops; cross-wiki briefs land in sibling `briefs/` folders; gambling-primary stubs → `@gambling-wiki/`; game-dev-primary stubs → `python3 scripts/cross_wiki_route.py --target-wiki game-dev-wiki` from OSINT.
 
 ### Anti-hallucination lesson (K53/K54)
 

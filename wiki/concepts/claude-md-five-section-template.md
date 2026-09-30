@@ -6,7 +6,7 @@ keywords: [five-section, role, style, constraints, workflow, quality, bootstrap]
 related:
   - concepts/claude-code-skills-md-institutional-memory.md
   - concepts/twelve-rule-claude-md-template.md
-  - concepts/asd-ste100-writing-style.md
+  - "@osint-wiki/concepts/asd-ste100-writing-style.md"
   - entities/tools/claude-code.md
   - concepts/context-engineering.md
   - concepts/claude-premortem-skill.md
@@ -22,7 +22,7 @@ cross-wiki-source: "@osint-wiki/concepts/claude-code-skills-md-workflow.md"
 
 - `@concepts/claude-code-skills-md-institutional-memory.md` — Skills.md layer beneath CLAUDE.md schema
 - `@concepts/twelve-rule-claude-md-template.md` — rule-discipline template (complementary, not duplicate)
-- `@concepts/asd-ste100-writing-style.md` — **Style** section for readable technical prose (required on new CLAUDE.md)
+- `@osint-wiki/concepts/asd-ste100-writing-style.md` — **Style** section for readable technical prose (required on new CLAUDE.md)
 - `@entities/tools/claude-code.md` — harness that loads CLAUDE.md every session
 - `@concepts/context-engineering.md` — persistent schema as context lever
 - `@concepts/claude-premortem-skill.md` — pre-ship review before changing harness files
@@ -56,7 +56,7 @@ Use both: five-section for shape; 12-rule for behavioral guardrails. CCC's own `
 
 1. Draft Role + Constraints (5 min).
 2. Add Workflow mirroring your real session ritual (5 min).
-3. Add **Style (ASD-STE100)** + Quality gates tied to verifiable commands (5 min). Paste block: `@osint-wiki/scripts/snippets/claude-md-ste100-section.md`.
+3. Add **Style (ASD-STE100)** + Quality gates tied to verifiable commands (5 min). Paste block: `OSINT WORKSPACE/scripts/snippets/claude-md-ste100-section.md`.
 4. Link to 2–3 skill files rather than duplicating skill bodies in CLAUDE.md.
 
 ## Snippets

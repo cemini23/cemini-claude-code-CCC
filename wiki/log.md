@@ -1170,7 +1170,7 @@ Ingested `briefs/2026-06-09_k108-ccc-hive-ship-omnifs-from-osint.md` — Posts 1
 - **Concept:** `time-series-native-agent-harness` — workspace + runtime tools + capability evolution + episodic memory
 - **Entity:** `timeclaw` — CONDITIONAL-GO laptop trial; disambiguate from 2605.10038 homonym
 - **Pages updated (8):** `code-as-agent-harness`, `mcp-context-optimization`, `muse-autoskill-skill-lifecycle`, `etclovg-harness-layers`, `continual-harness-online-self-improvement`, `runtime-context-mcp-file-refs`, `claude-mem`, `stash`, `index.md`
-- **Cross-wiki:** `@osint-wiki/concepts/contextualized-time-series-agent-harness.md` (TSAIA/CiK finance stub)
+- **Cross-wiki:** `osint-wiki concepts/contextualized-time-series-agent-harness (page not written)` (TSAIA/CiK finance stub)
 - **Raw:** PDF → `raw-sources/`; inbox cleared
 - **Phase-0 (2026-06-08):** clone + venv import PASS; `scripts/adopt_timeclaw_phase0.sh`; benchmarks skipped (no API key)
 

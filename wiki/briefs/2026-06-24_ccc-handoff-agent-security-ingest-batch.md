@@ -14,7 +14,7 @@ Claude Desktop | CCC wiki | prod-mcp / lazy-tool / OpenClaw stacks
 
 ## Summary
 
-Cybersec-wiki ingest 2026-06-24 — five agent-security papers with prod-mcp + OpenClaw harness implications. Copy sibling briefs from `@cybersecurity-wiki/briefs/2026-06-24_*`.
+Cybersec-wiki ingest 2026-06-24 — five agent-security papers with prod-mcp + OpenClaw harness implications. Copy sibling briefs from `Cybersecurity wiki/briefs/ (2026-06-24 handoff batch, not a single file)`.
 
 ## Body
 
@@ -39,4 +39,4 @@ Cybersec-wiki ingest 2026-06-24 — five agent-security papers with prod-mcp + O
 
 ## Sources
 
-- @cybersecurity-wiki/wiki/log.md — 2026-06-24 ingest entry
+- @cybersecurity-wiki/log.md — 2026-06-24 ingest entry

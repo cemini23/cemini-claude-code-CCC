@@ -21,6 +21,7 @@ related:
 maturity: validated
 created: 2026-08-11
 updated: 2026-08-11
+read_status: read
 ---
 
 ## Relations

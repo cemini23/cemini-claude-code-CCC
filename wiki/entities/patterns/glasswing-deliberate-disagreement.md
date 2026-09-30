@@ -19,9 +19,10 @@ related:
   - sources/arxiv-perspectivegap-multi-agent-orchestration-2606.08878.md
   - concepts/hybrid-slm-ensemble-orchestration.md
   - entities/skills/free-audit.md
+  - sources/arxiv-slm-ensemble-malware-orchestration-2607.20216.md
 maturity: draft
 created: 2026-05-21
-updated: 2026-08-03
+updated: 2026-09-30
 cross-wiki-source: "@osint-wiki/sources/analyzing-github-projects-agentic-infra-2026-05-21.md"
 ---
 

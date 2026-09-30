@@ -5,7 +5,7 @@ tags: [brief, ccc-handoff, mcp, execution-control]
 created: 2026-07-04
 related:
   - meta/ccc-cross-wiki-handoff-briefs.md
-  - concepts/mcp-execution-control-invariants.md
+  - "@cybersecurity-wiki/concepts/mcp-execution-control-invariants.md"
 updated: 2026-07-04
 ---
 

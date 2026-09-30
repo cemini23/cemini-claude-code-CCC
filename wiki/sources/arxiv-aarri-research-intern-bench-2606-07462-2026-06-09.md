@@ -19,7 +19,7 @@ updated: 2026-06-09
 
 - `@entities/tools/aarri-bench.md` — NO-GO entity
 - `@concepts/agent-rubrics-self-correction.md` — rubric steal target
-- `@osint-wiki/sources/arxiv-aarri-research-intern-bench-2606.07462-2026-06-09.md` — OSINT canon
+- `@osint-wiki/sources/arxiv-aarri-research-intern-bench-2606-07462-2026-06-09.md` — OSINT canon
 
 ## Raw Concept
 

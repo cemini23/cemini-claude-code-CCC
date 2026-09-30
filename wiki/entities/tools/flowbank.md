@@ -5,8 +5,8 @@ tags: [tool, agents, reference, cross-wiki]
 keywords: [FlowBank, DiverseFlow, CuraFlow]
 related:
   - concepts/agent-workflow-portfolio-optimization.md
-  - seo-wiki/entities/tools/flowbank.md
-  - seo-wiki/sources/arxiv-yuan-2026-flowbank-agentic-workflows-2606.11290-2026-06-16.md
+  - "@seo-wiki/entities/tools/flowbank.md"
+  - "@seo-wiki/sources/arxiv-yuan-2026-flowbank-agentic-workflows-2606.11290-2026-06-16.md"
 maturity: draft
 created: 2026-06-16
 updated: 2026-06-16

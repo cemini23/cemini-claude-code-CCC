@@ -8,6 +8,7 @@ maturity: draft
 created: 2026-07-05
 updated: 2026-07-05
 cross-wiki-source: @osint-wiki/sources/newsletter-rss-pragmatic-engineer-2026-06-30-impressions-from-visiting-openai-anthropic-curso.md
+read_status: read
 ---
 
 # The Pragmatic Engineer — Impressions from visiting OpenAI, Anthropic, & Cursor

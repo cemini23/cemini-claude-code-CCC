@@ -31,7 +31,7 @@ cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-38-2026-05-26.
 - `@entities/tools/openspec.md` — spec-first changes pair with pre-mortem on agent behavior
 - `@concepts/agent-vm-sandboxing.md` — isolate first run after pre-mortem passes
 
-Cross-wiki: K67 Post 29 (@itsolelehmann) via `@osint-wiki/briefs/2026-05-26_k67-claude-obsidian-workflows-from-osint.md`.
+Cross-wiki: K67 Post 29 (@itsolelehmann) via `OSINT WORKSPACE/briefs/2026-05-26_k67-claude-obsidian-workflows-from-osint.md`.
 
 ## Raw Concept
 

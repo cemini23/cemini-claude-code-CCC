@@ -8,6 +8,7 @@ maturity: draft
 created: 2026-07-05
 updated: 2026-07-05
 cross-wiki-source: @osint-wiki/sources/newsletter-rss-latent-space-2026-07-01-warp-ceo-zach-lloyd-on-why-software-factories-ar.md
+read_status: read
 ---
 
 # Latent Space — Warp CEO Zach Lloyd on why software factories are the next phase of coding

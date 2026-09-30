@@ -14,7 +14,6 @@ related:
   - concepts/runtime-context-mcp-file-refs.md
   - entities/tools/claude-mem.md
   - entities/mcp-servers/stash.md
-  - "@osint-wiki/concepts/contextualized-time-series-agent-harness.md"
 maturity: draft
 read_status: read
 created: 2026-06-08
@@ -27,7 +26,6 @@ updated: 2026-06-08
 - `@entities/tools/timeclaw.md` — reference implementation
 - `@concepts/code-as-agent-harness.md` — modality-native harness peer
 - `@concepts/mcp-context-optimization.md` — MCP workspace pattern
-- `@osint-wiki/concepts/contextualized-time-series-agent-harness.md` — finance/TSAIA routing stub
 
 ## Raw Concept
 
@@ -62,3 +60,5 @@ Three harness components:
 > "Every numerical claim [must be] grounded in a returned tool observation rather than inferred from free-form language reasoning." [Source: arxiv-2606.05404 §3.2, retrieved 2026-06-08]
 
 > "Code is available at https://github.com/iDEA-iSAIL-Lab-UIUC/TimeClaw" [Source: arxiv abstract; `gh api` Apache-2.0 confirmed 2026-06-08]
+
+Finance benchmarks (TSAIA, CiK finance slices) route to **osint-wiki**. That cross-wiki target page does not exist yet (checked 2026-09-30), so it is recorded here as intent rather than as a `related:` edge — a dangling edge would fail wiki lint. Create `osint-wiki concepts/contextualized-time-series-agent-harness (page not written)` to re-link.

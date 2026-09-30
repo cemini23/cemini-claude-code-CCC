@@ -51,5 +51,5 @@ No public PORTICO repo — **Reference** pattern steal only
 
 ## Sources
 
-- @sources/arxiv-2606-22504-portico-lingering-authority-coding-agents.md
-- @concepts/lingering-authority-revocable-capabilities.md
+- @cybersecurity-wiki/sources/arxiv-2606-22504-portico-lingering-authority-coding-agents.md
+- @cybersecurity-wiki/concepts/lingering-authority-revocable-capabilities.md

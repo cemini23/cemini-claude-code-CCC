@@ -5,8 +5,8 @@ tags: [tool, deep-research, reference, cross-wiki]
 keywords: [DeepRubric, Apache-2.0, GRPO]
 related:
   - concepts/evidence-tree-rubric-supervision.md
-  - seo-wiki/entities/tools/deeprubric-code.md
-  - seo-wiki/sources/arxiv-zhu-2026-deeprubric-evidence-tree-2606.17029-2026-06-16.md
+  - "@seo-wiki/entities/tools/deeprubric-code.md"
+  - "@seo-wiki/sources/arxiv-zhu-2026-deeprubric-evidence-tree-2606.17029-2026-06-16.md"
 maturity: draft
 created: 2026-06-16
 updated: 2026-06-16

@@ -5,8 +5,8 @@ tags: [concept, knowledge-harness, wiki, passive-injection, context-engineering]
 keywords: [2606.01886, inkh, temporal-graph, wiki-audit, financial-cognition-friction]
 related:
   - sources/arxiv-interaction-native-knowledge-harness-2606.01886.md
-  - osint-wiki/concepts/interaction-native-knowledge-harness.md
-  - osint-wiki/sources/arxiv-interaction-native-knowledge-harness-2606.01886.md
+  - "@osint-wiki/concepts/interaction-native-knowledge-harness.md"
+  - "@osint-wiki/sources/arxiv-interaction-native-knowledge-harness-2606.01886.md"
   - entities/mcp-servers/llm-wiki-compiler.md
   - concepts/context-engineering.md
   - concepts/federated-daily-research-digest.md

@@ -36,4 +36,4 @@ Eval primary: `@osint-wiki/sources/eval-tool-routing-hermes-plan-2026-06-27.md`.
 ## Sources
 
 - `briefs/2026-06-27_k132-local-adoptions-cursor-federation-prod.md`
-- @osint-wiki/wiki/log.md — 2026-06-27 K132 ingest
+- @osint-wiki/log.md — 2026-06-27 K132 ingest

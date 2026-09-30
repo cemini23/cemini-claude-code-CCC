@@ -46,6 +46,6 @@ arXiv:2606.20922 / Tool-Guard: **cross-tool description poisoning** persists poi
 
 ## Sources
 
-- @sources/arxiv-2606-20922-tool-guard-isolated-planning-tool-description-poisoning.md
-- @concepts/cross-tool-description-poisoning.md
-- @entities/tools/tool-guard.md
+- @cybersecurity-wiki/sources/arxiv-2606-20922-tool-guard-isolated-planning-tool-description-poisoning.md
+- @cybersecurity-wiki/concepts/cross-tool-description-poisoning.md
+- @cybersecurity-wiki/entities/tools/tool-guard.md

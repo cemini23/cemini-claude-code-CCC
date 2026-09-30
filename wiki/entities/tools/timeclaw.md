@@ -7,7 +7,6 @@ related:
   - sources/arxiv-timeclaw-contextualized-time-series-2606.05404.md
   - concepts/time-series-native-agent-harness.md
   - concepts/code-as-agent-harness.md
-  - "@osint-wiki/concepts/contextualized-time-series-agent-harness.md"
 maturity: draft
 created: 2026-06-08
 updated: 2026-06-08
@@ -18,7 +17,6 @@ phase_0_verdict: "CONDITIONAL-GO 2026-06-08 — Apache-2.0; 0★ release-day; ha
 
 - `@sources/arxiv-timeclaw-contextualized-time-series-2606.05404.md` — paper provenance
 - `@concepts/time-series-native-agent-harness.md` — methodology synthesis
-- `@osint-wiki/concepts/contextualized-time-series-agent-harness.md` — finance benchmark routing
 
 ## Raw Concept
 
@@ -57,3 +55,5 @@ Reference implementation for **time-series-native agent harness** — MCP worksp
 ## Snippets
 
 > "TIMECLAW achieves the best average RCRPS and sMAPE" on CiK with ~half tokens vs multi-agent reflection. [Source: arxiv 2606.05404 Table 1 — [TENTATIVE] single-paper eval]
+
+Finance benchmarks (TSAIA, CiK finance slices) route to **osint-wiki**. That cross-wiki target page does not exist yet (checked 2026-09-30), so it is recorded here as intent rather than as a `related:` edge — a dangling edge would fail wiki lint. Create the concept `contextualized-time-series-agent-harness` under osint-wiki's concepts/ to re-link.

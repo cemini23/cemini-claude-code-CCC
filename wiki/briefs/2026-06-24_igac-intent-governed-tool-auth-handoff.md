@@ -47,5 +47,5 @@ IGAC on OpenPort — **Reference** (no standalone OSS repo 2026-06-24)
 
 ## Sources
 
-- @sources/arxiv-2606-22916-intent-governed-tool-authorization-igac.md
-- @concepts/intent-governed-tool-authorization.md
+- @cybersecurity-wiki/sources/arxiv-2606-22916-intent-governed-tool-authorization-igac.md
+- @cybersecurity-wiki/concepts/intent-governed-tool-authorization.md

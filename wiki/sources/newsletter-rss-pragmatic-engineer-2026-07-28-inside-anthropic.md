@@ -8,6 +8,7 @@ maturity: draft
 created: 2026-07-28
 updated: 2026-07-28
 cross-wiki-source: @osint-wiki/sources/newsletter-rss-pragmatic-engineer-2026-07-28-inside-anthropic.md
+read_status: read
 ---
 
 # Pragmatic Engineer — Inside Anthropic (2026-07-28)

@@ -8,6 +8,7 @@ maturity: draft
 created: 2026-07-05
 updated: 2026-07-05
 cross-wiki-source: @osint-wiki/sources/newsletter-rss-latent-space-2026-07-03-aiewf-daily-dispatch-the-great-loops-debate-and.md
+read_status: read
 ---
 
 # Latent Space — AIEWF Daily Dispatch: The great loops debate and the state of AI engineering

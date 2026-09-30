@@ -39,7 +39,7 @@ K69 Post 18 + K68 tool-eval inventory: **notebooklm-py** — MIT, ~13.7k★ clai
 | Overlap | Distinct from librarian RAG — consumer podcast/Q&A use case |
 | CCC fit | Optional bridge from Obsidian exports / briefs → audio review |
 | **Laptop adopt** | **DONE** — pip 0.5.0, Playwright chromium, `notebooklm login`, auth check ok (2026-05-27) |
-| **Agent skills** | **DONE** — `notebooklm skill install` → `~/.claude/skills/notebooklm`, OSINT `.claude/skills/notebooklm`, `.agents/skills/notebooklm`; OSINT wrapper `@osint-wiki/.cursor/skills/notebooklm-osint-bridge` |
+| **Agent skills** | **DONE** — `notebooklm skill install` → `~/.claude/skills/notebooklm`, OSINT `.claude/skills/notebooklm`, `.agents/skills/notebooklm`; OSINT wrapper `OSINT WORKSPACE/.cursor/skills/notebooklm-osint-bridge` |
 | Librarian / egress / prod | **NO** — Google-hosted; not in Cemini serving or trading path |
 
 ### Laptop install (2026-05-27)

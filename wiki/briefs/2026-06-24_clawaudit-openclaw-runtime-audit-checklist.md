@@ -47,6 +47,6 @@ arXiv:2606.21071: local agents are **privileged runtimes**. CLAWAUDIT Semgrep/Co
 
 ## Sources
 
-- @sources/arxiv-2606-21071-clawaudit-local-agent-runtime-audit.md
-- @concepts/local-agent-runtime-audit.md
-- @entities/tools/clawaudit.md
+- @cybersecurity-wiki/sources/arxiv-2606-21071-clawaudit-local-agent-runtime-audit.md
+- @cybersecurity-wiki/concepts/local-agent-runtime-audit.md
+- @cybersecurity-wiki/entities/tools/clawaudit.md

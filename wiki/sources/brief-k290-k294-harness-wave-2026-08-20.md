@@ -18,6 +18,7 @@ related:
 maturity: validated
 created: 2026-08-20
 updated: 2026-08-20
+read_status: read
 ---
 
 ## Narrative

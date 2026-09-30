@@ -8,6 +8,7 @@ maturity: draft
 created: 2026-07-05
 updated: 2026-07-05
 cross-wiki-source: @osint-wiki/sources/newsletter-rss-latent-space-2026-07-02-the-website-of-the-future-may-assemble-itself-fo.md
+read_status: read
 ---
 
 # Latent Space — The website of the future may assemble itself for every visitor

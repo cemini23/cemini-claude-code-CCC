@@ -8,6 +8,7 @@ maturity: draft
 created: 2026-07-28
 updated: 2026-07-28
 cross-wiki-source: @osint-wiki/sources/newsletter-rss-latent-space-2026-07-28-codex-chatgpt-work.md
+read_status: read
 ---
 
 # Latent Space — Codex / ChatGPT Work (2026-07-28)

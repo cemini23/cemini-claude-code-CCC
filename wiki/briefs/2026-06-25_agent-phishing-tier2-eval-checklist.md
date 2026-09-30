@@ -46,6 +46,6 @@ Cracken paper — **Reference**; reproduce testbed uses OpenCode reimplementatio
 
 ## Sources
 
-- @sources/arxiv-2606-24496-red-teaming-the-agentic-red-team.md
-- @concepts/agentic-offensive-security-kill-chain.md
-- @concepts/seclaw-agent-security-evaluation.md
+- @cybersecurity-wiki/sources/arxiv-2606-24496-red-teaming-the-agentic-red-team.md
+- @cybersecurity-wiki/concepts/agentic-offensive-security-kill-chain.md
+- @cybersecurity-wiki/concepts/seclaw-agent-security-evaluation.md

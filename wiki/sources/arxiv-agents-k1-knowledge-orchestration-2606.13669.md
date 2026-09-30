@@ -9,7 +9,7 @@ related:
   - entities/mcp-servers/librarian-kb-server.md
   - entities/tools/conductor-mcp.md
   - concepts/cross-wiki-routing.md
-  - osint-wiki/concepts/librarian-server-architecture.md
+  - "@osint-wiki/concepts/librarian-server-architecture.md"
 maturity: draft
 read_status: skimmed
 created: 2026-06-13

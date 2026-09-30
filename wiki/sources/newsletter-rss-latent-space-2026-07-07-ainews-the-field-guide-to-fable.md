@@ -8,6 +8,7 @@ maturity: draft
 created: 2026-07-07
 updated: 2026-07-07
 cross-wiki-source: @osint-wiki/sources/newsletter-rss-latent-space-2026-07-07-ainews-the-field-guide-to-fable.md
+read_status: read
 ---
 
 # Latent Space — [AINews] The Field Guide to Fable

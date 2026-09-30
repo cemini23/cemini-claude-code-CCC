@@ -4,7 +4,7 @@ type: source
 tags: [source, ood, nlp, cultural-eval, haitian-creole]
 keywords: [2609.31506, haitian-creole, cultural-awareness, ood]
 related:
-  - "@cybersecurity-wiki/sources/arxiv-2609-31506-haitian-creole-llm-cultural-awareness-ood.md"
+  - "@cybersecurity-wiki/sources/arxiv-2609-31506-haitian-creole-cultural-awareness-ood.md"
 maturity: draft
 read_status: read
 created: 2026-09-28
@@ -14,7 +14,7 @@ cross-wiki-routed: cybersecurity-wiki
 
 ## Relations
 
-- @cybersecurity-wiki/sources/arxiv-2609-31506-haitian-creole-llm-cultural-awareness-ood.md — cyber ingest OOD stub + PDF on cybersec egress
+- @cybersecurity-wiki/sources/arxiv-2609-31506-haitian-creole-cultural-awareness-ood.md — cyber ingest OOD stub + PDF on cybersec egress
 
 ## Raw Concept
 

@@ -9,7 +9,7 @@ related:
   - entities/tools/defenseclaw.md
   - concepts/skill-vetting.md
   - concepts/etclovg-harness-layers.md
-  - cybersecurity-wiki/concepts/safeclawbench-staged-agent-security.md
+  - "@cybersecurity-wiki/concepts/safeclawbench-staged-agent-security.md"
   - sources/brief-k121-tokenpilot-safeclaw-gatekeepers-prod-2026-06-21.md
   - concepts/cage-1-enterprise-agent-governance-eval.md
   - concepts/verifiable-search-agent-environment.md

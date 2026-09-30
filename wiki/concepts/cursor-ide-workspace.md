@@ -35,7 +35,7 @@ updated: 2026-06-29
 - `@entities/tools/claude-code.md` — hooks, `/plugin`, claude-mem
 - `@entities/mcp-servers/stash.md` — global episodic memory
 - `@entities/mcp-servers/exa.md` — external research
-- `@osint-wiki/.cursor/README.md` — operational MCP README (live config)
+- `OSINT WORKSPACE/.cursor/README.md` — operational MCP README (live config)
 - `@entities/tools/awesome-cursorrules.md` — CC0 rules catalog; cherry-pick into `.cursor/rules/` (K63)
 - `@entities/tools/cursor-community-plugins.md` — discovery index only (no LICENSE file)
 - `@entities/tools/openevolve.md` — harness optimization experiments (Docker-isolated)
@@ -107,4 +107,4 @@ cd "<osint-wiki-workspace>"   # private clone; path varies per maintainer
 ./scripts/setup_cursor_github_mcp.sh
 ```
 
-[CONFIRMED] Project MCP layout documented in `@osint-wiki/.cursor/README.md` (2026-05-21).
+[CONFIRMED] Project MCP layout documented in `OSINT WORKSPACE/.cursor/README.md` (2026-05-21).

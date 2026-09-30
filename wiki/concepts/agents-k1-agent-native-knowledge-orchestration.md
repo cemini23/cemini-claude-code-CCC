@@ -9,14 +9,14 @@ related:
   - entities/mcp-servers/librarian-kb-server.md
   - entities/tools/conductor-mcp.md
   - concepts/cross-wiki-routing.md
-  - osint-wiki/concepts/librarian-server-architecture.md
-  - osint-wiki/concepts/interaction-native-knowledge-harness.md
+  - "@osint-wiki/concepts/librarian-server-architecture.md"
+  - "@osint-wiki/concepts/interaction-native-knowledge-harness.md"
   - entities/mcp-servers/llm-wiki-compiler.md
   - concepts/internet-of-agentic-ai-ioai.md
 maturity: draft
 created: 2026-06-13
 updated: 2026-06-15
-cross-wiki-source: "@osint-wiki/entities/mcp-servers/librarian-kb-server.md"
+cross-wiki-source: "osint-wiki entities/mcp-servers/librarian-kb-server (page not written)"
 ---
 
 ## Relations

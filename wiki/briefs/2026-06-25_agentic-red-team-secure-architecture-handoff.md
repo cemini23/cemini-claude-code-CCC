@@ -36,10 +36,10 @@ Reject or scope: `NET_ADMIN`, `NET_RAW`, `SYS_ADMIN`, `seccomp:unconfined`, `app
 
 ### Phase-0
 
-Paper — **Reference** (Cracken audit). Per-tool: re-audit before Tier-2 adoption; see @concepts/agentic-offensive-security-kill-chain.md Table 1.
+Paper — **Reference** (Cracken audit). Per-tool: re-audit before Tier-2 adoption; see @cybersecurity-wiki/concepts/agentic-offensive-security-kill-chain.md Table 1.
 
 ## Sources
 
-- @sources/arxiv-2606-24496-red-teaming-the-agentic-red-team.md
-- @concepts/agentic-offensive-security-kill-chain.md
-- @concepts/llm-pentest-automation.md
+- @cybersecurity-wiki/sources/arxiv-2606-24496-red-teaming-the-agentic-red-team.md
+- @cybersecurity-wiki/concepts/agentic-offensive-security-kill-chain.md
+- @cybersecurity-wiki/concepts/llm-pentest-automation.md

@@ -12,7 +12,7 @@ related:
 maturity: draft
 created: 2026-06-25
 updated: 2026-06-25
-cross-wiki-primary: "@osint-wiki/concepts/neurosymbolic-adaptive-reasoning-workflows.md"
+cross-wiki-primary: "osint-wiki concepts/neurosymbolic-adaptive-reasoning-workflows (page not written)"
 ---
 
 ## Relations

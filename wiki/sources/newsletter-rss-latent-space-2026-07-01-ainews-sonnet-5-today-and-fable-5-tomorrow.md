@@ -8,6 +8,7 @@ maturity: draft
 created: 2026-07-05
 updated: 2026-07-05
 cross-wiki-source: @osint-wiki/sources/newsletter-rss-latent-space-2026-07-01-ainews-sonnet-5-today-and-fable-5-tomorrow.md
+read_status: read
 ---
 
 # Latent Space — [AINews] Sonnet 5 today, and Fable 5 tomorrow

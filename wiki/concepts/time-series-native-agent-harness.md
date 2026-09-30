@@ -14,7 +14,6 @@ related:
   - concepts/etclovg-harness-layers.md
   - entities/tools/claude-mem.md
   - entities/mcp-servers/stash.md
-  - "@osint-wiki/concepts/contextualized-time-series-agent-harness.md"
 maturity: draft
 created: 2026-06-08
 updated: 2026-06-08
@@ -61,10 +60,12 @@ arXiv **2606.05404** (TimeClaw, UIUC): generalist LLM agents fail on **contextua
 | Evolving toolbox | `@concepts/muse-autoskill-skill-lifecycle.md`, `@concepts/skilladaptor-step-level-skill-adaptation.md` |
 | Episodic retrieval | `@entities/tools/claude-mem.md`, `@entities/mcp-servers/stash.md` |
 
-**Finance benchmarks** (TSAIA, CiK finance slices) → `@osint-wiki/concepts/contextualized-time-series-agent-harness.md`.
+**Finance benchmarks** (TSAIA, CiK finance slices) → **osint-wiki** (page not yet written).
 
 **Name collision:** arXiv **2605.10038** is a different "TimeClaw" (exploratory execution learning) — do not merge pages.
 
 ## Snippets
 
 > "How to build time-series-native agent harness?" — central RQ of 2606.05404. [Source: arxiv-timeclaw-contextualized-time-series-2606.05404.md]
+
+Finance benchmarks (TSAIA, CiK finance slices) route to **osint-wiki**. That cross-wiki target page does not exist yet (checked 2026-09-30), so it is recorded here as intent rather than as a `related:` edge — a dangling edge would fail wiki lint. Create the concept `contextualized-time-series-agent-harness` under osint-wiki's concepts/ to re-link.

@@ -6,7 +6,7 @@ keywords: [2606.18356, semantic-core, sandbox-harm, openclaw]
 related:
   - concepts/safeclawbench-staged-security-endpoints.md
   - concepts/seclaw-agent-security-evaluation.md
-  - cybersecurity-wiki/concepts/safeclawbench-staged-agent-security.md
+  - "@cybersecurity-wiki/concepts/safeclawbench-staged-agent-security.md"
   - entities/tools/defenseclaw.md
 maturity: draft
 read_status: read

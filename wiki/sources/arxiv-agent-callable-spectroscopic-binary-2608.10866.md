@@ -12,6 +12,7 @@ related:
 maturity: draft
 created: 2026-08-12
 updated: 2026-08-12
+read_status: read
 ---
 
 ## Relations

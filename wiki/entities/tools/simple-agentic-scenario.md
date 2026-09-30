@@ -38,4 +38,4 @@ Implements predictive light sensing with lux rules (Tab. 2), MCP tool bridge to 
 
 ## Dead Ends
 
-- **2026-07-01 Phase-0:** `gh api` reports `license: null` — cannot Adopt per `@osint-wiki/LESSONS.md` no-LICENSE pattern.
+- **2026-07-01 Phase-0:** `gh api` reports `license: null` — cannot Adopt per `OSINT WORKSPACE/LESSONS.md` no-LICENSE pattern.
