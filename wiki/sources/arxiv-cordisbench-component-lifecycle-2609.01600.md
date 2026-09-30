@@ -45,7 +45,7 @@ CordisBench evaluates whether agents reason correctly about **component lifecycl
 
 CCC policy lines: treat dynamic harness changes as **dependency + teardown-order** problems; prefer deterministic execution verify when spec available (pairs K327 Logos: append-only transcript, no repeated effect at tool-call boundaries). Paper cites public artifacts but **no SPDX found** → WATCH; eval runtime `wont_wire`; concept `policy_wired`.
 
-| Confidence | `[CONFIRMED]` — benchmark design and scale results from the paper; SPDX status `[NEEDS VERIFICATION 2026-09-02]` |
+| Confidence | `[CONFIRMED]` — benchmark design and scale results from the paper; SPDX status **unresolved** — a `gh search repos "CordisBench"` on 2026-09-30 returned no candidates, so the watch cannot be closed by API lookup. Dated tag dropped; re-open only if a repo URL surfaces. |
 |------------|------------|
 
 ## Snippets

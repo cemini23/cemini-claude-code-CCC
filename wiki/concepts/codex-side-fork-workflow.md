@@ -35,7 +35,7 @@ Cross-wiki: `@osint-wiki/sources/trading-posts-compilation-k84-2026-05-30.md` (c
 
 ## Raw Concept
 
-K84 Posts 3–8 (@ziwenxu_ / OpenAI): **Codex harness** features for long-horizon agent work — especially `/side` (branch exploration) and `/fork` (preserve good path before risky work). CCC documents as **steal-from patterns** mapped to Cursor + Claude Code, not as confirmed Cemini Codex adoption **`[NEEDS VERIFICATION 2026-05-30]`** until verified on operator Codex build.
+K84 Posts 3–8 (@ziwenxu_ / OpenAI): **Codex harness** features for long-horizon agent work — especially `/side` (branch exploration) and `/fork` (preserve good path before risky work). CCC documents as **steal-from patterns** mapped to Cursor + Claude Code. **Command existence CONFIRMED 2026-09-30** — `/side` and `/fork` are documented Codex CLI commands, including an official `codex fork` reference page and multiple independent write-ups. Still **not** verified against the operator's installed Codex build.
 
 ## Narrative
 
@@ -59,7 +59,7 @@ Codex + Claude Code + Cursor coexist in the federation:
 
 ### K97 Post 10 — Codex 30-min course [TENTATIVE]
 
-@0xCodez beginner course on **OpenAI Codex CLI** — onboarding path for parallel IDE. CCC operators already on Claude Code: skim for `/side`, `/fork`, skills parity only; full course is `[NEEDS VERIFICATION 2026-06-03]` against installed Codex build. Cross-link: [OpenAI Codex docs](https://developers.openai.com/codex) (retrieved 2026-06-03).
+@0xCodez beginner course on **OpenAI Codex CLI** — onboarding path for parallel IDE. CCC operators already on Claude Code: skim for `/side`, `/fork`, skills parity only. The `/side` and `/fork` commands are **CONFIRMED to exist** (2026-09-30); the remaining unverified part is only whether this specific course's content matches the installed build. Cross-link: [OpenAI Codex docs](https://developers.openai.com/codex).
 
 ### Do not port (K84 brief)
 

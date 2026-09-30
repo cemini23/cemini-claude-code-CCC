@@ -77,7 +77,7 @@ CCC-side stub cross-routed from the OSINT-side primary. The 12 rules are a CLAUD
 
 ### Empirical claim (deferred to OSINT primary)
 
-Mnilax cites a 3%-vs-41% mistake-rate delta between a 12-rule CLAUDE.md and a no-CLAUDE.md baseline. `[NEEDS VERIFICATION 2026-05-17]` — the methodology behind that number isn't published; OSINT's primary page flags this as author-asserted, not externally verified.
+Mnilax cites a 3%-vs-41% mistake-rate delta between a 12-rule CLAUDE.md and a no-CLAUDE.md baseline. **Standingly unverifiable** — the methodology behind that number is unpublished, so no lookup settles it. OSINT's primary page flags this as author-asserted, not externally verified. Treat the *template* as useful and the *number* as marketing. (Date dropped 2026-09-30.)
 
 ## Snippets
 

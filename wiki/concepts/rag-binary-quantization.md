@@ -49,7 +49,7 @@ K69 Post 4 (@_avichawla): **binary quantization** for RAG vector stores — clai
 ### Non-actions
 
 - Do not rewrite kb-server embedding pipeline from one X post.
-- Creator "32×" claims require `[NEEDS VERIFICATION 2026-05-27]` on Cemini query mix.
+- Creator "32×" claims are **standingly unverified** — they depend on Cemini's own query mix, which no external lookup resolves. Treat as vendor claim, not measured. (Date dropped 2026-09-30; it was not a timer-expiring check.)
 
 ## Snippets
 

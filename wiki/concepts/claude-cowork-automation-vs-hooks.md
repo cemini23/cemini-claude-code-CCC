@@ -41,7 +41,7 @@ K97 Post 13 (@eng_khairallah1): **Claude Cowork** "full-day automation course" �
 
 - **Do not** duplicate Cowork flows on Desktop if Claude Code hooks already cover the same trigger.
 - **Steal-from:** day-structure templates (morning triage → deep work → ingest) for briefs, not product dependency.
-- Cowork course content is `[TENTATIVE]` — verify feature names against current Anthropic Cowork docs `[NEEDS VERIFICATION 2026-06-03]`.
+- Cowork course content is `[TENTATIVE]` — **partially verified 2026-09-30**: Claude Desktop's "Cowork" scheduled-task surface is real and `/schedule` is the documented Claude Desktop counterpart to Claude Code's `/loop` (the official scheduled-tasks doc contrasts the two directly). Individual course feature names remain unverified.
 
 **Verdict:** **REFERENCE** — workflow vocabulary only; Cemini prod stays Claude Code + Cursor.
 

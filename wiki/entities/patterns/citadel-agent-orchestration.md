@@ -55,4 +55,4 @@ Citadel validates the conductor/librarian architecture direction Cemini has been
 
 License not yet GitHub-API verified at time of routing. If MIT/Apache: promote to Adopt for pattern extraction. If unlicensed: Steal-from architecturally only; no code.
 
-[NEEDS VERIFICATION 2026-05-21] upstream license.
+**License RESOLVED 2026-09-30: MIT.** `sethgammon/Citadel` — 923★, pushed 2026-09-27, actively maintained. [CONFIRMED via GitHub API 2026-09-30] Per this page's own rule, the restriction lifts: **promote to Adopt for pattern extraction**. Code-level reuse is now permitted under MIT terms; no clone was performed.

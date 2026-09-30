@@ -44,4 +44,4 @@ Two-axis taxonomy: **what improves** (deployment behavior / training policy / ev
 > — [Source: arxiv-2607.07663 abstract]
 
 > "the scripts that generate the bibliography and figures are available at https://github.com/bamboodrift/recursive_self_improvement"
-> — [Source: arxiv-2607.07663 p.28] — `[NEEDS VERIFICATION 2026-07-14]` repo 404 at Phase-0
+> — [Source: arxiv-2607.07663 p.28] — repo 404 at Phase-0, **still 404 on re-check 2026-09-30** [CONFIRMED via GitHub API 2026-09-30]. The paper's stated artifact repo has never been published; the bibliography/figure scripts are unavailable.

@@ -62,7 +62,7 @@ AutoDesign: a **meta-harness optimizer guides a code agent to recursively improv
 
 ### Why this pairs K162
 
-K162's RSI verification hierarchy warns against closed self-eval loops (self-judge without external verification). AutoDesign demonstrates the *effective* version: meta-optimization works **when the eval contract is external** (PosterBench scoring + human study). Without that contract, a self-rewriting pass criterion is the failure mode to ban. `[NEEDS VERIFICATION 2026-08-14]` — the paper reports the external contract; whether the shipped harness enforces it at runtime is not audited in the paper.
+K162's RSI verification hierarchy warns against closed self-eval loops (self-judge without external verification). AutoDesign demonstrates the *effective* version: meta-optimization works **when the eval contract is external** (PosterBench scoring + human study). Without that contract, a self-rewriting pass criterion is the failure mode to ban. **Paper limitation, not an open check:** the paper reports the external contract; whether the shipped harness enforces it at runtime is out of scope for the paper, and no external lookup resolves it. (Date dropped 2026-09-30.)
 
 ### Local adopt
 

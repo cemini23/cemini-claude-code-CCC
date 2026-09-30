@@ -44,4 +44,4 @@ GitHub API reports NOASSERTION. The eval source claims v3.0.0 mutated from MIT �
 
 Visual workflow editing is not Cemini's primary interaction model (terminal-first), but cc-wf-studio's conditional-branching export format is interesting as a declarative subagent-pipeline specification language — a potential interchange format between conductor and scatter-gather.
 
-[NEEDS VERIFICATION 2026-05-21] license. GitHub API reports NOASSERTION; eval claims AGPL-3.0-or-later from v3.0.0. Verify before any installation.
+**License RESOLVED 2026-09-30.** `breaking-brake/cc-wf-studio` — SPDX `NOASSERTION`, license name "Other", 5,389★, pushed 2026-09-20. The `LICENSE` file carries a **custom header** ("CC Workflow Studio / Copyright (c) 2025 breaking-brake"), not a recognized license. **The earlier AGPL-3.0-or-later claim is not supported by the API.** [CONFIRMED via GitHub API 2026-09-30] Custom terms must be read by hand before any installation — do not assume AGPL permissions.

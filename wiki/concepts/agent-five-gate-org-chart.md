@@ -50,7 +50,7 @@ K98 Post 1 (@Voxyz_ai): multi-agent research beats single-chat persona cosplay w
 |---------------------|---------|
 | TauricResearch/TradingAgents | **REFERENCE** — academic org-chart anchor on OSINT |
 | AI Hedge Fund (59k★) | **DEFER** — Phase-0 license + overlap with conductor |
-| Bloome | **NO-GO install** until Phase-0 [NEEDS VERIFICATION 2026-06-04] |
+| Bloome | **NO-GO install** until Phase-0. A `gh search repos "Bloome"` on 2026-09-30 returned no matching repo, so Phase-0 cannot start — treat as not-adoptable rather than pending. (Dated tag dropped.) |
 
 **Gap [TENTATIVE]:** formal **Intake gate** script before expensive prod briefs — not yet a slash command; steal into `/goal` template preamble.
 

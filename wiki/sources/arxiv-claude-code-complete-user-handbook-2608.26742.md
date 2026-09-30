@@ -44,7 +44,7 @@ Deltas CCC did not already have (applied to the entity page):
 5. **Evidence-Gated Delivery** — eight-stage method with named gates ending in a human release gate (Chapter 34).
 6. **Misconception corrections (M01–M21)** — e.g. `/loop` ≠ cron (session-scoped, 50-task cap, 7-day expiry); M03 subagent "independent second opinion" only if you make it one (fork inherits parent conversation; parent's acceptEdits/bypass overrides subagent mode); M15 workflow agents always run in acceptEdits whatever the session mode; M10 not every MCP tool definition consumes context (Tool Search defers); M20 green routine status ≠ task success.
 
-| Confidence | `[TENTATIVE]` — single-source practitioner reference; several claims (M13 /agents, M17 /loop caps, M15 workflow-agent modes) not yet cross-checked against current Anthropic docs `[NEEDS VERIFICATION 2026-09-04]` |
+| Confidence | `[TENTATIVE]` — single-source practitioner reference. **M17 `/loop` caps CONFIRMED 2026-09-30** against the official scheduled-tasks doc ("Tasks are session-scoped"; "up to 50 scheduled tasks"; "expire 7 days after creation"). Still unverified: M13 `/agents` and M15 workflow-agent modes. |
 |------------|------------|
 
 ## Snippets

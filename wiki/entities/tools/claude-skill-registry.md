@@ -23,7 +23,7 @@ updated: 2026-06-07
 
 ## Raw Concept
 
-K88 **Adopt** — `github.com/majiayu000/claude-skill-registry`. Registry index pattern for Claude skills. License: verify on Phase-0 **`[NEEDS VERIFICATION 2026-05-31]`** if not in K88 spot-check table.
+K88 **Adopt** — `github.com/majiayu000/claude-skill-registry`. Registry index pattern for Claude skills. **License RESOLVED 2026-09-30: MIT** — 658★, pushed 2026-09-30 (actively maintained). [CONFIRMED via GitHub API 2026-09-30] The Adopt verdict stands; license is no longer a blocker.
 
 ## Narrative
 

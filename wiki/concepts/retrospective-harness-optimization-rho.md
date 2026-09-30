@@ -47,7 +47,7 @@ updated: 2026-07-30
 - `@concepts/harness-updating-vs-benefit-nonmonotonic.md` — optimized harness must be followed by executor
 - `@entities/tools/retro-harness.md` — MIT reference implementation
 - `@entities/patterns/glasswing-deliberate-disagreement.md` — self-consistency via adversarial re-check
-- `@concepts/harness-evolution-vs-test-time-scaling-baseline.md` — [NEEDS VERIFICATION 2026-07-15] Table (SWE-Bench Pro +0.19 etc.) has no reported scaling-baseline or held-out-generalization comparison
+- `@concepts/harness-evolution-vs-test-time-scaling-baseline.md` — Table (SWE-Bench Pro +0.19 etc.) has no reported scaling-baseline or held-out-generalization comparison. **Blocked on research** — tracked as ROADMAP "Harness-evolution claim re-audit (K169)". Date dropped 2026-09-30.
 
 ## Raw Concept
 
@@ -121,7 +121,7 @@ RHO edits **Skills+Tools**; memory-only baselines gain ≤+0.05.
 
 **Decision — CONDITIONAL-GO (laptop trial).** Run in isolated temp clone; do not wire to `~/.claude/` prod harness until smoke pass on CCC fixture trajectories.
 
-**[NEEDS VERIFICATION 2026-07-15]:** `@concepts/harness-evolution-vs-test-time-scaling-baseline.md` (AI2/UW 2607.12227) finds this class of method (single-round harness rewrite from unlabeled/self-preference feedback) often fails to beat simple parallel-sampling/sequential-refinement at matched budget, and gains overfit the tuning set. RHO's Table (SWE-Bench Pro 0.59→0.78) has no such baseline. Before promoting past laptop trial, run RHO's self-preference gate against a same-budget parallel-sampling control on a held-out task subset.
+**Unverified — blocked on a baseline experiment, not a lookup.** `@concepts/harness-evolution-vs-test-time-scaling-baseline.md` (AI2/UW 2607.12227) finds this class of method (single-round harness rewrite from unlabeled/self-preference feedback) often fails to beat simple parallel-sampling/sequential-refinement at matched budget, and gains overfit the tuning set. RHO's Table (SWE-Bench Pro 0.59→0.78) has no such baseline. Before promoting past laptop trial, run RHO's self-preference gate against a same-budget parallel-sampling control on a held-out task subset. Tracked as ROADMAP "Harness-evolution claim re-audit (K169)". (Date dropped 2026-09-30.)
 
 ## Snippets
 

@@ -40,7 +40,7 @@ K69 Post 3 (@larsencc): agent **sandbox infrastructure** — moving from serverl
 
 | Question | Answer |
 |----------|--------|
-| Adopt Unikraft on prod now? | **No** — `[NEEDS VERIFICATION 2026-05-27]` ops cost + Hetzner fit |
+| Adopt Unikraft on prod now? | **No** — pending an internal ops-cost estimate against the Hetzner deployment, which is an operator decision, not an external fact. Standing caveat (date dropped 2026-09-30). |
 | Value | **Reference** when scoping execution MCP hardening (polymarket-mcp-server class) |
 | Existing stack | `@entities/tools/cua.md` covers desktop VM pattern; Unikraft is server-side analogue |
 

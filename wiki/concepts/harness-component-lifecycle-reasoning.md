@@ -44,7 +44,7 @@ The question: when a dynamic agent harness installs, reconfigures, and removes p
 - Prefer **deterministic semantics + execution verify** over LLM lifecycle reasoning when a formal spec exists.
 - Paper cites GitHub/HF artifacts — **no public SPDX found at Phase-0** → **WATCH** until license verified; **no clone this wave**; eval runtime `wont_wire`.
 
-| Confidence | `[CONFIRMED]` — benchmark results from the paper; SPDX watch `[NEEDS VERIFICATION 2026-09-02]` |
+| Confidence | `[CONFIRMED]` — benchmark results from the paper; SPDX watch **open, not API-resolvable** — `gh search repos "CordisBench"` returned no candidates on 2026-09-30. Dated tag dropped. |
 |------------|------------|
 
 ## Snippets

@@ -79,7 +79,7 @@ Agent failure = **task demand > model capability**, along five axes: **tool-use*
 
 ### Verdict
 
-**ADOPT** the five-axis failure taxonomy and the diagnostic checklist as a design discipline for any future SLM/cheap-model routing decision. **REFERENCE** (do not install) the optimizer implementation itself — it's a `software-agent-sdk`-specific research harness, not a portable tool; see `@entities/tools/migration-analysis-replication-package.md`. **[NEEDS VERIFICATION 2026-07-15]** on the specific magnitude claims (89.7% recovery at 4% cost) pending a test-time-scaling baseline comparison per `@concepts/harness-evolution-vs-test-time-scaling-baseline.md` — the failure-mode taxonomy is sound independent of whether the specific optimizer numbers replicate.
+**ADOPT** the five-axis failure taxonomy and the diagnostic checklist as a design discipline for any future SLM/cheap-model routing decision. **REFERENCE** (do not install) the optimizer implementation itself — it's a `software-agent-sdk`-specific research harness, not a portable tool; see `@entities/tools/migration-analysis-replication-package.md`. **Magnitude claims unverified** (89.7% recovery at 4% cost) pending a test-time-scaling baseline comparison per `@concepts/harness-evolution-vs-test-time-scaling-baseline.md` — the failure-mode taxonomy is sound independent of whether the specific optimizer numbers replicate. Blocked on research, tracked as ROADMAP "Harness-evolution claim re-audit (K169)". (Date dropped 2026-09-30.)
 
 ## Snippets
 

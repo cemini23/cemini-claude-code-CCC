@@ -1,3 +1,22 @@
+## [2026-09-30] ops | Stale-tag sweep closed — 22 → 0
+
+Nineteen pages touched. Every dated `[NEEDS VERIFICATION]` tag is now resolved or converted.
+
+**Resolved by API / docs (9):**
+- `breaking-brake/cc-wf-studio` — SPDX `NOASSERTION`, **custom** LICENSE header. The eval's AGPL-3.0-or-later claim is unsupported.
+- `majiayu000/claude-skill-registry` — **MIT**, 658★, active. K88 Adopt unblocked.
+- `sethgammon/Citadel` — **MIT**, 923★, active. Page's own rule fires: **promote to Adopt for pattern extraction**.
+- `bamboodrift/recursive_self_improvement` — **still 404**. Artifact repo never published.
+- Codex `/side` and `/fork` — **CONFIRMED** documented CLI commands (incl. an official `codex fork` reference).
+- Claude Desktop "Cowork" `/schedule` — confirmed real; positioned as the Desktop counterpart to `/loop` in the official scheduled-tasks doc.
+- Handbook M17 `/loop` caps — **CONFIRMED** (session-scoped, 50-task cap, 7-day expiry).
+- CordisBench SPDX watch — **not API-resolvable**: `gh search repos "CordisBench"` returns no candidates. Watch stays open, date removed.
+- Bloome — no repo found; NO-GO stands as not-adoptable rather than pending Phase-0.
+
+**Converted to standing caveats (10):** `twelve-rule-claude-md-template` (Mnilax 3%/41% — methodology unpublished), `rag-binary-quantization`, `agent-sandbox-unikraft`, `meta-harness-optimization-hitl-eval-contract`, and the six-entry parked harness-evolution cluster (`harnessx-composable-evolution-foundry` ×2, `retrospective-harness-optimization-rho` ×2, `failure-mode-harness-adaptation-mapping`, `arxiv-better-harnesses-smaller-models`, `arxiv-rethinking-harness-evolution-evaluation`).
+
+**Why convert rather than keep:** these need a baseline *experiment* or an operator decision, not an Exa lookup. The lint's dated-tag check is defined as "Exa-resolution candidates", so re-flagging them weekly produced noise, not a re-check. Each now points at its real owner — mostly ROADMAP "Harness-evolution claim re-audit (K169)".
+
 ## [2026-09-30] ops | Stale-tag sweep — 33 → 26, one wrong claim corrected
 
 - **Verified 7 falsifiable repo/license claims** with `gh api`: `Wang-ML-Lab/OrchRM` now exists (the 2026-06-16 "404" was superseded; no license → no clone); `darkness22s/recursive-agent-harness` confirmed unchanged (no license, dormant since June); `CamelliaLilium/FinAcumen` **MIT** confirmed; `zhibao-dev/BorgeAgent` **still 404** → cited substrate unavailable, reproduction claim unsupported; `Spielewoy/multi-codex` **MIT** (246★) → DEFER reason cleared; `amaancoderx/npxskillui` is the `npxskillui` slug, **unlicensed**; dexscreener MCP has two candidate repos, neither confirmed.
