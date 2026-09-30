@@ -1,3 +1,10 @@
+## [2026-09-30] ops | SPDX watch rewritten + K406 Assay MCP audit
+
+- **`spdx_watch_harness_wave.sh` rewritten** — three defects found. (1) `--json licenseInfo` rejected by the installed `gh`, error swallowed by `2>/dev/null || echo '[]'`. (2) `gh search repos` matches **name/description only**, so every arXiv-title query returned a false "no repo found". (3) `gh search` returns `license.key`, not `license.spdxId` → would have printed `NOASSERTION` on any hit. Now: exact `gh api repos/<slug>` when the paper names its repo, name-shaped search otherwise.
+- **SPDX watches cleared:** `QwenLM/RecreationWorld` **MIT** (89★) → `sources/arxiv-recreationworld-hybrid-cua-environments-2609.22000.md`; `RUCAIBox/Agent-Editing-World-Model` **Apache-2.0** (9★) → `sources/arxiv-agent-editing-world-model-2609.28416.md`. `ShawnChenn/RecToolBench` re-confirmed MIT. `ustc-time-series/TokenCast` is a **name collision** (pushed 2025-11, a year before the paper) — not the K405 repo.
+- **K406 Assay MCP audit (Phase-0 complete).** Transport clean (stdio); `dependencies = []` confirmed; **but `attest` executes a model-supplied command via `subprocess.run(..., shell=True)` with a 900s timeout**. Runtime stays `wont_wire`. Detail: `concepts/assay-content-addressed-evidence-graphs.md`.
+- **No clones. No federation changes.**
+
 ## [2026-09-30] ingest | K406–K410 harness wave (Sep 30 daily sweep)
 
 - **Sources:** 2609.36170 Assay evidence graphs, 2609.38021 auditable LTM, 2609.38078 MotorMind, 2609.38143 meta-skills, 2609.38147 agentic meta-reasoning.

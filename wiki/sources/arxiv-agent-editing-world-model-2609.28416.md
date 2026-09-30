@@ -9,7 +9,7 @@ related:
 maturity: draft
 read_status: deep-read
 created: 2026-09-24
-updated: 2026-09-25
+updated: 2026-09-30
 ---
 
 ## Relations
@@ -29,7 +29,7 @@ updated: 2026-09-25
 
 **Verdict: ADOPT pattern.**
 
-LLM agents **maintain and edit explicit world models** for planning — harness pattern distinct from implicit context-only state (pairs K283 Twin validate-before-act / K296 terminal-state eval / K334 harness-as-eval-artifact). **No clone** unless SPDX verified at Phase-0. Runtime **`wont_wire`**.
+LLM agents **maintain and edit explicit world models** for planning — harness pattern distinct from implicit context-only state (pairs K283 Twin validate-before-act / K296 terminal-state eval / K334 harness-as-eval-artifact). **SPDX watch CLEARED 2026-09-30** — `RUCAIBox/Agent-Editing-World-Model` is **Apache-2.0** (9 stars, pushed 2026-09-24) [CONFIRMED via GitHub API 2026-09-30]. Clone now gated only on a Phase-0 maturity read, not on license. Runtime **`wont_wire`**.
 
 ## Snippets
 

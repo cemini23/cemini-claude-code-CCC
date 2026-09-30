@@ -1,48 +1,75 @@
 #!/usr/bin/env bash
-# SPDX watch — CordisBench, HarnessDev, InstructionArbitrationBench (CCC leftovers)
+# SPDX watch — harness-wave leftovers. Report only; never clones.
+#
+# Two lookup paths, because `gh search repos` matches on name/description ONLY:
+#   1. watch_slug  — exact `gh api repos/<owner>/<repo>`. Use when the paper names its repo.
+#   2. watch_query — fuzzy search fallback for repos whose slug is still unknown.
+#
+# Do not feed a full arXiv title to watch_query: search will return [] or unrelated
+# fuzzy matches, and the failure is silent.
 set -euo pipefail
 REPO_ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$REPO_ROOT"
 
 echo "SPDX watch — harness wave leftovers ($(date -u +%Y-%m-%d))"
 
-watch_repo() {
-  local slug="$1"
-  local query="$2"
+watch_slug() {
+  local slug="$1" note="${2:-}"
   echo ""
-  echo "==> $slug (query: $query)"
-  local hit
-  hit="$(gh search repos "$query" --limit 3 --json fullName,license,updatedAt 2>/dev/null || echo '[]')"
-  if [[ "$hit" == "[]" || -z "$hit" ]]; then
-    echo "  WATCH — no public GitHub repo found"
+  echo "==> $slug  ${note:+($note)}"
+  local json
+  if ! json="$(gh api "repos/${slug}" 2>&1)"; then
+    echo "  WATCH — slug not reachable: $(printf '%s' "$json" | head -1)"
     return 0
   fi
-  echo "$hit" | python3 -c "
+  printf '%s' "$json" | python3 -c "
 import json, sys
-rows = json.load(sys.stdin)
-for r in rows:
-    lic = (r.get('license') or {}).get('spdxId') or 'NOASSERTION'
-    updated = (r.get('updatedAt') or '?')[:10]
-    print(f\"  {r['fullName']}  SPDX={lic}  updated={updated}\")
+d = json.load(sys.stdin)
+lic = (d.get('license') or {}).get('spdx_id') or 'NOASSERTION'
+print(f\"  SPDX={lic}  stars={d.get('stargazers_count')}  pushed={(d.get('pushed_at') or '?')[:10]}  archived={d.get('archived')}\")
 "
 }
 
-watch_repo "CordisBench" "CordisBench arxiv 2609.01600"
-watch_repo "HarnessDev" "HarnessDev self-developing-agents"
-watch_repo "InstructionArbitrationBench" "InstructionArbitrationBench instruction arbitration"
-watch_repo "DelegationWithoutTrust" "delegation without trust votal LLM Shield"
-watch_repo "HarnessDesignCodingAgents" "empirical study harness design coding agents arxiv 2609.20804"
-watch_repo "Agensh" "Agensh scaling organizational intelligence microsoft arxiv 2609.26781"
-watch_repo "RecreationWorld" "RecreationWorld hybrid computer-use agents arxiv 2609.22000"
+watch_query() {
+  local label="$1" query="$2"
+  echo ""
+  echo "==> $label (query: $query)"
+  local out
+  if ! out="$(gh search repos "$query" --limit 3 --json fullName,license 2>&1)"; then
+    echo "  WATCH — search failed: $(printf '%s' "$out" | head -1)"
+    return 0
+  fi
+  printf '%s' "$out" | python3 -c "
+import json, sys
+rows = json.load(sys.stdin)
+if not rows:
+    print('  WATCH — no public GitHub repo found')
+    raise SystemExit(0)
+for x in rows:
+    # gh search repos returns license.key; only gh api repos/... has license.spdx_id.
+    lic = (x.get('license') or {}).get('key') or 'NOASSERTION'
+    print(f\"  {x['fullName']}  SPDX={lic}\")
+"
+}
 
-watch_repo "AgentApprovalLaundering" "Agent Approval Laundering arxiv 2609.28586"
-watch_repo "AgentEditingWorldModel" "Agent-Editing World Model arxiv 2609.28416"
-watch_repo "RecToolBench" "RecToolBench recommendation tool orchestration arxiv 2609.30717"
+# -- Exact slugs (paper names the repo) ---------------------------------------
+watch_slug "OmShiv/assay-research" "K406 Assay"
+watch_slug "qiancheng-apodex/MetaSkill-AI4AI" "K409 meta-skills"
+watch_slug "cjchanh/longmemeval-evidence" "K407 auditable LTM"
+
+# -- Fuzzy fallback (repo slug still unknown) ---------------------------------
+watch_query "CordisBench" "CordisBench"
+watch_query "HarnessDev" "HarnessDev"
+watch_query "InstructionArbitrationBench" "InstructionArbitrationBench"
+watch_query "DelegationWithoutTrust" "delegation-without-trust"
+watch_query "HarnessDesignCodingAgents" "harness-design-coding-agents"
+watch_query "Agensh" "Agensh"
+watch_query "RecreationWorld" "RecreationWorld"
+watch_query "AgentApprovalLaundering" "agent-approval-laundering"
+watch_query "AgentEditingWorldModel" "agent-editing-world-model"
+watch_query "RecToolBench" "RecToolBench"
+watch_query "TokenCast" "TokenCast"
+watch_query "MotorMind" "MotorMind"
 
 echo ""
-watch_repo "Assay" "assay claims that decay with the code arxiv 2609.36170"
-watch_repo "MetaSkill-AI4AI" "learning meta-skills agent harness design arxiv 2609.38143"
-watch_repo "MotorMind" "motormind vision language robot manipulation arxiv 2609.38078"
-watch_repo "AuditableLTM" "auditable long-term memory deterministic retrieval chain arxiv 2609.38021"
-watch_repo "TokenCast" "TokenCast agent token forecast arxiv 2609.35760"
 echo "Done. No clones performed — report only."
