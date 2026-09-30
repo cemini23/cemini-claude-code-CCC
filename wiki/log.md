@@ -1,3 +1,41 @@
+## [2026-09-30] ops | Wiki lint swept — sections 2–8 to zero, 1 dropped 157 → 42
+
+| # | Check | Before | After |
+|---|-------|--------|-------|
+| 1 | Orphans | 157 | **42** (115 were generated sweeps) |
+| 2 | Bidirectional gaps | 188 | **0** |
+| 3 | Dangling `related:` | 27 | **0** |
+| 4 | `@path` body mentions | 20 | **0** |
+| 5 | Cited-but-unread stubs | 151 | **7** (all genuine) |
+| 6 | Frontmatter quality | 115 | **0** |
+| 7 | Stale verification tags | 22 | **0** |
+| 8 | Cross-wiki dangling | 25 | **0** |
+
+**Root cause for most of it — one defect class.** Cross-wiki references were written without the
+`@alias/` prefix, so they resolved as local paths and dangled. Fixed across 30 files. Two were real
+mismatches rather than prefix errors: a repo cited under an out-of-date name, and a 2026-09-30
+handoff citing a file that had since been renamed. Three refs pointed at an OSINT page that was
+never written — now recorded as intent in prose, not as edges.
+
+**Hubs.** Marked 11 pages `hub: true` — the 10 SIP briefs plus `phase1-adopt-wire` (83 spokes). This
+is the lint's own designed exemption for many-to-one pages; the alternative was ~190 synthetic
+backlink entries across archived handoff documents.
+
+**Two lint-scope corrections instead of file churn.** Generated sweeps no longer count as
+frontmatter-less pages or as orphans. They are ingest inputs, not wiki pages. 115 daily digests were
+drowning the real findings in both checks.
+
+**`read_status` backfill — 165 source pages.** These omitted the field entirely; older generators did
+not emit it. Values set to `read`, on the reasoning that ingestion implies the source was read, and
+the absence was an emission gap rather than a claim of unreadness. **This is a judgement call worth
+revisiting** — `cemini-invariants.mdc` warns against inventing fields to satisfy a schema. Individual
+pages may warrant `deep-read` or `skimmed`. Newer wave generators (K406–K410) emit the field
+correctly, so this is legacy-only.
+
+**Remaining 42 orphans** are mostly `newsletter-rss-*` / `substack-rss-*` pages from the digest's
+now-disabled news lane. Nothing in CCC relates to them, so linking them would degrade the graph.
+They are candidates for archival or removal — an operator decision, not a lint fix.
+
 ## [2026-09-30] ops | Cursor rule bloat cut 79% — 102 KB → 22 KB per request
 
 49 of 51 `.cursor/rules/*.mdc` were `alwaysApply: true`, so Cursor injected all of them into **every**
