@@ -1,3 +1,27 @@
+## [2026-09-30] ops | Cross-wiki survey — gh verification bug is CCC + Cybersec only
+
+Surveyed all eight wikis for the two defect classes found in this session's SPDX watch: an invalid
+`gh --json` field, and a `2>/dev/null || echo '[]'` guard that hides the resulting failure.
+
+| Wiki | `licenseInfo` in code | `gh search repos` | Verdict |
+|------|----------------------|-------------------|---------|
+| ccc-wiki | 0 (prose only) | yes — **fixed today** | clean |
+| Cybersecurity wiki | 0 | **3 broken sites** | **brief sent** |
+| OSINT · Gambling · Game Dev · Image gen · SEO · 3D printing | 0 | 0 | clean |
+
+**Cybersecurity wiki is the only other affected repo.** Three call sites pass `--json nameWithOwner`,
+which the installed `gh` rejects (correct field: `fullName`), with the error swallowed by
+`|| echo '[]'`. `scripts/k316_k319_inventory.sh:17,33` and
+`scripts/instruction_arbitration_bench_inventory.sh:7`. Line 17 additionally uses an arXiv-id-phrase
+query, which cannot match a name/description search.
+
+Brief written to `@cybersecurity-wiki/briefs/2026-09-30_ccc-gh-inventory-scripts-broken.md` for that
+wiki's own session to action — not edited in place. Shared lead: both wikis search for
+`InstructionArbitrationBench` and both were failing, so a fixed query there feeds CCC's watch.
+
+**OSINT's license scripts are correct** — `license_spot_check.sh` and `spdx_watch_k254_eval.py` both
+use `gh api repos/<slug> --jq '.license.spdx_id'`, the exact pattern CCC's rewrite converged on.
+
 ## [2026-09-30] ops | Stale-tag sweep closed — 22 → 0
 
 Nineteen pages touched. Every dated `[NEEDS VERIFICATION]` tag is now resolved or converted.

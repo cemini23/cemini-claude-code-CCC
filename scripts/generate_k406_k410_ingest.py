@@ -624,11 +624,13 @@ def patch_sweep() -> None:
 
 
 def patch_spdx_watch() -> None:
-    """Fix the licenseInfo bug and register this wave's repos.
+    """Register this wave's repos on the SPDX watch.
 
-    `gh search repos --json licenseInfo` is rejected by the installed gh version; the
-    `2>/dev/null || echo '[]'` guard swallowed the error, so every repo reported
-    "no public GitHub repo found". Use `license` instead.
+    Kept for provenance: the original patch fixed an invalid `--json licenseInfo` field.
+    The watch was later rewritten in full (see the 2026-09-30 ops log entry) to take an
+    explicit `owner/repo` slug via `gh api`. Every branch below is now a no-op against the
+    rewritten script — no `licenseInfo` string and no `watch_repo` line remain — so re-running
+    this generator cannot corrupt it.
     """
     p = REPO / "scripts/spdx_watch_harness_wave.sh"
     t = p.read_text(encoding="utf-8")
