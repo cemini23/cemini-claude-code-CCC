@@ -1,3 +1,23 @@
+## [2026-09-30] fix | Sibling-wiki skills were never federated (Cybersec)
+
+The Cybersecurity wiki marks its own skills `federation: true`, but it appeared only in `WORKSPACES`
+— a sync destination. Nothing was ever exported from it, so its precheck skills stayed local and
+friend-brief lines telling the operator to use them "after sync_federation_cursor_skills" were wrong.
+Only `evoflint-redteam-eval` and `rouxii-honeypot-precheck` had ever reached `~/.cursor/skills`, both
+by hand.
+
+- **Fix:** added `SIBLING_SKILL_DIRS` + `discover_sibling_skills()` to
+  `scripts/sync_federation_cursor_skills.sh`, mirroring the CCC canon auto-discovery. It skips any
+  name CCC canon or `DOMAIN_SKILL_DIRS` already owns — those are synced *into* that wiki, so
+  re-exporting them would loop. Wired into `install_workspace`, `verify_workspace`, and the
+  user-global loop. bash 3.2 safe (guarded empty-array expansion under `set -u`).
+- **Result:** 18 sibling skills now federate. Sync reports "42 federation + 10 domain + 18 sibling
+  skills", 30 workspaces, no verify failures; verified 18/18 in `~/.cursor/skills`, CCC, SEO, OSINT,
+  and 3D printing.
+- **Note:** CCC is a workspace too, so the 18 copies land in its own tree; committed here to match the
+  existing convention (synced-in domain skills such as `adopted-geo-tools` are tracked).
+- **Cross-wiki:** reported by the Cybersecurity wiki session; their local commit `6095d97`.
+
 ## [2026-09-30] ops | Cybersec brief actioned — their review found a flaw in OUR watch
 
 The brief sent earlier today was picked up and actioned by the Cybersecurity wiki's own session.

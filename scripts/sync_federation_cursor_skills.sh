@@ -96,6 +96,52 @@ DOMAIN_SKILL_DIRS=(
   "osint-catalog|${OSINT_ROOT}/.cursor/skills/osint-catalog"
 )
 
+# Sibling-wiki federation skills. The Cybersecurity wiki marks its own skills
+# `federation: true` as well, but it appears only in WORKSPACES, so nothing was
+# ever exported from it — its precheck skills were local-only and the friend
+# briefs that told the operator to use them after a sync were wrong. Discover
+# them here, skipping any name CCC canon or DOMAIN_SKILL_DIRS already owns:
+# those are synced INTO that wiki, so re-exporting them would loop.
+SIBLING_SKILL_DIRS=(
+  "/Users/claudiobarone/Projects/Cybersecurity wiki/.cursor/skills"
+)
+
+discover_sibling_skills() {
+  local src_root skill_md name entry owner_name owner
+  SIBLING_SKILLS=()
+  for src_root in "${SIBLING_SKILL_DIRS[@]}"; do
+    [[ -d "${src_root}" ]] || continue
+    shopt -s nullglob
+    for skill_md in "${src_root}"/*/SKILL.md; do
+      awk '
+        BEGIN { in_fm=0; found=0 }
+        /^---[[:space:]]*$/ {
+          if (in_fm==0) { in_fm=1; next }
+          else { exit }
+        }
+        in_fm && /^federation:[[:space:]]*true[[:space:]]*$/ { found=1; exit }
+        END { exit found ? 0 : 1 }
+      ' "${skill_md}" || continue
+      name="$(basename "$(dirname "${skill_md}")")"
+      owner=0
+      for owner_name in "${CANON_SKILLS[@]}"; do
+        if [[ "${owner_name}" == "${name}" ]]; then owner=1; fi
+      done
+      for entry in "${DOMAIN_SKILL_DIRS[@]}"; do
+        if [[ "${entry%%|*}" == "${name}" ]]; then owner=1; fi
+      done
+      if [[ "${owner}" -eq 1 ]]; then continue; fi
+      SIBLING_SKILLS+=("${name}|${src_root}/${name}")
+    done
+    shopt -u nullglob
+  done
+  # Stable order. bash 3.2 errors on ${arr[@]} for an empty array under `set -u`.
+  if [[ ${#SIBLING_SKILLS[@]} -gt 0 ]]; then
+    IFS=$'\n' SIBLING_SKILLS=($(printf '%s\n' "${SIBLING_SKILLS[@]}" | sort -u))
+    unset IFS
+  fi
+}
+
 WORKSPACES=(
   "${REPO_ROOT}"
   "/Users/claudiobarone/Projects/OSINT WORKSPACE"
@@ -213,6 +259,13 @@ install_workspace() {
     src_dir="${entry#*|}"
     sync_domain_skill_tree "${name}" "${src_dir}" "${dest}"
   done
+  if [[ ${#SIBLING_SKILLS[@]} -gt 0 ]]; then
+    for entry in "${SIBLING_SKILLS[@]}"; do
+      name="${entry%%|*}"
+      src_dir="${entry#*|}"
+      sync_domain_skill_tree "${name}" "${src_dir}" "${dest}"
+    done
+  fi
 }
 
 prune_project_rules() {
@@ -241,6 +294,12 @@ verify_workspace() {
     name="${entry%%|*}"
     [[ -f "${dest}/.cursor/skills/${name}/SKILL.md" ]] || ok=1
   done
+  if [[ ${#SIBLING_SKILLS[@]} -gt 0 ]]; then
+    for entry in "${SIBLING_SKILLS[@]}"; do
+      name="${entry%%|*}"
+      [[ -f "${dest}/.cursor/skills/${name}/SKILL.md" ]] || ok=1
+    done
+  fi
   [[ -f "${dest}/.cursor/skills/route/SKILL.md" ]] || ok=1
   [[ -f "${dest}/.cursor/skills/phase1-wire/SKILL.md" ]] || ok=1
   if [[ -f "${dest}/.cursor/skills/cursor-audit/SKILL.md" ]]; then
@@ -253,10 +312,12 @@ verify_workspace() {
 }
 
 discover_federation_skills
+discover_sibling_skills
 
 echo "Sync federation Cursor skills from ${REPO_ROOT}"
 echo "  Federation skills (auto): ${CANON_SKILLS[*]}"
 echo "  Domain skills: adopted-geo-tools (SEO) + i-have-adhd + cemini-wiki-ingest + notebooklm-osint-bridge (OSINT)"
+echo "  Sibling skills (auto): ${#SIBLING_SKILLS[@]} from ${SIBLING_SKILL_DIRS[*]}"
 
 for skill in "${CANON_SKILLS[@]}"; do
   sync_skill_tree "${skill}" "${HOME}"
@@ -268,6 +329,14 @@ for entry in "${DOMAIN_SKILL_DIRS[@]}"; do
   sync_domain_skill_tree "${name}" "${src_dir}" "${HOME}"
   echo "  OK  user-global ~/.cursor/skills/${name}/"
 done
+if [[ ${#SIBLING_SKILLS[@]} -gt 0 ]]; then
+  for entry in "${SIBLING_SKILLS[@]}"; do
+    name="${entry%%|*}"
+    src_dir="${entry#*|}"
+    sync_domain_skill_tree "${name}" "${src_dir}" "${HOME}"
+    echo "  OK  user-global ~/.cursor/skills/${name}/"
+  done
+fi
 mkdir -p "$(dirname "${USER_RULE}")"
 copy_file "${SRC_RULE}" "${USER_RULE}"
 echo "  OK  user-global ${USER_RULE}"
@@ -326,5 +395,5 @@ if [[ "${fail}" -gt 0 ]]; then
   echo "Synced ${count} workspace(s); ${fail} verify failure(s); ${skip} skipped." >&2
   exit 1
 fi
-echo "Synced ${count} workspace(s) + user-global (${#CANON_SKILLS[@]} federation + ${#DOMAIN_SKILL_DIRS[@]} domain skills; rules → ~/.cursor/rules/ only); ${skip} path(s) skipped (missing)."
+echo "Synced ${count} workspace(s) + user-global (${#CANON_SKILLS[@]} federation + ${#DOMAIN_SKILL_DIRS[@]} domain + ${#SIBLING_SKILLS[@]} sibling skills; rules → ~/.cursor/rules/ only); ${skip} path(s) skipped (missing)."
 echo "Optional: cursor-security-preflight --quick"
