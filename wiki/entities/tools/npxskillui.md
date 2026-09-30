@@ -22,7 +22,7 @@ updated: 2026-05-31
 
 ## Raw Concept
 
-K90 v6 **Adopt** — `npxskillui` skill UI / discovery CLI (exact GitHub org/repo — verify on Phase-0 **`[NEEDS VERIFICATION 2026-05-31]`**). Gemini tier Adopt; run `gh api` before install.
+K90 v6 **Adopt** — `npxskillui` skill UI / discovery CLI. **Slug resolved 2026-09-30:** `amaancoderx/npxskillui` — **no license file** (`license.key` empty), 0★. [CONFIRMED via GitHub API 2026-09-30] **No install** — unlicensed. Treat the Adopt verdict as blocked on licensing, not on discovery.
 
 ## Narrative
 

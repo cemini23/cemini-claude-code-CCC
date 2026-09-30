@@ -43,7 +43,7 @@ Cross-wiki: `@osint-wiki/concepts/finacumen-financial-experience-memory.md` — 
 
 **Benchmarks:** FinMMR, BizBench (SEC-NUM), FinMME, FinTMMBench — improves frozen 8B VLM vs finance-specialized models; approaches proprietary general models.
 
-**Code:** paper cites `anonymous.4open.science/r/FinAcumen`; `CamelliaLilium/FinAcumen` on GitHub (MIT, 0★) — **unverified match** [NEEDS VERIFICATION 2026-06-17].
+**Code:** paper cites `anonymous.4open.science/r/FinAcumen`; `CamelliaLilium/FinAcumen` on GitHub — **MIT** confirmed, 1★, pushed 2026-05-26 [CONFIRMED via GitHub API 2026-09-30]. **The match to the paper remains unverified** — the license is no longer the open question. Do not cite this repo as the paper's implementation without checking its contents.
 
 **CCC routing:** harness steal (τ-gated experience, guard rules); finance benchmarks → **osint-wiki**.
 

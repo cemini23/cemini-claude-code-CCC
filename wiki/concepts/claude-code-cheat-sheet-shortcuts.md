@@ -41,7 +41,7 @@ K97 Post 2 (@0x_rody): Claude Code exposes **70+ commands, 12 keyboard shortcuts
 - **CLI flags** (`--model`, `--resume`, permission modes) belong in project docs or `CLAUDE.md` — not chat.
 - Cherry-pick from `@entities/tools/claude-code-tips.md` only after manual LICENSE review.
 
-**Verdict:** **REFERENCE** — no new install; refresh operator cheat sheet when Anthropic ships keyboard changes `[NEEDS VERIFICATION 2026-06-03]`.
+**Verdict:** **REFERENCE** — no new install; refresh operator cheat sheet when Anthropic ships keyboard changes. (Date dropped 2026-09-30: this is a standing maintenance reminder, not a checkable claim — a dated tag made the lint report it as stale forever.)
 
 ## Snippets
 

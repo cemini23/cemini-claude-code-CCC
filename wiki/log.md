@@ -1,3 +1,12 @@
+## [2026-09-30] ops | Stale-tag sweep — 33 → 26, one wrong claim corrected
+
+- **Verified 7 falsifiable repo/license claims** with `gh api`: `Wang-ML-Lab/OrchRM` now exists (the 2026-06-16 "404" was superseded; no license → no clone); `darkness22s/recursive-agent-harness` confirmed unchanged (no license, dormant since June); `CamelliaLilium/FinAcumen` **MIT** confirmed; `zhibao-dev/BorgeAgent` **still 404** → cited substrate unavailable, reproduction claim unsupported; `Spielewoy/multi-codex` **MIT** (246★) → DEFER reason cleared; `amaancoderx/npxskillui` is the `npxskillui` slug, **unlicensed**; dexscreener MCP has two candidate repos, neither confirmed.
+- **Corrected a wrong claim.** `concepts/self-compacting-adaptive-context.md` said Claude Code native compaction ≈ **fixed-interval**. It is a **percentage-of-context-window threshold** (`CLAUDE_AUTOCOMPACT_PCT_OVERRIDE`, 1–100, lowerable only). Verified against official docs.
+- **Confirmed a right claim.** `entities/tools/claude-code.md` `/loop` row: session-scoped, 50-task cap, 7-day expiry — all three verbatim in the official scheduled-tasks doc.
+- **Converted 2 standing caveats** that carried dates and would never resolve (`operator-model-selection`, `claude-code-cheat-sheet-shortcuts`). Dates dropped; caveats kept.
+- **Item closed as non-issue:** the root-`briefs/` "dangling refs" resolve in `osint-wiki`, not `ccc-wiki` — the earlier report resolved them against the wrong root. No pages missing.
+- **Routing tested:** OpenRouter free hallucinated a definition of "Claude Code hook". Recorded in `LESSONS.md`. Factual wiki work stays local.
+
 ## [2026-09-30] ops | SPDX watch rewritten + K406 Assay MCP audit
 
 - **`spdx_watch_harness_wave.sh` rewritten** — three defects found. (1) `--json licenseInfo` rejected by the installed `gh`, error swallowed by `2>/dev/null || echo '[]'`. (2) `gh search repos` matches **name/description only**, so every arXiv-title query returned a false "no repo found". (3) `gh search` returns `license.key`, not `license.spdxId` → would have printed `NOASSERTION` on any hit. Now: exact `gh api repos/<slug>` when the paper names its repo, name-shaped search otherwise.

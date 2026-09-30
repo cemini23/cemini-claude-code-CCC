@@ -43,7 +43,7 @@ updated: 2026-06-15
 | **Oracle** (peeks at eval question at consolidation) | query-defined | ≈0.98 gold | no advantage possible |
 | **Blind** (session topic only at consolidation) | query-agnostic | near-chance | **0.770±0.011** vs 0.657 uni-factor |
 
-479 usable **LongMemEval-S** cases; CPU-only experiments, no API calls. Cites open-source **BorgeAgent** substrate (`github.com/zhibao-dev/BorgeAgent`, 2026) — **repo 404 on GitHub 2026-06-15** [NEEDS VERIFICATION 2026-06-15].
+479 usable **LongMemEval-S** cases; CPU-only experiments, no API calls. Cites open-source **BorgeAgent** substrate (`github.com/zhibao-dev/BorgeAgent`, 2026) — **repo 404 on GitHub 2026-06-15, and still 404 on re-check 2026-09-30** [CONFIRMED via GitHub API 2026-09-30]. The cited substrate is not publicly available, so the reproduction claim is unsupported.
 
 **CCC relevance:** blind-forgetting eval discipline for claude-mem compaction; multi-factor value vs pure similarity/recency. REFERENCE until BorgeAgent repo verified.
 

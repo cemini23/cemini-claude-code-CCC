@@ -29,7 +29,7 @@ updated: 2026-08-06
 
 Operator policy from K142 screenshot: cost is a tie-breaker only. For anything that ships, rank tradeoffs as **intelligence > taste > cost**. Use GPT-5.5 for bulk/mechanical Codex CLI work where effectively free; use higher-taste Claude models for user-facing UI/copy/API design and independent reviews. Never use Haiku.
 
-Availability/pricing is operator-specific and should remain `[NEEDS VERIFICATION 2026-07-03]`; treat this as routing policy, not benchmark truth.
+Availability/pricing is operator-specific and **standingly unverifiable** — treat this as routing policy, not benchmark truth. (Date dropped 2026-09-30: this is a permanent caveat, and a dated tag made the lint report it as a stale check forever.)
 
 ### K245 — MCP benefit sign-flip (2026-08-05)
 

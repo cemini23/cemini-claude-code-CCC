@@ -46,7 +46,7 @@ Contrasts three regimes:
 | **Rubric-gated self-compact** | Model + rubric | Requires both elements |
 
 **CCC mapping:**
-- Claude Code native compaction ≈ fixed-interval [NEEDS VERIFICATION 2026-06-24]
+- Claude Code native compaction ≈ **percentage-of-context-window threshold**, not a fixed interval. **Corrected 2026-09-30** — the earlier "fixed-interval" reading was wrong. Auto-compaction triggers at a percentage of the auto-compact window, tunable *downward only* via `CLAUDE_AUTOCOMPACT_PCT_OVERRIDE` (1–100); window size is set separately by `CLAUDE_CODE_AUTO_COMPACT_WINDOW`. [CONFIRMED — `docs.claude.com/en/docs/claude-code/env-vars`, retrieved 2026-09-30]
 - `hot.md` rewrite ≈ manual rubric-gated compact at session boundaries
 - Task subagent spawn ≈ fork-with-clean-context instead of compact
 

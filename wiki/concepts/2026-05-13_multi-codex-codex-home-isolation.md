@@ -34,4 +34,4 @@ ingest pass.
 
 Surfaced in the 2026-05-13 14-repo GitHub eval (`@osint-wiki/sources/eval-github-repos-2026-05-13.md`) as **DEFER** (upstream license unverified). The extractable insight is the **isolation pattern itself**: per-instance `CODEX_HOME` (analogous to per-agent home directories) generalises to any agent CLI that keeps state in a fixed home path. Relevant to ccc-wiki's multi-agent orchestration cluster even if the upstream repo's license proves fatal.
 
-`[NEEDS VERIFICATION 2026-05-15]` upstream license.
+**License CLEARED 2026-09-30:** `Spielewoy/multi-codex` is **MIT** — 246★, pushed 2026-08-19, actively maintained. The original DEFER reason (upstream license unverified) no longer holds. [CONFIRMED via GitHub API 2026-09-30]

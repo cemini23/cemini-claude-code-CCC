@@ -50,7 +50,7 @@ Names **Recursive Agent Harness (RAH)** — **harness recursion**: recursive uni
 
 Relates to Anthropic **dynamic workflows** (code orchestrates subagents at scale). Mechanism = established primitives (CodeAct, Minions); contribution is naming + controlled harness-only ablation.
 
-**Unverified repo:** `darkness22s/recursive-agent-harness` on GitHub — npm package passes tests but **no SPDX license**, 0★, product scope (autonomous successor runtime) **does not match** PwC paper eval — **not** paper implementation [NEEDS VERIFICATION 2026-06-15].
+**Unverified repo:** `darkness22s/recursive-agent-harness` on GitHub — npm package passes tests but **no SPDX license**, 0★, product scope (autonomous successor runtime) **does not match** PwC paper eval — **not** paper implementation. **Re-checked 2026-09-30:** unchanged — `NONE` license, 0★, no push since 2026-06-16 (dormant). [CONFIRMED via GitHub API 2026-09-30]
 
 **CCC relevance:** Claude Code Task tool + scatter-gather already implements RAH pattern; steal explicit **harness recursion** vocabulary for long-context wiki/conductor jobs.
 

@@ -6,6 +6,23 @@ Newest entries on top.
 
 ---
 
+## 2026-09-30 — Do not route Claude Code facts to the free route lane
+
+Tested `route-task` on a trivial, checkable question in CCC's own domain:
+
+> **Q:** "In one short sentence, what is a Claude Code hook?"
+> **OpenRouter free answered:** "A Claude Code hook is an integrated development environment that enables direct code writing, editing, and execution within the Claude chat interface."
+
+That is not a partial answer or a style problem. It is a hallucination, on the easy lane's first executor, about the single concept CCC exists to document. The chain (OpenRouter free → OpenCode Zen free → claude-ds Flash) has **no quality gate**: it accepts the first non-empty response, so a confident wrong answer terminates the chain.
+
+**Rule:** route *mechanical* work — formatting, file moves, drafting from facts the caller supplies. Do **not** route *factual* work about Claude Code internals, MCP behavior, or tool licenses. Those are the claims the wiki is judged on, and the free lane will invent them fluently.
+
+**Also:** pure shell/API work (GitHub license checks, repo resolution) needs no model at all. Routing it only adds a model call on top of a command. Run it directly.
+
+---
+
+---
+
 ## 2026-08-25 — New CLAUDE.md must include ASD-STE100 (setup default)
 
 When bootstrapping or helping someone fork `wiki-template`, always paste **`## Writing style (ASD-STE100)`** into root `CLAUDE.md`. Block: `@osint-wiki/scripts/snippets/claude-md-ste100-section.md`. Wired into five-section template Style row + wiki-template SETUP step 4. Global fallback: `~/.claude/CLAUDE.md`. See `@osint-wiki/LESSONS.md` 2026-08-25.

@@ -34,7 +34,7 @@ Distinct from K78 **Hermes + x402** forensics bundle (paid Nansen/Tokenomist leg
 
 **Risks (per source):** illiquid pairs, honeypots, AI hallucination on thin data.
 
-**License:** specific MCP GitHub repo **[NEEDS VERIFICATION 2026-06-09]** — run `gh api` before any install.
+**License:** the original source never named a specific repo. **Search 2026-09-30 surfaced two candidates, neither confirmed as the one referenced:** `vibeforge1111/dexscreener-cli-mcp-tool` (no license file) and `openSVM/dexscreener-mcp-server` (**Unlicense** — public domain). [CONFIRMED via GitHub API 2026-09-30] **No install** until the intended repo is identified. A third-party MCP server for a crypto data API is a credential-and-funds blast radius; the Unlicense gives no warranty.
 
 ## Snippets
 

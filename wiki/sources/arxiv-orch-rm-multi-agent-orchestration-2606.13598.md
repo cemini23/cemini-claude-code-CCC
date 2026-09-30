@@ -45,7 +45,7 @@ Operates at **orchestration level** (not full sub-agent rollout scoring) → ~**
 
 Domains: math reasoning, web QA, multi-hop reasoning.
 
-**Code:** promised at `github.com/Wang-ML-Lab/OrchRM` — **404** on GitHub 2026-06-16 [NEEDS VERIFICATION 2026-06-16].
+**Code:** promised at `github.com/Wang-ML-Lab/OrchRM`. **Re-checked 2026-09-30:** the repo now exists — pushed 2026-06-25, 0★, **`NOASSERTION`** (no license file). The 2026-06-16 "404" is superseded; the repo appeared nine days later. **No clone** — no license. [CONFIRMED via GitHub API 2026-09-30]
 
 ## Snippets
 

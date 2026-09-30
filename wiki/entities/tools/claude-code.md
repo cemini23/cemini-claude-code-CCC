@@ -167,7 +167,8 @@ Delta from `@sources/arxiv-claude-code-complete-user-handbook-2608.26742.md` —
 3. **Measure usage and context separately:** `/usage` = allocation/cost; `/context` = occupancy. Usage climbs superlinearly (every request carries accumulated history); a CLAUDE.md edit does not take effect mid-session.
 4. **Completion report discipline:** distinguish checks that ran from checks described; "do not describe a check that did not run"; inspect evidence yourself.
 5. **Evidence-Gated Delivery:** eight-stage method with named gates ending in a human release gate.
-6. **Misconception corrections (M01–M21):** e.g. `/loop` ≠ cron (session-scoped, 50-task cap, 7-day expiry); fork-mode subagents inherit parent conversation — parent's acceptEdits/bypass overrides subagent mode; workflow agents always run acceptEdits regardless of session mode; green routine status ≠ task success. `[NEEDS VERIFICATION 2026-09-04]`
+6. **Misconception corrections (M01–M21):** e.g. `/loop` ≠ cron (session-scoped, 50-task cap, 7-day expiry); fork-mode subagents inherit parent conversation — parent's acceptEdits/bypass overrides subagent mode; workflow agents always run acceptEdits regardless of session mode; green routine status ≠ task success.
+   - **`/loop` claim CONFIRMED 2026-09-30** against the official scheduled-tasks doc: "Tasks are session-scoped"; "A session can hold up to 50 scheduled tasks at once"; "Recurring tasks automatically expire 7 days after creation." [CONFIRMED — `docs.claude.com/en/docs/claude-code/scheduled-tasks`, retrieved 2026-09-30] The remaining M-items in this row are still `[NEEDS VERIFICATION]`.
 
 ## Dead Ends
 
