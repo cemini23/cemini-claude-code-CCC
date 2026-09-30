@@ -23,7 +23,7 @@ updated: 2026-06-07
 
 ## Raw Concept
 
-K88 **Adopt** — `github.com/majiayu000/claude-skill-registry`. Registry index pattern for Claude skills. **License RESOLVED 2026-09-30: MIT** — 658★, pushed 2026-09-30 (actively maintained). [CONFIRMED via GitHub API 2026-09-30] The Adopt verdict stands; license is no longer a blocker.
+K88 **Adopt** — `github.com/majiayu000/claude-skill-registry`. Registry index pattern for Claude skills. **License RESOLVED 2026-09-30: MIT** — 658★, pushed 2026-09-30 (actively maintained). [CONFIRMED via GitHub API 2026-09-30] The Adopt verdict stands; license is no longer a blocker. **Phase-0 maturity read 2026-09-30:** 658★, 102 forks, 2 open issues, HTML, pushed 2026-09-30. **Repo size 28,078,272 KB ≈ 28 GB** — it is a generated-artifact/GitHub-Pages catalog, not source. Do **not** clone wholesale; read the generated pages over HTTP instead.
 
 ## Narrative
 
