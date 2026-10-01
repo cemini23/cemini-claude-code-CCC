@@ -3,7 +3,8 @@ title: Caveman — terse-output token compression skill
 type: entity
 tags: [tool, skill, token-economics, adopt-tier, k142]
 keywords: [caveman, output compression, token savings, Claude Code, Codex]
-related: []
+related:
+  - concepts/unhomed-pages-index.md
 maturity: draft
 created: 2026-07-03
 updated: 2026-07-03

@@ -5,6 +5,7 @@ tags: [source, arxiv, k359]
 keywords: [2609.17247, k359]
 related:
   - briefs/2026-09-16_ccc-k358-k362-sip-ready.md
+  - concepts/unhomed-pages-index.md
 maturity: draft
 read_status: read
 created: 2026-09-16

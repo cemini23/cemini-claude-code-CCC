@@ -5,6 +5,7 @@ tags: [source, ood, nlp, cultural-eval, haitian-creole]
 keywords: [2609.31506, haitian-creole, cultural-awareness, ood]
 related:
   - "@cybersecurity-wiki/sources/arxiv-2609-31506-haitian-creole-cultural-awareness-ood.md"
+  - concepts/unhomed-pages-index.md
 maturity: draft
 read_status: read
 created: 2026-09-28

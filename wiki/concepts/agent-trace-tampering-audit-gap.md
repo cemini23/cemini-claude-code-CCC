@@ -7,6 +7,7 @@ related:
   - sources/arxiv-agent-trace-tampering-2609.30266.md
   - concepts/phase1-adopt-wire.md
   - briefs/2026-09-25_ccc-k390-k394-sip-ready.md
+  - entities/tools/replay-agent-recorder.md
 maturity: draft
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"

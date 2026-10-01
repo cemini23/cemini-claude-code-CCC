@@ -29,10 +29,11 @@ updated: 2026-09-30
 
 **Verdict: ADOPT pattern.**
 
-LLM agents **maintain and edit explicit world models** for planning — harness pattern distinct from implicit context-only state (pairs K283 Twin validate-before-act / K296 terminal-state eval / K334 harness-as-eval-artifact). **SPDX watch CLEARED 2026-09-30** — `RUCAIBox/Agent-Editing-World-Model` is **Apache-2.0** (9 stars, pushed 2026-09-24) [CONFIRMED via GitHub API 2026-09-30]. Clone now gated only on a Phase-0 maturity read, not on license. **Phase-0 maturity read 2026-09-30:** 9★, **0 forks, 0 open issues**, 5.7 MB, Python, pushed 2026-09-24, no description. Small and un-adopted — treat as a research artifact for pattern extraction only, not a maintained dependency. Runtime **`wont_wire`**.
+LLM agents **maintain and edit explicit world models** for planning — harness pattern distinct from implicit context-only state (pairs K283 Twin validate-before-act / K296 terminal-state eval / K334 harness-as-eval-artifact). **SPDX watch CLEARED 2026-09-30** — `RUCAIBox/Agent-Editing-World-Model` is **Apache-2.0** (9 stars, pushed 2026-09-24) [CONFIRMED via GitHub API 2026-09-30]. The license gate is lifted; the clone decision is made below. **Phase-0 maturity read 2026-09-30:** 9★, **0 forks, 0 open issues**, 5.7 MB, Python, pushed 2026-09-24, no description. Small and un-adopted — treat as a research artifact for pattern extraction only, not a maintained dependency. Runtime **`wont_wire`**.
 
 ## Snippets
 
 > "Recent advances in large language models (LLMs) have enabled agents to tackle long-horizon tasks across diverse environments. To further improve agent performance, existing language world models typically predict environment observations, yet reconstructing high-entropy, execution-dependent tool responses offers limited value when real feedback is available. Meanwhile, agents suffer from task-state contamination, where unsupported assumptions and outdated plans persist in history and distort subsequent decisions." [Source: https://arxiv.org/abs/2609.28416 (retrieved 2026-09-25)]
 
 | **Location** | `cemini-egress-fi:/opt/cemini-bulk/research/ccc/arxiv-2609.28416-agent-editing-world-model-rethinking-world-model.pdf` |
+ **Clone decision 2026-10-01: NO CLONE.** 9 stars, 0 forks, no description — a research artifact. The world-model-editing pattern is the value and is recorded above.

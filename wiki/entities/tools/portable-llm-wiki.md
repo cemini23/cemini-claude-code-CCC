@@ -3,7 +3,8 @@ title: Portable LLM Wiki — OKF/MCP wiki protocol
 type: entity
 tags: [tool, wiki, mcp, okf, steal-from, k142]
 keywords: [portablellm.wiki, Open Knowledge Format, OKF, MCP, graph lint]
-related: []
+related:
+  - concepts/unhomed-pages-index.md
 maturity: draft
 created: 2026-07-03
 updated: 2026-07-03

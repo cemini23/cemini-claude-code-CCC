@@ -5,6 +5,7 @@ tags: [source, arxiv, k372]
 keywords: [2609.20822, k372]
 related:
   - briefs/2026-09-18_ccc-k369-k372-sip-ready.md
+  - concepts/unhomed-pages-index.md
 maturity: draft
 read_status: read
 created: 2026-09-18

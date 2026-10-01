@@ -1,3 +1,47 @@
+## [2026-10-01] ops | Orphans 42 → 0; clone decisions recorded; egress root cause found
+
+**Wiki lint is now clean on every check except section 5.** Sections 1–4 and 6–8 all read zero.
+Orphans went 42 → 0 this session (157 → 0 across the two days), bidirectional gaps 0, dangling 0.
+
+**How the orphans were cleared — two different problems, two different fixes.**
+
+*21 **inert cross-wiki stubs deleted.*** `newsletter-rss-*` / `substack-rss-*` pages each carried
+`related: []` and a `cross-wiki-source` pointing at OSINT. I verified **all 21 OSINT primaries
+exist**, so the CCC copies were duplicate pointers with no CCC links — deleting them lost nothing.
+Git-tracked, so recoverable.
+
+*21 real pages given a home.* These were genuine CCC pages with no concept parent — mostly
+**explicitly-labelled OOD receipts** ("Verdict: OOD stub", `wont_wire`), written so an out-of-domain
+judgment is recorded rather than lost. Created `concepts/unhomed-pages-index.md` (marked `hub: true`)
+grouping them as OOD receipts, cross-wiki routes, and tools-awaiting-a-home, with a worklist for the
+third group. Every one links back, so the edges are bidirectional.
+
+**A note on the method.** An index that exists only to clear an orphan check would be gaming the
+lint. This one is a real classification: it says *why* each page has no parent, and it names the
+likely home for the six that should eventually get one. The rule recorded on the page is that a
+future wave judging a paper out-of-domain should link its stub here, so an orphan means "someone
+forgot" rather than "someone decided".
+
+**Clone decisions recorded — four candidates, zero clones.** Reasoning added to each page:
+Citadel (patterns already extracted from the README; CCC forks no JS orchestrator), claude-skill-registry
+(the artifact is the data, and it is 28 GB), RecreationWorld (no robotics/GUI-agent workstream),
+Agent-Editing-World-Model (research artifact), rocq-mcp-experiment (no theorem-proving workstream —
+the *method* transfers, the Rocq server does not), turbo-harness (same: playbook idea transfers, the
+SWE-bench-trained editor does not). `.local/adopts/` stays at 17.
+
+**`replay-agent-recorder` wired.** It was `unwired` in `phase1_adopt_inventory.py` purely because it
+had **no entity page** — the concept `recoverable-agent-execution-checkpoints` had already decided
+`GO REFERENCE` / runtime `wont_wire`. Created `entities/tools/replay-agent-recorder.md` with that
+status and cross-linked both ways, including a Dead End noting it is a debugging tool, not a
+tamper-evidence mechanism.
+
+**Egress root cause identified.** The host is healthy (`ping` 0% loss) but **port 22 is FILTERED**:
+UFW allows `172.58.133.38` and the laptop is now `172.58.133.120`. Carrier NAT means the address keeps
+changing, so this is the third occurrence of one failure mode, not three incidents. Brief written:
+`briefs/2026-10-01_egress-connection-hardening.md` — recommends **Tailscale** (stable identity, no
+public port) with **Cloudflare Tunnel** as the alternative that fits the existing skills.
+**Archive still blocked; 5 PDFs remain in the inbox.**
+
 ## [2026-10-01] ingest | K411–K415 harness wave + K283 cross-route
 
 - **Sources:** 2609.39544 ROCQ-MCP-EVOLVE, 2609.40272 PNNL power agents, 2609.40306 DynaHarness, 2609.40324 Cogentic, 2609.40330 Turbo Harness.

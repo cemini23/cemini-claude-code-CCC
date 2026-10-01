@@ -37,3 +37,4 @@ updated: 2026-10-01
 > "The same control knob therefore has opposite optima on different tasks, which a single global harness cannot satisfy but instance-specific adaptation can." [Source: arXiv 2609.40330 (retrieved 2026-10-01)]
 
 | **Location** | `cemini-egress-fi:/opt/cemini-bulk/research/ccc/arxiv-2609.40330-turbo-harness-instance-adaptive-harness-optimiza.pdf` |
+ **Clone decision 2026-10-01: NO CLONE.** 3 stars, brand new. The transferable pieces are the playbook-of-edits idea and the finding that the same knob has opposite per-instance optima — both recorded above. The harness editor is trained against SWE-bench-family tasks that CCC does not run.

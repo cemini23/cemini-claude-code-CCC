@@ -37,3 +37,4 @@ updated: 2026-10-01
 > "We propose an evolutionary method where a frontier model incrementally proposes new features and only keeps the ones that improve the overall performance of smaller models." [Source: arXiv 2609.39544 (retrieved 2026-10-01)]
 
 | **Location** | `cemini-egress-fi:/opt/cemini-bulk/research/ccc/arxiv-2609.39544-growing-an-agent-prover-interface-evolutionary-t.pdf` |
+ **Clone decision 2026-10-01: NO CLONE.** CCC runs no theorem-proving workstream. The reusable result is the *evolutionary method* (mutate one feature, keep it only if accuracy AND cost/solve AND wall time all improve), which the concept page records. The Rocq MCP server itself is domain-specific. Revisit only if a CCC workstream evolves an MCP interface, in which case the method transfers without the code.

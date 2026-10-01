@@ -3,6 +3,8 @@ title: Statistical self-consistency / macro fallacy (from cybersec K187)
 type: brief
 tags: [brief, evaluation, k187]
 created: 2026-07-17
+related:
+  - concepts/unhomed-pages-index.md
 ---
 
 ## Target

@@ -5,6 +5,7 @@ tags: [source, arxiv, ood, microscopy, lab-automation, k342]
 keywords: [2609.04015, scanning probe microscopy, hierarchical automation, agentic orchestration, algorithmic control]
 related:
   - briefs/2026-09-04_ccc-k342-k345-sip-ready.md
+  - concepts/unhomed-pages-index.md
 maturity: draft
 read_status: skimmed
 created: 2026-09-04

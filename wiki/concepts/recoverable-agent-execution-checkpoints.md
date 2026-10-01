@@ -16,6 +16,7 @@ related:
   - concepts/cross-process-plugin-agent-harness.md
   - entities/tools/logos-agent-harness.md
   - sources/arxiv-logos-cross-process-agent-harness-2608.28553.md
+  - entities/tools/replay-agent-recorder.md
 maturity: draft
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"

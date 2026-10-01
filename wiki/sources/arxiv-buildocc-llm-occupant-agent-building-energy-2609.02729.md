@@ -5,6 +5,7 @@ tags: [source, arxiv, ood, building-energy, occupant-agent, k338]
 keywords: [2609.02729, BuildOcc, ATUS, building energy, occupant simulation, Zenodo]
 related:
   - briefs/2026-09-03_ccc-k337-k341-sip-ready.md
+  - concepts/unhomed-pages-index.md
 maturity: draft
 read_status: skimmed
 created: 2026-09-03

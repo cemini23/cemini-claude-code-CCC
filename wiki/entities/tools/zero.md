@@ -3,7 +3,8 @@ title: Zero — local Go coding harness
 type: entity
 tags: [tool, coding-agent, harness, local-first, adopt-tier, k142]
 keywords: [Gitlawb zero, Go agent harness, MCP, skills, no telemetry]
-related: []
+related:
+  - concepts/unhomed-pages-index.md
 maturity: draft
 created: 2026-07-03
 updated: 2026-07-03

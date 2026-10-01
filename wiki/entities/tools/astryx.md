@@ -3,7 +3,8 @@ title: Astryx — agent-ready React design system
 type: entity
 tags: [tool, design-system, mcp, frontend, steal-from, k142]
 keywords: [Astryx, Meta, React, StyleX, MCP, CLI, agent-ready UI]
-related: []
+related:
+  - concepts/unhomed-pages-index.md
 maturity: draft
 created: 2026-07-03
 updated: 2026-07-03

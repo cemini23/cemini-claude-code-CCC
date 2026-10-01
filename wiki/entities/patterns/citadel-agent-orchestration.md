@@ -62,3 +62,4 @@ License not yet GitHub-API verified at time of routing. If MIT/Apache: promote t
 ## Phase-1 wire (2026-09-30)
 
 `wire_status: policy_wired` → `.cursor/rules/cemini-phase1-policy-wires.mdc`. Every pattern in the Architecture section is extractable under MIT terms without adopting the tool.
+ **Clone decision 2026-10-01: NO CLONE.** The four-tier `/do` routing, campaign persistence, discovery relay, circuit breaker, and lifecycle-hook primitives are already extracted above from the README, which is where the pattern value sits. Cloning 27.7 MB of JavaScript would add implementation without adding understanding, and no CCC workstream forks a JS orchestrator — CCC's orchestration lives in Cursor/Claude Code config. Revisit only if a workstream plans to port a specific primitive.

@@ -5,6 +5,7 @@ tags: [source, arxiv, k399]
 keywords: [2609.31524, k399]
 related:
   - briefs/2026-09-28_ccc-k396-k400-sip-ready.md
+  - concepts/unhomed-pages-index.md
 maturity: draft
 read_status: read
 created: 2026-09-28

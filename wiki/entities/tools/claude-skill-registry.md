@@ -43,3 +43,4 @@ Prior OSINT eval (`links-5-2`) flagged **license contamination risk** on similar
 ## Phase-1 wire (2026-09-30)
 
 `wire_status: policy_wired` → `.cursor/rules/cemini-phase1-policy-wires.mdc`. Index/discovery UX pattern only; do not mirror registry content and do not clone the 28 GB tree.
+ **Clone decision 2026-10-01: NO CLONE** (independent of the size problem). The K88 Adopt is for the *index/discovery UX pattern*, and the repo is a generated catalog — the artifact is the data, not the code. Read pages over HTTP.

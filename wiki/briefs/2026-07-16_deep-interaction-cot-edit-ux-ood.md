@@ -3,6 +3,8 @@ title: Deep Interaction CoT-edit UX (OOD from cybersec ingest)
 type: brief
 tags: [brief, ood, hci, cot]
 created: 2026-07-16
+related:
+  - concepts/unhomed-pages-index.md
 ---
 
 ## Target
