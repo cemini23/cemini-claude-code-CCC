@@ -1,3 +1,39 @@
+## [2026-10-01] ops | Egress fixed via Hetzner rescue; archive complete; Tailscale installed
+
+**Archive unblocked — inbox empty.** All five K411–K415 PDFs are on `cemini-egress-fi:/opt/cemini-bulk/research/ccc/`.
+
+**Root cause, confirmed against the API.** The Cloud Firewall theory was wrong: `/v1/servers` shows
+`cemini-egress-fi` has **`firewalls=[]`**, and the one Cloud Firewall that exists (`cemini-librarian-fw`)
+is `applied_to=[]`. So the blocker was host-level **UFW** (`ENABLED=yes`, `DEFAULT_INPUT_POLICY="DROP"`),
+exactly as diagnosed. `nftables` is `disabled`, so it was not a second layer.
+
+**The UFW file was a fossil record of the churn — eight SSH rules, all source-IP scoped, none matching:**
+
+```
+205.147.16.90    laptop-20260918        172.58.129.22   laptop-20260920
+103.69.224.28    laptop-proton-20260918 205.147.16.210
+172.58.129.22    laptop-cell-20260919   172.58.133.38   ← the 2026-09-28 patch
+205.147.16.168   proton2-20260919
+```
+
+**Fix applied.** Rescue mode via Hetzner API (`enable_rescue` with the registered `cemini-hetzner` key,
+which fingerprints match local `~/.ssh/id_ed25519`), reboot, mount `/dev/sda1`, **back up
+`user.rules`/`user6.rules` to `/root/ufw-backups/*.20261001-132937`**, drop all eight fossil rules, insert
+one clean `-A ufw-user-input -p tcp --dport 22 -j ACCEPT`, then `disable_rescue` + reboot. Verified:
+SSH works, `ufw status` active, ruleset still parses (1 `*filter`, 1 `COMMIT`).
+
+**Why any-source SSH is the right call here:** `sshd` is already **key-only** —
+`PasswordAuthentication no`, `PermitRootLogin prohibit-password`. The source-IP allowlist was adding
+little against a key-based threat while failing three times. Tailscale tightens it further next.
+
+**A `curl | sh` was avoided.** Tailscale's installer script is the easy path, but the federation
+invariant forbids it, so the host install uses the **official apt repo** for Ubuntu noble. Version
+1.102.4. That is worth noting: the invariant changed which command I was allowed to run.
+
+**Tailscale is installed and running on the host, awaiting auth.** The egress host runs `tailscaled`
+and has an auth URL pending. **The macOS side is NOT installed — `brew` is not present on this laptop**,
+so it needs the App Store build or the direct `.pkg` (the sandbox blocks launching GUI installers).
+
 ## [2026-10-01] ops | Orphans 42 → 0; clone decisions recorded; egress root cause found
 
 **Wiki lint is now clean on every check except section 5.** Sections 1–4 and 6–8 all read zero.
