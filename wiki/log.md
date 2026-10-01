@@ -1,3 +1,41 @@
+## [2026-10-01] ops | Federation-wide sweep after the tailnet move; destructive archive bug found
+
+**Cursor was being told the wrong connection method, and one host it named no longer exists.**
+`cemini-projects.mdc` said `cemini-egress-fi` was reached "via ProxyJump through prod", with "`ssh
+cemini-egress-fi` (via jump)" as the agent instruction. The jump path was retired 2026-09-18, **and
+the Hetzner project now has exactly one server** — `cemini-prod` is gone. Proxying through a
+non-existent host was never going to work. Both rules updated: `cemini-projects.mdc` now documents
+the tailnet-only reality, and `cemini-invariants.mdc` carries the access rule — *if SSH hangs, the
+tailnet is down; bring it up, do not reopen the public port.*
+
+**A destructive bug in the shared archive script.** `archive_raw_to_egress.sh` parsed arguments by
+`break`-ing on the first positional. The documented usage puts flags *after* the filename:
+
+```
+archive_raw_to_egress.sh --wiki-id <id> <local-file> [--keep-local]
+```
+
+so `--keep-local` — documented as "do not delete the local file after successful scp" — was
+**silently ignored when used exactly as documented**, and the local file was deleted. Caught the hard
+way: a test invocation deleted `README.md` from this repo. Restored from git; the stray upload
+removed from the egress host. The parser now captures the positional and keeps scanning, so flags
+work in any order. **Verified: the flag now reports "kept local copy" and the file survives.**
+
+*Lesson:* a flag whose whole purpose is to prevent deletion was defeated by argument order, and
+nothing surfaced the mismatch — the script did not warn about the unreachable argument. When a
+safety flag exists, the tool should reject unknown/unconsumed arguments rather than ignore them.
+
+**Scripts repaired.** `CeminiSuite/scripts/wc_match_shock_kickoff_prep.sh` and
+`pivot_egress_shutdown.sh` defaulted to the now-closed public IP; both repointed to the tailnet.
+`world-cup-bot/tests/test_preflight.py` carries the same IP but only as a mocked geoblock fixture —
+no change needed.
+
+**Pre-existing breakage, not caused by this move:** three CeminiSuite scripts default to the SSH
+alias `cemini-poly-fi`, which **is not in `~/.ssh/config`**. They were already broken.
+
+**Not to fix by reopening the port:** `cemini-librarian` is still an ssh-config entry despite being
+deleted 2026-06-14. `cemini-prod` is already neutered (`192.0.2.1`, "do not reconnect").
+
 ## [2026-10-01] ops | Tailscale joined both ends; public SSH closed; alias repointed
 
 **The connection problem is now structurally fixed, not patched.** Both nodes are on the tailnet:
