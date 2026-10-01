@@ -1,3 +1,36 @@
+## [2026-10-01] ops | SSH config pruned; the poly-fi mystery solved; disk triaged
+
+**SSH config now holds only live hosts.** Removed four dead entries: `cemini-prod` (decommissioned
+2026-09-18), `cemini-librarian` (deleted 2026-06-14), `cemini-egress-fi-jump` (jump path retired), and
+`cemini-egress-fi-ts` (redundant — `cemini-egress-fi` now points at the tailnet anyway). Remaining:
+`cemini-egress-fi` (tailnet), `cemini-egress-fi-direct` (break-glass, port closed), and `Host *`.
+Backup at `~/.ssh/config.bak.prune.20261001`.
+
+**`cemini-poly-fi` was never a separate host.** The three `CeminiSuite/scripts/sync_*_from_egress.sh`
+scripts defaulted to it and appeared broken, but the project's own decision record says it plainly:
+*"Host: cemini-egress-fi (alias: cemini-poly-fi)"*. The alias had simply **never been written into
+`~/.ssh/config`** — it appears in no backup — so the scripts and the runbooks referencing
+`ssh cemini-poly-fi` had always been broken. **Fixed by restoring the alias, not by editing three
+scripts** — one line of config repairs the scripts *and* the runbooks. Verified: both aliases resolve
+and connect; all three scripts pass `bash -n`.
+
+*Lesson:* when several callers reference the same missing name, ask whether the name or the callers
+are wrong. Editing three scripts would have left the runbooks broken and hidden the real fault.
+
+**Disk triage — the 94% is almost entirely regenerable cache, not stale content.** Freed so far:
+`~/.npm` cache (≈3.3 GB); disk went 13 GB → 16 GB free.
+
+| Item | Size | Status |
+|------|------|--------|
+| `~/.cache/uv` | **16 GB** | **live** — five `uvx` MCP servers (`chroma-mcp`, `tradingview-mcp`) hold the cache lock, so `uv cache clean` times out. Not stale. |
+| `~/Library/Application Support/Cursor` | **11 GB** | app state (workspace indexes) — not a cache, left alone |
+| `.local/adopts/` clones, all projects | 5.2 GB | OSINT 3.57 GB / 116 · Image gen 1.15 GB / 14 · CCC 0.49 GB / 17 |
+| browser + test caches | ~1.5 GB | **operator declined removal** |
+
+**CCC's own clone shelf is only 0.49 GB** — the disk pressure is not coming from this wiki. The
+single biggest lever, the 16 GB uv cache, is held open by running MCP servers; clearing it needs
+those stopped (or `uv cache clean --force`).
+
 ## [2026-10-01] ops | Federation-wide sweep after the tailnet move; destructive archive bug found
 
 **Cursor was being told the wrong connection method, and one host it named no longer exists.**
