@@ -37,6 +37,10 @@ CHECKLIST: list[tuple[str, str]] = [
         "no_skill_autowrite",
         "No unattended .cursor/skills auto-evolution from this harness iteration.",
     ),
+    (
+        "trace_recheck",
+        "Process claims come from a re-run check, not from a visible chain-of-thought trace.",
+    ),
 ]
 
 REQUIRED_YES = {k for k, _ in CHECKLIST}

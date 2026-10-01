@@ -14,7 +14,7 @@ federation: true
 
 # Harness eval gate (K334)
 
-Canon: `@wiki/concepts/harness-as-eval-artifact.md` (arXiv **2609.01437**). Helper: `scripts/harness_eval_checklist.py`. Evaluate **runnable harness infrastructure**, not only terminal task output.
+Canon: `@ccc-wiki/concepts/harness-as-eval-artifact.md` (arXiv **2609.01437**). Helper: `scripts/harness_eval_checklist.py`. Evaluate **runnable harness infrastructure**, not only terminal task output.
 
 ## Procedure
 
@@ -23,12 +23,21 @@ python3 scripts/harness_eval_checklist.py checklist
 python3 scripts/harness_eval_checklist.py selftest
 ```
 
-JSON keys: `hidden_held_out`, `executor_swap`, `state_fires`, `external_eval`, `no_skill_autowrite` — all must be true for SHIP.
+JSON keys: `hidden_held_out`, `executor_swap`, `state_fires`, `external_eval`, `no_skill_autowrite`, `trace_recheck` — all must be true for SHIP.
 
 Pair with: K281/K292 external eval contract, K332 vague-goal self-evolution (judge vs base model), `env-harness-wrap` (keep the verifier).
+
+## Evidence integrity (K276 + K277)
+
+A visible chain-of-thought trace is weak evidence for the process. arXiv **2609.38107** measured it: on the hardest iGSM instances, 31.6% of correct answers carry invalid traces, and over half of those pass every syntax and arithmetic check and fail a semantic dependency check.
+
+A summary is not the document. Research summarised by Klement (2026-10-01) reported a buy-or-sell call flipping in one case in four to one in three when an agent read a summary instead of the full filing.
+
+Rule: score the re-run and the source, not the trace and the summary.
 
 ## NEVER
 
 - Do not rewrite `## Verify` or lint rules to match a failing agent (K162).
 - Do not auto-evolve `.cursor/skills` from harness-dev feedback.
 - Visible feedback alone ≠ held-out transfer.
+- Do not accept a chain-of-thought trace or an agent summary as proof that the check ran.
