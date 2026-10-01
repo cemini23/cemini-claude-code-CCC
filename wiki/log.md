@@ -1,3 +1,37 @@
+## [2026-10-01] ops | Tailscale joined both ends; public SSH closed; alias repointed
+
+**The connection problem is now structurally fixed, not patched.** Both nodes are on the tailnet:
+
+```
+100.76.73.113    cemini-egress-fi        linux    (Hetzner, Ubuntu noble)
+100.64.243.124   cecilias-macbook-air    macOS    (this laptop)
+```
+
+**UFW is now tailnet-only.** `22/tcp on tailscale0` is the single SSH rule. Verified from the
+laptop: **public `204.168.139.190:22` is CLOSED**, tailnet `100.76.73.113:22` is OPEN, and SSH over
+the tailnet works. That is the end state the brief argued for — access by stable identity instead of
+an address that changes.
+
+**A near-miss worth recording.** `ufw allow in on tailscale0 …` **appended** to iptables but did not
+flush the any-source rule I had written directly into `user.rules` during rescue — UFW's own database
+never tracked that rule, so `ufw status` did not show it and `ufw delete` reported "non-existent
+rule". The public port stayed open while UFW's view looked correct. Caught by testing the actual
+port from outside rather than trusting `ufw status`. Removed with a direct
+`iptables -D ufw-user-input -p tcp -m tcp --dport 22 -j ACCEPT`.
+
+**Layout consequence, also caught before it bit.** The archive script defaults to
+`EGRESS_HOST=cemini-egress-fi`, which pointed at the now-closed public IP — closing the port would
+have broken the archive it had just been fixed for. `cemini-egress-fi` now resolves to
+**`100.76.73.113`**; the old public route is preserved as **`cemini-egress-fi-direct`**. `~/.ssh/config`
+backed up twice (`.bak.20261001`, `.bak.pre-repoint.20261001`).
+
+**Install notes.** The macOS App Store download wedged (spinner, no progress); killing `appstoreagent`
+and clearing the cache let it be abandoned in favour of the **standalone `.pkg`**, which is also the
+better build for system-level networking. The laptop has **no `brew` and no `mas`**, so the App Store
+could not be driven from the CLI at all — worth knowing for the next macOS install.
+
+**Operator note:** laptop disk is at **94% (14 GB free)**. Unrelated to this work but worth a cleanup.
+
 ## [2026-10-01] ops | Egress fixed via Hetzner rescue; archive complete; Tailscale installed
 
 **Archive unblocked — inbox empty.** All five K411–K415 PDFs are on `cemini-egress-fi:/opt/cemini-bulk/research/ccc/`.
