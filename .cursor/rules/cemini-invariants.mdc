@@ -19,6 +19,7 @@ Hard gates for every workspace. Full catalog is on demand in `cemini-phase1-poli
 - Solvers, not LLM recall, for tabular prediction, distance, containment, lifecycle order. (MultiGlobeQA / CordisBench)
 - No PoCs, jailbreak text, or attack templates in wiki or briefs.
 - `/opt/cemini` is read-only from laptops. Briefs to `/opt/cemini/briefs/` only, after HITL.
+- **The egress host is Tailscale-only.** `cemini-egress-fi` resolves to the tailnet (`100.76.73.113`); public SSH on `204.168.139.190` is UFW-closed. If an SSH or `archive_raw_to_egress.sh` call hangs, the tailnet is down — check `tailscale status` and bring it up. **Do not reopen the public port as a workaround.** (`cemini-prod` is decommissioned; any ProxyJump through it is stale.)
 - IDs: key rules and ledger rows by arXiv id / slug. K# is a batch label in `log.md` only.
 
 Full catalog (on demand): `cemini-phase1-policy-wires.mdc` · canon: `@ccc-wiki/concepts/phase1-adopt-wire.md` · verbs: `@osint-wiki/concepts/file-keep-wire-harness.md`
