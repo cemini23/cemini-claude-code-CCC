@@ -334,6 +334,12 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`progressive-autonomy-incident-resolution`](concepts/progressive-autonomy-incident-resolution.md) | draft | Agentic AIOps progressive autonomy — 2606.09122 |
 | [`recommendation-tool-orchestration-fuzzy-intent-eval`](concepts/recommendation-tool-orchestration-fuzzy-intent-eval.md) | draft | RecToolBench fuzzy intent — 2609.30717 (K396) |
 | [`safety-bounded-sdc-mcp-gateway`](concepts/safety-bounded-sdc-mcp-gateway.md) | draft | SDC-to-MCP gateway — 2609.31358 (K397) |
+| [`evolutionary-mcp-tool-interface-design`](concepts/evolutionary-mcp-tool-interface-design.md) | draft | Growing an Agent/Prover Interface: Evolutionary To… — 2609.39544 (K411) |
+| [`claude-code-vs-agents-sdk-engineering-harness`](concepts/claude-code-vs-agents-sdk-engineering-harness.md) | draft | Skill-Based AI Agents for Power-System Studies… — 2609.40272 (K412) |
+| [`execution-contract-failure-attribution`](concepts/execution-contract-failure-attribution.md) | draft | DynaHarness: A Dynamic Physical Harness for Self-E… — 2609.40306 (K413) |
+| [`verified-ledger-proof-orchestration`](concepts/verified-ledger-proof-orchestration.md) | draft | Cogentic: Multi-Agent Orchestration for Automated … — 2609.40324 (K414) |
+| [`instance-adaptive-harness-optimization`](concepts/instance-adaptive-harness-optimization.md) | draft | Turbo Harness: Instance-Adaptive Harness Optimizat… — 2609.40330 (K415) |
+| [`simulate-before-commit-experience-pool`](concepts/simulate-before-commit-experience-pool.md) | draft | PrecogUI: Pre-cognitive Simulation for Proactive G… — 2609.36923 (K283) |
 | [`assay-content-addressed-evidence-graphs`](concepts/assay-content-addressed-evidence-graphs.md) | draft | Assay: Claims That Decay With the Code. Content-Ad… — 2609.36170 (K406) |
 | [`deterministic-retrieval-chain-reader-swap`](concepts/deterministic-retrieval-chain-reader-swap.md) | draft | Auditable Long-Term Memory: A Deterministic Retrie… — 2609.38021 (K407) |
 | [`vlm-mid-level-action-harness`](concepts/vlm-mid-level-action-harness.md) | draft | MotorMind: Scaffolding General Vision Language Mod… — 2609.38078 (K408) |
@@ -1073,6 +1079,12 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-harness-learning-test-time-adaptation-2609.35738`](sources/arxiv-harness-learning-test-time-adaptation-2609.35738.md) | draft | Harness Learning Enables Generalizable Test-Time Adapta… — 2609.35738 |
 | [`arxiv-tracekit-tamper-evident-agent-audit-2609.35659`](sources/arxiv-tracekit-tamper-evident-agent-audit-2609.35659.md) | draft | Tracekit: Tamper-Evident Intent-Reasoning-Action Auditi… — 2609.35659 |
 | [`arxiv-mcp-developer-error-messages-hurt-agents-2609.35381`](sources/arxiv-mcp-developer-error-messages-hurt-agents-2609.35381.md) | draft | MCP Error Messages Written for Developers Hurt the Most… — 2609.35381 |
+| [`arxiv-rocq-mcp-evolve-tool-interface-evolution-2609.39544`](sources/arxiv-rocq-mcp-evolve-tool-interface-evolution-2609.39544.md) | draft | Growing an Agent/Prover Interface: Evolutionary Tool De… — 2609.39544 |
+| [`arxiv-skill-based-agents-power-system-studies-2609.40272`](sources/arxiv-skill-based-agents-power-system-studies-2609.40272.md) | draft | Skill-Based AI Agents for Power-System Studies… — 2609.40272 |
+| [`arxiv-dynaharness-execution-contract-attribution-2609.40306`](sources/arxiv-dynaharness-execution-contract-attribution-2609.40306.md) | draft | DynaHarness: A Dynamic Physical Harness for Self-Evolvi… — 2609.40306 |
+| [`arxiv-cogentic-verified-ledger-proof-orchestration-2609.40324`](sources/arxiv-cogentic-verified-ledger-proof-orchestration-2609.40324.md) | draft | Cogentic: Multi-Agent Orchestration for Automated Proof… — 2609.40324 |
+| [`arxiv-turbo-harness-instance-adaptive-2609.40330`](sources/arxiv-turbo-harness-instance-adaptive-2609.40330.md) | draft | Turbo Harness: Instance-Adaptive Harness Optimization… — 2609.40330 |
+| [`arxiv-precogui-pre-cognitive-simulation-2609.36923`](sources/arxiv-precogui-pre-cognitive-simulation-2609.36923.md) | draft | PrecogUI: Pre-cognitive Simulation for Proactive GUI Ag… — 2609.36923 |
 | [`arxiv-assay-content-addressed-evidence-graphs-2609.36170`](sources/arxiv-assay-content-addressed-evidence-graphs-2609.36170.md) | draft | Assay: Claims That Decay With the Code. Content-Address… — 2609.36170 |
 | [`arxiv-auditable-long-term-memory-deterministic-chain-2609.38021`](sources/arxiv-auditable-long-term-memory-deterministic-chain-2609.38021.md) | draft | Auditable Long-Term Memory: A Deterministic Retrieval C… — 2609.38021 |
 | [`arxiv-motormind-vlm-mid-level-action-harness-2609.38078`](sources/arxiv-motormind-vlm-mid-level-action-harness-2609.38078.md) | draft | MotorMind: Scaffolding General Vision Language Models f… — 2609.38078 |
@@ -1135,6 +1147,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`2026-09-25-daily`](sweeps/2026-09-25-daily.md) | Daily digest — 5 papers (K390–K394 wave) |
 | [`2026-09-29-daily`](sweeps/2026-09-29-daily.md) | Daily digest — 5 papers (K401–K405 wave) |
 | [`2026-09-30-daily`](sweeps/2026-09-30-daily.md) | Daily digest — 5 papers (K406–K410 wave) |
+| [`2026-10-01-daily`](sweeps/2026-10-01-daily.md) | Daily digest — 5 papers (K411–K415 wave) |
 
 ## entities/people/
 

@@ -7,6 +7,7 @@ related:
   - sources/arxiv-mcp-granite-tool-interface-granularity-2609.24161.md
   - concepts/phase1-adopt-wire.md
   - briefs/2026-09-23_ccc-k376-k384-sip-ready.md
+  - concepts/evolutionary-mcp-tool-interface-design.md
 maturity: draft
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"

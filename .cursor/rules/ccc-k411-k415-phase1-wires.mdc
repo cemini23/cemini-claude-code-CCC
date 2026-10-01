@@ -1,0 +1,34 @@
+---
+description: CCC Phase-1 wires from K411–K415 harness wave + K283 cross-route (CCC-only — do NOT federation-sync)
+alwaysApply: false
+---
+
+# CCC — K411–K415 (+K283) Phase-1 wires
+
+**Brief:** `docs/briefs/2026-10-01_k411-k415-harness-wave.md` · SIP: `wiki/briefs/2026-10-01_ccc-k411-k415-sip-ready.md`
+
+**IDs:** Resolve by arXiv id / slug / file path — K# is a log batch label only.
+
+- **K411** Growing an Agent/Prover Interface: Evolutionary Tool Des… — **ADOPT pattern (Apache-2.0)**: concept `evolutionary-mcp-tool-interface-design`.
+- **K412** Skill-Based AI Agents for Power-System Studies… — **ADOPT pattern (Claude Code harness eval)**: concept `claude-code-vs-agents-sdk-engineering-harness`.
+- **K413** DynaHarness: A Dynamic Physical Harness for Self-Evolvin… — **REFERENCE (cross-domain; 3 primitives transfer)**: concept `execution-contract-failure-attribution`.
+- **K414** Cogentic: Multi-Agent Orchestration for Automated Proof … — **ADOPT pattern (Google Research)**: concept `verified-ledger-proof-orchestration`.
+- **K415** Turbo Harness: Instance-Adaptive Harness Optimization… — **CONDITIONAL-GO (MIT)**: concept `instance-adaptive-harness-optimization`.
+- **K283** PrecogUI: Pre-cognitive Simulation for Proactive GUI Age… — **REFERENCE (cross-wiki steal; no code)**: concept `simulate-before-commit-experience-pool`.
+
+**Wires landed:**
+
+| K | Verdict | Wire | wire_status |
+|---|---|------|-------------|
+| K411 | ADOPT pattern (Apache-2.0) | evolutionary mcp tool interface design | `policy_wired` |
+| K412 | ADOPT pattern (Claude Code harness eval) | claude code vs agents sdk engineering harn | `policy_wired` |
+| K413 | REFERENCE (cross-domain; 3 primitives transfer) | execution contract failure attribution | `policy_wired` |
+| K414 | ADOPT pattern (Google Research) | verified ledger proof orchestration | `policy_wired` |
+| K415 | CONDITIONAL-GO (MIT) | instance adaptive harness optimization | `policy_wired` |
+| K283 | REFERENCE (cross-wiki steal; no code) | simulate before commit experience pool | `policy_wired` |
+
+**Non-goals:** no federation sync; no PoCs; no clone of any repo this wave. K283 is a cross-wiki
+steal from `@seo-wiki/` with no code and no further implementation.
+
+**Propose-only:** rocq-mcp-experiment HITL clone (Apache-2.0, 0★) · turbo-harness HITL clone
+(MIT, 3★) — both brand new, mature them before use.

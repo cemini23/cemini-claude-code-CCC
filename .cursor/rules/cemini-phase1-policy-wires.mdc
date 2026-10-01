@@ -1171,3 +1171,49 @@ only, no runtime adoption, no clone.
 - **Per-instance `CODEX_HOME` isolation** generalises to any agent CLI that keeps state in a fixed
   home path. Extract the pattern, not the PowerShell tool. Runtime **`wont_wire`**.
 
+## CCC wave K411–K415 + K283 (shared policy file)
+
+ROCQ-MCP-EVOLVE tool-interface evolution (K411) + PNNL Claude Code vs Agents SDK engineering harness
+(K412) + DynaHarness execution contract (K413) + Cogentic verified ledger (K414) + Turbo Harness
+instance-adaptive optimization (K415) + PrecogUI simulate-before-commit (K283, cross-wiki). **Zero
+clones.** CCC-only rule `ccc-k411-k415-phase1-wires.mdc` — do **not** federation-sync.
+
+## Evolutionary MCP tool interface design (CCC K411)
+
+- **Evolve the tool interface; the frontier model designs tools for the smaller models that run.**
+  Keep a mutation only if it improves **accuracy AND cost/solve AND wall time**. Interface is the
+  optimization target, cost-per-solve is an objective (pairs K402/K311/K409/K405). Runtime
+  **`wont_wire`**.
+
+## Claude Code vs Agents SDK as engineering harness (CCC K412)
+
+- **Measured HITL burden as a first-class eval metric** — count required human expert interventions
+  alongside task completion and accuracy. Claude Code CLI is one of the two harnesses compared
+  (pairs `harness-as-eval-artifact`). Runtime **`wont_wire`**.
+
+## Execution contract + attribution (CCC K413)
+
+- **Bound every command by budget and lease, record every grounding/refusal/completion**, then
+  attribute failures from the record and gate revisions by **paired regression**. The rejected
+  candidate had won on its target cells and lost on the full round (pairs K406/K403). Runtime
+  **`wont_wire`**.
+
+## Verified ledger + adversarial proof orchestration (CCC K414)
+
+- **Two stores: attempts-with-critiques vs verified-only.** Later rounds build **only on the
+  verified ledger** — a promotion barrier. A separate advisor tunes cross-round instructions (pairs
+  K410/K406/K403). Runtime **`wont_wire`**.
+
+## Instance-adaptive harness optimization (CCC K415)
+
+- **One global harness is not optimal per instance.** Reuse the search archive as a playbook of
+  successful *and* failed edits; a small editor patches the harness once per instance, reaching
+  **executable loop code, not prompt wording**. Documented anti-pattern: forcing tool use globally
+  regressed a whole suite 6.7% (pairs K404/K409/K410/K169). Runtime **`wont_wire`**.
+
+## Simulate-before-commit experience pool (CCC K283, from SEO)
+
+- **Rank candidate actions by predicted reliability; keep a failure pool so a known failure is not
+  repeated.** Pre-flight + verify-before-publish discipline (pairs
+  `test-time-world-model-validate-before-act`). No code. Runtime **`wont_wire`**.
+

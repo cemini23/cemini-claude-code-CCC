@@ -23,6 +23,8 @@ Active workstreams, open decisions, and the done log for the Cemini Claude Code 
 
 - **Assay HITL clone (K406, 2026-09-30)** — `OmShiv/assay-research` is Apache-2.0 and ships an MCP server. **MCP audit done 2026-09-30** (detail on `wiki/concepts/assay-content-addressed-evidence-graphs.md`): stdio transport is clean, `dependencies = []` confirmed, **but `attest` runs a model-supplied command via `subprocess.run(..., shell=True)` with a 900s timeout** — shell execution behind a non-`Bash` tool name. Verdict: `wont_wire`. **Unblock condition:** re-classify `attest` as shell-equivalent, or bound it to an operator-approved allowlist. The *protocol* (cone-hash claim binding + the 8-check mechanical gate + evidence monotonicity) needs no code and is adoptable as a CCC policy rule now.
 
+- **HITL clones from K411/K415 (2026-10-01)** — both permissive, both brand new, neither cloned. `LLM4Rocq/rocq-mcp-experiment` (Apache-2.0, 0★, 0 forks, pushed 2026-10-01) and `Tyrion58/turbo-harness` (MIT, 3★, 0 forks, pushed 2026-09-30). The *methods* are the reusable part and need no code: K411's mutation-keep-if-it-wins-on-accuracy-AND-cost-AND-time loop, and K415's playbook-trained per-instance harness editor. Clone only if a CCC workstream needs to reproduce either.
+
 - **MetaSkill-AI4AI SPDX watch (K409, 2026-09-30)** — `qiancheng-apodex/MetaSkill-AI4AI` returns **null SPDX** (no license file). NO-GO on clone. Watch for a license file. The meta-skill `(when, provide, use)` pattern is adoptable as policy without the code.
 
 - **Dense+RRF SCOUT over live MCP catalog (K311 leftover)** — HITL; local BM25 SCOUT shipped 2026-08-31.
@@ -41,6 +43,7 @@ Active workstreams, open decisions, and the done log for the Cemini Claude Code 
 - **Catalog content (third-party skills/MCP) intentionally minimal** — we cover the *spec* (SKILL.md), our *audit pattern* (Phase-0), and our *internal use*. Per LESSONS.md 2026-05-13, catalog content has too high churn to mirror.
 
 ## Done
+- **2026-10-01** — K411–K415 harness wave + K283 cross-route: 5 arXiv ingests + 1 inbound SEO route, Phase-0/1, lint, CI. ROCQ-MCP-EVOLVE (evolutionary MCP interface design), PNNL Claude Code vs Agents SDK engineering harness, DynaHarness execution contract, Cogentic verified ledger, Turbo Harness instance-adaptive optimization, PrecogUI. Zero clones. **Archive to egress-fi BLOCKED (SSH timeout) — 5 PDFs remain in inbox.** Phase-0: rocq-mcp-experiment Apache-2.0 (0★), turbo-harness MIT (3★). No briefs distributed — CCC already owns this content (`mcp-tool-interface-granularity-eval` covers K411's ground).
 - **2026-09-28** — K396–K400 harness wave: 5 arXiv ingests + Phase-0/1, archive, lint, CI.
 - **2026-09-25** — K395 approval laundering ingest + K390/K392 federation precheck helpers.
 

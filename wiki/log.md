@@ -1,3 +1,12 @@
+## [2026-10-01] ingest | K411–K415 harness wave + K283 cross-route
+
+- **Sources:** 2609.39544 ROCQ-MCP-EVOLVE, 2609.40272 PNNL power agents, 2609.40306 DynaHarness, 2609.40324 Cogentic, 2609.40330 Turbo Harness.
+- **Inbound route:** K283 PrecogUI (2609.36923) from `@seo-wiki/` — steal only, no code, no further implementation.
+- **Phase-0:** rocq-mcp-experiment Apache-2.0 (0★); turbo-harness MIT (3★). No repo for K412/K413/K414/K283.
+- **Phase-1:** adopt_k411…k415 + adopt_k283; `ccc-k411-k415-phase1-wires.mdc`; policy §K411–K415. Zero clones.
+- **Standouts:** K412 is a head-to-head of Claude Code CLI vs the OpenAI Agents SDK on a real engineering workflow, with HITL burden as a metric. K415 documents a global harness knob with opposite per-instance optima (forcing tool use regressed a suite 6.7%).
+- **Archive:** egress bulk ccc (5 PDFs).
+
 ## [2026-09-30] fix | Sibling-wiki skills were never federated (Cybersec)
 
 The Cybersecurity wiki marks its own skills `federation: true`, but it appeared only in `WORKSPACES`
