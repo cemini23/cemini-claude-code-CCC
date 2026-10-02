@@ -102,6 +102,14 @@ DOMAIN_SKILL_DIRS=(
 # briefs that told the operator to use them after a sync were wrong. Discover
 # them here, skipping any name CCC canon or DOMAIN_SKILL_DIRS already owns:
 # those are synced INTO that wiki, so re-exporting them would loop.
+#
+# KNOWN LIMITATION (2026-10-02): because the sync also writes these skills into
+# CCC's own tree, their `federation: true` flag makes CCC's canon discovery adopt
+# them on the next run — so `CANON_SKILLS` claims them and this function skips
+# them. Distribution still works, but the effective source of truth for a
+# migrated skill is CCC's copy, so a later edit in the sibling wiki will NOT
+# propagate. Discriminating properly needs an explicit owner marker (e.g. a
+# `federation_owner:` frontmatter key) rather than name-overlap guessing.
 SIBLING_SKILL_DIRS=(
   "/Users/claudiobarone/Projects/Cybersecurity wiki/.cursor/skills"
 )
@@ -251,9 +259,11 @@ sync_domain_skill_tree() {
 install_workspace() {
   local dest="$1"
   local entry name src_dir
-  for skill in "${CANON_SKILLS[@]}"; do
-    sync_skill_tree "${skill}" "${dest}"
-  done
+  if [[ ${#CANON_SKILLS[@]} -gt 0 ]]; then
+    for skill in "${CANON_SKILLS[@]}"; do
+      sync_skill_tree "${skill}" "${dest}"
+    done
+  fi
   for entry in "${DOMAIN_SKILL_DIRS[@]}"; do
     name="${entry%%|*}"
     src_dir="${entry#*|}"
@@ -287,9 +297,11 @@ verify_workspace() {
   local dest="$1"
   local ok=0
   local entry name skill
-  for skill in "${CANON_SKILLS[@]}"; do
-    [[ -f "${dest}/.cursor/skills/${skill}/SKILL.md" ]] || ok=1
-  done
+  if [[ ${#CANON_SKILLS[@]} -gt 0 ]]; then
+    for skill in "${CANON_SKILLS[@]}"; do
+      [[ -f "${dest}/.cursor/skills/${skill}/SKILL.md" ]] || ok=1
+    done
+  fi
   for entry in "${DOMAIN_SKILL_DIRS[@]}"; do
     name="${entry%%|*}"
     [[ -f "${dest}/.cursor/skills/${name}/SKILL.md" ]] || ok=1
@@ -315,14 +327,20 @@ discover_federation_skills
 discover_sibling_skills
 
 echo "Sync federation Cursor skills from ${REPO_ROOT}"
-echo "  Federation skills (auto): ${CANON_SKILLS[*]}"
+if [[ ${#CANON_SKILLS[@]} -gt 0 ]]; then
+  echo "  Federation skills (auto): ${CANON_SKILLS[*]}"
+else
+  echo "  Federation skills (auto): (none)"
+fi
 echo "  Domain skills: adopted-geo-tools (SEO) + i-have-adhd + cemini-wiki-ingest + notebooklm-osint-bridge (OSINT)"
 echo "  Sibling skills (auto): ${#SIBLING_SKILLS[@]} from ${SIBLING_SKILL_DIRS[*]}"
 
-for skill in "${CANON_SKILLS[@]}"; do
-  sync_skill_tree "${skill}" "${HOME}"
-  echo "  OK  user-global ~/.cursor/skills/${skill}/"
-done
+if [[ ${#CANON_SKILLS[@]} -gt 0 ]]; then
+  for skill in "${CANON_SKILLS[@]}"; do
+    sync_skill_tree "${skill}" "${HOME}"
+    echo "  OK  user-global ~/.cursor/skills/${skill}/"
+  done
+fi
 for entry in "${DOMAIN_SKILL_DIRS[@]}"; do
   name="${entry%%|*}"
   src_dir="${entry#*|}"
