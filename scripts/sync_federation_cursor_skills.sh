@@ -48,19 +48,24 @@ FEDERATION_RULES_TO_PRUNE=(
 )
 
 # Discover CCC skills marked federation: true (YAML frontmatter).
+# A skill carrying `federation_owner: <wiki-id>` is NOT CCC canon — it belongs to
+# that wiki, and the sibling pass below exports it. This is what keeps a synced-in
+# sibling skill from being re-adopted as canon on the next run (see the note at
+# SIBLING_SKILL_DIRS).
 discover_federation_skills() {
   local skill_md name
   CANON_SKILLS=()
   shopt -s nullglob
   for skill_md in "${REPO_ROOT}/.cursor/skills"/*/SKILL.md; do
     if awk '
-      BEGIN { in_fm=0; found=0 }
+      BEGIN { in_fm=0; found=0; owned=0 }
       /^---[[:space:]]*$/ {
         if (in_fm==0) { in_fm=1; next }
         else { exit }
       }
-      in_fm && /^federation:[[:space:]]*true[[:space:]]*$/ { found=1; exit }
-      END { exit found ? 0 : 1 }
+      in_fm && /^federation_owner:[[:space:]]*[^[:space:]]/ { owned=1 }
+      in_fm && /^federation:[[:space:]]*true[[:space:]]*$/ { found=1 }
+      END { exit (found && !owned) ? 0 : 1 }
     ' "${skill_md}"; then
       name="$(basename "$(dirname "${skill_md}")")"
       # Domain skills synced separately — skip if listed in DOMAIN_SKILL_DIRS
@@ -96,47 +101,58 @@ DOMAIN_SKILL_DIRS=(
   "osint-catalog|${OSINT_ROOT}/.cursor/skills/osint-catalog"
 )
 
-# Sibling-wiki federation skills. The Cybersecurity wiki marks its own skills
-# `federation: true` as well, but it appears only in WORKSPACES, so nothing was
-# ever exported from it — its precheck skills were local-only and the friend
-# briefs that told the operator to use them after a sync were wrong. Discover
-# them here, skipping any name CCC canon or DOMAIN_SKILL_DIRS already owns:
-# those are synced INTO that wiki, so re-exporting them would loop.
+# Sibling-wiki federation skills: wiki-id|absolute path to that wiki's skills dir.
 #
-# KNOWN LIMITATION (2026-10-02): because the sync also writes these skills into
-# CCC's own tree, their `federation: true` flag makes CCC's canon discovery adopt
-# them on the next run — so `CANON_SKILLS` claims them and this function skips
-# them. Distribution still works, but the effective source of truth for a
-# migrated skill is CCC's copy, so a later edit in the sibling wiki will NOT
-# propagate. Discriminating properly needs an explicit owner marker (e.g. a
-# `federation_owner:` frontmatter key) rather than name-overlap guessing.
+# The Cybersecurity wiki marks its own skills `federation: true`, but it appears
+# only in WORKSPACES, so nothing was ever exported from it — its precheck skills
+# were local-only and the friend briefs that told the operator to use them after
+# a sync were wrong.
+#
+# Ownership is explicit via a `federation_owner: <wiki-id>` frontmatter key on the
+# skill, NOT inferred from names. The sync writes sibling skills into CCC's own
+# tree as well, so a name-overlap rule would see CCC's copy and mis-attribute it
+# (that is exactly how the source of truth silently moved to CCC before). Instead:
+#   - canon discovery skips any skill carrying `federation_owner`,
+#   - this pass claims a skill only when its owner matches the sibling wiki-id
+#     (or the key is absent, for a skill predating the marker).
+# A new cross-project skill in a sibling wiki needs the key added once; after
+# that it federates with no edit here.
 SIBLING_SKILL_DIRS=(
-  "/Users/claudiobarone/Projects/Cybersecurity wiki/.cursor/skills"
+  "cybersecurity-wiki|/Users/claudiobarone/Projects/Cybersecurity wiki/.cursor/skills"
 )
 
 discover_sibling_skills() {
-  local src_root skill_md name entry owner_name owner
+  local entry wiki_id src_root skill_md name owner_name owner
   SIBLING_SKILLS=()
-  for src_root in "${SIBLING_SKILL_DIRS[@]}"; do
+  for entry in "${SIBLING_SKILL_DIRS[@]}"; do
+    wiki_id="${entry%%|*}"
+    src_root="${entry#*|}"
     [[ -d "${src_root}" ]] || continue
     shopt -s nullglob
     for skill_md in "${src_root}"/*/SKILL.md; do
-      awk '
-        BEGIN { in_fm=0; found=0 }
+      # Must be federated AND explicitly owned by THIS sibling. An unmarked
+      # skill is deliberately NOT claimed: the sibling directory also holds the
+      # CCC and domain skills synced INTO it, and claiming those would export
+      # CCC's own canon back under a sibling's name.
+      awk -v want="${wiki_id}" '
+        BEGIN { in_fm=0; fed=0; owner="" }
         /^---[[:space:]]*$/ {
           if (in_fm==0) { in_fm=1; next }
           else { exit }
         }
-        in_fm && /^federation:[[:space:]]*true[[:space:]]*$/ { found=1; exit }
-        END { exit found ? 0 : 1 }
+        in_fm && /^federation:[[:space:]]*true[[:space:]]*$/ { fed=1 }
+        in_fm && /^federation_owner:[[:space:]]*/ {
+          owner=$0
+          sub(/^federation_owner:[[:space:]]*/, "", owner)
+          sub(/[[:space:]]+$/, "", owner)
+        }
+        END { exit (fed && owner==want) ? 0 : 1 }
       ' "${skill_md}" || continue
       name="$(basename "$(dirname "${skill_md}")")"
       owner=0
-      for owner_name in "${CANON_SKILLS[@]}"; do
-        if [[ "${owner_name}" == "${name}" ]]; then owner=1; fi
-      done
-      for entry in "${DOMAIN_SKILL_DIRS[@]}"; do
-        if [[ "${entry%%|*}" == "${name}" ]]; then owner=1; fi
+      # Domain skills are synced INTO the sibling from elsewhere — never export them.
+      for owner_name in "${DOMAIN_SKILL_DIRS[@]}"; do
+        if [[ "${owner_name%%|*}" == "${name}" ]]; then owner=1; fi
       done
       if [[ "${owner}" -eq 1 ]]; then continue; fi
       SIBLING_SKILLS+=("${name}|${src_root}/${name}")
@@ -333,7 +349,11 @@ else
   echo "  Federation skills (auto): (none)"
 fi
 echo "  Domain skills: adopted-geo-tools (SEO) + i-have-adhd + cemini-wiki-ingest + notebooklm-osint-bridge (OSINT)"
-echo "  Sibling skills (auto): ${#SIBLING_SKILLS[@]} from ${SIBLING_SKILL_DIRS[*]}"
+if [[ ${#SIBLING_SKILLS[@]} -gt 0 ]]; then
+  echo "  Sibling skills (auto): ${#SIBLING_SKILLS[@]} from ${SIBLING_SKILL_DIRS[0]#*|}"
+else
+  echo "  Sibling skills (auto): none"
+fi
 
 if [[ ${#CANON_SKILLS[@]} -gt 0 ]]; then
   for skill in "${CANON_SKILLS[@]}"; do
