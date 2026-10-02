@@ -41,6 +41,14 @@ CHECKLIST: list[tuple[str, str]] = [
         "trace_recheck",
         "Process claims come from a re-run check, not from a visible chain-of-thought trace.",
     ),
+    (
+        "state_owned",
+        "The harness owns the state a run depends on; missing state is checked before model strength.",
+    ),
+    (
+        "limits_enforced",
+        "Budgets and limits are enforced at the point of action, not displayed as a counter the agent may ignore.",
+    ),
 ]
 
 REQUIRED_YES = {k for k, _ in CHECKLIST}
