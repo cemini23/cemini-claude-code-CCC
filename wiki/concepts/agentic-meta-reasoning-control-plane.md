@@ -7,6 +7,8 @@ related:
   - sources/arxiv-agentic-meta-reasoning-control-plane-2609.38147.md
   - concepts/phase1-adopt-wire.md
   - briefs/2026-09-30_ccc-k406-k410-sip-ready.md
+  - concepts/lossless-visual-memory-harness.md
+  - concepts/persistent-state-evidence-traceable-research.md
 maturity: draft
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"

@@ -1,0 +1,32 @@
+---
+description: CCC Phase-1 wires from K416–K420 harness wave (CCC-only — do NOT federation-sync)
+alwaysApply: false
+---
+
+# CCC — K416–K420 Phase-1 wires
+
+**Brief:** `docs/briefs/2026-10-02_k416-k420-harness-wave.md` · SIP: `wiki/briefs/2026-10-02_ccc-k416-k420-sip-ready.md`
+
+**IDs:** Resolve by arXiv id / slug / file path — K# is a log batch label only.
+
+- **K416** YouRA: A Persistent-State Architecture for Evidence-Trac… — **ADOPT pattern; NO-GO clone (no license)**: concept `persistent-state-evidence-traceable-research`.
+- **K417** LLM-Driven Multi-Agent Control for Skill-Based Smart Man… — **REFERENCE (cross-domain; 3 primitives transfer)**: concept `state-injection-over-history-reconstruction`.
+- **K418** OmniSeek: Native Tool Integration for Multi-turn Audio-V… — **REFERENCE (multimodal; 2 ideas transfer)**: concept `active-evidence-acquisition-multimodal`.
+- **K419** VISTA: A Visual Harness for Reasoning in an Interactive … — **ADOPT pattern (MIT)**: concept `lossless-visual-memory-harness`.
+- **K420** KaliBench: A Fine-Grained Benchmark for Cybersecurity To… — **ADOPT method; cybersec-primary; NO-GO clone (no license)**: concept `schema-free-cli-tool-eval`.
+
+**Wires landed:**
+
+| K | Verdict | Wire | wire_status |
+|---|---|------|-------------|
+| K416 | ADOPT pattern; NO-GO clone (no license) | persistent state evidence traceable resear | `policy_wired` |
+| K417 | REFERENCE (cross-domain; 3 primitives transfer) | state injection over history reconstructio | `policy_wired` |
+| K418 | REFERENCE (multimodal; 2 ideas transfer) | active evidence acquisition multimodal | `policy_wired` |
+| K419 | ADOPT pattern (MIT) | lossless visual memory harness | `policy_wired` |
+| K420 | ADOPT method; cybersec-primary; NO-GO clone (no license) | schema free cli tool eval | `policy_wired` |
+
+**Non-goals:** no federation sync; no PoCs; no clone of any repo this wave. K420 is
+cybersec-primary — brief written to `@cybersecurity-wiki/`.
+
+**Propose-only:** VISTA HITL clone (MIT, 126★ — the one healthy repo this wave); YouRA and KaliBench
+are NO-GO on clone (no license; YouRA is also ~508 MB).

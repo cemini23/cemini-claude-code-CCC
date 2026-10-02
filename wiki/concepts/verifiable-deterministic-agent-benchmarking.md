@@ -29,6 +29,7 @@ related:
   - sources/arxiv-labels-not-endpoints-treatment-leakage-2608.12880.md
   - sources/arxiv-marc-v1-clinical-multi-agent-2608.13476.md
   - concepts/headless-claude-code-controlled-eval-lane.md
+  - concepts/schema-free-cli-tool-eval.md
 maturity: draft
 created: 2026-07-22
 updated: 2026-08-14

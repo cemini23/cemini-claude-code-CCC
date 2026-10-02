@@ -134,6 +134,7 @@ related:
   - entities/skills/free-audit.md
   - concepts/graph-engineering-system-intelligence.md
   - concepts/query-aware-role-fusion.md
+  - concepts/state-injection-over-history-reconstruction.md
 maturity: validated
 created: 2026-05-13
 updated: 2026-08-28

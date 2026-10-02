@@ -50,6 +50,9 @@ related:
   - concepts/query-aware-role-fusion.md
   - sources/arxiv-claude-code-complete-user-handbook-2608.26742.md
   - sources/arxiv-more-mixture-of-roles-2608.27338.md
+  - concepts/state-injection-over-history-reconstruction.md
+  - concepts/lossless-visual-memory-harness.md
+  - concepts/active-evidence-acquisition-multimodal.md
 maturity: validated
 created: 2026-05-13
 updated: 2026-08-28

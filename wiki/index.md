@@ -340,6 +340,11 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`verified-ledger-proof-orchestration`](concepts/verified-ledger-proof-orchestration.md) | draft | Cogentic: Multi-Agent Orchestration for Automated … — 2609.40324 (K414) |
 | [`instance-adaptive-harness-optimization`](concepts/instance-adaptive-harness-optimization.md) | draft | Turbo Harness: Instance-Adaptive Harness Optimizat… — 2609.40330 (K415) |
 | [`simulate-before-commit-experience-pool`](concepts/simulate-before-commit-experience-pool.md) | draft | PrecogUI: Pre-cognitive Simulation for Proactive G… — 2609.36923 (K283) |
+| [`persistent-state-evidence-traceable-research`](concepts/persistent-state-evidence-traceable-research.md) | draft | YouRA: A Persistent-State Architecture for Evidenc… — 2610.01097 (K416) |
+| [`state-injection-over-history-reconstruction`](concepts/state-injection-over-history-reconstruction.md) | draft | LLM-Driven Multi-Agent Control for Skill-Based Sma… — 2610.01364 (K417) |
+| [`active-evidence-acquisition-multimodal`](concepts/active-evidence-acquisition-multimodal.md) | draft | OmniSeek: Native Tool Integration for Multi-turn A… — 2610.02181 (K418) |
+| [`lossless-visual-memory-harness`](concepts/lossless-visual-memory-harness.md) | draft | VISTA: A Visual Harness for Reasoning in an Intera… — 2610.02200 (K419) |
+| [`schema-free-cli-tool-eval`](concepts/schema-free-cli-tool-eval.md) | draft | KaliBench: A Fine-Grained Benchmark for Cybersecur… — 2610.02206 (K420) |
 | [`assay-content-addressed-evidence-graphs`](concepts/assay-content-addressed-evidence-graphs.md) | draft | Assay: Claims That Decay With the Code. Content-Ad… — 2609.36170 (K406) |
 | [`deterministic-retrieval-chain-reader-swap`](concepts/deterministic-retrieval-chain-reader-swap.md) | draft | Auditable Long-Term Memory: A Deterministic Retrie… — 2609.38021 (K407) |
 | [`vlm-mid-level-action-harness`](concepts/vlm-mid-level-action-harness.md) | draft | MotorMind: Scaffolding General Vision Language Mod… — 2609.38078 (K408) |
@@ -1085,6 +1090,11 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-cogentic-verified-ledger-proof-orchestration-2609.40324`](sources/arxiv-cogentic-verified-ledger-proof-orchestration-2609.40324.md) | draft | Cogentic: Multi-Agent Orchestration for Automated Proof… — 2609.40324 |
 | [`arxiv-turbo-harness-instance-adaptive-2609.40330`](sources/arxiv-turbo-harness-instance-adaptive-2609.40330.md) | draft | Turbo Harness: Instance-Adaptive Harness Optimization… — 2609.40330 |
 | [`arxiv-precogui-pre-cognitive-simulation-2609.36923`](sources/arxiv-precogui-pre-cognitive-simulation-2609.36923.md) | draft | PrecogUI: Pre-cognitive Simulation for Proactive GUI Ag… — 2609.36923 |
+| [`arxiv-youra-persistent-state-evidence-traceable-2610.01097`](sources/arxiv-youra-persistent-state-evidence-traceable-2610.01097.md) | draft | YouRA: A Persistent-State Architecture for Evidence-Tra… — 2610.01097 |
+| [`arxiv-state-injection-multi-agent-manufacturing-2610.01364`](sources/arxiv-state-injection-multi-agent-manufacturing-2610.01364.md) | draft | LLM-Driven Multi-Agent Control for Skill-Based Smart Ma… — 2610.01364 |
+| [`arxiv-omniseek-active-evidence-acquisition-2610.02181`](sources/arxiv-omniseek-active-evidence-acquisition-2610.02181.md) | draft | OmniSeek: Native Tool Integration for Multi-turn Audio-… — 2610.02181 |
+| [`arxiv-vista-lossless-visual-memory-harness-2610.02200`](sources/arxiv-vista-lossless-visual-memory-harness-2610.02200.md) | draft | VISTA: A Visual Harness for Reasoning in an Interactive… — 2610.02200 |
+| [`arxiv-kalibench-schema-free-cli-tool-eval-2610.02206`](sources/arxiv-kalibench-schema-free-cli-tool-eval-2610.02206.md) | draft | KaliBench: A Fine-Grained Benchmark for Cybersecurity T… — 2610.02206 |
 | [`arxiv-assay-content-addressed-evidence-graphs-2609.36170`](sources/arxiv-assay-content-addressed-evidence-graphs-2609.36170.md) | draft | Assay: Claims That Decay With the Code. Content-Address… — 2609.36170 |
 | [`arxiv-auditable-long-term-memory-deterministic-chain-2609.38021`](sources/arxiv-auditable-long-term-memory-deterministic-chain-2609.38021.md) | draft | Auditable Long-Term Memory: A Deterministic Retrieval C… — 2609.38021 |
 | [`arxiv-motormind-vlm-mid-level-action-harness-2609.38078`](sources/arxiv-motormind-vlm-mid-level-action-harness-2609.38078.md) | draft | MotorMind: Scaffolding General Vision Language Models f… — 2609.38078 |
@@ -1148,6 +1158,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`2026-09-29-daily`](sweeps/2026-09-29-daily.md) | Daily digest — 5 papers (K401–K405 wave) |
 | [`2026-09-30-daily`](sweeps/2026-09-30-daily.md) | Daily digest — 5 papers (K406–K410 wave) |
 | [`2026-10-01-daily`](sweeps/2026-10-01-daily.md) | Daily digest — 5 papers (K411–K415 wave) |
+| [`2026-10-02-daily`](sweeps/2026-10-02-daily.md) | Daily digest — 5 papers (K416–K420 wave) |
 
 ## entities/people/
 

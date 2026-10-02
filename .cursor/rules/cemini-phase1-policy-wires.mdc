@@ -1217,3 +1217,46 @@ clones.** CCC-only rule `ccc-k411-k415-phase1-wires.mdc` — do **not** federati
   repeated.** Pre-flight + verify-before-publish discipline (pairs
   `test-time-world-model-validate-before-act`). No code. Runtime **`wont_wire`**.
 
+## CCC wave K416–K420 (shared policy file)
+
+YouRA persistent research state (K416) + state injection over history reconstruction (K417) +
+OmniSeek active evidence acquisition (K418) + VISTA lossless visual memory (K419) + KaliBench
+schema-free CLI tool eval (K420). **Zero clones.** CCC-only rule `ccc-k416-k420-phase1-wires.mdc` — do **not**
+federation-sync.
+
+## Persistent state, evidence-traceable research (CCC K416)
+
+- **Externalize the trajectory as durable state**: hypotheses, gates, and evidence pointers in a
+  VSA; a controller that reads that state and **stays separate from execution**; failures logged as
+  structured lessons routing to **bounded repair → redesign → reset**. Ablating either core-state
+  component drops the system below baseline (pairs K410/K414/K413/K406). Runtime **`wont_wire`**.
+
+## Inject state, do not reconstruct it (CCC K417)
+
+- **Prepend authoritative state as a structured block** instead of making the model rebuild it from
+  history: solve rate 88% → 93%, and it permits aggressive history trimming. Also: **filter the tool
+  list to physically valid operations before each call**. 92–98% of tokens are input (pairs
+  `context-engineering`/K318/K415). Runtime **`wont_wire`**.
+
+## Active evidence acquisition, anti-shortcut reward (CCC K418)
+
+- **Make retrieval an explicit `<think>→<tool_call>→<observe>` loop** over modality and time window,
+  and **reward trajectories that need both modalities** to discourage single-source shortcuts. Under
+  context overflow the agent loses tool calls entirely and **hallucinates observations** (pairs K410).
+  Runtime **`wont_wire`**.
+
+## Lossless memory beats clever compression (CCC K419)
+
+- **Keep every observation in original form and let the agent decide what to re-inspect.** Encoding
+  once loses details that only matter later, and the model cannot know at encoding time which they
+  are. Lossless retention + cheap retrieval is an **explicit attention mechanism over history**
+  (pairs K410/K387/`truncate-only-long-horizon-compaction`). Runtime **`wont_wire`**.
+
+## Schema-free CLI tool eval (CCC K420, cybersec-primary)
+
+- **Most real tool surfaces are schema-free CLI, not JSON schema.** Grade tool choice and argument
+  construction **separately**, canonically and **alias-aware**. Argument construction is the
+  bottleneck; no open-weight model exceeds **42% exact-command accuracy** unhinted. Deterministic CLI
+  structure enables **runtime-free verifiable rewards**. Cybersec-primary; brief routed there
+  (pairs K402/`mcp-tool-interface-granularity-eval`). Runtime **`wont_wire`**.
+

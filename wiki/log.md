@@ -1,3 +1,12 @@
+## [2026-10-02] ingest | K416–K420 harness wave (Oct 2 daily sweep)
+
+- **Sources:** 2610.01097 YouRA, 2610.01364 Siemens factory agents, 2610.02181 OmniSeek, 2610.02200 VISTA, 2610.02206 KaliBench.
+- **Phase-0:** VISTA **MIT** (126★, healthy, clone-eligible); YouRA **NOASSERTION** + ~508 MB (no clone); KaliBench **no licence** (no clone).
+- **Phase-1:** adopt_k416…k420; `ccc-k416-k420-phase1-wires.mdc`; policy §K416–K420. Zero clones.
+- **Cross-wiki:** K420 KaliBench is **cybersec-primary** — brief routed to `@cybersecurity-wiki/`; CCC keeps the schema-free tool-eval method.
+- **Standouts:** K417's state-injection ablation (88%→93%) and K419's lossless-memory argument against encode-once compression are the two most transferable harness findings.
+- **Archive:** egress bulk ccc (5 PDFs). Inbox empty.
+
 ## [2026-10-01] ops | SSH config pruned; the poly-fi mystery solved; disk triaged
 
 **SSH config now holds only live hosts.** Removed four dead entries: `cemini-prod` (decommissioned

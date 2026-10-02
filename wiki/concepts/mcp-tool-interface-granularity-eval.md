@@ -8,6 +8,7 @@ related:
   - concepts/phase1-adopt-wire.md
   - briefs/2026-09-23_ccc-k376-k384-sip-ready.md
   - concepts/evolutionary-mcp-tool-interface-design.md
+  - concepts/schema-free-cli-tool-eval.md
 maturity: draft
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"
