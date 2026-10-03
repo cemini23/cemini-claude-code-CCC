@@ -68,7 +68,7 @@ Full ingest workflow: [`CLAUDE.md`](CLAUDE.md) → Operations.
 
 - Products: [Atto](https://youratto.com) · [GuruWatcher](https://guruwatcher.com)
 - Newsletter: [Outlier Weekly](https://outlierweekly.substack.com)
-- YouTube: [@Cemini23](https://www.youtube.com/@Cemini23)
+- X: [@Cemini23](https://x.com/Cemini23)
 - Agent toolkit: [vet](https://github.com/cemini23/vet) · [wikilint](https://github.com/cemini23/wikilint) · [phase0](https://github.com/cemini23/phase0) · [agent-toolkit-demo](https://github.com/cemini23/agent-toolkit-demo) · [ara-schema](https://github.com/cemini23/ara-schema) · [cursor-audit](https://github.com/cemini23/agent-toolkit-demo/tree/main/skills/cursor-audit) · [super-audit](https://github.com/cemini23/agent-toolkit-demo/tree/main/skills/super-audit)
 - Public wikis: [Gambling](https://github.com/cemini23/Gambling-wiki) · [Game Dev](https://github.com/cemini23/Game-Dev-wiki) · [SEO/GEO](https://github.com/cemini23/SEO-GEO-B-M-Wiki) · [Cybersecurity](https://github.com/cemini23/Cybersecurity-wiki) · [3D Printing](https://github.com/cemini23/3D-Printing-Wiki) · [Image Gen](https://github.com/cemini23/uncensored-image-gen-wiki)
 - Trading: [world-cup-bot](https://github.com/cemini23/world-cup-bot)
@@ -85,7 +85,6 @@ If you’d like to tip, use the **donation-only** addresses below (not trading o
 | **Outlier Weekly** (methodology newsletter) | [outlierweekly.substack.com](https://outlierweekly.substack.com) |
 | **Atto** — organize Italian family documents on your computer | [youratto.com](https://youratto.com) |
 | **GuruWatcher** — Discord alerts for your newsletter’s price levels | [guruwatcher.com](https://guruwatcher.com) |
-| **YouTube** | [@Cemini23](https://www.youtube.com/@Cemini23) |
 
 | Chain family | Address |
 |--------------|---------|
