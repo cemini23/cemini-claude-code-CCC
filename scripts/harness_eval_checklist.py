@@ -49,6 +49,10 @@ CHECKLIST: list[tuple[str, str]] = [
         "limits_enforced",
         "Budgets and limits are enforced at the point of action, not displayed as a counter the agent may ignore.",
     ),
+    (
+        "trajectory_scored",
+        "Outcome and process are scored separately; a passing final result alone is not accepted.",
+    ),
 ]
 
 REQUIRED_YES = {k for k, _ in CHECKLIST}
