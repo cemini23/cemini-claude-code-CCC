@@ -25,6 +25,7 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import re
 import sys
 from pathlib import Path
 
@@ -32,6 +33,10 @@ from pathlib import Path
 # invokes this hook directly).
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from step_gate import classify  # noqa: E402
+
+#: Tools that carry a file target. Kept separate from step_gate._WRITE_TOOL so
+#: this module does not depend on a private name.
+_WRITE_TOOL_NAME = re.compile(r"write|edit|replace|notebook")
 
 
 def flatten_tool_input(tool_input) -> str:
@@ -55,12 +60,46 @@ def flatten_tool_input(tool_input) -> str:
     return str(tool_input)
 
 
+#: Keys that name a file target on a mutating tool.
+_PATH_KEYS = ("file_path", "filePath", "path", "notebook_path")
+
+
+def flatten_tool_paths(tool_name: str, tool_input) -> str:
+    """Return only the target path(s) of a file-mutating tool.
+
+    Write and Edit carry both a path and the new content. Matching a guarded
+    PATH against the whole input makes a mention of that path inside the content
+    look like a write to it, so a report that discusses a guarded file is
+    denied. Path guards must read the path, not the payload.
+
+    Non-mutating and command-shaped tools fall through to the full summary,
+    because for those the input is the command itself.
+    """
+    if not _WRITE_TOOL_NAME.search((tool_name or "").lower()):
+        return flatten_tool_input(tool_input)
+    if not isinstance(tool_input, dict):
+        return ""
+    parts: list[str] = []
+    for key, value in tool_input.items():
+        if key in _PATH_KEYS and isinstance(value, str):
+            parts.append(value)
+        # Batch-edit shapes: edits=[{file_path: ...}, ...]
+        if key in ("edits", "files") and isinstance(value, list):
+            for item in value:
+                if isinstance(item, dict):
+                    for kk in _PATH_KEYS:
+                        if isinstance(item.get(kk), str):
+                            parts.append(item[kk])
+    return " ".join(parts)
+
+
 def decide(tool_name: str, tool_input) -> tuple[str, str]:
     """Return (permission_decision, system_message). Never returns None."""
     if os.environ.get("STEP_GATE_HOOK", "1") == "0":
         return "allow", ""
     args_summary = flatten_tool_input(tool_input)
-    verdict, why = classify(tool_name, args_summary)
+    path_summary = flatten_tool_paths(tool_name, tool_input)
+    verdict, why = classify(tool_name, args_summary, path_summary)
     if verdict == "hold":
         return "deny", f"step-gate HOLD: {why}. Operator OK required."
     return "allow", ""
@@ -131,6 +170,30 @@ def selftest() -> int:
             {"command": "grep -r token wiki/"},
             "allow",
             "read-only token mention must not HOLD",
+        ),
+        (
+            "Write",
+            {"file_path": "reports/audit/report.md", "content": "Do not rewrite watches.json."},
+            "allow",
+            "a report that MENTIONS a guarded path must not HOLD",
+        ),
+        (
+            "Write",
+            {"file_path": "reports/audit/report.md", "content": "Do not mutate .cursor/skills."},
+            "allow",
+            "a report that MENTIONS .cursor/skills must not HOLD",
+        ),
+        (
+            "Write",
+            {"file_path": ".cursor/skills/route/SKILL.md", "content": "x"},
+            "deny",
+            "a real write INTO .cursor/skills must still HOLD",
+        ),
+        (
+            "Write",
+            {"file_path": "reports/audit/report.md", "content": "the .env file holds the key"},
+            "allow",
+            "a report that MENTIONS .env must not HOLD",
         ),
     ]
     for tool, tool_input, want, why in cases:

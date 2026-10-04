@@ -49,20 +49,33 @@ def _is_mutating(tool_l: str, args_l: str) -> bool:
     return bool(_BASHISH.search(tool_l) and _WRITE_OP.search(args_l))
 
 
-def classify(tool: str, args_summary: str) -> tuple[str, str]:
+def classify(tool: str, args_summary: str, path_summary: str | None = None) -> tuple[str, str]:
+    """Classify a tool call.
+
+    `args_summary` is the full flattened tool input. `path_summary` is the
+    target path(s) only, and defaults to `args_summary` when the caller has no
+    separate path to offer.
+
+    Guards that protect a PATH (watches.json, .cursor/skills, .env) match on
+    `path_summary`. A Write carries both a path and the new content, so matching
+    those guards against the whole input denies a file that merely mentions the
+    guarded path. Command guards keep using `args_summary`, because for a
+    command the input is the command.
+    """
     tool_l = (tool or "").lower()
     args_l = (args_summary or "").lower()
+    paths_l = (path_summary if path_summary is not None else args_summary or "").lower()
     if _FORCE_PUSH.search(args_l):
         return "hold", "git push --force"
     if "discord" in tool_l and re.search(r"\blive\b", args_l):
         return "hold", "LIVE Discord"
     if _SCP_SSH_CMD.search(args_l) and _PROD_HOST.search(args_l):
         return "hold", "scp/ssh to prod or egress"
-    if "watches.json" in args_l and _is_mutating(tool_l, args_l):
+    if "watches.json" in paths_l and _is_mutating(tool_l, args_l):
         return "hold", "watches.json write"
-    if ".cursor/skills" in args_l and _is_mutating(tool_l, args_l):
+    if ".cursor/skills" in paths_l and _is_mutating(tool_l, args_l):
         return "hold", ".cursor/skills mutation"
-    if _ENV_PATH.search(args_l) and (
+    if _ENV_PATH.search(paths_l) and (
         _WRITE_TOOL.search(tool_l)
         or (_BASHISH.search(tool_l) and (_WRITE_OP.search(args_l) or re.search(r"\b(export|curl)\b", args_l)))
     ):
