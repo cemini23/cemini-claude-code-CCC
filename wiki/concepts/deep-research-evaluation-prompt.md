@@ -2,7 +2,7 @@
 title: Deep research multi-wiki evaluation prompt — version lineage
 type: concept
 tags: [concept, prompt, gemini-deep-research, tool-evaluation, multi-wiki, cursor, claude-code]
-keywords: [v3, v4, v5, v6, v7, v8, v9, v10, v10.3, v10.4, v10.5, v10.6, ten surfaces, game-dev-wiki, gambling-wiki, CCC wiki, tier classification, anti-hallucination, cross-wiki routing, revenue lens, genealogy, family-tree, atto, guruwatcher, local-abliterated-lab, world-cup-bot, wc-ticket-monitor, ceminiDFS, ceminiparlays, federation-hub, xsp-killer]
+keywords: [v3, v4, v5, v6, v7, v8, v9, v10, v10.3, v10.4, v10.5, v10.6, v10.7, ten surfaces, game-dev-wiki, gambling-wiki, CCC wiki, tier classification, anti-hallucination, cross-wiki routing, revenue lens, genealogy, family-tree, atto, guruwatcher, basgiath, local-abliterated-lab, world-cup-bot, wc-ticket-monitor, ceminiDFS, ceminiparlays, federation-hub, xsp-killer]
 related:
   - concepts/cursor-ide-workspace.md
   - concepts/cross-wiki-routing.md
@@ -22,7 +22,7 @@ related:
   - entities/tools/awesome-agent-engineering.md
 maturity: validated
 created: 2026-05-21
-updated: 2026-09-13
+updated: 2026-10-05
 ---
 
 ## Relations
@@ -43,9 +43,9 @@ Question: **Where is the canonical copy-paste prompt for bulk URL / repo evaluat
 
 ## Narrative
 
-Bulk tool evaluation uses **ten surfaces** (Cemini **active prod bots** — XSP killer, PM/Kalshi exploratory, GuruWatcher — + seven specialist wikis including **gambling-wiki** and **game-dev-wiki** + **CCC wiki** as harness meta + **local abliterated / operator lab**). TipDrop.io surface **retired** (v10.5). Poker arena **retired** (v10.6).
+Bulk tool evaluation uses **ten surfaces** (Cemini **active prod bots** — XSP killer, PM/Kalshi exploratory, GuruWatcher — + seven specialist wikis including **gambling-wiki** and **game-dev-wiki** + **CCC wiki** as harness meta + **local abliterated / operator lab**). TipDrop.io surface **retired** (v10.5). Poker arena **retired** (v10.6). **Basgiath** (Minecraft Bedrock fan map) scores on the **game-dev-wiki** surface.
 
-**Priority stack (v10.6, 2026-09-13):** **#1 Atto** · **#2 GuruWatcher** · **#3 CeminiDFS** · **#4 CeminiParlays** · **then wikis always-on**. Everything else sits behind the four products (XSP · local abliterated AI lab · family-tree dogfood · PM LP canary). **Poker product removed** from eval and brief routing. Genealogy URLs must score `atto overlap` + `genealogy overlap`. Newsletter/price-watch Discord → `guruwatcher overlap`. NFL DFS / lineup / BBM → `CeminiDFS overlap`. Sportsbook parlay / SGP / pick'em EV → `ceminiparlays overlap`. Local low-refusal LLM / owned lab / AI pentest harness → `local-abliterated-lab overlap`. castle-sim remains deprioritized.
+**Priority stack (v10.7, 2026-10-05):** **#1 Atto** · **#2 GuruWatcher + Basgiath** · **#3 CeminiDFS** · **#4 CeminiParlays** · **then wikis always-on**. Everything else sits behind the four products (XSP · local abliterated AI lab · family-tree dogfood · PM LP canary). **Poker product removed** from eval and brief routing. Genealogy URLs must score `atto overlap` + `genealogy overlap`. Newsletter/price-watch Discord → `guruwatcher overlap`. Minecraft Bedrock / MCPEDL / CurseForge / Bedrock script API → `basgiath overlap` (non-monetized — value = fan reach). NFL DFS / lineup / BBM → `CeminiDFS overlap`. Sportsbook parlay / SGP / pick'em EV → `ceminiparlays overlap`. Local low-refusal LLM / owned lab / AI pentest harness → `local-abliterated-lab overlap`. castle-sim remains deprioritized.
 
 ### Version lineage
 
@@ -60,11 +60,19 @@ Bulk tool evaluation uses **ten surfaces** (Cemini **active prod bots** — XSP 
 | v7 | 2026-06-13 | 9 (+ `game-dev-wiki` surface 8) | `prompts/deep-research-multi-wiki-eval-v7-2026-06-13.md` | Frozen after K120; game-dev surface |
 | **v8** | **2026-06-21** | **9 (same surfaces)** | **`prompts/deep-research-multi-wiki-eval-v8-2026-06-21.md`** | Frozen after 2026-06-27 batches; librarian offline |
 | **v9** | **2026-06-28** | **10 (+ TipDrop.io surface 10)** | **`prompts/deep-research-multi-wiki-eval-v9-2026-06-28.md`** | Frozen after 2026-06-28 batches; license-first lens |
-| **v10** | **2026-07-06** (+v10.6 2026-09-13) | **10 (TipDrop→local abliterated lab)** | **`prompts/deep-research-multi-wiki-eval-v10-2026-07-06.md`** | **Current default** — revenue-first; **Atto #1** · **GuruWatcher #2** · **CeminiDFS #3** · **CeminiParlays #4** · then wikis; poker + TipDrop retired |
+| **v10** | **2026-07-06** (+v10.7 2026-10-05) | **10 (TipDrop→local abliterated lab)** | **`prompts/deep-research-multi-wiki-eval-v10-2026-07-06.md`** | **Current default** — revenue-first; **Atto #1** · **GuruWatcher + Basgiath #2** · **CeminiDFS #3** · **CeminiParlays #4** · then wikis; poker + TipDrop retired |
 
 **First v6 production batch:** K90 (2026-05-31, 41 URLs) — `@sources/multi-wiki-tool-eval-v6-k90-2026-05-31.md` (adds gambling-wiki surface).
 
 **First v7 note:** K115 (2026-06-13) — `@game-dev-wiki` bootstrap; no bulk URL batch yet.
+
+### v10.7 delta (2026-10-05) [CONFIRMED]
+
+1. **Basgiath** added as co-primary **Priority #2 alongside GuruWatcher** — `/Users/claudiobarone/Projects/dragon-rider-map`, GitHub `cemini23/basgiath`. Free Minecraft **Bedrock** map + add-on, Empyrean / dragon-rider fan project (MCPEDL + CurseForge; **non-monetized**).
+2. **`basgiath overlap`** field — Minecraft Bedrock, MCPEDL / CurseForge, Bedrock script API (`@minecraft/server`), fan-game distribution, clip / TikTok reach. Value = fan reach + follower growth; accept value when revenue confidence is `none`.
+3. **Priority stack** — **#1 Atto** · **#2 GuruWatcher + Basgiath** · **#3 CeminiDFS** · **#4 CeminiParlays** · then wikis always-on.
+4. **Hard bans** — free only, never Minecraft Marketplace, no official art / book text / series name in the title, always a clear "fan-made" label, no client-modification code.
+5. Eval canon (`prompts/deep-research-multi-wiki-eval-v10-2026-07-06.md`) registered; Gemini runtime paste (`deep-research-multi-wiki-eval-v10-gemini-runtime.md`) already carried it. OSINT side: `active_project_brief_targets.yaml`, `daily_research_config.yaml`, `@osint-wiki/concepts/active-project-research-routing.md`.
 
 ### v10.6 delta (2026-09-13) [CONFIRMED]
 
