@@ -1,3 +1,33 @@
+## [2026-10-05] ops | Two clones taken: VISTA and FrugalEvo (trimmed)
+
+Operator instruction: take the two HITL clone candidates carried since K419 and K425.
+
+| Clone | Size | Commit | Notes |
+|-------|------|--------|-------|
+| `.local/adopts/VISTA` | **8.5 MB** | `c97c354` | MIT. Shallow. Clean. |
+| `.local/adopts/frugalevo` | **408 MB** | `1db9af27b` | Apache-2.0. Shallow. **`runs/` trimmed.** |
+
+**The API size field badly understated FrugalEvo.** `gh api` reported `size=305717KB` (~306 MB),
+but the checkout came to **5.5 GB**. `size` measures **packed git data**, not the working tree — a
+~18× gap here. The cause was `runs/` at **5.1 GB**: the paper's per-run experiment output, not code.
+The harness itself is small — `skydiscover/` 1.8 MB, `configs/` 1.4 MB, `scripts/` 4 KB — plus
+`benchmarks/` at 72 MB of datasets.
+
+**Trimmed per operator decision**, keeping code, configs, and benchmarks. The checkout leaves the
+working tree dirty by design (deleted tracked files); that is expected for a reference clone and is
+recorded here so a later `git status` in that tree is not mistaken for accidental damage. It restores
+with `git checkout -- runs/`.
+
+**Phase-0 scripts updated, not left lying.** `adopt_k419_phase0.sh` and `adopt_k425_phase0.sh` both
+asserted `no clone` — a claim about the world that the clone just falsified. Both now assert the
+clone is **present**. A Phase-0 check that silently keeps asserting a stale decision is worse than no
+check.
+
+**Shelf now 19 clones / 922 MB** (was 17 / ~510 MB). Disk 16 GB → **21 GB free** after the trim.
+
+*Lesson:* for a reference clone, check the **working-tree** size, not the API's `size` field. A
+"small" repo can expand by an order of magnitude once data and run artifacts land in the checkout.
+
 ## [2026-10-05] ops | Lint fully clean — all 8 checks at zero
 
 **The wiki now reports zero on every check for the first time.** Section 5 was the last holdout: 7

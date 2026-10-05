@@ -28,5 +28,5 @@ alwaysApply: false
 **Non-goals:** no federation sync; no PoCs; no clone of any repo this wave. K421 is cybersec-primary —
 brief written to `@cybersecurity-wiki/`.
 
-**Propose-only:** FrugalEvo HITL clone (Apache-2.0, 3★, ~306 MB). `outshift-casa-slm` (K422) returns
-404 — do not chase it.
+**Cloned 2026-10-05:** `frugalevo` → `.local/adopts/frugalevo` (Apache-2.0; `runs/` trimmed, 408 MB).
+`outshift-casa-slm` (K422) returns 404 — do not chase it.

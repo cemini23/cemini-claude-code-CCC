@@ -10,7 +10,7 @@ check "concept" test -f "${REPO_ROOT}/wiki/concepts/cost-aware-program-evolution
 check "concept wired" grep -q "wire_status: policy_wired" "${REPO_ROOT}/wiki/concepts/cost-aware-program-evolution.md"
 check "policy K425" grep -q "K425" "${REPO_ROOT}/.cursor/rules/cemini-phase1-policy-wires.mdc"
 check "ccc-rule K425" grep -q "K425" "${REPO_ROOT}/.cursor/rules/ccc-k421-k425-phase1-wires.mdc"
-check "no clone" test ! -d "${REPO_ROOT}/.local/adopts/frugalevo"
+check "clone present" test -d "${REPO_ROOT}/.local/adopts/frugalevo"
 warn_note "K425 ADOPT pattern (Apache-2.0)"
 echo "Summary: ${pass} pass, ${fail} fail, ${warn} warn"
 [[ "${fail}" -eq 0 ]]
