@@ -1,4 +1,4 @@
-# Cemini Multi-Wiki Link Evaluation — Gemini Deep Research RUNTIME (v10.6)
+# Cemini Multi-Wiki Link Evaluation — Gemini Deep Research RUNTIME (v10.7)
 
 **Use this file for Gemini Deep Research paste.** Full canon: `deep-research-multi-wiki-eval-v10-2026-07-06.md` (Cursor spot-check only).
 
@@ -25,15 +25,16 @@ Assign a **tier**, name **primary wiki fit**, flag **cross-wiki routing**, score
 
 ### Still revenue-first
 
-Score every URL on **money / value path** (P&L, MRR, conversion, ops time saved, **Atto SKU**, GuruWatcher ops time / trading alert edge, **CeminiDFS contest ROI**, **CeminiParlays ticket EV**, local-abliterated-lab assist value, or family-tree dogfood value). License/ToS = notes only, not tier drivers.
+Score every URL on **money / value path** (P&L, MRR, conversion, ops time saved, **Atto SKU**, GuruWatcher ops time / trading alert edge, **Basgiath (Minecraft) reach/follower value**, **CeminiDFS contest ROI**, **CeminiParlays ticket EV**, local-abliterated-lab assist value, or family-tree dogfood value). License/ToS = notes only, not tier drivers.
 
 ### Priority #1 — Atto (prefer routing/tier when ties; name path when claiming fit)
 
 - **Atto (EMPHASIZE — genealogy PRODUCT):** `/Users/claudiobarone/Projects/atto` · vault `~/AttoVault/` · MCP `atto-mcp` · GitHub `cemini23/atto` → overlap **`atto`** → revenue: kit $499–$899 · concierge ≥$2.5k · Access share $8–$20/mo · playbook sub $15–$40/mo. Italian civil-record agent kit (vault, human-gate truth, FIND deep-links, portals, share). **Score `atto overlap` on every genealogy/archive/HTR/GEDCOM/IIIF/vault/share URL.**
 
-### Priority #2 — GuruWatcher (second after Atto on ties)
+### Priority #2 — GuruWatcher · Basgiath (Minecraft) (second after Atto on ties)
 
 - **GuruWatcher:** `/Users/claudiobarone/Projects/GuruWatcher` · GitHub `cemini23/GuruWatcher` · prod `/opt/guru-watcher/` → overlap **`guruwatcher`** → value: alert-only newsletter parameter watches → Discord (Macro Charts fluid mind; no orders). **Score `guruwatcher overlap` on newsletter claim extract, price/level Discord alerts, UW/yfinance pollers, watch-reconcile ledgers.**
+- **Basgiath (Minecraft fan map · server):** `/Users/claudiobarone/Projects/dragon-rider-map` · GitHub `cemini23/basgiath` · free Bedrock map + add-on → overlap **`basgiath`** → value: fan reach + follower growth (free, non-monetised — value is valid when revenue confidence is `none`). **Score `basgiath overlap` on Minecraft Bedrock, MCPEDL / CurseForge, Bedrock script API (`@minecraft/server`), fan-game distribution, clip / TikTok reach.**
 
 ### Priority #3 — CeminiDFS (peer with #4; after #1 then #2 on ties)
 
@@ -60,19 +61,21 @@ Score every URL on **money / value path** (P&L, MRR, conversion, ops time saved,
 5. Image-gen wiki
 6. SEO wiki
 7. 3D-printing wiki
-8. Game-dev wiki — hobby game dev (castle-sim legacy — deprioritized)
+8. Game-dev wiki — hobby game dev · **Basgiath (Minecraft fan map, Priority #2)** (castle-sim legacy — deprioritized)
 9. CCC wiki — Cursor/Claude harness, MCP, skills (**combo Atto** when genealogy MCP/skill)
 10. Local abliterated / operator lab — Cybersecurity wiki briefs (behind #1–#4; **TipDrop surface retired**)
 
 ### Shipped stacks — default Context/Pass unless named gap + revenue why
 
-**CeminiDFS** (phases 0–5 + BBM), **CeminiParlays** (fair · devig · run/rank copula · grade · Hard Rock default · pick'em profile), xsp-killer (4 modules), **local abliterated lab** (planner+executor + owned lab + harness re-point), **PM LP canary (K166)**, **Atto (M1–M14 + FIND/AI/MCP/Gumroad)**, **GuruWatcher (ingest-issue · claim ledger · most-recent-wins reconcile · Discord alert · prod timer)**, **genealogy dogfood (8 modules)**, world-cup-bot, wc-ticket-monitor — see full v10 canon.
+**CeminiDFS** (phases 0–5 + BBM), **CeminiParlays** (fair · devig · run/rank copula · grade · Hard Rock default · pick'em profile), xsp-killer (4 modules), **local abliterated lab** (planner+executor + owned lab + harness re-point), **PM LP canary (K166)**, **Atto (M1–M14 + FIND/AI/MCP/Gumroad)**, **GuruWatcher (ingest-issue · claim ledger · most-recent-wins reconcile · Discord alert · prod timer)**, **Basgiath (Bedrock map · build/package scripts · MCPEDL + CurseForge listing)**, **genealogy dogfood (8 modules)**, world-cup-bot, wc-ticket-monitor — see full v10 canon.
 
 **Poker arena retired 2026-09-13** — do **not** score `poker-arena overlap`; do **not** route briefs to `devfun-poker-arena`. Wiki history only.
 
 **Atto hard bans (do not re-litigate):** no auto-merge truth.ged · Antenati IIIF local-only · no LLM-NAS HTR · no Tint GPL vendor · synthetic Rossi / 900-series SSN fixtures only.
 
 **GuruWatcher hard bans:** alert-only — never place orders; do not clobber prod `watches.json` hold/trigger state on claim sync.
+
+**Basgiath hard bans:** free only — never monetise, never Minecraft Marketplace; no official art, no book text, no series name in the title; always a clear "fan-made" label.
 
 **CeminiParlays hard bans:** no scrape of book/lounge boards · no auto-fill or auto-submit slips · operator types lines + displayed American · output always says do not submit.
 
@@ -91,8 +94,8 @@ Score every URL on **money / value path** (P&L, MRR, conversion, ops time saved,
 
 - Stars / commits / issues: NOT FOUND if unverified — never estimate.
 - Unverified features: CLAIMED (unverified).
-- Every fit claim needs a **specific project path** or wiki page (`Projects/atto/...`, `Projects/GuruWatcher/...`, `Projects/CeminiDFS/...`, `Projects/CeminiParlays/...`, `Cybersecurity wiki/...`, or `Desktop/family/...`).
-- Every revenue claim needs a **mechanism** (MRR, P&L, conversion, ops time saved, **Atto SKU**, GuruWatcher alert edge, CeminiDFS contest ROI, CeminiParlays ticket EV, local-abliterated assist value). For **family-tree dogfood**: personal **value** is valid when revenue confidence is `none`.
+- Every fit claim needs a **specific project path** or wiki page (`Projects/atto/...`, `Projects/GuruWatcher/...`, `Projects/dragon-rider-map/...`, `Projects/CeminiDFS/...`, `Projects/CeminiParlays/...`, `Cybersecurity wiki/...`, or `Desktop/family/...`).
+- Every revenue claim needs a **mechanism** (MRR, P&L, conversion, ops time saved, **Atto SKU**, GuruWatcher alert edge, CeminiDFS contest ROI, CeminiParlays ticket EV, local-abliterated assist value, **Basgiath fan reach**). For **family-tree dogfood** and **Basgiath**: **value** is valid when revenue confidence is `none`.
 - 404: UNAVAILABLE, skip deep analysis.
 - Do **not** invent TipDrop / David kit fit — TipDrop retired 2026-08-05.
 - Do **not** invent poker-arena / dev.fun poker fit — poker product retired 2026-09-13.
@@ -110,7 +113,7 @@ Score every URL on **money / value path** (P&L, MRR, conversion, ops time saved,
 - Deferred to next batch: [list or none]
 - Batch theme: [e.g. NFL projection + parlay EV]
 - Evaluation order: [numbered URL list]
-- Primary lens: revenue + project fit; Priority #1 = Atto; #2 = GuruWatcher; #3 = CeminiDFS; #4 = CeminiParlays; then wikis always; poker + TipDrop retired
+- Primary lens: revenue + project fit; Priority #1 = Atto; #2 = GuruWatcher + Basgiath (Minecraft); #3 = CeminiDFS; #4 = CeminiParlays; then wikis always; poker + TipDrop retired
 ```
 
 ### Step 2 — Per URL
@@ -126,16 +129,16 @@ Score every URL on **money / value path** (P&L, MRR, conversion, ops time saved,
 - Revenue hypothesis: ...
 - Revenue confidence: high | medium | low | none
 - Revenue timeline: now | 30d | 90d | speculative
-- Project fit: [list projects or none — include atto and/or guruwatcher and/or ceminidfs and/or ceminiparlays and/or local-abliterated-lab and/or family-tree when relevant]
+- Project fit: [list projects or none — include atto and/or guruwatcher and/or basgiath and/or ceminidfs and/or ceminiparlays and/or local-abliterated-lab and/or family-tree when relevant]
 - Integration play: standalone | combo-with-[X] | wiki-only
 - Improvement: ...
 
 - Tier: Integrate | Extract | Watch | Context | Pass | UNAVAILABLE
 - Primary fit: [surface name]
 - Surfaces: prod=NO osint=NO gambling=NO game=NO cyber=NO image=NO seo=NO print=NO ccc=PARTIAL local-abliterated-lab=YES
-- Overlaps: local-abliterated-lab=... ceminiDFS=... ceminiparlays=... xsp-killer=... atto=... guruwatcher=... genealogy=... pm-canary=... wc-bot=... wc-tickets=...
+- Overlaps: local-abliterated-lab=... ceminiDFS=... ceminiparlays=... xsp-killer=... atto=... guruwatcher=... basgiath=... genealogy=... pm-canary=... wc-bot=... wc-tickets=...
 - Cross-wiki routing: ...
-- Active project routing: [atto | guruwatcher | ceminidfs | ceminiparlays | xsp-killer | local-abliterated-lab | family-tree | pm-canary | wiki-only] (prefer #1 Atto then #2 GuruWatcher then #3 CeminiDFS / #4 CeminiParlays; genealogy productizable → atto; DFS lineup → ceminidfs; parlay/SGP/pickem → ceminiparlays; never tipdrop; never poker-arena)
+- Active project routing: [atto | guruwatcher | basgiath | ceminidfs | ceminiparlays | xsp-killer | local-abliterated-lab | family-tree | pm-canary | wiki-only] (prefer #1 Atto then #2 GuruWatcher + Basgiath then #3 CeminiDFS / #4 CeminiParlays; genealogy productizable → atto; Minecraft fan map → basgiath; DFS lineup → ceminidfs; parlay/SGP/pickem → ceminiparlays; never tipdrop; never poker-arena)
 - Combo plays: ... (or none)
 - Reasoning: 2-4 sentences — path + revenue + tier
 
@@ -155,7 +158,7 @@ Score every URL on **money / value path** (P&L, MRR, conversion, ops time saved,
 - Context: N — [list]
 - Pass: N — [list]
 - UNAVAILABLE: N — [list]
-- Revenue by project: [counts — include atto, guruwatcher, ceminidfs, ceminiparlays, local-abliterated-lab, and family-tree separately]
+- Revenue by project: [counts — include atto, guruwatcher, basgiath, ceminidfs, ceminiparlays, local-abliterated-lab, and family-tree separately]
 - Combo plays: [URL → projects → mechanism]
 - Genuine gaps (Extract/Integrate): [list + gap + revenue why]
 - Cross-routing batch: [by wiki]

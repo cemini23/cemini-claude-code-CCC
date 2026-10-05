@@ -1,3 +1,13 @@
+## [2026-10-05] ingest | K421–K425 harness wave (Oct 5 daily sweep)
+
+- **Sources:** 2610.02861 K8s agent security, 2610.03213 SLM task-tool intent, 2610.03585 TPRS, 2610.03631 NeutronGym, 2610.03675 FrugalEvo.
+- **Phase-0:** `chchenhui/frugalevo` Apache-2.0 (3★, ~306 MB); `outshift-open/outshift-casa-slm` **404**. No repo for K421/K423/K424.
+- **Phase-1:** adopt_k421…k425; `ccc-k421-k425-phase1-wires.mdc`; policy §K421–K425. Zero clones.
+- **Cross-wiki:** **K421 cybersec-primary** (brief to `@cybersecurity-wiki/`); K423 noted there too.
+- **Not routed:** checked the Minecraft project (`dragon-rider-map`, K281 Basgiath) and the Game Dev wiki — **no match this wave**; these are harness/eval/security papers.
+- **Standouts:** K423 (a score moves when only the phrasing moves — generalises K407) and K425 (structure prompts so the cache fires; $0.0097 vs $0.0210/iteration).
+- **Archive:** egress bulk ccc (5 PDFs). Inbox empty.
+
 ## [2026-10-02] ingest | K416–K420 harness wave (Oct 2 daily sweep)
 
 - **Sources:** 2610.01097 YouRA, 2610.01364 Siemens factory agents, 2610.02181 OmniSeek, 2610.02200 VISTA, 2610.02206 KaliBench.

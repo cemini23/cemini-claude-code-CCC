@@ -1260,3 +1260,49 @@ federation-sync.
   structure enables **runtime-free verifiable rewards**. Cybersec-primary; brief routed there
   (pairs K402/`mcp-tool-interface-granularity-eval`). Runtime **`wont_wire`**.
 
+## CCC wave K421–K425 (shared policy file)
+
+Containing the autonomous operator (K421) + intent-based tool-call oversight (K422) + threat-preserving
+representation sensitivity (K423) + graded reward ladder / no-model gates (K424) + cost-aware program
+evolution (K425). **Zero clones.** CCC-only rule `ccc-k421-k425-phase1-wires.mdc` — do **not** federation-sync.
+
+## The model is not a security boundary (CCC K421, cybersec-primary)
+
+- **Agent safety is an infrastructure problem.** Assume the agent is fully compromised by prompt
+  injection; constrain reach, action, and egress. **Break the combination of untrusted input +
+  sensitive access + external egress.** Mediate completely at the **tool boundary** with
+  policy-as-code over tool *arguments*. Pairs `cemini-invariants.mdc` ("enforcement is external and
+  fail-closed; model self-arbitration is not a boundary"). Runtime **`wont_wire`**.
+
+## Intent-based tool-call oversight (CCC K422)
+
+- **Authorize the intent, not only the call.** A per-call cognitive check asks whether a tool is a
+  *relevant step toward the task*, which a permission check cannot. An SLM in the path makes it
+  low-latency and on-prem; Gemma-3-4B post-GRPO hits 96.13% E2E vs a 95% bar (1B does not clear it,
+  so 4B is the floor). GEPA/SFT/GRPO move FPR and FNR differently. Runtime **`wont_wire`**.
+
+## Threat-preserving representation sensitivity (CCC K423)
+
+- **A security score can move when only the *phrasing* moves.** Renaming a tool from
+  `DNSPoisoning` to `DNSConfiguration` **raised** measured ASR by 11.67 points; a length-matched
+  neutral control reproduced 8.54 of the 11.00 points, so threat vocabulary is not the driver.
+  **Robustness claims need a controlled set of threat-preserving variants, not one number.**
+  Generalises K407. Runtime **`wont_wire`**.
+
+## Graded reward ladder + no-model gates (CCC K424)
+
+- **Make the grader a simulator, and gate the tasks before trusting them.** Level-resolved ladder
+  (syntax → runtime → structure → science) with **no LLM judge**; **partial credit is what makes it
+  trainable** (removing it costs 60 points). Admission protocol: **no-model probes** — best fixed
+  answer, best prompt-reading rule, every instance's solution on every other — plus contamination
+  probes (4 of 7 pilot episodes retrieved a reference file). Four of the authors' own designs failed
+  their gate. Runtime **`wont_wire`**.
+
+## Cost-aware program evolution (CCC K425)
+
+- **Optimize gain per dollar.** Split generation: an expensive model proposes **strategies**, a cheap
+  model implements and refines **code**. **Structure the harness and prompts to maximize prefix
+  sharing so prompt caching fires** — cost/iteration $0.0097 vs $0.0210–$0.0435. Measure with
+  **Budget-Aware AUC** (best-so-far score against cumulative cost). pairs K405/K320/K415 and
+  `token-economics-and-prompt-caching`. Runtime **`wont_wire`**.
+

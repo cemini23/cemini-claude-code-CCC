@@ -345,6 +345,11 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`active-evidence-acquisition-multimodal`](concepts/active-evidence-acquisition-multimodal.md) | draft | OmniSeek: Native Tool Integration for Multi-turn A… — 2610.02181 (K418) |
 | [`lossless-visual-memory-harness`](concepts/lossless-visual-memory-harness.md) | draft | VISTA: A Visual Harness for Reasoning in an Intera… — 2610.02200 (K419) |
 | [`schema-free-cli-tool-eval`](concepts/schema-free-cli-tool-eval.md) | draft | KaliBench: A Fine-Grained Benchmark for Cybersecur… — 2610.02206 (K420) |
+| [`model-is-not-a-security-boundary`](concepts/model-is-not-a-security-boundary.md) | draft | Containing the Autonomous Operator: A Defense-in-D… — 2610.02861 (K421) |
+| [`intent-based-tool-call-oversight`](concepts/intent-based-tool-call-oversight.md) | draft | Toward SLM-based agentic task-tool intent matching… — 2610.03213 (K422) |
+| [`threat-preserving-representation-sensitivity`](concepts/threat-preserving-representation-sensitivity.md) | draft | Threat-Preserving Representation Sensitivity in Ag… — 2610.03585 (K423) |
+| [`graded-reward-ladder-no-model-gates`](concepts/graded-reward-ladder-no-model-gates.md) | draft | NeutronGym: Physics-Graded Neutron Instrument Desi… — 2610.03631 (K424) |
+| [`cost-aware-program-evolution`](concepts/cost-aware-program-evolution.md) | draft | FrugalEvo: Towards Cost-Aware LLM-Guided Program E… — 2610.03675 (K425) |
 | [`assay-content-addressed-evidence-graphs`](concepts/assay-content-addressed-evidence-graphs.md) | draft | Assay: Claims That Decay With the Code. Content-Ad… — 2609.36170 (K406) |
 | [`deterministic-retrieval-chain-reader-swap`](concepts/deterministic-retrieval-chain-reader-swap.md) | draft | Auditable Long-Term Memory: A Deterministic Retrie… — 2609.38021 (K407) |
 | [`vlm-mid-level-action-harness`](concepts/vlm-mid-level-action-harness.md) | draft | MotorMind: Scaffolding General Vision Language Mod… — 2609.38078 (K408) |
@@ -1095,6 +1100,11 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-omniseek-active-evidence-acquisition-2610.02181`](sources/arxiv-omniseek-active-evidence-acquisition-2610.02181.md) | draft | OmniSeek: Native Tool Integration for Multi-turn Audio-… — 2610.02181 |
 | [`arxiv-vista-lossless-visual-memory-harness-2610.02200`](sources/arxiv-vista-lossless-visual-memory-harness-2610.02200.md) | draft | VISTA: A Visual Harness for Reasoning in an Interactive… — 2610.02200 |
 | [`arxiv-kalibench-schema-free-cli-tool-eval-2610.02206`](sources/arxiv-kalibench-schema-free-cli-tool-eval-2610.02206.md) | draft | KaliBench: A Fine-Grained Benchmark for Cybersecurity T… — 2610.02206 |
+| [`arxiv-containing-autonomous-operator-k8s-agent-security-2610.02861`](sources/arxiv-containing-autonomous-operator-k8s-agent-security-2610.02861.md) | draft | Containing the Autonomous Operator: A Defense-in-Depth … — 2610.02861 |
+| [`arxiv-slm-task-tool-intent-matching-2610.03213`](sources/arxiv-slm-task-tool-intent-matching-2610.03213.md) | draft | Toward SLM-based agentic task-tool intent matching… — 2610.03213 |
+| [`arxiv-threat-preserving-representation-sensitivity-2610.03585`](sources/arxiv-threat-preserving-representation-sensitivity-2610.03585.md) | draft | Threat-Preserving Representation Sensitivity in Agent-S… — 2610.03585 |
+| [`arxiv-neutrongym-graded-reward-ladder-2610.03631`](sources/arxiv-neutrongym-graded-reward-ladder-2610.03631.md) | draft | NeutronGym: Physics-Graded Neutron Instrument Design fo… — 2610.03631 |
+| [`arxiv-frugalevo-cost-aware-program-evolution-2610.03675`](sources/arxiv-frugalevo-cost-aware-program-evolution-2610.03675.md) | draft | FrugalEvo: Towards Cost-Aware LLM-Guided Program Evolut… — 2610.03675 |
 | [`arxiv-assay-content-addressed-evidence-graphs-2609.36170`](sources/arxiv-assay-content-addressed-evidence-graphs-2609.36170.md) | draft | Assay: Claims That Decay With the Code. Content-Address… — 2609.36170 |
 | [`arxiv-auditable-long-term-memory-deterministic-chain-2609.38021`](sources/arxiv-auditable-long-term-memory-deterministic-chain-2609.38021.md) | draft | Auditable Long-Term Memory: A Deterministic Retrieval C… — 2609.38021 |
 | [`arxiv-motormind-vlm-mid-level-action-harness-2609.38078`](sources/arxiv-motormind-vlm-mid-level-action-harness-2609.38078.md) | draft | MotorMind: Scaffolding General Vision Language Models f… — 2609.38078 |
@@ -1158,6 +1168,10 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`2026-09-29-daily`](sweeps/2026-09-29-daily.md) | Daily digest — 5 papers (K401–K405 wave) |
 | [`2026-09-30-daily`](sweeps/2026-09-30-daily.md) | Daily digest — 5 papers (K406–K410 wave) |
 | [`2026-10-01-daily`](sweeps/2026-10-01-daily.md) | Daily digest — 5 papers (K411–K415 wave) |
+| [`2026-10-02-daily`](sweeps/2026-10-02-daily.md) | Daily digest — 5 papers (K416–K420 wave) |
+| [`2026-10-03-daily`](sweeps/2026-10-03-daily.md) | Daily digest |
+| [`2026-10-04-daily`](sweeps/2026-10-04-daily.md) | Daily digest |
+| [`2026-10-05-daily`](sweeps/2026-10-05-daily.md) | Daily digest — 5 papers (K421–K425 wave) |
 | [`2026-10-02-daily`](sweeps/2026-10-02-daily.md) | Daily digest — 5 papers (K416–K420 wave) |
 
 ## entities/people/

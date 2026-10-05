@@ -1,0 +1,32 @@
+---
+description: CCC Phase-1 wires from K421–K425 harness wave (CCC-only — do NOT federation-sync)
+alwaysApply: false
+---
+
+# CCC — K421–K425 Phase-1 wires
+
+**Brief:** `docs/briefs/2026-10-05_k421-k425-harness-wave.md` · SIP: `wiki/briefs/2026-10-05_ccc-k421-k425-sip-ready.md`
+
+**IDs:** Resolve by arXiv id / slug / file path — K# is a log batch label only.
+
+- **K421** Containing the Autonomous Operator: A Defense-in-Depth F… — **ADOPT principle; cybersec-primary**: concept `model-is-not-a-security-boundary`.
+- **K422** Toward SLM-based agentic task-tool intent matching… — **ADOPT pattern (no repo — 404)**: concept `intent-based-tool-call-oversight`.
+- **K423** Threat-Preserving Representation Sensitivity in Agent-Se… — **ADOPT eval-methodology**: concept `threat-preserving-representation-sensitivity`.
+- **K424** NeutronGym: Physics-Graded Neutron Instrument Design for… — **ADOPT eval methodology**: concept `graded-reward-ladder-no-model-gates`.
+- **K425** FrugalEvo: Towards Cost-Aware LLM-Guided Program Evoluti… — **ADOPT pattern (Apache-2.0)**: concept `cost-aware-program-evolution`.
+
+**Wires landed:**
+
+| K | Verdict | Wire | wire_status |
+|---|---|------|-------------|
+| K421 | ADOPT principle; cybersec-primary | model is not a security boundary | `policy_wired` |
+| K422 | ADOPT pattern (no repo — 404) | intent based tool call oversight | `policy_wired` |
+| K423 | ADOPT eval-methodology | threat preserving representation sensitivi | `policy_wired` |
+| K424 | ADOPT eval methodology | graded reward ladder no model gates | `policy_wired` |
+| K425 | ADOPT pattern (Apache-2.0) | cost aware program evolution | `policy_wired` |
+
+**Non-goals:** no federation sync; no PoCs; no clone of any repo this wave. K421 is cybersec-primary —
+brief written to `@cybersecurity-wiki/`.
+
+**Propose-only:** FrugalEvo HITL clone (Apache-2.0, 3★, ~306 MB). `outshift-casa-slm` (K422) returns
+404 — do not chase it.
