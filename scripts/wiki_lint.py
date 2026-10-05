@@ -106,7 +106,8 @@ def parse_frontmatter(text):
         else:
             out["related"] = []
     # scalars
-    for key in ("type", "maturity", "title", "created", "updated", "read_status", "hub"):
+    for key in ("type", "maturity", "title", "created", "updated", "read_status", "hub",
+                "cross-wiki-source"):
         m2 = SCALAR_RE(key).search(fm_text)
         if m2:
             out[key] = m2.group(1).strip()
@@ -278,10 +279,17 @@ if WIKI_ALIASES:
 
 # -- 5: cited unread stubs -----------------------------------------------
 
+# A stub that declares `cross-wiki-source` is a routing pointer: this wiki holds
+# provenance, and the canon (including the deep read) lives on the named sibling.
+# Flagging those conflates "routed" with "forgotten" -- 7 pages sat in this report
+# for months while being deliberate. A stub is only reported when this wiki owns
+# the reading obligation, i.e. no cross-wiki canon is declared.
 cited_unread = []
 for p, fm in pages.items():
     if not p.startswith("sources/"):
         continue
+    if str(fm.get("cross-wiki-source") or "").strip():
+        continue  # routed stub -- canon is on the named sibling wiki
     rs = (fm.get("read_status") or "").lower()
     if rs in ("unread-stub", "unread", ""):
         if p in inbound and len(inbound[p]) >= 1:

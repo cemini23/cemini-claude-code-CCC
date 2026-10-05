@@ -1,3 +1,40 @@
+## [2026-10-05] ops | Lint fully clean — all 8 checks at zero
+
+**The wiki now reports zero on every check for the first time.** Section 5 was the last holdout: 7
+"cited but unread" source stubs.
+
+**They were not unread. They were routed.** All 7 declare `cross-wiki-source: @osint-wiki/...`, and
+their pages say so in prose — *"CCC holds provenance + routing only. Ingest deep-read from OSINT when
+implementing."* The canon, including the deep read, lives on OSINT. Each had sat in the report for
+months while being a deliberate design decision, which is the same failure mode as the orphan check
+before it: **the lint was conflating "routed" with "forgotten."**
+
+**Fix, in two parts — one of which was a latent bug.**
+
+1. **The rule.** A stub declaring a cross-wiki canon is a routing pointer; the reading obligation
+   belongs to the named sibling, so CCC should not report it. A stub with **no** declared canon is
+   still reported, because then CCC does own the reading.
+2. **The latent bug.** The first attempt changed only the rule and the count stayed at 7. The
+   frontmatter parser extracts a **fixed key list** — `type`, `maturity`, `title`, `created`,
+   `updated`, `read_status`, `hub` — so `cross-wiki-source` was never parsed and
+   `fm.get("cross-wiki-source")` always returned `None`. Added it to the list. **Any future lint rule
+   keying off a frontmatter field must add that field to the parser first** — otherwise the rule
+   silently never fires, which looks exactly like a clean result.
+
+**Verified the check is intact, not silenced:** 7 stubs carry a cross-wiki canon and are excluded; **0
+stubs without one exist**. A genuinely-forgotten stub would still be reported.
+
+| # | Check | Status |
+|---|-------|--------|
+| 1 | Orphans | 0 |
+| 2 | Bidirectional gaps | 0 |
+| 3 | Dangling `related:` | 0 |
+| 4 | `@path` body mentions | 0 |
+| 5 | Cited-but-unread stubs | **0** (was 7) |
+| 6 | Frontmatter quality | 0 |
+| 7 | Stale verification tags | 0 |
+| 8 | Cross-wiki dangling | 0 |
+
 ## [2026-10-05] ingest | K421–K425 harness wave (Oct 5 daily sweep)
 
 - **Sources:** 2610.02861 K8s agent security, 2610.03213 SLM task-tool intent, 2610.03585 TPRS, 2610.03631 NeutronGym, 2610.03675 FrugalEvo.
