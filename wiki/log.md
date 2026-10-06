@@ -1,3 +1,19 @@
+## [2026-10-06] route | k282 inbound from OSINT (agent-eval batch)
+
+- **Source brief:** `briefs/2026-10-05_k282-ccc-agent-eval.md` (OSINT K282, 4 papers).
+- **Pages written:** 4 sources + 4 concepts, cross-wiki canon on OSINT (`cross-wiki-source` set, so lint section 5 stays at zero).
+- **Takeaways:** harness security spread 5.41 pp vs model 54.37 pp (K426-adjacent); gate separation theorem + density re-check trigger; browsing-agent **57.68% shared failure** ⇒ task-type bottleneck; curated skills **+16.2** vs self-generated **+0.5**.
+- **Phase-1:** policy §k282 inbound route added. Runtime `wont_wire` on all four. No install, no clone.
+
+## [2026-10-06] ingest | K426–K430 harness wave (Oct 6 daily sweep)
+
+- **Sources:** 2610.05319 MCPacific, 2610.06454 AgentPrivArena, 2610.06829 CLIFT, 2610.06830 MemPilot, 2610.06843 RV-ICL.
+- **Phase-0:** no repo for K426/K428/K429/K430. `voidreaming/agentprivarena` (K427) is **MIT but the project website**, not the framework → no clone.
+- **Phase-1:** adopt_k426…k430; `ccc-k426-k430-phase1-wires.mdc`; policy §K426–K430. Zero clones.
+- **Cross-wiki:** none — all five are harness/eval/memory work CCC owns. Minecraft + Game Dev checked, no match.
+- **Standouts:** K428's **certified verifier bank that transfers across models and needs no judge at test time**; K426's finding that **how tools are organised in context is itself a capability lever** (up to +12 pt at scale).
+- **Archive:** egress bulk ccc (5 PDFs). Inbox empty.
+
 ## [2026-10-05] ops | Two clones taken: VISTA and FrugalEvo (trimmed)
 
 Operator instruction: take the two HITL clone candidates carried since K419 and K425.

@@ -350,6 +350,15 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`threat-preserving-representation-sensitivity`](concepts/threat-preserving-representation-sensitivity.md) | draft | Threat-Preserving Representation Sensitivity in Ag… — 2610.03585 (K423) |
 | [`graded-reward-ladder-no-model-gates`](concepts/graded-reward-ladder-no-model-gates.md) | draft | NeutronGym: Physics-Graded Neutron Instrument Desi… — 2610.03631 (K424) |
 | [`cost-aware-program-evolution`](concepts/cost-aware-program-evolution.md) | draft | FrugalEvo: Towards Cost-Aware LLM-Guided Program E… — 2610.03675 (K425) |
+| [`mcp-tool-taxonomy-navigation`](concepts/mcp-tool-taxonomy-navigation.md) | draft | Understanding the Hierarchical Structure and Funct… — 2610.05319 (K426) |
+| [`trajectory-level-privacy-audit`](concepts/trajectory-level-privacy-audit.md) | draft | AgentPrivArena: Evaluating and Auditing Real-world… — 2610.06454 (K427) |
+| [`conformal-self-verification-certified-bank`](concepts/conformal-self-verification-certified-bank.md) | draft | CLIFT: Conformal Self-Verification for Web Agent T… — 2610.06829 (K428) |
+| [`preference-aware-memory-orchestration`](concepts/preference-aware-memory-orchestration.md) | draft | MemPilot: Orchestrating On-Demand Multimodal Memor… — 2610.06830 (K429) |
+| [`navigable-demonstration-hierarchy`](concepts/navigable-demonstration-hierarchy.md) | draft | Recursive Video In-Context Learning for Agentic Ro… — 2610.06843 (K430) |
+| [`harness-security-axis-comparison`](concepts/harness-security-axis-comparison.md) | draft | EvoRiskBench — a security metric for the harness… — 2610.03153 (k282 route) |
+| [`gate-separation-theorem-skill-density`](concepts/gate-separation-theorem-skill-density.md) | draft | Kinetic theory of the gated self-evolving agent… — 2610.03243 (k282 route) |
+| [`browsing-agent-eval-bar`](concepts/browsing-agent-eval-bar.md) | draft | HyperBrowseComp — the bar for browsing agents… — 2610.03574 (k282 route) |
+| [`curated-vs-self-generated-skills`](concepts/curated-vs-self-generated-skills.md) | draft | FinSkillsBench — curated skills beat self-generate… — 2610.03564 (k282 route) |
 | [`assay-content-addressed-evidence-graphs`](concepts/assay-content-addressed-evidence-graphs.md) | draft | Assay: Claims That Decay With the Code. Content-Ad… — 2609.36170 (K406) |
 | [`deterministic-retrieval-chain-reader-swap`](concepts/deterministic-retrieval-chain-reader-swap.md) | draft | Auditable Long-Term Memory: A Deterministic Retrie… — 2609.38021 (K407) |
 | [`vlm-mid-level-action-harness`](concepts/vlm-mid-level-action-harness.md) | draft | MotorMind: Scaffolding General Vision Language Mod… — 2609.38078 (K408) |
@@ -1105,6 +1114,15 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-threat-preserving-representation-sensitivity-2610.03585`](sources/arxiv-threat-preserving-representation-sensitivity-2610.03585.md) | draft | Threat-Preserving Representation Sensitivity in Agent-S… — 2610.03585 |
 | [`arxiv-neutrongym-graded-reward-ladder-2610.03631`](sources/arxiv-neutrongym-graded-reward-ladder-2610.03631.md) | draft | NeutronGym: Physics-Graded Neutron Instrument Design fo… — 2610.03631 |
 | [`arxiv-frugalevo-cost-aware-program-evolution-2610.03675`](sources/arxiv-frugalevo-cost-aware-program-evolution-2610.03675.md) | draft | FrugalEvo: Towards Cost-Aware LLM-Guided Program Evolut… — 2610.03675 |
+| [`arxiv-mcpacific-mcp-tool-taxonomy-2610.05319`](sources/arxiv-mcpacific-mcp-tool-taxonomy-2610.05319.md) | draft | Understanding the Hierarchical Structure and Functional… — 2610.05319 |
+| [`arxiv-agentprivarena-trajectory-privacy-audit-2610.06454`](sources/arxiv-agentprivarena-trajectory-privacy-audit-2610.06454.md) | draft | AgentPrivArena: Evaluating and Auditing Real-world AI A… — 2610.06454 |
+| [`arxiv-clift-conformal-self-verification-2610.06829`](sources/arxiv-clift-conformal-self-verification-2610.06829.md) | draft | CLIFT: Conformal Self-Verification for Web Agent Traini… — 2610.06829 |
+| [`arxiv-mempilot-preference-aware-memory-orchestration-2610.06830`](sources/arxiv-mempilot-preference-aware-memory-orchestration-2610.06830.md) | draft | MemPilot: Orchestrating On-Demand Multimodal Memory Cur… — 2610.06830 |
+| [`arxiv-rv-icl-navigable-demonstration-hierarchy-2610.06843`](sources/arxiv-rv-icl-navigable-demonstration-hierarchy-2610.06843.md) | draft | Recursive Video In-Context Learning for Agentic Robot… — 2610.06843 |
+| [`arxiv-evoriskbench-harness-security-axis-2610.03153`](sources/arxiv-evoriskbench-harness-security-axis-2610.03153.md) | draft | EvoRiskBench — a security metric for the harness… — 2610.03153 (k282 route) |
+| [`arxiv-kinetic-gated-evolution-separation-2610.03243`](sources/arxiv-kinetic-gated-evolution-separation-2610.03243.md) | draft | Kinetic theory of the gated self-evolving agent… — 2610.03243 (k282 route) |
+| [`arxiv-hyperbrowsecomp-browsing-eval-bar-2610.03574`](sources/arxiv-hyperbrowsecomp-browsing-eval-bar-2610.03574.md) | draft | HyperBrowseComp — the bar for browsing agents… — 2610.03574 (k282 route) |
+| [`arxiv-finskillsbench-curated-vs-self-generated-2610.03564`](sources/arxiv-finskillsbench-curated-vs-self-generated-2610.03564.md) | draft | FinSkillsBench — curated skills beat self-generated one… — 2610.03564 (k282 route) |
 | [`arxiv-assay-content-addressed-evidence-graphs-2609.36170`](sources/arxiv-assay-content-addressed-evidence-graphs-2609.36170.md) | draft | Assay: Claims That Decay With the Code. Content-Address… — 2609.36170 |
 | [`arxiv-auditable-long-term-memory-deterministic-chain-2609.38021`](sources/arxiv-auditable-long-term-memory-deterministic-chain-2609.38021.md) | draft | Auditable Long-Term Memory: A Deterministic Retrieval C… — 2609.38021 |
 | [`arxiv-motormind-vlm-mid-level-action-harness-2609.38078`](sources/arxiv-motormind-vlm-mid-level-action-harness-2609.38078.md) | draft | MotorMind: Scaffolding General Vision Language Models f… — 2609.38078 |
@@ -1167,7 +1185,8 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`2026-09-25-daily`](sweeps/2026-09-25-daily.md) | Daily digest — 5 papers (K390–K394 wave) |
 | [`2026-09-29-daily`](sweeps/2026-09-29-daily.md) | Daily digest — 5 papers (K401–K405 wave) |
 | [`2026-09-30-daily`](sweeps/2026-09-30-daily.md) | Daily digest — 5 papers (K406–K410 wave) |
-| [`2026-10-01-daily`](sweeps/2026-10-01-daily.md) | Daily digest — 5 papers (K411–K415 wave) |
+| [`2026-10-01-daily`](sweeps/2026-10-01-daily.md)
+| [`2026-10-06-daily`](sweeps/2026-10-06-daily.md) | Daily digest — 5 papers (K426–K430 wave) | | Daily digest — 5 papers (K411–K415 wave) |
 | [`2026-10-02-daily`](sweeps/2026-10-02-daily.md) | Daily digest — 5 papers (K416–K420 wave) |
 | [`2026-10-03-daily`](sweeps/2026-10-03-daily.md) | Daily digest |
 | [`2026-10-04-daily`](sweeps/2026-10-04-daily.md) | Daily digest |

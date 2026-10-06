@@ -1,0 +1,31 @@
+---
+description: CCC Phase-1 wires from K426–K430 harness wave (CCC-only — do NOT federation-sync)
+alwaysApply: false
+---
+
+# CCC — K426–K430 Phase-1 wires
+
+**Brief:** `docs/briefs/2026-10-06_k426-k430-harness-wave.md` · SIP: `wiki/briefs/2026-10-06_ccc-k426-k430-sip-ready.md`
+
+**IDs:** Resolve by arXiv id / slug / file path — K# is a log batch label only.
+
+- **K426** Understanding the Hierarchical Structure and Functional … — **ADOPT pattern (no repo)**: concept `mcp-tool-taxonomy-navigation`.
+- **K427** AgentPrivArena: Evaluating and Auditing Real-world AI Ag… — **ADOPT pattern (repo is website only)**: concept `trajectory-level-privacy-audit`.
+- **K428** CLIFT: Conformal Self-Verification for Web Agent Trainin… — **ADOPT pattern**: concept `conformal-self-verification-certified-bank`.
+- **K429** MemPilot: Orchestrating On-Demand Multimodal Memory Cura… — **ADOPT pattern (no repo)**: concept `preference-aware-memory-orchestration`.
+- **K430** Recursive Video In-Context Learning for Agentic Robot… — **REFERENCE (cross-domain; pattern transfers)**: concept `navigable-demonstration-hierarchy`.
+
+**Wires landed:**
+
+| K | Verdict | Wire | wire_status |
+|---|---|------|-------------|
+| K426 | ADOPT pattern (no repo) | mcp tool taxonomy navigation | `policy_wired` |
+| K427 | ADOPT pattern (repo is website only) | trajectory level privacy audit | `policy_wired` |
+| K428 | ADOPT pattern | conformal self verification certified bank | `policy_wired` |
+| K429 | ADOPT pattern (no repo) | preference aware memory orchestration | `policy_wired` |
+| K430 | REFERENCE (cross-domain; pattern transfers) | navigable demonstration hierarchy | `policy_wired` |
+
+**Non-goals:** no federation sync; no PoCs; no clone of any repo this wave.
+
+**Note:** K427's repo is the project *website*, not the framework — do not clone it expecting the
+harness.
