@@ -5,11 +5,12 @@ tags: [source, arxiv, cross-wiki, reward-modeling]
 keywords: [2609.35472, PRM, process reward model, discrete diffusion, grader calibration, image-gen cross-route]
 related:
   - concepts/orchestration-reward-modeling-orch-rm.md
+  - concepts/conformal-self-verification-certified-bank.md
 maturity: draft
 read_status: skimmed
 cross-wiki-source: "@image-gen-wiki/sources/arxiv-2609-35472-prm-discrete-diffusion-routed.md"
 created: 2026-09-29
-updated: 2026-09-30
+updated: 2026-10-07
 ---
 
 ## Relations
@@ -40,10 +41,22 @@ scores at every step removes the model's ability to trade the reward against oth
 Pairs with `@concepts/orchestration-reward-modeling-orch-rm.md` and with the eval-reliability line
 (K392 low-cost behavioral assays, K407 judge variance).
 
-**Possible CCC transfer `[NEEDS VERIFICATION 2026-09-30]`:** do not wire a reward model or grader as
-an unconditional per-step control signal in an agent harness. Gate it, bound its influence, or use
-it only at selection boundaries. This is plausible but untested on Claude Code harnesses — the
-source is a diffusion-model paper, not an agent-harness paper.
+**CCC transfer `[CONFIRMED 2026-10-07]` — corroborated by a second independent source.** Do not wire
+a reward model or grader as an **unconditional per-step control signal** in an agent harness. Gate
+it, bound its influence, or use it only at selection boundaries.
+
+The upgrade, and its basis: this claim sat under a dated needs-verification tag (2026-09-30) until
+it crossed the 7-day lint threshold on 2026-10-07. The K428 ingest that same day supplied the second
+source from an **unrelated domain**. CLIFT blends its verifier signal into per-step rewards
+**asymmetrically — it can only add evidence on top of the judge baseline, never subtract** — and
+states plainly that this is **what prevents the reward-collapse failure of earlier linear blends**.
+Two independent settings — diffusion guidance, and web-agent RL — converge on the same prescription:
+**bound the grader's influence; never apply it unconditionally.**
+
+Confidence note, kept explicit: this is `[CONFIRMED]` by *two independent sources*, not by CCC
+testing. Neither source is a Claude Code harness, so the claim is well-supported as a principle and
+still **personally untested here**. If CCC ever wires a grader into a loop, the load-bearing test is
+whether a bounded/asymmetric blend beats an unconditional one on the same task.
 
 ## Snippets
 

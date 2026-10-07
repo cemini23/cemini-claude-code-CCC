@@ -7,6 +7,7 @@ related:
   - sources/arxiv-clift-conformal-self-verification-2610.06829.md
   - concepts/phase1-adopt-wire.md
   - briefs/2026-10-06_ccc-k426-k430-sip-ready.md
+  - sources/arxiv-2609-35472-prm-discrete-diffusion-routed.md
 maturity: draft
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"

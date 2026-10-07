@@ -1,3 +1,24 @@
+## [2026-10-07] route | k284 daily brief — design-registry lead + the review-capacity gap
+
+- **Source brief:** `briefs/2026-10-07_k284-ccc-design-registries.md` (CCC's own pipeline brief, not an OSINT route).
+- **Pages written:** `entities/mcp-servers/design-registry-mcp.md` (Refero Styles / 21st.dev /
+  uiverse.io — **LEAD, not adoption**; the brief says "MCP install = human-gated") and
+  `concepts/agent-pr-volume-exceeds-human.md` (agent PRs > human PRs Aug 2026; "code reviews are
+  dead" — the empirical case for deterministic gates over "review harder"; `[TENTATIVE]`, keynote
+  figures).
+- **Overlap confirmed:** k284 independently cites **VeriFine** and **compaction harm**, both landed
+  this session as K435 and K434.
+
+## [2026-10-07] ingest | K431–K435 harness wave (Oct 7 daily sweep)
+
+- **Sources:** 2610.07817 step-level SOP, 2610.07937 four-quadrant RAG eval, 2610.08668 semantic watermarking, 2610.08722 compaction predictability, 2610.08761 VeriFine.
+- **Phase-0:** `redpine-ai/benchmarks` **MIT** (K432 released benchmark). No repo for K431/K433/K434/K435.
+- **Phase-1:** adopt_k431…k435; `ccc-k431-k435-phase1-wires.mdc`; policy §K431–K435. Zero clones.
+- **Read with care:** K432 is a **vendor report about its own product**; K434 is a **bounded null**, not evidence that history-based compaction timing works.
+- **Standouts:** K431's finding that **31–49% of correct answers never ran the prescribed tools** under prompt-delivered SOPs; K435's argument that **a fixed judge becomes the bottleneck** as the policy improves.
+- **Cross-wiki:** none. Minecraft + Game Dev checked, no match.
+- **Archive:** egress bulk ccc (5 PDFs). Inbox empty.
+
 ## [2026-10-06] route | k282 inbound from OSINT (agent-eval batch)
 
 - **Source brief:** `briefs/2026-10-05_k282-ccc-agent-eval.md` (OSINT K282, 4 papers).

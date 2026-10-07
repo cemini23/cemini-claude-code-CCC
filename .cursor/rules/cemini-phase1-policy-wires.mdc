@@ -1386,3 +1386,54 @@ Four papers routed from OSINT's K282 batch. Canon on OSINT; CCC holds the harnes
   Separately, **"silent competence"**: optimality 0.934 while **mandate adherence 0/33** — a high
   score says nothing about constraint adherence. Runtime **`wont_wire`**.
 
+## CCC wave K431–K435 (shared policy file)
+
+Step-level process delivery (K431) + two-level retrieval/generation eval (K432) + semantic action
+watermarking (K433) + compaction-harm predictability (K434) + judge/policy co-evolution (K435).
+**Zero clones.** CCC-only rule `ccc-k431-k435-phase1-wires.mdc` — do **not** federation-sync.
+
+## Step-level process delivery (CCC K431)
+
+- **Deliver the procedure, do not describe it.** Under prompt-delivered SOPs, **31–49% of correct
+  answers (48% for a frontier model) never executed a single prescribed tool** — and plain accuracy
+  counts them all as successes. Serve one step at a time over MCP; scope autonomy to the step.
+  Adherence 76–95% → 95–99%; ungrounded 2.1–4.5% → 0.2–0.3%. Use **Grounded TSR** (accuracy
+  conditioned on adherence). Small executors gain (+6.5 pp), capable ones trade −2.5 to −4.7 pp raw
+  for visibility. **Token tax 2.1–2.9× without prompt caching** (pairs K428/K409/`token-economics`).
+  Runtime **`wont_wire`**.
+
+## Two-level retrieval/generation eval (CCC K432)
+
+- **Report the retrieval cell and the generation cell separately**, or the blended score cannot say
+  which improved. **State the benchmark's provenance** — public benchmarks risk saturation and
+  memorisation; complement with expert-validated sets. **Caveat: vendor report about its own
+  product** (pairs `deep-research-evaluation-prompt`/`claim-centered-retrieval-with-provenance`).
+  Runtime **`wont_wire`**.
+
+## Semantic action-cluster watermarking (CCC K433)
+
+- **Bind provenance to paraphrase-stable semantics, and test forgery, not only removal.** Renaming a
+  tool desynchronises exact-symbol watermarks even when the observation is untouched. Cluster-level
+  detection **0.49–0.66 vs 0.05–0.17** (ToolBench) and **0.92–0.97 vs 0.00–0.01** (ALFWorld). Keyed
+  binning takes **adaptive forgery from 100% to the FPR floor**. **Open boundary: chained replay
+  remains 0.76–0.98** (pairs `agent-trace-tampering-audit-gap`/K403/K406). Runtime **`wont_wire`**.
+
+## Compaction-harm predictability (CCC K434)
+
+- **We do not yet know that history-based compaction timing beats a token budget.** On TRACE's 590
+  paired-replay boundaries, pre-boundary history predicts harm **only weakly**; the prespecified
+  contrast is a **wide null**; the `has-written` label actually measures **trajectory phase** (368 of
+  494 "write-prefixed" boundaries have no real write). Best trigger **AUROC 0.66 vs a 0.72
+  replicate**; beats random on **count but not burden mass**; **cannot be compared to a token-budget
+  rule on this release**. **Do not let a phase proxy read as signal** (pairs the whole compaction
+  cluster). Runtime **`wont_wire`**.
+
+## Judge/policy co-evolution (CCC K435)
+
+- **A fixed judge becomes the bottleneck as the policy improves** — reward hacking, distribution
+  shift, degradation. Co-evolve: a policy loop with a **reference-free rubric judge** plus a judge
+  loop that **selectively queries humans on informative failures** (coactive calibration; human as
+  participant, not oracle). Keep rubric **dimensions** fixed, revise **sub-rubrics and examples**.
+  Constructive counterpart to K428 (which freezes the verifier) (pairs K424/K423/K416). Runtime
+  **`wont_wire`**.
+

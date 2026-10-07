@@ -24,6 +24,7 @@ related:
   - sources/arxiv-queen-bee-beespec-enterprise-mcp-2606.06545.md
   - concepts/enterprise-mcp-adoption-practice.md
   - sources/arxiv-enterprise-mcp-adoption-2606.09182.md
+  - entities/mcp-servers/design-registry-mcp.md
 maturity: draft
 created: 2026-06-04
 updated: 2026-06-11

@@ -14,6 +14,7 @@ related:
   - concepts/phase1-adopt-wire.md
   - sources/brief-k237-meta-harness-vero-misevolution-2026-08-14.md
   - concepts/skill-misevolution.md
+  - concepts/agent-pr-volume-exceeds-human.md
 maturity: draft
 created: 2026-08-14
 updated: 2026-08-15

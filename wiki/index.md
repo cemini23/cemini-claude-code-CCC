@@ -359,6 +359,11 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`gate-separation-theorem-skill-density`](concepts/gate-separation-theorem-skill-density.md) | draft | Kinetic theory of the gated self-evolving agent… — 2610.03243 (k282 route) |
 | [`browsing-agent-eval-bar`](concepts/browsing-agent-eval-bar.md) | draft | HyperBrowseComp — the bar for browsing agents… — 2610.03574 (k282 route) |
 | [`curated-vs-self-generated-skills`](concepts/curated-vs-self-generated-skills.md) | draft | FinSkillsBench — curated skills beat self-generate… — 2610.03564 (k282 route) |
+| [`step-level-process-delivery`](concepts/step-level-process-delivery.md) | draft | One Step at a Time: Trading LLM Autonomy for Proce… — 2610.07817 (K431) |
+| [`two-level-retrieval-generation-eval`](concepts/two-level-retrieval-generation-eval.md) | draft | Leveraging a four-quadrant approach for evaluating… — 2610.07937 (K432) |
+| [`semantic-action-cluster-watermarking`](concepts/semantic-action-cluster-watermarking.md) | draft | Semantic Behavioral Watermarking: Paraphrase-Robus… — 2610.08668 (K433) |
+| [`compaction-harm-predictability`](concepts/compaction-harm-predictability.md) | draft | Does an Agent's History Tell You When Compaction W… — 2610.08722 (K434) |
+| [`judge-policy-co-evolution`](concepts/judge-policy-co-evolution.md) | draft | VeriFine: Scaling Verification for Self-Improvemen… — 2610.08761 (K435) |
 | [`assay-content-addressed-evidence-graphs`](concepts/assay-content-addressed-evidence-graphs.md) | draft | Assay: Claims That Decay With the Code. Content-Ad… — 2609.36170 (K406) |
 | [`deterministic-retrieval-chain-reader-swap`](concepts/deterministic-retrieval-chain-reader-swap.md) | draft | Auditable Long-Term Memory: A Deterministic Retrie… — 2609.38021 (K407) |
 | [`vlm-mid-level-action-harness`](concepts/vlm-mid-level-action-harness.md) | draft | MotorMind: Scaffolding General Vision Language Mod… — 2609.38078 (K408) |
@@ -1123,6 +1128,11 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-kinetic-gated-evolution-separation-2610.03243`](sources/arxiv-kinetic-gated-evolution-separation-2610.03243.md) | draft | Kinetic theory of the gated self-evolving agent… — 2610.03243 (k282 route) |
 | [`arxiv-hyperbrowsecomp-browsing-eval-bar-2610.03574`](sources/arxiv-hyperbrowsecomp-browsing-eval-bar-2610.03574.md) | draft | HyperBrowseComp — the bar for browsing agents… — 2610.03574 (k282 route) |
 | [`arxiv-finskillsbench-curated-vs-self-generated-2610.03564`](sources/arxiv-finskillsbench-curated-vs-self-generated-2610.03564.md) | draft | FinSkillsBench — curated skills beat self-generated one… — 2610.03564 (k282 route) |
+| [`arxiv-one-step-at-a-time-step-level-sop-2610.07817`](sources/arxiv-one-step-at-a-time-step-level-sop-2610.07817.md) | draft | One Step at a Time: Trading LLM Autonomy for Process Pr… — 2610.07817 |
+| [`arxiv-four-quadrant-rag-eval-2610.07937`](sources/arxiv-four-quadrant-rag-eval-2610.07937.md) | draft | Leveraging a four-quadrant approach for evaluating Redp… — 2610.07937 |
+| [`arxiv-semantic-behavioral-watermarking-2610.08668`](sources/arxiv-semantic-behavioral-watermarking-2610.08668.md) | draft | Semantic Behavioral Watermarking: Paraphrase-Robust and… — 2610.08668 |
+| [`arxiv-compaction-harm-predictability-2610.08722`](sources/arxiv-compaction-harm-predictability-2610.08722.md) | draft | Does an Agent's History Tell You When Compaction Will H… — 2610.08722 |
+| [`arxiv-verifine-judge-policy-co-evolution-2610.08761`](sources/arxiv-verifine-judge-policy-co-evolution-2610.08761.md) | draft | VeriFine: Scaling Verification for Self-Improvement in … — 2610.08761 |
 | [`arxiv-assay-content-addressed-evidence-graphs-2609.36170`](sources/arxiv-assay-content-addressed-evidence-graphs-2609.36170.md) | draft | Assay: Claims That Decay With the Code. Content-Address… — 2609.36170 |
 | [`arxiv-auditable-long-term-memory-deterministic-chain-2609.38021`](sources/arxiv-auditable-long-term-memory-deterministic-chain-2609.38021.md) | draft | Auditable Long-Term Memory: A Deterministic Retrieval C… — 2609.38021 |
 | [`arxiv-motormind-vlm-mid-level-action-harness-2609.38078`](sources/arxiv-motormind-vlm-mid-level-action-harness-2609.38078.md) | draft | MotorMind: Scaffolding General Vision Language Models f… — 2609.38078 |
@@ -1186,6 +1196,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`2026-09-29-daily`](sweeps/2026-09-29-daily.md) | Daily digest — 5 papers (K401–K405 wave) |
 | [`2026-09-30-daily`](sweeps/2026-09-30-daily.md) | Daily digest — 5 papers (K406–K410 wave) |
 | [`2026-10-01-daily`](sweeps/2026-10-01-daily.md)
+| [`2026-10-07-daily`](sweeps/2026-10-07-daily.md) | Daily digest — 5 papers (K431–K435 wave) |
 | [`2026-10-06-daily`](sweeps/2026-10-06-daily.md) | Daily digest — 5 papers (K426–K430 wave) | | Daily digest — 5 papers (K411–K415 wave) |
 | [`2026-10-02-daily`](sweeps/2026-10-02-daily.md) | Daily digest — 5 papers (K416–K420 wave) |
 | [`2026-10-03-daily`](sweeps/2026-10-03-daily.md) | Daily digest |

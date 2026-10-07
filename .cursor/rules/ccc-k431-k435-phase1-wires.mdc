@@ -1,0 +1,31 @@
+---
+description: CCC Phase-1 wires from K431–K435 harness wave (CCC-only — do NOT federation-sync)
+alwaysApply: false
+---
+
+# CCC — K431–K435 Phase-1 wires
+
+**Brief:** `docs/briefs/2026-10-07_k431-k435-harness-wave.md` · SIP: `wiki/briefs/2026-10-07_ccc-k431-k435-sip-ready.md`
+
+**IDs:** Resolve by arXiv id / slug / file path — K# is a log batch label only.
+
+- **K431** One Step at a Time: Trading LLM Autonomy for Process Pre… — **ADOPT pattern**: concept `step-level-process-delivery`.
+- **K432** Leveraging a four-quadrant approach for evaluating Redpi… — **ADOPT eval-methodology (vendor report)**: concept `two-level-retrieval-generation-eval`.
+- **K433** Semantic Behavioral Watermarking: Paraphrase-Robust and … — **ADOPT pattern**: concept `semantic-action-cluster-watermarking`.
+- **K434** Does an Agent's History Tell You When Compaction Will Hu… — **ADOPT eval-methodology (bounded null)**: concept `compaction-harm-predictability`.
+- **K435** VeriFine: Scaling Verification for Self-Improvement in E… — **ADOPT pattern**: concept `judge-policy-co-evolution`.
+
+**Wires landed:**
+
+| K | Verdict | Wire | wire_status |
+|---|---|------|-------------|
+| K431 | ADOPT pattern | step level process delivery | `policy_wired` |
+| K432 | ADOPT eval-methodology (vendor report) | two level retrieval generation eval | `policy_wired` |
+| K433 | ADOPT pattern | semantic action cluster watermarking | `policy_wired` |
+| K434 | ADOPT eval-methodology (bounded null) | compaction harm predictability | `policy_wired` |
+| K435 | ADOPT pattern | judge policy co evolution | `policy_wired` |
+
+**Non-goals:** no federation sync; no PoCs; no clone of any repo this wave.
+
+**Read with care:** K432 is a **vendor report about the vendor's own product**. K434 is a
+**bounded null** — do not read it as evidence that history-based compaction timing works.

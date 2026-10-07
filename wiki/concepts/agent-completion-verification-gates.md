@@ -82,6 +82,7 @@ related:
   - sources/arxiv-argus-long-horizon-agentic-runtime-2608.05144.md
   - concepts/verification-gated-persist-pivot-runtime.md
   - entities/tools/argus-agentic-runtime.md
+  - concepts/agent-pr-volume-exceeds-human.md
 maturity: draft
 created: 2026-05-27
 updated: 2026-08-06
