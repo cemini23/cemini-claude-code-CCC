@@ -1,0 +1,29 @@
+---
+description: CCC Phase-1 wires from K436–K440 harness wave (CCC-only — do NOT federation-sync)
+alwaysApply: false
+---
+
+# CCC — K436–K440 Phase-1 wires
+
+**Brief:** `docs/briefs/2026-10-08_k436-k440-harness-wave.md` · SIP: `wiki/briefs/2026-10-08_ccc-k436-k440-sip-ready.md`
+
+**IDs:** Resolve by arXiv id / slug / file path — K# is a log batch label only.
+
+- **K436** A Chat Assistant for Software Exploration in a 3D Softwa… — **ADOPT pattern (repo stale)**: concept `read-versus-write-guardrails`.
+- **K437** Agentic AI-Assisted Modeling for Production Scheduling: … — **ADOPT pattern**: concept `formulation-versus-implementation-gap`.
+- **K438** Before They Can Solve: Predicting Post-Training Coding-A… — **ADOPT eval-methodology**: concept `decisive-step-base-model-probe`.
+- **K439** LOCAA: An Agentic System for Automated Lossy Compressor … — **ADOPT pattern (MIT framework)**: concept `compression-in-the-loop-tuning`.
+- **K440** EmbodiedRSI: Active Continual Robot Learning Through Hyp… — **REFERENCE (cross-domain; pattern transfers)**: concept `value-of-information-experiment-selection`.
+
+**Wires landed:**
+
+| K | Verdict | Wire | wire_status |
+|---|---|------|-------------|
+| K436 | ADOPT pattern (repo stale) | read versus write guardrails | `policy_wired` |
+| K437 | ADOPT pattern | formulation versus implementation gap | `policy_wired` |
+| K438 | ADOPT eval-methodology | decisive step base model probe | `policy_wired` |
+| K439 | ADOPT pattern (MIT framework) | compression in the loop tuning | `policy_wired` |
+| K440 | REFERENCE (cross-domain; pattern transfers) | value of information experiment selection | `policy_wired` |
+
+**Non-goals:** no federation sync; no PoCs; no clone of any repo this wave. K440's repos are both
+**unlicensed**; K436's repo is **four years stale**.

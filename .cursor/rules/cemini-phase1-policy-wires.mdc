@@ -1437,3 +1437,87 @@ watermarking (K433) + compaction-harm predictability (K434) + judge/policy co-ev
   Constructive counterpart to K428 (which freezes the verifier) (pairs K424/K423/K416). Runtime
   **`wont_wire`**.
 
+## Assay protocol adopted — K406 resolution (2026-10-05 audit, closed 2026-10-08)
+
+**Runtime stays `wont_wire`.** The blocker is unchanged and stands: Assay's `attest` tool runs a
+model-supplied command via `subprocess.run(..., shell=True)` with a 900s timeout — shell execution
+behind a tool name that is not `Bash`. Per the shell-equivalent rule, no runtime wire without an
+operator ticket plus an allowlist or fail-closed bound.
+
+**The protocol is adopted as policy, because it needs no code.** Four rules, all mechanical:
+
+- **Bind a claim to the content it covers.** Every claim about code ("tests pass", "no secrets",
+  "behaviour preserved") is valid for a *specific revision of specific content*. Record what revision
+  the claim was made against, or the claim cannot be evaluated later.
+- **Staleness is drift of the subject, not the passage of time.** A claim goes stale exactly when the
+  content it covers changes — no more, no less. Over-binding (everything invalidates on any edit) and
+  under-binding (everything stays valid until noticed) are both failures.
+- **The gate consults no model.** Admission and exit are mechanical checks — coverage, freshness,
+  signatures, exit codes, plausibility, review status. Deterministic gates, not "review harder"
+  (pairs `concepts/agent-pr-completion-verification-gates`, and k284's agent-PR-volume finding).
+- **Evidence monotonicity — never delete the failing test.** A gate must refuse a change that removes
+  the test which was failing. This is the mechanical form of "do not make the check pass by removing
+  the check", and it is the sharpest single rule in the set (pairs K394 trace tampering, K433).
+
+**What this is for:** the audit-the-change-set doctrine, made concrete for CCC's own commits and
+skipped-work claims. **Adopted as policy; not wired to any runtime.**
+
+## CCC wave K436–K440 (shared policy file)
+
+Read/write guardrail asymmetry (K436) + formulation-vs-implementation gap (K437) + decisive-step
+base-model probe (K438) + compression-in-the-loop tuning (K439) + value-of-information experiment
+selection (K440). **Zero clones.** CCC-only rule `ccc-k436-k440-phase1-wires.mdc` — do **not** federation-sync.
+
+## Read versus write guardrails (CCC K436)
+
+- **Reads are cheap to get wrong; writes are not.** A user study of a 3D-viz chat assistant rated
+  summaries and highlighting highly and rated **open-ended restructuring as mixed**, with the
+  authors calling for **stronger guardrails, previews, and undo**. Design rule: bind agent actions to
+  **well-defined existing entities** so they are confirmable and reversible; do not expose
+  open-ended structural mutation as a first-class action. Input tokens ran **~84× output**. Runtime
+  **`wont_wire`**.
+
+## Formulation versus implementation (CCC K437)
+
+- **The model can formulate the problem and fails at implementing it.** Multi-agent CP modelling
+  raised runnable-as-generated scripts **14.8% → 59.3%** (80.6% on simpler problems). Mitigation:
+  **serve the tool's own documentation through MCP** rather than trusting model recall. Score
+  formulation separately from runnability (pairs K431). Runtime **`wont_wire`**.
+
+## Decisive-step base-model probe (CCC K438)
+
+- **Locate the step where the repo flips fail→pass and probe the model there.** Non-agentic coding
+  benchmarks correlate with post-trained agentic performance from **+0.830 down to −0.394** — a
+  cheap proxy can rank *backwards*. Probes: Decisive-Action BPB (ρ=0.964), Patch MCQ (ρ=0.903),
+  prefix pass@K (ρ=0.988). Also: an **independent audit of 1,682 APTBench MCQs found defective
+  answer keys** (third instance of the K423 lesson) (pairs K423/K428/K424). Runtime **`wont_wire`**.
+
+## Compression-in-the-loop tuning (CCC K439)
+
+- **An agent beats a fixed algorithm when the response surface is unknown.** Non-monotonic,
+  staircase-shaped tuning: **1.98× fewer trials than binary search**, **61.5 → 17 (−72.4%)** under
+  joint constraints, memory −27.9% more. **Compressor knowledge beat chain-of-thought** (ZFP 53.8%)
+  and the two were **not additive**. **88.4% of input tokens came from prompt cache** (pairs K425/K429).
+  Runtime **`wont_wire`**.
+
+## Value-of-information experiment selection (CCC K440)
+
+- **Pick the experiment that disambiguates, not the one that looks best.** Competing hypotheses in a
+  **Hypothesis Graph**; **VoI selection** spends the trial on what can settle them. 77.0% vs 40.1%
+  baseline. Memory with a **reward-grounded retention rule** — the budgeting question (K429) with a
+  learning rule attached. Cross-domain REFERENCE (pairs K416/K419/K429/K434). Runtime **`wont_wire`**.
+
+## CCC k285 inbound route (shared policy file)
+
+- **A harness-tuned agent does not travel** (CoTrace). Trajectory value depends on the producing
+  harness; gains **vanish under a foreign runtime**. Do not treat an improvement measured in one lane
+  (Claude Code / Cursor / Codex / `/route`) as evidence for another without holding the runtime fixed.
+- **Score the stage, not the trace** (TPD). Stage–action scoring: **+19.7 pp** at 200 demos; a
+  **shuffled-stage control drops 55.2% → 37.6%**, so the label carries signal. Deterministic
+  executor acts.
+- **LLMs are not world models, so guardrails are not the answer** (Sam Newman). The mechanism is
+  "no concept of causality", which is a stronger argument for external enforcement than "it sometimes
+  fails". Incident: **Opus 5.5 formatted a C: drive under `--dangerously-skip-permissions`.**
+  Pairs `cemini-invariants.mdc` and K421.
+- **Separate the loop from execution and state** (Stacklok / Mecatl); **semantic routing belongs in
+  the harness, not the gateway** — relevant to `/route`. Runtime **`wont_wire`** on all four.

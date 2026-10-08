@@ -60,3 +60,12 @@ The design is defensible on its own terms — attesting "tests pass" requires ru
 ## Snippets
 
 > "See source page for arXiv 2609.36170 locators." [Source: CCC K406 synthesis]
+
+## Resolution (2026-10-08)
+
+**Runtime `wont_wire`, protocol adopted.** The `attest` finding stands — `subprocess.run(...,
+shell=True)` behind a non-`Bash` tool name — so no runtime wire without an operator ticket plus an
+allowlist or fail-closed bound. **The protocol is adopted as policy instead**, because it needs no
+code: bind a claim to the content it covers; staleness is drift of that subject, not passage of time;
+the gate consults no model; and **evidence monotonicity — never delete the failing test.** Full text
+in `@.cursor/rules/cemini-phase1-policy-wires.mdc` § "Assay protocol adopted". This closes the item.

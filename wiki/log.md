@@ -1,3 +1,19 @@
+## [2026-10-08] route | k285 inbound briefs (harness co-evolution + resilience)
+
+- **Source briefs:** `briefs/2026-10-08_k285-ccc-harness-coevolution.md`, `..._resilience.md` (CCC's own pipeline briefs).
+- **Overlap:** two of their four arXiv items already landed this session — **2610.10478 = K438**, **2610.10498 = K440**.
+- **Pages written:** CoTrace (harness fingerprint; **a harness-tuned agent does not travel**), TPD (stage-scored distillation), and the Newman/Mecatl resilience concept (**LLMs are not world models**; guardrails are not the answer; C:-drive incident under `--dangerously-skip-permissions`).
+- **Phase-1:** policy §k285 added. Runtime `wont_wire`.
+
+## [2026-10-08] ingest | K436–K440 harness wave (Oct 8 daily sweep)
+
+- **Sources:** 2610.09901 3D-viz chat assistant, 2610.10184 agentic CP scheduling, 2610.10478 decisive-step probe, 2610.10487 LOCAA, 2610.10498 EmbodiedRSI.
+- **Phase-0:** `explorviz-frontend` Apache-2.0 but **last pushed 2022-03-20** (4y stale); `DIR-LAB/pocket-agent` MIT; `Geeksongs/agentic_robotics` + `Einsia/EmbodiedRSI` **no licence**. Zero clones.
+- **Phase-1:** adopt_k436…k440; `ccc-k436-k440-phase1-wires.mdc`; policy §K436–K440.
+- **Also this session:** design-registry MCP Phase-0 (item 1) and Assay K406 closed (item 4).
+- **Standouts:** K437's **14.8% → 59.3% runnable** formulation/implementation split; K438's **non-agentic benchmarks correlating as low as −0.394**; K439's **88.4% prompt-cache hit**.
+- **Archive:** egress bulk ccc (5 PDFs). Inbox empty.
+
 ## [2026-10-07] route | k284 daily brief — design-registry lead + the review-capacity gap
 
 - **Source brief:** `briefs/2026-10-07_k284-ccc-design-registries.md` (CCC's own pipeline brief, not an OSINT route).
