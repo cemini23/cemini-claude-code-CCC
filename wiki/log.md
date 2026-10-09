@@ -6,7 +6,7 @@
 - **Phase-1:** `ccc-k441-k444-phase1-wires.mdc` + policy §K441–K444. Runtime `wont_wire` for all four; concepts `policy_wired`.
 - **Standouts:** K441's **44.1% → 78.0%** secure@1 with the joint metric flat (spec-vs-capability); K442's **higher accuracy ⇒ lower escalation**, Claude Code highest Identify yet no escalation; K443's **non-regression gate** + default-off compatibility guarantee with **83% library reuse**; K444's **L3 pre-execution block** on irreversible calls, **~18% compute saved**.
 - **Cross-wiki:** K441 routed to `@cybersecurity-wiki/` as a steal (CCC keeps the MCP-delivery angle).
-- **Archive:** egress-fi **unreachable** (tailnet down) — 4 PDFs remain in `research to be indexed/`; source `Location` lines marked *pending archive*.
+- **Archive:** egress bulk ccc (4 PDFs) — **completed 2026-10-09** (first attempt blocked by tailnet; retried once Tailscale was up). Inbox empty.
 
 ## [2026-10-08] route | k285 inbound briefs (harness co-evolution + resilience)
 

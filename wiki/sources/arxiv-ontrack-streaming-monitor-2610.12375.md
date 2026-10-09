@@ -43,4 +43,4 @@ updated: 2026-10-09
 
 > "compares its steps and the dependencies between them against recorded successful runs and alerts the user of potential issues or blocks the agent, taking about a millisecond per step" [Source: arXiv 2610.12375 (retrieved 2026-10-09)]
 
-| **Location** | `cemini-egress-fi:/opt/cemini-bulk/research/ccc/arxiv-2610.12375-ontrack-real-time-monitoring-and-intervention-in.pdf` (local inbox **pending archive** — tailnet down 2026-10-09) |
+| **Location** | `cemini-egress-fi:/opt/cemini-bulk/research/ccc/arxiv-2610.12375-ontrack-real-time-monitoring-and-intervention-in.pdf` |

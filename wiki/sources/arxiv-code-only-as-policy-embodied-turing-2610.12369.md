@@ -39,4 +39,4 @@ updated: 2026-10-09
 
 > "If this state can be represented accurately, the decision making can be written entirely in code." [Source: arXiv 2610.12369 (retrieved 2026-10-09)]
 
-| **Location** | `cemini-egress-fi:/opt/cemini-bulk/research/ccc/arxiv-2610.12369-embodied-turing-machines-stateful-code-for-robot.pdf` (local inbox **pending archive** — tailnet down 2026-10-09) |
+| **Location** | `cemini-egress-fi:/opt/cemini-bulk/research/ccc/arxiv-2610.12369-embodied-turing-machines-stateful-code-for-robot.pdf` |

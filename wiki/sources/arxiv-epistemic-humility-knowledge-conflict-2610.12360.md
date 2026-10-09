@@ -42,4 +42,4 @@ updated: 2026-10-09
 
 > "higher task accuracy does not necessarily correspond to greater epistemic humility" [Source: arXiv 2610.12360 (retrieved 2026-10-09)]
 
-| **Location** | `cemini-egress-fi:/opt/cemini-bulk/research/ccc/arxiv-2610.12360-accurate-but-not-humble-evaluating-epistemic-hum.pdf` (local inbox **pending archive** — tailnet down 2026-10-09) |
+| **Location** | `cemini-egress-fi:/opt/cemini-bulk/research/ccc/arxiv-2610.12360-accurate-but-not-humble-evaluating-epistemic-hum.pdf` |

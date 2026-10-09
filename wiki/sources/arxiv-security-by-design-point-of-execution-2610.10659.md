@@ -42,4 +42,4 @@ updated: 2026-10-09
 
 > "the share of tasks passing all security tests rose from 44.1% to 78.0% and the share of security tests passed from 77.4% to 93.0%" [Source: arXiv 2610.10659 (retrieved 2026-10-09)]
 
-| **Location** | `cemini-egress-fi:/opt/cemini-bulk/research/ccc/arxiv-2610.10659-applying-security-by-design-at-the-point-of-exec.pdf` (local inbox **pending archive** — tailnet down 2026-10-09) |
+| **Location** | `cemini-egress-fi:/opt/cemini-bulk/research/ccc/arxiv-2610.10659-applying-security-by-design-at-the-point-of-exec.pdf` |
