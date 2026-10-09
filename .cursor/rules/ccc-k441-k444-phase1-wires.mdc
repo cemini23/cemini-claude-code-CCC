@@ -1,0 +1,28 @@
+---
+description: CCC Phase-1 wires from K441–K444 harness wave (CCC-only — do NOT federation-sync)
+alwaysApply: false
+---
+
+# CCC — K441–K444 Phase-1 wires
+
+**Brief:** `docs/briefs/2026-10-09_k441-k444-harness-wave.md` · SIP: `wiki/briefs/2026-10-09_ccc-k441-k444-sip-ready.md`
+
+**IDs:** Resolve by arXiv id / slug / file path — K# is a log batch label only.
+
+- **K441** Applying Security by Design at the Point of Executio… — **ADOPT pattern (MCP-delivered governed requirements)**: concept `specification-versus-capability-failure-attribution`.
+- **K442** Accurate but Not Humble: Evaluating Epistemic Humili… — **ADOPT eval-methodology (Claude Code harness eval)**: concept `epistemic-humility-identify-solve-escalate`.
+- **K443** Embodied Turing Machines: Stateful Code for Robot Re… — **REFERENCE (cross-domain; pattern transfers)**: concept `code-only-policy-shared-library`.
+- **K444** OnTrack: Real-Time Monitoring and Intervention in LL… — **ADOPT pattern (real-time process monitor + pre-execution gate)**: concept `streaming-trajectory-monitor-pre-execution-gate`.
+
+**Wires landed:**
+
+| K | Verdict | Wire | wire_status |
+|---|---|------|-------------|
+| K441 | ADOPT pattern (MCP-delivered governed requirements) | specification versus capability failure  | `policy_wired` |
+| K442 | ADOPT eval-methodology (Claude Code harness eval) | epistemic humility identify solve escala | `policy_wired` |
+| K443 | REFERENCE (cross-domain; pattern transfers) | code only policy shared library | `policy_wired` |
+| K444 | ADOPT pattern (real-time process monitor + pre-execution gate) | streaming trajectory monitor pre executi | `policy_wired` |
+
+**Non-goals:** no federation sync; no PoCs; no clone of any repo this wave. K441's repo is a 0★
+**Apache-2.0 PoC**; K442's repo is **Apache-2.0** (1★, REFERENCE clone optional); K443/K444 name **no
+public repo**.

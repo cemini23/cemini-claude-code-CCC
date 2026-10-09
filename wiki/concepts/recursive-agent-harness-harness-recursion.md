@@ -11,9 +11,11 @@ related:
   - entities/patterns/scatter-gather.md
   - concepts/claude-harness-dynamic-workflows-k88.md
   - sources/brief-k115-context-memory-recursion-prod-2026-06-15.md
+  - concepts/code-only-policy-shared-library.md
+  - sources/arxiv-code-only-as-policy-embodied-turing-2610.12369.md
 maturity: draft
 created: 2026-06-15
-updated: 2026-06-30
+updated: 2026-10-09
 ---
 
 ## Relations

@@ -31,9 +31,12 @@ related:
   - concepts/mcp-claim-validation-and-parameter-grounding.md
   - sources/arxiv-cascade-agentic-regulatory-network-2608.05359.md
   - entities/tools/cascade-mcp.md
+  - concepts/specification-versus-capability-failure-attribution.md
+  - entities/tools/sbd-toe-mcp.md
+  - sources/arxiv-security-by-design-point-of-execution-2610.10659.md
 maturity: draft
 created: 2026-07-16
-updated: 2026-08-08
+updated: 2026-10-09
 ---
 
 ## Relations

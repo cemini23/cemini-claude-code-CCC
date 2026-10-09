@@ -7,11 +7,13 @@ related:
   - sources/arxiv-slm-task-tool-intent-matching-2610.03213.md
   - concepts/phase1-adopt-wire.md
   - briefs/2026-10-05_ccc-k421-k425-sip-ready.md
+  - concepts/streaming-trajectory-monitor-pre-execution-gate.md
+  - sources/arxiv-ontrack-streaming-monitor-2610.12375.md
 maturity: draft
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"
 created: 2026-10-05
-updated: 2026-10-05
+updated: 2026-10-09
 ---
 
 ## Relations

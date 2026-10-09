@@ -7,11 +7,13 @@ related:
   - sources/arxiv-overclaiming-propensity-frontier-agents-2609.20812.md
   - concepts/phase1-adopt-wire.md
   - briefs/2026-09-18_ccc-k369-k372-sip-ready.md
+  - concepts/epistemic-humility-identify-solve-escalate.md
+  - sources/arxiv-epistemic-humility-knowledge-conflict-2610.12360.md
 maturity: draft
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"
 created: 2026-09-18
-updated: 2026-09-18
+updated: 2026-10-09
 ---
 
 ## Relations

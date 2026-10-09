@@ -37,6 +37,7 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`mcp-tester-transpiler`](entities/tools/mcp-tester-transpiler.md) | draft | Mutation-consistency transpiler testing — Zenodo REFERENCE (K235) |
 | [`ham-vln`](entities/tools/ham-vln.md) | draft | Decision-coupled hierarchical memory VLN — pattern only (K236) |
 | [`toktier`](entities/tools/toktier.md) | draft | Exact stateful tokenization serving — awareness only (K238) |
+| [`sbd-toe-mcp`](entities/tools/sbd-toe-mcp.md) | draft | Governed security-by-design requirements over MCP — PoC Apache-2.0, `wont_wire` (K441) |
 | [`datumpont-execution-fidelity`](entities/tools/datumpont-execution-fidelity.md) | draft | Execution fidelity I1–I7 invariants — pattern only (K239) |
 | [`mixed-complementarity-problems-jl`](entities/tools/mixed-complementarity-problems-jl.md) | draft | Batched Julia MCP solver — BSD-3 REFERENCE (K240) |
 | [`agent-trajectory-sentinel`](entities/tools/agent-trajectory-sentinel.md) | draft | Telemetry + deterministic verify + rollback — MIT (K242) |
@@ -369,6 +370,10 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`decisive-step-base-model-probe`](concepts/decisive-step-base-model-probe.md) | draft | Before They Can Solve: Predicting Post-Training Co… — 2610.10478 (K438) |
 | [`compression-in-the-loop-tuning`](concepts/compression-in-the-loop-tuning.md) | draft | LOCAA: An Agentic System for Automated Lossy Compr… — 2610.10487 (K439) |
 | [`value-of-information-experiment-selection`](concepts/value-of-information-experiment-selection.md) | draft | EmbodiedRSI: Active Continual Robot Learning Throu… — 2610.10498 (K440) |
+| [`specification-versus-capability-failure-attribution`](concepts/specification-versus-capability-failure-attribution.md) | draft | Applying Security by Design at the Point of Exec… — 2610.10659 (K441) |
+| [`epistemic-humility-identify-solve-escalate`](concepts/epistemic-humility-identify-solve-escalate.md) | draft | Accurate but Not Humble: Evaluating Epistemic Hu… — 2610.12360 (K442) |
+| [`code-only-policy-shared-library`](concepts/code-only-policy-shared-library.md) | draft | Embodied Turing Machines: Stateful Code for Robo… — 2610.12369 (K443) |
+| [`streaming-trajectory-monitor-pre-execution-gate`](concepts/streaming-trajectory-monitor-pre-execution-gate.md) | draft | OnTrack: Real-Time Monitoring and Intervention i… — 2610.12375 (K444) |
 | [`assay-content-addressed-evidence-graphs`](concepts/assay-content-addressed-evidence-graphs.md) | draft | Assay: Claims That Decay With the Code. Content-Ad… — 2609.36170 (K406) |
 | [`deterministic-retrieval-chain-reader-swap`](concepts/deterministic-retrieval-chain-reader-swap.md) | draft | Auditable Long-Term Memory: A Deterministic Retrie… — 2609.38021 (K407) |
 | [`vlm-mid-level-action-harness`](concepts/vlm-mid-level-action-harness.md) | draft | MotorMind: Scaffolding General Vision Language Mod… — 2609.38078 (K408) |
@@ -1143,6 +1148,10 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-decisive-step-base-model-probe-2610.10478`](sources/arxiv-decisive-step-base-model-probe-2610.10478.md) | draft | Before They Can Solve: Predicting Post-Training Coding-… — 2610.10478 |
 | [`arxiv-locaa-lossy-compression-tuning-2610.10487`](sources/arxiv-locaa-lossy-compression-tuning-2610.10487.md) | draft | LOCAA: An Agentic System for Automated Lossy Compressor… — 2610.10487 |
 | [`arxiv-embodiedrsi-value-of-information-experiments-2610.10498`](sources/arxiv-embodiedrsi-value-of-information-experiments-2610.10498.md) | draft | EmbodiedRSI: Active Continual Robot Learning Through Hy… — 2610.10498 |
+| [`arxiv-security-by-design-point-of-execution-2610.10659`](sources/arxiv-security-by-design-point-of-execution-2610.10659.md) | draft | Applying Security by Design at the Point of Executio… — 2610.10659 |
+| [`arxiv-epistemic-humility-knowledge-conflict-2610.12360`](sources/arxiv-epistemic-humility-knowledge-conflict-2610.12360.md) | draft | Accurate but Not Humble: Evaluating Epistemic Humili… — 2610.12360 |
+| [`arxiv-code-only-as-policy-embodied-turing-2610.12369`](sources/arxiv-code-only-as-policy-embodied-turing-2610.12369.md) | draft | Embodied Turing Machines: Stateful Code for Robot Re… — 2610.12369 |
+| [`arxiv-ontrack-streaming-monitor-2610.12375`](sources/arxiv-ontrack-streaming-monitor-2610.12375.md) | draft | OnTrack: Real-Time Monitoring and Intervention in LL… — 2610.12375 |
 | [`arxiv-assay-content-addressed-evidence-graphs-2609.36170`](sources/arxiv-assay-content-addressed-evidence-graphs-2609.36170.md) | draft | Assay: Claims That Decay With the Code. Content-Address… — 2609.36170 |
 | [`arxiv-auditable-long-term-memory-deterministic-chain-2609.38021`](sources/arxiv-auditable-long-term-memory-deterministic-chain-2609.38021.md) | draft | Auditable Long-Term Memory: A Deterministic Retrieval C… — 2609.38021 |
 | [`arxiv-motormind-vlm-mid-level-action-harness-2609.38078`](sources/arxiv-motormind-vlm-mid-level-action-harness-2609.38078.md) | draft | MotorMind: Scaffolding General Vision Language Models f… — 2609.38078 |
@@ -1206,7 +1215,8 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`2026-09-29-daily`](sweeps/2026-09-29-daily.md) | Daily digest — 5 papers (K401–K405 wave) |
 | [`2026-09-30-daily`](sweeps/2026-09-30-daily.md) | Daily digest — 5 papers (K406–K410 wave) |
 | [`2026-10-01-daily`](sweeps/2026-10-01-daily.md)
-| [`2026-10-08-daily`](sweeps/2026-10-08-daily.md) | Daily digest — 5 papers (K436–K440 wave) |
+| [`2026-10-08-daily`](sweeps/2026-10-08-daily.md)
+| [`2026-10-09-daily`](sweeps/2026-10-09-daily.md) | Daily digest — 4 papers (K441–K444 wave) | | Daily digest — 5 papers (K436–K440 wave) |
 | [`2026-10-07-daily`](sweeps/2026-10-07-daily.md) | Daily digest — 5 papers (K431–K435 wave) |
 | [`2026-10-06-daily`](sweeps/2026-10-06-daily.md) | Daily digest — 5 papers (K426–K430 wave) | | Daily digest — 5 papers (K411–K415 wave) |
 | [`2026-10-02-daily`](sweeps/2026-10-02-daily.md) | Daily digest — 5 papers (K416–K420 wave) |

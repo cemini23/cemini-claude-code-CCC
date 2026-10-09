@@ -69,9 +69,12 @@ related:
   - concepts/hybrid-gui-mcp-tool-adoption-gap.md
   - sources/arxiv-screenshots-or-tools-gui-mcp-2608.03327.md
   - entities/tools/hybrid-gui-mcp-osworld.md
+  - concepts/specification-versus-capability-failure-attribution.md
+  - entities/tools/sbd-toe-mcp.md
+  - sources/arxiv-security-by-design-point-of-execution-2610.10659.md
 maturity: validated
 created: 2026-05-13
-updated: 2026-08-05
+updated: 2026-10-09
 ---
 
 ## Relations

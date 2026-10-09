@@ -83,9 +83,11 @@ related:
   - concepts/verification-gated-persist-pivot-runtime.md
   - entities/tools/argus-agentic-runtime.md
   - concepts/agent-pr-volume-exceeds-human.md
+  - concepts/streaming-trajectory-monitor-pre-execution-gate.md
+  - sources/arxiv-ontrack-streaming-monitor-2610.12375.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-08-06
+updated: 2026-10-09
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-25-2026-05-27.md"
 ---
 
@@ -146,6 +148,17 @@ Pair with `@concepts/claude-premortem-skill.md` (what could fail) and `@entities
 ### K253 Argus — verification-gated admission (2026-08-06)
 
 K253 Argus: admit memories/skills/procedures only after **role-owned review + task-native verification**; persist when evidence supports; pivot on measured failure. Extends completion gates to **durable state evolution** over long horizons. See `@concepts/verification-gated-persist-pivot-runtime.md`.
+
+### K444 OnTrack — the gate can fire *before* the action (2026-10-09)
+
+`@concepts/streaming-trajectory-monitor-pre-execution-gate.md` (arXiv 2610.12375, OnTrack) adds what
+these completion gates lack: a **synchronous L3 pre-execution gate** that checks an **irreversible**
+tool call's declared prerequisites *before the tool runs* and can block it — the `PreToolUse` shape,
+not the post-hoc `Stop` shape. Two rules transfer to any gate CCC writes: build the decision from
+**per-step signals with a short grace window**, never from an aggregate score (*a score means
+different things at different trajectory lengths*); and keep it a **policy gate, not a soundness
+guarantee** — bounded by the schemas and harness metadata available. 2,294 SWE-agent traces: ~18%
+compute saved, 83% of aborts correct.
 
 ## Snippets
 

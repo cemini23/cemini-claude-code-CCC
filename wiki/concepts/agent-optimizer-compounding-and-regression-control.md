@@ -14,9 +14,11 @@ related:
   - concepts/harnessx-composable-evolution-foundry.md
   - entities/tools/relai-continual-learning-terminal-bench.md
   - sources/brief-k171-agent-optimizer-compounding-2026-07-16.md
+  - concepts/code-only-policy-shared-library.md
+  - sources/arxiv-code-only-as-policy-embodied-turing-2610.12369.md
 maturity: draft
 created: 2026-07-16
-updated: 2026-07-16
+updated: 2026-10-09
 ---
 
 ## Relations

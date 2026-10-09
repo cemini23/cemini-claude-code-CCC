@@ -9,9 +9,11 @@ related:
   - concepts/confidence-aware-tool-orchestration.md
   - sources/brief-k244-k248-urban-gui-mcp-hive-turnsight-2026-08-05.md
   - briefs/2026-08-05_ccc-handoff-k244-k248-ingest.md
+  - concepts/epistemic-humility-identify-solve-escalate.md
+  - sources/arxiv-epistemic-humility-knowledge-conflict-2610.12360.md
 maturity: draft
 created: 2026-08-05
-updated: 2026-08-05
+updated: 2026-10-09
 ---
 
 ## Relations
@@ -40,3 +42,13 @@ K244 UrbanAgent (arXiv **2608.03018**): tool-augmented agent unifying code exec 
 - Score harness runs on execution quality, not completion text alone
 
 | Verdict | **ADOPT** pattern. **NO-GO** UrbanAgent install (`wont_wire`). |
+
+## K442 corroboration — the clarify step is a harness property
+
+`@concepts/epistemic-humility-identify-solve-escalate.md` (arXiv 2610.12360) measures this loop's
+"clarify before act" behaviour across four harnesses (Claude Code among them) under knowledge
+conflict. The transferable result: the escalate/clarify step is **diluted by the harness** across a
+multi-step trajectory — conflict is recognised early (first 10% of steps) but rarely survives into
+the final answer — and a system prompt alone does not fix it. The fix the paper names is a **harness
+affordance**: a first-class abstain-or-escalate action, so the clarification cannot be overwritten by
+the next tool call. That is the mechanism behind this page's "ask before acting" rule.

@@ -1,3 +1,13 @@
+## [2026-10-09] ingest | K441–K444 harness wave (Oct 9 daily sweep)
+
+- **Sources:** 2610.10659 security-by-design at the point of execution, 2610.12360 epistemic humility under knowledge conflict, 2610.12369 Embodied Turing Machines (COAP), 2610.12375 OnTrack streaming monitor.
+- **New pages:** 4 arxiv sources, 4 concepts (specification-versus-capability-failure-attribution, epistemic-humility-identify-solve-escalate, code-only-policy-shared-library, streaming-trajectory-monitor-pre-execution-gate), 1 entity (`sbd-toe-mcp` `wont_wire`); SIP `wiki/briefs/2026-10-09_ccc-k441-k444-sip-ready.md`.
+- **Phase-0:** `adopt_k441`…`k444` all exit 0. `SbD-ToE/sbd-toe-mcp` **Apache-2.0** (0★); `SbD-ToE/sbd-toe-manual` **CC-BY-SA-4.0**; `KaiserWhoLearns/EpistemicHumilityLLMAgents` **Apache-2.0** (1★, pushed 2026-10-09). K443/K444 name no public repo. **Zero clones.**
+- **Phase-1:** `ccc-k441-k444-phase1-wires.mdc` + policy §K441–K444. Runtime `wont_wire` for all four; concepts `policy_wired`.
+- **Standouts:** K441's **44.1% → 78.0%** secure@1 with the joint metric flat (spec-vs-capability); K442's **higher accuracy ⇒ lower escalation**, Claude Code highest Identify yet no escalation; K443's **non-regression gate** + default-off compatibility guarantee with **83% library reuse**; K444's **L3 pre-execution block** on irreversible calls, **~18% compute saved**.
+- **Cross-wiki:** K441 routed to `@cybersecurity-wiki/` as a steal (CCC keeps the MCP-delivery angle).
+- **Archive:** egress-fi **unreachable** (tailnet down) — 4 PDFs remain in `research to be indexed/`; source `Location` lines marked *pending archive*.
+
 ## [2026-10-08] route | k285 inbound briefs (harness co-evolution + resilience)
 
 - **Source briefs:** `briefs/2026-10-08_k285-ccc-harness-coevolution.md`, `..._resilience.md` (CCC's own pipeline briefs).

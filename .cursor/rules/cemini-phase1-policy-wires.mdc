@@ -1521,3 +1521,45 @@ selection (K440). **Zero clones.** CCC-only rule `ccc-k436-k440-phase1-wires.mdc
   Pairs `cemini-invariants.mdc` and K421.
 - **Separate the loop from execution and state** (Stacklok / Mecatl); **semantic routing belongs in
   the harness, not the gateway** — relevant to `/route`. Runtime **`wont_wire`** on all four.
+
+## CCC wave K441–K444 (shared policy file)
+
+Specification-vs-capability failure attribution (K441) + epistemic-humility Identify/Solve/Escalate
+(K442) + code-only-as-policy shared library (K443) + streaming trajectory monitor with a
+pre-execution gate (K444). **Zero clones.** CCC-only rule `ccc-k441-k444-phase1-wires.mdc` — do **not** federation-sync.
+
+## Specification versus capability attribution (CCC K441)
+
+- **A benchmark score conflates three failure causes.** Deliver the governed requirements at the
+  point of execution and they separate: **capability** (model could not implement), **coverage**
+  (knowledge base had no requirement), **oracle** (the test rejects a conforming implementation).
+  MCP-served security-by-design requirements raised DualGauge secure@1 **44.1% → 78.0%** and BaxBench
+  no-exploit **65% → 86%** — comparable to the *unrealistic* oracle reminder, without knowing the
+  tests. The joint metric did **not** improve (stricter code failed tests that fix unstated values).
+  Runtime **`wont_wire`**.
+
+## Epistemic humility: identify / solve / escalate (CCC K442)
+
+- **Higher accuracy ≠ more humble, and humility is a harness property.** Three trajectory-level
+  behaviours (Identify, Solve, Escalate); conflict mentions **peak in the first 10%** then fall; a
+  one-clause prompt raises Escalate but lowers accuracy. Design rule: **expose an explicit
+  abstain-or-escalate action so a mid-trajectory conflict survives into the final answer**, and score
+  trajectories not final answers. Claude Code has the highest Identify rate yet its wrong finals do
+  not escalate. Runtime **`wont_wire`**.
+
+## Code-only-as-policy shared library (CCC K443)
+
+- **Explicit state + robust code ⇒ no model at test time.** A shared library built offline by coding
+  agents (**83% code reuse**); two stealable mechanisms: an **offline RSI loop over git worktrees**
+  producing a *search frontier of runnable branches* with a **non-regression gate** `J(θ+Δ) ≥ J(θ)+ε`,
+  and a **default-off parameter compatibility guarantee** (non-adopting tasks run byte-identical).
+  Cross-domain REFERENCE; pairs the compounding/regression-control lane. Runtime **`wont_wire`**.
+
+## Streaming monitor + pre-execution gate (CCC K444)
+
+- **Decide, don't score.** A streaming DAG monitor with three tiers: **L1 vital signs** (loop/stall,
+  reference-free), **L2 transport alignment** (needs references), **L3 pre-execution gate** (block an
+  **irreversible** tool call whose prerequisites are missing, before it runs). Per-step signals with a
+  grace window, never the aggregate score — *a score means different things at different lengths*.
+  ~18% compute saved, 83% of aborts correct. Harness metadata (`ζt`) bounds monitor quality. The L3
+  gate is the `PreToolUse` shape. Runtime **`wont_wire`**.
