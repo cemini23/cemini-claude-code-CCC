@@ -7,11 +7,15 @@ related:
   - sources/arxiv-agent-approval-laundering-2609.28586.md
   - concepts/phase1-adopt-wire.md
   - briefs/2026-09-25_ccc-k395-agent-approval-laundering-sip-ready.md
+  - concepts/cross-service-compositional-harm-graph.md
+  - concepts/shared-workspace-injection-task-completion-not-safety.md
+  - sources/arxiv-apex-harm-shared-workspace-agent-safety-2610.13623.md
+  - sources/arxiv-x-agentred-cross-service-red-teaming-2610.13886.md
 maturity: draft
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"
 created: 2026-09-25
-updated: 2026-09-25
+updated: 2026-10-12
 ---
 
 ## Relations

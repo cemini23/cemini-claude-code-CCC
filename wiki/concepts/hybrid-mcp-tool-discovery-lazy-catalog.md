@@ -10,9 +10,11 @@ related:
   - briefs/2026-08-28_ccc-k315-k324-sip-ready.md
   - entities/skills/scout-tool-search.md
   - briefs/2026-08-31_ccc-pretooluse-scout-bm25-sip-ready.md
+  - concepts/cross-service-compositional-harm-graph.md
+  - sources/arxiv-x-agentred-cross-service-red-teaming-2610.13886.md
 maturity: draft
 created: 2026-08-26
-updated: 2026-08-31
+updated: 2026-10-12
 ---
 
 ## Relations

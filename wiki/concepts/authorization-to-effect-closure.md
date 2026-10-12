@@ -11,9 +11,11 @@ related:
   - concepts/signed-mandate-mcp-protocol-enforcement.md
   - briefs/2026-08-25_ccc-k300-k309-sip-ready.md
   - concepts/tool-argument-privacy-minimization.md
+  - concepts/shared-workspace-injection-task-completion-not-safety.md
+  - sources/arxiv-apex-harm-shared-workspace-agent-safety-2610.13623.md
 maturity: draft
 created: 2026-08-25
-updated: 2026-08-28
+updated: 2026-10-12
 ---
 
 ## Relations

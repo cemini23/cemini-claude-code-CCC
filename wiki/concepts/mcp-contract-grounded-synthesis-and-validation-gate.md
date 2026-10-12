@@ -34,9 +34,11 @@ related:
   - concepts/specification-versus-capability-failure-attribution.md
   - entities/tools/sbd-toe-mcp.md
   - sources/arxiv-security-by-design-point-of-execution-2610.10659.md
+  - concepts/tool-metadata-as-security-contract.md
+  - sources/arxiv-tofu-orchestrator-tool-trust-boundary-2610.13651.md
 maturity: draft
 created: 2026-07-16
-updated: 2026-10-09
+updated: 2026-10-12
 ---
 
 ## Relations

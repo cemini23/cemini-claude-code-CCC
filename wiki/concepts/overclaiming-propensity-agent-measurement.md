@@ -9,11 +9,12 @@ related:
   - briefs/2026-09-18_ccc-k369-k372-sip-ready.md
   - concepts/epistemic-humility-identify-solve-escalate.md
   - sources/arxiv-epistemic-humility-knowledge-conflict-2610.12360.md
+  - concepts/typed-judgement-desk-pattern.md
 maturity: draft
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"
 created: 2026-09-18
-updated: 2026-10-09
+updated: 2026-10-12
 ---
 
 ## Relations

@@ -31,9 +31,11 @@ related:
   - concepts/enterprise-mcp-auth-gateway.md
   - sources/arxiv-agent-callable-spectroscopic-binary-2608.10866.md
   - sources/arxiv-enterprise-mcp-auth-gateway-2608.10760.md
+  - concepts/tool-metadata-as-security-contract.md
+  - sources/arxiv-tofu-orchestrator-tool-trust-boundary-2610.13651.md
 maturity: draft
 created: 2026-07-21
-updated: 2026-08-12
+updated: 2026-10-12
 ---
 
 ## Relations

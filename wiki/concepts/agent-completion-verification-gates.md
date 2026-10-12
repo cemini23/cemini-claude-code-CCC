@@ -85,9 +85,11 @@ related:
   - concepts/agent-pr-volume-exceeds-human.md
   - concepts/streaming-trajectory-monitor-pre-execution-gate.md
   - sources/arxiv-ontrack-streaming-monitor-2610.12375.md
+  - concepts/code-enforces-decisions-multi-fidelity-eval.md
+  - sources/arxiv-bt-agent-behavior-trees-onboard-2610.13862.md
 maturity: draft
 created: 2026-05-27
-updated: 2026-10-09
+updated: 2026-10-12
 cross-wiki-source: "@osint-wiki/sources/trading-posts-compilation-25-2026-05-27.md"
 ---
 
@@ -159,6 +161,16 @@ not the post-hoc `Stop` shape. Two rules transfer to any gate CCC writes: build 
 different things at different trajectory lengths*); and keep it a **policy gate, not a soundness
 guarantee** — bounded by the schemas and harness metadata available. 2,294 SWE-agent traces: ~18%
 compute saved, 83% of aborts correct.
+
+### K447 BT-Agent — the same split, in the skill layer (2026-10-12)
+
+`@concepts/code-enforces-decisions-multi-fidelity-eval.md` (arXiv 2610.13862) applies the same
+"code enforces, model decides" split **inside each skill**: a model Actor selects a skill, but the
+skill's **local guards recheck conditions every tick and interrupt execution without another model
+call** (19 ms vs 3.2–3.9 s for the next decision), and the Actor **cannot modify the guards**. Its
+second lesson is a gate-quality warning: a **fast text proxy does not prove deployable behavior**
+(only 57.3% of text successes transfer to simulation) — a gate validated only on the cheap channel
+can pass behavior the real channel fails.
 
 ## Snippets
 

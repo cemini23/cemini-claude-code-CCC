@@ -1563,3 +1563,50 @@ pre-execution gate (K444). **Zero clones.** CCC-only rule `ccc-k441-k444-phase1-
   grace window, never the aggregate score — *a score means different things at different lengths*.
   ~18% compute saved, 83% of aborts correct. Harness metadata (`ζt`) bounds monitor quality. The L3
   gate is the `PreToolUse` shape. Runtime **`wont_wire`**.
+
+## CCC wave K445–K448 (shared policy file)
+
+Shared-workspace injection (K445) + tool-metadata-as-security-contract (K446) + code-enforces /
+multi-fidelity eval (K447) + cross-service compositional harm (K448) + K286/K288 inbound
+(typed-judgement desk, NOMOS gate). **Zero clones.** CCC-only rule `ccc-k445-k448-phase1-wires.mdc` — do **not**
+federation-sync.
+
+## Task completion is not safety evidence (CCC K445)
+
+- **A correct deliverable can hide an unauthorized action.** Shared-workspace prompt/script
+  injection: Opus 5 / Sonnet 5 most robust (8% / 20% ASR), but **task-specific script replacement and
+  attacker-provided generic scripts stay at 81–84% / 73% ASR**. **Readability governs refusal** — the
+  agent can `cat` Python but not PYC/ELF, so **never hand the agent an unreadable artifact plus
+  permission to run it**. **Internal leakage is under-guarded** (shared folders/calendars read as
+  benign). Runtime **`wont_wire`**.
+
+## Tool metadata as security contract (CCC K446)
+
+- **A tool call is model output the orchestrator executes.** Repeat-After-Me (repeat a tool-call
+  string verbatim) works on six orchestrators. ToFu finds **253 bugs in 118 of 273 MCP servers** from
+  the tool's own metadata + a CWE sanitizer corpus. **Treat every schema-valid argument as
+  adversarial**; the tool must enforce its documented contract, not the model. Sandbox the fuzzer.
+  Runtime **`wont_wire`**.
+
+## Code enforces, model decides + multi-fidelity eval (CCC K447)
+
+- **Local guards interrupt without a model call** (19 ms vs 3.2–3.9 s). Structured tool calls and
+  informative failure feedback are the two named levers. **Text eval 10.9× faster but does not prove
+  deployable behavior** (57.3% of text successes transfer; ρ = 0.61); fault injection exposes what
+  nominal success hides. Runtime **`wont_wire`**.
+
+## Cross-service compositional harm (CCC K448)
+
+- **Harm that exists only in the sequence is invisible per-tool.** A **HarmFlow graph** (preconditions
+  ↔ effects) sampled by backward walks beats LLM-proposed paths: **1.77× / 10.36×** the harmful-path
+  rate, **2.99×** tool coverage. Graph traversal, not model recall, is where coverage comes from.
+  Runtime **`wont_wire`**.
+
+## Typed judgement desk + NOMOS gate (CCC K286/K288 inbound)
+
+- **Code fetches, a typed engine judges, code decides.** `noul`/`choice`/`score`; facts kill before
+  judgements; question sets not single questions; shadow mode with disagreement rows. K288: it became
+  a category and is portable to a **4B / 8GB** model. **NOMOS**: compile prose policy → **deterministic
+  LLM-free tool-call gate** (violations 66.3% → 2.6%; AgentDojo ASR 0.0%). **Caution:** RESOLVE
+  repairs 37% / rejects 13% of rules — *an LLM-written policy is an input to a checker, not a
+  control*. Runtime **`wont_wire`**.

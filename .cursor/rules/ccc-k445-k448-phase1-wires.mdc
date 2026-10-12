@@ -1,0 +1,31 @@
+---
+description: CCC Phase-1 wires from K445–K448 wave + K286/K288 inbound (CCC-only — do NOT federation-sync)
+alwaysApply: false
+---
+
+# CCC — K445–K448 Phase-1 wires
+
+**Brief:** `docs/briefs/2026-10-12_k445-k448-harness-wave.md` · SIP: `wiki/briefs/2026-10-12_ccc-k445-k448-sip-ready.md`
+
+**IDs:** Resolve by arXiv id / slug / file path — K# is a log batch label only.
+
+- **K445** APEX-Harm: Evaluating Agent Safety in Shared Profess… — **ADOPT eval-methodology (shared-workspace injection)**: concept `shared-workspace-injection-task-completion-not-safety`.
+- **K446** ToFu: Exploiting and Fuzzing the LLM-Orchestrator-To… — **ADOPT pattern (MCP tool security)**: concept `tool-metadata-as-security-contract`.
+- **K447** BT-Agent: Deploying Onboard Robot Agents with Behavi… — **ADOPT pattern (harness split + multi-fidelity eval)**: concept `code-enforces-decisions-multi-fidelity-eval`.
+- **K448** X-AgentRed: Red-Teaming Personal Agents in Evolving … — **ADOPT pattern (cross-service composition risk)**: concept `cross-service-compositional-harm-graph`.
+- **K286/K288 inbound** — typed judgement desk (`typed-judgement-desk-pattern`) + NOMOS gate
+  (`nomos-compiled-tool-call-gate`), routed via `briefs/`.
+
+**Wires landed:**
+
+| K | Verdict | Wire | wire_status |
+|---|---|------|-------------|
+| K445 | ADOPT eval-methodology (shared-workspace injection) | shared workspace injection task completi | `policy_wired` |
+| K446 | ADOPT pattern (MCP tool security) | tool metadata as security contract | `policy_wired` |
+| K447 | ADOPT pattern (harness split + multi-fidelity eval) | code enforces decisions multi fidelity e | `policy_wired` |
+| K448 | ADOPT pattern (cross-service composition risk) | cross service compositional harm graph | `policy_wired` |
+| K286/K288 | FILE (inbound) | typed judgement desk + NOMOS gate | `policy_wired` |
+
+**Non-goals:** no federation sync; no PoCs; no clone of any repo this wave. K445/K446/K448 are
+**cs.CR** (cybersec-adjacent) — CCC keeps the harness/MCP angle; K447 reports **Apache-2.0**
+(promised). NOMOS implementation is **proprietary, not released**.

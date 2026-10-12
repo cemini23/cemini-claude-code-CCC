@@ -16,9 +16,11 @@ related:
   - concepts/execution-fidelity-irreversible-agent-invariants.md
   - sources/arxiv-safety-invariants-irreversible-transitions-2608.00783.md
   - entities/tools/datumpont-execution-fidelity.md
+  - concepts/shared-workspace-injection-task-completion-not-safety.md
+  - sources/arxiv-apex-harm-shared-workspace-agent-safety-2610.13623.md
 maturity: draft
 created: 2026-07-30
-updated: 2026-08-04
+updated: 2026-10-12
 ---
 
 ## Relations

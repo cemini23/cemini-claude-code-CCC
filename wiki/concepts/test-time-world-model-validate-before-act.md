@@ -12,11 +12,13 @@ related:
   - briefs/2026-08-17_ccc-handoff-k282-k284-ingest.md
   - concepts/phase1-adopt-wire.md
   - "@game-dev-wiki/concepts/twin-test-time-world-model-stub.md"
+  - concepts/code-enforces-decisions-multi-fidelity-eval.md
+  - sources/arxiv-bt-agent-behavior-trees-onboard-2610.13862.md
 maturity: draft
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"
 created: 2026-08-17
-updated: 2026-08-17
+updated: 2026-10-12
 ---
 
 ## Relations

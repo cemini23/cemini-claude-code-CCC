@@ -7,11 +7,13 @@ related:
   - sources/arxiv-evoriskbench-harness-security-axis-2610.03153.md
   - concepts/phase1-adopt-wire.md
   - briefs/2026-10-05_k282-ccc-agent-eval-route.md
+  - concepts/code-enforces-decisions-multi-fidelity-eval.md
+  - sources/arxiv-bt-agent-behavior-trees-onboard-2610.13862.md
 maturity: draft
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"
 created: 2026-10-06
-updated: 2026-10-06
+updated: 2026-10-12
 ---
 
 ## Relations

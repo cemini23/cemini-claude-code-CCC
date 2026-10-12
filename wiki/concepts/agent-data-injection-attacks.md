@@ -12,9 +12,13 @@ related:
   - concepts/trustx-agent-risk-classification.md
   - concepts/memory-poisoning-write-execute-forget-lifecycle.md
   - sources/arxiv-memsecbench-memory-poisoning-lifecycle-2607.27080.md
+  - concepts/cross-service-compositional-harm-graph.md
+  - concepts/shared-workspace-injection-task-completion-not-safety.md
+  - sources/arxiv-apex-harm-shared-workspace-agent-safety-2610.13623.md
+  - sources/arxiv-x-agentred-cross-service-red-teaming-2610.13886.md
 maturity: draft
 created: 2026-07-09
-updated: 2026-07-30
+updated: 2026-10-12
 cross-wiki-primary: "@cybersecurity-wiki/concepts/agent-data-injection-attacks.md"
 ---
 

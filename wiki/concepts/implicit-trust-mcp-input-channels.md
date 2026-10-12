@@ -7,11 +7,14 @@ related:
   - sources/arxiv-implicit-trust-mcp-tool-calling-2609.18217.md
   - concepts/phase1-adopt-wire.md
   - briefs/2026-09-17_ccc-k368-sip-ready.md
+  - concepts/nomos-compiled-tool-call-gate.md
+  - concepts/tool-metadata-as-security-contract.md
+  - sources/arxiv-tofu-orchestrator-tool-trust-boundary-2610.13651.md
 maturity: draft
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"
 created: 2026-09-17
-updated: 2026-09-17
+updated: 2026-10-12
 ---
 
 ## Relations

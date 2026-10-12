@@ -18,9 +18,11 @@ related:
   - sources/arxiv-agent-harness-survey-2606.20683.md
   - sources/brief-k109-bayesian-agent-harness-cluster-prod-2026-06-10.md
   - sources/arxiv-better-harnesses-smaller-models-2607.08938.md
+  - concepts/code-enforces-decisions-multi-fidelity-eval.md
+  - sources/arxiv-bt-agent-behavior-trees-onboard-2610.13862.md
 maturity: draft
 created: 2026-06-10
-updated: 2026-07-15
+updated: 2026-10-12
 ---
 
 ## Relations

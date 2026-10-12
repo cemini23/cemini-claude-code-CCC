@@ -374,6 +374,12 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`epistemic-humility-identify-solve-escalate`](concepts/epistemic-humility-identify-solve-escalate.md) | draft | Accurate but Not Humble: Evaluating Epistemic Hu… — 2610.12360 (K442) |
 | [`code-only-policy-shared-library`](concepts/code-only-policy-shared-library.md) | draft | Embodied Turing Machines: Stateful Code for Robo… — 2610.12369 (K443) |
 | [`streaming-trajectory-monitor-pre-execution-gate`](concepts/streaming-trajectory-monitor-pre-execution-gate.md) | draft | OnTrack: Real-Time Monitoring and Intervention i… — 2610.12375 (K444) |
+| [`shared-workspace-injection-task-completion-not-safety`](concepts/shared-workspace-injection-task-completion-not-safety.md) | draft | APEX-Harm: Evaluating Agent Safety in Shared Pro… — 2610.13623 (K445) |
+| [`tool-metadata-as-security-contract`](concepts/tool-metadata-as-security-contract.md) | draft | ToFu: Exploiting and Fuzzing the LLM-Orchestrato… — 2610.13651 (K446) |
+| [`code-enforces-decisions-multi-fidelity-eval`](concepts/code-enforces-decisions-multi-fidelity-eval.md) | draft | BT-Agent: Deploying Onboard Robot Agents with Be… — 2610.13862 (K447) |
+| [`cross-service-compositional-harm-graph`](concepts/cross-service-compositional-harm-graph.md) | draft | X-AgentRed: Red-Teaming Personal Agents in Evolv… — 2610.13886 (K448) |
+| [`typed-judgement-desk-pattern`](concepts/typed-judgement-desk-pattern.md) | draft | Typed-judgement desk — code fetches, the model j… (K286/K288 inbound) |
+| [`nomos-compiled-tool-call-gate`](concepts/nomos-compiled-tool-call-gate.md) | draft | NOMOS — compile the policy, verify it statically… (K286/K288 inbound) |
 | [`assay-content-addressed-evidence-graphs`](concepts/assay-content-addressed-evidence-graphs.md) | draft | Assay: Claims That Decay With the Code. Content-Ad… — 2609.36170 (K406) |
 | [`deterministic-retrieval-chain-reader-swap`](concepts/deterministic-retrieval-chain-reader-swap.md) | draft | Auditable Long-Term Memory: A Deterministic Retrie… — 2609.38021 (K407) |
 | [`vlm-mid-level-action-harness`](concepts/vlm-mid-level-action-harness.md) | draft | MotorMind: Scaffolding General Vision Language Mod… — 2609.38078 (K408) |
@@ -1152,6 +1158,10 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`arxiv-epistemic-humility-knowledge-conflict-2610.12360`](sources/arxiv-epistemic-humility-knowledge-conflict-2610.12360.md) | draft | Accurate but Not Humble: Evaluating Epistemic Humili… — 2610.12360 |
 | [`arxiv-code-only-as-policy-embodied-turing-2610.12369`](sources/arxiv-code-only-as-policy-embodied-turing-2610.12369.md) | draft | Embodied Turing Machines: Stateful Code for Robot Re… — 2610.12369 |
 | [`arxiv-ontrack-streaming-monitor-2610.12375`](sources/arxiv-ontrack-streaming-monitor-2610.12375.md) | draft | OnTrack: Real-Time Monitoring and Intervention in LL… — 2610.12375 |
+| [`arxiv-apex-harm-shared-workspace-agent-safety-2610.13623`](sources/arxiv-apex-harm-shared-workspace-agent-safety-2610.13623.md) | draft | APEX-Harm: Evaluating Agent Safety in Shared Profess… — 2610.13623 |
+| [`arxiv-tofu-orchestrator-tool-trust-boundary-2610.13651`](sources/arxiv-tofu-orchestrator-tool-trust-boundary-2610.13651.md) | draft | ToFu: Exploiting and Fuzzing the LLM-Orchestrator-To… — 2610.13651 |
+| [`arxiv-bt-agent-behavior-trees-onboard-2610.13862`](sources/arxiv-bt-agent-behavior-trees-onboard-2610.13862.md) | draft | BT-Agent: Deploying Onboard Robot Agents with Behavi… — 2610.13862 |
+| [`arxiv-x-agentred-cross-service-red-teaming-2610.13886`](sources/arxiv-x-agentred-cross-service-red-teaming-2610.13886.md) | draft | X-AgentRed: Red-Teaming Personal Agents in Evolving … — 2610.13886 |
 | [`arxiv-assay-content-addressed-evidence-graphs-2609.36170`](sources/arxiv-assay-content-addressed-evidence-graphs-2609.36170.md) | draft | Assay: Claims That Decay With the Code. Content-Address… — 2609.36170 |
 | [`arxiv-auditable-long-term-memory-deterministic-chain-2609.38021`](sources/arxiv-auditable-long-term-memory-deterministic-chain-2609.38021.md) | draft | Auditable Long-Term Memory: A Deterministic Retrieval C… — 2609.38021 |
 | [`arxiv-motormind-vlm-mid-level-action-harness-2609.38078`](sources/arxiv-motormind-vlm-mid-level-action-harness-2609.38078.md) | draft | MotorMind: Scaffolding General Vision Language Models f… — 2609.38078 |
@@ -1216,7 +1226,8 @@ Content-oriented catalog of every page in this wiki. Update on every new page or
 | [`2026-09-30-daily`](sweeps/2026-09-30-daily.md) | Daily digest — 5 papers (K406–K410 wave) |
 | [`2026-10-01-daily`](sweeps/2026-10-01-daily.md)
 | [`2026-10-08-daily`](sweeps/2026-10-08-daily.md)
-| [`2026-10-09-daily`](sweeps/2026-10-09-daily.md) | Daily digest — 4 papers (K441–K444 wave) | | Daily digest — 5 papers (K436–K440 wave) |
+| [`2026-10-09-daily`](sweeps/2026-10-09-daily.md)
+| [`2026-10-12-daily`](sweeps/2026-10-12-daily.md) | Daily digest — K445–K448 wave | | Daily digest — 4 papers (K441–K444 wave) | | Daily digest — 5 papers (K436–K440 wave) |
 | [`2026-10-07-daily`](sweeps/2026-10-07-daily.md) | Daily digest — 5 papers (K431–K435 wave) |
 | [`2026-10-06-daily`](sweeps/2026-10-06-daily.md) | Daily digest — 5 papers (K426–K430 wave) | | Daily digest — 5 papers (K411–K415 wave) |
 | [`2026-10-02-daily`](sweeps/2026-10-02-daily.md) | Daily digest — 5 papers (K416–K420 wave) |

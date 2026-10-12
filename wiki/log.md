@@ -1,3 +1,13 @@
+## [2026-10-12] ingest | K445–K448 wave (Oct 12 sweep) + K286/K288 inbound
+
+- **Sources:** 2610.13623 APEX-Harm (shared-workspace injection), 2610.13651 ToFu (orchestrator–tool trust boundary), 2610.13862 BT-Agent (behavior trees + multi-fidelity eval), 2610.13886 X-AgentRed (cross-service compositional harm).
+- **New pages:** 4 arxiv sources + 4 concepts (shared-workspace-injection-task-completion-not-safety, tool-metadata-as-security-contract, code-enforces-decisions-multi-fidelity-eval, cross-service-compositional-harm-graph); **2 inbound pages** (typed-judgement-desk-pattern [K286+K288], nomos-compiled-tool-call-gate [K288]); SIP `wiki/briefs/2026-10-12_ccc-k445-k448-sip-ready.md` + route `wiki/briefs/2026-10-12_k286-k288-ccc-route.md`.
+- **Phase-0:** `adopt_k445`…`k448` all exit 0. K447 **Apache-2.0** (promised); K445 code released; K446/K448 no repo URL; NOMOS proprietary. **Zero clones.**
+- **Phase-1:** `ccc-k445-k448-phase1-wires.mdc` + policy §K445–K448. Runtime `wont_wire` for all; concepts `policy_wired`.
+- **Standouts:** K445's **task completion ≠ safety** (81–84% ASR on script-replacement attacks; readability governs refusal); K446's **253 bugs in 118/273 MCP servers** and metadata-as-contract; K447's **19 ms guard interrupt** + text→Habitat **57.3%** transfer; K448's **1.77×/10.36×** harmful-path rate via the HarmFlow graph; K288's **NOMOS** deterministic gate (66.3% → 2.6%).
+- **Cross-wiki:** K445/K446/K448 cs.CR → steal briefs to `@cybersecurity-wiki/` (CCC keeps the harness/MCP angle).
+- **Archive:** egress-fi **unreachable** (tailnet down) — 4 PDFs remain in `research to be indexed/`; source `Location` lines marked *pending archive*.
+
 ## [2026-10-09] ingest | K441–K444 harness wave (Oct 9 daily sweep)
 
 - **Sources:** 2610.10659 security-by-design at the point of execution, 2610.12360 epistemic humility under knowledge conflict, 2610.12369 Embodied Turing Machines (COAP), 2610.12375 OnTrack streaming monitor.

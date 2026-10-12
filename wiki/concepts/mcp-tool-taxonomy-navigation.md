@@ -7,11 +7,13 @@ related:
   - sources/arxiv-mcpacific-mcp-tool-taxonomy-2610.05319.md
   - concepts/phase1-adopt-wire.md
   - briefs/2026-10-06_ccc-k426-k430-sip-ready.md
+  - concepts/cross-service-compositional-harm-graph.md
+  - sources/arxiv-x-agentred-cross-service-red-teaming-2610.13886.md
 maturity: draft
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"
 created: 2026-10-06
-updated: 2026-10-06
+updated: 2026-10-12
 ---
 
 ## Relations

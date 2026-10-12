@@ -7,11 +7,13 @@ related:
   - sources/arxiv-a2m-mcp-metadata-hijacking-2609.26761.md
   - concepts/phase1-adopt-wire.md
   - briefs/2026-09-23_ccc-k376-k384-sip-ready.md
+  - concepts/tool-metadata-as-security-contract.md
+  - sources/arxiv-tofu-orchestrator-tool-trust-boundary-2610.13651.md
 maturity: draft
 wire_status: policy_wired
 wire_target: ".cursor/rules/cemini-phase1-policy-wires.mdc"
 created: 2026-09-23
-updated: 2026-09-23
+updated: 2026-10-12
 ---
 
 ## Relations
