@@ -43,4 +43,4 @@ updated: 2026-10-12
 
 > "an agent fulfilling a benign user request can leak information as its actions interact across services." [Source: arXiv 2610.13886 (retrieved 2026-10-12)]
 
-| **Location** | `cemini-egress-fi:/opt/cemini-bulk/research/ccc/arxiv-2610.13886-x-agentred-red-teaming-personal-agents-in-evolvi.pdf` (local inbox **pending archive** — tailnet down 2026-10-12) |
+| **Location** | `cemini-egress-fi:/opt/cemini-bulk/research/ccc/arxiv-2610.13886-x-agentred-red-teaming-personal-agents-in-evolvi.pdf` |

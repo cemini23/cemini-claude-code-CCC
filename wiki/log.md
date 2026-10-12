@@ -6,7 +6,7 @@
 - **Phase-1:** `ccc-k445-k448-phase1-wires.mdc` + policy §K445–K448. Runtime `wont_wire` for all; concepts `policy_wired`.
 - **Standouts:** K445's **task completion ≠ safety** (81–84% ASR on script-replacement attacks; readability governs refusal); K446's **253 bugs in 118/273 MCP servers** and metadata-as-contract; K447's **19 ms guard interrupt** + text→Habitat **57.3%** transfer; K448's **1.77×/10.36×** harmful-path rate via the HarmFlow graph; K288's **NOMOS** deterministic gate (66.3% → 2.6%).
 - **Cross-wiki:** K445/K446/K448 cs.CR → steal briefs to `@cybersecurity-wiki/` (CCC keeps the harness/MCP angle).
-- **Archive:** egress-fi **unreachable** (tailnet down) — 4 PDFs remain in `research to be indexed/`; source `Location` lines marked *pending archive*.
+- **Archive:** egress bulk ccc (4 PDFs) — **completed 2026-10-12** (first attempt blocked by tailnet; retried once Tailscale was up). Inbox empty.
 
 ## [2026-10-09] ingest | K441–K444 harness wave (Oct 9 daily sweep)
 

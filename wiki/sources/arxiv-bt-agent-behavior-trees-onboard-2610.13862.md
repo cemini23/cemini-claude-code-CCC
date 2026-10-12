@@ -43,4 +43,4 @@ updated: 2026-10-12
 
 > "text supports 10.9 higher evaluation throughput, while simulation reveals how perception and motion failures change task outcomes." [Source: arXiv 2610.13862 (retrieved 2026-10-12)]
 
-| **Location** | `cemini-egress-fi:/opt/cemini-bulk/research/ccc/arxiv-2610.13862-bt-agent-deploying-onboard-robot-agents-with-beh.pdf` (local inbox **pending archive** — tailnet down 2026-10-12) |
+| **Location** | `cemini-egress-fi:/opt/cemini-bulk/research/ccc/arxiv-2610.13862-bt-agent-deploying-onboard-robot-agents-with-beh.pdf` |

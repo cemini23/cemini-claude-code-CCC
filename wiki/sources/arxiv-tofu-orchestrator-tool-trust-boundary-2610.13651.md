@@ -45,4 +45,4 @@ updated: 2026-10-12
 
 > "real-world LLM tools frequently fail to enforce the semantic contracts exposed by their interfaces." [Source: arXiv 2610.13651 (retrieved 2026-10-12)]
 
-| **Location** | `cemini-egress-fi:/opt/cemini-bulk/research/ccc/arxiv-2610.13651-tofu-exploiting-and-fuzzing-the-llm-orchestrator.pdf` (local inbox **pending archive** — tailnet down 2026-10-12) |
+| **Location** | `cemini-egress-fi:/opt/cemini-bulk/research/ccc/arxiv-2610.13651-tofu-exploiting-and-fuzzing-the-llm-orchestrator.pdf` |

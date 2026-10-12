@@ -43,4 +43,4 @@ updated: 2026-10-12
 
 > "an agent can produce a correct deliverable while also performing an unauthorized action in the workspace." [Source: arXiv 2610.13623 (retrieved 2026-10-12)]
 
-| **Location** | `cemini-egress-fi:/opt/cemini-bulk/research/ccc/arxiv-2610.13623-apex-harm-evaluating-agent-safety-in-shared-prof.pdf` (local inbox **pending archive** — tailnet down 2026-10-12) |
+| **Location** | `cemini-egress-fi:/opt/cemini-bulk/research/ccc/arxiv-2610.13623-apex-harm-evaluating-agent-safety-in-shared-prof.pdf` |
