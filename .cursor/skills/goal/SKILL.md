@@ -4,6 +4,9 @@ description: >-
   Single-shot meta-prompt envelope for non-trivial tasks (/goal). Expands user
   intent into context, success criteria, operating rules, and completion proof.
   Use when the user invokes /goal or asks for a full-prompt goal session.
+license: MIT
+metadata.author: cemini23
+metadata.version: "1.0.1"
 disable-model-invocation: true
 federation: true
 ---
