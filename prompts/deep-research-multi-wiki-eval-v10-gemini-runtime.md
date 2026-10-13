@@ -1,4 +1,4 @@
-# Cemini Multi-Wiki Link Evaluation — Gemini Deep Research RUNTIME (v10.8)
+# Cemini Multi-Wiki Link Evaluation — Gemini Deep Research RUNTIME (v10.9)
 
 **Use this file for Gemini Deep Research paste.** Full canon: `deep-research-multi-wiki-eval-v10-2026-07-06.md` (Cursor spot-check only).
 
@@ -54,7 +54,7 @@ Score every URL on **money / value path** (P&L, MRR, conversion, ops time saved,
 
 ### Ten routing surfaces (YES / PARTIAL / NO — for wiki stubs, not permission gates)
 
-1. CeminiSuite bots (laptop): XSP, PM LP canary, world-cup-bot, wc-ticket-monitor, **GuruWatcher Priority #2**
+1. CeminiSuite bots (laptop): XSP, PM LP canary, **GuruWatcher Priority #2** (GuruWatcher runs on `cemini-egress-fi` 15-min timer). `world-cup-bot` and `wc-ticket-monitor` are **RETIRED** — do not score.
 2. OSINT wiki — PM/Kalshi, LP, XSP research, **genealogy methodology** (K153/K154; **Atto** = product, family-tree = dogfood), Macro Charts → GuruWatcher
 3. Gambling wiki — retail betting, **DFS**, **parlays / SGP / pick'em** (not poker product)
 4. Cybersec wiki — general cyber + **local abliterated / operator lab**
@@ -67,7 +67,7 @@ Score every URL on **money / value path** (P&L, MRR, conversion, ops time saved,
 
 ### Shipped stacks — default Context/Pass unless named gap + revenue why
 
-**CeminiDFS** (phases 0–5 + BBM), **CeminiParlays** (fair · devig · run/rank copula · grade · Hard Rock default · pick'em profile), xsp-killer (4 modules), **local abliterated lab** (planner+executor + owned lab + harness re-point), **PM LP canary (K166)**, **Atto (M1–M14 + FIND/AI/MCP/Gumroad)**, **GuruWatcher (ingest-issue · claim ledger · most-recent-wins reconcile · Discord alert · prod timer)**, **Basgiath (Bedrock map · build/package scripts · MCPEDL + CurseForge listing)**, **genealogy dogfood (8 modules)**, world-cup-bot, wc-ticket-monitor — see full v10 canon.
+**CeminiDFS** (phases 0–5 + BBM), **CeminiParlays** (fair · devig · run/rank copula · grade · `jev-gate` · Hard Rock default · pick'em profile), xsp-killer (4 modules), **local abliterated lab** (planner+executor + owned lab + harness re-point), **PM LP canary (K166)**, **Atto (M1–M14 + FIND/AI/MCP; billing Stripe + LicenseSeat — Gumroad retired)**, **GuruWatcher (ingest-issue · claim ledger · most-recent-wins reconcile · Discord alert · 15-min timer on `cemini-egress-fi`)**, **Basgiath (Bedrock map · build/package scripts · MCPEDL + CurseForge listing)**, **genealogy dogfood (8 modules)** — see full v10 canon. `world-cup-bot` / `wc-ticket-monitor` **retired — never score**.
 
 **Poker arena retired 2026-09-13** — do **not** score `poker-arena overlap`; do **not** route briefs to `devfun-poker-arena`. Wiki history only.
 
@@ -135,8 +135,8 @@ Score every URL on **money / value path** (P&L, MRR, conversion, ops time saved,
 
 - Tier: Integrate | Extract | Watch | Context | Pass | UNAVAILABLE
 - Primary fit: [surface name]
-- Surfaces: prod=NO osint=NO gambling=NO game=NO cyber=NO image=NO seo=NO print=NO ccc=PARTIAL local-abliterated-lab=YES
-- Overlaps: local-abliterated-lab=... ceminiDFS=... ceminiparlays=... xsp-killer=... atto=... guruwatcher=... basgiath=... genealogy=... pm-canary=... wc-bot=... wc-tickets=...
+- Surfaces: suite=NO osint=NO gambling=NO game=NO cyber=NO image=NO seo=NO print=NO ccc=PARTIAL local-abliterated-lab=YES
+- Overlaps: local-abliterated-lab=... ceminiDFS=... ceminiparlays=... xsp-killer=... atto=... guruwatcher=... basgiath=... genealogy=... pm-canary=...
 - Cross-wiki routing: ...
 - Active project routing: [atto | guruwatcher | basgiath | ceminidfs | ceminiparlays | xsp-killer | local-abliterated-lab | family-tree | pm-canary | wiki-only] (prefer #1 Atto then #2 GuruWatcher + Basgiath then #3 CeminiDFS / #4 CeminiParlays; genealogy productizable → atto; Minecraft fan map → basgiath; DFS lineup → ceminidfs; parlay/SGP/pickem → ceminiparlays; never tipdrop; never poker-arena)
 - Combo plays: ... (or none)
