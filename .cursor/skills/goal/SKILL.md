@@ -50,7 +50,7 @@ N. Runs without errors; agent can show proof.
 3. SELF-VERIFY — after each step: tests, lint, inspect output.
 4. DEBUG YOURSELF — diagnose and fix; do not hand back broken state.
 5. USE EVERY TOOL — MCP, terminal, web — within project allowlists.
-6. NO PLACEHOLDERS — real implementations, not TODO stubs.
+6. NO PLACEHOLDERS — real implementations, not stub implementations.
 7. PROGRESS LOG — completed / in-flight / decisions / blockers.
 8. STAY ON GOAL — off-spec discoveries noted, then back to SC.
 9. IF BLOCKED — log wall; parallelize everything else.
