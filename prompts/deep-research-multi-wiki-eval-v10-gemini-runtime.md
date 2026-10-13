@@ -1,4 +1,4 @@
-# Cemini Multi-Wiki Link Evaluation — Gemini Deep Research RUNTIME (v10.7)
+# Cemini Multi-Wiki Link Evaluation — Gemini Deep Research RUNTIME (v10.8)
 
 **Use this file for Gemini Deep Research paste.** Full canon: `deep-research-multi-wiki-eval-v10-2026-07-06.md` (Cursor spot-check only).
 
@@ -46,15 +46,15 @@ Score every URL on **money / value path** (P&L, MRR, conversion, ops time saved,
 
 ### Behind #1–#4 — always score & report if research applies (tie-break after the four)
 
-- **XSP killer:** briefs `xsp-*` → `cemini-prod:/opt/cemini/briefs/` → overlap `xsp-killer` → revenue: trading P&L
+- **XSP killer:** briefs `xsp-*` → laptop `briefs/` → overlap `xsp-killer` → revenue: trading P&L
 - **Local abliterated AI lab:** `Cybersecurity wiki/` · briefs `Cybersecurity wiki/briefs/` → overlap `local-abliterated-lab` → value: authorized pentest assist / owned whitehat lab (TipDrop retired — never tipdrop-workspace-kit)
 - **Family-tree / Barone dogfood:** `Desktop/family/` + `Desktop/family/research/` → overlap `genealogy` → value: archival depth (private — never Atto fixtures). Feeds Atto methodology; not the public brand.
-- **PM LP canary (K166):** `CeminiSuite/` → `cemini-prod:/opt/cemini/` (`compose.polymarket.canary.yml`, briefs `pm-*`) → overlap `pm-canary` → revenue: LP rewards P&L after shadow gates
+- **PM LP canary (K166):** laptop `CeminiSuite/` (`compose.polymarket.canary.yml`, briefs `pm-*`) → overlap `pm-canary` → revenue: LP rewards P&L after shadow gates
 - **Wikis (always-on, after the four products):** federation surfaces 2–9 + CCC — stub/route even when no Priority #1–#4 code fit
 
 ### Ten routing surfaces (YES / PARTIAL / NO — for wiki stubs, not permission gates)
 
-1. Cemini prod bots (XSP, PM LP canary, world-cup-bot, wc-ticket-monitor, **GuruWatcher Priority #2**)
+1. CeminiSuite bots (laptop): XSP, PM LP canary, world-cup-bot, wc-ticket-monitor, **GuruWatcher Priority #2**
 2. OSINT wiki — PM/Kalshi, LP, XSP research, **genealogy methodology** (K153/K154; **Atto** = product, family-tree = dogfood), Macro Charts → GuruWatcher
 3. Gambling wiki — retail betting, **DFS**, **parlays / SGP / pick'em** (not poker product)
 4. Cybersec wiki — general cyber + **local abliterated / operator lab**
