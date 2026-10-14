@@ -18,6 +18,13 @@ import os
 import re
 import sys
 from datetime import date, datetime
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from wiki_resolver import (  # noqa: E402
+    WikiResolver,
+    load_federation_table,
+    normalize_path,
+)
 from pathlib import Path
 from collections import defaultdict
 
@@ -32,40 +39,29 @@ parser.add_argument("--apply", action="store_true",
 parser.add_argument("--hub-threshold", type=int, default=4,
                     help="With --fix-bidirectional: skip target pages with > N missing backlinks "
                          "(those are likely intentional hub-index pages). Default: 4")
+parser.add_argument("--fail-on-graph", action="store_true",
+                    help="Exit 1 on graph integrity errors (used by pre-commit). "
+                         "Gates dangling related: links, dangling body @path mentions, and "
+                         "dangling cross-wiki links. When wiki/ paths are staged in git, only "
+                         "staged pages are gated. Full-wiki gate when nothing under wiki/ is staged.")
+parser.add_argument("--domain", default=None,
+                    help="Restrict the run to one domain directory under wiki/ (e.g. osint). "
+                         "A filter, not a root change: WIKI stays at <repo>/wiki so alias "
+                         "loading and the pre-commit staged slice keep working.")
 args = parser.parse_args()
 TODAY = date.today()
 
 # Resolve WIKI relative to this script (scripts/wiki_lint.py → repo root → wiki/),
 # with WIKI_DIR env-var override for non-standard layouts (e.g. CI checkout paths).
-WIKI = Path(os.environ.get("WIKI_DIR", Path(__file__).resolve().parent.parent / "wiki"))
+WIKI = Path(os.environ.get("WIKI_DIR", Path(__file__).resolve().parent.parent / "wiki")).resolve()
 
-# -- cross-wiki alias mapping ----------------------------------------
+# -- cross-wiki resolution -------------------------------------------
+# The resolver lives in wiki_resolver.py so the migration harness can call the same
+# logic. Two implementations could disagree about whether a link resolves, which is
+# exactly what a verification gate exists to prevent.
 
-def load_wiki_aliases():
-    """Parse CLAUDE.md 'Related Wikis' section for alias→path mapping."""
-    claude_md = WIKI.parent / "CLAUDE.md"
-    aliases = {}  # alias -> abs_path
-    if not claude_md.exists():
-        return aliases
-    text = claude_md.read_text(errors="replace")
-    # Match the Related Wikis table: | `alias` | /path/to/wiki/ | ... |
-    table_re = re.compile(
-        r"^\|\s*`([a-z0-9_-]+)`\s*\|\s*`?([^`\n\|]+)`?\s*\|",
-        re.MULTILINE
-    )
-    for m in table_re.finditer(text):
-        alias = m.group(1).strip()
-        path_str = m.group(2).strip().strip("`").rstrip("/")
-        # Paths in the Related Wikis table are relative to *this* CLAUDE.md's directory.
-        wiki_path = (claude_md.parent / path_str).resolve()
-        if wiki_path.is_dir():
-            aliases[alias] = wiki_path
-        elif (wiki_path / "wiki").is_dir():
-            aliases[alias] = wiki_path / "wiki"
-    return aliases
-
-
-WIKI_ALIASES = load_wiki_aliases()
+WIKI_ALIASES = load_federation_table(WIKI.parent / "CLAUDE.md")
+RESOLVER = WikiResolver(WIKI, WIKI_ALIASES)
 
 # -- frontmatter parsing (no PyYAML dep) ----------------------------------
 
@@ -106,37 +102,13 @@ def parse_frontmatter(text):
         else:
             out["related"] = []
     # scalars
-    for key in ("type", "maturity", "title", "created", "updated", "read_status", "hub",
-                "cross-wiki-source"):
+    for key in ("type", "maturity", "title", "created", "updated", "read_status", "hub"):
         m2 = SCALAR_RE(key).search(fm_text)
         if m2:
             out[key] = m2.group(1).strip()
     return out
 
-def normalize_path(p):
-    """Strip leading slash, drop wiki/ prefix if accidentally included."""
-    p = p.strip().lstrip("/")
-    if p.startswith("wiki/"):
-        p = p[len("wiki/"):]
-    return p
-
-
-def is_cross_wiki_path_exists(normalized_path):
-    """If *normalized_path* starts with @alias/, resolve against WIKI_ALIASES.
-    Returns True if the cross-wiki file exists, False if it doesn't.
-    Returns None if it's not a cross-wiki path (no alias prefix)."""
-    if not WIKI_ALIASES:
-        return None
-    for alias in WIKI_ALIASES:
-        prefix = f"@{alias}/"
-        if normalized_path.startswith(prefix):
-            rel = normalized_path[len(prefix):]
-            if rel.startswith("briefs/"):
-                target = WIKI_ALIASES[alias].parent / rel
-            else:
-                target = WIKI_ALIASES[alias] / rel
-            return target.exists()
-    return None
+# Resolution is delegated to wiki_resolver.py (see the import at the top).
 
 # -- walk ----------------------------------------------------------------
 
@@ -145,7 +117,10 @@ all_paths = set()
 
 for p in WIKI.rglob("*.md"):
     rel = str(p.relative_to(WIKI))
-    if rel in ("index.md", "log.md", "dashboard.md"):  # navigational, exempt
+    # Navigational files, matched by BASENAME. An exact-path test stops working the
+    # moment a page sits at wiki/osint/index.md, which would then be scanned as an
+    # ordinary page and reported as an orphan with no frontmatter.
+    if os.path.basename(rel) in ("index.md", "log.md", "dashboard.md"):
         continue
     text = p.read_text(errors="replace")
     fm = parse_frontmatter(text)
@@ -164,29 +139,44 @@ inbound = defaultdict(set)  # target -> {source, ...}
 outbound = defaultdict(set) # source -> {target, ...}
 dangling = []               # (source, raw_target) where target file doesn't exist
 
+ambiguous_refs = []   # (source, raw, [candidate keys]) — never silently resolved
+
 for src, fm in pages.items():
     for tgt_raw in fm.get("related", []):
-        tgt = normalize_path(tgt_raw)
-        if tgt in all_paths:
-            inbound[tgt].add(src)
-            outbound[src].add(tgt)
+        kind, value = RESOLVER.resolve(src, tgt_raw, all_paths)
+        if kind == "local":
+            inbound[value].add(src)
+            outbound[src].add(value)
+        elif kind == "out":
+            pass  # exists outside the wiki tree; not a graph edge
+        elif kind == "ambiguous":
+            ambiguous_refs.append((src, tgt_raw, value))
         else:
-            xw = is_cross_wiki_path_exists(tgt)
-            if xw:
-                # cross-wiki target exists — not dangling
-                pass
-            elif xw is False:
-                # cross-wiki target doesn't exist — dangling
-                dangling.append((src, tgt_raw))
-            else:
-                # local path, not found
-                dangling.append((src, tgt_raw))
+            dangling.append((src, tgt_raw))
 
-# orphans: pages with zero inbound edges (excluding index/log already excluded)
-# Generated sweeps are inputs to the ingest ritual, not wiki pages — nothing links to
-# a daily digest by design, so reporting all ~115 of them buries the real orphans.
-orphans = sorted(p for p in all_paths
-                 if p not in inbound and not p.startswith("sweeps/"))
+# orphans: pages with zero inbound edges (excluding index/log already excluded).
+# sweeps/ holds periodic Tier-2 sweep reports — append-only, like log.md; they
+# are legitimately orphan, so exempt them from the orphan check.
+# Matched by basename, not by full relative path: once a page sits at
+# wiki/osint/dashboard.md an exact-path match fails and it becomes an orphan with
+# no frontmatter.
+_NAV_EXEMPT = frozenset({
+    "index.md", "log.md", "dashboard.md", "_CLAUDE.md",
+    "log-archive.md", "_daily-template.md",
+})
+
+
+def _is_nav_exempt(rel_path):
+    return os.path.basename(rel_path) in _NAV_EXEMPT
+
+
+orphans = sorted(
+    p for p in all_paths
+    if p not in inbound
+    and not p.startswith("sweeps/")
+    and "/sweeps/" not in p
+    and not _is_nav_exempt(p)
+)
 
 # bidirectional gaps: src→tgt without tgt→src
 # Hub pages (frontmatter `hub: true`) are exempt: many spokes legitimately
@@ -235,23 +225,23 @@ for src, fm in pages.items():
     for m in AT_PATH_RE.finditer(body):
         if is_inside_backticks(body, m.start(), m.end()):
             continue
-        mentioned_raw = normalize_path(m.group(1))   # e.g. @seo-wiki/concepts/foo.md
-        mentioned = mentioned_raw.lstrip("@")        # e.g. seo-wiki/concepts/foo.md
-        # Strip a stray "wiki/" prefix that sometimes appears in body text
-        # (lint already normalizes leading "wiki/" via normalize_path on local paths,
-        # but the @-prefixed forms here bypass that — handle here).
-        if mentioned.startswith("wiki/"):
-            mentioned = mentioned[len("wiki/"):]
+        raw = m.group(1)
+        mentioned = normalize_path(raw).lstrip("@")
         if mentioned.startswith(BODY_MENTION_SKIP_PREFIXES):
             continue
-        if mentioned not in all_paths and mentioned not in ("index.md", "log.md", "dashboard.md"):
-            xw = is_cross_wiki_path_exists(mentioned_raw)
-            if not xw:
-                missing_mentions[mentioned].add(src)
+        if _is_nav_exempt(mentioned):
+            continue
+        kind, _value = RESOLVER.resolve(src, raw, all_paths)
+        if kind == "missing":
+            missing_mentions[mentioned].add(src)
 
 # -- 8: cross-wiki @wiki-alias/path links ---------------------------
 # Check @wiki-alias/path/to/page.md references to other wikis.
 
+# Exclude quote and bracket chars from the path: cross-wiki `related:` entries
+# are YAML-quoted (a plain scalar can't start with the reserved `@` indicator)
+# and inline refs often sit inside a `[Source: ...]` citation tag — a naive
+# class would swallow the closing quote / `]` / `)` into the path.
 CROSS_WIKI_RE = re.compile(r"""@([a-z0-9_-]+)/([^\s`)\]"']+)""")
 
 cross_wiki_dangling = []  # (src, alias, rel_path, target_path)
@@ -267,49 +257,50 @@ if WIKI_ALIASES:
             # Only treat as cross-wiki link if alias is in WIKI_ALIASES
             if alias not in WIKI_ALIASES:
                 continue  # skip local wiki links like @concepts/..., @entities/...
-            rel_path = m.group(2).lstrip("/").rstrip(".,;:)]\"'")
-            if rel_path.startswith("briefs/"):
-                target = WIKI_ALIASES[alias].parent / rel_path
-            else:
-                target = WIKI_ALIASES[alias] / rel_path
-            if not target.exists():
-                cross_wiki_dangling.append((src, alias, rel_path, target))
-            else:
+            # A directory named in backticks is documentation, not a link. AT_PATH_RE
+            # already skips these; this check did not, so `@game-dev-wiki/briefs/`
+            # was resolved against disk.
+            if is_inside_backticks(body, m.start(), m.end()):
+                continue
+            rel_path = m.group(2).lstrip("/")
+            kind, value = RESOLVER.resolve(src, "@" + alias + "/" + rel_path, all_paths)
+            if kind in ("local", "out"):
                 cross_wiki_ok += 1
+            else:
+                cross_wiki_dangling.append((src, alias, rel_path, value))
 
 # -- 5: cited unread stubs -----------------------------------------------
 
-# A stub that declares `cross-wiki-source` is a routing pointer: this wiki holds
-# provenance, and the canon (including the deep read) lives on the named sibling.
-# Flagging those conflates "routed" with "forgotten" -- 7 pages sat in this report
-# for months while being deliberate. A stub is only reported when this wiki owns
-# the reading obligation, i.e. no cross-wiki canon is declared.
 cited_unread = []
 for p, fm in pages.items():
     if not p.startswith("sources/"):
         continue
-    if str(fm.get("cross-wiki-source") or "").strip():
-        continue  # routed stub -- canon is on the named sibling wiki
     rs = (fm.get("read_status") or "").lower()
-    if rs in ("unread-stub", "unread", ""):
+    # Only an explicit unread status counts here. A *missing* read_status is a
+    # metadata gap, not evidence the source is unread — it is reported under
+    # check 6 instead, so a forgotten field can't masquerade as an unread source.
+    if rs in ("unread-stub", "unread"):
         if p in inbound and len(inbound[p]) >= 1:
             cited_unread.append((p, len(inbound[p])))
 cited_unread.sort(key=lambda x: -x[1])
 
 # -- 6: frontmatter quality ----------------------------------------------
 
-# Auto-generated pages. Their frontmatter, if wanted, belongs in the generator that
-# writes them — flagging each emitted file just reports the generator's output shape.
-GENERATED_SKIP_PREFIXES = ("sweeps/",)
-no_frontmatter = sorted(
-    p for p, fm in pages.items()
-    if fm.get("_no_frontmatter") and not p.startswith(GENERATED_SKIP_PREFIXES)
-)
+# sweeps/ files are append-only Tier-2 reports (log-like) — no frontmatter
+# expected, same rationale as the orphan exemption above.
+no_frontmatter = sorted(p for p, fm in pages.items()
+                        if fm.get("_no_frontmatter") and not p.startswith("sweeps/"))
 no_type = sorted(p for p, fm in pages.items()
                  if not fm.get("_no_frontmatter") and not fm.get("type"))
 no_maturity = sorted(p for p, fm in pages.items()
                      if not fm.get("_no_frontmatter") and not fm.get("maturity")
                      and fm.get("type") in ("source", "entity", "concept"))
+# Source pages should declare read_status in frontmatter (deep-read / read /
+# read-skim / skimmed / unread-stub / …). A missing field is a metadata gap.
+source_no_read_status = sorted(
+    p for p, fm in pages.items()
+    if not fm.get("_no_frontmatter") and fm.get("type") == "source"
+    and not fm.get("read_status"))
 
 # -- 7: stale [NEEDS VERIFICATION YYYY-MM-DD] tags -----------------------
 
@@ -351,7 +342,27 @@ print(f"Wiki lint scan — {len(all_paths)} pages indexed (excluding index.md / 
 print(f"Outbound edges: {sum(len(v) for v in outbound.values())}; "
       f"Inbound edge coverage: {len(inbound)} pages")
 
-header(f"1. Orphans — {len(orphans)} pages with zero inbound references")
+# -- optional domain filter -------------------------------------------------
+# A reporting scope, not a resolution scope: WIKI stays at the repo's wiki/ so alias
+# loading, cross-domain resolution and the pre-commit staged slice all keep working.
+if args.domain:
+    _dom = args.domain.strip("/")
+
+    def _src_in_dom(p):
+        return p == _dom or p.startswith(_dom + "/")
+
+    orphans = [p for p in orphans if _src_in_dom(p)]
+    dangling = [(a, b) for a, b in dangling if _src_in_dom(a)]
+    gaps = [(a, b) for a, b in gaps if _src_in_dom(a)]
+    missing_mentions = defaultdict(set, {
+        p: {s for s in srcs if _src_in_dom(s)}
+        for p, srcs in missing_mentions.items()
+    })
+    missing_mentions = defaultdict(set, {p: v for p, v in missing_mentions.items() if v})
+    cross_wiki_dangling = [t for t in cross_wiki_dangling if _src_in_dom(t[0])]
+    ambiguous_refs = [t for t in ambiguous_refs if _src_in_dom(t[0])]
+
+header(f"1. Orphans — {len(orphans)} pages with zero inbound references (informational — not gated)")
 for p in orphans:
     fm = pages[p]
     t = fm.get("type", "?")
@@ -374,6 +385,14 @@ for tgt in sorted(gaps_by_target.keys(), key=lambda x: -len(gaps_by_target[x])):
 header(f"3. Dangling related: links — {len(dangling)} edges to missing files")
 for src, tgt in dangling:
     print(f"  {src}  →  {tgt}  (file not found)")
+
+header(f"3b. Ambiguous @path references — {len(ambiguous_refs)} matched more than one domain")
+for src, raw, keys in ambiguous_refs[:30]:
+    print(f"  {src}  →  {raw}")
+    for k in keys[:4]:
+        print(f"      candidate: {k}")
+if len(ambiguous_refs) > 30:
+    print(f"  ... and {len(ambiguous_refs)-30} more")
 
 header(f"4. @path body mentions to missing files — {len(missing_mentions)} unique paths")
 for path in sorted(missing_mentions.keys()):
@@ -400,6 +419,11 @@ for p in no_type[:20]:
 print(f"  missing 'maturity' field (source/entity/concept only): {len(no_maturity)}")
 for p in no_maturity[:20]:
     print(f"    - {p}")
+print(f"  source pages missing 'read_status' field: {len(source_no_read_status)}")
+for p in source_no_read_status[:20]:
+    print(f"    - {p}")
+if len(source_no_read_status) > 20:
+    print(f"    ... and {len(source_no_read_status)-20} more")
 
 header(f"7. Stale [NEEDS VERIFICATION] tags — {len(stale_verifications)} dated tag(s) "
        f"≥{args.verify_age_days} days old (Exa-resolution candidates)")
@@ -538,3 +562,88 @@ if args.fix_bidirectional:
     else:
         print(f"  Dry-run complete. Re-run with --apply to write {sum(len(b) for _,b in proposed)} "
               f"backlinks. Adjust --hub-threshold to include/exclude hub targets.")
+
+# -- exit code summary ---------------------------------------------------
+# Hard errors fail the build; informational findings (orphans, stale tags,
+# cited-unread stubs, missing optional frontmatter) report but pass.
+# Folded in from the Image gen fork during the 2026-10-14 linter reconciliation —
+# it was the only one of the eight forks carrying a summary, and the other seven
+# had no equivalent.
+
+hard_errors = {
+    "bidirectional gaps":        len(gaps),
+    "dangling related: links":   len(dangling),
+    "ambiguous references":      len(ambiguous_refs),
+    "missing @path mentions":    len(missing_mentions),
+    "cross-wiki dangling":       len(cross_wiki_dangling),
+    "pages without frontmatter": len(no_frontmatter),
+}
+total_hard = sum(hard_errors.values())
+
+header(f"Summary — {total_hard} hard error(s)")
+for label, n in hard_errors.items():
+    marker = "FAIL" if n else "ok  "
+    print(f"  [{marker}] {label}: {n}")
+if total_hard:
+    print()
+    print("Hard errors found. Fix the issues above, or bypass locally with "
+          "`git commit --no-verify`.")
+
+# Every dangling class, as (source, target) pairs. Check 4 (body @path mentions)
+# and Check 8 (cross-wiki links) were reported but never gated: --fail-on-graph
+# looked only at related: bidirectionality and related: targets.
+mention_pairs = [(s, p) for p, srcs in missing_mentions.items() for s in srcs]
+xw_pairs = [(s, f"{a}/{r}") for s, a, r, _t in cross_wiki_dangling]
+
+if args.fail_on_graph and (gaps or dangling or mention_pairs or xw_pairs):
+    staged = None
+    try:
+        import subprocess
+        out = subprocess.check_output(
+            ["git", "diff", "--cached", "--name-only", "--diff-filter=ACMR", "--", "wiki/"],
+            cwd=str(WIKI.parent),
+            text=True,
+            stderr=subprocess.DEVNULL,
+        )
+        staged = {
+            line.strip()[len("wiki/"):]
+            for line in out.splitlines()
+            if line.strip().startswith("wiki/") and line.strip().endswith(".md")
+        }
+    except Exception:
+        staged = None
+
+    if staged:
+        gaps_f = [(a, b) for a, b in gaps if a in staged and b in staged]
+        dangling_f = [(a, b) for a, b in dangling if a in staged]
+        mention_f = [(s, p) for s, p in mention_pairs if s in staged]
+        xw_f = [(s, t) for s, t in xw_pairs if s in staged]
+        if gaps_f or dangling_f or mention_f or xw_f:
+            print(
+                "\nFAIL: staged wiki graph errors "
+                f"(gaps={len(gaps_f)}, dangling={len(dangling_f)}, "
+                f"missing mentions={len(mention_f)}, cross-wiki={len(xw_f)}).",
+                file=sys.stderr,
+            )
+            for a, b in gaps_f[:20]:
+                print(f"  gap: {a} → {b}", file=sys.stderr)
+            for a, b in dangling_f[:20]:
+                print(f"  dangling: {a} → {b}", file=sys.stderr)
+            for a, b in mention_f[:20]:
+                print(f"  missing mention: {a} → {b}", file=sys.stderr)
+            for a, b in xw_f[:20]:
+                print(f"  cross-wiki: {a} → {b}", file=sys.stderr)
+            sys.exit(1)
+        print(
+            f"\nOK: staged wiki graph clean "
+            f"({len(staged)} staged page(s); full-wiki debt not gated).",
+            file=sys.stderr,
+        )
+    else:
+        print(
+            "\nFAIL: graph integrity errors "
+            f"(gaps={len(gaps)}, dangling={len(dangling)}, "
+            f"missing mentions={len(mention_pairs)}, cross-wiki={len(xw_pairs)}).",
+            file=sys.stderr,
+        )
+        sys.exit(1)
