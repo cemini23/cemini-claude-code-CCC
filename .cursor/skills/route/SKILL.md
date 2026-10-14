@@ -10,7 +10,7 @@ description: >-
   not TipDrop-specific.
 license: MIT
 metadata.author: cemini23
-metadata.version: "2.4.4"
+metadata.version: "2.5.0"
 federation: true
 ---
 
