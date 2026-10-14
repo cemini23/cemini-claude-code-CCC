@@ -213,7 +213,8 @@ WORKSPACES=(
   "/Users/claudiobarone/Projects/QuantOS_Private"
   "/Users/claudiobarone/Projects/ara-schema"
   "/Users/claudiobarone/Projects/wikilint"
-  "/Users/claudiobarone/Projects/vet"
+  # `vet` is a PUBLISHED package (PyPI) and is deliberately excluded: whatever it
+  # tracks under .cursor/ ships in the sdist. See its F-14 fix, 2026-10-13.
 )
 
 copy_file() {
